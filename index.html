@@ -2375,11 +2375,92 @@
       return content;
     }
 
-    function formatInsight(item) {
+    // 把 insight 改写得更像人在说话
+    function formatInsightNatural(item) {
       const insight = item.insight || item.summary || '';
-      // Break into readable chunks
-      const sentences = insight.replace(/。/g, '。\n').replace(/；/g, '；\n');
-      return sentences.substring(0, 300);
+      if (!insight) return '';
+      // 取前2-3个有意义的句子，自然连接
+      const sentences = insight.split(/[。；]/).filter(s => s.trim().length > 8);
+      if (sentences.length === 0) return insight.substring(0, 200);
+      const pick = sentences.slice(0, 3).map(s => s.trim().replace(/^[，、\s]+/, '')).join('。');
+      return pick + '。';
+    }
+
+    // 生成像人说出来的建议，不要"给OD从业者的建议"这种标题
+    function generateNaturalAdvice(items) {
+      const advices = [];
+      items.forEach(item => {
+        if (item.insight) {
+          const sentences = item.insight.split(/[。；]/).filter(s => s.trim().length > 10);
+          if (sentences.length > 0) {
+            // 取最后一句，通常是最有行动指导意义的
+            advices.push(sentences[sentences.length - 1].trim().replace(/^[，、\s]+/, ''));
+          }
+        }
+      });
+      if (advices.length === 0) {
+        // 没有提取到的话，用兜底的真人语气
+        const fallbacks = [
+          '与其焦虑AI要怎么用，不如先想清楚团队现在最缺什么能力。',
+          '技术上能做的和业务上该做的，中间差着一个组织问题。',
+          '转型不是一步到位的事，先找到一个小切口比什么都重要。'
+        ];
+        return fallbacks[Math.floor(Math.random() * fallbacks.length)];
+      }
+      const advice = advices.slice(0, 2).join('。') + '。';
+      const prefixes = [
+          '说到底，',
+          '落到具体动作上，',
+          '我觉得值得想的是，',
+          '换个说法，'
+        ];
+      return prefixes[Math.floor(Math.random() * prefixes.length)] + advice;
+    }
+
+    function generateNaturalImplication(items) {
+      const tags = [...new Set(items.flatMap(i => i.tags || []))];
+      const topic = tags[0] || '组织变革';
+      const implications = [
+          `这几个信号连起来看，${topic}这块接下来大概率会有动作。建议关注，别等落地了才反应过来。`,
+          `${topic}其实一直是"说了很久但没怎么动"的领域。但最近这波数据有点不一样，感觉真的在加速了。`,
+          `说实话，之前对${topic}一直持观望态度。但这几份数据让我开始重新想了。`,
+          `对做组织的人来说，${topic}可能是接下来一年最值得投入精力跟踪的方向。`
+        ];
+      return implications[Math.floor(Math.random() * implications.length)];
+    }
+
+    function generateNaturalSteps(items) {
+      const steps = [];
+      items.forEach(item => {
+        if (item.insight) {
+          const sentences = item.insight.split(/[。；]/)
+            .filter(s => s.trim().length > 10 && (s.includes('建议') || s.includes('需要') || s.includes('应该') || s.includes('可以') || s.includes('能')))
+            .map(s => s.trim().replace(/^[，、\s]+/, ''));
+          steps.push(...sentences);
+        }
+      });
+      if (steps.length === 0) {
+        const fallbacks = [
+          '先评估一下团队现在对AI的真实使用程度，别凭感觉。',
+          '找一两个可以快速试点的场景，跑个MVP比写PPT有用。',
+          '跟业务那边对齐一下期望值，AI不是万能药，得说清楚能做什么不能做什么。'
+        ];
+        return fallbacks[Math.floor(Math.random() * fallbacks.length)];
+      }
+      const pick = steps.slice(0, 3);
+      return pick.map((s, i) => {
+        const nums = ['第一，', '其次，', '最后，'];
+        return (nums[i] || '') + s;
+      }).join('\n');
+    }
+
+    function generateNaturalDebateOpinion(items) {
+      const opinions = [
+          '我觉得这事儿的关键不是AI行不行，而是你的组织有没有准备好接住它。技术问题好解决，人的问题难。与其争论AI能不能替代人，不如先看看自己的团队结构和工作方式有没有优化的空间。',
+          '有个很反直觉的现象：越是喊着全面AI化的公司，越可能在基本面（流程、协作、技能）上没想清楚。AI是个放大器，好的组织设计会让它事半功倍，差的组织设计只会放大问题。',
+          '说实话，我现在的判断是：短期看替代是夸大了，但长期看变革是被低估了。真正该担心的是中间这段时间——技能转型跟不上、组织架构还没调好、新的协作方式还没跑通。'
+        ];
+      return opinions[Math.floor(Math.random() * opinions.length)];
     }
 
     function extractKeywords(text) {
@@ -2416,71 +2497,23 @@
       return summary.substring(0, 100);
     }
 
-    function generateODAdvice(items) {
-      const advices = [];
-      items.forEach(item => {
-        if (item.insight) {
-          const sentences = item.insight.split(/[。；]/).filter(s => s.trim().length > 5);
-          if (sentences.length > 0) {
-            advices.push(sentences[sentences.length - 1].trim().replace(/^[，、\s]+/, '') + '。');
-          }
-        }
-      });
-      return advices.slice(0, 3).join('\n');
-    }
-
-    function generateTrendImplication(items) {
-      const tags = [...new Set(items.flatMap(i => i.tags || []))];
-      const implications = [
-        `这些变化意味着，${tags.slice(0, 2).join('和')}将成为OD工作者必须掌握的核心能力。`,
-        `对于组织设计而言，这预示着${tags[0] || '组织变革'}即将进入新阶段。`,
-        `建议关注这些趋势信号，提前布局，不要等到变化发生才被动应对。`
-      ];
-      return implications[Math.floor(Math.random() * implications.length)];
-    }
-
-    function generatePracticeSteps(items) {
-      const steps = [];
-      items.forEach(item => {
-        if (item.insight) {
-          const sentences = item.insight.split(/[。；]/).filter(s => s.includes('建议') || s.includes('需') || s.includes('应') || s.includes('可以'));
-          steps.push(...sentences.map(s => '• ' + s.trim().replace(/^[，、\s]+/, '') + '。'));
-        }
-      });
-      if (steps.length === 0) {
-        steps.push('• 从评估当前组织AI成熟度开始');
-        steps.push('• 制定分阶段的AI组织转型路线图');
-        steps.push('• 建立"人机协作"的治理框架');
-      }
-      return steps.slice(0, 4).join('\n');
-    }
-
-    function generateDebateOpinion(items) {
-      const opinions = [
-        '数据告诉我们，AI转型不是简单的"技术替代人"，而是一场深度的组织重构。盲目跟风裁员的企业，大概率会后悔。\n\n真正聪明的做法是：理解AI的能力边界，找到人机协作的最优解，而不是走极端。',
-        '在我看来，AI效率被高估才是当前最大的陷阱。当所有人都在追逐"AI替代人"的故事时，反而是那些冷静思考"AI如何赋能人"的企业，会在长跑中胜出。',
-        '核心问题不是"AI能不能替代人"，而是"你的组织准备好了吗？"。技术永远只是工具，真正决定成败的是组织设计、人才发展和变革管理。'
-      ];
-      return opinions[Math.floor(Math.random() * opinions.length)];
-    }
-
     function generateXHSTags(allTags, type) {
-      // Base tags
-      const baseTags = ['#AI组织设计', '#OD', '#组织发展'];
+      // 基础标签——简洁、有人关注度的
+      const baseTags = ['#AI', '#组织设计', '#职场'];
 
-      // Source tags (pick top ones)
-      const sourceTags = allTags.slice(0, 5).map(t => '#' + t);
+      // 来源中的标签，取前几个
+      const sourceTags = allTags.slice(0, 3).map(t => '#' + t);
 
-      // Type-specific tags
+      // 根据类型加标签，但不说教
       const typeTags = {
-        insight: ['#深度洞察', '#职场干货', '#管理必读'],
-        trend: ['#行业趋势', '#前沿观察', '#趋势解读'],
-        practice: ['#实践指南', '#方法论', '#落地经验'],
-        debate: ['#观点碰撞', '#深度思考', '#AI讨论']
+        insight: ['#OD', '#组织发展'],
+        trend: ['#行业观察', '#趋势'],
+        practice: ['#工作方法', '#经验'],
+        debate: ['#讨论', '#不同观点']
       };
 
       const tags = [...baseTags, ...sourceTags, ...(typeTags[type] || [])];
-      return [...new Set(tags)].slice(0, 10).join(' ');
+      return [...new Set(tags)].slice(0, 8).join(' ');
     }
 
     function generateImageSuggestion(sourceItems, type) {
