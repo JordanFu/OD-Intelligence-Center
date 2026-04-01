@@ -862,6 +862,22 @@
       background: rgba(248, 113, 113, 0.12);
       color: var(--red);
     }
+    .xhs-note-type.type-rant {
+      background: rgba(251, 146, 60, 0.15);
+      color: #fb923c;
+    }
+    .xhs-note-type.type-truth {
+      background: rgba(96, 165, 250, 0.12);
+      color: #60a5fa;
+    }
+    .xhs-note-type.type-survive {
+      background: rgba(52, 211, 153, 0.12);
+      color: var(--green);
+    }
+    .xhs-note-type.type-opinion {
+      background: rgba(167, 139, 250, 0.12);
+      color: var(--accent2);
+    }
     .xhs-note-meta {
       font-size: 12px;
       color: var(--text2);
@@ -1811,53 +1827,55 @@
     // XHS Content Workshop
     // ============================================================
 
-    // Note type templates — 生成有活人感的内容，拒绝震惊体和模板味
+    // XHS 内容类型模板 — 面向所有打工人，用情绪共鸣+专业视角做内容
+    // 核心原则：入口是人人能共鸣的情绪，内核是别人给不了的专业深度
     const XHS_TEMPLATES = {
-      insight: {
-        label: '深度洞察',
-        class: 'type-insight',
+      rant: {
+        label: '职场吐槽',
+        class: 'type-rant',
         hooks: [
-          '今天翻了几份最新报告，有个数据一直在我脑子里转',
-          '做了三年OD，这是第一次觉得"AI"和"组织"这两个词被说清楚了',
-          '跟几个同行聊完，发现大家都在焦虑同一件事',
-          '这份报告看完，我把里面最有价值的东西拎出来了',
-          '如果你只有5分钟看一份报告，就看这篇'
+          '今天又被亲戚问"你到底是干啥的"，我说了半天人家还是觉得我就是管考勤的',
+          '过年回家，我爸说我这工作"就是帮老板管人的"，我没反驳，但心里挺不是滋味',
+          '开完会出来，同事跟我说"你们做HR的真幸福，每天就看看简历聊聊天"，我笑了笑没说话',
+          '又听到有人吐槽HR"只会走流程"，说实话，这种误解我听了太多次了',
+          '朋友圈看到前同事转行做运营了，配文说"终于不用干HR了"，评论区一片叫好',
+          '上次跟业务吵了一架，他们觉得我卡流程，我觉得他们不懂合规，后来我们坐下来聊了一次'
         ],
         emojis: []
       },
-      trend: {
-        label: '趋势解读',
-        class: 'type-trend',
+      truth: {
+        label: '行业真相',
+        class: 'type-truth',
         hooks: [
-          '最近行业里有几个信号，不知道你们注意到了没',
-          '这周密集看了好多资料，慢慢拼出了一个大图景',
-          '感觉接下来的12个月，组织设计这个领域会变',
-          '我一直在跟踪这个方向，最近的数据验证了一个判断',
-          '不是什么预测，就是几个我觉得值得留意的信号'
+          '今天看到一份报告里的数据，跟大多数人想的不太一样',
+          '在网上刷到一个帖子里说"HR马上要被AI淘汰了"，我从业8年，说说我看到的事实',
+          '很多人觉得做组织工作的人"最容易被裁"，但最新数据告诉你一个反直觉的结论',
+          '做了这么久，我发现行业内有一个大家都不愿意说的事实',
+          '今天看到一个统计，把几个数字放在一起看的时候，我愣了一下'
         ],
         emojis: []
       },
-      practice: {
-        label: '实践指南',
-        class: 'type-practice',
+      survive: {
+        label: '打工人生存',
+        class: 'type-survive',
         hooks: [
-          '之前在项目里踩过不少坑，总结了一些还算管用的经验',
-          '很多人问AI组织设计到底怎么落地，说说我的看法',
-          '不是什么高深方法论，就是一些实际操作中的体会',
-          '分享一个我们试过的思路，不一定对但可以参考',
-          '与其焦虑AI要怎么搞，不如先从这几个小切口开始'
+          '最近好多人问我"AI来了我该怎么办"，作为一个每天都在研究这个话题的人，说点实在的',
+          '上周帮一个朋友看了她的简历，发现了一个很多人都会犯的错误',
+          '公司说要搞AI转型，身边的同事开始焦虑了，我仔细研究了下到底该怎么应对',
+          '看到一个同事被裁之后的状态，想给还在职场的人提几个醒',
+          '今天看到一个数据，关于"哪些能力在未来3年最值钱"，跟你想的可能不一样'
         ],
         emojis: []
       },
-      debate: {
-        label: '观点碰撞',
-        class: 'type-debate',
+      opinion: {
+        label: '职场观点',
+        class: 'type-opinion',
         hooks: [
-          '看到一个数据，跟主流叙事不太一样，记录一下',
-          'AI替代人这个话题，吵了好一阵了，我想换个角度说',
-          '说说一个可能不太受欢迎的观点',
-          '最近几组数据放在一起看，有点意思',
-          '这事儿两边都有道理，但我觉得关键点被忽略了'
+          '看到一个很火的职场观点，说"35岁以后就得认命"，我不太同意',
+          '网上都在说"现在的年轻人整顿职场"，但我看到的现实是另一回事',
+          '最近跟几个不同行业的HR聊天，发现大家对同一个问题的看法完全不同',
+          '看到一条热搜说"公司不需要HR了"，底下评论区吵翻了，说说我的看法',
+          '一个做OD的同行说"组织变革最难的不是技术，是人心"，我深有同感'
         ],
         emojis: []
       }
@@ -1919,7 +1937,7 @@
     }
 
     function renderXHSCard(note, idx, isExpanded) {
-      const template = XHS_TEMPLATES[note.type] || XHS_TEMPLATES.insight;
+      const template = XHS_TEMPLATES[note.type] || XHS_TEMPLATES.truth;
       let html = `<div class="xhs-note-card ${isExpanded ? '' : 'compact'}" ${!isExpanded ? `onclick="toggleXHSCard(${idx})"` : ''}>`;
 
       // Header
@@ -2079,13 +2097,15 @@
 
       // Determine best type based on item content
       const types = Object.keys(XHS_TEMPLATES);
-      let bestType = 'insight'; // default
-      if (item.tags && (item.tags.some(t => t.includes('趋势') || t.includes('预测') || t.includes('未来')))) {
-        bestType = 'trend';
-      } else if (item.tags && (item.tags.some(t => t.includes('方法') || t.includes('实践') || t.includes('落地') || t.includes('策略')))) {
-        bestType = 'practice';
-      } else if (item.tags && (item.tags.some(t => t.includes('争议') || t.includes('挑战') || t.includes('风险') || t.includes('裁员')))) {
-        bestType = 'debate';
+      let bestType = 'truth'; // default
+      if (item.tags && (item.tags.some(t => t.includes('争议') || t.includes('挑战') || t.includes('风险') || t.includes('裁员') || t.includes('文化')))) {
+        bestType = 'opinion';
+      } else if (item.tags && (item.tags.some(t => t.includes('趋势') || t.includes('预测') || t.includes('未来') || t.includes('转型') || t.includes('数据')))) {
+        bestType = 'truth';
+      } else if (item.tags && (item.tags.some(t => t.includes('方法') || t.includes('实践') || t.includes('落地') || t.includes('策略') || t.includes('能力') || t.includes('技能')))) {
+        bestType = 'survive';
+      } else if (item.tags && (item.tags.some(t => t.includes('人才') || t.includes('领导力') || t.includes('组织') || t.includes('绩效')))) {
+        bestType = 'rant';
       }
 
       // Generate the note
@@ -2155,7 +2175,7 @@
         const newNotes = [];
 
         // Strategy: pick different types
-        const typePool = ['insight', 'trend', 'practice', 'debate'];
+        const typePool = ['rant', 'truth', 'survive', 'opinion'];
         const usedIndices = new Set();
 
         for (let i = 0; i < count && i < qualityItems.length; i++) {
@@ -2163,11 +2183,11 @@
 
           // Pick 1-3 source items for this note
           let noteItems;
-          if (type === 'trend' || type === 'debate') {
-            // For trends/debates, pick 2-3 related items
+          if (type === 'truth' || type === 'opinion') {
+            // For truth/opinion, pick 2-3 related items for richer content
             noteItems = pickRelatedItems(qualityItems, usedIndices, 2 + Math.floor(Math.random() * 2));
           } else {
-            // For insights/practices, pick 1-2 focused items
+            // For rant/survive, pick 1-2 focused items
             noteItems = pickRelatedItems(qualityItems, usedIndices, 1 + Math.floor(Math.random() * 2));
           }
 
@@ -2231,7 +2251,7 @@
     function generateSingleNote(sourceItems, type) {
       if (!sourceItems || sourceItems.length === 0) return null;
 
-      const template = XHS_TEMPLATES[type] || XHS_TEMPLATES.insight;
+      const template = XHS_TEMPLATES[type] || XHS_TEMPLATES.truth;
       const primaryItem = sourceItems[0];
       const secondaryItem = sourceItems[1];
 
@@ -2287,180 +2307,283 @@
     }
 
     function generateTitle(item, type, hook) {
-      let title = '';
       const insight = item.insight || item.summary || '';
+      const nums = insight.match(/\d+[%％\d,万]+/g) || [];
 
-      if (type === 'insight') {
-        // 优先用具体数字或事实作为标题
-        const num = insight.match(/\d+[%％\d,万]+/g);
-        if (num && num.length > 0) {
-          const numStr = num.slice(0, 2).join('、');
-          title = numStr + '背后的组织逻辑';
-        } else {
-          // 用报告中一个具体名词
-          const concrete = insight.match(/[\u4e00-\u9fff]{2,8}(?:模型|框架|报告|调研|数据|实验|项目)/g);
-          if (concrete && concrete.length > 0) {
-            title = '拆解' + concrete[0] + '：看完有点想法';
-          } else {
-            title = item.title.replace(/[《》「」]/g, '').substring(0, 25);
-          }
-        }
-      } else if (type === 'trend') {
-        title = item.tags ? item.tags.slice(0, 2).join('、') + '：最近在发生什么' : '组织设计最近在发生什么';
-      } else if (type === 'practice') {
-        const practice = insight.match(/(?:建议|可以|需要|应该)[^\n。]{4,20}/g);
-        if (practice && practice.length > 0) {
-          title = practice[0].replace(/^[，、]/, '').substring(0, 22);
-        } else {
-          title = '说点实际的：' + item.title.replace(/[《》]/g, '').substring(0, 15);
-        }
-      } else if (type === 'debate') {
-        const debates = [
-          '说个可能跟主流不太一样的看法',
-          'AI替代人？换个角度想想',
-          '效率神话背后有个被忽略的问题',
-          '为什么我觉得"全面AI化"值得再想想',
-          '裁员数据看多了，想说几句实话'
+      if (type === 'rant') {
+        // 职场吐槽——标题要有代入感和冲突
+        const titles = [
+          '被问"你到底干啥的"，我沉默了',
+          'HR不是只会走流程，但没人信',
+          '说句得罪人的话',
+          '做组织工作的人，最大的委屈不是累',
+          '我们这个岗位，被误解太久了',
+          '为什么没人觉得我们干的是正经事',
+          '今天又被吐槽了，但我这次没忍住'
         ];
-        title = debates[Math.floor(Math.random() * debates.length)];
+        return titles[Math.floor(Math.random() * titles.length)];
+      } else if (type === 'truth') {
+        // 行业真相——用数据制造悬念
+        if (nums.length > 0) {
+          const numStr = nums.slice(0, 2).join('和');
+          const dataTitles = [
+            `${numStr}，但大部分人不知道`,
+            `一个数据，可能改变你对职场的看法`,
+            `${numStr}，这跟你想的不一样`,
+            `看到这组数据的时候我愣了一下`
+          ];
+          return dataTitles[Math.floor(Math.random() * dataTitles.length)];
+        }
+        const noDataTitles = [
+          '一个你不知道的职场真相',
+          '说个行业内不太想说的事实',
+          '这事儿跟大多数人想的不一样'
+        ];
+        return noDataTitles[Math.floor(Math.random() * noDataTitles.length)];
+      } else if (type === 'survive') {
+        // 打工人生存——直击焦虑，给出希望
+        const surviveTitles = [
+          'AI来了，说点实在的',
+          '不想被淘汰，先搞清楚这件事',
+          '给你3个建议，关于未来3年',
+          '很多人都在焦虑同一件事',
+          '与其焦虑，不如先看看这个',
+          '说几个我觉得比较重要的判断',
+          '真正的铁饭碗，不是你以为的那样'
+        ];
+        return surviveTitles[Math.floor(Math.random() * surviveTitles.length)];
+      } else if (type === 'opinion') {
+        // 职场观点——有态度，引人讨论
+        const opinionTitles = [
+          '说个可能不太受欢迎的观点',
+          '这个看法可能跟你想的不一样',
+          '聊聊一个没人聊的角度',
+          '这事儿其实没有标准答案',
+          '我觉得关键问题不在这里',
+          '换个角度想这件事',
+          '说句大实话'
+        ];
+        return opinionTitles[Math.floor(Math.random() * opinionTitles.length)];
       }
 
-      return title.substring(0, 28);
+      return item.title.replace(/[《》「」]/g, '').substring(0, 25);
     }
 
     function generateContent(sourceItems, type, hook) {
       const primary = sourceItems[0];
       const secondary = sourceItems[1];
-
       let content = '';
 
-      // 开头就是人话
+      // 开头直接用 hook，已经是场景化的了
       content += hook + '\n\n';
 
-      if (type === 'insight') {
-        // 把核心发现自然地展开，不用小标题
-        content += formatInsightNatural(primary);
-        if (secondary) {
-          content += '\n\n另外还有个佐证：' + extractTrendPoint(secondary) + '。';
-        }
-        content += '\n\n' + generateNaturalAdvice(sourceItems);
-      } else if (type === 'trend') {
-        content += extractTrendPoint(primary) + '。\n\n';
-        if (secondary) {
-          content += '同时，' + extractTrendPoint(secondary) + '。\n\n';
-        }
-        content += generateNaturalImplication(sourceItems);
-      } else if (type === 'practice') {
-        const source = primary.source || '最新报告';
-        content += `${source}刚出了新内容，我把跟OD实操相关的部分筛了出来：\n\n`;
-        content += generateNaturalSteps(sourceItems);
-      } else if (type === 'debate') {
-        content += extractDebatePoint(primary) + '\n\n';
-        if (secondary) {
-          content += '不过换个角度看：' + extractDebatePoint(secondary) + '\n\n';
-        }
-        content += generateNaturalDebateOpinion(sourceItems);
+      if (type === 'rant') {
+        // 职场吐槽：场景 → 误解 → 反转（用数据/洞察打脸）
+        content += generateRantBody(sourceItems);
+      } else if (type === 'truth') {
+        // 行业真相：悬念 → 数据 → 反直觉结论
+        content += generateTruthBody(sourceItems);
+      } else if (type === 'survive') {
+        // 打工人生存：焦虑场景 → 具体建议 → 行动项
+        content += generateSurviveBody(sourceItems);
+      } else if (type === 'opinion') {
+        // 职场观点：争议话题 → 独特角度 → 留白引发讨论
+        content += generateOpinionBody(sourceItems);
       }
 
-      // 结尾也要像人说的话，不要万能句式
+      // 自然结尾，像在跟朋友聊天
       const closings = [
-        '有不同看法可以在评论区聊，不一定对，但值得想想。',
-        '就聊这些，有兴趣的可以去翻原文，链接在最后。',
-        '也不知道想得对不对，记录一下，过段时间回头看。',
-        '这个话题挺值得展开聊的，下次专门写一篇。',
-        '先记到这里，后面有新数据再补充。'
+        '说多了，有人想聊可以在评论区说。',
+        '也不一定对，就是把自己看到的写下来。',
+        '下次再展开聊，这个话题能说很多。'
       ];
       content += '\n\n---\n' + closings[Math.floor(Math.random() * closings.length)];
 
       return content;
     }
 
-    // 把 insight 改写得更像人在说话
-    function formatInsightNatural(item) {
-      const insight = item.insight || item.summary || '';
-      if (!insight) return '';
-      // 取前2-3个有意义的句子，自然连接
-      const sentences = insight.split(/[。；]/).filter(s => s.trim().length > 8);
-      if (sentences.length === 0) return insight.substring(0, 200);
-      const pick = sentences.slice(0, 3).map(s => s.trim().replace(/^[，、\s]+/, '')).join('。');
-      return pick + '。';
+    // ========== 职场吐槽型内容 ==========
+    // 结构：共鸣场景 → 具体误解 → 用数据/洞察反转
+    function generateRantBody(items) {
+      const primary = items[0];
+      const insight = primary.insight || primary.summary || '';
+      const nums = insight.match(/\d+[%％\d,万]+/g) || [];
+
+      // 中间展开——把误解说得具体
+      const misunderstandings = [
+        '其实每次听到这些话，我都想说但又不知道从哪说起。大家觉得这个岗位就是走流程、办手续，但真正做过的人知道，事情远不是这样。',
+        '不是要解释什么，就是觉得挺无奈的。外界看到的是结果，看不到中间那些沟通、协调、反复打磨的部分。有些事情做成了，没人在意；做砸了，锅一定先甩过来。',
+        '说实话，有时候连自己人都觉得这个工作没啥存在感。但每次看到数据的时候，又会觉得——算了，懂的人自然懂。'
+      ];
+      let body = misunderstandings[Math.floor(Math.random() * misunderstandings.length)];
+
+      // 反转——用情报数据给出不一样的视角
+      body += '\n\n';
+      if (nums.length > 0) {
+        const sentences = insight.split(/[。；]/).filter(s => s.trim().length > 15);
+        if (sentences.length > 0) {
+          const pick = sentences.slice(0, 2).map(s => s.trim().replace(/^[，、\s]+/, '')).join('。');
+          body += '刚好最近看到一组数据：' + pick + '。\n\n';
+        }
+      } else {
+        body += extractMainPoint(insight) + '\n\n';
+      }
+
+      const reversals = [
+        '所以啊，事情从来不是表面看起来那么简单。',
+        '下次再有人说"这工作谁都能干"，至少能拿出点东西说说。',
+        '有些价值不在明面上，但你认真去做的时候，自己心里是有数的。'
+      ];
+      body += reversals[Math.floor(Math.random() * reversals.length)];
+
+      return body;
     }
 
-    // 生成像人说出来的建议，不要"给OD从业者的建议"这种标题
-    function generateNaturalAdvice(items) {
-      const advices = [];
-      items.forEach(item => {
-        if (item.insight) {
-          const sentences = item.insight.split(/[。；]/).filter(s => s.trim().length > 10);
-          if (sentences.length > 0) {
-            // 取最后一句，通常是最有行动指导意义的
-            advices.push(sentences[sentences.length - 1].trim().replace(/^[，、\s]+/, ''));
+    // ========== 行业真相型内容 ==========
+    // 结构：悬念 → 数据 → 反直觉结论
+    function generateTruthBody(items) {
+      const primary = items[0];
+      const insight = primary.insight || primary.summary || '';
+      const sentences = insight.split(/[。；]/).filter(s => s.trim().length > 12);
+
+      let body = '';
+      // 展开核心事实
+      if (sentences.length > 0) {
+        // 取2-3个有内容的句子，自然展开
+        const pick = sentences.slice(0, 3).map(s => s.trim().replace(/^[，、\s]+/, ''));
+        body = pick.join('。') + '。';
+      } else {
+        body = extractMainPoint(insight);
+      }
+
+      body += '\n\n';
+
+      // 加入第二个来源（如果有）
+      if (items[1]) {
+        const sec = items[1].insight || items[1].summary || '';
+        if (sec.length > 20) {
+          const secSentences = sec.split(/[。；]/).filter(s => s.trim().length > 15);
+          if (secSentences.length > 0) {
+            body += '另一个数据也印证了这点：' + secSentences[0].trim().replace(/^[，、\s]+/, '') + '。\n\n';
           }
         }
-      });
-      if (advices.length === 0) {
-        // 没有提取到的话，用兜底的真人语气
-        const fallbacks = [
-          '与其焦虑AI要怎么用，不如先想清楚团队现在最缺什么能力。',
-          '技术上能做的和业务上该做的，中间差着一个组织问题。',
-          '转型不是一步到位的事，先找到一个小切口比什么都重要。'
-        ];
-        return fallbacks[Math.floor(Math.random() * fallbacks.length)];
       }
-      const advice = advices.slice(0, 2).join('。') + '。';
-      const prefixes = [
-          '说到底，',
-          '落到具体动作上，',
-          '我觉得值得想的是，',
-          '换个说法，'
-        ];
-      return prefixes[Math.floor(Math.random() * prefixes.length)] + advice;
+
+      // 反直觉的结论
+      const conclusions = [
+        '这跟网上大部分人说的不太一样。但数据不会骗人。',
+        '说实话，看到这些数据之前，我自己也是那个"大部分人"。',
+        '所以与其听别人怎么说，不如自己看看数据再判断。尤其是这种跟你饭碗直接相关的事。'
+      ];
+      body += conclusions[Math.floor(Math.random() * conclusions.length)];
+
+      return body;
     }
 
-    function generateNaturalImplication(items) {
-      const tags = [...new Set(items.flatMap(i => i.tags || []))];
-      const topic = tags[0] || '组织变革';
-      const implications = [
-          `这几个信号连起来看，${topic}这块接下来大概率会有动作。建议关注，别等落地了才反应过来。`,
-          `${topic}其实一直是"说了很久但没怎么动"的领域。但最近这波数据有点不一样，感觉真的在加速了。`,
-          `说实话，之前对${topic}一直持观望态度。但这几份数据让我开始重新想了。`,
-          `对做组织的人来说，${topic}可能是接下来一年最值得投入精力跟踪的方向。`
-        ];
-      return implications[Math.floor(Math.random() * implications.length)];
-    }
+    // ========== 打工人生存型内容 ==========
+    // 结构：焦虑共鸣 → 具体洞察 → 可行动的建议
+    function generateSurviveBody(items) {
+      const primary = items[0];
+      const insight = primary.insight || primary.summary || '';
 
-    function generateNaturalSteps(items) {
-      const steps = [];
-      items.forEach(item => {
-        if (item.insight) {
-          const sentences = item.insight.split(/[。；]/)
-            .filter(s => s.trim().length > 10 && (s.includes('建议') || s.includes('需要') || s.includes('应该') || s.includes('可以') || s.includes('能')))
-            .map(s => s.trim().replace(/^[，、\s]+/, ''));
-          steps.push(...sentences);
+      let body = '';
+
+      // 先共情——把焦虑说具体
+      const anxieties = [
+        '焦虑归焦虑，但光焦虑没用。不如看看那些真正跑在前面的人都在做什么。',
+        '我理解这种焦虑，因为我自己也时不时会有。但焦虑和行动之间，差的就是那么一点信息差。',
+        '说句可能不太中听的话：大部分人的焦虑，来源于信息不足。你不知道该怕什么，也不知道该准备什么。'
+      ];
+      body += anxieties[Math.floor(Math.random() * anxieties.length)];
+
+      body += '\n\n';
+
+      // 从情报中提取有行动指导意义的内容
+      const actionable = insight.split(/[。；]/)
+        .filter(s => s.trim().length > 15 && (s.includes('建议') || s.includes('需要') || s.includes('应该') || s.includes('可以') || s.includes('能力') || s.includes('技能') || s.includes('关键') || s.includes('核心')))
+        .map(s => s.trim().replace(/^[，、\s]+/, ''));
+
+      if (actionable.length > 0) {
+        const pick = actionable.slice(0, 3);
+        const connectors = ['第一，', '其次，', '最后，'];
+        body += pick.map((s, i) => (connectors[i] || '') + s).join('\n');
+      } else {
+        // 兜底：从情报中提取主要观点
+        const sentences = insight.split(/[。；]/).filter(s => s.trim().length > 15);
+        if (sentences.length > 0) {
+          body += '最近看了不少资料，总结了几点我觉得比较有价值的判断：\n\n';
+          body += sentences.slice(0, 3).map(s => s.trim().replace(/^[，、\s]+/, '')).join('。\n') + '。';
+        } else {
+          body += extractMainPoint(insight);
         }
-      });
-      if (steps.length === 0) {
-        const fallbacks = [
-          '先评估一下团队现在对AI的真实使用程度，别凭感觉。',
-          '找一两个可以快速试点的场景，跑个MVP比写PPT有用。',
-          '跟业务那边对齐一下期望值，AI不是万能药，得说清楚能做什么不能做什么。'
-        ];
-        return fallbacks[Math.floor(Math.random() * fallbacks.length)];
       }
-      const pick = steps.slice(0, 3);
-      return pick.map((s, i) => {
-        const nums = ['第一，', '其次，', '最后，'];
-        return (nums[i] || '') + s;
-      }).join('\n');
+
+      body += '\n\n';
+
+      const endings = [
+        '不一定全对，但至少比焦虑有用。',
+        '先记下来，慢慢消化。方向比速度重要。',
+        '说到底，在这个变化的时代，保持学习能力和适应力，比什么都重要。'
+      ];
+      body += endings[Math.floor(Math.random() * endings.length)];
+
+      return body;
     }
 
-    function generateNaturalDebateOpinion(items) {
-      const opinions = [
-          '我觉得这事儿的关键不是AI行不行，而是你的组织有没有准备好接住它。技术问题好解决，人的问题难。与其争论AI能不能替代人，不如先看看自己的团队结构和工作方式有没有优化的空间。',
-          '有个很反直觉的现象：越是喊着全面AI化的公司，越可能在基本面（流程、协作、技能）上没想清楚。AI是个放大器，好的组织设计会让它事半功倍，差的组织设计只会放大问题。',
-          '说实话，我现在的判断是：短期看替代是夸大了，但长期看变革是被低估了。真正该担心的是中间这段时间——技能转型跟不上、组织架构还没调好、新的协作方式还没跑通。'
-        ];
-      return opinions[Math.floor(Math.random() * opinions.length)];
+    // ========== 职场观点型内容 ==========
+    // 结构：争议话题 → 独特角度 → 留白
+    function generateOpinionBody(items) {
+      const primary = items[0];
+      const insight = primary.insight || primary.summary || '';
+
+      let body = '';
+
+      // 给出独特角度
+      const angles = [
+        '我的看法可能跟主流不太一样。',
+        '这事儿其实没有标准答案，但我觉得有一个角度大家很少提到。',
+        '聊这个话题容易得罪人，但我还是想说。'
+      ];
+      body += angles[Math.floor(Math.random() * angles.length)];
+
+      body += '\n\n';
+
+      // 从情报中提取核心观点
+      const sentences = insight.split(/[。；]/).filter(s => s.trim().length > 12);
+      if (sentences.length > 0) {
+        const pick = sentences.slice(0, 3).map(s => s.trim().replace(/^[，、\s]+/, ''));
+        body += pick.join('。') + '。';
+      } else {
+        body += extractMainPoint(insight);
+      }
+
+      // 如果有第二来源，加入对比
+      if (items[1]) {
+        const secInsight = items[1].insight || items[1].summary || '';
+        const secSentences = secInsight.split(/[。；]/).filter(s => s.trim().length > 15);
+        if (secSentences.length > 0) {
+          body += '\n\n不过话说回来，' + secSentences[0].trim().replace(/^[，、\s]+/, '') + '。';
+        }
+      }
+
+      body += '\n\n';
+
+      const openEnds = [
+        '这事儿没有绝对的对错，但我觉得至少值得想想。',
+        '你们觉得呢？可以在评论区聊聊，不一定非要达成共识。',
+        '先写到这里，这个话题下次可以展开写一篇。'
+      ];
+      body += openEnds[Math.floor(Math.random() * openEnds.length)];
+
+      return body;
+    }
+
+    // 工具函数：从文本中提取主要观点
+    function extractMainPoint(text) {
+      if (!text) return '';
+      const sentences = text.split(/[。；]/).filter(s => s.trim().length > 10);
+      if (sentences.length === 0) return text.substring(0, 200);
+      return sentences.slice(0, 2).map(s => s.trim().replace(/^[，、\s]+/, '')).join('。') + '。';
     }
 
     function extractKeywords(text) {
@@ -2498,22 +2621,44 @@
     }
 
     function generateXHSTags(allTags, type) {
-      // 基础标签——简洁、有人关注度的
-      const baseTags = ['#AI', '#组织设计', '#职场'];
+      // 小红书高流量基础标签——面向广泛职场人群
+      const baseTags = ['#打工人', '#职场', '#AI'];
 
-      // 来源中的标签，取前几个
-      const sourceTags = allTags.slice(0, 3).map(t => '#' + t);
-
-      // 根据类型加标签，但不说教
-      const typeTags = {
-        insight: ['#OD', '#组织发展'],
-        trend: ['#行业观察', '#趋势'],
-        practice: ['#工作方法', '#经验'],
-        debate: ['#讨论', '#不同观点']
+      // 根据类型选择标签——每个类型有差异化标签池
+      const typeTagPools = {
+        rant: [
+          ['#HR', '#被误解的职业', '#职场吐槽'],
+          ['#上班日常', '#职场人设', '#工作日常'],
+          ['#职场委屈', '#工作不容易', '#吐槽大会']
+        ],
+        truth: [
+          ['#职场真相', '#行业揭秘', '#冷知识'],
+          ['#认知升级', '#职场干货', '#个人成长'],
+          ['#行业观察', '#数据分析', '#反直觉']
+        ],
+        survive: [
+          ['#职场生存指南', '#自我提升', '#学习方法'],
+          ['#女性职场', '#搞钱', '#副业'],
+          ['#职场竞争力', '#技能提升', '#未来发展']
+        ],
+        opinion: [
+          ['#观点分享', '#职场思考', '#深度思考'],
+          ['#成长感悟', '#生活感悟', '#人生选择'],
+          ['#聊聊职场', '#不同观点', '#独立思考']
+        ]
       };
 
-      const tags = [...baseTags, ...sourceTags, ...(typeTags[type] || [])];
-      return [...new Set(tags)].slice(0, 8).join(' ');
+      const pool = typeTagPools[type] || typeTagPools.opinion;
+      const typeTags = pool[Math.floor(Math.random() * pool.length)];
+
+      // 来源标签最多取 2 个，只保留受众广的
+      const broadSourceTags = allTags
+        .filter(t => ['AI', '裁员', '组织', '人才', '领导力', '绩效', '变革', '转型', '数字化'].some(k => t.includes(k)))
+        .slice(0, 2)
+        .map(t => '#' + t);
+
+      const tags = [...baseTags, ...typeTags, ...broadSourceTags];
+      return [...new Set(tags)].slice(0, 10).join(' ');
     }
 
     function generateImageSuggestion(sourceItems, type) {
