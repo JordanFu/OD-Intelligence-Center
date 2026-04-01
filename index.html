@@ -421,6 +421,21 @@
       transition: all 0.2s;
     }
     .btn-close-panel:hover { border-color: var(--text2); color: var(--text); }
+    .btn-generate-xhs {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px;
+      background: var(--xhs-red);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: opacity 0.2s, transform 0.15s;
+    }
+    .btn-generate-xhs:hover { opacity: 0.9; transform: translateY(-1px); }
 
     /* Source coverage bar */
     .coverage {
@@ -1486,7 +1501,7 @@
             trustClass = trustInfo ? trustInfo.class : 'trust-ref';
           }
           html += `<div class="card ${isActive ? 'active' : ''}" onclick="toggleCard('${day.date}', '${item.id}')"><div class="card-header"><div class="card-title-area"><div class="card-title">${highlightText(esc(item.title), query)}</div><div class="card-brief">${highlightText(esc(truncate(item.summary, 80)), query)}</div></div><div class="card-right">${item.trust ? `<span class="card-trust-mini ${trustClass}">${esc(item.trust)}</span>` : ''}<svg class="card-expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="card-meta-mini"><span>${esc(item.source)}</span>${item.platform ? `<span>· ${esc(item.platform)}</span>` : ''}${item.tags.length > 0 ? `<span>· ${item.tags.slice(0, 3).map(t => '#' + t).join(' ')}${item.tags.length > 3 ? ' +' + (item.tags.length - 3) : ''}</span>` : ''}</div></div>`;
-          html += `<div class="reader-panel ${isActive ? 'open' : ''}" id="panel-${cardKey}"><div class="reader-inner"><div class="reader-header"><div class="reader-num">${item.id}</div><div class="reader-title">${highlightText(esc(item.title), query)}</div></div><div class="reader-meta"><span class="reader-meta-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg><strong>${esc(item.source)}</strong></span>${item.platform ? `<span class="reader-meta-item">📍 ${esc(item.platform)}</span>` : ''}${item.trust ? `<span class="reader-meta-item">${esc(item.trust)}</span>` : ''}${item.time ? `<span class="reader-meta-item">🕐 ${esc(item.time)}</span>` : ''}</div>${item.summary ? `<div class="reader-section"><div class="reader-section-label"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>事件摘要</div><div class="reader-summary">${highlightText(esc(item.summary), query)}</div></div>` : ''}${item.insight ? `<div class="reader-section"><div class="reader-section-label"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>OD 启示</div><div class="reader-insight">${highlightText(esc(item.insight), query)}</div></div>` : ''}${item.tags.length > 0 ? `<div class="reader-tags">${item.tags.map(t => `<span class="reader-tag" onclick="event.stopPropagation(); setTagFilter('${t}')">#${esc(t)}</span>`).join('')}</div>` : ''}<div class="reader-actions">${item.sourceUrl ? `<a class="btn-read-original" href="${esc(item.sourceUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>阅读原文</a>` : ''}<button class="btn-close-panel" onclick="event.stopPropagation(); toggleCard('${day.date}', '${item.id}')">收起</button></div></div></div>`;
+          html += `<div class="reader-panel ${isActive ? 'open' : ''}" id="panel-${cardKey}"><div class="reader-inner"><div class="reader-header"><div class="reader-num">${item.id}</div><div class="reader-title">${highlightText(esc(item.title), query)}</div></div><div class="reader-meta"><span class="reader-meta-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg><strong>${esc(item.source)}</strong></span>${item.platform ? `<span class="reader-meta-item">📍 ${esc(item.platform)}</span>` : ''}${item.trust ? `<span class="reader-meta-item">${esc(item.trust)}</span>` : ''}${item.time ? `<span class="reader-meta-item">🕐 ${esc(item.time)}</span>` : ''}</div>${item.summary ? `<div class="reader-section"><div class="reader-section-label"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>事件摘要</div><div class="reader-summary">${highlightText(esc(item.summary), query)}</div></div>` : ''}${item.insight ? `<div class="reader-section"><div class="reader-section-label"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>OD 启示</div><div class="reader-insight">${highlightText(esc(item.insight), query)}</div></div>` : ''}${item.tags.length > 0 ? `<div class="reader-tags">${item.tags.map(t => `<span class="reader-tag" onclick="event.stopPropagation(); setTagFilter('${t}')">#${esc(t)}</span>`).join('')}</div>` : ''}<div class="reader-actions">${item.sourceUrl ? `<a class="btn-read-original" href="${esc(item.sourceUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>阅读原文</a>` : ''}<button class="btn-generate-xhs" onclick="event.stopPropagation(); generateXHSFromItem('${day.date}', '${item.id}')">📕 生成小红书</button><button class="btn-close-panel" onclick="event.stopPropagation(); toggleCard('${day.date}', '${item.id}')">收起</button></div></div></div>`;
         });
         html += `</div>`;
       });
@@ -1775,6 +1790,61 @@
     // ============================================================
     // XHS Content Generation Engine
     // ============================================================
+
+    // Generate XHS note from a single info item (triggered from info library)
+    function generateXHSFromItem(date, id) {
+      // Find the item
+      const day = allDays.find(d => d.date === date);
+      if (!day) { showToast('未找到该信息'); return; }
+      const item = day.items.find(i => i.id === id);
+      if (!item) { showToast('未找到该信息'); return; }
+
+      if (!item.insight && !item.summary) {
+        showToast('该信息内容不足，无法生成小红书内容');
+        return;
+      }
+
+      // Pick 1-2 related items from same day as context (optional enrichment)
+      const sourceItems = [{ ...item, date: day.date }];
+      const sameDayOthers = day.items.filter(i => i.id !== id && (i.insight || i.summary));
+      if (sameDayOthers.length > 0) {
+        // Pick at most 1 related item
+        const related = sameDayOthers.find(i => {
+          const myTags = new Set(item.tags || []);
+          const theirTags = new Set(i.tags || []);
+          return [...myTags].some(t => theirTags.has(t));
+        });
+        if (related) sourceItems.push({ ...related, date: day.date });
+      }
+
+      // Determine best type based on item content
+      const types = Object.keys(XHS_TEMPLATES);
+      let bestType = 'insight'; // default
+      if (item.tags && (item.tags.some(t => t.includes('趋势') || t.includes('预测') || t.includes('未来')))) {
+        bestType = 'trend';
+      } else if (item.tags && (item.tags.some(t => t.includes('方法') || t.includes('实践') || t.includes('落地') || t.includes('策略')))) {
+        bestType = 'practice';
+      } else if (item.tags && (item.tags.some(t => t.includes('争议') || t.includes('挑战') || t.includes('风险') || t.includes('裁员')))) {
+        bestType = 'debate';
+      }
+
+      // Generate the note
+      const note = generateSingleNote(sourceItems, bestType);
+      if (!note) { showToast('生成失败，请重试'); return; }
+
+      // Add to existing notes (prepend so it appears at top)
+      xhsNotes.unshift(note);
+      updateBadges();
+
+      // Switch to XHS tab and expand the new note
+      xhsViewMode = 'full';
+      xhsExpandedCards.clear();
+      xhsExpandedCards.add(0);
+      switchTab('xhs');
+
+      showToast(`已基于「${truncate(item.title, 15)}」生成小红书内容`);
+    }
+
     function generateXHSContent() {
       if (allDays.length === 0 || isGenerating) return;
 

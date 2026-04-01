@@ -1,6 +1,56 @@
 {
   "reports": [
     {
+      "date": "2026-04-01",
+      "weekday": "周三",
+      "items": 12,
+      "platforms": 8,
+      "trust": { "high": 7, "mid": 5, "ref": 0 },
+      "tags": ["组织设计", "人机协作", "绩效管理", "技能重塑", "AI-Agent", "具身智能", "裁员", "领导力", "流程重塑", "CEO决策", "AI人才"],
+      "topPicks": [
+        {
+          "title": "麦肯锡《2026组织现状报告》：AI是组织重构而非工具升级",
+          "platform": "McKinsey",
+          "url": "https://www.mckinsey.com.cn/2026%e9%ba%a6%e8%82%af%e9%94%a1%e7%bb%84%e7%bb%87%e7%8e%b0%e7%8a%b6%e6%8a%a5%e5%91%8a%ef%bc%9a%e6%94%b9%e5%8f%98%e7%bb%84%e7%bb%87%e6%9c%aa%e6%9d%a5%e7%9a%84%e4%b8%89%e8%82%a1%e5%8a%9b%e9%87%8f/",
+          "reason": "今年AI组织设计最权威综合性研究，三股力量框架+9大行动主题直接对标OD核心工作。"
+        },
+        {
+          "title": "BCG：AI转型70%的价值来自人员与组织变革",
+          "platform": "BCG",
+          "url": "https://www.bcg.com/publications/2026/ai-transformation-is-a-workforce-transformation",
+          "reason": "70/20/10价值分配模型是最强数据弹药，拿来跟管理层谈'不要只买工具'堪称杀手锏。"
+        },
+        {
+          "title": "Mercer《AI时代绩效管理重塑》：绩效从管理转向赋能",
+          "platform": "Mercer",
+          "url": "https://www.mercer.com/insights/talent-and-transformation/attracting-and-retaining-talent/performance-management-report/",
+          "reason": "绩效管理是OD核心战场，给出具体路径（年度考核→持续反馈）和落地案例。"
+        },
+        {
+          "title": "BCG AI Radar 2026：72%CEO成为AI决策主导者",
+          "platform": "BCG",
+          "url": "https://www.bcg.com/press/15january2026-as-ai-investments-surge-ceos-take-lead",
+          "reason": "CEO亲自下场意味着OD有更高层支持，建议主动对接高管层推动AI组织变革。"
+        },
+        {
+          "title": "中国十五五规划将具身智能列为国家产业战略",
+          "platform": "RobotToday",
+          "url": "https://robottoday.com/article/china-s-15th-five-year-plan-2026-2030-embodied-intelligence-as-national-industrial-strategy",
+          "reason": "具身智能上升为国家战略，制造/物流/服务业3-5年内将面临实际组织冲击。"
+        }
+      ],
+      "trends": [
+        "顶级咨询公司'四连发'（麦肯锡+BCG×3+Mercer），AI组织设计框架趋于成熟",
+        "AI裁员'回旋现象'持续发酵：实际替代率仅33%，55%雇主后悔裁员",
+        "具身智能从实验室走向政策和标准落地，产业化加速期已至"
+      ],
+      "nextFocus": [
+        "麦肯锡2026组织现状报告深度拆解——9大行动主题详细内容",
+        "具身智能对教育行业的组织影响路径",
+        "AI绩效管理试点案例跟踪——寻找国内企业实操对标"
+      ]
+    },
+    {
       "date": "2026-03-31",
       "weekday": "周二",
       "items": 15,
