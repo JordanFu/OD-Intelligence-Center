@@ -1811,55 +1811,55 @@
     // XHS Content Workshop
     // ============================================================
 
-    // Note type templates
+    // Note type templates — 生成有活人感的内容，拒绝震惊体和模板味
     const XHS_TEMPLATES = {
       insight: {
         label: '深度洞察',
         class: 'type-insight',
         hooks: [
-          '别再说"AI是工具"了，真相远比你想的深刻 🔥',
-          '刚看完最新报告，一个数据让我惊出一身冷汗...',
-          '90%的企业都搞错了！AI转型最大的坑竟然是...',
-          '管理层必看！这份数据可能改变你下半年的决策方向',
-          '内部人士透露：真正跑通AI转型的企业都在做这几件事'
+          '今天翻了几份最新报告，有个数据一直在我脑子里转',
+          '做了三年OD，这是第一次觉得"AI"和"组织"这两个词被说清楚了',
+          '跟几个同行聊完，发现大家都在焦虑同一件事',
+          '这份报告看完，我把里面最有价值的东西拎出来了',
+          '如果你只有5分钟看一份报告，就看这篇'
         ],
-        emojis: ['💡', '📊', '🔥', '📌', '✅', '⚠️', '🎯', '💼', '🧠', '📈']
+        emojis: []
       },
       trend: {
         label: '趋势解读',
         class: 'type-trend',
         hooks: [
-          '整个行业正在悄悄变天，你发现了吗？',
-          '2026年最值得关注的组织变革趋势 🌊',
-          '别只盯着裁员数字了，这几个趋势才是真正的信号',
-          '未来3年，这些变化将重塑你的组织架构',
-          '前沿观察：AI时代组织设计的3个关键转折点'
+          '最近行业里有几个信号，不知道你们注意到了没',
+          '这周密集看了好多资料，慢慢拼出了一个大图景',
+          '感觉接下来的12个月，组织设计这个领域会变',
+          '我一直在跟踪这个方向，最近的数据验证了一个判断',
+          '不是什么预测，就是几个我觉得值得留意的信号'
         ],
-        emojis: ['🌐', '🚀', '🔬', '👀', '🔍', '📈', '💫', '🧭', '🌊', '⚡']
+        emojis: []
       },
       practice: {
         label: '实践指南',
         class: 'type-practice',
         hooks: [
-          '干货来了！手把手教你落地AI组织变革 🛠️',
-          '抄作业了！这家公司的人机协作模式值得所有人学',
-          '我们团队试了3个月，终于跑通了这套方法论',
-          '从0到1：给OD从业者的AI组织设计落地清单',
-          '不要再犹豫了！现在就是最好的启动时机'
+          '之前在项目里踩过不少坑，总结了一些还算管用的经验',
+          '很多人问AI组织设计到底怎么落地，说说我的看法',
+          '不是什么高深方法论，就是一些实际操作中的体会',
+          '分享一个我们试过的思路，不一定对但可以参考',
+          '与其焦虑AI要怎么搞，不如先从这几个小切口开始'
         ],
-        emojis: ['📋', '✍️', '🛠️', '🔑', '📝', '🧩', '⚡', '🎯', '✅', '⭐']
+        emojis: []
       },
       debate: {
         label: '观点碰撞',
         class: 'type-debate',
         hooks: [
-          'AI到底能不能替代人？数据打脸了 🤔',
-          '23万人被裁，一半公司又把人请回——这说明了什么？',
-          '别被表面数据骗了！AI效率的真实水平远低于预期',
-          '管理层说"全面AI化"，我们用数据算了一笔账...',
-          '投资人说投AI，HR说裁人，OD该站在哪一边？'
+          '看到一个数据，跟主流叙事不太一样，记录一下',
+          'AI替代人这个话题，吵了好一阵了，我想换个角度说',
+          '说说一个可能不太受欢迎的观点',
+          '最近几组数据放在一起看，有点意思',
+          '这事儿两边都有道理，但我觉得关键点被忽略了'
         ],
-        emojis: ['🤔', '⚡', '💬', '⚖️', '🎯', '📈', '📉', '💥', '🧨', '🔍']
+        emojis: []
       }
     };
 
@@ -2287,84 +2287,90 @@
     }
 
     function generateTitle(item, type, hook) {
-      // Create a compelling title from the primary item
       let title = '';
+      const insight = item.insight || item.summary || '';
 
       if (type === 'insight') {
-        // Focus on the key insight
-        const keywords = extractKeywords(item.insight || item.summary || '');
-        if (keywords.length > 0) {
-          title = keywords.slice(0, 3).join(' · ');
+        // 优先用具体数字或事实作为标题
+        const num = insight.match(/\d+[%％\d,万]+/g);
+        if (num && num.length > 0) {
+          const numStr = num.slice(0, 2).join('、');
+          title = numStr + '背后的组织逻辑';
         } else {
-          title = item.title.replace(/[《》]/g, '').substring(0, 20);
+          // 用报告中一个具体名词
+          const concrete = insight.match(/[\u4e00-\u9fff]{2,8}(?:模型|框架|报告|调研|数据|实验|项目)/g);
+          if (concrete && concrete.length > 0) {
+            title = '拆解' + concrete[0] + '：看完有点想法';
+          } else {
+            title = item.title.replace(/[《》「」]/g, '').substring(0, 25);
+          }
         }
       } else if (type === 'trend') {
-        title = item.tags ? item.tags.slice(0, 2).join('+') + ' 正在重塑组织设计' : '组织设计新趋势';
+        title = item.tags ? item.tags.slice(0, 2).join('、') + '：最近在发生什么' : '组织设计最近在发生什么';
       } else if (type === 'practice') {
-        title = item.insight ? item.insight.substring(0, 25) + '...' : item.title.substring(0, 25);
+        const practice = insight.match(/(?:建议|可以|需要|应该)[^\n。]{4,20}/g);
+        if (practice && practice.length > 0) {
+          title = practice[0].replace(/^[，、]/, '').substring(0, 22);
+        } else {
+          title = '说点实际的：' + item.title.replace(/[《》]/g, '').substring(0, 15);
+        }
       } else if (type === 'debate') {
-        // Use a provocative title
         const debates = [
-          'AI替代人？你可能搞反了',
-          '裁员潮背后的真相',
-          '别被AI效率神话骗了',
-          '组织变革的最大阻碍不是技术',
-          'AI转型的70%都在这里'
+          '说个可能跟主流不太一样的看法',
+          'AI替代人？换个角度想想',
+          '效率神话背后有个被忽略的问题',
+          '为什么我觉得"全面AI化"值得再想想',
+          '裁员数据看多了，想说几句实话'
         ];
         title = debates[Math.floor(Math.random() * debates.length)];
       }
 
-      return title.substring(0, 30);
+      return title.substring(0, 28);
     }
 
     function generateContent(sourceItems, type, hook) {
       const primary = sourceItems[0];
       const secondary = sourceItems[1];
-      const emojis = XHS_TEMPLATES[type].emojis;
-      const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
-      const e = () => pick(emojis);
 
       let content = '';
 
-      // Opening hook
+      // 开头就是人话
       content += hook + '\n\n';
 
-      // Type-specific content structure
       if (type === 'insight') {
-        content += `${e()} 核心发现\n\n`;
-        content += formatInsight(primary) + '\n\n';
+        // 把核心发现自然地展开，不用小标题
+        content += formatInsightNatural(primary);
         if (secondary) {
-          content += `${e()} 交叉验证\n\n`;
-          content += formatInsight(secondary) + '\n\n';
+          content += '\n\n另外还有个佐证：' + extractTrendPoint(secondary) + '。';
         }
-        content += `${e()} 给OD从业者的建议\n\n`;
-        content += generateODAdvice(sourceItems);
+        content += '\n\n' + generateNaturalAdvice(sourceItems);
       } else if (type === 'trend') {
-        content += `${e()} 趋势信号\n\n`;
-        content += `最近的研究数据显示，${extractTrendPoint(primary)}。\n\n`;
+        content += extractTrendPoint(primary) + '。\n\n';
         if (secondary) {
-          content += `同时，${extractTrendPoint(secondary)}。\n\n`;
+          content += '同时，' + extractTrendPoint(secondary) + '。\n\n';
         }
-        content += `${e()} 这意味着什么\n\n`;
-        content += generateTrendImplication(sourceItems);
+        content += generateNaturalImplication(sourceItems);
       } else if (type === 'practice') {
-        content += `${e()} 背景\n\n`;
-        content += `${primary.source || '最新报告'}发布的研究揭示了AI组织设计的关键路径。\n\n`;
-        content += `${e()} 落地要点\n\n`;
-        content += generatePracticeSteps(sourceItems);
+        const source = primary.source || '最新报告';
+        content += `${source}刚出了新内容，我把跟OD实操相关的部分筛了出来：\n\n`;
+        content += generateNaturalSteps(sourceItems);
       } else if (type === 'debate') {
-        content += `${e()} 数据说话\n\n`;
-        content += `${extractDebatePoint(primary)}\n\n`;
+        content += extractDebatePoint(primary) + '\n\n';
         if (secondary) {
-          content += `但另一方面，${extractDebatePoint(secondary)}\n\n`;
+          content += '不过换个角度看：' + extractDebatePoint(secondary) + '\n\n';
         }
-        content += `${e()} 我的看法\n\n`;
-        content += generateDebateOpinion(sourceItems);
-        content += '\n评论区说说你们的观点👇';
+        content += generateNaturalDebateOpinion(sourceItems);
       }
 
-      // Closing
-      content += `\n\n---\n💬 你怎么看？欢迎评论区交流\n📌 关注我，持续分享AI组织设计的最新洞察`;
+      // 结尾也要像人说的话，不要万能句式
+      const closings = [
+        '有不同看法可以在评论区聊，不一定对，但值得想想。',
+        '就聊这些，有兴趣的可以去翻原文，链接在最后。',
+        '也不知道想得对不对，记录一下，过段时间回头看。',
+        '这个话题挺值得展开聊的，下次专门写一篇。',
+        '先记到这里，后面有新数据再补充。'
+      ];
+      content += '\n\n---\n' + closings[Math.floor(Math.random() * closings.length)];
 
       return content;
     }
