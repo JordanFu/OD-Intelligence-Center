@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI 组织设计研究 · 看板</title>
+  <title>OD 情报中心 · AI 组织设计研究</title>
   <style>
     :root {
       --bg: #0f1117;
@@ -22,6 +22,8 @@
       --trust-high: #fbbf24;
       --trust-mid: #60a5fa;
       --trust-ref: #a78bfa;
+      --xhs-red: #ff2442;
+      --xhs-red-dim: rgba(255, 36, 66, 0.12);
     }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -64,6 +66,13 @@
       color: var(--text2);
       margin-top: 2px;
     }
+    .header-stats {
+      display: flex;
+      gap: 16px;
+      font-size: 12px;
+      color: var(--text2);
+    }
+    .header-stats strong { color: var(--accent); font-weight: 600; }
 
     /* Tabs */
     .tab-bar {
@@ -76,7 +85,7 @@
     }
     .tab-btn {
       flex: 1;
-      padding: 8px 20px;
+      padding: 8px 12px;
       border: none;
       border-radius: 8px;
       background: transparent;
@@ -96,6 +105,9 @@
       color: #fff;
       font-weight: 600;
     }
+    .tab-btn.xhs-tab.active {
+      background: var(--xhs-red);
+    }
     .tab-btn .badge {
       font-size: 11px;
       padding: 1px 6px;
@@ -111,7 +123,7 @@
     .page { display: none; }
     .page.active { display: block; }
 
-    /* =================== Information Page (Original) =================== */
+    /* =================== Information Page =================== */
     .controls {
       max-width: 900px;
       margin: 20px auto;
@@ -194,11 +206,7 @@
       padding-bottom: 8px;
       border-bottom: 1px solid var(--border);
     }
-    .day-header h2 {
-      font-size: 17px;
-      font-weight: 600;
-      color: var(--text);
-    }
+    .day-header h2 { font-size: 17px; font-weight: 600; color: var(--text); }
     .day-count {
       font-size: 12px;
       background: var(--surface2);
@@ -285,7 +293,6 @@
       font-size: 12px;
       color: var(--text2);
     }
-    .card-meta-mini svg { width: 12px; height: 12px; vertical-align: -1px; }
 
     /* Reader Panel */
     .reader-panel {
@@ -319,12 +326,7 @@
       line-height: 1;
       flex-shrink: 0;
     }
-    .reader-title {
-      font-size: 18px;
-      font-weight: 700;
-      line-height: 1.5;
-      color: var(--text);
-    }
+    .reader-title { font-size: 18px; font-weight: 700; line-height: 1.5; }
     .reader-meta {
       display: flex;
       flex-wrap: wrap;
@@ -342,7 +344,6 @@
       gap: 4px;
       color: var(--text2);
     }
-    .reader-meta-item svg { width: 13px; height: 13px; }
     .reader-meta-item strong { color: var(--text); font-weight: 500; }
     .reader-section { margin-bottom: 16px; }
     .reader-section-label {
@@ -357,11 +358,7 @@
       gap: 6px;
     }
     .reader-section-label .icon { width: 16px; height: 16px; }
-    .reader-summary {
-      font-size: 15px;
-      color: var(--text);
-      line-height: 1.8;
-    }
+    .reader-summary { font-size: 15px; line-height: 1.8; }
     .reader-insight {
       font-size: 15px;
       color: var(--green);
@@ -410,7 +407,6 @@
       text-decoration: none;
     }
     .btn-read-original:hover { opacity: 0.9; transform: translateY(-1px); }
-    .btn-read-original svg { width: 16px; height: 16px; }
     .btn-close-panel {
       display: inline-flex;
       align-items: center;
@@ -434,16 +430,8 @@
       border: 1px solid var(--border);
       border-radius: 10px;
     }
-    .coverage-title {
-      font-size: 12px;
-      color: var(--text2);
-      margin-bottom: 8px;
-    }
-    .coverage-bar {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-    }
+    .coverage-title { font-size: 12px; color: var(--text2); margin-bottom: 8px; }
+    .coverage-bar { display: flex; flex-wrap: wrap; gap: 6px; }
     .coverage-item {
       font-size: 11px;
       padding: 3px 8px;
@@ -457,42 +445,12 @@
     }
     .coverage-count { color: var(--text); font-weight: 600; }
 
-    /* Empty state */
-    .empty {
-      text-align: center;
-      padding: 80px 20px;
-      color: var(--text2);
-    }
-    .empty svg { margin-bottom: 16px; opacity: 0.4; }
-    .empty h3 { font-size: 18px; margin-bottom: 8px; color: var(--text); }
-    .empty p { font-size: 14px; }
-
-    /* Footer */
-    .footer {
-      text-align: center;
-      padding: 24px;
-      color: var(--text2);
-      font-size: 12px;
-      border-top: 1px solid var(--border);
-      max-width: 960px;
-      margin: 40px auto 0;
-    }
-
-    mark {
-      background: rgba(108, 140, 255, 0.3);
-      color: var(--text);
-      border-radius: 2px;
-      padding: 0 2px;
-    }
-
     /* =================== Daily Report Page =================== */
     .report-page {
       max-width: 900px;
       margin: 0 auto;
       padding: 24px 24px 60px;
     }
-
-    /* Report summary bar */
     .report-summary {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
@@ -514,13 +472,7 @@
       -webkit-text-fill-color: transparent;
       line-height: 1.2;
     }
-    .report-stat-label {
-      font-size: 12px;
-      color: var(--text2);
-      margin-top: 4px;
-    }
-
-    /* Trust distribution bar */
+    .report-stat-label { font-size: 12px; color: var(--text2); margin-top: 4px; }
     .trust-bar {
       display: flex;
       height: 6px;
@@ -533,28 +485,10 @@
     .trust-bar-seg.high { background: var(--trust-high); }
     .trust-bar-seg.mid { background: var(--trust-mid); }
     .trust-bar-seg.ref { background: var(--trust-ref); }
-    .trust-legend {
-      display: flex;
-      gap: 16px;
-      font-size: 12px;
-      color: var(--text2);
-    }
-    .trust-legend-item {
-      display: flex;
-      align-items: center;
-      gap: 4px;
-    }
-    .trust-legend-dot {
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-    }
-
-    /* Report timeline */
-    .report-timeline {
-      position: relative;
-      padding-left: 28px;
-    }
+    .trust-legend { display: flex; gap: 16px; font-size: 12px; color: var(--text2); }
+    .trust-legend-item { display: flex; align-items: center; gap: 4px; }
+    .trust-legend-dot { width: 8px; height: 8px; border-radius: 50%; }
+    .report-timeline { position: relative; padding-left: 28px; }
     .report-timeline::before {
       content: '';
       position: absolute;
@@ -564,10 +498,7 @@
       width: 2px;
       background: var(--border);
     }
-    .report-day {
-      position: relative;
-      margin-bottom: 24px;
-    }
+    .report-day { position: relative; margin-bottom: 24px; }
     .report-day-dot {
       position: absolute;
       left: -24px;
@@ -594,9 +525,7 @@
       border-color: var(--accent);
       box-shadow: 0 2px 12px rgba(108, 140, 255, 0.08);
     }
-    .report-day-card.expanded {
-      border-color: var(--green);
-    }
+    .report-day-card.expanded { border-color: var(--green); }
     .report-day-header {
       padding: 16px 20px;
       display: flex;
@@ -638,25 +567,17 @@
       transform: rotate(180deg);
       color: var(--green);
     }
-
-    /* Expanded report content */
     .report-day-body {
       max-height: 0;
       overflow: hidden;
       transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .report-day-card.expanded .report-day-body {
-      max-height: 3000px;
-    }
+    .report-day-card.expanded .report-day-body { max-height: 3000px; }
     .report-day-content {
       padding: 0 20px 20px;
       border-top: 1px solid var(--border);
     }
-
-    /* Section inside expanded report */
-    .report-section {
-      margin-top: 20px;
-    }
+    .report-section { margin-top: 20px; }
     .report-section-title {
       font-size: 14px;
       font-weight: 600;
@@ -666,13 +587,7 @@
       align-items: center;
       gap: 8px;
     }
-
-    /* Source table */
-    .source-table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 13px;
-    }
+    .source-table { width: 100%; border-collapse: collapse; font-size: 13px; }
     .source-table th {
       text-align: left;
       padding: 8px 12px;
@@ -688,8 +603,6 @@
       border-bottom: 1px solid var(--border);
       color: var(--text);
     }
-
-    /* Top picks */
     .pick-item {
       padding: 12px 16px;
       background: var(--surface2);
@@ -699,23 +612,9 @@
       transition: border-color 0.2s;
     }
     .pick-item:hover { border-left-color: var(--accent); }
-    .pick-title {
-      font-size: 14px;
-      font-weight: 600;
-      color: var(--text);
-      margin-bottom: 4px;
-      line-height: 1.4;
-    }
-    .pick-meta {
-      font-size: 12px;
-      color: var(--text2);
-      margin-bottom: 6px;
-    }
-    .pick-reason {
-      font-size: 13px;
-      color: var(--green);
-      line-height: 1.5;
-    }
+    .pick-title { font-size: 14px; font-weight: 600; margin-bottom: 4px; line-height: 1.4; }
+    .pick-meta { font-size: 12px; color: var(--text2); margin-bottom: 6px; }
+    .pick-reason { font-size: 13px; color: var(--green); line-height: 1.5; }
     .pick-link {
       display: inline-flex;
       align-items: center;
@@ -726,8 +625,6 @@
       margin-top: 4px;
     }
     .pick-link:hover { text-decoration: underline; }
-
-    /* Trend & focus items */
     .trend-item {
       display: flex;
       gap: 10px;
@@ -735,50 +632,443 @@
       border-bottom: 1px solid var(--border);
     }
     .trend-item:last-child { border-bottom: none; }
-    .trend-num {
-      font-size: 14px;
-      font-weight: 700;
-      color: var(--accent);
-      opacity: 0.5;
-      flex-shrink: 0;
-      width: 20px;
-    }
-    .trend-text {
-      font-size: 14px;
-      color: var(--text);
-      line-height: 1.6;
-    }
-    .focus-item {
-      display: flex;
-      gap: 10px;
-      padding: 8px 0;
-    }
-    .focus-dot {
-      width: 6px;
-      height: 6px;
-      border-radius: 50%;
-      background: var(--orange);
-      flex-shrink: 0;
-      margin-top: 8px;
-    }
-    .focus-text {
-      font-size: 13px;
-      color: var(--text2);
-      line-height: 1.5;
+    .trend-num { font-size: 14px; font-weight: 700; color: var(--accent); opacity: 0.5; flex-shrink: 0; width: 20px; }
+    .trend-text { font-size: 14px; line-height: 1.6; }
+    .focus-item { display: flex; gap: 10px; padding: 8px 0; }
+    .focus-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--orange); flex-shrink: 0; margin-top: 8px; }
+    .focus-text { font-size: 13px; color: var(--text2); line-height: 1.5; }
+    .report-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+    .report-tag { font-size: 11px; padding: 3px 10px; background: var(--surface2); border-radius: 12px; color: var(--text2); }
+
+    /* =================== XHS Content Workshop Page =================== */
+    .xhs-page {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px 24px 60px;
     }
 
-    /* Tag cloud in report */
-    .report-tags {
+    /* XHS generate panel */
+    .xhs-generate-panel {
+      background: linear-gradient(135deg, rgba(255, 36, 66, 0.08), rgba(255, 36, 66, 0.03));
+      border: 1px solid rgba(255, 36, 66, 0.2);
+      border-radius: 14px;
+      padding: 20px 24px;
+      margin-bottom: 28px;
+    }
+    .xhs-generate-header {
       display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+    }
+    .xhs-generate-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .xhs-generate-title .xhs-icon {
+      width: 24px;
+      height: 24px;
+      background: var(--xhs-red);
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 800;
+    }
+    .xhs-generate-desc {
+      font-size: 13px;
+      color: var(--text2);
+      margin-bottom: 16px;
+      line-height: 1.6;
+    }
+    .xhs-gen-options {
+      display: flex;
+      gap: 10px;
       flex-wrap: wrap;
+      align-items: center;
+    }
+    .xhs-gen-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 24px;
+      background: var(--xhs-red);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: opacity 0.2s, transform 0.15s;
+    }
+    .xhs-gen-btn:hover { opacity: 0.9; transform: translateY(-1px); }
+    .xhs-gen-btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      transform: none;
+    }
+    .xhs-gen-btn-secondary {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text2);
+      font-weight: 500;
+    }
+    .xhs-gen-btn-secondary:hover {
+      border-color: var(--xhs-red);
+      color: var(--xhs-red);
+      opacity: 1;
+    }
+    .xhs-date-select {
+      padding: 10px 16px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      font-size: 14px;
+      outline: none;
+      cursor: pointer;
+    }
+    .xhs-gen-stats {
+      font-size: 12px;
+      color: var(--text2);
+      margin-left: auto;
+    }
+    .xhs-gen-stats strong { color: var(--xhs-red); }
+
+    /* XHS Content Cards */
+    .xhs-cards-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+    }
+    .xhs-cards-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text2);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .xhs-view-toggle {
+      display: flex;
+      gap: 4px;
+      background: var(--surface);
+      padding: 3px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+    }
+    .xhs-view-btn {
+      padding: 6px 12px;
+      border: none;
+      border-radius: 6px;
+      background: transparent;
+      color: var(--text2);
+      font-size: 12px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .xhs-view-btn.active {
+      background: var(--surface2);
+      color: var(--text);
+    }
+
+    /* XHS Note Card */
+    .xhs-note-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      margin-bottom: 16px;
+      overflow: hidden;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .xhs-note-card:hover {
+      border-color: rgba(255, 36, 66, 0.3);
+      box-shadow: 0 4px 20px rgba(255, 36, 66, 0.06);
+    }
+    .xhs-note-header {
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+    .xhs-note-num {
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      background: var(--xhs-red-dim);
+      color: var(--xhs-red);
+      font-size: 14px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .xhs-note-info { flex: 1; min-width: 0; }
+    .xhs-note-title-text {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.4;
+    }
+    .xhs-note-type {
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-weight: 500;
+      margin-top: 4px;
+      display: inline-block;
+    }
+    .xhs-note-type.type-insight {
+      background: rgba(52, 211, 153, 0.12);
+      color: var(--green);
+    }
+    .xhs-note-type.type-trend {
+      background: rgba(108, 140, 255, 0.12);
+      color: var(--accent);
+    }
+    .xhs-note-type.type-practice {
+      background: rgba(251, 191, 36, 0.12);
+      color: var(--orange);
+    }
+    .xhs-note-type.type-debate {
+      background: rgba(248, 113, 113, 0.12);
+      color: var(--red);
+    }
+    .xhs-note-meta {
+      font-size: 12px;
+      color: var(--text2);
+      display: flex;
+      gap: 12px;
+      flex-shrink: 0;
+    }
+    .xhs-note-body {
+      padding: 20px;
+    }
+
+    /* XHS text content area */
+    .xhs-text-content {
+      background: #fff;
+      color: #333;
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 16px;
+      position: relative;
+      font-size: 15px;
+      line-height: 2;
+      white-space: pre-wrap;
+      word-break: break-word;
+      min-height: 120px;
+    }
+    .xhs-text-content .xhs-emoji-line {
+      color: #999;
+      font-size: 14px;
+      margin-top: 8px;
+    }
+    .xhs-text-content .xhs-tag-line {
+      color: var(--xhs-red);
+      font-weight: 500;
+    }
+    .xhs-copy-hint {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      font-size: 11px;
+      color: #999;
+      background: #f5f5f5;
+      padding: 2px 8px;
+      border-radius: 4px;
+      pointer-events: none;
+    }
+
+    /* XHS source reference */
+    .xhs-sources {
+      padding: 12px 16px;
+      background: var(--surface2);
+      border-radius: 10px;
+      margin-bottom: 16px;
+    }
+    .xhs-sources-title {
+      font-size: 12px;
+      color: var(--text2);
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+    .xhs-source-item {
+      font-size: 12px;
+      color: var(--text2);
+      padding: 4px 0;
+      display: flex;
+      align-items: center;
       gap: 6px;
     }
-    .report-tag {
-      font-size: 11px;
-      padding: 3px 10px;
+    .xhs-source-dot {
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: var(--text2);
+      flex-shrink: 0;
+    }
+    .xhs-source-item a {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 12px;
+    }
+    .xhs-source-item a:hover { text-decoration: underline; }
+
+    /* XHS image suggestion */
+    .xhs-image-suggestion {
+      padding: 14px 16px;
       background: var(--surface2);
-      border-radius: 12px;
+      border-radius: 10px;
+      border-left: 3px solid var(--orange);
+    }
+    .xhs-image-label {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--orange);
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .xhs-image-desc {
+      font-size: 13px;
       color: var(--text2);
+      line-height: 1.6;
+    }
+
+    /* XHS card actions */
+    .xhs-note-actions {
+      padding: 12px 20px;
+      display: flex;
+      gap: 8px;
+      border-top: 1px solid var(--border);
+      background: var(--surface2);
+    }
+    .xhs-action-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 14px;
+      background: transparent;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text2);
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .xhs-action-btn:hover {
+      border-color: var(--accent);
+      color: var(--text);
+    }
+    .xhs-action-btn.primary {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+    .xhs-action-btn.primary:hover {
+      opacity: 0.9;
+    }
+
+    /* XHS compact mode */
+    .xhs-note-card.compact .xhs-note-body { display: none; }
+    .xhs-note-card.compact .xhs-note-actions { display: none; }
+    .xhs-note-card.compact { cursor: pointer; }
+    .xhs-note-card.compact:hover {
+      border-color: var(--xhs-red);
+    }
+
+    /* XHS loading spinner */
+    .xhs-loading {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text2);
+    }
+    .xhs-loading-spinner {
+      width: 32px;
+      height: 32px;
+      border: 3px solid var(--border);
+      border-top-color: var(--xhs-red);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto 16px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* XHS empty state */
+    .xhs-empty {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text2);
+    }
+    .xhs-empty-icon {
+      width: 64px;
+      height: 64px;
+      margin: 0 auto 16px;
+      background: var(--xhs-red-dim);
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+    }
+    .xhs-empty h3 { font-size: 18px; color: var(--text); margin-bottom: 8px; }
+    .xhs-empty p { font-size: 14px; max-width: 400px; margin: 0 auto; }
+
+    /* Toast notification */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: var(--green);
+      color: #000;
+      padding: 12px 24px;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 600;
+      z-index: 1000;
+      transition: transform 0.3s ease;
+      pointer-events: none;
+    }
+    .toast.show { transform: translateX(-50%) translateY(0); }
+
+    /* Empty state */
+    .empty {
+      text-align: center;
+      padding: 80px 20px;
+      color: var(--text2);
+    }
+    .empty svg { margin-bottom: 16px; opacity: 0.4; }
+    .empty h3 { font-size: 18px; margin-bottom: 8px; color: var(--text); }
+    .empty p { font-size: 14px; }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text2);
+      font-size: 12px;
+      border-top: 1px solid var(--border);
+      max-width: 960px;
+      margin: 40px auto 0;
+    }
+
+    mark {
+      background: rgba(108, 140, 255, 0.3);
+      color: var(--text);
+      border-radius: 2px;
+      padding: 0 2px;
     }
 
     /* Responsive */
@@ -793,6 +1083,16 @@
       .btn-read-original, .btn-close-panel { width: 100%; justify-content: center; }
       .report-summary { grid-template-columns: repeat(2, 1fr); }
       .report-day-header { flex-direction: column; align-items: flex-start; }
+      .xhs-generate-panel { padding: 16px; }
+      .xhs-gen-options { flex-direction: column; align-items: stretch; }
+      .xhs-gen-stats { margin-left: 0; text-align: center; }
+      .tab-btn { font-size: 12px; padding: 8px 6px; }
+      .tab-btn .tab-label-full { display: none; }
+      .tab-btn .tab-label-short { display: inline; }
+    }
+    @media (min-width: 641px) {
+      .tab-btn .tab-label-short { display: none; }
+      .tab-btn .tab-label-full { display: inline; }
     }
   </style>
 </head>
@@ -802,20 +1102,26 @@
     <div class="header-inner">
       <div class="header-top">
         <div>
-          <h1>🧠 AI 组织设计研究</h1>
-          <p>信息沉淀 · 日报追踪 · 趋势洞察 · 每日自动更新</p>
+          <h1>🧠 OD 情报中心</h1>
+          <p>信息沉淀 · 日报追踪 · 内容生成 · 每日自动更新</p>
         </div>
+        <div class="header-stats" id="headerStats"></div>
       </div>
       <div class="tab-bar">
         <button class="tab-btn active" onclick="switchTab('info')">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
-          信息库
+          <span class="tab-label-full">信息库</span><span class="tab-label-short">信息</span>
           <span class="badge" id="infoBadge">0</span>
         </button>
         <button class="tab-btn" onclick="switchTab('report')">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-          工作日报
+          <span class="tab-label-full">工作日报</span><span class="tab-label-short">日报</span>
           <span class="badge" id="reportBadge">0</span>
+        </button>
+        <button class="tab-btn xhs-tab" onclick="switchTab('xhs')">
+          <span style="font-size:16px;">📕</span>
+          <span class="tab-label-full">内容工坊</span><span class="tab-label-short">内容</span>
+          <span class="badge" id="xhsBadge">0</span>
         </button>
       </div>
     </div>
@@ -842,9 +1148,16 @@
     <div class="report-page" id="reportContent"></div>
   </div>
 
+  <!-- =================== XHS Content Workshop Page =================== -->
+  <div class="page" id="page-xhs">
+    <div class="xhs-page" id="xhsContent"></div>
+  </div>
+
   <div class="footer">
     由 Javis 自动维护 · 数据存储于 <code>/ai-org-research/</code> · 覆盖 40+ 信息源 · 如有问题找老J家兄弟
   </div>
+
+  <div class="toast" id="toast"></div>
 
   <script>
     // ============================================================
@@ -852,12 +1165,16 @@
     // ============================================================
     let allDays = [];
     let allReports = [];
+    let xhsNotes = [];
     let currentTab = 'info';
     let activeTagFilter = null;
     let activeSourceFilter = null;
     let activeTrustFilter = null;
     let openCardId = null;
     let expandedReportDate = null;
+    let xhsViewMode = 'full'; // 'full' | 'compact'
+    let xhsExpandedCards = new Set();
+    let isGenerating = false;
 
     const PLATFORM_CATEGORIES = {
       '国内媒体': ['36氪', '机器之心', '钛媒体', '虎嗅', '界面新闻', '第一财经', '晚点LatePost', '新智元', '量子位', '新浪财经', '搜狐', '每日经济新闻'],
@@ -875,15 +1192,42 @@
     };
 
     // ============================================================
+    // Utility
+    // ============================================================
+    function esc(str) {
+      if (!str) return '';
+      return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+    function truncate(str, len) {
+      if (!str) return '';
+      return str.length > len ? str.substring(0, len) + '...' : str;
+    }
+    function highlightText(text, query) {
+      if (!query || !text) return text;
+      const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      return text.replace(new RegExp(`(${escaped})`, 'gi'), '<mark>$1</mark>');
+    }
+    function showToast(msg) {
+      const t = document.getElementById('toast');
+      t.textContent = msg;
+      t.classList.add('show');
+      setTimeout(() => t.classList.remove('show'), 2000);
+    }
+
+    // ============================================================
     // Tab Switching
     // ============================================================
     function switchTab(tab) {
       currentTab = tab;
       document.querySelectorAll('.tab-btn').forEach((btn, i) => {
-        btn.classList.toggle('active', (i === 0 && tab === 'info') || (i === 1 && tab === 'report'));
+        btn.classList.toggle('active',
+          (i === 0 && tab === 'info') ||
+          (i === 1 && tab === 'report') ||
+          (i === 2 && tab === 'xhs'));
       });
       document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
       document.getElementById(`page-${tab}`).classList.add('active');
+      if (tab === 'xhs') renderXHSPage();
     }
 
     // ============================================================
@@ -894,11 +1238,9 @@
       let currentDay = null;
       let currentItem = null;
       const days = [];
-
       for (let i = 0; i < lines.length; i++) {
         const line = lines[i];
         if (line.includes('<!--')) continue;
-
         const dayMatch = line.match(/^## (\d{4}-\d{2}-\d{2})/);
         if (dayMatch) {
           if (currentDay && currentDay.items.length > 0) days.push(currentDay);
@@ -906,9 +1248,7 @@
           currentItem = null;
           continue;
         }
-
         if (!currentDay) continue;
-
         const titleMatch = line.match(/^### \[(\d+)\]\s+(.+)/);
         if (titleMatch) {
           currentItem = {
@@ -919,12 +1259,9 @@
           currentDay.items.push(currentItem);
           continue;
         }
-
         if (!currentItem) continue;
-
         const summaryMatch = line.match(/^- \*\*事件摘要\*\*[：:]\s*(.+)/);
         if (summaryMatch) { currentItem.summary = summaryMatch[1]; continue; }
-
         const sourceMatch = line.match(/^- \*\*来源\*\*[：:]\s*(.+)/);
         if (sourceMatch) {
           const raw = sourceMatch[1].trim();
@@ -943,27 +1280,21 @@
           }
           continue;
         }
-
         const platformMatch = line.match(/^- \*\*来源平台\*\*[：:]\s*(.+)/);
         if (platformMatch) { currentItem.platform = platformMatch[1].trim(); continue; }
-
         const trustMatch = line.match(/^- \*\*来源可信度\*\*[：:]\s*(.+)/);
         if (trustMatch) { currentItem.trust = trustMatch[1].trim(); continue; }
-
         const insightMatch = line.match(/^- \*\*OD启示\*\*[：:]\s*(.+)/);
         if (insightMatch) { currentItem.insight = insightMatch[1]; continue; }
-
         const tagMatch = line.match(/^- \*\*标签\*\*[：:]\s*(.+)/);
         if (tagMatch) {
           currentItem.tags = tagMatch[1].match(/#[\w\u4e00-\u9fff-]+/g) || [];
           currentItem.tags = currentItem.tags.map(t => t.replace('#', ''));
           continue;
         }
-
         const timeMatch = line.match(/^- \*\*抓取时间\*\*[：:]\s*(.+)/);
         if (timeMatch) { currentItem.time = timeMatch[1]; continue; }
       }
-
       if (currentDay && currentDay.items.length > 0) days.push(currentDay);
       return days;
     }
@@ -972,35 +1303,51 @@
     // Load
     // ============================================================
     async function loadData() {
-      // Load info digest
       try {
         const resp = await fetch('./digest.md');
         if (resp.ok) {
           const text = await resp.text();
           allDays = parseDigest(text);
         }
-      } catch (e) {
-        console.log('digest.md not loaded');
-      }
+      } catch (e) { console.log('digest.md not loaded'); }
 
-      // Load report digest
       try {
         const resp = await fetch('./daily-report/digest.json');
         if (resp.ok) {
           const data = await resp.json();
           allReports = (data.reports || []).sort((a, b) => b.date.localeCompare(a.date));
         }
-      } catch (e) {
-        console.log('digest.json not loaded');
-      }
+      } catch (e) { console.log('digest.json not loaded'); }
 
-      // Update badges
+      // Try loading pre-generated XHS content
+      try {
+        const resp = await fetch('./xhs-content/digest.json');
+        if (resp.ok) {
+          const data = await resp.json();
+          xhsNotes = data.notes || [];
+        }
+      } catch (e) { console.log('xhs digest not loaded'); }
+
+      updateBadges();
+      renderInfoPage();
+      renderReportPage();
+    }
+
+    function updateBadges() {
       const totalItems = allDays.reduce((s, d) => s + d.items.length, 0);
       document.getElementById('infoBadge').textContent = totalItems;
       document.getElementById('reportBadge').textContent = allReports.length;
+      document.getElementById('xhsBadge').textContent = xhsNotes.length;
 
-      renderInfoPage();
-      renderReportPage();
+      const totalDays = allDays.length;
+      const totalSources = new Set();
+      allDays.forEach(d => d.items.forEach(item => {
+        totalSources.add(item.platform || item.source || '');
+      }));
+      document.getElementById('headerStats').innerHTML =
+        `<span>📅 <strong>${totalDays}</strong> 天</span>` +
+        `<span>📄 <strong>${totalItems}</strong> 条</span>` +
+        `<span>📡 <strong>${totalSources.size}</strong> 源</span>`;
     }
 
     // ============================================================
@@ -1011,7 +1358,6 @@
       allDays.forEach(d => d.items.forEach(item => item.tags.forEach(t => tagSet.add(t))));
       return Array.from(tagSet).sort();
     }
-
     function getAllPlatforms() {
       const srcMap = new Map();
       allDays.forEach(d => d.items.forEach(item => {
@@ -1020,14 +1366,6 @@
       }));
       return Array.from(srcMap.entries()).sort((a, b) => b[1] - a[1]);
     }
-
-    function getPlatformCategory(platform) {
-      for (const [cat, platforms] of Object.entries(PLATFORM_CATEGORIES)) {
-        if (platforms.some(p => platform.includes(p))) return cat;
-      }
-      return '其他';
-    }
-
     function getTrustStats() {
       const stats = { '⭐高': 0, '📰较高': 0, '💬参考': 0, '': 0 };
       allDays.forEach(d => d.items.forEach(item => {
@@ -1037,7 +1375,6 @@
       }));
       return stats;
     }
-
     function renderTrustFilters() {
       const container = document.getElementById('trustFilters');
       const stats = getTrustStats();
@@ -1051,7 +1388,6 @@
       }
       container.innerHTML = html;
     }
-
     function renderSourceFilters() {
       const container = document.getElementById('sourceFilters');
       const platforms = getAllPlatforms();
@@ -1063,7 +1399,6 @@
       });
       container.innerHTML = html;
     }
-
     function renderTagFilters() {
       const container = document.getElementById('tagFilters');
       const tags = getAllTags();
@@ -1075,13 +1410,11 @@
       });
       container.innerHTML = html;
     }
-
     function renderCoverage() {
       const container = document.getElementById('coverage');
       const platforms = getAllPlatforms();
       if (platforms.length === 0) { container.innerHTML = ''; return; }
-      let html = '<div class="coverage-title">📊 来源覆盖情况（' + platforms.length + ' 个平台）</div>';
-      html += '<div class="coverage-bar">';
+      let html = '<div class="coverage-title">📊 来源覆盖情况（' + platforms.length + ' 个平台）</div><div class="coverage-bar">';
       for (const [cat, expectedPlatforms] of Object.entries(PLATFORM_CATEGORIES)) {
         for (const ep of expectedPlatforms) {
           const found = platforms.find(([name]) => name.includes(ep));
@@ -1091,7 +1424,6 @@
       html += '</div>';
       container.innerHTML = html;
     }
-
     function setTrustFilter(trust) { activeTrustFilter = trust; renderInfoPage(); }
     function setSourceFilter(source) { activeSourceFilter = source; renderInfoPage(); }
     function setTagFilter(tag) { activeTagFilter = tag; renderInfoPage(); }
@@ -1099,22 +1431,6 @@
       const cardKey = `${date}-${id}`;
       openCardId = openCardId === cardKey ? null : cardKey;
       renderInfoList();
-    }
-
-    function highlightText(text, query) {
-      if (!query || !text) return text;
-      const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-      return text.replace(new RegExp(`(${escaped})`, 'gi'), '<mark>$1</mark>');
-    }
-
-    function esc(str) {
-      if (!str) return '';
-      return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-    }
-
-    function truncate(str, len) {
-      if (!str) return '';
-      return str.length > len ? str.substring(0, len) + '...' : str;
     }
 
     function renderInfoPage() {
@@ -1129,7 +1445,6 @@
       const query = document.getElementById('searchBox').value.toLowerCase().trim();
       const container = document.getElementById('infoContent');
       const statsEl = document.getElementById('stats');
-
       let filteredDays = allDays.map(day => {
         const filteredItems = day.items.filter(item => {
           if (activeTrustFilter && item.trust !== activeTrustFilter) return false;
@@ -1146,7 +1461,6 @@
         });
         return { ...day, items: filteredItems };
       });
-
       const totalItems = filteredDays.reduce((s, d) => s + d.items.length, 0);
       const totalDays = filteredDays.filter(d => d.items.length > 0).length;
       const filters = [];
@@ -1155,22 +1469,14 @@
       if (activeTagFilter) filters.push(`标签: #${activeTagFilter}`);
       if (query) filters.push(`搜索: "${query}"`);
       statsEl.innerHTML = `共 <strong>${totalDays}</strong> 天 · <strong>${totalItems}</strong> 条信息${filters.length ? ' · ' + filters.join(' · ') : ''}`;
-
       if (totalItems === 0) {
-        container.innerHTML = `
-          <div class="empty">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
-            <h3>${allDays.length === 0 ? '暂无沉淀内容' : '未找到匹配结果'}</h3>
-            <p>${allDays.length === 0 ? '信息搜集自动化已配置，每天 8:00 / 13:00 / 17:00 自动从 40+ 来源抓取。' : '试试调整搜索关键词或筛选条件'}</p>
-          </div>`;
+        container.innerHTML = `<div class="empty"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg><h3>${allDays.length === 0 ? '暂无沉淀内容' : '未找到匹配结果'}</h3><p>${allDays.length === 0 ? '信息搜集自动化已配置，每天 8:00 / 13:00 / 17:00 自动从 40+ 来源抓取。' : '试试调整搜索关键词或筛选条件'}</p></div>`;
         return;
       }
-
       let html = '';
       filteredDays.forEach(day => {
         if (day.items.length === 0) return;
-        html += `<div class="day-group">`;
-        html += `<div class="day-header"><h2>📅 ${day.date}</h2><span class="day-count">${day.items.length} 条</span></div>`;
+        html += `<div class="day-group"><div class="day-header"><h2>📅 ${day.date}</h2><span class="day-count">${day.items.length} 条</span></div>`;
         day.items.forEach(item => {
           const cardKey = `${day.date}-${item.id}`;
           const isActive = openCardId === cardKey;
@@ -1179,62 +1485,12 @@
             const trustInfo = TRUST_LEVELS[item.trust];
             trustClass = trustInfo ? trustInfo.class : 'trust-ref';
           }
-          html += `
-            <div class="card ${isActive ? 'active' : ''}" onclick="toggleCard('${day.date}', '${item.id}')">
-              <div class="card-header">
-                <div class="card-title-area">
-                  <div class="card-title">${highlightText(esc(item.title), query)}</div>
-                  <div class="card-brief">${highlightText(esc(truncate(item.summary, 80)), query)}</div>
-                </div>
-                <div class="card-right">
-                  ${item.trust ? `<span class="card-trust-mini ${trustClass}">${esc(item.trust)}</span>` : ''}
-                  <svg class="card-expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
-                </div>
-              </div>
-              <div class="card-meta-mini">
-                <span>${esc(item.source)}</span>
-                ${item.platform ? `<span>· ${esc(item.platform)}</span>` : ''}
-                ${item.tags.length > 0 ? `<span>· ${item.tags.slice(0, 3).map(t => '#' + t).join(' ')}${item.tags.length > 3 ? ' +' + (item.tags.length - 3) : ''}</span>` : ''}
-              </div>
-            </div>`;
-          html += `
-            <div class="reader-panel ${isActive ? 'open' : ''}" id="panel-${cardKey}">
-              <div class="reader-inner">
-                <div class="reader-header">
-                  <div class="reader-num">${item.id}</div>
-                  <div class="reader-title">${highlightText(esc(item.title), query)}</div>
-                </div>
-                <div class="reader-meta">
-                  <span class="reader-meta-item">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg>
-                    <strong>${esc(item.source)}</strong>
-                  </span>
-                  ${item.platform ? `<span class="reader-meta-item">📍 ${esc(item.platform)}</span>` : ''}
-                  ${item.trust ? `<span class="reader-meta-item">${esc(item.trust)}</span>` : ''}
-                  ${item.time ? `<span class="reader-meta-item">🕐 ${esc(item.time)}</span>` : ''}
-                </div>
-                ${item.summary ? `
-                <div class="reader-section">
-                  <div class="reader-section-label"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>事件摘要</div>
-                  <div class="reader-summary">${highlightText(esc(item.summary), query)}</div>
-                </div>` : ''}
-                ${item.insight ? `
-                <div class="reader-section">
-                  <div class="reader-section-label"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>OD 启示</div>
-                  <div class="reader-insight">${highlightText(esc(item.insight), query)}</div>
-                </div>` : ''}
-                ${item.tags.length > 0 ? `<div class="reader-tags">${item.tags.map(t => `<span class="reader-tag" onclick="event.stopPropagation(); setTagFilter('${t}')">#${esc(t)}</span>`).join('')}</div>` : ''}
-                <div class="reader-actions">
-                  ${item.sourceUrl ? `<a class="btn-read-original" href="${esc(item.sourceUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>阅读原文</a>` : ''}
-                  <button class="btn-close-panel" onclick="event.stopPropagation(); toggleCard('${day.date}', '${item.id}')">收起</button>
-                </div>
-              </div>
-            </div>`;
+          html += `<div class="card ${isActive ? 'active' : ''}" onclick="toggleCard('${day.date}', '${item.id}')"><div class="card-header"><div class="card-title-area"><div class="card-title">${highlightText(esc(item.title), query)}</div><div class="card-brief">${highlightText(esc(truncate(item.summary, 80)), query)}</div></div><div class="card-right">${item.trust ? `<span class="card-trust-mini ${trustClass}">${esc(item.trust)}</span>` : ''}<svg class="card-expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="card-meta-mini"><span>${esc(item.source)}</span>${item.platform ? `<span>· ${esc(item.platform)}</span>` : ''}${item.tags.length > 0 ? `<span>· ${item.tags.slice(0, 3).map(t => '#' + t).join(' ')}${item.tags.length > 3 ? ' +' + (item.tags.length - 3) : ''}</span>` : ''}</div></div>`;
+          html += `<div class="reader-panel ${isActive ? 'open' : ''}" id="panel-${cardKey}"><div class="reader-inner"><div class="reader-header"><div class="reader-num">${item.id}</div><div class="reader-title">${highlightText(esc(item.title), query)}</div></div><div class="reader-meta"><span class="reader-meta-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg><strong>${esc(item.source)}</strong></span>${item.platform ? `<span class="reader-meta-item">📍 ${esc(item.platform)}</span>` : ''}${item.trust ? `<span class="reader-meta-item">${esc(item.trust)}</span>` : ''}${item.time ? `<span class="reader-meta-item">🕐 ${esc(item.time)}</span>` : ''}</div>${item.summary ? `<div class="reader-section"><div class="reader-section-label"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>事件摘要</div><div class="reader-summary">${highlightText(esc(item.summary), query)}</div></div>` : ''}${item.insight ? `<div class="reader-section"><div class="reader-section-label"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>OD 启示</div><div class="reader-insight">${highlightText(esc(item.insight), query)}</div></div>` : ''}${item.tags.length > 0 ? `<div class="reader-tags">${item.tags.map(t => `<span class="reader-tag" onclick="event.stopPropagation(); setTagFilter('${t}')">#${esc(t)}</span>`).join('')}</div>` : ''}<div class="reader-actions">${item.sourceUrl ? `<a class="btn-read-original" href="${esc(item.sourceUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>阅读原文</a>` : ''}<button class="btn-close-panel" onclick="event.stopPropagation(); toggleCard('${day.date}', '${item.id}')">收起</button></div></div></div>`;
         });
         html += `</div>`;
       });
       container.innerHTML = html;
-
       if (openCardId) {
         const panel = document.getElementById(`panel-${openCardId}`);
         if (panel) setTimeout(() => panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 100);
@@ -1248,157 +1504,661 @@
       expandedReportDate = expandedReportDate === date ? null : date;
       renderReportTimeline();
     }
-
     function renderReportPage() {
       const container = document.getElementById('reportContent');
-
       if (allReports.length === 0) {
-        container.innerHTML = `
-          <div class="empty">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-            <h3>暂无日报</h3>
-            <p>每日 17:00 自动生成工作日报，届时这里会展示日报时间线。</p>
-          </div>`;
+        container.innerHTML = `<div class="empty"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg><h3>暂无日报</h3><p>每日 17:00 自动生成工作日报，届时这里会展示日报时间线。</p></div>`;
         return;
       }
-
-      // Aggregate stats
       const totalItems = allReports.reduce((s, r) => s + r.items, 0);
       const totalHigh = allReports.reduce((s, r) => s + (r.trust?.high || 0), 0);
       const totalMid = allReports.reduce((s, r) => s + (r.trust?.mid || 0), 0);
       const totalRef = allReports.reduce((s, r) => s + (r.trust?.ref || 0), 0);
       const allTags = [...new Set(allReports.flatMap(r => r.tags || []))];
-
-      let html = `
-        <div class="report-summary">
-          <div class="report-stat-card">
-            <div class="report-stat-value">${allReports.length}</div>
-            <div class="report-stat-label">日报总数</div>
-          </div>
-          <div class="report-stat-card">
-            <div class="report-stat-value">${totalItems}</div>
-            <div class="report-stat-label">累计信息条目</div>
-          </div>
-          <div class="report-stat-card">
-            <div class="report-stat-value">${totalHigh}</div>
-            <div class="report-stat-label">⭐高可信度</div>
-          </div>
-          <div class="report-stat-card">
-            <div class="report-stat-value">${totalMid}</div>
-            <div class="report-stat-label">📰较高可信度</div>
-          </div>
-        </div>
-
-        <div style="margin-bottom: 28px;">
-          <div class="trust-bar">
-            <div class="trust-bar-seg high" style="width: ${totalItems ? (totalHigh/totalItems*100) : 0}%"></div>
-            <div class="trust-bar-seg mid" style="width: ${totalItems ? (totalMid/totalItems*100) : 0}%"></div>
-            <div class="trust-bar-seg ref" style="width: ${totalItems ? (totalRef/totalItems*100) : 0}%"></div>
-          </div>
-          <div class="trust-legend">
-            <span class="trust-legend-item"><span class="trust-legend-dot" style="background:var(--trust-high)"></span>⭐高 ${totalHigh}</span>
-            <span class="trust-legend-item"><span class="trust-legend-dot" style="background:var(--trust-mid)"></span>📰较高 ${totalMid}</span>
-            <span class="trust-legend-item"><span class="trust-legend-dot" style="background:var(--trust-ref)"></span>💬参考 ${totalRef}</span>
-          </div>
-        </div>
-
-        ${allTags.length > 0 ? `
-        <div style="margin-bottom: 28px;">
-          <div style="font-size: 13px; color: var(--text2); margin-bottom: 8px;">研究方向覆盖</div>
-          <div class="report-tags">
-            ${allTags.map(t => `<span class="report-tag">#${esc(t)}</span>`).join('')}
-          </div>
-        </div>` : ''}
-
-        <div class="report-timeline" id="reportTimeline"></div>
-      `;
-
+      let html = `<div class="report-summary"><div class="report-stat-card"><div class="report-stat-value">${allReports.length}</div><div class="report-stat-label">日报总数</div></div><div class="report-stat-card"><div class="report-stat-value">${totalItems}</div><div class="report-stat-label">累计信息条目</div></div><div class="report-stat-card"><div class="report-stat-value">${totalHigh}</div><div class="report-stat-label">⭐高可信度</div></div><div class="report-stat-card"><div class="report-stat-value">${totalMid}</div><div class="report-stat-label">📰较高可信度</div></div></div><div style="margin-bottom: 28px;"><div class="trust-bar"><div class="trust-bar-seg high" style="width: ${totalItems ? (totalHigh/totalItems*100) : 0}%"></div><div class="trust-bar-seg mid" style="width: ${totalItems ? (totalMid/totalItems*100) : 0}%"></div><div class="trust-bar-seg ref" style="width: ${totalItems ? (totalRef/totalItems*100) : 0}%"></div></div><div class="trust-legend"><span class="trust-legend-item"><span class="trust-legend-dot" style="background:var(--trust-high)"></span>⭐高 ${totalHigh}</span><span class="trust-legend-item"><span class="trust-legend-dot" style="background:var(--trust-mid)"></span>📰较高 ${totalMid}</span><span class="trust-legend-item"><span class="trust-legend-dot" style="background:var(--trust-ref)"></span>💬参考 ${totalRef}</span></div></div>${allTags.length > 0 ? `<div style="margin-bottom: 28px;"><div style="font-size: 13px; color: var(--text2); margin-bottom: 8px;">研究方向覆盖</div><div class="report-tags">${allTags.map(t => `<span class="report-tag">#${esc(t)}</span>`).join('')}</div></div>` : ''}<div class="report-timeline" id="reportTimeline"></div>`;
       container.innerHTML = html;
       renderReportTimeline();
     }
-
     function renderReportTimeline() {
       const container = document.getElementById('reportTimeline');
       if (!container) return;
-
       const today = new Date().toISOString().slice(0, 10);
-
       let html = '';
       allReports.forEach(r => {
         const isToday = r.date === today;
         const isExpanded = expandedReportDate === r.date;
-
-        html += `
-          <div class="report-day">
-            <div class="report-day-dot ${isToday ? 'today' : ''}"></div>
-            <div class="report-day-card ${isExpanded ? 'expanded' : ''}" onclick="toggleReport('${r.date}')">
-              <div class="report-day-header">
-                <div>
-                  <div class="report-day-title">
-                    📅 ${r.date}${r.weekday ? ` (${r.weekday})` : ''}
-                    ${isToday ? '<span class="report-day-badge">今天</span>' : ''}
-                  </div>
-                </div>
-                <div class="report-day-meta">
-                  <span><strong>${r.items}</strong> 条</span>
-                  <span>${r.platforms} 个平台</span>
-                </div>
-                <svg class="report-day-expand" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
-              </div>
-              <div class="report-day-body">
-                <div class="report-day-content">
-
-                  ${r.trends && r.trends.length > 0 ? `
-                  <div class="report-section">
-                    <div class="report-section-title">🔍 趋势洞察</div>
-                    ${r.trends.map((t, i) => `
-                      <div class="trend-item">
-                        <span class="trend-num">${i + 1}</span>
-                        <span class="trend-text">${esc(t)}</span>
-                      </div>
-                    `).join('')}
-                  </div>` : ''}
-
-                  ${r.topPicks && r.topPicks.length > 0 ? `
-                  <div class="report-section">
-                    <div class="report-section-title">⭐ 重点推荐（${r.topPicks.length} 条）</div>
-                    ${r.topPicks.map(p => `
-                      <div class="pick-item">
-                        <div class="pick-title">${esc(p.title)}</div>
-                        <div class="pick-meta">来源：${esc(p.platform)}</div>
-                        <div class="pick-reason">${esc(p.reason)}</div>
-                        ${p.url ? `<a class="pick-link" href="${esc(p.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">🔗 查看原文 →</a>` : ''}
-                      </div>
-                    `).join('')}
-                  </div>` : ''}
-
-                  ${r.nextFocus && r.nextFocus.length > 0 ? `
-                  <div class="report-section">
-                    <div class="report-section-title">🎯 明日关注</div>
-                    ${r.nextFocus.map(f => `
-                      <div class="focus-item">
-                        <div class="focus-dot"></div>
-                        <div class="focus-text">${esc(f)}</div>
-                      </div>
-                    `).join('')}
-                  </div>` : ''}
-
-                  ${r.tags && r.tags.length > 0 ? `
-                  <div class="report-section">
-                    <div class="report-section-title">🏷️ 研究标签</div>
-                    <div class="report-tags">
-                      ${r.tags.map(t => `<span class="report-tag">#${esc(t)}</span>`).join('')}
-                    </div>
-                  </div>` : ''}
-
-                </div>
-              </div>
-            </div>
-          </div>
-        `;
+        html += `<div class="report-day"><div class="report-day-dot ${isToday ? 'today' : ''}"></div><div class="report-day-card ${isExpanded ? 'expanded' : ''}" onclick="toggleReport('${r.date}')"><div class="report-day-header"><div><div class="report-day-title">📅 ${r.date}${r.weekday ? ` (${r.weekday})` : ''}${isToday ? '<span class="report-day-badge">今天</span>' : ''}</div></div><div class="report-day-meta"><span><strong>${r.items}</strong> 条</span><span>${r.platforms} 个平台</span></div><svg class="report-day-expand" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></div><div class="report-day-body"><div class="report-day-content">${r.trends && r.trends.length > 0 ? `<div class="report-section"><div class="report-section-title">🔍 趋势洞察</div>${r.trends.map((t, i) => `<div class="trend-item"><span class="trend-num">${i + 1}</span><span class="trend-text">${esc(t)}</span></div>`).join('')}</div>` : ''}${r.topPicks && r.topPicks.length > 0 ? `<div class="report-section"><div class="report-section-title">⭐ 重点推荐（${r.topPicks.length} 条）</div>${r.topPicks.map(p => `<div class="pick-item"><div class="pick-title">${esc(p.title)}</div><div class="pick-meta">来源：${esc(p.platform)}</div><div class="pick-reason">${esc(p.reason)}</div>${p.url ? `<a class="pick-link" href="${esc(p.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">🔗 查看原文 →</a>` : ''}</div>`).join('')}</div>` : ''}${r.nextFocus && r.nextFocus.length > 0 ? `<div class="report-section"><div class="report-section-title">🎯 明日关注</div>${r.nextFocus.map(f => `<div class="focus-item"><div class="focus-dot"></div><div class="focus-text">${esc(f)}</div></div>`).join('')}</div>` : ''}${r.tags && r.tags.length > 0 ? `<div class="report-section"><div class="report-section-title">🏷️ 研究标签</div><div class="report-tags">${r.tags.map(t => `<span class="report-tag">#${esc(t)}</span>`).join('')}</div></div>` : ''}</div></div></div></div>`;
       });
+      container.innerHTML = html;
+    }
+
+    // ============================================================
+    // XHS Content Workshop
+    // ============================================================
+
+    // Note type templates
+    const XHS_TEMPLATES = {
+      insight: {
+        label: '深度洞察',
+        class: 'type-insight',
+        hooks: [
+          '别再说"AI是工具"了，真相远比你想的深刻 🔥',
+          '刚看完最新报告，一个数据让我惊出一身冷汗...',
+          '90%的企业都搞错了！AI转型最大的坑竟然是...',
+          '管理层必看！这份数据可能改变你下半年的决策方向',
+          '内部人士透露：真正跑通AI转型的企业都在做这几件事'
+        ],
+        emojis: ['💡', '📊', '🔥', '📌', '✅', '⚠️', '🎯', '💼', '🧠', '📈']
+      },
+      trend: {
+        label: '趋势解读',
+        class: 'type-trend',
+        hooks: [
+          '整个行业正在悄悄变天，你发现了吗？',
+          '2026年最值得关注的组织变革趋势 🌊',
+          '别只盯着裁员数字了，这几个趋势才是真正的信号',
+          '未来3年，这些变化将重塑你的组织架构',
+          '前沿观察：AI时代组织设计的3个关键转折点'
+        ],
+        emojis: ['🌐', '🚀', '🔬', '👀', '🔍', '📈', '💫', '🧭', '🌊', '⚡']
+      },
+      practice: {
+        label: '实践指南',
+        class: 'type-practice',
+        hooks: [
+          '干货来了！手把手教你落地AI组织变革 🛠️',
+          '抄作业了！这家公司的人机协作模式值得所有人学',
+          '我们团队试了3个月，终于跑通了这套方法论',
+          '从0到1：给OD从业者的AI组织设计落地清单',
+          '不要再犹豫了！现在就是最好的启动时机'
+        ],
+        emojis: ['📋', '✍️', '🛠️', '🔑', '📝', '🧩', '⚡', '🎯', '✅', '⭐']
+      },
+      debate: {
+        label: '观点碰撞',
+        class: 'type-debate',
+        hooks: [
+          'AI到底能不能替代人？数据打脸了 🤔',
+          '23万人被裁，一半公司又把人请回——这说明了什么？',
+          '别被表面数据骗了！AI效率的真实水平远低于预期',
+          '管理层说"全面AI化"，我们用数据算了一笔账...',
+          '投资人说投AI，HR说裁人，OD该站在哪一边？'
+        ],
+        emojis: ['🤔', '⚡', '💬', '⚖️', '🎯', '📈', '📉', '💥', '🧨', '🔍']
+      }
+    };
+
+    function renderXHSPage() {
+      const container = document.getElementById('xhsContent');
+      const dates = allDays.map(d => d.date).sort().reverse();
+
+      let html = '';
+
+      // Generate panel
+      html += `<div class="xhs-generate-panel">`;
+      html += `<div class="xhs-generate-header">`;
+      html += `<div class="xhs-generate-title"><span class="xhs-icon">📕</span> 内容工坊</div>`;
+      html += `<div class="xhs-gen-stats">已生成 <strong>${xhsNotes.length}</strong> 篇</div>`;
+      html += `</div>`;
+      html += `<div class="xhs-generate-desc">基于情报库中的高价值信息，自动生成适合小红书发布的内容。每篇包含：标题、正文、话题标签、配图建议。可直接复制到小红书发布。</div>`;
+      html += `<div class="xhs-gen-options">`;
+      if (dates.length > 0) {
+        html += `<select class="xhs-date-select" id="xhsDateSelect">`;
+        html += `<option value="latest">最新一天 (${dates[0]})</option>`;
+        html += `<option value="all">全部数据 (${allDays.reduce((s, d) => s + d.items.length, 0)} 条)</option>`;
+        dates.slice(0, 7).forEach(d => {
+          const count = allDays.find(dd => dd.date === d)?.items.length || 0;
+          html += `<option value="${d}">${d} (${count} 条)</option>`;
+        });
+        html += `</select>`;
+      }
+      html += `<button class="xhs-gen-btn" onclick="generateXHSContent()" ${isGenerating ? 'disabled' : ''}>`;
+      html += `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>`;
+      html += `${isGenerating ? '生成中...' : '生成小红书内容'}`;
+      html += `</button>`;
+      html += `<button class="xhs-gen-btn xhs-gen-btn-secondary" onclick="clearXHSContent()">清空</button>`;
+      html += `</div></div>`;
+
+      // View toggle and cards
+      if (xhsNotes.length > 0) {
+        html += `<div class="xhs-cards-header">`;
+        html += `<div class="xhs-cards-title">📚 生成的内容 (${xhsNotes.length} 篇)</div>`;
+        html += `<div class="xhs-view-toggle">`;
+        html += `<button class="xhs-view-btn ${xhsViewMode === 'full' ? 'active' : ''}" onclick="setXHSView('full')">展开</button>`;
+        html += `<button class="xhs-view-btn ${xhsViewMode === 'compact' ? 'active' : ''}" onclick="setXHSView('compact')">折叠</button>`;
+        html += `</div></div>`;
+
+        xhsNotes.forEach((note, idx) => {
+          const isExpanded = xhsViewMode === 'full' || xhsExpandedCards.has(idx);
+          html += renderXHSCard(note, idx, isExpanded);
+        });
+      } else {
+        html += `<div class="xhs-empty">`;
+        html += `<div class="xhs-empty-icon">📕</div>`;
+        html += `<h3>还没有生成内容</h3>`;
+        html += `<p>点击上方"生成小红书内容"按钮，基于情报库数据自动生成 3-5 篇适合小红书发布的内容笔记。</p>`;
+        html += `</div>`;
+      }
 
       container.innerHTML = html;
+    }
+
+    function renderXHSCard(note, idx, isExpanded) {
+      const template = XHS_TEMPLATES[note.type] || XHS_TEMPLATES.insight;
+      let html = `<div class="xhs-note-card ${isExpanded ? '' : 'compact'}" ${!isExpanded ? `onclick="toggleXHSCard(${idx})"` : ''}>`;
+
+      // Header
+      html += `<div class="xhs-note-header">`;
+      html += `<div class="xhs-note-num">${idx + 1}</div>`;
+      html += `<div class="xhs-note-info">`;
+      html += `<div class="xhs-note-title-text">${esc(note.title)}</div>`;
+      html += `<span class="xhs-note-type ${template.class}">${template.label}</span>`;
+      html += `</div>`;
+      html += `<div class="xhs-note-meta">`;
+      html += `<span>${note.charCount} 字</span>`;
+      if (note.sourceCount) html += `<span>${note.sourceCount} 个来源</span>`;
+      html += `</div>`;
+      if (!isExpanded) {
+        html += `<svg class="report-day-expand" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>`;
+      }
+      html += `</div>`;
+
+      if (isExpanded) {
+        // Body
+        html += `<div class="xhs-note-body">`;
+
+        // Text content (white card mimicking XHS post)
+        html += `<div class="xhs-text-content" id="xhs-text-${idx}">${esc(note.content)}</div>`;
+
+        // Sources
+        if (note.sources && note.sources.length > 0) {
+          html += `<div class="xhs-sources"><div class="xhs-sources-title">📎 信息来源</div>`;
+          note.sources.forEach(src => {
+            html += `<div class="xhs-source-item">`;
+            html += `<span class="xhs-source-dot"></span>`;
+            html += `<span>${esc(src.title)}</span>`;
+            if (src.url) html += ` · <a href="${esc(src.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">原文</a>`;
+            html += `</div>`;
+          });
+          html += `</div>`;
+        }
+
+        // Image suggestion
+        if (note.imageSuggestion) {
+          html += `<div class="xhs-image-suggestion">`;
+          html += `<div class="xhs-image-label">🎨 配图建议</div>`;
+          html += `<div class="xhs-image-desc">${esc(note.imageSuggestion)}</div>`;
+          html += `</div>`;
+        }
+
+        html += `</div>`;
+
+        // Actions
+        html += `<div class="xhs-note-actions">`;
+        html += `<button class="xhs-action-btn primary" onclick="copyXHSText(${idx})">`;
+        html += `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>`;
+        html += `复制正文`;
+        html += `</button>`;
+        html += `<button class="xhs-action-btn" onclick="copyXHSFull(${idx})">`;
+        html += `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>`;
+        html += `复制全部`;
+        html += `</button>`;
+        html += `<button class="xhs-action-btn" onclick="regenerateXHSSingle(${idx})">🔄 重新生成</button>`;
+        html += `</div>`;
+      }
+
+      html += `</div>`;
+      return html;
+    }
+
+    function setXHSView(mode) {
+      xhsViewMode = mode;
+      if (mode === 'full') xhsExpandedCards.clear();
+      renderXHSPage();
+    }
+
+    function toggleXHSCard(idx) {
+      if (xhsExpandedCards.has(idx)) {
+        xhsExpandedCards.delete(idx);
+      } else {
+        xhsExpandedCards.add(idx);
+      }
+      renderXHSPage();
+    }
+
+    function copyXHSText(idx) {
+      const note = xhsNotes[idx];
+      if (note) {
+        navigator.clipboard.writeText(note.content).then(() => showToast('正文已复制到剪贴板'));
+      }
+    }
+
+    function copyXHSFull(idx) {
+      const note = xhsNotes[idx];
+      if (!note) return;
+      let fullText = note.content + '\n\n';
+      if (note.sources && note.sources.length > 0) {
+        fullText += '📎 参考来源：\n';
+        note.sources.forEach(src => {
+          fullText += `· ${src.title}`;
+          if (src.url) fullText += ` ${src.url}`;
+          fullText += '\n';
+        });
+      }
+      if (note.imageSuggestion) {
+        fullText += '\n🎨 配图建议：' + note.imageSuggestion;
+      }
+      navigator.clipboard.writeText(fullText).then(() => showToast('全部内容已复制到剪贴板'));
+    }
+
+    function clearXHSContent() {
+      xhsNotes = [];
+      updateBadges();
+      renderXHSPage();
+      showToast('已清空');
+    }
+
+    function regenerateXHSSingle(idx) {
+      if (idx >= xhsNotes.length) return;
+      const note = xhsNotes[idx];
+      // Re-generate with same sources but different hook/template
+      const types = Object.keys(XHS_TEMPLATES);
+      const newType = types[Math.floor(Math.random() * types.length)];
+      const newNote = generateSingleNote(note.sourceItems || [], newType);
+      if (newNote) {
+        xhsNotes[idx] = newNote;
+        renderXHSPage();
+        showToast('已重新生成');
+      }
+    }
+
+    // ============================================================
+    // XHS Content Generation Engine
+    // ============================================================
+    function generateXHSContent() {
+      if (allDays.length === 0 || isGenerating) return;
+
+      isGenerating = true;
+      renderXHSPage();
+
+      // Use setTimeout to let UI update
+      setTimeout(() => {
+        const dateSelect = document.getElementById('xhsDateSelect');
+        const selectedDate = dateSelect ? dateSelect.value : 'latest';
+
+        let sourceItems = [];
+
+        if (selectedDate === 'all') {
+          allDays.forEach(day => {
+            day.items.forEach(item => {
+              if (item.insight || item.summary) {
+                sourceItems.push({ ...item, date: day.date });
+              }
+            });
+          });
+        } else {
+          const targetDate = selectedDate === 'latest'
+            ? allDays.map(d => d.date).sort().reverse()[0]
+            : selectedDate;
+          const day = allDays.find(d => d.date === targetDate);
+          if (day) {
+            day.items.forEach(item => {
+              if (item.insight || item.summary) {
+                sourceItems.push({ ...item, date: day.date });
+              }
+            });
+          }
+        }
+
+        // Filter for high-quality items (those with insights)
+        const qualityItems = sourceItems.filter(item => item.insight && item.insight.length > 20);
+
+        if (qualityItems.length === 0) {
+          isGenerating = false;
+          renderXHSPage();
+          showToast('没有足够的高质量数据来生成内容');
+          return;
+        }
+
+        // Generate 3-5 notes
+        const count = Math.min(Math.max(3, Math.floor(qualityItems.length / 2)), 5);
+        const newNotes = [];
+
+        // Strategy: pick different types
+        const typePool = ['insight', 'trend', 'practice', 'debate'];
+        const usedIndices = new Set();
+
+        for (let i = 0; i < count && i < qualityItems.length; i++) {
+          const type = typePool[i % typePool.length];
+
+          // Pick 1-3 source items for this note
+          let noteItems;
+          if (type === 'trend' || type === 'debate') {
+            // For trends/debates, pick 2-3 related items
+            noteItems = pickRelatedItems(qualityItems, usedIndices, 2 + Math.floor(Math.random() * 2));
+          } else {
+            // For insights/practices, pick 1-2 focused items
+            noteItems = pickRelatedItems(qualityItems, usedIndices, 1 + Math.floor(Math.random() * 2));
+          }
+
+          if (noteItems.length === 0) continue;
+
+          noteItems.forEach(item => usedIndices.add(qualityItems.indexOf(item)));
+          const note = generateSingleNote(noteItems, type);
+          if (note) newNotes.push(note);
+        }
+
+        xhsNotes = newNotes;
+        updateBadges();
+        isGenerating = false;
+        renderXHSPage();
+
+        if (newNotes.length > 0) {
+          showToast(`成功生成 ${newNotes.length} 篇小红书内容`);
+        }
+      }, 300);
+    }
+
+    function pickRelatedItems(items, usedIndices, count) {
+      // Try to find related items (same tags)
+      const available = items.filter((_, i) => !usedIndices.has(i));
+      if (available.length === 0) return [];
+
+      const picked = [];
+      const first = available[Math.floor(Math.random() * available.length)];
+      picked.push(first);
+      usedIndices.add(items.indexOf(first));
+
+      if (count > 1 && available.length > 1) {
+        const firstTags = new Set(first.tags || []);
+        // Try to find items with overlapping tags
+        const related = available.filter(item => {
+          if (item === first) return false;
+          const itemTags = new Set(item.tags || []);
+          return [...firstTags].some(t => itemTags.has(t));
+        });
+
+        if (related.length > 0) {
+          // Shuffle and pick
+          const shuffled = related.sort(() => Math.random() - 0.5);
+          for (let i = 0; i < Math.min(count - 1, shuffled.length); i++) {
+            picked.push(shuffled[i]);
+            usedIndices.add(items.indexOf(shuffled[i]));
+          }
+        } else if (available.length > 1) {
+          // Pick random unrelated items
+          const others = available.filter(item => item !== first).sort(() => Math.random() - 0.5);
+          for (let i = 0; i < Math.min(count - 1, others.length); i++) {
+            picked.push(others[i]);
+            usedIndices.add(items.indexOf(others[i]));
+          }
+        }
+      }
+
+      return picked;
+    }
+
+    function generateSingleNote(sourceItems, type) {
+      if (!sourceItems || sourceItems.length === 0) return null;
+
+      const template = XHS_TEMPLATES[type] || XHS_TEMPLATES.insight;
+      const primaryItem = sourceItems[0];
+      const secondaryItem = sourceItems[1];
+
+      // Pick a random hook
+      const hook = template.hooks[Math.floor(Math.random() * template.hooks.length)];
+
+      // Build title based on primary item
+      let title = generateTitle(primaryItem, type, hook);
+
+      // Build content
+      let content = generateContent(sourceItems, type, hook);
+
+      // Build tags
+      const allTags = [...new Set(sourceItems.flatMap(item => item.tags || []))];
+      const xhsTags = generateXHSTags(allTags, type);
+
+      // Full content with tags
+      const fullContent = content + '\n\n' + xhsTags;
+
+      // Image suggestion
+      const imageSuggestion = generateImageSuggestion(sourceItems, type);
+
+      // Sources
+      const sources = sourceItems.map(item => ({
+        title: item.title,
+        url: item.sourceUrl || '',
+        platform: item.platform || item.source || ''
+      }));
+
+      // Count
+      const charCount = fullContent.length;
+
+      return {
+        type,
+        title,
+        content: fullContent,
+        charCount,
+        sourceCount: sources.length,
+        sources,
+        imageSuggestion,
+        sourceItems: sourceItems.map(item => ({
+          title: item.title,
+          summary: item.summary,
+          insight: item.insight,
+          source: item.source,
+          sourceUrl: item.sourceUrl,
+          platform: item.platform,
+          tags: item.tags,
+          trust: item.trust,
+          date: item.date
+        }))
+      };
+    }
+
+    function generateTitle(item, type, hook) {
+      // Create a compelling title from the primary item
+      let title = '';
+
+      if (type === 'insight') {
+        // Focus on the key insight
+        const keywords = extractKeywords(item.insight || item.summary || '');
+        if (keywords.length > 0) {
+          title = keywords.slice(0, 3).join(' · ');
+        } else {
+          title = item.title.replace(/[《》]/g, '').substring(0, 20);
+        }
+      } else if (type === 'trend') {
+        title = item.tags ? item.tags.slice(0, 2).join('+') + ' 正在重塑组织设计' : '组织设计新趋势';
+      } else if (type === 'practice') {
+        title = item.insight ? item.insight.substring(0, 25) + '...' : item.title.substring(0, 25);
+      } else if (type === 'debate') {
+        // Use a provocative title
+        const debates = [
+          'AI替代人？你可能搞反了',
+          '裁员潮背后的真相',
+          '别被AI效率神话骗了',
+          '组织变革的最大阻碍不是技术',
+          'AI转型的70%都在这里'
+        ];
+        title = debates[Math.floor(Math.random() * debates.length)];
+      }
+
+      return title.substring(0, 30);
+    }
+
+    function generateContent(sourceItems, type, hook) {
+      const primary = sourceItems[0];
+      const secondary = sourceItems[1];
+      const emojis = XHS_TEMPLATES[type].emojis;
+      const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
+      const e = () => pick(emojis);
+
+      let content = '';
+
+      // Opening hook
+      content += hook + '\n\n';
+
+      // Type-specific content structure
+      if (type === 'insight') {
+        content += `${e()} 核心发现\n\n`;
+        content += formatInsight(primary) + '\n\n';
+        if (secondary) {
+          content += `${e()} 交叉验证\n\n`;
+          content += formatInsight(secondary) + '\n\n';
+        }
+        content += `${e()} 给OD从业者的建议\n\n`;
+        content += generateODAdvice(sourceItems);
+      } else if (type === 'trend') {
+        content += `${e()} 趋势信号\n\n`;
+        content += `最近的研究数据显示，${extractTrendPoint(primary)}。\n\n`;
+        if (secondary) {
+          content += `同时，${extractTrendPoint(secondary)}。\n\n`;
+        }
+        content += `${e()} 这意味着什么\n\n`;
+        content += generateTrendImplication(sourceItems);
+      } else if (type === 'practice') {
+        content += `${e()} 背景\n\n`;
+        content += `${primary.source || '最新报告'}发布的研究揭示了AI组织设计的关键路径。\n\n`;
+        content += `${e()} 落地要点\n\n`;
+        content += generatePracticeSteps(sourceItems);
+      } else if (type === 'debate') {
+        content += `${e()} 数据说话\n\n`;
+        content += `${extractDebatePoint(primary)}\n\n`;
+        if (secondary) {
+          content += `但另一方面，${extractDebatePoint(secondary)}\n\n`;
+        }
+        content += `${e()} 我的看法\n\n`;
+        content += generateDebateOpinion(sourceItems);
+        content += '\n评论区说说你们的观点👇';
+      }
+
+      // Closing
+      content += `\n\n---\n💬 你怎么看？欢迎评论区交流\n📌 关注我，持续分享AI组织设计的最新洞察`;
+
+      return content;
+    }
+
+    function formatInsight(item) {
+      const insight = item.insight || item.summary || '';
+      // Break into readable chunks
+      const sentences = insight.replace(/。/g, '。\n').replace(/；/g, '；\n');
+      return sentences.substring(0, 300);
+    }
+
+    function extractKeywords(text) {
+      if (!text) return [];
+      const keywords = [];
+      const patterns = [
+        /[\u4e00-\u9fff]{2,6}(?:框架|模型|模式|机制|体系|策略|方法)/g,
+        /[\u4e00-\u9fff]{2,4}(?:转型|变革|重塑|重构|升级|替代)/g,
+        /\d+[%％]/g,
+        /[\u4e00-\u9fff]{2,6}(?:核心|关键|重要|首要|主要)/g
+      ];
+      patterns.forEach(p => {
+        const matches = text.match(p);
+        if (matches) keywords.push(...matches.slice(0, 2));
+      });
+      return [...new Set(keywords)].slice(0, 4);
+    }
+
+    function extractTrendPoint(item) {
+      const summary = item.summary || item.insight || '';
+      // Extract first meaningful sentence
+      const match = summary.match(/[^。？！]+[。？！]/);
+      return match ? match[0].trim().substring(0, 80) : summary.substring(0, 80);
+    }
+
+    function extractDebatePoint(item) {
+      const summary = item.summary || item.insight || '';
+      const nums = summary.match(/\d+[%％\d,万]+/g);
+      if (nums && nums.length > 0) {
+        // Find sentence containing numbers
+        const match = summary.match(/[^。？！]*\d+[^。？！]*[。？！]/);
+        return match ? match[0].trim() : summary.substring(0, 100);
+      }
+      return summary.substring(0, 100);
+    }
+
+    function generateODAdvice(items) {
+      const advices = [];
+      items.forEach(item => {
+        if (item.insight) {
+          const sentences = item.insight.split(/[。；]/).filter(s => s.trim().length > 5);
+          if (sentences.length > 0) {
+            advices.push(sentences[sentences.length - 1].trim().replace(/^[，、\s]+/, '') + '。');
+          }
+        }
+      });
+      return advices.slice(0, 3).join('\n');
+    }
+
+    function generateTrendImplication(items) {
+      const tags = [...new Set(items.flatMap(i => i.tags || []))];
+      const implications = [
+        `这些变化意味着，${tags.slice(0, 2).join('和')}将成为OD工作者必须掌握的核心能力。`,
+        `对于组织设计而言，这预示着${tags[0] || '组织变革'}即将进入新阶段。`,
+        `建议关注这些趋势信号，提前布局，不要等到变化发生才被动应对。`
+      ];
+      return implications[Math.floor(Math.random() * implications.length)];
+    }
+
+    function generatePracticeSteps(items) {
+      const steps = [];
+      items.forEach(item => {
+        if (item.insight) {
+          const sentences = item.insight.split(/[。；]/).filter(s => s.includes('建议') || s.includes('需') || s.includes('应') || s.includes('可以'));
+          steps.push(...sentences.map(s => '• ' + s.trim().replace(/^[，、\s]+/, '') + '。'));
+        }
+      });
+      if (steps.length === 0) {
+        steps.push('• 从评估当前组织AI成熟度开始');
+        steps.push('• 制定分阶段的AI组织转型路线图');
+        steps.push('• 建立"人机协作"的治理框架');
+      }
+      return steps.slice(0, 4).join('\n');
+    }
+
+    function generateDebateOpinion(items) {
+      const opinions = [
+        '数据告诉我们，AI转型不是简单的"技术替代人"，而是一场深度的组织重构。盲目跟风裁员的企业，大概率会后悔。\n\n真正聪明的做法是：理解AI的能力边界，找到人机协作的最优解，而不是走极端。',
+        '在我看来，AI效率被高估才是当前最大的陷阱。当所有人都在追逐"AI替代人"的故事时，反而是那些冷静思考"AI如何赋能人"的企业，会在长跑中胜出。',
+        '核心问题不是"AI能不能替代人"，而是"你的组织准备好了吗？"。技术永远只是工具，真正决定成败的是组织设计、人才发展和变革管理。'
+      ];
+      return opinions[Math.floor(Math.random() * opinions.length)];
+    }
+
+    function generateXHSTags(allTags, type) {
+      // Base tags
+      const baseTags = ['#AI组织设计', '#OD', '#组织发展'];
+
+      // Source tags (pick top ones)
+      const sourceTags = allTags.slice(0, 5).map(t => '#' + t);
+
+      // Type-specific tags
+      const typeTags = {
+        insight: ['#深度洞察', '#职场干货', '#管理必读'],
+        trend: ['#行业趋势', '#前沿观察', '#趋势解读'],
+        practice: ['#实践指南', '#方法论', '#落地经验'],
+        debate: ['#观点碰撞', '#深度思考', '#AI讨论']
+      };
+
+      const tags = [...baseTags, ...sourceTags, ...(typeTags[type] || [])];
+      return [...new Set(tags)].slice(0, 10).join(' ');
+    }
+
+    function generateImageSuggestion(sourceItems, type) {
+      const tags = sourceItems.flatMap(i => i.tags || []);
+      const primary = sourceItems[0];
+
+      const suggestions = {
+        insight: `信息图风格：提炼${primary.source || '报告'}中的1-2个核心数据，制作成简洁的数据可视化卡片。配色建议深蓝+白色，突出数字。可加"核心洞察"小标题。`,
+        trend: `趋势时间线图：将关键趋势按照时间/重要性排列，使用箭头连接，体现"变化方向感"。可配合简洁的图标。背景可用渐变色增加视觉冲击力。`,
+        practice: `清单/步骤卡片：将实践要点整理为带勾选框的清单形式，3-5个要点，每个配一个小图标。整体风格简洁专业，适合职场人群。`,
+        debate: `对比式排版：左右分栏，一侧放"常见认知"，另一侧放"数据真相"，中间用VS分隔。数字用醒目颜色标注，制造视觉冲突感。`
+      };
+
+      return suggestions[type] || suggestions.insight;
     }
 
     // ============================================================
