@@ -108,6 +108,10 @@
     .tab-btn.xhs-tab.active {
       background: var(--xhs-red);
     }
+    .tab-btn.kb-tab.active {
+      background: var(--orange);
+      color: #000;
+    }
     .tab-btn .badge {
       font-size: 11px;
       padding: 1px 6px;
@@ -1040,6 +1044,235 @@
     .xhs-empty h3 { font-size: 18px; color: var(--text); margin-bottom: 8px; }
     .xhs-empty p { font-size: 14px; max-width: 400px; margin: 0 auto; }
 
+    /* =================== Knowledge Base Page =================== */
+    .kb-page {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px 24px 60px;
+    }
+    .kb-upload-banner {
+      background: linear-gradient(135deg, rgba(251, 191, 36, 0.08), rgba(251, 191, 36, 0.03));
+      border: 1px solid rgba(251, 191, 36, 0.2);
+      border-radius: 14px;
+      padding: 20px 24px;
+      margin-bottom: 28px;
+    }
+    .kb-upload-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+    .kb-upload-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .kb-upload-icon {
+      width: 28px;
+      height: 28px;
+      background: var(--orange);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #000;
+      font-size: 16px;
+    }
+    .kb-upload-desc {
+      font-size: 13px;
+      color: var(--text2);
+      line-height: 1.7;
+      margin-bottom: 12px;
+    }
+    .kb-upload-steps {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 14px;
+    }
+    .kb-upload-step {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 12px;
+      color: var(--text2);
+    }
+    .kb-upload-step strong {
+      color: var(--orange);
+      font-weight: 600;
+    }
+    .kb-filters {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+      align-items: center;
+    }
+    .kb-filter-label {
+      font-size: 13px;
+      color: var(--text2);
+      margin-right: 4px;
+      flex-shrink: 0;
+    }
+    .kb-filter-tag {
+      padding: 5px 12px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      color: var(--text2);
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .kb-filter-tag:hover { border-color: var(--orange); color: var(--text); }
+    .kb-filter-tag.active {
+      background: var(--orange);
+      border-color: var(--orange);
+      color: #000;
+      font-weight: 500;
+    }
+    .kb-search-box {
+      width: 100%;
+      padding: 10px 16px 10px 40px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      color: var(--text);
+      font-size: 14px;
+      outline: none;
+      transition: border-color 0.2s;
+      margin-bottom: 16px;
+    }
+    .kb-search-box:focus { border-color: var(--orange); }
+    .kb-stats {
+      margin-bottom: 16px;
+      font-size: 13px;
+      color: var(--text2);
+    }
+    .kb-stats strong { color: var(--orange); }
+    .kb-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 16px;
+    }
+    .kb-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      transition: border-color 0.2s, box-shadow 0.2s, transform 0.15s;
+      cursor: default;
+    }
+    .kb-card:hover {
+      border-color: var(--orange);
+      box-shadow: 0 4px 20px rgba(251, 191, 36, 0.06);
+      transform: translateY(-1px);
+    }
+    .kb-card-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+    .kb-card-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      flex-shrink: 0;
+    }
+    .kb-card-icon.consulting { background: rgba(108, 140, 255, 0.15); }
+    .kb-card-icon.academic { background: rgba(167, 139, 250, 0.15); }
+    .kb-card-icon.industry { background: rgba(52, 211, 153, 0.15); }
+    .kb-card-icon.internal { background: rgba(251, 191, 36, 0.15); }
+    .kb-card-icon.media { background: rgba(248, 113, 113, 0.15); }
+    .kb-card-type {
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-weight: 500;
+      flex-shrink: 0;
+    }
+    .kb-card-type.consulting { background: rgba(108, 140, 255, 0.12); color: var(--accent); }
+    .kb-card-type.academic { background: rgba(167, 139, 250, 0.12); color: var(--accent2); }
+    .kb-card-type.industry { background: rgba(52, 211, 153, 0.12); color: var(--green); }
+    .kb-card-type.internal { background: rgba(251, 191, 36, 0.12); color: var(--orange); }
+    .kb-card-type.media { background: rgba(248, 113, 113, 0.12); color: var(--red); }
+    .kb-card-title {
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 1.4;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+    .kb-card-desc {
+      font-size: 13px;
+      color: var(--text2);
+      line-height: 1.6;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      margin-bottom: 10px;
+    }
+    .kb-card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      align-items: center;
+    }
+    .kb-card-tag {
+      font-size: 11px;
+      padding: 2px 8px;
+      background: var(--surface2);
+      border-radius: 10px;
+      color: var(--text2);
+    }
+    .kb-card-date {
+      font-size: 11px;
+      color: var(--text2);
+      margin-left: auto;
+    }
+    .kb-card-file {
+      font-size: 11px;
+      color: var(--accent);
+      margin-top: 8px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .kb-empty {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text2);
+    }
+    .kb-empty-icon {
+      width: 64px;
+      height: 64px;
+      margin: 0 auto 16px;
+      background: rgba(251, 191, 36, 0.12);
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+    }
+    .kb-empty h3 { font-size: 18px; color: var(--text); margin-bottom: 8px; }
+    .kb-empty p { font-size: 14px; max-width: 400px; margin: 0 auto; }
+
     /* Toast notification */
     .toast {
       position: fixed;
@@ -1101,9 +1334,11 @@
       .xhs-generate-panel { padding: 16px; }
       .xhs-gen-options { flex-direction: column; align-items: stretch; }
       .xhs-gen-stats { margin-left: 0; text-align: center; }
-      .tab-btn { font-size: 12px; padding: 8px 6px; }
+      .tab-btn { font-size: 11px; padding: 8px 4px; }
       .tab-btn .tab-label-full { display: none; }
       .tab-btn .tab-label-short { display: inline; }
+      .kb-grid { grid-template-columns: 1fr; }
+      .kb-upload-steps { flex-direction: column; }
     }
     @media (min-width: 641px) {
       .tab-btn .tab-label-short { display: none; }
@@ -1138,6 +1373,11 @@
           <span class="tab-label-full">内容工坊</span><span class="tab-label-short">内容</span>
           <span class="badge" id="xhsBadge">0</span>
         </button>
+        <button class="tab-btn kb-tab" onclick="switchTab('kb')">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+          <span class="tab-label-full">知识库</span><span class="tab-label-short">知识</span>
+          <span class="badge" id="kbBadge">0</span>
+        </button>
       </div>
     </div>
   </header>
@@ -1168,6 +1408,11 @@
     <div class="xhs-page" id="xhsContent"></div>
   </div>
 
+  <!-- =================== Knowledge Base Page =================== -->
+  <div class="page" id="page-kb">
+    <div class="kb-page" id="kbContent"></div>
+  </div>
+
   <div class="footer">
     由 Javis 自动维护 · 数据存储于 <code>/ai-org-research/</code> · 覆盖 40+ 信息源 · 如有问题找老J家兄弟
   </div>
@@ -1181,6 +1426,7 @@
     let allDays = [];
     let allReports = [];
     let xhsNotes = [];
+    let kbReports = [];
     let currentTab = 'info';
     let activeTagFilter = null;
     let activeSourceFilter = null;
@@ -1190,6 +1436,8 @@
     let xhsViewMode = 'full'; // 'full' | 'compact'
     let xhsExpandedCards = new Set();
     let isGenerating = false;
+    let kbSourceTypeFilter = null;
+    let kbTopicFilter = null;
 
     const PLATFORM_CATEGORIES = {
       '国内媒体': ['36氪', '机器之心', '钛媒体', '虎嗅', '界面新闻', '第一财经', '晚点LatePost', '新智元', '量子位', '新浪财经', '搜狐', '每日经济新闻'],
@@ -1238,11 +1486,13 @@
         btn.classList.toggle('active',
           (i === 0 && tab === 'info') ||
           (i === 1 && tab === 'report') ||
-          (i === 2 && tab === 'xhs'));
+          (i === 2 && tab === 'xhs') ||
+          (i === 3 && tab === 'kb'));
       });
       document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
       document.getElementById(`page-${tab}`).classList.add('active');
       if (tab === 'xhs') renderXHSPage();
+      if (tab === 'kb') renderKBPage();
     }
 
     // ============================================================
@@ -1343,6 +1593,15 @@
         }
       } catch (e) { console.log('xhs digest not loaded'); }
 
+      // Try loading knowledge base catalog
+      try {
+        const resp = await fetch('./knowledge/catalog.json');
+        if (resp.ok) {
+          const data = await resp.json();
+          kbReports = data.reports || [];
+        }
+      } catch (e) { console.log('kb catalog not loaded'); }
+
       updateBadges();
       renderInfoPage();
       renderReportPage();
@@ -1353,6 +1612,7 @@
       document.getElementById('infoBadge').textContent = totalItems;
       document.getElementById('reportBadge').textContent = allReports.length;
       document.getElementById('xhsBadge').textContent = xhsNotes.length;
+      document.getElementById('kbBadge').textContent = kbReports.length;
 
       const totalDays = allDays.length;
       const totalSources = new Set();
@@ -2229,6 +2489,173 @@
       };
 
       return suggestions[type] || suggestions.insight;
+    }
+
+    // ============================================================
+    // Knowledge Base
+    // ============================================================
+
+    const KB_SOURCE_TYPES = {
+      consulting: { label: '咨询公司', icon: '🏢', class: 'consulting' },
+      academic: { label: '学术机构', icon: '🎓', class: 'academic' },
+      industry: { label: '行业研究', icon: '📊', class: 'industry' },
+      internal: { label: '内部文档', icon: '📁', class: 'internal' },
+      media: { label: '媒体深度', icon: '📰', class: 'media' }
+    };
+
+    const KB_TOPIC_TAGS = {
+      'AI组织设计': '🤖',
+      '人才发展': '👥',
+      '绩效管理': '📈',
+      '变革管理': '🔄',
+      '组织文化': '🏛️',
+      '战略规划': '🎯',
+      '数字化转型': '💻',
+      '领导力': '👑'
+    };
+
+    function renderKBPage() {
+      const container = document.getElementById('kbContent');
+      const sourceTypes = Object.entries(KB_SOURCE_TYPES);
+      const topicTags = Object.entries(KB_TOPIC_TAGS);
+
+      // Count stats
+      const sourceCounts = {};
+      kbReports.forEach(r => {
+        sourceCounts[r.sourceType] = (sourceCounts[r.sourceType] || 0) + 1;
+      });
+      const topicCounts = {};
+      kbReports.forEach(r => {
+        (r.topics || []).forEach(t => {
+          topicCounts[t] = (topicCounts[t] || 0) + 1;
+        });
+      });
+
+      let html = '';
+
+      // Upload banner
+      html += `<div class="kb-upload-banner">`;
+      html += `<div class="kb-upload-header">`;
+      html += `<div class="kb-upload-icon">📤</div>`;
+      html += `<div class="kb-upload-title">上传知识报告</div>`;
+      html += `</div>`;
+      html += `<div class="kb-upload-desc">`;
+      html += `将研究报告、咨询文档、学术论文等文件发给 Javis（在对话框中直接发送文件或路径），即可自动完成：`;
+      html += `</div>`;
+      html += `<div class="kb-upload-steps">`;
+      html += `<span class="kb-upload-step"><strong>1.</strong> 解析文件内容</span>`;
+      html += `<span class="kb-upload-step"><strong>2.</strong> 自动分类（来源类型 + 研究主题）</span>`;
+      html += `<span class="kb-upload-step"><strong>3.</strong> 生成摘要并纳入知识库</span>`;
+      html += `<span class="kb-upload-step"><strong>4.</strong> 融入情报检索系统</span>`;
+      html += `</div>`;
+      html += `</div>`;
+
+      // Filters
+      html += `<div class="kb-filters">`;
+      html += `<span class="kb-filter-label">来源：</span>`;
+      html += `<span class="kb-filter-tag ${!kbSourceTypeFilter ? 'active' : ''}" onclick="setKBSourceFilter(null)">全部 (${kbReports.length})</span>`;
+      sourceTypes.forEach(([key, info]) => {
+        const count = sourceCounts[key] || 0;
+        if (count > 0) {
+          html += `<span class="kb-filter-tag ${kbSourceTypeFilter === key ? 'active' : ''}" onclick="setKBSourceFilter('${key}')">${info.icon} ${info.label} (${count})</span>`;
+        }
+      });
+      html += `</div>`;
+      html += `<div class="kb-filters">`;
+      html += `<span class="kb-filter-label">主题：</span>`;
+      html += `<span class="kb-filter-tag ${!kbTopicFilter ? 'active' : ''}" onclick="setKBTopicFilter(null)">全部</span>`;
+      topicTags.forEach(([tag, icon]) => {
+        const count = topicCounts[tag] || 0;
+        if (count > 0) {
+          html += `<span class="kb-filter-tag ${kbTopicFilter === tag ? 'active' : ''}" onclick="setKBTopicFilter('${tag}')">${icon} ${tag} (${count})</span>`;
+        }
+      });
+      html += `</div>`;
+
+      // Search
+      html += `<div class="search-wrap" style="margin-bottom: 16px;">`;
+      html += `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--text2);"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>`;
+      html += `<input type="text" class="kb-search-box" id="kbSearchBox" placeholder="搜索报告标题、描述、主题..." oninput="renderKBCards()" />`;
+      html += `</div>`;
+
+      // Stats
+      const filteredCount = getFilteredKBReports().length;
+      html += `<div class="kb-stats">共 <strong>${kbReports.length}</strong> 份报告${filteredCount !== kbReports.length ? ` · 当前显示 <strong>${filteredCount}</strong> 份` : ''}</div>`;
+
+      // Cards
+      html += `<div id="kbCards"></div>`;
+      container.innerHTML = html;
+      renderKBCards();
+    }
+
+    function getFilteredKBReports() {
+      const query = document.getElementById('kbSearchBox') ? document.getElementById('kbSearchBox').value.toLowerCase().trim() : '';
+      return kbReports.filter(r => {
+        if (kbSourceTypeFilter && r.sourceType !== kbSourceTypeFilter) return false;
+        if (kbTopicFilter && !(r.topics || []).includes(kbTopicFilter)) return false;
+        if (query) {
+          const haystack = [r.title, r.description, r.author, r.publisher, ...(r.topics || [])].join(' ').toLowerCase();
+          return haystack.includes(query);
+        }
+        return true;
+      });
+    }
+
+    function renderKBCards() {
+      const cardsContainer = document.getElementById('kbCards');
+      if (!cardsContainer) return;
+      const filtered = getFilteredKBReports();
+
+      // Update stats
+      const statsEl = cardsContainer.previousElementSibling;
+      if (statsEl) {
+        const filteredCount = filtered.length;
+        statsEl.innerHTML = `共 <strong>${kbReports.length}</strong> 份报告${filteredCount !== kbReports.length ? ` · 当前显示 <strong>${filteredCount}</strong> 份` : ''}`;
+      }
+
+      if (filtered.length === 0) {
+        cardsContainer.innerHTML = `<div class="kb-empty"><div class="kb-empty-icon">📚</div><h3>${kbReports.length === 0 ? '知识库为空' : '未找到匹配报告'}</h3><p>${kbReports.length === 0 ? '将报告文件发给 Javis，即可自动解析分类并纳入知识库。' : '试试调整搜索条件或筛选器'}</p></div>`;
+        return;
+      }
+
+      let html = '<div class="kb-grid">';
+      filtered.forEach(report => {
+        const typeInfo = KB_SOURCE_TYPES[report.sourceType] || KB_SOURCE_TYPES.industry;
+        const topicIcons = (report.topics || []).map(t => {
+          const icon = KB_TOPIC_TAGS[t] || '📌';
+          return `<span class="kb-card-tag">${icon} ${t}</span>`;
+        }).join('');
+
+        html += `<div class="kb-card">`;
+        html += `<div class="kb-card-header">`;
+        html += `<div class="kb-card-icon ${typeInfo.class}">${typeInfo.icon}</div>`;
+        html += `<span class="kb-card-type ${typeInfo.class}">${typeInfo.label}</span>`;
+        html += `</div>`;
+        html += `<div class="kb-card-title">${esc(report.title)}</div>`;
+        html += `<div class="kb-card-desc">${esc(report.description)}</div>`;
+        html += `<div class="kb-card-meta">`;
+        html += topicIcons;
+        if (report.date) html += `<span class="kb-card-date">${esc(report.date)}</span>`;
+        html += `</div>`;
+        if (report.author) {
+          html += `<div class="kb-card-file">✍️ ${esc(report.author)}${report.publisher ? ' · ' + esc(report.publisher) : ''}</div>`;
+        }
+        if (report.fileName) {
+          html += `<div class="kb-card-file">📎 ${esc(report.fileName)}${report.fileSize ? ' (' + esc(report.fileSize) + ')' : ''}</div>`;
+        }
+        html += `</div>`;
+      });
+      html += '</div>';
+      cardsContainer.innerHTML = html;
+    }
+
+    function setKBSourceFilter(type) {
+      kbSourceTypeFilter = type;
+      renderKBPage();
+    }
+    function setKBTopicFilter(topic) {
+      kbTopicFilter = topic;
+      renderKBPage();
     }
 
     // ============================================================
