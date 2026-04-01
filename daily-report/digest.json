@@ -1,0 +1,54 @@
+{
+  "reports": [
+    {
+      "date": "2026-03-31",
+      "weekday": "周二",
+      "items": 15,
+      "platforms": 11,
+      "trust": { "high": 5, "mid": 10, "ref": 0 },
+      "tags": ["组织设计", "裁员", "AI效率", "组织模型", "人才发展", "技能提升", "组织转型", "治理机制", "智能体", "绩效管理", "AI-coding", "HR-Tech", "能力管理", "政策监管", "大厂", "AI战略", "超级个体", "人机共生", "AI原生"],
+      "topPicks": [
+        {
+          "title": "德勤《2026年企业AI现状》：仅34%企业深度用AI，人才技能是最大障碍",
+          "platform": "Deloitte",
+          "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html",
+          "reason": "3235名高管调研，新型岗位（AI运营经理、人机交互专员）为职级体系设计提供实操参考。"
+        },
+        {
+          "title": "德勤《技术趋势2026》：AI从根本上重新架构IT组织",
+          "platform": "Deloitte",
+          "url": "https://www.deloitte.com/cn/zh/Industries/technology/perspectives/tech-trends-2026.html",
+          "reason": "连续17年技术趋势报告，IT组织变革可作为全公司AI转型预演案例库。"
+        },
+        {
+          "title": "WEF《AI时代组织转型》报告",
+          "platform": "WEF",
+          "url": "https://www.weforum.org/publications/organizational-transformation-in-the-age-of-ai-how-organizations-maximize-ais-potential/",
+          "reason": "将AI转型定义为组织变革项目，三维度诊断框架直接可用。"
+        },
+        {
+          "title": "Gartner预测：2026年底40%企业应用嵌入AI Agent",
+          "platform": "Gartner",
+          "url": "https://www.gartner.com/en/newsroom/press-releases/2025-08-26-gartner-predicts-40-percent-of-enterprise-apps-will-feature-task-specific-ai-agents-by-2026-up-from-less-than-5-percent-in-2025",
+          "reason": "Agent从实验品变基础设施，Agent治理需立即纳入组织设计议程。"
+        },
+        {
+          "title": "MIT推出Agentic AI组织转型高管课程",
+          "platform": "MIT",
+          "url": "https://professionalprograms.mit.edu/online-program-agentic-ai-organizational-transformation/",
+          "reason": "顶级教育机构将AI组织转型纳入高管必修，课程大纲可直接借鉴。"
+        }
+      ],
+      "trends": [
+        "AI效率高估泡沫被多方戳破，但结构性裁员仍在加速——OD需建立双重评估框架",
+        "岗位管理→能力管理范式转移获得多源背书——传统定编定级方法正在失效",
+        "AI Agent治理从技术议题升级为组织设计议题——Agent需像员工一样管理身份权限"
+      ],
+      "nextFocus": [
+        "Block裁员后续跟踪——AI驱动组织重构最完整案例",
+        "中国大厂AI组织策略动态——阿里/字节/腾讯策略差异",
+        "AI效率评估方法论——系统性ROI评估框架"
+      ]
+    }
+  ]
+}

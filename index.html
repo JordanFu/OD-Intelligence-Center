@@ -1,0 +1,1411 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 组织设计研究 · 看板</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --surface2: #242837;
+      --surface3: #2a2f40;
+      --border: #2e3348;
+      --text: #e1e4ed;
+      --text2: #8b91a8;
+      --accent: #6c8cff;
+      --accent2: #a78bfa;
+      --green: #34d399;
+      --green-dim: rgba(52, 211, 153, 0.12);
+      --orange: #fbbf24;
+      --red: #f87171;
+      --trust-high: #fbbf24;
+      --trust-mid: #60a5fa;
+      --trust-ref: #a78bfa;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Noto Sans SC', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* Header */
+    .header {
+      background: linear-gradient(135deg, #1a1d27 0%, #242837 100%);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(12px);
+    }
+    .header-inner {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 16px 24px;
+    }
+    .header-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 14px;
+    }
+    .header h1 {
+      font-size: 20px;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .header p {
+      font-size: 12px;
+      color: var(--text2);
+      margin-top: 2px;
+    }
+
+    /* Tabs */
+    .tab-bar {
+      display: flex;
+      gap: 4px;
+      background: var(--surface);
+      padding: 3px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+    }
+    .tab-btn {
+      flex: 1;
+      padding: 8px 20px;
+      border: none;
+      border-radius: 8px;
+      background: transparent;
+      color: var(--text2);
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+    .tab-btn:hover { color: var(--text); }
+    .tab-btn.active {
+      background: var(--accent);
+      color: #fff;
+      font-weight: 600;
+    }
+    .tab-btn .badge {
+      font-size: 11px;
+      padding: 1px 6px;
+      border-radius: 10px;
+      background: rgba(255,255,255,0.15);
+      font-weight: 600;
+    }
+    .tab-btn.active .badge {
+      background: rgba(255,255,255,0.25);
+    }
+
+    /* Page visibility */
+    .page { display: none; }
+    .page.active { display: block; }
+
+    /* =================== Information Page (Original) =================== */
+    .controls {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 24px;
+    }
+    .search-box {
+      width: 100%;
+      padding: 12px 16px 12px 42px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      color: var(--text);
+      font-size: 15px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .search-box:focus { border-color: var(--accent); }
+    .search-wrap { position: relative; }
+    .search-wrap svg {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text2);
+    }
+    .filter-row {
+      display: flex;
+      gap: 8px;
+      margin-top: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .filter-label {
+      font-size: 13px;
+      color: var(--text2);
+      margin-right: 4px;
+      flex-shrink: 0;
+    }
+    .filter-tag {
+      padding: 5px 12px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      color: var(--text2);
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .filter-tag:hover { border-color: var(--accent); color: var(--text); }
+    .filter-tag.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+    .filter-tag.trust-high.active { background: var(--trust-high); border-color: var(--trust-high); color: #000; }
+    .filter-tag.trust-mid.active { background: var(--trust-mid); border-color: var(--trust-mid); color: #fff; }
+    .filter-tag.trust-ref.active { background: var(--trust-ref); border-color: var(--trust-ref); color: #fff; }
+    .filter-tag.source-tag.active { background: var(--green); border-color: var(--green); color: #000; }
+    .stats {
+      margin-top: 12px;
+      font-size: 13px;
+      color: var(--text2);
+    }
+    .stats strong { color: var(--accent); }
+
+    .content {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 24px 60px;
+    }
+
+    /* Day Group */
+    .day-group { margin-top: 32px; }
+    .day-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+    .day-header h2 {
+      font-size: 17px;
+      font-weight: 600;
+      color: var(--text);
+    }
+    .day-count {
+      font-size: 12px;
+      background: var(--surface2);
+      padding: 2px 10px;
+      border-radius: 12px;
+      color: var(--text2);
+    }
+
+    /* Card */
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin-bottom: 8px;
+      cursor: pointer;
+      transition: border-color 0.2s, box-shadow 0.2s, transform 0.15s;
+    }
+    .card:hover {
+      border-color: var(--accent);
+      box-shadow: 0 2px 16px rgba(108, 140, 255, 0.08);
+      transform: translateY(-1px);
+    }
+    .card.active {
+      border-color: var(--green);
+      box-shadow: 0 4px 24px rgba(52, 211, 153, 0.1);
+    }
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .card-title-area { flex: 1; min-width: 0; }
+    .card-title {
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 1.4;
+      color: var(--text);
+    }
+    .card-brief {
+      font-size: 13px;
+      color: var(--text2);
+      margin-top: 4px;
+      line-height: 1.5;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .card-right {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .card-trust-mini {
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+    .trust-high { background: rgba(251, 191, 36, 0.15); color: var(--trust-high); }
+    .trust-mid { background: rgba(96, 165, 250, 0.15); color: var(--trust-mid); }
+    .trust-ref { background: rgba(167, 139, 250, 0.15); color: var(--trust-ref); }
+    .card-expand-icon {
+      width: 20px;
+      height: 20px;
+      color: var(--text2);
+      transition: transform 0.25s;
+      flex-shrink: 0;
+    }
+    .card.active .card-expand-icon {
+      transform: rotate(180deg);
+      color: var(--green);
+    }
+    .card-meta-mini {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      margin-top: 6px;
+      font-size: 12px;
+      color: var(--text2);
+    }
+    .card-meta-mini svg { width: 12px; height: 12px; vertical-align: -1px; }
+
+    /* Reader Panel */
+    .reader-panel {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      margin-bottom: 12px;
+      overflow: hidden;
+      max-height: 0;
+      opacity: 0;
+      transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease, margin 0.3s ease;
+      margin-top: 0;
+    }
+    .reader-panel.open {
+      max-height: 1200px;
+      opacity: 1;
+      margin-top: 4px;
+    }
+    .reader-inner { padding: 24px; }
+    .reader-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    .reader-num {
+      font-size: 32px;
+      font-weight: 800;
+      color: var(--accent);
+      opacity: 0.3;
+      line-height: 1;
+      flex-shrink: 0;
+    }
+    .reader-title {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.5;
+      color: var(--text);
+    }
+    .reader-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-radius: 8px;
+      margin-bottom: 20px;
+      font-size: 12px;
+    }
+    .reader-meta-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      color: var(--text2);
+    }
+    .reader-meta-item svg { width: 13px; height: 13px; }
+    .reader-meta-item strong { color: var(--text); font-weight: 500; }
+    .reader-section { margin-bottom: 16px; }
+    .reader-section-label {
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text2);
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .reader-section-label .icon { width: 16px; height: 16px; }
+    .reader-summary {
+      font-size: 15px;
+      color: var(--text);
+      line-height: 1.8;
+    }
+    .reader-insight {
+      font-size: 15px;
+      color: var(--green);
+      background: var(--green-dim);
+      padding: 16px 18px;
+      border-radius: 10px;
+      border-left: 4px solid var(--green);
+      line-height: 1.8;
+    }
+    .reader-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+    .reader-tag {
+      font-size: 12px;
+      padding: 4px 10px;
+      background: var(--surface);
+      border-radius: 6px;
+      color: var(--text2);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .reader-tag:hover { background: var(--border); color: var(--text); }
+    .reader-actions {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+    }
+    .btn-read-original {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: opacity 0.2s, transform 0.15s;
+      text-decoration: none;
+    }
+    .btn-read-original:hover { opacity: 0.9; transform: translateY(-1px); }
+    .btn-read-original svg { width: 16px; height: 16px; }
+    .btn-close-panel {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 10px 16px;
+      background: transparent;
+      color: var(--text2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .btn-close-panel:hover { border-color: var(--text2); color: var(--text); }
+
+    /* Source coverage bar */
+    .coverage {
+      margin-top: 16px;
+      padding: 12px 16px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+    }
+    .coverage-title {
+      font-size: 12px;
+      color: var(--text2);
+      margin-bottom: 8px;
+    }
+    .coverage-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .coverage-item {
+      font-size: 11px;
+      padding: 3px 8px;
+      background: var(--surface2);
+      border-radius: 12px;
+      color: var(--text2);
+    }
+    .coverage-item.active {
+      background: rgba(52, 211, 153, 0.15);
+      color: var(--green);
+    }
+    .coverage-count { color: var(--text); font-weight: 600; }
+
+    /* Empty state */
+    .empty {
+      text-align: center;
+      padding: 80px 20px;
+      color: var(--text2);
+    }
+    .empty svg { margin-bottom: 16px; opacity: 0.4; }
+    .empty h3 { font-size: 18px; margin-bottom: 8px; color: var(--text); }
+    .empty p { font-size: 14px; }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text2);
+      font-size: 12px;
+      border-top: 1px solid var(--border);
+      max-width: 960px;
+      margin: 40px auto 0;
+    }
+
+    mark {
+      background: rgba(108, 140, 255, 0.3);
+      color: var(--text);
+      border-radius: 2px;
+      padding: 0 2px;
+    }
+
+    /* =================== Daily Report Page =================== */
+    .report-page {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px 24px 60px;
+    }
+
+    /* Report summary bar */
+    .report-summary {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 12px;
+      margin-bottom: 28px;
+    }
+    .report-stat-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+      text-align: center;
+    }
+    .report-stat-value {
+      font-size: 28px;
+      font-weight: 800;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 1.2;
+    }
+    .report-stat-label {
+      font-size: 12px;
+      color: var(--text2);
+      margin-top: 4px;
+    }
+
+    /* Trust distribution bar */
+    .trust-bar {
+      display: flex;
+      height: 6px;
+      border-radius: 3px;
+      overflow: hidden;
+      background: var(--surface2);
+      margin: 12px 0;
+    }
+    .trust-bar-seg { height: 100%; transition: width 0.4s ease; }
+    .trust-bar-seg.high { background: var(--trust-high); }
+    .trust-bar-seg.mid { background: var(--trust-mid); }
+    .trust-bar-seg.ref { background: var(--trust-ref); }
+    .trust-legend {
+      display: flex;
+      gap: 16px;
+      font-size: 12px;
+      color: var(--text2);
+    }
+    .trust-legend-item {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .trust-legend-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+
+    /* Report timeline */
+    .report-timeline {
+      position: relative;
+      padding-left: 28px;
+    }
+    .report-timeline::before {
+      content: '';
+      position: absolute;
+      left: 8px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: var(--border);
+    }
+    .report-day {
+      position: relative;
+      margin-bottom: 24px;
+    }
+    .report-day-dot {
+      position: absolute;
+      left: -24px;
+      top: 16px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--accent);
+      border: 2px solid var(--bg);
+    }
+    .report-day-dot.today {
+      background: var(--green);
+      box-shadow: 0 0 8px rgba(52, 211, 153, 0.4);
+    }
+    .report-day-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .report-day-card:hover {
+      border-color: var(--accent);
+      box-shadow: 0 2px 12px rgba(108, 140, 255, 0.08);
+    }
+    .report-day-card.expanded {
+      border-color: var(--green);
+    }
+    .report-day-header {
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .report-day-title {
+      font-size: 16px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .report-day-badge {
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 10px;
+      background: var(--green-dim);
+      color: var(--green);
+      font-weight: 500;
+    }
+    .report-day-meta {
+      display: flex;
+      gap: 16px;
+      font-size: 13px;
+      color: var(--text2);
+      flex-shrink: 0;
+    }
+    .report-day-meta strong { color: var(--text); font-weight: 500; }
+    .report-day-expand {
+      width: 20px;
+      height: 20px;
+      color: var(--text2);
+      transition: transform 0.25s;
+      flex-shrink: 0;
+    }
+    .report-day-card.expanded .report-day-expand {
+      transform: rotate(180deg);
+      color: var(--green);
+    }
+
+    /* Expanded report content */
+    .report-day-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .report-day-card.expanded .report-day-body {
+      max-height: 3000px;
+    }
+    .report-day-content {
+      padding: 0 20px 20px;
+      border-top: 1px solid var(--border);
+    }
+
+    /* Section inside expanded report */
+    .report-section {
+      margin-top: 20px;
+    }
+    .report-section-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* Source table */
+    .source-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    .source-table th {
+      text-align: left;
+      padding: 8px 12px;
+      background: var(--surface2);
+      color: var(--text2);
+      font-weight: 500;
+      font-size: 12px;
+    }
+    .source-table th:first-child { border-radius: 6px 0 0 6px; }
+    .source-table th:last-child { border-radius: 0 6px 6px 0; }
+    .source-table td {
+      padding: 8px 12px;
+      border-bottom: 1px solid var(--border);
+      color: var(--text);
+    }
+
+    /* Top picks */
+    .pick-item {
+      padding: 12px 16px;
+      background: var(--surface2);
+      border-radius: 10px;
+      margin-bottom: 8px;
+      border-left: 3px solid var(--green);
+      transition: border-color 0.2s;
+    }
+    .pick-item:hover { border-left-color: var(--accent); }
+    .pick-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 4px;
+      line-height: 1.4;
+    }
+    .pick-meta {
+      font-size: 12px;
+      color: var(--text2);
+      margin-bottom: 6px;
+    }
+    .pick-reason {
+      font-size: 13px;
+      color: var(--green);
+      line-height: 1.5;
+    }
+    .pick-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 12px;
+      color: var(--accent);
+      text-decoration: none;
+      margin-top: 4px;
+    }
+    .pick-link:hover { text-decoration: underline; }
+
+    /* Trend & focus items */
+    .trend-item {
+      display: flex;
+      gap: 10px;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .trend-item:last-child { border-bottom: none; }
+    .trend-num {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--accent);
+      opacity: 0.5;
+      flex-shrink: 0;
+      width: 20px;
+    }
+    .trend-text {
+      font-size: 14px;
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .focus-item {
+      display: flex;
+      gap: 10px;
+      padding: 8px 0;
+    }
+    .focus-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--orange);
+      flex-shrink: 0;
+      margin-top: 8px;
+    }
+    .focus-text {
+      font-size: 13px;
+      color: var(--text2);
+      line-height: 1.5;
+    }
+
+    /* Tag cloud in report */
+    .report-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .report-tag {
+      font-size: 11px;
+      padding: 3px 10px;
+      background: var(--surface2);
+      border-radius: 12px;
+      color: var(--text2);
+    }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      .header h1 { font-size: 18px; }
+      .card { padding: 14px 16px; }
+      .card-title { font-size: 14px; }
+      .controls { margin: 12px auto; }
+      .reader-inner { padding: 18px; }
+      .reader-title { font-size: 16px; }
+      .reader-actions { flex-direction: column; }
+      .btn-read-original, .btn-close-panel { width: 100%; justify-content: center; }
+      .report-summary { grid-template-columns: repeat(2, 1fr); }
+      .report-day-header { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-inner">
+      <div class="header-top">
+        <div>
+          <h1>🧠 AI 组织设计研究</h1>
+          <p>信息沉淀 · 日报追踪 · 趋势洞察 · 每日自动更新</p>
+        </div>
+      </div>
+      <div class="tab-bar">
+        <button class="tab-btn active" onclick="switchTab('info')">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          信息库
+          <span class="badge" id="infoBadge">0</span>
+        </button>
+        <button class="tab-btn" onclick="switchTab('report')">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          工作日报
+          <span class="badge" id="reportBadge">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- =================== Info Page =================== -->
+  <div class="page active" id="page-info">
+    <div class="controls">
+      <div class="search-wrap">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" class="search-box" id="searchBox" placeholder="搜索标题、摘要、OD启示、来源、标签..." />
+      </div>
+      <div class="filter-row" id="trustFilters"></div>
+      <div class="filter-row" id="sourceFilters"></div>
+      <div class="filter-row" id="tagFilters"></div>
+      <div class="stats" id="stats"></div>
+      <div class="coverage" id="coverage"></div>
+    </div>
+    <div class="content" id="infoContent"></div>
+  </div>
+
+  <!-- =================== Report Page =================== -->
+  <div class="page" id="page-report">
+    <div class="report-page" id="reportContent"></div>
+  </div>
+
+  <div class="footer">
+    由 Javis 自动维护 · 数据存储于 <code>/ai-org-research/</code> · 覆盖 40+ 信息源 · 如有问题找老J家兄弟
+  </div>
+
+  <script>
+    // ============================================================
+    // State
+    // ============================================================
+    let allDays = [];
+    let allReports = [];
+    let currentTab = 'info';
+    let activeTagFilter = null;
+    let activeSourceFilter = null;
+    let activeTrustFilter = null;
+    let openCardId = null;
+    let expandedReportDate = null;
+
+    const PLATFORM_CATEGORIES = {
+      '国内媒体': ['36氪', '机器之心', '钛媒体', '虎嗅', '界面新闻', '第一财经', '晚点LatePost', '新智元', '量子位', '新浪财经', '搜狐', '每日经济新闻'],
+      '国际媒体': ['Hacker News', 'TechCrunch', 'The Verge', 'Wired', 'MIT Technology Review', 'Bloomberg', 'Reuters', 'WinBuzzer', 'siuleeboss'],
+      '咨询公司': ['McKinsey', 'BCG', 'Bain', 'Mercer', 'Aon', 'Deloitte', '德勤', 'PwC', 'EY', 'Capgemini', 'WTW', 'Gartner'],
+      '学术机构': ['HBR', 'HBS', 'Harvard', 'Stanford HAI', 'MIT CSAIL', 'MIT', 'arXiv', 'SSRN'],
+      '行业研究': ['HRTech', 'InfoQ', '火山引擎', 'CCF'],
+      '社交平台': ['小红书', '微信公众号', '知乎', '即刻', 'LinkedIn', 'Twitter/X', 'Reddit', '百度百家']
+    };
+
+    const TRUST_LEVELS = {
+      '⭐高': { label: '⭐ 官方/学术/权威', class: 'trust-high', key: 'high' },
+      '📰较高': { label: '📰 知名媒体', class: 'trust-mid', key: 'mid' },
+      '💬参考': { label: '💬 社交/社区', class: 'trust-ref', key: 'ref' }
+    };
+
+    // ============================================================
+    // Tab Switching
+    // ============================================================
+    function switchTab(tab) {
+      currentTab = tab;
+      document.querySelectorAll('.tab-btn').forEach((btn, i) => {
+        btn.classList.toggle('active', (i === 0 && tab === 'info') || (i === 1 && tab === 'report'));
+      });
+      document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+      document.getElementById(`page-${tab}`).classList.add('active');
+    }
+
+    // ============================================================
+    // Parser
+    // ============================================================
+    function parseDigest(markdown) {
+      const lines = markdown.split('\n');
+      let currentDay = null;
+      let currentItem = null;
+      const days = [];
+
+      for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+        if (line.includes('<!--')) continue;
+
+        const dayMatch = line.match(/^## (\d{4}-\d{2}-\d{2})/);
+        if (dayMatch) {
+          if (currentDay && currentDay.items.length > 0) days.push(currentDay);
+          currentDay = { date: dayMatch[1], items: [] };
+          currentItem = null;
+          continue;
+        }
+
+        if (!currentDay) continue;
+
+        const titleMatch = line.match(/^### \[(\d+)\]\s+(.+)/);
+        if (titleMatch) {
+          currentItem = {
+            id: titleMatch[1], title: titleMatch[2],
+            summary: '', source: '', sourceUrl: '', platform: '',
+            trust: '', insight: '', tags: [], time: ''
+          };
+          currentDay.items.push(currentItem);
+          continue;
+        }
+
+        if (!currentItem) continue;
+
+        const summaryMatch = line.match(/^- \*\*事件摘要\*\*[：:]\s*(.+)/);
+        if (summaryMatch) { currentItem.summary = summaryMatch[1]; continue; }
+
+        const sourceMatch = line.match(/^- \*\*来源\*\*[：:]\s*(.+)/);
+        if (sourceMatch) {
+          const raw = sourceMatch[1].trim();
+          const mdLinkMatch = raw.match(/^\[([^\]]*)\]\(([^)]+)\)$/);
+          if (mdLinkMatch) {
+            currentItem.source = mdLinkMatch[1];
+            currentItem.sourceUrl = mdLinkMatch[2];
+          } else {
+            const parenMatch = raw.match(/^(.+?)[（(](.+?)[）)]/);
+            if (parenMatch) {
+              currentItem.source = parenMatch[1].trim();
+              currentItem.sourceUrl = parenMatch[2].trim();
+            } else {
+              currentItem.source = raw;
+            }
+          }
+          continue;
+        }
+
+        const platformMatch = line.match(/^- \*\*来源平台\*\*[：:]\s*(.+)/);
+        if (platformMatch) { currentItem.platform = platformMatch[1].trim(); continue; }
+
+        const trustMatch = line.match(/^- \*\*来源可信度\*\*[：:]\s*(.+)/);
+        if (trustMatch) { currentItem.trust = trustMatch[1].trim(); continue; }
+
+        const insightMatch = line.match(/^- \*\*OD启示\*\*[：:]\s*(.+)/);
+        if (insightMatch) { currentItem.insight = insightMatch[1]; continue; }
+
+        const tagMatch = line.match(/^- \*\*标签\*\*[：:]\s*(.+)/);
+        if (tagMatch) {
+          currentItem.tags = tagMatch[1].match(/#[\w\u4e00-\u9fff-]+/g) || [];
+          currentItem.tags = currentItem.tags.map(t => t.replace('#', ''));
+          continue;
+        }
+
+        const timeMatch = line.match(/^- \*\*抓取时间\*\*[：:]\s*(.+)/);
+        if (timeMatch) { currentItem.time = timeMatch[1]; continue; }
+      }
+
+      if (currentDay && currentDay.items.length > 0) days.push(currentDay);
+      return days;
+    }
+
+    // ============================================================
+    // Load
+    // ============================================================
+    async function loadData() {
+      // Load info digest
+      try {
+        const resp = await fetch('./digest.md');
+        if (resp.ok) {
+          const text = await resp.text();
+          allDays = parseDigest(text);
+        }
+      } catch (e) {
+        console.log('digest.md not loaded');
+      }
+
+      // Load report digest
+      try {
+        const resp = await fetch('./daily-report/digest.json');
+        if (resp.ok) {
+          const data = await resp.json();
+          allReports = (data.reports || []).sort((a, b) => b.date.localeCompare(a.date));
+        }
+      } catch (e) {
+        console.log('digest.json not loaded');
+      }
+
+      // Update badges
+      const totalItems = allDays.reduce((s, d) => s + d.items.length, 0);
+      document.getElementById('infoBadge').textContent = totalItems;
+      document.getElementById('reportBadge').textContent = allReports.length;
+
+      renderInfoPage();
+      renderReportPage();
+    }
+
+    // ============================================================
+    // Info Page Renderers
+    // ============================================================
+    function getAllTags() {
+      const tagSet = new Set();
+      allDays.forEach(d => d.items.forEach(item => item.tags.forEach(t => tagSet.add(t))));
+      return Array.from(tagSet).sort();
+    }
+
+    function getAllPlatforms() {
+      const srcMap = new Map();
+      allDays.forEach(d => d.items.forEach(item => {
+        const p = item.platform || item.source || '未知';
+        srcMap.set(p, (srcMap.get(p) || 0) + 1);
+      }));
+      return Array.from(srcMap.entries()).sort((a, b) => b[1] - a[1]);
+    }
+
+    function getPlatformCategory(platform) {
+      for (const [cat, platforms] of Object.entries(PLATFORM_CATEGORIES)) {
+        if (platforms.some(p => platform.includes(p))) return cat;
+      }
+      return '其他';
+    }
+
+    function getTrustStats() {
+      const stats = { '⭐高': 0, '📰较高': 0, '💬参考': 0, '': 0 };
+      allDays.forEach(d => d.items.forEach(item => {
+        const t = item.trust || '';
+        if (stats[t] !== undefined) stats[t]++;
+        else stats['']++;
+      }));
+      return stats;
+    }
+
+    function renderTrustFilters() {
+      const container = document.getElementById('trustFilters');
+      const stats = getTrustStats();
+      let html = '<span class="filter-label">可信度：</span>';
+      html += `<span class="filter-tag ${!activeTrustFilter ? 'active' : ''}" onclick="setTrustFilter(null)">全部</span>`;
+      for (const [key, info] of Object.entries(TRUST_LEVELS)) {
+        const count = stats[key] || 0;
+        if (count > 0) {
+          html += `<span class="filter-tag ${info.class} ${activeTrustFilter === key ? 'active' : ''}" onclick="setTrustFilter('${key}')">${info.label} (${count})</span>`;
+        }
+      }
+      container.innerHTML = html;
+    }
+
+    function renderSourceFilters() {
+      const container = document.getElementById('sourceFilters');
+      const platforms = getAllPlatforms();
+      if (platforms.length === 0) { container.innerHTML = ''; return; }
+      let html = '<span class="filter-label">来源：</span>';
+      html += `<span class="filter-tag source-tag ${!activeSourceFilter ? 'active' : ''}" onclick="setSourceFilter(null)">全部</span>`;
+      platforms.forEach(([name, count]) => {
+        html += `<span class="filter-tag source-tag ${activeSourceFilter === name ? 'active' : ''}" onclick="setSourceFilter('${name.replace(/'/g, "\\'")}')">${esc(name)} (${count})</span>`;
+      });
+      container.innerHTML = html;
+    }
+
+    function renderTagFilters() {
+      const container = document.getElementById('tagFilters');
+      const tags = getAllTags();
+      if (tags.length === 0) { container.innerHTML = ''; return; }
+      let html = '<span class="filter-label">标签：</span>';
+      html += `<span class="filter-tag ${!activeTagFilter ? 'active' : ''}" onclick="setTagFilter(null)">全部</span>`;
+      tags.forEach(tag => {
+        html += `<span class="filter-tag ${activeTagFilter === tag ? 'active' : ''}" onclick="setTagFilter('${tag}')">#${esc(tag)}</span>`;
+      });
+      container.innerHTML = html;
+    }
+
+    function renderCoverage() {
+      const container = document.getElementById('coverage');
+      const platforms = getAllPlatforms();
+      if (platforms.length === 0) { container.innerHTML = ''; return; }
+      let html = '<div class="coverage-title">📊 来源覆盖情况（' + platforms.length + ' 个平台）</div>';
+      html += '<div class="coverage-bar">';
+      for (const [cat, expectedPlatforms] of Object.entries(PLATFORM_CATEGORIES)) {
+        for (const ep of expectedPlatforms) {
+          const found = platforms.find(([name]) => name.includes(ep));
+          html += `<span class="coverage-item ${found ? 'active' : ''}">${ep}${found ? ` <span class="coverage-count">(${found[1]})</span>` : ''}</span>`;
+        }
+      }
+      html += '</div>';
+      container.innerHTML = html;
+    }
+
+    function setTrustFilter(trust) { activeTrustFilter = trust; renderInfoPage(); }
+    function setSourceFilter(source) { activeSourceFilter = source; renderInfoPage(); }
+    function setTagFilter(tag) { activeTagFilter = tag; renderInfoPage(); }
+    function toggleCard(date, id) {
+      const cardKey = `${date}-${id}`;
+      openCardId = openCardId === cardKey ? null : cardKey;
+      renderInfoList();
+    }
+
+    function highlightText(text, query) {
+      if (!query || !text) return text;
+      const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      return text.replace(new RegExp(`(${escaped})`, 'gi'), '<mark>$1</mark>');
+    }
+
+    function esc(str) {
+      if (!str) return '';
+      return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
+    function truncate(str, len) {
+      if (!str) return '';
+      return str.length > len ? str.substring(0, len) + '...' : str;
+    }
+
+    function renderInfoPage() {
+      renderTrustFilters();
+      renderSourceFilters();
+      renderTagFilters();
+      renderCoverage();
+      renderInfoList();
+    }
+
+    function renderInfoList() {
+      const query = document.getElementById('searchBox').value.toLowerCase().trim();
+      const container = document.getElementById('infoContent');
+      const statsEl = document.getElementById('stats');
+
+      let filteredDays = allDays.map(day => {
+        const filteredItems = day.items.filter(item => {
+          if (activeTrustFilter && item.trust !== activeTrustFilter) return false;
+          if (activeSourceFilter) {
+            const p = item.platform || item.source || '';
+            if (p !== activeSourceFilter && !p.includes(activeSourceFilter) && !activeSourceFilter.includes(p)) return false;
+          }
+          if (activeTagFilter && !item.tags.includes(activeTagFilter)) return false;
+          if (query) {
+            const haystack = [item.title, item.summary, item.source, item.platform, item.insight, ...item.tags].join(' ').toLowerCase();
+            return haystack.includes(query);
+          }
+          return true;
+        });
+        return { ...day, items: filteredItems };
+      });
+
+      const totalItems = filteredDays.reduce((s, d) => s + d.items.length, 0);
+      const totalDays = filteredDays.filter(d => d.items.length > 0).length;
+      const filters = [];
+      if (activeTrustFilter) filters.push(`可信度: ${activeTrustFilter}`);
+      if (activeSourceFilter) filters.push(`来源: ${activeSourceFilter}`);
+      if (activeTagFilter) filters.push(`标签: #${activeTagFilter}`);
+      if (query) filters.push(`搜索: "${query}"`);
+      statsEl.innerHTML = `共 <strong>${totalDays}</strong> 天 · <strong>${totalItems}</strong> 条信息${filters.length ? ' · ' + filters.join(' · ') : ''}`;
+
+      if (totalItems === 0) {
+        container.innerHTML = `
+          <div class="empty">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+            <h3>${allDays.length === 0 ? '暂无沉淀内容' : '未找到匹配结果'}</h3>
+            <p>${allDays.length === 0 ? '信息搜集自动化已配置，每天 8:00 / 13:00 / 17:00 自动从 40+ 来源抓取。' : '试试调整搜索关键词或筛选条件'}</p>
+          </div>`;
+        return;
+      }
+
+      let html = '';
+      filteredDays.forEach(day => {
+        if (day.items.length === 0) return;
+        html += `<div class="day-group">`;
+        html += `<div class="day-header"><h2>📅 ${day.date}</h2><span class="day-count">${day.items.length} 条</span></div>`;
+        day.items.forEach(item => {
+          const cardKey = `${day.date}-${item.id}`;
+          const isActive = openCardId === cardKey;
+          let trustClass = '';
+          if (item.trust) {
+            const trustInfo = TRUST_LEVELS[item.trust];
+            trustClass = trustInfo ? trustInfo.class : 'trust-ref';
+          }
+          html += `
+            <div class="card ${isActive ? 'active' : ''}" onclick="toggleCard('${day.date}', '${item.id}')">
+              <div class="card-header">
+                <div class="card-title-area">
+                  <div class="card-title">${highlightText(esc(item.title), query)}</div>
+                  <div class="card-brief">${highlightText(esc(truncate(item.summary, 80)), query)}</div>
+                </div>
+                <div class="card-right">
+                  ${item.trust ? `<span class="card-trust-mini ${trustClass}">${esc(item.trust)}</span>` : ''}
+                  <svg class="card-expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                </div>
+              </div>
+              <div class="card-meta-mini">
+                <span>${esc(item.source)}</span>
+                ${item.platform ? `<span>· ${esc(item.platform)}</span>` : ''}
+                ${item.tags.length > 0 ? `<span>· ${item.tags.slice(0, 3).map(t => '#' + t).join(' ')}${item.tags.length > 3 ? ' +' + (item.tags.length - 3) : ''}</span>` : ''}
+              </div>
+            </div>`;
+          html += `
+            <div class="reader-panel ${isActive ? 'open' : ''}" id="panel-${cardKey}">
+              <div class="reader-inner">
+                <div class="reader-header">
+                  <div class="reader-num">${item.id}</div>
+                  <div class="reader-title">${highlightText(esc(item.title), query)}</div>
+                </div>
+                <div class="reader-meta">
+                  <span class="reader-meta-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg>
+                    <strong>${esc(item.source)}</strong>
+                  </span>
+                  ${item.platform ? `<span class="reader-meta-item">📍 ${esc(item.platform)}</span>` : ''}
+                  ${item.trust ? `<span class="reader-meta-item">${esc(item.trust)}</span>` : ''}
+                  ${item.time ? `<span class="reader-meta-item">🕐 ${esc(item.time)}</span>` : ''}
+                </div>
+                ${item.summary ? `
+                <div class="reader-section">
+                  <div class="reader-section-label"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>事件摘要</div>
+                  <div class="reader-summary">${highlightText(esc(item.summary), query)}</div>
+                </div>` : ''}
+                ${item.insight ? `
+                <div class="reader-section">
+                  <div class="reader-section-label"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>OD 启示</div>
+                  <div class="reader-insight">${highlightText(esc(item.insight), query)}</div>
+                </div>` : ''}
+                ${item.tags.length > 0 ? `<div class="reader-tags">${item.tags.map(t => `<span class="reader-tag" onclick="event.stopPropagation(); setTagFilter('${t}')">#${esc(t)}</span>`).join('')}</div>` : ''}
+                <div class="reader-actions">
+                  ${item.sourceUrl ? `<a class="btn-read-original" href="${esc(item.sourceUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>阅读原文</a>` : ''}
+                  <button class="btn-close-panel" onclick="event.stopPropagation(); toggleCard('${day.date}', '${item.id}')">收起</button>
+                </div>
+              </div>
+            </div>`;
+        });
+        html += `</div>`;
+      });
+      container.innerHTML = html;
+
+      if (openCardId) {
+        const panel = document.getElementById(`panel-${openCardId}`);
+        if (panel) setTimeout(() => panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 100);
+      }
+    }
+
+    // ============================================================
+    // Report Page Renderers
+    // ============================================================
+    function toggleReport(date) {
+      expandedReportDate = expandedReportDate === date ? null : date;
+      renderReportTimeline();
+    }
+
+    function renderReportPage() {
+      const container = document.getElementById('reportContent');
+
+      if (allReports.length === 0) {
+        container.innerHTML = `
+          <div class="empty">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            <h3>暂无日报</h3>
+            <p>每日 17:00 自动生成工作日报，届时这里会展示日报时间线。</p>
+          </div>`;
+        return;
+      }
+
+      // Aggregate stats
+      const totalItems = allReports.reduce((s, r) => s + r.items, 0);
+      const totalHigh = allReports.reduce((s, r) => s + (r.trust?.high || 0), 0);
+      const totalMid = allReports.reduce((s, r) => s + (r.trust?.mid || 0), 0);
+      const totalRef = allReports.reduce((s, r) => s + (r.trust?.ref || 0), 0);
+      const allTags = [...new Set(allReports.flatMap(r => r.tags || []))];
+
+      let html = `
+        <div class="report-summary">
+          <div class="report-stat-card">
+            <div class="report-stat-value">${allReports.length}</div>
+            <div class="report-stat-label">日报总数</div>
+          </div>
+          <div class="report-stat-card">
+            <div class="report-stat-value">${totalItems}</div>
+            <div class="report-stat-label">累计信息条目</div>
+          </div>
+          <div class="report-stat-card">
+            <div class="report-stat-value">${totalHigh}</div>
+            <div class="report-stat-label">⭐高可信度</div>
+          </div>
+          <div class="report-stat-card">
+            <div class="report-stat-value">${totalMid}</div>
+            <div class="report-stat-label">📰较高可信度</div>
+          </div>
+        </div>
+
+        <div style="margin-bottom: 28px;">
+          <div class="trust-bar">
+            <div class="trust-bar-seg high" style="width: ${totalItems ? (totalHigh/totalItems*100) : 0}%"></div>
+            <div class="trust-bar-seg mid" style="width: ${totalItems ? (totalMid/totalItems*100) : 0}%"></div>
+            <div class="trust-bar-seg ref" style="width: ${totalItems ? (totalRef/totalItems*100) : 0}%"></div>
+          </div>
+          <div class="trust-legend">
+            <span class="trust-legend-item"><span class="trust-legend-dot" style="background:var(--trust-high)"></span>⭐高 ${totalHigh}</span>
+            <span class="trust-legend-item"><span class="trust-legend-dot" style="background:var(--trust-mid)"></span>📰较高 ${totalMid}</span>
+            <span class="trust-legend-item"><span class="trust-legend-dot" style="background:var(--trust-ref)"></span>💬参考 ${totalRef}</span>
+          </div>
+        </div>
+
+        ${allTags.length > 0 ? `
+        <div style="margin-bottom: 28px;">
+          <div style="font-size: 13px; color: var(--text2); margin-bottom: 8px;">研究方向覆盖</div>
+          <div class="report-tags">
+            ${allTags.map(t => `<span class="report-tag">#${esc(t)}</span>`).join('')}
+          </div>
+        </div>` : ''}
+
+        <div class="report-timeline" id="reportTimeline"></div>
+      `;
+
+      container.innerHTML = html;
+      renderReportTimeline();
+    }
+
+    function renderReportTimeline() {
+      const container = document.getElementById('reportTimeline');
+      if (!container) return;
+
+      const today = new Date().toISOString().slice(0, 10);
+
+      let html = '';
+      allReports.forEach(r => {
+        const isToday = r.date === today;
+        const isExpanded = expandedReportDate === r.date;
+
+        html += `
+          <div class="report-day">
+            <div class="report-day-dot ${isToday ? 'today' : ''}"></div>
+            <div class="report-day-card ${isExpanded ? 'expanded' : ''}" onclick="toggleReport('${r.date}')">
+              <div class="report-day-header">
+                <div>
+                  <div class="report-day-title">
+                    📅 ${r.date}${r.weekday ? ` (${r.weekday})` : ''}
+                    ${isToday ? '<span class="report-day-badge">今天</span>' : ''}
+                  </div>
+                </div>
+                <div class="report-day-meta">
+                  <span><strong>${r.items}</strong> 条</span>
+                  <span>${r.platforms} 个平台</span>
+                </div>
+                <svg class="report-day-expand" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </div>
+              <div class="report-day-body">
+                <div class="report-day-content">
+
+                  ${r.trends && r.trends.length > 0 ? `
+                  <div class="report-section">
+                    <div class="report-section-title">🔍 趋势洞察</div>
+                    ${r.trends.map((t, i) => `
+                      <div class="trend-item">
+                        <span class="trend-num">${i + 1}</span>
+                        <span class="trend-text">${esc(t)}</span>
+                      </div>
+                    `).join('')}
+                  </div>` : ''}
+
+                  ${r.topPicks && r.topPicks.length > 0 ? `
+                  <div class="report-section">
+                    <div class="report-section-title">⭐ 重点推荐（${r.topPicks.length} 条）</div>
+                    ${r.topPicks.map(p => `
+                      <div class="pick-item">
+                        <div class="pick-title">${esc(p.title)}</div>
+                        <div class="pick-meta">来源：${esc(p.platform)}</div>
+                        <div class="pick-reason">${esc(p.reason)}</div>
+                        ${p.url ? `<a class="pick-link" href="${esc(p.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">🔗 查看原文 →</a>` : ''}
+                      </div>
+                    `).join('')}
+                  </div>` : ''}
+
+                  ${r.nextFocus && r.nextFocus.length > 0 ? `
+                  <div class="report-section">
+                    <div class="report-section-title">🎯 明日关注</div>
+                    ${r.nextFocus.map(f => `
+                      <div class="focus-item">
+                        <div class="focus-dot"></div>
+                        <div class="focus-text">${esc(f)}</div>
+                      </div>
+                    `).join('')}
+                  </div>` : ''}
+
+                  ${r.tags && r.tags.length > 0 ? `
+                  <div class="report-section">
+                    <div class="report-section-title">🏷️ 研究标签</div>
+                    <div class="report-tags">
+                      ${r.tags.map(t => `<span class="report-tag">#${esc(t)}</span>`).join('')}
+                    </div>
+                  </div>` : ''}
+
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+      });
+
+      container.innerHTML = html;
+    }
+
+    // ============================================================
+    // Init
+    // ============================================================
+    document.getElementById('searchBox').addEventListener('input', renderInfoList);
+    loadData();
+  </script>
+</body>
+</html>

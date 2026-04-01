@@ -1,0 +1,13 @@
+# 忽略临时文件和大文件
+*.zip
+.DS_Store
+node_modules/
+.vercel
+.codebuddy/
+
+# 保留数据文件
+!digest.md
+!daily/
+!daily-report/
+!weekly/
+!pdfs/
