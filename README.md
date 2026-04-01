@@ -4,8 +4,7 @@ AI 如何改变组织设计 —— 信息聚合与 OD 洞察平台
 
 ## 在线访问
 
-🔗 **GitHub Pages**: [https://jordan-fus-projects.github.io/ai-org-research](https://jordan-fus-projects.github.io/ai-org-research)
-（实际地址取决于仓库路径）
+🔗 **GitHub Pages**: [https://jordanfu.github.io/OD-Intelligence-Center/](https://jordanfu.github.io/OD-Intelligence-Center/)
 
 ## 本地开发
 
