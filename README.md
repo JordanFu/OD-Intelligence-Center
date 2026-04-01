@@ -2,9 +2,10 @@
 
 AI 如何改变组织设计 —— 信息聚合与 OD 洞察平台
 
-## 部署
+## 在线访问
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fjordan%2Fai-org-research)
+🔗 **GitHub Pages**: [https://jordan-fus-projects.github.io/ai-org-research](https://jordan-fus-projects.github.io/ai-org-research)
+（实际地址取决于仓库路径）
 
 ## 本地开发
 
@@ -18,4 +19,8 @@ npx serve .
 
 ## 数据更新
 
-数据文件 `digest.md` 由自动化任务每日更新。
+数据文件 `digest.md` 由自动化任务每日更新，通过 `deploy.sh` 自动部署到 GitHub Pages。
+
+## 部署方式
+
+推送代码到 `main` 分支后，GitHub Actions 会自动构建并部署到 GitHub Pages。
