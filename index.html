@@ -1328,6 +1328,277 @@
     .empty h3 { font-size: 18px; margin-bottom: 8px; color: var(--text); }
     .empty p { font-size: 14px; }
 
+    /* =================== Hot Topic Analysis Page =================== */
+    .hot-page {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px 24px 60px;
+    }
+    .hot-header {
+      background: linear-gradient(135deg, rgba(255, 107, 107, 0.12), rgba(238, 90, 36, 0.06));
+      border: 1px solid rgba(255, 107, 107, 0.25);
+      border-radius: 14px;
+      padding: 20px 24px;
+      margin-bottom: 28px;
+    }
+    .hot-header-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+    }
+    .hot-header-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .hot-header-icon {
+      width: 32px;
+      height: 32px;
+      background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+    }
+    .hot-date {
+      font-size: 13px;
+      color: var(--text2);
+    }
+    .hot-summary-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-top: 16px;
+    }
+    .hot-summary-item {
+      background: var(--surface);
+      border-radius: 10px;
+      padding: 14px;
+      text-align: center;
+    }
+    .hot-summary-num {
+      font-size: 24px;
+      font-weight: 700;
+      color: #ff6b6b;
+    }
+    .hot-summary-label {
+      font-size: 12px;
+      color: var(--text2);
+      margin-top: 4px;
+    }
+    .hot-section {
+      margin-bottom: 28px;
+    }
+    .hot-section-title {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .hot-section-icon {
+      font-size: 18px;
+    }
+    .hot-rank-table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--surface);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .hot-rank-table th {
+      background: var(--surface2);
+      padding: 12px 14px;
+      text-align: left;
+      font-size: 12px;
+      color: var(--text2);
+      font-weight: 500;
+    }
+    .hot-rank-table td {
+      padding: 14px;
+      border-bottom: 1px solid var(--border);
+      font-size: 14px;
+    }
+    .hot-rank-table tr:last-child td {
+      border-bottom: none;
+    }
+    .hot-rank-table tr:hover td {
+      background: rgba(255, 107, 107, 0.05);
+    }
+    .hot-rank-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 24px;
+      height: 24px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .hot-rank-1 { background: linear-gradient(135deg, #ffd700, #ffb800); color: #000; }
+    .hot-rank-2 { background: linear-gradient(135deg, #c0c0c0, #a8a8a8); color: #000; }
+    .hot-rank-3 { background: linear-gradient(135deg, #cd7f32, #b5651d); color: #fff; }
+    .hot-rank-default { background: var(--surface2); color: var(--text2); }
+    .hot-title-cell {
+      max-width: 280px;
+    }
+    .hot-title-main {
+      font-weight: 600;
+      color: var(--text);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .hot-title-meta {
+      font-size: 12px;
+      color: var(--text2);
+      margin-top: 2px;
+    }
+    .hot-stat-cell {
+      white-space: nowrap;
+    }
+    .hot-stat-num {
+      font-weight: 600;
+      color: var(--text);
+    }
+    .hot-stat-label {
+      font-size: 11px;
+      color: var(--text2);
+    }
+    .hot-type-tag {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-size: 12px;
+      background: rgba(255, 107, 107, 0.15);
+      color: #ff6b6b;
+    }
+    .hot-finding-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 18px 20px;
+      margin-bottom: 12px;
+    }
+    .hot-finding-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+    .hot-finding-num {
+      width: 24px;
+      height: 24px;
+      background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: 700;
+      color: #fff;
+      flex-shrink: 0;
+    }
+    .hot-finding-title {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+    }
+    .hot-finding-desc {
+      font-size: 13px;
+      color: var(--text2);
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+    .hot-finding-action {
+      background: rgba(255, 107, 107, 0.1);
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-size: 13px;
+      color: #ff6b6b;
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+    }
+    .hot-finding-action::before {
+      content: "💡";
+    }
+    .hot-template-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin-bottom: 10px;
+    }
+    .hot-template-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+    .hot-template-example {
+      font-size: 13px;
+      color: var(--text2);
+      margin-bottom: 8px;
+      font-style: italic;
+    }
+    .hot-template-likes {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 12px;
+      color: #ff6b6b;
+      font-weight: 600;
+    }
+    .hot-tags-cloud {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .hot-tag-item {
+      padding: 6px 14px;
+      background: rgba(255, 107, 107, 0.1);
+      border: 1px solid rgba(255, 107, 107, 0.2);
+      border-radius: 20px;
+      font-size: 13px;
+      color: #ff6b6b;
+    }
+    .hot-suggestion-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .hot-suggestion-item:last-child {
+      border-bottom: none;
+    }
+    .hot-suggestion-num {
+      width: 20px;
+      height: 20px;
+      background: var(--surface2);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text2);
+      flex-shrink: 0;
+    }
+    .hot-suggestion-text {
+      font-size: 14px;
+      color: var(--text);
+      line-height: 1.6;
+    }
+
     /* Footer */
     .footer {
       text-align: center;
@@ -1366,6 +1637,9 @@
       .tab-btn .tab-label-short { display: inline; }
       .kb-grid { grid-template-columns: 1fr; }
       .kb-upload-steps { flex-direction: column; }
+      .hot-summary-grid { grid-template-columns: repeat(2, 1fr); }
+      .hot-rank-table { font-size: 12px; }
+      .hot-rank-table th, .hot-rank-table td { padding: 10px 8px; }
     }
     @media (min-width: 641px) {
       .tab-btn .tab-label-short { display: none; }
@@ -1475,6 +1749,7 @@
     let isGenerating = false;
     let kbSourceTypeFilter = null;
     let kbTopicFilter = null;
+    let hotAnalysis = null;
 
     const PLATFORM_CATEGORIES = {
       '国内媒体': ['36氪', '机器之心', '钛媒体', '虎嗅', '界面新闻', '第一财经', '晚点LatePost', '新智元', '量子位', '新浪财经', '搜狐', '每日经济新闻'],
@@ -1524,12 +1799,14 @@
           (i === 0 && tab === 'info') ||
           (i === 1 && tab === 'report') ||
           (i === 2 && tab === 'xhs') ||
-          (i === 3 && tab === 'kb'));
+          (i === 3 && tab === 'kb') ||
+          (i === 4 && tab === 'hot'));
       });
       document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
       document.getElementById(`page-${tab}`).classList.add('active');
       if (tab === 'xhs') renderXHSPage();
       if (tab === 'kb') renderKBPage();
+      if (tab === 'hot') renderHotPage();
     }
 
     // ============================================================
@@ -1638,6 +1915,15 @@
           kbReports = data.reports || [];
         }
       } catch (e) { console.log('kb catalog not loaded'); }
+
+      // Try loading hot topic analysis
+      try {
+        const resp = await fetch('./analysis/digest.json');
+        if (resp.ok) {
+          const data = await resp.json();
+          hotAnalysis = data;
+        }
+      } catch (e) { console.log('hot analysis not loaded'); }
 
       updateBadges();
       renderInfoPage();
@@ -2719,6 +3005,131 @@
       '数字化转型': '💻',
       '领导力': '👑'
     };
+
+    function renderHotPage() {
+      const container = document.getElementById('hotContent');
+      if (!hotAnalysis) {
+        container.innerHTML = `
+          <div class="empty">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2v4m0 12v4M4.93 4.93l2.83 2.83m8.48 8.48l2.83 2.83M2 12h4m12 0h4M4.93 19.07l2.83-2.83m8.48-8.48l2.83-2.83"/></svg>
+            <h3>暂无爆款分析数据</h3>
+            <p>每日自动执行小红书爆款分析任务后，这里将展示最新分析结果</p>
+          </div>
+        `;
+        return;
+      }
+
+      const { summary, topPosts, coreFindings, newTitleTemplates, newTags, writingSuggestions } = hotAnalysis;
+
+      let html = '';
+
+      // Header with summary
+      html += `<div class="hot-header">`;
+      html += `<div class="hot-header-top">`;
+      html += `<div class="hot-header-title">`;
+      html += `<div class="hot-header-icon">🔥</div>`;
+      html += `今日小红书爆款分析`;
+      html += `</div>`;
+      html += `<div class="hot-date">📅 ${hotAnalysis.lastUpdated || new Date().toLocaleDateString('zh-CN')}</div>`;
+      html += `</div>`;
+      html += `<div class="hot-summary-grid">`;
+      html += `<div class="hot-summary-item"><div class="hot-summary-num">${summary.keywordsSearched}</div><div class="hot-summary-label">搜索关键词</div></div>`;
+      html += `<div class="hot-summary-item"><div class="hot-summary-num">${summary.totalPosts}</div><div class="hot-summary-label">获取帖子</div></div>`;
+      html += `<div class="hot-summary-item"><div class="hot-summary-num">${summary.highLikedPosts}</div><div class="hot-summary-label">高赞帖子</div></div>`;
+      html += `<div class="hot-summary-item"><div class="hot-summary-num">${summary.analyzedPosts}</div><div class="hot-summary-label">深度分析</div></div>`;
+      html += `</div>`;
+      html += `</div>`;
+
+      // TOP Posts Ranking
+      if (topPosts && topPosts.length > 0) {
+        html += `<div class="hot-section">`;
+        html += `<div class="hot-section-title"><span class="hot-section-icon">🏆</span> TOP 帖子排行</div>`;
+        html += `<table class="hot-rank-table">`;
+        html += `<thead><tr><th>#</th><th>标题 / 作者</th><th>赞</th><th>藏</th><th>评</th><th>类型</th></tr></thead>`;
+        html += `<tbody>`;
+        topPosts.forEach(post => {
+          const rankClass = post.rank === 1 ? 'hot-rank-1' : post.rank === 2 ? 'hot-rank-2' : post.rank === 3 ? 'hot-rank-3' : 'hot-rank-default';
+          html += `<tr>`;
+          html += `<td><span class="hot-rank-badge ${rankClass}">${post.rank}</span></td>`;
+          html += `<td class="hot-title-cell"><div class="hot-title-main">${esc(post.title)}</div><div class="hot-title-meta">@${esc(post.author)} · ${esc(post.keyword)}</div></td>`;
+          html += `<td class="hot-stat-cell"><span class="hot-stat-num">${formatNum(post.likes)}</span><br><span class="hot-stat-label">赞</span></td>`;
+          html += `<td class="hot-stat-cell"><span class="hot-stat-num">${formatNum(post.collects)}</span><br><span class="hot-stat-label">藏</span></td>`;
+          html += `<td class="hot-stat-cell"><span class="hot-stat-num">${formatNum(post.comments)}</span><br><span class="hot-stat-label">评</span></td>`;
+          html += `<td><span class="hot-type-tag">${esc(post.type)}</span></td>`;
+          html += `</tr>`;
+        });
+        html += `</tbody></table>`;
+        html += `</div>`;
+      }
+
+      // Core Findings
+      if (coreFindings && coreFindings.length > 0) {
+        html += `<div class="hot-section">`;
+        html += `<div class="hot-section-title"><span class="hot-section-icon">💡</span> 核心发现</div>`;
+        coreFindings.forEach((finding, idx) => {
+          html += `<div class="hot-finding-card">`;
+          html += `<div class="hot-finding-header">`;
+          html += `<div class="hot-finding-num">${idx + 1}</div>`;
+          html += `<div class="hot-finding-title">${esc(finding.title)}</div>`;
+          html += `</div>`;
+          html += `<div class="hot-finding-desc">${esc(finding.desc)}</div>`;
+          if (finding.actionable) {
+            html += `<div class="hot-finding-action">${esc(finding.actionable)}</div>`;
+          }
+          html += `</div>`;
+        });
+        html += `</div>`;
+      }
+
+      // New Title Templates
+      if (newTitleTemplates && newTitleTemplates.length > 0) {
+        html += `<div class="hot-section">`;
+        html += `<div class="hot-section-title"><span class="hot-section-icon">✍️</span> 新标题模板</div>`;
+        newTitleTemplates.forEach(tpl => {
+          html += `<div class="hot-template-card">`;
+          html += `<div class="hot-template-title">${esc(tpl.template)}</div>`;
+          html += `<div class="hot-template-example">"${esc(tpl.example)}"</div>`;
+          html += `<div class="hot-template-likes">❤️ ${formatNum(tpl.likes)} 赞</div>`;
+          html += `</div>`;
+        });
+        html += `</div>`;
+      }
+
+      // Hot Tags
+      if (newTags && newTags.length > 0) {
+        html += `<div class="hot-section">`;
+        html += `<div class="hot-section-title"><span class="hot-section-icon">🏷️</span> 热门标签</div>`;
+        html += `<div class="hot-tags-cloud">`;
+        newTags.forEach(tag => {
+          html += `<span class="hot-tag-item">${esc(tag)}</span>`;
+        });
+        html += `</div>`;
+        html += `</div>`;
+      }
+
+      // Writing Suggestions
+      if (writingSuggestions && writingSuggestions.length > 0) {
+        html += `<div class="hot-section">`;
+        html += `<div class="hot-section-title"><span class="hot-section-icon">📝</span> 写作建议</div>`;
+        html += `<div style="background: var(--surface); border-radius: 10px; padding: 8px 0;">`;
+        writingSuggestions.forEach((sug, idx) => {
+          html += `<div class="hot-suggestion-item">`;
+          html += `<div class="hot-suggestion-num">${idx + 1}</div>`;
+          html += `<div class="hot-suggestion-text">${esc(sug)}</div>`;
+          html += `</div>`;
+        });
+        html += `</div>`;
+        html += `</div>`;
+      }
+
+      container.innerHTML = html;
+    }
+
+    function formatNum(n) {
+      if (n >= 10000) return (n / 10000).toFixed(1) + '万';
+      if (n >= 1000) return (n / 1000).toFixed(1) + 'k';
+      return n;
+    }
 
     function renderKBPage() {
       const container = document.getElementById('kbContent');
