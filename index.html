@@ -112,6 +112,17 @@
       background: var(--orange);
       color: #000;
     }
+    .tab-btn.hot-tab.active {
+      background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+    }
+    .tab-btn.hot-tab .badge {
+      background: rgba(255, 107, 107, 0.3);
+      color: #ff6b6b;
+    }
+    .tab-btn.hot-tab.active .badge {
+      background: rgba(255,255,255,0.25);
+      color: #fff;
+    }
     .tab-btn .badge {
       font-size: 11px;
       padding: 1px 6px;
@@ -1394,6 +1405,11 @@
           <span class="tab-label-full">知识库</span><span class="tab-label-short">知识</span>
           <span class="badge" id="kbBadge">0</span>
         </button>
+        <button class="tab-btn hot-tab" onclick="switchTab('hot')">
+          <span style="font-size:16px;">🔥</span>
+          <span class="tab-label-full">爆款分析</span><span class="tab-label-short">爆款</span>
+          <span class="badge" id="hotBadge">NEW</span>
+        </button>
       </div>
     </div>
   </header>
@@ -1427,6 +1443,11 @@
   <!-- =================== Knowledge Base Page =================== -->
   <div class="page" id="page-kb">
     <div class="kb-page" id="kbContent"></div>
+  </div>
+
+  <!-- =================== Hot Topic Analysis Page =================== -->
+  <div class="page" id="page-hot">
+    <div class="hot-page" id="hotContent"></div>
   </div>
 
   <div class="footer">
