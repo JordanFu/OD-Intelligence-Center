@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-04-01",
+  "lastUpdated": "2026-04-07",
   "categories": {
     "sourceType": {
       "consulting": { "label": "咨询公司", "icon": "📊" },
@@ -32,6 +32,8 @@
       "date": "2026-02-04",
       "uploadDate": "2026-03-31",
       "description": "仅有约5%的组织从AI中获得了实质性财务回报。这些'面向未来'企业的三年期股东总回报约为AI落后者的4倍。价值分布遵循10-20-70法则：10%来自算法，20%来自技术，70%来自组织变革和人才。",
+      "summaryFile": "./knowledge/summaries/r001-bcg-zh.md",
+      "pdfFile": "./pdfs/BCG-AI-Transformation-Workforce-2026.pdf",
       "fileName": "BCG-AI-Transformation-Workforce-2026.pdf",
       "fileSize": "4.2MB",
       "tags": ["AI转型", "劳动力转型", "组织变革", "人才赋能", "10-20-70法则"],
@@ -48,7 +50,9 @@
       "date": "2025",
       "uploadDate": "2026-03-31",
       "description": "德勤关于企业AI应用的综合研究报告，涵盖AI在企业中的部署现状、挑战和最佳实践。",
-      "fileName": "Deloititte-State-of-AI-Enterprise-2026.pdf",
+      "summaryFile": "./knowledge/summaries/r002-deloitte-zh.md",
+      "pdfFile": "./pdfs/Deloitte-State-of-AI-Enterprise-2026.pdf",
+      "fileName": "Deloitte-State-of-AI-Enterprise-2026.pdf",
       "fileSize": "3.8MB",
       "tags": ["企业AI", "数字化转型", "AI战略", "最佳实践"],
       "originalUrl": ""

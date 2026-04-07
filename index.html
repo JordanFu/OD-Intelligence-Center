@@ -1645,6 +1645,210 @@
       .tab-btn .tab-label-short { display: none; }
       .tab-btn .tab-label-full { display: inline; }
     }
+    /* KB Reader */
+    .kb-reader-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.6);
+      z-index: 200;
+      backdrop-filter: blur(4px);
+    }
+    .kb-reader-overlay.open { display: flex; align-items: flex-end; justify-content: center; }
+    .kb-reader-panel {
+      background: var(--bg);
+      border-radius: 20px 20px 0 0;
+      width: 100%;
+      max-width: 760px;
+      max-height: 90vh;
+      overflow-y: auto;
+      padding: 0;
+      animation: slideUp 0.3s ease;
+    }
+    @keyframes slideUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
+    .kb-reader-header {
+      position: sticky;
+      top: 0;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 20px 12px;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      z-index: 1;
+    }
+    .kb-reader-close {
+      background: var(--surface2);
+      border: none;
+      border-radius: 50%;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      flex-shrink: 0;
+      color: var(--text);
+      font-size: 18px;
+      transition: background 0.2s;
+    }
+    .kb-reader-close:hover { background: var(--border); }
+    .kb-reader-title-wrap { flex: 1; }
+    .kb-reader-type {
+      display: inline-block;
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 10px;
+      margin-bottom: 6px;
+      font-weight: 500;
+    }
+    .kb-reader-type.consulting { background: rgba(108,140,255,0.15); color: #6c8cff; }
+    .kb-reader-type.academic { background: rgba(167,139,250,0.15); color: #a78bfa; }
+    .kb-reader-type.industry { background: rgba(52,211,153,0.15); color: #34d399; }
+    .kb-reader-title { font-size: 16px; font-weight: 700; color: var(--text); line-height: 1.4; margin-bottom: 4px; }
+    .kb-reader-meta { font-size: 12px; color: var(--text2); }
+    .kb-reader-body { padding: 20px; }
+    .kb-reader-summary {
+      font-size: 14px;
+      line-height: 1.8;
+      color: var(--text);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+    }
+    .kb-reader-summary h1 { font-size: 18px; font-weight: 700; margin: 0 0 16px; color: var(--text); }
+    .kb-reader-summary h2 { font-size: 15px; font-weight: 600; margin: 20px 0 10px; color: var(--text); }
+    .kb-reader-summary h3 { font-size: 14px; font-weight: 600; margin: 16px 0 8px; color: var(--text); }
+    .kb-reader-summary p { margin: 0 0 12px; }
+    .kb-reader-summary ul, .kb-reader-summary ol { margin: 0 0 12px; padding-left: 20px; }
+    .kb-reader-summary li { margin-bottom: 6px; }
+    .kb-reader-summary blockquote {
+      margin: 12px 0;
+      padding: 10px 16px;
+      background: var(--surface2);
+      border-left: 3px solid var(--accent);
+      border-radius: 0 8px 8px 0;
+      font-size: 13px;
+      color: var(--text2);
+    }
+    .kb-reader-summary blockquote p { margin: 0; }
+    .kb-reader-summary strong { color: var(--text); font-weight: 600; }
+    .kb-reader-summary a { color: var(--accent); text-decoration: none; }
+    .kb-reader-summary a:hover { text-decoration: underline; }
+    .kb-reader-summary table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+    .kb-reader-summary th { background: var(--surface2); padding: 8px 10px; text-align: left; border: 1px solid var(--border); }
+    .kb-reader-summary td { padding: 8px 10px; border: 1px solid var(--border); }
+    .kb-reader-summary tr:nth-child(even) td { background: rgba(255,255,255,0.02); }
+    .kb-reader-summary code { background: var(--surface2); padding: 2px 6px; border-radius: 4px; font-size: 12px; font-family: monospace; }
+    .kb-reader-summary hr { border: none; border-top: 1px solid var(--border); margin: 16px 0; }
+    .kb-reader-topics {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+    .kb-reader-topic-tag {
+      font-size: 12px;
+      padding: 4px 10px;
+      background: var(--surface2);
+      border-radius: 20px;
+      color: var(--text2);
+    }
+    .kb-reader-actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
+    }
+    .kb-reader-loading {
+      text-align: center;
+      padding: 40px;
+      color: var(--text2);
+    }
+    /* KB URL Archive Form */
+    .kb-archive-banner {
+      background: linear-gradient(135deg, rgba(108,140,255,0.1), rgba(167,139,250,0.1));
+      border: 1px solid rgba(108,140,255,0.2);
+      border-radius: 14px;
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+    .kb-archive-banner-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .kb-archive-form { display: flex; gap: 8px; flex-wrap: wrap; }
+    .kb-archive-input {
+      flex: 1;
+      min-width: 200px;
+      padding: 8px 12px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      font-size: 13px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .kb-archive-input:focus { border-color: var(--accent); }
+    .kb-archive-input::placeholder { color: var(--text2); }
+    .kb-archive-btn {
+      padding: 8px 16px;
+      background: var(--accent);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 13px;
+      cursor: pointer;
+      font-weight: 500;
+      white-space: nowrap;
+      transition: opacity 0.2s;
+    }
+    .kb-archive-btn:hover { opacity: 0.85; }
+    .kb-archive-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+    .kb-archive-note {
+      font-size: 11px;
+      color: var(--text2);
+      margin-top: 8px;
+      line-height: 1.5;
+    }
+    .kb-archive-result {
+      margin-top: 10px;
+      padding: 10px 12px;
+      border-radius: 8px;
+      font-size: 13px;
+    }
+    .kb-archive-result.success {
+      background: rgba(52,211,153,0.12);
+      color: var(--green);
+      border: 1px solid rgba(52,211,153,0.3);
+    }
+    .kb-archive-result.error {
+      background: rgba(248,113,113,0.12);
+      color: var(--red);
+      border: 1px solid rgba(248,113,113,0.3);
+    }
+    .kb-card {
+      cursor: pointer;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .kb-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    }
+    @media (max-width: 640px) {
+      .kb-reader-overlay.open { align-items: flex-end; }
+      .kb-reader-panel { max-height: 85vh; border-radius: 16px 16px 0 0; }
+      .kb-reader-actions { flex-direction: column; }
+      .kb-reader-actions a, .kb-reader-actions button { width: 100%; justify-content: center; }
+      .kb-archive-form { flex-direction: column; }
+      .kb-archive-input { min-width: unset; }
+    }
   </style>
 </head>
 <body>
@@ -1717,6 +1921,27 @@
   <!-- =================== Knowledge Base Page =================== -->
   <div class="page" id="page-kb">
     <div class="kb-page" id="kbContent"></div>
+  </div>
+
+  <!-- =================== KB Reader Overlay =================== -->
+  <div class="kb-reader-overlay" id="kbReaderOverlay" onclick="if(event.target===this)closeKBReader()">
+    <div class="kb-reader-panel" id="kbReaderPanel">
+      <div class="kb-reader-header">
+        <button class="kb-reader-close" onclick="closeKBReader()">✕</button>
+        <div class="kb-reader-title-wrap">
+          <span class="kb-reader-type" id="kbReaderType"></span>
+          <div class="kb-reader-title" id="kbReaderTitle"></div>
+          <div class="kb-reader-meta" id="kbReaderMeta"></div>
+        </div>
+      </div>
+      <div class="kb-reader-body">
+        <div class="kb-reader-actions" id="kbReaderActions"></div>
+        <div class="kb-reader-topics" id="kbReaderTopics"></div>
+        <div class="kb-reader-summary" id="kbReaderContent">
+          <div class="kb-reader-loading">⏳ 加载摘要内容中...</div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- =================== Hot Topic Analysis Page =================== -->
@@ -3150,21 +3375,21 @@
 
       let html = '';
 
-      // Upload banner
-      html += `<div class="kb-upload-banner">`;
-      html += `<div class="kb-upload-header">`;
-      html += `<div class="kb-upload-icon">📤</div>`;
-      html += `<div class="kb-upload-title">上传知识报告</div>`;
+      // URL Archive + Upload banner
+      html += `<div class="kb-archive-banner">`;
+      html += `<div class="kb-archive-banner-title">🔗 添加网页存档</div>`;
+      html += `<form class="kb-archive-form" id="kbArchiveForm" onsubmit="handleKBArchive(event)">`;
+      html += `<input type="url" class="kb-archive-input" id="kbArchiveUrl" placeholder="粘贴任意网页链接，Javis 将自动抓取存档..." required />`;
+      html += `<button type="submit" class="kb-archive-btn" id="kbArchiveBtn">📥 存档</button>`;
+      html += `</form>`;
+      html += `<div class="kb-archive-note">💡 也可以直接发链接给 Javis 处理 · 支持公众号文章、网页报道、在线报告等</div>`;
+      html += `<div id="kbArchiveResult"></div>`;
       html += `</div>`;
-      html += `<div class="kb-upload-desc">`;
-      html += `将研究报告、咨询文档、学术论文等文件发给 Javis（在对话框中直接发送文件或路径），即可自动完成：`;
-      html += `</div>`;
-      html += `<div class="kb-upload-steps">`;
-      html += `<span class="kb-upload-step"><strong>1.</strong> 解析文件内容</span>`;
-      html += `<span class="kb-upload-step"><strong>2.</strong> 自动分类（来源类型 + 研究主题）</span>`;
-      html += `<span class="kb-upload-step"><strong>3.</strong> 生成摘要并纳入知识库</span>`;
-      html += `<span class="kb-upload-step"><strong>4.</strong> 融入情报检索系统</span>`;
-      html += `</div>`;
+
+      // Upload tip
+      html += `<div style="background: var(--surface); border-radius: 12px; padding: 14px 16px; margin-bottom: 16px; border: 1px solid var(--border);">`;
+      html += `<div style="font-size:13px; font-weight:600; color:var(--text); margin-bottom:6px;">📄 上传 PDF/文档</div>`;
+      html += `<div style="font-size:12px; color:var(--text2); line-height:1.6;">将文件或文件路径发给 Javis，自动解析内容、分类、生成摘要并纳入知识库。</div>`;
       html += `</div>`;
 
       // Filters
@@ -3243,7 +3468,7 @@
           return `<span class="kb-card-tag">${icon} ${t}</span>`;
         }).join('');
 
-        html += `<div class="kb-card">`;
+        html += `<div class="kb-card" onclick="openKBReader('${esc(report.id)}')">`;
         html += `<div class="kb-card-header">`;
         html += `<div class="kb-card-icon ${typeInfo.class}">${typeInfo.icon}</div>`;
         html += `<span class="kb-card-type ${typeInfo.class}">${typeInfo.label}</span>`;
@@ -3273,6 +3498,134 @@
     function setKBTopicFilter(topic) {
       kbTopicFilter = topic;
       renderKBPage();
+    }
+
+    // ============================================================
+    // KB Reader
+    // ============================================================
+    function openKBReader(reportId) {
+      const report = kbReports.find(r => r.id === reportId);
+      if (!report) return;
+
+      const typeInfo = KB_SOURCE_TYPES[report.sourceType] || KB_SOURCE_TYPES.industry;
+
+      // Fill header
+      document.getElementById('kbReaderType').textContent = typeInfo.label;
+      document.getElementById('kbReaderType').className = 'kb-reader-type ' + typeInfo.class;
+      document.getElementById('kbReaderTitle').textContent = report.title;
+      const metaParts = [];
+      if (report.author) metaParts.push(report.author);
+      if (report.publisher) metaParts.push(report.publisher);
+      if (report.date) metaParts.push(report.date);
+      document.getElementById('kbReaderMeta').textContent = metaParts.join(' · ');
+
+      // Actions
+      const actionsEl = document.getElementById('kbReaderActions');
+      let actionsHtml = '';
+      if (report.pdfFile) {
+        actionsHtml += `<a href="${esc(report.pdfFile)}" class="btn-primary" style="display:inline-flex;align-items:center;gap:6px;text-decoration:none;" target="_blank">📄 下载原文 PDF</a>`;
+      }
+      if (report.originalUrl) {
+        actionsHtml += `<a href="${esc(report.originalUrl)}" class="btn-secondary" style="display:inline-flex;align-items:center;gap:6px;text-decoration:none;" target="_blank">🔗 阅读原文</a>`;
+      }
+      actionsEl.innerHTML = actionsHtml;
+
+      // Topics
+      const topicsEl = document.getElementById('kbReaderTopics');
+      topicsEl.innerHTML = (report.topics || []).map(t => `<span class="kb-reader-topic-tag">${KB_TOPIC_TAGS[t] || '📌'} ${esc(t)}</span>`).join('');
+
+      // Content (load summary)
+      const contentEl = document.getElementById('kbReaderContent');
+      contentEl.innerHTML = '<div class="kb-reader-loading">⏳ 加载摘要内容中...</div>';
+
+      // Load summary markdown if available
+      if (report.summaryFile) {
+        fetch(report.summaryFile)
+          .then(r => r.text())
+          .then(md => { contentEl.innerHTML = mdToHtml(md); })
+          .catch(() => {
+            contentEl.innerHTML = `<p style="color:var(--text2);font-size:13px;">📋 ${esc(report.description || '暂无摘要内容')}</p>`;
+          });
+      } else {
+        contentEl.innerHTML = `<p style="color:var(--text2);font-size:13px;">📋 ${esc(report.description || '暂无摘要内容')}</p>`;
+      }
+
+      // Open overlay
+      document.getElementById('kbReaderOverlay').classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeKBReader() {
+      document.getElementById('kbReaderOverlay').classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    function mdToHtml(md) {
+      if (!md) return '';
+      let html = md
+        // Remove the title comment block at the top
+        .replace(/^> \*\*原标题\*\*.*?\n> \*\*发布日期\*\*.*?\n\n---\n\n/, '')
+        // H1
+        .replace(/^# (.+)$/gm, '<h1>$1</h1>')
+        // H2
+        .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+        // H3
+        .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+        // HR
+        .replace(/^---$/gm, '<hr>')
+        // Blockquote (single line)
+        .replace(/^> (.+)$/gm, '<blockquote><p>$1</p></blockquote>')
+        // Bold
+        .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+        // Italic
+        .replace(/\*(.+?)\*/g, '<em>$1</em>')
+        // Inline code
+        .replace(/`([^`]+)`/g, '<code>$1</code>')
+        // Unordered list items
+        .replace(/^- (.+)$/gm, '<li>$1</li>')
+        // Ordered list items
+        .replace(/^\d+\. (.+)$/gm, '<li>$1</li>')
+        // Wrap consecutive <li> in <ul>
+        .replace(/(<li>.*<\/li>\n?)+/g, match => '<ul>' + match + '</ul>')
+        // Paragraphs: wrap non-tag lines
+        .split('\n\n')
+        .map(block => {
+          block = block.trim();
+          if (!block) return '';
+          if (/^<(h[1-3]|ul|ol|blockquote|hr|div)/.test(block)) return block;
+          if (block.startsWith('<ul>') || block.startsWith('<ol>')) return block;
+          return `<p>${block}</p>`;
+        })
+        .join('\n');
+      return html;
+    }
+
+    // ============================================================
+    // KB URL Archive
+    // ============================================================
+    function handleKBArchive(event) {
+      event.preventDefault();
+      const url = document.getElementById('kbArchiveUrl').value.trim();
+      if (!url) return;
+
+      const btn = document.getElementById('kbArchiveBtn');
+      const resultEl = document.getElementById('kbArchiveResult');
+      btn.disabled = true;
+      btn.textContent = '⏳ 处理中...';
+      resultEl.innerHTML = '';
+
+      // Since GitHub Pages is static, we show instructions for Javis to process
+      setTimeout(() => {
+        btn.disabled = false;
+        btn.textContent = '📥 存档';
+        resultEl.innerHTML = `
+          <div class="kb-archive-result success">
+            ✅ 链接已记录：<strong>${esc(url)}</strong><br>
+            请将此链接发送给 Javis，我将自动抓取内容、解析归档，纳入知识库。
+          </div>
+        `;
+        document.getElementById('kbArchiveUrl').value = '';
+      }, 600);
     }
 
     // ============================================================
