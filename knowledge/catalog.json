@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-04-07",
+  "lastUpdated": "2026-04-09",
   "categories": {
     "sourceType": {
       "consulting": { "label": "咨询公司", "icon": "📊" },
@@ -56,6 +56,23 @@
       "fileSize": "3.8MB",
       "tags": ["企业AI", "数字化转型", "AI战略", "最佳实践"],
       "originalUrl": ""
+    },
+    {
+      "id": "r003",
+      "title": "Top 10 AI Solutions for HR Analytics",
+      "originalTitle": "Top 10 AI Solutions for HR Analytics",
+      "author": "HR Analytics Trends",
+      "publisher": "hr-analytics-trends.com",
+      "sourceType": "media",
+      "topics": ["人才发展", "数字化转型"],
+      "date": "2025",
+      "uploadDate": "2026-04-09",
+      "description": "AI 在 HR Analytics 中的十大应用方案，涵盖离职预测、招聘优化、内部人才识别、员工体验提升等场景。核心数据：招聘时间减少30%、员工满意度提升20%、内部晋升率提升30%。强调数据整合、预测分析、伦理规范是三大关键能力。",
+      "summaryFile": "./knowledge/summaries/r003-hr-analytics-ai-zh.md",
+      "fileName": "",
+      "fileSize": "",
+      "tags": ["HR Analytics", "AI应用", "人才发展", "预测分析", "员工体验", "离职预测"],
+      "originalUrl": "https://www.hr-analytics-trends.com/blog/top-10-ai-solutions-for-hr-analytics"
     }
   ]
 }
