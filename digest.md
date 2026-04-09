@@ -1,7 +1,7 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-04-09 09:48
+> 最后更新：2026-04-09 09:50
 
 ---
 
@@ -34,6 +34,69 @@
 - **OD启示**：离职预测是最直接的 HR Analytics ROI 证明；内部人才市场比外部招聘成本更低；数据整合是 AI 工具生效的前提条件。
 - **标签**：#HR Analytics #AI应用 #人才发展 #预测分析 #员工体验 #离职预测
 - **抓取时间**：2026-04-09 09:48
+
+### [02] Q1科技裁员数据大幅上调至78557人，AI占比47.9%
+- **事件摘要**：Tom's Hardware 4月8日综合数据更新：Q1科技裁员78557人，其中37638人（47.9%）直接归因于AI和工作流程自动化。76%受影响岗位在美国。Cognizant首席AI官指出AI可能被用作"替罪羊"，真实冲击将在6-12个月显现。
+- **来源**：Tom's Hardware（https://www.tomshardware.com/tech-industry/tech-industry-lays-off-nearly-80-000-employees-in-the-first-quarter-of-2026-almost-50-percent-of-affected-positions-cut-due-to-ai）
+- **来源平台**：Tom's Hardware
+- **来源可信度**：📰较高
+- **OD启示**：较昨日Challenger数据（52050人）大幅上调50%，AI占比从25%升至47.9%。OD需区分真正的AI替代和借AI名义的结构性裁员。
+- **标签**：#裁员 #组织设计 #AI替代
+- **抓取时间**：2026-04-09 09:45
+
+### [03] 京东全面拦截外部AI、美团限制阿里千问
+- **事件摘要**：IT之家4月8日报道，京东3月底全面限制员工使用外部AI（豆包、千问、ChatGPT、Gemini等），引导至自研JoyAI；美团限制阿里云千问模型，需x3级审批，推荐自研LongCat。网易评论批评为"自废武功"，支持方强调数据安全和自研战略。
+- **来源**：IT之家/网易（https://www.ithome.com/0/936/896.htm）
+- **来源平台**：IT之家 / 网易
+- **来源可信度**：📰较高
+- **OD启示**：AI工具管控成为组织治理新课题。OD需设计差异化AI工具治理框架，平衡数据安全、创新开放和人才竞争。
+- **标签**：#AI治理 #组织设计 #HR-Tech
+- **抓取时间**：2026-04-09 09:42
+
+### [04] CodeNote：AI-First工程组织5大结构转变
+- **事件摘要**：CodeNote 4月1日基于Block/Meta/Atlassian案例总结5大转变：AI驱动精益团队（12人→3人，速度+40%）、AI信息化生产力指标、AI制度化隐性知识、扁平化管理层、战略性AI基础设施投资（Meta AI资本支出1150-1350亿美元）。
+- **来源**：CodeNote（https://codenote.net/en/posts/ai-first-engineering-org-evolution-2026/）
+- **来源平台**：CodeNote
+- **来源可信度**：📰较高
+- **OD启示**：最完整的AI-First工程组织实操框架。"隐性知识制度化"是新发现——资深工程师经验如何通过AI传承。
+- **标签**：#AI-coding #组织设计 #工程管理
+- **抓取时间**：2026-04-09 09:35
+
+### [05] Pragmatic Engineer：Staff+工程师是AI Agent最大用户群
+- **事件摘要**：Pragmatic Engineer 3月调研900+工程师：95%每周用AI，75%用AI完成一半以上工作，56%完成70%+。Claude Code超越Copilot。Staff+工程师AI Agent使用率63.5%，远高于普通工程师49.7%。领导者对AI热情显著高于一线。
+- **来源**：Pragmatic Engineer（https://newsletter.pragmaticengineer.com/p/ai-tooling-2026）
+- **来源平台**：Pragmatic Engineer
+- **来源可信度**：📰较高
+- **OD启示**：颠覆"AI替代资深员工"假设——资深工程师才是AI深度使用者。领导层与一线态度差异值得关注。
+- **标签**：#AI-coding #组织设计 #人才发展
+- **抓取时间**：2026-04-09 09:30
+
+### [06] 苹果AI团队大重组：Mike Rockwell接管Siri
+- **事件摘要**：苹果3月AI团队重大重组：原Vision Pro负责人Mike Rockwell接管Siri及全局AI业务，原AI负责人Giannandrea被剥离Siri权限。Siri团队并入Vision Pro与软件工程体系，从"技术探索"转向"体验优先"。
+- **来源**：新浪财经（https://k.sina.cn/article_7857201856_1d45362c001903hw0o.html）
+- **来源平台**：新浪财经
+- **来源可信度**：📰较高
+- **OD启示**：苹果换帅体现"场景驱动AI"而非"技术驱动AI"——硬件团队接管AI的思路值得OD借鉴。
+- **标签**：#组织设计 #大厂 #AI战略
+- **抓取时间**：2026-04-09 09:25
+
+### [07] EU AI Act 2026年8月全面生效，罚款最高年营收7%
+- **事件摘要**：Legal Nodes 4月3日更新：EU AI Act大部分条款将于2026年8月2日生效。高风险AI系统需完成风险管理系统、数据治理、CE标志等合规。罚款最高3500万欧元或年营收7%。教育、就业属高风险领域。
+- **来源**：Legal Nodes（https://www.legalnodes.com/article/eu-ai-act-2026-updates-compliance-requirements-and-business-risks）
+- **来源平台**：Legal Nodes
+- **来源可信度**：⭐高
+- **OD启示**：教育行业被归类为高风险，对中国教育大厂有直接影响。跨国企业需在8月前完成合规。
+- **标签**：#政策监管 #AI合规 #EU
+- **抓取时间**：2026-04-09 09:20
+
+### [08] 麦肯锡中国：CEO亲自参与AI治理对利润提升最显著
+- **事件摘要**：麦肯锡中国4月4日发布全球AI调研中国版：28%已部署AI企业由CEO直接负责AI治理。21%已彻底重构工作流程。13%设AI合规专员，6%设AI伦理专员。半数企业预计需更多数据科学家。
+- **来源**：McKinsey中国（https://www.mckinsey.com.cn/）
+- **来源平台**：McKinsey
+- **来源可信度**：⭐高
+- **OD启示**：与IBM张榕"断简替"交叉验证——CEO亲自参与是AI变革成功关键。AI合规专员是新岗位信号。
+- **标签**：#组织设计 #McKinsey #合规
+- **抓取时间**：2026-04-09 09:15
 
 ## 2026-04-08
 
