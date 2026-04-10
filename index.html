@@ -1950,8 +1950,154 @@
       .kb-archive-input { min-width: unset; }
     }
   </style>
+  <script>
+    // ========== 反爬虫核心逻辑 ==========
+    const AntiBot = {
+      config: {
+        minViewTime: 2000,
+        maxClicksPerSec: 3,
+        blockedPatterns: [
+          /headless/i, /phantomjs/i, /selenium/i, /puppeteer/i, /playwright/i,
+          /webdriver/i, /crawl/i, /scrapy/i, /bot/i, /spider/i, /hack/i
+        ],
+        blockeduas: ['curl', 'wget', 'python-requests', 'httpclient', 'java/', 'libwww']
+      },
+      state: {
+        startTime: Date.now(),
+        clickCount: 0,
+        lastClickTime: Date.now(),
+        isHuman: false,
+        isBlocked: false,
+        contentLocked: true
+      },
+      
+      detectHeadless() {
+        const signs = [
+          navigator.webdriver === true,
+          window.callPhantom || window._phantom,
+          document.documentElement.getAttribute('webdriver'),
+          window.navigator.userAgent.toLowerCase().includes('headless'),
+          navigator.plugins.length === 0 && navigator.mimeTypes === undefined,
+          !window.outerWidth && !window.outerHeight,
+          screen.width === 0 && screen.height === 0,
+          window.document.__webdriver_evaluate || window.document.__selenium_evaluate,
+        ];
+        return signs.some(s => s === true);
+      },
+      
+      checkUserAgent(ua) {
+        ua = ua.toLowerCase();
+        for (const pattern of this.config.blockedPatterns) {
+          if (pattern.test(ua)) return true;
+        }
+        for (const block of this.config.blockeduas) {
+          if (ua.startsWith(block)) return true;
+        }
+        return false;
+      },
+      
+      checkClickFrequency() {
+        const now = Date.now();
+        const timeSinceLastClick = now - this.state.lastClickTime;
+        if (timeSinceLastClick < 1000 / this.config.maxClicksPerSec) {
+          this.state.clickCount++;
+          if (this.state.clickCount > 10) return true;
+        } else {
+          this.state.clickCount = Math.max(0, this.state.clickCount - 1);
+        }
+        this.state.lastClickTime = now;
+        return false;
+      },
+      
+      unlockContent() {
+        if (this.state.contentLocked) {
+          this.state.contentLocked = false;
+          this.state.isHuman = true;
+          const overlay = document.getElementById('botCheck');
+          if (overlay) {
+            overlay.style.opacity = '0';
+            overlay.style.transition = 'opacity 0.5s';
+            setTimeout(() => overlay.remove(), 500);
+          }
+        }
+      },
+      
+      blockAccess() {
+        if (this.state.isBlocked) return;
+        this.state.isBlocked = true;
+        document.body.innerHTML = `
+          <div style="display:flex;align-items:center;justify-content:center;height:100vh;background:#0f1117;color:#e1e4ed;font-family:-apple-system,system-ui,sans-serif;text-align:center;padding:20px;">
+            <div><h2 style="font-size:24px;margin-bottom:16px;">访问受限</h2><p style="color:#8b91a8;">检测到异常访问行为，内容已保护。</p></div>
+          </div>
+        `;
+      },
+      
+      init() {
+        if (this.checkUserAgent(navigator.userAgent)) {
+          this.blockAccess();
+          return;
+        }
+        
+        document.addEventListener('click', () => {
+          if (this.checkClickFrequency()) {
+            this.blockAccess();
+            return;
+          }
+          const viewTime = Date.now() - this.state.startTime;
+          if (viewTime >= this.config.minViewTime) {
+            this.unlockContent();
+          }
+        });
+        
+        let scrollCount = 0;
+        document.addEventListener('scroll', () => {
+          scrollCount++;
+          const viewTime = Date.now() - this.state.startTime;
+          if (scrollCount >= 3 && viewTime >= this.config.minViewTime) {
+            this.unlockContent();
+          }
+        });
+        
+        document.addEventListener('keydown', () => {
+          const viewTime = Date.now() - this.state.startTime;
+          if (viewTime >= this.config.minViewTime) {
+            this.unlockContent();
+          }
+        });
+        
+        setTimeout(() => {
+          if (this.state.contentLocked) {
+            const viewTime = Date.now() - this.state.startTime;
+            if (viewTime >= this.config.minViewTime) {
+              this.unlockContent();
+            }
+          }
+        }, this.config.minViewTime + 500);
+      }
+    };
+    
+    document.addEventListener('DOMContentLoaded', () => AntiBot.init());
+    
+    // 禁用右键
+    document.addEventListener('contextmenu', (e) => {
+      e.preventDefault();
+    });
+    
+    // 禁用 F12/Ctrl+U
+    document.addEventListener('keydown', (e) => {
+      if ((e.ctrlKey || e.metaKey) && e.key === 'u') e.preventDefault();
+      if (e.key === 'F12') e.preventDefault();
+    });
+  </script>
 </head>
 <body>
+  <!-- 反爬虫遮罩 -->
+  <div id="botCheck" style="position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(15,17,23,0.98);z-index:9999;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#e1e4ed;text-align:center;padding:40px;font-family:-apple-system,system-ui,sans-serif;">
+    <div style="width:40px;height:40px;border:3px solid #2e3348;border-top-color:#6c8cff;border-radius:50%;animation:spin 1s linear infinite;margin-bottom:24px;"></div>
+    <h2 style="font-size:24px;margin-bottom:16px;">内容保护中</h2>
+    <p style="color:#8b91a8;max-width:500px;">请稍候，正在验证访问来源...</p>
+    <style>@keyframes spin{to{transform:rotate(360deg)}}</style>
+  </div>
 
   <header class="header">
     <div class="header-inner">
