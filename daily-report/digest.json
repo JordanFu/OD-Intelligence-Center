@@ -64,23 +64,54 @@
     {
       "date": "2026-04-20",
       "weekday": "周一",
-      "items": 0,
-      "platforms": 0,
-      "trust": { "high": 0, "mid": 0, "ref": 0 },
-      "tags": [],
-      "topPicks": [],
+      "items": 15,
+      "platforms": 11,
+      "trust": { "high": 6, "mid": 9, "ref": 0 },
+      "tags": ["组织设计", "AI-coding", "人才盘点", "绩效", "晋升", "具身智能", "政策监管", "HR-Tech"],
+      "topPicks": [
+        {
+          "title": "BCG：AI使工作重塑成为CEO必修课——'组织债务'概念提出",
+          "platform": "BCG",
+          "url": "https://www.bcg.com/publications/2026/ai-has-made-work-reinvention-a-ceo-mandate",
+          "reason": "72% CEO成AI主要决策者（2025年两倍），'组织债务'概念解释了为何76%用AI但组织价值有限"
+        },
+        {
+          "title": "McKinsey 2026全球技术议程：CIO升级'战略架构师'",
+          "platform": "McKinsey",
+          "url": "https://www.mckinsey.com.cn/2026%e9%ba%a6%e8%82%af%e9%94%a1%e5%85%a8%e7%90%83%e6%8a%80%e6%9c%af%e8%ae%ae%e7%a8%8b%ef%bc%9acio%e8%bf%8e%e6%9d%a5%e5%85%a8%e6%96%b0%e4%bd%bf%e5%91%bd/",
+          "reason": "星展银行'30+平台业务与技术联合领导'是产品型组织最佳实践，高绩效企业从效率转向速度"
+        },
+        {
+          "title": "HBR：AI增强优于自动化——长期竞争的战略十字路口",
+          "platform": "HBR",
+          "url": "https://hbr.org/2026/04/why-companies-that-choose-ai-augmentation-over-automation-may-win-in-the-long-run",
+          "reason": "HBR从'AI潜力裁员'到'增强优于自动化'的自我纠偏，'自动化vs增强'框架可直接用于管理层讨论"
+        },
+        {
+          "title": "TechCrunch：'Tokenmaxxing'制造开发者生产力错觉——四家数据源交叉验证",
+          "platform": "TechCrunch",
+          "url": "https://techcrunch.com/2026/04/17/tokenmaxxing-is-making-developers-less-productive-than-they-think/",
+          "reason": "10倍Token成本仅2倍吞吐、代码留存率10-30%，AI编程生产力被系统性高估的最完整实证"
+        },
+        {
+          "title": "新华网：具身智能从'演示'走向'真干活'——标准体系+百台部署",
+          "platform": "新华网",
+          "url": "https://www.xinhuanet.com/20260418/3d86e90546044a0699cad711b31471ef/c.html",
+          "reason": "智元G2实测310件/小时、Q3扩至100台，标准体系出台标志产业化拐点"
+        }
+      ],
       "trends": [
-        "搜集自动化连续3天未触发（4/18-4/20），加上4/16空白，过去5天仅4/17有搜集执行，需优先排查",
-        "AI Coding双雄决战——Anthropic ARR $300亿反超OpenAI，Claude Code vs Copilot 格局加速分化",
-        "具身智能工业规模化拐点——智元8h零失误+π0.7自然语言教学，提示词工程扩展为蓝领技能"
+        "CEO驱动AI转型形成三源交叉验证（BCG+McKinsey+BCG Radar），OD应直接与C-suite对接",
+        "AI编程生产力悖论获系统性实证——四家独立数据源一致，'代码留存率'成AI编程ROI新标准",
+        "'自动化vs增强'叙事转向加速——权威机构集体从'AI替代'转向'AI增强'",
+        "全球AI监管进入密集落地期——新加坡代理AI框架、越南AI法、EU透明度准则、中国伦理审查"
       ],
       "nextFocus": [
-        "🔧 优先修复搜集自动化——排查定时任务为何连续3天未触发",
-        "DeepSeek V4 发布动态（4月下旬窗口）——万亿参数+华为昇腾适配",
-        "GitHub Copilot 4月24日政策生效——企业数据治理应对",
-        "国家智能体普及政策——2027年70%普及率目标首批行业试点"
-      ],
-      "note": "今日未执行信息搜集任务，无新增条目。4月18-20日连续3天空白，需排查搜集自动化任务状态"
+        "Meta 8000人裁员后续——'Applied AI'团队组建细节和岗位转型方案",
+        "GitHub Copilot集成Claude Opus 4.7——多模型策略下的企业采购策略调整",
+        "智元Q3百台部署规划——具身智能产业化加速后的制造业跟进案例",
+        "OpenAI vs Anthropic企业端竞争格局变化"
+      ]
     },
     {
       "date": "2026-04-17",
