@@ -62,6 +62,56 @@
   },
   "reports": [
     {
+      "date": "2026-04-21",
+      "weekday": "周二",
+      "items": 15,
+      "platforms": 18,
+      "trust": { "high": 4, "mid": 11, "ref": 0 },
+      "tags": ["组织设计", "领导力", "AI-coding", "人才盘点", "晋升", "绩效", "HR-Tech", "政策监管", "AI战略"],
+      "topPicks": [
+        {
+          "title": "Josh Bersin发布HR2030：Agentic HR将取代模块化HR",
+          "platform": "Josh Bersin",
+          "url": "https://www.sohu.com/a/1010978338_122357838",
+          "reason": "HR领域最具影响力前瞻报告，Agentic HR概念标志着HR Tech进入智能化阶段。"
+        },
+        {
+          "title": "HBR：企业内部AI隐性需求——自下而上的影子AI革命",
+          "platform": "HBR",
+          "url": "https://hbr.org/2026/04/the-hidden-demand-for-ai-inside-your-company",
+          "reason": "BBVA团队实证，揭示AI落地失败根因是供给-需求错配。"
+        },
+        {
+          "title": "苹果宣布库克9月卸任CEO，John Ternus接任",
+          "platform": "Apple",
+          "url": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
+          "reason": "硅谷最大领导力交接，新设CHO催生C-suite新岗位序列。"
+        },
+        {
+          "title": "五部门联合发布AI拟人化互动服务管理暂行办法",
+          "platform": "国家网信办/五部委",
+          "url": "https://www.ithome.com/0/938/006.htm",
+          "reason": "全球首个AI拟人化专项法规，7月15日施行，可能催生AI合规官新岗位。"
+        },
+        {
+          "title": "《财经》深度调查：AI时代就业真相——初级白领岗位面临毁灭性打击",
+          "platform": "财经杂志",
+          "url": "http://yuanchuang.caijing.com.cn/2026/0418/5154452.shtml",
+          "reason": "国内最全面AI就业调查，应届生+AI瓦解资历-薪资体系。"
+        }
+      ],
+      "trends": [
+        "AI编程突破项目级门槛，四源交叉确认技术组织人机配比需重新评估",
+        "运营能力取代工具选择成为AI落地核心瓶颈，79%组织AI应用碎片化",
+        "技术派掌权趋势明确，CTO式CEO可能成为AI公司标准配置"
+      ],
+      "nextFocus": [
+        "苹果CEO交接后AI组织架构调整方向",
+        "DeepSeek V4发布跟踪（万亿参数+华为昇腾适配）",
+        "SaaS数据训练政策扩散趋势（Atlassian 8月17日生效）"
+      ]
+    },
+    {
       "date": "2026-04-20",
       "weekday": "周一",
       "items": 15,
