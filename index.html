@@ -22,8 +22,7 @@
       --trust-high: #fbbf24;
       --trust-mid: #60a5fa;
       --trust-ref: #a78bfa;
-      --xhs-red: #ff2442;
-      --xhs-red-dim: rgba(255, 36, 66, 0.12);
+
     }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -105,24 +104,14 @@
       color: #fff;
       font-weight: 600;
     }
-    .tab-btn.xhs-tab.active {
-      background: var(--xhs-red);
-    }
+    
     .tab-btn.kb-tab.active {
       background: var(--orange);
       color: #000;
     }
-    .tab-btn.hot-tab.active {
-      background: linear-gradient(135deg, #ff6b6b, #ee5a24);
-    }
-    .tab-btn.hot-tab .badge {
-      background: rgba(255, 107, 107, 0.3);
-      color: #ff6b6b;
-    }
-    .tab-btn.hot-tab.active .badge {
-      background: rgba(255,255,255,0.25);
-      color: #fff;
-    }
+    
+    
+    
     .tab-btn .badge {
       font-size: 11px;
       padding: 1px 6px;
@@ -436,21 +425,8 @@
       transition: all 0.2s;
     }
     .btn-close-panel:hover { border-color: var(--text2); color: var(--text); }
-    .btn-generate-xhs {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 10px 20px;
-      background: var(--xhs-red);
-      color: #fff;
-      border: none;
-      border-radius: 8px;
-      font-size: 14px;
-      font-weight: 600;
-      cursor: pointer;
-      transition: opacity 0.2s, transform 0.15s;
-    }
-    .btn-generate-xhs:hover { opacity: 0.9; transform: translateY(-1px); }
+    
+    
 
     /* Source coverage bar */
     .coverage {
@@ -771,89 +747,20 @@
     .report-tag { font-size: 11px; padding: 3px 10px; background: var(--surface2); border-radius: 12px; color: var(--text2); }
 
     /* =================== XHS Content Workshop Page =================== */
-    .xhs-page {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 24px 24px 60px;
-    }
+    
 
     /* XHS generate panel */
-    .xhs-generate-panel {
-      background: linear-gradient(135deg, rgba(255, 36, 66, 0.08), rgba(255, 36, 66, 0.03));
-      border: 1px solid rgba(255, 36, 66, 0.2);
-      border-radius: 14px;
-      padding: 20px 24px;
-      margin-bottom: 28px;
-    }
-    .xhs-generate-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 16px;
-    }
-    .xhs-generate-title {
-      font-size: 16px;
-      font-weight: 700;
-      color: var(--text);
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .xhs-generate-title .xhs-icon {
-      width: 24px;
-      height: 24px;
-      background: var(--xhs-red);
-      border-radius: 6px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #fff;
-      font-size: 14px;
-      font-weight: 800;
-    }
-    .xhs-generate-desc {
-      font-size: 13px;
-      color: var(--text2);
-      margin-bottom: 16px;
-      line-height: 1.6;
-    }
-    .xhs-gen-options {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      align-items: center;
-    }
-    .xhs-gen-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 10px 24px;
-      background: var(--xhs-red);
-      color: #fff;
-      border: none;
-      border-radius: 8px;
-      font-size: 14px;
-      font-weight: 600;
-      cursor: pointer;
-      transition: opacity 0.2s, transform 0.15s;
-    }
-    .xhs-gen-btn:hover { opacity: 0.9; transform: translateY(-1px); }
-    .xhs-gen-btn:disabled {
-      opacity: 0.5;
-      cursor: not-allowed;
-      transform: none;
-    }
-    .xhs-gen-btn-secondary {
-      background: transparent;
-      border: 1px solid var(--border);
-      color: var(--text2);
-      font-weight: 500;
-    }
-    .xhs-gen-btn-secondary:hover {
-      border-color: var(--xhs-red);
-      color: var(--xhs-red);
-      opacity: 1;
-    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     .xhs-date-select {
       padding: 10px 16px;
       background: var(--surface);
@@ -864,28 +771,12 @@
       outline: none;
       cursor: pointer;
     }
-    .xhs-gen-stats {
-      font-size: 12px;
-      color: var(--text2);
-      margin-left: auto;
-    }
-    .xhs-gen-stats strong { color: var(--xhs-red); }
+    
+    
 
     /* XHS Content Cards */
-    .xhs-cards-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 16px;
-    }
-    .xhs-cards-title {
-      font-size: 14px;
-      font-weight: 600;
-      color: var(--text2);
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
+    
+    
     .xhs-view-toggle {
       display: flex;
       gap: 4px;
@@ -1419,285 +1310,59 @@
     .toast.show { transform: translateX(-50%) translateY(0); }
 
     /* Empty state */
-    .empty {
-      text-align: center;
-      padding: 80px 20px;
-      color: var(--text2);
-    }
-    .empty svg { margin-bottom: 16px; opacity: 0.4; }
-    .empty h3 { font-size: 18px; margin-bottom: 8px; color: var(--text); }
-    .empty p { font-size: 14px; }
+    
+    
+    
+    
 
     /* =================== Hot Topic Analysis Page =================== */
-    .hot-page {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 24px 24px 60px;
-    }
-    .hot-header {
-      background: linear-gradient(135deg, rgba(255, 107, 107, 0.12), rgba(238, 90, 36, 0.06));
-      border: 1px solid rgba(255, 107, 107, 0.25);
-      border-radius: 14px;
-      padding: 20px 24px;
-      margin-bottom: 28px;
-    }
-    .hot-header-top {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 16px;
-    }
-    .hot-header-title {
-      font-size: 18px;
-      font-weight: 700;
-      color: var(--text);
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-    .hot-header-icon {
-      width: 32px;
-      height: 32px;
-      background: linear-gradient(135deg, #ff6b6b, #ee5a24);
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 18px;
-    }
-    .hot-date {
-      font-size: 13px;
-      color: var(--text2);
-    }
-    .hot-summary-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 12px;
-      margin-top: 16px;
-    }
-    .hot-summary-item {
-      background: var(--surface);
-      border-radius: 10px;
-      padding: 14px;
-      text-align: center;
-    }
-    .hot-summary-num {
-      font-size: 24px;
-      font-weight: 700;
-      color: #ff6b6b;
-    }
-    .hot-summary-label {
-      font-size: 12px;
-      color: var(--text2);
-      margin-top: 4px;
-    }
-    .hot-section {
-      margin-bottom: 28px;
-    }
-    .hot-section-title {
-      font-size: 16px;
-      font-weight: 600;
-      color: var(--text);
-      margin-bottom: 16px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .hot-section-icon {
-      font-size: 18px;
-    }
-    .hot-rank-table {
-      width: 100%;
-      border-collapse: collapse;
-      background: var(--surface);
-      border-radius: 10px;
-      overflow: hidden;
-    }
-    .hot-rank-table th {
-      background: var(--surface2);
-      padding: 12px 14px;
-      text-align: left;
-      font-size: 12px;
-      color: var(--text2);
-      font-weight: 500;
-    }
-    .hot-rank-table td {
-      padding: 14px;
-      border-bottom: 1px solid var(--border);
-      font-size: 14px;
-    }
-    .hot-rank-table tr:last-child td {
-      border-bottom: none;
-    }
-    .hot-rank-table tr:hover td {
-      background: rgba(255, 107, 107, 0.05);
-    }
-    .hot-rank-badge {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 24px;
-      height: 24px;
-      border-radius: 6px;
-      font-size: 12px;
-      font-weight: 700;
-    }
-    .hot-rank-1 { background: linear-gradient(135deg, #ffd700, #ffb800); color: #000; }
-    .hot-rank-2 { background: linear-gradient(135deg, #c0c0c0, #a8a8a8); color: #000; }
-    .hot-rank-3 { background: linear-gradient(135deg, #cd7f32, #b5651d); color: #fff; }
-    .hot-rank-default { background: var(--surface2); color: var(--text2); }
-    .hot-title-cell {
-      max-width: 280px;
-    }
-    .hot-title-main {
-      font-weight: 600;
-      color: var(--text);
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-    .hot-title-meta {
-      font-size: 12px;
-      color: var(--text2);
-      margin-top: 2px;
-    }
-    .hot-stat-cell {
-      white-space: nowrap;
-    }
-    .hot-stat-num {
-      font-weight: 600;
-      color: var(--text);
-    }
-    .hot-stat-label {
-      font-size: 11px;
-      color: var(--text2);
-    }
-    .hot-type-tag {
-      display: inline-block;
-      padding: 3px 10px;
-      border-radius: 12px;
-      font-size: 12px;
-      background: rgba(255, 107, 107, 0.15);
-      color: #ff6b6b;
-    }
-    .hot-finding-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 18px 20px;
-      margin-bottom: 12px;
-    }
-    .hot-finding-header {
-      display: flex;
-      align-items: flex-start;
-      gap: 12px;
-      margin-bottom: 10px;
-    }
-    .hot-finding-num {
-      width: 24px;
-      height: 24px;
-      background: linear-gradient(135deg, #ff6b6b, #ee5a24);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 12px;
-      font-weight: 700;
-      color: #fff;
-      flex-shrink: 0;
-    }
-    .hot-finding-title {
-      font-size: 15px;
-      font-weight: 600;
-      color: var(--text);
-    }
-    .hot-finding-desc {
-      font-size: 13px;
-      color: var(--text2);
-      line-height: 1.6;
-      margin-bottom: 10px;
-    }
-    .hot-finding-action {
-      background: rgba(255, 107, 107, 0.1);
-      border-radius: 8px;
-      padding: 10px 14px;
-      font-size: 13px;
-      color: #ff6b6b;
-      display: flex;
-      align-items: flex-start;
-      gap: 8px;
-    }
-    .hot-finding-action::before {
-      content: "💡";
-    }
-    .hot-template-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 16px 20px;
-      margin-bottom: 10px;
-    }
-    .hot-template-title {
-      font-size: 14px;
-      font-weight: 600;
-      color: var(--text);
-      margin-bottom: 8px;
-    }
-    .hot-template-example {
-      font-size: 13px;
-      color: var(--text2);
-      margin-bottom: 8px;
-      font-style: italic;
-    }
-    .hot-template-likes {
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      font-size: 12px;
-      color: #ff6b6b;
-      font-weight: 600;
-    }
-    .hot-tags-cloud {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-    .hot-tag-item {
-      padding: 6px 14px;
-      background: rgba(255, 107, 107, 0.1);
-      border: 1px solid rgba(255, 107, 107, 0.2);
-      border-radius: 20px;
-      font-size: 13px;
-      color: #ff6b6b;
-    }
-    .hot-suggestion-item {
-      display: flex;
-      align-items: flex-start;
-      gap: 10px;
-      padding: 14px 0;
-      border-bottom: 1px solid var(--border);
-    }
-    .hot-suggestion-item:last-child {
-      border-bottom: none;
-    }
-    .hot-suggestion-num {
-      width: 20px;
-      height: 20px;
-      background: var(--surface2);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 11px;
-      font-weight: 600;
-      color: var(--text2);
-      flex-shrink: 0;
-    }
-    .hot-suggestion-text {
-      font-size: 14px;
-      color: var(--text);
-      line-height: 1.6;
-    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     /* Footer */
     .footer {
@@ -1729,17 +1394,17 @@
       .btn-read-original, .btn-close-panel { width: 100%; justify-content: center; }
       .report-summary { grid-template-columns: repeat(2, 1fr); }
       .report-day-header { flex-direction: column; align-items: flex-start; }
-      .xhs-generate-panel { padding: 16px; }
-      .xhs-gen-options { flex-direction: column; align-items: stretch; }
-      .xhs-gen-stats { margin-left: 0; text-align: center; }
+      
+      
+      
       .tab-btn { font-size: 11px; padding: 8px 4px; }
       .tab-btn .tab-label-full { display: none; }
       .tab-btn .tab-label-short { display: inline; }
       .kb-grid { grid-template-columns: 1fr; }
       .kb-upload-steps { flex-direction: column; }
-      .hot-summary-grid { grid-template-columns: repeat(2, 1fr); }
-      .hot-rank-table { font-size: 12px; }
-      .hot-rank-table th, .hot-rank-table td { padding: 10px 8px; }
+      
+      
+      
     }
     @media (min-width: 641px) {
       .tab-btn .tab-label-short { display: none; }
@@ -2246,15 +1911,11 @@
         btn.classList.toggle('active',
           (i === 0 && tab === 'info') ||
           (i === 1 && tab === 'report') ||
-          (i === 2 && tab === 'xhs') ||
-          (i === 3 && tab === 'kb') ||
-          (i === 4 && tab === 'hot'));
+          (i === 2 && tab === 'kb'));
       });
       document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
       document.getElementById(`page-${tab}`).classList.add('active');
-      if (tab === 'xhs') renderXHSPage();
       if (tab === 'kb') renderKBPage();
-      if (tab === 'hot') renderHotPage();
     }
 
     // ============================================================
@@ -2626,949 +2287,6 @@
         emojis: []
       }
     };
-
-    function renderXHSPage() {
-      const container = document.getElementById('xhsContent');
-      const dates = allDays.map(d => d.date).sort().reverse();
-
-      let html = '';
-
-      // Generate panel
-      html += `<div class="xhs-generate-panel">`;
-      html += `<div class="xhs-generate-header">`;
-      html += `<div class="xhs-generate-title"><span class="xhs-icon">📕</span> 内容工坊</div>`;
-      html += `<div class="xhs-gen-stats">已生成 <strong>${xhsNotes.length}</strong> 篇</div>`;
-      html += `</div>`;
-      html += `<div class="xhs-generate-desc">基于情报库中的高价值信息，自动生成适合小红书发布的内容。每篇包含：标题、正文、话题标签、配图建议。可直接复制到小红书发布。</div>`;
-      html += `<div class="xhs-gen-options">`;
-      if (dates.length > 0) {
-        html += `<select class="xhs-date-select" id="xhsDateSelect">`;
-        html += `<option value="latest">最新一天 (${dates[0]})</option>`;
-        html += `<option value="all">全部数据 (${allDays.reduce((s, d) => s + d.items.length, 0)} 条)</option>`;
-        dates.slice(0, 7).forEach(d => {
-          const count = allDays.find(dd => dd.date === d)?.items.length || 0;
-          html += `<option value="${d}">${d} (${count} 条)</option>`;
-        });
-        html += `</select>`;
-      }
-      html += `<button class="xhs-gen-btn" onclick="generateXHSContent()" ${isGenerating ? 'disabled' : ''}>`;
-      html += `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>`;
-      html += `${isGenerating ? '生成中...' : '生成小红书内容'}`;
-      html += `</button>`;
-      html += `<button class="xhs-gen-btn xhs-gen-btn-secondary" onclick="clearXHSContent()">清空</button>`;
-      html += `</div></div>`;
-
-      // View toggle and cards
-      if (xhsNotes.length > 0) {
-        html += `<div class="xhs-cards-header">`;
-        html += `<div class="xhs-cards-title">📚 生成的内容 (${xhsNotes.length} 篇)</div>`;
-        html += `<div class="xhs-view-toggle">`;
-        html += `<button class="xhs-view-btn ${xhsViewMode === 'full' ? 'active' : ''}" onclick="setXHSView('full')">展开</button>`;
-        html += `<button class="xhs-view-btn ${xhsViewMode === 'compact' ? 'active' : ''}" onclick="setXHSView('compact')">折叠</button>`;
-        html += `</div></div>`;
-
-        xhsNotes.forEach((note, idx) => {
-          const isExpanded = xhsViewMode === 'full' || xhsExpandedCards.has(idx);
-          html += renderXHSCard(note, idx, isExpanded);
-        });
-      } else {
-        html += `<div class="xhs-empty">`;
-        html += `<div class="xhs-empty-icon">📕</div>`;
-        html += `<h3>还没有生成内容</h3>`;
-        html += `<p>点击上方"生成小红书内容"按钮，基于情报库数据自动生成 3-5 篇适合小红书发布的内容笔记。</p>`;
-        html += `</div>`;
-      }
-
-      container.innerHTML = html;
-    }
-
-    function renderXHSCard(note, idx, isExpanded) {
-      const template = XHS_TEMPLATES[note.type] || XHS_TEMPLATES.truth;
-      let html = `<div class="xhs-note-card ${isExpanded ? '' : 'compact'}" ${!isExpanded ? `onclick="toggleXHSCard(${idx})"` : ''}>`;
-
-      // Header
-      html += `<div class="xhs-note-header">`;
-      html += `<div class="xhs-note-num">${idx + 1}</div>`;
-      html += `<div class="xhs-note-info">`;
-      html += `<div class="xhs-note-title-text">${esc(note.title)}</div>`;
-      html += `<span class="xhs-note-type ${template.class}">${template.label}</span>`;
-      html += `</div>`;
-      html += `<div class="xhs-note-meta">`;
-      html += `<span>${note.charCount} 字</span>`;
-      if (note.sourceCount) html += `<span>${note.sourceCount} 个来源</span>`;
-      html += `</div>`;
-      if (!isExpanded) {
-        html += `<svg class="report-day-expand" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>`;
-      }
-      html += `</div>`;
-
-      if (isExpanded) {
-        // Body
-        html += `<div class="xhs-note-body">`;
-
-        // Text content (white card mimicking XHS post)
-        html += `<div class="xhs-text-content" id="xhs-text-${idx}">${esc(note.content)}</div>`;
-
-        // Sources
-        if (note.sources && note.sources.length > 0) {
-          html += `<div class="xhs-sources"><div class="xhs-sources-title">📎 信息来源</div>`;
-          note.sources.forEach(src => {
-            html += `<div class="xhs-source-item">`;
-            html += `<span class="xhs-source-dot"></span>`;
-            html += `<span>${esc(src.title)}</span>`;
-            if (src.url) html += ` · <a href="${esc(src.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">原文</a>`;
-            html += `</div>`;
-          });
-          html += `</div>`;
-        }
-
-        // Image suggestion
-        if (note.imageSuggestion) {
-          html += `<div class="xhs-image-suggestion">`;
-          html += `<div class="xhs-image-label">🎨 配图建议</div>`;
-          html += `<div class="xhs-image-desc">${esc(note.imageSuggestion)}</div>`;
-          html += `</div>`;
-        }
-
-        html += `</div>`;
-
-        // Actions
-        html += `<div class="xhs-note-actions">`;
-        html += `<button class="xhs-action-btn primary" onclick="copyXHSText(${idx})">`;
-        html += `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>`;
-        html += `复制正文`;
-        html += `</button>`;
-        html += `<button class="xhs-action-btn" onclick="copyXHSFull(${idx})">`;
-        html += `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>`;
-        html += `复制全部`;
-        html += `</button>`;
-        html += `<button class="xhs-action-btn" onclick="regenerateXHSSingle(${idx})">🔄 重新生成</button>`;
-        html += `</div>`;
-      }
-
-      html += `</div>`;
-      return html;
-    }
-
-    function setXHSView(mode) {
-      xhsViewMode = mode;
-      if (mode === 'full') xhsExpandedCards.clear();
-      renderXHSPage();
-    }
-
-    function toggleXHSCard(idx) {
-      if (xhsExpandedCards.has(idx)) {
-        xhsExpandedCards.delete(idx);
-      } else {
-        xhsExpandedCards.add(idx);
-      }
-      renderXHSPage();
-    }
-
-    function copyXHSText(idx) {
-      const note = xhsNotes[idx];
-      if (note) {
-        navigator.clipboard.writeText(note.content).then(() => showToast('正文已复制到剪贴板'));
-      }
-    }
-
-    function copyXHSFull(idx) {
-      const note = xhsNotes[idx];
-      if (!note) return;
-      let fullText = note.content + '\n\n';
-      if (note.sources && note.sources.length > 0) {
-        fullText += '📎 参考来源：\n';
-        note.sources.forEach(src => {
-          fullText += `· ${src.title}`;
-          if (src.url) fullText += ` ${src.url}`;
-          fullText += '\n';
-        });
-      }
-      if (note.imageSuggestion) {
-        fullText += '\n🎨 配图建议：' + note.imageSuggestion;
-      }
-      navigator.clipboard.writeText(fullText).then(() => showToast('全部内容已复制到剪贴板'));
-    }
-
-    function clearXHSContent() {
-      xhsNotes = [];
-      updateBadges();
-      renderXHSPage();
-      showToast('已清空');
-    }
-
-    function regenerateXHSSingle(idx) {
-      if (idx >= xhsNotes.length) return;
-      const note = xhsNotes[idx];
-      // Re-generate with same sources but different hook/template
-      const types = Object.keys(XHS_TEMPLATES);
-      const newType = types[Math.floor(Math.random() * types.length)];
-      const newNote = generateSingleNote(note.sourceItems || [], newType);
-      if (newNote) {
-        xhsNotes[idx] = newNote;
-        renderXHSPage();
-        showToast('已重新生成');
-      }
-    }
-
-    // ============================================================
-    // XHS Content Generation Engine
-    // ============================================================
-
-    // Generate XHS note from a single info item (triggered from info library)
-    function generateXHSFromItem(date, id) {
-      // Find the item
-      const day = allDays.find(d => d.date === date);
-      if (!day) { showToast('未找到该信息'); return; }
-      const item = day.items.find(i => i.id === id);
-      if (!item) { showToast('未找到该信息'); return; }
-
-      if (!item.insight && !item.summary) {
-        showToast('该信息内容不足，无法生成小红书内容');
-        return;
-      }
-
-      // Pick 1-2 related items from same day as context (optional enrichment)
-      const sourceItems = [{ ...item, date: day.date }];
-      const sameDayOthers = day.items.filter(i => i.id !== id && (i.insight || i.summary));
-      if (sameDayOthers.length > 0) {
-        // Pick at most 1 related item
-        const related = sameDayOthers.find(i => {
-          const myTags = new Set(item.tags || []);
-          const theirTags = new Set(i.tags || []);
-          return [...myTags].some(t => theirTags.has(t));
-        });
-        if (related) sourceItems.push({ ...related, date: day.date });
-      }
-
-      // Determine best type based on item content
-      const types = Object.keys(XHS_TEMPLATES);
-      let bestType = 'truth'; // default
-      if (item.tags && (item.tags.some(t => t.includes('争议') || t.includes('挑战') || t.includes('风险') || t.includes('裁员') || t.includes('文化')))) {
-        bestType = 'opinion';
-      } else if (item.tags && (item.tags.some(t => t.includes('趋势') || t.includes('预测') || t.includes('未来') || t.includes('转型') || t.includes('数据')))) {
-        bestType = 'truth';
-      } else if (item.tags && (item.tags.some(t => t.includes('方法') || t.includes('实践') || t.includes('落地') || t.includes('策略') || t.includes('能力') || t.includes('技能')))) {
-        bestType = 'survive';
-      } else if (item.tags && (item.tags.some(t => t.includes('人才') || t.includes('领导力') || t.includes('组织') || t.includes('绩效')))) {
-        bestType = 'rant';
-      }
-
-      // Generate the note
-      const note = generateSingleNote(sourceItems, bestType);
-      if (!note) { showToast('生成失败，请重试'); return; }
-
-      // Add to existing notes (prepend so it appears at top)
-      xhsNotes.unshift(note);
-      updateBadges();
-
-      // Switch to XHS tab and expand the new note
-      xhsViewMode = 'full';
-      xhsExpandedCards.clear();
-      xhsExpandedCards.add(0);
-      switchTab('xhs');
-
-      showToast(`已基于「${truncate(item.title, 15)}」生成小红书内容`);
-    }
-
-    function generateXHSContent() {
-      if (allDays.length === 0 || isGenerating) return;
-
-      isGenerating = true;
-      renderXHSPage();
-
-      // Use setTimeout to let UI update
-      setTimeout(() => {
-        const dateSelect = document.getElementById('xhsDateSelect');
-        const selectedDate = dateSelect ? dateSelect.value : 'latest';
-
-        let sourceItems = [];
-
-        if (selectedDate === 'all') {
-          allDays.forEach(day => {
-            day.items.forEach(item => {
-              if (item.insight || item.summary) {
-                sourceItems.push({ ...item, date: day.date });
-              }
-            });
-          });
-        } else {
-          const targetDate = selectedDate === 'latest'
-            ? allDays.map(d => d.date).sort().reverse()[0]
-            : selectedDate;
-          const day = allDays.find(d => d.date === targetDate);
-          if (day) {
-            day.items.forEach(item => {
-              if (item.insight || item.summary) {
-                sourceItems.push({ ...item, date: day.date });
-              }
-            });
-          }
-        }
-
-        // Filter for high-quality items (those with insights)
-        const qualityItems = sourceItems.filter(item => item.insight && item.insight.length > 20);
-
-        if (qualityItems.length === 0) {
-          isGenerating = false;
-          renderXHSPage();
-          showToast('没有足够的高质量数据来生成内容');
-          return;
-        }
-
-        // Generate 3-5 notes
-        const count = Math.min(Math.max(3, Math.floor(qualityItems.length / 2)), 5);
-        const newNotes = [];
-
-        // Strategy: pick different types
-        const typePool = ['rant', 'truth', 'survive', 'opinion'];
-        const usedIndices = new Set();
-
-        for (let i = 0; i < count && i < qualityItems.length; i++) {
-          const type = typePool[i % typePool.length];
-
-          // Pick 1-3 source items for this note
-          let noteItems;
-          if (type === 'truth' || type === 'opinion') {
-            // For truth/opinion, pick 2-3 related items for richer content
-            noteItems = pickRelatedItems(qualityItems, usedIndices, 2 + Math.floor(Math.random() * 2));
-          } else {
-            // For rant/survive, pick 1-2 focused items
-            noteItems = pickRelatedItems(qualityItems, usedIndices, 1 + Math.floor(Math.random() * 2));
-          }
-
-          if (noteItems.length === 0) continue;
-
-          noteItems.forEach(item => usedIndices.add(qualityItems.indexOf(item)));
-          const note = generateSingleNote(noteItems, type);
-          if (note) newNotes.push(note);
-        }
-
-        xhsNotes = newNotes;
-        updateBadges();
-        isGenerating = false;
-        renderXHSPage();
-
-        if (newNotes.length > 0) {
-          showToast(`成功生成 ${newNotes.length} 篇小红书内容`);
-        }
-      }, 300);
-    }
-
-    function pickRelatedItems(items, usedIndices, count) {
-      // Try to find related items (same tags)
-      const available = items.filter((_, i) => !usedIndices.has(i));
-      if (available.length === 0) return [];
-
-      const picked = [];
-      const first = available[Math.floor(Math.random() * available.length)];
-      picked.push(first);
-      usedIndices.add(items.indexOf(first));
-
-      if (count > 1 && available.length > 1) {
-        const firstTags = new Set(first.tags || []);
-        // Try to find items with overlapping tags
-        const related = available.filter(item => {
-          if (item === first) return false;
-          const itemTags = new Set(item.tags || []);
-          return [...firstTags].some(t => itemTags.has(t));
-        });
-
-        if (related.length > 0) {
-          // Shuffle and pick
-          const shuffled = related.sort(() => Math.random() - 0.5);
-          for (let i = 0; i < Math.min(count - 1, shuffled.length); i++) {
-            picked.push(shuffled[i]);
-            usedIndices.add(items.indexOf(shuffled[i]));
-          }
-        } else if (available.length > 1) {
-          // Pick random unrelated items
-          const others = available.filter(item => item !== first).sort(() => Math.random() - 0.5);
-          for (let i = 0; i < Math.min(count - 1, others.length); i++) {
-            picked.push(others[i]);
-            usedIndices.add(items.indexOf(others[i]));
-          }
-        }
-      }
-
-      return picked;
-    }
-
-    function generateSingleNote(sourceItems, type) {
-      if (!sourceItems || sourceItems.length === 0) return null;
-
-      const template = XHS_TEMPLATES[type] || XHS_TEMPLATES.truth;
-      const primaryItem = sourceItems[0];
-      const secondaryItem = sourceItems[1];
-
-      // Pick a random hook
-      const hook = template.hooks[Math.floor(Math.random() * template.hooks.length)];
-
-      // Build title based on primary item
-      let title = generateTitle(primaryItem, type, hook);
-
-      // Build content
-      let content = generateContent(sourceItems, type, hook);
-
-      // Build tags
-      const allTags = [...new Set(sourceItems.flatMap(item => item.tags || []))];
-      const xhsTags = generateXHSTags(allTags, type);
-
-      // Full content with tags
-      const fullContent = content + '\n\n' + xhsTags;
-
-      // Image suggestion
-      const imageSuggestion = generateImageSuggestion(sourceItems, type);
-
-      // Sources
-      const sources = sourceItems.map(item => ({
-        title: item.title,
-        url: item.sourceUrl || '',
-        platform: item.platform || item.source || ''
-      }));
-
-      // Count
-      const charCount = fullContent.length;
-
-      return {
-        type,
-        title,
-        content: fullContent,
-        charCount,
-        sourceCount: sources.length,
-        sources,
-        imageSuggestion,
-        sourceItems: sourceItems.map(item => ({
-          title: item.title,
-          summary: item.summary,
-          insight: item.insight,
-          source: item.source,
-          sourceUrl: item.sourceUrl,
-          platform: item.platform,
-          tags: item.tags,
-          trust: item.trust,
-          date: item.date
-        }))
-      };
-    }
-
-    function generateTitle(item, type, hook) {
-      const insight = item.insight || item.summary || '';
-      const nums = insight.match(/\d+[%％\d,万]+/g) || [];
-
-      if (type === 'rant') {
-        // 职场吐槽——标题要有代入感和冲突
-        const titles = [
-          '被问"你到底干啥的"，我沉默了',
-          'HR不是只会走流程，但没人信',
-          '说句得罪人的话',
-          '做组织工作的人，最大的委屈不是累',
-          '我们这个岗位，被误解太久了',
-          '为什么没人觉得我们干的是正经事',
-          '今天又被吐槽了，但我这次没忍住'
-        ];
-        return titles[Math.floor(Math.random() * titles.length)];
-      } else if (type === 'truth') {
-        // 行业真相——用数据制造悬念
-        if (nums.length > 0) {
-          const numStr = nums.slice(0, 2).join('和');
-          const dataTitles = [
-            `${numStr}，但大部分人不知道`,
-            `一个数据，可能改变你对职场的看法`,
-            `${numStr}，这跟你想的不一样`,
-            `看到这组数据的时候我愣了一下`
-          ];
-          return dataTitles[Math.floor(Math.random() * dataTitles.length)];
-        }
-        const noDataTitles = [
-          '一个你不知道的职场真相',
-          '说个行业内不太想说的事实',
-          '这事儿跟大多数人想的不一样'
-        ];
-        return noDataTitles[Math.floor(Math.random() * noDataTitles.length)];
-      } else if (type === 'survive') {
-        // 打工人生存——直击焦虑，给出希望
-        const surviveTitles = [
-          'AI来了，说点实在的',
-          '不想被淘汰，先搞清楚这件事',
-          '给你3个建议，关于未来3年',
-          '很多人都在焦虑同一件事',
-          '与其焦虑，不如先看看这个',
-          '说几个我觉得比较重要的判断',
-          '真正的铁饭碗，不是你以为的那样'
-        ];
-        return surviveTitles[Math.floor(Math.random() * surviveTitles.length)];
-      } else if (type === 'opinion') {
-        // 职场观点——有态度，引人讨论
-        const opinionTitles = [
-          '说个可能不太受欢迎的观点',
-          '这个看法可能跟你想的不一样',
-          '聊聊一个没人聊的角度',
-          '这事儿其实没有标准答案',
-          '我觉得关键问题不在这里',
-          '换个角度想这件事',
-          '说句大实话'
-        ];
-        return opinionTitles[Math.floor(Math.random() * opinionTitles.length)];
-      }
-
-      return item.title.replace(/[《》「」]/g, '').substring(0, 25);
-    }
-
-    function generateContent(sourceItems, type, hook) {
-      const primary = sourceItems[0];
-      const secondary = sourceItems[1];
-      let content = '';
-
-      // 开头直接用 hook，已经是场景化的了
-      content += hook + '\n\n';
-
-      if (type === 'rant') {
-        // 职场吐槽：场景 → 误解 → 反转（用数据/洞察打脸）
-        content += generateRantBody(sourceItems);
-      } else if (type === 'truth') {
-        // 行业真相：悬念 → 数据 → 反直觉结论
-        content += generateTruthBody(sourceItems);
-      } else if (type === 'survive') {
-        // 打工人生存：焦虑场景 → 具体建议 → 行动项
-        content += generateSurviveBody(sourceItems);
-      } else if (type === 'opinion') {
-        // 职场观点：争议话题 → 独特角度 → 留白引发讨论
-        content += generateOpinionBody(sourceItems);
-      }
-
-      // 自然结尾，像在跟朋友聊天
-      const closings = [
-        '说多了，有人想聊可以在评论区说。',
-        '也不一定对，就是把自己看到的写下来。',
-        '下次再展开聊，这个话题能说很多。'
-      ];
-      content += '\n\n---\n' + closings[Math.floor(Math.random() * closings.length)];
-
-      return content;
-    }
-
-    // ========== 职场吐槽型内容 ==========
-    // 结构：共鸣场景 → 具体误解 → 用数据/洞察反转
-    function generateRantBody(items) {
-      const primary = items[0];
-      const insight = primary.insight || primary.summary || '';
-      const nums = insight.match(/\d+[%％\d,万]+/g) || [];
-
-      // 中间展开——把误解说得具体
-      const misunderstandings = [
-        '其实每次听到这些话，我都想说但又不知道从哪说起。大家觉得这个岗位就是走流程、办手续，但真正做过的人知道，事情远不是这样。',
-        '不是要解释什么，就是觉得挺无奈的。外界看到的是结果，看不到中间那些沟通、协调、反复打磨的部分。有些事情做成了，没人在意；做砸了，锅一定先甩过来。',
-        '说实话，有时候连自己人都觉得这个工作没啥存在感。但每次看到数据的时候，又会觉得——算了，懂的人自然懂。'
-      ];
-      let body = misunderstandings[Math.floor(Math.random() * misunderstandings.length)];
-
-      // 反转——用情报数据给出不一样的视角
-      body += '\n\n';
-      if (nums.length > 0) {
-        const sentences = insight.split(/[。；]/).filter(s => s.trim().length > 15);
-        if (sentences.length > 0) {
-          const pick = sentences.slice(0, 2).map(s => s.trim().replace(/^[，、\s]+/, '')).join('。');
-          body += '刚好最近看到一组数据：' + pick + '。\n\n';
-        }
-      } else {
-        body += extractMainPoint(insight) + '\n\n';
-      }
-
-      const reversals = [
-        '所以啊，事情从来不是表面看起来那么简单。',
-        '下次再有人说"这工作谁都能干"，至少能拿出点东西说说。',
-        '有些价值不在明面上，但你认真去做的时候，自己心里是有数的。'
-      ];
-      body += reversals[Math.floor(Math.random() * reversals.length)];
-
-      return body;
-    }
-
-    // ========== 行业真相型内容 ==========
-    // 结构：悬念 → 数据 → 反直觉结论
-    function generateTruthBody(items) {
-      const primary = items[0];
-      const insight = primary.insight || primary.summary || '';
-      const sentences = insight.split(/[。；]/).filter(s => s.trim().length > 12);
-
-      let body = '';
-      // 展开核心事实
-      if (sentences.length > 0) {
-        // 取2-3个有内容的句子，自然展开
-        const pick = sentences.slice(0, 3).map(s => s.trim().replace(/^[，、\s]+/, ''));
-        body = pick.join('。') + '。';
-      } else {
-        body = extractMainPoint(insight);
-      }
-
-      body += '\n\n';
-
-      // 加入第二个来源（如果有）
-      if (items[1]) {
-        const sec = items[1].insight || items[1].summary || '';
-        if (sec.length > 20) {
-          const secSentences = sec.split(/[。；]/).filter(s => s.trim().length > 15);
-          if (secSentences.length > 0) {
-            body += '另一个数据也印证了这点：' + secSentences[0].trim().replace(/^[，、\s]+/, '') + '。\n\n';
-          }
-        }
-      }
-
-      // 反直觉的结论
-      const conclusions = [
-        '这跟网上大部分人说的不太一样。但数据不会骗人。',
-        '说实话，看到这些数据之前，我自己也是那个"大部分人"。',
-        '所以与其听别人怎么说，不如自己看看数据再判断。尤其是这种跟你饭碗直接相关的事。'
-      ];
-      body += conclusions[Math.floor(Math.random() * conclusions.length)];
-
-      return body;
-    }
-
-    // ========== 打工人生存型内容 ==========
-    // 结构：焦虑共鸣 → 具体洞察 → 可行动的建议
-    function generateSurviveBody(items) {
-      const primary = items[0];
-      const insight = primary.insight || primary.summary || '';
-
-      let body = '';
-
-      // 先共情——把焦虑说具体
-      const anxieties = [
-        '焦虑归焦虑，但光焦虑没用。不如看看那些真正跑在前面的人都在做什么。',
-        '我理解这种焦虑，因为我自己也时不时会有。但焦虑和行动之间，差的就是那么一点信息差。',
-        '说句可能不太中听的话：大部分人的焦虑，来源于信息不足。你不知道该怕什么，也不知道该准备什么。'
-      ];
-      body += anxieties[Math.floor(Math.random() * anxieties.length)];
-
-      body += '\n\n';
-
-      // 从情报中提取有行动指导意义的内容
-      const actionable = insight.split(/[。；]/)
-        .filter(s => s.trim().length > 15 && (s.includes('建议') || s.includes('需要') || s.includes('应该') || s.includes('可以') || s.includes('能力') || s.includes('技能') || s.includes('关键') || s.includes('核心')))
-        .map(s => s.trim().replace(/^[，、\s]+/, ''));
-
-      if (actionable.length > 0) {
-        const pick = actionable.slice(0, 3);
-        const connectors = ['第一，', '其次，', '最后，'];
-        body += pick.map((s, i) => (connectors[i] || '') + s).join('\n');
-      } else {
-        // 兜底：从情报中提取主要观点
-        const sentences = insight.split(/[。；]/).filter(s => s.trim().length > 15);
-        if (sentences.length > 0) {
-          body += '最近看了不少资料，总结了几点我觉得比较有价值的判断：\n\n';
-          body += sentences.slice(0, 3).map(s => s.trim().replace(/^[，、\s]+/, '')).join('。\n') + '。';
-        } else {
-          body += extractMainPoint(insight);
-        }
-      }
-
-      body += '\n\n';
-
-      const endings = [
-        '不一定全对，但至少比焦虑有用。',
-        '先记下来，慢慢消化。方向比速度重要。',
-        '说到底，在这个变化的时代，保持学习能力和适应力，比什么都重要。'
-      ];
-      body += endings[Math.floor(Math.random() * endings.length)];
-
-      return body;
-    }
-
-    // ========== 职场观点型内容 ==========
-    // 结构：争议话题 → 独特角度 → 留白
-    function generateOpinionBody(items) {
-      const primary = items[0];
-      const insight = primary.insight || primary.summary || '';
-
-      let body = '';
-
-      // 给出独特角度
-      const angles = [
-        '我的看法可能跟主流不太一样。',
-        '这事儿其实没有标准答案，但我觉得有一个角度大家很少提到。',
-        '聊这个话题容易得罪人，但我还是想说。'
-      ];
-      body += angles[Math.floor(Math.random() * angles.length)];
-
-      body += '\n\n';
-
-      // 从情报中提取核心观点
-      const sentences = insight.split(/[。；]/).filter(s => s.trim().length > 12);
-      if (sentences.length > 0) {
-        const pick = sentences.slice(0, 3).map(s => s.trim().replace(/^[，、\s]+/, ''));
-        body += pick.join('。') + '。';
-      } else {
-        body += extractMainPoint(insight);
-      }
-
-      // 如果有第二来源，加入对比
-      if (items[1]) {
-        const secInsight = items[1].insight || items[1].summary || '';
-        const secSentences = secInsight.split(/[。；]/).filter(s => s.trim().length > 15);
-        if (secSentences.length > 0) {
-          body += '\n\n不过话说回来，' + secSentences[0].trim().replace(/^[，、\s]+/, '') + '。';
-        }
-      }
-
-      body += '\n\n';
-
-      const openEnds = [
-        '这事儿没有绝对的对错，但我觉得至少值得想想。',
-        '你们觉得呢？可以在评论区聊聊，不一定非要达成共识。',
-        '先写到这里，这个话题下次可以展开写一篇。'
-      ];
-      body += openEnds[Math.floor(Math.random() * openEnds.length)];
-
-      return body;
-    }
-
-    // 工具函数：从文本中提取主要观点
-    function extractMainPoint(text) {
-      if (!text) return '';
-      const sentences = text.split(/[。；]/).filter(s => s.trim().length > 10);
-      if (sentences.length === 0) return text.substring(0, 200);
-      return sentences.slice(0, 2).map(s => s.trim().replace(/^[，、\s]+/, '')).join('。') + '。';
-    }
-
-    function extractKeywords(text) {
-      if (!text) return [];
-      const keywords = [];
-      const patterns = [
-        /[\u4e00-\u9fff]{2,6}(?:框架|模型|模式|机制|体系|策略|方法)/g,
-        /[\u4e00-\u9fff]{2,4}(?:转型|变革|重塑|重构|升级|替代)/g,
-        /\d+[%％]/g,
-        /[\u4e00-\u9fff]{2,6}(?:核心|关键|重要|首要|主要)/g
-      ];
-      patterns.forEach(p => {
-        const matches = text.match(p);
-        if (matches) keywords.push(...matches.slice(0, 2));
-      });
-      return [...new Set(keywords)].slice(0, 4);
-    }
-
-    function extractTrendPoint(item) {
-      const summary = item.summary || item.insight || '';
-      // Extract first meaningful sentence
-      const match = summary.match(/[^。？！]+[。？！]/);
-      return match ? match[0].trim().substring(0, 80) : summary.substring(0, 80);
-    }
-
-    function extractDebatePoint(item) {
-      const summary = item.summary || item.insight || '';
-      const nums = summary.match(/\d+[%％\d,万]+/g);
-      if (nums && nums.length > 0) {
-        // Find sentence containing numbers
-        const match = summary.match(/[^。？！]*\d+[^。？！]*[。？！]/);
-        return match ? match[0].trim() : summary.substring(0, 100);
-      }
-      return summary.substring(0, 100);
-    }
-
-    function generateXHSTags(allTags, type) {
-      // 小红书高流量基础标签——基于2026-04-02爆款数据分析更新
-      const baseTags = ['#打工人', '#职场', '#打工人职场精神状态'];
-
-      // 根据类型选择标签——每个类型有差异化标签池
-      // 标签数据来源于每日爆款分析（xhs-writing skill）
-      const typeTagPools = {
-        rant: [
-          ['#社畜的精神状态', '#拯救职场不开心', '#上班族精神状态', '#发疯日常'],
-          ['#当代牛马青年', '#别惹打工人', '#拒绝职场pua', '#发疯文学'],
-          ['#职场吐槽', '#打工人表情包', '#上班日常', '#摸鱼']
-        ],
-        truth: [
-          ['#职场干货', '#干货分享', '#自我成长', '#职场思维'],
-          ['#职场人生存法则', '#职场冷知识', '#职场进阶指南', '#越早明白越好的道理'],
-          ['#认知升级', '#职场真相', '#个人成长', '#反直觉']
-        ],
-        survive: [
-          ['#职场生存指南', '#自我提升', '#学习方法'],
-          ['#职场竞争力', '#技能提升', '#未来发展'],
-          ['#职场干货', '#女性成长', '#时间管理']
-        ],
-        opinion: [
-          ['#职场', '#打工人', '#当代年轻人打工精神状态'],
-          ['#观点分享', '#职场思考', '#深度思考'],
-          ['#聊聊职场', '#不同观点', '#独立思考']
-        ]
-      };
-
-      const pool = typeTagPools[type] || typeTagPools.opinion;
-      const typeTags = pool[Math.floor(Math.random() * pool.length)];
-
-      // 来源标签最多取 2 个，只保留受众广的
-      const broadSourceTags = allTags
-        .filter(t => ['AI', '裁员', '组织', '人才', '领导力', '绩效', '变革', '转型', '数字化'].some(k => t.includes(k)))
-        .slice(0, 2)
-        .map(t => '#' + t);
-
-      const tags = [...baseTags, ...typeTags, ...broadSourceTags];
-      return [...new Set(tags)].slice(0, 10).join(' ');
-    }
-
-    function generateImageSuggestion(sourceItems, type) {
-      const tags = sourceItems.flatMap(i => i.tags || []);
-      const primary = sourceItems[0];
-
-      const suggestions = {
-        insight: `信息图风格：提炼${primary.source || '报告'}中的1-2个核心数据，制作成简洁的数据可视化卡片。配色建议深蓝+白色，突出数字。可加"核心洞察"小标题。`,
-        trend: `趋势时间线图：将关键趋势按照时间/重要性排列，使用箭头连接，体现"变化方向感"。可配合简洁的图标。背景可用渐变色增加视觉冲击力。`,
-        practice: `清单/步骤卡片：将实践要点整理为带勾选框的清单形式，3-5个要点，每个配一个小图标。整体风格简洁专业，适合职场人群。`,
-        debate: `对比式排版：左右分栏，一侧放"常见认知"，另一侧放"数据真相"，中间用VS分隔。数字用醒目颜色标注，制造视觉冲突感。`
-      };
-
-      return suggestions[type] || suggestions.insight;
-    }
-
-    // ============================================================
-    // Knowledge Base
-    // ============================================================
-
-    const KB_SOURCE_TYPES = {
-      consulting: { label: '咨询公司', icon: '🏢', class: 'consulting' },
-      academic: { label: '学术机构', icon: '🎓', class: 'academic' },
-      industry: { label: '行业研究', icon: '📊', class: 'industry' },
-      internal: { label: '内部文档', icon: '📁', class: 'internal' },
-      media: { label: '媒体深度', icon: '📰', class: 'media' }
-    };
-
-    const KB_TOPIC_TAGS = {
-      'AI组织设计': '🤖',
-      '人才发展': '👥',
-      '绩效管理': '📈',
-      '变革管理': '🔄',
-      '组织文化': '🏛️',
-      '战略规划': '🎯',
-      '数字化转型': '💻',
-      '领导力': '👑'
-    };
-
-    function renderHotPage() {
-      const container = document.getElementById('hotContent');
-      if (!hotAnalysis) {
-        container.innerHTML = `
-          <div class="empty">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2v4m0 12v4M4.93 4.93l2.83 2.83m8.48 8.48l2.83 2.83M2 12h4m12 0h4M4.93 19.07l2.83-2.83m8.48-8.48l2.83-2.83"/></svg>
-            <h3>暂无爆款分析数据</h3>
-            <p>每日自动执行小红书爆款分析任务后，这里将展示最新分析结果</p>
-          </div>
-        `;
-        return;
-      }
-
-      const { summary, topPosts, coreFindings, newTitleTemplates, newTags, writingSuggestions } = hotAnalysis;
-
-      let html = '';
-
-      // Header with summary
-      html += `<div class="hot-header">`;
-      html += `<div class="hot-header-top">`;
-      html += `<div class="hot-header-title">`;
-      html += `<div class="hot-header-icon">🔥</div>`;
-      html += `今日小红书爆款分析`;
-      html += `</div>`;
-      html += `<div class="hot-date">📅 ${hotAnalysis.lastUpdated || new Date().toLocaleDateString('zh-CN')}</div>`;
-      html += `</div>`;
-      html += `<div class="hot-summary-grid">`;
-      html += `<div class="hot-summary-item"><div class="hot-summary-num">${summary.keywordsSearched}</div><div class="hot-summary-label">搜索关键词</div></div>`;
-      html += `<div class="hot-summary-item"><div class="hot-summary-num">${summary.totalPosts}</div><div class="hot-summary-label">获取帖子</div></div>`;
-      html += `<div class="hot-summary-item"><div class="hot-summary-num">${summary.highLikedPosts}</div><div class="hot-summary-label">高赞帖子</div></div>`;
-      html += `<div class="hot-summary-item"><div class="hot-summary-num">${summary.analyzedPosts}</div><div class="hot-summary-label">深度分析</div></div>`;
-      html += `</div>`;
-      html += `</div>`;
-
-      // TOP Posts Ranking
-      if (topPosts && topPosts.length > 0) {
-        html += `<div class="hot-section">`;
-        html += `<div class="hot-section-title"><span class="hot-section-icon">🏆</span> TOP 帖子排行</div>`;
-        html += `<table class="hot-rank-table">`;
-        html += `<thead><tr><th>#</th><th>标题 / 作者</th><th>赞</th><th>藏</th><th>评</th><th>类型</th></tr></thead>`;
-        html += `<tbody>`;
-        topPosts.forEach(post => {
-          const rankClass = post.rank === 1 ? 'hot-rank-1' : post.rank === 2 ? 'hot-rank-2' : post.rank === 3 ? 'hot-rank-3' : 'hot-rank-default';
-          html += `<tr>`;
-          html += `<td><span class="hot-rank-badge ${rankClass}">${post.rank}</span></td>`;
-          html += `<td class="hot-title-cell"><div class="hot-title-main">${esc(post.title)}</div><div class="hot-title-meta">@${esc(post.author)} · ${esc(post.keyword)}</div></td>`;
-          html += `<td class="hot-stat-cell"><span class="hot-stat-num">${formatNum(post.likes)}</span><br><span class="hot-stat-label">赞</span></td>`;
-          html += `<td class="hot-stat-cell"><span class="hot-stat-num">${formatNum(post.collects)}</span><br><span class="hot-stat-label">藏</span></td>`;
-          html += `<td class="hot-stat-cell"><span class="hot-stat-num">${formatNum(post.comments)}</span><br><span class="hot-stat-label">评</span></td>`;
-          html += `<td><span class="hot-type-tag">${esc(post.type)}</span></td>`;
-          html += `</tr>`;
-        });
-        html += `</tbody></table>`;
-        html += `</div>`;
-      }
-
-      // Core Findings
-      if (coreFindings && coreFindings.length > 0) {
-        html += `<div class="hot-section">`;
-        html += `<div class="hot-section-title"><span class="hot-section-icon">💡</span> 核心发现</div>`;
-        coreFindings.forEach((finding, idx) => {
-          html += `<div class="hot-finding-card">`;
-          html += `<div class="hot-finding-header">`;
-          html += `<div class="hot-finding-num">${idx + 1}</div>`;
-          html += `<div class="hot-finding-title">${esc(finding.title)}</div>`;
-          html += `</div>`;
-          html += `<div class="hot-finding-desc">${esc(finding.desc)}</div>`;
-          if (finding.actionable) {
-            html += `<div class="hot-finding-action">${esc(finding.actionable)}</div>`;
-          }
-          html += `</div>`;
-        });
-        html += `</div>`;
-      }
-
-      // New Title Templates
-      if (newTitleTemplates && newTitleTemplates.length > 0) {
-        html += `<div class="hot-section">`;
-        html += `<div class="hot-section-title"><span class="hot-section-icon">✍️</span> 新标题模板</div>`;
-        newTitleTemplates.forEach(tpl => {
-          html += `<div class="hot-template-card">`;
-          html += `<div class="hot-template-title">${esc(tpl.template)}</div>`;
-          html += `<div class="hot-template-example">"${esc(tpl.example)}"</div>`;
-          html += `<div class="hot-template-likes">❤️ ${formatNum(tpl.likes)} 赞</div>`;
-          html += `</div>`;
-        });
-        html += `</div>`;
-      }
-
-      // Hot Tags
-      if (newTags && newTags.length > 0) {
-        html += `<div class="hot-section">`;
-        html += `<div class="hot-section-title"><span class="hot-section-icon">🏷️</span> 热门标签</div>`;
-        html += `<div class="hot-tags-cloud">`;
-        newTags.forEach(tag => {
-          html += `<span class="hot-tag-item">${esc(tag)}</span>`;
-        });
-        html += `</div>`;
-        html += `</div>`;
-      }
-
-      // Writing Suggestions
-      if (writingSuggestions && writingSuggestions.length > 0) {
-        html += `<div class="hot-section">`;
-        html += `<div class="hot-section-title"><span class="hot-section-icon">📝</span> 写作建议</div>`;
-        html += `<div style="background: var(--surface); border-radius: 10px; padding: 8px 0;">`;
-        writingSuggestions.forEach((sug, idx) => {
-          html += `<div class="hot-suggestion-item">`;
-          html += `<div class="hot-suggestion-num">${idx + 1}</div>`;
-          html += `<div class="hot-suggestion-text">${esc(sug)}</div>`;
-          html += `</div>`;
-        });
-        html += `</div>`;
-        html += `</div>`;
-      }
-
-      container.innerHTML = html;
-    }
-
-    function formatNum(n) {
-      if (n >= 10000) return (n / 10000).toFixed(1) + '万';
-      if (n >= 1000) return (n / 1000).toFixed(1) + 'k';
-      return n;
-    }
 
     function renderKBPage() {
       const container = document.getElementById('kbContent');
