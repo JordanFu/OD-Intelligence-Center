@@ -2119,10 +2119,20 @@
           <span class="tab-label-full">工作日报</span><span class="tab-label-short">日报</span>
           <span class="badge" id="reportBadge">0</span>
         </button>
+        <button class="tab-btn xhs-tab" onclick="switchTab('xhs')">
+          <span style="font-size:16px;">📕</span>
+          <span class="tab-label-full">内容工坊</span><span class="tab-label-short">内容</span>
+          <span class="badge" id="xhsBadge">0</span>
+        </button>
         <button class="tab-btn kb-tab" onclick="switchTab('kb')">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
           <span class="tab-label-full">知识库</span><span class="tab-label-short">知识</span>
           <span class="badge" id="kbBadge">0</span>
+        </button>
+        <button class="tab-btn hot-tab" onclick="switchTab('hot')">
+          <span style="font-size:16px;">🔥</span>
+          <span class="tab-label-full">爆款分析</span><span class="tab-label-short">爆款</span>
+          <span class="badge" id="hotBadge">NEW</span>
         </button>
       </div>
     </div>
@@ -2147,6 +2157,11 @@
   <!-- =================== Report Page =================== -->
   <div class="page" id="page-report">
     <div class="report-page" id="reportContent"></div>
+  </div>
+
+  <!-- =================== XHS Content Workshop Page =================== -->
+  <div class="page" id="page-xhs">
+    <div class="xhs-page" id="xhsContent"></div>
   </div>
 
   <!-- =================== Knowledge Base Page =================== -->
