@@ -2175,11 +2175,6 @@
     </div>
   </div>
 
-  <!-- =================== Hot Topic Analysis Page =================== -->
-  <div class="page" id="page-hot">
-    <div class="hot-page" id="hotContent"></div>
-  </div>
-
   <div class="footer">
     由 Javis 自动维护 · 数据存储于 <code>/ai-org-research/</code> · 覆盖 40+ 信息源 · 如有问题找老J家兄弟
   </div>
@@ -2193,7 +2188,6 @@
     let allDays = [];
     let allReports = [];
     let masterReport = null;
-    let xhsNotes = [];
     let kbReports = [];
     let currentTab = 'info';
     let activeTagFilter = null;
@@ -2201,12 +2195,9 @@
     let activeTrustFilter = null;
     let openCardId = null;
     let expandedReportDate = null;
-    let xhsViewMode = 'full'; // 'full' | 'compact'
-    let xhsExpandedCards = new Set();
     let isGenerating = false;
     let kbSourceTypeFilter = null;
     let kbTopicFilter = null;
-    let hotAnalysis = null;
 
     const PLATFORM_CATEGORIES = {
       '国内媒体': ['36氪', '机器之心', '钛媒体', '虎嗅', '界面新闻', '第一财经', '晚点LatePost', '新智元', '量子位', '新浪财经', '搜狐', '每日经济新闻'],
@@ -2356,15 +2347,6 @@
         }
       } catch (e) { console.log('digest.json not loaded'); }
 
-      // Try loading pre-generated XHS content
-      try {
-        const resp = await fetch('./xhs-content/digest.json');
-        if (resp.ok) {
-          const data = await resp.json();
-          xhsNotes = data.notes || [];
-        }
-      } catch (e) { console.log('xhs digest not loaded'); }
-
       // Try loading knowledge base catalog
       try {
         const resp = await fetch('./knowledge/catalog.json');
@@ -2373,15 +2355,6 @@
           kbReports = data.reports || [];
         }
       } catch (e) { console.log('kb catalog not loaded'); }
-
-      // Try loading hot topic analysis
-      try {
-        const resp = await fetch('./analysis/digest.json');
-        if (resp.ok) {
-          const data = await resp.json();
-          hotAnalysis = data;
-        }
-      } catch (e) { console.log('hot analysis not loaded'); }
 
       updateBadges();
       renderInfoPage();
@@ -2392,7 +2365,6 @@
       const totalItems = allDays.reduce((s, d) => s + d.items.length, 0);
       document.getElementById('infoBadge').textContent = totalItems;
       document.getElementById('reportBadge').textContent = allReports.length;
-      document.getElementById('xhsBadge').textContent = xhsNotes.length;
       document.getElementById('kbBadge').textContent = kbReports.length;
 
       const totalDays = allDays.length;
