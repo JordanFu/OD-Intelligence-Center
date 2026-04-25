@@ -62,6 +62,56 @@
   },
   "reports": [
     {
+      "date": "2026-04-25",
+      "weekday": "周六",
+      "items": 15,
+      "platforms": 16,
+      "trust": { "high": 7, "mid": 6, "ref": 2 },
+      "tags": ["组织设计", "AI-coding", "HR-Tech", "人才盘点", "具身智能", "政策监管", "绩效"],
+      "topPicks": [
+        {
+          "title": "BCG《Design Your Company for AI》：AI优先是组织挑战而非技术挑战（30%技术/70%人+组织）",
+          "platform": "BCG",
+          "url": "https://www.bcg.com/publications/2026/design-your-company-for-ai-not-ai-for-your-company",
+          "reason": "迄今最系统的AI组织设计实操指南。'能力评估+判断评估'二维矩阵可直接用于岗位分类规划，前3月必须产生可见ROI"
+        },
+        {
+          "title": "北大×智联招聘《2026人力资源管理趋势报告》：22.1%企业AI嵌入核心流程，23%为数字员工设岗位说明书",
+          "platform": "新京报",
+          "url": "https://www.bjnews.com.cn/detail/1776937020168652.html",
+          "reason": "中国AI组织落地的量化基线。23%为数字员工设岗位说明书是制度化管理里程碑，51.3%启动新质人才模型意味着传统能力模型面临淘汰"
+        },
+        {
+          "title": "Google拟向Anthropic投资最高400亿美元：AI行业史上最大单笔投资",
+          "platform": "CNBC",
+          "url": "https://www.cnbc.com/2026/04/24/google-to-invest-up-to-40-billion-in-anthropic-as-search-giant-spreads-its-ai-bets.html",
+          "reason": "资本集中度达历史峰值，企业AI战略需纳入供应商集中度风险和地缘政治风险评估"
+        },
+        {
+          "title": "Anthropic详细复盘Claude Code质量退化：三个独立Bug叠加，传统QA对AI产品系统性失效",
+          "platform": "Anthropic Engineering Blog / Fortune",
+          "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+          "reason": "AI编程工具可靠性从技术讨论升级为企业级风险，HN用户从抱怨转向取消订阅，企业需建立质量监控和退出机制"
+        },
+        {
+          "title": "McKinsey×Google Cloud成立联合转型小组：五大咨询公司全部与AI巨头深度绑定",
+          "platform": "McKinsey / Google Cloud",
+          "url": "https://www.mckinsey.com/about-us/new-at-mckinsey-blog/mckinsey-and-google-cloud-launch-the-mckinsey-google-transformation-group-to-scale-enterprise-impact-for-the-ai-era",
+          "reason": "AI组织变革方法论从知识产品升级为端到端交付服务，方法论和工具栈将深度捆绑"
+        }
+      ],
+      "trends": [
+        "AI资本集中度达历史峰值，'供应商依赖'成为组织战略新风险维度——Google 400亿+Meta 480亿+AWS数百亿+Cohere 200亿四方交叉验证",
+        "AI组织设计方法论进入'体系化成熟期'——BCG实操指南+McKinsey联合转型+北大报告22.1%全面嵌入+23%数字员工岗位说明书四源确认",
+        "AI Coding工具从'蜜月期'进入'治理磨合期'——Anthropic官方复盘+HN取消订阅潮+CC-Canary社区监控+Browser Harness自主能力四重信号"
+      ],
+      "nextFocus": [
+        "Google 400亿投资Anthropic后续——监管审查动向、Amazon既有投资方反应、对产品路线图的影响",
+        "DeepSeek V4开源影响扩散——企业内部部署案例、对闭源供应商定价策略冲击、华为昇腾适配实测",
+        "GitHub Copilot 4/24政策生效后行业反应——企业opt-out情况、开发者社区反馈、竞品借机策略"
+      ]
+    },
+    {
       "date": "2026-04-24",
       "weekday": "周五",
       "items": 15,
