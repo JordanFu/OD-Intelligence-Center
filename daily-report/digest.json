@@ -62,6 +62,24 @@
   },
   "reports": [
     {
+      "date": "2026-04-26",
+      "weekday": "周日",
+      "items": 0,
+      "platforms": 0,
+      "trust": { "high": 0, "mid": 0, "ref": 0 },
+      "tags": [],
+      "topPicks": [],
+      "trends": [
+        "今日为周日，未执行搜集任务。趋势观察基于近两日数据回顾。"
+      ],
+      "nextFocus": [
+        "周一工作日恢复搜集——关注 Google- Anthropic 投资后续、DeepSeek V4 开源生态反馈",
+        "EU AI Act 8月全面生效前的合规准备动态",
+        "BCG+McKinsey+北大三源方法论可考虑整合为 AI 组织设计框架 1.0"
+      ],
+      "note": "今日为周日，未执行搜集任务。累计数据：196+ 条 / 62+ 平台 / 26 个搜集日"
+    },
+    {
       "date": "2026-04-25",
       "weekday": "周六",
       "items": 15,
