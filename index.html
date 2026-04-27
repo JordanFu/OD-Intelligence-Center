@@ -187,6 +187,19 @@
     .filter-tag.trust-mid.active { background: var(--trust-mid); border-color: var(--trust-mid); color: #fff; }
     .filter-tag.trust-ref.active { background: var(--trust-ref); border-color: var(--trust-ref); color: #fff; }
     .filter-tag.source-tag.active { background: var(--green); border-color: var(--green); color: #000; }
+    .filter-tag.collapsed { display: none; }
+    .filter-tag.expanded { display: inline-block; }
+    .filter-more {
+      padding: 5px 12px;
+      background: transparent;
+      border: 1px dashed var(--border);
+      border-radius: 20px;
+      color: var(--text2);
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .filter-more:hover { border-color: var(--accent); color: var(--accent); }
     .stats {
       margin-top: 12px;
       font-size: 13px;
@@ -1857,6 +1870,9 @@
     let currentTab = 'info';
     let activeTagFilter = null;
     let activeSourceFilter = null;
+    let sourceExpanded = false;
+    let tagExpanded = false;
+    const FILTER_LIMIT = 10; // 默认显示数量（2行）
     let activeTrustFilter = null;
     let openCardId = null;
     let expandedReportDate = null;
@@ -2119,9 +2135,14 @@
       if (platforms.length === 0) { container.innerHTML = ''; return; }
       let html = '<span class="filter-label">来源：</span>';
       html += `<span class="filter-tag source-tag ${!activeSourceFilter ? 'active' : ''}" onclick="setSourceFilter(null)">全部</span>`;
-      platforms.forEach(([name, count]) => {
-        html += `<span class="filter-tag source-tag ${activeSourceFilter === name ? 'active' : ''}" onclick="setSourceFilter('${name.replace(/'/g, "\\'")}')">${esc(name)} (${count})</span>`;
+      platforms.forEach(([name, count], index) => {
+        const hidden = !sourceExpanded && index >= FILTER_LIMIT;
+        html += `<span class="filter-tag source-tag ${activeSourceFilter === name ? 'active' : ''} ${hidden ? 'collapsed' : 'expanded'}" onclick="setSourceFilter('${name.replace(/'/g, "\\'")}')">${esc(name)} (${count})</span>`;
       });
+      // 如果超过限制，添加展开/收起按钮
+      if (platforms.length > FILTER_LIMIT) {
+        html += `<button class="filter-more" onclick="toggleSourceExpand()">${sourceExpanded ? '收起 ↑' : '更多 ↓'}</button>`;
+      }
       container.innerHTML = html;
     }
     function renderTagFilters() {
@@ -2130,25 +2151,37 @@
       if (tags.length === 0) { container.innerHTML = ''; return; }
       let html = '<span class="filter-label">标签：</span>';
       html += `<span class="filter-tag ${!activeTagFilter ? 'active' : ''}" onclick="setTagFilter(null)">全部</span>`;
-      tags.forEach(tag => {
-        html += `<span class="filter-tag ${activeTagFilter === tag ? 'active' : ''}" onclick="setTagFilter('${tag}')">#${esc(tag)}</span>`;
+      tags.forEach((tag, index) => {
+        const hidden = !tagExpanded && index >= FILTER_LIMIT;
+        html += `<span class="filter-tag ${activeTagFilter === tag ? 'active' : ''} ${hidden ? 'collapsed' : 'expanded'}" onclick="setTagFilter('${tag}')">#${esc(tag)}</span>`;
       });
+      // 如果超过限制，添加展开/收起按钮
+      if (tags.length > FILTER_LIMIT) {
+        html += `<button class="filter-more" onclick="toggleTagExpand()">${tagExpanded ? '收起 ↑' : '更多 ↓'}</button>`;
+      }
       container.innerHTML = html;
     }
+    function toggleSourceExpand() { sourceExpanded = !sourceExpanded; renderSourceFilters(); }
+    function toggleTagExpand() { tagExpanded = !tagExpanded; renderTagFilters(); }
+    let coverageExpanded = false;
     function renderCoverage() {
       const container = document.getElementById('coverage');
       const platforms = getAllPlatforms();
       if (platforms.length === 0) { container.innerHTML = ''; return; }
-      let html = '<div class="coverage-title">📊 来源覆盖情况（' + platforms.length + ' 个平台）</div><div class="coverage-bar">';
-      for (const [cat, expectedPlatforms] of Object.entries(PLATFORM_CATEGORIES)) {
-        for (const ep of expectedPlatforms) {
-          const found = platforms.find(([name]) => name.includes(ep));
-          html += `<span class="coverage-item ${found ? 'active' : ''}">${ep}${found ? ` <span class="coverage-count">(${found[1]})</span>` : ''}</span>`;
+      let html = `<div class="coverage-header" onclick="toggleCoverage()" style="cursor:pointer;display:flex;align-items:center;gap:6px;"><span class="coverage-title">📊 来源覆盖（${platforms.length} 个平台）</span><span style="color:var(--text2);font-size:12px;">${coverageExpanded ? '收起 ↑' : '展开 ↓'}</span></div>`;
+      if (coverageExpanded) {
+        html += '<div class="coverage-bar">';
+        for (const [cat, expectedPlatforms] of Object.entries(PLATFORM_CATEGORIES)) {
+          for (const ep of expectedPlatforms) {
+            const found = platforms.find(([name]) => name.includes(ep));
+            html += `<span class="coverage-item ${found ? 'active' : ''}">${ep}${found ? ` <span class="coverage-count">(${found[1]})</span>` : ''}</span>`;
+          }
         }
+        html += '</div>';
       }
-      html += '</div>';
       container.innerHTML = html;
     }
+    function toggleCoverage() { coverageExpanded = !coverageExpanded; renderCoverage(); }
     function setTrustFilter(trust) { activeTrustFilter = trust; renderInfoPage(); }
     function setSourceFilter(source) { activeSourceFilter = source; renderInfoPage(); }
     function setTagFilter(tag) { activeTagFilter = tag; renderInfoPage(); }
