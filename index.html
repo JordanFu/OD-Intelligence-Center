@@ -2033,6 +2033,23 @@
         if (resp.ok) {
           const data = await resp.json();
           kbReports = data.reports || [];
+          // Dynamically update source types and topic tags from catalog categories
+          if (data.categories) {
+            if (data.categories.sourceType) {
+              for (const [key, info] of Object.entries(data.categories.sourceType)) {
+                if (!KB_SOURCE_TYPES[key]) {
+                  KB_SOURCE_TYPES[key] = { label: info.label, icon: info.icon, class: key };
+                }
+              }
+            }
+            if (data.categories.topic) {
+              for (const [key, info] of Object.entries(data.categories.topic)) {
+                if (!KB_TOPIC_TAGS[key]) {
+                  KB_TOPIC_TAGS[key] = info.icon;
+                }
+              }
+            }
+          }
         }
       } catch (e) { console.log('kb catalog not loaded'); }
 

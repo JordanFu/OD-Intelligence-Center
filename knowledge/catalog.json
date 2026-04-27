@@ -1,6 +1,8 @@
 {
-  "version": "1.0",
-  "lastUpdated": "2026-04-09",
+  "version": "2.0",
+  "lastUpdated": "2026-04-27",
+  "mode": "karpathy-llm-wiki",
+  "schema": "knowledge/CLAUDE.md",
   "categories": {
     "sourceType": {
       "consulting": { "label": "咨询公司", "icon": "📊" },
@@ -21,6 +23,25 @@
     }
   },
   "reports": [
+    {
+      "id": "r004",
+      "title": "Design Your Company for AI, Not AI for Your Company",
+      "originalTitle": "Design Your Company for AI, Not AI for Your Company.",
+      "author": "Nina Kataeva, Vinciane Beauchene, Christoph Hilberath, Kevin Kelley, Sophie Strelczyk",
+      "publisher": "BCG",
+      "sourceType": "consulting",
+      "topics": ["AI组织设计", "变革管理", "战略规划", "领导力"],
+      "date": "2026-04-23",
+      "uploadDate": "2026-04-27",
+      "description": "BCG 核心框架：AI-first 转型涉及 30% 技术 + 70% 人员与组织。两个真实案例（欧洲能源巨头 + 全球银行），提出能力-判断评估矩阵确定人机分工。核心结论：领导者不是拥有最好 AI 工具的公司，而是愿意围绕 AI-first 运营模型重新设计组织的公司。",
+      "summaryFile": "./knowledge/wiki/bcg-2026-04-design-company-for-ai.md",
+      "pdfFile": "./pdfs/bcg-2026-04-design-your-company-for-ai.pdf",
+      "rawFile": "./knowledge/raw/bcg-2026-04-design-your-company-for-ai.pdf",
+      "fileName": "bcg-2026-04-design-your-company-for-ai.pdf",
+      "fileSize": "2.3MB",
+      "tags": ["AI-First", "运营模型", "Agent", "30-70法则", "人机协作", "端到端旅程"],
+      "originalUrl": "https://www.bcg.com/publications/2026/design-your-company-for-ai"
+    },
     {
       "id": "r001",
       "title": "AI 转型本质上是劳动力转型",
