@@ -161,6 +161,96 @@
 - **标签**：#组织设计 #政策监管
 - **抓取时间**：2026-04-29 08:00
 
+### [16] Anthropic发布Claude for Creative Work：MCP连接器深度集成Adobe/Autodesk/Blender
+- **事件摘要**：与Adobe(50+款工具)、Autodesk Fusion(3D建模)、Blender(MCP协议)、Ableton、SketchUp等创意工具深度集成，推出Connectors架构和Claude Design产品。与罗德岛设计学院等三所院校合作"创意计算"课程。
+- **来源**：Anthropic官网（https://www.anthropic.com/news/claude-for-creative-work）
+- **来源平台**：Anthropic、Hacker News
+- **来源可信度**：⭐高
+- **OD启示**：AI从编码助手向创意协作者扩展，传统设计→工程线性流程可被AI压缩，需建立"AI能力编排"新职能。
+- **标签**：#AI-coding #组织设计
+- **抓取时间**：2026-04-29 12:00
+
+### [17] Claude Code系统提示词Bug：子代理40-60%拒绝率+单会话浪费4万tokens
+- **事件摘要**：GitHub Issue #49363披露Claude Code CLI硬编码注入矛盾措辞的malware检查提醒，导致并行子代理高拒绝率。单会话浪费2-4万tokens。历经19个版本仍未修复，Anthropic无回应。
+- **来源**：GitHub（https://github.com/anthropics/claude-code/issues/49363）、Hacker News
+- **来源平台**：GitHub、Hacker News
+- **来源可信度**：📰较高
+- **OD启示**：企业级AI编程工具的"隐性成本"——Token浪费+子代理不可预测性，需建立AI工具健康度监控体系。
+- **标签**：#AI-coding #组织设计
+- **抓取时间**：2026-04-29 12:00
+
+### [18] ChatGPT广告归因机制技术曝光：对话上下文定向+30天跨站追踪
+- **事件摘要**：安全研究者逆向分析ChatGPT广告完整技术链路：SSE流注入广告、对话话题定向、OAIQ SDK跨站Cookie追踪（30天有效期），$60 CPM起步。
+- **来源**：Buchodi's Threat Intel（https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/）
+- **来源平台**：Buchodi、Hacker News
+- **来源可信度**：📰较高
+- **OD启示**：OpenAI商业模式从"订阅"向"订阅+广告"双引擎转变，企业需评估含广告版ChatGPT的信息安全风险。
+- **标签**：#组织设计 #政策监管
+- **抓取时间**：2026-04-29 12:00
+
+### [19] 百度职级体系大改革：取消TPS字母标签，统一5-12级数字体系+新设PSIG事业群
+- **事件摘要**：5月1日起取消T/P/E/M等字母职级标签，统一5-12级数字体系。新设PSIG事业群发布GenFlow 4.0通用智能体。AI新业务收入400亿（同比+48%）。
+- **来源**：36氪（https://m.36kr.com/p/3786193864383745）、腾讯新闻、虎嗅、搜狐
+- **来源平台**：36氪、腾讯新闻、虎嗅、搜狐、中国网
+- **来源可信度**：⭐高
+- **OD启示**：AI时代大厂"去序列化"趋势——专才vs管理者边界模糊化，推动复合型人才发展。
+- **标签**：#组织设计 #晋升 #人才盘点
+- **抓取时间**：2026-04-29 12:00
+
+### [20] Warp终端开源变身"代理开发环境"：OpenAI创始赞助+26,000星
+- **事件摘要**：AGPL开源，从终端转型为"Agentic Development Environment"。人类提供想法验证，AI Agent负责编码规划测试。支持Kimi/MiniMax/Qwen开源模型。
+- **来源**：Warp官方博客（https://www.warp.dev/blog/warp-is-now-open-source）、Hacker News
+- **来源平台**：Warp Blog、Hacker News、byteiota
+- **来源可信度**：⭐高
+- **OD启示**：开发者角色从"写代码"变为"AI Agent编排者和验证者"，开发工具从编辑器向"AI Agent运行平台"演进。
+- **标签**：#AI-coding #组织设计
+- **抓取时间**：2026-04-29 12:00
+
+### [21] GitHub严重RCE漏洞CVE-2026-3854 + Ghostty宣布迁离GitHub
+- **事件摘要**：Wiz披露GitHub.com/Enterprise Server严重RCE漏洞（3月4日报告，4月28日公开）。同日Ghostty创始人Mitchell Hashimoto（GitHub第1299号用户）因频繁服务中断宣布将项目迁离GitHub。
+- **来源**：The Hacker News、GitHub Blog、Hacker News
+- **来源平台**：The Hacker News、GitHub Blog、Hacker News
+- **来源可信度**：⭐高
+- **OD启示**：代码基础设施安全审计需纳入组织风险管理体系，开发者对平台可靠性容忍度下降，企业需评估去中心化策略。
+- **标签**：#AI-coding #组织设计
+- **抓取时间**：2026-04-29 12:00
+
+### [22] 前米哈游高管创办AI原生增长Agent：增长团队"80/20重构"
+- **事件摘要**：LeapMind Growth获CMC资本天使+轮。GrowthGPT可自主完成策略→执行→优化闭环，跨境出海获客成本降70%。80%执行工作由Agent接管，20%核心决策保留人类。
+- **来源**：36氪/新浪财经（https://finance.sina.com.cn/tech/roll/2026-04-29/doc-inhwckrn7892989.shtml）
+- **来源平台**：36氪、新浪财经
+- **来源可信度**：📰较高
+- **OD启示**：增长团队从"堆人执行+管理者决策"转向"AI Agent执行+少数决策者"，催生"AI原生增长负责人"新角色。
+- **标签**：#组织设计 #AI-coding
+- **抓取时间**：2026-04-29 12:00
+
+### [23] 小红书首次公布AI治理主张：四反对+AI创作须主动标识
+- **事件摘要**：首届AI治理开放日发布平台AI治理框架。反对AI造假、批量低质、冒充真人、违规采集。鼓励AI作为创意放大器，所有AI创作须主动标识。
+- **来源**：新浪财经（https://finance.sina.com.cn/tech/roll/2026-04-27/doc-inhvxxxe7812395.shtml）
+- **来源平台**：小红书/新浪财经
+- **来源可信度**：⭐高
+- **OD启示**：内容平台AI治理规则直接影响企业内容营销职能，需建立AI内容标识和审核内部机制。
+- **标签**：#政策监管 #组织设计
+- **抓取时间**：2026-04-29 12:00
+
+### [24] ProjectDiscovery 2026 AI编程安全报告：AI代码安全风险超越团队能力
+- **事件摘要**：调研200+安全从业者。100%报告工程交付加速，78%将泄露密钥列为AI代码首要风险，66%安全从业者大部分时间花在AI代码安全审查上。
+- **来源**：ProjectDiscovery、PR Newswire
+- **来源平台**：ProjectDiscovery、PR Newswire、CyberSecurityDive
+- **来源可信度**：📰较高
+- **OD启示**：AI编程"信任鸿沟"——工程加速vs安全滞后，需将安全能力嵌入AI编码工作流，"AI代码安全审查"成新岗位。
+- **标签**：#AI-coding #组织设计
+- **抓取时间**：2026-04-29 12:00
+
+### [25] 苏州具身智能大会：十大新产品+工信部披露全国140家整机企业/2万台年出货
+- **事件摘要**：十大新产品、十二项新标准发布，上线具身智能综合创新平台。工信部披露全国人形机器人整机企业超140家、产品超330款、2025年出货量超2万台。
+- **来源**：苏州日报/新浪财经（https://finance.sina.com.cn/wm/2026-04-27/doc-inhvxxwz2266577.shtml）
+- **来源平台**：苏州日报、新浪财经
+- **来源可信度**：⭐高
+- **OD启示**：具身智能从概念验证进入产业生态构建阶段，制造业需建立机器人引入组织准备度评估框架。
+- **标签**：#具身智能 #组织设计
+- **抓取时间**：2026-04-29 12:00
+
 ## 2026-04-28
 
 ### [01] GitHub Copilot宣布6月1日起全面转向按用量计费（AI积分制）
