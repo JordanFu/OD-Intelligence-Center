@@ -62,6 +62,57 @@
   },
   "reports": [
     {
+      "date": "2026-04-29",
+      "weekday": "周三",
+      "items": 25,
+      "platforms": 27,
+      "trust": { "high": 13, "mid": 12, "ref": 0 },
+      "tags": ["AI-coding", "组织设计", "政策监管", "HR-Tech", "人才盘点", "晋升", "具身智能"],
+      "topPicks": [
+        {
+          "title": "百度宣布职级体系大改革：取消T/P/E/M字母标签，统一5-12级数字体系",
+          "platform": "36氪 / 腾讯新闻 / 虎嗅 / 搜狐 / 中国网",
+          "url": "https://m.36kr.com/p/3786193864383745",
+          "reason": "AI时代大厂'去序列化'标杆案例——专业+管理双通道合并，新设PSIG事业群整合AI能力，四源交叉确认"
+        },
+        {
+          "title": "Warp终端开源变身'代理开发环境'：26,000 GitHub星，OpenAI为创始赞助商",
+          "platform": "Warp Blog / Hacker News / byteiota",
+          "url": "https://www.warp.dev/blog/warp-is-now-open-source",
+          "reason": "开发工具从'编辑器'向'AI Agent运行平台'关键转折，'人类在环+Agent执行+社区监督'新范式"
+        },
+        {
+          "title": "Anthropic发布Claude for Creative Work：MCP连接器战略落地",
+          "platform": "Anthropic / Hacker News",
+          "url": "https://www.anthropic.com/news/claude-for-creative-work",
+          "reason": "AI从编码扩展到创意，MCP协议连接Adobe 50+工具，创意行业组织结构面临AI压缩重构"
+        },
+        {
+          "title": "Korn Ferry 2026全球人才招聘趋势：仅22%领导者能管理人机混合团队",
+          "platform": "Korn Ferry",
+          "url": "https://www.kornferry.com/zh/insights/articles/ai-in-recruitment-trends",
+          "reason": "1600+HR管理者调研，揭示'人机混合团队管理'最大领导力缺口，入门级岗位是'管理者摇篮'"
+        },
+        {
+          "title": "新华社深度报道AI'蒸馏同事'现象：数字分身的法律与伦理边界",
+          "platform": "新华网 / 新华每日电讯",
+          "url": "http://www1.xinhuanet.com/20260427/d0d24504d8a24b7e96ef9d8231f13b13/c.html",
+          "reason": "国家级媒体首次系统报道'蒸馏同事'，触及权属/责任/隐私三大法律灰色地带，'反蒸馏'行为需组织文化层面解决"
+        }
+      ],
+      "trends": [
+        "AI Coding工具进入'后独家+后免费'双转变期——微软-OpenAI解除排他+AWS闪电上线+Copilot按量计费，企业AI预算从福利型转向成本中心型",
+        "大厂职级体系'去序列化'成组织设计新趋势——百度取消T/P/E/M合并双通道+Korn Ferry 22%领导力缺口+23%数字员工岗位说明书，组织基础单元从'岗位'向'能力'迁移",
+        "AI伦理成为雇主品牌和人才吸引力核心议题——Google 700+员工抗议vs Anthropic因伦理红线被拉黑，两条路径鲜明对照"
+      ],
+      "nextFocus": [
+        "马斯克诉OpenAI庭审后续——$1500亿对决AI治理模式，非营利→营利合法性争议对所有AI公司治理设计有前鉴意义",
+        "GitHub Copilot按量计费6/1倒计时——企业IT预算治理框架调整案例和行业反应",
+        "Meta 5/20裁员倒计时——8000人执行方案、Applied AI团队组建、'人力→算力'置换内部公平性维系"
+      ],
+      "note": "今日08:00和12:00双批次搜集正常执行，新增25条。⭐高13条/📰较高12条，数据质量优秀。百度职级改革、Warp开源、Claude创意工具链、Korn Ferry领导力缺口、新华社蒸馏同事为五大重点。AI Coding后独家时代+大厂去序列化+AI伦理雇主品牌为三大核心趋势。"
+    },
+    {
       "date": "2026-04-28",
       "weekday": "周二",
       "items": 15,
