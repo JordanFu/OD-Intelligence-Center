@@ -66,8 +66,20 @@
       "weekday": "周三",
       "items": 25,
       "platforms": 27,
-      "trust": { "high": 13, "mid": 12, "ref": 0 },
-      "tags": ["AI-coding", "组织设计", "政策监管", "HR-Tech", "人才盘点", "晋升", "具身智能"],
+      "trust": {
+        "high": 13,
+        "mid": 12,
+        "ref": 0
+      },
+      "tags": [
+        "AI-coding",
+        "组织设计",
+        "政策监管",
+        "HR-Tech",
+        "人才盘点",
+        "晋升",
+        "具身智能"
+      ],
       "topPicks": [
         {
           "title": "百度宣布职级体系大改革：取消T/P/E/M字母标签，统一5-12级数字体系",
@@ -117,8 +129,20 @@
       "weekday": "周二",
       "items": 15,
       "platforms": 18,
-      "trust": { "high": 8, "mid": 7, "ref": 0 },
-      "tags": ["AI-coding", "组织设计", "政策监管", "具身智能", "人才盘点", "绩效", "HR-Tech"],
+      "trust": {
+        "high": 8,
+        "mid": 7,
+        "ref": 0
+      },
+      "tags": [
+        "AI-coding",
+        "组织设计",
+        "政策监管",
+        "具身智能",
+        "人才盘点",
+        "绩效",
+        "HR-Tech"
+      ],
       "topPicks": [
         {
           "title": "微软与OpenAI结束排他性合作：AI产业格局重大转折",
@@ -168,7 +192,11 @@
       "weekday": "周一",
       "items": 0,
       "platforms": 0,
-      "trust": { "high": 0, "mid": 0, "ref": 0 },
+      "trust": {
+        "high": 0,
+        "mid": 0,
+        "ref": 0
+      },
       "tags": [],
       "topPicks": [],
       "trends": [
@@ -189,7 +217,11 @@
       "weekday": "周日",
       "items": 0,
       "platforms": 0,
-      "trust": { "high": 0, "mid": 0, "ref": 0 },
+      "trust": {
+        "high": 0,
+        "mid": 0,
+        "ref": 0
+      },
       "tags": [],
       "topPicks": [],
       "trends": [
@@ -207,8 +239,20 @@
       "weekday": "周六",
       "items": 15,
       "platforms": 16,
-      "trust": { "high": 7, "mid": 6, "ref": 2 },
-      "tags": ["组织设计", "AI-coding", "HR-Tech", "人才盘点", "具身智能", "政策监管", "绩效"],
+      "trust": {
+        "high": 7,
+        "mid": 6,
+        "ref": 2
+      },
+      "tags": [
+        "组织设计",
+        "AI-coding",
+        "HR-Tech",
+        "人才盘点",
+        "具身智能",
+        "政策监管",
+        "绩效"
+      ],
       "topPicks": [
         {
           "title": "BCG《Design Your Company for AI》：AI优先是组织挑战而非技术挑战（30%技术/70%人+组织）",
@@ -257,8 +301,21 @@
       "weekday": "周五",
       "items": 15,
       "platforms": 18,
-      "trust": { "high": 6, "mid": 9, "ref": 0 },
-      "tags": ["AI-coding", "组织设计", "绩效管理", "人才盘点", "技术治理", "政策监管", "HR-Tech", "具身智能"],
+      "trust": {
+        "high": 6,
+        "mid": 9,
+        "ref": 0
+      },
+      "tags": [
+        "AI-coding",
+        "组织设计",
+        "绩效管理",
+        "人才盘点",
+        "技术治理",
+        "政策监管",
+        "HR-Tech",
+        "具身智能"
+      ],
       "topPicks": [
         {
           "title": "WEF × Accenture《AI时代的组织变革》白皮书：五大战场+三大转变",
@@ -307,8 +364,21 @@
       "weekday": "周四",
       "items": 12,
       "platforms": 15,
-      "trust": { "high": 6, "mid": 5, "ref": 1 },
-      "tags": ["AI-coding", "组织设计", "HR-Tech", "政策监管", "AI战略", "具身智能", "大厂案例", "绩效"],
+      "trust": {
+        "high": 6,
+        "mid": 5,
+        "ref": 1
+      },
+      "tags": [
+        "AI-coding",
+        "组织设计",
+        "HR-Tech",
+        "政策监管",
+        "AI战略",
+        "具身智能",
+        "大厂案例",
+        "绩效"
+      ],
       "topPicks": [
         {
           "title": "McKinsey × Google Cloud成立联合转型小组，DeepMind与五大咨询公司结盟",
@@ -359,8 +429,20 @@
       "weekday": "周三",
       "items": 14,
       "platforms": 14,
-      "trust": { "high": 4, "mid": 10, "ref": 0 },
-      "tags": ["AI-coding", "组织设计", "政策监管", "AI战略", "HR-Tech", "人才盘点", "具身智能"],
+      "trust": {
+        "high": 4,
+        "mid": 10,
+        "ref": 0
+      },
+      "tags": [
+        "AI-coding",
+        "组织设计",
+        "政策监管",
+        "AI战略",
+        "HR-Tech",
+        "人才盘点",
+        "具身智能"
+      ],
       "topPicks": [
         {
           "title": "MIT Tech Review × Deloitte：74%企业计划部署Agent AI，仅21%建立治理",
@@ -409,8 +491,22 @@
       "weekday": "周二",
       "items": 15,
       "platforms": 18,
-      "trust": { "high": 4, "mid": 11, "ref": 0 },
-      "tags": ["组织设计", "领导力", "AI-coding", "人才盘点", "晋升", "绩效", "HR-Tech", "政策监管", "AI战略"],
+      "trust": {
+        "high": 4,
+        "mid": 11,
+        "ref": 0
+      },
+      "tags": [
+        "组织设计",
+        "领导力",
+        "AI-coding",
+        "人才盘点",
+        "晋升",
+        "绩效",
+        "HR-Tech",
+        "政策监管",
+        "AI战略"
+      ],
       "topPicks": [
         {
           "title": "Josh Bersin发布HR2030：Agentic HR将取代模块化HR",
@@ -459,8 +555,21 @@
       "weekday": "周一",
       "items": 15,
       "platforms": 11,
-      "trust": { "high": 6, "mid": 9, "ref": 0 },
-      "tags": ["组织设计", "AI-coding", "人才盘点", "绩效", "晋升", "具身智能", "政策监管", "HR-Tech"],
+      "trust": {
+        "high": 6,
+        "mid": 9,
+        "ref": 0
+      },
+      "tags": [
+        "组织设计",
+        "AI-coding",
+        "人才盘点",
+        "绩效",
+        "晋升",
+        "具身智能",
+        "政策监管",
+        "HR-Tech"
+      ],
       "topPicks": [
         {
           "title": "BCG：AI使工作重塑成为CEO必修课——'组织债务'概念提出",
@@ -511,8 +620,21 @@
       "weekday": "周五",
       "items": 15,
       "platforms": 16,
-      "trust": { "high": 8, "mid": 7, "ref": 0 },
-      "tags": ["组织设计", "AI-coding", "HR-Tech", "人才盘点", "具身智能", "政策监管", "绩效", "晋升"],
+      "trust": {
+        "high": 8,
+        "mid": 7,
+        "ref": 0
+      },
+      "tags": [
+        "组织设计",
+        "AI-coding",
+        "HR-Tech",
+        "人才盘点",
+        "具身智能",
+        "政策监管",
+        "绩效",
+        "晋升"
+      ],
       "topPicks": [
         {
           "title": "WEF×Accenture白皮书：Moderna设立'首席人才与数字技术官'整合HR与IT",
@@ -562,7 +684,11 @@
       "weekday": "周四",
       "items": 0,
       "platforms": 0,
-      "trust": { "high": 0, "mid": 0, "ref": 0 },
+      "trust": {
+        "high": 0,
+        "mid": 0,
+        "ref": 0
+      },
       "tags": [],
       "topPicks": [],
       "trends": [
@@ -583,8 +709,21 @@
       "weekday": "周三",
       "items": 27,
       "platforms": 20,
-      "trust": { "high": 14, "mid": 13, "ref": 0 },
-      "tags": ["组织设计", "人才盘点", "政策监管", "绩效", "AI-coding", "晋升", "HR-Tech", "具身智能"],
+      "trust": {
+        "high": 14,
+        "mid": 13,
+        "ref": 0
+      },
+      "tags": [
+        "组织设计",
+        "人才盘点",
+        "政策监管",
+        "绩效",
+        "AI-coding",
+        "晋升",
+        "HR-Tech",
+        "具身智能"
+      ],
       "topPicks": [
         {
           "title": "BCG六分类模型：AI将重塑50-55%美国岗位，入门级最脆弱",
@@ -633,8 +772,23 @@
       "weekday": "周二",
       "items": 15,
       "platforms": 18,
-      "trust": { "high": 8, "mid": 7, "ref": 0 },
-      "tags": ["组织设计", "AI-coding", "人才需求", "人才盘点", "晋升", "绩效", "具身智能", "大厂案例", "HR-Tech", "政策监管"],
+      "trust": {
+        "high": 8,
+        "mid": 7,
+        "ref": 0
+      },
+      "tags": [
+        "组织设计",
+        "AI-coding",
+        "人才需求",
+        "人才盘点",
+        "晋升",
+        "绩效",
+        "具身智能",
+        "大厂案例",
+        "HR-Tech",
+        "政策监管"
+      ],
       "topPicks": [
         {
           "title": "Stanford HAI 2026 AI Index：全球53%人口使用生成式AI，中美AI性能持平",
@@ -683,7 +837,11 @@
       "weekday": "周一",
       "items": 0,
       "platforms": 0,
-      "trust": { "high": 0, "mid": 0, "ref": 0 },
+      "trust": {
+        "high": 0,
+        "mid": 0,
+        "ref": 0
+      },
       "tags": [],
       "topPicks": [],
       "trends": [
@@ -703,7 +861,11 @@
       "weekday": "周六",
       "items": 0,
       "platforms": 0,
-      "trust": { "high": 0, "mid": 0, "ref": 0 },
+      "trust": {
+        "high": 0,
+        "mid": 0,
+        "ref": 0
+      },
       "tags": [],
       "topPicks": [],
       "trends": [
@@ -723,7 +885,11 @@
       "weekday": "周五",
       "items": 0,
       "platforms": 0,
-      "trust": { "high": 0, "mid": 0, "ref": 0 },
+      "trust": {
+        "high": 0,
+        "mid": 0,
+        "ref": 0
+      },
       "tags": [],
       "topPicks": [],
       "trends": [],
@@ -739,8 +905,20 @@
       "weekday": "周四",
       "items": 11,
       "platforms": 8,
-      "trust": { "high": 4, "mid": 7, "ref": 0 },
-      "tags": ["AI替罪羊", "人才重构", "AI管控", "工程组织", "治理合规", "具身智能", "AI-Agent"],
+      "trust": {
+        "high": 4,
+        "mid": 7,
+        "ref": 0
+      },
+      "tags": [
+        "AI替罪羊",
+        "人才重构",
+        "AI管控",
+        "工程组织",
+        "治理合规",
+        "具身智能",
+        "AI-Agent"
+      ],
       "topPicks": [
         {
           "title": "Q1全球裁员78,557人，AI相关占47.9%（同比翻倍）",
@@ -790,8 +968,21 @@
       "weekday": "周一",
       "items": 10,
       "platforms": 10,
-      "trust": { "high": 5, "mid": 5, "ref": 0 },
-      "tags": ["组织设计", "AI转型", "技能提升", "具身智能", "HR-Tech", "绩效管理", "AI人才", "变革管理"],
+      "trust": {
+        "high": 5,
+        "mid": 5,
+        "ref": 0
+      },
+      "tags": [
+        "组织设计",
+        "AI转型",
+        "技能提升",
+        "具身智能",
+        "HR-Tech",
+        "绩效管理",
+        "AI人才",
+        "变革管理"
+      ],
       "topPicks": [
         {
           "title": "BCG《AI转型即劳动力转型》：AI价值70%来自人员变革",
@@ -840,7 +1031,11 @@
       "weekday": "周三",
       "items": 0,
       "platforms": 0,
-      "trust": { "high": 0, "mid": 0, "ref": 0 },
+      "trust": {
+        "high": 0,
+        "mid": 0,
+        "ref": 0
+      },
       "tags": [],
       "topPicks": [
         {
@@ -891,8 +1086,32 @@
       "weekday": "周五",
       "items": 15,
       "platforms": 15,
-      "trust": { "high": 6, "mid": 9, "ref": 0 },
-      "tags": ["组织设计", "AI转型", "技能提升", "领导力", "变革管理", "AI落地", "规模化", "AI-coding", "团队结构", "康威定律", "具身智能", "银发经济", "HR-Tech", "AI原生", "绩效管理", "AI-Agent", "治理架构", "政策监管", "EU-AI-Act"],
+      "trust": {
+        "high": 6,
+        "mid": 9,
+        "ref": 0
+      },
+      "tags": [
+        "组织设计",
+        "AI转型",
+        "技能提升",
+        "领导力",
+        "变革管理",
+        "AI落地",
+        "规模化",
+        "AI-coding",
+        "团队结构",
+        "康威定律",
+        "具身智能",
+        "银发经济",
+        "HR-Tech",
+        "AI原生",
+        "绩效管理",
+        "AI-Agent",
+        "治理架构",
+        "政策监管",
+        "EU-AI-Act"
+      ],
       "topPicks": [
         {
           "title": "BCG《AI转型即劳动力转型》：70%价值来自人员变革",
@@ -941,8 +1160,31 @@
       "weekday": "周四",
       "items": 12,
       "platforms": 12,
-      "trust": { "high": 7, "mid": 5, "ref": 0 },
-      "tags": ["组织设计", "人机融合", "动态编排", "岗位影响", "变革速度", "HR-Tech", "AI采用率", "适应性", "就业安全", "技能差距", "AI素养", "裁员", "具身智能", "产业链", "组织转型", "变革管理", "行业标准", "全球竞争"],
+      "trust": {
+        "high": 7,
+        "mid": 5,
+        "ref": 0
+      },
+      "tags": [
+        "组织设计",
+        "人机融合",
+        "动态编排",
+        "岗位影响",
+        "变革速度",
+        "HR-Tech",
+        "AI采用率",
+        "适应性",
+        "就业安全",
+        "技能差距",
+        "AI素养",
+        "裁员",
+        "具身智能",
+        "产业链",
+        "组织转型",
+        "变革管理",
+        "行业标准",
+        "全球竞争"
+      ],
       "topPicks": [
         {
           "title": "德勤《2026全球人力资本趋势》：三大临界点重新定义组织",
@@ -991,8 +1233,24 @@
       "weekday": "周三",
       "items": 12,
       "platforms": 8,
-      "trust": { "high": 7, "mid": 5, "ref": 0 },
-      "tags": ["组织设计", "人机协作", "绩效管理", "技能重塑", "AI-Agent", "具身智能", "裁员", "领导力", "流程重塑", "CEO决策", "AI人才"],
+      "trust": {
+        "high": 7,
+        "mid": 5,
+        "ref": 0
+      },
+      "tags": [
+        "组织设计",
+        "人机协作",
+        "绩效管理",
+        "技能重塑",
+        "AI-Agent",
+        "具身智能",
+        "裁员",
+        "领导力",
+        "流程重塑",
+        "CEO决策",
+        "AI人才"
+      ],
       "topPicks": [
         {
           "title": "麦肯锡《2026组织现状报告》：AI是组织重构而非工具升级",
@@ -1041,8 +1299,32 @@
       "weekday": "周二",
       "items": 15,
       "platforms": 11,
-      "trust": { "high": 5, "mid": 10, "ref": 0 },
-      "tags": ["组织设计", "裁员", "AI效率", "组织模型", "人才发展", "技能提升", "组织转型", "治理机制", "智能体", "绩效管理", "AI-coding", "HR-Tech", "能力管理", "政策监管", "大厂", "AI战略", "超级个体", "人机共生", "AI原生"],
+      "trust": {
+        "high": 5,
+        "mid": 10,
+        "ref": 0
+      },
+      "tags": [
+        "组织设计",
+        "裁员",
+        "AI效率",
+        "组织模型",
+        "人才发展",
+        "技能提升",
+        "组织转型",
+        "治理机制",
+        "智能体",
+        "绩效管理",
+        "AI-coding",
+        "HR-Tech",
+        "能力管理",
+        "政策监管",
+        "大厂",
+        "AI战略",
+        "超级个体",
+        "人机共生",
+        "AI原生"
+      ],
       "topPicks": [
         {
           "title": "德勤《2026年企业AI现状》：仅34%企业深度用AI，人才技能是最大障碍",
@@ -1088,11 +1370,25 @@
     },
     {
       "date": "2026-05-06",
-      "weekday": "周二",
+      "weekday": "周三",
       "items": 20,
       "platforms": 15,
-      "trust": { "high": 7, "mid": 13, "ref": 0 },
-      "tags": ["组织设计", "企业AI落地", "人才盘点", "绩效", "AI-coding", "HR-Tech", "具身智能", "政策监管", "晋升"],
+      "trust": {
+        "high": 7,
+        "mid": 13,
+        "ref": 0
+      },
+      "tags": [
+        "组织设计",
+        "企业AI落地",
+        "人才盘点",
+        "绩效",
+        "AI-coding",
+        "HR-Tech",
+        "具身智能",
+        "政策监管",
+        "晋升"
+      ],
       "topPicks": [
         {
           "title": "McKinsey 2026 组织状态报告：AI 试点普遍但价值未兑现",
