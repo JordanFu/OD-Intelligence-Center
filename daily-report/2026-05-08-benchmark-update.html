@@ -216,6 +216,16 @@
     .finding-data strong {
       color: var(--green);
     }
+    .finding-data a, .finding-data .source-link {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px dashed var(--accent);
+      transition: all 0.2s;
+    }
+    .finding-data a:hover, .finding-data .source-link:hover {
+      color: var(--green);
+      border-color: var(--green);
+    }
     .finding-data ul {
       margin: 8px 0 0 20px;
     }
@@ -434,6 +444,16 @@
       color: var(--text);
       line-height: 1.6;
     }
+    .source-text a, .source-text .source-link {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px dashed var(--accent);
+      transition: all 0.2s;
+    }
+    .source-text a:hover, .source-text .source-link:hover {
+      color: var(--green);
+      border-color: var(--green);
+    }
 
     /* Footer */
     .footer {
@@ -530,7 +550,7 @@
           <div class="finding-title">84%企业尚未围绕AI重新设计岗位——OD的最大机会窗口</div>
         </div>
         <div class="finding-data">
-          <strong>Deloitte 2026《企业AI现状》</strong> · 调研24国3200+高管<br>
+          <a href="https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html" target="_blank" rel="noopener">Deloitte 2026《企业AI现状》</a> · 调研24国3200+高管<br>
           <ul>
             <li>60%员工已获AI工具权限，但不足60%每日使用</li>
             <li><strong>84%企业未围绕AI能力重新设计岗位</strong></li>
@@ -562,7 +582,7 @@
           <div class="finding-title">BCG岗位六分类框架——从"替代vs保留"到精细化评估</div>
         </div>
         <div class="finding-data">
-          <strong>BCG《AI Will Reshape More Jobs Than It Replaces》</strong>（2026-04-03）<br>
+          <a href="https://www.bcg.com/publications/2026/ai-will-reshape-more-jobs-than-it-replaces" target="_blank" rel="noopener">BCG《AI Will Reshape More Jobs Than It Replaces》</a>（2026-04-03）<br>
           基于1.65亿美国岗位分析：
           <ul>
             <li><strong>受限制</strong> 34% · <strong>赋能</strong> 23% · <strong>再平衡</strong> 14%</li>
@@ -599,7 +619,7 @@
           <div class="finding-title">IBM CEO报告——CAIO从26%到76%，高管层全面重塑</div>
         </div>
         <div class="finding-data">
-          <strong>IBM商业价值研究院《重塑最高管理层：通往2030年的快车道》</strong><br>
+          <a href="https://finance.sina.com.cn/roll/2026-05-06/doc-inhwyixy8272212.shtml" target="_blank" rel="noopener">IBM商业价值研究院《重塑最高管理层：通往2030年的快车道》</a><br>
           <ul>
             <li>76%企业已设首席人工智能官（CAIO），较2025年26%增长近3倍</li>
             <li>79%CEO正下放决策权</li>
@@ -631,7 +651,7 @@
           <div class="finding-title">Lovable自动10%加薪——AI时代的薪酬与组织文化实验</div>
         </div>
         <div class="finding-data">
-          <strong>TechCrunch报道</strong>（2026-05-07）<br>
+          <a href="https://techcrunch.com/2026/05/07/could-lovables-automatic-10-pay-raise-be-the-cure-for-toxic-cultures/" target="_blank" rel="noopener">TechCrunch报道</a>（2026-05-07）<br>
           Vibe Coding平台Lovable（200人/ARR 4亿+）为全职员工提供每年自动加薪10%<br>
           仅要求达到绩效预期，现金形式发放<br>
           目标：消除"反复自证价值"的有毒文化和办公室政治<br>
@@ -660,7 +680,7 @@
           <div class="finding-title">百度职级改革——"去序列化"成为大厂组织设计新趋势</div>
         </div>
         <div class="finding-data">
-          <strong>36氪/腾讯新闻/虎嗅/搜狐/中国网</strong> 四源交叉确认（2026-04-29）<br>
+          <a href="https://m.36kr.com/p/3786193864383745" target="_blank" rel="noopener">36氪</a>等多源交叉确认（2026-04-29）<br>
           <ul>
             <li>取消T/P/E/M四套字母标签，统一为5-12级数字体系</li>
             <li>专业+管理双通道合并，模糊"专才vs管理者"边界</li>
@@ -691,7 +711,7 @@
           <div class="finding-title">Korn Ferry数据——仅22%领导者能管理人机混合团队</div>
         </div>
         <div class="finding-data">
-          <strong>Korn Ferry 2026全球人才招聘趋势</strong>（1600+HR管理者调研）<br>
+          <a href="https://www.kornferry.com/about-us/press/korn-ferry-research-unveils-top-talent-acquisition-trends-shaping-2026" target="_blank" rel="noopener">Korn Ferry 2026全球人才招聘趋势</a>（1600+HR管理者调研）<br>
           <ul>
             <li><strong>仅22%领导者具备管理人机混合团队的能力</strong></li>
             <li>入门级岗位不应被简单替代（"管理者摇篮"）</li>
@@ -721,8 +741,8 @@
         </div>
         <div class="finding-data">
           <ul>
-            <li>HN 400分热帖：AI生成低质内容系统性侵蚀在线社区（rmoff.net, 2026-05-06）</li>
-            <li>学术论文"Synthetic Knowledge Amplification"：AI将碎片化知识放大为不可靠决策叙事（Zenodo, 2026-05-08）</li>
+            <li>HN 400分热帖：AI生成低质内容系统性侵蚀在线社区（<a href="https://rmoff.net/2026/05/06/ai-slop-is-systematically-destroying-our-online-communities-and-libraries/" target="_blank" rel="noopener">rmoff.net</a>，2026-05-06）</li>
+            <li>学术论文"Synthetic Knowledge Amplification"：AI将碎片化知识放大为不可靠决策叙事（<a href="https://zenodo.org/records/18936598" target="_blank" rel="noopener">Zenodo</a>，2026-05-08）</li>
           </ul>
           Brandolini定律：驳斥废话的精力比制造废话大一个数量级
         </div>
@@ -749,7 +769,7 @@
           <div class="finding-title">Dario Amodei"一人十亿美元公司"——组织逻辑的根本颠覆</div>
         </div>
         <div class="finding-data">
-          <strong>Anthropic CEO Dario Amodei</strong>（2026-05-07）<br>
+          <a href="https://www.zdnet.com/article/first-1b-business-with-one-human-employee-will-happen-in-2026-says-anthropic-ceo/" target="_blank" rel="noopener">Anthropic CEO Dario Amodei</a>（2026-05-07）<br>
           <ul>
             <li>"第一批<strong>一人十亿美元公司</strong>正在出现"</li>
             <li>传统增长逻辑（人数=规模=壁垒）被颠覆</li>
@@ -1065,22 +1085,22 @@
 
       <h4 style="font-size: 14px; color: var(--green); margin-bottom: 12px;">官方一手资料（P0）</h4>
       <ul class="source-list">
-        <li class="source-item"><span class="source-level p0">P0</span><span class="source-text">BCG《AI Will Reshape More Jobs Than It Replaces》（2026-04-03）</span></li>
-        <li class="source-item"><span class="source-level p0">P0</span><span class="source-text">Deloitte《2026企业AI现状报告》（2026-05-08）</span></li>
-        <li class="source-item"><span class="source-level p0">P0</span><span class="source-text">IBM商业价值研究院《重塑最高管理层》（2026-05-07）</span></li>
+        <li class="source-item"><span class="source-level p0">P0</span><span class="source-text"><a href="https://www.bcg.com/publications/2026/ai-will-reshape-more-jobs-than-it-replaces" target="_blank" rel="noopener">BCG《AI Will Reshape More Jobs Than It Replaces》</a>（2026-04-03）</span></li>
+        <li class="source-item"><span class="source-level p0">P0</span><span class="source-text"><a href="https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html" target="_blank" rel="noopener">Deloitte《2026企业AI现状报告》</a>（2026-05-08）</span></li>
+        <li class="source-item"><span class="source-level p0">P0</span><span class="source-text"><a href="https://finance.sina.com.cn/roll/2026-05-06/doc-inhwyixy8272212.shtml" target="_blank" rel="noopener">IBM商业价值研究院《重塑最高管理层》</a>（2026-05-07）</span></li>
         <li class="source-item"><span class="source-level p0">P0</span><span class="source-text">McKinsey《2026组织状态报告》（2026-05-06）</span></li>
       </ul>
 
       <h4 style="font-size: 14px; color: var(--accent); margin: 24px 0 12px;">头部媒体报道（P1）</h4>
       <ul class="source-list">
-        <li class="source-item"><span class="source-level p1">P1</span><span class="source-text">TechCrunch《Lovable自动10%加薪》（2026-05-07）</span></li>
-        <li class="source-item"><span class="source-level p1">P1</span><span class="source-text">36氪《百度职级体系大改革》（2026-04-29）</span></li>
-        <li class="source-item"><span class="source-level p1">P1</span><span class="source-text">Hacker News《AI Slop正在扼杀在线社区》（2026-05-06）</span></li>
+        <li class="source-item"><span class="source-level p1">P1</span><span class="source-text"><a href="https://techcrunch.com/2026/05/07/could-lovables-automatic-10-pay-raise-be-the-cure-for-toxic-cultures/" target="_blank" rel="noopener">TechCrunch《Lovable自动10%加薪》</a>（2026-05-07）</span></li>
+        <li class="source-item"><span class="source-level p1">P1</span><span class="source-text"><a href="https://m.36kr.com/p/3786193864383745" target="_blank" rel="noopener">36氪《百度职级体系大改革》</a>（2026-04-29）</span></li>
+        <li class="source-item"><span class="source-level p1">P1</span><span class="source-text"><a href="https://rmoff.net/2026/05/06/ai-slop-is-systematically-destroying-our-online-communities-and-libraries/" target="_blank" rel="noopener">Hacker News《AI Slop正在扼杀在线社区》</a>（2026-05-06）</span></li>
       </ul>
 
       <h4 style="font-size: 14px; color: var(--accent2); margin: 24px 0 12px;">学术论文（P2）</h4>
       <ul class="source-list">
-        <li class="source-item"><span class="source-level p2">P2</span><span class="source-text">Patrick Upmann《Synthetic Knowledge Amplification》（Zenodo, 2026-05-08）</span></li>
+        <li class="source-item"><span class="source-level p2">P2</span><span class="source-text"><a href="https://zenodo.org/records/18936598" target="_blank" rel="noopener">Patrick Upmann《Synthetic Knowledge Amplification》</a>（Zenodo, 2026-05-08）</span></li>
       </ul>
     </div>
 
