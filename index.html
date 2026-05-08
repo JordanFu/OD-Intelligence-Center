@@ -1743,6 +1743,170 @@
       .kb-archive-form { flex-direction: column; }
       .kb-archive-input { min-width: unset; }
     }
+
+    /* ============================================================
+       OD 情报中心 — 可读性优化补丁 v1
+       原则：YAGNI / DRY —— 仅 override，不改写原规则，便于回滚。
+       ============================================================ */
+
+    /* ---------- 1. 文字对比度：text2 提亮 + 三档分级 ---------- */
+    :root {
+      --text2: #a3a9bf;     /* 由 #8b91a8 提亮，对比度 ~7.2:1 */
+      --text3: #8b91a8;     /* 装饰性最次要文字（icon/dot） */
+    }
+
+    /* 原本 12-13px 用 --text2 的正文升级为 --text + 透明度，避免"灰糊糊" */
+    .card-brief,
+    .kb-card-desc,
+    .pick-reason,
+    .focus-text,
+    .xhs-image-desc {
+      color: var(--text);
+      opacity: 0.82;
+    }
+
+    /* ---------- 2. 字号收敛：去掉中间档，建立 5 档层级 ---------- */
+    .header h1        { font-size: 22px; letter-spacing: -0.01em; }
+    .header p         { font-size: 13px; }
+    .tab-btn          { font-size: 13px; padding: 11px 14px; min-height: 44px; }
+    .card-title       { font-size: 17px; line-height: 1.45; }
+    .card-brief       { font-size: 14px; }
+    .card-meta-mini   { font-size: 13px; }
+    .day-header h2    { font-size: 18px; }
+    .day-count        { font-size: 13px; }
+    .reader-title     { font-size: 19px; }
+    .reader-summary   { font-size: 15px; }
+    .reader-insight   { font-size: 15px; }
+    .reader-meta      { font-size: 13px; }
+    .report-day-title { font-size: 17px; }
+    .report-day-meta  { font-size: 13px; }
+    .spotlight-title  { font-size: 17px; }
+    .spotlight-finding-item { font-size: 14px; }
+    .master-report-banner h2 { font-size: 18px; }
+    .kb-card-title    { font-size: 17px; }
+    .kb-card-desc     { font-size: 14px; }
+    .report-stat-label { font-size: 13px; }
+
+    /* 11px 装饰性标签统一加字距 */
+    .card-trust-mini, .badge, .report-day-badge,
+    .kb-card-type, .xhs-note-type, .coverage-item,
+    .kb-card-tag, .reader-tag, .report-tag,
+    .kb-reader-topic-tag, .spotlight-badge,
+    .master-report-banner-badge, .reader-section-label {
+      font-size: 11px;
+      letter-spacing: 0.04em;
+    }
+
+    /* ---------- 3. 标题去渐变（提升对比度） ---------- */
+    .header h1 {
+      background: none;
+      -webkit-text-fill-color: var(--text);
+      color: var(--text);
+    }
+    .report-stat-value {
+      background: none;
+      -webkit-text-fill-color: var(--accent);
+      color: var(--accent);
+      font-size: 30px;
+    }
+
+    /* ---------- 4. 卡片 padding & 间距加大 ---------- */
+    .card {
+      padding: 20px 22px;
+      margin-bottom: 12px;
+    }
+    .day-group   { margin-top: 36px; }
+    .day-header  { margin-bottom: 18px; padding-bottom: 10px; }
+
+    /* ---------- 5. 颜色语义减负：绿色仅保留「选中/打开」一种含义 ---------- */
+    /* 洞察、重点、Spotlight 全部统一到 accent 色 */
+    .reader-insight {
+      color: var(--text);
+      background: rgba(108, 140, 255, 0.08);
+      border-left-color: var(--accent);
+    }
+    .spotlight-finding-item {
+      color: var(--text);
+      background: rgba(108, 140, 255, 0.06);
+      border-left-color: var(--accent);
+    }
+    .today-spotlight        { border-color: var(--border); }
+    .today-spotlight::before {
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+    }
+    .spotlight-badge {
+      background: rgba(108, 140, 255, 0.15);
+      color: var(--accent);
+      border-color: rgba(108, 140, 255, 0.3);
+    }
+    .spotlight-btn         { background: var(--accent); color: #fff; }
+    .spotlight-btn:hover   { background: #5a7ae0; transform: none; }
+    .pick-reason           { color: var(--text); }
+    .pick-item             { border-left-color: var(--accent); }
+    .pick-item:hover       { border-left-color: var(--accent2); }
+
+    /* ---------- 6. tab badge 在 active 状态下的对比度修复 ---------- */
+    .tab-btn.active .badge {
+      background: rgba(0, 0, 0, 0.28);
+      color: #fff;
+    }
+
+    /* ---------- 7. 容器宽度统一 + 阅读区限宽 ---------- */
+    .header-inner,
+    .controls,
+    .content,
+    .report-page,
+    .kb-page,
+    .footer {
+      max-width: 1080px;
+    }
+    /* 卡片单列保留 760px，单行字符数 ≈ 70，最舒适阅读宽度 */
+    .card,
+    .reader-panel,
+    .report-day-card,
+    .master-report-banner,
+    .today-spotlight {
+      max-width: 760px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* ---------- 8. 去掉多余 hover 抬升，整体更稳定 ---------- */
+    .card:hover,
+    .report-day-card:hover,
+    .kb-card:hover,
+    .btn-read-original:hover,
+    .master-report-btn-primary:hover,
+    .spotlight-btn:hover,
+    .xhs-note-card:hover {
+      transform: none;
+    }
+
+    /* ---------- 9. 反爬虫遮罩自动淡出（不破坏原 JS） ---------- */
+    @keyframes botCheckAutoHide {
+      0%, 70%  { opacity: 1; }
+      100%     { opacity: 0; visibility: hidden; pointer-events: none; }
+    }
+    #botCheck { animation: botCheckAutoHide 1.6s ease 0.2s forwards; }
+
+    /* ---------- 10. mark 高亮更柔和 ---------- */
+    mark {
+      background: rgba(108, 140, 255, 0.18);
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    /* ---------- 11. 移动端对齐 ---------- */
+    @media (max-width: 640px) {
+      .card,
+      .reader-panel,
+      .report-day-card,
+      .master-report-banner,
+      .today-spotlight   { max-width: 100%; }
+      .card              { padding: 16px 18px; }
+      .header h1         { font-size: 19px; }
+      .report-stat-value { font-size: 26px; }
+    }
   </style>
   <script>
     // ========== 反爬虫核心逻辑 ==========
