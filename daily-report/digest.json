@@ -4,12 +4,15 @@
     "subtitle": "基于2026年3月30日—4月9日信息采集的综合报告",
     "date": "2026-04-09",
     "sourceFile": "./report-viewer.html",
-    "stats": {
+      "stats": {
       "totalDays": 10,
       "totalItems": 110,
       "totalSources": 30,
       "hypothesesVerified": 4,
-      "hypothesesPending": 1
+      "hypothesesPending": 1,
+      "updateDate": "2026-05-08",
+      "updateItems": 80,
+      "updateSources": 20
     },
     "subPropositions": [
       {
@@ -48,7 +51,12 @@
       "🔥 Staff+工程师AI使用率63.5% vs 普通工程师49.7%——资深员工是最大受益者",
       "🔥 'AI替罪羊'论点确立：47.9% AI裁员中大量是借AI之名的成本优化",
       "🔥 苹果'场景驱动AI' vs 阿里'集中统筹' vs 腾讯'分散嵌入'——三种路径三角对照",
-      "🔥 德勤：仅34%企业深度用AI，人才技能是最大障碍"
+      "🔥 德勤：仅34%企业深度用AI，人才技能是最大障碍",
+      "🔥 【05-08更新】Deloitte：84%企业尚未围绕AI重新设计岗位——OD最大机会窗口",
+      "🔥 【05-08更新】BCG六分类框架：50-55%岗位将被重塑，'分化'类别直接冲击晋升体系",
+      "🔥 【05-08更新】百度职级改革：取消T/P/E/M，统一5-12级数字体系——'去序列化'标杆",
+      "🔥 【05-08更新】Lovable自动10%加薪：AI时代薪酬与组织文化新实验",
+      "🔥 【05-08更新】Korn Ferry：仅22%领导者能管理人机组队——管理者AI素养是前提"
     ],
     "verifiedHypotheses": [
       "H1：AI转型70%价值来自组织和人的变革（✓ BCG多方验证）",
@@ -1432,6 +1440,69 @@
         "AI Agent岗位化部署的治理方案——企业级Agent准入白名单、权限审批、绩效评估实践"
       ],
       "note": "今日10:30批次搜集执行正常，新增20条。⭐高7条/📰较高13条，数据质量优秀。四方权威机构同时确认组织瓶颈论、AI Agent岗位化部署、AI项目非必胜信号为三大核心趋势。"
+    },
+    {
+      "date": "2026-05-08",
+      "weekday": "周五",
+      "items": 8,
+      "platforms": 15,
+      "trust": {
+        "high": 3,
+        "mid": 5,
+        "ref": 0
+      },
+      "tags": [
+        "组织设计",
+        "人才盘点",
+        "绩效",
+        "晋升",
+        "企业AI落地",
+        "HR-Tech"
+      ],
+      "topPicks": [
+        {
+          "title": "Deloitte 2026《企业AI现状》：84%企业尚未围绕AI重新设计岗位",
+          "platform": "Deloitte",
+          "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html",
+          "reason": "24国3200+高管调研，84%未重新设计岗位是最大OD警报，部署≠采纳，授权≠使用，工具≠变革"
+        },
+        {
+          "title": "IBM 2026 CEO报告：76%企业已设CAIO，AI时代高管层全面重塑",
+          "platform": "IBM商业价值研究院",
+          "url": "https://finance.sina.com.cn/roll/2026-05-06/doc-inhwyixy8272212.shtml",
+          "reason": "CAIO从26%到76%爆发增长，86%相信员工有AI能力但仅25%使用——巨大落差是组织变革关键瓶颈"
+        },
+        {
+          "title": "Lovable自动10%加薪：Vibe Coding平台重新定义薪酬与组织文化",
+          "platform": "TechCrunch",
+          "url": "https://techcrunch.com/2026/05/07/could-lovables-automatic-10-pay-raise-be-the-cure-for-toxic-cultures/",
+          "reason": "200人/ARR 4亿+，'员工留任是复利价值'——AI时代薪酬策略从绩效驱动转向任期+确定性模式"
+        },
+        {
+          "title": "百度职级体系大改革：取消T/P/E/M字母标签，统一5-12级数字体系",
+          "platform": "36氪 / 腾讯新闻 / 虎嗅 / 搜狐 / 中国网",
+          "url": "https://m.36kr.com/p/3786193864383745",
+          "reason": "AI时代大厂'去序列化'标杆案例——专业+管理双通道合并，模糊'专才vs管理者'边界"
+        },
+        {
+          "title": "Dario Amodei论'一人十亿美元公司'：AI时代的组织逻辑被颠覆",
+          "platform": "腾讯新闻 / Anthropic",
+          "url": "https://news.qq.com/rain/a/20260507A01WC400",
+          "reason": "Anthropic自身瓶颈证明：组织变革远比技术部署困难，OD价值在矛盾中得到最高级别验证"
+        }
+      ],
+      "trends": [
+        "【标杆研究更新】人才发展机制创新——8个关键发现：84%未重新设计岗位、BCG六分类框架、CAIO爆发增长、Lovable薪酬实验、百度去序列化、Korn Ferry领导力缺口、AI Slop知识治理、Dario'一人公司'",
+        "【标杆研究更新】飞轮人员缺口复盘——6项建议：六分类缺口分析、AI覆盖度审计、离职原因分析、新岗位预留、人机配比重算、知识质量评估",
+        "AI工具定价模式集体转向——Copilot按量计费、Claude Code限权、Warp开源三件事同周发生，企业AI成本从'糊涂账'进入'精算时代'"
+      ],
+      "nextFocus": [
+        "【高优先级】将标杆研究更新报告中的建议清单转化为企业内部可执行的行动项",
+        "【高优先级】基于BCG六分类框架，对200+缺口岗位进行AI影响度评估",
+        "跟踪Copilot按量计费的行业反应和企业应对案例",
+        "关注百度职级改革的行业示范效应——是否引发互联网大厂跟进"
+      ],
+      "note": "【标杆研究主报告更新】基于04-28~05-08期间80+条新信息，聚焦'人才发展机制创新'和'飞轮人员缺口复盘'两个核心议题生成增量更新报告。新增Deloitte 84%、BCG六分类、IBM CAIO 76%、Lovable 10%加薪、百度去序列化、Korn Ferry 22%等8个关键发现。"
     }
   ]
 }
