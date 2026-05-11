@@ -7,14 +7,14 @@ cd "$(dirname "$0")"
 
 echo "🔄 检查数据更新..."
 
-# 检查是否有变更
-if git diff --quiet && git diff --staged --quiet; then
+# 先添加所有变更（包括未跟踪文件）
+git add -A
+
+# 检查是否有已暂存的变更（含新增文件）
+if git diff --cached --quiet; then
     echo "✅ 无变更，跳过同步"
     exit 0
 fi
-
-# 添加所有变更
-git add -A
 
 # 生成提交信息（包含时间）
 COMMIT_MSG="auto-sync: $(date '+%Y-%m-%d %H:%M') - 更新数据"
