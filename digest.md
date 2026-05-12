@@ -1,7 +1,7 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-05-08 08:43
+> 最后更新：2026-05-12 09:30
 
 ---
 
@@ -23,6 +23,55 @@
 - 💬参考：社交平台/社区讨论，需交叉验证
 
 -->
+
+## 2026-05-12
+
+### [1] GM裁员数百名IT员工以招聘具备更强AI技能的人员
+- **事件摘要**：2026年5月，通用汽车（GM）裁撤IT部门超过10%的受薪员工（约600人），目的是清空技能不符合新需求的员工，为招聘AI相关人才腾出空间。新招聘岗位聚焦AI原生开发、数据工程与分析、云工程、智能体与模型开发、提示工程等方向。
+- **来源**：TechCrunch (https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/)
+- **来源平台**：TechCrunch
+- **来源可信度**：⭐高
+- **OD启示**：企业AI落地从"工具叠加"转向"能力重构"，组织需要建立新的技能评估和招聘标准。HR需要设计AI技能矩阵，重新定义IT岗位能力模型。
+- **标签**：#AI落地 #组织设计 #岗位重构 #技能置换
+- **抓取时间**：2026-05-12 08:30
+
+### [2] AI-First工程组织的5个结构性变化
+- **事件摘要**：2026年工程组织向AI优先转型的5个结构性变化：1) AI工具驱动的精益团队；2) 适配AI时代的效能指标体系；3) 面向AI代理的隐性知识制度化；4) 管理层级扁平化；5) AI基础设施战略投资。
+- **来源**：codenote.net (https://codenote.net/en/posts/ai-first-engineering-org-evolution-2026/)
+- **来源平台**：codenote.net
+- **来源可信度**：📰较高
+- **OD启示**：AI正在从根本上改变工程组织的设计原则。组织需要重新设计团队规模、管理层级、知识体系、投资优先级。
+- **标签**：#AI-coding #组织设计 #工程组织 #管理层级
+- **抓取时间**：2026-05-12 08:35
+
+### [3] OpenAI推出Daybreak安全AI项目
+- **事件摘要**：OpenAI推出面向企业的安全AI项目Daybreak，作为对标Anthropic安全AI项目Claude Mythos的产品。Daybreak可基于企业自有代码库生成定制化威胁模型，自动化检测高风险漏洞。
+- **来源**：The Verge (https://www.theverge.com/ai-artificial-intelligence/928342/openai-daybreak-security-ai)
+- **来源平台**：The Verge
+- **来源可信度**：⭐高
+- **OD启示**：企业级AI安全工具成为组织采用AI的重要考量。OD需要建立AI治理框架，包括安全审查、风险评估、合规监控。
+- **标签**：#AI落地 #AI治理 #组织设计 #安全AI
+- **抓取时间**：2026-05-12 08:40
+
+### [4] Mira Murati的Thinking Machines研发交互模型
+- **事件摘要**：前OpenAI首席技术官Mira Murati创立的AI公司Thinking Machines宣布正在研发「交互模型」，可实时持续接收音频、视频、文本输入，同步完成思考、响应与行动，解决当前AI模型单线程限制。
+- **来源**：The Verge (https://www.theverge.com/ai-artificial-intelligence/928309/mira-murati-thinking-machines-ai-interaction-model)
+- **来源平台**：The Verge
+- **来源可信度**：⭐高
+- **OD启示**：未来人与AI的协作模式将发生根本性变化，从"单线程指令-响应"转向"持续多线程协作"。组织设计需要考虑如何重新定义工作流程、团队协作模式。
+- **标签**：#AI协作 #组织设计 #工作流 #人机协同
+- **抓取时间**：2026-05-12 08:45
+
+### [5] Config - 机器人数据的台积电
+- **事件摘要**：韩国最大的制造商（LG、Samsung等）支持Config公司，该公司专注于提供机器人学习所需的数据，被称为"机器人数据的台积电"。标志着具身智能产业链正在形成，数据成为关键生产要素。
+- **来源**：TechCrunch (https://techcrunch.com/2026/05/11/koreas-biggest-manufacturers-back-config-the-tsmc-of-robot-data/)
+- **来源平台**：TechCrunch
+- **来源可信度**：⭐高
+- **OD启示**：具身智能产业链正在形成，数据标注、数据处理、数据质量管控将成为新的组织职能。传统制造企业需要考虑如何整合AI和数据能力。
+- **标签**：#具身智能 #组织设计 #产业链 #数据管理
+- **抓取时间**：2026-05-12 08:50
+
+---
 
 ## 2026-05-08
 
