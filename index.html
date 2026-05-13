@@ -109,6 +109,10 @@
       background: var(--orange);
       color: #000;
     }
+    .tab-btn.levels-tab.active {
+      background: var(--green);
+      color: #000;
+    }
     
     
     
@@ -706,6 +710,159 @@
     .spotlight-meta {
       font-size: 12px;
       color: var(--text2);
+    }
+
+    /* =================== Job Levels Reform Special =================== */
+    .levels-page {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px 24px 60px;
+    }
+    .levels-hero {
+      background: linear-gradient(135deg, #1a1d27 0%, #1e2438 100%);
+      border: 1px solid var(--green);
+      border-radius: 14px;
+      padding: 22px 24px;
+      margin-bottom: 22px;
+      position: relative;
+      overflow: hidden;
+    }
+    .levels-hero::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--green), var(--accent), var(--accent2));
+    }
+    .levels-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 3px 10px;
+      border-radius: 20px;
+      background: rgba(52, 211, 153, 0.15);
+      color: var(--green);
+      border: 1px solid rgba(52, 211, 153, 0.3);
+      margin-bottom: 10px;
+    }
+    .levels-hero h2 {
+      font-size: 22px;
+      line-height: 1.35;
+      margin-bottom: 8px;
+      color: var(--text);
+    }
+    .levels-hero p {
+      font-size: 14px;
+      line-height: 1.75;
+      color: var(--text2);
+      max-width: 760px;
+    }
+    .levels-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+      margin-bottom: 22px;
+    }
+    .levels-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+    }
+    .levels-card h3 {
+      font-size: 15px;
+      margin-bottom: 8px;
+      color: var(--text);
+    }
+    .levels-card p {
+      font-size: 13px;
+      color: var(--text2);
+      line-height: 1.65;
+    }
+    .levels-section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin-bottom: 16px;
+    }
+    .levels-section h3 {
+      font-size: 17px;
+      margin-bottom: 12px;
+      color: var(--text);
+    }
+    .levels-output {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px;
+      margin-bottom: 10px;
+    }
+    .levels-output-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 8px;
+    }
+    .levels-output-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text);
+    }
+    .levels-output p,
+    .levels-list li {
+      font-size: 13px;
+      color: var(--text2);
+      line-height: 1.65;
+    }
+    .levels-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 12px;
+    }
+    .levels-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      border: 1px solid var(--border);
+      background: var(--surface2);
+      color: var(--text);
+    }
+    .levels-btn.primary {
+      background: var(--green);
+      border-color: var(--green);
+      color: #000;
+    }
+    .levels-evidence {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 10px;
+    }
+    .levels-evidence-item {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 12px;
+    }
+    .levels-evidence-item strong {
+      display: block;
+      font-size: 13px;
+      color: var(--text);
+      margin-bottom: 5px;
+    }
+    .levels-evidence-item span {
+      font-size: 12px;
+      color: var(--text2);
+      line-height: 1.55;
     }
 
     .trust-bar {
@@ -2077,6 +2234,11 @@
           <span class="tab-label-full">工作日报</span><span class="tab-label-short">日报</span>
           <span class="badge" id="reportBadge">0</span>
         </button>
+        <button class="tab-btn levels-tab" onclick="switchTab('levels')">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19V5h16v14H4z"/><path d="M8 9h8M8 13h5M8 17h8"/></svg>
+          <span class="tab-label-full">职级专项</span><span class="tab-label-short">职级</span>
+          <span class="badge" id="levelsBadge">1</span>
+        </button>
         <button class="tab-btn kb-tab" onclick="switchTab('kb')">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
           <span class="tab-label-full">知识库</span><span class="tab-label-short">知识</span>
@@ -2105,6 +2267,11 @@
   <!-- =================== Report Page =================== -->
   <div class="page" id="page-report">
     <div class="report-page" id="reportContent"></div>
+  </div>
+
+  <!-- =================== Job Levels Reform Special Page =================== -->
+  <div class="page" id="page-levels">
+    <div class="levels-page" id="levelsContent"></div>
   </div>
 
   <!-- =================== Knowledge Base Page =================== -->
@@ -2226,10 +2393,12 @@
         btn.classList.toggle('active',
           (i === 0 && tab === 'info') ||
           (i === 1 && tab === 'report') ||
-          (i === 2 && tab === 'kb'));
+          (i === 2 && tab === 'levels') ||
+          (i === 3 && tab === 'kb'));
       });
       document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
       document.getElementById(`page-${tab}`).classList.add('active');
+      if (tab === 'levels') renderLevelsPage();
       if (tab === 'kb') renderKBPage();
     }
 
@@ -2352,12 +2521,14 @@
       updateBadges();
       renderInfoPage();
       renderReportPage();
+      renderLevelsPage();
     }
 
     function updateBadges() {
       const totalItems = allDays.reduce((s, d) => s + d.items.length, 0);
       document.getElementById('infoBadge').textContent = totalItems;
       document.getElementById('reportBadge').textContent = allReports.length;
+      document.getElementById('levelsBadge').textContent = 1;
       document.getElementById('kbBadge').textContent = kbReports.length;
 
       const totalDays = allDays.length;
@@ -2615,6 +2786,76 @@
         html += `<div class="report-day"><div class="report-day-dot ${isToday ? 'today' : ''}"></div><div class="report-day-card ${isExpanded ? 'expanded' : ''}" onclick="toggleReport('${r.date}')"><div class="report-day-header"><div><div class="report-day-title">📅 ${r.date}${r.weekday ? ` (${r.weekday})` : ''}${isToday ? '<span class="report-day-badge">今天</span>' : ''}</div></div><div class="report-day-meta"><span><strong>${r.items}</strong> 条</span><span>${r.platforms} 个平台</span></div><svg class="report-day-expand" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></div><div class="report-day-body"><div class="report-day-content">${r.trends && r.trends.length > 0 ? `<div class="report-section"><div class="report-section-title">🔍 趋势洞察</div>${r.trends.map((t, i) => `<div class="trend-item"><span class="trend-num">${i + 1}</span><span class="trend-text">${esc(t)}</span></div>`).join('')}</div>` : ''}${r.topPicks && r.topPicks.length > 0 ? `<div class="report-section"><div class="report-section-title">⭐ 重点推荐（${r.topPicks.length} 条）</div>${r.topPicks.map(p => `<div class="pick-item"><div class="pick-title">${esc(p.title)}</div><div class="pick-meta">来源：${esc(p.platform)}</div><div class="pick-reason">${esc(p.reason)}</div>${p.url ? `<a class="pick-link" href="${esc(p.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">🔗 查看原文 →</a>` : ''}</div>`).join('')}</div>` : ''}${r.nextFocus && r.nextFocus.length > 0 ? `<div class="report-section"><div class="report-section-title">🎯 明日关注</div>${r.nextFocus.map(f => `<div class="focus-item"><div class="focus-dot"></div><div class="focus-text">${esc(f)}</div></div>`).join('')}</div>` : ''}${r.tags && r.tags.length > 0 ? `<div class="report-section"><div class="report-section-title">🏷️ 研究标签</div><div class="report-tags">${r.tags.map(t => `<span class="report-tag">#${esc(t)}</span>`).join('')}</div></div>` : ''}</div></div></div></div>`;
       });
       container.innerHTML = html;
+    }
+
+    // ============================================================
+    // Job Levels Reform Special
+    // ============================================================
+    const levelsOutputs = [
+      {
+        date: '2026-05-12',
+        title: 'AI时代职级与岗位族群改革首日追踪',
+        status: '已联网验证',
+        summary: '执行层角色正在变宽，核心 AI 专家岗位同时变深；岗位/职级改革与薪酬带宽、奖金、股权激励强相关。',
+        href: './specials/job-levels/2026-05-12.html'
+      }
+    ];
+
+    function renderLevelsPage() {
+      const container = document.getElementById('levelsContent');
+      if (!container) return;
+      container.innerHTML = `
+        <div class="levels-hero">
+          <div class="levels-badge">专项研究 · 每日追踪</div>
+          <h2>职级体系、岗位族群、职业通道、薪酬与激励资源改革</h2>
+          <p>这个专项追踪 AI 时代与业务节奏变化下，全球公司如何重构 job family、管理层级、职业通道和薪酬激励机制。输出按“结论层 / Context层 / 线索层”维护，优先使用官方、一手材料和可复核来源。</p>
+        </div>
+
+        <div class="levels-grid">
+          <div class="levels-card"><h3>H1：执行层角色合并</h3><p>暂判成立。Coinbase、Block、Amazon Builder 指向更少层级、小团队、端到端 owner、player-coach。</p></div>
+          <div class="levels-card"><h3>H2：核心专家深化</h3><p>暂判成立。AI Infra、Evals、Safety、Inference、Data Governance 等岗位继续专业化并高薪化。</p></div>
+          <div class="levels-card"><h3>H3：薪酬激励驱动</h3><p>暂判成立。字节职级改革与薪酬带宽、奖金、RSU/期权同步调整，PwC 显示 AI 技能工资溢价。</p></div>
+        </div>
+
+        <div class="levels-section">
+          <h3>每日产出</h3>
+          ${levelsOutputs.map(item => `
+            <div class="levels-output">
+              <div class="levels-output-head">
+                <div>
+                  <div class="levels-output-title">${esc(item.date)} · ${esc(item.title)}</div>
+                  <p>${esc(item.summary)}</p>
+                </div>
+                <span class="report-day-badge">${esc(item.status)}</span>
+              </div>
+              <div class="levels-actions">
+                <a class="levels-btn primary" href="${esc(item.href)}" target="_blank">阅读完整日报</a>
+                <a class="levels-btn" href="./AI时代的职级变革-全球大公司组织架构调整追踪.md" target="_blank">查看基线档案</a>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+
+        <div class="levels-section">
+          <h3>今日证据地图</h3>
+          <div class="levels-evidence">
+            <div class="levels-evidence-item"><strong>官方/一手</strong><span>Coinbase、Block、Baidu IR、PwC、Anthropic Jobs。</span></div>
+            <div class="levels-evidence-item"><strong>媒体/案例</strong><span>Amazon Builder 由 Reuters 披露，并称 Amazon 确认。</span></div>
+            <div class="levels-evidence-item"><strong>招聘/薪酬</strong><span>Anthropic 高薪 JD；字节薪酬带宽、奖金与股权归属变化。</span></div>
+            <div class="levels-evidence-item"><strong>社媒线索</strong><span>Blind、脉脉、Reddit、LinkedIn 后续仅作待验证线索池。</span></div>
+          </div>
+        </div>
+
+        <div class="levels-section">
+          <h3>下一步追踪</h3>
+          <ul class="levels-list">
+            <li>找百度全员信全文或截图源，确认发件人、日期、套改规则、薪酬/晋升影响。</li>
+            <li>继续追 Amazon Builder 原始 memo，确认 Ring/Blink 试点人数、岗位范围、level/pay band 是否变化。</li>
+            <li>建立 AI Infra / Evals / Safety / Agent / Data Governance JD 样本表。</li>
+            <li>补充 market premium、skill premium、project bonus、spot bonus、RSU refresh、special allowance 等薪酬机制案例。</li>
+          </ul>
+        </div>
+      `;
     }
 
     // ============================================================
