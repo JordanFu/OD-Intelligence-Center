@@ -97,6 +97,8 @@
       align-items: center;
       justify-content: center;
       gap: 6px;
+      min-width: 0;
+      white-space: nowrap;
     }
     .tab-btn:hover { color: var(--text); }
     .tab-btn.active {
@@ -939,6 +941,7 @@
       background: var(--green-dim);
       color: var(--green);
       font-weight: 500;
+      white-space: nowrap;
     }
     .report-day-meta {
       display: flex;
@@ -1592,8 +1595,14 @@
       z-index: 1000;
       transition: transform 0.3s ease;
       pointer-events: none;
+      opacity: 0;
+      visibility: hidden;
     }
-    .toast.show { transform: translateX(-50%) translateY(0); }
+    .toast.show {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+      visibility: visible;
+    }
 
     /* Empty state */
     
@@ -2064,6 +2073,193 @@
       .header h1         { font-size: 19px; }
       .report-stat-value { font-size: 26px; }
     }
+
+    /* ============================================================
+       OD 情报中心 — DESIGN.md alignment patch v2
+       来源方法：参考 awesome-design-md 的 DESIGN.md 结构，沉淀本仓库自己的设计令牌。
+       ============================================================ */
+    :root {
+      --surface: #171a24;
+      --surface2: #202434;
+      --surface3: #252a3a;
+      --border: #31374b;
+      --accent: #7c92ff;
+      --accent2: #b197fc;
+      --focus-ring: rgba(124, 146, 255, 0.28);
+      --shadow-soft: 0 18px 60px rgba(0, 0, 0, 0.18);
+    }
+
+    body {
+      background:
+        linear-gradient(180deg, rgba(124, 146, 255, 0.05) 0, rgba(15, 17, 23, 0) 260px),
+        var(--bg);
+    }
+
+    .header {
+      background: rgba(15, 17, 23, 0.86);
+      box-shadow: 0 1px 0 rgba(255,255,255,0.03), 0 18px 44px rgba(0,0,0,0.18);
+    }
+
+    .tab-bar {
+      background: rgba(23, 26, 36, 0.92);
+      border-color: rgba(124, 146, 255, 0.16);
+      border-radius: 12px;
+    }
+
+    .tab-btn:focus-visible,
+    .filter-tag:focus-visible,
+    .kb-filter-tag:focus-visible,
+    .levels-btn:focus-visible,
+    .btn-read-original:focus-visible,
+    .btn-close-panel:focus-visible,
+    .master-report-btn:focus-visible,
+    .spotlight-btn:focus-visible {
+      outline: 3px solid var(--focus-ring);
+      outline-offset: 2px;
+    }
+
+    .search-box,
+    .kb-search-box,
+    .kb-archive-input,
+    .xhs-date-select {
+      background: rgba(23, 26, 36, 0.88);
+      border-color: rgba(49, 55, 75, 0.96);
+    }
+
+    .search-box:focus,
+    .kb-search-box:focus,
+    .kb-archive-input:focus {
+      box-shadow: 0 0 0 3px var(--focus-ring);
+    }
+
+    .card,
+    .report-day-card,
+    .kb-card,
+    .levels-card,
+    .levels-section,
+    .levels-output,
+    .coverage,
+    .reader-panel {
+      border-color: rgba(49, 55, 75, 0.92);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.025);
+    }
+
+    .card:hover,
+    .report-day-card:hover,
+    .kb-card:hover,
+    .levels-card:hover,
+    .levels-output:hover {
+      border-color: rgba(124, 146, 255, 0.64);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.035), 0 10px 28px rgba(0,0,0,0.12);
+    }
+
+    .levels-page {
+      max-width: 1080px;
+    }
+
+    .levels-hero {
+      border-color: rgba(124, 146, 255, 0.34);
+      background:
+        linear-gradient(135deg, rgba(124, 146, 255, 0.12), rgba(52, 211, 153, 0.06)),
+        var(--surface);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .levels-hero::before {
+      background: linear-gradient(90deg, var(--accent), var(--green), var(--orange));
+    }
+
+    .levels-badge {
+      background: rgba(124, 146, 255, 0.14);
+      border-color: rgba(124, 146, 255, 0.34);
+      color: var(--accent);
+    }
+
+    .levels-grid {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .levels-card {
+      min-height: 148px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .levels-card::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 3px;
+      background: var(--accent);
+      opacity: 0.82;
+    }
+
+    .levels-card:nth-child(2)::before { background: var(--green); }
+    .levels-card:nth-child(3)::before { background: var(--orange); }
+    .levels-card:nth-child(4)::before { background: var(--accent2); }
+
+    .levels-card h3 {
+      font-size: 16px;
+    }
+
+    .levels-section {
+      background: rgba(23, 26, 36, 0.86);
+    }
+
+    .levels-output {
+      background: rgba(32, 36, 52, 0.86);
+    }
+
+    .levels-btn {
+      transition: border-color 0.2s, background 0.2s, color 0.2s;
+    }
+
+    .levels-btn:hover {
+      border-color: var(--accent);
+      color: var(--text);
+    }
+
+    .levels-btn.primary {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+
+    .levels-btn.primary:hover {
+      background: #6f84f0;
+    }
+
+    .levels-evidence-item {
+      background: rgba(32, 36, 52, 0.72);
+    }
+
+    .levels-list {
+      padding-left: 18px;
+    }
+
+    .levels-list li + li {
+      margin-top: 6px;
+    }
+
+    @media (max-width: 920px) {
+      .levels-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 640px) {
+      .levels-grid {
+        grid-template-columns: 1fr;
+      }
+      .levels-card {
+        min-height: auto;
+      }
+      .levels-hero {
+        padding: 20px;
+      }
+    }
   </style>
   <script>
     // ========== 反爬虫核心逻辑 ==========
@@ -2237,7 +2433,7 @@
         <button class="tab-btn levels-tab" onclick="switchTab('levels')">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19V5h16v14H4z"/><path d="M8 9h8M8 13h5M8 17h8"/></svg>
           <span class="tab-label-full">专题项目</span><span class="tab-label-short">专题</span>
-          <span class="badge" id="levelsBadge">1</span>
+          <span class="badge" id="levelsBadge">4</span>
         </button>
         <button class="tab-btn kb-tab" onclick="switchTab('kb')">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
@@ -2528,7 +2724,7 @@
       const totalItems = allDays.reduce((s, d) => s + d.items.length, 0);
       document.getElementById('infoBadge').textContent = totalItems;
       document.getElementById('reportBadge').textContent = allReports.length;
-      document.getElementById('levelsBadge').textContent = 1;
+      document.getElementById('levelsBadge').textContent = 4;
       document.getElementById('kbBadge').textContent = kbReports.length;
 
       const totalDays = allDays.length;
@@ -2814,7 +3010,8 @@
         <div class="levels-grid">
           <div class="levels-card"><h3>组织扁平化</h3><p>追踪中层减少、管理跨度扩大、小团队化、player-coach 与组织沟通落地。</p></div>
           <div class="levels-card"><h3>高人才密度</h3><p>研究复合型人才识别、招聘、授权、激励、保留和持续涌现机制。</p></div>
-          <div class="levels-card"><h3>岗位与晋升</h3><p>持续更新岗位族群、职业通道、薪酬激励资源配置与未来晋升机制。</p></div>
+          <div class="levels-card"><h3>岗位族群序列</h3><p>持续更新岗位族群、职业通道、职级结构、薪酬带宽和激励资源配置。</p></div>
+          <div class="levels-card"><h3>未来晋升机制</h3><p>研究即时晋升、常规窗口、项目制晋升、能力认证和公平校准机制。</p></div>
         </div>
 
         <div class="levels-section">
@@ -2839,8 +3036,8 @@
         <div class="levels-section">
           <h3>证据地图</h3>
           <div class="levels-evidence">
-            <div class="levels-evidence-item"><strong>信息库</strong><span>每日 `digest.md` 与 `daily/` 的最新条目作为常规知识源。</span></div>
-            <div class="levels-evidence-item"><strong>知识库</strong><span>`knowledge/` 中的咨询报告、研究摘要和专题 wiki 作为基础材料。</span></div>
+            <div class="levels-evidence-item"><strong>信息库</strong><span>每日 digest.md 与 daily/ 的最新条目作为常规知识源。</span></div>
+            <div class="levels-evidence-item"><strong>知识库</strong><span>knowledge/ 中的咨询报告、研究摘要和专题 wiki 作为基础材料。</span></div>
             <div class="levels-evidence-item"><strong>外部来源</strong><span>官方/一手、权威媒体、咨询报告、招聘薪酬和公司制度材料交叉验证。</span></div>
             <div class="levels-evidence-item"><strong>线索池</strong><span>社媒与职场平台只作为待验证线索，不直接写成结论。</span></div>
           </div>
