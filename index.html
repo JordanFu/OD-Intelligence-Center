@@ -3470,6 +3470,14 @@
 
     function mdToHtml(md) {
       if (!md) return '';
+      md = md.replace(/(^\|.+\|\n^\|[\s:\-|]+\|\n(?:^\|.+\|\n?)+)/gm, tableBlock => {
+        const rows = tableBlock.trim().split('\n').filter(line => !/^\|[\s:\-|]+\|$/.test(line.trim()));
+        if (rows.length < 2) return tableBlock;
+        const cells = line => line.trim().replace(/^\||\|$/g, '').split('|').map(cell => cell.trim());
+        const header = cells(rows[0]);
+        const body = rows.slice(1).map(row => cells(row));
+        return `<table><thead><tr>${header.map(cell => `<th>${cell}</th>`).join('')}</tr></thead><tbody>${body.map(row => `<tr>${row.map(cell => `<td>${cell}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
+      });
       let html = md
         // Remove the title comment block at the top
         .replace(/^> \*\*原标题\*\*.*?\n> \*\*发布日期\*\*.*?\n\n---\n\n/, '')
@@ -3500,7 +3508,7 @@
         .map(block => {
           block = block.trim();
           if (!block) return '';
-          if (/^<(h[1-3]|ul|ol|blockquote|hr|div)/.test(block)) return block;
+          if (/^<(h[1-3]|ul|ol|blockquote|hr|div|table)/.test(block)) return block;
           if (block.startsWith('<ul>') || block.startsWith('<ol>')) return block;
           return `<p>${block}</p>`;
         })
