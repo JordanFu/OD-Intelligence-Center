@@ -1416,6 +1416,120 @@
       color: var(--orange);
       font-weight: 600;
     }
+    .kb-method-hero {
+      background: linear-gradient(135deg, rgba(251, 191, 36, 0.13), rgba(108, 140, 255, 0.08));
+      border: 1px solid rgba(251, 191, 36, 0.28);
+      border-radius: 16px;
+      padding: 22px 24px;
+      margin-bottom: 18px;
+      position: relative;
+      overflow: hidden;
+    }
+    .kb-method-hero::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--orange), var(--accent), var(--green));
+    }
+    .kb-method-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--orange);
+      padding: 3px 10px;
+      border: 1px solid rgba(251, 191, 36, 0.28);
+      border-radius: 999px;
+      background: rgba(251, 191, 36, 0.1);
+      margin-bottom: 10px;
+    }
+    .kb-method-hero h2 {
+      font-size: 21px;
+      line-height: 1.35;
+      margin-bottom: 8px;
+      color: var(--text);
+    }
+    .kb-method-hero p {
+      font-size: 14px;
+      color: var(--text2);
+      line-height: 1.75;
+      max-width: 760px;
+    }
+    .kb-method-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 10px;
+      margin-top: 16px;
+    }
+    .kb-method-chip {
+      background: rgba(15, 17, 23, 0.45);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 12px;
+    }
+    .kb-method-chip strong {
+      display: block;
+      font-size: 13px;
+      color: var(--text);
+      margin-bottom: 3px;
+    }
+    .kb-method-chip span {
+      font-size: 12px;
+      color: var(--text2);
+      line-height: 1.5;
+    }
+    .kb-source-board {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+    .kb-source-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+    }
+    .kb-source-card.ready { border-left: 3px solid var(--green); }
+    .kb-source-card.pending { border-left: 3px solid var(--orange); }
+    .kb-source-card.method { border-left: 3px solid var(--accent); }
+    .kb-source-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      align-items: flex-start;
+      margin-bottom: 8px;
+    }
+    .kb-source-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.4;
+    }
+    .kb-source-status {
+      font-size: 11px;
+      white-space: nowrap;
+      border-radius: 999px;
+      padding: 2px 8px;
+      color: #000;
+      background: var(--orange);
+      font-weight: 600;
+    }
+    .kb-source-card.ready .kb-source-status { background: var(--green); }
+    .kb-source-card.method .kb-source-status { background: var(--accent); color: #fff; }
+    .kb-source-desc {
+      font-size: 12px;
+      color: var(--text2);
+      line-height: 1.65;
+      margin-bottom: 10px;
+    }
+    .kb-source-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
     .kb-filters {
       display: flex;
       gap: 10px;
@@ -2510,6 +2624,7 @@
     let allReports = [];
     let masterReport = null;
     let kbReports = [];
+    let kbSources = [];
     let currentTab = 'info';
     let activeTagFilter = null;
     let activeSourceFilter = null;
@@ -2548,7 +2663,10 @@
       '组织文化':   '🏛️',
       '战略规划':   '🎯',
       '数字化转型': '💻',
-      '领导力':     '👑'
+      '领导力':     '👑',
+      '职级改革':   '🧭',
+      '知识管理':   '🧠',
+      '技能组织':   '🧩'
     };
 
     const TRUST_LEVELS = {
@@ -2694,6 +2812,7 @@
         if (resp.ok) {
           const data = await resp.json();
           kbReports = data.reports || [];
+          kbSources = data.knowledgeSources || [];
           // Dynamically update source types and topic tags from catalog categories
           if (data.categories) {
             if (data.categories.sourceType) {
@@ -3131,6 +3250,31 @@
       });
 
       let html = '';
+
+      html += `<div class="kb-method-hero">`;
+      html += `<div class="kb-method-kicker">🧠 Karpathy LLM Wiki 模式</div>`;
+      html += `<h2>知识库不是文件堆，是可持续维护的 OD Wiki</h2>`;
+      html += `<p>这里把本地 Obsidian、知音楼学习资料、外部报告和每日研究产出统一成 Raw Sources / Wiki / Schema 三层：原始资料保真，LLM 负责编译和交叉引用，页面只呈现可读、可追溯、能继续迭代的知识资产。</p>`;
+      html += `<div class="kb-method-grid">`;
+      html += `<div class="kb-method-chip"><strong>Raw Sources</strong><span>原始资料、网页、PDF、Obsidian 笔记，只读保真。</span></div>`;
+      html += `<div class="kb-method-chip"><strong>Wiki</strong><span>摘要、概念、案例、对比和方法论，由 LLM 持续维护。</span></div>`;
+      html += `<div class="kb-method-chip"><strong>Schema / Log</strong><span>用规则和日志约束导入、更新、检索与健康检查。</span></div>`;
+      html += `</div></div>`;
+
+      if (kbSources.length > 0) {
+        html += `<div class="kb-source-board">`;
+        kbSources.forEach(source => {
+          const statusClass = source.id === 'obsidian-vault' ? 'ready' : (source.id === 'karpathy-llm-wiki' ? 'method' : 'pending');
+          html += `<div class="kb-source-card ${statusClass}">`;
+          html += `<div class="kb-source-top"><div class="kb-source-title">${esc(source.title)}</div><span class="kb-source-status">${esc(source.status)}</span></div>`;
+          html += `<div class="kb-source-desc">${esc(source.description)}</div>`;
+          html += `<div class="kb-source-actions">`;
+          if (source.summaryFile) html += `<a class="levels-btn" href="${esc(source.summaryFile)}" target="_blank">查看说明</a>`;
+          if (source.url) html += `<a class="levels-btn" href="${esc(source.url)}" target="_blank">打开来源</a>`;
+          html += `</div></div>`;
+        });
+        html += `</div>`;
+      }
 
       // URL Archive + Upload banner
       html += `<div class="kb-archive-banner">`;

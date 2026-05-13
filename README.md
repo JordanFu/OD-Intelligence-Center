@@ -9,6 +9,13 @@
 
 - 职级与岗位族群改革每日追踪：`specials/job-levels/2026-05-12.html`
 - 职级变革基线档案可视化版：`specials/job-levels/baseline.html`
+- 知识库入口：主页顶部 `知识库` 标签，按 Karpathy LLM Wiki 模式维护本地 Obsidian、知音楼入口和外部报告。
+
+## 知识库运维原则
+
+- 区分 `Raw Sources / Wiki / Schema`：原始资料保真，Wiki 负责可读摘要、概念、案例和交叉引用。
+- 已读取内容进入知识卡片；未能访问或未验证的来源只标记为“待摄入”，不包装成结论。
+- 每次导入同步更新 `knowledge/catalog.json`、`knowledge/index.md` 和 `knowledge/log.md`。
 
 AI 如何改变组织设计 —— 信息聚合与 OD 洞察平台
 
