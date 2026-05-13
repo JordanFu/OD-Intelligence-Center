@@ -33,6 +33,7 @@ AI 时代的组织设计正在从“层级 + 职能 + 固定岗位”转向“�
 - **被增强：** “专家岗位变深”判断增强。Anthropic JD 与高薪区间为 AI 核心专家岗位深化提供了直接证据。
 - **被修正：** “随时晋升”不应作为主机制。更稳妥的是双轨制：固定窗口处理正式晋升，高频项目/技能/AI 贡献证据作为前置层。
 - **保持谨慎：** Cloudflare、Meta、DeepL 等 AI 裁员/重组线索尚缺足够一手机制证据，暂不写成中层减少的确定案例。
+  - **补充：** Cloudflare 已在 2026-05-07 财报新闻稿披露将裁减约 1,100 人并称其为 “agentic AI-first operating model” 的组织重构（[press release](https://www.cloudflare.com/press/press-releases/2026/cloudflare-announces-first-quarter-2026-financial-results/)）；但其“减少的层级/角色类型/管理跨度与绩效沟通话术”仍需进一步还原，暂不在本总览中把它写成“中层减少”确定机制结论。
 
 ## 5. 关键冲突与反例
 
@@ -82,4 +83,3 @@ AI 时代的组织设计正在从“层级 + 职能 + 固定岗位”转向“�
 - [专题二：高人才密度与复合型人才机制](./02-talent-density.md)
 - [专题三：岗位、族群、序列持续建设](./03-job-family-career-architecture.md)
 - [专题四：未来组织的晋升机制](./04-promotion-system.md)
-

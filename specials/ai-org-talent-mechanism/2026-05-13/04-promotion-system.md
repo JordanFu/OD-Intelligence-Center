@@ -5,11 +5,23 @@
 
 ---
 
-## 1. 今日一句话结论
+## 今日一句话专题判断
 
 未来组织的晋升机制不会简单变成“随时晋升”，而会走向“双轨制”：核心晋升仍保留固定窗口、校准会和薪酬预算闸门，以控制公平和成本；但技能认证、项目角色、AI 贡献和内部流动会变成更高频的“晋升前置证明”，让员工在正式升职前先获得更大范围、更高影响力和更可验证的能力信号。
 
-## 2. 今日核心判断
+## 今日新增事实
+
+### 高可信事实（官方/制度文档）
+
+1. **GitLab 把晋升定义为“每年两次校准 + 例外通道”的组合机制，并公开了完整的流程、材料与时间线。** GitLab Handbook 的 Promotions and Transfers 页面明确包含 “Twice per Year Promotion Calibration Process & Timeline” 章节，并说明例外晋升（out-of-cycle）可通过 Workday/Greenhouse 等方式处理，需要 promotion document、例外理由与审批链条等材料支撑。来源：[GitLab Promotions and Transfers](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/)。
+
+2. **GitLab 的薪酬年度复盘机制把预算、绩效、增长潜力与公平审计显式纳入流程。** GitLab Handbook 的 Annual Compensation Review Cycle 页面公开写明：薪酬决策基于个人因素与内部评估，并包含 pay equity audit、预算控制、以及生效时间等流程节点。来源：[GitLab Annual Compensation Review Cycle](https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-review-cycle/)。
+
+### 需继续验证的线索（媒体/产品信号）
+
+- **Meta 将 AI-driven impact 纳入绩效期待** 在媒体报道中被频繁提及，但仍需更多一手材料（绩效表单字段、经理培训材料、内部公告原文）确认其权重与适用范围。来源：[Business Insider](https://www.businessinsider.com/meta-ai-employee-performance-review-overhaul-2025-11)。
+
+## 今日核心判断
 
 1. **固定晋升窗口仍是大中型组织的主干机制，但必须叠加例外通道。可信度：高。**
 
@@ -35,7 +47,7 @@ GitLab Talent Assessment 把校准会定位为跨经理一致性、跨部门反�
 
 Mercer 2026 薪酬规划数据显示，组织计划晋升约 9% 员工，一次一级晋升平均加薪约 8.7%，单独晋升预算约占 base salary budget 的 1%-1.1%。在预算趋紧的情况下，如果企业引入即时晋升、AI 贡献分、技能徽章和项目制晋升，却没有统一校准，就会出现三类风险：谁会包装 AI 贡献谁先升、热门项目成员获得过多机会、预算被少数高能见度团队提前消耗。
 
-## 3. 今日 Context
+## Context层
 
 * **内部主线一：职级改革已经和薪酬治理绑定。** `specials/job-levels/2026-05-12.md` 指出，百度/字节/ Coinbase / Block / Amazon 等案例共同提示：外部 title 可以变宽，但内部 level、pay band、promotion path 仍要清楚。专题四应把“晋升机制”视为职级改革的执行层，而不是独立 HR 流程。
 
@@ -45,7 +57,7 @@ Mercer 2026 薪酬规划数据显示，组织计划晋升约 9% 员工，一次�
 
 * **外部主线：公开制度最完整的仍是 GitLab。** GitLab 的公开手册同时覆盖晋升窗口、例外晋升、promotion document、校准会、人才盘点、equality review、总薪酬预算和审批层级，是今天最适合作为机制蓝本的一手材料。
 
-## 4. 今日新增证据地图
+## 证据地图
 
 ### 官方/一手材料
 
@@ -79,7 +91,7 @@ Mercer 2026 薪酬规划数据显示，组织计划晋升约 9% 员工，一次�
 
 * **Deloitte 2026 企业 AI 现状**：84% 企业尚未围绕 AI 重设计岗位，53% 考虑 pod 或非层级组织但只有 16% 实施，74% 计划在 1-3 年内部署 Agent，但成熟治理仅 21%。晋升机制需要补“工作重设计”和“Agent 治理”这两块。
 
-## 5. 重点案例更新
+## 重点案例事实还原
 
 ### GitLab：固定窗口 + 例外通道 + 校准会，是当前最可复用模板
 
@@ -122,7 +134,7 @@ AI 时代晋升诉求会更频繁：小团队里个人影响力放大，项目�
 
 高频发生的应该是前两类，正式晋升仍应进入校准和预算周期。
 
-## 6. 对本课题的落地启发
+## 对我们行动的启发
 
 * **机制设计：采用“双轨晋升”。** 固定窗口处理大多数 level change，保持公平、预算和同级可比；即时通道只处理 acting role、关键保留、scope 已发生实质变化、open headcount 转岗等例外，并要求完整审批链。
 
@@ -140,7 +152,7 @@ AI 时代晋升诉求会更频繁：小团队里个人影响力放大，项目�
 
 * **薪酬校准：把晋升、加薪、技能溢价拆开。** 不要让所有激励都挤进 promotion。AI 稀缺技能可以用 skill premium、project bonus、RSU refresh、retention grant 解决；职级晋升只奖励长期稳定 scope 和下一层级影响力。
 
-## 7. 社媒/职场平台线索池（只列线索）
+## Context层（社媒/职场平台线索池，仅列线索）
 
 | 线索主题 | 平台 | 应关注证据 | 关键词 | 风险 |
 |---|---|---|---|---|
@@ -150,7 +162,7 @@ AI 时代晋升诉求会更频繁：小团队里个人影响力放大，项目�
 | AI 贡献被滥用包装 | Blind、Reddit、HN、脉脉 | 员工吐槽“AI usage theater”、review 造假、工具活跃度 KPI | `AI usage performance review self evaluation` | 社媒样本偏差大 |
 | 固定晋升窗口的预算挤压 | Levels.fyi、Pave、Mercer、员工论坛 | 晋升率、promotion budget、加薪幅度、compa-ratio 变化 | `promotion budget 2026 merit cycle compa-ratio` | 个体 offer/加薪样本不能代表制度 |
 
-## 8. 待验证清单与下一步计划
+## 待验证清单与下一步搜索路径
 
 1. 继续找 Meta AI-driven impact 的更多一手材料：员工 memo 截图、经理培训材料、绩效表单字段，确认它是正式评分项、核心期待还是 self-review 建议。
 
