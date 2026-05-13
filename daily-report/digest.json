@@ -70,6 +70,82 @@
   },
   "reports": [
     {
+      "date": "2026-05-13",
+      "weekday": "周三",
+      "items": 14,
+      "platforms": 9,
+      "trust": {
+        "high": 3,
+        "mid": 10,
+        "ref": 1
+      },
+      "tags": [
+        "AI就业",
+        "人机协作",
+        "变革管理",
+        "AI落地",
+        "决策流",
+        "知识管理",
+        "岗位重塑",
+        "知识工作",
+        "内容创作",
+        "数字化转型",
+        "组织架构",
+        "生态协同",
+        "AI原生计算",
+        "设备策略",
+        "人机交互",
+        "组织能力",
+        "专业服务",
+        "岗位替代",
+        "法律科技",
+        "人才管道",
+        "遗留系统",
+        "AI Agent",
+        "技能民主化",
+        "岗位重构",
+        "AI治理",
+        "Agent管理",
+        "组织基础设施",
+        "绩效管理",
+        "Agentic AI",
+        "公民开发者",
+        "去中心化",
+        "工具民主化"
+      ],
+      "topPicks": [
+        {
+          "title": "Coinbase 裁员14%：废除'纯管理者'岗位",
+          "platform": "新浪财经",
+          "url": "https://finance.sina.com.cn/stock/usstock/c/2026-05-05/doc-inhwwezc3936518.shtml",
+          "reason": "提供了'AI-native组织'的具体操作路径——废除纯管理层→压缩层级→强制AI工具掌握。关键信号：AI替代的不是单个岗位，而是管理职能本身存在的合理性。"
+        },
+        {
+          "title": "Cloudflare 裁员20%（1,100+人）：AI代理取代人类",
+          "platform": "NRIGlobe",
+          "url": "https://nriglobe.com/jobs/may-2026-layoffs-tracker-cloudflare-coinbase-meta-paypal-global-job-cuts/",
+          "reason": "Cloudflare的遣散费方案（'养'到年底）反映出公司的战略自信——相信AI代理可以在短期内接手人类工作。AI替代不是'优化'，而是'接管'。"
+        },
+        {
+          "title": "Meta 裁员8,000人（10%）：AI转型≠经营困难",
+          "platform": "AI产品圈",
+          "url": "https://aiproducthub.cn/newsflash/meta-layoffs-8000-employees-ai-driven-reorganization-may-2026/",
+          "reason": "Meta利润增长69%仍裁员10%，打破了'裁员=经营困难'的传统认知。对国内大厂的启示：职级改革最好的时机不是在危机中被迫改，而是在财务有底气时主动改。"
+        }
+      ],
+      "trends": [
+        "\"纯管理者\"消亡潮正在到来：Coinbase废除纯管理岗→Cloudflare AI代理运营→Meta持续压缩——三条路径共同指向：中层管理者的结构性理由正在被AI系统性移除。",
+        "2026年5月是AI替代的加速节点：Coinbase（5月5日）、Cloudflare（5月7日）、Meta（5月20日）——三家公司在两周内密集宣布重大重组，且均明确以AI为核心驱动力。",
+        "AI原生计算时代已来：Googlebook+AI Pointer+Agentic Android 三连发，标志着AI正从'工具'层面下沉到'基础设施'层面。"
+      ],
+      "nextFocus": [
+        "Google I/O 2026（5月20-21日）：关注AI对软件开发团队结构的影响",
+        "Meta 5月20日裁员执行进展：跟踪实际裁员执行情况、内部重组方案",
+        "国内大厂AI组织架构调整：关注华为、阿里、腾讯等是否在JSON后加速组织架构调整"
+      ],
+      "note": "今日新增14条，⭐高3条/📰较高10条/💬参考1条。重点：Coinbase废除纯管理岗、Cloudflare AI代理运营、Meta利润增长仍裁员。2026年5月成为AI替代加速节点。"
+    },
+    {
       "date": "2026-05-12",
       "weekday": "周二",
       "items": 5,
