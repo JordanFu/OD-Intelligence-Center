@@ -1,0 +1,1038 @@
+
+--- Page 1 ---
+State of AI
+in the Enterprise
+The untapped edge
+January 2026
+deloitte.com/us/state-of-ai
+--- Page 2 ---
+Table of contents
+Introduction 03 Tapping into AI’s full potential 30
+Close the gap between access and activation 30
+Overview 04 Unlock human advantage 31
+About the report 07 Build governance before scale 32
+Address sovereign AI requirements 33
+Key findings 08 Build a “living” technology & data infrastructure 34
+Worker access and pilot expansion 08 Pursue strategic reinvention 35
+AI transformation impacts 10
+AI fluency and work redesign 12 Acknowledgements 36
+Sovereign AI 15
+Agentic AI 17 About the Deloitte AI Institute 39
+Physical AI 22
+AI preparedness 28 Methodology 40
+--- Page 3 ---
+Introduction
+Throughout history, some of our greatest leaps This year’s State of AI in the Enterprise report worlds, making safety and human oversight
+forward have come when human ingenuity captures this pivotal moment. On the one hand, critical. These trends signal a future that is even
+combines with transformative technology. Each we see clear acceleration from organizations: more transformative, demanding organizational
+era’s boldest breakthroughs—from harnessing with wider workforce access to AI tools, early strategies that align technological scale with
+steam to building the internet—began when productivity gains, and growing confidence in human guidance and intent.
+people leveraged new tools to amplify their AI’s potential. On the other hand, we see a gap
+potential. Artificial intelligence (AI) is the latest between experimentation and true enterprise Now is the time to be visionary—reshaping
+chapter in this story. It has already transformed transformation. Many organizations are primarily organizational structures, roles, and workflows in
+the way we work and create, yet we have barely using AI to drive efficiency, while a smaller group ways that may not have been possible before. We
+scratched the surface of what’s possible when are pulling ahead by beginning to reimagine hope that the insights in this report inspire leaders
+human expertise and AI capabilities unite. business models, offerings, roles, and ways of to take practical steps forward, while always
+working. Leading organizations are rethinking keeping people, purpose, and trust at the center.
+Business leaders today face an unprecedented how work gets done, how teams are structured,
+challenge: moving beyond pilots to truly and how human and machine capabilities can Together, we have the opportunity and the
+integrating AI into the heart of their organizations. complement one another in everyday operations. responsibility to fundamentally rethink how
+It requires a deliberate shift in which people set humans and AI work together to transform the
+a vision and make responsible choices, and AI Key trends are also reshaping the future of future of work and create long-term value.
+provides the insights, speed, and scale to deliver AI: Sovereign AI is redefining technological
+against that ambition. That means redesigning autonomy for nations and organizations alike,
+core processes and operating models with impacting trust and competitiveness; Agentic AI
+AI, ensuring that human strengths—such as is enabling autonomous reasoning and action,
+judgment, creativity, empathy, and relationship- raising new governance and control challenges;
+building—are elevated, not automated. Physical AI is merging the digital and material
+3
+--- Page 4 ---
+Overview
+Organizations today stand at the untapped Key findings
+edge of AI’s potential. Ongoing developments
+in agentic, physical, and sovereign AI present AI is moving from the pilot AI transformation reveals
+new challenges and opportunities. Momentum
+and experimentation phase to productivity for most,
+is building, yet the greatest gains still lie ahead
+enterprise scaling as worker business reimagination
+as organizations translate early progress into
+scalable impact. As AI expands beyond the digital access to AI expands for a few
+core, success will ultimately hinge on a company’s
+ability to move from ambition to activation—
+Surveyed companies have broadened worker AI is already boosting productivity and efficiency;
+turning experiments and potential into real-world
+access to AI by 50% in just one year—growing just a subset are using it to rewrite the business.
+business value at scale.
+from fewer than 40% to around 60% of workers Today, 34% of companies are starting to use AI
+now equipped with sanctioned AI tools. While to deeply transform their businesses, 30% are
+Deloitte’s latest State of AI in the Enterprise survey
+only 25% of respondents said their organization redesigning key processes around AI and the
+captured insights from more than 3,200 business
+has moved 40% or more of their AI experiments remaining 37% are only using AI at a surface level
+and IT leaders around the world with direct
+into production to date, 54% expect to reach that with little or no change to underlying business
+involvement in their companies’ AI initiatives.
+level in the next three to six months. processes.* While each are capturing productivity
+This report explores the survey insights in detail,
+and efficiency gains, just the first group are
+sharing critical actions for leaders to consider as
+truly reimagining their businesses rather than
+they continue on their journey with AI.
+optimizing what already exists.
+* Figures may not sum to 100% due to rounding. 4
+--- Page 5 ---
+Overview
+Companies are focused on With sovereign AI taking
+building AI fluency instead of hold, where technology is
+redesigning work around AI built matters as much as
+what it can do
+Despite high expectations for automation,
+84% of companies have not redesigned
+Sovereign AI is about more than technology
+jobs or the nature of work itself around AI
+ownership. It’s about strategic independence.
+capabilities. Insufficient worker skills are seen
+More than 3 in 4 companies (77%) say the
+as the biggest barrier to integrating AI into the
+location of AI development is a key factor
+business, but fewer than half of companies are
+when choosing new technologies, signaling
+making significant adjustments to their talent
+that geographic sovereignty is now as
+strategies. Most are focused on educating
+important as innovation.
+employees, but far fewer are rearchitecting
+roles, workflows, and career paths.
+77
+of surveyed companies say the location of AI development
+%
+is a key factor when choosing new technologies.
+5
+--- Page 6 ---
+Overview
+AI agents are scaling faster Physical AI is already
+than the guardrails embedded in operations—
+and its footprint is
+Autonomous AI agents are racing into the
+growing fast
+enterprise, but oversight is lagging. Nearly 3 in 4
+(74%) companies plan to deploy agentic AI within
+Physical AI is rapidly becoming integral to
+two years. Yet, 1 in 5 (21%) report having a mature
+operations worldwide, with 58% of companies
+model for governance of autonomous agents,
+already using it to some extent and adoption
+raising the specter of unintended risks.
+projected to hit 80% within two years. While
+manufacturing, logistics, and defense lead
+the way globally, markets in Asia Pacific
+are leading adoption, driving widespread
+integration of robotics, autonomous vehicles,
+and drones—setting the pace for the next
+wave of industrial automation.
+74
+Nearly 3 in 4 companies plan to
+%
+deploy agentic AI within two years.
+6
+--- Page 7 ---
+Overview
+Leaders feel more About the Annual State of AI
+in the Enterprise Report
+strategically ready for AI
+than operationally ready in
+This annual report was fielded to 3,235 director-level
+to C-suite-level respondents across six industries and
+infrastructure and talent.
+24 countries between August and September 2025.
+Industries included: consumer; energy, resources and
+Despite the rapid evolution of AI beyond industrials; financial services; life sciences and health
+care; technology, media and telecom; and government
+Generative AI (GenAI) to agentic and physical AI,
+and public services. The survey data was augmented
+42% of companies believe their strategy is highly
+by additional insights from 15 interviews with global
+prepared for AI adoption and 30% say the same
+C-suite executives and AI and data science leaders
+about risk and governance—both rising since at large organizations across a range of industries.
+last year. Perceptions of preparedness shifted For details on methodology, please see page 40.
+This annual report is part of an ongoing series by
+down slightly for technical infrastructure, data
+the Deloitte AI Institute™ to help leaders in business,
+management and talent, revealing the persistent
+technology and the public sector track the rapid pace of
+challenge of modernizing systems and skills at the
+AI change and adoption.
+speed of innovation.
+Learn more.
+42 of companies believe their
+%
+strategy is highly prepared
+for AI adoption.
+7
+--- Page 8 ---
+Key findings
+AI is moving from the pilot The scale acceleration is beginning Figure 1: Proportion of AI experiments
+Moving from pilot to production is arguably the deployed (percent)
+and experimentation phase to
+most important step in capturing AI value—
+enterprise scaling as worker
+yet this is where many companies stall. While
+25%
+access to AI expands enterprises are experimenting with AI at an
+moved 40% or more of
+accelerating pace, many struggle to scale their AI experiments into
+production
+According to our latest survey, workforce these experiments into solutions that deliver To date
+access to AI has expanded by 50% in just one measurable business impact.
+year—growing from under 40% to under 60%
+of workers with sanctioned access to AI tools, Today, 25% of respondents said their
+and 11% of leading companies currently provide organization has moved 40% or more of their
+workers with near-universal (more than 80%) AI experiments into production to-date (figure
+access to sanctioned AI tools. However, among 1); however, 54% expect to reach that level in
+those workers with access, fewer than 60% use the next three to six months, demonstrating the
+Within
+it in their daily workflow—a pattern that remains pathway to value is clear and achievable. These the next 54%
+largely unchanged from last year. This suggests early scalers highlight an accelerated shift from 3–6 months Expect to move 40%
+or more of their AI
+that while access is widening, enterprise AI pilots to enterprise scale. experiments into
+production
+remains underutilized, and its productivity and
+innovation potential are still largely untapped.
+Question: In your estimation, what percentage of your AI experiments
+(e.g., pilots, test cases, etc.) have been deployed to date into your
+organization (moved into production)?
+N=3,235
+8
+--- Page 9 ---
+Key findings
+The proof-of-concept trap
+Why do so many pilots fail to reach production? Production also exposes realities that pilots of clear value realization creates a vicious cycle
+The answer lies in a fundamental mismatch can hide. Models that achieve high accuracy in where companies continue funding new pilots—
+between pilot and production requirements. testing may prove inadequate when handling which are relatively low cost and lower risk—
+A pilot typically can run with a small team edge cases at scale. Use cases estimated to take rather than facing the harder work of scaling up
+in a few months using cleansed data in an three months can stretch to 18 months when existing successes.
+isolated environment. However, production integration complexities emerge. Failures that
+deployment typically requires infrastructure were learning opportunities in pilots become The challenge of moving beyond isolated pilots
+investment, integration with existing systems, business risks in production. to real enterprise impact is echoed by the people
+security reviews, compliance checks, monitoring leading AI efforts on the ground. According to
+systems, and ongoing maintenance—each of Organizations that experiment with AI often one healthcare AI leader: “If there is no coherent
+which demand significantly more resources and see positive results in controlled conditions but AI strategy in organizations, you are likely to see
+coordination. cannot consistently predict which use cases will pilot fatigue. You’re chasing the next shiny object,
+yield the highest return on investment. This lack pressured to do something with AI without a real
+plan. I’ve seen many instances where people
+embark on pilots, but when asked how they’ll
+scale up if successful, they often don’t have an
+“ If there is no coherent AI strategy in organizations, answer. Without a clear roadmap, executing a
+hundred pilots just leads to poor results and
+you are likely to see pilot fatigue.”
+failed value creation.”
+9
+--- Page 10 ---
+Key findings
+AI transformation reveals Beyond productivity and efficiency
+AI is already delivering widespread gains in These numbers suggest AI is on the verge
+productivity for most,
+efficiency and productivity; however, benefits of breaking out and delivering a wide range
+business reimagination
+in other areas are taking longer to achieve. In of benefits that go far beyond efficiency and
+for a few particular, revenue growth largely remains an productivity improvements. Ultimately, however,
+aspiration, with 74% of organizations hoping to success with AI isn’t just about boosting efficiency
+AI’s real-world business impact is rising fast, with grow revenue through their AI initiatives in the or even growing revenue. It’s about achieving
+25% of leaders now reporting that AI is having future compared to just 20% that are already strategic differentiation and a lasting competitive
+a transformative effect on their companies— doing so (figure 2). edge in the marketplace.
+more than double from 12% a year ago. Trust
+and investment are also surging, with 84% of Figure 2: AI benefits achieving today vs. hope to achieve (percent)
+organizations increasing their AI investments and
+74
+66 65
+78% of leaders reporting greater confidence in 60 61 60 60
+53
+the technology. Yet, most companies are only at
+40 38 38
+the edge of large-scale AI-driven transformation.
+20
+1 1
+Improve Enhance Reduce Enhance Improve Increase Other
+efficiency and decision-making costs client/customer products/services revenue
+productivity and data-driven relationships and foster
+insights innovation
+Achieving today Hope to achieve
+Question: With regards to benefits from your AI efforts: Which benefits are you achieving today? Which benefits do you hope to achieve?
+N=3,235
+10
+--- Page 11 ---
+Key findings
+Organizations are redefining how they work, The head of AI and automation and global Figure 3: Current approach to transformation with AI*
+but not all are diving to the same depth engineering at a mining company explained
+Among the surveyed companies, one-third how they took a bold, strategic approach
+(34%) are already starting to use AI to deeply to AI transformation by embedding AI into 34%
+transform their businesses—creating new the company’s core offerings and products, 37%
+Deep
+products and services, reinventing core most notably transforming traditional mining Current transformation
+Little or no
+of products,
+processes, or even fundamentally changing equipment into intelligent, connected platforms change to
+processes,
+existing approach
+and business
+their business models. Another third (30%) are with sensors and predictive analytics. “AI is much processes
+models
+redesigning key processes around AI but keeping more than a technology...we wanted to give it
+their business models intact. And the remaining to everyone for everyday usage and make it
+third (37%) are using AI at a more surface level, pervasive everywhere. But we also wanted to
+30%
+with little or no change to existing processes* disrupt the market.” Rather than focusing solely
+(figure 3). While each are capturing productivity on internal improvements, the organization is Redesigning key
+processes around AI
+and efficiency gains, only the first group are reimagining its business by using AI to unlock new
+truly reimagining their businesses rather than value for both itself and its clients, and to create Question: Which best describes your organization's current approach
+to process transformation during AI implementation?
+* Figures may not sum to 100% due to rounding.
+optimizing what already exists. new digital solutions and revenue streams.
+N=3,325
+“ AI is much more than a technology...we wanted to give it to everyone for everyday usage
+and make it pervasive everywhere. But we also wanted to disrupt the market.”
+* Figures may not sum to 100% due to rounding. 11
+--- Page 12 ---
+Key findings
+Companies are focused on These changes require careful thinking about
+career pathways. Leaders in the qualitative
+building AI fluency instead of
+interviews expressed concerns about potential
+redesigning work around AI
+disruption to professional development pipelines
+as a result of automation. Entry-level jobs
+Within a year, more than a third of surveyed
+involving data entry, reconciliation, and first-
+companies (36%) expect at least 10% of their
+level customer support at their companies are
+jobs to be fully automated. The majority of
+being prioritized for automation, but these jobs
+surveyed companies (82%) expect at least 10%
+are often the starting point for longer careers.
+of their jobs to be fully automated when looking
+Organizations will likely need to develop alternate
+out three years.
+pathways for professional advancement, ensuring
+that employees have expertise that includes
+foundational processes.
+36
+of surveyed companies expect at least 10% of
+%
+their jobs to be fully automated within a year.
+12
+--- Page 13 ---
+Key findings
+Most companies have yet to
+redesign jobs around AI
+Despite high expectations for automation, 84% of Entry-level and task-aligned roles could be 84
+%
+companies have not redesigned jobs around AI most affected, as automation may replace
+capabilities. common, time-consuming tasks. However,
+of surveyed companies have not
+as front-line jobs become more automated,
+redesigned jobs around AI capabilities.
+AI doesn’t just augment existing processes. supervisor and managerial roles will likely shift
+It often requires fundamentally rethinking toward orchestration of human-AI teams. This is
+operating models and how work gets done.1 prompting many organizations to explore flatter
+A loan officer who has always used judgment structures: 53% have considered pod-based
+and experience to approve loans must or non-hierarchical models since fewer roles
+now work with an AI system that provides require supervision of large teams; however, only
+recommendations. This raises questions: When 16% have moved to such models to a great or
+should they override the AI? How do they explain maximum extent.
+decisions to customers? What happens to their
+expertise and career trajectory?
+13
+--- Page 14 ---
+Educating broader Designing and
+workforce to raise implementing
+overall AI fluency upskilling and
+reskilling
+strategies
+Key findings
+Talent strategies are falling short According to the leaders surveyed, insufficient workforce upskilling and supporting business
+Worker sentiment about AI is mixed but worker skills are the biggest barrier to integrating teams as they adapt to new AI technologies:
+cautiously positive. While 13% of non-technical AI into existing workflows. Yet, fewer than half of “We are reskilling our people on the business
+workers are highly enthusiastic about AI and are companies are making significant adjustments side—investing a lot to ensure they adopt the
+proactively seeking to use it—and 55% are at to their talent strategies, with most (53%) simply new AI tools so they can deliver bigger, better,
+least open to exploring it—skepticism remains: focusing on educating employees to raise AI and smarter.” The company’s vision for workforce
+21% prefer not to use AI but will do so if required, fluency (figure 4). While most are focused on transformation isn’t just limited to basic upskilling.
+and 4% actively distrust and avoid it. educating employees, far fewer are rearchitecting Rather, the focus is on making sure employees can
+roles, workflows, and career paths. move from traditional roles into more strategic
+positions—supported by AI tools. “For example, in
+A director of AI and innovation at a major logistics the future we would like to see AI enable today’s
+organization emphasized the importance of pricing analysts to become pricing strategists.”
+Figure 4: Talent strategy adjustments due to AI (percent)
+53 48 36 33 30 30 30 30 19
+Educating broader Designing and Assessing target Redesigning Assessing changes Providing Combining or Measuring Changing the balance
+workforce to raise implementing talent acquisition career paths and to the anticipated performance-b reimagining worker trust and between full-time,
+overall AI fluency upskilling and levels and hiring career mobility supply and ased incentives organizations based engagement contract and gig
+reskilling specialized talent to strategies demand of skills for leveraging AI on new work patterns workers
+strategies drive AI initiatives resulting from
+AI usage
+Question: How is your organization adjusting its talent strategies because of the adoption of AI tools/capabilities? 14
+N=3,235
+--- Page 15 ---
+Key findings
+With sovereign AI taking Similarly, 66% of companies express at least moderate concern about reliance on foreign-owned AI
+technologies and infrastructure, with 22% very concerned or extremely concerned (figure 6).
+hold, where technology is
+built matters as much as
+Figure 5: Importance of data residency Figure 6: Level of concern over reliance on
+what it can do
+constraints and compute considerations in foreign-owned AI (percent)
+strategic planning* (percent)
+Sovereign AI is when a country—and the
+companies operating within it—design, train, and
+deploy AI under their own laws, on infrastructure 22
+43
+they control, using locally governed data. The goal 66%
+83%
+is to reduce dependence on foreign vendors for
+At least
+critical AI capabilities. At least 44 moderately
+moderately concerned
+important
+40
+A new boardroom issue
+More than 8 in 10 companies (83%) view
+24
+sovereign AI as at least moderately important
+15
+to their strategic planning, and nearly half (43%) 3 10
+rate it as very important or extremely important
+Not at all important Moderately important Not concerned Moderately concerned
+(figure 5).
+Slightly important Very important Slightly concerned Very concerned
+Question: How important are data residency constraints and in country/region Question: To what extent are you concerned about your organization's reliance on
+compute considerations to your organization's strategic planning? foreign-owned AI technologies and compute provision?
+* Figures may not sum to 100% due to rounding. N=3,235
+N=3,235 15
+--- Page 16 ---
+Key findings
+Sovereign AI in practice
+The rise of sovereign AI has immediate practical it in their country. With state-run companies in 77
+%
+implications. Companies working across borders particular, there is skepticism when you’re using
+must navigate complex requirements that vary something from outside the country.”
+of surveyed companies now factor an
+by country, forcing them to build customized
+AI solution’s country of origin into their
+solutions for different markets. More than 3 in Sovereign AI pressures vary significantly
+vendor selection decisions.
+4 companies (77%) now factor an AI solution’s by geography and industry. Only 11% of
+country of origin into their vendor selection companies in the Americas rely on foreign-
+decisions, and nearly 3 in 5 (58%) now build their sourced solutions for the majority of their AI
+AI stacks primarily with local vendors. This signals stack, compared to 32% of Europe/Middle East/
+that geographic sovereignty is now as important Africa (EMEA) companies. In the US, state-level
+as innovation. deployment considerations are increasingly
+shaping the landscape.
+As the former vice president of observability at
+a major telecommunications company noted, Ultimately, sovereign AI isn’t just about technology
+“I’ve been working with a lot of international ownership. It’s about strategic independence. By
+companies lately that are adamant we use an in- building on infrastructure within its own control
+country infrastructure. We’re taking the approach (fueled by its own data, models, talent, and
+with some of those customers to do a distilled ecosystem) a company has the ability to innovate
+small language model for them that meets the securely and responsibly.
+import/export control rules because we build
+16
+--- Page 17 ---
+Key findings
+AI agents are scaling faster near term. Today, 23% of companies are using agentic AI at least moderately. However, within the next
+two years agentic AI is expected to become nearly ubiquitous, with nearly 3 in 4 companies (74%) using
+than the guardrails
+it at least moderately, 23% using it extensively, and 5% fully integrating it as a core component of their
+operations (figure 7).
+After years of non-AI chatbots that answered
+basic questions, companies are now deploying
+Figure 7: Extent of agentic AI usage (percent)
+sophisticated AI agents that can set goals,
+reason through multi-step tasks, use tools and Today In two years
+1
+application programming interfaces (APIs), and 2 23% 5
+20
+coordinate work with people or other agents. This Use agentic AI
+23
+at least moderately
+shift transforms AI from a source of information
+74%
+and insights into a system that could perform in a
+Use agentic
+different capacity.
+52 AI at least
+46 moderately
+Agentic AI will surge
+In last year’s State of AI report, 26% of
+respondents said their organizations were 25
+21
+already exploring autonomous agent
+5
+development to a large or very large extent.
+Those early exploration efforts are now starting Not at all Minimal usage Moderate usage Extensive usage Fully integrated
+to translate into real-world use and are poised to
+Question: To what extent is your organization utilizing agentic AI in its operations?
+drive the sharp rise in adoption expected in the N=3,235
+17
+--- Page 18 ---
+Key findings
+AI agents unlock a vast array of use cases
+While agentic AI is expected to have the highest impact in customer support, use cases for supply chain management, R&D, knowledge
+management, and cybersecurity are also seen as having particularly high potential.2 The enterprises we interviewed are already deploying AI agents
+across multiple functions:
+A financial services company An air carrier is using AI agents to A manufacturer is using AI In the public sector, AI agents
+is building agentic workflows to help customers complete the most agents to support new product are being used to cover workforce
+automatically capture meeting common transactions, such as development initiatives, leveraging shortages, partnering with human
+actions from video conferences, rebooking a flight or rerouting bags, AI to find the optimal balance workers to complete key processes.
+draft communications to remind freeing up time for human agents to between competing objectives such
+participants of their next steps, and address more complex matters. as cost and time-to-market.
+track follow-through.
+85
+of companies expect to customize agents to
+%
+fit the unique needs of their business.
+18
+--- Page 19 ---
+Key findings
+AI agents don’t eliminate the value of humans
+Adoption of agentic AI may increase the need for somebody up or flashes red on the screen if
+uniquely human strengths, such as adaptivity something really bad happens. But initially it is
+and judgment, in the near term. “We thought we going to be more work for those people. They’re
+were going to automate jobs,” said the former VP not going to be cooling their heels; they’re
+of observability at a major telecommunications going to be watching these agents, making sure
+company. “The truth is, you’re not. You’re going the volume metrics are right, making sure the
+to give existing workers force multipliers where qualitative metrics are right, and being there to
+they can be more effective. Maybe someday interact with them if they hit a human-in-the-
+these things will start to become headless where loop gate and need to interact with a human for
+they just feed off a dashboard metric and you accountability purposes.”
+can pull back staff to wait on an alert that wakes
+“ We thought we were going to automate jobs. The truth
+is, you’re not. You’re going to give existing workers
+force multipliers where they can be more effective.”
+19
+--- Page 20 ---
+Key findings
+Managing the risks of agentic AI
+About 1 in 5 (21%) companies surveyed report Governing agentic AI requires new approaches Companies seeing the most success are taking
+currently having a mature model for governance beyond traditional AI oversight. Unlike a measured approach—starting with lower-risk
+of autonomous agents. Given the technology’s conventional AI systems that provide use cases, building governance capabilities, and
+rapid adoption trajectory, this could be a recommendations for humans to act upon, scaling deliberately. This includes cross-functional
+significant limitation. As agentic AI scales from agents take actions directly—making purchases, governance structures that bring together IT,
+pilots to production deployments, establishing sending communications, or modifying legal, compliance, and business unit leaders to
+robust governance should be essential to systems. Organizations need to establish clear set policies, monitor performance, and manage
+capturing value while managing risk. boundaries for agent autonomy, defining which escalations. Rushing to deploy agents widely
+decisions agents can make independently before establishing these governance foundations
+versus which require human approval. Real-time can expose organizations to significant risks.
+monitoring systems that track agent behavior
+and flag anomalies are essential, as are audit
+trails that capture the full chain of agent actions
+to help ensure accountability and enable
+21
+continuous improvement. %
+of companies report currently having
+a mature model for governance of
+autonomous agents.
+20
+--- Page 21 ---
+Key findings
+A closer look at governance
+AI governance as the catalyst for growth
+Figure 8: AI risks most concerning (percent)
+As AI moves from experimentation to into production without formal oversight or
+deployment, governance is the difference monitoring processes. In particular, one AI leader 73%
+between scaling successfully and stalling out. In discovered that there wasn’t a clear inventory
+Data privacy and/or security
+the AI era, governance is more than guardrails— of all the AI tools and models currently active
+it’s the catalyst for responsible growth. because development efforts occurred without
+50%
+systematic tracking or centralized visibility over
+The AI risks companies are most worried about what is running in production.
+Legal, IP, or regulatory compliance
+all relate to governance. Data privacy and security
+46%
+tops the list at 73%, followed by legal, intellectual Organizations that are serious about capturing
+property, and regulatory compliance (50%), AI value should treat governance as a strategic Governance capabilities and oversight
+governance capabilities and oversight (46%), and capability, not an afterthought. Those that build
+46%
+model quality, consistency, and explainability strong governance frameworks now will be
+Model quality, consistency,
+(46%) (figure 8). positioned to scale AI quickly and safely. On the
+and explainability
+other hand, those that treat governance as a
+30%
+Insights gathered during qualitative interviews checkbox exercise may find themselves unable
+with AI leaders reveal that governance is to move AI from pilot to production, held back by Workforce impact
+a concern. In some organizations, leaders the very risks they failed to address.
+are learning AI models have been deployed 0% Other and no concerns
+Question: Which of the following risks related to AI tools / applications is
+your organization most concerned about?
+N=3,199 2211
+--- Page 22 ---
+Key findings
+Figure 9: Extent of physical AI usage (percent)
+Physical AI is already
+embedded in operations—
+and its footprint is
+58% 80%
+growing fast
+Today In two years
+are using physical expect to use physical
+AI today (at least AI in the future
+Physical AI is the class of AI systems that perceive limited use). (at least limited use).
+the real world, make decisions, and drive physical
+actions through machines or control systems.
+It sits at the intersection of AI and machine Question: To what extent is your organization currently utilizing physical AI (e.g., robotics, automated machinery) in its operations?
+N=3,235
+learning, sensors, controls, and robotics.
+Physical AI integration is already expanding, with
+58% of companies reporting at least limited
+use of physical AI, and among these, 18% are
+leveraging it to a moderate or greater extent.
+However, the percentage of companies using
+physical AI in any capacity is expected to reach
+80% within two years—with 15% using physical
+AI extensively and 3% fully integrating it as a core
+element of their operations (figure 9).
+22
+--- Page 23 ---
+Key findings
+Figure 10: Extent of physical AI usage (percent)
+Survey results indicate that organizations in Asia
+Pacific (AP) are leading in early implementation
+of physical AI. 71% of AP respondents report at
+least minimal use of physical AI, compared with
+56% in both the Americas and EMEA. AP not only
+has the broadest adoption, but also the highest
+EMEA
+share of organizations reporting moderate or
+56% 81%
+greater usage (20% in AP vs. 17% in the Americas
+Americas Today in 2 years AP
+and 18% in EMEA). Looking ahead, 90% of AP
+respondents expect at least minimal use of
+56% 77% 71% 90%
+physical AI, compared with 77% in the Americas
+Today in 2 years Today in 2 years
+and 81% in EMEA. This is meaningful projected
+growth. Yet, physical AI’s expected adoption curve
+is notably slower than software-based agentic
+AI, which is expected to jump from 23% to 74%
+in the same time frame. The difference reflects
+the inherent challenges of physical deployment:
+higher costs and capital requirements, longer
+Question: To what extent is your organization currently utilizing physical AI (e.g., robotics, automated machinery) in its operations?
+development cycles, stricter safety regulations, Americas N=3,235, EMEA N=1,170, AP N=475
+and the need for specialized hardware and
+maintenance.
+23
+--- Page 24 ---
+Key findings
+Controlled environments
+are leading the way
+Physical AI applications span a wide range of
+industrial and commercial settings. For example,
+one company we interviewed is automating
+package sorting and routing while granting
+warehouse robots more autonomy to decide
+where and how to store items to maximize
+floorspace. Other common use cases include
+collaborative robots (cobots) on assembly
+lines, inspection drones with automated
+response capabilities, robotic picking arms, and
+autonomous forklifts. Adoption is especially A key factor in early adoption is environmental
+advanced in manufacturing, logistics, and control. Physical AI use cases that take place
+defense, where robotics, autonomous vehicles, in controlled domains such as factories and
+and drones are already reshaping operations. warehouses tend to progress much faster than
+use cases in open, real-world environments,
+where the challenges and risks are far more
+complex and unpredictable.
+24
+--- Page 25 ---
+Key findings
+Types of physical AI with the Figure 11: Types of physical AI expected to have the greatest impact* (percent)
+greatest expected impact
+As physical AI gains broader adoption, certain 3%
+types are expected to have a bigger long-term Other
+impact than others: intelligent security systems
+7%
+and/or smart monitoring (21%); collaborative
+Smart materials
+robotics (20%); and digital twins (19%) (figure 11).
+21%
+13% Intelligent security
+Interviewed AI leaders shared that smart systems and/or smart
+Autonomous logistics monitoring
+monitors and digital twins are already significantly
+transforming operational processes. For example,
+Physical AI
+companies are using 3D mapping of stores to
+support both interior design and virtual reality 16% 20%
+training. These detailed digital replicas allow IoT-driven retail Collaborative robotics
+design teams to create customized environments
+based on actual store scans and also provide
+realistic training experiences for both customer-
+19%
+facing and retail employees.
+Digital twins
+Question: Which area of physical AI do you believe will have the greatest impact on your industry?
+* Figures may not sum to 100% due to rounding.
+N=3,235
+25
+--- Page 26 ---
+Key findings
+In the restaurant business, AI technologies
+are being used for targeted marketing and
+automated inventory management. For example,
+computer vision enables the automatic tracking
+of food and beverage items throughout the entire
+restaurant workflow—from order to delivery—
+optimizing inventory control and freeing
+employees from repetitive tasks.
+To help ensure public acceptance and trust of
+these solutions, companies should focus on
+making them secure, interoperable, and resilient Companies must also contend with complex
+against disruptions and cyberthreats.3 Unlike regulatory environments that vary by industry
+software AI that operates in digital environments, and geography. Physical AI systems often require
+physical AI systems interact with people, approval from safety regulators, compliance with
+equipment, and infrastructure in ways that industry-specific standards, and adherence to
+can pose safety risks if they malfunction or are liability frameworks that don’t always account for
+compromised. This raises the stakes for testing, autonomous systems. These requirements add
+certification, and ongoing monitoring. time and cost to deployment but are essential for
+responsible adoption.
+26
+--- Page 27 ---
+Key findings
+Accounting for the full cost of physical AI
+In our survey, cost was cited most often as a
+key barrier to physical AI deployment. When
+evaluating business cases for physical AI,
+decision-makers should account for total cost
+of ownership and not just initial equipment
+costs. The full picture includes facility retrofits
+to accommodate new equipment, sensors and
+robots themselves, integration with existing
+systems and workflows, maintenance and
+spare parts, and potential downtime during
+implementation and troubleshooting. These costs can significantly exceed the
+initial investment in AI models and software.
+A warehouse automation project might
+require hundreds of thousands of dollars in AI
+development but millions of dollars in physical
+infrastructure, robotic systems, and facility
+modifications. Companies that underestimate
+these costs risk project delays or abandonment
+partway through implementation.
+27
+--- Page 28 ---
+Key findings
+Leaders feel more Figure 12: Level of preparedness for AI adoption* (percent)
+strategically ready for AI
+Technology
+than operationally ready in infrastructure Strategy Data management Risk and governance Talent
+infrastructure and talent
+Despite the rapid evolution of AI beyond GenAI
+to agentic and physical AI, 42% of companies 20 2pp
+30 6pp
+believe their strategy is highly prepared for AI 43 4pp 42 3pp 40 3pp
+adoption and 30% say the same about risk
+and governance, both increasing since last
+45
+year’s report (+3 and +6 percentage points,
+42
+respectively) (figure 12). These areas have
+41 44
+likely advanced more quickly as they depend 42
+primarily on executive decision-making and
+29
+policy development. 22
+15
+14 14
+1 3 2 5 6
+Not prepared Slightly prepared Moderately prepared Highly prepared
+Question: For each, rate your organization's level of preparedness with respect to broadly adopting AI tools/applications.
+* Figures may not sum to 100% due to rounding.
+N=3,235
+Percentage point change vs last year
+28
+--- Page 29 ---
+Key findings
+Meanwhile, perceptions of high preparedness As the head of AI strategy at a major European
+have shifted down compared with last year for bank explained: “Many organizations prepared
+technical infrastructure (43%), data management for an AI future by building infrastructure and
+(40%) and talent (20%), revealing the persistent governance for traditional AI models. With
+challenge of modernizing systems and skills at the LLMs, those efforts were upended. Suddenly,
+speed of innovation. In fact, most respondents there was a new capability unlike previous
+believe that resolving the key challenges for their AI. Now, traditional AI use cases—training
+organization’s priority AI initiatives will take more models from scratch, custom interfaces—have
+than a year—far too long in today’s fast-moving, diminished. Nearly 80% to 90% of new use
+hyper-competitive marketplace. cases are generative AI. So yes, companies
+prepared, but for a different future. GenAI
+needs a new set of capabilities.”
+“ Nearly 80–90% of new use cases are generative AI.
+So yes, companies prepared, but for a different future.
+GenAI needs a new set of capabilities.”
+29
+--- Page 30 ---
+Tapping into AI’s full potential
+The research is telling: AI’s transformational Here are six key focus areas to help your business capture AI’s untapped edge:
+potential is real, but capturing it requires far more
+than just technology investments. Organizations Close the gap between
+should treat AI as foundational. The most
+access and activation
+successful won’t be those with the most AI
+projects or the biggest budgets, but those who
+Most organizations have deployed AI tools, but Activation requires early attention to practical
+build AI into the foundation of how they operate,
+far fewer have achieved meaningful usage. The constraints: system integration, data permissions,
+compete, and grow.
+gap between availability and adoption is now the and operational reliability. For organizations
+primary barrier to value. Successful companies applying AI not only to digital processes but
+focus on activation, not just access. also to physical systems—such as robotics,
+IoT devices, or machinery—early planning for
+High-performing implementations start with these operational realities is especially critical.
+empowered employees who experiment, share Organizations that design for deployment from
+early wins, and become internal champions. Top- the outset, rather than treating scale as an
+down directives alone rarely drive meaningful afterthought, see far higher adoption. Hands-
+change. Grassroots adoption supported by senior on, role-specific training and visible executive
+sponsorship creates momentum and helps advocacy materially shift employee behavior.
+ensure solutions align with real workflows. Leaders that treat pilots as stepping stones to
+production, not isolated experiments, are likely to
+achieve faster and more durable impact.
+30
+--- Page 31 ---
+Tapping into AI’s full potential
+Unlock human advantage
+by redesigning work around AI
+AI is reshaping work at every level. While most to replace humans or merely assist them, but
+organizations currently focus on personal to create complementary working relationships
+productivity, leaders are rebuilding processes, between humans and AI, in which the combined
+roles, and career paths around expanded AI output exceeds what either could achieve alone.
+capabilities.
+Organizational structures are beginning to flatten
+The most successful organizations reimagine as AI absorbs routine execution tasks. Some
+jobs to seamlessly combine human strengths companies are merging technology and people-
+and AI capabilities, ensuring both aspects are leadership functions to ensure that systems and
+used to their fullest potential. New roles—AI workforce design evolve together. The pace varies
+operations managers, human-AI interaction by industry, but the direction is consistent: Roles,
+specialists, quality stewards, and others—signal a skills, and career paths should be rebuilt, not
+deeper shift: AI is now a structural component of simply adjusted. Organizations should take an
+how work is organized. Advanced organizations AI-native approach and redesign work holistically
+streamline workflows that AI can execute end-to- rather than layering AI onto legacy processes.
+end, while humans focus on judgment, exception
+handling, and strategic oversight. The goal isn’t
+31
+--- Page 32 ---
+Tapping into AI’s full potential
+Build governance before you
+scale and make it everyone’s role
+Governance is no longer a compliance exercise; Effective governance integrates with existing risk Autonomous systems heighten needs for data
+it’s the mechanism that enables rapid, confident and oversight structures, not parallel “shadow” and cybersecurity governance.4 Organizations
+scaling. Enterprises where senior leadership functions. It focuses on identifying high-risk need to define where humans should remain
+actively shapes AI governance achieve applications, enforcing responsible design in control, how automated decisions and data
+significantly greater business value than those practices, and ensuring independent validation use are audited, and which records of system
+delegating the work to technical teams alone. where appropriate. Leading organizations behavior should be retained. Cross-functional
+True governance makes oversight everyone’s role, proactively monitor evolving legal requirements teams—technology, legal, compliance, and
+embedding it into performance rubrics so that and build systems that can demonstrate safety, business—establish governance frameworks
+as AI handles more tasks, humans take on active fairness, and compliance. early so that scale does not outpace control.
+oversight. This shared responsibility empowers At the same time, governance should be
+employees to help identify challenges and guide calibrated to balance risk management with
+safe, trusted AI use. innovation, ensuring that oversight enables
+experimentation rather than constraining it. The
+objective is not to add bureaucracy but to create
+clear, adaptive guardrails that allow responsible
+progress at speed.
+32
+--- Page 33 ---
+Tapping into AI’s full potential
+Address sovereign AI requirements
+with focus and discipline
+As national governments accelerate efforts to Leading companies take a focused approach: Enterprises that ignore sovereign AI constraints
+establish sovereign AI capabilities, enterprises will assessing which data and workloads must will face escalating operational disruption, higher
+likely navigate increasingly complex expectations remain within national or regional boundaries, compliance risk, and restricted access to key
+around data control, model transparency, determining where local model hosting is markets. Those that proactively engage build
+compliance, and localization. Sovereign AI is no mandatory, and clarifying how transparency, strategic advantage: They can reduce regulatory
+longer limited to the public sector; it is reshaping auditability, and documentation standards differ uncertainty, enhance customer trust, and
+requirements for every organization handling across markets. They establish clear policies position themselves as preferred partners in
+sensitive data or operating across jurisdictions. At for data residency, model retraining, and cross- industries where sovereignty concerns dominate.
+the same time, compute strategy becomes a core border flows, supported by infrastructure Sovereign AI readiness is now a core element of
+component, requiring careful evaluation of both capable of meeting multiple regulatory regimes enterprise resilience and global competitiveness,
+data residency and processing locations (e.g., in simultaneously. not a specialized compliance task.
+cloud, on-prem, hybrid, or edge environments)
+to remain aligned with evolving regulations and
+performance needs.
+33
+--- Page 34 ---
+Tapping into AI’s full potential
+Build a “living” technology and
+data infrastructure for tomorrow’s AI
+Legacy data and infrastructure architectures security-by-design, while enforcing enterprise
+cannot power real-time, autonomous AI. As AI standards for quality, interoperability, and lineage.
+capabilities extend beyond software into devices, This balanced approach delivers decentralized
+machinery, and edge locations, organizations innovation supported by centralized control.
+need to evaluate if their technology foundations
+are ready to support potential physical AI A unified, trusted data strategy is indispensable.
+deployments. Modernization should create a Poor or fragmented data compounds risk and
+living AI backbone: an organization-wide, real- undermines every AI initiative. Forward-thinking
+time system that adapts dynamically to business organizations converge operational, experiential,
+and regulatory change, elevating infrastructure and external data flows and invest in evolving
+from IT initiative to strategic capability. platforms that anticipate the needs of emerging
+AI.5 Infrastructure determines enterprise velocity;
+Leaders are enabling modular, cloud-native those that modernize early will likely accelerate
+platforms that securely connect, govern, while others remain constrained.
+and integrate all data types, fostering rapid
+experimentation and seamless scaling. They
+break down silos with domain-owned data
+products and embed privacy, sovereignty, and
+34
+--- Page 35 ---
+Tapping into AI’s full potential
+Pursue strategic reinvention,
+not incremental efficiency
+A widening performance divide separates sovereign AI. This intentional reinvention is With developments in agentic, physical, and
+companies treating AI as core to strategy from one of the strongest predictors of achieving sovereign AI rapidly expanding the boundaries
+those viewing it as a cost-saving tool. Leading outsized returns. of what’s possible, companies today are at the
+organizations invest heavily in using AI to reshape edge of tapping into AI’s full potential. Whether
+operations and create new revenue streams, Autonomous AI systems are accelerating this it’s figuring out how to capitalize on the latest
+resisting the pressure to chase every trending shift. In knowledge-intensive industries, they cutting-edge innovations, making the leap from
+technology in favor of initiatives that genuinely can absorb substantial routine work, enabling pilots to large-scale deployment, or using AI
+advance strategic goals and deliver real value. people to focus on higher-order activities. High to create an enduring competitive advantage,
+performers are reorganizing around systems enterprises around the world are on the edge of
+These organizations pursue growth across that perceive context, make decisions, and act transforming themselves with AI. The challenge
+multiple horizons: strengthening current independently, balancing bold transformation now is activation: bridging the gap from tool
+operations, expanding into adjacent markets, with operational continuity. They move at a access to meaningful adoption, moving beyond
+and building entirely new businesses enabled pace suited to their organization’s readiness, experimentation to operationalizing AI at scale,
+by AI. They rethink their organizations from the making thoughtful trade-offs and fostering embedding AI into core business processes—
+ground up and imagine how to build without informed decision-making grounded in evidence transforming technology potential into
+legacy constraints, rather than digitizing old rather than hype. The strategic opportunity enterprise value.
+processes. This extends to reimagining business is discovering new sources of value that
+models and adapting to emerging trends like competitors cannot easily replicate.
+35
+--- Page 36 ---
+Acknowledgements
+Authors
+Business leadership Global AI subject matter expert network
+The authors would like to thank the Deloitte subject matter specialists who
+Jim Rowan Beena Ammanath
+US Head of AI Executive Director contributed to the development of the survey and report:
+Deloitte Consulting LLP Global Deloitte AI Institute
+jimrowan@deloitte.com Deloitte LLP
+bammanath@deloitte.com Javier Echaniz Alonso, Lou DiLorenzo, Kyle Forrest, Marcus Goetz,
+Cliff Goss, Scott Holcomb, Jas Jaaj, Saurabh Kumar, Anjani Kumar Sripada,
+Patrick Laurent, Chris Lewin, Parth Patwari, Antonio Russo, Prakul Sharma,
+Nitin Mittal Costi Perricos
+Principal Global GenAI Rohit Tandon, Ed Van Buren, Greg Vert, Blaine Woodcock.
+Global AI Leader Business Leader
+Deloitte Consulting LLP Deloitte LLP
+nmittal@deloitte.com cperricos@deloitte.co.uk
+36
+--- Page 37 ---
+Acknowledgements
+Special thanks
+Technology and research team Additional contributors
+The authors would also like to thank our team of professionals who brought
+Vivek Kulkarni Lisa Hohener
+Managing Director Senior Manager this report and campaign to life, including:
+US AI Transformation Leader Deloitte AI Institute
+Deloitte Services LP Deloitte Consulting LLP
+vivkulkarni@deloitte.com lhohener@deloitte.com Stephanie Anderson, Andrew Ashenfelter, Hali Austin, Hannah Caslin,
+Vanessa Carney, Abigail Claiborne, Victoria Estacio, Behzad Eftekhari,
+Robert Fabbro, Alex Frole, Bharathi Gabbita, Karen Hogger, Michael Holt,
+Caroline Ritter
+Manager Lisa Iliff, Anish Indukur, Bavapriyan K, Omar Khan, Ganapathy Subramaniam
+US AI Transformation
+Kumar, Amy Lando, Fiona Maguire, Cullen Marriott, Meredith Mazzotta,
+Deloitte Services LP
+carritter@deloitte.com Pamela Zamora Miranda, Hye Ra Moon, Melissa Neumann, Inal Olmez,
+Kendall Phillips, Jose Porras, Priyadarshini, Arockia Pulavar, Preetham Raghu,
+Emily Rosenberg, Kate Schmidt, Brenna Sniderman, Lesley Stephen,
+Tina Trabucco, Olivia Tytla, Vaibhav Vasireddy, Ivana Vucenovic,
+Emilie Kuo Yang.
+37
+--- Page 38 ---
+Acknowledgements
+Continue the conversation
+Global Deloitte AI Institute leaders
+Wessel Oosthuizen Jan Hejtmánek Alfredo Maria Garibaldi Carlos Labanda
+Africa Central Europe Italy Spanish-Latin America
+weoosthuizen@deloitte.co.za jhejtmanek@deloittece.com agaribaldi@deloitte.it clabanda@deloitte.com
+Chris Lewin Martín Cabrera Tomotake Kozu Tomas Meca Figueras
+Asia Pacific Chile Japan Spain
+chrislewin@deloitte.com mcabreraa@deloitte.com tomotake.kozu@tohmatsu.co.jp tomecafigueras@deloitte.es
+Dr. Elea Wurth Roman Fan Nicolas Griedlich Sulabh Soral
+Australia China Luxembourg United Kingdom
+ewurth@deloitte.com.au rfan@deloitte.com.cn ngriedlich@deloitte.lu ssoral@deloitte.co.uk
+Geert Hallemeesch Richard Eudes Sultanbek Khunkaev
+Belgium France Middle East
+ghallemeesch@deloitte.com reudes@deloitte.fr sukhunkaev@deloitte.com
+Jefferson Denti Björn Bringmann Naser Bakhshi
+Brazil Germany Netherlands
+jedenti@deloitte.com bbringmann@deloitte.de NBakhshi@deloitte.nl
+Audrey Ancion Prashanth Kaddi Tiago Durão
+Canada India Portugal
+aancion@deloitte.ca kaddip@deloitte.com tdurao@deloitte.pt
+38
+--- Page 39 ---
+About the Deloitte AI Institute
+The Deloitte AI Institute™ helps organizations connect all the different No matter what stage of the AI journey you are in: whether you are a
+dimensions of the robust, highly dynamic, and rapidly evolving Artificial board member or a C-Suite leader driving strategy for your organization—
+Intelligence ecosystem. The AI Institute leads conversations on applied or a hands-on data scientist bringing an AI strategy to life—the Deloitte
+AI innovation across industries, with cutting-edge insights, to promote AI Institute can help you learn more about how enterprises across the
+human-machine collaboration in the “Age of With™.” world are leveraging AI for a competitive advantage. Visit us at the Deloitte
+AI Institute for a full body of our work, subscribe to our podcasts and
+The Deloitte AI Institute aims to promote the dialogue and development newsletter, and join us at our meet-ups and live events.
+of AI, stimulate innovation, and examine challenges to AI implementation
+and ways to address them. The AI Institute collaborates with an ecosystem
+Let’s explore the future of AI together.
+composed of academic research groups, start-ups, entrepreneurs,
+innovators, mature AI product leaders, and AI visionaries to explore key
+areas of artificial intelligence including risks, policies, ethics, the future
+of work and talent, and applied AI use cases. Combined with Deloitte’s
+deep knowledge and experience in artificial intelligence applications, the
+Institute helps make sense of this complex ecosystem, and as a result,
+delivers impactful perspectives to help organizations succeed by making
+informed AI decisions.
+39
+--- Page 40 ---
+Methodology
+To obtain a global view of how AI is being adopted by organizations on the leading edge of Endnotes
+AI, Deloitte surveyed 3,235 leaders between August and September 2025. Respondents
+were senior leaders in their organizations and included board and C-suite members, and 1. Sue Cantrell, David Mallon, Aniket Bandekar and Simona Spelman, “The path to achieving value from AI: Scaling
+your human edge,” Deloitte Insights2Action™, October 2025, https://action.deloitte.com/insight/4740/the-path-to-
+those at the president, vice president, and director levels. The survey sample was split
+achieving-value-from-ai-scaling-your-human-edge, accessed December 12, 2025.
+equally between IT and line-of-business leaders. Twenty-four countries were represented:
+2. Nitin Mittal, Beena Ammanath and Jim Rowan, “The AI Dossier,” The Deloitte AI Institute, https://www.deloitte.com/
+United States (n=1,200), Canada (n=175) , Brazil (n=115,) Mexico (n=100), United Kingdom content/dam/assets-zone3/us/en/docs/services/consulting/2025/ai-institute-ai-use-cases-10-06-2025.pdf, accessed
+December 12, 2025.
+(n=220), Germany (n=170), France (n=150), Netherlands (n=50), Italy (n=75), Spain (n=100),
+3. Mark Osis, Raquel Buscaino, and Caroline Brown, “Robotics & Physical AI: Intelligence in motion,” Deloitte, November
+Austria (n=50), Portugal (n=15), Poland (n=40), Czechia (n=30), Saudi Arabia (n=70), United
+2025, https://www.deloitte.com/content/dam/assets-zone3/us/en/docs/about/2025/robotics-and-physical-ai-tech-
+Arab Emirates (n=130), Egypt (n=45), Kuwait (n=10), Qatar (n=10), Oman (n=5), Japan futures-report.pdf, accessed December 12, 2025.
+(n=100), India (n=200), Singapore (n=75), Australia (n=100). All participating organizations 4. Sunny Aziz, Adnan Amjad, Naresh Persaud, Mark Nicholson, and Ed Burns, “Tech Trends 2026: The AI dilemma:
+Securing and leveraging AI for cyber defense,” Deloitte, December 2025, https://www.deloitte.com/us/en/insights/
+have one or more working implementations of AI being used daily. Plus, they have pilots topics/technology-management/tech-trends/2026/using-ai-in-cybersecurity.html, accessed December 12, 2025.
+in place to explore AI or have one or more working implementations of being used daily. 5. Vivek Kulkarni, Scott Holcomb, Prakul Sharma, Greg Vert and Caroline Ritter, “Agentic enterprise 2028: A blueprint
+Respondents were required to meet one of the following criteria with respect to their for cost savings, job creation, and faster growth through agentic AI,” Deloitte, September 2025, p. 14, https://www.
+deloitte.com/content/dam/assets-zone3/us/en/docs/services/consulting/2025/agentic-ai-enterprise-2028.pdf,
+organization’s AI and data science strategy, investments, implementation approach, and accessed December 12, 2025.
+value measurement: influence decision-making, are part of a team that makes decisions, 6. Jim Rowan, Beena Ammanath, and Costi Perricos, ”Now decides next: Generating a new future. Deloitte’s State of
+Generative AI in the Enterprise Quarter four report,” Deloitte, January 2025.
+are the final decision-maker, or manage or oversee AI technology implementations. All
+statistics noted in this report and its graphics are derived from Deloitte’s annual survey,
+conducted between August and September 2025; The State of AI in the Enterprise report
+series. N (Total leader survey responses) = 3,235. The survey data was supplemented with
+case studies and qualitative findings derived from 15 interviews with executives and AI
+and data science leaders at large organizations across a range of industries and countries.
+40
+--- Page 41 ---
+As used in this document, “Deloitte” means Deloitte Consulting LLP, a subsidiary of Deloitte LLP. Please see
+www.deloitte.com/us/about for a detailed description of our legal structure. Certain services may not be available to
+attest clients under the rules and regulations of public accounting.
+This publication contains general information only and Deloitte is not, by means of this publication, rendering
+accounting, business, financial, investment, legal, tax, or other professional advice or services. This publication is not
+a substitute for such professional advice or services, nor should it be used as a basis for any decision or action that
+may affect your business. Before making any decision or taking any action that may affect your business, you should
+consult a qualified professional advisor. Deloitte shall not be responsible for any loss sustained by any person who
+relies on this publication.
+Copyright © 2026 Deloitte Development LLC. All rights reserved.

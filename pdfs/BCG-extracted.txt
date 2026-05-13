@@ -1,0 +1,144 @@
+
+--- Page 1 ---
+ARTIFICIAL INTELLIGENCE
+AI Transformation Is a
+Workforce
+Transformation
+By Julie Bedard and Vinciane Beauchene
+ARTICLE FEBRUARY 04, 2026 5 MIN READ
+In BCG’s recent Build for the Future x AI 2025 Global Study, which asks C-level executives to gauge
+companies’ AI maturity, only about 5% of organizations have managed to reap substantial
+financial gains from AI (defined as increases to revenue or cash flow, along with significant
+process and workflow improvements). Crucially, that segment also shows stronger financial
+performance overall and three-year total shareholder returns that are roughly four times higher,
+on average, than AI laggards.
+©2026 Boston Consulting Group 1
+--- Page 2 ---
+What separates these “future-built” companies? They realize that value doesn’t just come from
+the technology but from how they empower their people to capitalize on it. In BCG’s case work
+involving hundreds of companies, about 10% of value from AI comes from the algorithms
+themselves and another 20% comes from the technology required to implement them. The
+remaining 70% comes from rethinking the people component. Our analysis shows that future-
+built companies plan to upskill more than 50% of employees on AI—compared with 20% for
+laggards—and they are putting the organizational resources in place to support those goals. Not
+only that, they are four times more likely to have structured AI-learning programs and to carve out
+protected time for employees to learn. (See “Most AI Value Comes from People.”)
+Most AI Value Comes from People
+In our 10-20-70 breakdown of value from AI, the 70% that comes from workforce
+changes warrants a closer look. Here’s what’s included in that component:
+Secure strategic alignment from the top. First, companies need strong
+leadership and governance over the technology, ensuring that AI efforts are in
+service of enterprise priorities, not walled off as a separate “AI transformation.”
+Leaders should align on a small number of central priorities—typically three to
+four—rather than spreading their efforts across dozens or hundreds of use cases.
+Dedicated governance and transformation capabilities, built around clear
+success metrics and KPIs, ensure that the change program happens on time and
+on budget, leading to real, measurable value.
+Spur adoption and behavioral changes. To get employees to embrace AI and
+change their daily working behaviors, companies should build a holistic change
+plan, starting with an inspiring narrative about how the technology will help the
+company improve its performance and better meet its objectives. Strong
+governance and guardrails around AI can build trust across the workforce.
+Companies should invest in upskilling measures to increase fluency to foster at-
+scale adoption. And, critically, employees should understand the objective to
+move beyond initial experimentation and create real change.
+Assess the impact on the workforce. Leaders should determine how the
+workforce will be impacted by AI—at the level of positions, employees, and skills
+—and identify any gaps. To close those gaps, companies can launch structured
+upskilling and reskilling initiatives, along with programs aimed at recruiting and
+retaining leaders and employees who already have target capabilities.
+Develop an AI-enhanced operating model. Last, companies need to define an
+operating model that combines human employees and AI, including roles,
+©2026 Boston Consulting Group 2
+--- Page 3 ---
+governance, and organizational design. That entails redesigning workflows and
+new ways of working to capitalize on AI.
+Get Leaders and Managers
+Involved
+Successful strategy starts with alignment from the top. Executive engagement is one of the
+strongest predictors of AI maturity. Companies that treat AI as a CEO-level priority—rather than
+just a tech initiative—scale faster and generate more value.
+Employees in future-built companies see AI not as
+something mandated from corporate
+headquarters but as something their direct
+managers are using every day.
+Leaders need to set the overall vision and communicate consistently the “why” to the workforce
+with a narrative designed to inspire, so that people at all levels understand the rationale for
+implementing AI, how it will improve company performance, and what their role is in that change.
+Vision then needs to be translated into action. Among the future-built companies in our research,
+88% of managers who role model AI use and actively incorporate it into decision making and daily
+operations—versus 25% at AI laggards. (See the exhibit.) Employees in these organizations see AI
+not as something mandated from corporate headquarters but as something their direct managers
+are using every day.
+©2026 Boston Consulting Group 3
+--- Page 4 ---
+Anticipate the Skills Impacts of AI
+and Future Talent Needs
+The transformative effect AI will have on the workforce is well documented. Routine tasks within
+many roles will become automated, changing the nature of many entry-level positions. This shift
+will require companies to create innovative career paths and apprenticeship models for new
+graduates, who will be increasingly needed to manage AI-enabled systems. Overall, workplaces
+will evolve, creating new opportunities through effective human-AI partnerships.
+Fundamental change such as this requires careful forethought and planning, not least because
+technology moves quickly while human behavior change takes time. In our data, future-built
+companies are five times more likely to do strategic workforce planning than laggards. They
+anticipate talent requirements and reshape job architectures and organizational structures with
+AI at the core. This planning phase is crucial for understanding where to focus investment to
+ensure that any upskilling of existing full-time employees is successful.
+©2026 Boston Consulting Group 4
+--- Page 5 ---
+Fundamental change such as this requires careful
+forethought and planning, not least because
+technology moves quickly while human behavior
+change takes time.
+Adopt a Holistic Upskilling
+Approach
+Foundational skills such as prompt writing and AI literacy are an important investment for firms
+looking to upskill their full-time employees. Beyond that, it is crucial to develop the core skills,
+such as contextual judgment, framing problems, and interpreting results, that enable workers to
+realize the full value of new AI tools across entire workflows and at a systems level.
+Giving workers these critical AI skills at scale happens when three elements are in place:
+The learning is embedded into daily work. Rather than once-a-year workshops and scenario-
+based exercises, employees learn best when new skills are integrated into the flow of work—
+when they use real tools to accomplish real tasks, and they receive real feedback. This
+reinforces both AI-related competencies and core “human” skills such as problem solving,
+communication, collaboration, and creativity.
+The design is grounded in behavioral science. People need to see leaders modeling change,
+understand the why, and experience wins early.
+Robust tracking is in place. Measuring the effectiveness of upskilling initiatives ensures that
+programs remain aligned with strategic priorities. Metrics should assess not only the
+acquisition of AI-related skills but also progress in developing the new core competencies
+that are vital to future roles. Regular assessment allows companies to demonstrate tangible
+returns on investment and adapt training initiatives as organizational needs evolve.
+When you get all the elements right, upskilling becomes more than a learning initiative. It
+becomes part of how the company evolves. And by prioritizing the workforce, companies can give
+their people the skills and confidence to embrace the technology and change how they work—
+and how the company ultimately creates value.
+©2026 Boston Consulting Group 5
+--- Page 6 ---
+Authors
+Vinciane
+Julie Bedard
+Beauchene
+Managing Director & Partner;
+BCG Henderson Institute Fellow
+Managing Director & Partner
+Boston
+Paris
+ABOUT BOSTON CONSULTING GROUP
+Boston Consulting Group partners with leaders in business and society to tackle their most
+important challenges and capture their greatest opportunities. BCG was the pioneer in business
+strategy when it was founded in 1963. Today, we work closely with clients to embrace a
+transformational approach aimed at benefiting all stakeholders—empowering organizations to
+grow, build sustainable competitive advantage, and drive positive societal impact.
+Our diverse, global teams bring deep industry and functional expertise and a range of
+perspectives that question the status quo and spark change. BCG delivers solutions through
+leading-edge management consulting, technology and design, and corporate and digital ventures.
+We work in a uniquely collaborative model across the firm and throughout all levels of the client
+organization, fueled by the goal of helping our clients thrive and enabling them to make the world
+a better place.
+© Boston Consulting Group 2026. All rights reserved.
+For information or permission to reprint, please contact BCG at permissions@bcg.com. To find the
+latest BCG content and register to receive e-alerts on this topic or others, please visit bcg.com.
+Follow Boston Consulting Group on Facebook and X (formerly Twitter).
+©2026 Boston Consulting Group 6

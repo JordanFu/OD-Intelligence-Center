@@ -1,0 +1,9 @@
+# 忽略临时文件
+*.zip
+.DS_Store
+node_modules/
+.codebuddy/
+
+# Vercel（已迁移到 GitHub Pages）
+.vercel/
+vercel.json
