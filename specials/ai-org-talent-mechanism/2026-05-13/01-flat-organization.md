@@ -27,9 +27,11 @@ AI 正在把“中层作为信息路由器”的组织理由拆掉：组织扁�
 
 6. **Gartner 的几组 2026 调研给出约束：管理者不会消失，但职责必须变。** Gartner 2026-03-04 HR 调研显示，45% 管理者认为 AI 改善团队工作的效果达到预期，且管理者 AI 试验率高于普通员工；但只有少数管理者没有遇到推动团队 AI 使用的困难。Gartner 2026-04-28 客服调研显示，85% 服务支持领导者在扩展人类 agent 职责，只有 31% 已实施或计划 AI 驱动裁员到 2027 Q1。来源：[Gartner HR](https://www.gartner.com/en/newsroom/press-releases/2026-3-4-gartner-hr-survey-reveals-45-percent-of-managers-report-ai-has-lived-up-to-their-expectations)、[Gartner Customer Service](https://www.gartner.com/en/newsroom/press-releases/2026-04-28-gartner-survey-finds-eighty-five-percent-of-service-and-support-leaders-are-expanding-human-agent-responsibilities-despite-expectations-of-mass-ai-layoffs)。
 
+7. **Cloudflare 在 2026-05-07 的财报新闻稿中披露将裁减约 1,100 人，并把其定义为“agentic AI-first operating model”的组织重构。** Cloudflare 在一季报新闻稿的 “Operating Model Evolution” 部分说明预计减少约 1,100 名员工，并指出该行动不是成本削减或个体绩效评估，而是定义公司在 agentic AI 时代的运作方式；新闻稿同时指向创始人公开信《Building for the future》作为补充材料。来源：[Cloudflare Q1 2026 press release](https://www.cloudflare.com/press/press-releases/2026/cloudflare-announces-first-quarter-2026-financial-results/)、[Cloudflare blog](https://blog.cloudflare.com/building-for-the-future/)。
+
 ### 需继续验证的线索
 
-- 仓库 `daily/2026-05-13.md` 与 `specials/job-levels/2026-05-12.md` 提到 Cloudflare、Meta 等 AI 重组/裁员案例；当前未找到足够一手公开材料支撑“AI 直接导致中层减少”的具体机制，因此只保留为线索，不进入核心结论。
+- 仓库 `daily/2026-05-13.md` 与 `specials/job-levels/2026-05-12.md` 提到 Meta 等 AI 重组/裁员案例；当前仍未找到足够一手公开材料支撑“AI 直接导致中层减少”的具体机制细节（哪些层级/岗位、管理跨度、制度与沟通话术），因此只保留为线索，不进入核心结论。
 - Business Insider、MarketWatch 等媒体近几日集中报道“middle managers are endangered / on the chopping block”，可作为舆论温度信号，但仍需回到公司公告、公开 JD、监管文件或内部 memo 原文核验。
 
 ---
