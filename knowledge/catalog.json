@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "lastUpdated": "2026-04-27",
+  "lastUpdated": "2026-05-13",
   "mode": "karpathy-llm-wiki",
   "schema": "knowledge/CLAUDE.md",
   "categories": {
@@ -39,9 +39,9 @@
       "id": "zhiyinlou-hr-learning",
       "title": "知音楼：《人力资源书籍和学习资料》",
       "sourceType": "internal-link",
-      "status": "已定位入口，待登录态/导出内容",
+      "status": "已通过知音楼会话读取目录",
       "url": "https://s.tal.com/a/lXaUte",
-      "description": "短链可跳转到知音楼/石墨文件夹，但静态抓取只能看到 JS 容器，无法直接枚举文件内容；页面已保留入口和导入规则，后续拿到导出文件或登录态后可批量摄入。",
+      "description": "已读取目标文件夹结构与《人力资源行业洞察 2024》目录页，当前公开页面只同步资料题名、分类判断和研究价值，不发布附件原文或内部会话信息。",
       "summaryFile": "./knowledge/wiki/zhiyinlou-hr-learning-materials.md"
     },
     {
@@ -139,6 +139,23 @@
       "fileSize": "",
       "tags": ["Amazon Builder", "百度", "岗位重塑", "价值导向", "组织扁平化"],
       "originalUrl": "https://mp.weixin.qq.com/s/Fa9otszO-vkBLWJ4pV5ngg"
+    },
+    {
+      "id": "z001",
+      "title": "知音楼资料索引：人力资源行业洞察 2024",
+      "originalTitle": "人力资源行业洞察 2024",
+      "author": "知音楼 / 石墨资料库",
+      "publisher": "知音楼",
+      "sourceType": "internal",
+      "topics": ["人才发展", "绩效管理", "组织文化"],
+      "date": "2024-10-14",
+      "uploadDate": "2026-05-13",
+      "description": "通过授权知音楼会话读取到的 HR 行业资料索引页，聚合 DDI 人才管理、怡安医疗趋势、美世招聘洞察、上市公司人效、弹性福利、人才发展指数、腾讯全域经营组织与人才洞察等 2024 年资料入口。当前作为 Context 与待精读清单，不发布附件原文。",
+      "summaryFile": "./knowledge/wiki/zhiyinlou-hr-industry-insights-2024.md",
+      "fileName": "人力资源行业洞察 2024",
+      "fileSize": "",
+      "tags": ["知音楼", "HR趋势", "人才发展", "人效", "福利", "待精读"],
+      "originalUrl": "https://yach-doc-shimo.zhiyinlou.com/docs/0l3NVQ91mdhvN3Rp"
     },
     {
       "id": "r004",

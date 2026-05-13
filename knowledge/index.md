@@ -11,9 +11,10 @@
 |---|------|------|------|------|
 | 1 | [LLM Wiki：OD 情报中心知识库运维方法](wiki/karpathy-llm-wiki-method.md) | Karpathy + Obsidian | 2026-05-13 | 知识管理, LLM Wiki |
 | 2 | [Obsidian 本地知识库首批导入地图](wiki/obsidian-vault-map-2026-05-13.md) | 本地 Obsidian | 2026-05-13 | Obsidian, 知识库 |
-| 3 | [知音楼《人力资源书籍和学习资料》导入状态](wiki/zhiyinlou-hr-learning-materials.md) | 知音楼 | 2026-05-13 | 人力资源, 待摄入 |
+| 3 | [知音楼《人力资源书籍和学习资料》同步记录](wiki/zhiyinlou-hr-learning-materials.md) | 知音楼 | 2026-05-13 | 人力资源, 已读取目录 |
 | 4 | [百度职级体系改革](wiki/baidu-level-reform-2026-obsidian.md) | Obsidian | 2026-05-13 | 职级改革, 百度 |
 | 5 | [亚马逊 Builder 与百度职级改革](wiki/amazon-baidu-job-title-reform-obsidian.md) | Obsidian | 2026-05-13 | 岗位重塑, 职级改革 |
+| 6 | [知音楼资料索引：人力资源行业洞察 2024](wiki/zhiyinlou-hr-industry-insights-2024.md) | 知音楼 | 2026-05-13 | HR趋势, 人才发展, 人效, 福利 |
 | 1 | [BCG: Design Your Company for AI](wiki/bcg-2026-04-design-company-for-ai.md) | BCG | 2026-04 | AI组织设计, 运营模型, Agent |
 | 2 | [BCG: AI转型本质上是劳动力转型](summaries/r001-bcg-zh.md) | BCG | 2026-02 | AI转型, 10-20-70法则 |
 | 3 | [Deloitte: 企业AI应用现状](summaries/r002-deloitte-zh.md) | Deloitte | 2025 | 数字化转型, AI战略 |
@@ -46,5 +47,6 @@
 最近 5 条：
 ```
 [2026-05-13] ingest | Obsidian 首批导入 + 知音楼入口建档 + LLM Wiki 运维规则
+[2026-05-13] ingest | 知音楼《人力资源行业洞察 2024》目录同步
 [2026-04-27] ingest | BCG: Design Your Company for AI
 ```
