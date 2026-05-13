@@ -2727,7 +2727,7 @@
       for (let i = 0; i < lines.length; i++) {
         const line = lines[i];
         if (line.includes('<!--')) continue;
-        const dayMatch = line.match(/^## (\d{4}-\d{2}-\d{2})/);
+        const dayMatch = line.match(/^## (\d{4}-\d{2}-\d{2})\b/);
         if (dayMatch) {
           if (currentDay && currentDay.items.length > 0) days.push(currentDay);
           currentDay = { date: dayMatch[1], items: [] };
