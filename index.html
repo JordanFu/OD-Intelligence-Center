@@ -2236,7 +2236,7 @@
         </button>
         <button class="tab-btn levels-tab" onclick="switchTab('levels')">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19V5h16v14H4z"/><path d="M8 9h8M8 13h5M8 17h8"/></svg>
-          <span class="tab-label-full">职级专项</span><span class="tab-label-short">职级</span>
+          <span class="tab-label-full">专题项目</span><span class="tab-label-short">专题</span>
           <span class="badge" id="levelsBadge">1</span>
         </button>
         <button class="tab-btn kb-tab" onclick="switchTab('kb')">
@@ -2789,7 +2789,7 @@
     }
 
     // ============================================================
-    // Job Levels Reform Special
+    // Special Projects
     // ============================================================
     const levelsOutputs = [
       {
@@ -2806,19 +2806,19 @@
       if (!container) return;
       container.innerHTML = `
         <div class="levels-hero">
-          <div class="levels-badge">专项研究 · 每日追踪</div>
-          <h2>职级体系、岗位族群、职业通道、薪酬与激励资源改革</h2>
-          <p>这个专项追踪 AI 时代与业务节奏变化下，全球公司如何重构 job family、管理层级、职业通道和薪酬激励机制。输出按“结论层 / Context层 / 线索层”维护，优先使用官方、一手材料和可复核来源。</p>
+          <div class="levels-badge">专题项目 · 每日追踪</div>
+          <h2>AI时代组织与人才机制四课题研究</h2>
+          <p>专题项目聚合组织扁平化、高人才密度、岗位族群序列、未来晋升机制四条研究线。每日产出四份专题日报和一份总览摘要，周度形成四课题聚合报告，并同步使用信息库、知识库、官方材料和可复核来源做交叉验证。</p>
         </div>
 
         <div class="levels-grid">
-          <div class="levels-card"><h3>H1：执行层角色合并</h3><p>暂判成立。Coinbase、Block、Amazon Builder 指向更少层级、小团队、端到端 owner、player-coach。</p></div>
-          <div class="levels-card"><h3>H2：核心专家深化</h3><p>暂判成立。AI Infra、Evals、Safety、Inference、Data Governance 等岗位继续专业化并高薪化。</p></div>
-          <div class="levels-card"><h3>H3：薪酬激励驱动</h3><p>暂判成立。字节职级改革与薪酬带宽、奖金、RSU/期权同步调整，PwC 显示 AI 技能工资溢价。</p></div>
+          <div class="levels-card"><h3>组织扁平化</h3><p>追踪中层减少、管理跨度扩大、小团队化、player-coach 与组织沟通落地。</p></div>
+          <div class="levels-card"><h3>高人才密度</h3><p>研究复合型人才识别、招聘、授权、激励、保留和持续涌现机制。</p></div>
+          <div class="levels-card"><h3>岗位与晋升</h3><p>持续更新岗位族群、职业通道、薪酬激励资源配置与未来晋升机制。</p></div>
         </div>
 
         <div class="levels-section">
-          <h3>每日产出</h3>
+          <h3>专题产出</h3>
           ${levelsOutputs.map(item => `
             <div class="levels-output">
               <div class="levels-output-head">
@@ -2829,7 +2829,7 @@
                 <span class="report-day-badge">${esc(item.status)}</span>
               </div>
               <div class="levels-actions">
-                <a class="levels-btn primary" href="${esc(item.href)}" target="_blank">阅读完整日报</a>
+                <a class="levels-btn primary" href="${esc(item.href)}" target="_blank">阅读专题报告</a>
                 <a class="levels-btn" href="./specials/job-levels/baseline.html" target="_blank">查看基线档案</a>
               </div>
             </div>
@@ -2837,22 +2837,22 @@
         </div>
 
         <div class="levels-section">
-          <h3>今日证据地图</h3>
+          <h3>证据地图</h3>
           <div class="levels-evidence">
-            <div class="levels-evidence-item"><strong>官方/一手</strong><span>Coinbase、Block、Baidu IR、PwC、Anthropic Jobs。</span></div>
-            <div class="levels-evidence-item"><strong>媒体/案例</strong><span>Amazon Builder 由 Reuters 披露，并称 Amazon 确认。</span></div>
-            <div class="levels-evidence-item"><strong>招聘/薪酬</strong><span>Anthropic 高薪 JD；字节薪酬带宽、奖金与股权归属变化。</span></div>
-            <div class="levels-evidence-item"><strong>社媒线索</strong><span>Blind、脉脉、Reddit、LinkedIn 后续仅作待验证线索池。</span></div>
+            <div class="levels-evidence-item"><strong>信息库</strong><span>每日 `digest.md` 与 `daily/` 的最新条目作为常规知识源。</span></div>
+            <div class="levels-evidence-item"><strong>知识库</strong><span>`knowledge/` 中的咨询报告、研究摘要和专题 wiki 作为基础材料。</span></div>
+            <div class="levels-evidence-item"><strong>外部来源</strong><span>官方/一手、权威媒体、咨询报告、招聘薪酬和公司制度材料交叉验证。</span></div>
+            <div class="levels-evidence-item"><strong>线索池</strong><span>社媒与职场平台只作为待验证线索，不直接写成结论。</span></div>
           </div>
         </div>
 
         <div class="levels-section">
           <h3>下一步追踪</h3>
           <ul class="levels-list">
-            <li>找百度全员信全文或截图源，确认发件人、日期、套改规则、薪酬/晋升影响。</li>
-            <li>继续追 Amazon Builder 原始 memo，确认 Ring/Blink 试点人数、岗位范围、level/pay band 是否变化。</li>
-            <li>建立 AI Infra / Evals / Safety / Agent / Data Governance JD 样本表。</li>
-            <li>补充 market premium、skill premium、project bonus、spot bonus、RSU refresh、special allowance 等薪酬机制案例。</li>
+            <li>每日同步四份专题日报与总览摘要到专题项目页。</li>
+            <li>周报回看当周日报，校验证据准确性并修正旧判断。</li>
+            <li>持续把信息库与知识库的新材料纳入四课题证据链。</li>
+            <li>保留单点线索、冲突信息和反例，避免把未验证信息写成结论。</li>
           </ul>
         </div>
       `;
