@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI时代的职级变革 · 基线档案</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --surface2: #242837;
+      --surface3: #2a2f40;
+      --border: #2e3348;
+      --text: #e1e4ed;
+      --text2: #8b91a8;
+      --accent: #6c8cff;
+      --accent2: #a78bfa;
+      --green: #34d399;
+      --orange: #fbbf24;
+      --red: #f87171;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Noto Sans SC", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    main {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 28px 24px 60px;
+    }
+    .back {
+      display: inline-flex;
+      padding: 8px 14px;
+      margin-bottom: 20px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--surface);
+      color: var(--text);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .hero {
+      background: linear-gradient(135deg, #1a1d27 0%, #202640 100%);
+      border: 1px solid var(--accent);
+      border-radius: 16px;
+      padding: 26px;
+      margin-bottom: 18px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--accent), var(--accent2), var(--green));
+    }
+    .badge {
+      display: inline-flex;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 20px;
+      background: rgba(108, 140, 255, 0.15);
+      color: var(--accent);
+      border: 1px solid rgba(108, 140, 255, 0.3);
+      margin-bottom: 10px;
+    }
+    h1 {
+      font-size: clamp(28px, 4vw, 44px);
+      line-height: 1.16;
+      max-width: 880px;
+      margin-bottom: 10px;
+    }
+    .lead {
+      color: var(--text2);
+      font-size: 15px;
+      max-width: 820px;
+    }
+    .stat-grid,
+    .trend-grid,
+    .case-grid {
+      display: grid;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+    .stat-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .trend-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .case-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .stat,
+    .card,
+    .section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+    }
+    .stat strong {
+      display: block;
+      font-size: 28px;
+      line-height: 1.1;
+      margin-bottom: 6px;
+      background: linear-gradient(135deg, var(--accent), var(--green));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .stat span,
+    .card p,
+    .section p,
+    li {
+      color: var(--text2);
+      font-size: 13px;
+    }
+    .card h2,
+    .section h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .card h3 {
+      font-size: 15px;
+      margin-bottom: 8px;
+    }
+    .tag {
+      display: inline-flex;
+      margin-bottom: 10px;
+      padding: 3px 9px;
+      border-radius: 999px;
+      background: var(--surface2);
+      color: var(--text2);
+      font-size: 11px;
+      font-weight: 700;
+    }
+    .tag.green { color: var(--green); background: rgba(52, 211, 153, 0.12); }
+    .tag.orange { color: var(--orange); background: rgba(251, 191, 36, 0.12); }
+    .tag.red { color: var(--red); background: rgba(248, 113, 113, 0.12); }
+    .section { margin-bottom: 16px; }
+    ul {
+      display: grid;
+      gap: 8px;
+      padding-left: 18px;
+    }
+    .matrix {
+      display: grid;
+      grid-template-columns: 160px repeat(3, minmax(0, 1fr));
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .matrix > div {
+      padding: 12px;
+      border-right: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text2);
+      font-size: 13px;
+    }
+    .matrix > div:nth-child(4n) { border-right: 0; }
+    .matrix .head,
+    .matrix .rowhead {
+      background: var(--surface2);
+      color: var(--text);
+      font-weight: 700;
+    }
+    .framework {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .step {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 13px;
+    }
+    .step strong {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--text);
+      font-size: 13px;
+    }
+    .step span {
+      color: var(--text2);
+      font-size: 12px;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 16px;
+    }
+    .btn {
+      display: inline-flex;
+      padding: 8px 14px;
+      border-radius: 8px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      color: var(--text);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .btn.primary {
+      background: var(--green);
+      border-color: var(--green);
+      color: #000;
+    }
+    @media (max-width: 820px) {
+      .stat-grid,
+      .trend-grid,
+      .case-grid,
+      .framework {
+        grid-template-columns: 1fr;
+      }
+      .matrix {
+        grid-template-columns: 1fr;
+      }
+      .matrix > div {
+        border-right: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <a class="back" href="../../index.html">返回 OD 情报中心</a>
+    <section class="hero">
+      <div class="badge">基线档案 · 可视化版</div>
+      <h1>AI时代的职级变革：全球大公司组织架构调整追踪</h1>
+      <p class="lead">这份基线档案把原始 Markdown 的长文本整理为可扫描的趋势地图、案例矩阵与落地框架，用来承接后续每日追踪。</p>
+      <div class="actions">
+        <a class="btn primary" href="./2026-05-12.html">阅读首日日报</a>
+        <a class="btn" href="../../AI时代的职级变革-全球大公司组织架构调整追踪.md">查看 Markdown 原文</a>
+      </div>
+    </section>
+
+    <section class="stat-grid">
+      <div class="stat"><strong>2024-2026</strong><span>职级与组织结构改革浪潮观察窗口</span></div>
+      <div class="stat"><strong>3</strong><span>主趋势：去标签化、去中层化、全栈化</span></div>
+      <div class="stat"><strong>7+</strong><span>重点公司案例：百度、字节、Amazon、Block 等</span></div>
+      <div class="stat"><strong>5-12</strong><span>百度数字职级体系候选案例</span></div>
+    </section>
+
+    <section class="trend-grid">
+      <div class="card">
+        <span class="tag green">趋势一</span>
+        <h2>去标签化</h2>
+        <p>用更通用的等级或角色描述替代复杂序列标签，减少员工围绕 title 和 ladder 的博弈，转向影响力和客户价值。</p>
+      </div>
+      <div class="card">
+        <span class="tag orange">趋势二</span>
+        <h2>去中层化</h2>
+        <p>AI 承接部分信息协调、汇总、路由与监控工作，中层从“传话筒”转向 player-coach 或专家型管理者。</p>
+      </div>
+      <div class="card">
+        <span class="tag red">趋势三</span>
+        <h2>全栈化</h2>
+        <p>执行角色边界变宽，产品、工程、运营、数据之间的协作链条被压短，更强调端到端 owner 和小团队交付。</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>公司案例矩阵</h2>
+      <div class="case-grid">
+        <div class="card"><h3>百度</h3><p>取消 T/P/E/Band/M 等字母标签，统一数字职级，打通专业与管理通道。仍需继续追全员信全文。</p></div>
+        <div class="card"><h3>字节跳动</h3><p>职级整合为 L1-L10，同时调整薪酬上下限、奖金投入和股权归属节奏，强关联激励机制。</p></div>
+        <div class="card"><h3>Amazon</h3><p>Ring/Blink 试点 “Builder” 单一职位家族，强调客户价值规模，员工担心晋升与外部认可度。</p></div>
+        <div class="card"><h3>Block</h3><p>用 company/customer world model 重构组织信息流，角色收敛为 IC、DRI、player-coach。</p></div>
+        <div class="card"><h3>Coinbase</h3><p>官方提出更少层级、no pure managers、player-coach、one-person teams，是 AI-native 重组强证据。</p></div>
+        <div class="card"><h3>Anthropic</h3><p>Model Evals、Safeguards、Inference 等岗位继续专业化并高薪化，是“专家深化”的重要反例。</p></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>核心判断对照</h2>
+      <div class="matrix">
+        <div class="head">判断</div><div class="head">支持证据</div><div class="head">风险</div><div class="head">后续验证</div>
+        <div class="rowhead">执行层合并</div><div>Coinbase、Block、Amazon Builder</div><div>试点被误判为全公司推广</div><div>继续看 JD、组织图、晋升规则</div>
+        <div class="rowhead">专家能力深化</div><div>Anthropic Evals/Safety/Inference</div><div>短期热门岗位可能被高估</div><div>建立多公司 JD 与薪酬样本</div>
+        <div class="rowhead">激励空间驱动</div><div>字节职级与薪酬股权同步调整</div><div>外泄材料需交叉验证</div><div>追踪带宽、津贴、RSU refresh 机制</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>落地方法论</h2>
+      <div class="framework">
+        <div class="step"><strong>战略</strong><span>先识别 AI 时代关键能力与资源上限。</span></div>
+        <div class="step"><strong>岗位</strong><span>执行层变宽，专家层变深，二者并存。</span></div>
+        <div class="step"><strong>职级</strong><span>减少 title 膨胀，清晰定义内部 level 与影响力。</span></div>
+        <div class="step"><strong>薪酬</strong><span>用稀缺系数、带宽和津贴处理技能溢价。</span></div>
+        <div class="step"><strong>激励</strong><span>用项目奖金、RSU refresh 留住关键人。</span></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>风险与待验证</h2>
+      <ul>
+        <li>部分案例来自内部信或媒体披露，仍需获取原文、截图源或官方确认。</li>
+        <li>“岗位合并”与“降本裁员”经常同时出现，需区分组织设计改革与成本优化包装。</li>
+        <li>社媒员工反馈只做线索池，不进入结论层。</li>
+        <li>后续要补足 JD、薪酬带宽、奖金与股权数据，避免只停留在组织叙事。</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>

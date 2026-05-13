@@ -3,6 +3,7 @@
 ## 专项
 
 - 职级与岗位族群改革每日追踪：`specials/job-levels/2026-05-12.html`
+- 职级变革基线档案可视化版：`specials/job-levels/baseline.html`
 
 AI 如何改变组织设计 —— 信息聚合与 OD 洞察平台
 
