@@ -72,11 +72,11 @@
     {
       "date": "2026-05-14",
       "weekday": "周四",
-      "items": 14,
-      "platforms": 7,
+      "items": 18,
+      "platforms": 10,
       "trust": {
-        "high": 1,
-        "mid": 13,
+        "high": 4,
+        "mid": 14,
         "ref": 0
       },
       "tags": [
@@ -93,39 +93,51 @@
         "职级体系",
         "AI人才",
         "管理幅度",
-        "人机协作"
+        "人机协作",
+        "CEO领导力",
+        "AI治理",
+        "中国企业案例",
+        "Agent编排",
+        "BCG",
+        "HBR"
       ],
       "topPicks": [
         {
-          "title": "AI最先重构的不是产品，而是软件公司自身",
-          "platform": "36氪",
-          "url": "https://36kr.com/p/3807232097590785",
-          "reason": "给出了混编小队、岗位拆解、Headcount 审批先过 AI 关和中间层压缩的具体组织操作图谱。"
+          "title": "BCG《AI Radar 2026》：CEO 已成为AI一号位，三类领导风格拉开差距",
+          "platform": "BCG",
+          "url": "https://www.bcg.com/publications/2026/as-ai-investments-surge-ceos-take-the-lead",
+          "reason": "全球2360名高管调研，72% CEO自称AI决策第一责任人（同比翻倍），仅5%公司产生持续AI财务回报。对OD的核心启示：70%工作量在人和组织层面。"
         },
         {
-          "title": "词元为王：多家中国企业的 AI 组织变革实践",
-          "platform": "36氪",
-          "url": "https://36kr.com/p/3807346984738568",
-          "reason": "集中呈现 58 同城、钉钉、有赞、昆仑万维等企业如何把 AI 纳入干部提拔、层级压缩和效率考核。"
+          "title": "BCG《CEO必须跨越AI影响的五大障碍》",
+          "platform": "BCG",
+          "url": "https://www.bcg.com/publications/2026/five-barriers-ceos-must-overcome-for-ai-impact",
+          "reason": "90%企业做AI实验，仅5%产生持续P&L回报。五大障碍中后三个（价值逻辑缺失、指标体系错误、忽视人的因素）全是OD专属领域。"
         },
         {
-          "title": "百度宣布全面取消 T/P/E/Band/M 职级体系",
+          "title": "HBR 2025年度大奖：Gen AI组织应用框架，战略适配优先于能力竞赛",
+          "platform": "HBR",
+          "url": "https://hbr.org/2025/11/the-gen-ai-playbook-for-organizations",
+          "reason": "Anand & Wu的任务级AI适用性框架可直接转化为OD的岗位再设计工具，获组织设计领域顶级学术背书。"
+        },
+        {
+          "title": "百度宣布全面取消T/P/E/Band/M职级体系：国内首家AI时代职级重构大厂",
           "platform": "新浪财经",
           "url": "https://news.sina.cn/bignews/insight/2026-04-28/detail-inhwaavw8495079.d.html?vt=4",
-          "reason": "是当前最清晰的大厂因 AI 转型而重写职级体系的样本，直接触及专业通道、管理通道和复合型人才的重新定义。"
+          "reason": "目前国内最清晰的AI时代大厂职级重构样本，对教育行业组织设计研究有直接对标价值。"
         }
       ],
       "trends": [
-        "AI 已开始重构企业自身而不只是产品层，组织先被 AI 改造再去卖 AI 正在成为新范式。",
-        "层级压缩与管理幅度扩张开始从观点变成实践，中层岗位价值正在从传递信息转向判断例外和承担责任。",
-        "AI 治理正在从提示词技巧升级为工程化组织问题，下一阶段关键在控制机制而不在单次生成能力。"
+        "AI落地失败=组织设计失败正在成为共识：BCG两大报告同时指向同一结论——90%实验、5%成功，70%的工作量在人和组织层面。",
+        "管理幅度扩张从观点走向实践：李彦宏提出管理者直管30-50人，与钉钉、Coinbase的实践相互印证。",
+        "中国企业AI组织变革进入强制提效阶段：昆仑万维强制AI提效50%是最激进样本，相比国际咨询公司方法论，中国企业更依赖强考核+末位淘汰的推进方式。"
       ],
       "nextFocus": [
-        "补强国内高密度案例的一手出处，优先追官方演讲、原始访谈和企业公告。",
-        "持续跟踪百度职级改革的外溢效应，观察阿里、腾讯、字节、华为等是否跟进。",
-        "继续验证管理幅度放大、层级压缩和 DAA/Token 等量化指标的可操作边界。"
+        "追踪BCG/HBR报告的完整原文：优先找到BCG AI Radar 2026和HBR Gen AI Playbook的完整PDF，提取可用于教育行业组织设计的具体框架。",
+        "验证Agent价值评估框架进展：McKinsey预告将公布新的Agent价值评估框架，持续追踪具体内容和发布时间。",
+        "百度职级改革的外溢效应：重点关注阿里、腾讯、字节、华为是否出现对应的职级、干部考核或headcount审批规则调整。"
       ],
-      "note": "今日新增14条，平台集中在 36氪、TechCrunch、界面和新浪等。重点围绕软件公司先重构自身、中国企业 AI 组织变革样本，以及百度职级体系调整。"
+      "note": "今日新增18条（09:46批次14条+09:50批次4条BCG/HBR/McKinsey），高4条/较高14条。BCG双报告+HBR框架+McKinsey Agent披露为三大核心增量。"
     },
     {
       "date": "2026-05-13",
