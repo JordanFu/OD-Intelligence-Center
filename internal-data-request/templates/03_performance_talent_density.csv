@@ -1,0 +1,2 @@
+employee_id,department,team,role_title,level,performance_cycle,performance_rating,potential_rating,key_talent_flag,successor_flag,critical_role_flag,output_metric_1,output_metric_2,manager_comment
+E001,示例部门,示例小组,示例岗位,L5,2026H1,A,High,TRUE,FALSE,TRUE,示例指标1,示例指标2,示例评价

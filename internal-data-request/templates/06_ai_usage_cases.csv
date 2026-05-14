@@ -1,0 +1,2 @@
+case_id,department,team,role_title,scenario,ai_tool,usage_frequency,workflow_before,workflow_after,estimated_time_saved,quality_change,risk_or_failure_case,human_review_mechanism,owner,next_step
+AI001,示例部门,示例小组,示例岗位,示例场景,示例工具,weekly,原流程,新流程,20%,质量提升,无,人工复核,示例owner,继续观察

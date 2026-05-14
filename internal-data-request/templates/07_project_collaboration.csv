@@ -1,0 +1,2 @@
+project_id,project_name,department,owner_employee_id,project_type,start_date,end_date,status,team_members,functions_involved,business_goal,ai_involvement,delivery_result,delay_or_rework,lessons_learned
+P001,示例项目,示例部门,E001,AI试点,2026-01-01,2026-03-01,completed,E001;E002,产品;技术;运营,示例目标,高,示例结果,无,示例复盘

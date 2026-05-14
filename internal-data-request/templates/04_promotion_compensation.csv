@@ -1,0 +1,2 @@
+employee_id,department,team,role_title,from_level,to_level,promotion_cycle,promotion_type,approved_or_rejected,base_pay_change_pct,bonus_change_pct,equity_or_long_term_incentive_change,exception_reason,review_committee_notes
+E001,示例部门,示例小组,示例岗位,L4,L5,2026H1,常规晋升,approved,8%,0%,无,无,示例备注

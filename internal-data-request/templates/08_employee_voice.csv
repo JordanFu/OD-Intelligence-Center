@@ -1,0 +1,2 @@
+record_id,date,source_type,department,team,topic,sentiment,quote_or_summary,related_policy_or_process,severity,follow_up_needed,notes
+V001,2026-05-13,访谈,示例部门,示例小组,晋升机制,neutral,示例摘要,晋升流程,medium,TRUE,示例行可删除

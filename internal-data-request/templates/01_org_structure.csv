@@ -1,0 +1,2 @@
+employee_id,manager_id,department,business_unit,team,role_title,job_family,level,management_level,is_manager,direct_reports_count,location,employment_type,hire_date,notes
+E001,M001,示例部门,示例业务线,示例小组,示例岗位,示例族群,L5,3,TRUE,8,北京,正式,2022-01-01,示例行可删除

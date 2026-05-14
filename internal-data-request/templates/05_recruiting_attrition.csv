@@ -1,0 +1,2 @@
+record_type,department,team,role_title,job_family,level,open_date,close_date,time_to_fill_days,offer_acceptance_rate,decline_reason,attrition_date,attrition_reason,next_destination,market_comp_signal,notes
+recruiting,示例部门,示例小组,示例岗位,示例族群,L5,2026-01-01,2026-02-01,31,80%,薪酬不匹配,,,,示例市场信号,示例行可删除
