@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>专题四：未来晋升机制</title>
+  <style>
+    :root{--bg:#0f1117;--surface:#171a24;--surface2:#202434;--border:#31374b;--text:#eef2fb;--text2:#b2bad0;--accent:#7c92ff;--green:#34d399;--orange:#fbbf24}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Noto Sans SC",sans-serif;background:linear-gradient(180deg,rgba(124,146,255,.06),transparent 300px),var(--bg);color:var(--text);line-height:1.78}
+    main{max-width:980px;margin:0 auto;padding:28px 24px 70px}
+    .toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px}
+    .btn{display:inline-flex;align-items:center;padding:8px 14px;border:1px solid var(--border);border-radius:8px;background:var(--surface);color:var(--text);text-decoration:none;font-size:13px;font-weight:700}
+    .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+    .doc{background:rgba(23,26,36,.92);border:1px solid var(--border);border-radius:16px;padding:28px;box-shadow:0 18px 60px rgba(0,0,0,.18);overflow:hidden}
+    .doc:before{content:"";display:block;height:3px;margin:-28px -28px 24px;background:linear-gradient(90deg,var(--accent),var(--green),var(--orange))}
+    h1{font-size:clamp(27px,4vw,42px);line-height:1.18;margin-bottom:16px}
+    h2{font-size:22px;margin:34px 0 14px;padding-top:18px;border-top:1px solid var(--border)}
+    h3{font-size:17px;margin:24px 0 10px;color:var(--green)}
+    h4{font-size:15px;margin:18px 0 8px;color:var(--orange)}
+    p{margin:10px 0;color:var(--text2);font-size:14px}
+    ul,ol{display:grid;gap:8px;margin:12px 0 16px;padding-left:22px}
+    li{color:var(--text2);font-size:14px}
+    strong{color:var(--text)}
+    a{color:var(--green);text-decoration:none;font-weight:700}
+    a:hover{text-decoration:underline}
+    blockquote{margin:16px 0;padding:14px 18px;border-left:4px solid var(--green);background:rgba(52,211,153,.08);border-radius:10px}
+    blockquote p{color:var(--text);margin:4px 0}
+    hr{border:0;border-top:1px solid var(--border);margin:22px 0}
+    table{width:100%;border-collapse:collapse;margin:14px 0 20px;border:1px solid var(--border);border-radius:10px;overflow:hidden}
+    td{border:1px solid var(--border);padding:10px 12px;color:var(--text2);font-size:13px;vertical-align:top}
+    tr:first-child td{background:var(--surface2);color:var(--text);font-weight:800}
+    code{background:var(--surface2);border:1px solid var(--border);border-radius:5px;padding:1px 5px;color:var(--text);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em}
+    @media(max-width:720px){main{padding:18px 12px 44px}.doc{padding:18px}.doc:before{margin:-18px -18px 20px}table{display:block;overflow-x:auto;white-space:nowrap}}
+  </style>
+</head>
+<body>
+  <main>
+    <div class="toolbar">
+      <a class="btn" href="./index.html">返回四课题总览</a>
+      <a class="btn" href="../../../index.html">返回 OD 情报中心</a>
+      <a class="btn primary" href="./04-promotion-system.md">查看 Markdown</a>
+    </div>
+    <article class="doc"><h1>2026-05-14｜专题四：未来组织的晋升机制</h1><h2>今日一句话结论</h2><p>未来晋升不会变成“随时凭 AI 工具晋升”，而会形成固定晋升窗口 + 高频项目证据 + 技能/影响力溢价 + 例外通道的组合机制。</p><h2>核心判断</h2><ol><li><strong>AI 贡献需要进入晋升证据，但不能成为单一指标。</strong> OpenAI DeployCo 和 McKinsey 都强调真实 workflow 和业务结果，说明晋升证据应关注是否重构流程、提升质量、沉淀系统，而非使用 AI 的次数。</li><li><strong>正式晋升仍需要治理。</strong> EY 报告提示 skill premiums 会带来 compression、fairness concerns、talent friction，因此晋升和加薪都必须有资格标准、校准、审计和 sunset 机制。</li><li><strong>技能溢价会部分替代晋升诉求。</strong> 如果 AI/数字能力有 25%-40% 溢价，组织不必把所有关键人才保留都压到升职上，可以用技能津贴、项目激励、LTI、市场校准承接。</li><li><strong>中层转型需要新的晋升台阶。</strong> CHRO Association 提到中层可能把 AI 视为对协调角色的威胁；如果没有 player-coach、agent workflow owner、capability builder 等新台阶，中层会抵触改革。</li></ol><h2>晋升机制建议</h2><table><tbody><tr><td>层次</td><td>机制</td><td>适用场景</td></tr><tr><td>正式晋升</td><td>半年/年度窗口、人才委员会、跨团队校准</td><td>level、base pay、长期职业通道变化</td></tr><tr><td>例外晋升</td><td>严格业务影响阈值、VP/委员会审批</td><td>重大 AI workflow 改造、关键人才保留</td></tr><tr><td>项目认可</td><td>项目 owner、spot bonus、project bonus</td><td>短周期高影响贡献</td></tr><tr><td>技能认可</td><td>技能徽章、skill premium、临时津贴</td><td>稀缺能力、跨岗位通用能力</td></tr><tr><td>长期激励</td><td>LTI/RSU refresh、关键人才池</td><td>AI-led transformation leadership、深专家保留</td></tr></tbody></table><h2>Context：待验证线索</h2><ul><li>Payscale 强调 pay equity 分析和透明度，提示晋升/加薪制度要解释得清楚，否则 AI 技能溢价会引发公平感问题。</li><li>Mercer 的员工焦虑数据提示，晋升机制还要说明“AI 是放大贡献，不是制造淘汰恐惧”。</li><li>Deloitte 的 role redesign 不足提示，很多企业还没有足够成熟的 AI 贡献评价样本。</li></ul><h2>落地问题清单</h2><ol><li>AI 贡献证据由谁审核：业务、HR、技术治理还是联合委员会？</li><li>AI 资产复用如何计入影响力：节省工时、减少错误、提升体验、提升收入还是降低风险？</li><li>技能溢价何时生效、何时退出？</li><li>player-coach 和深专家如何分别定义晋升标准？</li><li>如何防止“会用 AI 的人”压过“真正创造组织能力的人”？</li></ol><h2>来源索引</h2><ul><li>OpenAI Deployment Company, 2026-05-11.</li><li>McKinsey, Designing an end-to-end technology workforce for the AI-first era.</li><li>EY Future of Pay 2026.</li><li>Payscale 2026 Compensation Best Practices Report.</li><li>Mercer Global Talent Trends 2026 preliminary findings.</li><li>CHRO Association 2026 CHRO Survey.</li></ul></article>
+  </main>
+</body>
+</html>
