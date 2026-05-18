@@ -78,31 +78,44 @@ function ensureWeekly() {
   const week = isoWeek(weeklyAnchorDate());
   const files = fs.readdirSync(project).filter(name => /^\d{4}-\d{2}-\d{2}$/.test(name)).sort().slice(-7);
   const rows = files.map(date => `| ${date} | [日报](../${date}/index.html) | ${fs.existsSync(path.join(project, date, '00-overview.md')) ? '已生成' : '缺总览'} |`).join('\n');
-  const content = `# ${week}｜AI时代组织与人才机制周报\n\n> 云端兜底生成：汇总最近 7 个日报目录，确保本地设备离线时周报入口不断档。\n\n## 本周一句话结论\n\n本周证据继续指向：AI 组织改革不是单点工具上线，而是 operating model、job/workflow redesign、skills-based pay 和 promotion evidence 的组合变革。\n\n## 本周日报索引\n\n| 日期 | 链接 | 状态 |\n|---|---|---|\n${rows}\n\n## 本周待增强\n\n- 由主代理补充每天的新增一手证据与 Context/线索层。\n- 对 AI skill premium、manager role rewrite、agent governance job family 做交叉验证。\n\n## 来源索引\n\n${sourceList()}\n`;
-  writeIfMissing(path.join(weeklyDir, `${week}.md`), content);
-  if (!fs.existsSync(path.join(weeklyDir, 'latest.md'))) fs.writeFileSync(path.join(weeklyDir, 'latest.md'), content);
-  const html = `<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>${week} AI组织人才机制周报</title><style>body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",sans-serif;background:#0f1117;color:#eef2fb;line-height:1.75;margin:0}main{max-width:980px;margin:auto;padding:28px 24px}article{background:#171a24;border:1px solid #31374b;border-radius:16px;padding:24px}a{color:#34d399}td{border:1px solid #31374b;padding:8px}table{border-collapse:collapse;width:100%}</style></head><body><main><article>${content.replace(/^# (.+)$/m, '<h1>$1</h1>').replace(/\n/g, '<br>')}</article></main></body></html>`;
-  writeIfMissing(path.join(weeklyDir, `${week}.html`), html);
-  if (!fs.existsSync(path.join(weeklyDir, 'latest.html'))) fs.writeFileSync(path.join(weeklyDir, 'latest.html'), html);
-  if (!fs.existsSync(path.join(weeklyDir, 'index.html'))) fs.writeFileSync(path.join(weeklyDir, 'index.html'), html);
+  const quick = `# ${week}｜AI时代组织与人才机制快速导读版周报\n\n> 云端兜底生成：只保留结论、重要事实和启发，确保本地设备离线时周报入口不断档。正式决策版仍需主代理基于一手证据重跑增强。\n\n## 本周一句话结论\n\n本周证据继续指向：AI 组织改革不是单点工具上线，而是 operating model、job/workflow redesign、skills-based pay 和 promotion evidence 的组合变革。\n\n## 本周核心判断\n\n1. **组织改革入口不是裁层级，而是重写工作。** 先识别 coordination work、judgment work、talent work、governance work，再决定层级和管理跨度。\n2. **岗位会同时变宽和变深。** 交付层更端到端，AI infra、agent governance、data context、security、model evaluation 等专家能力更深。\n3. **很多岗位变革诉求本质是激励承接问题。** 如果 pay band、skill premium、project bonus、LTI 和保留预算不足，业务会倾向用新增 title/序列解决薪酬问题。\n\n## 对我们的启发\n\n- 快速导读只用于 CEO/高管判断方向，不替代详细资料版。\n- 没有多源互证的信息不进入结论层。\n- 证据不足时明确写“暂不形成结论”，不硬凑完整周报。\n\n## 来源索引\n\n${sourceList()}\n`;
+  const detailed = `# ${week}｜AI时代组织与人才机制详细资料版周报\n\n> 云端兜底生成：整理当周日报入口、来源池和待验证问题。它是资料聚合底稿，不是最终决策结论；主代理重跑后应补充 Context、案例、反例、社媒/招聘薪酬信号和交叉验证。\n\n## 本周日报索引\n\n| 日期 | 链接 | 状态 |\n|---|---|---|\n${rows}\n\n## 本周信息聚合框架\n\n### 结论层候选\n\n- AI operating model、job/workflow redesign、skills-based pay 和 promotion evidence 是否形成多源互证。\n- 执行层角色变宽与核心专家能力变深是否同时成立。\n- 业务提出岗位/序列变化是否实为薪酬、激励和市场溢价承接问题。\n\n### Context 层候选\n\n- 公司制度片段、员工体感、行业讨论、招聘 JD 和薪酬信号，只要未充分互证就保留在 Context。\n- 国内外案例不能直接互推，必须标注地区、业务类型、岗位层级和公司阶段。\n\n### 线索层候选\n\n- FDE、AI workflow owner、agent ops、AI governance、skills-based pay、skill allowance、market premium 等关键词。\n- 中层减少与 player-coach 角色变化的真实落地细节。\n\n## 本周待增强\n\n- 由主代理补充每天的新增一手证据与 Context/线索层。\n- 对 AI skill premium、manager role rewrite、agent governance job family 做交叉验证。\n- 补充中国公司案例、招聘薪酬信号和员工影响。\n\n## 来源索引\n\n${sourceList()}\n`;
+  writeIfMissing(path.join(weeklyDir, `${week}-quick.md`), quick);
+  writeIfMissing(path.join(weeklyDir, `${week}-detailed.md`), detailed);
+  writeIfMissing(path.join(weeklyDir, `${week}.md`), quick);
+  if (!fs.existsSync(path.join(weeklyDir, 'latest-quick.md'))) fs.writeFileSync(path.join(weeklyDir, 'latest-quick.md'), quick);
+  if (!fs.existsSync(path.join(weeklyDir, 'latest-detailed.md'))) fs.writeFileSync(path.join(weeklyDir, 'latest-detailed.md'), detailed);
+  if (!fs.existsSync(path.join(weeklyDir, 'latest.md'))) fs.writeFileSync(path.join(weeklyDir, 'latest.md'), quick);
+  for (const file of [`${week}-quick.md`, `${week}-detailed.md`, `${week}.md`, 'latest-quick.md', 'latest-detailed.md', 'latest.md']) {
+    execFileSync('node', ['scripts/render-markdown-page.js', `specials/ai-org-talent-mechanism/weekly/${file}`], { cwd: root, stdio: 'inherit' });
+  }
+  if (!fs.existsSync(path.join(weeklyDir, 'latest.html'))) fs.copyFileSync(path.join(weeklyDir, 'latest-quick.html'), path.join(weeklyDir, 'latest.html'));
+  if (!fs.existsSync(path.join(weeklyDir, 'index.html'))) fs.writeFileSync(path.join(weeklyDir, 'index.html'), `<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>AI组织人才机制周报</title><style>body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",sans-serif;background:#0f1117;color:#eef2fb;line-height:1.75;margin:0}main{max-width:900px;margin:auto;padding:28px 24px}.card{background:#171a24;border:1px solid #31374b;border-radius:16px;padding:22px;margin:14px 0}a{color:#34d399;font-weight:800}</style></head><body><main><h1>AI时代组织与人才机制周报</h1><div class="card"><h2>快速导读版</h2><p>只呈现结论、重要事实和启发。</p><a href="./latest-quick.html">阅读最新快速导读版</a></div><div class="card"><h2>详细资料版</h2><p>聚合当周所有有价值信息、Context 和线索。</p><a href="./latest-detailed.html">阅读最新详细资料版</a></div></main></body></html>`);
 }
 
 function updateHome() {
   const indexPath = path.join(root, 'index.html');
   if (!fs.existsSync(indexPath)) return;
   const s = fs.readFileSync(indexPath, 'utf8');
-  const start = s.indexOf('    const levelsOutputs = [');
-  if (start === -1) return;
-  const end = s.indexOf('    ];', start) + 6;
+  function replaceConstArray(source, name, block) {
+    const start = source.indexOf(`    const ${name} = [`);
+    if (start === -1) return source;
+    const end = source.indexOf('    ];', start) + 6;
+    return source.slice(0, start) + block + source.slice(end);
+  }
   const dates = fs.readdirSync(project).filter(name => /^\d{4}-\d{2}-\d{2}$/.test(name)).sort().reverse().slice(0, 6);
   const week = isoWeek(weeklyAnchorDate());
-  const items = [
+  const dailyItems = [
     `      {\n        date: '${today}',\n        title: 'AI时代组织与人才机制四课题日报',\n        status: '自动化已生成',\n        summary: '云端兜底生成，覆盖结论层、Context层、线索层和来源索引。',\n        href: './specials/ai-org-talent-mechanism/${today}/index.html'\n      },`,
-    `      {\n        date: '${week}',\n        title: 'AI时代组织与人才机制四课题周报',\n        status: '周报已生成',\n        summary: '汇总最近 7 个日报目录，保证周报入口不断档。',\n        href: './specials/ai-org-talent-mechanism/weekly/latest.html'\n      },`,
     ...dates.filter(date => date !== today).map(date => `      {\n        date: '${date}',\n        title: 'AI时代组织与人才机制四课题日报',\n        status: '历史版本',\n        summary: '四专题日报历史归档。',\n        href: './specials/ai-org-talent-mechanism/${date}/index.html'\n      },`),
   ];
-  const block = `    const levelsOutputs = [\n${items.join('\n')}\n    ];`;
-  fs.writeFileSync(indexPath, s.slice(0, start) + block + s.slice(end));
+  const weeklyItems = [
+    `      {\n        date: '${week}',\n        title: '快速导读版周报',\n        status: '周报已生成',\n        summary: '只呈现结论、重要事实和对我们的启发，适合 CEO 快速阅读。',\n        href: './specials/ai-org-talent-mechanism/weekly/latest-quick.html',\n        markdown: './specials/ai-org-talent-mechanism/weekly/latest-quick.md'\n      },`,
+    `      {\n        date: '${week}',\n        title: '详细资料版周报',\n        status: '资料聚合版',\n        summary: '整理当周所有有价值信息、Context、弱信号和待验证线索。',\n        href: './specials/ai-org-talent-mechanism/weekly/latest-detailed.html',\n        markdown: './specials/ai-org-talent-mechanism/weekly/latest-detailed.md'\n      },`,
+  ];
+  let next = replaceConstArray(s, 'levelsDailyOutputs', `    const levelsDailyOutputs = [\n${dailyItems.join('\n')}\n    ];`);
+  next = replaceConstArray(next, 'levelsWeeklyOutputs', `    const levelsWeeklyOutputs = [\n${weeklyItems.join('\n')}\n    ];`);
+  fs.writeFileSync(indexPath, next);
 }
 
 ensureDaily();

@@ -815,10 +815,14 @@
       color: var(--text);
     }
     .levels-output p,
+    .levels-section-note,
     .levels-list li {
       font-size: 13px;
       color: var(--text2);
       line-height: 1.65;
+    }
+    .levels-section-note {
+      margin-bottom: 12px;
     }
     .levels-actions {
       display: flex;
@@ -3106,20 +3110,13 @@
     // ============================================================
     // Special Projects
     // ============================================================
-    const levelsOutputs = [
+    const levelsDailyOutputs = [
       {
         date: '2026-05-18',
         title: 'AI时代组织与人才机制四课题日报',
         status: '正式重跑版',
         summary: '汇总 IBM、Microsoft、Deloitte、GitLab、HRD/EY/Payscale 等证据，形成 CEO 决策版结论、Context 和线索层。',
         href: './specials/ai-org-talent-mechanism/2026-05-18/index.html'
-      },
-      {
-        date: '2026-W20',
-        title: 'AI时代组织与人才机制四课题周报',
-        status: '正式重跑版',
-        summary: '重写 5/11-5/17 周报，聚焦 operating model、job redesign、skills-based pay 和 promotion evidence。',
-        href: './specials/ai-org-talent-mechanism/weekly/latest.html'
       },
       {
         date: '2026-05-17',
@@ -3158,6 +3155,43 @@
       }
     ];
 
+    const levelsWeeklyOutputs = [
+      {
+        date: '2026-W20',
+        title: '快速导读版周报',
+        status: '正式重跑版',
+        summary: '只呈现本周一句话结论、核心判断、重要事实和对我们的机制启发，适合 CEO 快速阅读。',
+        href: './specials/ai-org-talent-mechanism/weekly/2026-W20-quick.html',
+        markdown: './specials/ai-org-talent-mechanism/weekly/2026-W20-quick.md'
+      },
+      {
+        date: '2026-W20',
+        title: '详细资料版周报',
+        status: '资料聚合版',
+        summary: '保留当周所有有参考价值的信息、Context、弱信号、反例、冲突信息和待验证问题；当前版本来自重跑前历史底稿，用作详细档案与对照。',
+        href: './specials/ai-org-talent-mechanism/weekly/2026-W20-detailed.html',
+        markdown: './specials/ai-org-talent-mechanism/weekly/2026-W20-detailed.md'
+      }
+    ];
+
+    const levelsComparisonOutputs = [
+      {
+        title: '2026-W20 重跑前周报',
+        summary: '未重跑前的原始周报，保留为资料聚合底稿。',
+        href: './specials/ai-org-talent-mechanism/weekly/archive/2026-W20-before-rerun.html'
+      },
+      {
+        title: '2026-W20 重跑后周报',
+        summary: '正式重跑后的快速导读版周报。',
+        href: './specials/ai-org-talent-mechanism/weekly/archive/2026-W20-after-rerun.html'
+      },
+      {
+        title: '2026-W20 前后差异 Diff',
+        summary: '用于直接比较两版内容差异。',
+        href: './specials/ai-org-talent-mechanism/weekly/archive/2026-W20-before-vs-after.diff'
+      }
+    ];
+
     function renderLevelsPage() {
       const container = document.getElementById('levelsContent');
       if (!container) return;
@@ -3176,8 +3210,9 @@
         </div>
 
         <div class="levels-section">
-          <h3>专题产出</h3>
-          ${levelsOutputs.map(item => `
+          <h3>周报分区</h3>
+          <p class="levels-section-note">每周固定两份：快速导读版负责高层决策阅读；详细资料版负责沉淀当周所有有价值信息、Context 和线索。</p>
+          ${levelsWeeklyOutputs.map(item => `
             <div class="levels-output">
               <div class="levels-output-head">
                 <div>
@@ -3187,8 +3222,49 @@
                 <span class="report-day-badge">${esc(item.status)}</span>
               </div>
               <div class="levels-actions">
-                <a class="levels-btn primary" href="${esc(item.href)}" target="_blank">阅读专题报告</a>
+                <a class="levels-btn primary" href="${esc(item.href)}" target="_blank">阅读周报</a>
+                <a class="levels-btn" href="${esc(item.markdown)}" target="_blank">查看 Markdown</a>
+              </div>
+            </div>
+          `).join('')}
+          <div class="levels-actions">
+            <a class="levels-btn" href="./specials/ai-org-talent-mechanism/weekly/index.html" target="_blank">进入周报总页</a>
+          </div>
+        </div>
+
+        <div class="levels-section">
+          <h3>日报分区</h3>
+          <p class="levels-section-note">日报保留每日四份专题报告与一份总览摘要，用于记录当天新增证据、Context、线索和待验证问题。</p>
+          ${levelsDailyOutputs.map(item => `
+            <div class="levels-output">
+              <div class="levels-output-head">
+                <div>
+                  <div class="levels-output-title">${esc(item.date)} · ${esc(item.title)}</div>
+                  <p>${esc(item.summary)}</p>
+                </div>
+                <span class="report-day-badge">${esc(item.status)}</span>
+              </div>
+              <div class="levels-actions">
+                <a class="levels-btn primary" href="${esc(item.href)}" target="_blank">阅读日报</a>
                 <a class="levels-btn" href="./specials/job-levels/baseline.html" target="_blank">查看基线档案</a>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+
+        <div class="levels-section">
+          <h3>重跑前后对比</h3>
+          <p class="levels-section-note">保留 2026-W20 两版周报和差异文件，便于直接比较“资料聚合稿”和“正式重跑导读稿”的信息密度与表达方式。</p>
+          ${levelsComparisonOutputs.map(item => `
+            <div class="levels-output">
+              <div class="levels-output-head">
+                <div>
+                  <div class="levels-output-title">${esc(item.title)}</div>
+                  <p>${esc(item.summary)}</p>
+                </div>
+              </div>
+              <div class="levels-actions">
+                <a class="levels-btn primary" href="${esc(item.href)}" target="_blank">打开文件</a>
               </div>
             </div>
           `).join('')}
