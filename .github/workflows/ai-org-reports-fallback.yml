@@ -1,0 +1,53 @@
+name: AI Org Reports Fallback
+
+on:
+  workflow_dispatch:
+    inputs:
+      report_date:
+        description: 'Override report date in YYYY-MM-DD, Asia/Shanghai'
+        required: false
+        type: string
+  schedule:
+    # 18:20 Asia/Shanghai daily. GitHub cron uses UTC.
+    - cron: '20 10 * * *'
+    # Extra weekly guardrail every Monday 18:45 Asia/Shanghai.
+    - cron: '45 10 * * 1'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ai-org-reports-fallback
+  cancel-in-progress: false
+
+jobs:
+  ensure-reports:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Ensure daily and weekly reports
+        env:
+          REPORT_DATE: ${{ inputs.report_date }}
+          TZ: Asia/Shanghai
+        run: node scripts/ensure-ai-org-reports.js
+
+      - name: Commit changes if any
+        run: |
+          if git diff --quiet; then
+            echo "No report changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html specials/ai-org-talent-mechanism scripts/ensure-ai-org-reports.js
+          git commit -m "auto-fallback: ensure AI org reports"
+          git push
