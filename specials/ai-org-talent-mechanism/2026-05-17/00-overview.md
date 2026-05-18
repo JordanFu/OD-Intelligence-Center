@@ -1,112 +1,91 @@
-# 2026-05-17｜AI时代组织与人才机制四课题总览
+# 2026-05-17｜AI时代组织与人才机制四课题总览（正式重跑版）
 
-> 范围：组织扁平化与中层减少、高人才密度与复合型人才、岗位族群序列、未来晋升机制  
-> 方法：四专题并行研究 + 总览交叉校验；使用公开来源与仓库内部 `digest.md`、`daily/`、`daily-report/`、`knowledge/`、`specials/` 互证；严格事实-判断分离。
+> 定位：CEO 决策材料，不是兜底占位。  
+> 结构：结论层、Context层、线索层三分；高置信结论必须有事实支撑，低置信材料不混入结论。  
+> 今日重点：本日重点从 Microsoft、Deloitte、IBM 三组证据重建“人机协同人才密度”：AI 时代高密度不是少数天才单点爆发，而是组织能否让员工、agent、数据和治理形成可复用工作系统。
 
----
+## 1. 今日一句话结论
 
-## 1) 今日总判断
+本日重点从 Microsoft、Deloitte、IBM 三组证据重建“人机协同人才密度”：AI 时代高密度不是少数天才单点爆发，而是组织能否让员工、agent、数据和治理形成可复用工作系统。
 
-今天最强的新证据把四个课题更紧地绑在一起：**AI 带来的不是简单“效率提升”，而是“并发执行能力 + 评估基础设施 + 责任重写”三件套。**当 agent 能并发执行大量工作时，组织竞争力从“层级审批与流程控制”迁移到“更少层级下仍能维持质量与问责”的 operating model：扁平化要靠 DRI/owner；人才密度要靠人机杠杆与可复用资产；岗位体系要先清理 job architecture 才能承接 tasks/roles 重写；晋升机制要用证据流水线支撑校准与公平。
+## 2. 今日核心判断
 
----
+1. **执行层角色继续变宽，但不是全员通才化。** AI agent 和共享上下文降低了信息路由和 routine work 成本，业务交付层更需要端到端 owner、DRI、player-coach；同时，AI infra、agent governance、data context、security、evaluation 等专家能力继续深化。
+2. **岗位体系改革背后的真实问题经常是薪酬与激励承接。** AI skill premium、关键人才保留、项目贡献和市场稀缺性先于 job architecture 成熟出现；如果只靠新增 title，会造成 title inflation 和 pay inconsistency。
+3. **晋升机制不会被“随时晋升”替代。** 正式晋升仍需要窗口、校准、预算和审批；但 AI workflow contribution、项目 owner、技能徽章、agent governance、复用资产可以成为晋升前证据层。
+4. **组织扁平化的可落地路径是“先重写管理工作，再压缩层级”。** 纯协调型中层承压，但人才发展、复杂判断、冲突处理、质量治理和 agent/human workflow 设计仍需要管理角色。
 
-## 2) 今日最重要的 5-7 条发现（新增）
+## 3. 今日事实层
 
-1. **扁平化从口号变成“硬约束”：** Coinbase 公开给出结构规则（最多 5 层、典型 span≈10、部分 15+、no pure managers），把扁平化与决策速度/协作方式绑定。  
-   - https://www.coinbase.com/blog/building-a-leaner-and-faster-coinbase
+- Microsoft WTI 2026 将 human-agent agency 放入组织 operating model，强调员工、领导者、组织三个层面的重新设计。
+- Deloitte agent operating model 提醒：很多公司期望 automation，但 job redesign 和 accountability 尚未跟上。
+- IBM Think 2026 recap 显示 Bob 覆盖 80,000+ 员工并带来平均 45% 生产率提升，说明 agent 已可进入组织级部署。
 
-2. **极端扁平结构的“角色拆分信号”出现可核验样本：** Guardian 报道引用 Block 内部组织图，175 直报里 152 标为 DRI、23 标为 People Lead，提示“责任下放”与“教练容量”可能出现结构性张力（需持续追踪成效与副作用）。  
-   - https://www.theguardian.com/technology/2026/may/15/ai-manager-purge-tech
+## 4. 今日 Context 层
 
-3. **高人才密度出现可量化“人机杠杆”证据：** Coinbase Mux 案例披露 8 周试点中 600+ 用户创建 5,068 个 PR；重度用户合并 PR 数量是对照组 3.5x（产出提升已可见，但质量/风险指标仍需补齐）。  
-   - https://www.coinbase.com/blog/coding-had-a-concurrency-problem-how-mux-helped-solve-it
+以下材料暂不直接形成结论，但提示后续追踪方向：
 
-4. **组织 readiness 被量化，并把“AI 纳入绩效评价”纳入指标：** Microsoft 2026 WTI 显示仅 19% AI 用户处于 Frontier（个体 readiness 与组织 readiness 同时高），领导层一致性仅 26%；组织 readiness 的构成项包含 governance maturity、manager support、AI in performance evaluation、AI culture。  
-   - https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization
+- IBM Bob 是内部 agent 使用案例，不能直接推出岗位合并，但能证明 agent governance、workflow owner、复用资产会变重要。
+- Microsoft 的 human-agent agency 不是晋升标准本身，但可转化为能力模型维度。
+- Deloitte 的 84% 未 redesign jobs 是强反例：多数公司仍在旧岗位体系上叠 AI。
 
-5. **岗位/序列建设的现实路径更清晰：先 outcomes，再 skills；并先清理 job architecture。** Deloitte 分析 87 家组织后指出：真正创造价值的做法不是一刀切“skills 替代 jobs”，而是从业务 outcome 出发选择性应用；并引用 Gartner 调研称仅 2% HR 领导者认为已在全流程成功采用 skills-based 方法。  
-   - https://www.deloitte.com/us/en/insights/topics/talent/creating-value-with-skills.html?icid=_click
+## 5. 今日新增证据地图
 
-6. **晋升机制的“高频证据 + 低频总闸门”可复核制度样本更完整：** GitLab 明确 in-cycle（半年两次校准、通常期望现岗≥12 个月、不面试、不产生 backfill headcount）与 out-of-cycle（例外晋升的材料与审批链）。  
-   - https://handbook.gitlab.com/handbook/people-group/promotions-transfers/
-
-7. **Agent 的组织化治理正在被工程化命名：** Glean 提出 Enterprise Agent Development Lifecycle（ADLC），把“构建/治理/度量 agent”当成全生命周期工程问题。  
-   - https://www.glean.com/press/glean-introduces-the-enterprise-agent-development-lifecycle-codifying-how-enterprises-build-govern-and-measure-ai-agents
-
----
-
-## 3) 四专题交叉关系：扁平化 × 人才密度 × 岗位序列 × 晋升机制（今日增量）
-
-| 交叉点 | 今日增量判断 | 对 OD 的设计启发 |
+| 证据方向 | 事实/信号 | 对 CEO 决策的含义 |
 |---|---|---|
-| 扁平化 × 人才密度 | 扁平化正在要求更多“player-coach + DRI”，但人才密度必须体现为“并发编排 + 质量评估”的稳定能力，否则扁平化会变成负担下沉 | 先建证据与评估底盘（谁评估/谁能改流程/如何扩散），再扩大 span |
-| 人才密度 × 晋升机制 | WTI 把 AI 纳入绩效评价列为 readiness 指标，意味着“AI 贡献”不可避免进入评价系统；但如果没有证据结构会被 KPI 化劫持 | 用“证据包”替代“使用率”，把质量/风险与复用资产纳入晋升证据 |
-| 岗位序列 × 扁平化 | no pure managers 会使岗位更宽、角色混合，但 job architecture 必须更干净才能描述这种宽岗位 | 先做 job architecture 清理（roles 更少更清晰），用 skills 标签表达差异，而不是新增序列 |
-| 岗位序列 × 晋升机制 | 半年两次校准 + 例外晋升（GitLab）说明“窗口”仍必要，用于公平/预算校准；差异化定价不一定靠新序列 | 建立 out-of-cycle 闸门与 market premium 机制，减少新序列膨胀 |
+| 组织结构 | AI-agent-first、owner/DRI/player-coach、中层承压 | 不要简单裁层；先定义 manager 新价值和 workflow owner |
+| 岗位架构 | routine work 被 agent 吸收，深专家更关键 | 建宽岗位 + 深专家 + 技能标签，而非泛建 AI 序列 |
+| 薪酬激励 | AI skill premium、skills-based pay、pay equity | 用 market premium、项目奖金、LTI、临时津贴承接稀缺能力 |
+| 晋升机制 | AI workflow evidence、badge、project owner | 正式晋升保留校准，高频贡献进入证据包 |
+| 风险治理 | job redesign 滞后、中层抵触、title inflation | 改革必须同步沟通、治理和公平审计 |
 
----
+## 6. 重点案例更新
 
-## 4) 今日判断变化：哪些判断被增强、削弱或修正
+### 海外公司
 
-- **被显著增强：** “扁平化不是裁中层，而是取消纯管理 + 重写责任”——Coinbase 给出硬约束与表述，补强了“可落地的结构规则”证据。
-- **被增强：** “高人才密度=人机杠杆后的结果密度”——Coinbase Mux 的量化数据让该判断从概念走向可观测指标层。
-- **被增强：** “晋升机制将走向证据流水线 + 总闸门”——GitLab 的 in-cycle/out-of-cycle 制度提供了可复核流程样本，且可与 WTI 的“AI in performance evaluation”形成闭环。
-- **被修正（更具体化）：** skills-based 的落地路径从“做技能词典”修正为“从 outcomes 出发 + 先清理 job architecture”，避免 taxonomy 陷阱（Deloitte）。
+- **GitLab**：把 AI-agent-first operating model、小团队、层级压缩和人才安排放入同一变革叙事，是本周最完整的组织改革样本。
+- **IBM**：Bob 进入 80,000+ 员工规模后，案例价值不在“用了 AI”，而在 agent governance、workflow owner 和组织级复用。
+- **Microsoft**：WTI 2026 给出 human-agent agency 框架，适合转化为能力模型和晋升证据维度。
+- **Deloitte**：84% 未 redesign jobs 是重要反例，提醒公司别把 AI adoption 当改革完成。
 
----
+### 中国公司
 
-## 5) 关键冲突与反例（相互矛盾的信息，需要继续验证）
+- 今日仍缺强一手材料。暂不形成国内公司确定案例结论。后续重点追踪百度、阿里、腾讯、字节、快手在 AI 复合型岗位、技能标签、薪酬稀缺系数、晋升证据包上的制度变化。
 
-1. **扁平化与教练能力的冲突：** Block 的 DRI/People Lead 比例（媒体引述）提示极端扁平可能牺牲培养；但其长期效果未公开，需要用结果指标验证。
-2. **更高产出 vs 质量风险：** Mux 3.5x PR 合并提升与质量/安全/返工的关系尚不清楚；若缺评估与治理，会把风险放大。
-3. **AI 纳入绩效评价 vs 表演式使用：** WTI 强调系统激励不匹配会阻碍转型；如何把 AI 贡献“去 KPI 化”需要更多案例与制度细节。
+## 7. 对本课题的落地启发
 
----
+- **战略**：把 AI 变革定义成 operating model redesign，而不是工具推广或裁员项目。
+- **岗位**：执行层岗位变宽，专家岗位变深；新增序列必须满足长期稳定、战略关键、可评价、可定价四个条件。
+- **职级**：title 可以简化，但 level、scope、impact、pay band、promotion evidence 不能模糊。
+- **薪酬**：优先用 skill premium、market adjustment、project bonus、LTI、sunset allowance 解决短中期稀缺能力。
+- **激励**：AI 贡献拆成业务结果、workflow redesign、agent governance、复用资产、团队能力提升五类证据。
 
-## 6) 行动启发（按六个维度归纳）
+## 8. 社媒/职场平台线索池
 
-### 战略
+- “AI manager purge”叙事扩散，但需要继续找一手公告和员工反馈。
+- “AI skill premium”讨论升温，但需要用 JD、薪酬报告和 offer 区间验证。
+- “Agent ops / AI governance / workflow owner”title 出现，需判断是否形成稳定 job family。
 
-- 把 AI 转型定义为 operating model 重构，而不是工具推广；明确“并发执行 + 评估基础设施 + 责任重写”的北极星。
+## 9. 待验证清单与下一步计划
 
-### 组织架构
+1. 找 GitLab Act 2 后员工反馈、组织层级变化和管理跨度数据。
+2. 找 IBM Bob 的 owner、治理组织和 agent operating model 责任边界。
+3. 拆 Microsoft human-agent agency 为岗位能力模型和晋升证据。
+4. 追踪 AI skill premium 在中国市场是否出现，以及用何种薪酬工具承接。
+5. 精读知音楼 HR 知识库中的 AI+HR、薪酬福利、组织发展三类材料。
 
-- 用 3 个交付物替代“扁平化口号”：DRI/owner 清单 + 协调任务可替代清单 + 治理闸门（权限/审计/回滚/例外审批）。
+## 10. 来源索引
 
-### 岗位序列
+- Microsoft Work Trend Index 2026：agents, human agency and opportunity for every organization｜https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization
+- Deloitte：Rethinking operating models for humans with AI agents；84% companies have not redesigned jobs to fit AI｜https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html
+- IBM Think 2026 recap：Bob 覆盖 80,000+ 员工、平均生产率提升 45%、agent sprawl/governance｜https://www.ibm.com/think/news/think-2026-ai-recap
+- McKinsey AI-first workforce：technology workforce redesign、senior talent、product/platform operating model｜https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era
+- EY Future of Pay 2026：AI/digital skill premium、skills-based pay、sunset clauses｜https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf
+- OD Intelligence Center 知识库：知音楼 HR 十主题地图｜knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md
 
-- 先清理 job architecture（roles 更少更清晰），再用 skills 标签与 market premium 表达差异；谨慎新增序列，先判定分工/定价/流动三类问题。
+## 11. 今日专题文件
 
-### 人才密度
-
-- 把复合型人才定义成“可审计证据包（v0）”：问题定义 → agent 编排 → 质量审查 → 影响 → 复用沉淀 → 风险边界。
-
-### 晋升激励
-
-- 建“证据流水线 + 总闸门”：证据持续生成、窗口用于校准公平与预算；例外晋升（out-of-cycle）制度化为稀缺资源，明确触发条件与审批链。
-
-### 沟通落地
-
-- 对员工讲清楚：不是“取消管理/取消晋升”，而是“取消纯管理 + 强问责 + 强证据”；标准更偏“可审计影响与责任”，不是“工具使用率”。
-
----
-
-## 7) 明日优先追踪问题
-
-1. Coinbase 扁平化的后续量化结果与配套机制（绩效、晋升、质量与风险治理）。  
-2. Block DRI/player-coach/people lead 的真实落地流程与长期效果指标（教练能力是否被补回）。  
-3. Mux 类“并发编排 + 评估基础设施”在国内公司是否已有可公开复核样本。  
-4. skills-based 的中国落地路径：哪些组织做了 job architecture 清理，哪些停在 taxonomy。  
-5. “AI in performance evaluation”如何避免 KPI 化：有哪些制度设计与反例。
-
----
-
-## 8) 今日专题文件（HTML 优先）
-
-- [四课题总览（HTML）](./00-overview.html)
-- [专题一：组织扁平化与中层减少（HTML）](./01-flat-organization.html)
-- [专题二：高人才密度与复合型人才机制（HTML）](./02-talent-density.html)
-- [专题三：岗位、族群、序列持续建设（HTML）](./03-job-family-career-architecture.html)
-- [专题四：未来晋升机制（HTML）](./04-promotion-system.html)
-
+- [专题一：组织扁平化与中层减少](./01-flat-organization.md)
+- [专题二：高人才密度与复合型人才机制](./02-talent-density.md)
+- [专题三：岗位、族群、序列持续建设](./03-job-family-career-architecture.md)
+- [专题四：未来组织的晋升机制](./04-promotion-system.md)

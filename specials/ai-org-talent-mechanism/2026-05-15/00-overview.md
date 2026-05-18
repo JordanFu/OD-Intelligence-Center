@@ -1,110 +1,91 @@
-# 2026-05-15｜AI时代组织与人才机制四课题总览
+# 2026-05-15｜AI时代组织与人才机制四课题总览（正式重跑版）
 
-> 范围：组织扁平化与中层减少、高人才密度与复合型人才、岗位族群序列、未来晋升机制  
-> 方法：四个专题并行研究 + 总览交叉校验；使用公开来源与仓库内部 `digest.md`、`daily/`、`daily-report/`、`knowledge/`、`specials/` 互证；严格事实-判断分离。
+> 定位：CEO 决策材料，不是兜底占位。  
+> 结构：结论层、Context层、线索层三分；高置信结论必须有事实支撑，低置信材料不混入结论。  
+> 今日重点：本日重点把 GitLab Act 2、Guardian manager purge、HRD AI salary premium 与前期 Coinbase/Block owner/player-coach 线索合并验证：AI 组织改革的第一波不是“所有岗位 AI 化”，而是压缩协调层、提高 owner 密度，并用薪酬机制承接 AI 稀缺技能。
 
----
+## 1. 今日一句话结论
 
-## 1. 今日总判断
+本日重点把 GitLab Act 2、Guardian manager purge、HRD AI salary premium 与前期 Coinbase/Block owner/player-coach 线索合并验证：AI 组织改革的第一波不是“所有岗位 AI 化”，而是压缩协调层、提高 owner 密度，并用薪酬机制承接 AI 稀缺技能。
 
-今天新增信号共同指向：AI 时代组织竞争力正在从“层级与流程控制”进一步加速迁移到“协调压缩（coordination compression）+ 角色收敛（IC/DRI/player-coach）+ skills-based 的人才证据与定价系统”。组织不再靠中层做信息路由、靠序列标签做人才管理，而是靠更少但更强的结果 owner（DRI）、可复用的 Agent/流程资产、以及把技能证据与溢价资源配置制度化的底盘来运转。
+## 2. 今日核心判断
 
----
+1. **执行层角色继续变宽，但不是全员通才化。** AI agent 和共享上下文降低了信息路由和 routine work 成本，业务交付层更需要端到端 owner、DRI、player-coach；同时，AI infra、agent governance、data context、security、evaluation 等专家能力继续深化。
+2. **岗位体系改革背后的真实问题经常是薪酬与激励承接。** AI skill premium、关键人才保留、项目贡献和市场稀缺性先于 job architecture 成熟出现；如果只靠新增 title，会造成 title inflation 和 pay inconsistency。
+3. **晋升机制不会被“随时晋升”替代。** 正式晋升仍需要窗口、校准、预算和审批；但 AI workflow contribution、项目 owner、技能徽章、agent governance、复用资产可以成为晋升前证据层。
+4. **组织扁平化的可落地路径是“先重写管理工作，再压缩层级”。** 纯协调型中层承压，但人才发展、复杂判断、冲突处理、质量治理和 agent/human workflow 设计仍需要管理角色。
 
-## 2. 今日最重要的 7 条发现
+## 3. 今日事实层
 
-1. **“角色收敛”开始被一手公司机制阐释明确化。** Block 官方明确提出组织角色应收敛为 IC、DRI（结果 owner）与 player-coach（教练型管理者），并把“管理层”的产生归因于信息共享成本；AI 将显著降低对信息共享型管理层的依赖，并重写管理跨度逻辑。  
-   - 来源：Block（2026-03-31）https://block.xyz/inside/from-hierarchy-to-intelligence
+- GitLab 在 Act 2 中把组织重构与 AI-agent-first operating model 绑定，提出压缩层级、减少国家数量、建立更小团队，并提供 voluntary separation 作为落地工具。
+- Guardian 报道 AI-fueled manager purge，说明舆论和员工体感层已经把 AI 与中层管理压力关联，但仍需一手材料验证具体公司机制。
+- HRD 报道雇主愿为 AI-skilled staff 支付最高 15% salary premium，提示岗位 title 变化之前，薪酬市场已经先行动。
 
-2. **“管理岗减少”出现可量化宏观信号，但不能替代机制验证。** The Guardian 引用 Revelio Labs 数据：2023/2024 管理类角色被移除比例约为 12.5%/13.5%。  
-   - 来源：The Guardian（2026-05-15）https://www.theguardian.com/technology/2026/may/15/ai-manager-purge-tech
+## 4. 今日 Context 层
 
-3. **大型组织把“岗位结构更新”与“工作方式变化/ownership 更清晰”绑定到重组叙事中。** Walmart 重组沟通强调更新岗位与组织结构以反映工作如何完成，并以“简化 + ownership 更清晰”作为锚点。  
-   - 来源：Retail Dive（2026-05-14）https://www.retaildive.com/news/walmart-layoffs-relocations-tech-product-workers/820110/
+以下材料暂不直接形成结论，但提示后续追踪方向：
 
-4. **skills-based 转型的必要性被更强的数据支撑。** LinkedIn 披露到 2030 年约 70% 工作技能将变化；且约 55% “增长技能”岗位的录用者并不来自这些技能的 top-5 人才池，意味着组织必须用技能与证据系统识别“非典型人才”。  
-   - 来源：LinkedIn（2026）https://news.linkedin.com/2026/Skills-on-the-rise-2026
+- GitLab 是强案例，但不能把 voluntary separation 直接等同“AI 替代所有中层”；更稳妥的判断是：AI-agent-first operating model 给组织压缩提供了理由和工具。
+- Guardian 是媒体材料，适合作为 Context 和线索，不作为制度结论。
+- AI skill premium 需要继续拆分 base pay、bonus、LTI 与临时津贴，不能简单理解为“建 AI 序列”。
 
-5. **skills-based pay 与技能溢价扩散，为“高人才密度=更强定价能力”提供了可复核信号。** EY 披露 45%-50% 组织已推进 skills-based pay，73% 计划推进；对 GenAI skills 的溢价带宽可达约 30%-40%。  
-   - 来源：EY（2026-05，PDF）https://www.ey.com/content/dam/ey-unified-site/ey-com/en/gl/consulting/documents/ey-future-of-pay-2026.pdf
+## 5. 今日新增证据地图
 
-6. **中国大厂“统一能力带/去序列标签化”仍是最强制度样本之一，但细则仍待补。** 百度 5-12 数字职级与“专业力+领导力”任职资格更新仍是当前可核验的制度样本；其晋升、薪酬带宽与评审细则是本周最高优先级待验证项。  
-   - 来源：界面新闻（2026-04-28）https://www.jiemian.com/article/14343645.html
-
-7. **晋升机制更需要“证据流水线 + 总闸门”，且证据将更技能化。** 当技能溢价扩大，晋升与薪酬需要更强的证据系统承接（技能评估/认证/审计 + 业务影响 + 风险/治理责任），否则会出现 title inflation 与公平争议迁移。  
-   - 证据入口：EY（skills-based pay）+ LinkedIn（技能变化速度）+ 本仓库既有 GitLab 等公开制度模板（见 2026-05-13 专题四）。
-
----
-
-## 3. 四专题交叉关系：组织扁平化 × 人才密度 × 岗位序列 × 晋升机制
-
-| 交叉点 | 今日增量判断 | 设计启发 |
+| 证据方向 | 事实/信号 | 对 CEO 决策的含义 |
 |---|---|---|
-| 扁平化 × 人才密度 | 角色收敛（DRI/player-coach）使“责任更集中”，对前线复合能力要求更高 | 先定义 DRI 与证据包，再压缩层级 |
-| 人才密度 × 岗位序列 | 技能变化加速 + 非典型人才池成为常态，岗位体系需更可迁移 | 用技能标签 + 项目角色替代过度新增序列 |
-| 岗位序列 × 晋升机制 | skills-based pay 扩散使“技能定价”进入制度层 | 用“技能证据 + 校准 + 预算闸门”替代 title inflation |
-| 扁平化 × 晋升证据 | 管理贡献从“管人规模”转向“标准、培养、复用资产与治理” | 晋升证据必须可审计：影响、质量、风险边界 |
+| 组织结构 | AI-agent-first、owner/DRI/player-coach、中层承压 | 不要简单裁层；先定义 manager 新价值和 workflow owner |
+| 岗位架构 | routine work 被 agent 吸收，深专家更关键 | 建宽岗位 + 深专家 + 技能标签，而非泛建 AI 序列 |
+| 薪酬激励 | AI skill premium、skills-based pay、pay equity | 用 market premium、项目奖金、LTI、临时津贴承接稀缺能力 |
+| 晋升机制 | AI workflow evidence、badge、project owner | 正式晋升保留校准，高频贡献进入证据包 |
+| 风险治理 | job redesign 滞后、中层抵触、title inflation | 改革必须同步沟通、治理和公平审计 |
 
----
+## 6. 重点案例更新
 
-## 4. 今日判断变化（相对 2026-05-14）
+### 海外公司
 
-- **被增强：** “扁平化=角色收敛（IC/DRI/player-coach）而非仅减层级”判断被 Block 官方一手机制阐释显著增强。  
-- **被增强：** “岗位体系变化与 operating model 重构绑定”判断增强（Walmart 将岗位结构更新与 ownership 更清晰绑定到重组叙事）。  
-- **被增强：** “skills-based 证据系统是必要基础设施”判断增强（LinkedIn 技能变化与非典型人才池数据 + EY skills-based pay/skills premium 信号）。  
-- **保持谨慎：** “管理岗减少的宏观数据”不等于“组织更高效”；仍需以机制与结果指标验证（质量、返工、合规、员工体验）。
+- **GitLab**：把 AI-agent-first operating model、小团队、层级压缩和人才安排放入同一变革叙事，是本周最完整的组织改革样本。
+- **IBM**：Bob 进入 80,000+ 员工规模后，案例价值不在“用了 AI”，而在 agent governance、workflow owner 和组织级复用。
+- **Microsoft**：WTI 2026 给出 human-agent agency 框架，适合转化为能力模型和晋升证据维度。
+- **Deloitte**：84% 未 redesign jobs 是重要反例，提醒公司别把 AI adoption 当改革完成。
 
----
+### 中国公司
 
-## 5. 关键冲突与反例（需要继续验证）
+- 今日仍缺强一手材料。暂不形成国内公司确定案例结论。后续重点追踪百度、阿里、腾讯、字节、快手在 AI 复合型岗位、技能标签、薪酬稀缺系数、晋升证据包上的制度变化。
 
-1. **协调压缩带来的收益如何分配？** 同样的 AI 工具既可能带来更广泛授权，也可能带来更强集中控制；关键看 ownership、预算闸门与审计如何设计。  
-2. **skills-based pay 会不会加剧不公平或诱发“刷标签”？** 若技能评估不可审计，skills-based 会从“更公平”变成“更会讲故事的人更占便宜”。  
-3. **统一能力带会不会伤害深专家？** 百度强调“专业力+领导力”，但深专家如何在不被迫管理化的情况下获得晋升与定价，仍需拿到任职资格与评审细则。
+## 7. 对本课题的落地启发
 
----
+- **战略**：把 AI 变革定义成 operating model redesign，而不是工具推广或裁员项目。
+- **岗位**：执行层岗位变宽，专家岗位变深；新增序列必须满足长期稳定、战略关键、可评价、可定价四个条件。
+- **职级**：title 可以简化，但 level、scope、impact、pay band、promotion evidence 不能模糊。
+- **薪酬**：优先用 skill premium、market adjustment、project bonus、LTI、sunset allowance 解决短中期稀缺能力。
+- **激励**：AI 贡献拆成业务结果、workflow redesign、agent governance、复用资产、团队能力提升五类证据。
 
-## 6. 行动启发（六个维度）
+## 8. 社媒/职场平台线索池
 
-### 战略
+- “AI manager purge”叙事扩散，但需要继续找一手公告和员工反馈。
+- “AI skill premium”讨论升温，但需要用 JD、薪酬报告和 offer 区间验证。
+- “Agent ops / AI governance / workflow owner”title 出现，需判断是否形成稳定 job family。
 
-把 AI 转型从“工具推广”升级为“Operating Model 重构”，并把组织角色收敛（DRI/player-coach）作为 CEO/CHRO 共同语言。
+## 9. 待验证清单与下一步计划
 
-### 组织架构
+1. 找 GitLab Act 2 后员工反馈、组织层级变化和管理跨度数据。
+2. 找 IBM Bob 的 owner、治理组织和 agent operating model 责任边界。
+3. 拆 Microsoft human-agent agency 为岗位能力模型和晋升证据。
+4. 追踪 AI skill premium 在中国市场是否出现，以及用何种薪酬工具承接。
+5. 精读知音楼 HR 知识库中的 AI+HR、薪酬福利、组织发展三类材料。
 
-将“扁平化”改写为“协调压缩项目”：选择端到端流程试点，重写 owner、决策权、协同机制与治理闸门，再谈层级与编制。
+## 10. 来源索引
 
-### 岗位序列
+- GitLab Act 2 / SEC 8-K：组织压缩、国家收敛、小团队与 AI-agent-first operating model｜https://about.gitlab.com/blog/gitlab-act-2/ ｜ https://ir.gitlab.com/sec-filings/all-sec-filings/content/0001628280-26-023407/0001628280-26-023407.pdf
+- The Guardian：AI-fueled manager purge 报道，作为中层承压 Context｜https://www.theguardian.com/technology/2026/may/15/ai-manager-purge-tech
+- HRD：AI-skilled staff salary premiums up to 15%｜https://www.hcamag.com/au/news/general/employers-offering-up-to-15-salary-premiums-for-ai-skilled-staff/575007
+- EY Future of Pay 2026：AI/digital skill premium、skills-based pay、sunset clauses｜https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf
+- Payscale 2026 Compensation Best Practices Report：AI skills valuation and pay equity｜https://www.payscale.com/press-releases/2026-compensation-best-practices-report
+- OD Intelligence Center 知识库：知音楼 HR 十主题地图｜knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md
 
-优先用“统一能力带 + 技能标签 + 项目角色 + 市场稀缺系数/带宽”解决分工与定价，减少新增序列的长期制度成本；仅在能力域长期稳定且评价标准显著不同的情况下才新建序列。
+## 11. 今日专题文件
 
-### 人才密度
-
-把复合型人才识别从“技能清单”升级为“闭环证据包”：问题定义、Agent 编排、质量审查、业务影响、复用沉淀与风险控制。
-
-### 晋升激励
-
-建设“证据流水线 + 总闸门”：项目/任务级证据高频生成（含 AI 贡献分档），正式晋升仍用窗口/校准/预算闸门控制公平与成本；技能溢价用稀缺系数/带宽/项目机制承接，避免 title inflation。
-
-### 沟通落地
-
-对员工讲清楚：不是取消管理、取消专业、取消晋升，而是重写“谁创造价值、谁承担责任、什么证据能被认可”。统一带会减少标签，但不会减少标准；标准会更偏可审计的影响与责任。
-
----
-
-## 7. 明日优先追踪问题
-
-1. 百度职级改革的 HR FAQ / 任职资格 / 晋升评审细则：尤其是“专业力+领导力”的量化与例外通道、薪酬带宽与校准机制。  
-2. Walmart 重组的岗位级细节：哪些角色被合并/重写/迁移？ownership 如何重画？是否同步调整绩效与激励？  
-3. skills-based pay 的可复用落地模板：技能分类法、技能评估/认证、与晋升校准/预算闸门的接口、反舞弊（防刷标签）机制。  
-4. Block 的三角色（IC/DRI/player-coach）在真实组织中的配套制度：DRI 的任命/撤销规则、冲突升级与责任边界。
-
----
-
-## 8. 今日专题文件（HTML 优先）
-
-- [四课题总览（HTML）](./00-overview.html)
-- [专题一：组织扁平化与中层减少（HTML）](./01-flat-organization.html)
-- [专题二：高人才密度与复合型人才机制（HTML）](./02-talent-density.html)
-- [专题三：岗位、族群、序列持续建设（HTML）](./03-job-family-career-architecture.html)
-- [专题四：未来组织的晋升机制（HTML）](./04-promotion-system.html)
+- [专题一：组织扁平化与中层减少](./01-flat-organization.md)
+- [专题二：高人才密度与复合型人才机制](./02-talent-density.md)
+- [专题三：岗位、族群、序列持续建设](./03-job-family-career-architecture.md)
+- [专题四：未来组织的晋升机制](./04-promotion-system.md)
