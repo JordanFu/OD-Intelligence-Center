@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>专题四：未来晋升机制</title>
+  <style>
+    :root{--bg:#0f1117;--surface:#171a24;--surface2:#202434;--border:#31374b;--text:#eef2fb;--text2:#b2bad0;--accent:#7c92ff;--green:#34d399;--orange:#fbbf24}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Noto Sans SC",sans-serif;background:linear-gradient(180deg,rgba(124,146,255,.06),transparent 300px),var(--bg);color:var(--text);line-height:1.78}
+    main{max-width:980px;margin:0 auto;padding:28px 24px 70px}
+    .toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px}
+    .btn{display:inline-flex;align-items:center;padding:8px 14px;border:1px solid var(--border);border-radius:8px;background:var(--surface);color:var(--text);text-decoration:none;font-size:13px;font-weight:700}
+    .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+    .doc{background:rgba(23,26,36,.92);border:1px solid var(--border);border-radius:16px;padding:28px;box-shadow:0 18px 60px rgba(0,0,0,.18);overflow:hidden}
+    .doc:before{content:"";display:block;height:3px;margin:-28px -28px 24px;background:linear-gradient(90deg,var(--accent),var(--green),var(--orange))}
+    h1{font-size:clamp(27px,4vw,42px);line-height:1.18;margin-bottom:16px}
+    h2{font-size:22px;margin:34px 0 14px;padding-top:18px;border-top:1px solid var(--border)}
+    h3{font-size:17px;margin:24px 0 10px;color:var(--green)}
+    h4{font-size:15px;margin:18px 0 8px;color:var(--orange)}
+    p{margin:10px 0;color:var(--text2);font-size:14px}
+    ul,ol{display:grid;gap:8px;margin:12px 0 16px;padding-left:22px}
+    li{color:var(--text2);font-size:14px}
+    strong{color:var(--text)}
+    a{color:var(--green);text-decoration:none;font-weight:700}
+    a:hover{text-decoration:underline}
+    blockquote{margin:16px 0;padding:14px 18px;border-left:4px solid var(--green);background:rgba(52,211,153,.08);border-radius:10px}
+    blockquote p{color:var(--text);margin:4px 0}
+    hr{border:0;border-top:1px solid var(--border);margin:22px 0}
+    table{width:100%;border-collapse:collapse;margin:14px 0 20px;border:1px solid var(--border);border-radius:10px;overflow:hidden}
+    td{border:1px solid var(--border);padding:10px 12px;color:var(--text2);font-size:13px;vertical-align:top}
+    tr:first-child td{background:var(--surface2);color:var(--text);font-weight:800}
+    code{background:var(--surface2);border:1px solid var(--border);border-radius:5px;padding:1px 5px;color:var(--text);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em}
+    @media(max-width:720px){main{padding:18px 12px 44px}.doc{padding:18px}.doc:before{margin:-18px -18px 20px}table{display:block;overflow-x:auto;white-space:nowrap}}
+  </style>
+</head>
+<body>
+  <main>
+    <div class="toolbar">
+      <a class="btn" href="./index.html">返回四课题总览</a>
+      <a class="btn" href="../../../index.html">返回 OD 情报中心</a>
+      <a class="btn primary" href="./04-promotion-system.md">查看 Markdown</a>
+    </div>
+    <article class="doc"><h1>2026-05-17｜专题四：未来组织的晋升机制</h1><blockquote><p>研究问题：优秀伙伴应随时识别随时晋升，还是保留固定晋升窗口？未来晋升规则、证据规则、评审方式、校准机制如何创新？  </p><p>方法说明：事实-判断分离；优先用可公开核验的制度材料（handbook/政策）；并与仓库内部知识源交叉校准。</p></blockquote><hr><h2>1) 今日一句话专题判断</h2><p>晋升机制正在走向“高频证据流水线 + 低频总闸门”：证据（项目/任务/影响/质量/治理责任）需要持续生成、可审计；但正式晋升仍倾向保留窗口/校准/预算闸门以维护公平与成本控制——关键创新点不在“取消窗口”，而在“证据与评估基础设施”。</p><hr><h2>2) 今日新增事实</h2><ol><li><strong>GitLab Handbook 明确区分 In-Cycle Promotions（同 job family、scope 增加）与 Internal Mobility promotions，并写明 In-Cycle Promotions 通常期待在现岗至少 12 个月；该类晋升不需要面试、不产生 backfill headcount，且通过 semi-annual calibrated promotion process（半年两次）进行（SDR job family 的 level 5 例外为 monthly review）。</strong>  </li></ol><p>   - 来源（官方/制度）：GitLab Handbook《Promotions and Transfers》（持续更新页面，本文以页面现行内容为准）https://handbook.gitlab.com/handbook/people-group/promotions-transfers/</p><ol><li><strong>GitLab Handbook 明确“半年两次晋升校准流程（Planning → Calibration → Processing）”，并给出时间线示例（FY27-Q2）。</strong>  </li></ol><p>   - 来源：同上 https://handbook.gitlab.com/handbook/people-group/promotions-transfers/</p><ol><li><strong>GitLab 对 out-of-cycle（exception）晋升给出流程：经理与 PBP 提交 promotion document 与 exception justification；若建议的薪酬增幅超过 10% 需要 next-level manager approval；Workday 的 out-of-cycle 审批链包含 manager、next-level manager、e-group leader；通过后由 People Ops 发起 job change letter，经理在 1:1 中沟通并在指定渠道公告。</strong>  </li></ol><p>   - 来源（官方/制度）：同上 https://handbook.gitlab.com/handbook/people-group/promotions-transfers/</p><ol><li><strong>Microsoft Work Trend Index 2026 将“AI in performance evaluation”作为组织 readiness 的组成项之一，并指出组织因素（文化、管理者支持、人才实践等）与 AI 影响的相关性高于个体努力。</strong>  </li></ol><p>   - 来源（官方/研究）：Microsoft WTI 2026（2026-05-05）https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization</p><hr><h2>3) 今日核心判断（3-5条）</h2><h3>判断 1：固定晋升窗口不会消失，但“窗口的意义”将从“集中收集事实”转为“集中校准公平与预算”</h3><ul><li><strong>可信度：中高</strong>  </li><li><strong>证据基础：</strong> GitLab 明确半年两次校准机制，同时允许 out-of-cycle 作为例外流程；这说明“高频识别”与“低频校准”可以共存。  </li><li><strong>为什么重要：</strong> 组织可以把“识别与证据积累”做成持续过程，把窗口保留下来作为总闸门（公平/预算/口径一致性）。</li></ul><h3>判断 2：晋升创新的核心不是“更频繁/更即时”，而是“证据结构与评估基础设施”</h3><ul><li><strong>可信度：中</strong>  </li><li><strong>证据基础：</strong> Microsoft WTI 强调要建立 evaluation infrastructure（谁评估、谁更新工作流、如何规模化）；并把“AI in performance evaluation”纳入 readiness。  </li><li><strong>为什么重要：</strong> 在 agentic work 的场景下，“影响”更容易被放大也更容易被伪造；没有证据结构就无法进行可信校准。</li></ul><h3>判断 3：例外晋升（out-of-cycle）应该被制度化为“稀缺资源”，并明确触发条件、审批链与证据模板</h3><ul><li><strong>可信度：高（对制度设计的确定性）</strong>  </li><li><strong>证据基础：</strong> GitLab out-of-cycle 流程给出具体审批链与材料要求（promotion doc、justification、审批链）。  </li><li><strong>为什么重要：</strong> 组织如果一边说“随时晋升”，一边没有约束，就会引发公平争议、预算失控与晋升通胀；制度化例外能把“速度”与“公平”同时守住。</li></ul><hr><h2>4) 重点案例事实还原：GitLab 半年两次校准 + 例外晋升机制（可复核制度样本）</h2><p><strong>背景</strong></p><ul><li>GitLab 作为 all-remote 与 handbook-first 的公开制度公司，其晋升机制材料细粒度、可复核，适合作为“证据结构 + 校准闸门”的参考样本。</li></ul><p><strong>机制与流程（公开可核验）</strong></p><ul><li><strong>In-Cycle promotions：</strong> 同 job family、scope 增加；通常期望现岗至少 12 个月；不需要面试、不产生 backfill headcount；通过 Workday 处理；通常半年两次校准流程。  </li><li><strong>半年两次 Promotion Calibration Process：</strong> Planning → Calibration → Processing（页面有阶段说明与 timeline 示例）。  </li><li><strong>Out-of-cycle（exception）：</strong> 经理与 PBP 提交 promotion document + exception justification；如薪酬增幅建议 &gt;10% 需 next-level manager approval；Workday 审批链为 manager → next-level manager → e-group leader；通过后 People Ops 发起 job change letter，经理在 1:1 中沟通并公告。  </li><li>来源：https://handbook.gitlab.com/handbook/people-group/promotions-transfers/</li></ul><p><strong>可借鉴点</strong></p><ul><li>把“常规晋升”与“例外晋升”明确区分，并给出不同的证据与审批要求：这能同时支持速度与公平。</li><li>把“晋升”与“岗位族群/职级框架（job framework）”绑定，减少 title inflation。</li></ul><p><strong>不可照搬点</strong></p><ul><li>GitLab 的 all-remote 与 handbook-first 前提，使其对异步文档与流程依赖更强；线下组织若缺少文档文化与流程纪律，直接照搬容易流于形式。</li></ul><hr><h2>5) Context 层（暂不形成结论，但提示我们关注……）</h2><ol><li><strong>AI 进入绩效/晋升会抬高“可审计性”要求：</strong> 如果组织把 AI 贡献纳入评价，但无法定义“适用任务边界、质量标准、风险控制”，会出现“表演式贡献”与公平争议。</li><li><strong>扁平化与 no pure managers 会改变晋升证据形态：</strong> player-coach 角色需要新的证据模板（交付影响 + 教练影响 + 治理责任），否则晋升将偏向“短期交付”而忽视组织能力建设。</li></ol><hr><h2>6) 证据地图</h2><ul><li><strong>官方/制度</strong></li></ul><p>  - GitLab Promotions &amp; Transfers：https://handbook.gitlab.com/handbook/people-group/promotions-transfers/</p><ul><li><strong>官方/研究</strong></li></ul><p>  - Microsoft Work Trend Index 2026：https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization</p><ul><li><strong>内部知识库</strong></li></ul><p>  - <code>knowledge/concepts/capability-judgment-matrix.md</code>（用于“AI 应不该/能不能”的判断）</p><hr><h2>7) 对我们行动的启发</h2><ol><li><strong>设计“证据流水线”模板（v0）：</strong> 项目/任务影响、质量标准与复盘、风险控制、可复用资产沉淀、协作与教练贡献，形成晋升与校准的共同语言。</li><li><strong>把 out-of-cycle 制度化：</strong> 明确触发条件（岗位价值变化/稀缺留才/关键项目承担）、审批链、证据要求与预算闸门。</li><li><strong>把 AI 贡献从“使用率”转成“影响与质量”：</strong> 若纳入绩效，必须绑定“任务适用性 + 可审计输出 + 质量/风险把关责任”。</li></ol><hr><h2>8) 待验证清单与下一步搜索路径</h2><ol><li>GitLab promotion document 模板的关键字段（如何定义影响、价值观对齐、证据结构）  </li></ol><p>   - Query：<code>GitLab promotion document business results values alignment template</code></p><ol><li>“AI in performance evaluation”在企业中的具体落地样例（避免 KPI 化的设计）  </li></ol><p>   - Query：<code>AI in performance evaluation design avoid metrics gaming case study</code></p><ol><li>国内企业在晋升窗口/即时晋升上的制度创新案例（可复核原文）  </li></ol><p>   - Query：<code>即时晋升 晋升窗口 校准 会 制度 原文</code></p><ol><li>player-coach 角色在晋升证据中的刻画（交付 vs 带人 vs 治理）  </li></ol><p>   - Query：<code>player-coach promotion criteria evidence coaching impact governance</code></p><hr><h2>9) 来源索引</h2><ol><li>GitLab Handbook：https://handbook.gitlab.com/handbook/people-group/promotions-transfers/  </li><li>Microsoft WTI 2026（2026-05-05）：https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization  </li></ol></article>
+  </main>
+</body>
+</html>

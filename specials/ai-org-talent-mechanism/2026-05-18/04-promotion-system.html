@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>专题四：未来晋升机制</title>
+  <style>
+    :root{--bg:#0f1117;--surface:#171a24;--surface2:#202434;--border:#31374b;--text:#eef2fb;--text2:#b2bad0;--accent:#7c92ff;--green:#34d399;--orange:#fbbf24}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Noto Sans SC",sans-serif;background:linear-gradient(180deg,rgba(124,146,255,.06),transparent 300px),var(--bg);color:var(--text);line-height:1.78}
+    main{max-width:980px;margin:0 auto;padding:28px 24px 70px}
+    .toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px}
+    .btn{display:inline-flex;align-items:center;padding:8px 14px;border:1px solid var(--border);border-radius:8px;background:var(--surface);color:var(--text);text-decoration:none;font-size:13px;font-weight:700}
+    .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+    .doc{background:rgba(23,26,36,.92);border:1px solid var(--border);border-radius:16px;padding:28px;box-shadow:0 18px 60px rgba(0,0,0,.18);overflow:hidden}
+    .doc:before{content:"";display:block;height:3px;margin:-28px -28px 24px;background:linear-gradient(90deg,var(--accent),var(--green),var(--orange))}
+    h1{font-size:clamp(27px,4vw,42px);line-height:1.18;margin-bottom:16px}
+    h2{font-size:22px;margin:34px 0 14px;padding-top:18px;border-top:1px solid var(--border)}
+    h3{font-size:17px;margin:24px 0 10px;color:var(--green)}
+    h4{font-size:15px;margin:18px 0 8px;color:var(--orange)}
+    p{margin:10px 0;color:var(--text2);font-size:14px}
+    ul,ol{display:grid;gap:8px;margin:12px 0 16px;padding-left:22px}
+    li{color:var(--text2);font-size:14px}
+    strong{color:var(--text)}
+    a{color:var(--green);text-decoration:none;font-weight:700}
+    a:hover{text-decoration:underline}
+    blockquote{margin:16px 0;padding:14px 18px;border-left:4px solid var(--green);background:rgba(52,211,153,.08);border-radius:10px}
+    blockquote p{color:var(--text);margin:4px 0}
+    hr{border:0;border-top:1px solid var(--border);margin:22px 0}
+    table{width:100%;border-collapse:collapse;margin:14px 0 20px;border:1px solid var(--border);border-radius:10px;overflow:hidden}
+    td{border:1px solid var(--border);padding:10px 12px;color:var(--text2);font-size:13px;vertical-align:top}
+    tr:first-child td{background:var(--surface2);color:var(--text);font-weight:800}
+    code{background:var(--surface2);border:1px solid var(--border);border-radius:5px;padding:1px 5px;color:var(--text);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em}
+    @media(max-width:720px){main{padding:18px 12px 44px}.doc{padding:18px}.doc:before{margin:-18px -18px 20px}table{display:block;overflow-x:auto;white-space:nowrap}}
+  </style>
+</head>
+<body>
+  <main>
+    <div class="toolbar">
+      <a class="btn" href="./index.html">返回四课题总览</a>
+      <a class="btn" href="../../../index.html">返回 OD 情报中心</a>
+      <a class="btn primary" href="./04-promotion-system.md">查看 Markdown</a>
+    </div>
+    <article class="doc"><h1>2026-05-18｜专题四：未来组织的晋升机制</h1><h2>今日一句话结论</h2><p>未来晋升机制要承认 AI workflow 贡献，但不能把 AI 使用次数当成晋升依据；更合理的是“固定晋升窗口 + 项目证据 + 技能溢价 + 例外通道”。</p><h2>核心判断</h2><ol><li>Microsoft WTI 强调 redesign operating model，这意味着晋升证据要从个人任务产出扩展到 workflow redesign、agent orchestration、复用资产和组织学习。</li><li>IBM Bob 的规模化使用提示：真正有晋升价值的不是会用 agent，而是能让团队稳定、合规、高质量地使用 agent。</li><li>AI salary premium 线索说明，一部分过去被塞进晋升的诉求，可以改由技能津贴、项目奖金、LTI 和 market adjustment 承接。</li></ol><h2>Context 层</h2><ul><li>暂不建议取消固定晋升窗口。AI 贡献高频发生，但 level/pay band 变化仍需要校准。</li><li>暂不把社媒上的 AI premium 个案作为结论，需要招聘薪酬数据交叉验证。</li><li>GitLab promotion gate、Credly badge-to-promotion 等前期材料仍适合作为“证据层—正式晋升层”分离案例。</li></ul><h2>AI 贡献证据包</h2><table><tbody><tr><td>证据</td><td>可进入哪里</td></tr><tr><td>业务结果提升</td><td>晋升、奖金、LTI</td></tr><tr><td>workflow 周期缩短</td><td>项目奖励、晋升证据</td></tr><tr><td>agent 治理与质量标准</td><td>专家通道、治理角色</td></tr><tr><td>复用资产沉淀</td><td>技能徽章、项目 owner 记录</td></tr><tr><td>团队能力提升</td><td>manager/player-coach 晋升证据</td></tr></tbody></table><h2>来源索引</h2><ul><li>Microsoft WTI 2026: https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization</li><li>IBM Think 2026 recap: https://www.ibm.com/think/news/think-2026-ai-recap</li><li>HRD salary premium: https://www.hcamag.com/au/news/general/employers-offering-up-to-15-salary-premiums-for-ai-skilled-staff/575007</li></ul></article>
+  </main>
+</body>
+</html>
