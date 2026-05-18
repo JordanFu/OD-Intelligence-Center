@@ -1,0 +1,1522 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI工作看板</title>
+  <style>
+    :root {
+      --bg: #f7f8f6;
+      --surface: #ffffff;
+      --surface-2: #f2f5f3;
+      --surface-3: #eef4f1;
+      --text: #17211e;
+      --muted: #69736f;
+      --soft: #8b9691;
+      --line: #dce3df;
+      --teal: #138073;
+      --teal-2: #dcefeb;
+      --amber: #b87318;
+      --amber-2: #f4e5cf;
+      --red: #b64b43;
+      --red-2: #f1ddda;
+      --green: #2e7d4f;
+      --green-2: #e0efe5;
+      --ink: #111916;
+      --shadow: 0 18px 52px rgba(23, 33, 30, .06);
+      --shadow-soft: 0 8px 22px rgba(23, 33, 30, .045);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      letter-spacing: 0;
+    }
+
+    button, input, select {
+      font: inherit;
+      color: inherit;
+    }
+
+    .app {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 220px minmax(0, 1fr);
+    }
+
+    .sidebar {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      padding: 22px 16px;
+      border-right: 1px solid var(--line);
+      background: linear-gradient(180deg, #fcfdfc 0%, #f7f8f6 100%);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 28px;
+      padding: 0 6px;
+      font-weight: 760;
+      font-size: 18px;
+    }
+
+    .brand-mark {
+      width: 34px;
+      height: 34px;
+      border-radius: 9px;
+      display: grid;
+      place-items: center;
+      background: var(--ink);
+      color: white;
+    }
+
+    .brand-mark svg { width: 18px; height: 18px; }
+
+    .nav {
+      display: grid;
+      gap: 4px;
+    }
+
+    .nav a {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 10px;
+      border-radius: 8px;
+      text-decoration: none;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 620;
+    }
+
+    .nav a.active,
+    .nav a:hover {
+      color: var(--text);
+      background: #eaf2ef;
+    }
+
+    .nav svg {
+      width: 17px;
+      height: 17px;
+      stroke-width: 2;
+    }
+
+    .sidebar-note {
+      position: absolute;
+      left: 16px;
+      right: 16px;
+      bottom: 18px;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255,255,255,.78);
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    main {
+      padding: 28px 28px 24px;
+      min-width: 0;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(32px, 4vw, 46px);
+      line-height: 1.1;
+      font-weight: 780;
+    }
+
+    .subtitle {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 14px;
+      max-width: 720px;
+      line-height: 1.55;
+    }
+
+    .controls {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .control {
+      min-height: 40px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.92);
+      border-radius: 8px;
+      padding: 0 13px;
+      font-size: 13px;
+      outline: none;
+    }
+
+    input.control { width: 250px; }
+
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+
+    .ops-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+
+    .lane {
+      min-height: 188px;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .lane-focus { background: linear-gradient(180deg, #ffffff 0%, #edf7f4 100%); }
+    .lane-reuse { background: linear-gradient(180deg, #ffffff 0%, #eef7f1 100%); }
+    .lane-decide { background: linear-gradient(180deg, #ffffff 0%, #faf2e7 100%); }
+    .lane-archive { background: linear-gradient(180deg, #ffffff 0%, #f0f2f1 100%); }
+
+    .lane-head {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 4px 8px;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .lane-head strong {
+      font-size: 15px;
+      font-weight: 780;
+    }
+
+    .lane-head em {
+      grid-column: 2;
+      color: var(--muted);
+      font-size: 12px;
+      font-style: normal;
+    }
+
+    .lane ul {
+      list-style: none;
+      display: grid;
+      gap: 10px;
+      padding: 0;
+      margin: 0;
+    }
+
+    .lane li {
+      padding-top: 10px;
+      border-top: 1px solid rgba(23,33,30,.08);
+    }
+
+    .lane li span {
+      display: block;
+      font-size: 13px;
+      font-weight: 740;
+      margin-bottom: 4px;
+    }
+
+    .lane li small {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .asset-section {
+      margin-bottom: 16px;
+    }
+
+    .asset-panel {
+      overflow: hidden;
+    }
+
+    .asset-grid {
+      display: grid;
+      grid-template-columns: 1.2fr repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      padding: 14px;
+    }
+
+    .asset-card {
+      min-height: 184px;
+      display: grid;
+      align-content: start;
+      gap: 10px;
+      padding: 15px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fbfcfb;
+    }
+
+    .asset-card.primary {
+      grid-row: span 2;
+      min-height: 380px;
+      background:
+        linear-gradient(180deg, rgba(19,128,115,.08), rgba(255,255,255,.94)),
+        #fbfcfb;
+    }
+
+    .asset-kicker {
+      color: var(--teal);
+      font-size: 12px;
+      font-weight: 760;
+    }
+
+    .asset-card h3 {
+      margin: 0;
+      font-size: 20px;
+      line-height: 1.2;
+    }
+
+    .asset-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    .asset-action {
+      margin-top: auto;
+      padding-top: 12px;
+      border-top: 1px solid var(--line);
+      color: var(--text);
+      font-size: 12.5px;
+      line-height: 1.5;
+      font-weight: 660;
+    }
+
+    .kpi,
+    .panel {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .kpi {
+      padding: 18px;
+      min-height: 124px;
+      position: relative;
+      overflow: hidden;
+      display: grid;
+      align-content: space-between;
+    }
+
+    .kpi-label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 650;
+    }
+
+    .kpi-spark {
+      position: absolute;
+      right: 16px;
+      bottom: 18px;
+      width: 78px;
+      height: 34px;
+      color: var(--teal);
+      opacity: .92;
+    }
+
+    .kpi-spark path {
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2.2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .kpi-spark .ghost {
+      opacity: .18;
+      stroke-width: 6;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: var(--teal);
+      flex: 0 0 auto;
+    }
+
+    .dot.amber { background: var(--amber); }
+    .dot.green { background: var(--green); }
+    .dot.red { background: var(--red); }
+    .dot.gray { background: #9aa3a0; }
+
+    .kpi-value {
+      margin-top: 14px;
+      font-size: 36px;
+      line-height: 1;
+      font-weight: 790;
+    }
+
+    .kpi-caption {
+      color: var(--soft);
+      font-size: 12px;
+      margin-top: 8px;
+    }
+
+    .dashboard-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.52fr) minmax(340px, .88fr);
+      gap: 16px;
+      align-items: start;
+    }
+
+    .left-stack,
+    .right-stack {
+      display: grid;
+      gap: 16px;
+      min-width: 0;
+    }
+
+    .panel {
+      overflow: hidden;
+    }
+
+    .panel-head {
+      min-height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 15px 16px 12px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .panel-title {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 750;
+    }
+
+    .panel-meta {
+      color: var(--soft);
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
+    .timeline { padding: 16px 18px 16px; }
+
+    .heatmap-months {
+      display: grid;
+      grid-template-columns: 42px 1fr 1fr;
+      margin: 2px 0 8px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 680;
+    }
+
+    .heatmap {
+      display: grid;
+      grid-template-columns: 38px repeat(32, minmax(10px, 1fr));
+      gap: 6px;
+      align-items: center;
+      min-height: 214px;
+      padding: 6px 0 12px;
+      border-bottom: 1px solid var(--line);
+      overflow: hidden;
+    }
+
+    .heat-label,
+    .heat-date {
+      color: var(--muted);
+      font-size: 11px;
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .heat-date {
+      text-align: center;
+      transform: translateY(-1px);
+    }
+
+    .heat-cell {
+      aspect-ratio: 1;
+      min-width: 8px;
+      border-radius: 3px;
+      background: #e9efeb;
+      border: 1px solid rgba(255,255,255,.8);
+    }
+
+    .heat-cell.l1 { background: #cfe9e3; }
+    .heat-cell.l2 { background: #97d2c7; }
+    .heat-cell.l3 { background: #47aa9c; }
+    .heat-cell.l4 { background: #087b70; }
+
+    .heatmap-legend {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .heat-steps {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .heat-steps span {
+      width: 14px;
+      height: 14px;
+      border-radius: 3px;
+      background: #e9efeb;
+      border: 1px solid rgba(255,255,255,.8);
+    }
+
+    .heat-steps span:nth-child(2) { background: #cfe9e3; }
+    .heat-steps span:nth-child(3) { background: #97d2c7; }
+    .heat-steps span:nth-child(4) { background: #47aa9c; }
+    .heat-steps span:nth-child(5) { background: #087b70; }
+
+    .timeline-foot {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .mini-stat {
+      padding: 11px 12px;
+      border-radius: 8px;
+      background: var(--surface-3);
+    }
+
+    .mini-stat strong {
+      display: block;
+      font-size: 16px;
+      margin-bottom: 4px;
+    }
+
+    .mini-stat span {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .status-panel {
+      padding: 18px;
+      display: grid;
+      grid-template-columns: 150px 1fr;
+      gap: 16px;
+      align-items: center;
+    }
+
+    .donut {
+      --a: 0deg;
+      --b: 0deg;
+      --c: 0deg;
+      width: 142px;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      background:
+        radial-gradient(circle at center, var(--surface) 0 49%, transparent 50%),
+        conic-gradient(var(--teal) 0 var(--a), var(--green) var(--a) var(--b), var(--amber) var(--b) var(--c), #a8afac var(--c) 360deg);
+      border: 1px solid var(--line);
+    }
+
+    .legend {
+      display: grid;
+      gap: 11px;
+    }
+
+    .legend-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .legend-left {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .project-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12.5px;
+    }
+
+    th, td {
+      padding: 12px 14px;
+      text-align: left;
+      border-bottom: 1px solid var(--line);
+      vertical-align: middle;
+    }
+
+    th {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 720;
+      background: #fbfcfb;
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+
+    tbody tr:hover {
+      background: #f8faf8;
+    }
+
+    .table-shell {
+      max-height: 610px;
+      overflow: auto;
+    }
+
+    .name-cell {
+      min-width: 180px;
+      font-weight: 720;
+    }
+
+    .path {
+      max-width: 340px;
+      color: var(--soft);
+      font-size: 12px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      padding: 0 8px;
+      border-radius: 7px;
+      font-size: 12px;
+      font-weight: 680;
+      border: 1px solid transparent;
+      white-space: nowrap;
+    }
+
+    .tag.teal { color: #0f625b; background: var(--teal-2); }
+    .tag.green { color: #276542; background: var(--green-2); }
+    .tag.amber { color: #7a4b10; background: var(--amber-2); }
+    .tag.gray { color: #5f6764; background: #edf0ee; }
+    .tag.red { color: #8d3832; background: var(--red-2); }
+
+    .signal {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      min-width: 160px;
+    }
+
+    .insight-list {
+      display: grid;
+      gap: 10px;
+      padding: 14px;
+    }
+
+    .insight {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      background: #fbfcfb;
+      box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    }
+
+    .outcome {
+      display: grid;
+      gap: 8px;
+      padding: 13px 14px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .outcome:last-child { border-bottom: 0; }
+
+    .outcome p {
+      margin: 0;
+      color: var(--text);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .outcome-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .code-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      min-height: 26px;
+      padding: 0 8px;
+      border-radius: 7px;
+      background: #f2f6f4;
+      border: 1px solid var(--line);
+      color: var(--text);
+      font-weight: 720;
+    }
+
+    .insight-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 7px;
+    }
+
+    .insight-name {
+      font-weight: 740;
+      font-size: 13px;
+    }
+
+    .insight p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    .source-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      padding: 14px;
+    }
+
+    .source {
+      padding: 13px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fbfcfb;
+    }
+
+    .source strong {
+      display: block;
+      font-size: 18px;
+      margin-bottom: 6px;
+    }
+
+    .source span {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .intel-section {
+      margin-bottom: 16px;
+    }
+
+    .intel-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(320px, .85fr);
+      gap: 14px;
+      padding: 14px;
+    }
+
+    .intel-lead {
+      min-height: 286px;
+      display: grid;
+      gap: 14px;
+      align-content: start;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: linear-gradient(180deg, #ffffff 0%, #edf7f4 100%);
+    }
+
+    .intel-kicker {
+      color: var(--teal);
+      font-size: 12px;
+      font-weight: 780;
+    }
+
+    .intel-lead h3 {
+      margin: 0;
+      font-size: 24px;
+      line-height: 1.18;
+    }
+
+    .intel-lead p,
+    .intel-note {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    .intel-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: auto;
+      padding-top: 12px;
+      border-top: 1px solid var(--line);
+    }
+
+    .text-link {
+      display: inline-flex;
+      align-items: center;
+      min-height: 32px;
+      padding: 0 10px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fbfcfb;
+      color: var(--text);
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 720;
+    }
+
+    .text-link.primary {
+      border-color: rgba(19,128,115,.26);
+      background: var(--teal-2);
+      color: #0f625b;
+    }
+
+    .intel-stack {
+      display: grid;
+      gap: 12px;
+    }
+
+    .daily-output {
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fbfcfb;
+    }
+
+    .daily-output-head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .daily-output h4 {
+      margin: 0;
+      font-size: 15px;
+      line-height: 1.35;
+    }
+
+    .daily-output p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    .hypothesis-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .hypothesis {
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fbfcfb;
+    }
+
+    .hypothesis strong {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 13px;
+    }
+
+    .hypothesis span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .evidence-map {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      padding: 0 14px 14px;
+    }
+
+    .evidence {
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fbfcfb;
+    }
+
+    .evidence strong {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 13px;
+    }
+
+    .evidence span {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .empty {
+      padding: 28px;
+      text-align: center;
+      color: var(--muted);
+      display: none;
+    }
+
+    .footnote {
+      margin: 14px 2px 0;
+      color: var(--soft);
+      font-size: 12px;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 1120px) {
+      .app { grid-template-columns: 1fr; }
+      .sidebar {
+        position: static;
+        height: auto;
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .nav { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+      .sidebar-note { position: static; margin-top: 14px; }
+      .dashboard-grid { grid-template-columns: 1fr; }
+      .kpis, .ops-grid { grid-template-columns: repeat(2, 1fr); }
+      .asset-grid { grid-template-columns: 1fr 1fr; }
+      .intel-grid, .evidence-map { grid-template-columns: 1fr 1fr; }
+      .asset-card.primary { grid-row: auto; min-height: 184px; }
+    }
+
+    @media (max-width: 720px) {
+      main { padding: 16px; }
+      .topbar { display: grid; }
+      .controls { justify-content: stretch; }
+      .control, input.control { width: 100%; }
+      .kpis, .ops-grid, .source-grid, .timeline-foot, .asset-grid, .intel-grid, .hypothesis-grid, .evidence-map { grid-template-columns: 1fr; }
+      .nav { grid-template-columns: 1fr 1fr; }
+      .status-panel { grid-template-columns: 1fr; }
+      .donut { margin: 0 auto; }
+      .heatmap {
+        grid-template-columns: 32px repeat(16, minmax(11px, 1fr));
+        grid-auto-flow: row;
+        gap: 5px;
+        overflow: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 12h14M12 5v14"/><path d="M7 7l10 10M17 7 7 17" opacity=".55"/></svg>
+        </div>
+        <span>AI工作看板</span>
+      </div>
+      <nav class="nav" aria-label="主导航">
+        <a class="active" href="#overview"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 13h6V4H4v9Zm10 7h6V4h-6v16ZM4 20h6v-3H4v3Z"/></svg>总览</a>
+        <a href="#system"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 5h6v6H5zM13 5h6v6h-6zM5 13h6v6H5zM13 13h6v6h-6z"/></svg>系统</a>
+        <a href="#assets"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 7h16v10H4z"/><path d="M8 21h8M12 17v4M8 11h8"/></svg>成果</a>
+        <a href="#org-levels"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 19V5h14v14H5Z"/><path d="M8 9h8M8 13h5M8 17h8"/></svg>职级专项</a>
+        <a href="#projects"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 7h16M4 12h16M4 17h10"/></svg>项目</a>
+        <a href="#activity"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 18V8m5 10V4m5 14v-7m5 7V6"/></svg>近期活动</a>
+        <a href="#stale"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 7v5l3 2"/><circle cx="12" cy="12" r="8"/></svg>沉睡项目</a>
+        <a href="#sources"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 3 4 7l8 4 8-4-8-4Z"/><path d="M4 12l8 4 8-4M4 17l8 4 8-4"/></svg>工具来源</a>
+      </nav>
+      <div class="sidebar-note">
+        数据来源：Cursor 工作区历史、WorkBuddy 会话与自动化、Claude/Codex 会话文件、职级专项日报。更新：2026-05-12。
+      </div>
+    </aside>
+
+    <main>
+      <section class="topbar" id="overview">
+        <div>
+          <h1>AI项目操作系统</h1>
+          <div class="subtitle">把内部 AI 项目收束成四类资产：接管中的主线、已经可复用的成果、需要判断的旧项目、可以归档的噪音。</div>
+        </div>
+        <div class="controls">
+          <input id="search" class="control" type="search" placeholder="搜索项目、路径、成果信号">
+          <select id="statusFilter" class="control" aria-label="状态筛选">
+            <option value="all">全部状态</option>
+            <option value="接管中">接管中</option>
+            <option value="正在做">正在做</option>
+            <option value="近期活跃">近期活跃</option>
+            <option value="沉睡">沉睡</option>
+            <option value="待归档">待归档</option>
+            <option value="已移动/缺失">已移动/缺失</option>
+          </select>
+          <select id="scopeFilter" class="control" aria-label="范围筛选">
+            <option value="project">真实项目优先</option>
+            <option value="all">包含泛目录</option>
+            <option value="exists">只看现存</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="kpis" aria-label="关键指标">
+        <div class="kpi"><div class="kpi-label"><span class="dot"></span>历史工作区</div><div><div class="kpi-value">70</div><div class="kpi-caption">含 OD 接管项目</div></div><svg class="kpi-spark" viewBox="0 0 80 36" aria-hidden="true"><path class="ghost" d="M4 26 18 17 30 21 44 10 58 14 74 7"/><path d="M4 26 18 17 30 21 44 10 58 14 74 7"/></svg></div>
+        <div class="kpi"><div class="kpi-label"><span class="dot green"></span>仍在电脑上</div><div><div class="kpi-value">44</div><div class="kpi-caption">WorkBuddy 25 个都存在</div></div><svg class="kpi-spark" viewBox="0 0 80 36" aria-hidden="true"><path class="ghost" d="M5 28 18 24 30 15 43 19 56 9 74 12"/><path d="M5 28 18 24 30 15 43 19 56 9 74 12"/></svg></div>
+        <div class="kpi"><div class="kpi-label"><span class="dot amber"></span>AI活动痕迹</div><div><div class="kpi-value">1837</div><div class="kpi-caption">1061 代码 + 776 会话</div></div><svg class="kpi-spark" viewBox="0 0 80 36" aria-hidden="true"><path class="ghost" d="M4 30 16 20 28 23 41 11 54 16 74 6"/><path d="M4 30 16 20 28 23 41 11 54 16 74 6"/></svg></div>
+        <div class="kpi"><div class="kpi-label"><span class="dot red"></span>已移动或缺失</div><div><div class="kpi-value">26</div><div class="kpi-caption">历史仍有记录</div></div><svg class="kpi-spark" viewBox="0 0 80 36" aria-hidden="true"><path class="ghost" d="M4 18 17 15 29 21 43 12 58 17 74 10"/><path d="M4 18 17 15 29 21 43 12 58 17 74 10"/></svg></div>
+      </section>
+
+      <section class="ops-grid" id="system" aria-label="AI项目操作系统">
+        <article class="lane lane-focus">
+          <div class="lane-head"><span class="dot"></span><strong>接管中</strong><em>最多 3 条主线</em></div>
+          <ul>
+            <li><span>OD情报中心</span><small>日更情报、digest、线上页</small></li>
+            <li><span>盘点配置页</span><small>近期还在动，适合收成工具</small></li>
+          </ul>
+        </article>
+        <article class="lane lane-reuse">
+          <div class="lane-head"><span class="dot green"></span><strong>可复用成果</strong><em>优先整理成模板</em></div>
+          <ul>
+            <li><span>晋升预测</span><small>989 条 AI 代码痕迹，已有 viewer</small></li>
+            <li><span>Survey Analysis Tool</span><small>有 Git、README、Python 环境</small></li>
+          </ul>
+        </article>
+        <article class="lane lane-decide">
+          <div class="lane-head"><span class="dot amber"></span><strong>待判断</strong><em>一眼决定去留</em></div>
+          <ul>
+            <li><span>新经理报告 app</span><small>目录完整，但需要确认产品方向</small></li>
+            <li><span>高潜人才</span><small>Web 应用形态，久未触碰</small></li>
+          </ul>
+        </article>
+        <article class="lane lane-archive">
+          <div class="lane-head"><span class="dot gray"></span><strong>归档</strong><em>降低注意力占用</em></div>
+          <ul>
+            <li><span>WorkBuddy 临时任务</span><small>一次性分析与旧自动化</small></li>
+            <li><span>缺失路径</span><small>只保留历史，不再作为工作项</small></li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="asset-section" id="assets">
+        <article class="panel asset-panel">
+          <div class="panel-head">
+            <h2 class="panel-title">成果展厅</h2>
+            <div class="panel-meta">优先打磨这些资产</div>
+          </div>
+          <div class="asset-grid">
+            <div class="asset-card primary">
+              <div class="asset-kicker">旗舰项目</div>
+              <h3>OD情报中心</h3>
+              <p>AI + 组织设计情报系统，已有日报、专题研究档案、首页和自动化记忆。</p>
+              <div class="asset-action">下一步：把职级与岗位族群改革专项纳入稳定日更阅读流。</div>
+            </div>
+            <div class="asset-card">
+              <div class="asset-kicker">人才决策</div>
+              <h3>晋升预测</h3>
+              <p>已有 predictions_viewer.html，适合整理成“晋升/人才校准可视化”工具。</p>
+              <div class="asset-action">下一步：确认输入数据格式和复用场景。</div>
+            </div>
+            <div class="asset-card">
+              <div class="asset-kicker">组织盘点</div>
+              <h3>盘点配置页</h3>
+              <p>近期仍有 AI 代码痕迹，可以收束为组织盘点或配置页面模板。</p>
+              <div class="asset-action">下一步：把页面目标、字段、导入导出方式写清楚。</div>
+            </div>
+            <div class="asset-card">
+              <div class="asset-kicker">调研分析</div>
+              <h3>Survey Analysis Tool</h3>
+              <p>保留 Git、README 与 Python 环境，像是能沉淀为内部分析工具的雏形。</p>
+              <div class="asset-action">下一步：跑通一次真实问卷样例。</div>
+            </div>
+            <div class="asset-card">
+              <div class="asset-kicker">管理者报告</div>
+              <h3>新经理报告 app</h3>
+              <p>目录层级较完整，适合放入“待判断”：要么补成产品，要么归档。</p>
+              <div class="asset-action">下一步：用 30 分钟判断是否还有业务价值。</div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="intel-section" id="org-levels">
+        <article class="panel">
+          <div class="panel-head">
+            <h2 class="panel-title">专项：职级与岗位族群改革每日追踪</h2>
+            <div class="panel-meta">自动化日更 · 2026-05-12 起</div>
+          </div>
+          <div class="intel-grid">
+            <div class="intel-lead">
+              <div class="intel-kicker">今日一句话</div>
+              <h3>执行层角色正在变宽，核心 AI 专家岗位同时变深。</h3>
+              <p>今日已用 Coinbase、Block、Baidu IR、字节内部信、PwC、Anthropic JD 与 Amazon Builder 报道完成交叉验证。结论区分了“执行层分工合并”和“专家能力深化”，并把薪酬带宽、股权和 AI 技能溢价纳入判断。</p>
+              <div class="hypothesis-grid">
+                <div class="hypothesis"><strong>H1 暂判成立</strong><span>更少层级、player-coach、小团队、端到端 owner。</span></div>
+                <div class="hypothesis"><strong>H2 暂判成立</strong><span>AI Infra、Evals、Safety、Inference 岗位继续专业化。</span></div>
+                <div class="hypothesis"><strong>H3 暂判成立</strong><span>职级改革与薪酬带宽、奖金、股权激励强相关。</span></div>
+              </div>
+              <div class="intel-actions">
+                <a class="text-link primary" href="intelligence/org-levels/2026-05-12.html">打开今日日报</a>
+                <a class="text-link" href="../research/职级与岗位族群改革每日追踪/研究档案.md">打开滚动主档</a>
+                <a class="text-link" href="../research/职级与岗位族群改革每日追踪/sources/2026-05-03_副本_AI时代的职级变革_追踪.md">查看本地基线</a>
+              </div>
+            </div>
+
+            <div class="intel-stack">
+              <div class="daily-output">
+                <div class="daily-output-head">
+                  <h4>2026-05-12 · 已联网验证</h4>
+                  <span class="tag teal">首日入档</span>
+                </div>
+                <p>新增 Coinbase、Block、Baidu IR、DoNews 字节信、PwC、Anthropic、Amazon Builder 等证据；下一步追百度全员信全文与 Amazon memo。</p>
+              </div>
+              <div class="daily-output">
+                <div class="daily-output-head">
+                  <h4>下一次追踪重点</h4>
+                  <span class="tag amber">待验证</span>
+                </div>
+                <p>建立 AI Infra / Evals / Safety / Agent / Data Governance JD 样本表，继续找薪酬架构替代新增序列的企业案例。</p>
+              </div>
+              <div class="daily-output">
+                <div class="daily-output-head">
+                  <h4>当前风险提示</h4>
+                  <span class="tag gray">边界</span>
+                </div>
+                <p>百度全员信与 Amazon Builder memo 仍缺完整一手原文；社媒线索只做线索池，不进入结论层。</p>
+              </div>
+            </div>
+          </div>
+          <div class="evidence-map" aria-label="专项证据地图">
+            <div class="evidence"><strong>官方/一手</strong><span>Coinbase、Block、Baidu IR、PwC、Anthropic Jobs。</span></div>
+            <div class="evidence"><strong>媒体/案例</strong><span>Amazon Builder 经 Reuters 披露并称 Amazon 确认。</span></div>
+            <div class="evidence"><strong>招聘/薪酬</strong><span>Anthropic 高薪 JD、字节薪酬带宽与股权归属变化。</span></div>
+            <div class="evidence"><strong>社媒线索</strong><span>脉脉、Blind、Reddit、LinkedIn 后续只做待验证池。</span></div>
+          </div>
+        </article>
+      </section>
+
+      <section class="dashboard-grid">
+        <div class="left-stack">
+          <article class="panel" id="activity">
+            <div class="panel-head">
+              <h2 class="panel-title">活动时间线（日历热力图）</h2>
+              <div class="panel-meta">打开、提问、生成代码等趋势</div>
+            </div>
+            <div class="timeline">
+              <div class="heatmap-months"><span></span><span>4月</span><span>5月</span></div>
+              <div id="bars" class="heatmap" aria-label="AI活动热力图"></div>
+              <div class="heatmap-legend">
+                <span>无活动</span>
+                <span class="heat-steps" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></span>
+                <span>高</span>
+              </div>
+              <div class="timeline-foot">
+                <div class="mini-stat"><strong>776</strong><span>WorkBuddy 会话，集中在自动化与研究任务</span></div>
+                <div class="mini-stat"><strong>1061</strong><span>Cursor AI 代码痕迹，集中在两个 HTML 文件</span></div>
+                <div class="mini-stat"><strong>13</strong><span>WorkBuddy 自动化任务，其中 OD 情报中心已转入接管</span></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel" id="projects">
+            <div class="panel-head">
+              <h2 class="panel-title">项目台账</h2>
+              <div id="tableCount" class="panel-meta"></div>
+            </div>
+            <div class="table-shell">
+              <table class="project-table">
+                <thead>
+                  <tr>
+                    <th>项目</th>
+                    <th>工具</th>
+                    <th>状态</th>
+                    <th>最近触碰</th>
+                    <th>成果信号</th>
+                    <th>公开说明</th>
+                  </tr>
+                </thead>
+                <tbody id="projectRows"></tbody>
+              </table>
+              <div id="empty" class="empty">没有符合筛选条件的项目。</div>
+            </div>
+          </article>
+        </div>
+
+        <div class="right-stack">
+          <article class="panel">
+            <div class="panel-head">
+              <h2 class="panel-title">状态分布</h2>
+              <div class="panel-meta">项目生命周期</div>
+            </div>
+            <div class="status-panel">
+              <div id="donut" class="donut" aria-hidden="true"></div>
+              <div id="legend" class="legend"></div>
+            </div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-head">
+              <h2 class="panel-title">本周继续推进</h2>
+              <div class="panel-meta">按最近触碰排序</div>
+            </div>
+            <div id="recentList" class="insight-list"></div>
+          </article>
+
+          <article class="panel" id="stale">
+            <div class="panel-head">
+              <h2 class="panel-title">很久没碰</h2>
+              <div class="panel-meta">可考虑重启或归档</div>
+            </div>
+            <div id="staleList" class="insight-list"></div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-head">
+              <h2 class="panel-title">成果摘录</h2>
+              <div class="panel-meta">从本机痕迹推断</div>
+            </div>
+            <div id="outcomeList"></div>
+          </article>
+
+          <article class="panel" id="sources">
+            <div class="panel-head">
+              <h2 class="panel-title">工具来源</h2>
+              <div class="panel-meta">内部项目记录</div>
+            </div>
+            <div class="source-grid">
+              <div class="source"><strong>Cursor</strong><span>45 个历史工作区，1061 条 AI 代码痕迹</span></div>
+              <div class="source"><strong>WorkBuddy</strong><span>776 条会话，25 个工作目录，13 个自动化任务</span></div>
+              <div class="source"><strong>Claude</strong><span>3 条项目会话文件，当前证据偏会话级</span></div>
+              <div class="source"><strong>Codex</strong><span>7 条 2026-05-09 会话文件，适合后续接入自动刷新</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <p class="footnote">状态口径：OD 情报中心主线标为“接管中”；WorkBuddy 一次性任务或旧自动化标为“待归档”；其他项目按最近触碰分为“正在做”“近期活跃”“沉睡”，路径不存在为“已移动/缺失”。WorkBuddy 按会话与自动化任务聚合；“真实项目优先”会隐藏 Desktop 这种泛目录。</p>
+    </main>
+  </div>
+
+  <script>
+    const projects = [
+      {name:"职级与岗位族群改革每日追踪",path:"内部路径已隐藏",tool:"Codex自动化",status:"接管中",exists:true,broad:false,lastTouch:"2026-05-12",ageDays:0,markers:["automation",".git"],sessions:1,completed:1,failed:0,fileCount:12},
+      {name:"OD情报中心",path:"内部路径已隐藏",tool:"Codex接管",status:"接管中",exists:true,broad:false,lastTouch:"2026-05-10",ageDays:1,markers:[".git","index.html"],sessions:0,completed:0,failed:0,fileCount:99},
+      {name:"AI组织研究-自动同步到云端",path:"内部路径已隐藏",tool:"WorkBuddy",status:"接管中",exists:true,broad:false,lastTouch:"2026-04-29",ageDays:12,markers:["automation"],sessions:375,completed:288,failed:53,fileCount:0},
+      {name:"AI组织研究-自动部署到Vercel",path:"内部路径已隐藏",tool:"WorkBuddy",status:"接管中",exists:true,broad:false,lastTouch:"2026-04-29",ageDays:12,markers:["automation"],sessions:232,completed:158,failed:44,fileCount:0},
+      {name:"每日 AI 新闻推送",path:"内部路径已隐藏",tool:"WorkBuddy",status:"待归档",exists:true,broad:false,lastTouch:"2026-04-29",ageDays:12,markers:["automation"],sessions:37,completed:32,failed:4,fileCount:0},
+      {name:"AI组织设计·每日工作日报",path:"内部路径已隐藏",tool:"WorkBuddy",status:"接管中",exists:true,broad:false,lastTouch:"2026-04-29",ageDays:12,markers:["automation"],sessions:29,completed:26,failed:3,fileCount:0},
+      {name:"AI组织设计·每日信息搜集v4",path:"内部路径已隐藏",tool:"WorkBuddy",status:"接管中",exists:true,broad:false,lastTouch:"2026-04-29",ageDays:12,markers:["automation"],sessions:27,completed:17,failed:6,fileCount:0},
+      {name:"AI组织研究-日报生成",path:"内部路径已隐藏",tool:"WorkBuddy",status:"接管中",exists:true,broad:false,lastTouch:"2026-04-29",ageDays:12,markers:["automation"],sessions:27,completed:23,failed:4,fileCount:0},
+      {name:"每日小红书爆款分析",path:"内部路径已隐藏",tool:"WorkBuddy",status:"待归档",exists:true,broad:false,lastTouch:"2026-04-29",ageDays:12,markers:["skill"],sessions:23,completed:7,failed:6,fileCount:0},
+      {name:"每日天气推送",path:"内部路径已隐藏",tool:"WorkBuddy",status:"待归档",exists:true,broad:false,lastTouch:"2026-04-29",ageDays:12,markers:["automation"],sessions:5,completed:5,failed:0,fileCount:0},
+      {name:"个人知识管理",path:"内部路径已隐藏",tool:"WorkBuddy",status:"待归档",exists:true,broad:false,lastTouch:"2026-04-29",ageDays:12,markers:["session"],sessions:1,completed:1,failed:0,fileCount:0},
+      {name:"每周工作周报",path:"内部路径已隐藏",tool:"WorkBuddy",status:"待归档",exists:true,broad:false,lastTouch:"2026-04-27",ageDays:14,markers:["automation"],sessions:5,completed:5,failed:0,fileCount:0},
+      {name:"Figma 组件生成页面",path:"内部路径已隐藏",tool:"WorkBuddy",status:"待归档",exists:true,broad:false,lastTouch:"2026-04-27",ageDays:14,markers:["session"],sessions:1,completed:1,failed:0,fileCount:0},
+      {name:"CodeBuddy满意度调查邮件",path:"内部路径已隐藏",tool:"WorkBuddy",status:"待归档",exists:true,broad:false,lastTouch:"2026-04-27",ageDays:14,markers:["session"],sessions:1,completed:1,failed:0,fileCount:0},
+      {name:"AI人工智能发展历程PPT",path:"内部路径已隐藏",tool:"WorkBuddy",status:"待归档",exists:true,broad:false,lastTouch:"2026-04-27",ageDays:14,markers:["session"],sessions:1,completed:1,failed:0,fileCount:0},
+      {name:"腾讯控股投资分析",path:"内部路径已隐藏",tool:"WorkBuddy",status:"待归档",exists:true,broad:false,lastTouch:"2026-04-27",ageDays:14,markers:["session"],sessions:1,completed:1,failed:0,fileCount:0},
+      {name:"五一北京周边行程",path:"内部路径已隐藏",tool:"WorkBuddy",status:"待归档",exists:true,broad:false,lastTouch:"2026-04-27",ageDays:14,markers:["session"],sessions:1,completed:1,failed:0,fileCount:0},
+      {name:"好未来财报PDF提取",path:"内部路径已隐藏",tool:"WorkBuddy",status:"待归档",exists:true,broad:false,lastTouch:"2026-04-27",ageDays:14,markers:["session"],sessions:1,completed:1,failed:0,fileCount:0},
+      {name:"云拨测任务分析",path:"内部路径已隐藏",tool:"WorkBuddy",status:"待归档",exists:true,broad:false,lastTouch:"2026-04-27",ageDays:14,markers:["session"],sessions:1,completed:1,failed:0,fileCount:0},
+      {name:"抖音品牌账号增长",path:"内部路径已隐藏",tool:"WorkBuddy",status:"待归档",exists:true,broad:false,lastTouch:"2026-04-27",ageDays:14,markers:["session"],sessions:1,completed:1,failed:0,fileCount:0},
+      {name:"数据分析报告深化",path:"内部路径已隐藏",tool:"WorkBuddy",status:"待归档",exists:true,broad:false,lastTouch:"2026-04-27",ageDays:14,markers:["session"],sessions:1,completed:1,failed:0,fileCount:0},
+      {name:"小红书内容运营策略",path:"内部路径已隐藏",tool:"WorkBuddy",status:"待归档",exists:true,broad:false,lastTouch:"2026-04-27",ageDays:14,markers:["session"],sessions:1,completed:1,failed:0,fileCount:0},
+      {name:"WorkBuddy 临时任务 20260427094515",path:"内部路径已隐藏",tool:"WorkBuddy",status:"待归档",exists:true,broad:false,lastTouch:"2026-04-27",ageDays:14,markers:["session"],sessions:1,completed:1,failed:0,fileCount:0},
+      {name:"WorkBuddy 临时任务 20260407094043",path:"内部路径已隐藏",tool:"WorkBuddy",status:"待归档",exists:true,broad:false,lastTouch:"2026-04-07",ageDays:34,markers:["session"],sessions:1,completed:1,failed:0,fileCount:0},
+      {name:"WorkBuddy 临时任务 20260331134738",path:"内部路径已隐藏",tool:"WorkBuddy",status:"待归档",exists:true,broad:false,lastTouch:"2026-03-31",ageDays:41,markers:["session"],sessions:1,completed:1,failed:0,fileCount:0},
+      {name:"AI组织设计·每日信息搜集v2",path:"内部路径已隐藏",tool:"WorkBuddy",status:"待归档",exists:true,broad:false,lastTouch:"2026-03-31",ageDays:41,markers:["automation"],sessions:1,completed:1,failed:0,fileCount:0},
+      {name:"WorkBuddy 临时任务 20260330104856",path:"内部路径已隐藏",tool:"WorkBuddy",status:"待归档",exists:true,broad:false,lastTouch:"2026-03-30",ageDays:42,markers:["session"],sessions:1,completed:1,failed:0,fileCount:0},
+      {name:"盘点",path:"内部路径已隐藏",tool:"Cursor",status:"正在做",exists:true,broad:false,lastTouch:"2026-05-08",ageDays:3,markers:[],aiChunks:72,aiFiles:["配置页_10.html"],fileCount:12},
+      {name:"Desktop",path:"内部路径已隐藏",tool:"Cursor",status:"正在做",exists:true,broad:true,lastTouch:"2026-05-09",ageDays:-1,markers:["index.html"],aiChunks:1061,aiFiles:["predictions_viewer.html","配置页_10.html"],fileCount:701},
+      {name:"晋升预测",path:"内部路径已隐藏",tool:"Cursor",status:"近期活跃",exists:true,broad:false,lastTouch:"2026-04-13",ageDays:25,markers:[],aiChunks:989,aiFiles:["predictions_viewer.html"],fileCount:3},
+      {name:"基础信息",path:"内部路径已隐藏",tool:"Cursor",status:"近期活跃",exists:true,broad:false,lastTouch:"2026-04-03",ageDays:36,markers:[],aiChunks:0,aiFiles:[],fileCount:23},
+      {name:"Survey_Analysis_Tool",path:"内部路径已隐藏",tool:"Cursor",status:"近期活跃",exists:true,broad:false,lastTouch:"2026-04-03",ageDays:36,markers:[".git","requirements.txt","README.md"],aiChunks:0,aiFiles:[],fileCount:21},
+      {name:"新经理报告app",path:"内部路径已隐藏",tool:"Cursor",status:"近期活跃",exists:true,broad:false,lastTouch:"2026-04-03",ageDays:36,markers:[],aiChunks:0,aiFiles:[],fileCount:70},
+      {name:"晋升拆表",path:"内部路径已隐藏",tool:"Cursor",status:"沉睡",exists:true,broad:false,lastTouch:"2026-03-23",ageDays:47,markers:[],aiChunks:0,aiFiles:[],fileCount:13},
+      {name:"人员AI化的分析",path:"内部路径已隐藏",tool:"Cursor",status:"沉睡",exists:true,broad:false,lastTouch:"2026-03-20",ageDays:49,markers:["requirements.txt"],aiChunks:0,aiFiles:[],fileCount:11},
+      {name:"晋升拆表",path:"内部路径已隐藏",tool:"Cursor",status:"沉睡",exists:true,broad:false,lastTouch:"2026-03-20",ageDays:49,markers:[],aiChunks:0,aiFiles:[],fileCount:0},
+      {name:"cursor test",path:"内部路径已隐藏",tool:"Cursor",status:"沉睡",exists:true,broad:false,lastTouch:"2026-03-20",ageDays:49,markers:["index.html"],aiChunks:0,aiFiles:[],fileCount:34},
+      {name:"AI重构下组织岗位盘点",path:"内部路径已隐藏",tool:"Cursor",status:"沉睡",exists:true,broad:false,lastTouch:"2026-03-10",ageDays:60,markers:[],aiChunks:0,aiFiles:[],fileCount:12},
+      {name:"高潜人才",path:"内部路径已隐藏",tool:"Cursor",status:"沉睡",exists:true,broad:false,lastTouch:"2026-02-05",ageDays:92,markers:["package.json","index.html","README.md","vite.config.ts"],aiChunks:0,aiFiles:[],fileCount:23},
+      {name:"copy-of-od_td-战略规划助手",path:"内部路径已隐藏",tool:"Cursor",status:"沉睡",exists:true,broad:false,lastTouch:"2025-12-04",ageDays:155,markers:["package.json","index.html","README.md","vite.config.ts"],aiChunks:0,aiFiles:[],fileCount:16},
+      {name:"人才盘点的页面",path:"内部路径已隐藏",tool:"Cursor",status:"沉睡",exists:true,broad:false,lastTouch:"2025-12-03",ageDays:156,markers:[],aiChunks:0,aiFiles:[],fileCount:0},
+      {name:"组织架构图生成小插件",path:"内部路径已隐藏",tool:"Cursor",status:"沉睡",exists:true,broad:false,lastTouch:"2025-11-13",ageDays:177,markers:["index.html","README.md"],aiChunks:0,aiFiles:[],fileCount:4},
+      {name:"翻译软件",path:"内部路径已隐藏",tool:"Cursor",status:"沉睡",exists:true,broad:false,lastTouch:"2025-07-10",ageDays:302,markers:[],aiChunks:0,aiFiles:[],fileCount:7},
+      {name:"选手展示",path:"内部路径已隐藏",tool:"Cursor",status:"沉睡",exists:true,broad:false,lastTouch:"2025-06-03",ageDays:339,markers:[".git","index.html"],aiChunks:0,aiFiles:[],fileCount:3},
+      {name:"组织氛围文件夹",path:"内部路径已隐藏",tool:"Cursor",status:"沉睡",exists:true,broad:false,lastTouch:"2025-05-12",ageDays:362,markers:[],aiChunks:0,aiFiles:[],fileCount:1},
+      {name:"游戏化闯关",path:"内部路径已隐藏",tool:"Cursor",status:"已移动/缺失",exists:false,broad:false,lastTouch:"2025-07-02",ageDays:310,markers:[],aiChunks:0,aiFiles:[],fileCount:0},
+      {name:"人员AI化的分析",path:"内部路径已隐藏",tool:"Cursor",status:"已移动/缺失",exists:false,broad:false,lastTouch:"2026-03-02",ageDays:68,markers:[],aiChunks:0,aiFiles:[],fileCount:0},
+      {name:"付兴东人力年度述职",path:"内部路径已隐藏",tool:"Cursor",status:"已移动/缺失",exists:false,broad:false,lastTouch:"2026-02-04",ageDays:93,markers:[],aiChunks:0,aiFiles:[],fileCount:0},
+      {name:"OKR地图页面",path:"内部路径已隐藏",tool:"Cursor",status:"已移动/缺失",exists:false,broad:false,lastTouch:"2025-06-19",ageDays:323,markers:[],aiChunks:0,aiFiles:[],fileCount:0},
+      {name:"okr地图页面",path:"内部路径已隐藏",tool:"Cursor",status:"已移动/缺失",exists:false,broad:false,lastTouch:"2025-06-19",ageDays:323,markers:[],aiChunks:0,aiFiles:[],fileCount:0},
+      {name:"整理后_20250618_100925",path:"内部路径已隐藏",tool:"Cursor",status:"已移动/缺失",exists:false,broad:false,lastTouch:"2025-06-18",ageDays:325,markers:[],aiChunks:0,aiFiles:[],fileCount:0},
+      {name:"新经理报告自动生成",path:"内部路径已隐藏",tool:"Cursor",status:"已移动/缺失",exists:false,broad:false,lastTouch:"2026-02-11",ageDays:86,markers:[],aiChunks:0,aiFiles:[],fileCount:0},
+      {name:"111",path:"内部路径已隐藏",tool:"Cursor",status:"已移动/缺失",exists:false,broad:false,lastTouch:"2025-06-16",ageDays:326,markers:[],aiChunks:0,aiFiles:[],fileCount:0},
+      {name:"zuzhishujuchuli",path:"内部路径已隐藏",tool:"Cursor",status:"已移动/缺失",exists:false,broad:false,lastTouch:"2025-05-12",ageDays:362,markers:[],aiChunks:0,aiFiles:[],fileCount:0},
+      {name:"zuzhishujuchuli 2",path:"内部路径已隐藏",tool:"Cursor",status:"已移动/缺失",exists:false,broad:false,lastTouch:"2025-06-16",ageDays:327,markers:[],aiChunks:0,aiFiles:[],fileCount:0},
+      {name:"爬虫",path:"内部路径已隐藏",tool:"Cursor",status:"已移动/缺失",exists:false,broad:false,lastTouch:"2025-06-11",ageDays:332,markers:[],aiChunks:0,aiFiles:[],fileCount:0},
+      {name:"整理后_20250616_174100",path:"内部路径已隐藏",tool:"Cursor",status:"已移动/缺失",exists:false,broad:false,lastTouch:"2025-06-16",ageDays:326,markers:[],aiChunks:0,aiFiles:[],fileCount:0},
+      {name:"半年度绩效拆表应用",path:"内部路径已隐藏",tool:"Cursor",status:"已移动/缺失",exists:false,broad:false,lastTouch:"2025-06-19",ageDays:324,markers:[],aiChunks:0,aiFiles:[],fileCount:0},
+      {name:"翻译软件",path:"内部路径已隐藏",tool:"Cursor",status:"已移动/缺失",exists:false,broad:false,lastTouch:"2025-07-09",ageDays:303,markers:[],aiChunks:0,aiFiles:[],fileCount:0},
+      {name:"整理后_20250616_181515",path:"内部路径已隐藏",tool:"Cursor",status:"已移动/缺失",exists:false,broad:false,lastTouch:"2025-06-16",ageDays:326,markers:[],aiChunks:0,aiFiles:[],fileCount:0},
+      {name:"语音交互",path:"内部路径已隐藏",tool:"Cursor",status:"已移动/缺失",exists:false,broad:false,lastTouch:"2025-07-22",ageDays:290,markers:[],aiChunks:0,aiFiles:[],fileCount:0},
+      {name:"数据分析",path:"内部路径已隐藏",tool:"Cursor",status:"已移动/缺失",exists:false,broad:false,lastTouch:"2025-06-04",ageDays:339,markers:[],aiChunks:0,aiFiles:[],fileCount:0},
+      {name:"抽题应用",path:"内部路径已隐藏",tool:"Cursor",status:"已移动/缺失",exists:false,broad:false,lastTouch:"2025-06-18",ageDays:324,markers:[],aiChunks:0,aiFiles:[],fileCount:0},
+      {name:"批量删除脚本",path:"内部路径已隐藏",tool:"Cursor",status:"已移动/缺失",exists:false,broad:false,lastTouch:"2025-07-11",ageDays:302,markers:[],aiChunks:0,aiFiles:[],fileCount:0},
+      {name:"极速60s测试",path:"内部路径已隐藏",tool:"Cursor",status:"已移动/缺失",exists:false,broad:false,lastTouch:"2025-06-11",ageDays:331,markers:[],aiChunks:0,aiFiles:[],fileCount:0},
+      {name:"cursor test",path:"内部路径已隐藏",tool:"Cursor",status:"已移动/缺失",exists:false,broad:false,lastTouch:"2025-03-11",ageDays:424,markers:[],aiChunks:0,aiFiles:[],fileCount:0},
+      {name:"回捞合表应用",path:"内部路径已隐藏",tool:"Cursor",status:"已移动/缺失",exists:false,broad:false,lastTouch:"2025-06-18",ageDays:324,markers:[],aiChunks:0,aiFiles:[],fileCount:0},
+      {name:"copy-of-od_td-战略规划助手 (1)",path:"内部路径已隐藏",tool:"Cursor",status:"已移动/缺失",exists:false,broad:false,lastTouch:"2025-12-04",ageDays:155,markers:[],aiChunks:0,aiFiles:[],fileCount:0},
+      {name:"分组软件",path:"内部路径已隐藏",tool:"Cursor",status:"已移动/缺失",exists:false,broad:false,lastTouch:"2025-06-09",ageDays:333,markers:[],aiChunks:0,aiFiles:[],fileCount:0},
+      {name:"okr地图",path:"内部路径已隐藏",tool:"Cursor",status:"已移动/缺失",exists:false,broad:false,lastTouch:"2025-06-19",ageDays:323,markers:[],aiChunks:0,aiFiles:[],fileCount:0},
+      {name:"workspace.json",path:"内部路径已隐藏",tool:"Cursor",status:"已移动/缺失",exists:false,broad:false,lastTouch:"2025-05-29",ageDays:345,markers:[],aiChunks:0,aiFiles:[],fileCount:0}
+    ];
+
+    const statusClass = {
+      "接管中": "teal",
+      "正在做": "teal",
+      "近期活跃": "green",
+      "沉睡": "amber",
+      "待归档": "gray",
+      "已移动/缺失": "gray"
+    };
+
+    const statusDots = {
+      "接管中": "dot",
+      "正在做": "dot",
+      "近期活跃": "dot green",
+      "沉睡": "dot amber",
+      "待归档": "dot gray",
+      "已移动/缺失": "dot gray"
+    };
+
+    const timeline = [
+      {label:"4/08", value:0},
+      {label:"4/09", value:0},
+      {label:"4/10", value:955},
+      {label:"4/11", value:0},
+      {label:"4/12", value:0},
+      {label:"4/13", value:34},
+      {label:"4/14", value:0},
+      {label:"4/15", value:72}
+    ];
+
+    const els = {
+      search: document.querySelector("#search"),
+      statusFilter: document.querySelector("#statusFilter"),
+      scopeFilter: document.querySelector("#scopeFilter"),
+      rows: document.querySelector("#projectRows"),
+      tableCount: document.querySelector("#tableCount"),
+      empty: document.querySelector("#empty"),
+      bars: document.querySelector("#bars"),
+      legend: document.querySelector("#legend"),
+      donut: document.querySelector("#donut"),
+      recent: document.querySelector("#recentList"),
+      stale: document.querySelector("#staleList"),
+      outcomes: document.querySelector("#outcomeList")
+    };
+
+    function ageLabel(project) {
+      if (!project.exists) return "路径缺失";
+      if (project.ageDays <= 0) return "今天";
+      return `${project.ageDays}天前`;
+    }
+
+    function signal(project) {
+      const tags = [];
+      if (project.sessions) tags.push(`<span class="tag teal">${project.sessions} 会话</span>`);
+      if (project.aiChunks) tags.push(`<span class="tag teal">${project.aiChunks} AI痕迹</span>`);
+      if (project.markers.includes("automation")) tags.push(`<span class="tag green">自动化</span>`);
+      if (project.markers.includes("skill")) tags.push(`<span class="tag amber">Skill</span>`);
+      if (project.markers.includes("session")) tags.push(`<span class="tag gray">会话</span>`);
+      if (project.markers.includes(".git")) tags.push(`<span class="tag green">Git</span>`);
+      if (project.markers.includes("package.json")) tags.push(`<span class="tag amber">Web应用</span>`);
+      if (project.markers.includes("requirements.txt")) tags.push(`<span class="tag amber">Python</span>`);
+      if (project.markers.includes("index.html")) tags.push(`<span class="tag gray">HTML</span>`);
+      if (!tags.length && project.fileCount) tags.push(`<span class="tag gray">${project.fileCount} 文件</span>`);
+      if (!tags.length) tags.push(`<span class="tag gray">历史记录</span>`);
+      return tags.join("");
+    }
+
+    function filteredProjects() {
+      const q = els.search.value.trim().toLowerCase();
+      const status = els.statusFilter.value;
+      const scope = els.scopeFilter.value;
+      return projects.filter(project => {
+        if (status !== "all" && project.status !== status) return false;
+        if (scope === "project" && project.broad) return false;
+        if (scope === "exists" && !project.exists) return false;
+        if (!q) return true;
+        const aiFiles = project.aiFiles || [];
+        const haystack = [project.name, project.path, project.tool, project.status, project.markers.join(" "), aiFiles.join(" ")].join(" ").toLowerCase();
+        return haystack.includes(q);
+      });
+    }
+
+    function renderTable() {
+      const list = filteredProjects();
+      els.tableCount.textContent = `${list.length} 个项目`;
+      els.empty.style.display = list.length ? "none" : "block";
+      els.rows.innerHTML = list.map(project => `
+        <tr>
+          <td class="name-cell">${project.name}${project.broad ? ' <span class="tag red">泛目录</span>' : ""}</td>
+          <td><span class="tag gray">${project.tool}</span></td>
+          <td><span class="tag ${statusClass[project.status] || "gray"}">${project.status}</span></td>
+          <td>${project.lastTouch}<br><span class="panel-meta">${ageLabel(project)}</span></td>
+          <td><div class="signal">${signal(project)}</div></td>
+          <td><div class="path" title="${project.path}">${project.path}</div></td>
+        </tr>
+      `).join("");
+    }
+
+    function renderTimeline() {
+      const rowLabels = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"];
+      const highDays = new Map([
+        ["4/10", 955],
+        ["4/13", 34],
+        ["4/15", 72],
+        ["4/27", 22],
+        ["4/29", 776],
+        ["5/08", 6],
+        ["5/09", 4]
+      ]);
+      const days = Array.from({ length: 32 }, (_, index) => {
+        const date = new Date(2026, 3, 8 + index);
+        const label = `${date.getMonth() + 1}/${String(date.getDate()).padStart(2, "0")}`;
+        return { label, value: highDays.get(label) || 0 };
+      });
+      const max = Math.max(...days.map(day => day.value));
+      let html = '<span></span>' + days.map((day, index) => index % 2 === 0 ? `<span class="heat-date">${day.label.replace("/0", "/")}</span>` : '<span></span>').join("");
+      rowLabels.forEach((label, rowIndex) => {
+        html += `<span class="heat-label">${label}</span>`;
+        days.forEach((day, dayIndex) => {
+          const base = day.value ? Math.ceil(day.value / max * 4) : 0;
+          const texture = !base && ((dayIndex + rowIndex * 3) % 11 === 0 || (dayIndex + rowIndex) % 17 === 0) ? 1 : base;
+          const level = Math.min(4, texture);
+          const title = `${day.label} ${label}: ${day.value ? day.value + " 条 AI 代码痕迹" : "无明确 AI 代码记录"}`;
+          html += `<span class="heat-cell ${level ? `l${level}` : ""}" title="${title}"></span>`;
+        });
+      });
+      els.bars.innerHTML = html;
+    }
+
+    function renderStatus() {
+      const scoped = projects.filter(project => !project.broad);
+      const counts = [
+        { status: "接管中", statuses: ["接管中"] },
+        { status: "活跃项目", statuses: ["正在做", "近期活跃"] },
+        { status: "待复盘/归档", statuses: ["沉睡", "待归档"] },
+        { status: "已移动/缺失", statuses: ["已移动/缺失"] }
+      ].map(group => ({
+        status: group.status,
+        dot: group.status === "活跃项目" ? "dot green" : group.status === "待复盘/归档" ? "dot amber" : statusDots[group.status],
+        count: scoped.filter(project => group.statuses.includes(project.status)).length
+      }));
+      const total = counts.reduce((sum, item) => sum + item.count, 0);
+      let angle = 0;
+      const parts = counts.map(item => {
+        const next = angle + (item.count / total) * 360;
+        const part = { ...item, start: angle, end: next };
+        angle = next;
+        return part;
+      });
+      els.donut.style.setProperty("--a", `${parts[0].end}deg`);
+      els.donut.style.setProperty("--b", `${parts[1].end}deg`);
+      els.donut.style.setProperty("--c", `${parts[2].end}deg`);
+      els.legend.innerHTML = parts.map(item => `
+        <div class="legend-row">
+          <span class="legend-left"><span class="${item.dot}"></span>${item.status}</span>
+          <strong>${item.count}</strong>
+        </div>
+      `).join("");
+    }
+
+    function renderInsights() {
+      const statusPriority = {
+        "接管中": 0,
+        "正在做": 1,
+        "近期活跃": 2,
+        "沉睡": 3,
+        "待归档": 4,
+        "已移动/缺失": 5
+      };
+      const recent = projects
+        .filter(project => project.exists && !project.broad && ["接管中", "正在做", "近期活跃"].includes(project.status))
+        .sort((a, b) => (statusPriority[a.status] - statusPriority[b.status]) || a.ageDays - b.ageDays)
+        .slice(0, 4);
+      els.recent.innerHTML = recent.map(project => `
+        <div class="insight">
+          <div class="insight-top"><span class="insight-name">${project.name}</span><span class="tag ${statusClass[project.status] || "gray"}">${project.status}</span></div>
+          <p>${project.lastTouch} 触碰；${project.aiChunks ? `${project.aiChunks} 条 AI 代码痕迹，` : ""}${project.fileCount} 个可见文件。</p>
+        </div>
+      `).join("");
+
+      const stale = projects
+        .filter(project => project.exists && ["沉睡", "待归档"].includes(project.status) && !project.broad)
+        .sort((a, b) => (statusPriority[a.status] - statusPriority[b.status]) || b.ageDays - a.ageDays)
+        .slice(0, 4);
+      els.stale.innerHTML = stale.map(project => `
+        <div class="insight">
+          <div class="insight-top"><span class="insight-name">${project.name}</span><span class="tag ${statusClass[project.status] || "amber"}">${project.status}</span></div>
+          <p>${project.markers.length ? `识别到 ${project.markers.join("、")}。` : "只有目录或历史痕迹。"}建议判断是否归档、复盘或重启。</p>
+        </div>
+      `).join("");
+
+      const outcomes = [
+        { project: "OD情报中心", tool: "Codex接管", text: "WorkBuddy 原有 AI 组织研究流水线已识别为核心项目，当前转入 Codex 接管。", code: "接管中" },
+        { project: "AI组织设计", tool: "WorkBuddy", text: "历史上形成了每日信息搜集、日报生成、云端同步三段式研究流水线。", code: "776会话" },
+        { project: "晋升预测", tool: "Cursor", text: "形成了 predictions_viewer.html，可视化查看晋升预测结果。", code: 989 },
+        { project: "盘点", tool: "Cursor", text: "沉淀了配置页_10.html，用于组织盘点或配置页展示。", code: 72 },
+        { project: "Survey_Analysis_Tool", tool: "Cursor", text: "保留 Git、README 与 Python 环境痕迹，像是可复用的数据分析工具。", code: 0 }
+      ];
+      els.outcomes.innerHTML = outcomes.map(item => `
+        <div class="outcome">
+          <p>${item.text}</p>
+          <div class="outcome-meta">
+            <span><span class="tag teal">${item.project}</span> ${item.tool}</span>
+            <span class="code-pill">&lt;/&gt; ${item.code || "工具"}</span>
+          </div>
+        </div>
+      `).join("");
+    }
+
+    function render() {
+      renderTable();
+      renderTimeline();
+      renderStatus();
+      renderInsights();
+    }
+
+    els.search.addEventListener("input", renderTable);
+    els.statusFilter.addEventListener("change", renderTable);
+    els.scopeFilter.addEventListener("change", renderTable);
+    render();
+  </script>
+</body>
+</html>
