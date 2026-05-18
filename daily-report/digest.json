@@ -70,6 +70,66 @@
   },
   "reports": [
     {
+      "date": "2026-05-18",
+      "weekday": "周一",
+      "items": 5,
+      "platforms": 5,
+      "trust": {
+        "high": 4,
+        "mid": 1,
+        "ref": 0
+      },
+      "tags": [
+        "岗位族群",
+        "职级体系",
+        "组织扁平化",
+        "AI工作流",
+        "Agent治理",
+        "人机协作",
+        "HRTech",
+        "生产力",
+        "流程设计",
+        "CHRO"
+      ],
+      "topPicks": [
+        {
+          "title": "GitLab Act 2：最多移除三层管理、R&D 重组为约 60 个端到端小队",
+          "platform": "GitLab Blog + SEC",
+          "url": "https://about.gitlab.com/blog/gitlab-act-2/",
+          "reason": "近期最清晰的组织扁平化 + AI 工作流重写一手案例之一，不是只谈裁员，而是把层级压缩、ownership 和 AI 自动化放进同一 operating model。"
+        },
+        {
+          "title": "Microsoft 2026 Work Trend Index：AI 价值的 67% 来自组织因素",
+          "platform": "Microsoft WorkLab",
+          "url": "https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization",
+          "reason": "20,000 名 AI 使用者调研显示，AI 影响更取决于组织准备度，而不是个人提示词能力，直接强化了 OD 的主场地位。"
+        },
+        {
+          "title": "Workday 英国研究：员工每周近一个工作日耗在断裂的 AI 工具链上",
+          "platform": "Workday",
+          "url": "https://en-gb.newsroom.workday.com/2026-05-14-New-Workday-Research-UK-Employees-Spend-Nearly-a-Full-Work-Day-Each-Week-Managing-Disconnected-AI-Tools",
+          "reason": "局部提效开始被跨系统切换、手动喂上下文和对账成本抵消，说明 AI 生产率问题已转向流程连通性。"
+        },
+        {
+          "title": "ServiceNow × Microsoft：Agent 治理开始从概念走向控制塔模式",
+          "platform": "ServiceNow",
+          "url": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-expands-AI-agent-governance-through-deeper-integration-with-Microsoft/default.aspx",
+          "reason": "治理对象已从单个模型升级为跨平台 agent 生态，对未来权限设计、审批链和责任界面有直接含义。"
+        }
+      ],
+      "trends": [
+        "岗位标题正在让位于价值创造角色：Amazon 在 Ring/Blink 试点统一 Builder 职族，但若没有同步定义晋升和调薪规则，组织会从标签僵化滑向路径模糊。",
+        "AI 落地的主战场已从工具选择转向 operating model 重写：GitLab 的层级压缩和微软 WTI 的 67% 组织因素共同强化这一判断。",
+        "Agent 治理开始平台化：下一阶段真正稀缺的不是更多 AI 工具，而是能同时定义角色边界、监督要求和跨系统工作流的组织治理能力。"
+      ],
+      "nextFocus": [
+        "追踪 Amazon Builder 试点的 promotion、pay band、scope 评价标准是否公开化。",
+        "等待 GitLab 6 月 2 日财报电话会补充管理层级与管理跨度的量化口径。",
+        "继续补强 CHRO 视角的一手研究，优先找 SHRM、Gartner、Workday、德勤的新数据。"
+      ],
+      "note": "今日为 05-15~05-18 的 catch-up 日报，核心增量集中在岗位族群重写、扁平化 operating model、AI 生产率摩擦与 agent 治理平台化。"
+    },
+    {
       "date": "2026-05-14",
       "weekday": "周四",
       "items": 18,
