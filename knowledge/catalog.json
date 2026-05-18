@@ -1,28 +1,76 @@
 {
   "version": "2.0",
-  "lastUpdated": "2026-05-13",
+  "lastUpdated": "2026-05-18",
   "mode": "karpathy-llm-wiki",
   "schema": "knowledge/CLAUDE.md",
   "categories": {
     "sourceType": {
-      "consulting": { "label": "咨询公司", "icon": "📊" },
-      "academic": { "label": "学术机构", "icon": "🎓" },
-      "industry": { "label": "行业研究", "icon": "🏭" },
-      "internal": { "label": "内部文档", "icon": "🏢" },
-      "media": { "label": "媒体深度", "icon": "📰" }
+      "consulting": {
+        "label": "咨询公司",
+        "icon": "📊"
+      },
+      "academic": {
+        "label": "学术机构",
+        "icon": "🎓"
+      },
+      "industry": {
+        "label": "行业研究",
+        "icon": "🏭"
+      },
+      "internal": {
+        "label": "内部文档",
+        "icon": "🏢"
+      },
+      "media": {
+        "label": "媒体深度",
+        "icon": "📰"
+      }
     },
     "topic": {
-      "AI组织设计": { "label": "AI组织设计", "icon": "🤖" },
-      "人才发展": { "label": "人才发展", "icon": "👥" },
-      "绩效管理": { "label": "绩效管理", "icon": "📈" },
-      "变革管理": { "label": "变革管理", "icon": "🔄" },
-      "组织文化": { "label": "组织文化", "icon": "🏛️" },
-      "战略规划": { "label": "战略规划", "icon": "🎯" },
-      "数字化转型": { "label": "数字化转型", "icon": "💻" },
-      "领导力": { "label": "领导力", "icon": "👑" },
-      "职级改革": { "label": "职级改革", "icon": "🧭" },
-      "知识管理": { "label": "知识管理", "icon": "🧠" },
-      "技能组织": { "label": "技能组织", "icon": "🧩" }
+      "AI组织设计": {
+        "label": "AI组织设计",
+        "icon": "🤖"
+      },
+      "人才发展": {
+        "label": "人才发展",
+        "icon": "👥"
+      },
+      "绩效管理": {
+        "label": "绩效管理",
+        "icon": "📈"
+      },
+      "变革管理": {
+        "label": "变革管理",
+        "icon": "🔄"
+      },
+      "组织文化": {
+        "label": "组织文化",
+        "icon": "🏛️"
+      },
+      "战略规划": {
+        "label": "战略规划",
+        "icon": "🎯"
+      },
+      "数字化转型": {
+        "label": "数字化转型",
+        "icon": "💻"
+      },
+      "领导力": {
+        "label": "领导力",
+        "icon": "👑"
+      },
+      "职级改革": {
+        "label": "职级改革",
+        "icon": "🧭"
+      },
+      "知识管理": {
+        "label": "知识管理",
+        "icon": "🧠"
+      },
+      "技能组织": {
+        "label": "技能组织",
+        "icon": "🧩"
+      }
     }
   },
   "knowledgeSources": [
@@ -56,20 +104,61 @@
   ],
   "reports": [
     {
+      "id": "k001",
+      "title": "标杆研究更新：AI如何重塑组织设计",
+      "originalTitle": "标杆研究更新报告：AI如何重塑组织设计——聚焦人才发展机制创新与飞轮人员待优化复盘",
+      "author": "OD Intelligence Center",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "internal",
+      "topics": [
+        "AI组织设计",
+        "人才发展",
+        "职级改革",
+        "绩效管理",
+        "变革管理"
+      ],
+      "date": "2026-05-08",
+      "uploadDate": "2026-05-18",
+      "description": "从工作日报模块迁入知识库的标杆研究更新报告：基于 04-28 至 05-08 期间 80+ 条信息，聚焦 AI 时代人才发展机制创新与飞轮人员待优化复盘，整理 Deloitte、BCG、IBM、Lovable、百度、Korn Ferry、Anthropic 等案例和启发。后续以周为单位纳入知识库更新。",
+      "summaryFile": "./knowledge/wiki/benchmark-ai-org-design-update-2026-05-08.md",
+      "htmlFile": "./knowledge/wiki/benchmark-ai-org-design-update-2026-05-08.html",
+      "fileName": "daily-report/2026-05-08-benchmark-update.md",
+      "fileSize": "migrated from daily-report",
+      "tags": [
+        "标杆研究",
+        "AI组织设计",
+        "人才发展机制",
+        "飞轮复盘",
+        "岗位重构",
+        "周度更新"
+      ],
+      "originalUrl": ""
+    },
+    {
       "id": "o001",
       "title": "LLM Wiki：让知识库成为可复利的中间层",
       "originalTitle": "LLM Wiki",
       "author": "Andrej Karpathy / Obsidian Vault",
       "publisher": "本地 Obsidian",
       "sourceType": "internal",
-      "topics": ["知识管理", "AI组织设计"],
+      "topics": [
+        "知识管理",
+        "AI组织设计"
+      ],
       "date": "2026-04-13",
       "uploadDate": "2026-05-13",
       "description": "从本地 Obsidian 知识库导入的方法论页：知识库不只是 RAG 检索，而是由 LLM 持续维护的结构化 Wiki，强调原始资料不可变、Wiki 可演化、Schema 约束流程。",
       "summaryFile": "./knowledge/wiki/karpathy-llm-wiki-method.md",
       "fileName": "Concepts/LLM Wiki.md",
       "fileSize": "",
-      "tags": ["LLM Wiki", "知识管理", "Obsidian", "Schema", "Index", "Log"],
+      "tags": [
+        "LLM Wiki",
+        "知识管理",
+        "Obsidian",
+        "Schema",
+        "Index",
+        "Log"
+      ],
       "originalUrl": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
     },
     {
@@ -79,14 +168,24 @@
       "author": "Obsidian Vault",
       "publisher": "本地 Obsidian",
       "sourceType": "internal",
-      "topics": ["AI组织设计", "职级改革", "绩效管理"],
+      "topics": [
+        "AI组织设计",
+        "职级改革",
+        "绩效管理"
+      ],
       "date": "2026-05-12",
       "uploadDate": "2026-05-13",
       "description": "围绕 AI 工具能力边界重设工程组织：精简团队、度量重构、隐性知识制度化、管理层扁平化、AI 基础设施固定投入。适合作为“角色合并 vs 专家深化”的概念底座。",
       "summaryFile": "./knowledge/concepts/ai-first-engineering-org-obsidian.md",
       "fileName": "Concepts/AI原生工程组织 AI-First Engineering Org.md",
       "fileSize": "",
-      "tags": ["AI-First", "工程组织", "管理扁平化", "AI编排者", "隐性知识"],
+      "tags": [
+        "AI-First",
+        "工程组织",
+        "管理扁平化",
+        "AI编排者",
+        "隐性知识"
+      ],
       "originalUrl": ""
     },
     {
@@ -96,14 +195,24 @@
       "author": "Obsidian Vault",
       "publisher": "本地 Obsidian",
       "sourceType": "internal",
-      "topics": ["技能组织", "人才发展", "职级改革"],
+      "topics": [
+        "技能组织",
+        "人才发展",
+        "职级改革"
+      ],
       "date": "2026-05-13",
       "uploadDate": "2026-05-13",
       "description": "围绕技能而非职位角色管理人才：从技能分类法、技能评估与匹配，到招聘、发展、薪酬和劳动力规划。对“何时新增岗位/序列，何时只加技能标签”有直接参考价值。",
       "summaryFile": "./knowledge/concepts/skills-based-organization-obsidian.md",
       "fileName": "Concepts/技能为本的组织 Skills-Based Organization.md",
       "fileSize": "",
-      "tags": ["技能分类法", "人才管理", "劳动力规划", "薪酬架构", "职级改革"],
+      "tags": [
+        "技能分类法",
+        "人才管理",
+        "劳动力规划",
+        "薪酬架构",
+        "职级改革"
+      ],
       "originalUrl": ""
     },
     {
@@ -113,14 +222,24 @@
       "author": "百度同学 / 多源综合",
       "publisher": "本地 Obsidian",
       "sourceType": "internal",
-      "topics": ["职级改革", "AI组织设计", "变革管理"],
+      "topics": [
+        "职级改革",
+        "AI组织设计",
+        "变革管理"
+      ],
       "date": "2026-04-29",
       "uploadDate": "2026-05-13",
       "description": "本地 Obsidian 中已沉淀的百度职级改革笔记：取消 T/P/E/Band/M，统一为 5-12 级，打通专业与管理通道，并从利益视角解释改革背后的筛选与激励逻辑。",
       "summaryFile": "./knowledge/wiki/baidu-level-reform-2026-obsidian.md",
       "fileName": "Sources/百度全员信 - 成长不设限 职级体系改革 2026.md",
       "fileSize": "",
-      "tags": ["百度", "职级改革", "双通道", "复合型人才", "组织敏捷"],
+      "tags": [
+        "百度",
+        "职级改革",
+        "双通道",
+        "复合型人才",
+        "组织敏捷"
+      ],
       "originalUrl": "https://mp.weixin.qq.com/s/tpp2E1I0YXXy2w02tm1jrw"
     },
     {
@@ -130,14 +249,24 @@
       "author": "陈祖鑫 / HR实名俱乐部",
       "publisher": "本地 Obsidian",
       "sourceType": "internal",
-      "topics": ["职级改革", "AI组织设计", "绩效管理"],
+      "topics": [
+        "职级改革",
+        "AI组织设计",
+        "绩效管理"
+      ],
       "date": "2026-04-29",
       "uploadDate": "2026-05-13",
       "description": "对亚马逊 Ring/Blink Builder 试点与百度职级改革的对照笔记：岗位头衔弱化、评价转向客户价值量级、白领角色更端到端和实战化，同时提示晋升梯子不可见的风险。",
       "summaryFile": "./knowledge/wiki/amazon-baidu-job-title-reform-obsidian.md",
       "fileName": "Sources/亚马逊取消白领岗位头衔与百度职级改革.md",
       "fileSize": "",
-      "tags": ["Amazon Builder", "百度", "岗位重塑", "价值导向", "组织扁平化"],
+      "tags": [
+        "Amazon Builder",
+        "百度",
+        "岗位重塑",
+        "价值导向",
+        "组织扁平化"
+      ],
       "originalUrl": "https://mp.weixin.qq.com/s/Fa9otszO-vkBLWJ4pV5ngg"
     },
     {
@@ -147,14 +276,25 @@
       "author": "知音楼 / 石墨资料库",
       "publisher": "知音楼",
       "sourceType": "internal",
-      "topics": ["人才发展", "绩效管理", "组织文化"],
+      "topics": [
+        "人才发展",
+        "绩效管理",
+        "组织文化"
+      ],
       "date": "2024-10-14",
       "uploadDate": "2026-05-13",
       "description": "通过授权知音楼会话读取到的 HR 行业资料索引页，已确认并临时解析 11 份 PDF 附件，覆盖怡安医疗趋势、美世招聘与人才趋势、上市公司人效、弹性福利、人才发展指数、腾讯全域经营组织与人才洞察等材料。当前作为 Context 与待精读清单，不发布附件原文。",
       "summaryFile": "./knowledge/wiki/zhiyinlou-hr-industry-insights-2024.md",
       "fileName": "人力资源行业洞察 2024",
       "fileSize": "",
-      "tags": ["知音楼", "HR趋势", "人才发展", "人效", "福利", "待精读"],
+      "tags": [
+        "知音楼",
+        "HR趋势",
+        "人才发展",
+        "人效",
+        "福利",
+        "待精读"
+      ],
       "originalUrl": "https://yach-doc-shimo.zhiyinlou.com/docs/0l3NVQ91mdhvN3Rp"
     },
     {
@@ -164,14 +304,28 @@
       "author": "知音楼 / LoreBase",
       "publisher": "知音楼",
       "sourceType": "internal",
-      "topics": ["人才发展", "绩效管理", "组织文化", "技能组织", "AI组织设计", "职级改革"],
+      "topics": [
+        "人才发展",
+        "绩效管理",
+        "组织文化",
+        "技能组织",
+        "AI组织设计",
+        "职级改革"
+      ],
       "date": "2026-05-13",
       "uploadDate": "2026-05-13",
       "description": "通过知音楼 LoreBase 接口递归枚举形成的知识源地图：共 331 个节点、234 份 PDF、23 个文件夹、67 个文档。该页用于后续批量精读和摘要生成，不包含 PDF 原文、下载链接或访问令牌。",
       "summaryFile": "./knowledge/wiki/zhiyinlou-hr-pdf-source-map-2026-05-13.md",
       "fileName": "https://s.tal.com/a/lXaUte",
       "fileSize": "234 PDFs indexed",
-      "tags": ["知音楼", "LoreBase", "PDF知识源", "HR趋势", "待精读", "主题索引"],
+      "tags": [
+        "知音楼",
+        "LoreBase",
+        "PDF知识源",
+        "HR趋势",
+        "待精读",
+        "主题索引"
+      ],
       "originalUrl": "https://s.tal.com/a/lXaUte"
     },
     {
@@ -181,14 +335,28 @@
       "author": "Codex 主代理 + 分类代理",
       "publisher": "OD Intelligence Center",
       "sourceType": "internal",
-      "topics": ["AI组织设计", "人才发展", "绩效管理", "职级改革", "技能组织", "领导力"],
+      "topics": [
+        "AI组织设计",
+        "人才发展",
+        "绩效管理",
+        "职级改革",
+        "技能组织",
+        "领导力"
+      ],
       "date": "2026-05-13",
       "uploadDate": "2026-05-13",
       "description": "将知音楼 HR 知识库 331 个节点、234 份 PDF 按 AI+HR、薪酬激励、组织人才、领导力、出海 HR、劳动法、咨询白皮书、推荐书籍、行业背景、学习工具十个主题重组，形成页面端可读导航和精读优先级。",
       "summaryFile": "./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md",
       "fileName": "https://s.tal.com/a/lXaUte",
       "fileSize": "331 nodes / 234 PDFs indexed",
-      "tags": ["知音楼", "主题导航", "AI+HR", "薪酬福利", "组织发展", "精读队列"],
+      "tags": [
+        "知音楼",
+        "主题导航",
+        "AI+HR",
+        "薪酬福利",
+        "组织发展",
+        "精读队列"
+      ],
       "originalUrl": "https://s.tal.com/a/lXaUte"
     },
     {
@@ -198,7 +366,12 @@
       "author": "Nina Kataeva, Vinciane Beauchene, Christoph Hilberath, Kevin Kelley, Sophie Strelczyk",
       "publisher": "BCG",
       "sourceType": "consulting",
-      "topics": ["AI组织设计", "变革管理", "战略规划", "领导力"],
+      "topics": [
+        "AI组织设计",
+        "变革管理",
+        "战略规划",
+        "领导力"
+      ],
       "date": "2026-04-23",
       "uploadDate": "2026-04-27",
       "description": "BCG 核心框架：AI-first 转型涉及 30% 技术 + 70% 人员与组织。两个真实案例（欧洲能源巨头 + 全球银行），提出能力-判断评估矩阵确定人机分工。核心结论：领导者不是拥有最好 AI 工具的公司，而是愿意围绕 AI-first 运营模型重新设计组织的公司。",
@@ -207,7 +380,14 @@
       "rawFile": "./knowledge/raw/bcg-2026-04-design-your-company-for-ai.pdf",
       "fileName": "bcg-2026-04-design-your-company-for-ai.pdf",
       "fileSize": "2.3MB",
-      "tags": ["AI-First", "运营模型", "Agent", "30-70法则", "人机协作", "端到端旅程"],
+      "tags": [
+        "AI-First",
+        "运营模型",
+        "Agent",
+        "30-70法则",
+        "人机协作",
+        "端到端旅程"
+      ],
       "originalUrl": "https://www.bcg.com/publications/2026/design-your-company-for-ai"
     },
     {
@@ -217,7 +397,11 @@
       "author": "Julie Bedard, Vinciane Beauchene",
       "publisher": "BCG",
       "sourceType": "consulting",
-      "topics": ["AI组织设计", "人才发展", "变革管理"],
+      "topics": [
+        "AI组织设计",
+        "人才发展",
+        "变革管理"
+      ],
       "date": "2026-02-04",
       "uploadDate": "2026-03-31",
       "description": "仅有约5%的组织从AI中获得了实质性财务回报。这些'面向未来'企业的三年期股东总回报约为AI落后者的4倍。价值分布遵循10-20-70法则：10%来自算法，20%来自技术，70%来自组织变革和人才。",
@@ -225,7 +409,13 @@
       "pdfFile": "./pdfs/BCG-AI-Transformation-Workforce-2026.pdf",
       "fileName": "BCG-AI-Transformation-Workforce-2026.pdf",
       "fileSize": "4.2MB",
-      "tags": ["AI转型", "劳动力转型", "组织变革", "人才赋能", "10-20-70法则"],
+      "tags": [
+        "AI转型",
+        "劳动力转型",
+        "组织变革",
+        "人才赋能",
+        "10-20-70法则"
+      ],
       "originalUrl": "https://www.bcg.com/publications/2026/ai-transformation-is-a-workforce-transformation"
     },
     {
@@ -235,7 +425,11 @@
       "author": "Deloitte",
       "publisher": "Deloitte",
       "sourceType": "consulting",
-      "topics": ["AI组织设计", "数字化转型", "战略规划"],
+      "topics": [
+        "AI组织设计",
+        "数字化转型",
+        "战略规划"
+      ],
       "date": "2025",
       "uploadDate": "2026-03-31",
       "description": "德勤关于企业AI应用的综合研究报告，涵盖AI在企业中的部署现状、挑战和最佳实践。",
@@ -243,7 +437,12 @@
       "pdfFile": "./pdfs/Deloitte-State-of-AI-Enterprise-2026.pdf",
       "fileName": "Deloitte-State-of-AI-Enterprise-2026.pdf",
       "fileSize": "3.8MB",
-      "tags": ["企业AI", "数字化转型", "AI战略", "最佳实践"],
+      "tags": [
+        "企业AI",
+        "数字化转型",
+        "AI战略",
+        "最佳实践"
+      ],
       "originalUrl": ""
     },
     {
@@ -253,14 +452,24 @@
       "author": "HR Analytics Trends",
       "publisher": "hr-analytics-trends.com",
       "sourceType": "media",
-      "topics": ["人才发展", "数字化转型"],
+      "topics": [
+        "人才发展",
+        "数字化转型"
+      ],
       "date": "2025",
       "uploadDate": "2026-04-09",
       "description": "AI 在 HR Analytics 中的十大应用方案，涵盖离职预测、招聘优化、内部人才识别、员工体验提升等场景。核心数据：招聘时间减少30%、员工满意度提升20%、内部晋升率提升30%。强调数据整合、预测分析、伦理规范是三大关键能力。",
       "summaryFile": "./knowledge/summaries/r003-hr-analytics-ai-zh.md",
       "fileName": "",
       "fileSize": "",
-      "tags": ["HR Analytics", "AI应用", "人才发展", "预测分析", "员工体验", "离职预测"],
+      "tags": [
+        "HR Analytics",
+        "AI应用",
+        "人才发展",
+        "预测分析",
+        "员工体验",
+        "离职预测"
+      ],
       "originalUrl": "https://www.hr-analytics-trends.com/blog/top-10-ai-solutions-for-hr-analytics"
     }
   ]

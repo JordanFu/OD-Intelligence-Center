@@ -1,7 +1,7 @@
 # AI 组织设计知识库 — 索引
 
 > 按 Karpathy LLM Wiki 模式维护 · LLM 负责更新 · 人类负责审核
-> 最后更新: 2026-05-13
+> 最后更新: 2026-05-18
 
 ---
 
@@ -9,6 +9,7 @@
 
 | # | 标题 | 来源 | 日期 | 标签 |
 |---|------|------|------|------|
+| 0 | [标杆研究更新：AI如何重塑组织设计](wiki/benchmark-ai-org-design-update-2026-05-08.md) | OD Intelligence Center | 2026-05-08 | AI组织设计, 人才发展机制, 飞轮复盘 |
 | 1 | [LLM Wiki：OD 情报中心知识库运维方法](wiki/karpathy-llm-wiki-method.md) | Karpathy + Obsidian | 2026-05-13 | 知识管理, LLM Wiki |
 | 2 | [Obsidian 本地知识库首批导入地图](wiki/obsidian-vault-map-2026-05-13.md) | 本地 Obsidian | 2026-05-13 | Obsidian, 知识库 |
 | 3 | [知音楼《人力资源书籍和学习资料》同步记录](wiki/zhiyinlou-hr-learning-materials.md) | 知音楼 | 2026-05-13 | 人力资源, 已读取目录 |
