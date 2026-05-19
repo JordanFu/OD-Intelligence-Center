@@ -11,6 +11,10 @@ status: 已索引来源，PDF下载待重试
 
 # GitLab：2026 SEC 8-K Filing
 
+## 一句话判断
+
+GitLab SEC 8-K 是官方披露来源，可作为核验组织调整、AI-agent-first operating model 相关说法的原始锚点。
+
 ## 入库状态
 
 - **来源机构**：GitLab
@@ -18,10 +22,32 @@ status: 已索引来源，PDF下载待重试
 - **原文 URL**：https://ir.gitlab.com/sec-filings/all-sec-filings/content/0001628280-26-023407/0001628280-26-023407.pdf
 - **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
 - **入库日期**：2026-05-19
+- **证据层级**：线索层优先；当前下载失败，不能仅凭日报上下文进入结论层。
 
-## 已知上下文
+## 核心内容
 
-该 PDF 被日报/周报作为证据引用。当前页面先完成 Raw Source 与 Wiki Source Card 建档，避免 PDF 证据只停留在日报正文中；后续精读时再补充“核心论点、关键框架、案例研究、OD 启示、与已有知识的关联”。
+- 该来源的价值在于官方披露属性，可用于核验媒体或社媒中关于 GitLab 组织调整的说法。
+- 当前本地仅保留 URL 与日报引用上下文，原文下载待重试，因此不能扩展解读。
+- 若原文确认组织压缩、小团队和 AI-agent-first 表述，可升级为海外公司案例。
+
+## 你需要关注
+
+- 优先解决下载/访问，拿到原文后核对是否真的涉及岗位、层级、薪酬或激励变化。
+- SEC 文件通常披露事实有限，不能期待它完整解释 OD 方案。
+- 适合做“官方锚点”，不适合单独做趋势结论。
+
+## 与近期研究主题的相关性
+
+| 研究主题 | 相关性 | 可怎么用 |
+|---|---|---|
+| 官方/一手材料 | 高 | 用于校验 GitLab 案例事实。 |
+| 组织压缩 | 中 | 若原文匹配上下文，可支撑小团队化和层级收敛。 |
+| 薪酬激励 | 低 | 需确认是否披露相关细节。 |
+
+## 对日报/周报的使用方式
+
+- 保持在线索池，直到原文成功下载并完成逐页核验。
+- 每日自动化可持续重试下载，或用 SEC 页面替代 PDF 入口。
 
 ## 被引用位置
 
@@ -35,23 +61,18 @@ status: 已索引来源，PDF下载待重试
 - `specials/ai-org-talent-mechanism/2026-05-16/02-talent-density.md:45`：GitLab Act 2 / SEC 8-K：组织压缩、国家收敛、小团队与 AI-agent-first operating model｜https://about.gitlab.com/blog/gitlab-act-2/ ｜
 - `specials/ai-org-talent-mechanism/2026-05-16/03-job-family-career-architecture.md:45`：GitLab Act 2 / SEC 8-K：组织压缩、国家收敛、小团队与 AI-agent-first operating model｜https://about.gitlab.com/blog/gitlab-act-2/ ｜
 - `specials/ai-org-talent-mechanism/2026-05-16/04-promotion-system.md:45`：GitLab Act 2 / SEC 8-K：组织压缩、国家收敛、小团队与 AI-agent-first operating model｜https://about.gitlab.com/blog/gitlab-act-2/ ｜
-- `specials/ai-org-talent-mechanism/2026-05-18/00-overview.md:82`：GitLab Act 2 / SEC 8-K：组织压缩、国家收敛、小团队与 AI-agent-first operating model｜https://about.gitlab.com/blog/gitlab-act-2/ ｜
-- `specials/ai-org-talent-mechanism/2026-05-18/01-flat-organization.md:48`：GitLab Act 2 / SEC 8-K：组织压缩、国家收敛、小团队与 AI-agent-first operating model｜https://about.gitlab.com/blog/gitlab-act-2/ ｜
-- `specials/ai-org-talent-mechanism/2026-05-18/02-talent-density.md:48`：GitLab Act 2 / SEC 8-K：组织压缩、国家收敛、小团队与 AI-agent-first operating model｜https://about.gitlab.com/blog/gitlab-act-2/ ｜
-- `specials/ai-org-talent-mechanism/2026-05-18/03-job-family-career-architecture.md:48`：GitLab Act 2 / SEC 8-K：组织压缩、国家收敛、小团队与 AI-agent-first operating model｜https://about.gitlab.com/blog/gitlab-act-2/ ｜
-- `specials/ai-org-talent-mechanism/2026-05-18/04-promotion-system.md:48`：GitLab Act 2 / SEC 8-K：组织压缩、国家收敛、小团队与 AI-agent-first operating model｜https://about.gitlab.com/blog/gitlab-act-2/ ｜
 - `specials/ai-org-talent-mechanism/weekly/2026-W20-quick.md:77`：GitLab Act 2 / SEC 8-K：https://about.gitlab.com/blog/gitlab-act-2/ ｜
 - `specials/ai-org-talent-mechanism/weekly/2026-W20.md:77`：GitLab Act 2 / SEC 8-K：https://about.gitlab.com/blog/gitlab-act-2/ ｜
 - `specials/ai-org-talent-mechanism/weekly/archive/2026-W20-after-rerun.md:77`：GitLab Act 2 / SEC 8-K：https://about.gitlab.com/blog/gitlab-act-2/ ｜
 - `specials/ai-org-talent-mechanism/weekly/latest-quick.md:77`：GitLab Act 2 / SEC 8-K：https://about.gitlab.com/blog/gitlab-act-2/ ｜
 - `specials/ai-org-talent-mechanism/weekly/latest.md:77`：GitLab Act 2 / SEC 8-K：https://about.gitlab.com/blog/gitlab-act-2/ ｜
 
-## 待精读问题
+## 后续精读任务
 
-- 该报告是否提供可直接支撑组织设计、岗位族群、职级、薪酬或激励机制改革的框架？
-- 报告中的数据口径、样本范围、发布日期和适用行业是什么？
-- 哪些判断可进入日报/周报结论层，哪些只能作为 Context 或线索层？
-- 是否需要提取为独立概念页、实体页或机制模板？
+- 核验报告发布日期、作者/机构、样本范围和数据口径。
+- 抽取可支撑“执行层分工合并 vs 核心专家深化”的直接证据。
+- 抽取可支撑“岗位改革背后是激励资源再配置”的薪酬、技能溢价或预算配置证据。
+- 判断是否需要拆成独立概念页、企业案例页或机制模板。
 
 ## 与已有知识的关联
 

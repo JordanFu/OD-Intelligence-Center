@@ -46,17 +46,19 @@
 <!-- PDF_AUTO_INDEX_START -->
 ## PDF 自动入库索引
 
-> 从日报、周报和专题报告中自动发现 PDF 证据源；先完成来源、原文、引用上下文和追溯链接建档，后续再逐份精读摘要。
+> 从日报、周报和专题报告中自动发现 PDF 证据源；每份报告必须呈现核心内容、关注重点、与近期研究主题的相关性和证据层级，避免只留下引用路径。
 
-| 标题 | 来源 | 状态 | 引用次数 |
-|---|---|---|---|
-| [GitLab：2026 SEC 8-K Filing](wiki/pdf-source-gitlab-gitlab-2026-sec-8-k-filing.md) | GitLab | 已索引待重试 | 20 |
-| [BCG：AI-First Organization](wiki/pdf-source-bcg-bcg-ai-first-organization.md) | BCG | 已下载原文 | 3 |
-| [WEF：Organizational Transformation in the Age of AI](wiki/pdf-source-world-economic-forum-wef-organizational-transformation-in-the-age-of-ai.md) | World Economic Forum | 已下载原文 | 3 |
-| [Anthropic：2026 Agentic Coding Trends Report](wiki/pdf-source-anthropic-anthropic-2026-agentic-coding-trends-report.md) | Anthropic | 已下载原文 | 1 |
-| [BCG：AI Radar 2026](wiki/pdf-source-bcg-bcg-ai-radar-2026.md) | BCG | 已索引待重试 | 3 |
-| [AIHR：HR Priorities 2026 Report](wiki/pdf-source-aihr-aihr-hr-priorities-2026-report.md) | AIHR | 已下载原文 | 1 |
-| [EY：Future of Pay Report 2026](wiki/pdf-source-ey-ey-future-of-pay-report-2026.md) | EY | 已下载原文 | 28 |
+| 标题 | 来源 | 关注重点 | 相关性 | 状态 |
+|---|---|---|---|---|
+| [GitLab：2026 SEC 8-K Filing](wiki/pdf-source-gitlab-gitlab-2026-sec-8-k-filing.md) | GitLab | 官方披露、组织压缩、AI-agent-first 待核验 | 中高相关：公司案例核验 | 已索引待重试，引用 15 次 |
+| [BCG：AI-First Organization](wiki/pdf-source-bcg-bcg-ai-first-organization.md) | BCG | AI 默认执行、端到端流程重构、人机编排 | 强相关：组织与岗位重构 | 已下载原文，引用 3 次 |
+| [WEF：Organizational Transformation in the Age of AI](wiki/pdf-source-world-economic-forum-wef-organizational-transformation-in-the-age-of-ai.md) | World Economic Forum | 工作流重构、决策权、AI 参与执行 | 强相关：战略到组织机制 | 已下载原文，引用 3 次 |
+| [Anthropic：2026 Agentic Coding Trends Report](wiki/pdf-source-anthropic-anthropic-2026-agentic-coding-trends-report.md) | Anthropic | Agentic coding、工程师角色重塑、人机协作 | 强相关：产品工程一体化 | 已下载原文，引用 1 次 |
+| [BCG：AI Radar 2026](wiki/pdf-source-bcg-bcg-ai-radar-2026.md) | BCG | AI 投资、价值兑现、组织阻碍待核验 | 中相关：战略背景 | 已索引待重试，引用 3 次 |
+| [BCG + MIT Sloan：The Emerging Agentic Enterprise](wiki/pdf-source-bcg-bcg-mit-sloan-the-emerging-agentic-enterprise.md) | BCG | Agentic enterprise、中层层级、组织结构变量 | 强相关：扁平化与管理层级 | 已索引待重试，引用 5 次 |
+| [AIHR：HR Priorities 2026 Report](wiki/pdf-source-aihr-aihr-hr-priorities-2026-report.md) | AIHR | 技能本位组织、HR 重构、skill count | 强相关：岗位与技能体系 | 已下载原文，引用 1 次 |
+| [EY：Future of Pay Report 2026](wiki/pdf-source-ey-ey-future-of-pay-report-2026.md) | EY | 技能薪酬、生产率锚点、AI 人才溢价 | 强相关：薪酬与激励机制 | 已下载原文，引用 38 次 |
+| [Payscale：2026 Compensation Best Practices Report](wiki/pdf-source-payscale-payscale-2026-compensation-best-practices-report.md) | Payscale | AI 技能定价、薪酬公平、薪酬基准、job management | 强相关：薪酬架构与激励资源 | 已下载原文，引用 2 次 |
 <!-- PDF_AUTO_INDEX_END -->
 
 ## 操作日志

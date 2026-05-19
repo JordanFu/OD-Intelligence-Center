@@ -6,10 +6,14 @@ ingested: 2026-05-19
 sourceFile: ../knowledge/raw/ey-ey-future-of-pay-report-2026.pdf
 sourceUrl: https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf
 tags: [AI组织设计, 绩效管理]
-status: 已下载原始PDF，待精读摘要
+status: 已下载原始PDF，已生成结构化初筛卡片
 ---
 
 # EY：Future of Pay Report 2026
+
+## 一句话判断
+
+EY 把未来薪酬改革连接到技能、绩效、AI 人才、生产率和治理，适合支撑“岗位改革背后是激励资源再配置”。
 
 ## 入库状态
 
@@ -18,10 +22,32 @@ status: 已下载原始PDF，待精读摘要
 - **原文 URL**：https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf
 - **原始文件**：`knowledge/raw/ey-ey-future-of-pay-report-2026.pdf`
 - **入库日期**：2026-05-19
+- **证据层级**：结论层可用，但具体薪酬数字需按地区/样本复核。
 
-## 已知上下文
+## 核心内容
 
-该 PDF 被日报/周报作为证据引用。当前页面先完成 Raw Source 与 Wiki Source Card 建档，避免 PDF 证据只停留在日报正文中；后续精读时再补充“核心论点、关键框架、案例研究、OD 启示、与已有知识的关联”。
+- 报告指出传统薪酬和总奖酬方式不足以应对 AI 技能、混合人机工作和高绩效预期。
+- 薪酬锚点从 headcount/年资进一步转向生产率、技能、业务影响和 AI 采用效果。
+- 变量薪酬、长期激励、福利和治理被放到同一套 future-ready rewards 体系中讨论。
+
+## 你需要关注
+
+- 这是验证第三个假设的关键来源：岗位/族群变革常常是为稀缺人才和关键贡献争取激励空间。
+- 可用于设计“不要新增序列也能给钱”的工具箱：带宽、稀缺系数、项目激励、技能津贴、LTI。
+- 注意地区差异：EY India 报告不能直接等同全球薪酬实践。
+
+## 与近期研究主题的相关性
+
+| 研究主题 | 相关性 | 可怎么用 |
+|---|---|---|
+| 薪酬架构 | 高 | 支撑带宽调整、技能溢价、变量薪酬和长期激励设计。 |
+| 岗位架构 | 中 | 说明岗位架构应与薪酬架构适度解耦。 |
+| 绩效管理 | 高 | 提示绩效口径要从活动转向产出、采用和业务影响。 |
+
+## 对日报/周报的使用方式
+
+- 适合放在周报“对本课题的落地启发”中，形成激励工具箱。
+- 后续要补充薪酬数据库/JD 薪资区间来验证 AI 技能溢价。
 
 ## 被引用位置
 
@@ -43,23 +69,33 @@ status: 已下载原始PDF，待精读摘要
 - `specials/ai-org-talent-mechanism/2026-05-17/02-talent-density.md:49`：EY Future of Pay 2026：AI/digital skill premium、skills-based pay、sunset clauses｜
 - `specials/ai-org-talent-mechanism/2026-05-17/03-job-family-career-architecture.md:49`：EY Future of Pay 2026：AI/digital skill premium、skills-based pay、sunset clauses｜
 - `specials/ai-org-talent-mechanism/2026-05-17/04-promotion-system.md:49`：EY Future of Pay 2026：AI/digital skill premium、skills-based pay、sunset clauses｜
-- `specials/ai-org-talent-mechanism/2026-05-18/00-overview.md:85`：EY Future of Pay 2026：AI/digital skill premium、skills-based pay、sunset clauses｜
-- `specials/ai-org-talent-mechanism/2026-05-18/01-flat-organization.md:51`：EY Future of Pay 2026：AI/digital skill premium、skills-based pay、sunset clauses｜
-- `specials/ai-org-talent-mechanism/2026-05-18/02-talent-density.md:51`：EY Future of Pay 2026：AI/digital skill premium、skills-based pay、sunset clauses｜
-- `specials/ai-org-talent-mechanism/2026-05-18/03-job-family-career-architecture.md:51`：EY Future of Pay 2026：AI/digital skill premium、skills-based pay、sunset clauses｜
-- `specials/ai-org-talent-mechanism/2026-05-18/04-promotion-system.md:51`：EY Future of Pay 2026：AI/digital skill premium、skills-based pay、sunset clauses｜
+- `specials/ai-org-talent-mechanism/2026-05-18/00-overview.md:23`：人才密度 ↔ 岗位序列：当组织无法用 job architecture+skills taxonomy 表达稀缺能力并定价时，会把问题推回“新序列/新 title”；于是岗位体系膨胀、career path 混乱。
+- `specials/ai-org-talent-mechanism/2026-05-18/00-overview.md:44`：晋升激励：保留窗口与校准；把 AI 贡献写入证据包；用高频激励分流晋升压力；技能溢价要有 sunset 与 audit。
+- `specials/ai-org-talent-mechanism/2026-05-18/02-talent-density.md:15`：EY《Future of Pay 2026》报告（PDF）提出：技能溢价更频繁校准（半年/季度）、pay bands 叠加 skill tiers 与熟练度；并建议 eligibility criteria、sunset clauses 与审计机制以管理公平与风险。来源：EY 报告 PDF。
+- `specials/ai-org-talent-mechanism/2026-05-18/02-talent-density.md:31`：- 证据基础：EY 提出 skill premiums 的频繁校准、sunset clauses 与审计；Payscale 提示溢价实践并不普遍；HRD 给出市场溢价信号。 ｜ https://www.globenewswire.com/news-release/2026/02/24/3243682/0/en/Payscale-s-2026-Compensa
+- `specials/ai-org-talent-mechanism/2026-05-18/02-talent-density.md:63`：EY 提出的“频繁校准 + sunset + audit”增加组织治理成本，可能引发 HR/业务的执行阻力。
+- `specials/ai-org-talent-mechanism/2026-05-18/02-talent-density.md:81`：权威媒体/咨询：Deloitte（84%未重设计岗位）；EY（技能溢价治理）；Payscale（AI pay gap）。https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html ｜  ｜ https://www.globen
+- `specials/ai-org-talent-mechanism/2026-05-18/02-talent-density.md:112`：EY Future of Pay 2026（PDF）：
+- `specials/ai-org-talent-mechanism/2026-05-18/03-job-family-career-architecture.md:24`：- 证据基础：专题二中 EY/Payscale 显示技能溢价与治理成为底层议题；当 pay tools 不足时，业务更倾向用 title/序列来“合理化”溢价。 ｜ https://www.globenewswire.com/news-release/2026/02/24/3243682/0/en/Payscale-s-2026-Compensation-B
+- `specials/ai-org-talent-mechanism/2026-05-18/03-job-family-career-architecture.md:80`：权威媒体/咨询：Deloitte（岗位未重设计数据）；EY/Payscale（技能溢价与治理矛盾，支撑“岗位诉求往往是薪酬诉求”）。https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html ｜  ｜ https://www.
+- `specials/ai-org-talent-mechanism/2026-05-18/03-job-family-career-architecture.md:112`：EY Future of Pay 2026（PDF）：
+- `specials/ai-org-talent-mechanism/2026-05-18/04-promotion-system.md:15`：EY《Future of Pay 2026》报告（PDF）提出：技能溢价与 pay bands 需更频繁校准，并建议 eligibility criteria、sunset clauses 与 audit 机制管理公平与风险（与晋升‑调薪联动治理高度相关）。
+- `specials/ai-org-talent-mechanism/2026-05-18/04-promotion-system.md:29`：- 证据基础：EY 提出技能溢价应频繁校准、设置 sunset 与审计；Payscale 提示现实中溢价实践不普遍。 ｜ https://www.globenewswire.com/news-release/2026/02/24/3243682/0/en/Payscale-s-2026-Compensation-Best-Practices-Report-R
+- `specials/ai-org-talent-mechanism/2026-05-18/04-promotion-system.md:77`：晋升规则创新的关键不是“窗口 vs 随时”，而是“证据包标准”与“校准治理能力”。Microsoft WIT 的组织级可重复机制与 EY 的治理建议，都指向“把不可见贡献变成可审计证据”。https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-o
+- `specials/ai-org-talent-mechanism/2026-05-18/04-promotion-system.md:82`：官方/一手：Microsoft WIT；EY Future of Pay（PDF）；Payscale 报告（新闻稿/正文）。https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organizatio
+- `specials/ai-org-talent-mechanism/2026-05-18/04-promotion-system.md:115`：EY Future of Pay 2026（PDF）：
 - `specials/ai-org-talent-mechanism/weekly/2026-W20-quick.md:83`：EY Future of Pay 2026：
 - `specials/ai-org-talent-mechanism/weekly/2026-W20.md:83`：EY Future of Pay 2026：
 - `specials/ai-org-talent-mechanism/weekly/archive/2026-W20-after-rerun.md:83`：EY Future of Pay 2026：
 - `specials/ai-org-talent-mechanism/weekly/latest-quick.md:83`：EY Future of Pay 2026：
 - `specials/ai-org-talent-mechanism/weekly/latest.md:83`：EY Future of Pay 2026：
 
-## 待精读问题
+## 后续精读任务
 
-- 该报告是否提供可直接支撑组织设计、岗位族群、职级、薪酬或激励机制改革的框架？
-- 报告中的数据口径、样本范围、发布日期和适用行业是什么？
-- 哪些判断可进入日报/周报结论层，哪些只能作为 Context 或线索层？
-- 是否需要提取为独立概念页、实体页或机制模板？
+- 核验报告发布日期、作者/机构、样本范围和数据口径。
+- 抽取可支撑“执行层分工合并 vs 核心专家深化”的直接证据。
+- 抽取可支撑“岗位改革背后是激励资源再配置”的薪酬、技能溢价或预算配置证据。
+- 判断是否需要拆成独立概念页、企业案例页或机制模板。
 
 ## 与已有知识的关联
 
