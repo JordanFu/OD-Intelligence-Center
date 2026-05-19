@@ -161,7 +161,7 @@ function topicMarkdown(topic) {
 
 > 更新日期：${todayShanghai()}  
 > 用途：这是四课题研究的“滚动母稿”，不是某一天的日报。日报负责记录新增事实、Context 和线索；周报负责做阶段复盘；基线档案负责沉淀稳定判断、证据账本和待验证问题。  
-> 自动化规则：每日/周报与 PDF 入库后自动回写证据账本；只有多源互证或一手材料足够强的内容，才进入稳定判断。
+> 自动化规则：每日/周报与 PDF 入库后自动回写证据账本；正式重跑遵循 research-protocol.md 的多代理并行与主代理交叉证伪机制；只有多源互证或一手材料足够强的内容，才进入稳定判断。
 
 ## 一句话基线判断
 
@@ -206,7 +206,7 @@ function writeBaselineIndex() {
   <p>${topic.stableJudgments[0]}</p>
   <a href="./${topic.slug}.html">查看基线档案</a>
 </article>`).join('\n');
-  const html = `<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>AI时代组织与人才机制四课题滚动基线</title><style>:root{--bg:#0f1117;--surface:#171a24;--border:#31374b;--text:#eef2fb;--text2:#b2bad0;--green:#34d399;--accent:#7c92ff}*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",sans-serif;background:linear-gradient(180deg,rgba(124,146,255,.09),transparent 320px),var(--bg);color:var(--text);line-height:1.75}main{max-width:1120px;margin:auto;padding:28px 24px 72px}.btn{display:inline-flex;padding:8px 14px;border:1px solid var(--border);border-radius:9px;color:var(--text);text-decoration:none;background:#171a24;font-weight:800}.hero,.card,.note{background:rgba(23,26,36,.94);border:1px solid var(--border);border-radius:18px;padding:24px;margin:14px 0}.hero{padding:30px}.badge{display:inline-flex;color:#07130f;background:var(--green);border-radius:999px;padding:4px 10px;font-size:12px;font-weight:900}h1{font-size:clamp(30px,4vw,48px);line-height:1.12;margin:14px 0}p{color:var(--text2)}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.card h2{margin-top:0}.card a{display:inline-flex;margin-top:10px;color:white;background:var(--accent);border-radius:9px;padding:8px 12px;text-decoration:none;font-weight:900}.note strong{color:var(--text)}@media(max-width:820px){main{padding:18px 12px 48px}.grid{grid-template-columns:1fr}}</style></head><body><main><a class="btn" href="../../../index.html">返回 OD 情报中心</a><section class="hero"><span class="badge">滚动基线 · 自动回写</span><h1>AI时代组织与人才机制四课题滚动基线</h1><p>基线档案是研究母稿：沉淀稳定判断、证据账本、Context 与待验证问题。日报负责当天新增，周报负责阶段复盘，基线负责把多天积累的证据变成可复用判断。</p></section><section class="grid">${cards}</section><section class="note"><h2>维护原则</h2><p><strong>结论层</strong>只接收一手材料或多源互证；<strong>Context层</strong>保留背景、反例、冲突和弱信号；<strong>线索层</strong>保留单点素材和下一步追踪问题。自动化每天更新证据账本，但不把弱信号硬凑成结论。</p></section></main></body></html>`;
+  const html = `<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>AI时代组织与人才机制四课题滚动基线</title><style>:root{--bg:#0f1117;--surface:#171a24;--border:#31374b;--text:#eef2fb;--text2:#b2bad0;--green:#34d399;--accent:#7c92ff}*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",sans-serif;background:linear-gradient(180deg,rgba(124,146,255,.09),transparent 320px),var(--bg);color:var(--text);line-height:1.75}main{max-width:1120px;margin:auto;padding:28px 24px 72px}.btn{display:inline-flex;padding:8px 14px;border:1px solid var(--border);border-radius:9px;color:var(--text);text-decoration:none;background:#171a24;font-weight:800}.hero,.card,.note{background:rgba(23,26,36,.94);border:1px solid var(--border);border-radius:18px;padding:24px;margin:14px 0}.hero{padding:30px}.badge{display:inline-flex;color:#07130f;background:var(--green);border-radius:999px;padding:4px 10px;font-size:12px;font-weight:900}h1{font-size:clamp(30px,4vw,48px);line-height:1.12;margin:14px 0}p{color:var(--text2)}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.card h2{margin-top:0}.card a{display:inline-flex;margin-top:10px;color:white;background:var(--accent);border-radius:9px;padding:8px 12px;text-decoration:none;font-weight:900}.note strong{color:var(--text)}@media(max-width:820px){main{padding:18px 12px 48px}.grid{grid-template-columns:1fr}}</style></head><body><main><a class="btn" href="../../../index.html">返回 OD 情报中心</a><section class="hero"><span class="badge">滚动基线 · 自动回写</span><h1>AI时代组织与人才机制四课题滚动基线</h1><p>基线档案是研究母稿：沉淀稳定判断、证据账本、Context 与待验证问题。日报负责当天新增，周报负责阶段复盘，基线负责把多天积累的证据变成可复用判断。</p><p><a class="btn" href="../research-protocol.html">查看多代理研究协议</a></p></section><section class="grid">${cards}</section><section class="note"><h2>维护原则</h2><p><strong>结论层</strong>只接收一手材料或多源互证；<strong>Context层</strong>保留背景、反例、冲突和弱信号；<strong>线索层</strong>保留单点素材和下一步追踪问题。自动化每天更新证据账本，但不把弱信号硬凑成结论。</p></section></main></body></html>`;
   fs.writeFileSync(path.join(baselineDir, 'index.html'), html);
   const md = `# AI时代组织与人才机制四课题滚动基线
 
@@ -220,6 +220,7 @@ ${topics.map((topic) => `- [${topic.title}](./${topic.slug}.html)：${topic.stab
 - Context 层保留背景、反例、冲突和弱信号。
 - 线索层保留单点素材和下一步追踪问题。
 - 自动化每天更新证据账本，但不把弱信号硬凑成结论。
+- 正式重跑采用多代理并行：四课题专题代理 + 四渠道证据代理 + 主代理交叉证伪。
 `;
   fs.writeFileSync(path.join(baselineDir, 'index.md'), md);
 }
