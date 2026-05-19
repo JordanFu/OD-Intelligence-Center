@@ -27,12 +27,14 @@
 | 2026-05-16 | [日报](../2026-05-16/03-job-family-career-architecture.html) | 线索层/待验证 | 当日未抽取到核心判断，保留源文档待人工复核。 | 暂无单独 Context 摘要。 | - 采集 AI governance/agent ops JD。 |
 | 2026-05-17 | [日报](../2026-05-17/03-job-family-career-architecture.html) | 线索层/待验证 | 当日未抽取到核心判断，保留源文档待人工复核。 | 暂无单独 Context 摘要。 | - 采集 AI governance/agent ops JD。 |
 | 2026-05-18 | [日报](../2026-05-18/03-job-family-career-architecture.html) | 线索层/待验证 | 口径：本专题优先回答三个问题：岗位边界是否变宽？哪些能力更专业化并产生溢价？当业务要求“新建岗位/族群/序列”时，什么时候其实是在争取薪酬与激励空间？ | 口径：本专题优先回答三个问题：岗位边界是否变宽？哪些能力更专业化并产生溢价？当业务要求“新建岗位/族群/序列”时，什么时候其实是在争取薪酬与激励空间？ | 口径：本专题优先回答三个问题：岗位边界是否变宽？哪些能力更专业化并产生溢价？当业务要求“新建岗位/族群/序列”时，什么时候其实是在争取薪酬与激励空间？ |
+| 2026-05-19 | [日报](../2026-05-19/03-job-family-career-architecture.html) | Context层强证据 | 1. **AI operating model 正在从工具层走向组织层。** IBM、Microsoft、Deloitte、McKinsey 的材料共同指向 agent、人、数据、流程和治理的一体化重构。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 
 ## 知识库与 PDF 证据关联
 
 | 资料 | 对本专题的价值 |
 |---|---|
 | [Obsidian 本地知识库](./knowledge/wiki/obsidian-vault-map-2026-05-13.md) | 本地 Vault 共识别 43 篇 Markdown，已优先导入 LLM Wiki、AI 原生工程组织、技能为本组织、百度职级改革、亚马逊 Builder 等与 OD 情报中心强相关内容。 |
+| [CFTE：AI Proficiency Framework](./knowledge/wiki/pdf-source-cfte-2026-04-ai-proficiency-framework.md) | CFTE 提出的专业劳动力 AI 熟练度参考框架：三层公开等级、六档内部发展模型、十个能力域，以及 knowledge/skills/behaviours 三类评估维度。适合用于 AI 能力盘点、岗位技能标签、人才发展… |
 | [技能为本的组织：职位、技能与薪酬架构的连接](./knowledge/concepts/skills-based-organization-obsidian.md) | 围绕技能而非职位角色管理人才：从技能分类法、技能评估与匹配，到招聘、发展、薪酬和劳动力规划。对“何时新增岗位/序列，何时只加技能标签”有直接参考价值。 |
 | [百度职级体系改革：从多轨标签到 5-12 数字体系](./knowledge/wiki/baidu-level-reform-2026-obsidian.md) | 本地 Obsidian 中已沉淀的百度职级改革笔记：取消 T/P/E/Band/M，统一为 5-12 级，打通专业与管理通道，并从利益视角解释改革背后的筛选与激励逻辑。 |
 | [亚马逊 Builder 与百度职级改革的共同趋势](./knowledge/wiki/amazon-baidu-job-title-reform-obsidian.md) | 对亚马逊 Ring/Blink Builder 试点与百度职级改革的对照笔记：岗位头衔弱化、评价转向客户价值量级、白领角色更端到端和实战化，同时提示晋升梯子不可见的风险。 |
@@ -55,4 +57,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-05-18｜[打开专题日报](../2026-05-18/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-05-18/03-job-family-career-architecture.md`
+- 最新日报：2026-05-19｜[打开专题日报](../2026-05-19/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-05-19/03-job-family-career-architecture.md`

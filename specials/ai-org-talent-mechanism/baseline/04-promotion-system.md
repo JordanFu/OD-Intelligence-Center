@@ -27,6 +27,7 @@
 | 2026-05-16 | [日报](../2026-05-16/04-promotion-system.html) | 线索层/待验证 | 当日未抽取到核心判断，保留源文档待人工复核。 | 暂无单独 Context 摘要。 | - 找公司正式晋升表单是否加入 AI workflow impact。 |
 | 2026-05-17 | [日报](../2026-05-17/04-promotion-system.html) | 线索层/待验证 | 当日未抽取到核心判断，保留源文档待人工复核。 | 暂无单独 Context 摘要。 | - 找公司正式晋升表单是否加入 AI workflow impact。 |
 | 2026-05-18 | [日报](../2026-05-18/04-promotion-system.html) | 线索层/待验证 | 口径：晋升是组织治理机制，不是个人激励工具；AI 时代需要把“AI 贡献”纳入证据层，但不能把“工具使用”当做晋升口径本身。 | 口径：晋升是组织治理机制，不是个人激励工具；AI 时代需要把“AI 贡献”纳入证据层，但不能把“工具使用”当做晋升口径本身。 | 口径：晋升是组织治理机制，不是个人激励工具；AI 时代需要把“AI 贡献”纳入证据层，但不能把“工具使用”当做晋升口径本身。 |
+| 2026-05-19 | [日报](../2026-05-19/04-promotion-system.html) | Context层强证据 | 1. **AI operating model 正在从工具层走向组织层。** IBM、Microsoft、Deloitte、McKinsey 的材料共同指向 agent、人、数据、流程和治理的一体化重构。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 
 ## 知识库与 PDF 证据关联
 
@@ -52,4 +53,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-05-18｜[打开专题日报](../2026-05-18/04-promotion-system.html)｜源文件：`specials/ai-org-talent-mechanism/2026-05-18/04-promotion-system.md`
+- 最新日报：2026-05-19｜[打开专题日报](../2026-05-19/04-promotion-system.html)｜源文件：`specials/ai-org-talent-mechanism/2026-05-19/04-promotion-system.md`

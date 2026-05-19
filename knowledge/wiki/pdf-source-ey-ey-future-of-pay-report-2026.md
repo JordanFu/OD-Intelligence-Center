@@ -84,8 +84,16 @@ EY 把未来薪酬改革连接到技能、绩效、AI 人才、生产率和治�
 - `specials/ai-org-talent-mechanism/2026-05-18/04-promotion-system.md:77`：晋升规则创新的关键不是“窗口 vs 随时”，而是“证据包标准”与“校准治理能力”。Microsoft WIT 的组织级可重复机制与 EY 的治理建议，都指向“把不可见贡献变成可审计证据”。https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-o
 - `specials/ai-org-talent-mechanism/2026-05-18/04-promotion-system.md:82`：官方/一手：Microsoft WIT；EY Future of Pay（PDF）；Payscale 报告（新闻稿/正文）。https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organizatio
 - `specials/ai-org-talent-mechanism/2026-05-18/04-promotion-system.md:115`：EY Future of Pay 2026（PDF）：
+- `specials/ai-org-talent-mechanism/2026-05-19/00-overview.md:49`：EY Future of Pay 2026
+- `specials/ai-org-talent-mechanism/2026-05-19/01-flat-organization.md:37`：EY Future of Pay 2026
+- `specials/ai-org-talent-mechanism/2026-05-19/02-talent-density.md:37`：EY Future of Pay 2026
+- `specials/ai-org-talent-mechanism/2026-05-19/03-job-family-career-architecture.md:37`：EY Future of Pay 2026
+- `specials/ai-org-talent-mechanism/2026-05-19/04-promotion-system.md:37`：EY Future of Pay 2026
 - `specials/ai-org-talent-mechanism/weekly/2026-W20-quick.md:83`：EY Future of Pay 2026：
 - `specials/ai-org-talent-mechanism/weekly/2026-W20.md:83`：EY Future of Pay 2026：
+- `specials/ai-org-talent-mechanism/weekly/2026-W21-detailed.md:48`：EY Future of Pay 2026
+- `specials/ai-org-talent-mechanism/weekly/2026-W21-quick.md:28`：EY Future of Pay 2026
+- `specials/ai-org-talent-mechanism/weekly/2026-W21.md:28`：EY Future of Pay 2026
 - `specials/ai-org-talent-mechanism/weekly/archive/2026-W20-after-rerun.md:83`：EY Future of Pay 2026：
 - `specials/ai-org-talent-mechanism/weekly/latest-quick.md:83`：EY Future of Pay 2026：
 - `specials/ai-org-talent-mechanism/weekly/latest.md:83`：EY Future of Pay 2026：

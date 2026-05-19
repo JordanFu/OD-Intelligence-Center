@@ -20,7 +20,7 @@
 - 待重试：BCG：AI Radar 2026（引用 3 次）
 - 待重试：BCG + MIT Sloan：The Emerging Agentic Enterprise（引用 5 次）
 - 已下载：AIHR：HR Priorities 2026 Report（引用 1 次）
-- 已下载：EY：Future of Pay Report 2026（引用 38 次）
+- 已下载：EY：Future of Pay Report 2026（引用 46 次）
 - 已下载：Payscale：2026 Compensation Best Practices Report（引用 2 次）
 ## [2026-05-18] migrate | 标杆研究更新报告迁入知识库
 - 从工作日报模块迁入 `daily-report/2026-05-08-benchmark-update.md`，新增知识库页面 `wiki/benchmark-ai-org-design-update-2026-05-08.md`。

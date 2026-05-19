@@ -27,12 +27,14 @@
 | 2026-05-16 | [日报](../2026-05-16/01-flat-organization.html) | 线索层/待验证 | 当日未抽取到核心判断，保留源文档待人工复核。 | 暂无单独 Context 摘要。 | - 找一手材料验证公司是否真的减少层级。 |
 | 2026-05-17 | [日报](../2026-05-17/01-flat-organization.html) | 线索层/待验证 | 当日未抽取到核心判断，保留源文档待人工复核。 | 暂无单独 Context 摘要。 | - 找一手材料验证公司是否真的减少层级。 |
 | 2026-05-18 | [日报](../2026-05-18/01-flat-organization.html) | 结论层候选 | 口径：事实与判断分离；高置信判断必须能回溯到一手/权威证据。 | 口径：事实与判断分离；高置信判断必须能回溯到一手/权威证据。 | 口径：事实与判断分离；高置信判断必须能回溯到一手/权威证据。 |
+| 2026-05-19 | [日报](../2026-05-19/01-flat-organization.html) | Context层强证据 | 1. **AI operating model 正在从工具层走向组织层。** IBM、Microsoft、Deloitte、McKinsey 的材料共同指向 agent、人、数据、流程和治理的一体化重构。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 
 ## 知识库与 PDF 证据关联
 
 | 资料 | 对本专题的价值 |
 |---|---|
 | [Obsidian 本地知识库](./knowledge/wiki/obsidian-vault-map-2026-05-13.md) | 本地 Vault 共识别 43 篇 Markdown，已优先导入 LLM Wiki、AI 原生工程组织、技能为本组织、百度职级改革、亚马逊 Builder 等与 OD 情报中心强相关内容。 |
+| [CFTE：AI Proficiency Framework](./knowledge/wiki/pdf-source-cfte-2026-04-ai-proficiency-framework.md) | CFTE 提出的专业劳动力 AI 熟练度参考框架：三层公开等级、六档内部发展模型、十个能力域，以及 knowledge/skills/behaviours 三类评估维度。适合用于 AI 能力盘点、岗位技能标签、人才发展… |
 | [标杆研究更新：AI如何重塑组织设计](./knowledge/wiki/benchmark-ai-org-design-update-2026-05-08.html) | 从工作日报模块迁入知识库的标杆研究更新报告：基于 04-28 至 05-08 期间 80+ 条信息，聚焦 AI 时代人才发展机制创新与飞轮人员待优化复盘，整理 Deloitte、BCG、IBM、Lovable、百度、K… |
 | [AI 原生工程组织：团队、度量与管理层级重构](./knowledge/concepts/ai-first-engineering-org-obsidian.md) | 围绕 AI 工具能力边界重设工程组织：精简团队、度量重构、隐性知识制度化、管理层扁平化、AI 基础设施固定投入。适合作为“角色合并 vs 专家深化”的概念底座。 |
 | [技能为本的组织：职位、技能与薪酬架构的连接](./knowledge/concepts/skills-based-organization-obsidian.md) | 围绕技能而非职位角色管理人才：从技能分类法、技能评估与匹配，到招聘、发展、薪酬和劳动力规划。对“何时新增岗位/序列，何时只加技能标签”有直接参考价值。 |
@@ -43,7 +45,6 @@
 | [GitLab：2026 SEC 8-K Filing](./knowledge/wiki/pdf-source-gitlab-gitlab-2026-sec-8-k-filing.md) | GitLab SEC 8-K 是官方披露来源，可作为核验组织调整、AI-agent-first operating model 相关说法的原始锚点。 关注重点：官方披露、组织压缩、AI-agent-first 待核验。… |
 | [BCG：AI-First Organization](./knowledge/wiki/pdf-source-bcg-bcg-ai-first-organization.md) | BCG 把 AI-First 组织定义为从“工具辅助”走向“AI 默认执行、人类编排监督”的经营模式重构。 关注重点：AI 默认执行、端到端流程重构、人机编排。相关性：强相关：组织与岗位重构。 |
 | [BCG：AI Radar 2026](./knowledge/wiki/pdf-source-bcg-bcg-ai-radar-2026.md) | BCG AI Radar 2026 预计可用于观察 AI 投资、价值兑现和组织阻碍，但当前原文下载失败，需要重试后再精读。 关注重点：AI 投资、价值兑现、组织阻碍待核验。相关性：中相关：战略背景。 |
-| [AIHR：HR Priorities 2026 Report](./knowledge/wiki/pdf-source-aihr-aihr-hr-priorities-2026-report.md) | AIHR 把 2026 HR 重点归纳为共领导 AI 转型、把 AI 产能收益再投资增长、从 headcount 转向 skill count。 关注重点：技能本位组织、HR 重构、skill count。相关性：强相… |
 
 ## 当前不可越界的结论
 
@@ -59,4 +60,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-05-18｜[打开专题日报](../2026-05-18/01-flat-organization.html)｜源文件：`specials/ai-org-talent-mechanism/2026-05-18/01-flat-organization.md`
+- 最新日报：2026-05-19｜[打开专题日报](../2026-05-19/01-flat-organization.html)｜源文件：`specials/ai-org-talent-mechanism/2026-05-19/01-flat-organization.md`
