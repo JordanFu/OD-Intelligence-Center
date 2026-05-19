@@ -18,6 +18,7 @@
 | 6 | [亚马逊 Builder 与百度职级改革](wiki/amazon-baidu-job-title-reform-obsidian.md) | Obsidian | 2026-05-13 | 岗位重塑, 职级改革 |
 | 7 | [知音楼资料索引：人力资源行业洞察 2024](wiki/zhiyinlou-hr-industry-insights-2024.md) | 知音楼 | 2026-05-13 | HR趋势, 人才发展, 人效, 福利 |
 | 8 | [知音楼 PDF 知识源地图](wiki/zhiyinlou-hr-pdf-source-map-2026-05-13.md) | 知音楼 | 2026-05-13 | PDF知识源, 待精读 |
+| 9 | [CFTE：AI Proficiency Framework](wiki/pdf-source-cfte-2026-04-ai-proficiency-framework.md) | CFTE | 2026-04 | AI能力框架, 人才发展, 技能组织 |
 | 1 | [BCG: Design Your Company for AI](wiki/bcg-2026-04-design-company-for-ai.md) | BCG | 2026-04 | AI组织设计, 运营模型, Agent |
 | 2 | [BCG: AI转型本质上是劳动力转型](summaries/r001-bcg-zh.md) | BCG | 2026-02 | AI转型, 10-20-70法则 |
 | 3 | [Deloitte: 企业AI应用现状](summaries/r002-deloitte-zh.md) | Deloitte | 2025 | 数字化转型, AI战略 |
@@ -42,6 +43,7 @@
 | # | 文件 | 来源 | 日期 |
 |---|------|------|------|
 | 1 | [raw/bcg-2026-04-design-your-company-for-ai.pdf](raw/bcg-2026-04-design-your-company-for-ai.pdf) | BCG | 2026-04-23 |
+| 2 | [raw/cfte-2026-04-ai-proficiency-framework.pdf](raw/cfte-2026-04-ai-proficiency-framework.pdf) | CFTE | 2026-04 |
 
 <!-- PDF_AUTO_INDEX_START -->
 ## PDF 自动入库索引
@@ -59,6 +61,7 @@
 | [AIHR：HR Priorities 2026 Report](wiki/pdf-source-aihr-aihr-hr-priorities-2026-report.md) | AIHR | 技能本位组织、HR 重构、skill count | 强相关：岗位与技能体系 | 已下载原文，引用 1 次 |
 | [EY：Future of Pay Report 2026](wiki/pdf-source-ey-ey-future-of-pay-report-2026.md) | EY | 技能薪酬、生产率锚点、AI 人才溢价 | 强相关：薪酬与激励机制 | 已下载原文，引用 38 次 |
 | [Payscale：2026 Compensation Best Practices Report](wiki/pdf-source-payscale-payscale-2026-compensation-best-practices-report.md) | Payscale | AI 技能定价、薪酬公平、薪酬基准、job management | 强相关：薪酬架构与激励资源 | 已下载原文，引用 2 次 |
+| [CFTE：AI Proficiency Framework](wiki/pdf-source-cfte-2026-04-ai-proficiency-framework.md) | CFTE | AI能力分级、十个能力域、知识/技能/行为评估 | 强相关：AI能力建设与岗位技能标签 | 已下载原文，已生成中文阅读版 |
 <!-- PDF_AUTO_INDEX_END -->
 
 ## 操作日志

@@ -4,6 +4,12 @@
 
 ---
 
+## [2026-05-19] ingest | CFTE AI Proficiency Framework 入库与中文阅读版
+- 将用户提供的 `CFTE-AI-Proficiency-Framework.pdf` 归档为 `knowledge/raw/cfte-2026-04-ai-proficiency-framework.pdf`。
+- 新增结构化来源摘要页 `knowledge/wiki/pdf-source-cfte-2026-04-ai-proficiency-framework.md`，按知识库要求补齐一句话判断、核心内容、关注重点、研究相关性、证据层级和后续使用方式。
+- 新增中文阅读友好版 `pdfs/CFTE-AI-Proficiency-Framework-中文阅读版.md`，保留原报告结构、等级、能力域、评估维度和授权信息。
+- 该资料后续可用于 AI 能力建设、岗位/技能标签、人才发展路径和 AI 组织管理者画像相关专题。
+
 ## [2026-05-19] ingest | 日报 PDF 证据源自动入库
 - 从 daily、daily-report、specials、analysis 中扫描 PDF URL，按知识库 Raw/Wiki/Catalog 规则自动建档。
 - 本次识别 9 个唯一 PDF 来源：6 个已下载原始 PDF，3 个保留 URL 与引用上下文待重试。
