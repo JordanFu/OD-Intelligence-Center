@@ -40,6 +40,11 @@ jobs:
           TZ: Asia/Shanghai
         run: node scripts/ensure-ai-org-reports.js
 
+      - name: Ingest PDF references into knowledge base
+        env:
+          TZ: Asia/Shanghai
+        run: node scripts/ingest-pdf-references.js
+
       - name: Commit changes if any
         run: |
           if git diff --quiet; then
@@ -48,6 +53,6 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html specials/ai-org-talent-mechanism scripts/ensure-ai-org-reports.js
+          git add index.html specials/ai-org-talent-mechanism knowledge scripts/ensure-ai-org-reports.js scripts/ingest-pdf-references.js
           git commit -m "auto-fallback: ensure AI org reports"
           git push

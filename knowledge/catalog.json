@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "lastUpdated": "2026-05-18",
+  "lastUpdated": "2026-05-19",
   "mode": "karpathy-llm-wiki",
   "schema": "knowledge/CLAUDE.md",
   "categories": {
@@ -471,6 +471,190 @@
         "离职预测"
       ],
       "originalUrl": "https://www.hr-analytics-trends.com/blog/top-10-ai-solutions-for-hr-analytics"
+    },
+    {
+      "id": "p001",
+      "title": "GitLab：2026 SEC 8-K Filing",
+      "originalTitle": "GitLab：2026 SEC 8-K Filing",
+      "author": "GitLab",
+      "publisher": "GitLab",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-05-19",
+      "description": "由日报/周报 PDF 引用自动入库。当前已保存来源 URL、引用上下文，原始 PDF 下载待重试，后续按知识库规则精读补充摘要。",
+      "summaryFile": "./knowledge/wiki/pdf-source-gitlab-gitlab-2026-sec-8-k-filing.md",
+      "rawFile": "",
+      "fileName": "gitlab-gitlab-2026-sec-8-k-filing.pdf",
+      "fileSize": "download pending",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "GitLab"
+      ],
+      "originalUrl": "https://ir.gitlab.com/sec-filings/all-sec-filings/content/0001628280-26-023407/0001628280-26-023407.pdf"
+    },
+    {
+      "id": "p002",
+      "title": "BCG：AI-First Organization",
+      "originalTitle": "BCG：AI-First Organization",
+      "author": "BCG",
+      "publisher": "BCG",
+      "sourceType": "consulting",
+      "topics": [
+        "AI组织设计",
+        "变革管理"
+      ],
+      "date": "",
+      "uploadDate": "2026-05-19",
+      "description": "由日报/周报 PDF 引用自动入库。当前已保存来源 URL、引用上下文和原始 PDF 文件，后续按知识库规则精读补充摘要。",
+      "summaryFile": "./knowledge/wiki/pdf-source-bcg-bcg-ai-first-organization.md",
+      "rawFile": "./knowledge/raw/bcg-bcg-ai-first-organization.pdf",
+      "fileName": "bcg-bcg-ai-first-organization.pdf",
+      "fileSize": "1272760 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "变革管理",
+        "BCG"
+      ],
+      "originalUrl": "https://media-publications.bcg.com/AI-First-Organization.pdf"
+    },
+    {
+      "id": "p003",
+      "title": "Anthropic：2026 Agentic Coding Trends Report",
+      "originalTitle": "Anthropic：2026 Agentic Coding Trends Report",
+      "author": "Anthropic",
+      "publisher": "Anthropic",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "人才发展",
+        "变革管理"
+      ],
+      "date": "",
+      "uploadDate": "2026-05-19",
+      "description": "由日报/周报 PDF 引用自动入库。当前已保存来源 URL、引用上下文和原始 PDF 文件，后续按知识库规则精读补充摘要。",
+      "summaryFile": "./knowledge/wiki/pdf-source-anthropic-anthropic-2026-agentic-coding-trends-report.md",
+      "rawFile": "./knowledge/raw/anthropic-anthropic-2026-agentic-coding-trends-report.pdf",
+      "fileName": "anthropic-anthropic-2026-agentic-coding-trends-report.pdf",
+      "fileSize": "854549 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "人才发展",
+        "变革管理",
+        "Anthropic"
+      ],
+      "originalUrl": "https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf"
+    },
+    {
+      "id": "p004",
+      "title": "BCG：AI Radar 2026",
+      "originalTitle": "BCG：AI Radar 2026",
+      "author": "BCG",
+      "publisher": "BCG",
+      "sourceType": "consulting",
+      "topics": [
+        "AI组织设计",
+        "战略规划"
+      ],
+      "date": "",
+      "uploadDate": "2026-05-19",
+      "description": "由日报/周报 PDF 引用自动入库。当前已保存来源 URL、引用上下文，原始 PDF 下载待重试，后续按知识库规则精读补充摘要。",
+      "summaryFile": "./knowledge/wiki/pdf-source-bcg-bcg-ai-radar-2026.md",
+      "rawFile": "",
+      "fileName": "bcg-bcg-ai-radar-2026.pdf",
+      "fileSize": "download pending",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "战略规划",
+        "BCG"
+      ],
+      "originalUrl": "https://web-assets.bcg.com/73/8e/cc44cbc14a3b81695f8a3de28ff1/ai-radar-2026-web-jan-2026-edit.pdf"
+    },
+    {
+      "id": "p005",
+      "title": "AIHR：HR Priorities 2026 Report",
+      "originalTitle": "AIHR：HR Priorities 2026 Report",
+      "author": "AIHR",
+      "publisher": "AIHR",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "人才发展"
+      ],
+      "date": "",
+      "uploadDate": "2026-05-19",
+      "description": "由日报/周报 PDF 引用自动入库。当前已保存来源 URL、引用上下文和原始 PDF 文件，后续按知识库规则精读补充摘要。",
+      "summaryFile": "./knowledge/wiki/pdf-source-aihr-aihr-hr-priorities-2026-report.md",
+      "rawFile": "./knowledge/raw/aihr-aihr-hr-priorities-2026-report.pdf",
+      "fileName": "aihr-aihr-hr-priorities-2026-report.pdf",
+      "fileSize": "6638692 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "人才发展",
+        "AIHR"
+      ],
+      "originalUrl": "https://www.aihr.com/resources/AIHR_HR_Priorities_2026_Report.pdf"
+    },
+    {
+      "id": "p006",
+      "title": "EY：Future of Pay Report 2026",
+      "originalTitle": "EY：Future of Pay Report 2026",
+      "author": "EY",
+      "publisher": "EY",
+      "sourceType": "consulting",
+      "topics": [
+        "AI组织设计",
+        "绩效管理"
+      ],
+      "date": "",
+      "uploadDate": "2026-05-19",
+      "description": "由日报/周报 PDF 引用自动入库。当前已保存来源 URL、引用上下文和原始 PDF 文件，后续按知识库规则精读补充摘要。",
+      "summaryFile": "./knowledge/wiki/pdf-source-ey-ey-future-of-pay-report-2026.md",
+      "rawFile": "./knowledge/raw/ey-ey-future-of-pay-report-2026.pdf",
+      "fileName": "ey-ey-future-of-pay-report-2026.pdf",
+      "fileSize": "3718420 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "绩效管理",
+        "EY"
+      ],
+      "originalUrl": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf"
+    },
+    {
+      "id": "p007",
+      "title": "WEF：Organizational Transformation in the Age of AI",
+      "originalTitle": "WEF：Organizational Transformation in the Age of AI",
+      "author": "World Economic Forum",
+      "publisher": "World Economic Forum",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "变革管理",
+        "战略规划"
+      ],
+      "date": "",
+      "uploadDate": "2026-05-19",
+      "description": "由日报/周报 PDF 引用自动入库。当前已保存来源 URL、引用上下文和原始 PDF 文件，后续按知识库规则精读补充摘要。",
+      "summaryFile": "./knowledge/wiki/pdf-source-world-economic-forum-wef-organizational-transformation-in-the-age-of-ai.md",
+      "rawFile": "./knowledge/raw/world-economic-forum-wef-organizational-transformation-in-the-age-of-ai.pdf",
+      "fileName": "world-economic-forum-wef-organizational-transformation-in-the-age-of-ai.pdf",
+      "fileSize": "3832408 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "变革管理",
+        "战略规划",
+        "World Economic Forum"
+      ],
+      "originalUrl": "https://reports.weforum.org/docs/WEF_Organizational_Transformation_in_the_Age_of_AI_How_Organizations_Maximize_AI's_Potential_2026.pdf"
     }
   ]
 }
