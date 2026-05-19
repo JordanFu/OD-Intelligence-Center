@@ -121,4 +121,5 @@ function updateHome() {
 ensureDaily();
 ensureWeekly();
 updateHome();
+execFileSync('node', ['scripts/update-ai-org-baselines.js'], { cwd: root, stdio: 'inherit' });
 console.log(`Ensured AI org reports for ${today}`);

@@ -45,6 +45,11 @@ jobs:
           TZ: Asia/Shanghai
         run: node scripts/ingest-pdf-references.js
 
+      - name: Update rolling baselines
+        env:
+          TZ: Asia/Shanghai
+        run: node scripts/update-ai-org-baselines.js
+
       - name: Commit changes if any
         run: |
           if git diff --quiet; then
@@ -53,6 +58,6 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html specials/ai-org-talent-mechanism knowledge scripts/ensure-ai-org-reports.js scripts/ingest-pdf-references.js
+          git add index.html specials/ai-org-talent-mechanism knowledge scripts/ensure-ai-org-reports.js scripts/ingest-pdf-references.js scripts/update-ai-org-baselines.js
           git commit -m "auto-fallback: ensure AI org reports"
           git push
