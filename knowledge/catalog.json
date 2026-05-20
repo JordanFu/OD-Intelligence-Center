@@ -104,6 +104,65 @@
   ],
   "reports": [
     {
+      "id": "zapier-2026-ai-fluency-rubric-v2",
+      "title": "Zapier：AI Fluency Rubric V2",
+      "originalTitle": "One year later: Raising the AI fluency bar for every Zapier hire",
+      "author": "Tracy St.Dic",
+      "publisher": "Zapier",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "人才发展",
+        "技能组织",
+        "变革管理",
+        "绩效管理"
+      ],
+      "date": "2026-03-31",
+      "uploadDate": "2026-05-20",
+      "description": "Zapier 2026 年升级版 AI Fluency Rubric：提高 Capable 门槛，强调 AI embedded in core work、repeatable systems、measurable impact、AI fluency slope、accountability 和管理者带队采用 AI。页面内已整理 13 个部门的四级岗位能力要求。",
+      "summaryFile": "./knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md",
+      "fileName": "web: https://www.zapier.com/blog/raising-ai-fluency-bar-in-hiring/",
+      "fileSize": "web source",
+      "tags": [
+        "AI招聘",
+        "AI能力框架",
+        "岗位能力",
+        "AI Fluency",
+        "管理者要求",
+        "工作流重构"
+      ],
+      "originalUrl": "https://www.zapier.com/blog/raising-ai-fluency-bar-in-hiring/"
+    },
+    {
+      "id": "zapier-2025-ai-first-hiring-onboarding",
+      "title": "Zapier：AI-first 招聘与入职机制",
+      "originalTitle": "From AI-friendly to AI-first: How Zapier is transforming hiring and onboarding",
+      "author": "Tracy St.Dic",
+      "publisher": "Zapier",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "人才发展",
+        "招聘",
+        "入职培训",
+        "绩效管理"
+      ],
+      "date": "2025-05-21",
+      "uploadDate": "2026-05-20",
+      "description": "Zapier 将 AI fluency 设为所有新员工最低门槛的初始实践：四级 AI fluency、四个招聘评估触点、AI-first onboarding、builder mindset，以及绩效预期同步更新。",
+      "summaryFile": "./knowledge/wiki/zapier-ai-first-hiring-onboarding-2025.md",
+      "fileName": "web: https://zapier.com/blog/zapier-ai-first-hiring-leaning/",
+      "fileSize": "web source",
+      "tags": [
+        "AI-first hiring",
+        "AI onboarding",
+        "Builder mindset",
+        "AI Fluency",
+        "人才机制"
+      ],
+      "originalUrl": "https://zapier.com/blog/zapier-ai-first-hiring-leaning/"
+    },
+    {
       "id": "pdf-cfte-2026-ai-proficiency-framework",
       "title": "CFTE：AI Proficiency Framework",
       "originalTitle": "CFTE AI Proficiency Framework",

@@ -4,6 +4,13 @@
 
 ---
 
+## [2026-05-20] ingest | Zapier AI-first hiring + AI Fluency Rubric V2
+- 摄入 Zapier 2025 文章 `From AI-friendly to AI-first: How Zapier is transforming hiring and onboarding`，新增 `knowledge/wiki/zapier-ai-first-hiring-onboarding-2025.md`。
+- 摄入 Zapier 2026 文章 `One year later: Raising the AI fluency bar for every Zapier hire`，新增 `knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md`。
+- 将 V2 中 Engineering、Product、Support、Marketing、People、Legal、Sales/Revenue、Business Ops、Corporate Development、Ecosystems & Channels、Finance、Data、Exec Ops 的岗位能力要求按四级标准整理为中文矩阵。
+- 出于版权和引用可控性，知识库不保存网页全文或长段英文原文；保留来源 URL、短标签和中文结构化摘录。
+- 该资料后续可用于 AI 组织设计、招聘门槛、岗位技能标签、管理者 AI adoption 要求、绩效与晋升证据设计。
+
 ## [2026-05-19] ingest | CFTE AI Proficiency Framework 入库与中文阅读版
 - 将用户提供的 `CFTE-AI-Proficiency-Framework.pdf` 归档为 `knowledge/raw/cfte-2026-04-ai-proficiency-framework.pdf`。
 - 新增结构化来源摘要页 `knowledge/wiki/pdf-source-cfte-2026-04-ai-proficiency-framework.md`，按知识库要求补齐一句话判断、核心内容、关注重点、研究相关性、证据层级和后续使用方式。
