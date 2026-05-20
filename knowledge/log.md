@@ -4,6 +4,27 @@
 
 ---
 
+## [2026-05-20] ingest | 日报 PDF 证据源自动入库
+- 从 daily、daily-report、specials、analysis 中扫描 PDF URL，按知识库 Raw/Wiki/Catalog 规则自动建档。
+- 本次识别 17 个唯一 PDF 来源：6 个已下载原始 PDF，11 个保留 URL 与引用上下文待重试。
+- 待重试：GitLab：2026 SEC 8-K Filing（引用 15 次）
+- 待重试：netflix culture（引用 6 次）
+- 已下载：BCG：AI-First Organization（引用 3 次）
+- 待重试：engineering progression framework v2 0（引用 1 次）
+- 待重试：6456498（引用 4 次）
+- 已下载：WEF：Organizational Transformation in the Age of AI（引用 3 次）
+- 已下载：Anthropic：2026 Agentic Coding Trends Report（引用 1 次）
+- 待重试：BCG：AI Radar 2026（引用 3 次）
+- 待重试：BCG + MIT Sloan：The Emerging Agentic Enterprise（引用 8 次）
+- 已下载：AIHR：HR Priorities 2026 Report（引用 1 次）
+- 待重试：us spans and layers for the modern organization 2020（引用 3 次）
+- 已下载：EY：Future of Pay Report 2026（引用 60 次）
+- 待重试：12 087 bc50bde2 3016 457a 9bee dc988cb1056b（引用 3 次）
+- 待重试：0000050863 26 000011（引用 2 次）
+- 待重试：orgvue ai research ebook 2026 final（引用 1 次）
+- 已下载：Payscale：2026 Compensation Best Practices Report（引用 3 次）
+- 待重试：it job family career ladder matrix software engineer（引用 1 次）
+
 ## [2026-05-20] research | Zapier AI 实践深度研究报告
 - 基于 Zapier all articles 中多篇 AI 相关公开文章和产品页，新增研究报告 `knowledge/wiki/zapier-ai-practice-research-2026-05-20.md`。
 - 报告覆盖 Zapier 的 AI 子话题地图、全员 adoption 路径、人才与招聘机制、各职能 AI workflow、Agents/MCP 产品化、agent 安全治理、质量运营和对 AI 组织设计的启发。

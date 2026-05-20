@@ -2,7 +2,7 @@
 title: BCG + MIT Sloan：The Emerging Agentic Enterprise
 source: BCG
 date: 待核验
-ingested: 2026-05-19
+ingested: 2026-05-20
 sourceFile: 
 sourceUrl: https://web-assets.bcg.com/dc/c5/1bcbfdc0405c85fb14972a57c20a/the-emerging-agentic-enterprise-how-leaders-must-navigate-a-new-age-of-ai.pdf
 tags: [AI组织设计, 变革管理]
@@ -21,7 +21,7 @@ BCG + MIT Sloan 把 agentic enterprise 作为组织结构变量讨论，尤其�
 - **来源类型**：consulting
 - **原文 URL**：https://web-assets.bcg.com/dc/c5/1bcbfdc0405c85fb14972a57c20a/the-emerging-agentic-enterprise-how-leaders-must-navigate-a-new-age-of-ai.pdf
 - **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
-- **入库日期**：2026-05-19
+- **入库日期**：2026-05-20
 - **证据层级**：Context 到结论层之间；当前下载失败，需用报告原文或可访问版本复核具体数字。
 
 ## 核心内容
@@ -56,6 +56,9 @@ BCG + MIT Sloan 把 agentic enterprise 作为组织结构变量讨论，尤其�
 - `specials/ai-org-talent-mechanism/2026-05-18/01-flat-organization.md:83`：“减少中层层级”被广泛引用，但不同报告对“中层”的定义差异很大（层级数、管理跨度、是否包含项目管理/职能 BP），需要我们先定义口径再对标外部数字。
 - `specials/ai-org-talent-mechanism/2026-05-18/01-flat-organization.md:89`：权威媒体/咨询：Deloitte operating model；Gartner newsroom；BCG+MIT Sloan 报告。https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html ｜ https://www.ga
 - `specials/ai-org-talent-mechanism/2026-05-18/01-flat-organization.md:119`：BCG+MIT Sloan（报告 PDF，含组织结构变量）：
+- `specials/ai-org-talent-mechanism/2026-05-19/01-flat-organization.md:84`：“减少中层层级”被广泛引用，但不同报告对“中层”的定义差异很大（层级数、管理跨度、是否包含项目管理/职能 BP），需要我们先定义口径再对标外部数字。
+- `specials/ai-org-talent-mechanism/2026-05-19/01-flat-organization.md:90`：权威媒体/咨询：Deloitte operating model；Gartner newsroom；BCG+MIT Sloan 报告。https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html ｜ https://www.ga
+- `specials/ai-org-talent-mechanism/2026-05-19/01-flat-organization.md:120`：BCG+MIT Sloan（报告 PDF，含组织结构变量）：
 
 ## 后续精读任务
 
