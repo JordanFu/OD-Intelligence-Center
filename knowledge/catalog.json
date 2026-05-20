@@ -104,6 +104,38 @@
   ],
   "reports": [
     {
+      "id": "zapier-2026-ai-practice-research",
+      "title": "Zapier AI 实践深度研究：从工具采用到 AI-first operating model",
+      "originalTitle": "Zapier AI practice research based on public blog articles",
+      "author": "OD Intelligence Center",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "internal",
+      "topics": [
+        "AI组织设计",
+        "人才发展",
+        "技能组织",
+        "变革管理",
+        "Agent",
+        "MCP"
+      ],
+      "date": "2026-05-20",
+      "uploadDate": "2026-05-20",
+      "description": "基于 Zapier 多篇公开 AI 实践文章和产品页形成的深度研究报告，覆盖全员 adoption、AI fluency、招聘/入职/绩效机制、跨职能 AI workflow、Agents/MCP 产品化、agent 安全治理和 AI-first operating model 启发。",
+      "summaryFile": "./knowledge/wiki/zapier-ai-practice-research-2026-05-20.md",
+      "fileName": "knowledge/wiki/zapier-ai-practice-research-2026-05-20.md",
+      "fileSize": "markdown research report",
+      "tags": [
+        "Zapier",
+        "AI组织设计",
+        "AI实践",
+        "AI Fluency",
+        "AI Agents",
+        "MCP",
+        "工作流重构"
+      ],
+      "originalUrl": "https://zapier.com/blog/all-articles/"
+    },
+    {
       "id": "zapier-2026-ai-fluency-rubric-v2",
       "title": "Zapier：AI Fluency Rubric V2",
       "originalTitle": "One year later: Raising the AI fluency bar for every Zapier hire",

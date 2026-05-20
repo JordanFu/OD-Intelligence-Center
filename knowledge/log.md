@@ -4,6 +4,11 @@
 
 ---
 
+## [2026-05-20] research | Zapier AI 实践深度研究报告
+- 基于 Zapier all articles 中多篇 AI 相关公开文章和产品页，新增研究报告 `knowledge/wiki/zapier-ai-practice-research-2026-05-20.md`。
+- 报告覆盖 Zapier 的 AI 子话题地图、全员 adoption 路径、人才与招聘机制、各职能 AI workflow、Agents/MCP 产品化、agent 安全治理、质量运营和对 AI 组织设计的启发。
+- 重点结论：Zapier 的 AI-first 实践已经从个人工具使用进入团队工作流重构、人才门槛和 operating model redesign；对我们最有价值的是 AI fluency 的判断标准，而不是单个工具清单。
+
 ## [2026-05-20] ingest | Zapier AI-first hiring + AI Fluency Rubric V2
 - 摄入 Zapier 2025 文章 `From AI-friendly to AI-first: How Zapier is transforming hiring and onboarding`，新增 `knowledge/wiki/zapier-ai-first-hiring-onboarding-2025.md`。
 - 摄入 Zapier 2026 文章 `One year later: Raising the AI fluency bar for every Zapier hire`，新增 `knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md`。

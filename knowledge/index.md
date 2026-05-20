@@ -21,6 +21,7 @@
 | 9 | [CFTE：AI Proficiency Framework](wiki/pdf-source-cfte-2026-04-ai-proficiency-framework.md) | CFTE | 2026-04 | AI能力框架, 人才发展, 技能组织 |
 | 10 | [Zapier：AI-first 招聘与入职机制](wiki/zapier-ai-first-hiring-onboarding-2025.md) | Zapier | 2025-05-21 | AI招聘, 入职培训, AI能力框架 |
 | 11 | [Zapier：AI Fluency Rubric V2](wiki/zapier-ai-fluency-rubric-v2-2026.md) | Zapier | 2026-03-31 | AI招聘, 岗位能力, 变革管理 |
+| 12 | [Zapier AI 实践深度研究](wiki/zapier-ai-practice-research-2026-05-20.md) | Zapier Blog | 2026-05-20 | AI组织设计, AI实践, Agent, MCP |
 | 1 | [BCG: Design Your Company for AI](wiki/bcg-2026-04-design-company-for-ai.md) | BCG | 2026-04 | AI组织设计, 运营模型, Agent |
 | 2 | [BCG: AI转型本质上是劳动力转型](summaries/r001-bcg-zh.md) | BCG | 2026-02 | AI转型, 10-20-70法则 |
 | 3 | [Deloitte: 企业AI应用现状](summaries/r002-deloitte-zh.md) | Deloitte | 2025 | 数字化转型, AI战略 |
@@ -72,8 +73,8 @@
 最近 5 条：
 ```
 [2026-05-20] ingest | Zapier AI-first hiring + AI Fluency Rubric V2
+[2026-05-20] research | Zapier AI 实践深度研究报告
 [2026-05-13] ingest | Obsidian 首批导入 + 知音楼入口建档 + LLM Wiki 运维规则
 [2026-05-13] ingest | 知音楼《人力资源行业洞察 2024》目录同步
 [2026-05-13] ingest | 知音楼 PDF 附件全量枚举与临时解析
-[2026-05-13] ingest | 知音楼 HR 知识库十主题整理
 ```
