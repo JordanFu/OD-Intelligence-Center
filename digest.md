@@ -1,7 +1,7 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-05-20 09:40
+> 最后更新：2026-05-20 16:25
 
 ---
 
@@ -88,6 +88,69 @@
 - **OD启示**：Change Fitness应纳入组织能力模型和领导力胜任力框架，30% AI思维门槛可作为培训量化基准。意义感二阶效应提醒：AI ROI不能只看效率指标，还需纳入敬业度和心理健康维度。
 - **标签**：#HBS #ChangeFitness #工作意义感 #二阶效应 #人际溢价 #AI思维门槛
 - **抓取时间**：2026-05-20 09:48
+
+### [35] Microsoft：Frontier Firm 正在重写 operating model，人与 agent 的协作将从个人提效转向团队编排
+- **事件摘要**：Microsoft 于 2026 年 5 月 5 日提出“Frontier Firm”概念，认为领先组织不再把 AI 仅视作个人 Copilot，而是把工作拆成可由人和 agent 共同完成的业务流程。官方强调 human-agent ratio 提升、交接与执行自动化增强，以及部分流程趋向 agent-operated。真正的门槛不在工具本身，而在于岗位责任、交接机制、质量标准和权限体系是否已被清晰结构化。
+- **来源**：Microsoft Blog（https://blogs.microsoft.com/blog/2026/05/05/how-frontier-firms-are-rebuilding-the-operating-model-for-the-age-of-ai/）
+- **来源平台**：Microsoft
+- **来源可信度**：⭐高
+- **OD启示**：AI 价值实现正从个人效率问题转向 operating model 设计问题。OD 的核心任务不再只是推动培训，而是重写岗位边界、handoff、管理跨度和责任制，使 agent 能真正进入团队流程而不制造额外摩擦。
+- **标签**：#Microsoft #OperatingModel #Agent协作 #团队编排
+- **抓取时间**：2026-05-20 16:25
+
+### [36] OpenAI 成立 Deployment Company：把前向部署工程师模式产品化，组织接口从售卖模型转向共建业务系统
+- **事件摘要**：OpenAI 于 2026 年 5 月 12 日宣布设立 OpenAI Deployment Company，作为独立业务单元，专门与大型组织共同把模型嵌入复杂工作流、权限体系和关键业务系统。其背后延续的是前向部署工程师（FDE）模式：供应商不再只卖 API 或模型额度，而是直接参与流程重构、集成与上线。企业真正购买的是“部署能力”而非单点模型能力。
+- **来源**：OpenAI（https://openai.com/index/openai-launches-the-deployment-company/）
+- **来源平台**：OpenAI
+- **来源可信度**：⭐高
+- **OD启示**：供应商侧已经把部署能力组织化，企业内部也需要对等的承接结构。AI 转型办公室、业务流程 owner、数据治理和 OD/HR 之间如果没有稳定接口，再强的外部部署资源也难以穿透到核心 operating model。
+- **标签**：#OpenAI #FDE #部署模式 #转型办公室
+- **抓取时间**：2026-05-20 16:25
+
+### [37] Workday 把 Sana HR/Finance 自助 agent 带入 Microsoft 365 Copilot：HR Tech 开始直接嵌入工作流入口
+- **事件摘要**：Workday 于 2026 年 5 月 13 日宣布将 Sana self-service agent 引入 Microsoft 365 Copilot，使员工可直接在常用办公入口中处理请假、福利、报销和政策查询等 HR 与财务事务。这表明 HR Tech 正从独立门户逻辑转向“在工作流里提供服务”的形态。变化的关键不是多一个机器人，而是员工服务入口前移到协作环境内部。
+- **来源**：Workday Newsroom（https://newsroom.workday.com/2026-05-13-Workday-Brings-Sana-Self-Service-Agent-for-HR-and-Finance-Into-Microsoft-365-Copilot）
+- **来源平台**：Workday
+- **来源可信度**：⭐高
+- **OD启示**：HR 服务设计正在被重新定义。未来共享服务、人事伙伴和业务经理的职责边界，需要围绕“哪些事务由 agent 直出、哪些保留人工例外判断”重新划分，而不是沿用旧的系统分工。
+- **标签**：#Workday #HRTech #员工服务 #流程前移
+- **抓取时间**：2026-05-20 16:25
+
+### [38] Hitachi × Anthropic：设立 Frontier AI Deployment Center，并计划培训 10 万名员工
+- **事件摘要**：Hitachi 于 2026 年 5 月 19 日宣布与 Anthropic 建立战略合作，推进 Frontier AI Deployment Center，并计划围绕 Claude 在 Lumada 3.0 及多类企业流程中的应用，开展覆盖 10 万名员工的 AI 培训。这一方案把部署中心、平台集成、客户交付与大规模能力建设放在同一张路线图中，明显超出传统技术试点范畴。
+- **来源**：Hitachi（https://www.hitachi.com/en-us/press/hitachi-announces-strategic-partnership-with-anthropic-to-strengthen-lumada-3-0-through-frontier-ai/）
+- **来源平台**：Hitachi
+- **来源可信度**：⭐高
+- **OD启示**：传统大型企业的 AI 转型正在形成更清晰的组合路径：部署中心负责牵引落地，平台负责扩展复用，培训负责重建能力基线。对 OD 来说，关键是把平台建设、岗位重写和能力升级纳入一套治理结构，而不是各自为战。
+- **标签**：#Hitachi #Anthropic #能力建设 #大企业转型
+- **抓取时间**：2026-05-20 16:25
+
+### [39] Gartner：88% 员工会绕过规定使用自选 AI，组织需从“控制工具”转向“以人为中心的 AI 策略”
+- **事件摘要**：Gartner 于 2026 年 5 月 13 日指出，88% 员工会在工作中使用并自费购买非授权 AI 工具，Shadow AI 已成为现实。Gartner 认为仅靠封堵难以真正降低风险，组织应转向以人为中心的 AI 策略：围绕员工真实需求、工作摩擦和能力结构，重构政策、培训和治理。这使 AI 治理对象从模型安全扩大到员工行为和制度可执行性。
+- **来源**：Gartner Newsroom（https://www.gartner.com/en/newsroom/press-releases/2026-05-13-gartner-hr-emphasizes-need-for-human-centric-ai-strategy-to-retain-top-talent）
+- **来源平台**：Gartner
+- **来源可信度**：⭐高
+- **OD启示**：只要正式流程太慢、官方工具太碎、授权太保守，员工就会自建灰色工作流。AI 治理首先是组织设计问题，OD/HR 需要参与设计“可用且可控”的官方路径，而不是把治理简单外包给 IT 或安全团队。
+- **标签**：#Gartner #ShadowAI #AI治理 #员工行为
+- **抓取时间**：2026-05-20 16:25
+
+### [40] OECD：生成式 AI 将显著改变公共部门工作，管理者支持与制度能力决定增益是否兑现
+- **事件摘要**：OECD 于 2026 年 5 月 15 日发布关于 generative AI and the public sector workforce 的工作论文，指出公共部门岗位同样会被任务级重写，而非简单整体替代。论文强调，AI 采用效果取决于管理能力、制度设计、数据可得性、透明度和信任机制，而不是模型能力本身。其分析重点落在责任链、例外处理和治理能力。
+- **来源**：OECD（https://www.oecd.org/en/publications/generative-ai-and-the-public-sector-workforce_0dd11fb2-en.html）
+- **来源平台**：OECD
+- **来源可信度**：⭐高
+- **OD启示**：高责任、高流程依赖环境中的 AI 落地，本质上是制度能力测试。对大型企业尤其是强监管行业而言，这意味着管理者支持、责任链清晰度与例外处理设计，比“模型先进性”更决定项目能否真正穿透业务。
+- **标签**：#OECD #公共部门 #制度能力 #任务重构
+- **抓取时间**：2026-05-20 16:25
+
+### [41] Orgvue《组织设计与规划中的 AI》：45% 领导者担心中层管理者拒绝 AI，39% 项目因缺乏监督与路线图失败
+- **事件摘要**：Orgvue 于 2026 年 5 月发布研究，显示 45% 受访领导者认为中层管理者对 AI 的抵触是主要风险之一；39% 受访者表示其 AI 项目因缺乏清晰路线图、治理或监督而失败。调研同时指出，组织普遍已意识到 AI 对组织设计、岗位规划和劳动力决策的潜在影响，但尚未形成稳定方法论。
+- **来源**：Orgvue（https://www.orgvue.com/content/uploads/sites/2/2026/05/orgvue-ai-research-ebook-2026-final.pdf）
+- **来源平台**：Orgvue
+- **来源可信度**：📰较高
+- **OD启示**：中层既是最容易被 AI 压缩的信息路由层，也是最关键的落地承接层。如果组织不给中层新的 owner 角色、例外判断权和带队改造任务，他们就会同时成为被替代对象与变革阻力来源。
+- **标签**：#Orgvue #中层管理 #组织阻力 #AI项目治理
+- **抓取时间**：2026-05-20 16:25
 
 ## 2026-05-19
 
