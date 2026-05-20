@@ -3,10 +3,10 @@ title: 12 087 bc50bde2 3016 457a 9bee dc988cb1056b
 source: hbs.edu
 date: 待核验
 ingested: 2026-05-20
-sourceFile: 
+sourceFile: ../knowledge/raw/hbs-edu-12-087-bc50bde2-3016-457a-9bee-dc988cb1056b.pdf
 sourceUrl: https://www.hbs.edu/ris/Publication%20Files/12-087_bc50bde2-3016-457a-9bee-dc988cb1056b.pdf
 tags: [AI组织设计]
-status: 已索引来源，PDF下载待重试
+status: 已下载原始PDF，已生成结构化初筛卡片
 ---
 
 # 12 087 bc50bde2 3016 457a 9bee dc988cb1056b
@@ -20,7 +20,7 @@ status: 已索引来源，PDF下载待重试
 - **来源机构**：hbs.edu
 - **来源类型**：media
 - **原文 URL**：https://www.hbs.edu/ris/Publication%20Files/12-087_bc50bde2-3016-457a-9bee-dc988cb1056b.pdf
-- **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
+- **原始文件**：`knowledge/raw/hbs-edu-12-087-bc50bde2-3016-457a-9bee-dc988cb1056b.pdf`
 - **入库日期**：2026-05-20
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
