@@ -141,13 +141,23 @@ function markdownToHtml(markdown) {
   return html;
 }
 
-function renderPage(title, body, markdownFile) {
+function shareAssetsTags(outputPath) {
+  const outputDir = path.dirname(outputPath);
+  const assetPrefix = path.relative(outputDir, path.join(root, 'assets')).replace(/\\/g, '/') || '.';
+  return [
+    `  <link rel="stylesheet" href="${assetPrefix}/report-share.css">`,
+    `  <script defer src="${assetPrefix}/report-share.js"></script>`,
+  ].join('\n');
+}
+
+function renderPage(title, body, markdownFile, outputPath) {
   return `<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${esc(title)}</title>
+${shareAssetsTags(outputPath)}
   <style>
     :root{--bg:#0f1117;--surface:#171a24;--surface2:#202434;--border:#31374b;--text:#eef2fb;--text2:#b2bad0;--accent:#7c92ff;--green:#34d399;--orange:#fbbf24}
     *{box-sizing:border-box;margin:0;padding:0}
@@ -194,8 +204,9 @@ function renderPage(title, body, markdownFile) {
 for (const [markdownFile, htmlFile, title] of files) {
   const markdownPath = path.join(dir, markdownFile);
   if (!fs.existsSync(markdownPath)) continue;
+  const htmlPath = path.join(dir, htmlFile);
   const body = markdownToHtml(fs.readFileSync(markdownPath, 'utf8'));
-  fs.writeFileSync(path.join(dir, htmlFile), renderPage(title, body, markdownFile));
+  fs.writeFileSync(htmlPath, renderPage(title, body, markdownFile, htmlPath));
 }
 
 console.log(`Rendered ${files.length} HTML files in ${path.relative(root, dir)}`);

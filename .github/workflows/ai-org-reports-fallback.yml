@@ -50,6 +50,11 @@ jobs:
           TZ: Asia/Shanghai
         run: node scripts/update-ai-org-baselines.js
 
+      - name: Ensure report sharing
+        env:
+          TZ: Asia/Shanghai
+        run: node scripts/enhance-report-sharing.js
+
       - name: Commit changes if any
         run: |
           if git diff --quiet; then
@@ -58,6 +63,6 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html specials/ai-org-talent-mechanism knowledge scripts/ensure-ai-org-reports.js scripts/ingest-pdf-references.js scripts/update-ai-org-baselines.js
+          git add index.html assets specials daily-report knowledge pdfs report-viewer.html knowledge-viewer.html scripts/ensure-ai-org-reports.js scripts/ingest-pdf-references.js scripts/update-ai-org-baselines.js scripts/render-markdown-page.js scripts/render-special-html.js scripts/enhance-report-sharing.js
           git commit -m "auto-fallback: ensure AI org reports"
           git push

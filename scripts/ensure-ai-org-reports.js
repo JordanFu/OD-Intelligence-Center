@@ -122,4 +122,5 @@ ensureDaily();
 ensureWeekly();
 updateHome();
 execFileSync('node', ['scripts/update-ai-org-baselines.js'], { cwd: root, stdio: 'inherit' });
+execFileSync('node', ['scripts/enhance-report-sharing.js'], { cwd: root, stdio: 'inherit' });
 console.log(`Ensured AI org reports for ${today}`);

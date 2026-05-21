@@ -140,15 +140,26 @@ function titleFrom(markdown) {
   return titleArg || (match ? match[1] : path.basename(input, '.md'));
 }
 
+function shareAssetsTags(outputPath) {
+  const outputDir = path.dirname(outputPath);
+  const assetPrefix = path.relative(outputDir, path.join(root, 'assets')).replace(/\\/g, '/') || '.';
+  return [
+    `  <link rel="stylesheet" href="${assetPrefix}/report-share.css">`,
+    `  <script defer src="${assetPrefix}/report-share.js"></script>`,
+  ].join('\n');
+}
+
 const markdown = fs.readFileSync(input, 'utf8');
 const title = titleFrom(markdown);
 const markdownName = path.basename(input);
+const output = input.replace(/\.md$/i, '.html');
 const html = `<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${esc(title)}</title>
+${shareAssetsTags(output)}
   <style>
     :root{--bg:#0f1117;--surface:#171a24;--surface2:#202434;--border:#31374b;--text:#eef2fb;--text2:#b2bad0;--accent:#7c92ff;--green:#34d399;--orange:#fbbf24}
     *{box-sizing:border-box;margin:0;padding:0}
@@ -190,6 +201,5 @@ const html = `<!DOCTYPE html>
 </body>
 </html>`;
 
-const output = input.replace(/\.md$/i, '.html');
 fs.writeFileSync(output, html);
 console.log(`Rendered ${path.relative(root, output)}`);
