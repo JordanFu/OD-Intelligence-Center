@@ -5,13 +5,13 @@
     "date": "2026-04-09",
     "sourceFile": "./report-viewer.html",
     "stats": {
-      "totalDays": 31,
-      "totalItems": 342,
+      "totalDays": 32,
+      "totalItems": 366,
       "totalSources": 85,
       "hypothesesVerified": 4,
       "hypothesesPending": 1,
-      "updateDate": "2026-05-08",
-      "updateItems": 80,
+      "updateDate": "2026-05-21",
+      "updateItems": 366,
       "updateSources": 20
     },
     "subPropositions": [
@@ -1843,6 +1843,76 @@
         "关注百度职级改革的行业示范效应——是否引发互联网大厂跟进"
       ],
       "note": "【标杆研究主报告更新】基于04-28~05-08期间80+条新信息，聚焦'人才发展机制创新'和'飞轮人员缺口复盘'两个核心议题生成增量更新报告。新增Deloitte 84%、BCG六分类、IBM CAIO 76%、Lovable 10%加薪、百度去序列化、Korn Ferry 22%等8个关键发现。"
+    },
+    {
+      "date": "2026-05-21",
+      "weekday": "周四",
+      "items": 24,
+      "platforms": 17,
+      "trust": {
+        "high": 16,
+        "mid": 7,
+        "ref": 1
+      },
+      "tags": [
+        "Agent治理",
+        "AI裁员",
+        "岗位重构",
+        "组织重构",
+        "AI原生组织",
+        "能力管理",
+        "人机协同",
+        "技能图谱",
+        "双轨ROI",
+        "领导力范式",
+        "WEF",
+        "HBR",
+        "Gartner",
+        "Deloitte"
+      ],
+      "topPicks": [
+        {
+          "title": "SAP：Agent Hub 已管理 150 家企业、超 10 万个 agents，agent governance 进入系统台账阶段",
+          "platform": "SAP",
+          "url": "https://news.sap.com/2026/05/business-transformation-management-foundation-autonomous-enterprise/",
+          "reason": "agent 数量进入十万量级，治理对象从工具清单升级为数字劳动力资产台账，OD/HR 需建立共同语言"
+        },
+        {
+          "title": "IBM：大型企业今年底平均将部署 1600+ AI agents，真正瓶颈转向 governance 与组织对齐",
+          "platform": "IBM",
+          "url": "https://www.ibm.com/think/news/think-2026-ai-recap",
+          "reason": "数字劳动力规模进入四位数，manager-to-agent ratio、例外处理机制需提前明确，否则 agent 越多越难判断责任"
+        },
+        {
+          "title": "Gartner：80% 试点自治能力组织已减员，但裁员并不能带来 AI ROI",
+          "platform": "Gartner",
+          "url": "https://www.gartner.com/en/newsroom/press-releases/2026-05-05-gartner-says-autonomous-business-and-artificial-intelligence-layoffs-may-create-budget-room-but-do-not-deliver-returns",
+          "reason": "直接反证'AI 裁员=AI 回报'流行逻辑；高/低 ROI 组织减员比例几乎相同，真正带来回报的是持续投资技能与 operating structure"
+        },
+        {
+          "title": "WEF×Accenture《人工智能时代的组织转型》白皮书：五大重塑领域 + 四项落地原则",
+          "platform": "WEF/Accenture",
+          "url": "https://www.weforum.org/publications/organizational-transformation-in-the-age-of-ai-how-organizations-maximize-ais-potential/",
+          "reason": "目前最系统的 AI 组织转型实操白皮书（450+ 高管），核心结论：从岗位管理走向能力管理是可实践的"
+        },
+        {
+          "title": "Cornerstone：Workforce AI 把 skills graph、组织设计、绩效管理与 readiness agents 直接连成一层",
+          "platform": "Cornerstone",
+          "url": "https://www.cornerstoneondemand.com/company/news-room/press-releases/cornerstone-launches-cornerstone-workforce-ai-the-intelligence-platform-for-workforce-readiness-built-to-amplify-human-potential-exponentially-with-ai/",
+          "reason": "HR Tech 正从培训工具升级为组织重构的 readiness operating layer，岗位架构/技能图谱/绩效对话/AI 自动化边界将在同一视图里协同设计"
+        }
+      ],
+      "trends": [
+        "Agent 治理从'项目试点'进入'资产级管控'阶段——SAP（10万+ agents）、IBM（1600+/企业）、KPMG（63% 要求 human validation）三路数据同时印证",
+        "'营收增长≠不减员'成为 AI 时代最强信号——Intuit 营收+10% 仍裁员17%，三星利润+756% 仍爆发最大罢工，利润分配和人力规模决策底层逻辑已重构",
+        "AI 战略从'投入期'集体转向'商业化回报期'——阿里首次以'商业化回报'定性 AI，亚马逊 Builder 试点进入员工适应评估期，倒逼考核从'模型性能'转向'商业贡献'"
+      ],
+      "nextFocus": [
+        "【高优先级】亚马逊 Builder 试点评估结果——试点运行约一个月，员工反馈集中'晋升标准模糊、外部认可度'，CEO 承诺成功将扩大至其他部门",
+        "【高优先级】百度职级改革首次晋升周期动态——改革后首次晋升季是否已启动、有没有实质性破格案例",
+        "三星罢工谈判走向——4 万余名员工参与史上最大罢工，AI 时代劳资利润分配矛盾激化，谈判结果对全球科技企业有示范效应"
+      ],
+      "note": "【2026-05-21 日报】24条信息，⭐高16/📰较高7/💬参考1，17个平台。焦点：SAP/KPMG/IBM 密集发布 agent governance 框架；WEF×Accenture/HBR/Gartner/Deloitte/Cornerstone 咨询学术情报批量更新；Intuit 17% 裁员、全国首例 AI 替岗判例、管理者范式重构。"
     }
   ]
 }
