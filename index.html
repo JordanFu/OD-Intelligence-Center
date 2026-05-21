@@ -1679,6 +1679,44 @@
       align-items: center;
       gap: 4px;
     }
+    .kb-card-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 14px;
+      padding-top: 12px;
+      border-top: 1px solid var(--border);
+    }
+    .kb-mini-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      min-height: 32px;
+      padding: 6px 10px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--surface2);
+      color: var(--text);
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .kb-mini-btn:hover {
+      border-color: var(--orange);
+      color: var(--orange);
+    }
+    .kb-mini-btn.primary {
+      background: var(--orange);
+      border-color: var(--orange);
+      color: #000;
+    }
+    .kb-mini-btn.primary:hover {
+      opacity: 0.88;
+      color: #000;
+    }
     .kb-empty {
       text-align: center;
       padding: 60px 20px;
@@ -1883,6 +1921,10 @@
     .kb-reader-type.consulting { background: rgba(108,140,255,0.15); color: #6c8cff; }
     .kb-reader-type.academic { background: rgba(167,139,250,0.15); color: #a78bfa; }
     .kb-reader-type.industry { background: rgba(52,211,153,0.15); color: #34d399; }
+    .kb-reader-type.internal { background: rgba(251,191,36,0.15); color: #fbbf24; }
+    .kb-reader-type.media { background: rgba(248,113,113,0.15); color: #f87171; }
+    .kb-reader-type.method,
+    .kb-reader-type.local { background: rgba(108,140,255,0.15); color: #6c8cff; }
     .kb-reader-title { font-size: 16px; font-weight: 700; color: var(--text); line-height: 1.4; margin-bottom: 4px; }
     .kb-reader-meta { font-size: 12px; color: var(--text2); }
     .kb-reader-body { padding: 20px; }
@@ -2689,6 +2731,29 @@
       t.classList.add('show');
       setTimeout(() => t.classList.remove('show'), 2000);
     }
+    function getKBShareUrl(reportId) {
+      return new URL(`./knowledge-viewer.html?id=${encodeURIComponent(reportId)}`, window.location.href).href;
+    }
+    async function copyText(text, successMessage) {
+      try {
+        await navigator.clipboard.writeText(text);
+      } catch (e) {
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.focus();
+        ta.select();
+        document.execCommand('copy');
+        ta.remove();
+      }
+      showToast(successMessage || '已复制');
+    }
+    function copyKBShareLink(reportId, event) {
+      if (event) event.stopPropagation();
+      copyText(getKBShareUrl(reportId), '分享链接已复制');
+    }
 
     // ============================================================
     // Tab Switching
@@ -2818,6 +2883,13 @@
       updateBadges();
       renderInfoPage();
       renderLevelsPage();
+
+      const params = new URLSearchParams(window.location.search);
+      const sharedKBId = params.get('kb');
+      if (sharedKBId) {
+        switchTab('kb');
+        setTimeout(() => openKBReader(sharedKBId), 0);
+      }
     }
 
     function updateBadges() {
@@ -3402,6 +3474,13 @@
         if (report.fileName) {
           html += `<div class="kb-card-file">📎 ${esc(report.fileName)}${report.fileSize ? ' (' + esc(report.fileSize) + ')' : ''}</div>`;
         }
+        html += `<div class="kb-card-actions">`;
+        html += `<a class="kb-mini-btn primary" href="${esc(getKBShareUrl(report.id))}" target="_blank" onclick="event.stopPropagation()">独立阅读</a>`;
+        html += `<button class="kb-mini-btn" onclick="copyKBShareLink('${esc(report.id)}', event)">复制链接</button>`;
+        if (report.summaryFile) {
+          html += `<a class="kb-mini-btn" href="${esc(report.summaryFile)}" target="_blank" onclick="event.stopPropagation()">Markdown</a>`;
+        }
+        html += `</div>`;
         html += `</div>`;
       });
       html += '</div>';
@@ -3439,6 +3518,8 @@
       // Actions
       const actionsEl = document.getElementById('kbReaderActions');
       let actionsHtml = '';
+      actionsHtml += `<a href="${esc(getKBShareUrl(report.id))}" class="kb-mini-btn primary" target="_blank">独立阅读页</a>`;
+      actionsHtml += `<button class="kb-mini-btn" onclick="copyKBShareLink('${esc(report.id)}', event)">复制分享链接</button>`;
       if (report.pdfFile) {
         actionsHtml += `<a href="${esc(report.pdfFile)}" class="btn-primary" style="display:inline-flex;align-items:center;gap:6px;text-decoration:none;" target="_blank">📄 下载原文 PDF</a>`;
       }
