@@ -1,7 +1,7 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-05-21 14:55
+> 最后更新：2026-05-21 16:26
 
 ---
 
@@ -196,6 +196,24 @@
 - **OD启示**：商业模式从"卖产品"转"卖任务"时，销售/考核/培训/晋升必须同步重构；"1 GPU→1 CPU"联动效应创造而非替代岗位，但要求全新能力模型（销售需懂业务场景）；"云芯模"到"全栈协同"要求硬件-云-模型-Agent各层打破部门墙。
 - **标签**：#阿里云 #Agent化 #MaaS #销售转型 #平头哥芯片
 - **抓取时间**：2026-05-21 14:50
+
+### [55] Gartner：80%试点自治能力组织已减员，但裁员并不能直接带来AI回报
+- **事件摘要**：Gartner 于 2026 年 5 月 5 日指出，在试点或部署 autonomous business capabilities 的组织中，约 80% 已出现 workforce reductions；但高 ROI 与低 ROI 组织的减员比例几乎相同。Gartner 强调，裁员也许能腾出预算空间，却不能自动创造回报；真正带来 ROI 的组织，是那些持续投资于技能、角色与 operating structure，让人类去引导、治理、扩展和过渡到自治系统的组织。长期看，Gartner 判断 autonomous business 将成为净新增就业的来源之一。
+- **来源**：Gartner（https://www.gartner.com/en/newsroom/press-releases/2026-05-05-gartner-says-autonomous-business-and-artificial-intelligence-layoffs-may-create-budget-room-but-do-not-deliver-returns）
+- **来源平台**：Gartner
+- **来源可信度**：⭐高
+- **OD启示**：这条对组织设计的意义很直接：AI 商业论证不能建立在“先减人再证明 ROI”上，而应建立在“哪些新角色负责 guide、govern、scale autonomous systems”上。若只把 AI 当作 headcount tool，企业既可能拿不到持续回报，也会更早暴露人才断层与治理缺口。
+- **标签**：#Gartner #AI裁员 #AutonomousBusiness #ROI #OperatingModel #技能转型
+- **抓取时间**：2026-05-21 16:26
+
+### [56] Cornerstone 推出 Workforce AI：skills graph、绩效管理、组织设计与 readiness agents 开始被拉进同一层
+- **事件摘要**：Cornerstone 于 2026 年 5 月 20 日发布 Cornerstone Workforce AI，定位为 workforce readiness intelligence platform。官方披露，该平台以 People Graph 与 Skills Engine 为核心，整合长期 workforce data、劳动力市场信号与系统记录数据，帮助组织加速新角色就绪、识别各岗位可由 AI 自动化的任务、在绩效对话中对管理者进行自适应辅导，并推动内部流动与岗位转型。重点不只是“学习平台加了 AI”，而是 workforce planning、job architecture、manager coaching 与 agentic action 开始进入同一运行层。
+- **来源**：Cornerstone（https://www.cornerstoneondemand.com/company/news-room/press-releases/cornerstone-launches-cornerstone-workforce-ai-the-intelligence-platform-for-workforce-readiness-built-to-amplify-human-potential-exponentially-with-ai/）
+- **来源平台**：Cornerstone
+- **来源可信度**：⭐高
+- **OD启示**：这说明 HR Tech 正在从培训和人才管理工具，升级为支撑组织重构的 readiness operating layer。对 OD 来说，岗位架构、技能图谱、内部流动、绩效对话和 AI 自动化边界，未来会越来越多地被要求在同一张 workforce intelligence 视图里协同设计。
+- **标签**：#HRTech #WorkforceReadiness #技能图谱 #绩效管理 #内部流动 #Cornerstone
+- **抓取时间**：2026-05-21 16:26
 
 ## 2026-05-20
 
@@ -4008,4 +4026,3 @@
 - **OD启示**：68%自信vs93%受阻说明"AI信心指数"是虚假指标，应用"AI结果验证"替代"AI采用意愿"。"先重设计流程再自动化"否定"在现有流程叠加AI"的主流策略。双轨ROI解决AI投资评估困局——OD需帮助设计同时容纳短期用例ROI和长期赋能复利的预算和评估机制。
 - **标签**：#HBR #Slalom #自适应组织 #技能差距 #双轨ROI #领导力范式 #流程优先
 - **抓取时间**：2026-05-21 14:55
-- **抓取时间**：2026-05-14 09:42
