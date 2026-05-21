@@ -4,6 +4,11 @@
 
 ---
 
+## [2026-05-21] ingest | GitLab Promotions and Transfers 晋升机制入库
+- 摄入 GitLab Handbook 页面 `Promotions and Transfers`，新增 `knowledge/wiki/gitlab-promotions-transfers-handbook.md`。
+- 按晋升相关专题整理为制度机制卡，覆盖晋升类型、promotion philosophy、半年校准流程、promotion document、business results、business justification、values alignment、cross-functional feedback、Senior Director+ 附加要求、例外晋升、薪酬规则、内部流动、interim/acting 和沟通机制。
+- 重点沉淀：GitLab 的晋升机制同时考量个人准备度与业务需要，并通过文档、校准、岗位框架、预算和跨职能反馈减少主观性。
+
 ## [2026-05-20] ingest | 日报 PDF 证据源自动入库
 - 从 daily、daily-report、specials、analysis 中扫描 PDF URL，按知识库 Raw/Wiki/Catalog 规则自动建档。
 - 本次识别 17 个唯一 PDF 来源：12 个已下载原始 PDF，5 个保留 URL 与引用上下文待重试。

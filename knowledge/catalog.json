@@ -104,6 +104,37 @@
   ],
   "reports": [
     {
+      "id": "gitlab-promotions-transfers-handbook",
+      "title": "GitLab：Promotions and Transfers 晋升与内部流动机制",
+      "originalTitle": "Promotions and Transfers",
+      "author": "GitLab People Group",
+      "publisher": "GitLab Handbook",
+      "sourceType": "industry",
+      "topics": [
+        "职级改革",
+        "绩效管理",
+        "人才发展",
+        "薪酬激励",
+        "组织设计"
+      ],
+      "date": "2026-05-21",
+      "uploadDate": "2026-05-21",
+      "description": "GitLab 官方 Handbook 中的晋升与内部流动制度页，结构化说明周期性晋升校准、promotion document、业务结果、业务必要性、价值观对齐、跨职能反馈、Senior Director+ 角色评估、例外晋升审批、薪酬涨幅和内部转岗规则。适合作为晋升机制专题核心案例。",
+      "summaryFile": "./knowledge/wiki/gitlab-promotions-transfers-handbook.md",
+      "fileName": "web: https://handbook.gitlab.com/handbook/people-group/promotions-transfers/",
+      "fileSize": "web source",
+      "tags": [
+        "GitLab",
+        "晋升机制",
+        "内部流动",
+        "校准",
+        "promotion document",
+        "业务结果",
+        "薪酬规则"
+      ],
+      "originalUrl": "https://handbook.gitlab.com/handbook/people-group/promotions-transfers/"
+    },
+    {
       "id": "zapier-2026-ai-practice-research",
       "title": "Zapier AI 实践深度研究：从工具采用到 AI-first operating model",
       "originalTitle": "Zapier AI practice research based on public blog articles",
