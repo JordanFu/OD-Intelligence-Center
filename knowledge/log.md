@@ -4,6 +4,38 @@
 
 ---
 
+## [2026-05-20] ingest | 日报 PDF 证据源自动入库
+- 从 daily、daily-report、specials、analysis 中扫描 PDF URL，按知识库 Raw/Wiki/Catalog 规则自动建档。
+- 本次识别 17 个唯一 PDF 来源：12 个已下载原始 PDF，5 个保留 URL 与引用上下文待重试。
+- 待重试：GitLab：2026 SEC 8-K Filing（引用 15 次）
+- 已下载：netflix culture（引用 6 次）
+- 已下载：BCG：AI-First Organization（引用 3 次）
+- 已下载：engineering progression framework v2 0（引用 1 次）
+- 待重试：6456498（引用 4 次）
+- 已下载：WEF：Organizational Transformation in the Age of AI（引用 3 次）
+- 已下载：Anthropic：2026 Agentic Coding Trends Report（引用 1 次）
+- 待重试：BCG：AI Radar 2026（引用 3 次）
+- 待重试：BCG + MIT Sloan：The Emerging Agentic Enterprise（引用 8 次）
+- 已下载：AIHR：HR Priorities 2026 Report（引用 1 次）
+- 已下载：us spans and layers for the modern organization 2020（引用 3 次）
+- 已下载：EY：Future of Pay Report 2026（引用 60 次）
+- 已下载：12 087 bc50bde2 3016 457a 9bee dc988cb1056b（引用 3 次）
+- 已下载：0000050863 26 000011（引用 2 次）
+- 已下载：orgvue ai research ebook 2026 final（引用 1 次）
+- 已下载：Payscale：2026 Compensation Best Practices Report（引用 3 次）
+- 待重试：it job family career ladder matrix software engineer（引用 1 次）
+## [2026-05-20] research | Zapier AI 实践深度研究报告
+- 基于 Zapier all articles 中多篇 AI 相关公开文章和产品页，新增研究报告 `knowledge/wiki/zapier-ai-practice-research-2026-05-20.md`。
+- 报告覆盖 Zapier 的 AI 子话题地图、全员 adoption 路径、人才与招聘机制、各职能 AI workflow、Agents/MCP 产品化、agent 安全治理、质量运营和对 AI 组织设计的启发。
+- 重点结论：Zapier 的 AI-first 实践已经从个人工具使用进入团队工作流重构、人才门槛和 operating model redesign；对我们最有价值的是 AI fluency 的判断标准，而不是单个工具清单。
+
+## [2026-05-20] ingest | Zapier AI-first hiring + AI Fluency Rubric V2
+- 摄入 Zapier 2025 文章 `From AI-friendly to AI-first: How Zapier is transforming hiring and onboarding`，新增 `knowledge/wiki/zapier-ai-first-hiring-onboarding-2025.md`。
+- 摄入 Zapier 2026 文章 `One year later: Raising the AI fluency bar for every Zapier hire`，新增 `knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md`。
+- 将 V2 中 Engineering、Product、Support、Marketing、People、Legal、Sales/Revenue、Business Ops、Corporate Development、Ecosystems & Channels、Finance、Data、Exec Ops 的岗位能力要求按四级标准整理为中文矩阵。
+- 出于版权和引用可控性，知识库不保存网页全文或长段英文原文；保留来源 URL、短标签和中文结构化摘录。
+- 该资料后续可用于 AI 组织设计、招聘门槛、岗位技能标签、管理者 AI adoption 要求、绩效与晋升证据设计。
+
 ## [2026-05-19] ingest | CFTE AI Proficiency Framework 入库与中文阅读版
 - 将用户提供的 `CFTE-AI-Proficiency-Framework.pdf` 归档为 `knowledge/raw/cfte-2026-04-ai-proficiency-framework.pdf`。
 - 新增结构化来源摘要页 `knowledge/wiki/pdf-source-cfte-2026-04-ai-proficiency-framework.md`，按知识库要求补齐一句话判断、核心内容、关注重点、研究相关性、证据层级和后续使用方式。

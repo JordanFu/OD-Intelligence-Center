@@ -7,23 +7,44 @@ cd "$(dirname "$0")"
 
 echo "🔄 检查数据更新..."
 
-# 先添加所有变更（包括未跟踪文件）
-git add -A
+NEED_SYNC=false
 
-# 检查是否有已暂存的变更（含新增文件）
-if git diff --cached --quiet; then
+# 1. 检查是否有未暂存的变更
+if ! git diff --quiet; then
+    echo "📝 发现未暂存变更，添加到暂存区..."
+    git add -A
+    NEED_SYNC=true
+fi
+
+# 2. 检查是否有已暂存的变更
+if ! git diff --cached --quiet; then
+    NEED_SYNC=true
+fi
+
+# 3. 检查是否有未推送的本地提交
+UNPUSHED=$(git rev-list @{upstream}..HEAD 2>/dev/null || true)
+if [ -n "$UNPUSHED" ]; then
+    echo "📦 发现 $(echo "$UNPUSHED" | wc -l | tr -d ' ') 个未推送的提交"
+    NEED_SYNC=true
+fi
+
+if [ "$NEED_SYNC" = false ]; then
     echo "✅ 无变更，跳过同步"
     exit 0
 fi
 
-# 生成提交信息（包含时间）
-COMMIT_MSG="auto-sync: $(date '+%Y-%m-%d %H:%M') - 更新数据"
+# 如果有暂存变更，提交
+if ! git diff --cached --quiet; then
+    COMMIT_MSG="auto-sync: $(date '+%Y-%m-%d %H:%M') - 更新数据"
+    git commit -m "$COMMIT_MSG"
+fi
 
-# 提交
-git commit -m "$COMMIT_MSG" || true
-
-# 推送到 GitHub
+# 推送到 GitHub（含 rebase 逻辑）
 echo "🚀 推送到 GitHub..."
-git push origin main || git push -u origin main
+if ! git push origin main 2>/dev/null; then
+    echo "⚠️ 推送被拒绝，先拉取远程更新..."
+    git pull --rebase origin main
+    git push origin main
+fi
 
 echo "✅ 同步完成！Vercel 将在 1-2 分钟内自动部署"

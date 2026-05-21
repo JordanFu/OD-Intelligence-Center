@@ -1,7 +1,7 @@
 # AI 组织设计知识库 — 索引
 
 > 按 Karpathy LLM Wiki 模式维护 · LLM 负责更新 · 人类负责审核
-> 最后更新: 2026-05-19
+> 最后更新: 2026-05-20
 
 ---
 
@@ -19,6 +19,9 @@
 | 7 | [知音楼资料索引：人力资源行业洞察 2024](wiki/zhiyinlou-hr-industry-insights-2024.md) | 知音楼 | 2026-05-13 | HR趋势, 人才发展, 人效, 福利 |
 | 8 | [知音楼 PDF 知识源地图](wiki/zhiyinlou-hr-pdf-source-map-2026-05-13.md) | 知音楼 | 2026-05-13 | PDF知识源, 待精读 |
 | 9 | [CFTE：AI Proficiency Framework](wiki/pdf-source-cfte-2026-04-ai-proficiency-framework.md) | CFTE | 2026-04 | AI能力框架, 人才发展, 技能组织 |
+| 10 | [Zapier：AI-first 招聘与入职机制](wiki/zapier-ai-first-hiring-onboarding-2025.md) | Zapier | 2025-05-21 | AI招聘, 入职培训, AI能力框架 |
+| 11 | [Zapier：AI Fluency Rubric V2](wiki/zapier-ai-fluency-rubric-v2-2026.md) | Zapier | 2026-03-31 | AI招聘, 岗位能力, 变革管理 |
+| 12 | [Zapier AI 实践深度研究](wiki/zapier-ai-practice-research-2026-05-20.md) | Zapier Blog | 2026-05-20 | AI组织设计, AI实践, Agent, MCP |
 | 1 | [BCG: Design Your Company for AI](wiki/bcg-2026-04-design-company-for-ai.md) | BCG | 2026-04 | AI组织设计, 运营模型, Agent |
 | 2 | [BCG: AI转型本质上是劳动力转型](summaries/r001-bcg-zh.md) | BCG | 2026-02 | AI转型, 10-20-70法则 |
 | 3 | [Deloitte: 企业AI应用现状](summaries/r002-deloitte-zh.md) | Deloitte | 2025 | 数字化转型, AI战略 |
@@ -53,14 +56,22 @@
 | 标题 | 来源 | 关注重点 | 相关性 | 状态 |
 |---|---|---|---|---|
 | [GitLab：2026 SEC 8-K Filing](wiki/pdf-source-gitlab-gitlab-2026-sec-8-k-filing.md) | GitLab | 官方披露、组织压缩、AI-agent-first 待核验 | 中高相关：公司案例核验 | 已索引待重试，引用 15 次 |
+| [netflix culture](wiki/pdf-source-jobs-netflix-com-netflix-culture.md) | jobs.netflix.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 6 次 |
 | [BCG：AI-First Organization](wiki/pdf-source-bcg-bcg-ai-first-organization.md) | BCG | AI 默认执行、端到端流程重构、人机编排 | 强相关：组织与岗位重构 | 已下载原文，引用 3 次 |
+| [engineering progression framework v2 0](wiki/pdf-source-monzo-com-engineering-progression-framework-v2-0.md) | monzo.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 1 次 |
+| [6456498](wiki/pdf-source-papers-ssrn-com-6456498.md) | papers.ssrn.com | AI组织设计 | 待评估：需精读后确定 | 已索引待重试，引用 4 次 |
 | [WEF：Organizational Transformation in the Age of AI](wiki/pdf-source-world-economic-forum-wef-organizational-transformation-in-the-age-of-ai.md) | World Economic Forum | 工作流重构、决策权、AI 参与执行 | 强相关：战略到组织机制 | 已下载原文，引用 3 次 |
 | [Anthropic：2026 Agentic Coding Trends Report](wiki/pdf-source-anthropic-anthropic-2026-agentic-coding-trends-report.md) | Anthropic | Agentic coding、工程师角色重塑、人机协作 | 强相关：产品工程一体化 | 已下载原文，引用 1 次 |
 | [BCG：AI Radar 2026](wiki/pdf-source-bcg-bcg-ai-radar-2026.md) | BCG | AI 投资、价值兑现、组织阻碍待核验 | 中相关：战略背景 | 已索引待重试，引用 3 次 |
-| [BCG + MIT Sloan：The Emerging Agentic Enterprise](wiki/pdf-source-bcg-bcg-mit-sloan-the-emerging-agentic-enterprise.md) | BCG | Agentic enterprise、中层层级、组织结构变量 | 强相关：扁平化与管理层级 | 已索引待重试，引用 5 次 |
+| [BCG + MIT Sloan：The Emerging Agentic Enterprise](wiki/pdf-source-bcg-bcg-mit-sloan-the-emerging-agentic-enterprise.md) | BCG | Agentic enterprise、中层层级、组织结构变量 | 强相关：扁平化与管理层级 | 已索引待重试，引用 8 次 |
 | [AIHR：HR Priorities 2026 Report](wiki/pdf-source-aihr-aihr-hr-priorities-2026-report.md) | AIHR | 技能本位组织、HR 重构、skill count | 强相关：岗位与技能体系 | 已下载原文，引用 1 次 |
-| [EY：Future of Pay Report 2026](wiki/pdf-source-ey-ey-future-of-pay-report-2026.md) | EY | 技能薪酬、生产率锚点、AI 人才溢价 | 强相关：薪酬与激励机制 | 已下载原文，引用 46 次 |
-| [Payscale：2026 Compensation Best Practices Report](wiki/pdf-source-payscale-payscale-2026-compensation-best-practices-report.md) | Payscale | AI 技能定价、薪酬公平、薪酬基准、job management | 强相关：薪酬架构与激励资源 | 已下载原文，引用 2 次 |
+| [us spans and layers for the modern organization 2020](wiki/pdf-source-deloitte-us-spans-and-layers-for-the-modern-organization-2020.md) | Deloitte | AI组织设计、变革管理 | 待评估：需精读后确定 | 已下载原文，引用 3 次 |
+| [EY：Future of Pay Report 2026](wiki/pdf-source-ey-ey-future-of-pay-report-2026.md) | EY | 技能薪酬、生产率锚点、AI 人才溢价 | 强相关：薪酬与激励机制 | 已下载原文，引用 60 次 |
+| [12 087 bc50bde2 3016 457a 9bee dc988cb1056b](wiki/pdf-source-hbs-edu-12-087-bc50bde2-3016-457a-9bee-dc988cb1056b.md) | hbs.edu | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 3 次 |
+| [0000050863 26 000011](wiki/pdf-source-intc-com-0000050863-26-000011.md) | intc.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 2 次 |
+| [orgvue ai research ebook 2026 final](wiki/pdf-source-orgvue-com-orgvue-ai-research-ebook-2026-final.md) | orgvue.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 1 次 |
+| [Payscale：2026 Compensation Best Practices Report](wiki/pdf-source-payscale-payscale-2026-compensation-best-practices-report.md) | Payscale | AI 技能定价、薪酬公平、薪酬基准、job management | 强相关：薪酬架构与激励资源 | 已下载原文，引用 3 次 |
+| [it job family career ladder matrix software engineer](wiki/pdf-source-umassmed-edu-it-job-family-career-ladder-matrix-software-engineer.md) | umassmed.edu | AI组织设计、绩效管理 | 待评估：需精读后确定 | 已索引待重试，引用 1 次 |
 <!-- PDF_AUTO_INDEX_END -->
 
 ## 操作日志
@@ -69,9 +80,9 @@
 
 最近 5 条：
 ```
+[2026-05-20] ingest | Zapier AI-first hiring + AI Fluency Rubric V2
+[2026-05-20] research | Zapier AI 实践深度研究报告
 [2026-05-13] ingest | Obsidian 首批导入 + 知音楼入口建档 + LLM Wiki 运维规则
 [2026-05-13] ingest | 知音楼《人力资源行业洞察 2024》目录同步
 [2026-05-13] ingest | 知音楼 PDF 附件全量枚举与临时解析
-[2026-05-13] ingest | 知音楼 HR 知识库十主题整理
-[2026-04-27] ingest | BCG: Design Your Company for AI
 ```

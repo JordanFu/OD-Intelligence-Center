@@ -2,7 +2,7 @@
 title: EY：Future of Pay Report 2026
 source: EY
 date: 待核验
-ingested: 2026-05-19
+ingested: 2026-05-20
 sourceFile: ../knowledge/raw/ey-ey-future-of-pay-report-2026.pdf
 sourceUrl: https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf
 tags: [AI组织设计, 绩效管理]
@@ -21,7 +21,7 @@ EY 把未来薪酬改革连接到技能、绩效、AI 人才、生产率和治�
 - **来源类型**：consulting
 - **原文 URL**：https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf
 - **原始文件**：`knowledge/raw/ey-ey-future-of-pay-report-2026.pdf`
-- **入库日期**：2026-05-19
+- **入库日期**：2026-05-20
 - **证据层级**：结论层可用，但具体薪酬数字需按地区/样本复核。
 
 ## 核心内容
@@ -84,11 +84,25 @@ EY 把未来薪酬改革连接到技能、绩效、AI 人才、生产率和治�
 - `specials/ai-org-talent-mechanism/2026-05-18/04-promotion-system.md:77`：晋升规则创新的关键不是“窗口 vs 随时”，而是“证据包标准”与“校准治理能力”。Microsoft WIT 的组织级可重复机制与 EY 的治理建议，都指向“把不可见贡献变成可审计证据”。https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-o
 - `specials/ai-org-talent-mechanism/2026-05-18/04-promotion-system.md:82`：官方/一手：Microsoft WIT；EY Future of Pay（PDF）；Payscale 报告（新闻稿/正文）。https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organizatio
 - `specials/ai-org-talent-mechanism/2026-05-18/04-promotion-system.md:115`：EY Future of Pay 2026（PDF）：
-- `specials/ai-org-talent-mechanism/2026-05-19/00-overview.md:49`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/2026-05-19/01-flat-organization.md:37`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/2026-05-19/02-talent-density.md:37`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/2026-05-19/03-job-family-career-architecture.md:37`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/2026-05-19/04-promotion-system.md:37`：EY Future of Pay 2026
+- `specials/ai-org-talent-mechanism/2026-05-19/00-overview.md:23`：人才密度 ↔ 岗位序列：当组织无法用 job architecture+skills taxonomy 表达稀缺能力并定价时，会把问题推回“新序列/新 title”；于是岗位体系膨胀、career path 混乱。
+- `specials/ai-org-talent-mechanism/2026-05-19/00-overview.md:44`：晋升激励：保留窗口与校准；把 AI 贡献写入证据包；用高频激励分流晋升压力；技能溢价要有 sunset 与 audit。
+- `specials/ai-org-talent-mechanism/2026-05-19/02-talent-density.md:17`：EY《Future of Pay 2026》报告（PDF）提出：技能溢价更频繁校准（半年/季度）、pay bands 叠加 skill tiers 与熟练度；并建议 eligibility criteria、sunset clauses 与审计机制以管理公平与风险。来源：EY 报告 PDF。
+- `specials/ai-org-talent-mechanism/2026-05-19/02-talent-density.md:33`：- 证据基础：EY 提出 skill premiums 的频繁校准、sunset clauses 与审计；Payscale 提示溢价实践并不普遍；HRD 给出市场溢价信号。 ｜ https://www.globenewswire.com/news-release/2026/02/24/3243682/0/en/Payscale-s-2026-Compensa
+- `specials/ai-org-talent-mechanism/2026-05-19/02-talent-density.md:91`：权威媒体/咨询：Deloitte（84%未重设计岗位）；EY（技能溢价治理）；Payscale（AI pay gap）。https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html ｜  ｜ https://www.globen
+- `specials/ai-org-talent-mechanism/2026-05-19/02-talent-density.md:122`：EY Future of Pay 2026（PDF）：
+- `specials/ai-org-talent-mechanism/2026-05-19/03-job-family-career-architecture.md:27`：- 证据基础：专题二中 EY/Payscale 显示技能溢价与治理成为底层议题；当 pay tools 不足时，业务更倾向用 title/序列来“合理化”溢价。 ｜ https://www.globenewswire.com/news-release/2026/02/24/3243682/0/en/Payscale-s-2026-Compensation-B
+- `specials/ai-org-talent-mechanism/2026-05-19/03-job-family-career-architecture.md:83`：权威媒体/咨询：Deloitte（岗位未重设计数据）；EY/Payscale（技能溢价与治理矛盾，支撑“岗位诉求往往是薪酬诉求”）。https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html ｜  ｜ https://www.
+- `specials/ai-org-talent-mechanism/2026-05-19/03-job-family-career-architecture.md:115`：EY Future of Pay 2026（PDF）：
+- `specials/ai-org-talent-mechanism/2026-05-19/04-promotion-system.md:18`：EY《Future of Pay 2026》报告（PDF）提出：技能溢价与 pay bands 需更频繁校准，并建议 eligibility criteria、sunset clauses 与 audit 机制管理公平与风险（与晋升‑调薪联动治理高度相关）。
+- `specials/ai-org-talent-mechanism/2026-05-19/04-promotion-system.md:32`：- 证据基础：EY 提出技能溢价应频繁校准、设置 sunset 与审计；Payscale 提示现实中溢价实践不普遍。 ｜ https://www.globenewswire.com/news-release/2026/02/24/3243682/0/en/Payscale-s-2026-Compensation-Best-Practices-Report-R
+- `specials/ai-org-talent-mechanism/2026-05-19/04-promotion-system.md:83`：晋升规则创新的关键不是“窗口 vs 随时”，而是“证据包标准”与“校准治理能力”。Microsoft WIT 的组织级可重复机制与 EY 的治理建议，都指向“把不可见贡献变成可审计证据”。https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-o
+- `specials/ai-org-talent-mechanism/2026-05-19/04-promotion-system.md:88`：官方/一手：Microsoft WIT；EY Future of Pay（PDF）；Payscale 报告（新闻稿/正文）。https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organizatio
+- `specials/ai-org-talent-mechanism/2026-05-19/04-promotion-system.md:121`：EY Future of Pay 2026（PDF）：
+- `specials/ai-org-talent-mechanism/2026-05-20/00-overview.md:49`：EY Future of Pay 2026
+- `specials/ai-org-talent-mechanism/2026-05-20/01-flat-organization.md:37`：EY Future of Pay 2026
+- `specials/ai-org-talent-mechanism/2026-05-20/02-talent-density.md:37`：EY Future of Pay 2026
+- `specials/ai-org-talent-mechanism/2026-05-20/03-job-family-career-architecture.md:37`：EY Future of Pay 2026
+- `specials/ai-org-talent-mechanism/2026-05-20/04-promotion-system.md:37`：EY Future of Pay 2026
 - `specials/ai-org-talent-mechanism/weekly/2026-W20-quick.md:83`：EY Future of Pay 2026：
 - `specials/ai-org-talent-mechanism/weekly/2026-W20.md:83`：EY Future of Pay 2026：
 - `specials/ai-org-talent-mechanism/weekly/2026-W21-detailed.md:48`：EY Future of Pay 2026
