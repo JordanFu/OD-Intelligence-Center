@@ -1,6 +1,6 @@
 # 专题二：高人才密度与复合型人才机制｜滚动基线档案
 
-> 更新日期：2026-05-20  
+> 更新日期：2026-05-21  
 > 用途：这是四课题研究的“滚动母稿”，不是某一天的日报。日报负责记录新增事实、Context 和线索；周报负责做阶段复盘；基线档案负责沉淀稳定判断、证据账本和待验证问题。  
 > 自动化规则：每日/周报与 PDF 入库后自动回写证据账本；正式重跑遵循 research-protocol.md 的多代理并行与主代理交叉证伪机制；只有多源互证或一手材料足够强的内容，才进入稳定判断。
 
@@ -29,11 +29,14 @@ AI 时代的高人才密度不只是“更强个体”，而是能把问题定�
 | 2026-05-18 | [日报](../2026-05-18/02-talent-density.html) | 线索层/待验证 | 口径：高人才密度不等于“少而精”；本专题聚焦“如何识别/发现/招聘/激励/保留能在 AI 时代持续产生复用资产的人”。 | 口径：高人才密度不等于“少而精”；本专题聚焦“如何识别/发现/招聘/激励/保留能在 AI 时代持续产生复用资产的人”。 | 口径：高人才密度不等于“少而精”；本专题聚焦“如何识别/发现/招聘/激励/保留能在 AI 时代持续产生复用资产的人”。 |
 | 2026-05-19 | [日报](../2026-05-19/02-talent-density.html) | 线索层/待验证 | 口径：高人才密度不等于“少而精”；本专题聚焦“如何识别/发现/招聘/激励/保留能在 AI 时代持续产生复用资产的人”。 | 口径：高人才密度不等于“少而精”；本专题聚焦“如何识别/发现/招聘/激励/保留能在 AI 时代持续产生复用资产的人”。 | 口径：高人才密度不等于“少而精”；本专题聚焦“如何识别/发现/招聘/激励/保留能在 AI 时代持续产生复用资产的人”。 |
 | 2026-05-20 | [日报](../2026-05-20/02-talent-density.html) | Context层强证据 | 1. **AI operating model 正在从工具层走向组织层。** IBM、Microsoft、Deloitte、McKinsey 的材料共同指向 agent、人、数据、流程和治理的一体化重构。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
+| 2026-05-21 | [日报](../2026-05-21/02-talent-density.html) | 结论层候选 | 口径：事实与判断分离；高置信判断必须能回溯到一手/权威证据。 | 口径：事实与判断分离；高置信判断必须能回溯到一手/权威证据。 | 口径：事实与判断分离；高置信判断必须能回溯到一手/权威证据。 |
 
 ## 知识库与 PDF 证据关联
 
 | 资料 | 对本专题的价值 |
 |---|---|
+| [GitLab：Promotions and Transfers 晋升与内部流动机制](./knowledge/wiki/gitlab-promotions-transfers-handbook.md) | GitLab 官方 Handbook 中的晋升与内部流动制度页，结构化说明周期性晋升校准、promotion document、业务结果、业务必要性、价值观对齐、跨职能反馈、Senior Director+ 角色评估、… |
+| [GitLab：People & Organization 机制研究模块](./knowledge/wiki/gitlab-people-org-handbook-module-2026-05-21.md) | 覆盖 GitLab Handbook People Group 与 People Policies 两个一级目录，沉淀 GitLab 的 People 操作系统：公开手册、服务台、员工生命周期、能力模型、人才盘点、晋升… |
 | [CFTE：AI Proficiency Framework](./knowledge/wiki/pdf-source-cfte-2026-04-ai-proficiency-framework.md) | CFTE 提出的专业劳动力 AI 熟练度参考框架：三层公开等级、六档内部发展模型、十个能力域，以及 knowledge/skills/behaviours 三类评估维度。适合用于 AI 能力盘点、岗位技能标签、人才发展… |
 | [标杆研究更新：AI如何重塑组织设计](./knowledge/wiki/benchmark-ai-org-design-update-2026-05-08.html) | 从工作日报模块迁入知识库的标杆研究更新报告：基于 04-28 至 05-08 期间 80+ 条信息，聚焦 AI 时代人才发展机制创新与飞轮人员待优化复盘，整理 Deloitte、BCG、IBM、Lovable、百度、K… |
 | [技能为本的组织：职位、技能与薪酬架构的连接](./knowledge/concepts/skills-based-organization-obsidian.md) | 围绕技能而非职位角色管理人才：从技能分类法、技能评估与匹配，到招聘、发展、薪酬和劳动力规划。对“何时新增岗位/序列，何时只加技能标签”有直接参考价值。 |
@@ -59,4 +62,4 @@ AI 时代的高人才密度不只是“更强个体”，而是能把问题定�
 
 ## 最近日报入口
 
-- 最新日报：2026-05-20｜[打开专题日报](../2026-05-20/02-talent-density.html)｜源文件：`specials/ai-org-talent-mechanism/2026-05-20/02-talent-density.md`
+- 最新日报：2026-05-21｜[打开专题日报](../2026-05-21/02-talent-density.html)｜源文件：`specials/ai-org-talent-mechanism/2026-05-21/02-talent-density.md`
