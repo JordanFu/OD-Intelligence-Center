@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "lastUpdated": "2026-05-20",
+  "lastUpdated": "2026-05-21",
   "mode": "karpathy-llm-wiki",
   "schema": "knowledge/CLAUDE.md",
   "categories": {
@@ -133,6 +133,62 @@
         "薪酬规则"
       ],
       "originalUrl": "https://handbook.gitlab.com/handbook/people-group/promotions-transfers/"
+    },
+    {
+      "id": "gitlab-people-org-handbook-module-2026-05-21",
+      "title": "GitLab：People & Organization 机制研究模块",
+      "originalTitle": "GitLab Handbook People Group and People Policies",
+      "author": "GitLab People Group",
+      "publisher": "GitLab Handbook",
+      "sourceType": "industry",
+      "topics": [
+        "组织设计",
+        "人才发展",
+        "绩效管理",
+        "变革管理",
+        "组织文化",
+        "PeopleOps"
+      ],
+      "date": "2026-05-21",
+      "uploadDate": "2026-05-21",
+      "description": "覆盖 GitLab Handbook People Group 与 People Policies 两个一级目录，沉淀 GitLab 的 People 操作系统：公开手册、服务台、员工生命周期、能力模型、人才盘点、晋升流动、变革管理、People Analytics 与政策合规。",
+      "summaryFile": "./knowledge/wiki/gitlab-people-org-handbook-module-2026-05-21.md",
+      "tags": [
+        "GitLab",
+        "People Group",
+        "People Policies",
+        "组织机制",
+        "人才发展",
+        "PeopleOps",
+        "远程组织"
+      ],
+      "originalUrl": "https://handbook.gitlab.com/handbook/people-group/"
+    },
+    {
+      "id": "gitlab-people-org-handbook-source-map-2026-05-21",
+      "title": "GitLab：People Group / People Policies 覆盖索引",
+      "originalTitle": "GitLab Handbook People & Organization Source Map",
+      "author": "GitLab People Group",
+      "publisher": "GitLab Handbook",
+      "sourceType": "industry",
+      "topics": [
+        "组织设计",
+        "人才发展",
+        "政策合规",
+        "知识管理"
+      ],
+      "date": "2026-05-21",
+      "uploadDate": "2026-05-21",
+      "description": "逐页记录 GitLab Handbook People Group 67 页和 People Policies 8 页的标题、公开 URL、源仓库路径、主要标题和研究归类，作为后续持续研究的覆盖索引。",
+      "summaryFile": "./knowledge/wiki/gitlab-people-org-handbook-source-map-2026-05-21.md",
+      "rawFile": "./knowledge/raw/gitlab-handbook-people-org-source-map-2026-05-21.json",
+      "tags": [
+        "GitLab",
+        "Source Map",
+        "People Handbook",
+        "知识管理"
+      ],
+      "originalUrl": "https://handbook.gitlab.com/handbook/"
     },
     {
       "id": "zapier-2026-ai-practice-research",

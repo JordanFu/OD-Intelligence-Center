@@ -4,6 +4,11 @@
 
 ---
 
+## [2026-05-21] ingest | GitLab People Group / People Policies 组织机制模块
+- 覆盖 GitLab 官方 Handbook 源仓库中 `people-group` 与 `people-policies` 两个一级目录，共 75 页公开 Markdown。
+- 新增 `knowledge/wiki/gitlab-people-org-handbook-module-2026-05-21.md`：沉淀 GitLab 的 People 操作系统，包括 Handbook First、People Ops 服务台、员工生命周期、能力模型、人才盘点、职业发展、反馈文化、组织变革管理、People Analytics 与政策合规。
+- 新增 `knowledge/wiki/gitlab-people-org-handbook-source-map-2026-05-21.md` 与 `knowledge/raw/gitlab-handbook-people-org-source-map-2026-05-21.json`：作为后续持续追踪的逐页覆盖索引。
+
 ## [2026-05-21] ingest | GitLab Promotions and Transfers 晋升机制入库
 - 摄入 GitLab Handbook 页面 `Promotions and Transfers`，新增 `knowledge/wiki/gitlab-promotions-transfers-handbook.md`。
 - 按晋升相关专题整理为制度机制卡，覆盖晋升类型、promotion philosophy、半年校准流程、promotion document、business results、business justification、values alignment、cross-functional feedback、Senior Director+ 附加要求、例外晋升、薪酬规则、内部流动、interim/acting 和沟通机制。

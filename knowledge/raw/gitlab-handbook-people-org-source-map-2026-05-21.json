@@ -1,0 +1,1488 @@
+{
+  "ingested": "2026-05-21",
+  "sourceRepo": "https://gitlab.com/gitlab-com/content-sites/handbook",
+  "roots": [
+    "people-group",
+    "people-policies"
+  ],
+  "count": 75,
+  "entries": [
+    {
+      "section": "people-group",
+      "relPath": "people-group/360-feedback.md",
+      "title": "360 Feedback",
+      "description": "",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/360-feedback/",
+      "sourceRepoPath": "content/handbook/people-group/360-feedback.md",
+      "headings": [
+        "360 Feedback",
+        "Overview",
+        "Why 360 Feedback Matters",
+        "Is The 360 Process Right For Me?",
+        "When 360 Feedback Works Best",
+        "When 360 Feedback May Not Be Needed",
+        "How It Works",
+        "For Team Members",
+        "For Managers",
+        "For Feedback Providers",
+        "Key Principles",
+        "Eligibility and Timing"
+      ],
+      "wordCountApprox": 2402
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/_index.md",
+      "title": "People Group",
+      "description": "The People Group at GitLab supports all GitLab team members through the complete team member lifecycle.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/",
+      "sourceRepoPath": "content/handbook/people-group/_index.md",
+      "headings": [
+        "Welcome",
+        "People Group Vision",
+        "Connect with us",
+        "Need Help?",
+        "In Case of Emergency",
+        "How to Report Violations",
+        "How to reach the right member of the People Group",
+        "People Group Program Calendar for Managers and Team Members",
+        "Support provided by the Legal, Employment team to the People Group",
+        "When support from the People Operations team is required by the Legal, Employment team",
+        "Support provided by the People Operations team to the People Business Partner team",
+        "People Operations Responsibilities & Response Timeline"
+      ],
+      "wordCountApprox": 2908
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/acceptable-use-policy.md",
+      "title": "GitLab Internal Acceptable Use Policy",
+      "description": "This policy specifies requirements related to the use of GitLab computing resources and data assets",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/acceptable-use-policy/",
+      "sourceRepoPath": "content/handbook/people-group/acceptable-use-policy.md",
+      "headings": [
+        "Purpose",
+        "Scope",
+        "Roles & Responsibilities",
+        "Procedure",
+        "Acceptable Use and Security Requirements of Computing Resources at GitLab",
+        "Security and Proprietary Information",
+        "Customer Support Data Exception",
+        "Open source libraries",
+        "Freeware, Browser Extensions, Add-ons, and Plugins",
+        "Unacceptable Use",
+        "Return of GitLab-Owned Assets",
+        "Bring-Your-Own-Device (BYOD)"
+      ],
+      "wordCountApprox": 2668
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/anti-harassment.md",
+      "title": "Anti-Harassment Policy",
+      "description": "Everyone at GitLab has a responsibility to prevent and stop harassment. Learn more about our Anti-harassment policy.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/anti-harassment/",
+      "sourceRepoPath": "content/handbook/people-group/anti-harassment.md",
+      "headings": [
+        "Introduction",
+        "Perspective",
+        "Scope",
+        "Roles and Responsibilities",
+        "Types of Harassment",
+        "Sexual Harassment",
+        "Discrimination",
+        "Bullying / Workplace Violence",
+        "Retaliation",
+        "Speaking up during a public situation",
+        "Reporting a Physical Threat",
+        "Reporting Alleged Harassment"
+      ],
+      "wordCountApprox": 5637
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/celebrations.md",
+      "title": "New Hires, Celebrations and Significant Life Events",
+      "description": "Review different ways GitLab celebrates its team members.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/celebrations/",
+      "sourceRepoPath": "content/handbook/people-group/celebrations.md",
+      "headings": [
+        "New Hire Swag",
+        "New Parent Swag",
+        "Celebrations",
+        "GitLab Anniversary",
+        "Team Member Birthdays",
+        "Team Member Retirement",
+        "Team Member Gifts and Flowers",
+        "Sending an E-Card"
+      ],
+      "wordCountApprox": 812
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/competencies.md",
+      "title": "Competencies",
+      "description": "GitLab has competencies as a common framework to learn things. This page is a Single Source of Truth (SSoT) resource for our competencies.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/competencies/",
+      "sourceRepoPath": "content/handbook/people-group/competencies.md",
+      "headings": [
+        "Principles",
+        "Where we use competencies",
+        "Content",
+        "Structure",
+        "List",
+        "Values Competencies",
+        "Remote Work Competencies",
+        "Functional Competencies",
+        "Manager and Leadership Competencies"
+      ],
+      "wordCountApprox": 810
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/contracts-probation-periods.md",
+      "title": "Contracts, Background Screenings, Probation Periods & PIAA",
+      "description": "GitLab contract information and associated procedures.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/contracts-probation-periods/",
+      "sourceRepoPath": "content/handbook/people-group/contracts-probation-periods.md",
+      "headings": [
+        "Contract Templates",
+        "Process for Suggesting Changes to the Contract Templates",
+        "Correcting an error in an issued employment contract",
+        "Job Change Letter",
+        "Job Change Letter Inc to Fed Entity Change",
+        "Background Screenings",
+        "Probation Period",
+        "Important steps during the Probation Period",
+        "Current Locations With Probationary Periods",
+        "Locations without Probation Periods",
+        "PIAA (Proprietary Information and Assignment Agreement)",
+        "Outside Employment (Paid or Unpaid), Projects, and Potentially-Conflicting Activities"
+      ],
+      "wordCountApprox": 5519
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/directly-responsible-individuals.md",
+      "title": "Directly Responsible Individuals (DRI)",
+      "description": "Directly Responsible Individuals (DRIs) at GitLab own particular projects, initiatives, or activity.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/",
+      "sourceRepoPath": "content/handbook/people-group/directly-responsible-individuals.md",
+      "headings": [
+        "What is a directly responsible individual?",
+        "Empowering DRIs",
+        "DRIs and our Values",
+        "Characteristics of a Project DRI",
+        "Communication and feedback",
+        "Responsible, Accountable, Consulted, Informed (RACI)",
+        "RACI Framework Template",
+        "Circumstances Requiring the Rare Need for Approvals",
+        "DRI, Accountable, Consulted, Informed (DACI)"
+      ],
+      "wordCountApprox": 1067
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/employment-branding/_index.md",
+      "title": "Talent brand",
+      "description": "Our ambitions as an employer, the steps we take to achieve and communicate those ambitions, and the measures in place to ensure we live up to them.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/employment-branding/",
+      "sourceRepoPath": "content/handbook/people-group/employment-branding/_index.md",
+      "headings": [
+        "Introduction",
+        "Defining our talent brand vision",
+        "Achieving our talent brand vision",
+        "GitLab is a place where",
+        "Key ways we bring this vision to life",
+        "Design principles that underpin our strategy",
+        "How this translates to OKRs and our roadmap",
+        "Talent brand resources",
+        "Content library",
+        "GitLab talent ambassadors",
+        "Additional talent brand resources",
+        "Digital channels for talent branding"
+      ],
+      "wordCountApprox": 3788
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/employment-branding/content-library.md",
+      "title": "Content library - life at GitLab",
+      "description": "This content library is a curated list of blog posts, articles, videos, awards, and quick facts that help tell the story of life at GitLab.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/employment-branding/content-library/",
+      "sourceRepoPath": "content/handbook/people-group/employment-branding/content-library.md",
+      "headings": [
+        "How to use the content library",
+        "Life at GitLab at a glance",
+        "Quick facts",
+        "Key messages about life at GitLab",
+        "Key messages about diversity, inclusion, and belonging (DIB) at GitLab",
+        "Awards and lists recognizing GitLab as a great place to work",
+        "Outreach Resources",
+        "Logos, company description, team photos"
+      ],
+      "wordCountApprox": 1572
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/employment-branding/people-communications.md",
+      "title": "People communications & team member engagement",
+      "description": "Our approach to communications and team member engagement at GitLab",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/employment-branding/people-communications/",
+      "sourceRepoPath": "content/handbook/people-group/employment-branding/people-communications.md",
+      "headings": [
+        "Introduction",
+        "Guiding principles",
+        "People Communications & Engagement Objectives",
+        "Working with People Communications & Engagement",
+        "People Communications & Engagement channels",
+        "GitLab Assembly",
+        "People Communications & Engagement Planning",
+        "Planning large-scale communications & engagement efforts across multiple channels",
+        "Your role in keeping GitLab team members engaged & informed",
+        "Cascading information to various groups within GitLab",
+        "Runbook for contentious internal announcements",
+        "Resources and helpful links"
+      ],
+      "wordCountApprox": 3495
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/employment-solutions.md",
+      "title": "Employment Solutions - Overview",
+      "description": "GitLab's Employment Solutions.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/employment-solutions/",
+      "sourceRepoPath": "content/handbook/people-group/employment-solutions.md",
+      "headings": [
+        "Country Hiring Guidelines",
+        "Team Member Types at GitLab",
+        "Team Member Types by Country",
+        "GitLab Entities and Branches",
+        "Team Members Hired as Contractors via our GitLab Services Inc Entity",
+        "International Expansion",
+        "Country Conversions",
+        "Compensation Review for Country Conversions",
+        "WBSO (R&D tax credit) in the Netherlands"
+      ],
+      "wordCountApprox": 1222
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/engagement.md",
+      "title": "Engagement Surveys and Employer Awards",
+      "description": "",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/engagement/",
+      "sourceRepoPath": "content/handbook/people-group/engagement.md",
+      "headings": [
+        "Surveys Overview",
+        "Employer Award surveys",
+        "Great Place to Work",
+        "CultureAmp Engagement Survey Overview",
+        "Survey Confidentiality",
+        "Survey Participation",
+        "Survey Sections and Factors",
+        "FY26-Q4 Pulse Survey",
+        "Overview",
+        "Survey Details",
+        "Survey Focus Areas",
+        "Results and Reporting"
+      ],
+      "wordCountApprox": 6998
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/general-onboarding/_index.md",
+      "title": "GitLab Onboarding",
+      "description": "Onboarding at GitLab and Onboarding Issue Templates",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/general-onboarding/",
+      "sourceRepoPath": "content/handbook/people-group/general-onboarding/_index.md",
+      "headings": [
+        "TaNewKi Welcome Call",
+        "Agenda",
+        "Sending out the TaNEWki Call Invite",
+        "Slack Channel Support for New Team Members",
+        "Managers of New Team Members",
+        "Compliance",
+        "Completing Onboarding Issue",
+        "Onboarding Issue Template Links",
+        "Supplemental onboarding issue templates",
+        "Temporary Service Provider (Contractor/Consultant) Onboarding",
+        "Additional onboarding pages"
+      ],
+      "wordCountApprox": 1267
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/general-onboarding/mr-buddies.md",
+      "title": "Merge Request Buddies",
+      "description": "Merge request buddies at GitLab",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/general-onboarding/mr-buddies/",
+      "sourceRepoPath": "content/handbook/people-group/general-onboarding/mr-buddies.md",
+      "headings": [
+        "Find a Merge Request Buddy",
+        "Become a Merge Request Buddy"
+      ],
+      "wordCountApprox": 282
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/general-onboarding/onboarding-buddies.md",
+      "title": "GitLab Onboarding Buddies",
+      "description": "Onboarding Responsibilities and Process",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/general-onboarding/onboarding-buddies/",
+      "sourceRepoPath": "content/handbook/people-group/general-onboarding/onboarding-buddies.md",
+      "headings": [
+        "Buddy Responsibilities",
+        "How Can I Become An Onboarding Buddy?",
+        "Managers: Who should I pick as an Onboarding Buddy?",
+        "That's it"
+      ],
+      "wordCountApprox": 1842
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/general-onboarding/tanewki-tips.md",
+      "title": "TaNewKi Tips",
+      "description": "New Hires Guide to Starting at GitLab",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/general-onboarding/tanewki-tips/",
+      "sourceRepoPath": "content/handbook/people-group/general-onboarding/tanewki-tips.md",
+      "headings": [
+        "Welcome to the Team",
+        "Meet the People Operations team",
+        "Your Onboarding Journey",
+        "Before Your First Day",
+        "First day",
+        "New Hire FAQ: Everything You Need to Know",
+        "Payroll & Benefits",
+        "Stock Options & Equity",
+        "System Access",
+        "Remote Work & GitLab Culture",
+        "Helpful Resources",
+        "Acronym Dictionary"
+      ],
+      "wordCountApprox": 2583
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/givelab-volunteer-initiatives.md",
+      "title": "GiveLab Volunteer Initiatives",
+      "description": "Discover GitLab's volunteering opportunities with GiveLab",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/givelab-volunteer-initiatives/",
+      "sourceRepoPath": "content/handbook/people-group/givelab-volunteer-initiatives.md",
+      "headings": [
+        "About GiveLab",
+        "Historical GiveLab and Related Activities",
+        "GitLab Donation Drives",
+        "Upstream Diversity Working Group",
+        "Trusted Interns",
+        "Rails Girls",
+        "Recent Team Member Participation"
+      ],
+      "wordCountApprox": 536
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/guidance-on-feedback.md",
+      "title": "Guidance on Feedback",
+      "description": "GitLab's views and directions on how to give and receive feedback.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/guidance-on-feedback/",
+      "sourceRepoPath": "content/handbook/people-group/guidance-on-feedback.md",
+      "headings": [
+        "Documenting Feedback",
+        "Impact",
+        "Guidance on Giving and Receiving Feedback",
+        "Embracing Feedback",
+        "Hard Conversations",
+        "Radical candor",
+        "Cross-Cultural Feedback Considerations",
+        "What Comes First, Honesty or Trust?",
+        "Giving Feedback",
+        "S-B-I Model",
+        "Receiving Feedback",
+        "Recognition"
+      ],
+      "wordCountApprox": 1943
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/incident-response.md",
+      "title": "Incident Response",
+      "description": "An outline of action to be taken in the instance that a team member or group of team members is impacted by an extreme weather event; natural disaster or any other catastrophe.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/incident-response/",
+      "sourceRepoPath": "content/handbook/people-group/incident-response.md",
+      "headings": [
+        "Incident Response Plan",
+        "When to initiate Incident Response",
+        "Team Member Assistance",
+        "Time Off From Work",
+        "Team member resources",
+        "Actions to take as a Manager"
+      ],
+      "wordCountApprox": 526
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/learning-and-development/_index.md",
+      "title": "Talent Development",
+      "description": "",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/learning-and-development/",
+      "sourceRepoPath": "content/handbook/people-group/learning-and-development/_index.md",
+      "headings": [
+        "Overview",
+        "Purpose",
+        "Vision",
+        "Mission",
+        "Principles",
+        "Learning & Development Team",
+        "Team Member Resources",
+        "Contact Us",
+        "Work With Us",
+        "Available Learning and Development Support",
+        "How we work",
+        "GitLab Product Training"
+      ],
+      "wordCountApprox": 1708
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/learning-and-development/career-development/_index.md",
+      "title": "Career Development and Mobility",
+      "description": "Resources and direction for career development and mobility for all GitLab team members",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/learning-and-development/career-development/",
+      "sourceRepoPath": "content/handbook/people-group/learning-and-development/career-development/_index.md",
+      "headings": [
+        "What is Career Development",
+        "Directory",
+        "Resources and Tools",
+        "Career Growth Opportunities",
+        "Manager Training",
+        "Job Shadow Programs",
+        "Roles and Responsibilities",
+        "70-20-10 Rule for Development",
+        "Career Development versus Career Mobility",
+        "Document your Career Development",
+        "Individual Growth Plan",
+        "Tracking your Progress"
+      ],
+      "wordCountApprox": 2355
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/learning-and-development/career-development/igp-guide.md",
+      "title": "Your Individual Growth Plan (IGP) Journey",
+      "description": "Your step-by-step resource for creating a meaningful Individual Growth Plan that drives your career forward",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/learning-and-development/career-development/igp-guide/",
+      "sourceRepoPath": "content/handbook/people-group/learning-and-development/career-development/igp-guide.md",
+      "headings": [
+        "Your Role as the Driver of Your Career",
+        "Section 1: What Inspires You?",
+        "Section 2: Finding Your Focus",
+        "Section 3: Setting Your Intention",
+        "Creating Your Development Goals",
+        "Bringing Your Plan to Life: Track, Reflect, and Adapt",
+        "Resources to Support Your Journey"
+      ],
+      "wordCountApprox": 1118
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/learning-and-development/elevate-programs/_index.md",
+      "title": "Elevate Programs",
+      "description": "",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/learning-and-development/elevate-programs/",
+      "sourceRepoPath": "content/handbook/people-group/learning-and-development/elevate-programs/_index.md",
+      "headings": [],
+      "wordCountApprox": 185
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/learning-and-development/elevate-programs/elevate-applied/_index.md",
+      "title": "Elevate Applied",
+      "description": "",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/learning-and-development/elevate-programs/elevate-applied/",
+      "sourceRepoPath": "content/handbook/people-group/learning-and-development/elevate-programs/elevate-applied/_index.md",
+      "headings": [
+        "Continuous Learning Philosophy",
+        "Program Benefits",
+        "Hone Membership License",
+        "Professional Coaching",
+        "Masterclass Content Partnership",
+        "Featured Masterclass Content"
+      ],
+      "wordCountApprox": 523
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/learning-and-development/elevate-programs/elevate-prep/_index.md",
+      "title": "ElevatePrep",
+      "description": "",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/learning-and-development/elevate-programs/elevate-prep/",
+      "sourceRepoPath": "content/handbook/people-group/learning-and-development/elevate-programs/elevate-prep/_index.md",
+      "headings": [
+        "Important Note About Career Development",
+        "What is ElevatePrep",
+        "How is the program structured?",
+        "Program Requirements",
+        "Eligibility and Nomination Process",
+        "Making up missed sessions",
+        "Supporting your team members in ElevatePrep",
+        "Measuring Success",
+        "Frequently Asked Questions",
+        "Does participating in ElevatePrep guarantee a future management role?",
+        "How often will this program run?",
+        "How do I express interest in participating?"
+      ],
+      "wordCountApprox": 1010
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/learning-and-development/elevate-programs/elevate/_index.md",
+      "title": "Elevate",
+      "description": "",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/learning-and-development/elevate-programs/elevate/",
+      "sourceRepoPath": "content/handbook/people-group/learning-and-development/elevate-programs/elevate/_index.md",
+      "headings": [
+        "Goal",
+        "What team members are saying about Elevate",
+        "What is Elevate",
+        "How is the program structured?",
+        "Making up missed sessions",
+        "Supporting your team in Elevate",
+        "Measuring Success",
+        "Frequently Asked Questions",
+        "Is my participation in Elevate required?",
+        "Where do I communicate my questions, concerns, and feedback as I go through the program?",
+        "I missed, or cannot attend, a session, what do I do?",
+        "I'm over capacity and feel like I may need to opt out of the training, what should I do?"
+      ],
+      "wordCountApprox": 1359
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/learning-and-development/elevate-programs/elevateplus/_index.md",
+      "title": "Elevate+",
+      "description": "",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/learning-and-development/elevate-programs/elevateplus/",
+      "sourceRepoPath": "content/handbook/people-group/learning-and-development/elevate-programs/elevateplus/_index.md",
+      "headings": [
+        "Frequently Asked Questions",
+        "What does success in Elevate+ look like?",
+        "Is my participation in Elevate+ required?",
+        "Where do I communicate my questions, concerns, and feedback as I go through the program?",
+        "I missed, or cannot attend, a live session. What do I do?",
+        "When I complete this program will I earn a certificate?"
+      ],
+      "wordCountApprox": 637
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/learning-and-development/growth-and-development/_index.md",
+      "title": "Growth and Development Fund",
+      "description": "A description of programs and resources for team members to access when using the G&D Fund.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/learning-and-development/growth-and-development/",
+      "sourceRepoPath": "content/handbook/people-group/learning-and-development/growth-and-development/_index.md",
+      "headings": [
+        "Eligibility",
+        "Process",
+        "Step 1 - Growth Conversation",
+        "Step 2 - Open an Issue",
+        "Step 3 - Gain Approval",
+        "Step 4 - Make Purchase & Complete your Opportunity",
+        "Step 5 - Reimbursement",
+        "Step 6 - Close & Feedback",
+        "Types of Growth and Development Reimbursements",
+        "Conferences and Live Workshops",
+        "Courses",
+        "Coaching"
+      ],
+      "wordCountApprox": 3464
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/learning-and-development/growth-and-development/tax.md",
+      "title": "Tax Impacts of Different Growth & Development Benefits",
+      "description": "A description of tax impacts of different Growth & Development reimbursements by countries.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/learning-and-development/growth-and-development/tax/",
+      "sourceRepoPath": "content/handbook/people-group/learning-and-development/growth-and-development/tax.md",
+      "headings": [
+        "Introduction",
+        "Tax Impact Table"
+      ],
+      "wordCountApprox": 1722
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/learning-and-development/hone.md",
+      "title": "Hone Partnership",
+      "description": "",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/learning-and-development/hone/",
+      "sourceRepoPath": "content/handbook/people-group/learning-and-development/hone.md",
+      "headings": [
+        "Overview",
+        "Access and Eligibility",
+        "People Managers",
+        "Individual Contributors",
+        "GitLab Membership Programs",
+        "H1 Program (February - July 2025)",
+        "H2 Program (August - January 2025)",
+        "Important Guidelines",
+        "Security and Confidentiality",
+        "Measuring Success",
+        "Support and Resources",
+        "Frequently Asked Questions"
+      ],
+      "wordCountApprox": 602
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/learning-and-development/internship-for-learning.md",
+      "title": "Internship for Learning",
+      "description": "Resources and direction for internship for learning for all GitLab team members",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/learning-and-development/internship-for-learning/",
+      "sourceRepoPath": "content/handbook/people-group/learning-and-development/internship-for-learning.md",
+      "headings": [
+        "How does this work?",
+        "Starting Your New Internship",
+        "Recommendations"
+      ],
+      "wordCountApprox": 645
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/learning-and-development/learning-initiatives/_index.md",
+      "title": "Learning Initiatives",
+      "description": "The Learning & Development team is rolling out learning programs to enable a culture of curiosity and continual learning.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/learning-and-development/learning-initiatives/",
+      "sourceRepoPath": "content/handbook/people-group/learning-and-development/learning-initiatives/_index.md",
+      "headings": [
+        "Learning Initiatives Introduction"
+      ],
+      "wordCountApprox": 77
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/learning-and-development/level-up/_index.md",
+      "title": "LevelUp",
+      "description": "",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/learning-and-development/level-up/",
+      "sourceRepoPath": "content/handbook/people-group/learning-and-development/level-up/_index.md",
+      "headings": [
+        "What is LevelUp?",
+        "What's the difference between LevelUp and GitLab University?",
+        "Benefits and Features",
+        "Getting Started with LevelUp",
+        "How to Access LevelUp",
+        "Mobile Access",
+        "Your Learning Dashboard",
+        "Content in LevelUp",
+        "Content Partners and Integrations",
+        "Finding Content",
+        "Creating Content in LevelUp",
+        "When to Use Each Approach"
+      ],
+      "wordCountApprox": 3396
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/learning-and-development/manager-development/_index.md",
+      "title": "Transitioning to a manager role",
+      "description": "",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/learning-and-development/manager-development/",
+      "sourceRepoPath": "content/handbook/people-group/learning-and-development/manager-development/_index.md",
+      "headings": [
+        "Coaching remote work practices",
+        "Participate in the Elevate program",
+        "Transitioning to a Manager Video"
+      ],
+      "wordCountApprox": 1074
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/learning-and-development/mentor/_index.md",
+      "title": "Mentoring at GitLab",
+      "description": "",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/learning-and-development/mentor/",
+      "sourceRepoPath": "content/handbook/people-group/learning-and-development/mentor/_index.md",
+      "headings": [
+        "How to get started",
+        "What team members are Saying",
+        "Results",
+        "Benefits and Expectations",
+        "Benefits for the mentee",
+        "Benefits for the mentor",
+        "Expectations",
+        "Find a mentor",
+        "Become a mentor",
+        "Organized mentorship programs",
+        "Resources",
+        "Mentor and Mentee training"
+      ],
+      "wordCountApprox": 2750
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/learning-and-development/self-paced-learning.md",
+      "title": "Self-Paced External Trainings",
+      "description": "Details of third-party training providers utilised by various GitLab departments",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/learning-and-development/self-paced-learning/",
+      "sourceRepoPath": "content/handbook/people-group/learning-and-development/self-paced-learning.md",
+      "headings": [
+        "O'Reilly Learning",
+        "How to get an O'Reilly license",
+        "Accessing O'Reilly content",
+        "Google Cloud Skills Boost Learning",
+        "Hone Learning",
+        "Linux Foundation Courses",
+        "Sign Up",
+        "Learning Portal Access",
+        "FAQs",
+        "Processing Notes for the L&D Team"
+      ],
+      "wordCountApprox": 1093
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/learning-and-development/team-workshops/_index.md",
+      "title": "Team Workshops",
+      "description": "",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/learning-and-development/team-workshops/",
+      "sourceRepoPath": "content/handbook/people-group/learning-and-development/team-workshops/_index.md",
+      "headings": [],
+      "wordCountApprox": 164
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/offboarding/_index.md",
+      "title": "GitLab Offboarding",
+      "description": "Offboarding Procedures for GitLab Team Members and Stakeholders",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/offboarding/",
+      "sourceRepoPath": "content/handbook/people-group/offboarding/_index.md",
+      "headings": [
+        "Offboarding Overview",
+        "Offboarding Support",
+        "Voluntary Terminations",
+        "Prior to Resignation",
+        "Resignation",
+        "Termination",
+        "Offboarding",
+        "Involuntary Terminations",
+        "Involuntary Process",
+        "Facilitating the Call",
+        "Initiating an Involuntary Termination in Workday",
+        "Last Working Day"
+      ],
+      "wordCountApprox": 5956
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/offboarding/faq.md",
+      "title": "GitLab Offboarding FAQ",
+      "description": "Common Questions about the Offboarding Process",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/offboarding/faq/",
+      "sourceRepoPath": "content/handbook/people-group/offboarding/faq.md",
+      "headings": [
+        "Timing",
+        "When will my offboarding issue be created?",
+        "When will my access be deactivated?",
+        "Can I provide my own update in the Team Member Updates Slack Channel?",
+        "When will I receive access to the Slack Channel `#gitlab-alumni`?",
+        "Is there anything I need to do before my last day?",
+        "Your Laptop and Account steps",
+        "GitLab.com",
+        "1Password",
+        "Google Drive",
+        "Google Calendar",
+        "Other accounts"
+      ],
+      "wordCountApprox": 2053
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/offboarding/offboarding_standards.md",
+      "title": "GitLab Offboarding Standards",
+      "description": "Offboarding process and steps on the backend",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/offboarding/offboarding_standards/",
+      "sourceRepoPath": "content/handbook/people-group/offboarding/offboarding_standards.md",
+      "headings": [
+        "Purpose",
+        "Scope",
+        "Roles & Responsibilities",
+        "Offboarding Procedure",
+        "Notice of Offboarding",
+        "Offboarding Assignments",
+        "Creating the Offboarding Issue",
+        "Offboarding Tools",
+        "Offboarding Compliance",
+        "Exceptions",
+        "References"
+      ],
+      "wordCountApprox": 1174
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/organizational-change-management.md",
+      "title": "Organizational Change Management",
+      "description": "",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/organizational-change-management/",
+      "sourceRepoPath": "content/handbook/people-group/organizational-change-management.md",
+      "headings": [
+        "Overview",
+        "Purpose",
+        "What is Change Management at GitLab",
+        "When to Use Our Change Management Framework",
+        "Why Change Management is Important",
+        "Everyone Plays a Role in Change",
+        "GitLab's 8-Phase Change Management Framework",
+        "Key Framework Notes",
+        "BRIDGE Communication Framework",
+        "A Manager's Role in Change Management",
+        "Getting Started with Change Management",
+        "Additional Resources on Organizational Change Management"
+      ],
+      "wordCountApprox": 1860
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/orientation-identity.md",
+      "title": "Gender and Sexual Orientation Identity Definitions and FAQ",
+      "description": "Gender and sexual identity definitions, frequently asked questions, and resources",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/orientation-identity/",
+      "sourceRepoPath": "content/handbook/people-group/orientation-identity.md",
+      "headings": [
+        "Additional resources",
+        "Definitions",
+        "Gender identity",
+        "Gender expression",
+        "Cisgender",
+        "Assigned Female/Male at Birth (AFAB, AMAB)",
+        "Transgender",
+        "Trans man",
+        "Trans woman",
+        "Genderqueer",
+        "Gender non-conforming (GNC)",
+        "Non-binary"
+      ],
+      "wordCountApprox": 2408
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/people-business-partners/_index.md",
+      "title": "People Business Partner Team",
+      "description": "",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/people-business-partners/",
+      "sourceRepoPath": "content/handbook/people-group/people-business-partners/_index.md",
+      "headings": [
+        "Team Structure and Organizational Health",
+        "People Business Partner Alignments"
+      ],
+      "wordCountApprox": 28
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/people-compliance/_index.md",
+      "title": "Global People Compliance at GitLab",
+      "description": "The Global People Compliance team at manages all compliance-related initiatives across People Operations processes.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/people-compliance/",
+      "sourceRepoPath": "content/handbook/people-group/people-compliance/_index.md",
+      "headings": [
+        "Global People Compliance",
+        "Contact the Compliance Team",
+        "Meet the People Compliance team"
+      ],
+      "wordCountApprox": 206
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/people-group-program-management.md",
+      "title": "People Group Program Management",
+      "description": "This page provides an overview of Program Management within the People Group today.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/people-group-program-management/",
+      "sourceRepoPath": "content/handbook/people-group/people-group-program-management.md",
+      "headings": [
+        "Overview",
+        "Key Competencies",
+        "Collaboration Framework",
+        "Resources"
+      ],
+      "wordCountApprox": 286
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/people-operations/_index.md",
+      "title": "GitLab People Operations Team",
+      "description": "",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/people-operations/",
+      "sourceRepoPath": "content/handbook/people-group/people-operations/_index.md",
+      "headings": [
+        "Connect with Us",
+        "Introduction",
+        "Areas of Support",
+        "Interacting with People Operations",
+        "Team Member Satisfaction",
+        "Metrics"
+      ],
+      "wordCountApprox": 754
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/people-ops-tech-analytics/_index.md",
+      "title": "People Operations Team",
+      "description": "GitLab People Operations Department Handbook",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/people-ops-tech-analytics/",
+      "sourceRepoPath": "content/handbook/people-group/people-ops-tech-analytics/_index.md",
+      "headings": [
+        "Welcome to the People Operations Team Handbook",
+        "People Operations Teams at GitLab",
+        "Connect With Us",
+        "How We Work",
+        "Responsibilities",
+        "HelpLab",
+        "GitLab Groups and Projects",
+        "People Operations Team Handbook Navigation"
+      ],
+      "wordCountApprox": 784
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/people-ops-tech-analytics/people-analytics/_index.md",
+      "title": "People Analytics",
+      "description": "GitLab People Analytics Team Handbook Page",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/people-ops-tech-analytics/people-analytics/",
+      "sourceRepoPath": "content/handbook/people-group/people-ops-tech-analytics/people-analytics/_index.md",
+      "headings": [
+        "Overview",
+        "People Analytics Team Members",
+        "What We Do",
+        "Tools & Resources",
+        "Primary Tools",
+        "People Analytics Handbook Contents",
+        "External Resources",
+        "Data Governance & Security",
+        "Working With Us"
+      ],
+      "wordCountApprox": 562
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/people-ops-tech-analytics/people-analytics/data-governance.md",
+      "title": "People Analytics Data Governance",
+      "description": "",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/people-ops-tech-analytics/people-analytics/data-governance/",
+      "sourceRepoPath": "content/handbook/people-group/people-ops-tech-analytics/people-analytics/data-governance.md",
+      "headings": [
+        "Importance of Data Governance in People Analytics",
+        "Data Governance Elements",
+        "Data Quality",
+        "Data Security",
+        "Data Ownership",
+        "Data Retention",
+        "Data Governance at GitLab",
+        "Conditions to process People Data",
+        "Access to People Data in Business Intelligence Software"
+      ],
+      "wordCountApprox": 1058
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/people-ops-tech-analytics/people-analytics/data-guide.md",
+      "title": "Data Guide to People Data Analysis",
+      "description": "",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/people-ops-tech-analytics/people-analytics/data-guide/",
+      "sourceRepoPath": "content/handbook/people-group/people-ops-tech-analytics/people-analytics/data-guide.md",
+      "headings": [
+        "Objectives for this page",
+        "Helpful places to start",
+        "People Group Data Dictionary",
+        "Employment Data",
+        "Diversity, Inclusion, and Belonging (DIB)",
+        "Position",
+        "Paid Time Off and Absence",
+        "Recruiting and Onboarding",
+        "Systems",
+        "Data Models",
+        "Prep, dimension and fact tables",
+        "Marts"
+      ],
+      "wordCountApprox": 4990
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/people-ops-tech-analytics/people-analytics/office-hours.md",
+      "title": "People Analytics Office Hours",
+      "description": "",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/people-ops-tech-analytics/people-analytics/office-hours/",
+      "sourceRepoPath": "content/handbook/people-group/people-ops-tech-analytics/people-analytics/office-hours.md",
+      "headings": [
+        "Overview",
+        "Purpose",
+        "What We Cover",
+        "Data Analysis Support",
+        "Tableau Dashboard Assistance",
+        "Spreadsheet Solutions",
+        "Strategic Consultation",
+        "Session Details",
+        "Schedule & Format",
+        "Timing Options",
+        "How to Participate",
+        "Getting Help Between Sessions"
+      ],
+      "wordCountApprox": 884
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/people-ops-tech-analytics/people-analytics/people-tableau.md",
+      "title": "People Analytics Tableau Dashboard Overview",
+      "description": "",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/people-ops-tech-analytics/people-analytics/people-tableau/",
+      "sourceRepoPath": "content/handbook/people-group/people-ops-tech-analytics/people-analytics/people-tableau.md",
+      "headings": [
+        "Helpful places to start",
+        "People Group Dashboard Inventory",
+        "General project",
+        "People Restricted project",
+        "Requesting Tableau Access"
+      ],
+      "wordCountApprox": 793
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/people-ops-tech-analytics/people-analytics/survey-support.md",
+      "title": "People Analytics Survey Support",
+      "description": "",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/people-ops-tech-analytics/people-analytics/survey-support/",
+      "sourceRepoPath": "content/handbook/people-group/people-ops-tech-analytics/people-analytics/survey-support.md",
+      "headings": [
+        "Employee Surveys",
+        "People Analytics and Surveys",
+        "Participants",
+        "Question Review",
+        "Constructs and/or Factors",
+        "Communications Language",
+        "Reports",
+        "Reporting Rules/Confidentiality",
+        "Demographics",
+        "Launch Plan",
+        "Requesting Report Access"
+      ],
+      "wordCountApprox": 1125
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/promotion-document-style-guide.md",
+      "title": "Promotion Document Style Guide",
+      "description": "",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/promotion-document-style-guide/",
+      "sourceRepoPath": "content/handbook/people-group/promotion-document-style-guide.md",
+      "headings": [
+        "Principles for Presenting a Strong Promotion Case",
+        "Additional Tips for Clarity and Impact"
+      ],
+      "wordCountApprox": 655
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/promotions-transfers.md",
+      "title": "Promotions and Transfers",
+      "description": "Information and protocols related to GitLab promotions and transfers.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/promotions-transfers/",
+      "sourceRepoPath": "content/handbook/people-group/promotions-transfers.md",
+      "headings": [
+        "Definitions",
+        "Internal Mobility",
+        "Promotions",
+        "Types of Promotions",
+        "Promotion Philosophy",
+        "Pillars",
+        "Values Alignment",
+        "Processing a Promotion",
+        "Twice per Year Promotion Calibration Process & Timeline",
+        "Sales Development Process",
+        "Engineering Promotion Planning",
+        "Twice Annual Process"
+      ],
+      "wordCountApprox": 15224
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/pronouns.md",
+      "title": "Pronoun Guidance and Information",
+      "description": "Resources for understanding and discussing pronouns and their usage at GitLab.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/pronouns/",
+      "sourceRepoPath": "content/handbook/people-group/pronouns.md",
+      "headings": [
+        "A global perspective",
+        "What are pronouns?",
+        "Why pronouns matter",
+        "Types of pronouns",
+        "Singular they",
+        "Multiple pronouns",
+        "Neopronouns",
+        "When pronouns aren’t shared",
+        "General etiquette for pronouns",
+        "Making mistakes",
+        "Setting your pronouns in applications",
+        "GitLab.com"
+      ],
+      "wordCountApprox": 1584
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/quarterly-talent-review.md",
+      "title": "Quarterly Talent Review (QTR)",
+      "description": "Overview of GitLab's internal quarterly talent review process.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/quarterly-talent-review/",
+      "sourceRepoPath": "content/handbook/people-group/quarterly-talent-review.md",
+      "headings": [
+        "Quarterly Talent Review Timeline",
+        "FY26 Talent QTR Report Dates",
+        "Quarterly Talent Review Process",
+        "Report Overview"
+      ],
+      "wordCountApprox": 691
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/relocation.md",
+      "title": "Relocation",
+      "description": "GitLab's Policies & Processes in Relation to Team Member Relocations.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/relocation/",
+      "sourceRepoPath": "content/handbook/people-group/relocation.md",
+      "headings": [
+        "Relocation / Address Change",
+        "Importance of Communicating Location",
+        "Digital Nomads",
+        "Short-Term Stay Definition",
+        "Long-Term Relocation",
+        "How To Apply for a Long-Term Relocation",
+        "Team Member",
+        "Approvals Phase",
+        "Once Approved",
+        "Contract Phase",
+        "Country Specific Tasks",
+        "Reporting for Relocations"
+      ],
+      "wordCountApprox": 6577
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/talent-assessment.md",
+      "title": "Talent Assessment",
+      "description": "Our talent assessment process is how we recognize and grow the people who make GitLab successful. By evaluating performance, identifying growth potential, and spotlighting key talent, we create clarity on where you stand, where you're headed, and how we'll support you getting there.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/talent-assessment/",
+      "sourceRepoPath": "content/handbook/people-group/talent-assessment.md",
+      "headings": [
+        "Quick Start: What You Need to Know Now",
+        "Understanding How We Evaluate Talent",
+        "Your Role in the Process",
+        "The Calibration Process",
+        "After the Assessment: What Comes Next",
+        "Special Topics",
+        "Manager Resources & Scenarios",
+        "FY26 Talent Assessment & Q2 Promotion Cycle",
+        "Purpose",
+        "Overview",
+        "The Performance/Growth Potential Matrix",
+        "What is \"Performance\"?"
+      ],
+      "wordCountApprox": 13225
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/talent-development-program.md",
+      "title": "Talent Development Program",
+      "description": "Information on GitLab's Talent Development Program to ensure ongoing success across all teams.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/talent-development-program/",
+      "sourceRepoPath": "content/handbook/people-group/talent-development-program.md",
+      "headings": [
+        "Why a Talent Development Program is vital for GitLab",
+        "Talent Development Program Chart"
+      ],
+      "wordCountApprox": 235
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/team-member-relations.md",
+      "title": "Team Member Relations at GitLab",
+      "description": "The Team Member Relations team at GitLab ensures that team members feel safe and have a point of contact for all confidential discussions.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/team-member-relations/",
+      "sourceRepoPath": "content/handbook/people-group/team-member-relations.md",
+      "headings": [
+        "Team Member Relations",
+        "Team Member Relations Philosophy",
+        "Commitments",
+        "Team Member Relations Function",
+        "Raising Communication Concerns"
+      ],
+      "wordCountApprox": 799
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/time-off-and-absence/_index.md",
+      "title": "Time Off and Absence at GitLab",
+      "description": "---",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/",
+      "sourceRepoPath": "content/handbook/people-group/time-off-and-absence/_index.md",
+      "headings": [
+        "Understanding Time Away at GitLab",
+        "About Our Terminology"
+      ],
+      "wordCountApprox": 174
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/time-off-and-absence/leave-types.md",
+      "title": "Leave Types",
+      "description": "On this page you will find GitLab's leave policies, including GitLab Parental Leave, Emergency Leave, Military Leave, Sick Leave, and Caregiving Sick Leave.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/leave-types/",
+      "sourceRepoPath": "content/handbook/people-group/time-off-and-absence/leave-types.md",
+      "headings": [
+        "GitLab Parental Leave",
+        "Eligibility, Entitlement and Planning Your Leave",
+        "Supplement with Paid Time Off",
+        "How to Initiate Your Leave",
+        "Pay While on Parental Leave",
+        "Returning to Work",
+        "Returning to Work at 50% Capacity",
+        "Emergency Leave",
+        "Overview",
+        "How to Request",
+        "Military Leave",
+        "For leaves 31 days or less"
+      ],
+      "wordCountApprox": 2761
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/time-off-and-absence/time-away-philosophy.md",
+      "title": "Time Away Philosophy",
+      "description": "On this page you will find GitLab’s philosophy to time away from work, communication guidelines, and information about Workday, our primary system for all time away management.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-away-philosophy/",
+      "sourceRepoPath": "content/handbook/people-group/time-off-and-absence/time-away-philosophy.md",
+      "headings": [
+        "GitLab's Philosophy to Time Away from Work",
+        "Why Time Away Matters",
+        "A Culture of Results and Sustainability",
+        "Encouraging Meaningful Time Away",
+        "Transitioning Back Mindfully",
+        "Communicating (& Preparing for) Planned Time Away",
+        "Communication Essentials",
+        "Timely & Transparent Communication",
+        "Communication Checklist",
+        "Calendar and Meeting Management",
+        "Knowledge Transfer and Work Continuity",
+        "Documentation and Iteration"
+      ],
+      "wordCountApprox": 2468
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/time-off-and-absence/time-off-types.md",
+      "title": "Time Off Types",
+      "description": "On this page you will find GitLab's time-off policies, including Flexible Paid Time Off (PTO), Public Holidays, Sick Time,  Caregiving Sick Time, Bereavement, Volunteer, and Legal Civic Obligations (Jury Duty).",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/",
+      "sourceRepoPath": "content/handbook/people-group/time-off-and-absence/time-off-types.md",
+      "headings": [
+        "Flexible Paid Time Off (PTO)",
+        "Overview",
+        "PTO Protocols (Planning and Coordination)",
+        "How to Enter PTO in Workday",
+        "How to Prepare for PTO",
+        "Global Statutory Requirements",
+        "Public Holiday",
+        "Overview",
+        "General List of Public Holidays",
+        "How to Enter Public Holidays in Workday",
+        "Frequently Asked Public Holiday Questions",
+        "Sick Time"
+      ],
+      "wordCountApprox": 4473
+    },
+    {
+      "section": "people-group",
+      "relPath": "people-group/visas.md",
+      "title": "Visas",
+      "description": "Information on travel visas, visa letters, and immigration to the Netherlands.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-group/visas/",
+      "sourceRepoPath": "content/handbook/people-group/visas.md",
+      "headings": [
+        "Visa and Sponsorship Policy",
+        "General Work Authorization Guidelines",
+        "Visas and work permits GitLab may be able to accept",
+        "Visas and work permits GitLab does not sponsor",
+        "Travel Visas",
+        "Expensing",
+        "Arranging a visa for travel",
+        "Dutch Work Permits",
+        "30% Ruling in the Netherlands",
+        "Transferring the 30% Ruling from a Previous Employer",
+        "BSN Number",
+        "Right to Immigrate to the Netherlands"
+      ],
+      "wordCountApprox": 6727
+    },
+    {
+      "section": "people-policies",
+      "relPath": "people-policies/_index.md",
+      "title": "People Policies",
+      "description": "GitLab's People policies support all GitLab team members and ensures their safe and thriving work environment.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-policies/",
+      "sourceRepoPath": "content/handbook/people-policies/_index.md",
+      "headings": [
+        "Purpose",
+        "Scope",
+        "Roles and Responsibilities",
+        "Translations",
+        "General Employment Practices",
+        "Open Door Policy",
+        "Romantic and Family Relationships at Work",
+        "Global Accessibility and Accommodations Policy",
+        "Global Accessibility Definition",
+        "Global Reasonable Accommodation/Adjustment Definition",
+        "Team Members Requesting Accommodations",
+        "Workplace Conduct"
+      ],
+      "wordCountApprox": 5190
+    },
+    {
+      "section": "people-policies",
+      "relPath": "people-policies/france-sas/remote-work-charter.md",
+      "title": "GitLab France S.A.S. Remote Work Charter",
+      "description": "GitLab France S.A.S. Remote Work Charter - French and English language versions.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-policies/france-sas/remote-work-charter/",
+      "sourceRepoPath": "content/handbook/people-policies/france-sas/remote-work-charter.md",
+      "headings": [
+        "Français: GITLAB FRANCE S.A.S. CHARTE SUR LE TÉLÉTRAVAIL",
+        "PRÉAMBULE",
+        "English: GITLAB FRANCE S.A.S. REMOTE WORK CHARTER",
+        "PREAMBLE",
+        "Current and Past Versions (accessible internally only)"
+      ],
+      "wordCountApprox": 3859
+    },
+    {
+      "section": "people-policies",
+      "relPath": "people-policies/france-sas/right-to-disconnect-charter.md",
+      "title": "GitLab France S.A.S. Right to Disconnect Charter",
+      "description": "GitLab France S.A.S. Right to Disconnect Charter - French and English language versions.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-policies/france-sas/right-to-disconnect-charter/",
+      "sourceRepoPath": "content/handbook/people-policies/france-sas/right-to-disconnect-charter.md",
+      "headings": [
+        "Roles and Responsibilities",
+        "Français: GITLAB FRANCE S.A.S. CHARTE SUR LE DROIT À LA DÉCONNEXION",
+        "1. Objet",
+        "2. Champ d'application",
+        "3. Déconnexion du travail",
+        "4. Dérogations et flexibilités en cas d'urgence",
+        "5. Engagement et responsabilités",
+        "6. Comportements recommandés favorisant l'exercice du droit à la déconnexion",
+        "7. Communications",
+        "8. Réunions",
+        "9. Conseils",
+        "10. Engagements de la société en matière de sensibilisation et de formation au droit à la déconnexion"
+      ],
+      "wordCountApprox": 5007
+    },
+    {
+      "section": "people-policies",
+      "relPath": "people-policies/inc-usa.md",
+      "title": "People Policies - GitLab Inc (USA)",
+      "description": "GitLab's USA-specific People Policies list the mandatory US people-related policies for our US-based team members.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-policies/inc-usa/",
+      "sourceRepoPath": "content/handbook/people-policies/inc-usa.md",
+      "headings": [
+        "Equal Employment Opportunity Policy",
+        "Scope",
+        "Dissemination and Implementation of Policy",
+        "Procedures",
+        "Remedies",
+        "Harassment",
+        "Individuals with Disabilities Policy",
+        "Our Commitment",
+        "Roles and Responsibilities",
+        "Qualified Individuals with Disabilities",
+        "Pregnancy Accommodation",
+        "Reasonable Accommodation"
+      ],
+      "wordCountApprox": 5026
+    },
+    {
+      "section": "people-policies",
+      "relPath": "people-policies/india-ltd/_index.md",
+      "title": "GitLab India Private Limited Policy Against Sexual Harassment",
+      "description": "GitLab India's Prevention of Sexual Harassment Policy",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-policies/india-ltd/",
+      "sourceRepoPath": "content/handbook/people-policies/india-ltd/_index.md",
+      "headings": [
+        "Roles and Responsibilities",
+        "POLICY AGAINST SEXUAL HARASSMENT",
+        "1.1 Introduction",
+        "1.2 Scope",
+        "1.3 Sexual Harassment",
+        "1.4 Process of dealing with Sexual Harassment complaints",
+        "1.5 Confidentiality",
+        "1.6 Protection against Retaliation",
+        "1.7 Access to Reports and Documents",
+        "Current and Past Versions"
+      ],
+      "wordCountApprox": 2385
+    },
+    {
+      "section": "people-policies",
+      "relPath": "people-policies/ireland-ltd/right-to-disconnect-policy.md",
+      "title": "GitLab Ireland Ltd Right to Disconnect Policy",
+      "description": "GitLab Ireland Ltd Right to Disconnect Policy",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-policies/ireland-ltd/right-to-disconnect-policy/",
+      "sourceRepoPath": "content/handbook/people-policies/ireland-ltd/right-to-disconnect-policy.md",
+      "headings": [
+        "Roles and Responsibilities",
+        "1. Purpose",
+        "2. Applicability",
+        "3. Disconnecting from work",
+        "4. Exceptions",
+        "5. Commitment and responsibilities",
+        "7. Expectations",
+        "8. Communications",
+        "9. Meetings",
+        "10. Tips to help",
+        "11. Raising concerns",
+        "Current and Past Versions (accessible internally only)"
+      ],
+      "wordCountApprox": 1818
+    },
+    {
+      "section": "people-policies",
+      "relPath": "people-policies/leave-of-absence/_index.md",
+      "title": "Leave of Absence",
+      "description": "GitLab's Company-wide Leave of Absence policies.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-policies/leave-of-absence/",
+      "sourceRepoPath": "content/handbook/people-policies/leave-of-absence/_index.md",
+      "headings": [
+        "Company-Wide Leave of Absence Policies",
+        "Parental Leave",
+        "Military Leave"
+      ],
+      "wordCountApprox": 334
+    },
+    {
+      "section": "people-policies",
+      "relPath": "people-policies/leave-of-absence/us.md",
+      "title": "United States Leave of Absence Policies",
+      "description": "GitLab's United States Leave of Absence policies.",
+      "publicUrl": "https://handbook.gitlab.com/handbook/people-policies/leave-of-absence/us/",
+      "sourceRepoPath": "content/handbook/people-policies/leave-of-absence/us.md",
+      "headings": [
+        "How to Request Leave (Effective 2026-02-02)",
+        "Which leave is right for me?",
+        "How Much Time Do I Get Off?  Is my Job Protected?",
+        "How Will My Pay Be Calculated?",
+        "State-Specific Leaves",
+        "The Family Medical Leave Act (FMLA)",
+        "California Family Rights Act (CFRA)",
+        "New York Paid Family Leave (NYPFL)",
+        "Other Leave Types By State",
+        "U.S Military Leave"
+      ],
+      "wordCountApprox": 6190
+    }
+  ]
+}
