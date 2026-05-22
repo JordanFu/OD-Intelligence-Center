@@ -2,7 +2,7 @@
 title: 6456498
 source: papers.ssrn.com
 date: 待核验
-ingested: 2026-05-21
+ingested: 2026-05-22
 sourceFile: 
 sourceUrl: https://papers.ssrn.com/sol3/Delivery.cfm/6456498.pdf?abstractid=6456498&mirid=1
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ status: 已索引来源，PDF下载待重试
 - **来源类型**：media
 - **原文 URL**：https://papers.ssrn.com/sol3/Delivery.cfm/6456498.pdf?abstractid=6456498&mirid=1
 - **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
-- **入库日期**：2026-05-21
+- **入库日期**：2026-05-22
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
@@ -55,6 +55,10 @@ status: 已索引来源，PDF下载待重试
 - `specials/ai-org-talent-mechanism/2026-05-19/01-flat-organization.md:14`：学术证据：SSRN 论文《AI Exposure and Organizational Structure》（2026-03-22）提供 AI 暴露与组织结构（ranks / span of control）关系的经验证据。
 - `specials/ai-org-talent-mechanism/2026-05-19/01-flat-organization.md:26`：- 证据基础：SSRN 的经验证据支持“AI 暴露与层级/跨度结构变化”方向一致；GitLab 明确要自动化 reviews/approvals/handoffs（传统上大量是协调劳动）。 ｜ https://about.gitlab.com/blog/gitlab-act-2/
 - `specials/ai-org-talent-mechanism/2026-05-19/01-flat-organization.md:35`：- 证据基础：SSRN 的实证口径与边界条件需要被严格复用；Intel 10‑K/微软买断属于不同性质的一手/二手证据，不能混为同一口径。 ｜ https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000011/0000050863-26-000011.pdf
+- `specials/ai-org-talent-mechanism/weekly/2026-W21-detailed.md:380`：SSRN（AI exposure 与组织结构）：
+- `specials/ai-org-talent-mechanism/weekly/2026-W21.md:380`：SSRN（AI exposure 与组织结构）：
+- `specials/ai-org-talent-mechanism/weekly/latest-detailed.md:380`：SSRN（AI exposure 与组织结构）：
+- `specials/ai-org-talent-mechanism/weekly/latest.md:380`：SSRN（AI exposure 与组织结构）：
 
 ## 后续精读任务
 

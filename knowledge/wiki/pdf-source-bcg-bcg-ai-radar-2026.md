@@ -2,7 +2,7 @@
 title: BCG：AI Radar 2026
 source: BCG
 date: 待核验
-ingested: 2026-05-21
+ingested: 2026-05-22
 sourceFile: 
 sourceUrl: https://web-assets.bcg.com/73/8e/cc44cbc14a3b81695f8a3de28ff1/ai-radar-2026-web-jan-2026-edit.pdf
 tags: [AI组织设计, 战略规划]
@@ -21,7 +21,7 @@ BCG AI Radar 2026 预计可用于观察 AI 投资、价值兑现和组织阻碍�
 - **来源类型**：consulting
 - **原文 URL**：https://web-assets.bcg.com/73/8e/cc44cbc14a3b81695f8a3de28ff1/ai-radar-2026-web-jan-2026-edit.pdf
 - **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
-- **入库日期**：2026-05-21
+- **入库日期**：2026-05-22
 - **证据层级**：线索层优先；当前不能作为结论层证据。
 
 ## 核心内容
@@ -51,9 +51,9 @@ BCG AI Radar 2026 预计可用于观察 AI 投资、价值兑现和组织阻碍�
 
 ## 被引用位置
 
+- `daily/2026-05-22.md:176`：来源：BCG（）新浪科技中文解读（https://finance.sina.com.cn/tech/roll/2026-04-20/doc-inhvauhp8749184.shtml）
 - `specials/ai-org-talent-mechanism/weekly/2026-W20-detailed.md:496`：BCG AI Radar 2026（PDF）：
 - `specials/ai-org-talent-mechanism/weekly/archive/2026-W20-before-rerun.md:496`：BCG AI Radar 2026（PDF）：
-- `specials/ai-org-talent-mechanism/weekly/latest-detailed.md:496`：BCG AI Radar 2026（PDF）：
 
 ## 后续精读任务
 

@@ -2,7 +2,7 @@
 title: GitLab：2026 SEC 8-K Filing
 source: GitLab
 date: 待核验
-ingested: 2026-05-21
+ingested: 2026-05-22
 sourceFile: 
 sourceUrl: https://ir.gitlab.com/sec-filings/all-sec-filings/content/0001628280-26-023407/0001628280-26-023407.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ GitLab SEC 8-K 是官方披露来源，可作为核验组织调整、AI-agent-fi
 - **来源类型**：industry
 - **原文 URL**：https://ir.gitlab.com/sec-filings/all-sec-filings/content/0001628280-26-023407/0001628280-26-023407.pdf
 - **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
-- **入库日期**：2026-05-21
+- **入库日期**：2026-05-22
 - **证据层级**：线索层优先；当前下载失败，不能仅凭日报上下文进入结论层。
 
 ## 核心内容
@@ -64,8 +64,6 @@ GitLab SEC 8-K 是官方披露来源，可作为核验组织调整、AI-agent-fi
 - `specials/ai-org-talent-mechanism/weekly/2026-W20-quick.md:77`：GitLab Act 2 / SEC 8-K：https://about.gitlab.com/blog/gitlab-act-2/ ｜
 - `specials/ai-org-talent-mechanism/weekly/2026-W20.md:77`：GitLab Act 2 / SEC 8-K：https://about.gitlab.com/blog/gitlab-act-2/ ｜
 - `specials/ai-org-talent-mechanism/weekly/archive/2026-W20-after-rerun.md:77`：GitLab Act 2 / SEC 8-K：https://about.gitlab.com/blog/gitlab-act-2/ ｜
-- `specials/ai-org-talent-mechanism/weekly/latest-quick.md:77`：GitLab Act 2 / SEC 8-K：https://about.gitlab.com/blog/gitlab-act-2/ ｜
-- `specials/ai-org-talent-mechanism/weekly/latest.md:77`：GitLab Act 2 / SEC 8-K：https://about.gitlab.com/blog/gitlab-act-2/ ｜
 
 ## 后续精读任务
 

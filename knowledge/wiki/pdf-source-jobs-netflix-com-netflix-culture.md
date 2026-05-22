@@ -2,7 +2,7 @@
 title: netflix culture
 source: jobs.netflix.com
 date: 待核验
-ingested: 2026-05-21
+ingested: 2026-05-22
 sourceFile: ../knowledge/raw/jobs-netflix-com-netflix-culture.pdf
 sourceUrl: https://jobs.netflix.com/netflix-culture.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ netflix culture 已作为日报/周报 PDF 证据源入库，当前需要完成�
 - **来源类型**：media
 - **原文 URL**：https://jobs.netflix.com/netflix-culture.pdf
 - **原始文件**：`knowledge/raw/jobs-netflix-com-netflix-culture.pdf`
-- **入库日期**：2026-05-21
+- **入库日期**：2026-05-22
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
@@ -57,6 +57,10 @@ netflix culture 已作为日报/周报 PDF 证据源入库，当前需要完成�
 - `specials/ai-org-talent-mechanism/2026-05-19/02-talent-density.md:54`：1. Netflix Culture Memo（PDF）标注 “Last updated: June 2024”，作为可长期引用的制度型材料。
 - `specials/ai-org-talent-mechanism/2026-05-19/02-talent-density.md:59`：识别/保留：Netflix 的 Keeper Test 把管理者的“留与不留”责任显性化，并将“adequate 也可体面退出”作为维持密度的制度选择。
 - `specials/ai-org-talent-mechanism/2026-05-19/02-talent-density.md:60`：定价：Netflix 强调按“个人市场顶价”（top of personal market）支付，而不是按岗位平均水平支付，用于减少“高密度人才被平均化定价”的留才损失。
+- `specials/ai-org-talent-mechanism/weekly/2026-W21-detailed.md:372`：Netflix Culture Memo（PDF）：
+- `specials/ai-org-talent-mechanism/weekly/2026-W21.md:372`：Netflix Culture Memo（PDF）：
+- `specials/ai-org-talent-mechanism/weekly/latest-detailed.md:372`：Netflix Culture Memo（PDF）：
+- `specials/ai-org-talent-mechanism/weekly/latest.md:372`：Netflix Culture Memo（PDF）：
 
 ## 后续精读任务
 

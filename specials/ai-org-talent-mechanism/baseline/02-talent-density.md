@@ -1,6 +1,6 @@
 # 专题二：高人才密度与复合型人才机制｜滚动基线档案
 
-> 更新日期：2026-05-21  
+> 更新日期：2026-05-22  
 > 用途：这是四课题研究的“滚动母稿”，不是某一天的日报。日报负责记录新增事实、Context 和线索；周报负责做阶段复盘；基线档案负责沉淀稳定判断、证据账本和待验证问题。  
 > 自动化规则：每日/周报与 PDF 入库后自动回写证据账本；正式重跑遵循 research-protocol.md 的多代理并行与主代理交叉证伪机制；只有多源互证或一手材料足够强的内容，才进入稳定判断。
 
@@ -30,11 +30,14 @@ AI 时代的高人才密度不只是“更强个体”，而是能把问题定�
 | 2026-05-19 | [日报](../2026-05-19/02-talent-density.html) | 线索层/待验证 | 口径：高人才密度不等于“少而精”；本专题聚焦“如何识别/发现/招聘/激励/保留能在 AI 时代持续产生复用资产的人”。 | 口径：高人才密度不等于“少而精”；本专题聚焦“如何识别/发现/招聘/激励/保留能在 AI 时代持续产生复用资产的人”。 | 口径：高人才密度不等于“少而精”；本专题聚焦“如何识别/发现/招聘/激励/保留能在 AI 时代持续产生复用资产的人”。 |
 | 2026-05-20 | [日报](../2026-05-20/02-talent-density.html) | Context层强证据 | 1. **AI operating model 正在从工具层走向组织层。** IBM、Microsoft、Deloitte、McKinsey 的材料共同指向 agent、人、数据、流程和治理的一体化重构。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 | 2026-05-21 | [日报](../2026-05-21/02-talent-density.html) | 结论层候选 | 口径：事实与判断分离；高置信判断必须能回溯到一手/权威证据。 | 口径：事实与判断分离；高置信判断必须能回溯到一手/权威证据。 | 口径：事实与判断分离；高置信判断必须能回溯到一手/权威证据。 |
+| 2026-05-22 | [日报](../2026-05-22/02-talent-density.html) | 结论层候选 | 口径：事实与判断分离；高置信判断必须能回溯到一手/权威证据。 | 口径：事实与判断分离；高置信判断必须能回溯到一手/权威证据。 | 口径：事实与判断分离；高置信判断必须能回溯到一手/权威证据。 |
 
 ## 知识库与 PDF 证据关联
 
 | 资料 | 对本专题的价值 |
 |---|---|
+| [知识库主题分类与去重治理建议](./knowledge/wiki/knowledge-taxonomy-dedup-review-2026-05-22.md) | 对当前知识库重复信息与分类体系的健康检查。结论是来源页不应删除，需新增主题导航层，将 Zapier、GitLab、AI能力盘点、AI-first operating model、技术组织、绩效薪酬等高重叠主题收敛到主题… |
+| [McKinsey：AI-first 时代端到端技术 workforce 设计](./knowledge/wiki/pdf-source-mckinsey-2026-ai-first-technology-workforce.md) | McKinsey Technology 文章，讨论 agentic AI 时代 CIO 如何重构技术组织的人才招聘、内部能力建设、Agent 训练和供应商策略。适合用于 AI-first 技术岗位族群和职级变化研究。 |
 | [GitLab：Promotions and Transfers 晋升与内部流动机制](./knowledge/wiki/gitlab-promotions-transfers-handbook.md) | GitLab 官方 Handbook 中的晋升与内部流动制度页，结构化说明周期性晋升校准、promotion document、业务结果、业务必要性、价值观对齐、跨职能反馈、Senior Director+ 角色评估、… |
 | [GitLab：People & Organization 机制研究模块](./knowledge/wiki/gitlab-people-org-handbook-module-2026-05-21.md) | 覆盖 GitLab Handbook People Group 与 People Policies 两个一级目录，沉淀 GitLab 的 People 操作系统：公开手册、服务台、员工生命周期、能力模型、人才盘点、晋升… |
 | [CFTE：AI Proficiency Framework](./knowledge/wiki/pdf-source-cfte-2026-04-ai-proficiency-framework.md) | CFTE 提出的专业劳动力 AI 熟练度参考框架：三层公开等级、六档内部发展模型、十个能力域，以及 knowledge/skills/behaviours 三类评估维度。适合用于 AI 能力盘点、岗位技能标签、人才发展… |
@@ -45,8 +48,6 @@ AI 时代的高人才密度不只是“更强个体”，而是能把问题定�
 | [AI 转型本质上是劳动力转型](./knowledge/summaries/r001-bcg-zh.md) | 仅有约5%的组织从AI中获得了实质性财务回报。这些'面向未来'企业的三年期股东总回报约为AI落后者的4倍。价值分布遵循10-20-70法则：10%来自算法，20%来自技术，70%来自组织变革和人才。 |
 | [Top 10 AI Solutions for HR Analytics](./knowledge/summaries/r003-hr-analytics-ai-zh.md) | AI 在 HR Analytics 中的十大应用方案，涵盖离职预测、招聘优化、内部人才识别、员工体验提升等场景。核心数据：招聘时间减少30%、员工满意度提升20%、内部晋升率提升30%。强调数据整合、预测分析、伦理规范… |
 | [AIHR：HR Priorities 2026 Report](./knowledge/wiki/pdf-source-aihr-aihr-hr-priorities-2026-report.md) | AIHR 把 2026 HR 重点归纳为共领导 AI 转型、把 AI 产能收益再投资增长、从 headcount 转向 skill count。 关注重点：技能本位组织、HR 重构、skill count。相关性：强相… |
-| [EY：Future of Pay Report 2026](./knowledge/wiki/pdf-source-ey-ey-future-of-pay-report-2026.md) | EY 把未来薪酬改革连接到技能、绩效、AI 人才、生产率和治理，适合支撑“岗位改革背后是激励资源再配置”。 关注重点：技能薪酬、生产率锚点、AI 人才溢价。相关性：强相关：薪酬与激励机制。 |
-| [Payscale：2026 Compensation Best Practices Report](./knowledge/wiki/pdf-source-payscale-payscale-2026-compensation-best-practices-report.md) | Payscale 2026 薪酬实践报告可用于验证 AI 技能定价、薪酬公平、benchmarking 和 job management 的制度化问题。 关注重点：AI 技能定价、薪酬公平、薪酬基准、job manag… |
 
 ## 当前不可越界的结论
 
@@ -62,4 +63,4 @@ AI 时代的高人才密度不只是“更强个体”，而是能把问题定�
 
 ## 最近日报入口
 
-- 最新日报：2026-05-21｜[打开专题日报](../2026-05-21/02-talent-density.html)｜源文件：`specials/ai-org-talent-mechanism/2026-05-21/02-talent-density.md`
+- 最新日报：2026-05-22｜[打开专题日报](../2026-05-22/02-talent-density.html)｜源文件：`specials/ai-org-talent-mechanism/2026-05-22/02-talent-density.md`
