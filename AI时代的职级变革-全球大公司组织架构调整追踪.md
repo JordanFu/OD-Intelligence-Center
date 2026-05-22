@@ -661,6 +661,97 @@
 
 ### 2026-05-22 本日新增
 
+**Jack Dorsey 揭示后层级制组织蓝图：IC/DRI/Player-coach 新三层架构（来源：36氪/新智元，2026年5月18日，本周补录）**
+- Jack Dorsey 从组织起源论证"信息路由"是旧组织架构的核心逻辑，AI 的突破在于可实时维护公司级"信息地图"
+- 提出 IC（独立贡献者）/ DRI（直接责任人）/ Player-coach（球员兼教练）三层架构，**关键结论：不需要永久性的中层**
+- 微软 AI CEO Suleyman 同步断言：12-18 个月内大多数白领任务将被 AI 自动化，"MBA 和法学学位正在快速贬值"
+- **OD意义**：Dorsey 三层架构为后层级制提供了具体蓝图——从 IC 负责干活、DRI 负责兜底、Player-coach 负责带人，对 P7-P9 中间层级有直接警示
+
+**原文链接：** https://36kr.com/p/3814651495210760
+
+---
+
+**三大咨询机构同日发布 AI 组织重塑重磅报告：McKinsey 三股力量+BCG 10-20-70 法则+Deloitte 硅劳动力（来源：McKinsey/BCG/Deloitte，2025年12月-2026年5月，本周补录）**
+- McKinsey《组织现状2026》：75% 领导者自认未做好准备；5 年内企业所需技能的 2/3 将被重写；"看能力不看岗位"成为人才管理新范式
+- BCG《AI转型即劳动力转型》：提出"10-20-70 法则"——AI 价值 70% 来自重新思考人员要素；面向未来企业比落后企业高 5 倍进行战略性劳动力规划；管理者亲自使用 AI 比例达 9 倍差距
+- Deloitte《代理式AI现实检验》：仅 11% 组织成功部署；提出"硅劳动力"概念和"HR for Agents"新框架——代理入职、绩效管理、数字身份系统
+- **OD意义**：三大咨询机构同期发出同一信号——AI 落地的核心瓶颈是组织而非技术，OD 应成为 AI 转型的主驱动者而非被动配合
+
+**原文链接：**
+- https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-state-of-organizations
+- https://www.bcg.com/publications/2026/ai-transformation-is-a-workforce-transformation
+- https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html
+
+---
+
+**企业级 Agent 治理密集爆发：SAP 管 10 万+agents / IBM 预测 1600+/企业 / KPMG 63% 要求 human validation（来源：SAP/IBM/KPMG，2026年4-5月）**
+- SAP Agent Hub 已覆盖 150 家企业、超 10 万个受管 agents，定位为 agents 的 system of records
+- IBM 判断年底大型企业平均部署超 1,600 agents，七成高管承认治理能力不足
+- KPMG：54% 组织已部署 agents，63% 要求 human validation，accountability 已成日常运营问题
+- **OD意义**：agent 治理从技术问题升级为组织设计核心议题——谁来兜底 agent？管理半径、例外升级、决策权边界需重新定义
+
+**原文链接：**
+- https://news.sap.com/2026/05/sap-sapphire-sap-unveils-autonomous-enterprise/
+- https://www.ibm.com/think/news/think-2026-ai-recap
+- https://kpmg.com/us/en/media/blogs/2026/q1-ai-pulse-2.html
+
+---
+
+**全国首例 AI 替岗劳动争议判例：杭州法院判公司违法解除，赔偿 26 万（来源：央广网，2026年5月3日）**
+- 35 岁 AI 大模型质检主管月薪 2.5 万，公司以"AI 取代人工"为由调岗降薪至 1.5 万后解除合同
+- 法院认定：仅声称"AI 替代岗位"不足以证明经营实质变化，单方解除不合法
+- **OD意义**：企业不能以"AI 替代"作为裁员挡箭牌——必须提供具体经营变化证据+优先协商变更合同+技能培训+内部调剂。OD 设计 AI 替代方案时必须同步设计合法过渡机制
+
+**原文链接：** https://news.cnr.cn/native/gd/20260503/t20260503_527609128.shtml
+
+---
+
+**Microsoft 提出"Frontier Firm"概念：AI 转型从个人提效升级为 operating model 重构（来源：Microsoft，2026年5月5日）**
+- 领先组织不再把 AI 仅视作个人 Copilot，而是把工作拆成可由人和 agent 共同完成的业务流程
+- 强调 human-agent ratio 提升、交接与执行自动化增强、部分流程趋向 agent-operated
+- **OD意义**：真正的门槛不在工具而在——岗位责任、交接机制、质量标准、权限体系是否被清晰结构化。OD 的核心任务从"培训员工写 prompt"升级为"重写岗位边界和管理跨距"
+
+**原文链接：** https://blogs.microsoft.com/blog/2026/05/05/how-frontier-firms-are-rebuilding-the-operating-model-for-the-age-of-ai/
+
+---
+
+**赛力斯 SAI 2.0：制造业组织 AI 化最完整实操案例（来源：界面新闻，2026年5月22日）**
+- "1+3+N"架构：一把手 KPI 挂帅 + 协作/知识/运营三体系 + 174 个一线自发场景
+- 上线 5 个月：激活率 100%、人均 AI 使用 173 分钟/天、AI 日活超 7500 人
+- 一位不懂代码的班组长 7 天搭建出综合质量平台；技术文件审查覆盖率 5%→100%，年省超 5 万工时
+- **OD意义**：核心经验——"推不动人，后面所有 AI 都是白搭"。组织 AI 化的标志不是 IT 做了多少项目，是 AI 有没有变成每个人的工作方式
+
+**原文链接：** https://www.jiemian.com/article/14467571.html
+
+---
+
+**一人公司（OPC）2026 年爆发：45 万创业者，政策+AI 双轮驱动重塑组织最小单元（来源：36氪，2026年5月22日）**
+- 全国超 700 个 OPC 社区，WeOPC 平台聚集 45 万创业者；超 20 城市出台专项扶持政策
+- AI 已覆盖文案/设计/开发/运营/财务/客服六大传统岗位；"1 人+AI=全链路商业闭环"打破创业铁三角
+- 硅谷 CTO 辞职做一线开发：1 人 28 天写 4 万行 Rust 代码——"硅基时间"替代"人头数"成为新编制单位
+- **OD意义**：组织最小单元从"团队"缩小到"个人+AI"。大企业需自问：每个岗位能否被 1 人+AI 替代？编制逻辑从"人头数"转向"硅基调度力"
+
+**原文链接：** https://36kr.com/p/3818829160170633
+
+---
+
+**Deloitte：仅 14% 领导者擅长设计人机交互，工作设计优先者 ROI 更优（来源：Deloitte Insights，2026年3月4日）**
+- 近 60% 员工已在工作中使用 AI，但仅 14% 领导者擅长设计人机协作关系
+- 59% 组织仍在用"tech-focused"方式把 AI 叠加到旧流程；工作设计优先者更可能超出 ROI 预期
+- **OD意义**：AI 落地失败常常不是模型问题，而是 interaction design 问题。角色边界、升级路径、decision rights 需同步重构
+
+**原文链接：** https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends/2026/human-ai-interaction-design.html
+
+---
+
+**Cornerstone：46% 员工已用 AI 但无正式培训，65% 只能工余自学（来源：Cornerstone，2026年5月20日）**
+- 47% 通过 trial and error 学AI，36% 因担心出错刻意少用，仅 16% 相信 AI 真会增强自己岗位
+- **OD意义**：组织问题已从"员工愿不愿用 AI"转向"领导是否提供可信路径"。能力模型+学习体系+经理沟通脚本+岗位安全感必须同步设计
+
+**原文链接：** https://www.cornerstoneondemand.com/company/news-room/press-releases/mind-the-gap-new-cornerstone-ai-skills-study-reveals-half-the-workforce-is-winging-it-to-learn-ai-due-to-low-employer-readiness/
+
+---
+
 **百度 Create 2026：李彦宏提出"组织形态在重构"，DAA 新度量衡发布（来源：新浪财经 / 经济观察网，2026年5月21日报道/5月13-14日大会）**
 - 李彦宏在 Create 2026 大会提出"AI入口在重建，人机关系在重塑，组织形态在重构"
 - 首次提出 DAA（日活智能体数）替代 DAU 作为 AI 时代新度量衡
@@ -771,6 +862,32 @@
 - Meta 5月20日裁员执行情况及内部反应
 - 百度5-12级新体系内部落地细节（晋升标准、AI能力考核）
 - 亚马逊Builder试点是否扩大到Ring/Blink以外业务单元
+
+---
+
+### 2026-05-22 第21周结论（周五更新）
+
+**结论1：Agent治理从边缘议题正式进入组织设计核心——规模化已是现实而非预测**
+- 支撑证据：SAP Agent Hub管理150家企业超10万agents；IBM预测年底大型企业平均部署1600+ agents且七成高管承认治理不足；KPMG显示54%组织已部署agents、63%要求human validation；Gartner 88%员工使用Shadow AI表明组织正式治理已落后于实际使用
+- 组织设计启示：OD需从"给员工配工具"转向"重新定义岗位接口、决策边界和责任链"。当agent数量进入四位数，管理对象从岗位变为"人类+agent混合编制"，需建立agent绩效评估、例外升级机制和跨团队协调权
+
+**结论2："营收增长=安全"的旧组织逻辑彻底失效，AI裁员正从优化升级为结构性替代**
+- 支撑证据：Intuit季度营收+10%仍裁员17%（3000人）；三星Q1利润暴增756%仍爆发4万员工大罢工；Gartner调研显示80%试点自治能力组织已减员但ROI并未因此提升；HBR/Gartner警告"AI裁员超前AI生产力"将导致人才断层和重新招聘成本飙升；全国首例AI替岗判例（杭州法院判赔26万）划定法律红线
+- 组织设计启示：企业不能用"AI替代"作为裁员挡箭牌。OD需建立"AI替代验证门"机制（证明替代效果后再裁员）和合法人员过渡方案（协商变更合同→技能培训→内部调剂）。同时引入"人力AI替代率"替代传统人效增长率作为编制决策核心指标
+
+**结论3：AI转型已从"上工具"阶段升级为"改Operating Model"阶段，但组织准备度严重不足**
+- 支撑证据：Microsoft提出"Frontier Firm"概念——将工作拆分为人和agent共同完成的业务流程；McKinsey/BCG/Deloitte三大咨询机构同期报告一致指出AI落地核心瓶颈是组织而非技术（仅11%成功部署、AI价值70%来自人员要素、仅14%领导者擅长设计人机交互）；Cornerstone数据显示46%员工无正式培训、仅16%相信AI会增强自己岗位；赛力斯SAI 2.0提供实证——制造业通过"一把手挂帅→建体系→激活一线"路径实现100%激活率和日均173分钟AI使用
+- 组织设计启示：OD的核心任务需要从"培训通知+岗位说明书修订"升级为：①重写岗位边界和人机分工；②设计agent升级路径和例外处理机制；③建立覆盖50%+员工的系统性技能提升计划；④将组织AI准备度纳入OD年度KPI而非软性倡议
+
+**结论4：岗位概念正被任务级拆解，"一人+AI"已实证可替代传统团队——组织最小单元被重新定义**
+- 支撑证据：36氪青年志揭示"同事.skill"项目背后真实机制——"三段式替代"（任务拆分→监督集中→工资压缩）；全国超700个OPC社区、45万创业者实现"1人+AI=全链路商业闭环"；CSDN创始人"硅基时间"框架——1人28天4万行代码；Cursor CEO披露企业客户75%代码已由AI生成；"不会用AI的管理者将被淘汰"成为中外管理层共识
+- 组织设计启示：大企业需自问"每个岗位能否被1人+AI替代"。编制逻辑从"人头数"转向"硅基调度力"。同时警惕"人才空洞"——初级岗位不是消灭对象而是转型对象（如ARE角色），否则3-4年后将面临管理者管道断裂
+
+**下周待追踪：**
+- 亚马逊Builder试点内部评估报告（是否扩大至其他BU）
+- SamSung罢工谈判结果及AI利润分配机制讨论
+- Meta裁员后的AI部门运作情况（7000人转岗实际效果）
+- 百度5-12级职级改革首个晋升周期数据
 
 
 ---
