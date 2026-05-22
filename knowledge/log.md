@@ -4,6 +4,12 @@
 
 ---
 
+## [2026-05-22] review | 知识库主题分类与去重治理建议
+- 检查 catalog 中 44 个报告/知识条目，识别到主要问题不是硬重复，而是来源页多、主题页少。
+- 新增 `knowledge/wiki/knowledge-taxonomy-dedup-review-2026-05-22.md`，定义 Source Page、Source Map、Theme Page、Concept Page、Case Page、Review Page 六类页面。
+- 建议优先补 6 个主题页：AI-first Operating Model、AI能力盘点与 AI Fluency、AI-first 技术岗位族群、PeopleOps 操作系统、晋升绩效职级薪酬、组织文化领导力与变革管理。
+- 去重原则：不删除来源证据页；把重复观点收敛到主题页，来源页保留证据链和差异。
+
 ## [2026-05-22] ingest | Obsidian 本地知识库全量覆盖索引补齐
 - 重新扫描 `/Users/tal/Documents/Obsidian Vault`，当前共识别 58 篇 Markdown：Root 11，Clippings 2，Concepts 20，Daily 4，People 2，Sources 16，Templates 3。
 - 新增全量 source map `knowledge/raw/obsidian-vault-source-map-2026-05-22.json`，记录每篇笔记的路径、标题、标题层级、内部链接、标签、入库方式和知识价值判断。

@@ -105,6 +105,32 @@
   ],
   "reports": [
     {
+      "id": "knowledge-taxonomy-dedup-review-2026-05-22",
+      "title": "知识库主题分类与去重治理建议",
+      "originalTitle": "Knowledge Taxonomy and Deduplication Review",
+      "author": "Codex",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "internal",
+      "topics": [
+        "知识管理",
+        "AI组织设计",
+        "变革管理"
+      ],
+      "date": "2026-05-22",
+      "uploadDate": "2026-05-22",
+      "description": "对当前知识库重复信息与分类体系的健康检查。结论是来源页不应删除，需新增主题导航层，将 Zapier、GitLab、AI能力盘点、AI-first operating model、技术组织、绩效薪酬等高重叠主题收敛到主题页。",
+      "summaryFile": "./knowledge/wiki/knowledge-taxonomy-dedup-review-2026-05-22.md",
+      "fileName": "generated review report",
+      "fileSize": "wiki page",
+      "tags": [
+        "知识管理",
+        "去重",
+        "分类体系",
+        "主题页",
+        "source map"
+      ]
+    },
+    {
       "id": "obsidian-vault-full-source-map-2026-05-22",
       "title": "Obsidian 本地知识库全量覆盖索引与主题沉淀",
       "originalTitle": "Obsidian Vault Full Source Map",
