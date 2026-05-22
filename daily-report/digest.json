@@ -5,13 +5,13 @@
     "date": "2026-04-09",
     "sourceFile": "./report-viewer.html",
     "stats": {
-      "totalDays": 32,
+      "totalDays": 33,
       "totalItems": 366,
       "totalSources": 85,
       "hypothesesVerified": 4,
       "hypothesesPending": 1,
-      "updateDate": "2026-05-21",
-      "updateItems": 366,
+      "updateDate": "2026-05-22",
+      "updateItems": 375,
       "updateSources": 20
     },
     "subPropositions": [
@@ -69,6 +69,50 @@
     ]
   },
   "reports": [
+    {
+      "date": "2026-05-22",
+      "weekday": "周五",
+      "items": 9,
+      "platforms": 7,
+      "trust": {
+        "high": 6,
+        "mid": 3,
+        "ref": 0
+      },
+      "tags": [
+        "技术组织",
+        "技能导向",
+        "人机协作",
+        "工作设计",
+        "AI技能",
+        "HRTech",
+        "Agent执行",
+        "组织AI化",
+        "一人公司",
+        "硅基时间",
+        "制造业AI转型"
+      ],
+      "topPicks": [
+        {
+          "title": "McKinsey：技术组织进入AI-first重配期，招聘重心从'扩工程产能'转向'保留判断力节点'",
+          "platform": "McKinsey",
+          "url": "https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era",
+          "reason": "直接挑战技术组织编制逻辑，对OD的岗位序列重设计有immediate impact。"
+        },
+        {
+          "title": "Deloitte：仅14%领导者擅长设计human-AI interaction，工作设计优先者更可能拿到ROI",
+          "platform": "Deloitte Insights",
+          "url": "https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends/2026/human-ai-interaction-design.html",
+          "reason": "用欧洲电信公司案例证明工作设计先于工具部署，90%预算投向workflow后生产率从5%提升到30%。"
+        },
+        {
+          "title": "赛力斯SAI 2.0：用AI造车，也必须用AI改造上万人的团队",
+          "platform": "界面新闻",
+          "url": "https://www.jiemian.com/article/14467571.html",
+          "reason": "国内制造业AI组织变革最完整的实操案例，5个月实现100%激活率、人均173分钟/天、174个一线创新场景。"
+        }
+      ]
+    },
     {
       "date": "2026-05-20",
       "weekday": "周三",
