@@ -78,10 +78,11 @@
       "id": "obsidian-vault",
       "title": "Obsidian 本地知识库",
       "sourceType": "local",
-      "status": "已读取并首批导入",
+      "status": "已全量覆盖索引，首批重点内容已结构化沉淀",
       "path": "/Users/tal/Documents/Obsidian Vault",
-      "description": "本地 Vault 共识别 43 篇 Markdown，已优先导入 LLM Wiki、AI 原生工程组织、技能为本组织、百度职级改革、亚马逊 Builder 等与 OD 情报中心强相关内容。",
-      "summaryFile": "./knowledge/wiki/obsidian-vault-map-2026-05-13.md"
+      "description": "本地 Vault 当前识别 58 篇 Markdown，已建立全量 source map；Concepts/Sources/Clippings/People 进入结构化覆盖索引，OD 强相关主题继续升级为 wiki/concept 页面。",
+      "summaryFile": "./knowledge/wiki/obsidian-vault-full-source-map-2026-05-22.md",
+      "rawFile": "./knowledge/raw/obsidian-vault-source-map-2026-05-22.json"
     },
     {
       "id": "zhiyinlou-hr-learning",
@@ -103,6 +104,35 @@
     }
   ],
   "reports": [
+    {
+      "id": "obsidian-vault-full-source-map-2026-05-22",
+      "title": "Obsidian 本地知识库全量覆盖索引与主题沉淀",
+      "originalTitle": "Obsidian Vault Full Source Map",
+      "author": "Codex",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "internal",
+      "topics": [
+        "知识管理",
+        "AI组织设计",
+        "人才发展",
+        "绩效管理",
+        "技能组织"
+      ],
+      "date": "2026-05-22",
+      "uploadDate": "2026-05-22",
+      "description": "对 /Users/tal/Documents/Obsidian Vault 进行全量扫描，覆盖 58 篇 Markdown；建立 source map 并按 Concepts、Sources、People、Clippings、Daily、Templates、Root 分类沉淀知识价值。",
+      "summaryFile": "./knowledge/wiki/obsidian-vault-full-source-map-2026-05-22.md",
+      "rawFile": "./knowledge/raw/obsidian-vault-source-map-2026-05-22.json",
+      "fileName": "obsidian-vault-source-map-2026-05-22.json",
+      "fileSize": "metadata only",
+      "tags": [
+        "Obsidian",
+        "知识管理",
+        "全量索引",
+        "Source Map",
+        "AI组织设计"
+      ]
+    },
     {
       "id": "microsoft-2026-work-trend-index",
       "title": "Microsoft：2026 Work Trend Index Annual Report",

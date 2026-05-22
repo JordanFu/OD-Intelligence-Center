@@ -1,0 +1,1788 @@
+{
+  "generatedAt": "2026-05-22",
+  "vaultPath": "/Users/tal/Documents/Obsidian Vault",
+  "totalMarkdown": 58,
+  "byCategory": {
+    "Root": 11,
+    "Clippings": 2,
+    "Concepts": 20,
+    "Daily": 4,
+    "People": 2,
+    "Sources": 16,
+    "Templates": 3
+  },
+  "copyrightAndPrivacyPolicy": "Do not publish the full raw Obsidian vault. This source map stores metadata, headings, links, tags, and synthesized value only.",
+  "items": [
+    {
+      "relPath": "2026-04-13.md",
+      "title": "2026-04-13",
+      "category": "Root",
+      "chars": 0,
+      "headings": [],
+      "links": [],
+      "tags": [],
+      "summarySignal": "",
+      "knowledgeValue": "中低相关：进入全量索引，后续按主题需要再精炼。",
+      "ingestMode": "indexed-only"
+    },
+    {
+      "relPath": "Clippings/Significant-GravitasAutoGPT AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters..md",
+      "title": "Significant-GravitasAutoGPT AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "category": "Clippings",
+      "chars": 10191,
+      "headings": [
+        "AutoGPT：构建、部署和运行 AI 代理",
+        "主机选项",
+        "如何自行托管 AutoGPT 平台",
+        "系统要求",
+        "更新后的安装说明：",
+        "🧱 AutoGPT Frontend",
+        "💽 AutoGPT Server",
+        "🐙 Example Agents",
+        "License Overview:",
+        "Mission",
+        "🤖 AutoGPT Classic",
+        "🏗️ Forge"
+      ],
+      "links": [],
+      "tags": [
+        "#-cli",
+        "#-agent-protocol",
+        "#Significant-Gravitas/AutoGPT"
+      ],
+      "summarySignal": "[德语](https://zdoc.app/de/Significant-Gravitas/AutoGPT) | [西班牙语](https://zdoc.app/es/Significant-Gravitas/AutoGPT) | [法语](https://zdoc.app/fr/Significant-Gravitas/AutoGPT) | [日本语](https://zdoc.app/ja/Significant-Gravitas/AutoGPT) | [한국어](htt",
+      "knowledgeValue": "剪藏资料：进入来源线索池，需二次整理后引用。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Clippings/标杆研究：AI如何重塑组织设计.md",
+      "title": "标杆研究：AI如何重塑组织设计",
+      "category": "Clippings",
+      "chars": 13976,
+      "headings": [
+        "标杆研究：AI 如何重塑组织设计",
+        "—— 基于 2026 年 3 月 30 日—4 月 9 日信息采集的综合报告",
+        "阶段一：命题定义（Proposition Definition）",
+        "1.1 核心命题",
+        "1.2 子命题拆解",
+        "1.3 待验证假设",
+        "阶段二：对标选择（Benchmark Selection）",
+        "2.1 候选对标清单",
+        "2.2 维度对齐矩阵",
+        "阶段三：信息收集（Information Collection）",
+        "3.1 子命题一：组织结构重塑",
+        "3.2 子命题二：人才与技能重构"
+      ],
+      "links": [],
+      "tags": [],
+      "summarySignal": "> **研究性质** ：行业趋势标杆研究（非特定企业对标）",
+      "knowledgeValue": "剪藏资料：进入来源线索池，需二次整理后引用。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Concepts.md",
+      "title": "Concepts",
+      "category": "Root",
+      "chars": 1665,
+      "headings": [
+        "Concepts",
+        "🏷️ 标签云",
+        "📂 按领域分类",
+        "AI 与组织",
+        "组织发展",
+        "个人成长",
+        "🔗 概念图谱",
+        "最近更新"
+      ],
+      "links": [
+        "LLM Wiki",
+        "AI 劳动力重塑 AI Labor Disruption",
+        "智能体 AI Agentic AI",
+        "主权 AI Sovereign AI",
+        "AI原生工程组织 AI-First Engineering Org",
+        "AI编排者 AI Orchestrator",
+        "隐性知识制度化 Tacit Knowledge Institutionalization",
+        "AI精熟度框架 AI Proficiency Framework",
+        "AI转型组织设计 AI Transformation Org Design",
+        "AI能力盘点 AI Capability Assessment",
+        "转型悖论 Transformation Paradox",
+        "前沿企业与学习系统 Frontier Firm & Learning System",
+        "AI协作四模式 Four Modes of Working with AI",
+        "AI原生组织 AI-Native Organization",
+        "创新密度 Innovation Density",
+        "技术劳动力三杠杆框架 Technology Workforce Three-Lever Framework",
+        "能力价值 Capability Value",
+        "技能为本的组织 Skills-Based Organization",
+        "绩效管理 Performance Management",
+        "研发概念全景图 Dev Concepts Overview"
+      ],
+      "tags": [
+        "#concept"
+      ],
+      "summarySignal": "> 核心概念和术语索引。这是知识库的「词典」。",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-only"
+    },
+    {
+      "relPath": "Concepts/AI 劳动力重塑 AI Labor Disruption.md",
+      "title": "AI 劳动力重塑 AI Labor Disruption",
+      "category": "Concepts",
+      "chars": 3017,
+      "headings": [
+        "AI 劳动力重塑 AI Labor Disruption",
+        "定义",
+        "核心框架：AI Labor Disruption Segments",
+        "六类角色",
+        "关键分析维度",
+        "1. 替代 vs 增强 (Substitution vs Augmentation)",
+        "2. 需求扩展性 (Demand Expandability)",
+        "四大副作用（比数字更重要的故事）",
+        "OD 启示",
+        "相关概念"
+      ],
+      "links": [
+        "BCG AI Will Reshape More Jobs Than It Replaces",
+        "技能为本的组织 Skills-Based Organization",
+        "能力价值 Capability Value",
+        "智能体 AI Agentic AI",
+        "BCG Creating People Advantage 2026",
+        "AI如何重塑组织设计 - 标杆研究报告 2026",
+        "Deloitte State of AI in the Enterprise 2026",
+        "AI原生工程组织 AI-First Engineering Org",
+        "AI编排者 AI Orchestrator",
+        "2026 Work Trend Index Annual Report",
+        "转型悖论 Transformation Paradox"
+      ],
+      "tags": [],
+      "summarySignal": "AI 劳动力重塑是指 AI 技术对劳动力市场的影响**不仅体现为岗位消失（替代），更体现为岗位工作方式的根本性改变（重塑）**。BCG Henderson Institute 2026 年研究指出：未来 2-3 年内，50%-55% 的美国岗位将被重塑，而仅 10%-15% 面临消失。",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Concepts/AI协作四模式 Four Modes of Working with AI.md",
+      "title": "AI协作四模式 Four Modes of Working with AI",
+      "category": "Concepts",
+      "chars": 1652,
+      "headings": [
+        "AI协作四模式 Four Modes of Working with AI",
+        "一句话定义",
+        "框架",
+        "四模式详解",
+        "委派 Delegation",
+        "协作 Collaboration",
+        "询问 Asking",
+        "探索 Exploration",
+        "为何重要",
+        "与相关概念的关系",
+        "利益视角",
+        "来源"
+      ],
+      "links": [
+        "AI编排者 AI Orchestrator",
+        "智能体 AI Agentic AI",
+        "AI劳动力重塑 AI Labor Disruption",
+        "2026 Work Trend Index Annual Report",
+        "技术劳动力三杠杆框架 Technology Workforce Three-Lever Framework"
+      ],
+      "tags": [],
+      "summarySignal": "人与AI的协作模式取决于两个维度——人类参与深度和Agent参与程度，形成委派、协作、询问、探索四种模式。前沿专业人士的区别不在于用哪种模式，而在于知道每个任务该用哪种模式。",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Concepts/AI原生工程组织 AI-First Engineering Org.md",
+      "title": "AI原生工程组织 AI-First Engineering Org",
+      "category": "Concepts",
+      "chars": 1514,
+      "headings": [
+        "AI原生工程组织 AI-First Engineering Org",
+        "定义",
+        "五大结构性变革（2026）",
+        "关键数据",
+        "利益视角分析",
+        "反模式",
+        "与其他概念的关系",
+        "来源"
+      ],
+      "links": [
+        "AI 劳动力重塑 AI Labor Disruption",
+        "智能体 AI Agentic AI",
+        "隐性知识制度化 Tacit Knowledge Institutionalization",
+        "绩效管理 Performance Management",
+        "AI原生组织 AI-Native Organization",
+        "创新密度 Innovation Density",
+        "AI-First Engineering Organization Evolution 2026"
+      ],
+      "tags": [],
+      "summarySignal": "> 以AI工具为基础设施重新设计工程组织结构，而非在现有结构上\"加AI\"。",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Concepts/AI原生组织 AI-Native Organization.md",
+      "title": "AI原生组织 AI-Native Organization",
+      "category": "Concepts",
+      "chars": 1883,
+      "headings": [
+        "AI原生组织 AI-Native Organization",
+        "一句话定义",
+        "与AI转型/AI增强组织的区别",
+        "三个核心特征",
+        "1. 智能决策替代经验决策",
+        "2. 业务流和工作流合二为一",
+        "3. 经验可复制",
+        "电力革命的类比",
+        "中国实践：传神翻译",
+        "中小团队轻量路径",
+        "利益视角",
+        "OD启示"
+      ],
+      "links": [
+        "隐性知识制度化 Tacit Knowledge Institutionalization",
+        "什么叫AI原生组织？如何打造AI原生组织？",
+        "AI原生工程组织 AI-First Engineering Org",
+        "AI转型组织设计 AI Transformation Org Design"
+      ],
+      "tags": [],
+      "summarySignal": "AI原生组织不是给传统企业加AI功能，而是围绕人机协同重新设计业务逻辑、组织架构和激励机制——从「加AI功能」到「长AI基因」的本质跃迁。",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Concepts/AI精熟度框架 AI Proficiency Framework.md",
+      "title": "AI精熟度框架 AI Proficiency Framework",
+      "category": "Concepts",
+      "chars": 1977,
+      "headings": [
+        "AI精熟度框架 AI Proficiency Framework",
+        "定义",
+        "为什么需要这个框架",
+        "核心结构",
+        "三等级（公开）",
+        "六档（内部诊断用）",
+        "十能力域",
+        "评估三维度",
+        "关键区分：Proficiency ≠ Tool Fluency",
+        "设计原则",
+        "利益视角分析",
+        "与其他概念的关系"
+      ],
+      "links": [
+        "AI能力盘点 AI Capability Assessment",
+        "技能为本的组织 Skills-Based Organization",
+        "AI原生工程组织 AI-First Engineering Org",
+        "绩效管理 Performance Management",
+        "CFTE AI Proficiency Framework"
+      ],
+      "tags": [],
+      "summarySignal": "> 区分耐久的\"AI能力\"与易变的\"工具熟练度\"，用3等级×10能力域×3维度定义专业劳动力的AI精熟度。",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Concepts/AI编排者 AI Orchestrator.md",
+      "title": "AI编排者 AI Orchestrator",
+      "category": "Concepts",
+      "chars": 1249,
+      "headings": [
+        "AI编排者 AI Orchestrator",
+        "定义",
+        "角色特征",
+        "组织背景",
+        "利益视角分析",
+        "与其他概念的关系",
+        "来源"
+      ],
+      "links": [
+        "AI原生工程组织 AI-First Engineering Org",
+        "智能体 AI Agentic AI",
+        "AI 劳动力重塑 AI Labor Disruption",
+        "技术劳动力三杠杆框架 Technology Workforce Three-Lever Framework",
+        "AI-First Engineering Organization Evolution 2026",
+        "Designing an end-to-end technology workforce for the AI-first era"
+      ],
+      "tags": [],
+      "summarySignal": "> 不写代码，但验证和整合AI Agent产出的人。2026年工程组织的新兴角色。",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Concepts/AI能力盘点 AI Capability Assessment.md",
+      "title": "AI能力盘点 AI Capability Assessment",
+      "category": "Concepts",
+      "chars": 1810,
+      "headings": [
+        "AI能力盘点 AI Capability Assessment",
+        "定义",
+        "三条谱系（不可混用）",
+        "最佳实践框架",
+        "岗位四簇",
+        "六维评分",
+        "双轨证据",
+        "等级进阶",
+        "周期复测",
+        "四个结构性原则（国际共识）",
+        "关键风险",
+        "利益视角分析"
+      ],
+      "links": [
+        "AI精熟度框架 AI Proficiency Framework",
+        "AI转型组织设计 AI Transformation Org Design",
+        "技能为本的组织 Skills-Based Organization",
+        "绩效管理 Performance Management",
+        "AI原生工程组织 AI-First Engineering Org",
+        "AI能力标准考核与分级用于员工盘点的研究报告",
+        "CFTE AI Proficiency Framework",
+        "Zapier 全公司 AI 实施复盘与组织落地研究"
+      ],
+      "tags": [],
+      "summarySignal": "> 不是\"统一一张卷子\"，而是\"岗位分簇 + 双轨证据 + 周期复测\"——把AI能力视为快速折旧能力。",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Concepts/AI转型组织设计 AI Transformation Org Design.md",
+      "title": "AI转型组织设计 AI Transformation Org Design",
+      "category": "Concepts",
+      "chars": 2138,
+      "headings": [
+        "AI转型组织设计 AI Transformation Org Design",
+        "定义",
+        "核心原则",
+        "组织架构模式",
+        "CPO兼AI转型官模式（Zapier）",
+        "AI转型舱（Transformation Pods）",
+        "双轨变革结构",
+        "治理模式：Informing vs Deciding",
+        "Agent治理三原则",
+        "成熟度四阶段",
+        "利益视角分析",
+        "与其他概念的关系"
+      ],
+      "links": [
+        "AI原生工程组织 AI-First Engineering Org",
+        "AI精熟度框架 AI Proficiency Framework",
+        "智能体 AI Agentic AI",
+        "绩效管理 Performance Management",
+        "技能为本的组织 Skills-Based Organization",
+        "AI原生组织 AI-Native Organization",
+        "创新密度 Innovation Density",
+        "技术劳动力三杠杆框架 Technology Workforce Three-Lever Framework",
+        "Zapier 全公司 AI 实施复盘与组织落地研究",
+        "Designing an end-to-end technology workforce for the AI-first era"
+      ],
+      "tags": [],
+      "summarySignal": "> AI不是IT项目，是组织操作系统级变革——需要重新设计架构、角色、治理和考核。",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Concepts/LLM Wiki.md",
+      "title": "LLM Wiki",
+      "category": "Concepts",
+      "chars": 2017,
+      "headings": [
+        "LLM Wiki",
+        "核心理念",
+        "传统 RAG vs LLM Wiki",
+        "关键原则",
+        "工作流程",
+        "目录结构建议",
+        "标签体系",
+        "最佳实践",
+        "关联"
+      ],
+      "links": [
+        "Andrej Karpathy",
+        "页面名",
+        "Obsidian",
+        "知识管理"
+      ],
+      "tags": [
+        "#people",
+        "#concept",
+        "#project",
+        "#source",
+        "#note",
+        "#daily",
+        "#article",
+        "#book",
+        "#podcast",
+        "#video",
+        "#paper"
+      ],
+      "summarySignal": "> 由 [[Andrej Karpathy]] 提出的知识管理方法论。核心思想：**让 LLM 替你维护知识库**。",
+      "knowledgeValue": "中低相关：进入全量索引，后续按主题需要再精炼。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Concepts/主权 AI Sovereign AI.md",
+      "title": "主权 AI Sovereign AI",
+      "category": "Concepts",
+      "chars": 1236,
+      "headings": [
+        "主权 AI Sovereign AI",
+        "定义",
+        "企业现状",
+        "地域差异",
+        "对组织的影响",
+        "对中国 AI 企业的启示",
+        "相关概念"
+      ],
+      "links": [
+        "Deloitte State of AI in the Enterprise 2026",
+        "智能体 AI Agentic AI",
+        "AI 劳动力重塑 AI Labor Disruption"
+      ],
+      "tags": [],
+      "summarySignal": "主权 AI（Sovereign AI）是指一个国家及其境内运营的公司，**在本国法律下设计、训练和部署 AI，使用自主控制的基础设施和本地治理的数据**。目标是减少对国外供应商关键 AI 能力的依赖。",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Concepts/创新密度 Innovation Density.md",
+      "title": "创新密度 Innovation Density",
+      "category": "Concepts",
+      "chars": 1661,
+      "headings": [
+        "创新密度 Innovation Density",
+        "一句话定义",
+        "来源案例",
+        "为什么创新密度在AI时代变得关键",
+        "创新密度 vs 传统规模指标",
+        "与相关概念的关联",
+        "反面：创新密度的阴暗面",
+        "OD启示",
+        "来源"
+      ],
+      "links": [
+        "AI原生组织 AI-Native Organization",
+        "AI原生工程组织 AI-First Engineering Org",
+        "AI 劳动力重塑 AI Labor Disruption",
+        "转型悖论 Transformation Paradox",
+        "什么叫AI原生组织？如何打造AI原生组织？",
+        "AI-First Engineering Organization Evolution 2026"
+      ],
+      "tags": [],
+      "summarySignal": "创新密度 = 单位人力所产出的突破性成果。在AI时代，人越多不代表越强，创新密度才是终极竞争力。",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Concepts/前沿企业与学习系统 Frontier Firm & Learning System.md",
+      "title": "前沿企业与学习系统 Frontier Firm & Learning System",
+      "category": "Concepts",
+      "chars": 1787,
+      "headings": [
+        "前沿企业与学习系统 Frontier Firm & Learning System",
+        "一句话定义",
+        "核心概念",
+        "前沿企业 Frontier Firm",
+        "学习系统 Learning System",
+        "自有智能 Owned Intelligence",
+        "关键数据",
+        "评估基础设施三问",
+        "四角色协同重塑",
+        "利益视角",
+        "OD启示",
+        "来源"
+      ],
+      "links": [
+        "隐性知识制度化 Tacit Knowledge Institutionalization",
+        "2026 Work Trend Index Annual Report",
+        "AI原生工程组织 AI-First Engineering Org",
+        "智能体 AI Agentic AI"
+      ],
+      "tags": [],
+      "summarySignal": "前沿企业（Frontier Firm）不只采用AI，更把AI产生的工作信号编码进共享流程，形成自我强化的学习系统——每次工作都产生洞察，每次洞察都改善下次工作。",
+      "knowledgeValue": "中低相关：进入全量索引，后续按主题需要再精炼。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Concepts/技术劳动力三杠杆框架 Technology Workforce Three-Lever Framework.md",
+      "title": "技术劳动力三杠杆框架 Technology Workforce Three-Lever Framework",
+      "category": "Concepts",
+      "chars": 2991,
+      "headings": [
+        "技术劳动力三杠杆框架 Technology Workforce Three-Lever Framework",
+        "一句话定义",
+        "框架结构",
+        "三个杠杆详解",
+        "杠杆一：招聘（Hiring）",
+        "杠杆二：能力建设（Capability Building）",
+        "杠杆三：供应商策略（Vendor Strategy）",
+        "为什么三者必须一体化？",
+        "与已有概念的关系",
+        "利益视角分析",
+        "1. \"更少的人交付更多\"=裁员红利归于资本",
+        "2. 能力建设的\"100% 组织责任\"=新的锁定机制"
+      ],
+      "links": [
+        "Designing an end-to-end technology workforce for the AI-first era",
+        "AI编排者 AI Orchestrator",
+        "AI协作四模式 Four Modes of Working with AI",
+        "AI转型组织设计 AI Transformation Org Design",
+        "隐性知识制度化 Tacit Knowledge Institutionalization",
+        "前沿企业与学习系统 Frontier Firm & Learning System",
+        "AI原生工程组织 AI-First Engineering Org",
+        "Zapier 全公司 AI 实施复盘与组织落地研究",
+        "转型悖论 Transformation Paradox",
+        "AI精熟度框架 AI Proficiency Framework"
+      ],
+      "tags": [],
+      "summarySignal": "CIO 在 AI 时代设计技术劳动力的核心战略框架：招聘（Hiring）、能力建设（Capability Building）、供应商策略（Vendor Strategy）三个杠杆必须**一体决策**，不能再分开处理。",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Concepts/技能为本的组织 Skills-Based Organization.md",
+      "title": "技能为本的组织 Skills-Based Organization",
+      "category": "Concepts",
+      "chars": 1973,
+      "headings": [
+        "技能为本的组织 Skills-Based Organization",
+        "定义",
+        "现状数据",
+        "关键要素",
+        "1. 技能分类法 (Skills Taxonomy)",
+        "2. 技能评估与匹配",
+        "3. 技能驱动的决策",
+        "实施路径",
+        "第一步: 聚焦关键角色",
+        "第二步: 建立治理机制",
+        "第三步: 连接业务成果",
+        "案例: 工业产品公司"
+      ],
+      "links": [
+        "BCG Creating People Advantage 2026",
+        "AI 劳动力重塑 AI Labor Disruption",
+        "百度全员信 - 成长不设限 职级体系改革 2026",
+        "亚马逊取消白领岗位头衔与百度职级改革",
+        "能力价值 Capability Value",
+        "战略劳动力规划 Strategic Workforce Planning",
+        "再培训 Reskilling",
+        "技能提升 Upskilling",
+        "人才管理 Talent Management",
+        "AI精熟度框架 AI Proficiency Framework",
+        "AI能力盘点 AI Capability Assessment"
+      ],
+      "tags": [],
+      "summarySignal": "技能为本的组织是一种**围绕技能而非职位角色来管理人才**的组织模式。它涉及：",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Concepts/智能体 AI Agentic AI.md",
+      "title": "智能体 AI Agentic AI",
+      "category": "Concepts",
+      "chars": 1729,
+      "headings": [
+        "智能体 AI Agentic AI",
+        "定义",
+        "企业采用现状",
+        "高影响用例",
+        "治理挑战",
+        "对组织设计的影响",
+        "与其他概念的关联"
+      ],
+      "links": [
+        "Deloitte State of AI in the Enterprise 2026",
+        "AI 劳动力重塑 AI Labor Disruption",
+        "技能为本的组织 Skills-Based Organization",
+        "AI编排者 AI Orchestrator",
+        "AI原生工程组织 AI-First Engineering Org",
+        "2026 Work Trend Index Annual Report",
+        "AI协作四模式 Four Modes of Working with AI"
+      ],
+      "tags": [],
+      "summarySignal": "智能体 AI（Agentic AI）是指能够**设定目标、通过多步骤任务推理、使用工具和 API、并与人或其他代理协调工作**的 AI 系统。它将 AI 从信息源转变为**能自主执行任务的系统**。",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Concepts/研发概念全景图 Dev Concepts Overview.md",
+      "title": "研发概念全景图 Dev Concepts Overview",
+      "category": "Concepts",
+      "chars": 1815,
+      "headings": [
+        "研发概念全景图 Dev Concepts Overview",
+        "核心框架",
+        "第一层：写代码 → 运行代码（个人工作流）",
+        "第二层：个人 → 协作（团队工作流）",
+        "第三层：代码 → 服务（部署工作流）",
+        "第四层：服务 → 运维（运维工作流）",
+        "一句话记忆法",
+        "与其他概念的关系",
+        "来源"
+      ],
+      "links": [
+        "AI原生工程组织 AI-First Engineering Org",
+        "技能为本的组织 Skills-Based Organization",
+        "智能体 AI Agentic AI",
+        "面向非研发入门 研发概念流程分享"
+      ],
+      "tags": [],
+      "summarySignal": "> 从写代码到部署上线，21个核心概念的问题驱动全景图。所有晦涩名词都是某个问题的技术方案。",
+      "knowledgeValue": "中低相关：进入全量索引，后续按主题需要再精炼。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Concepts/绩效管理 Performance Management.md",
+      "title": "绩效管理 Performance Management",
+      "category": "Concepts",
+      "chars": 1515,
+      "headings": [
+        "绩效管理 Performance Management",
+        "定义",
+        "现状数据（2026 BCG 报告）",
+        "核心功能",
+        "1. 战略对齐",
+        "2. 行为塑造",
+        "3. 发展驱动",
+        "4. 变革锚定（BCG 报告强调）",
+        "演进趋势",
+        "关键挑战",
+        "最佳实践",
+        "BCG 报告建议"
+      ],
+      "links": [
+        "目标管理 Management by Objectives",
+        "持续反馈 Continuous Feedback",
+        "OKR",
+        "人才盘点 Talent Review",
+        "变革管理 Change Management",
+        "技能评估 Skills Assessment",
+        "BCG Creating People Advantage 2026"
+      ],
+      "tags": [
+        "#绩效管理",
+        "#组织发展",
+        "#人才管理",
+        "#BCG"
+      ],
+      "summarySignal": "绩效管理是**确保员工行为与组织战略目标对齐**的管理系统，包括目标设定、持续反馈、绩效评估和发展规划等环节。",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Concepts/能力价值 Capability Value.md",
+      "title": "能力价值 Capability Value",
+      "category": "Concepts",
+      "chars": 876,
+      "headings": [
+        "能力价值 Capability Value",
+        "定义",
+        "核心思想",
+        "为什么重要",
+        "计算公式",
+        "应用建议",
+        "案例",
+        "相关概念"
+      ],
+      "links": [
+        "BCG Creating People Advantage 2026",
+        "人力分析 People Analytics",
+        "技能提升 Upskilling",
+        "投资回报率 ROI",
+        "战略劳动力规划 Strategic Workforce Planning"
+      ],
+      "tags": [],
+      "summarySignal": "能力价值是衡量**技能、再培训和学习的投资所创造的可衡量价值**的关键指标。它将劳动力能力直接与以下成果关联：",
+      "knowledgeValue": "中低相关：进入全量索引，后续按主题需要再精炼。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Concepts/转型悖论 Transformation Paradox.md",
+      "title": "转型悖论 Transformation Paradox",
+      "category": "Concepts",
+      "chars": 1436,
+      "headings": [
+        "转型悖论 Transformation Paradox",
+        "一句话定义",
+        "核心框架",
+        "关键数据",
+        "为何重要",
+        "利益视角",
+        "OD启示",
+        "来源"
+      ],
+      "links": [
+        "2026 Work Trend Index Annual Report",
+        "Deloitte State of AI in the Enterprise 2026",
+        "AI转型组织设计 AI Transformation Org Design"
+      ],
+      "tags": [],
+      "summarySignal": "员工在AI能力上已经准备好了，但组织还没有——31%的AI用户处于个人能力与组织条件的错位状态，只有19%处于\"前沿区\"。",
+      "knowledgeValue": "中低相关：进入全量索引，后续按主题需要再精炼。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Concepts/隐性知识制度化 Tacit Knowledge Institutionalization.md",
+      "title": "隐性知识制度化 Tacit Knowledge Institutionalization",
+      "category": "Concepts",
+      "chars": 1488,
+      "headings": [
+        "隐性知识制度化 Tacit Knowledge Institutionalization",
+        "定义",
+        "具体实践",
+        "关键案例",
+        "实施步骤",
+        "利益视角分析",
+        "与其他概念的关系",
+        "来源"
+      ],
+      "links": [
+        "AI原生工程组织 AI-First Engineering Org",
+        "AI编排者 AI Orchestrator",
+        "LLM Wiki",
+        "AI 劳动力重塑 AI Labor Disruption",
+        "AI-First Engineering Organization Evolution 2026",
+        "2026 Work Trend Index Annual Report"
+      ],
+      "tags": [],
+      "summarySignal": "> 将资深员工的隐性判断喂入AI系统，使其对组织可持续可用。",
+      "knowledgeValue": "中低相关：进入全量索引，后续按主题需要再精炼。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Daily.md",
+      "title": "Daily",
+      "category": "Root",
+      "chars": 428,
+      "headings": [
+        "Daily",
+        "📅 本月日志",
+        "📝 今日速记",
+        "📊 日志统计",
+        "使用方法"
+      ],
+      "links": [],
+      "tags": [],
+      "summarySignal": "> 每日日志索引。快速记录，定期归档。",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-only"
+    },
+    {
+      "relPath": "Daily/2026-04-13.md",
+      "title": "2026-04-13 周一",
+      "category": "Daily",
+      "chars": 324,
+      "headings": [
+        "2026-04-13 周一",
+        "🌅 晨间",
+        "📝 笔记",
+        "🔗 相关",
+        "💭 想法",
+        "✅ 完成"
+      ],
+      "links": [
+        "Index",
+        "LLM Wiki"
+      ],
+      "tags": [],
+      "summarySignal": "- 搭建个人知识管理系统 - 基于 Karpathy 的 LLM Wiki 方法论",
+      "knowledgeValue": "日常工作记录：进入覆盖索引，后续只提取可复用结论。",
+      "ingestMode": "indexed-only"
+    },
+    {
+      "relPath": "Daily/2026-04-14.md",
+      "title": "2026-04-14",
+      "category": "Daily",
+      "chars": 929,
+      "headings": [
+        "2026-04-14",
+        "今日阅读",
+        "BCG Creating People Advantage 2026 报告",
+        "知识库更新",
+        "明日计划"
+      ],
+      "links": [
+        "BCG Creating People Advantage 2026",
+        "能力价值 Capability Value",
+        "技能为本的组织 Skills-Based Organization",
+        "Philipp Kolo"
+      ],
+      "tags": [],
+      "summarySignal": "**时间**: 约 30 分钟阅读 + 笔记整理",
+      "knowledgeValue": "日常工作记录：进入覆盖索引，后续只提取可复用结论。",
+      "ingestMode": "indexed-only"
+    },
+    {
+      "relPath": "Daily/2026-04-16.md",
+      "title": "2026-04-16 日志",
+      "category": "Daily",
+      "chars": 767,
+      "headings": [
+        "2026-04-16 日志",
+        "今日输入",
+        "Clip 处理",
+        "今日思考",
+        "待办"
+      ],
+      "links": [
+        "AI如何重塑组织设计 - 标杆研究报告 2026",
+        "AutoGPT",
+        "2026-04-14",
+        "2026-04-17"
+      ],
+      "tags": [
+        "#daily"
+      ],
+      "summarySignal": "1. **[[AI如何重塑组织设计 - 标杆研究报告 2026]]** - 来源：OD Intelligence Center - 核心收获：AI转型70%价值来自组织和人，OD 的最强合法性来源；麦肯锡\"人-Agent配给制\"是正确模型，不是替代 - 关键数据：50%-55%岗位2-3年内被重塑；55%激进裁员企业后悔；AI使用率76%但仅34%深度转型",
+      "knowledgeValue": "日常工作记录：进入覆盖索引，后续只提取可复用结论。",
+      "ingestMode": "indexed-only"
+    },
+    {
+      "relPath": "Daily/2026-04-29.md",
+      "title": "2026-04-29 日志",
+      "category": "Daily",
+      "chars": 1720,
+      "headings": [
+        "2026-04-29 日志",
+        "今日输入",
+        "微信文章：亚马逊取消白领岗位头衔与百度职级改革",
+        "微信文章：百度全员信「成长不设限」职级体系改革",
+        "今日思考",
+        "利益视角拆解百度改革",
+        "待办"
+      ],
+      "links": [
+        "亚马逊取消白领岗位头衔与百度职级改革",
+        "AI如何重塑组织设计 - 标杆研究报告 2026",
+        "技能为本的组织 Skills-Based Organization",
+        "能力价值 Capability Value",
+        "绩效管理 Performance Management",
+        "百度全员信 - 成长不设限 职级体系改革 2026",
+        "2026-04-16"
+      ],
+      "tags": [
+        "#daily"
+      ],
+      "summarySignal": "- 来源：HR实名俱乐部，陈祖鑫，2026-04-28 - 已沉淀：[[亚马逊取消白领岗位头衔与百度职级改革]]",
+      "knowledgeValue": "日常工作记录：进入覆盖索引，后续只提取可复用结论。",
+      "ingestMode": "indexed-only"
+    },
+    {
+      "relPath": "Inbox.md",
+      "title": "Inbox",
+      "category": "Root",
+      "chars": 891,
+      "headings": [
+        "Inbox",
+        "🆕 新素材",
+        "2026-04-14",
+        "🔄 待处理",
+        "2026-04-13",
+        "✅ 处理完成",
+        "2026-04-29",
+        "2026-04-16",
+        "2026-04-14",
+        "处理流程"
+      ],
+      "links": [
+        "亚马逊取消白领岗位头衔与百度职级改革",
+        "百度全员信 - 成长不设限 职级体系改革 2026",
+        "AI如何重塑组织设计 - 标杆研究报告 2026",
+        "AutoGPT",
+        "BCG Creating People Advantage 2026",
+        "Sources",
+        "Concepts",
+        "People"
+      ],
+      "tags": [],
+      "summarySignal": "> 临时存放未处理的素材。定期清理，转化为永久笔记。 > > **规则**：每周日清空，或笔记数超过 20 时强制处理。",
+      "knowledgeValue": "中低相关：进入全量索引，后续按主题需要再精炼。",
+      "ingestMode": "indexed-only"
+    },
+    {
+      "relPath": "Index.md",
+      "title": "知识库索引",
+      "category": "Root",
+      "chars": 609,
+      "headings": [
+        "知识库索引",
+        "📥 收件箱",
+        "📚 核心领域",
+        "🗂️ 内容类型",
+        "🔍 快速导航",
+        "📊 统计",
+        "🎯 快速开始"
+      ],
+      "links": [
+        "Inbox",
+        "People",
+        "Concepts",
+        "Projects",
+        "Resources",
+        "Sources",
+        "Notes",
+        "Daily",
+        "使用指南"
+      ],
+      "tags": [],
+      "summarySignal": "> 这是知识库的入口页面。所有内容都从这里可达。 > 最后更新：2026-04-13",
+      "knowledgeValue": "中低相关：进入全量索引，后续按主题需要再精炼。",
+      "ingestMode": "indexed-only"
+    },
+    {
+      "relPath": "Notes.md",
+      "title": "Notes",
+      "category": "Root",
+      "chars": 425,
+      "headings": [
+        "Notes",
+        "📝 最新笔记",
+        "🏷️ 按标签浏览",
+        "🔗 孤儿笔记（无链接）",
+        "📈 笔记增长"
+      ],
+      "links": [],
+      "tags": [
+        "#note"
+      ],
+      "summarySignal": "> 永久笔记索引。经过整理、有长期价值的思考。",
+      "knowledgeValue": "中低相关：进入全量索引，后续按主题需要再精炼。",
+      "ingestMode": "indexed-only"
+    },
+    {
+      "relPath": "People.md",
+      "title": "People",
+      "category": "Root",
+      "chars": 416,
+      "headings": [
+        "People",
+        "🧠 领域专家",
+        "AI / 机器学习",
+        "组织发展 / 管理",
+        "产品 / 技术",
+        "📊 统计",
+        "最近添加"
+      ],
+      "links": [
+        "Philipp Kolo"
+      ],
+      "tags": [
+        "#people"
+      ],
+      "summarySignal": "> 人物档案索引。记录值得关注的专家、作者、联系人。",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-only"
+    },
+    {
+      "relPath": "People/Andrej Karpathy.md",
+      "title": "Andrej Karpathy",
+      "category": "People",
+      "chars": 933,
+      "headings": [
+        "Andrej Karpathy",
+        "简介",
+        "主要贡献",
+        "学术/技术",
+        "知识管理",
+        "输出渠道",
+        "推荐内容",
+        "我的笔记"
+      ],
+      "links": [
+        "LLM Wiki"
+      ],
+      "tags": [],
+      "summarySignal": "> AI 研究员、教育家。前 OpenAI 创始成员、Tesla AI 总监。",
+      "knowledgeValue": "人物节点：用于来源和观点归属。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "People/Philipp Kolo.md",
+      "title": "Philipp Kolo",
+      "category": "People",
+      "chars": 912,
+      "headings": [
+        "Philipp Kolo",
+        "基本信息",
+        "专业领域",
+        "主要著作",
+        "相关人物",
+        "观点"
+      ],
+      "links": [
+        "BCG Creating People Advantage 2026",
+        "Jens Baier",
+        "Frank Breitling",
+        "Fang Ruan"
+      ],
+      "tags": [],
+      "summarySignal": "- **职位**: Partner and Director - **机构**: Boston Consulting Group (BCG) - **办公室**: Munich (慕尼黑) - **邮箱**: kolo.philipp@bcg.com",
+      "knowledgeValue": "人物节点：用于来源和观点归属。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Projects.md",
+      "title": "Projects",
+      "category": "Root",
+      "chars": 506,
+      "headings": [
+        "Projects",
+        "🚀 活跃项目",
+        "✅ 已完成",
+        "📋 项目模板"
+      ],
+      "links": [],
+      "tags": [
+        "#project"
+      ],
+      "summarySignal": "> 进行中的项目索引。每个项目有自己的页面。",
+      "knowledgeValue": "中低相关：进入全量索引，后续按主题需要再精炼。",
+      "ingestMode": "indexed-only"
+    },
+    {
+      "relPath": "Resources.md",
+      "title": "Resources",
+      "category": "Root",
+      "chars": 238,
+      "headings": [
+        "Resources",
+        "🛠️ 工具",
+        "AI 工具",
+        "效率工具",
+        "开发工具",
+        "📖 参考资料",
+        "书籍",
+        "课程",
+        "网站/博客",
+        "🔗 常用链接",
+        "📥 待探索"
+      ],
+      "links": [],
+      "tags": [],
+      "summarySignal": "> 工具、参考资料、常用链接的收藏夹。",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-only"
+    },
+    {
+      "relPath": "Sources.md",
+      "title": "Sources",
+      "category": "Root",
+      "chars": 2024,
+      "headings": [
+        "Sources",
+        "📊 来源统计",
+        "📰 文章",
+        "📚 书籍",
+        "🎙️ 播客/视频",
+        "🔬 论文",
+        "📋 报告",
+        "🛠️ 工具"
+      ],
+      "links": [
+        "什么叫AI原生组织？如何打造AI原生组织？",
+        "Designing an end-to-end technology workforce for the AI-first era",
+        "AI-First Engineering Organization Evolution 2026",
+        "面向非研发入门 研发概念流程分享",
+        "Zapier 全公司 AI 实施复盘与组织落地研究",
+        "Could Lovable's automatic 10% pay raise be the cure for toxic cultures?",
+        "亚马逊取消白领岗位头衔与百度职级改革",
+        "百度全员信 - 成长不设限 职级体系改革 2026",
+        "2026 Work Trend Index Annual Report",
+        "AI能力标准考核与分级用于员工盘点的研究报告",
+        "CFTE AI Proficiency Framework",
+        "Deloitte State of AI in the Enterprise 2026",
+        "BCG AI Will Reshape More Jobs Than It Replaces",
+        "BCG Creating People Advantage 2026",
+        "AI如何重塑组织设计 - 标杆研究报告 2026",
+        "AutoGPT"
+      ],
+      "tags": [
+        "#article",
+        "#book",
+        "#podcast",
+        "#video",
+        "#paper"
+      ],
+      "summarySignal": "> 原始来源索引。所有阅读、观看、收听的内容。",
+      "knowledgeValue": "中低相关：进入全量索引，后续按主题需要再精炼。",
+      "ingestMode": "indexed-only"
+    },
+    {
+      "relPath": "Sources/2026 Work Trend Index Annual Report.md",
+      "title": "2026 Work Trend Index Annual Report",
+      "category": "Sources",
+      "chars": 4842,
+      "headings": [
+        "2026 Work Trend Index Annual Report",
+        "一句话概括",
+        "报告结构",
+        "核心发现",
+        "1. 员工层面：AI提升个体潜力天花板",
+        "2. 领导者层面：转型悖论",
+        "3. 组织层面：AI价值的关键在组织",
+        "4. 关键数据汇总",
+        "利益视角分析",
+        "1. \"组织因素2倍于个人因素\"的权力含义",
+        "2. 转型悖论的真实赢家",
+        "3. \"自有智能\"的制度化逻辑"
+      ],
+      "links": [
+        "隐性知识制度化 Tacit Knowledge Institutionalization",
+        "AI 劳动力重塑 AI Labor Disruption",
+        "智能体 AI Agentic AI",
+        "AI原生工程组织 AI-First Engineering Org",
+        "AI编排者 AI Orchestrator",
+        "Deloitte State of AI in the Enterprise 2026",
+        "AI转型组织设计 AI Transformation Org Design",
+        "技能为本的组织 Skills-Based Organization"
+      ],
+      "tags": [],
+      "summarySignal": "AI Agent 扩大了人类能动性（agency），但只有19%的员工处于\"前沿区\"——个人能力与组织准备度双高——组织因素对AI影响力是个体因素的2倍，关键不是采用AI，而是吸收AI。",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Sources/AI-First Engineering Organization Evolution 2026.md",
+      "title": "AI-First Engineering Organization Evolution 2026",
+      "category": "Sources",
+      "chars": 3001,
+      "headings": [
+        "AI-First Engineering Organization Evolution 2026",
+        "一句话总结",
+        "核心观点",
+        "关键案例",
+        "Block（原Square）",
+        "Meta",
+        "Atlassian",
+        "创业公司案例",
+        "AI加速框架",
+        "推荐度量 vs 避免度量",
+        "反模式（Anti-Patterns）",
+        "我的思考"
+      ],
+      "links": [
+        "AI 劳动力重塑 AI Labor Disruption",
+        "智能体 AI Agentic AI",
+        "技能为本的组织 Skills-Based Organization",
+        "绩效管理 Performance Management",
+        "AI 编排者 AI Orchestrator",
+        "AI原生工程组织 AI-First Engineering Org",
+        "隐性知识制度化 Tacit Knowledge Institutionalization"
+      ],
+      "tags": [],
+      "summarySignal": "> 来源：article | 作者：Tadashi Shigeoka > 链接：https://codenote.net/en/posts/ai-first-engineering-org-evolution-2026/",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Sources/AI如何重塑组织设计 - 标杆研究报告 2026.md",
+      "title": "AI 如何重塑组织设计 — 标杆研究综合报告（2026）",
+      "category": "Sources",
+      "chars": 4510,
+      "headings": [
+        "AI 如何重塑组织设计 — 标杆研究综合报告（2026）",
+        "基本信息",
+        "核心命题",
+        "已验证的关键假设",
+        "五大子命题核心发现",
+        "1. 组织结构重塑",
+        "2. 人才与技能重构",
+        "3. AI 落地规模化障碍",
+        "4. 治理与合规框架",
+        "5. 裁员与就业结构变化",
+        "标杆企业迁移难度评估",
+        "对教育行业 OD 的迁移洞察"
+      ],
+      "links": [
+        "智能体 AI",
+        "技能为本的组织 Skills-Based Organization",
+        "绩效管理 Performance Management",
+        "AI治理",
+        "中层管理者转型",
+        "断简替方法论",
+        "OD与AI转型",
+        "Clippings/标杆研究：AI如何重塑组织设计"
+      ],
+      "tags": [
+        "#AI转型",
+        "#组织设计",
+        "#人才战略",
+        "#标杆研究",
+        "#OD",
+        "#CHRO"
+      ],
+      "summarySignal": "- **发布机构**：OD Intelligence Center - **数据采集周期**：2026-03-30 至 2026-04-09（10天，110+ 条信息） - **覆盖来源**：BCG、麦肯锡、德勤、HBR、SHRM、36氪、钛媒体等 30+ 平台 - **研究性质**：行业趋势标杆研究（非特定企业对标）",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Sources/AI能力标准考核与分级用于员工盘点的研究报告.md",
+      "title": "AI能力标准、考核与分级用于员工盘点的研究报告",
+      "category": "Sources",
+      "chars": 3619,
+      "headings": [
+        "AI能力标准、考核与分级用于员工盘点的研究报告",
+        "一句话总结",
+        "核心判断",
+        "三条谱系对比",
+        "主要公开框架一览",
+        "法规/政府类",
+        "能力框架类",
+        "中国标准",
+        "领先企业实践对比",
+        "两条路线",
+        "各家最值得借鉴之处",
+        "测评方法组合"
+      ],
+      "links": [
+        "AI能力盘点 AI Capability Assessment",
+        "AI精熟度框架 AI Proficiency Framework",
+        "Zapier 全公司 AI 实施复盘与组织落地研究",
+        "技能为本的组织 Skills-Based Organization",
+        "绩效管理 Performance Management"
+      ],
+      "tags": [],
+      "summarySignal": "> 来源：paper | 作者：Deep Research综合 > 证据优先级：官方/原始文档 > 公司官方培训与技术博客 > 白皮书/学术框架 > 行业补充材料",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Sources/AutoGPT.md",
+      "title": "AutoGPT",
+      "category": "Sources",
+      "chars": 2190,
+      "headings": [
+        "AutoGPT",
+        "基本信息",
+        "核心功能",
+        "主要模块",
+        "典型 Agent 示例",
+        "托管选项",
+        "自托管最低配置",
+        "一键安装（macOS/Linux）",
+        "版本说明",
+        "与本地知识库的关联",
+        "关联概念",
+        "我的笔记"
+      ],
+      "links": [
+        "AI如何重塑组织设计 - 标杆研究报告 2026",
+        "智能体 AI",
+        "断简替方法论",
+        "LLM Wiki",
+        "AI治理",
+        "Clippings/Significant-GravitasAutoGPT"
+      ],
+      "tags": [
+        "#AIAgent",
+        "#自动化",
+        "#开源工具",
+        "#LLM"
+      ],
+      "summarySignal": "- **官网**：[agpt.co](https://agpt.co) - **GitHub**：[Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - **文档**：[docs.agpt.co](https://docs.agpt.co) - **定位**：开源 AI Agent 构建、部署和管理平台",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Sources/BCG AI Will Reshape More Jobs Than It Replaces.md",
+      "title": "AI Will Reshape More Jobs Than It Replaces",
+      "category": "Sources",
+      "chars": 5849,
+      "headings": [
+        "AI Will Reshape More Jobs Than It Replaces",
+        "基本信息",
+        "一句话总结",
+        "核心框架：AI 劳动力冲击六分法",
+        "方法论：从自动化潜力到劳动力市场结果",
+        "1. 任务级自动化潜力 (AI Task Automation Potential)",
+        "2. 替代 vs 增强 (Substitution vs Augmentation)",
+        "3. 需求扩展性 (Demand Expandability)",
+        "关键案例对比",
+        "软件工程师 vs 呼叫中心：替代与增强的分水岭",
+        "软件工程的\"如果\"场景",
+        "四大\"未知副作用\""
+      ],
+      "links": [
+        "BCG Creating People Advantage 2026",
+        "Deloitte State of AI in the Enterprise 2026",
+        "AI如何重塑组织设计 - 标杆研究报告 2026",
+        "技能为本的组织 Skills-Based Organization",
+        "能力价值 Capability Value",
+        "百度全员信 - 成长不设限 职级体系改革 2026",
+        "亚马逊取消白领岗位头衔与百度职级改革"
+      ],
+      "tags": [
+        "#AI与劳动力",
+        "#职业重塑",
+        "#替代vs增强",
+        "#BCG",
+        "#微观经济建模",
+        "#需求扩展性"
+      ],
+      "summarySignal": "- **发布机构**: Boston Consulting Group / BCG Henderson Institute - **发布时间**: 2026年4月3日 - **研究范围**: 美国劳动力市场（1.65 亿岗位，1,500 个角色） - **数据来源**: Revelio Labs 1,500 角色分类体系、O*NET 任务分解、BLS 就业数据 - **阅读时长**: ~15 分钟",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Sources/BCG Creating People Advantage 2026.md",
+      "title": "Creating People Advantage 2026: Four Power Moves for the CHRO",
+      "category": "Sources",
+      "chars": 5111,
+      "headings": [
+        "Creating People Advantage 2026: Four Power Moves for the CHRO",
+        "基本信息",
+        "核心观点",
+        "执行摘要",
+        "关键发现",
+        "28 个人力资源管理主题排名",
+        "按未来重要性排序（Top 10）",
+        "按当前能力排序（Top 10）",
+        "关键洞察",
+        "CHRO 的四大战略举措",
+        "1. 通过 HR 交付业务价值",
+        "2. 引领数字化和 AI 转型"
+      ],
+      "links": [
+        "战略劳动力规划",
+        "技能为本的组织",
+        "能力价值",
+        "绩效管理 Performance Management",
+        "智能体 AI",
+        "AI 劳动力重塑 AI Labor Disruption",
+        "人力分析",
+        "员工敬业度",
+        "雇主价值主张",
+        "CHRO 角色演变",
+        "波士顿咨询-creating-people-advantage-report-mar-2026-edit.pdf",
+        "BCG Creating People Advantage 2023",
+        "Philipp Kolo",
+        "Jens Baier",
+        "Frank Breitling"
+      ],
+      "tags": [
+        "#HR战略",
+        "#AI转型",
+        "#CHRO",
+        "#人才管理",
+        "#BCG",
+        "#研究报告"
+      ],
+      "summarySignal": "- **发布机构**: Boston Consulting Group (BCG) + World Federation of People Management Associations (WFPMA) - **发布时间**: 2026年3月 - **调研规模**: 7,115 名 HR 和业务领导者，覆盖 115 个国家/地区、25 个行业 - **报告页数**: 32 页",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Sources/CFTE AI Proficiency Framework.md",
+      "title": "CFTE AI Proficiency Framework",
+      "category": "Sources",
+      "chars": 3417,
+      "headings": [
+        "CFTE AI Proficiency Framework",
+        "一句话总结",
+        "核心观点",
+        "四个核心概念区分",
+        "三等级详解",
+        "Level 1: AI Literacy",
+        "Level 2: Applied AI Practitioner",
+        "Level 3: AI Systems & Decision Leader",
+        "10个能力域",
+        "评估三维度",
+        "设计原则",
+        "我的思考"
+      ],
+      "links": [
+        "AI精熟度框架 AI Proficiency Framework",
+        "AI能力盘点 AI Capability Assessment",
+        "技能为本的组织 Skills-Based Organization",
+        "AI原生工程组织 AI-First Engineering Org",
+        "绩效管理 Performance Management"
+      ],
+      "tags": [],
+      "summarySignal": "> 来源：paper | 作者：Huy Nguyen Trieu (CFTE) > 版本：v1.0, April 2026 | 许可：CC BY-SA 4.0",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Sources/Could Lovable's automatic 10% pay raise be the cure for toxic cultures.md",
+      "title": "Could Lovable's automatic 10% pay raise be the cure for toxic cultures?",
+      "category": "Sources",
+      "chars": 2135,
+      "headings": [
+        "Could Lovable's automatic 10% pay raise be the cure for toxic cultures?",
+        "一句话总结",
+        "核心信息",
+        "CEO原话",
+        "增长主管Elena Verna",
+        "我的思考",
+        "利益视角分析",
+        "与已有知识的交叉验证",
+        "关联笔记"
+      ],
+      "links": [
+        "AI原生工程组织 AI-First Engineering Org",
+        "绩效管理 Performance Management",
+        "技能为本的组织 Skills-Based Organization"
+      ],
+      "tags": [],
+      "summarySignal": "> 来源：article | 作者：Julie Bort, TechCrunch > 链接：https://techcrunch.com/2026/05/07/could-lovables-automatic-10-pay-raise-be-the-cure-for-toxic-cultures/",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Sources/Deloitte State of AI in the Enterprise 2026.md",
+      "title": "State of AI in the Enterprise 2026: The Untapped Edge",
+      "category": "Sources",
+      "chars": 6614,
+      "headings": [
+        "State of AI in the Enterprise 2026: The Untapped Edge",
+        "基本信息",
+        "一句话总结",
+        "六大关键发现",
+        "1. AI 从试点走向规模化，但差距依然显著",
+        "2. AI 转型对多数人是生产力提升，对少数人是业务重塑",
+        "3. 企业在建设 AI 素养，而非围绕 AI 重塑工作",
+        "4. 主权 AI：技术在哪建的，和技术能做什么一样重要",
+        "5. 智能体 AI 扩展速度远超护栏建设",
+        "6. Physical AI 已嵌入运营，增长迅速",
+        "AI 准备度：战略ready，运营不ready",
+        "六大行动建议"
+      ],
+      "links": [
+        "BCG AI Will Reshape More Jobs Than It Replaces",
+        "BCG Creating People Advantage 2026",
+        "AI如何重塑组织设计 - 标杆研究报告 2026",
+        "AI 劳动力重塑 AI Labor Disruption",
+        "技能为本的组织 Skills-Based Organization"
+      ],
+      "tags": [
+        "#AI企业应用",
+        "#智能体AI",
+        "#物理AI",
+        "#主权AI",
+        "#工作重塑",
+        "#AI治理",
+        "#Deloitte"
+      ],
+      "summarySignal": "- **发布机构**: Deloitte AI Institute - **发布时间**: 2026年1月 - **调研规模**: 3,235 名业务和技术领导者（董事到C-suite级别），24个国家，6个行业 - **调研时间**: 2025年8-9月 - **补充研究**: 15位全球C-suite和高管深度访谈 - **报告副标题**: The Untapped Edge（未开发的边缘）",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Sources/Designing an end-to-end technology workforce for the AI-first era.md",
+      "title": "Designing an end-to-end technology workforce for the AI-first era",
+      "category": "Sources",
+      "chars": 5302,
+      "headings": [
+        "Designing an end-to-end technology workforce for the AI-first era",
+        "一、核心论点",
+        "二、CIO 面临的四重压力",
+        "三、三大杠杆的详细展开",
+        "3.1 杠杆一：招聘 — 为判断力而非产能",
+        "3.2 杠杆二：能力建设 — 唯一完全由组织掌控的杠杆",
+        "3.3 杠杆三：供应商策略 — 从人头到成果",
+        "四、劳动力构成的三大变化维度",
+        "五、数据支撑",
+        "六、McKinsey 自身实践（Sternfels 在 CES 2026 披露）",
+        "七、与已有知识库的连接",
+        "八、利益视角分析"
+      ],
+      "links": [
+        "AI协作四模式 Four Modes of Working with AI",
+        "AI编排者 AI Orchestrator",
+        "AI转型组织设计 AI Transformation Org Design",
+        "转型悖论 Transformation Paradox",
+        "创新密度 Innovation Density",
+        "AI原生工程组织 AI-First Engineering Org",
+        "隐性知识制度化 Tacit Knowledge Institutionalization",
+        "Zapier 全公司 AI 实施复盘与组织落地研究"
+      ],
+      "tags": [],
+      "summarySignal": "> 原文链接：https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era > > ⚠️ McKinsey 官网有反爬保护，无法直接抓取。以下内容基于：原文摘要、Henning Soller 本人 LinkedIn 帖子、Ashish Bhutiani 等专业人士的详",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Sources/Zapier 全公司 AI 实施复盘与组织落地研究.md",
+      "title": "Zapier 全公司 AI 实施复盘与组织落地研究",
+      "category": "Sources",
+      "chars": 4417,
+      "headings": [
+        "Zapier 全公司 AI 实施复盘与组织落地研究",
+        "一句话总结",
+        "核心观点",
+        "五阶段演进时间线",
+        "四阶段成熟度模型（OD视角）",
+        "组织架构：人本双轨制",
+        "CPO兼AI转型官",
+        "AI转型舱（Transformation Pods）",
+        "V2流畅度矩阵",
+        "考核硬约束",
+        "柔性治理：Informing vs Deciding",
+        "Agent治理三原则"
+      ],
+      "links": [
+        "AI转型组织设计 AI Transformation Org Design",
+        "AI精熟度框架 AI Proficiency Framework",
+        "AI能力盘点 AI Capability Assessment",
+        "AI原生工程组织 AI-First Engineering Org",
+        "智能体 AI Agentic AI",
+        "绩效管理 Performance Management"
+      ],
+      "tags": [],
+      "summarySignal": "> 来源：article | 作者：Zapier官方材料 + OD深度研究综合 > 合并自：Downloads/Zapier深度复盘 + Desktop/Zapier组织落地研究",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Sources/亚马逊取消白领岗位头衔与百度职级改革.md",
+      "title": "亚马逊取消白领岗位头衔，跟百度职级改革有什么共同趋势？",
+      "category": "Sources",
+      "chars": 2556,
+      "headings": [
+        "亚马逊取消白领岗位头衔，跟百度职级改革有什么共同趋势？",
+        "基本信息",
+        "核心事件",
+        "亚马逊 \"Builder\" 组织实验",
+        "百度取消职级体系",
+        "两大趋势",
+        "趋势一：头衔体系不适应 AI 时代",
+        "趋势二：岗位评价体系重构",
+        "对白领员工的三重影响",
+        "1. 晋级梯子变得不可见",
+        "2. 白领\"灰领化\"",
+        "3. 评价只看硬产出"
+      ],
+      "links": [
+        "百度全员信 - 成长不设限 职级体系改革 2026",
+        "技能为本的组织 Skills-Based Organization",
+        "绩效管理 Performance Management",
+        "AI如何重塑组织设计 - 标杆研究报告 2026",
+        "BCG Creating People Advantage 2026",
+        "能力价值 Capability Value",
+        "中层管理者转型",
+        "百度全员信 - 成长不设限 职级体系改革 2026#利益视角分析"
+      ],
+      "tags": [
+        "#职级改革",
+        "#组织扁平化",
+        "#AI时代",
+        "#价值导向",
+        "#岗位重塑",
+        "#利益视角分析"
+      ],
+      "summarySignal": "- **作者**：陈祖鑫 - **来源**：HR实名俱乐部（微信公众号） - **发布时间**：2026年4月28日 - **原文链接**：[微信文章](https://mp.weixin.qq.com/s/Fa9otszO-vkBLWJ4pV5ngg)",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Sources/什么叫AI原生组织？如何打造AI原生组织？.md",
+      "title": "什么叫AI原生组织？如何打造AI原生组织？",
+      "category": "Sources",
+      "chars": 4033,
+      "headings": [
+        "什么叫AI原生组织？如何打造AI原生组织？",
+        "一句话概括",
+        "核心框架",
+        "认知：膏药 vs 基因",
+        "CAIO的陷阱",
+        "AI原生组织的三个共性特征（来自36氪对阿里、华为、联想、飞书的报道分析）",
+        "传神翻译的实践",
+        "DeepSeek与月之暗面：组织的胜利",
+        "中小团队轻量思路",
+        "终局判断：重生而非升级",
+        "利益视角分析",
+        "1. \"经验可复制\"是双刃剑"
+      ],
+      "links": [
+        "隐性知识制度化 Tacit Knowledge Institutionalization",
+        "AI原生工程组织 AI-First Engineering Org",
+        "AI转型组织设计 AI Transformation Org Design",
+        "2026 Work Trend Index Annual Report",
+        "转型悖论 Transformation Paradox",
+        "Zapier 全公司 AI 实施复盘与组织落地研究"
+      ],
+      "tags": [],
+      "summarySignal": "AI原生组织不是给传统企业贴AI膏药，而是围绕人机协同重新设计业务逻辑、组织架构和激励机制。核心跃迁是从「加AI功能」到「长AI基因」。",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Sources/百度全员信 - 成长不设限 职级体系改革 2026.md",
+      "title": "百度全员信：成长不设限 — 职级体系大调整",
+      "category": "Sources",
+      "chars": 4044,
+      "headings": [
+        "百度全员信：成长不设限 — 职级体系大调整",
+        "基本信息",
+        "核心事件",
+        "改革细节",
+        "1. 双轨制 → 单一通道",
+        "2. 新职级体系",
+        "3. 考核标准转变",
+        "人才战略：复合型人才引擎",
+        "两大核心选人标准",
+        "关键表述",
+        "组织敏捷性三步走",
+        "改革背景与动因"
+      ],
+      "links": [
+        "亚马逊取消白领岗位头衔与百度职级改革",
+        "技能为本的组织 Skills-Based Organization",
+        "能力价值 Capability Value",
+        "绩效管理 Performance Management",
+        "AI如何重塑组织设计 - 标杆研究报告 2026",
+        "BCG Creating People Advantage 2026"
+      ],
+      "tags": [
+        "#职级改革",
+        "#组织敏捷性",
+        "#复合型人才",
+        "#百度",
+        "#AI时代组织"
+      ],
+      "summarySignal": "- **来源**：百度同学（微信公众号）+ 多家媒体报道 - **发布时间**：2026年4月28日-29日 - **全员信发布日期**：2026年4月28日 - **生效日期**：2026年5月1日 - **原文链接**：[微信文章](https://mp.weixin.qq.com/s/tpp2E1I0YXXy2w02tm1jrw) - **媒体来源**：[搜狐](https://www.sohu.com/a/1015725601_233813) · [经济观察网](ht",
+      "knowledgeValue": "高相关：已纳入 AI 组织变革、人才机制、职级/绩效/能力体系研究。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Sources/面向非研发入门 研发概念流程分享.md",
+      "title": "面向非研发入门：研发概念流程分享",
+      "category": "Sources",
+      "chars": 2770,
+      "headings": [
+        "面向非研发入门：研发概念流程分享",
+        "一句话总结",
+        "核心脉络",
+        "从写代码到运行（v1-v6）",
+        "从个人到协作（v7-v11）",
+        "从代码到服务（v12-v19）",
+        "从部署到运维（v20-v21）",
+        "关键洞察",
+        "我的思考",
+        "利益视角分析",
+        "OD视角",
+        "关联笔记"
+      ],
+      "links": [
+        "研发概念全景图 Dev Concepts Overview",
+        "AI原生工程组织 AI-First Engineering Org",
+        "技能为本的组织 Skills-Based Organization"
+      ],
+      "tags": [],
+      "summarySignal": "> 来源：article | 作者：内部分享 > 链接：内部会议回放",
+      "knowledgeValue": "中低相关：进入全量索引，后续按主题需要再精炼。",
+      "ingestMode": "indexed-and-synthesized"
+    },
+    {
+      "relPath": "Templates/Note Template.md",
+      "title": "{{title}}",
+      "category": "Templates",
+      "chars": 239,
+      "headings": [
+        "{{title}}",
+        "核心要点",
+        "详细内容",
+        "## 关联",
+        "思考",
+        "来源"
+      ],
+      "links": [
+        "相关概念",
+        "相关人物",
+        "相关项目"
+      ],
+      "tags": [],
+      "summarySignal": "> 一句话总结：",
+      "knowledgeValue": "模板文件：记录结构，不作为知识结论单独分享。",
+      "ingestMode": "indexed-only"
+    },
+    {
+      "relPath": "Templates/Person Template.md",
+      "title": "{{title}}",
+      "category": "Templates",
+      "chars": 237,
+      "headings": [
+        "{{title}}",
+        "简介",
+        "主要贡献/观点",
+        "相关作品",
+        "关联人物",
+        "我的笔记"
+      ],
+      "links": [
+        "Source: 作品名"
+      ],
+      "tags": [],
+      "summarySignal": "> {{role}} @ {{organization}}",
+      "knowledgeValue": "模板文件：记录结构，不作为知识结论单独分享。",
+      "ingestMode": "indexed-only"
+    },
+    {
+      "relPath": "Templates/Source Template.md",
+      "title": "{{title}}",
+      "category": "Templates",
+      "chars": 404,
+      "headings": [
+        "{{title}}",
+        "一句话总结",
+        "核心观点",
+        "关键摘录",
+        "我的思考",
+        "关联笔记",
+        "行动项"
+      ],
+      "links": [
+        "相关概念",
+        "相关人物"
+      ],
+      "tags": [],
+      "summarySignal": "> 来源：{{source_type}} | 作者：{{author}} > 链接：{{url}}",
+      "knowledgeValue": "模板文件：记录结构，不作为知识结论单独分享。",
+      "ingestMode": "indexed-only"
+    },
+    {
+      "relPath": "使用指南.md",
+      "title": "知识库使用指南",
+      "category": "Root",
+      "chars": 2673,
+      "headings": [
+        "知识库使用指南",
+        "🚀 快速开始",
+        "1. 每日工作流程",
+        "2. 捕获内容",
+        "3. 处理 Inbox",
+        "📁 目录说明",
+        "🏷️ 标签体系",
+        "核心标签",
+        "来源子标签",
+        "状态标签",
+        "🛠️ Obsidian 插件推荐",
+        "必需"
+      ],
+      "links": [
+        "Inbox",
+        "Sources",
+        "Concepts",
+        "People",
+        "页面名",
+        "` 触发链接建议\n- `[[页面名"
+      ],
+      "tags": [
+        "#people",
+        "#concept",
+        "#project",
+        "#source",
+        "#note",
+        "#daily",
+        "#article",
+        "#book",
+        "#podcast",
+        "#video",
+        "#paper",
+        "#tweet",
+        "#todo",
+        "#in-progress",
+        "#completed",
+        "#archived"
+      ],
+      "summarySignal": "> 基于 Karpathy LLM Wiki 方法论的个人知识管理系统",
+      "knowledgeValue": "中低相关：进入全量索引，后续按主题需要再精炼。",
+      "ingestMode": "indexed-only"
+    }
+  ]
+}

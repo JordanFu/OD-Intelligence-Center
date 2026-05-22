@@ -9,32 +9,33 @@
 
 | # | 标题 | 来源 | 日期 | 标签 |
 |---|------|------|------|------|
-| 1 | [Microsoft：2026 Work Trend Index Annual Report](wiki/pdf-source-microsoft-2026-work-trend-index.md) | Microsoft WorkLab | 2026-05-05 | Agent, Frontier Firm, 组织准备度, 人机协作 |
-| 2 | [McKinsey：AI-first 时代端到端技术 workforce 设计](wiki/pdf-source-mckinsey-2026-ai-first-technology-workforce.md) | McKinsey & Company | 2026-04-06 | 技术组织, Agentic AI, CIO, 技术人才 |
-| 3 | [AI 能力标准、考核与员工盘点研究](wiki/ai-capability-assessment-employee-inventory-research-2026-05-19.md) | Local Research | 2026-05-19 | AI能力框架, 员工盘点, AI治理, 技能组织 |
-| 4 | [Zapier 全公司 AI 实施复盘](wiki/zapier-ai-implementation-retrospective-local-2026-05-20.md) | Local Research | 2026-05-20 | Zapier, AI-first, 组织变革, AI fluency |
-| 5 | [知识库定期 Review 基线报告](wiki/local-knowledge-review-2026-05-22.md) | OD Intelligence Center | 2026-05-22 | 知识管理, 定期Review, 资料治理 |
-| 6 | [McKinsey：The State of Organizations 2026](wiki/pdf-source-mckinsey-2026-the-state-of-organizations.md) | McKinsey & Company | 2026-02 | AI组织设计, 组织转型, 绩效管理, 领导力 |
-| 7 | [标杆研究更新：AI如何重塑组织设计](wiki/benchmark-ai-org-design-update-2026-05-08.md) | OD Intelligence Center | 2026-05-08 | AI组织设计, 人才发展机制, 飞轮复盘 |
-| 8 | [LLM Wiki：OD 情报中心知识库运维方法](wiki/karpathy-llm-wiki-method.md) | Karpathy + Obsidian | 2026-05-13 | 知识管理, LLM Wiki |
-| 9 | [Obsidian 本地知识库首批导入地图](wiki/obsidian-vault-map-2026-05-13.md) | 本地 Obsidian | 2026-05-13 | Obsidian, 知识库 |
-| 10 | [知音楼《人力资源书籍和学习资料》同步记录](wiki/zhiyinlou-hr-learning-materials.md) | 知音楼 | 2026-05-13 | 人力资源, 已读取目录 |
-| 11 | [知音楼 HR 知识库十主题整理](wiki/zhiyinlou-hr-thematic-index-2026-05-13.md) | 知音楼 | 2026-05-13 | 主题导航, AI+HR, 薪酬福利, 组织发展 |
-| 12 | [百度职级体系改革](wiki/baidu-level-reform-2026-obsidian.md) | Obsidian | 2026-05-13 | 职级改革, 百度 |
-| 13 | [亚马逊 Builder 与百度职级改革](wiki/amazon-baidu-job-title-reform-obsidian.md) | Obsidian | 2026-05-13 | 岗位重塑, 职级改革 |
-| 14 | [知音楼资料索引：人力资源行业洞察 2024](wiki/zhiyinlou-hr-industry-insights-2024.md) | 知音楼 | 2026-05-13 | HR趋势, 人才发展, 人效, 福利 |
-| 15 | [知音楼 PDF 知识源地图](wiki/zhiyinlou-hr-pdf-source-map-2026-05-13.md) | 知音楼 | 2026-05-13 | PDF知识源, 待精读 |
-| 16 | [CFTE：AI Proficiency Framework](wiki/pdf-source-cfte-2026-04-ai-proficiency-framework.md) | CFTE | 2026-04 | AI能力框架, 人才发展, 技能组织 |
-| 17 | [Zapier：AI-first 招聘与入职机制](wiki/zapier-ai-first-hiring-onboarding-2025.md) | Zapier | 2025-05-21 | AI招聘, 入职培训, AI能力框架 |
-| 18 | [Zapier：AI Fluency Rubric V2](wiki/zapier-ai-fluency-rubric-v2-2026.md) | Zapier | 2026-03-31 | AI招聘, 岗位能力, 变革管理 |
-| 19 | [Zapier AI 实践深度研究](wiki/zapier-ai-practice-research-2026-05-20.md) | Zapier Blog | 2026-05-20 | AI组织设计, AI实践, Agent, MCP |
-| 20 | [GitLab：Promotions and Transfers 晋升与内部流动机制](wiki/gitlab-promotions-transfers-handbook.md) | GitLab Handbook | 2026-05-21 | 晋升机制, 内部流动, 职级改革, 薪酬激励 |
-| 21 | [GitLab：People & Organization 机制研究模块](wiki/gitlab-people-org-handbook-module-2026-05-21.md) | GitLab Handbook | 2026-05-21 | 组织设计, PeopleOps, 人才发展, 政策合规 |
-| 22 | [GitLab：People Group / People Policies 覆盖索引](wiki/gitlab-people-org-handbook-source-map-2026-05-21.md) | GitLab Handbook | 2026-05-21 | 覆盖索引, 知识管理, People Handbook |
-| 23 | [BCG: Design Your Company for AI](wiki/bcg-2026-04-design-company-for-ai.md) | BCG | 2026-04 | AI组织设计, 运营模型, Agent |
-| 24 | [BCG: AI转型本质上是劳动力转型](summaries/r001-bcg-zh.md) | BCG | 2026-02 | AI转型, 10-20-70法则 |
-| 25 | [Deloitte: 企业AI应用现状](summaries/r002-deloitte-zh.md) | Deloitte | 2025 | 数字化转型, AI战略 |
-| 26 | [HR Analytics: Top 10 AI Solutions](summaries/r003-hr-analytics-ai-zh.md) | HR Analytics Trends | 2025 | HR Analytics, 人才发展 |
+| 1 | [Obsidian 本地知识库全量覆盖索引与主题沉淀](wiki/obsidian-vault-full-source-map-2026-05-22.md) | 本地 Obsidian | 2026-05-22 | Obsidian, 全量索引, 知识管理, AI组织设计 |
+| 2 | [Microsoft：2026 Work Trend Index Annual Report](wiki/pdf-source-microsoft-2026-work-trend-index.md) | Microsoft WorkLab | 2026-05-05 | Agent, Frontier Firm, 组织准备度, 人机协作 |
+| 3 | [McKinsey：AI-first 时代端到端技术 workforce 设计](wiki/pdf-source-mckinsey-2026-ai-first-technology-workforce.md) | McKinsey & Company | 2026-04-06 | 技术组织, Agentic AI, CIO, 技术人才 |
+| 4 | [AI 能力标准、考核与员工盘点研究](wiki/ai-capability-assessment-employee-inventory-research-2026-05-19.md) | Local Research | 2026-05-19 | AI能力框架, 员工盘点, AI治理, 技能组织 |
+| 5 | [Zapier 全公司 AI 实施复盘](wiki/zapier-ai-implementation-retrospective-local-2026-05-20.md) | Local Research | 2026-05-20 | Zapier, AI-first, 组织变革, AI fluency |
+| 6 | [知识库定期 Review 基线报告](wiki/local-knowledge-review-2026-05-22.md) | OD Intelligence Center | 2026-05-22 | 知识管理, 定期Review, 资料治理 |
+| 7 | [McKinsey：The State of Organizations 2026](wiki/pdf-source-mckinsey-2026-the-state-of-organizations.md) | McKinsey & Company | 2026-02 | AI组织设计, 组织转型, 绩效管理, 领导力 |
+| 8 | [标杆研究更新：AI如何重塑组织设计](wiki/benchmark-ai-org-design-update-2026-05-08.md) | OD Intelligence Center | 2026-05-08 | AI组织设计, 人才发展机制, 飞轮复盘 |
+| 9 | [LLM Wiki：OD 情报中心知识库运维方法](wiki/karpathy-llm-wiki-method.md) | Karpathy + Obsidian | 2026-05-13 | 知识管理, LLM Wiki |
+| 10 | [Obsidian 本地知识库首批导入地图](wiki/obsidian-vault-map-2026-05-13.md) | 本地 Obsidian | 2026-05-13 | Obsidian, 知识库 |
+| 11 | [知音楼《人力资源书籍和学习资料》同步记录](wiki/zhiyinlou-hr-learning-materials.md) | 知音楼 | 2026-05-13 | 人力资源, 已读取目录 |
+| 12 | [知音楼 HR 知识库十主题整理](wiki/zhiyinlou-hr-thematic-index-2026-05-13.md) | 知音楼 | 2026-05-13 | 主题导航, AI+HR, 薪酬福利, 组织发展 |
+| 13 | [百度职级体系改革](wiki/baidu-level-reform-2026-obsidian.md) | Obsidian | 2026-05-13 | 职级改革, 百度 |
+| 14 | [亚马逊 Builder 与百度职级改革](wiki/amazon-baidu-job-title-reform-obsidian.md) | Obsidian | 2026-05-13 | 岗位重塑, 职级改革 |
+| 15 | [知音楼资料索引：人力资源行业洞察 2024](wiki/zhiyinlou-hr-industry-insights-2024.md) | 知音楼 | 2026-05-13 | HR趋势, 人才发展, 人效, 福利 |
+| 16 | [知音楼 PDF 知识源地图](wiki/zhiyinlou-hr-pdf-source-map-2026-05-13.md) | 知音楼 | 2026-05-13 | PDF知识源, 待精读 |
+| 17 | [CFTE：AI Proficiency Framework](wiki/pdf-source-cfte-2026-04-ai-proficiency-framework.md) | CFTE | 2026-04 | AI能力框架, 人才发展, 技能组织 |
+| 18 | [Zapier：AI-first 招聘与入职机制](wiki/zapier-ai-first-hiring-onboarding-2025.md) | Zapier | 2025-05-21 | AI招聘, 入职培训, AI能力框架 |
+| 19 | [Zapier：AI Fluency Rubric V2](wiki/zapier-ai-fluency-rubric-v2-2026.md) | Zapier | 2026-03-31 | AI招聘, 岗位能力, 变革管理 |
+| 20 | [Zapier AI 实践深度研究](wiki/zapier-ai-practice-research-2026-05-20.md) | Zapier Blog | 2026-05-20 | AI组织设计, AI实践, Agent, MCP |
+| 21 | [GitLab：Promotions and Transfers 晋升与内部流动机制](wiki/gitlab-promotions-transfers-handbook.md) | GitLab Handbook | 2026-05-21 | 晋升机制, 内部流动, 职级改革, 薪酬激励 |
+| 22 | [GitLab：People & Organization 机制研究模块](wiki/gitlab-people-org-handbook-module-2026-05-21.md) | GitLab Handbook | 2026-05-21 | 组织设计, PeopleOps, 人才发展, 政策合规 |
+| 23 | [GitLab：People Group / People Policies 覆盖索引](wiki/gitlab-people-org-handbook-source-map-2026-05-21.md) | GitLab Handbook | 2026-05-21 | 覆盖索引, 知识管理, People Handbook |
+| 24 | [BCG: Design Your Company for AI](wiki/bcg-2026-04-design-company-for-ai.md) | BCG | 2026-04 | AI组织设计, 运营模型, Agent |
+| 25 | [BCG: AI转型本质上是劳动力转型](summaries/r001-bcg-zh.md) | BCG | 2026-02 | AI转型, 10-20-70法则 |
+| 26 | [Deloitte: 企业AI应用现状](summaries/r002-deloitte-zh.md) | Deloitte | 2025 | 数字化转型, AI战略 |
+| 27 | [HR Analytics: Top 10 AI Solutions](summaries/r003-hr-analytics-ai-zh.md) | HR Analytics Trends | 2025 | HR Analytics, 人才发展 |
 
 ## 概念页
 
@@ -89,9 +90,9 @@
 
 最近 5 条：
 ```
+[2026-05-22] ingest | Obsidian 本地知识库全量覆盖索引补齐
 [2026-05-22] review | 定时任务启动前知识库预检与本地资料补齐
 [2026-05-22] ingest | Microsoft Work Trend Index 2026 + McKinsey AI-first Technology Workforce 入库
 [2026-05-22] ingest | McKinsey The State of Organizations 2026 入库
 [2026-05-21] ingest | GitLab People Group / People Policies 组织机制模块
-[2026-05-21] ingest | GitLab Promotions and Transfers 晋升机制入库
 ```

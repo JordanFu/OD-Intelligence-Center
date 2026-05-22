@@ -4,6 +4,13 @@
 
 ---
 
+## [2026-05-22] ingest | Obsidian 本地知识库全量覆盖索引补齐
+- 重新扫描 `/Users/tal/Documents/Obsidian Vault`，当前共识别 58 篇 Markdown：Root 11，Clippings 2，Concepts 20，Daily 4，People 2，Sources 16，Templates 3。
+- 新增全量 source map `knowledge/raw/obsidian-vault-source-map-2026-05-22.json`，记录每篇笔记的路径、标题、标题层级、内部链接、标签、入库方式和知识价值判断。
+- 新增可分享页面 `knowledge/wiki/obsidian-vault-full-source-map-2026-05-22.md`，作为 Obsidian 全量覆盖入口。
+- 更新 catalog 中 Obsidian 条目：从“首批导入 43 篇”修正为“58 篇全量覆盖索引”。
+- 处理边界：不公开复制个人 Vault 全文；对高价值 Concepts/Sources 做结构化沉淀，Daily/Templates/Inbox 只进入覆盖索引。
+
 ## [2026-05-22] review | 定时任务启动前知识库预检与本地资料补齐
 - 新增定期 Review 基线报告 `knowledge/wiki/local-knowledge-review-2026-05-22.md`，固化后续每周检查口径。
 - 检查 catalog、summary/raw 引用、重复 ID、PDF 入库脚本和分享页状态；当前 catalog 可解析，38 个既有报告条目无重复，56 个引用全部存在。
