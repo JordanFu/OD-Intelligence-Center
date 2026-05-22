@@ -4,6 +4,12 @@
 
 ---
 
+## [2026-05-22] ingest | McKinsey The State of Organizations 2026 入库
+- 将用户提供的 `/Users/tal/Downloads/the-state-of-organizations-2026.pdf` 归档为 `knowledge/raw/mckinsey-2026-the-state-of-organizations.pdf`。
+- 新增结构化中文摘要页 `knowledge/wiki/pdf-source-mckinsey-2026-the-state-of-organizations.md`。
+- 报告覆盖三大构造性力量和九个组织转型议题，重点用于 AI 组织设计、组织转型、绩效管理、共享服务和领导力研究。
+- 重点结论：AI 组织转型不能停留在局部工具试点，而要重构 operating model、端到端工作流、能力体系、共享服务、绩效机制和持续变革能力。
+
 ## [2026-05-21] ingest | 日报 PDF 证据源自动入库
 - 从 daily、daily-report、specials、analysis 中扫描 PDF URL，按知识库 Raw/Wiki/Catalog 规则自动建档。
 - 本次识别 17 个唯一 PDF 来源：12 个已下载原始 PDF，5 个保留 URL 与引用上下文待重试。

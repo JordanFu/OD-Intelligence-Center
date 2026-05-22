@@ -9,6 +9,7 @@
 
 | # | 标题 | 来源 | 日期 | 标签 |
 |---|------|------|------|------|
+| 16 | [McKinsey：The State of Organizations 2026](wiki/pdf-source-mckinsey-2026-the-state-of-organizations.md) | McKinsey & Company | 2026-02 | AI组织设计, 组织转型, 绩效管理, 领导力 |
 | 0 | [标杆研究更新：AI如何重塑组织设计](wiki/benchmark-ai-org-design-update-2026-05-08.md) | OD Intelligence Center | 2026-05-08 | AI组织设计, 人才发展机制, 飞轮复盘 |
 | 1 | [LLM Wiki：OD 情报中心知识库运维方法](wiki/karpathy-llm-wiki-method.md) | Karpathy + Obsidian | 2026-05-13 | 知识管理, LLM Wiki |
 | 2 | [Obsidian 本地知识库首批导入地图](wiki/obsidian-vault-map-2026-05-13.md) | 本地 Obsidian | 2026-05-13 | Obsidian, 知识库 |
@@ -83,9 +84,9 @@
 
 最近 5 条：
 ```
+[2026-05-22] ingest | McKinsey The State of Organizations 2026 入库
 [2026-05-21] ingest | GitLab People Group / People Policies 组织机制模块
 [2026-05-21] ingest | GitLab Promotions and Transfers 晋升机制入库
 [2026-05-20] ingest | Zapier AI-first hiring + AI Fluency Rubric V2
 [2026-05-20] research | Zapier AI 实践深度研究报告
-[2026-05-13] ingest | Obsidian 首批导入 + 知音楼入口建档 + LLM Wiki 运维规则
 ```

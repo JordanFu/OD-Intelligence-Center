@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "lastUpdated": "2026-05-21",
+  "lastUpdated": "2026-05-22",
   "mode": "karpathy-llm-wiki",
   "schema": "knowledge/CLAUDE.md",
   "categories": {
@@ -103,6 +103,40 @@
     }
   ],
   "reports": [
+    {
+      "id": "mckinsey-2026-the-state-of-organizations",
+      "title": "McKinsey：The State of Organizations 2026",
+      "originalTitle": "The State of Organizations 2026",
+      "author": "Dana Maor, Deepak Mahadevan, Alexis Krivkovich, Patrick Guggenberger, Damian Klingler, Michael Anzenhofer, Barbara Jeffery, Brooke Weddle, Liesje Meijknecht, Sandra Durth, Heiko Heimes, Diana Ellsworth, Ramesh Srinivasan, Arne Gast, Amadeo Di Lodovico, Bryan Hancock, Ulf Schrader",
+      "publisher": "McKinsey & Company",
+      "sourceType": "consulting",
+      "topics": [
+        "AI组织设计",
+        "组织设计",
+        "人才发展",
+        "绩效管理",
+        "变革管理",
+        "领导力",
+        "数字化转型"
+      ],
+      "date": "2026-02",
+      "uploadDate": "2026-05-22",
+      "description": "McKinsey 2026 组织状态报告，基于 10,018 名全球组织领导者调研，提出三大构造性力量和九个组织转型议题。核心价值在于把 AI 从局部工具使用推进到 operating model、工作流、人机协作、共享服务、绩效管理和持续变革能力的系统重构。",
+      "summaryFile": "./knowledge/wiki/pdf-source-mckinsey-2026-the-state-of-organizations.md",
+      "rawFile": "./knowledge/raw/mckinsey-2026-the-state-of-organizations.pdf",
+      "fileName": "mckinsey-2026-the-state-of-organizations.pdf",
+      "fileSize": "16783880 bytes",
+      "tags": [
+        "McKinsey",
+        "State of Organizations",
+        "AI组织设计",
+        "组织转型",
+        "绩效管理",
+        "领导力",
+        "共享服务"
+      ],
+      "originalUrl": "https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-state-of-organizations"
+    },
     {
       "id": "gitlab-promotions-transfers-handbook",
       "title": "GitLab：Promotions and Transfers 晋升与内部流动机制",
