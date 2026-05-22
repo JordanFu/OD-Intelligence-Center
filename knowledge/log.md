@@ -4,6 +4,18 @@
 
 ---
 
+## [2026-05-22] review | 定时任务启动前知识库预检与本地资料补齐
+- 新增定期 Review 基线报告 `knowledge/wiki/local-knowledge-review-2026-05-22.md`，固化后续每周检查口径。
+- 检查 catalog、summary/raw 引用、重复 ID、PDF 入库脚本和分享页状态；当前 catalog 可解析，38 个既有报告条目无重复，56 个引用全部存在。
+- 修正 `knowledge/index.md` 的最后更新时间与来源摘要表编号。
+- 扫描 Downloads 近两周资料；公开资料入库，内部好未来新灵秀报告不进入可分享知识库，仅记录为后续私有/匿名化方法论候选。
+
+## [2026-05-22] ingest | Microsoft Work Trend Index 2026 + McKinsey AI-first Technology Workforce 入库
+- 将 `2026_Work_Trend_Index_Annual_Report_050526-7_69fc5b1c4e265.pdf` 归档为 `knowledge/raw/microsoft-2026-work-trend-index-annual-report.pdf`，新增中文结构化摘要页 `knowledge/wiki/pdf-source-microsoft-2026-work-trend-index.md`。
+- 将 `designing-an-end-to-end-technology-workforce-for-the-ai-first-era_final.pdf` 归档为 `knowledge/raw/mckinsey-2026-ai-first-technology-workforce.pdf`，新增中文结构化摘要页 `knowledge/wiki/pdf-source-mckinsey-2026-ai-first-technology-workforce.md`。
+- 新增本地研究稿沉淀：`ai-capability-assessment-employee-inventory-research-2026-05-19.md` 与 `zapier-ai-implementation-retrospective-local-2026-05-20.md`。
+- 重点结论：AI 组织变革的下一步应把 AI fluency、Agent workflow、管理者工作重构、技术岗位族群变化和组织 readiness 串成同一套机制。
+
 ## [2026-05-22] ingest | McKinsey The State of Organizations 2026 入库
 - 将用户提供的 `/Users/tal/Downloads/the-state-of-organizations-2026.pdf` 归档为 `knowledge/raw/mckinsey-2026-the-state-of-organizations.pdf`。
 - 新增结构化中文摘要页 `knowledge/wiki/pdf-source-mckinsey-2026-the-state-of-organizations.md`。

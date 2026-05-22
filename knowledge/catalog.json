@@ -104,6 +104,150 @@
   ],
   "reports": [
     {
+      "id": "microsoft-2026-work-trend-index",
+      "title": "Microsoft：2026 Work Trend Index Annual Report",
+      "originalTitle": "2026 Work Trend Index Annual Report: Agents, human agency, and the opportunity for every organization",
+      "author": "Microsoft WorkLab; foreword by Karim Lakhani",
+      "publisher": "Microsoft WorkLab",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "人才发展",
+        "领导力",
+        "变革管理",
+        "数字化转型"
+      ],
+      "date": "2026-05-05",
+      "uploadDate": "2026-05-22",
+      "description": "Microsoft 2026 Work Trend Index 年度报告，基于全球 AI 工作用户调研和 Microsoft 365 匿名遥测，提出 Agent 时代组织需要从个人 AI 使用升级到工作重构、Frontier Firm、Frontier Professional 和 Learning System。",
+      "summaryFile": "./knowledge/wiki/pdf-source-microsoft-2026-work-trend-index.md",
+      "rawFile": "./knowledge/raw/microsoft-2026-work-trend-index-annual-report.pdf",
+      "fileName": "microsoft-2026-work-trend-index-annual-report.pdf",
+      "fileSize": "20227952 bytes",
+      "tags": [
+        "Microsoft",
+        "Work Trend Index",
+        "Agent",
+        "Frontier Firm",
+        "组织准备度",
+        "人机协作"
+      ],
+      "originalUrl": "https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization"
+    },
+    {
+      "id": "mckinsey-2026-ai-first-technology-workforce",
+      "title": "McKinsey：AI-first 时代端到端技术 workforce 设计",
+      "originalTitle": "Designing an end-to-end technology workforce for the AI-first era",
+      "author": "Henning Soller, Mike Stefanelli, Rajat Goel, Umar Husain",
+      "publisher": "McKinsey & Company",
+      "sourceType": "consulting",
+      "topics": [
+        "AI组织设计",
+        "人才发展",
+        "组织设计",
+        "数字化转型",
+        "领导力"
+      ],
+      "date": "2026-04-06",
+      "uploadDate": "2026-05-22",
+      "description": "McKinsey Technology 文章，讨论 agentic AI 时代 CIO 如何重构技术组织的人才招聘、内部能力建设、Agent 训练和供应商策略。适合用于 AI-first 技术岗位族群和职级变化研究。",
+      "summaryFile": "./knowledge/wiki/pdf-source-mckinsey-2026-ai-first-technology-workforce.md",
+      "rawFile": "./knowledge/raw/mckinsey-2026-ai-first-technology-workforce.pdf",
+      "fileName": "mckinsey-2026-ai-first-technology-workforce.pdf",
+      "fileSize": "396156 bytes",
+      "tags": [
+        "McKinsey",
+        "技术组织",
+        "Agentic AI",
+        "CIO",
+        "技术人才",
+        "供应商策略"
+      ],
+      "originalUrl": "https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era"
+    },
+    {
+      "id": "ai-capability-assessment-employee-inventory-2026-05-19",
+      "title": "AI 能力标准、考核与员工盘点研究",
+      "originalTitle": "截至目前AI能力标准、考核与分级用于员工盘点的研究报告",
+      "author": "internal research synthesis",
+      "publisher": "Local research draft",
+      "sourceType": "internal",
+      "topics": [
+        "AI组织设计",
+        "人才发展",
+        "绩效管理",
+        "技能组织",
+        "变革管理"
+      ],
+      "date": "2026-05-19",
+      "uploadDate": "2026-05-22",
+      "description": "本地研究稿二次沉淀，区分人的 AI 能力框架、组织级 AI 治理标准、模型/系统评测基准，提出员工 AI 能力盘点应采用岗位分簇、双轨证据和周期复测。",
+      "summaryFile": "./knowledge/wiki/ai-capability-assessment-employee-inventory-research-2026-05-19.md",
+      "fileName": "local: deep-research-report.md",
+      "fileSize": "summary only",
+      "tags": [
+        "AI能力框架",
+        "员工盘点",
+        "AI治理",
+        "技能组织",
+        "复测机制"
+      ]
+    },
+    {
+      "id": "zapier-ai-implementation-retrospective-local-2026-05-20",
+      "title": "Zapier 全公司 AI 实施复盘（本地研究稿沉淀）",
+      "originalTitle": "Zapier 全公司 AI 实施复盘",
+      "author": "internal research synthesis",
+      "publisher": "Local DOCX research draft",
+      "sourceType": "internal",
+      "topics": [
+        "AI组织设计",
+        "变革管理",
+        "人才发展",
+        "组织文化"
+      ],
+      "date": "2026-05-20",
+      "uploadDate": "2026-05-22",
+      "description": "本地 DOCX 研究稿二次沉淀，将 Zapier AI-first 转型整理为组织变革时间线、机制设计和可迁移启发，补充既有 Zapier AI 实践深研。",
+      "summaryFile": "./knowledge/wiki/zapier-ai-implementation-retrospective-local-2026-05-20.md",
+      "fileName": "local: Zapier 全公司 AI 实施复盘.docx",
+      "fileSize": "summary only",
+      "tags": [
+        "Zapier",
+        "AI-first",
+        "组织变革",
+        "AI fluency",
+        "Hackathon",
+        "People AI Transformation"
+      ]
+    },
+    {
+      "id": "local-knowledge-review-2026-05-22",
+      "title": "知识库定期 Review 基线报告",
+      "originalTitle": "Local Knowledge Base Review Baseline",
+      "author": "Codex",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "internal",
+      "topics": [
+        "知识管理",
+        "AI组织设计",
+        "变革管理"
+      ],
+      "date": "2026-05-22",
+      "uploadDate": "2026-05-22",
+      "description": "定时任务启动前的本地知识库人工预检报告，记录 catalog、raw/wiki 引用、索引、分享能力和 Downloads 新资料处理结果，并固化后续每周 review 口径。",
+      "summaryFile": "./knowledge/wiki/local-knowledge-review-2026-05-22.md",
+      "fileName": "generated review report",
+      "fileSize": "wiki page",
+      "tags": [
+        "知识管理",
+        "定期Review",
+        "资料治理",
+        "分享能力",
+        "本地文件扫描"
+      ]
+    },
+    {
       "id": "mckinsey-2026-the-state-of-organizations",
       "title": "McKinsey：The State of Organizations 2026",
       "originalTitle": "The State of Organizations 2026",
