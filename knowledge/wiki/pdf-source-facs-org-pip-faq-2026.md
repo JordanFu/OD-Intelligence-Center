@@ -1,26 +1,26 @@
 ---
-title: 0000050863 26 000011
-source: intc.com
+title: pip faq 2026
+source: facs.org
 date: 待核验
 ingested: 2026-05-24
-sourceFile: ../knowledge/raw/intc-com-0000050863-26-000011.pdf
-sourceUrl: https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000011/0000050863-26-000011.pdf
+sourceFile: ../knowledge/raw/facs-org-pip-faq-2026.pdf
+sourceUrl: https://www.facs.org/media/ix3p33su/pip-faq-2026.pdf
 tags: [AI组织设计]
 status: 已下载原始PDF，已生成结构化初筛卡片
 ---
 
-# 0000050863 26 000011
+# pip faq 2026
 
 ## 一句话判断
 
-0000050863 26 000011 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
+pip faq 2026 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
 
 ## 入库状态
 
-- **来源机构**：intc.com
+- **来源机构**：facs.org
 - **来源类型**：media
-- **原文 URL**：https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000011/0000050863-26-000011.pdf
-- **原始文件**：`knowledge/raw/intc-com-0000050863-26-000011.pdf`
+- **原文 URL**：https://www.facs.org/media/ix3p33su/pip-faq-2026.pdf
+- **原始文件**：`knowledge/raw/facs-org-pip-faq-2026.pdf`
 - **入库日期**：2026-05-24
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
@@ -51,8 +51,12 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 
 ## 被引用位置
 
-- `specials/ai-org-talent-mechanism/2026-05-19/01-flat-organization.md:13`：Intel：FY ended Dec 27, 2025 的 Form 10‑K（披露组织/经营重组相关信息，可作为一手锚点，需进一步抽取其中对层级/授权/效率的明确表述）。
-- `specials/ai-org-talent-mechanism/2026-05-19/01-flat-organization.md:35`：- 证据基础：SSRN 的实证口径与边界条件需要被严格复用；Intel 10‑K/微软买断属于不同性质的一手/二手证据，不能混为同一口径。https://papers.ssrn.com/sol3/Delivery.cfm/6456498.pdf?abstractid=6456498&mirid=1 ｜
+- `specials/ai-org-talent-mechanism/2026-05-23/00-overview.md:23`：日报/周报引用该 PDF。
+- `specials/ai-org-talent-mechanism/2026-05-23/00-overview.md:68`：ACS PIP FAQ：
+- `specials/ai-org-talent-mechanism/2026-05-23/04-promotion-system.md:13`：https://www.facs.org/for-medical-professionals/news-publications/news-and-articles/bulletin/2026/may-2026-volume-111-issue-5/national-pilot-will-assess-feasibility-of-promotion-in-
+- `specials/ai-org-talent-mechanism/2026-05-23/04-promotion-system.md:24`：- 证据基础：PIP 试点把“身份切换、保险覆盖、责任边界”等作为关键字段呈现（企业类比为权限/预算/合规清单）。
+- `specials/ai-org-talent-mechanism/2026-05-23/04-promotion-system.md:66`：｜ https://handbook.gitlab.com/handbook/people-group/promotions-transfers/ ｜ https://help.sap.com/docs/successfactors-performance-and-goals/implementing-and-managing-calibration/cal
+- `specials/ai-org-talent-mechanism/2026-05-23/04-promotion-system.md:93`：ACS PIP FAQ（PDF）：
 
 ## 后续精读任务
 

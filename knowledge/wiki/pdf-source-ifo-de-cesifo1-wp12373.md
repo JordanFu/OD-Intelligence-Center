@@ -1,26 +1,26 @@
 ---
-title: 0000050863 26 000011
-source: intc.com
+title: cesifo1 wp12373
+source: ifo.de
 date: 待核验
 ingested: 2026-05-24
-sourceFile: ../knowledge/raw/intc-com-0000050863-26-000011.pdf
-sourceUrl: https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000011/0000050863-26-000011.pdf
+sourceFile: ../knowledge/raw/ifo-de-cesifo1-wp12373.pdf
+sourceUrl: https://www.ifo.de/DocDL/cesifo1_wp12373.pdf
 tags: [AI组织设计]
 status: 已下载原始PDF，已生成结构化初筛卡片
 ---
 
-# 0000050863 26 000011
+# cesifo1 wp12373
 
 ## 一句话判断
 
-0000050863 26 000011 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
+cesifo1 wp12373 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
 
 ## 入库状态
 
-- **来源机构**：intc.com
+- **来源机构**：ifo.de
 - **来源类型**：media
-- **原文 URL**：https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000011/0000050863-26-000011.pdf
-- **原始文件**：`knowledge/raw/intc-com-0000050863-26-000011.pdf`
+- **原文 URL**：https://www.ifo.de/DocDL/cesifo1_wp12373.pdf
+- **原始文件**：`knowledge/raw/ifo-de-cesifo1-wp12373.pdf`
 - **入库日期**：2026-05-24
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
@@ -51,8 +51,9 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 
 ## 被引用位置
 
-- `specials/ai-org-talent-mechanism/2026-05-19/01-flat-organization.md:13`：Intel：FY ended Dec 27, 2025 的 Form 10‑K（披露组织/经营重组相关信息，可作为一手锚点，需进一步抽取其中对层级/授权/效率的明确表述）。
-- `specials/ai-org-talent-mechanism/2026-05-19/01-flat-organization.md:35`：- 证据基础：SSRN 的实证口径与边界条件需要被严格复用；Intel 10‑K/微软买断属于不同性质的一手/二手证据，不能混为同一口径。https://papers.ssrn.com/sol3/Delivery.cfm/6456498.pdf?abstractid=6456498&mirid=1 ｜
+- `specials/ai-org-talent-mechanism/2026-05-24/02-talent-density.md:16`：研究（CESifo working paper）：Makridis（2026）研究基于 Gallup Workforce Panel（2023–Q1 2026，30,000+ 美国员工），提出 AI adoption 呈现“沿组织层级传播”的特征，且“组织有清晰 AI strategy”的员工更可能高频使用 AI（摘要级信息）。
+- `specials/ai-org-talent-mechanism/2026-05-24/02-talent-density.md:67`：学术/研究：Makridis（organizational transmission）等 adoption/manager 作用研究。
+- `specials/ai-org-talent-mechanism/2026-05-24/02-talent-density.md:97`：CESifo Working Paper：The Organizational Transmission of AI：
 
 ## 后续精读任务
 
