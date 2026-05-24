@@ -22,11 +22,11 @@
    - 关键事实：文中明确将 JFA 视为组织透明、流动、pay equity 与 workforce agility 的基础，并把“job evaluation and leveling / job leveling guide”列为核心组成。  
    - 可信度：高（咨询机构公开洞察文章）
 
-3) **（方法论新证据）Orgvue 发布“Job architecture explained: Roles, skills, and levels”，强调 job architecture 是 roles/job families/levels/skills 的结构层，可支撑 skills-based transformation。**  
-   - 时间：2026-04-20（Published by Orgvue）  
-   - URL：https://www.orgvue.com/resources/articles/job-architecture/  
-   - 关键事实：文章把 job architecture 作为减少 title/leveling sprawl、支撑 workforce planning、internal mobility 与 skills-based transformation 的基础结构，并直接回答“Can job architecture support skills-based organizations? Yes”。  
-   - 可信度：中（厂商方法论文章；概念清晰但需与一手组织样本交叉校准）
+3) **（近30天“公共部门 job architecture”样本）SHRM 发表文章复盘：Metropolitan Nashville Public Schools 在重分类近 1,000 个 job codes 时发现“最大问题不是 AI”，而是历史累积的 job architecture 结构性歧义。**  
+   - 时间：2026-04-28  
+   - URL：https://www.shrm.org/topics-tools/news/ai-wasnt-wrong-job-architecture-was  
+   - 关键事实：作者披露在该重分类过程中，AI 的分类准确率约 77%–79%，而资深 HR 的 inter-rater reliability baseline 约 82%；更关键的发现是“结构性歧义”而非模型能力不足。  
+   - 可信度：中高（SHRM 平台文章；但为外部作者投稿栏目，需用原项目材料进一步核验）
 
 4) **（端到端岗位变粗的强信号）EY 招聘“Agentic Orchestration Lead”，岗位描述把 agent-to-agent contracts、MCP tool integration、runtime governance、observability、build-vs-buy 一体化放在同一岗位范围。**  
    - 时间：2026-05-12（职位页面 Date）  
@@ -50,7 +50,7 @@
 
 1. **“job family + level guide”正在成为 skills-based org 的“可比语言层”，其价值不在“新增岗位”，而在“减少称谓与分级膨胀 + 支撑 pay/流动/治理”。**  
    - 可信度：中高  
-   - 证据基础：SIU 把 job families/career levels/salary grades 绑定到同一套 Career Level Guides；EY/Orgvue 把 job architecture/JFA 明确定位为 roles/skills/levels/pay 的统一框架。  
+   - 证据基础：SIU 把 job families/career levels/salary grades 绑定到同一套 Career Level Guides；EY/SHRM 从不同角度指向“共同语言层（roles/skills/levels/pay）”是治理 job architecture 歧义与支撑流动/公平的前提。  
    - 为什么重要：没有共同语言层，skills-based 转型会变成“技能标签泛滥 + 薪酬口径不一 + 内部流动失真”，最终反噬公平感与激励机制。
 
 2. **AI agent 时代的岗位颗粒度出现“两端拉伸”：执行型岗位变粗（端到端 orchestration/quality/triage），同时在治理侧催生更细的新专业化子域（runtime governance/observability）。**  
@@ -125,7 +125,7 @@
 
 - SIU Compensation 2030 – Compensation Study Results（Last Updated: Apr 23, 2026）：https://hr.siu.edu/compensation-2030/cbiz-study-results.php  
 - EY – Job family architecture for workforce strategy（04 May 2026）：https://www.ey.com/en_us/insights/tax/job-family-architecture-for-workforce-strategy  
-- Orgvue – Job architecture explained: Roles, skills, and levels（Published April 20, 2026）：https://www.orgvue.com/resources/articles/job-architecture/  
+- SHRM – The AI Wasn’t Wrong. Our Job Architecture Was.（April 28, 2026）：https://www.shrm.org/topics-tools/news/ai-wasnt-wrong-job-architecture-was  
 - EY Careers – Agentic Orchestration Lead（Date: 12 May 2026）：https://careers.ey.com/ey/job/Bengaluru-Agentic-Orchestration-Lead-KA-560048/1392663833/  
 - Anthropic Research – Project Glasswing: An initial update（2026-05-21 附近更新，页面内容含量化数据与流程）：https://www.anthropic.com/research/glasswing-initial-update  
 - MIT HR – Job and Position Descriptions（job family/subfamily + job level guides；需补核验更新时间/具体 level guide 文档）：https://hr.mit.edu/managers/descriptions
