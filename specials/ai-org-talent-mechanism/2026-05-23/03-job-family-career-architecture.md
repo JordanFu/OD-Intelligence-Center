@@ -1,12 +1,13 @@
 # 2026-05-23｜专题三：岗位、族群、序列持续建设
 
-> 云端兜底生成：当本地设备离线或常规自动化未提交时，由 GitHub Actions 生成最低可用版本；正式重跑必须按多代理研究协议执行：四课题专题代理并行、四渠道证据代理并行、主代理交叉证伪。
+> 固定结构：一句话判断 → 新增事实 → 核心判断 → 案例事实还原 → Context → 证据地图 → 行动启发 → 待验证 → 来源索引。  
+> 口径：回答三个问题：岗位边界是否变宽？哪些能力更专业化并产生溢价？业务提出岗位/族群/序列变更时，真实诉求是否常常是激励与市场溢价承接？
 
-## 今日一句话结论
+## 1. 今日一句话专题判断
 
 过去 30 天的“公开样本”显示：组织在推 skills-based/job family/career level 体系时，往往不是为了“多造一堆新岗位”，而是为**跨部门可比的 level 语言 + pay band/grade 机制 + 内部流动**打底；与此同时，AI agent 编排与安全漏洞“发现→验证/修补”瓶颈把岗位重心推向端到端责任（orchestration/triage/patching），但也在制造新的专业化高溢价子领域（runtime governance/observability）。
 
-## 今日新增事实（候选）
+## 2. 今日新增事实：只写可追溯事实（注明来源）
 
 > 说明：以下均为“可追溯事实”，用于今天的判断与后续交叉验证；可信度为我方主观分级（高/中/低），不等于真值。
 
@@ -46,7 +47,7 @@
    - 关键事实：页面明确说明 job descriptions 按 job family/subfamily 组织，并提供 job level guides（Administrative roles、Research roles、Technical associates 等）。  
    - 可信度：中（官方站点但需补齐“版本/更新时间/level guide 具体内容”作为强证据）
 
-## 今日核心判断（3-5条）
+## 3. 今日核心判断：3–5 条（每条注明可信度、证据基础、为什么重要）
 
 1. **“job family + level guide”正在成为 skills-based org 的“可比语言层”，其价值不在“新增岗位”，而在“减少称谓与分级膨胀 + 支撑 pay/流动/治理”。**  
    - 可信度：中高  
@@ -63,7 +64,7 @@
    - 证据基础：Anthropic 明确写出 triage/report/patch 的人类能力是瓶颈，并披露维护者要求减速与两周 patch window 的运营事实。  
    - 为什么重要：这类瓶颈会把组织绩效从“产出更多发现”改写为“更快完成闭环”，影响岗位职责、level 标准、以及激励（按发现数量 vs 按修补闭环质量）。
 
-## 重点案例事实还原（公开 job family / career level 文档）
+## 4. 重点案例事实还原：公开 job family / career level 文档样本
 
 ### 案例：SIU（Southern Illinois University）“Compensation 2030”——Job Families + Career Level Guides（2026-04-23 更新）
 
@@ -82,12 +83,12 @@
 - **不可照搬点**：  
   - 高校的 job family 粒度与企业（尤其互联网/AI 原生）差异很大；但“共同语言层 + 薪酬承接”这一结构逻辑可迁移。
 
-## Context 层（暂不形成结论，但提示关注）
+## 5. Context 层：暂不形成结论，但提示我们关注……
 
 - **“公开 job family/career ladder 文档”的获取难度并未降低**：企业往往只公开方法论不公开具体 leveling guide；高校/政府更常公开结构化 job family/career level 信息。提示我们：未来 1-2 周可把“公开职业架构样本池”扩展到大学/公共部门，作为“结构模板”，再用招聘/JD/薪酬信号去校准企业侧真实粒度。
 - **端到端岗位变粗 ≠ 一定减少岗位种类**：当 runtime governance/observability/合规成为硬约束时，组织可能被迫把“端到端 owner”拆成更专业化的“平台/治理/评估”子角色（典型反例路径）。
 
-## 证据地图（按渠道）
+## 6. 证据地图：官方/一手｜权威媒体/咨询｜公司案例｜学术/研究｜招聘薪酬｜社媒线索｜内部库/知识库
 
 - **官方/一手**：  
   - Anthropic Glasswing update（漏洞发现→triage/patch 瓶颈、量化数据、流程）  
@@ -105,12 +106,12 @@
 - **内部信息库/知识库**：  
   - 本日 internal 线索：Project Glasswing “发现→验证/修补瓶颈”、agent 编排从工具能力转向岗位边界（见 daily-report/2026-05-23 与 digest.md 已收录条目，供主代理交叉汇总）
 
-## 对我们行动的启发
+## 7. 对我们行动的启发
 
 - **把“岗位/序列建设”当成“薪酬与治理的接口工程”**：先做 job family + level guide 的共同语言层，再决定是新增序列还是用技能标签与 pay band 调整承接。
 - **围绕“端到端闭环”重写关键岗位**：对 agent 编排与安全闭环岗位，用“输入→编排→执行→验证→修补/复盘”的闭环责任定义 level，而不是以工具栈或模块边界定义 level。
 
-## 待验证清单与下一步搜索路径（queries）
+## 8. 待验证清单与下一步搜索路径
 
 1) **找“公开的 leveling guide / career ladder 原文档（PDF/handbook/wiki）”**  
    - query: `(\"job family\" OR \"career ladder\" OR \"level guide\" OR \"career framework\") (pdf OR handbook OR wiki) (\"Last updated\" OR \"Effective\" OR 2026) (engineering OR product OR security)`
@@ -121,7 +122,7 @@
 4) **反例：哪些岗位被迫更细（合规/审计/安全）而不是更粗**  
    - query: `(\"AI governance\" OR \"model risk\" OR \"LLM\" compliance) (role OR job family OR career framework) 2026`
 
-## 来源索引
+## 9. 来源索引
 
 - SIU Compensation 2030 – Compensation Study Results（Last Updated: Apr 23, 2026）：https://hr.siu.edu/compensation-2030/cbiz-study-results.php  
 - EY – Job family architecture for workforce strategy（04 May 2026）：https://www.ey.com/en_us/insights/tax/job-family-architecture-for-workforce-strategy  
