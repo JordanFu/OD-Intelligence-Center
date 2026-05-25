@@ -6,7 +6,7 @@
 
 ## 2. 今日核心判断
 
-### 判断一：高密度人才的核心是 workflow impact，而不是 AI 工具熟练度
+### 判断一：高密度人才的核心是 工作流影响力（workflow impact），而不是 AI 工具熟练度
 
 OpenAI FDE 模式强调从 first principles 出发，在真实企业环境中解决高价值问题，处理安全、权限、治理、合规、运营控制和 legacy infrastructure 等复杂约束。
 
@@ -14,9 +14,9 @@ OpenAI FDE 模式强调从 first principles 出发，在真实企业环境中解
 
 **可信度**：高。OpenAI 官方材料。
 
-### 判断二：AI 会降低 routine work 的人力需求，提高 senior talent 的相对价值
+### 判断二：AI 会降低 常规执行工作 的人力需求，提高 senior talent 的相对价值
 
-McKinsey 指出 agentic AI 会接管更多 routine development 与 maintenance work，企业会减少 generalist capacity，转向 senior engineers、architects、product managers、designers 等高判断、高整合角色。
+McKinsey 指出 智能体式 AI（agentic AI） 会接管更多 routine development 与 maintenance work，企业会减少 generalist capacity，转向 senior engineers、architects、product managers、designers 等高判断、高整合角色。
 
 **为什么重要**：这不是“人人全栈”，而是组织更依赖能定义问题、设定标准、整合资源、审查质量的人。
 
@@ -24,13 +24,13 @@ McKinsey 指出 agentic AI 会接管更多 routine development 与 maintenance w
 
 ### 判断三：人才密度提升必须和组织条件配套
 
-Deloitte 显示 AI skills gap 是 integration 的最大障碍之一，企业主要通过 education 调整人才策略，而 role/workflow redesign 不足。
+Deloitte 显示 AI skills gap 是 integration 的最大障碍之一，企业主要通过 education 调整人才策略，而 role/工作流重设计（workflow redesign） 不足。
 
 **为什么重要**：如果组织仍是旧流程、旧权限、旧绩效机制，高密度人才也会被低效系统吞掉。
 
 **可信度**：高。
 
-## 3. Context 层
+## 3. 背景材料（Context）
 
 - **不把“少招 junior”写成结论**：McKinsey 提到 junior developer business case 变弱，但这不等于企业应该切断新人管道；更好的方向是让新人借助 AI 更快进入高价值任务。
 - **Mercer 的员工焦虑提示**：员工对 AI 造成失业的担心上升，说明高人才密度叙事不能只讲效率，也要讲成长路径。
@@ -57,14 +57,14 @@ Deloitte 显示 AI skills gap 是 integration 的最大障碍之一，企业主�
 ## 6. 待验证清单
 
 - OpenAI FDE 是否公开能力模型或招聘标准？
-- 企业是否开始用 workflow impact 替代传统岗位职责描述？
-- AI 项目贡献如何进入绩效和晋升 evidence packet？
+- 企业是否开始用 工作流影响力（workflow impact） 替代传统岗位职责描述？
+- AI 项目贡献如何进入绩效和晋升 证据包（evidence packet）？
 - junior 岗位是否出现“AI-assisted apprenticeship”新模式？
 
 ## 7. 来源索引
 
 - OpenAI FDE: https://openai.com/business/the-openai-deployment-company/
-- McKinsey AI-first workforce: https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era
+- McKinsey：AI 优先技术人才体系: https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era
 - Deloitte State of AI 2026: https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-generative-ai-in-enterprise.html
 - Mercer Global Talent Trends 2026: https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/
 - McKinsey human-AI workforce: https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-rise-of-the-human-ai-workforce

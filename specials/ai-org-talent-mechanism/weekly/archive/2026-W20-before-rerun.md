@@ -1,8 +1,8 @@
 # 2026-W20｜AI时代组织与人才机制变革｜四课题聚合 CEO 周报
 
-> 周期：2026-05-11 ～ 2026-05-17（ISO Week 20）  
-> 本周覆盖的日报来源：`specials/ai-org-talent-mechanism/2026-05-13/`、`specials/ai-org-talent-mechanism/2026-05-14/`（本周其它日期的四课题日报/总览摘要尚未产出或未入库，周报据此做“阶段性复盘”，并将缺口列入下周待验证清单）  
-> 方法：事实-判断分离；关键结论按证据层级标注可信度（⭐官方/一手｜📰权威二手/研究｜📊行业数据/招聘薪酬｜💬弱信号）；所有“管理判断”必须能回溯到来源；证据不足处明确写“不足以下结论”。  
+> 周期：2026-05-11 ～ 2026-05-17（ISO Week 20）
+> 本周覆盖的日报来源：`specials/ai-org-talent-mechanism/2026-05-13/`、`specials/ai-org-talent-mechanism/2026-05-14/`（本周其它日期的四课题日报/总览摘要尚未产出或未入库，周报据此做“阶段性复盘”，并将缺口列入下周待验证清单）
+> 方法：事实-判断分离；关键结论按证据层级标注可信度（⭐官方/一手｜📰权威二手/研究｜📊行业数据/招聘薪酬｜💬弱信号）；所有“管理判断”必须能回溯到来源；证据不足处明确写“不足以下结论”。
 
 ---
 
@@ -20,7 +20,7 @@ AI 时代的组织竞争力正在从“层级与流程控制”迁移为“协�
 4. **晋升机制将走向“证据流水线 + 总闸门”**：项目/任务级证据更高频、更可审计；正式晋升仍保留窗口/校准会/预算闸门以守住公平与成本；统一能力带（如百度 5-12）会倒逼晋升口径升级为“复合证据”（专业力+领导力+治理责任）。（📰/⭐）
 5. **最大的失败模式不是“AI 不好用”，而是“组织把 AI 变成 KPI / 裁员话术”**：用工具使用率替代质量与影响，会诱发表演式使用、质量事故与信任崩塌；暂停初级岗位会伤害人才管道，几年后用更高成本补课。（⭐/📰）
 
-### 本周需要 CEO/高管拍板或重点关注的 3 个问题
+### 本周需要 CEO 和高管拍板或重点关注的 3 个问题
 
 1. **我们把 AI 转型定义为“工具推广”还是“Operating Model 重构”？**如果是后者：CEO 是否亲自牵头，并明确决策权、预算闸门与跨部门冲突仲裁机制？（需拍板）
 2. **我们是否启动“协调压缩”试点？**选哪 1-2 条端到端流程、试点边界是什么、谁是结果 owner、失败退出机制是什么？（需拍板/授权）
@@ -34,7 +34,7 @@ AI 时代的组织竞争力正在从“层级与流程控制”迁移为“协�
 
 ### 最大风险与最大机会
 
-- **最大风险（如果不行动）**：中层与协同层被工具“局部替代”但权责/治理未重写，导致负担下沉、质量与合规风险上升、绩效与晋升口径失真、组织信任受损；同时人才管道被削弱，2-4 年后用更高成本买回能力。  
+- **最大风险（如果不行动）**：中层与协同层被工具“局部替代”但权责/治理未重写，导致负担下沉、质量与合规风险上升、绩效与晋升口径失真、组织信任受损；同时人才管道被削弱，2-4 年后用更高成本买回能力。
 - **最大机会（如果行动）**：用“协调压缩 + 证据系统”把组织速度与质量同时拉升，在更少层级下维持可扩张的交付能力；用“统一能力带 + 市场稀缺系数 + 项目证据包”实现对关键能力更快更准的定价与保留。
 
 ---
@@ -43,53 +43,53 @@ AI 时代的组织竞争力正在从“层级与流程控制”迁移为“协�
 
 > 注：每条包含：结论｜证据层级/来源｜可信度｜为什么重要｜相较上周变化｜对管理层意味着什么
 
-1. **组织扁平化的底层机制更清晰：AI 通过压缩协调成本推动“协调压缩”，从而改变层级结构与中层占比。**  
-   - 证据：Workforce Futures “coordination compression”框架（📰/⭐）；Brookings 对 AI 投资与层级变化/中层占比下降的研究综述（📰）；Coinbase/Block 等一手案例（⭐）  
-   - 可信度：⭐高  
-   - 为什么重要：它把“是否裁中层”的争论升级为“如何重写协调工作、治理与问责”的可操作问题。  
-   - 相较上周：增强（新增机制框架与研究综述支撑）。  
+1. **组织扁平化的底层机制更清晰：AI 通过压缩协调成本推动“协调压缩”，从而改变层级结构与中层占比。**
+   - 证据：Workforce Futures “coordination compression”框架（📰/⭐）；Brookings 对 AI 投资与层级变化/中层占比下降的研究综述（📰）；Coinbase/Block 等一手案例（⭐）
+   - 可信度：⭐高
+   - 为什么重要：它把“是否裁中层”的争论升级为“如何重写协调工作、治理与问责”的可操作问题。
+   - 相较上周：增强（新增机制框架与研究综述支撑）。
    - 对管理层意味着什么：把组织变革 KPI 从“层级数/管理跨度”改为“协调任务清单、owner 清晰度、变更审计、质量指标与复盘闭环”。
 
-2. **CEO 成为 AI 转型的一号位已是可观测事实：AI 投资提升、agentic AI 占比上升，意味着组织重构将前置到经营层。**  
-   - 证据：BCG AI Radar 2026（72% CEO 自称主要责任人、预算结构）（📰/⭐）  
-   - 可信度：⭐高  
-   - 为什么重要：当一号位亲自牵头，组织设计（决策权/激励/岗位重写）会比“IT 试点”更快进入制度层。  
-   - 相较上周：增强（周内新增高置信数据点）。  
-   - 对管理层意味着什么：需要把 AI 治理、转型办公室（Transformation Office）和激励/预算闸门纳入 CEO operating model，而不是外包给某个职能。
+2. **CEO 成为 AI 转型的一号位已是可观测事实：AI 投资提升、智能体式 AI（agentic AI） 占比上升，意味着组织重构将前置到经营层。**
+   - 证据：BCG AI Radar 2026（72% CEO 自称主要责任人、预算结构）（📰/⭐）
+   - 可信度：⭐高
+   - 为什么重要：当一号位亲自牵头，组织设计（决策权/激励/岗位重写）会比“IT 试点”更快进入制度层。
+   - 相较上周：增强（周内新增高置信数据点）。
+   - 对管理层意味着什么：需要把 AI 治理、转型办公室（Transformation Office）和激励/预算闸门纳入 CEO 运营模式（operating model），而不是外包给某个职能。
 
-3. **“取消纯管理者/manager 转 player-coach/扩大管理跨度/one-person team”正在从口号变成一手制度动作。**  
-   - 证据：Coinbase 官方重组声明（最多 5 层、15+ 直报、取消 pure managers、试验 one-person teams）（⭐）；Block 官方文章将管理层解释为信息路由并主张角色收敛（⭐）  
-   - 可信度：⭐高  
-   - 为什么重要：它定义了“保留什么管理工作、替换什么协调工作”的新边界。  
-   - 相较上周：增强（本周补充了更完整的一手可复核动作）。  
+3. **“取消纯管理者/manager 转 实战型教练管理者（player-coach）/扩大管理跨度/one-person team”正在从口号变成一手制度动作。**
+   - 证据：Coinbase 官方重组声明（最多 5 层、15+ 直报、取消 纯管理者（pure managers）、试验 one-person teams）（⭐）；Block 官方文章将管理层解释为信息路由并主张角色收敛（⭐）
+   - 可信度：⭐高
+   - 为什么重要：它定义了“保留什么管理工作、替换什么协调工作”的新边界。
+   - 相较上周：增强（本周补充了更完整的一手可复核动作）。
    - 对管理层意味着什么：中层转型的考核对象要从“管人/汇报”转为“教练与标准、质量与风险、Agent 编排与复用资产沉淀”。
 
-4. **岗位/职级体系的中国样本出现：百度用“统一数字职级带（5-12）+ 打通专业/管理通道”弱化序列标签。**  
-   - 证据：界面新闻对百度全员信的可核验还原（📰较高）  
-   - 可信度：📰较高（仍待拿到 HR FAQ/细则补强）  
-   - 为什么重要：它把“复合型人才”从理念推进到了制度底盘（职级/任职资格）层。  
-   - 相较上周：新增（作为本周最强的国内制度信号）。  
+4. **岗位/职级体系的中国样本出现：百度用“统一数字职级带（5-12）+ 打通专业/管理通道”弱化序列标签。**
+   - 证据：界面新闻对百度全员信的可核验还原（📰较高）
+   - 可信度：📰较高（仍待拿到 HR FAQ/细则补强）
+   - 为什么重要：它把“复合型人才”从理念推进到了制度底盘（职级/任职资格）层。
+   - 相较上周：新增（作为本周最强的国内制度信号）。
    - 对管理层意味着什么：一旦统一能力带，晋升与薪酬定价必须同步升级为“证据包 + 校准机制”，否则公平争议会迁移而不是消失。
 
-5. **平台化协作层正在形成：Notion 把 custom code runtime、外部 Agent 与数据同步引入同一 workspace，并披露已构建 100 万+ Custom Agents。**  
-   - 证据：Notion 官方 Developer Platform 博客（⭐）  
-   - 可信度：⭐高  
-   - 为什么重要：这类平台会显著降低“引入 Agent/自动化”的门槛，也会放大权限、审计、回滚与责任边界问题。  
-   - 相较上周：增强（出现更明确的平台机制与规模信号）。  
+5. **平台化协作层正在形成：Notion 把 custom code runtime、外部 Agent 与数据同步引入同一 workspace，并披露已构建 100 万+ Custom Agents。**
+   - 证据：Notion 官方 Developer Platform 博客（⭐）
+   - 可信度：⭐高
+   - 为什么重要：这类平台会显著降低“引入 Agent/自动化”的门槛，也会放大权限、审计、回滚与责任边界问题。
+   - 相较上周：增强（出现更明确的平台机制与规模信号）。
    - 对管理层意味着什么：OD/IT/法务要把“谁能建、谁能上线、谁能改流程”制度化，否则会出现 Agent sprawl 与责任失焦。
 
-6. **晋升机制的主流方向更清晰：双轨制/总闸门不会消失，但证据层会项目化、可审计化。**  
-   - 证据：GitLab 晋升与薪酬校准公开手册（⭐）；HBR 任务级框架（📰/⭐）；百度统一带信号（📰）  
-   - 可信度：⭐高（方向），📰较高（国内细则仍待补）  
-   - 为什么重要：它给出可落地的制度组合，而非“随时晋升”这类高风险口号。  
-   - 相较上周：被修正为更克制的“双轨制”表述。  
+6. **晋升机制的主流方向更清晰：双轨制/总闸门不会消失，但证据层会项目化、可审计化。**
+   - 证据：GitLab 晋升与薪酬校准公开手册（⭐）；HBR 任务级框架（📰/⭐）；百度统一带信号（📰）
+   - 可信度：⭐高（方向），📰较高（国内细则仍待补）
+   - 为什么重要：它给出可落地的制度组合，而非“随时晋升”这类高风险口号。
+   - 相较上周：被修正为更克制的“双轨制”表述。
    - 对管理层意味着什么：可以先做“证据流水线”试点，不急于改动晋升窗口，但要先统一证据口径与审计规则。
 
-7. **“暂停初级招聘/用 AI 指标做考核”是高风险捷径：短期可推使用率，长期伤害人才管道与组织信任。**  
-   - 证据：Gartner 对 entry-level hiring 暂停的成本预警（📰/⭐）；对“工具指标化”的反例信号（📰/💬）  
-   - 可信度：📰较高（机制方向清晰），个案需继续核验  
-   - 为什么重要：这是 CEO 最容易“为了速度”踩中的坑。  
-   - 相较上周：增强（周内信号更集中）。  
+7. **“暂停初级招聘/用 AI 指标做考核”是高风险捷径：短期可推使用率，长期伤害人才管道与组织信任。**
+   - 证据：Gartner 对 entry-level hiring 暂停的成本预警（📰/⭐）；对“工具指标化”的反例信号（📰/💬）
+   - 可信度：📰较高（机制方向清晰），个案需继续核验
+   - 为什么重要：这是 CEO 最容易“为了速度”踩中的坑。
+   - 相较上周：增强（周内信号更集中）。
    - 对管理层意味着什么：把“AI 贡献”定义为“可审计影响与风险控制”，而不是使用率；把初级岗位改造成“AI 协同学徒制”而不是一刀切停招。
 
 ---
@@ -100,7 +100,7 @@ AI 时代的组织竞争力正在从“层级与流程控制”迁移为“协�
 
 - **一手组织动作**：Coinbase（取消 pure managers、15+ 直报、one-person teams）、Block（角色收敛 IC/DRI/player-coach）。（来源：2026-05-13 专题一/三；2026-05-13 总览）
 - **机制框架被补强**：coordination compression 作为解释扁平化的更强框架（Workforce Futures + Brookings）。（来源：2026-05-14 专题一；2026-05-14 总览）
-- **经营层牵引更明确**：BCG AI Radar 2026 给出 CEO 主责与 agentic AI 预算结构信号。（来源：2026-05-14 专题一/二；2026-05-14 总览）
+- **经营层牵引更明确**：BCG AI Radar 2026 给出 CEO 主责与 智能体式 AI（agentic AI） 预算结构信号。（来源：2026-05-14 专题一/二；2026-05-14 总览）
 - **平台化协作层出现**：Notion Developer Platform（Workers / External Agents API / Database Sync），以及“100 万+ Custom Agents”。（来源：2026-05-14 专题一/二；2026-05-14 总览）
 - **国内制度样本**：百度统一数字职级带 5-12，任职资格强调“专业力 + 领导力”。（来源：2026-05-14 专题三/四；2026-05-14 总览）
 - **晋升制度模板**：GitLab 公开“每年两次校准 + 例外通道 + 预算闸门”的晋升与薪酬流程。（来源：2026-05-13 专题四）
@@ -117,8 +117,8 @@ AI 时代的组织竞争力正在从“层级与流程控制”迁移为“协�
 ### 课题一｜AI时代组织扁平化与中层减少
 
 **本周新增事实**
-- Coinbase 官方重组：压缩层级、扩大管理跨度、取消纯管理者、试验 AI-native pods 与 one-person teams。（⭐）
-- Block 官方：从 hierarchy → intelligence，明确不需要永久中层管理层，角色收敛为 IC/DRI/player-coach。（⭐）
+- Coinbase 官方重组：压缩层级、扩大管理跨度、取消纯管理者、试验 AI 原生（AI-native） pods 与 一人团队（one-person teams）。（⭐）
+- Block 官方：从 hierarchy → intelligence，明确不需要永久中层管理层，角色收敛为 IC/DRI/实战型教练管理者（player-coach）。（⭐）
 - 研究与框架：Brookings 综述提示 AI 投资与层级变化相关；Workforce Futures 提出 coordination compression。（📰/⭐）
 - 平台信号：Notion 把外部 Agent/运行时纳入 workspace，放大组织治理问题。（⭐）
 
@@ -147,7 +147,7 @@ AI 时代的组织竞争力正在从“层级与流程控制”迁移为“协�
 ### 课题二｜高人才密度与复合型人才机制
 
 **本周新增事实**
-- “高人才密度”与“AI-native operating model”被绑定进 Coinbase 的组织动作。（⭐）
+- “高人才密度”与“AI 原生（AI-native） 运营模式（operating model）”被绑定进 Coinbase 的组织动作。（⭐）
 - BCG 将 AI 落地障碍归因到 roles/incentives/decision rights/culture，并建议 transformation office 嵌入治理与激励。（⭐/📰）
 - Notion 把“Agent 规模化涌现”产品化（Workers/External Agents API + 100 万+ agents）。（⭐）
 - 市场结构信号：Ramp 费用数据显示企业付费呈多供应商并存，工具栈更易碎片化。（📰）
@@ -163,7 +163,7 @@ AI 时代的组织竞争力正在从“层级与流程控制”迁移为“协�
 
 **管理启发**
 - 复合型人才识别要从“技能清单”改为“闭环证据包”：问题定义→编排→质量审查→业务影响→复用沉淀→风险控制。
-- 需要建立“Agent 管理能力”的训练路径：能 debug agent，才有资格做 player-coach/owner。
+- 需要建立“Agent 管理能力”的训练路径：能 debug agent，才有资格做 实战型教练管理者（player-coach）/owner。
 
 **CEO 需要关注的问题**
 - 组织是否有足够人才密度承接扁平化？如果没有，是“招聘问题”还是“机制问题”（项目分配、授权、激励、淘汰）？
@@ -196,7 +196,7 @@ AI 时代的组织竞争力正在从“层级与流程控制”迁移为“协�
 
 **CEO 需要关注的问题**
 - 哪些序列/岗位族群必须新建（护城河、评价标准独立、长期稳定）？哪些其实是薪酬与激励问题？
-- 如何避免 title inflation 与薪酬公平争议？是否先做“能力带 + 稀缺系数”而不是“新增头衔”？
+- 如何避免 头衔膨胀（title inflation） 与薪酬公平争议？是否先做“能力带 + 稀缺系数”而不是“新增头衔”？
 
 **仍需验证的问题**
 - 百度套改映射表、薪酬带宽与晋升/绩效口径是否同步调整；对深专家是否友好。
@@ -233,22 +233,22 @@ AI 时代的组织竞争力正在从“层级与流程控制”迁移为“协�
 
 ## 5) 跨课题综合判断（四者如何互相影响）
 
-1. **扁平化 = 人才密度 × 证据系统**：层级压缩只有在复合型人才能承接端到端结果、并且证据可审计时才会带来速度提升；否则会变成“负担下沉 + 质量风险上升”。  
-2. **统一能力带会放大晋升与薪酬治理的重要性**：去序列标签化降低流动摩擦，但会把“可比性争议”集中到校准会与证据包；没有总闸门，组织信任会先崩。  
-3. **平台化协作层是四个课题的共同底座**：当外部 Agent/运行时进入 workspace，组织必须联动设计权限、审计、回滚、owner 与激励，否则扁平化与人才机制会被“工具失控”拖垮。  
-4. **专家变深是扁平化的必要补偿机制**：宽岗位/复合 owner 提升速度，但护城河能力（评测/安全/推理/数据治理）必须更深、更稀缺；否则扁平化只会扩大技术债与风险暴露。  
+1. **扁平化 = 人才密度 × 证据系统**：层级压缩只有在复合型人才能承接端到端结果、并且证据可审计时才会带来速度提升；否则会变成“负担下沉 + 质量风险上升”。
+2. **统一能力带会放大晋升与薪酬治理的重要性**：去序列标签化降低流动摩擦，但会把“可比性争议”集中到校准会与证据包；没有总闸门，组织信任会先崩。
+3. **平台化协作层是四个课题的共同底座**：当外部 Agent/运行时进入 workspace，组织必须联动设计权限、审计、回滚、owner 与激励，否则扁平化与人才机制会被“工具失控”拖垮。
+4. **专家变深是扁平化的必要补偿机制**：宽岗位/复合 owner 提升速度，但护城河能力（评测/安全/推理/数据治理）必须更深、更稀缺；否则扁平化只会扩大技术债与风险暴露。
 
 **哪些设计必须联动**
-- 扁平化试点 + 复合型人才识别/激励 + 晋升证据包（至少三者必须一起做）。  
-- 统一能力带 + 市场稀缺系数/薪酬带宽 + 校准机制（必须一起做）。  
+- 扁平化试点 + 复合型人才识别/激励 + 晋升证据包（至少三者必须一起做）。
+- 统一能力带 + 市场稀缺系数/薪酬带宽 + 校准机制（必须一起做）。
 
 **哪些可独立推进**
-- “证据流水线 v0”可以先行（不必等待组织图变更）。  
-- “任务级 where to/where not to”框架可先嵌入关键流程（不必等待职级改革）。  
+- “证据流水线 v0”可以先行（不必等待组织图变更）。
+- “任务级 where to/where not to”框架可先嵌入关键流程（不必等待职级改革）。
 
 **哪些地方如果单独推进会出问题**
-- 只压缩层级、不改 owner 与治理闸门 → 质量与合规风险暴露。  
-- 只统一能力带、不改薪酬定价与校准 → 公平争议升级。  
+- 只压缩层级、不改 owner 与治理闸门 → 质量与合规风险暴露。
+- 只统一能力带、不改薪酬定价与校准 → 公平争议升级。
 - 只推 AI 工具、不改绩效/晋升口径 → 表演式使用与低质量规模化。
 
 ---
@@ -259,71 +259,71 @@ AI 时代的组织竞争力正在从“层级与流程控制”迁移为“协�
 
 ### A. 需要立即决策
 
-1. **把 AI 转型定性为“Operating Model 重构”并设定一号位治理结构**  
-   - 背景：本周证据显示 CEO 主导、预算结构变化与组织障碍在 roles/incentives/decision rights。  
-   - 选项：A) CEO 直接 sponsor + Transformation Office（跨职能）+ 明确决策权/预算闸门（推荐）｜B) 继续由 IT/数字化牵头、HR 配合｜C) 分业务线各自为政。  
-   - 推荐：A。  
-   - 风险：A 需要 CEO 时间与冲突仲裁；B/C 的风险是“局部试点多、规模化失败”。  
+1. **把 AI 转型定性为“Operating Model 重构”并设定一号位治理结构**
+   - 背景：本周证据显示 CEO 主导、预算结构变化与组织障碍在 roles/incentives/decision rights。
+   - 选项：A) CEO 直接 sponsor + Transformation Office（跨职能）+ 明确决策权/预算闸门（推荐）｜B) 继续由 IT/数字化牵头、HR 配合｜C) 分业务线各自为政。
+   - 推荐：A。
+   - 风险：A 需要 CEO 时间与冲突仲裁；B/C 的风险是“局部试点多、规模化失败”。
    - 下一步：本周内确定 sponsor、办公室负责人、决策节奏与升级路径（董事会/经营会/人委会的接口）。
 
-2. **是否采用“新增 headcount 先过 AI 关”的规则（以及规则边界）**  
-   - 背景：周内出现多家公司把 headcount 与 AI 能否替代绑定；但用错会伤害人才管道与质量。  
-   - 选项：A) 仅对“低风险、可验证、可回滚”的任务设 AI gate（推荐）｜B) 全面 AI gate（高风险）｜C) 不设 gate，仅鼓励使用。  
-   - 推荐：A，并写清“where not to”（高风险、不可回滚、需要信任与问责的环节）。  
-   - 风险：B 诱发表演式使用、质量事故与 junior 断层。  
+2. **是否采用“新增 headcount 先过 AI 关”的规则（以及规则边界）**
+   - 背景：周内出现多家公司把 headcount 与 AI 能否替代绑定；但用错会伤害人才管道与质量。
+   - 选项：A) 仅对“低风险、可验证、可回滚”的任务设 AI gate（推荐）｜B) 全面 AI gate（高风险）｜C) 不设 gate，仅鼓励使用。
+   - 推荐：A，并写清“where not to”（高风险、不可回滚、需要信任与问责的环节）。
+   - 风险：B 诱发表演式使用、质量事故与 junior 断层。
    - 下一步：把 capability-judgment 矩阵与任务分级嵌入编制审批流程（2 周内出 v0）。
 
 ### B. 需要授权试点
 
-3. **授权一个“协调压缩”试点（6-8 周）**  
-   - 背景：扁平化本质是协调成本压缩；试点比组织图大改更可控。  
-   - 选项：A) 选 1-2 条端到端流程试点（推荐）｜B) 先在单部门试点工具｜C) 直接改组织结构与层级。  
-   - 推荐：A。  
-   - 风险：若不设治理闸门与回滚，会出现流程失控与责任扯皮。  
+3. **授权一个“协调压缩”试点（6-8 周）**
+   - 背景：扁平化本质是协调成本压缩；试点比组织图大改更可控。
+   - 选项：A) 选 1-2 条端到端流程试点（推荐）｜B) 先在单部门试点工具｜C) 直接改组织结构与层级。
+   - 推荐：A。
+   - 风险：若不设治理闸门与回滚，会出现流程失控与责任扯皮。
    - 下一步：明确 owner、指标、权限、审计与回滚；列出“被系统/Agent 接管的协调任务清单”。
 
-4. **授权一个“复合型人才证据包 + 激励”试点（8-12 周）**  
-   - 背景：复合型人才是扁平化的承载者，但必须可识别、可定价、可保留。  
-   - 选项：A) 证据包 + spot/project bonus + RSU refresh/market premium（推荐）｜B) 只做技能徽章｜C) 只靠晋升。  
-   - 推荐：A。  
-   - 风险：只靠徽章会刷证，只靠晋升会挤爆预算与公平。  
+4. **授权一个“复合型人才证据包 + 激励”试点（8-12 周）**
+   - 背景：复合型人才是扁平化的承载者，但必须可识别、可定价、可保留。
+   - 选项：A) 证据包 + spot/项目奖金（project bonus） + RSU refresh/市场溢价（market premium）（推荐）｜B) 只做技能徽章｜C) 只靠晋升。
+   - 推荐：A。
+   - 风险：只靠徽章会刷证，只靠晋升会挤爆预算与公平。
    - 下一步：定义证据包字段、审计规则、奖金/溢价闸门与校准会议接口。
 
 ### C. 需要继续观察
 
-5. **国内“统一能力带”是否会成为大厂扩散趋势**  
-   - 背景：百度为强样本，但细则未完全公开。  
+5. **国内“统一能力带”是否会成为大厂扩散趋势**
+   - 背景：百度为强样本，但细则未完全公开。
    - 下一步：跟踪 HR FAQ/细则与外溢效应（阿里/腾讯/字节/华为等）；同时评估我们现有职级体系的割裂程度与改革成本。
 
 ---
 
 ## 7) 建议试点方案（1-3个可执行）
 
-### 试点 1：AI-native 小队（player-coach + owner）“协调压缩”试点（推荐优先启动）
+### 试点 1：AI 原生（AI-native） 小队（player-coach + owner）“协调压缩”试点（推荐优先启动）
 
-- 目标：在不牺牲质量与合规的前提下，把端到端交付周期压缩 20%-30%，并把协调工作从“人肉路由”迁移为“系统/Agent + 可审计责任”。  
-- 范围：选 1 条端到端旅程（例如“需求→交付→回款”或“客户支持→产品迭代”）；团队 3-5 人 + 关键 Agent/自动化；不做全组织推广。  
-- 周期：6-8 周。  
-- Owner：业务一号位指派的结果 owner（DRI），OD/IT/法务共建治理闸门。  
-- 成功指标：周期/返工率/质量事故率/客户满意度/复用资产数量（workflow/agent/eval）/审计通过率。  
+- 目标：在不牺牲质量与合规的前提下，把端到端交付周期压缩 20%-30%，并把协调工作从“人肉路由”迁移为“系统/Agent + 可审计责任”。
+- 范围：选 1 条端到端旅程（例如“需求→交付→回款”或“客户支持→产品迭代”）；团队 3-5 人 + 关键 Agent/自动化；不做全组织推广。
+- 周期：6-8 周。
+- Owner：业务一号位指派的结果 owner（DRI），OD/IT/法务共建治理闸门。
+- 成功指标：周期/返工率/质量事故率/客户满意度/复用资产数量（workflow/agent/eval）/审计通过率。
 - 风险控制：权限分级、变更审计、回滚机制、where not to 清单、事故复盘机制。
 
 ### 试点 2：复合型人才识别与激励（“证据包 + 稀缺系数”）试点
 
-- 目标：在 8-12 周内识别并锁定一批“端到端 owner + Agent 编排 + 质量审查”的复合型人才，形成可复用的识别/定价机制。  
-- 范围：覆盖 2-3 个关键岗位族群（产品/增长/交付/数据等），不引入新序列。  
-- 周期：8-12 周。  
-- Owner：CHRO/业务一号位共同 owner。  
-- 成功指标：关键岗位交付效率、复用资产沉淀、关键人留存、跨团队复制速度、奖金/溢价命中率与公平反馈。  
+- 目标：在 8-12 周内识别并锁定一批“端到端 owner + Agent 编排 + 质量审查”的复合型人才，形成可复用的识别/定价机制。
+- 范围：覆盖 2-3 个关键岗位族群（产品/增长/交付/数据等），不引入新序列。
+- 周期：8-12 周。
+- Owner：CHRO/业务一号位共同 owner。
+- 成功指标：关键岗位交付效率、复用资产沉淀、关键人留存、跨团队复制速度、奖金/溢价命中率与公平反馈。
 - 风险控制：证据包审计（防刷）、校准会机制、预算闸门、junior 保护条款（不因试点停招/挤出培养）。
 
 ### 试点 3：项目制晋升“证据流水线 v0”（不改晋升窗口，先改证据口径）
 
-- 目标：把晋升争议从“主观印象/序列标签”迁移到“可审计证据”，提高校准效率与透明度。  
-- 范围：选 1-2 个部门，统一证据包模板（含 AI 协作贡献分档、质量审查、风险控制）。  
-- 周期：6-10 周。  
-- Owner：HRBP + 业务负责人 + 人才委员会代表。  
-- 成功指标：校准会耗时下降、晋升争议下降、证据完整度、绩效与晋升一致性提升、预算纪律不破。  
+- 目标：把晋升争议从“主观印象/序列标签”迁移到“可审计证据”，提高校准效率与透明度。
+- 范围：选 1-2 个部门，统一证据包模板（含 AI 协作贡献分档、质量审查、风险控制）。
+- 周期：6-10 周。
+- Owner：HRBP + 业务负责人 + 人才委员会代表。
+- 成功指标：校准会耗时下降、晋升争议下降、证据完整度、绩效与晋升一致性提升、预算纪律不破。
 - 风险控制：例外晋升审批链、审计抽检、员工申诉机制。
 
 ---
@@ -334,58 +334,58 @@ AI 时代的组织竞争力正在从“层级与流程控制”迁移为“协�
 
 ### 海外｜AI原生/强 AI 驱动组织动作
 
-1. **Coinbase（2026-05-05）— 取消纯管理者 + 扁平化 + one-person teams（官方一手）**  
-   - 动作：最多 5 层、15+ 直报、取消 pure managers、manager→player-coach、试验 AI-native pods 与 one-person teams。  
-   - 机制推断（需持续验证）：用 AI 把协调与交接工作压缩后，管理工作转向结果 owner 与教练/标准。  
-   - 争议/阻碍：质量与人才发展、隐性层级回潮、junior 培养如何承接。  
+1. **Coinbase（2026-05-05）— 取消纯管理者 + 扁平化 + 一人团队（one-person teams）（官方一手）**
+   - 动作：最多 5 层、15+ 直报、取消 纯管理者（pure managers）、manager→实战型教练管理者（player-coach）、试验 AI 原生（AI-native） pods 与 一人团队（one-person teams）。
+   - 机制推断（需持续验证）：用 AI 把协调与交接工作压缩后，管理工作转向结果 owner 与教练/标准。
+   - 争议/阻碍：质量与人才发展、隐性层级回潮、junior 培养如何承接。
 
-2. **Block（2026-03-31）— hierarchy → intelligence（官方一手）**  
-   - 动作：角色收敛 IC/DRI/player-coach，明确不需要永久中层管理层。  
-   - 可借鉴点：把 hierarchy 视作信息路由协议，为“中层为何被替代”提供第一性解释。  
+2. **Block（2026-03-31）— hierarchy → intelligence（官方一手）**
+   - 动作：角色收敛 IC/DRI/实战型教练管理者（player-coach），明确不需要永久中层管理层。
+   - 可借鉴点：把 hierarchy 视作信息路由协议，为“中层为何被替代”提供第一性解释。
 
 ### 海外｜平台化协作层/工作方式基础设施
 
-3. **Notion Developer Platform（2026-05-13）— Workers + External Agents API（官方一手）**  
-   - 动作：把运行时、外部 agent、数据同步引入 workspace；披露 100 万+ Custom Agents。  
-   - 可借鉴点：组织可以把“证据与审计”内建到 workspace，而不是散落在各工具里。  
-   - 风险：Agent sprawl、权限与责任不清、审计与回滚缺失。  
+3. **Notion Developer Platform（2026-05-13）— Workers + External Agents API（官方一手）**
+   - 动作：把运行时、外部 agent、数据同步引入 workspace；披露 100 万+ Custom Agents。
+   - 可借鉴点：组织可以把“证据与审计”内建到 workspace，而不是散落在各工具里。
+   - 风险：Agent sprawl、权限与责任不清、审计与回滚缺失。
 
-4. **Intercom → Fin（2026-05-12）— 公司身份重写（官方一手/媒体）**  
-   - 动作：用 AI Agent 能力名称重命名公司。  
-   - 提示：身份叙事必须与组织结构/激励同步，否则会出现“叙事超前”。  
+4. **Intercom → Fin（2026-05-12）— 公司身份重写（官方一手/媒体）**
+   - 动作：用 AI Agent 能力名称重命名公司。
+   - 提示：身份叙事必须与组织结构/激励同步，否则会出现“叙事超前”。
 
 ### 国内｜大厂制度信号
 
-5. **百度（2026-05-01 生效）— 统一数字职级带 + 打通通道（权威媒体还原）**  
-   - 动作：取消多序列标签，统一 5-12；任职资格强调“专业力+领导力”。  
-   - 待补：HR FAQ、薪酬带宽、晋升窗口与评审细则、对深专家的影响。  
+5. **百度（2026-05-01 生效）— 统一数字职级带 + 打通通道（权威媒体还原）**
+   - 动作：取消多序列标签，统一 5-12；任职资格强调“专业力+领导力”。
+   - 待补：HR FAQ、薪酬带宽、晋升窗口与评审细则、对深专家的影响。
 
 ### 传统企业/重组信号（阶段性只作“正在发生”的信号）
 
-6. **Amazon Ring/Blink — Builder 统一头衔（权威媒体）**  
-   - 动作：title 收敛为 builder/builder leads，强调薪酬与晋升路径不变。  
-   - 启示：title 简化不等于治理简化，反而需要更清晰的内部底盘。  
+6. **Amazon Ring/Blink — Builder 统一头衔（权威媒体）**
+   - 动作：title 收敛为 builder/builder leads，强调薪酬与晋升路径不变。
+   - 启示：title 简化不等于治理简化，反而需要更清晰的内部底盘。
 
-7. **C3.ai — “flattened the sales organization”（权威媒体）**  
-   - 动作：公开表述出现“flattened”。  
-   - 待补：减少了哪些层级/角色、效果指标与副作用。  
+7. **C3.ai — “flattened the sales organization”（权威媒体）**
+   - 动作：公开表述出现“flattened”。
+   - 待补：减少了哪些层级/角色、效果指标与副作用。
 
 ---
 
 ## 9) 本周 Context（暂不形成结论，但提示关注）
 
-1. **“混编小队/中间层压缩/headcount 先过 AI 关”**：目前是媒体条目级信号，需拿到原文机制、试点顺序、指标与副作用。  
-2. **“AI 能力纳入考核/末位淘汰”的极端样本**：可作为风险警示，但不足以写成行业趋势；需核验原文与真实执行口径。  
-3. **多供应商并存带来的治理挑战**：企业付费结构变化快，组织能力不应沉淀在“某个工具熟练度”，而应沉淀在流程、数据、证据与审计上。  
+1. **“混编小队/中间层压缩/headcount 先过 AI 关”**：目前是媒体条目级信号，需拿到原文机制、试点顺序、指标与副作用。
+2. **“AI 能力纳入考核/末位淘汰”的极端样本**：可作为风险警示，但不足以写成行业趋势；需核验原文与真实执行口径。
+3. **多供应商并存带来的治理挑战**：企业付费结构变化快，组织能力不应沉淀在“某个工具熟练度”，而应沉淀在流程、数据、证据与审计上。
 
 ---
 
 ## 10) 准确性校验与修正（本周对旧判断的修正）
 
-1. **修正：把“扁平化=裁中层”改为“扁平化=协调压缩的结果”。**新增 coordination compression 框架后，原表述需要更机制化、更可操作。  
-2. **修正：把“随时晋升”从主机制降级为高风险口号，改为“双轨制/总闸门”。**以 GitLab 等公开制度为锚，周内表达更克制。  
-3. **纠偏：国内媒体二手转述不写成机制结论。**对“混编小队/AI gate/headcount”等条目，统一降级为弱信号并列入待验证。  
-4. **约束：百度改革仍缺关键细则，不将其写成“已证明有效”的结论。**仅确认制度动作与方向，效果与副作用待补证据。  
+1. **修正：把“扁平化=裁中层”改为“扁平化=协调压缩的结果”。**新增 coordination compression 框架后，原表述需要更机制化、更可操作。
+2. **修正：把“随时晋升”从主机制降级为高风险口号，改为“双轨制/总闸门”。**以 GitLab 等公开制度为锚，周内表达更克制。
+3. **纠偏：国内媒体二手转述不写成机制结论。**对“混编小队/AI gate/headcount”等条目，统一降级为弱信号并列入待验证。
+4. **约束：百度改革仍缺关键细则，不将其写成“已证明有效”的结论。**仅确认制度动作与方向，效果与副作用待补证据。
 
 ---
 
@@ -393,25 +393,25 @@ AI 时代的组织竞争力正在从“层级与流程控制”迁移为“协�
 
 ### 组织架构/协同（协调压缩）
 
-- **协调任务清单化**：把“同步、对齐、汇总、复述、审批、交接、排期、会议纪要”等协调任务拆成可被系统/Agent 承担的子任务，并定义替代与审计标准。  
-- **三类可问责角色**：结果 owner/DRI（对结果负责）｜player-coach（对标准、人才与节奏负责）｜治理与风控（对权限、审计、合规负责）。  
-- **治理闸门**：谁能创建/部署 Agent、谁能改流程、谁能上线到生产、谁能回滚；把责任边界写进制度。  
+- **协调任务清单化**：把“同步、对齐、汇总、复述、审批、交接、排期、会议纪要”等协调任务拆成可被系统/Agent 承担的子任务，并定义替代与审计标准。
+- **三类可问责角色**：结果 owner/DRI（对结果负责）｜player-coach（对标准、人才与节奏负责）｜治理与风控（对权限、审计、合规负责）。
+- **治理闸门**：谁能创建/部署 Agent、谁能改流程、谁能上线到生产、谁能回滚；把责任边界写进制度。
 
 ### 人才密度/识别/激励
 
-- **复合型人才证据包模板（v0）**：问题定义→Agent 编排→质量审查→业务影响→复用沉淀→风险控制→跨职能反馈。  
-- **定价机制组合**：晋升≠唯一通道；用 market premium / project bonus / RSU refresh 表达稀缺与贡献，减少“用职级解决定价”的扭曲。  
-- **Agent 管理能力训练**：以“能 debug agent”为硬门槛，把领域专业、质量与风险意识纳入管理者能力模型。  
+- **复合型人才证据包模板（v0）**：问题定义→Agent 编排→质量审查→业务影响→复用沉淀→风险控制→跨职能反馈。
+- **定价机制组合**：晋升≠唯一通道；用 市场溢价（market premium） / 项目奖金（project bonus） / RSU refresh 表达稀缺与贡献，减少“用职级解决定价”的扭曲。
+- **Agent 管理能力训练**：以“能 debug agent”为硬门槛，把领域专业、质量与风险意识纳入管理者能力模型。
 
 ### 岗位/族群/序列
 
-- **新增序列前置闸门**：三问（分工/定价/流动）+ 四问（是否长期存在/评价是否独立/是否护城河/能否用标签与溢价解决）。  
-- **统一能力带 + 技能标签 + 项目角色**：用组合架构替代“多序列割裂”，并用校准机制守住可比性。  
+- **新增序列前置闸门**：三问（分工/定价/流动）+ 四问（是否长期存在/评价是否独立/是否护城河/能否用标签与溢价解决）。
+- **统一能力带 + 技能标签 + 项目角色**：用组合架构替代“多序列割裂”，并用校准机制守住可比性。
 
 ### 晋升/绩效
 
-- **证据流水线 + 总闸门**：项目级证据高频生成；晋升窗口/校准会/预算闸门控制公平与成本；例外晋升基于证据包快速处理。  
-- **AI 贡献分档口径**：从“使用率”改为“任务适用性 + 质量审查 + 可复用资产 + 风险控制”，并明确 where not to。  
+- **证据流水线 + 总闸门**：项目级证据高频生成；晋升窗口/校准会/预算闸门控制公平与成本；例外晋升基于证据包快速处理。
+- **AI 贡献分档口径**：从“使用率”改为“任务适用性 + 质量审查 + 可复用资产 + 风险控制”，并明确 where not to。
 
 ---
 
@@ -419,40 +419,40 @@ AI 时代的组织竞争力正在从“层级与流程控制”迁移为“协�
 
 ### 立即可做
 
-- 明确 1-2 条端到端流程试点候选，指定 DRI/owner。  
-- 定义“AI gate for headcount”的边界与 where not to 清单（先在编制审批环节落地）。  
-- 启动证据包模板（v0）与抽检机制（先用于试点，不全员推行）。  
+- 明确 1-2 条端到端流程试点候选，指定 DRI/owner。
+- 定义“AI gate for headcount”的边界与 where not to 清单（先在编制审批环节落地）。
+- 启动证据包模板（v0）与抽检机制（先用于试点，不全员推行）。
 
 ### 需要试点
 
-- 协调压缩试点（6-8 周）。  
-- 复合型人才识别与激励试点（8-12 周）。  
-- 项目制晋升证据流水线试点（6-10 周）。  
+- 协调压缩试点（6-8 周）。
+- 复合型人才识别与激励试点（8-12 周）。
+- 项目制晋升证据流水线试点（6-10 周）。
 
 ### 需要高层共识
 
-- 是否采用“统一能力带 + 技能标签 + 稀缺系数”的职级/岗位架构方向。  
-- AI 治理的决策权与升级路径（董事会-CEO-CHRO/CTO 的接口）。  
+- 是否采用“统一能力带 + 技能标签 + 稀缺系数”的职级/岗位架构方向。
+- AI 治理的决策权与升级路径（董事会-CEO-CHRO/CTO 的接口）。
 
 ### 需要数据验证
 
-- 扁平化后质量/事故率、员工体验、junior 成长速度。  
-- 多工具并存下的效率/合规成本与治理收益。  
-- 稀缺系数/溢价机制对公平感与留存的影响。  
+- 扁平化后质量/事故率、员工体验、junior 成长速度。
+- 多工具并存下的效率/合规成本与治理收益。
+- 稀缺系数/溢价机制对公平感与留存的影响。
 
 ### 需要暂缓
 
-- 全组织级“随时晋升”与“全面 AI gate”类激进政策（除非已具备证据系统与治理底盘）。  
+- 全组织级“随时晋升”与“全面 AI gate”类激进政策（除非已具备证据系统与治理底盘）。
 
 ---
 
 ## 13) 风险与反例（不可照搬点）
 
-1. **把扁平化当裁员项目**：短期降成本，长期组织能力坍塌；尤其容易造成“教练与复制能力”断层。  
-2. **把 AI 用作 KPI（使用率/工具熟练度）**：会快速制造表演式使用、质量事故与信任崩塌；员工会优化指标而不是优化业务结果。  
-3. **停招/砍掉初级岗位**：伤害人才管道，几年后用更高薪回购同样能力，且管理与专家供给断档。  
-4. **统一能力带但不配套校准与定价机制**：公平争议从“跨序列”迁移到“同带内比较”，组织会更内耗。  
-5. **平台化协作层放开但无审计/回滚**：Agent sprawl 导致流程失控，出现合规与客户信任事故后代价更高。  
+1. **把扁平化当裁员项目**：短期降成本，长期组织能力坍塌；尤其容易造成“教练与复制能力”断层。
+2. **把 AI 用作 KPI（使用率/工具熟练度）**：会快速制造表演式使用、质量事故与信任崩塌；员工会优化指标而不是优化业务结果。
+3. **停招/砍掉初级岗位**：伤害人才管道，几年后用更高薪回购同样能力，且管理与专家供给断档。
+4. **统一能力带但不配套校准与定价机制**：公平争议从“跨序列”迁移到“同带内比较”，组织会更内耗。
+5. **平台化协作层放开但无审计/回滚**：Agent sprawl 导致流程失控，出现合规与客户信任事故后代价更高。
 
 ---
 
@@ -460,21 +460,21 @@ AI 时代的组织竞争力正在从“层级与流程控制”迁移为“协�
 
 ### CEO 关注项（影响决策节奏）
 
-1. **百度改革细则**：HR FAQ、薪酬带宽、晋升窗口/评审结构、绩效口径是否同步调整。  
-2. **Coinbase/Block 的落地反馈**：质量、事故率、员工体验、人才发展与隐性层级回潮。  
-3. **协调压缩的治理与风险控制最佳实践**：权限、审计、回滚、责任边界的可复用模板。  
+1. **百度改革细则**：HR FAQ、薪酬带宽、晋升窗口/评审结构、绩效口径是否同步调整。
+2. **Coinbase/Block 的落地反馈**：质量、事故率、员工体验、人才发展与隐性层级回潮。
+3. **协调压缩的治理与风险控制最佳实践**：权限、审计、回滚、责任边界的可复用模板。
 
 ### HR/OD 研究项（形成机制模板）
 
-4. **“复合型人才证据包”行业样本**：哪些公司公开过 rubrics / promotion packets / agent contribution rubrics。  
-5. **“统一能力带 + 稀缺系数/溢价”制度案例**：market premium、project bonus、RSU refresh 的制度化方式与退出机制。  
-6. **平台化协作层的企业治理建议**：Notion 等平台的权限/审计/回滚与企业合规最佳实践。  
+4. **“复合型人才证据包”行业样本**：哪些公司公开过 rubrics / promotion packets / agent contribution rubrics。
+5. **“统一能力带 + 稀缺系数/溢价”制度案例**：市场溢价（market premium）、项目奖金（project bonus）、RSU refresh 的制度化方式与退出机制。
+6. **平台化协作层的企业治理建议**：Notion 等平台的权限/审计/回滚与企业合规最佳实践。
 
 ### 业务侧访谈项（验证可落地性）
 
-7. 访谈 3-5 个“高协调成本”流程 owner：确认当前协调痛点、可替代任务、风险点与指标。  
-8. 访谈 5-8 位“复合型人才候选人”：用证据包模板回测其可审计性与组织可复制性。  
-9. 访谈一线经理：验证“player-coach + 15+ 直报”对教练与质量的真实影响边界。  
+7. 访谈 3-5 个“高协调成本”流程 owner：确认当前协调痛点、可替代任务、风险点与指标。
+8. 访谈 5-8 位“复合型人才候选人”：用证据包模板回测其可审计性与组织可复制性。
+9. 访谈一线经理：验证“实战型教练管理者（player-coach） + 15+ 直报”对教练与质量的真实影响边界。
 
 ---
 
@@ -482,25 +482,25 @@ AI 时代的组织竞争力正在从“层级与流程控制”迁移为“协�
 
 ### ⭐ 一手材料 / 官方制度
 
-- Coinbase（2026-05-05）：https://www.coinbase.com/blog/building-a-leaner-and-faster-coinbase  
-- Block（2026-03-31）：https://block.xyz/inside/from-hierarchy-to-intelligence  
-- Notion（2026-05-13）：https://www.notion.com/en-gb/blog/introducing-developer-platform  
-- Intercom/Fin（2026-05-12）：https://www.intercom.com/blog/today-intercom-becomes-fin/  
-- GitLab Promotions：https://handbook.gitlab.com/handbook/people-group/promotions-transfers/  
-- GitLab Compensation Review：https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-review-cycle/  
+- Coinbase（2026-05-05）：https://www.coinbase.com/blog/building-a-leaner-and-faster-coinbase
+- Block（2026-03-31）：https://block.xyz/inside/from-hierarchy-to-intelligence
+- Notion（2026-05-13）：https://www.notion.com/en-gb/blog/introducing-developer-platform
+- Intercom/Fin（2026-05-12）：https://www.intercom.com/blog/today-intercom-becomes-fin/
+- GitLab Promotions：https://handbook.gitlab.com/handbook/people-group/promotions-transfers/
+- GitLab Compensation Review：https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-review-cycle/
 
 ### 📰 权威二手 / 研究综述 / 咨询研究
 
-- Brookings（2025-07-01）：https://www.brookings.edu/articles/the-effects-of-ai-on-firms-and-workers/  
-- Workforce Futures（coordination compression）：https://www.workforcefutures.org/reports/coordination-compression/  
-- BCG AI Radar 2026（PDF）：https://web-assets.bcg.com/73/8e/cc44cbc14a3b81695f8a3de28ff1/ai-radar-2026-web-jan-2026-edit.pdf  
-- BCG barriers（2026-03-26）：https://www.bcg.com/publications/2026/five-barriers-ceos-must-overcome-for-ai-impact  
-- HBR（2025-11/12）：https://hbr.org/2025/11/the-gen-ai-playbook-for-organizations  
-- 界面新闻（百度职级改革，2026-04-28）：https://www.jiemian.com/article/14343645.html  
-- Reuters（Amazon Builder，转引）：https://www.investing.com/news/stock-market-news/in-two-amazon-units-builder-replaces-traditional-job-titles-4633350  
-- Reuters（C3.ai flatten sales org，转引）：https://www.investing.com/news/stock-market-news/c3ai-cuts-26-of-global-staff-under-new-ceos-restructuring-push-4526270  
-- TechCrunch（Ramp 数据）：https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/  
-- TechCrunch（Cat Wu 访谈）：https://techcrunch.com/2026/05/13/anthropics-cat-wu-says-that-in-the-future-ai-will-anticipate-your-needs-before-you-know-what-they-are/  
+- Brookings（2025-07-01）：https://www.brookings.edu/articles/the-effects-of-ai-on-firms-and-workers/
+- Workforce Futures（coordination compression）：https://www.workforcefutures.org/reports/coordination-compression/
+- BCG AI Radar 2026（PDF）：https://web-assets.bcg.com/73/8e/cc44cbc14a3b81695f8a3de28ff1/ai-radar-2026-web-jan-2026-edit.pdf
+- BCG barriers（2026-03-26）：https://www.bcg.com/publications/2026/five-barriers-ceos-must-overcome-for-ai-impact
+- HBR（2025-11/12）：https://hbr.org/2025/11/the-gen-ai-playbook-for-organizations
+- 界面新闻（百度职级改革，2026-04-28）：https://www.jiemian.com/article/14343645.html
+- Reuters（Amazon Builder，转引）：https://www.investing.com/news/stock-market-news/in-two-amazon-units-builder-replaces-traditional-job-titles-4633350
+- Reuters（C3.ai flatten sales org，转引）：https://www.investing.com/news/stock-market-news/c3ai-cuts-26-of-global-staff-under-new-ceos-restructuring-push-4526270
+- TechCrunch（Ramp 数据）：https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/
+- TechCrunch（Cat Wu 访谈）：https://techcrunch.com/2026/05/13/anthropics-cat-wu-says-that-in-the-future-ai-will-anticipate-your-needs-before-you-know-what-they-are/
 
 ### 📊 招聘/薪酬与市场信号
 
@@ -508,22 +508,22 @@ AI 时代的组织竞争力正在从“层级与流程控制”迁移为“协�
 
 ### 💬 弱信号（仅作 Context，不写入结论）
 
-- `digest.md`（2026-05-14）条目：混编小队/中间层压缩/headcount AI gate（需原文与机制还原）  
-- 媒体对部分内部信的转述（需核验原文与执行口径）  
+- `digest.md`（2026-05-14）条目：混编小队/中间层压缩/headcount AI gate（需原文与机制还原）
+- 媒体对部分内部信的转述（需核验原文与执行口径）
 
 ### 内部信息库 / 知识库（用于交叉校验与方法论锚定）
 
-- `specials/ai-org-talent-mechanism/2026-05-13/00-overview.md`  
-- `specials/ai-org-talent-mechanism/2026-05-13/01-flat-organization.md`  
-- `specials/ai-org-talent-mechanism/2026-05-13/02-talent-density.md`  
-- `specials/ai-org-talent-mechanism/2026-05-13/03-job-family-career-architecture.md`  
-- `specials/ai-org-talent-mechanism/2026-05-13/04-promotion-system.md`  
-- `specials/ai-org-talent-mechanism/2026-05-14/00-overview.md`  
-- `specials/ai-org-talent-mechanism/2026-05-14/01-flat-organization.md`  
-- `specials/ai-org-talent-mechanism/2026-05-14/02-talent-density.md`  
-- `specials/ai-org-talent-mechanism/2026-05-14/03-job-family-career-architecture.md`  
-- `specials/ai-org-talent-mechanism/2026-05-14/04-promotion-system.md`  
-- `digest.md`、`daily/2026-05-13.md`、`daily/2026-05-14.md`、`daily-report/2026-05-13.md`、`daily-report/2026-05-14.md`  
-- `knowledge/concepts/ai-first-operating-model.md`、`knowledge/concepts/capability-judgment-matrix.md`  
+- `specials/ai-org-talent-mechanism/2026-05-13/00-overview.md`
+- `specials/ai-org-talent-mechanism/2026-05-13/01-flat-organization.md`
+- `specials/ai-org-talent-mechanism/2026-05-13/02-talent-density.md`
+- `specials/ai-org-talent-mechanism/2026-05-13/03-job-family-career-architecture.md`
+- `specials/ai-org-talent-mechanism/2026-05-13/04-promotion-system.md`
+- `specials/ai-org-talent-mechanism/2026-05-14/00-overview.md`
+- `specials/ai-org-talent-mechanism/2026-05-14/01-flat-organization.md`
+- `specials/ai-org-talent-mechanism/2026-05-14/02-talent-density.md`
+- `specials/ai-org-talent-mechanism/2026-05-14/03-job-family-career-architecture.md`
+- `specials/ai-org-talent-mechanism/2026-05-14/04-promotion-system.md`
+- `digest.md`、`daily/2026-05-13.md`、`daily/2026-05-14.md`、`daily-report/2026-05-13.md`、`daily-report/2026-05-14.md`
+- `knowledge/concepts/ai-first-operating-model.md`、`knowledge/concepts/capability-judgment-matrix.md`
 - `AI时代的职级变革-全球大公司组织架构调整追踪.md`（职级/序列基线档案）
 

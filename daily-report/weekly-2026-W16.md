@@ -42,7 +42,7 @@
 
 ### 🔗 本周深度阅读
 1. [Stanford HAI · 2026 AI Index](https://hai.stanford.edu/research) — 全球AI普及速度超历史记录，53%人口定期使用，专家vs公众就业乐观度鸿沟50个百分点
-2. [MIT Tech Review × Deloitte · Agent AI治理断层](https://www.technologyreview.com/2026/04/21/1136158/building-agent-first-governance-and-security/) — 74%部署vs21%治理，当前最大组织风险断层
+2. [MIT Tech Review × Deloitte · Agent AI治理断层](https://www.technologyreview.com/2026/04/21/1136158/building-agent-first-governance-and-安全治理/) — 74%部署vs21%治理，当前最大组织风险断层
 3. [GitHub Blog · Copilot暂停新用户](https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans/) — AI编程工具算力成本危机，加速进入"算力消耗型基础设施"阶段
 
 ---

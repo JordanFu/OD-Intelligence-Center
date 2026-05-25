@@ -1,6 +1,6 @@
 # 2026-05-18｜专题四：未来组织的晋升机制（Promotion System）
 
-> 固定结构：一句话判断 → 新增事实 → 核心判断 → 案例事实还原 → Context → 证据地图 → 行动启发 → 待验证 → 来源索引。  
+> 固定结构：一句话判断 → 新增事实 → 核心判断 → 案例事实还原 → Context → 证据地图 → 行动启发 → 待验证 → 来源索引。
 > 口径：晋升是组织治理机制，不是个人激励工具；AI 时代需要把“AI 贡献”纳入证据层，但不能把“工具使用”当做晋升口径本身。
 
 ## 1. 今日一句话专题判断
@@ -12,25 +12,25 @@ AI 贡献必须进入晋升证据包（evidence packet），但**正式晋升仍
 - The Guardian 报道：Accenture 被称将员工使用 AI 工具与晋升关联，作为推动 AI 采用的管理动作之一。https://www.theguardian.com/accenture/2026/feb/19/accenture-links-staff-promotions-to-use-of-ai-tools
 - The Register 报道：Accenture 向高级员工发出 memo（媒体援引），称晋升到高层角色需要“regular adoption”内部 AI 工具，并会追踪使用情况。https://www.theregister.com/software/2026/02/20/accenture-tells-staffers-if-you-want-a-promotion-use-ai/4311545
 - Microsoft 2026 Work Trend Index（WIT）页面披露：前沿团队更可能把 agent workflows、human handoffs 与质量标准文档化并可重复化（可转化为晋升证据维度：流程重构与质量治理）。https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization
-- EY《Future of Pay 2026》报告（PDF）提出：技能溢价与 pay bands 需更频繁校准，并建议 eligibility criteria、sunset clauses 与 audit 机制管理公平与风险（与晋升‑调薪联动治理高度相关）。https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf
-- Payscale 2026 Compensation Best Practices Report（新闻稿）指出：仅 14% 雇主为 AI‑savvy workers 提供更高 base pay（提示“晋升/调薪”不应成为唯一承接工具）。https://www.globenewswire.com/news-release/2026/02/24/3243682/0/en/Payscale-s-2026-Compensation-Best-Practices-Report-Reveals-Shifting-Pay-Strategies-Amid-AI-and-Labor-Market-Volatility.html
+- EY《Future of Pay 2026》报告（PDF）提出：技能溢价与 薪酬带宽（pay bands） 需更频繁校准，并建议 eligibility criteria、退出条款（sunset clauses） 与 audit 机制管理公平与风险（与晋升‑调薪联动治理高度相关）。https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf
+- Payscale 2026 Compensation Best Practices Report（新闻稿）指出：仅 14% 雇主为 AI‑savvy workers 提供更高 基本薪酬（base pay）（提示“晋升/调薪”不应成为唯一承接工具）。https://www.globenewswire.com/news-release/2026/02/24/3243682/0/en/Payscale-s-2026-Compensation-Best-Practices-Report-Reveals-Shifting-Pay-Strategies-Amid-AI-and-Labor-Market-Volatility.html
 
 ## 3. 今日核心判断：3–5条（每条注明可信度、证据基础、为什么重要）
 
-1. **“随时晋升”不会替代窗口制晋升；真正会变化的是证据层（可信度：高）。**  
-   - 证据基础：Accenture 的动作（把 AI 工具采用纳入晋升输入）说明企业会把新能力写入“人才讨论输入”，但并未表明取消窗口/校准/预算流程。https://www.theguardian.com/accenture/2026/feb/19/accenture-links-staff-promotions-to-use-of-ai-tools  
+1. **“随时晋升”不会替代窗口制晋升；真正会变化的是证据层（可信度：高）。**
+   - 证据基础：Accenture 的动作（把 AI 工具采用纳入晋升输入）说明企业会把新能力写入“人才讨论输入”，但并未表明取消窗口/校准/预算流程。https://www.theguardian.com/accenture/2026/feb/19/accenture-links-staff-promotions-to-use-of-ai-tools
    - 为什么重要：组织需要可控的预算与公平治理；“随时晋升”若缺少校准，会造成薪酬/预算失控与信任损伤。
 
-2. **AI 贡献应进入晋升证据包，但证据不能是“使用次数/登录次数”，而是“可审计影响力”（可信度：中高）。**  
-   - 证据基础：Microsoft WIT 把“流程/交接/质量标准的文档化与可重复化”作为前沿组织特征；这更接近可审计的贡献，而不是简单采用指标。https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization  
+2. **AI 贡献应进入晋升证据包，但证据不能是“使用次数/登录次数”，而是“可审计影响力”（可信度：中高）。**
+   - 证据基础：Microsoft WIT 把“流程/交接/质量标准的文档化与可重复化”作为前沿组织特征；这更接近可审计的贡献，而不是简单采用指标。https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization
    - 为什么重要：采用指标会诱导表演式使用；影响力证据更能约束行为并提升组织能力。
 
-3. **晋升与薪酬的治理必须把“技能溢价”制度化，否则会把所有诉求挤压到晋升窗口（可信度：高）。**  
-   - 证据基础：EY 提出技能溢价应频繁校准、设置 sunset 与审计；Payscale 提示现实中溢价实践不普遍。https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf ｜ https://www.globenewswire.com/news-release/2026/02/24/3243682/0/en/Payscale-s-2026-Compensation-Best-Practices-Report-Reveals-Shifting-Pay-Strategies-Amid-AI-and-labor-market-volatility.html  
+3. **晋升与薪酬的治理必须把“技能溢价”制度化，否则会把所有诉求挤压到晋升窗口（可信度：高）。**
+   - 证据基础：EY 提出技能溢价应频繁校准、设置 sunset 与审计；Payscale 提示现实中溢价实践不普遍。https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf ｜ https://www.globenewswire.com/news-release/2026/02/24/3243682/0/en/Payscale-s-2026-Compensation-Best-Practices-Report-Reveals-Shifting-Pay-Strategies-Amid-AI-and-labor-market-volatility.html
    - 为什么重要：如果没有“高频认可/高频激励/技能溢价”的分流机制，晋升会被迫承担太多功能，导致内卷与不公平感上升。
 
-4. **晋升评审将更依赖“贡献证据包”的标准化，而不是口头叙事（可信度：中）。**  
-   - 证据基础：Accenture 的 memo 被报道为“把工具使用作为人才讨论输入”；这类趋势会推动组织把证据形式化（表单化/可审计化）。https://www.theregister.com/software/2026/02/20/accenture-tells-staffers-if-you-want-a-promotion-use-ai/4311545  
+4. **晋升评审将更依赖“贡献证据包”的标准化，而不是口头叙事（可信度：中）。**
+   - 证据基础：Accenture 的 memo 被报道为“把工具使用作为人才讨论输入”；这类趋势会推动组织把证据形式化（表单化/可审计化）。https://www.theregister.com/software/2026/02/20/accenture-tells-staffers-if-you-want-a-promotion-use-ai/4311545
    - 为什么重要：标准化证据包能降低偏差与返工成本，也更适配跨团队校准。
 
 ## 4. 重点案例事实还原：Accenture 将 AI 工具采用纳入晋升输入
@@ -50,7 +50,7 @@ AI 贡献必须进入晋升证据包（evidence packet），但**正式晋升仍
 
 ### 机制（组织设计视角）
 
-- **把“新能力”从培训指标推进到“晋升输入”**：从“会不会”升级为“必须会”，用晋升杠杆推动行为改变。  
+- **把“新能力”从培训指标推进到“晋升输入”**：从“会不会”升级为“必须会”，用晋升杠杆推动行为改变。
 - **可度量但高风险**：采用指标（登录/使用）可快速落地，但易诱导表演；因此组织需要把它从“指标”升级为“证据包的一部分”，并配套质量/影响力口径（见下一节行动启发）。
 
 ### 结果（公开信息）
@@ -63,16 +63,16 @@ AI 贡献必须进入晋升证据包（evidence packet），但**正式晋升仍
 
 ### 可借鉴点
 
-- 把 AI 能力写入晋升输入是强治理动作，但必须同步：  
-  1) 明确“AI 贡献”的证据结构（而非采用次数）；  
-  2) 明确豁免/边界（合规与岗位差异）；  
+- 把 AI 能力写入晋升输入是强治理动作，但必须同步：
+  1) 明确“AI 贡献”的证据结构（而非采用次数）；
+  2) 明确豁免/边界（合规与岗位差异）；
   3) 把高频贡献分流到高频激励，避免晋升内卷化。
 
 ### 不可照搬点
 
 - 直接把“工具使用”当晋升门槛，会在工具尚不成熟或岗位差异较大时产生逆激励；更适合做成“证据包的一部分”，并在试点后再扩大适用范围。
 
-## 5. Context 层：暂不形成结论，但提示我们关注……
+## 5. 背景材料（Context）：暂不形成结论，但提示我们关注……
 
 - 晋升规则创新的关键不是“窗口 vs 随时”，而是“证据包标准”与“校准治理能力”。Microsoft WIT 的组织级可重复机制与 EY 的治理建议，都指向“把不可见贡献变成可审计证据”。https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization ｜ https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf
 - 中国公司近期更明确的一手动作集中在“职级标签统一/通道打通”（如百度），但“晋升证据包是否变化”仍缺明确制度文本，需要继续补齐。https://www.jiemian.com/article/14343645.html
@@ -82,30 +82,30 @@ AI 贡献必须进入晋升证据包（evidence packet），但**正式晋升仍
 - 官方/一手：Microsoft WIT；EY Future of Pay（PDF）；Payscale 报告（新闻稿/正文）。https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization ｜ https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf ｜ https://www.globenewswire.com/news-release/2026/02/24/3243682/0/en/Payscale-s-2026-Compensation-Best-Practices-Report-Reveals-Shifting-Pay-Strategies-Amid-AI-and-Labor-Market-Volatility.html
 - 权威媒体/咨询：The Guardian（Accenture 案例）；The Register（memo 细节）。https://www.theguardian.com/accenture/2026/feb/19/accenture-links-staff-promotions-to-use-of-ai-tools ｜ https://www.theregister.com/software/2026/02/20/accenture-tells-staffers-if-you-want-a-promotion-use-ai/4311545
 - 公司案例：Accenture（本案例）；（关联）百度职级改革（晋升/通道层面待验证）。https://www.jiemian.com/article/14343645.html
-- 学术/研究：待补（“AI 贡献度评估”与偏差控制）。  
-- 招聘薪酬：与“晋升‑调薪”联动高度相关，放在专题二跟踪（技能溢价与治理）。  
-- 社媒/职场线索：用于捕捉员工感受与执行阻力，不入结论层。  
+- 学术/研究：待补（“AI 贡献度评估”与偏差控制）。
+- 招聘薪酬：与“晋升‑调薪”联动高度相关，放在专题二跟踪（技能溢价与治理）。
+- 社媒/职场线索：用于捕捉员工感受与执行阻力，不入结论层。
 - 内部库：digest.md ｜ knowledge/wiki/benchmark-ai-org-design-update-2026-05-08.md
 
 ## 7. 对我们行动的启发（可落地的晋升机制设计）
 
-- **设计一个“AI contribution evidence packet（AI 贡献证据包）”**，建议至少包含五类证据：  
-  1) 业务结果（可归因指标）；  
-  2) workflow redesign（handoff 减少、周期缩短、质量提升的可审计证据）；  
-  3) 复用资产（模板/工具/数据字典/评审清单与采用数据）；  
-  4) 风险治理（护栏、审计、事故减少/回滚机制）；  
-  5) 团队能力提升（培训/辅导、规范沉淀）。  
-- **把高频贡献分流到高频激励**：项目奖金、acting role、技能津贴/溢价（带 sunset）、LTI refresh；把晋升留给“影响范围扩大 + 责任升级”。  
+- **设计一个“AI contribution 证据包（evidence packet）（AI 贡献证据包）”**，建议至少包含五类证据：
+  1) 业务结果（可归因指标）；
+  2) 工作流重设计（workflow redesign）（handoff 减少、周期缩短、质量提升的可审计证据）；
+  3) 复用资产（模板/工具/数据字典/评审清单与采用数据）；
+  4) 风险治理（护栏、审计、事故减少/回滚机制）；
+  5) 团队能力提升（培训/辅导、规范沉淀）。
+- **把高频贡献分流到高频激励**：项目奖金、acting role、技能津贴/溢价（带 sunset）、长期激励（LTI） refresh；把晋升留给“影响范围扩大 + 责任升级”。
 - **保留窗口 + 强校准**：窗口不只是流程惯性，而是预算与公平治理工具；真正要升级的是证据标准与校准效率。
 
 ## 8. 待验证清单与下一步搜索路径
 
-1. Accenture 政策的具体口径：适用人群、指标定义、豁免边界、以及对晋升结果/流失率的影响。  
+1. Accenture 政策的具体口径：适用人群、指标定义、豁免边界、以及对晋升结果/流失率的影响。
    - Query：`Accenture AI tools promotion criteria memo regular adoption exemption`
-2. 国内公司晋升表单是否引入“AI‑workflow impact/复用资产/治理”字段（而非“使用次数”）。  
+2. 国内公司晋升表单是否引入“AI‑工作流影响力（workflow impact）/复用资产/治理”字段（而非“使用次数”）。
    - Query：`晋升 证据包 AI 贡献 字段 表单 2026`，`大厂 晋升 AI 贡献度 评估`
-3. “技能徽章/能力认证”是否被用于晋升资格或薪酬带宽（中国与海外）。  
-   - Query：`skills badge promotion eligibility pay band 2026`
+3. “技能徽章/能力认证”是否被用于晋升资格或薪酬带宽（中国与海外）。
+   - Query：`skills badge promotion eligibility 薪酬带宽（pay band） 2026`
 
 ## 9. 来源索引
 

@@ -1,6 +1,6 @@
 # 2026-05-22｜AI时代组织与人才机制四专题总览摘要
 
-> 固定结构：总判断 → 关键发现 → 交叉关系 → 判断变化 → 冲突反例 → 行动启发 → 明日追踪。  
+> 固定结构：总判断 → 关键发现 → 交叉关系 → 判断变化 → 冲突反例 → 行动启发 → 明日追踪。
 > 口径：总览负责跨专题归纳与冲突校准；不重复堆材料；每条关键发现尽量附可追溯来源。
 
 ## 1. 今日总判断：四个专题共同指向什么
@@ -37,11 +37,11 @@
 
 ## 6. 行动启发（按战略-组织架构-岗位序列-人才密度-晋升激励-沟通落地六个维度）
 
-- **战略**：把 AI 变革定义为 operating model 重写与证据链升级，不把“减层/裁员/上工具”当终点。
+- **战略**：把 AI 变革定义为 运营模式（operating model） 重写与证据链升级，不把“减层/裁员/上工具”当终点。
 - **组织架构**：先列“协调劳动清单”（同步、审批、对齐、进度追踪、冲突处理、质量门禁），再决定哪些可流程化/agent 化，最后才谈层级与 headcount（用 GitLab/Intuit 的动作清单做对标）。https://about.gitlab.com/blog/gitlab-act-2/ ｜ https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000024/fy26q3-ex9902.htm
 - **岗位序列**：以“岗位接口”口径写清 escalation/decision rights/审计；短期稀缺优先用 skills 标签 + 薪酬工具承接，避免轻易新增序列（Oracle 的系统化趋势提示证据链会越来越硬）。https://www.oracle.com/news/announcement/oracle-introduces-fusion-agentic-applications-for-hr-2026-04-09/
-- **人才密度**：把 training 变成制度而不是口号：岗位分层 AI fluency 基线、经理沟通脚本、工作样本评估、以及“workflow redesign 项目池 + 轮转岗”。https://www.cornerstoneondemand.com/company/news-room/press-releases/mind-the-gap-new-cornerstone-ai-skills-study-reveals-half-the-workforce-is-winging-it-to-learn-ai-due-to-low-employer-readiness/
-- **晋升激励**：把晋升口径升级为“贡献证据包”，奖励 workflow redesign 与治理质量，而不是工具使用频率；保留窗口校准，叠加例外通道与审计闸门。https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends/2026/human-ai-interaction-design.html
+- **人才密度**：把 training 变成制度而不是口号：岗位分层 AI fluency 基线、经理沟通脚本、工作样本评估、以及“工作流重设计（workflow redesign） 项目池 + 轮转岗”。https://www.cornerstoneondemand.com/company/news-room/press-releases/mind-the-gap-new-cornerstone-ai-skills-study-reveals-half-the-workforce-is-winging-it-to-learn-ai-due-to-low-employer-readiness/
+- **晋升激励**：把晋升口径升级为“贡献证据包”，奖励 工作流重设计（workflow redesign） 与治理质量，而不是工具使用频率；保留窗口校准，叠加例外通道与审计闸门。https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends/2026/human-ai-interaction-design.html
 - **沟通落地**：叙事从“AI 替人/压层级”转为“AI 重写工作与责任链 + 给出训练与支持路径”，避免员工产生不信任与表演式采用（Cornerstone 信号提示风险很高）。https://www.cornerstoneondemand.com/company/news-room/press-releases/mind-the-gap-new-cornerstone-ai-skills-study-reveals-half-the-workforce-is-winging-it-to-learn-ai-due-to-low-employer-readiness/
 
 ## 7. 明日优先追踪问题
@@ -51,9 +51,9 @@
 3. **7‑Eleven Rita 的任务边界与审计机制**：自动化 95% 覆盖的具体任务是什么？如何做偏差/合规/回滚？https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends/2026/human-ai-interaction-design.html
 4. **Oracle “校准/薪酬建议系统化”落地样本**：是否有客户公开制度文本或指标证明其改善公平与效率？https://www.oracle.com/news/announcement/oracle-introduces-fusion-agentic-applications-for-hr-2026-04-09/
 
-> 今日专题入口：  
-> - [专题一：组织扁平化与中层减少](./01-flat-organization.html)  
-> - [专题二：高人才密度与复合型人才机制](./02-talent-density.html)  
-> - [专题三：岗位、族群、序列持续建设](./03-job-family-career-architecture.html)  
+> 今日专题入口：
+> - [专题一：组织扁平化与中层减少](./01-flat-organization.html)
+> - [专题二：高人才密度与复合型人才机制](./02-talent-density.html)
+> - [专题三：岗位、族群、序列持续建设](./03-job-family-career-architecture.html)
 > - [专题四：未来组织的晋升机制](./04-promotion-system.html)
 
