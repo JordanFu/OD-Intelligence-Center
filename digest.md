@@ -1,7 +1,7 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-05-22 13:55
+> 最后更新：2026-05-25 09:45
 
 ---
 
@@ -23,6 +23,63 @@
 - 💬参考：社交平台/社区讨论，需交叉验证
 
 -->
+
+## 2026-05-25
+
+### [1] Microsoft Work Trend Index 2026：AI 影响的最大决定因素不是个人能力，而是组织是否真的为 agent 重写了工作方式
+- **事件摘要**：Microsoft 于 2026 年 5 月 5 日发布 2026 Work Trend Index，基于 10 个市场、20,000 名知识工作者调研提出一个很关键的判断：AI 产出差异的最大决定因素不是个人会不会写 prompt，而是组织层因素。报告显示，组织因素（文化、经理支持、人才实践）对 AI 实际影响的解释力占 67%，是个人心态和行为（32%）的两倍以上；同时仅约五分之一员工处于“Frontier zone”，也就是个人能力与组织准备度同时在线的状态。
+- **来源**：Microsoft WorkLab（https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization）
+- **来源平台**：Microsoft
+- **来源可信度**：⭐高
+- **OD启示**：这基本把一个常见误区定死了：AI 时代的瓶颈不主要是“员工不会用”，而是组织没有把 manager support、governance、绩效口径和工作流一起改掉。对 OD 来说，这意味着未来衡量 AI 转型成熟度，不能只看培训覆盖率和工具渗透率，而要看是否真的把组织环境改造成能放大人类判断、而不是把 AI 叠加在旧流程上的 operating model。
+- **标签**：#Microsoft #WorkTrendIndex #组织准备度 #ManagerSupport #OperatingModel
+- **抓取时间**：2026-05-25 09:45
+
+### [2] WEF：AI 转型失败更多是组织设计问题，CHRO 必须成为 design architect、capability steward、adoption catalyst、transition guardian
+- **事件摘要**：世界经济论坛于 2026 年 5 月 8 日发布文章，明确提出 AI transformation is a human transformation。文中强调，最有效的 AI 转型依赖 business、CIO 与 CHRO 的三方协同，而失败更常见于组织设计选择失误而非技术限制。作者把 CHRO 在 AI 时代的职责拆成四个角色：工作设计架构师、能力建设 steward、adoption 催化者、以及 transition guardian，核心是重新定义哪些决策由人主导、哪些由 AI 支持、以及 accountability 落在谁身上。
+- **来源**：World Economic Forum（https://www.weforum.org/stories/2026/05/ai-transformation-reshaping-work-hr-leaders-must-help-redesign-it/）
+- **来源平台**：World Economic Forum
+- **来源可信度**：📰较高
+- **OD启示**：这篇材料的价值在于把 CHRO/OD 的角色从“培训与沟通支持方”抬升为“工作重设计共主导方”。如果 AI transformation office 里只有技术、产品和业务，没有稳定的 CHRO/OD 席位，组织很容易出现 decision rights 模糊、责任落空、员工不信任但数据表面繁荣的局面。它也进一步验证了一个方向：未来 OD 的核心产品会越来越像“人机协作架构”而不是传统组织发展项目。
+- **标签**：#WEF #CHRO #工作重设计 #DecisionRights #人机协作
+- **抓取时间**：2026-05-25 09:45
+
+### [3] IBM Think 2026：大企业年底平均将部署 1600+ agents，但治理重点已从“造 agent”转向“管 agent 的全生命周期”
+- **事件摘要**：IBM 于 2026 年 5 月 5 日发布 Think 2026 回顾，指出到今年年底，大多数大型企业将部署超过 1,600 个 AI agents。IBM 同时强调，构建 agent 只占 agent development lifecycle 的约 20%，更多工作其实发生在测试、部署、运营和监控环节。文中引用 2026 年 4 月 IBM IBV 研究指出，采用 orchestration-led governance 的组织平均更可能 13 倍实现 AI 规模化、获得 20% 更高 ROI、并实现 169% 更高透明度。
+- **来源**：IBM（https://www.ibm.com/think/news/think-2026-ai-recap）
+- **来源平台**：IBM
+- **来源可信度**：⭐高
+- **OD启示**：这说明 agent 时代的组织设计问题已经从“谁来试点”转向“谁来维护一个可追踪、可审计、可运营的数字劳动力系统”。一旦 agent 数量进入四位数，组织就必须为 inventory、owner、guardrails、exception handling 和审计日志建立常设机制。否则企业不是缺 agent，而是缺一个能把 agent 当作生产系统管理的 operating discipline。
+- **标签**：#IBM #Agent治理 #数字劳动力 #ControlPlane #ROI
+- **抓取时间**：2026-05-25 09:45
+
+### [4] ServiceNow：Autonomous Workforce 从 IT 扩到 HR、法务、采购、财务与风险，AI specialist 开始成为“角色作用域清晰的数字员工”
+- **事件摘要**：ServiceNow 于 2026 年 5 月 5 日在 Knowledge 2026 宣布，将 Autonomous Workforce 扩展到 IT、CRM、employee services、security and risk 等主要职能，并新增覆盖 HR、workplace、legal、finance、procurement、supplier management、health and safety 的 AI specialists。官方称这些 role-scoped specialists 基于统一平台、共享 operational intelligence、并带有 full audit trails 与 role-scoped permissions；在 ServiceNow 客户群中，这类 AI specialists 已可在无人工转派的情况下解决 91% 的案例。
+- **来源**：ServiceNow（https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-brings-Autonomous-Workforce-to-every-major-business-function/default.aspx）
+- **来源平台**：ServiceNow
+- **来源可信度**：⭐高
+- **OD启示**：ServiceNow 的信号很明确：企业不是在“给每个部门上 AI”，而是在把职能组织拆成一组组有明确定义权限边界、技能范围和审计要求的数字执行角色。对 OD/共享服务团队来说，这意味着未来 HR、法务、采购等岗位不会只围绕业务分工设计，还要围绕“哪些 case 由 role-scoped agent 处理、哪些升级给人、谁拥有最终 SLA 与例外判断”来重写服务 operating model。
+- **标签**：#ServiceNow #AutonomousWorkforce #共享服务 #RoleScopedAgent #审计治理
+- **抓取时间**：2026-05-25 09:45
+
+### [5] Workday：把 HR/Finance 自助 agent 放进 Microsoft 365 Copilot，组织真正要守住的是原有 approvals、policies 和 business rules
+- **事件摘要**：Workday 于 2026 年 5 月 13 日宣布，Sana Self-Service Agent 已接入 Microsoft 365 Copilot。员工与经理可以直接在日常办公流中处理薪酬、休假、报销等 HR/财务问题，而当请求涉及 Workday 数据或流程时，Copilot 会安全连接到 Self-Service Agent，由后者按企业既有 approvals、policies 和 business rules 完成操作后返回结果。重点不是“换一个聊天入口”，而是把 agent 的行动牢牢锚定在原有制度和流程约束内。
+- **来源**：Workday（https://newsroom.workday.com/2026-05-13-Workday-Brings-Sana-Self-Service-Agent-for-HR-and-Finance-Into-Microsoft-365-Copilot）
+- **来源平台**：Workday
+- **来源可信度**：⭐高
+- **OD启示**：这对职能型组织是个非常实用的提醒。未来很多 agent 价值不在于“更聪明”，而在于能否嵌入员工已经在用的工作界面，同时继续服从组织现有的审批链、政策边界和职责分工。对 HR operating model 而言，这意味着自助服务、共享服务与 manager self-service 的边界会进一步模糊，真正稀缺的能力将是政策建模、例外处理和跨系统流程编排。
+- **标签**：#Workday #Copilot #HRSelfService #PolicyExecution #流程编排
+- **抓取时间**：2026-05-25 09:45
+
+### [6] SAP：AI assistant 被正式映射到业务角色与 KPI，Agent Hub 开始充当企业 agent 的 system of records
+- **事件摘要**：SAP 于 2026 年 5 月 13 日在 Sapphire 期间连续发布 Autonomous Enterprise 相关材料。SAP 表示，每个 assistant 会映射到核心业务角色，并通过 SAP AI Agent Hub 跟踪定义好的 KPI；同时 SAP AI Agent Hub 已被 150 家企业使用、管理超过 100,000 个 agents，并被定位为 AI agents、LLMs 与 MCP servers 的 system of records。也就是说，agent 不再只是分散试点，而开始被纳入企业正式的角色、指标与治理台账体系。
+- **来源**：SAP（https://news.sap.com/2026/05/sap-sapphire-keynote-business-ai-platform-power-autonomous-enterprise/；https://news.sap.com/2026/05/business-transformation-management-foundation-autonomous-enterprise/）
+- **来源平台**：SAP
+- **来源可信度**：⭐高
+- **OD启示**：这可能是当前最清晰的企业软件信号之一：如果一个 agent 没有业务角色映射、没有 owner、没有 KPI、没有 system of record，它就很难进入 enterprise scale 的 operating model。对 OD/企业架构团队来说，未来治理对象不只是岗位和流程，还包括“哪些 agents 为哪些角色服务、按什么指标被评价、谁对其输出与风险负责”的新型组织资产台账。
+- **标签**：#SAP #AgentHub #SystemOfRecords #角色映射 #KPI治理
+- **抓取时间**：2026-05-25 09:45
+
 
 ## 2026-05-22
 
