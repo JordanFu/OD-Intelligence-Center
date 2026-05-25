@@ -1,7 +1,7 @@
 # 2026-05-13｜专题三：岗位、族群、序列的持续建设
 
-> 主题：AI 时代岗位是否变宽、专家岗位是否变深、序列诉求背后的激励/薪酬/市场溢价诉求  
-> 写入范围：`specials/ai-org-talent-mechanism/2026-05-13/03-job-family-career-architecture.md`  
+> 主题：AI 时代岗位是否变宽、专家岗位是否变深、序列诉求背后的激励/薪酬/市场溢价诉求
+> 写入范围：`specials/ai-org-talent-mechanism/2026-05-13/03-job-family-career-architecture.md`
 > 证据来源：公开信息联网核验 + 仓库内部知识源交叉整理
 
 ---
@@ -12,11 +12,11 @@ AI 时代的岗位族群建设不是简单“新增 AI 序列”，而是出现�
 
 ## 今日新增事实
 
-1. **Coinbase 在 2026-05-05 官方重组信中，把层级压缩、player-coach 和 one-person team 等工作方式放进同一套 operating model 变革。** 明确提到最多 5 层、15+ 直报、取消 pure managers、试验 AI-native pods 与 one-person teams，并强调组织以 talent density 自豪。[Coinbase](https://www.coinbase.com/blog/building-a-leaner-and-faster-coinbase)
+1. **Coinbase 在 2026-05-05 官方重组信中，把层级压缩、实战型教练管理者（player-coach） 和 one-person team 等工作方式放进同一套 运营模式（operating model） 变革。** 明确提到最多 5 层、15+ 直报、取消 纯管理者（pure managers）、试验 AI 原生（AI-native） pods 与 一人团队（one-person teams），并强调组织以 talent density 自豪。[Coinbase](https://www.coinbase.com/blog/building-a-leaner-and-faster-coinbase)
 
-2. **Block 在 2026-03-31 官方文章提出角色收敛为 IC / DRI / player-coach，并明确称不需要 permanent middle management layer。** 其论证将 hierarchy 视作信息路由协议，并主张用 intelligence layer / world model 取代部分信息路由功能。[Block](https://block.xyz/inside/from-hierarchy-to-intelligence)
+2. **Block 在 2026-03-31 官方文章提出角色收敛为 IC / DRI / 实战型教练管理者（player-coach），并明确称不需要 permanent middle management layer。** 其论证将 hierarchy 视作信息路由协议，并主张用 智能层（intelligence layer） / 世界模型（world model） 取代部分信息路由功能。[Block](https://block.xyz/inside/from-hierarchy-to-intelligence)
 
-3. **Amazon Ring/Blink 正在试点统一 job family：将产品相关白领头衔收敛为 “builder / builder leaders”，并强调薪酬与成长/晋升路径不变。** Reuters 报道称该调整发生在 review season，并引用内部 memo。[Reuters via Investing.com](https://www.investing.com/news/stock-market-news/in-two-amazon-units-builder-replaces-traditional-job-titles-4633350)
+3. **Amazon Ring/Blink 正在试点统一 岗位族群（job family）：将产品相关白领头衔收敛为 “builder / builder leaders”，并强调薪酬与成长/晋升路径不变。** Reuters 报道称该调整发生在 review season，并引用内部 memo。[Reuters via Investing.com](https://www.investing.com/news/stock-market-news/in-two-amazon-units-builder-replaces-traditional-job-titles-4633350)
 
 4. **AI 核心公司在公开 JD 中把专家岗位拆得更深，并对“评测/安全/推理基础设施”等能力给出明确职责与高薪带宽。** 例如 Anthropic 的 Model Evaluations、Safeguards ML Infrastructure、Inference 等岗位均在公开招聘页披露职责和薪酬区间。[Anthropic Model Evaluations](https://job-boards.greenhouse.io/anthropic/jobs/5198255008) / [Anthropic Safeguards](https://job-boards.greenhouse.io/anthropic/jobs/4778843008) / [Anthropic Inference](https://job-boards.greenhouse.io/anthropic/jobs/4951696008)
 
@@ -26,18 +26,18 @@ AI 时代的岗位族群建设不是简单“新增 AI 序列”，而是出现�
 
 ## 今日核心判断
 
-1. **岗位变宽主要发生在业务交付与管理协调层，而非所有领域。** 可信度：高。证据：Coinbase（one-person teams / player-coach）+ Block（IC/DRI/player-coach）+ Amazon Builder（title/job family 收敛但治理底盘不变）。
+1. **岗位变宽主要发生在业务交付与管理协调层，而非所有领域。** 可信度：高。证据：Coinbase（one-person teams / player-coach）+ Block（IC/DRI/player-coach）+ Amazon Builder（title/岗位族群（job family） 收敛但治理底盘不变）。
 2. **专家岗位“更深”与“更稀缺”同时成立，尤其集中在 AI 护城河能力域。** 可信度：高。证据：Anthropic JD 对 eval/safety/inference 等能力的职责拆分与薪酬带宽。
-3. **“新增序列”的表层诉求是职业路径，底层往往是定价与激励。** 可信度：中高。证据：PwC AI skill premium；仓库内职级专题中关于薪酬带宽与激励同步改革的样本（如字节信号、百度套改）。
-4. **方法论应优先解决“技能标签 + 项目角色 + 市场溢价表达”，把“新建序列”作为最后手段。** 可信度：中高。证据：Amazon Builder 试点说明 title 可简化但 pay band/level/promotion path 不可消失；Gartner 对人才管道/公平/成本的约束提示新增序列的治理成本。
+3. **“新增序列”的表层诉求是职业路径，底层往往是定价与激励。** 可信度：中高。证据：PwC AI 技能溢价（AI skill premium）；仓库内职级专题中关于薪酬带宽与激励同步改革的样本（如字节信号、百度套改）。
+4. **方法论应优先解决“技能标签 + 项目角色 + 市场溢价表达”，把“新建序列”作为最后手段。** 可信度：中高。证据：Amazon Builder 试点说明 title 可简化但 薪酬带宽（pay band）/level/promotion path 不可消失；Gartner 对人才管道/公平/成本的约束提示新增序列的治理成本。
 
 ### 判断一：岗位变宽成立，但主要发生在业务交付和管理协调层
 
-Coinbase 官方博客在 2026-05-05 明确把裁员、扁平化和 AI-native 工作方式放在同一套组织动作里：组织层级压到 CEO/COO 以下最多 5 层，领导者可能管理 15+ 直接下属，取消纯管理者，改为 player-coach，并试验“工程师、设计师、产品经理合一”的 one person team。[Coinbase](https://www.coinbase.com/blog/building-a-leaner-and-faster-coinbase)
+Coinbase 官方博客在 2026-05-05 明确把裁员、扁平化和 AI 原生（AI-native） 工作方式放在同一套组织动作里：组织层级压到 CEO/COO 以下最多 5 层，领导者可能管理 15+ 直接下属，取消纯管理者，改为 实战型教练管理者（player-coach），并试验“工程师、设计师、产品经理合一”的 one person team。[Coinbase](https://www.coinbase.com/blog/building-a-leaner-and-faster-coinbase)
 
-Block 2026-03-31 官方文章则从组织原理层面解释：AI 可以替代层级承担的信息路由功能，因此人类角色收敛为 IC、DRI、player-coach 三类。这里的“岗位变宽”不是把所有人都变成全才，而是把过去分散在产品、协调、项目管理、部分技术执行中的责任重新组合到更靠近客户结果的角色上。[Block](https://block.xyz/inside/from-hierarchy-to-intelligence)
+Block 2026-03-31 官方文章则从组织原理层面解释：AI 可以替代层级承担的信息路由功能，因此人类角色收敛为 IC、DRI、实战型教练管理者（player-coach） 三类。这里的“岗位变宽”不是把所有人都变成全才，而是把过去分散在产品、协调、项目管理、部分技术执行中的责任重新组合到更靠近客户结果的角色上。[Block](https://block.xyz/inside/from-hierarchy-to-intelligence)
 
-Amazon Ring/Blink 的 Builder 试点提供了另一个信号。Reuters 报道称，两个业务单元将白领产品相关员工统一为 builder，管理者称为 builder leader；但 Amazon 同时强调薪酬、成长和晋升路径不变。这说明外部 title 可以变宽，但内部 level、pay band、promotion path 仍然是治理底盘。[Reuters via Investing.com](https://www.investing.com/news/stock-market-news/in-two-amazon-units-builder-replaces-traditional-job-titles-4633350)
+Amazon Ring/Blink 的 Builder 试点提供了另一个信号。Reuters 报道称，两个业务单元将白领产品相关员工统一为 builder，管理者称为 builder leader；但 Amazon 同时强调薪酬、成长和晋升路径不变。这说明外部 title 可以变宽，但内部 level、薪酬带宽（pay band）、promotion path 仍然是治理底盘。[Reuters via Investing.com](https://www.investing.com/news/stock-market-news/in-two-amazon-units-builder-replaces-traditional-job-titles-4633350)
 
 **OD 启示：** 岗位变宽的适用对象，是 AI 能显著降低交接、执行和协调成本的工作。对这类工作，岗位说明书应从“任务清单”改为“端到端结果 + 决策边界 + AI/Agent 使用规范”。
 
@@ -63,8 +63,8 @@ Gartner 也把 2026 年人才管理压力指向补偿和职业发展：入门级
 
 | 证据 | 观察 | 对专题三的含义 |
 |---|---|---|
-| Coinbase 官方重组 | 5 层以内、15+ span、no pure managers、AI-native pods、one person teams | 岗位变宽、管理者 player-coach 化成立 |
-| Block 官方组织文章 | 公司 world model 替代层级信息流；角色收敛为 IC/DRI/player-coach | 岗位变宽的底层逻辑是信息协调成本下降 |
+| Coinbase 官方重组 | 5 层以内、15+ span、取消纯管理者（no pure managers）、AI 原生（AI-native） pods、one person teams | 岗位变宽、管理者 实战型教练管理者（player-coach） 化成立 |
+| Block 官方组织文章 | 公司 世界模型（world model） 替代层级信息流；角色收敛为 IC/DRI/实战型教练管理者（player-coach） | 岗位变宽的底层逻辑是信息协调成本下降 |
 | Amazon Builder 试点 | title 变宽，但薪酬/晋升路径不变 | 外部 title 可简化，内部职级薪酬治理不能消失 |
 | Anthropic JD | Evals/Safeguards/Inference 高度专业化且高薪 | 核心专家岗位变深，不能一概合并 |
 | Deloitte 2026 | 84% 企业未围绕 AI 重设计岗位；新角色包括 AI operations managers、人机交互专员、quality stewards | 角色重设计仍是大缺口，新角色需谨慎制度化 |
@@ -109,59 +109,59 @@ Gartner 也把 2026 年人才管理压力指向补偿和职业发展：入门级
 
 | 机制 | 适用场景 | 典型例子 | 不适用信号 | OD/HR 关键动作 |
 |---|---|---|---|---|
-| 新建序列 / job family | 能力域长期稳定、职责边界清晰、评价标准与现有族群不同、可形成多层级成长路径 | AI Safety、Model Evals、AI Infra、Agent Operations、数据治理 | 只是热门技能、短期项目、少数关键人保留诉求 | 定义职责边界、任职资格、层级标准、晋升委员会、与现有 band 映射 |
+| 新建序列 / 岗位族群（job family） | 能力域长期稳定、职责边界清晰、评价标准与现有族群不同、可形成多层级成长路径 | AI Safety、Model Evals、AI Infra、Agent Operations、数据治理 | 只是热门技能、短期项目、少数关键人保留诉求 | 定义职责边界、任职资格、层级标准、晋升委员会、与现有 band 映射 |
 | 技能标签 / skill tag | 技能横跨多个岗位，变化快，需要盘点、组队、学习路径和内部流动 | Prompting、Agent 编排、低代码、行业知识图谱、AI 审校 | 标签被拿来要求涨薪或替代职级 | 建技能字典、熟练度等级、认证方式、项目匹配规则 |
-| 市场稀缺系数 / market premium | 同岗位因外部市场供需产生价格差，需要在薪酬上表达 | AI Infra、推理优化、数据平台、安全工程 | 业务想借此永久抬高所有同类岗位成本 | 建稀缺系数有效期、复核频率、样本来源、退出机制 |
-| 项目激励 / milestone bonus | 短周期、高不确定、跨职能攻坚，对结果贡献需要即时激励 | Agent 上线、流程自动化节省、模型评测平台搭建 | 项目已常态化运行，贡献应纳入常规绩效 | 定义里程碑、收益口径、团队分配规则、复盘机制 |
+| 市场稀缺系数 / 市场溢价（market premium） | 同岗位因外部市场供需产生价格差，需要在薪酬上表达 | AI Infra、推理优化、数据平台、安全工程 | 业务想借此永久抬高所有同类岗位成本 | 建稀缺系数有效期、复核频率、样本来源、退出机制 |
+| 项目激励 / milestone 奖金（bonus） | 短周期、高不确定、跨职能攻坚，对结果贡献需要即时激励 | Agent 上线、流程自动化节省、模型评测平台搭建 | 项目已常态化运行，贡献应纳入常规绩效 | 定义里程碑、收益口径、团队分配规则、复盘机制 |
 | 薪酬带宽调整 / broadband | 现有族群整体市场价格上移，旧带宽压不住 offer 和保留 | AI 工程、算法平台、行业解决方案专家 | 只有个别明星员工问题 | 用市场数据重估带宽，保留内部公平校准 |
 | 专项津贴 / allowance | 稀缺技能暂时性、工作条件特殊或承担额外责任 | on-call 安全值守、模型发布窗口、关键系统保障 | 变成无期限固定工资替代品 | 设置期限、条件、复核和退出规则 |
 
 ## 重点案例事实还原
 
-### 案例：Amazon Ring/Blink “Builder” 统一 job family（头衔收敛但治理不消失）
+### 案例：Amazon Ring/Blink “Builder” 统一 岗位族群（job family）（头衔收敛但治理不消失）
 
-- **背景：** 在 review season 的制度窗口中，Amazon 在 Ring / Blink 两个业务单元试点把产品相关白领员工的传统头衔收敛为 “builder”，其上级称为 “builder leaders”。（Reuters 报道称其引用了内部 memo，并由 Amazon 确认。）  
+- **背景：** 在 review season 的制度窗口中，Amazon 在 Ring / Blink 两个业务单元试点把产品相关白领员工的传统头衔收敛为 “builder”，其上级称为 “builder leaders”。（Reuters 报道称其引用了内部 memo，并由 Amazon 确认。）
 - **时间线：**
   - 2026-04：Reuters 报道披露该试点与内部 memo；强调“不是惩罚低绩效，而是组织实验”。
   - 2026-05 起：按报道口径进入执行阶段（需继续验证实际落地范围与例外）。
-- **动作：** 统一 job family / title；用“builder”表达更端到端的职责边界；对外强调“薪酬、成长与晋升路径不变”以降低员工对公平与晋升台阶的担忧。
+- **动作：** 统一 岗位族群（job family） / title；用“builder”表达更端到端的职责边界；对外强调“薪酬、成长与晋升路径不变”以降低员工对公平与晋升台阶的担忧。
 - **机制含义：**
-  - **对外（title）** 可以变宽、变少，但 **对内（level/pay band/promotion path）** 仍是治理底盘。
+  - **对外（title）** 可以变宽、变少，但 **对内（level/薪酬带宽（pay band）/promotion path）** 仍是治理底盘。
   - 组织想要的不是“人人通才”，而是把过去分散的产品/项目/部分交付责任收敛到更靠近客户结果的角色上。
 - **已知争议与阻碍：** 员工担心“路径与台阶”被模糊导致晋升更难、外部市场识别度下降；同时统一称谓可能掩盖真实技能差异，增加绩效校准难度（需继续验证一线反馈）。
-- **可借鉴点：** title 简化可作为“打破墙”的沟通工具，但必须同时声明并证明治理底盘不变（level、pay band、晋升口径、校准机制）。
+- **可借鉴点：** title 简化可作为“打破墙”的沟通工具，但必须同时声明并证明治理底盘不变（level、薪酬带宽（pay band）、晋升口径、校准机制）。
 - **不可照搬点：** 不能只学“统一称谓”，不补齐任职资格、能力矩阵、薪酬带宽与校准机制，否则会把职业治理变成黑箱。
 
-## Context层
+## 背景材料（Context）
 
 暂不形成结论，但提示我们关注三个“正在发生但证据链仍不完整”的问题：
 
-1. **国内大厂的“通道打通/职级重命名”是否会同步重写薪酬与晋升规则。** 目前公开信息多为媒体转述，缺少全员信全文与 HR FAQ，难以判断其对 job family、任职资格与薪酬带宽的真实影响。
+1. **国内大厂的“通道打通/职级重命名”是否会同步重写薪酬与晋升规则。** 目前公开信息多为媒体转述，缺少全员信全文与 HR FAQ，难以判断其对 岗位族群（job family）、任职资格与薪酬带宽的真实影响。
 2. **岗位变宽会不会导致“评价口径漂移”。** 当角色承担端到端结果，绩效与晋升需要更强的证据包与校准，否则宽岗位容易演化为“谁更会包装 scope 谁更占便宜”。
-3. **技能标签体系能否替代部分序列诉求。** skills-based 的流动基础设施可能解决短期匹配与学习，但在薪酬定价、晋升治理、法律与合规边界上，仍可能需要 job family / level 作为底座。
+3. **技能标签体系能否替代部分序列诉求。** skills-based 的流动基础设施可能解决短期匹配与学习，但在薪酬定价、晋升治理、法律与合规边界上，仍可能需要 岗位族群（job family） / level 作为底座。
 
 ## 对我们行动的启发
 
 1. **岗位架构先做“宽窄分层”。** 将岗位分为宽岗位、深专家、治理岗位、项目角色四类，不要把所有 AI 相关工作都塞进一个“AI 序列”。
 2. **新增序列必须过四问。** 是否长期存在？是否有独立产出？是否需要独立评价标准？是否无法用技能标签和薪酬机制解决？
 3. **把技能标签做成流动基础设施。** 技能标签服务于盘点、组队、学习和内部流动，不直接等同于职级。
-4. **把市场溢价从序列里拆出来。** 对稀缺技能设 market premium 或薪酬带宽上调，比新建序列更灵活，也更容易退出。
+4. **把市场溢价从序列里拆出来。** 对稀缺技能设 市场溢价（market premium） 或薪酬带宽上调，比新建序列更灵活，也更容易退出。
 5. **保护初级岗位的人才管道功能。** Gartner 关于 entry-level decline 的提醒很关键：低复杂度任务被 AI 接管后，组织仍要设计“AI 协同学徒制”，否则未来中层和专家供给会断。
-6. **保留内部治理底盘。** Amazon Builder 试点说明，title 可以简化，但 pay band、level、promotion path 必须清楚，否则变宽会变成公平性争议。
+6. **保留内部治理底盘。** Amazon Builder 试点说明，title 可以简化，但 薪酬带宽（pay band）、level、promotion path 必须清楚，否则变宽会变成公平性争议。
 
 ## 待验证清单与下一步搜索路径
 
 1. 继续寻找百度全员信全文或 HR FAQ，确认套改规则、是否影响薪酬带宽、晋升标准和管理/专业通道映射。
 2. 继续追踪 Amazon Ring/Blink Builder 试点后，员工在简历、内部晋升、外部招聘上的实际反馈。
 3. 建立 AI 核心专家 JD 样本池，覆盖 OpenAI、Anthropic、Google DeepMind、Meta、ByteDance、腾讯、阿里云，用职责、薪酬、level 验证“专家岗位变深”。
-4. 收集 market premium、skill premium、project bonus、RSU refresh 的企业制度案例，补强“不要用新序列解决薪酬问题”的操作证据。
+4. 收集 市场溢价（market premium）、技能溢价（skill premium）、项目奖金（project bonus）、RSU refresh 的企业制度案例，补强“不要用新序列解决薪酬问题”的操作证据。
 
 下一步搜索路径（示例）：
 
-- `Amazon Ring Blink builder job family pay band promotion path`
+- `Amazon Ring Blink builder 岗位族群（job family） 薪酬带宽（pay band） promotion path`
 - `Baidu level system change HR FAQ 2026 5 1`
-- `skill-based organization job family vs skills taxonomy pay`
-- `AI skill premium market premium allowance policy case`
+- `skill-based organization 岗位族群（job family） vs skills taxonomy pay`
+- `AI 技能溢价（skill premium） 市场溢价（market premium） allowance policy case`
 
 ## 来源索引
 

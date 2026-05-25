@@ -1,33 +1,33 @@
 # 2026-05-15｜专题一：组织扁平化与中层减少（正式重跑版）
 
-> 本页不是兜底占位；用于 CEO 决策前阅读。所有判断分为结论、Context、线索三层。
+> 本页不是兜底占位；用于 CEO 决策前阅读。所有判断分为结论、背景材料（Context）、线索三层。
 
 ## 1. 今日一句话结论
 
-扁平化不是少几个层级，而是把协调劳动拆解后重新分配给 agent、系统和 player-coach。
+扁平化不是少几个层级，而是把协调劳动拆解后重新分配给 agent、系统和 实战型教练管理者（player-coach）。
 
 ## 2. 高置信结论
 
 1. **纯协调型中层承压。** 信息同步、状态汇总、流程催办等工作会被 agent 和共享系统吸收。
 2. **管理价值转向人类判断。** 人才发展、冲突处理、质量标准、复杂例外、价值观传递仍需要人类 manager。
-3. **先重写管理工作，再压缩层级。** 没有 decision rights 和 workflow owner 设计的裁层，会造成混乱。
+3. **先重写管理工作，再压缩层级。** 没有 decision rights 和 工作流负责人（workflow owner） 设计的裁层，会造成混乱。
 
 ## 3. 事实层
 
-- GitLab 在 Act 2 中把组织重构与 AI-agent-first operating model 绑定，提出压缩层级、减少国家数量、建立更小团队，并提供 voluntary separation 作为落地工具。
+- GitLab 在 Act 2 中把组织重构与 AI 智能体优先（AI-agent-first） 运营模式（operating model） 绑定，提出压缩层级、减少国家数量、建立更小团队，并提供 voluntary separation 作为落地工具。
 - Guardian 报道 AI-fueled manager purge，说明舆论和员工体感层已经把 AI 与中层管理压力关联，但仍需一手材料验证具体公司机制。
 - HRD 报道雇主愿为 AI-skilled staff 支付最高 15% salary premium，提示岗位 title 变化之前，薪酬市场已经先行动。
 
-## 4. Context 层
+## 4. 背景材料（Context）
 
-- GitLab 是强案例，但不能把 voluntary separation 直接等同“AI 替代所有中层”；更稳妥的判断是：AI-agent-first operating model 给组织压缩提供了理由和工具。
-- Guardian 是媒体材料，适合作为 Context 和线索，不作为制度结论。
-- AI skill premium 需要继续拆分 base pay、bonus、LTI 与临时津贴，不能简单理解为“建 AI 序列”。
+- GitLab 是强案例，但不能把 voluntary separation 直接等同“AI 替代所有中层”；更稳妥的判断是：AI 智能体优先（AI-agent-first） 运营模式（operating model） 给组织压缩提供了理由和工具。
+- Guardian 是媒体材料，适合作为 背景材料（Context）和线索，不作为制度结论。
+- AI 技能溢价（AI skill premium） 需要继续拆分 基本薪酬（base pay）、奖金（bonus）、长期激励（LTI） 与临时津贴，不能简单理解为“建 AI 序列”。
 
 ## 5. CEO 决策启发
 
 - 盘点 manager 工作中可自动化、可标准化、必须人判断的比例。
-- 为 manager 设计 player-coach、workflow owner、agent governance owner 三条转型路径。
+- 为 manager 设计 实战型教练管理者（player-coach）、工作流负责人（workflow owner）、智能体治理（agent governance） owner 三条转型路径。
 - 压缩层级前先定义决策权、例外升级路径和质量责任。
 
 ## 6. 风险与反例
@@ -42,9 +42,9 @@
 
 ## 8. 来源索引
 
-- GitLab Act 2 / SEC 8-K：组织压缩、国家收敛、小团队与 AI-agent-first operating model｜https://about.gitlab.com/blog/gitlab-act-2/ ｜ https://ir.gitlab.com/sec-filings/all-sec-filings/content/0001628280-26-023407/0001628280-26-023407.pdf
+- GitLab Act 2 / SEC 8-K：组织压缩、国家收敛、小团队与 AI 智能体优先（AI-agent-first） 运营模式（operating model）｜https://about.gitlab.com/blog/gitlab-act-2/ ｜ https://ir.gitlab.com/sec-filings/all-sec-filings/content/0001628280-26-023407/0001628280-26-023407.pdf
 - The Guardian：AI-fueled manager purge 报道，作为中层承压 Context｜https://www.theguardian.com/technology/2026/may/15/ai-manager-purge-tech
 - HRD：AI-skilled staff salary premiums up to 15%｜https://www.hcamag.com/au/news/general/employers-offering-up-to-15-salary-premiums-for-ai-skilled-staff/575007
-- EY Future of Pay 2026：AI/digital skill premium、skills-based pay、sunset clauses｜https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf
+- EY Future of Pay 2026：AI/digital 技能溢价（skill premium）、基于技能的薪酬（skills-based pay）、退出条款（sunset clauses）｜https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf
 - Payscale 2026 Compensation Best Practices Report：AI skills valuation and pay equity｜https://www.payscale.com/press-releases/2026-compensation-best-practices-report
 - OD Intelligence Center 知识库：知音楼 HR 十主题地图｜knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md

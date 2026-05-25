@@ -56,7 +56,7 @@ const reportProfiles = new Map([
     ],
   }],
   ["https://reports.weforum.org/docs/WEF_Organizational_Transformation_in_the_Age_of_AI_How_Organizations_Maximize_AI's_Potential_2026.pdf", {
-    summary: 'WEF/Accenture 把 AI 转型的重点放在 workflow、operating model、decision rights 的系统性重构。',
+    summary: 'WEF/Accenture 把 AI 转型的重点放在 workflow、运营模式（operating model）、decision rights 的系统性重构。',
     focus: '工作流重构、决策权、AI 参与执行',
     relevanceLabel: '强相关：战略到组织机制',
     evidenceLevel: '结论层可用，适合作为跨行业高层叙事和治理框架证据。',
@@ -66,7 +66,7 @@ const reportProfiles = new Map([
       '它支持“更少、更宽、更端到端的人类团队 + Agent 执行层”的方向，但同时保留人类判断、责任和监督。',
     ],
     attention: [
-      '这份报告最适合做“为什么岗位体系改革不能只新增 job family”的战略依据。',
+      '这份报告最适合做“为什么岗位体系改革不能只新增 岗位族群（job family）”的战略依据。',
       '关注 decision rights：AI 进入执行后，岗位说明、绩效口径和授权边界必须一起改。',
       '可继续追踪报告中的企业案例，拆解原体系、新体系、套改和员工影响。',
     ],
@@ -76,7 +76,7 @@ const reportProfiles = new Map([
       ['风险治理', '高', '提供反例侧证：AI 安全、数据治理、监督问责会继续专业化。'],
     ],
     useInResearch: [
-      '优先放在“Context 层/结论层桥接”：用来解释趋势，不单独证明某公司已完成改革。',
+      '优先放在“背景材料（Context）/结论层桥接”：用来解释趋势，不单独证明某公司已完成改革。',
       '后续精读应抽取具体企业案例和可量化组织变化。',
     ],
   }],
@@ -131,14 +131,14 @@ const reportProfiles = new Map([
     ],
   }],
   ['https://ir.gitlab.com/sec-filings/all-sec-filings/content/0001628280-26-023407/0001628280-26-023407.pdf', {
-    summary: 'GitLab SEC 8-K 是官方披露来源，可作为核验组织调整、AI-agent-first operating model 相关说法的原始锚点。',
-    focus: '官方披露、组织压缩、AI-agent-first 待核验',
+    summary: 'GitLab SEC 8-K 是官方披露来源，可作为核验组织调整、AI 智能体优先（AI-agent-first） 运营模式（operating model） 相关说法的原始锚点。',
+    focus: '官方披露、组织压缩、AI 智能体优先（AI-agent-first） 待核验',
     relevanceLabel: '中高相关：公司案例核验',
     evidenceLevel: '线索层优先；当前下载失败，不能仅凭日报上下文进入结论层。',
     core: [
       '该来源的价值在于官方披露属性，可用于核验媒体或社媒中关于 GitLab 组织调整的说法。',
       '当前本地仅保留 URL 与日报引用上下文，原文下载待重试，因此不能扩展解读。',
-      '若原文确认组织压缩、小团队和 AI-agent-first 表述，可升级为海外公司案例。',
+      '若原文确认组织压缩、小团队和 AI 智能体优先（AI-agent-first） 表述，可升级为海外公司案例。',
     ],
     attention: [
       '优先解决下载/访问，拿到原文后核对是否真的涉及岗位、层级、薪酬或激励变化。',
@@ -167,7 +167,7 @@ const reportProfiles = new Map([
     ],
     attention: [
       '这是验证第三个假设的关键来源：岗位/族群变革常常是为稀缺人才和关键贡献争取激励空间。',
-      '可用于设计“不要新增序列也能给钱”的工具箱：带宽、稀缺系数、项目激励、技能津贴、LTI。',
+      '可用于设计“不要新增序列也能给钱”的工具箱：带宽、稀缺系数、项目激励、技能津贴、长期激励（LTI）。',
       '注意地区差异：EY India 报告不能直接等同全球薪酬实践。',
     ],
     relevance: [
@@ -192,7 +192,7 @@ const reportProfiles = new Map([
     ],
     attention: [
       '先解决原文获取，再确认是否包含组织、人才、技能或激励相关数据。',
-      '如果只讲 AI 投资和采用，则作为战略背景；如果有 workforce/operating model 数据，可升级。',
+      '如果只讲 AI 投资和采用，则作为战略背景；如果有 workforce/运营模式（operating model） 数据，可升级。',
       '与 BCG AI-First Organization 分工：Radar 看宏观采用，AI-First 看组织设计。',
     ],
     relevance: [
@@ -218,7 +218,7 @@ const reportProfiles = new Map([
     attention: [
       '重点不是记住某个比例，而是先定义“中层”的口径：层级数、管理跨度、项目管理还是人员管理。',
       '若要给 CEO 使用，需要把报告数字与公司案例交叉验证，避免把咨询调研样本当作普遍事实。',
-      '它提示我们追踪 player-coach、workflow owner、agent supervisor 等管理角色是否替代传统协调型中层。',
+      '它提示我们追踪 player-coach、工作流负责人（workflow owner）、agent supervisor 等管理角色是否替代传统协调型中层。',
     ],
     relevance: [
       ['管理层级', '高', '用于讨论 AI 是否压缩协调型中层和改变管理跨度。'],
@@ -226,7 +226,7 @@ const reportProfiles = new Map([
       ['专家深化', '中', '治理、架构、安全和数据责任仍可能形成更深专家节点。'],
     ],
     useInResearch: [
-      '暂放 Context 层，成功下载并核验数字后再进入结论层。',
+      '暂放 背景材料（Context），成功下载并核验数字后再进入结论层。',
       '后续要与 GitLab、Deloitte、Gartner 等来源交叉验证“层级减少不等于 ROI”的边界。',
     ],
   }],
@@ -236,13 +236,13 @@ const reportProfiles = new Map([
     relevanceLabel: '强相关：薪酬架构与激励资源',
     evidenceLevel: '结论层可用但需精读具体数据口径；适合与 EY Future of Pay 互证。',
     core: [
-      '报告被专题引用来拆分 base、bonus、LTI、pay equity、benchmarking 与 job management 等薪酬治理主题。',
+      '报告被专题引用来拆分 base、奖金（bonus）、长期激励（LTI）、pay equity、benchmarking 与 job management 等薪酬治理主题。',
       '它直接对应“岗位体系问题本质上常是关键员工激励和市场溢价空间问题”的假设。',
-      '其价值不只是证明 AI skill premium，而是帮助设计薪酬治理：哪些用市场定价，哪些用技能津贴，哪些用项目激励。',
+      '其价值不只是证明 AI 技能溢价（skill premium），而是帮助设计薪酬治理：哪些用市场定价，哪些用技能津贴，哪些用项目激励。',
     ],
     attention: [
       '重点关注 AI 技能如何进入 job pricing、market benchmark、pay equity review 和薪酬带宽。',
-      '避免把新增 job family 当作唯一解；薪酬带宽、稀缺系数、临时补贴和项目奖金可能更稳。',
+      '避免把新增 岗位族群（job family） 当作唯一解；薪酬带宽、稀缺系数、临时补贴和项目奖金可能更稳。',
       '后续需要抽取能直接落入 CEO 决策的工具箱：何时新序列、何时技能标签、何时调薪酬带宽。',
     ],
     relevance: [

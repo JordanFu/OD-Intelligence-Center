@@ -1,16 +1,16 @@
 # 2026-05-13｜AI时代组织与人才机制四课题总览
 
-> 范围：组织扁平化与中层减少、高人才密度与复合型人才、岗位族群序列、未来晋升机制  
+> 范围：组织扁平化与中层减少、高人才密度与复合型人才、岗位族群序列、未来晋升机制
 > 方法：四个专题 worker 并行研究 + 主代理交叉校验；使用公开来源与仓库内部 `digest.md`、`daily/`、`knowledge/`、`specials/` 互证。
 
 ## 1. 今日总判断
 
-AI 时代的组织设计正在从“层级 + 职能 + 固定岗位”转向“结果 owner + 高密度小队 + 深专家网络 + 项目证据驱动的人才机制”。但这不是简单去中层、全员通才或随时晋升：真正可落地的方向是压缩纯协调层，强化 player-coach、DRI、AI/Agent 编排者、深专家和可审计的人才校准机制。
+AI 时代的组织设计正在从“层级 + 职能 + 固定岗位”转向“结果 owner + 高密度小队 + 深专家网络 + 项目证据驱动的人才机制”。但这不是简单去中层、全员通才或随时晋升：真正可落地的方向是压缩纯协调层，强化 实战型教练管理者（player-coach）、DRI、AI/Agent 编排者、深专家和可审计的人才校准机制。
 
 ## 2. 今日最重要的 7 条发现
 
 1. **组织扁平化的核心不是少几层，而是信息路由成本下降。** Coinbase、Block、McKinsey、Deloitte 共同指向：AI/Agent 和共享上下文正在削弱中层“传话、汇总、协调”的传统价值。
-2. **纯管理者被压缩，但管理工作不会消失。** 剩余管理角色会转向 player-coach、端到端 DRI/owner、Agent 编排、质量标准、人才发展和冲突处理。
+2. **纯管理者被压缩，但管理工作不会消失。** 剩余管理角色会转向 实战型教练管理者（player-coach）、端到端 DRI/owner、Agent 编排、质量标准、人才发展和冲突处理。
 3. **高人才密度的定义升级为“人机杠杆后的结果密度”。** 复合型人才不是会很多工具，而是能定义问题、编排 Agent、完成端到端业务结果，并沉淀可复用系统。
 4. **岗位正在变宽，但专家岗位也在变深。** 业务交付层更宽，AI Infra、Model Evals、Safeguards、Inference、Data Governance 等护城河能力更专业、更高薪。
 5. **新增序列常常不是最优解。** 很多“建 AI 序列”的真实诉求是薪酬带宽不足、市场溢价无法表达、项目激励不足或关键人保留。
@@ -21,11 +21,11 @@ AI 时代的组织设计正在从“层级 + 职能 + 固定岗位”转向“�
 
 | 交叉点 | 今日判断 | 设计启发 |
 |---|---|---|
-| 扁平化 × 高人才密度 | 中层减少只有在高密度小队能承接端到端结果时才成立 | 先重设 owner、DRI、player-coach，再压缩层级 |
+| 扁平化 × 高人才密度 | 中层减少只有在高密度小队能承接端到端结果时才成立 | 先重设 owner、DRI、实战型教练管理者（player-coach），再压缩层级 |
 | 高人才密度 × 岗位序列 | 复合型人才需要宽岗位，但深专家不能被通才化吞掉 | 建“宽角色 + 深专家网络”的双结构 |
-| 岗位序列 × 晋升机制 | 外部 title 可变宽，内部 level/pay band/promotion path 不能消失 | title 简化，治理底盘更要清楚 |
+| 岗位序列 × 晋升机制 | 外部 title 可变宽，内部 level/薪酬带宽（pay band）/promotion path 不能消失 | title 简化，治理底盘更要清楚 |
 | 扁平化 × 晋升机制 | 层级减少会减少传统晋升台阶 | 用项目 scope、技能认证、acting role 和影响力证据替代部分层级台阶 |
-| AI 贡献 × 薪酬激励 | AI 技能溢价和复用资产贡献需要被定价 | 用 market premium、project bonus、RSU refresh，不要全挤进晋升 |
+| AI 贡献 × 薪酬激励 | AI 技能溢价和复用资产贡献需要被定价 | 用 市场溢价（market premium）、项目奖金（project bonus）、RSU refresh，不要全挤进晋升 |
 
 ## 4. 今日判断变化
 
@@ -33,7 +33,7 @@ AI 时代的组织设计正在从“层级 + 职能 + 固定岗位”转向“�
 - **被增强：** “专家岗位变深”判断增强。Anthropic JD 与高薪区间为 AI 核心专家岗位深化提供了直接证据。
 - **被修正：** “随时晋升”不应作为主机制。更稳妥的是双轨制：固定窗口处理正式晋升，高频项目/技能/AI 贡献证据作为前置层。
 - **保持谨慎：** Cloudflare、Meta、DeepL 等 AI 裁员/重组线索尚缺足够一手机制证据，暂不写成中层减少的确定案例。
-  - **补充：** Cloudflare 已在 2026-05-07 财报新闻稿披露将裁减约 1,100 人并称其为 “agentic AI-first operating model” 的组织重构（[press release](https://www.cloudflare.com/press/press-releases/2026/cloudflare-announces-first-quarter-2026-financial-results/)）；但其“减少的层级/角色类型/管理跨度与绩效沟通话术”仍需进一步还原，暂不在本总览中把它写成“中层减少”确定机制结论。
+  - **补充：** Cloudflare 已在 2026-05-07 财报新闻稿披露将裁减约 1,100 人并称其为 “智能体式 AI（agentic AI）-first 运营模式（operating model）” 的组织重构（[press release](https://www.cloudflare.com/press/press-releases/2026/cloudflare-announces-first-quarter-2026-financial-results/)）；但其“减少的层级/角色类型/管理跨度与绩效沟通话术”仍需进一步还原，暂不在本总览中把它写成“中层减少”确定机制结论。
 
 ## 5. 关键冲突与反例
 
@@ -46,11 +46,11 @@ AI 时代的组织设计正在从“层级 + 职能 + 固定岗位”转向“�
 
 ### 战略
 
-把 AI 组织变革定义为 operating model 重构，而不是单点工具推广或降本项目。先明确哪些业务链路适合小队化、端到端化、Agent 化。
+把 AI 组织变革定义为 运营模式（operating model） 重构，而不是单点工具推广或降本项目。先明确哪些业务链路适合小队化、端到端化、Agent 化。
 
 ### 组织架构
 
-压缩“纯信息路由型中层”，保留并升级三类角色：player-coach、DRI/结果 owner、AI/Agent 运营与治理负责人。
+压缩“纯信息路由型中层”，保留并升级三类角色：实战型教练管理者（player-coach）、DRI/结果 owner、AI/Agent 运营与治理负责人。
 
 ### 岗位序列
 
@@ -62,7 +62,7 @@ AI 时代的组织设计正在从“层级 + 职能 + 固定岗位”转向“�
 
 ### 晋升激励
 
-正式晋升保留窗口和校准；高频认可用项目 owner、技能徽章、AI 贡献包、spot bonus、project bonus、market premium 承接。
+正式晋升保留窗口和校准；高频认可用项目 owner、技能徽章、AI 贡献包、即时奖金（spot 奖金（bonus））、项目奖金（project bonus）、市场溢价（market premium） 承接。
 
 ### 沟通落地
 
@@ -70,8 +70,8 @@ AI 时代的组织设计正在从“层级 + 职能 + 固定岗位”转向“�
 
 ## 7. 明日优先追踪问题
 
-1. Coinbase no pure managers 落地后的员工反馈、管理跨度和质量风险。
-2. Amazon Builder 是否改变内部 level/pay band/promotion path。
+1. Coinbase 取消纯管理者（no pure managers） 落地后的员工反馈、管理跨度和质量风险。
+2. Amazon Builder 是否改变内部 level/薪酬带宽（pay band）/promotion path。
 3. OpenAI DeployCo / FDE 的招聘画像、能力模型和交付机制。
 4. 百度职级套改全员信全文、HR FAQ 和薪酬/晋升影响。
 5. Meta AI-driven impact 是否进入正式绩效表单。

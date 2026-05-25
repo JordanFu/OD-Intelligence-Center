@@ -47,9 +47,9 @@ GitLab Talent Assessment 把校准会定位为跨经理一致性、跨部门反�
 
 Mercer 2026 薪酬规划数据显示，组织计划晋升约 9% 员工，一次一级晋升平均加薪约 8.7%，单独晋升预算约占 base salary budget 的 1%-1.1%。在预算趋紧的情况下，如果企业引入即时晋升、AI 贡献分、技能徽章和项目制晋升，却没有统一校准，就会出现三类风险：谁会包装 AI 贡献谁先升、热门项目成员获得过多机会、预算被少数高能见度团队提前消耗。
 
-## Context层
+## 背景材料（Context）
 
-* **内部主线一：职级改革已经和薪酬治理绑定。** `specials/job-levels/2026-05-12.md` 指出，百度/字节/ Coinbase / Block / Amazon 等案例共同提示：外部 title 可以变宽，但内部 level、pay band、promotion path 仍要清楚。专题四应把“晋升机制”视为职级改革的执行层，而不是独立 HR 流程。
+* **内部主线一：职级改革已经和薪酬治理绑定。** `specials/job-levels/2026-05-12.md` 指出，百度/字节/ Coinbase / Block / Amazon 等案例共同提示：外部 title 可以变宽，但内部 level、薪酬带宽（pay band）、promotion path 仍要清楚。专题四应把“晋升机制”视为职级改革的执行层，而不是独立 HR 流程。
 
 * **内部主线二：AI-first 运营模型需要新型晋升证据。** `knowledge/concepts/ai-first-operating-model.md` 强调 Agent 中心、小型跨职能团队和人类高阶判断；`knowledge/concepts/capability-judgment-matrix.md` 强调“AI 能不能”和“AI 应不该”。因此晋升材料应纳入 AI 分工判断、风险边界、复用资产和人类问责，而不只是产出数量。
 
@@ -122,14 +122,14 @@ Meta 的 AI-driven impact 信号说明，大厂正在把 AI 协作从倡议变�
 * 员工可以用技能徽章和 skill review 证明自己已具备下一层级关键能力。
 * 组织可以识别热门项目之外的隐藏人才，降低机会分配不公平。
 * 人才委员会可以用统一技能语言讨论跨岗位、跨团队候选人。
-* 薪酬团队可以把稀缺技能溢价放入 market premium / project bonus / retention grant，而不是临时新增一堆 job family。
+* 薪酬团队可以把稀缺技能溢价放入 市场溢价（market premium） / 项目奖金（project bonus） / retention grant，而不是临时新增一堆 岗位族群（job family）。
 
 ### Mercer / GitLab：预算是晋升机制的硬边界
 
 AI 时代晋升诉求会更频繁：小团队里个人影响力放大，项目制让 scope 快速变化，AI 工具让部分员工短期产出陡增。但 Mercer 数据提醒，组织真实晋升预算仍非常有限；GitLab 手册也把预算、Total Rewards 和 FP&A 放进例外晋升审批。未来组织需要把晋升拆成三种成本层级：
 
 1. **零薪酬成本认可**：技能徽章、项目 owner、内部可见度、mentor / reviewer 角色。
-2. **中等成本激励**：spot bonus、project bonus、专项津贴、AI 贡献奖。
+2. **中等成本激励**：即时奖金（spot 奖金（bonus））、项目奖金（project bonus）、专项津贴、AI 贡献奖。
 3. **高成本晋升**：level 提升、base 调整、equity refresh、长期 compa-ratio 变化。
 
 高频发生的应该是前两类，正式晋升仍应进入校准和预算周期。
@@ -138,9 +138,9 @@ AI 时代晋升诉求会更频繁：小团队里个人影响力放大，项目�
 
 * **机制设计：采用“双轨晋升”。** 固定窗口处理大多数 level change，保持公平、预算和同级可比；即时通道只处理 acting role、关键保留、scope 已发生实质变化、open headcount 转岗等例外，并要求完整审批链。
 
-* **证据设计：建立 promotion evidence packet。** 建议包含 6 类证据：业务结果、项目 scope、AI 贡献、技能认证/徽章、跨职能同行反馈、风险与治理行为。每类证据都要能对应下一层级标准。
+* **证据设计：建立 晋升证据 packet。** 建议包含 6 类证据：业务结果、项目 scope、AI 贡献、技能认证/徽章、跨职能同行反馈、风险与治理行为。每类证据都要能对应下一层级标准。
 
-* **项目制晋升：先给 scope，再给 title。** 对 AI-first 小团队，可先授予 project owner、journey owner、Agent workflow owner、AI quality reviewer 等临时角色；持续 1-2 个周期证明影响力后，再进入正式晋升校准。
+* **项目制晋升：先给 scope，再给 title。** 对 AI-first 小团队，可先授予 project owner、journey owner、Agent 工作流负责人（workflow owner）、AI quality reviewer 等临时角色；持续 1-2 个周期证明影响力后，再进入正式晋升校准。
 
 * **能力认证：徽章进入材料，不直接兑换职级。** 技能徽章适合证明 readiness，不能替代业务结果。对关键 AI 能力建议设置内部认证：AI literacy、AI workflow design、AI risk review、model eval、data governance、human-in-the-loop design。
 
@@ -150,9 +150,9 @@ AI 时代晋升诉求会更频繁：小团队里个人影响力放大，项目�
 
 * **人才委员会：升级为“scope 与公平委员会”。** 委员会不只看候选人是否优秀，还要看：是否已有下一层级 scope、同类团队标准是否一致、女性/少数群体/远程员工是否因项目机会不足被低估、AI 贡献证据是否可复核。
 
-* **薪酬校准：把晋升、加薪、技能溢价拆开。** 不要让所有激励都挤进 promotion。AI 稀缺技能可以用 skill premium、project bonus、RSU refresh、retention grant 解决；职级晋升只奖励长期稳定 scope 和下一层级影响力。
+* **薪酬校准：把晋升、加薪、技能溢价拆开。** 不要让所有激励都挤进 promotion。AI 稀缺技能可以用 技能溢价（skill premium）、项目奖金（project bonus）、RSU refresh、retention grant 解决；职级晋升只奖励长期稳定 scope 和下一层级影响力。
 
-## Context层（社媒/职场平台线索池，仅列线索）
+## 背景材料（Context）（社媒/职场平台线索池，仅列线索）
 
 | 线索主题 | 平台 | 应关注证据 | 关键词 | 风险 |
 |---|---|---|---|---|
@@ -170,7 +170,7 @@ AI 时代晋升诉求会更频繁：小团队里个人影响力放大，项目�
 
 3. 建立“晋升证据包”样本库：GitLab promotion document、Security promotion feedback template、工程 career ladder、AI contribution rubric。
 
-4. 追踪 Pave / Mercer / Radford / Levels.fyi 关于 2026 promotion budget、promotion rate、AI skill premium 的最新数据，用于校准“即时晋升”的预算可行性。
+4. 追踪 Pave / Mercer / Radford / Levels.fyi 关于 2026 promotion budget、promotion rate、AI 技能溢价（AI skill premium） 的最新数据，用于校准“即时晋升”的预算可行性。
 
 5. 补中国样本：百度、字节、阿里、腾讯、美团、小红书在新职级套改后，是否同步调整晋升窗口、人才委员会、薪酬带宽、AI 能力认证。
 
