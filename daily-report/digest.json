@@ -5,13 +5,13 @@
     "date": "2026-04-09",
     "sourceFile": "./report-viewer.html",
     "stats": {
-      "totalDays": 33,
-      "totalItems": 366,
+      "totalDays": 34,
+      "totalItems": 372,
       "totalSources": 85,
       "hypothesesVerified": 4,
       "hypothesesPending": 1,
-      "updateDate": "2026-05-22",
-      "updateItems": 375,
+      "updateDate": "2026-05-25",
+      "updateItems": 381,
       "updateSources": 20
     },
     "subPropositions": [
@@ -1957,6 +1957,74 @@
         "三星罢工谈判走向——4 万余名员工参与史上最大罢工，AI 时代劳资利润分配矛盾激化，谈判结果对全球科技企业有示范效应"
       ],
       "note": "【2026-05-21 日报】24条信息，⭐高16/📰较高7/💬参考1，17个平台。焦点：SAP/KPMG/IBM 密集发布 agent governance 框架；WEF×Accenture/HBR/Gartner/Deloitte/Cornerstone 咨询学术情报批量更新；Intuit 17% 裁员、全国首例 AI 替岗判例、管理者范式重构。"
+    },
+    {
+      "date": "2026-05-25",
+      "weekday": "周一",
+      "items": 6,
+      "platforms": 6,
+      "trust": {
+        "high": 5,
+        "mid": 1,
+        "ref": 0
+      },
+      "tags": [
+        "Agent治理",
+        "组织准备度",
+        "CHRO角色重塑",
+        "数字劳动力",
+        "角色映射",
+        "KPI治理",
+        "共享服务",
+        "人机协作",
+        "工作重设计",
+        "DecisionRights",
+        "ManagerSupport",
+        "OperatingModel"
+      ],
+      "topPicks": [
+        {
+          "title": "Microsoft Work Trend Index 2026：组织因素影响AI产出是个人因素的两倍",
+          "platform": "Microsoft",
+          "url": "https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization",
+          "reason": "用调研数据（组织因素67% vs 个人32%）把AI瓶颈误区钉死，直接指向OD评价AI成熟度的正确口径"
+        },
+        {
+          "title": "IBM Think 2026：大企业年底平均部署1600+ agents，治理重点转向全生命周期",
+          "platform": "IBM",
+          "url": "https://www.ibm.com/think/news/think-2026-ai-recap",
+          "reason": "agent数量进入四位数后，组织必须建立inventory/owner/guardrails常设机制，否则数字劳动力变成新形式的技术债务"
+        },
+        {
+          "title": "SAP：Agent Hub管理10万+ agents，正式成为企业agent的system of records",
+          "platform": "SAP",
+          "url": "https://news.sap.com/2026/05/sap-sapphire-keynote-business-ai-platform-power-autonomous-enterprise/",
+          "reason": "最清晰的企业软件信号——agent开始纳入角色映射、KPI追踪和治理台账，OD治理对象从岗位扩展到数字劳动力资产"
+        },
+        {
+          "title": "ServiceNow：Autonomous Workforce扩至HR/法务/财务，AI specialist成为角色边界清晰的数字员工",
+          "platform": "ServiceNow",
+          "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-brings-Autonomous-Workforce-to-every-major-business-function/default.aspx",
+          "reason": "共享服务组织的未来形态——不是上AI工具，而是按职能拆出role-scoped agents并明确升级路径和SLA归属"
+        },
+        {
+          "title": "WEF：AI转型失败根因是组织设计，CHRO须担任四个新角色",
+          "platform": "World Economic Forum",
+          "url": "https://www.weforum.org/stories/2026/05/ai-transformation-reshaping-work-hr-leaders-must-help-redesign-it/",
+          "reason": "把CHRO/OD从支持方抬升为工作重设计共主导方；AI转型办公室缺HR席位则decision rights模糊几乎必然"
+        }
+      ],
+      "trends": [
+        "Agent治理从'怎么造'进入'怎么管'阶段——IBM、SAP、ServiceNow同一周密集发布治理框架，2026年下半年agent governance将成为OD核心交付物",
+        "大型科技企业把agent纳入正式组织资产台账——SAP Agent Hub已管理10万+agents、150家企业接入，数字员工开始有owner/KPI/审计轨迹",
+        "CHRO/OD角色边界正在被重新定义——WEF明确定义CHRO四个新角色，与Microsoft WTI'组织因素决定AI成效'结论互相印证"
+      ],
+      "nextFocus": [
+        "ERP厂商跟进：Oracle、Salesforce是否发布类似SAP Agent Hub的agent治理产品，及其角色映射定义方式",
+        "国内大厂对标：阿里/腾讯/字节是否在类似时间窗口披露agent治理框架或内部operating model调整",
+        "咨询公司跟进：McKinsey/BCG是否会发布更具体的'AI时代CHRO角色重塑'操作手册或诊断工具"
+      ],
+      "note": "【2026-05-25 日报】6条信息，⭐高5/📰较高1/💬参考0，6个平台（Microsoft/WEF/IBM/ServiceNow/Workday/SAP）。焦点：Microsoft WTI组织因素占67%；IBM 1600+ agents治理转向；SAP Agent Hub成system of records；ServiceNow Autonomous Workforce扩至全职能；WEF定义CHRO四角色。"
     }
   ]
 }
