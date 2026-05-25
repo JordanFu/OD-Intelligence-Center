@@ -2,7 +2,7 @@
 title: cesifo1 wp12373
 source: ifo.de
 date: 待核验
-ingested: 2026-05-24
+ingested: 2026-05-25
 sourceFile: ../knowledge/raw/ifo-de-cesifo1-wp12373.pdf
 sourceUrl: https://www.ifo.de/DocDL/cesifo1_wp12373.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ cesifo1 wp12373 已作为日报/周报 PDF 证据源入库，当前需要完成�
 - **来源类型**：media
 - **原文 URL**：https://www.ifo.de/DocDL/cesifo1_wp12373.pdf
 - **原始文件**：`knowledge/raw/ifo-de-cesifo1-wp12373.pdf`
-- **入库日期**：2026-05-24
+- **入库日期**：2026-05-25
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
@@ -51,7 +51,7 @@ cesifo1 wp12373 已作为日报/周报 PDF 证据源入库，当前需要完成�
 
 ## 被引用位置
 
-- `specials/ai-org-talent-mechanism/2026-05-24/02-talent-density.md:16`：研究（CESifo working paper）：Makridis（2026）研究基于 Gallup Workforce Panel（2023–Q1 2026，30,000+ 美国员工），提出 AI adoption 呈现“沿组织层级传播”的特征，且“组织有清晰 AI strategy”的员工更可能高频使用 AI（摘要级信息）。
+- `specials/ai-org-talent-mechanism/2026-05-24/02-talent-density.md:16`：研究（CESifo working paper）：Makridis（2026）研究基于 Gallup Workforce Panel（2023–Q1 2026，30,000+ 美国员工），提出 AI 采用 呈现“沿组织层级传播”的特征，且“组织有清晰 AI strategy”的员工更可能高频使用 AI（摘要级信息）。
 - `specials/ai-org-talent-mechanism/2026-05-24/02-talent-density.md:67`：学术/研究：Makridis（organizational transmission）等 adoption/manager 作用研究。
 - `specials/ai-org-talent-mechanism/2026-05-24/02-talent-density.md:97`：CESifo Working Paper：The Organizational Transmission of AI：
 

@@ -2,7 +2,7 @@
 title: WEF：Organizational Transformation in the Age of AI
 source: World Economic Forum
 date: 待核验
-ingested: 2026-05-24
+ingested: 2026-05-25
 sourceFile: ../knowledge/raw/world-economic-forum-wef-organizational-transformation-in-the-age-of-ai.pdf
 sourceUrl: https://reports.weforum.org/docs/WEF_Organizational_Transformation_in_the_Age_of_AI_How_Organizations_Maximize_AI's_Potential_2026.pdf
 tags: [AI组织设计, 变革管理, 战略规划]
@@ -13,7 +13,7 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 
 ## 一句话判断
 
-WEF/Accenture 把 AI 转型的重点放在 workflow、operating model、decision rights 的系统性重构。
+WEF/Accenture 把 AI 转型的重点放在 workflow、运营模式（operating model）、decision rights 的系统性重构。
 
 ## 入库状态
 
@@ -21,7 +21,7 @@ WEF/Accenture 把 AI 转型的重点放在 workflow、operating model、decision
 - **来源类型**：industry
 - **原文 URL**：https://reports.weforum.org/docs/WEF_Organizational_Transformation_in_the_Age_of_AI_How_Organizations_Maximize_AI's_Potential_2026.pdf
 - **原始文件**：`knowledge/raw/world-economic-forum-wef-organizational-transformation-in-the-age-of-ai.pdf`
-- **入库日期**：2026-05-24
+- **入库日期**：2026-05-25
 - **证据层级**：结论层可用，适合作为跨行业高层叙事和治理框架证据。
 
 ## 核心内容
@@ -32,7 +32,7 @@ WEF/Accenture 把 AI 转型的重点放在 workflow、operating model、decision
 
 ## 你需要关注
 
-- 这份报告最适合做“为什么岗位体系改革不能只新增 job family”的战略依据。
+- 这份报告最适合做“为什么岗位体系改革不能只新增 岗位族群（job family）”的战略依据。
 - 关注 decision rights：AI 进入执行后，岗位说明、绩效口径和授权边界必须一起改。
 - 可继续追踪报告中的企业案例，拆解原体系、新体系、套改和员工影响。
 
@@ -46,7 +46,7 @@ WEF/Accenture 把 AI 转型的重点放在 workflow、operating model、decision
 
 ## 对日报/周报的使用方式
 
-- 优先放在“Context 层/结论层桥接”：用来解释趋势，不单独证明某公司已完成改革。
+- 优先放在“背景材料（Context）/结论层桥接”：用来解释趋势，不单独证明某公司已完成改革。
 - 后续精读应抽取具体企业案例和可量化组织变化。
 
 ## 被引用位置

@@ -2,7 +2,7 @@
 title: Payscale：2026 Compensation Best Practices Report
 source: Payscale
 date: 待核验
-ingested: 2026-05-24
+ingested: 2026-05-25
 sourceFile: ../knowledge/raw/payscale-payscale-2026-compensation-best-practices-report.pdf
 sourceUrl: https://www.payscale.com/content/report/2026-compensation-best-practice-report.pdf
 tags: [AI组织设计, 绩效管理]
@@ -21,19 +21,19 @@ Payscale 2026 薪酬实践报告可用于验证 AI 技能定价、薪酬公平�
 - **来源类型**：industry
 - **原文 URL**：https://www.payscale.com/content/report/2026-compensation-best-practice-report.pdf
 - **原始文件**：`knowledge/raw/payscale-payscale-2026-compensation-best-practices-report.pdf`
-- **入库日期**：2026-05-24
+- **入库日期**：2026-05-25
 - **证据层级**：结论层可用但需精读具体数据口径；适合与 EY Future of Pay 互证。
 
 ## 核心内容
 
-- 报告被专题引用来拆分 base、bonus、LTI、pay equity、benchmarking 与 job management 等薪酬治理主题。
+- 报告被专题引用来拆分 base、奖金（bonus）、长期激励（LTI）、pay equity、benchmarking 与 job management 等薪酬治理主题。
 - 它直接对应“岗位体系问题本质上常是关键员工激励和市场溢价空间问题”的假设。
-- 其价值不只是证明 AI skill premium，而是帮助设计薪酬治理：哪些用市场定价，哪些用技能津贴，哪些用项目激励。
+- 其价值不只是证明 AI 技能溢价（skill premium），而是帮助设计薪酬治理：哪些用市场定价，哪些用技能津贴，哪些用项目激励。
 
 ## 你需要关注
 
 - 重点关注 AI 技能如何进入 job pricing、market benchmark、pay equity review 和薪酬带宽。
-- 避免把新增 job family 当作唯一解；薪酬带宽、稀缺系数、临时补贴和项目奖金可能更稳。
+- 避免把新增 岗位族群（job family） 当作唯一解；薪酬带宽、稀缺系数、临时补贴和项目奖金可能更稳。
 - 后续需要抽取能直接落入 CEO 决策的工具箱：何时新序列、何时技能标签、何时调薪酬带宽。
 
 ## 与近期研究主题的相关性
@@ -51,7 +51,7 @@ Payscale 2026 薪酬实践报告可用于验证 AI 技能定价、薪酬公平�
 
 ## 被引用位置
 
-- `specials/ai-org-talent-mechanism/2026-05-18/02-talent-density.md:49`：2. 报告正文（PDF）：Payscale 提供更细分的薪酬与治理主题（用于后续拆分：base vs bonus vs LTI、pay equity、benchmarking、job management）。
+- `specials/ai-org-talent-mechanism/2026-05-18/02-talent-density.md:49`：2. 报告正文（PDF）：Payscale 提供更细分的薪酬与治理主题（用于后续拆分：base vs 奖金（bonus） vs 长期激励（LTI）、pay equity、benchmarking、job management）。
 - `specials/ai-org-talent-mechanism/2026-05-18/02-talent-density.md:114`：Payscale 2026 Report（PDF）：
 - `specials/ai-org-talent-mechanism/2026-05-19/02-talent-density.md:124`：Payscale 2026 Report（PDF）：
 
