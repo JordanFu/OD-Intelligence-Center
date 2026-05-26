@@ -9,9 +9,9 @@ echo "🔄 检查数据更新..."
 
 NEED_SYNC=false
 
-# 1. 检查是否有未暂存的变更
-if ! git diff --quiet; then
-    echo "📝 发现未暂存变更，添加到暂存区..."
+# 1. 检查是否有未暂存的变更（含未跟踪文件）
+if [ -n "$(git status --porcelain)" ]; then
+    echo "📝 发现工作区变更（含未跟踪文件），添加到暂存区..."
     git add -A
     NEED_SYNC=true
 fi
