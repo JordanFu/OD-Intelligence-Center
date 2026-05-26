@@ -2,7 +2,7 @@
 title: EY：Future of Pay Report 2026
 source: EY
 date: 待核验
-ingested: 2026-05-25
+ingested: 2026-05-26
 sourceFile: ../knowledge/raw/ey-ey-future-of-pay-report-2026.pdf
 sourceUrl: https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf
 tags: [AI组织设计, 绩效管理]
@@ -21,7 +21,7 @@ EY 把未来薪酬改革连接到技能、绩效、AI 人才、生产率和治�
 - **来源类型**：consulting
 - **原文 URL**：https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf
 - **原始文件**：`knowledge/raw/ey-ey-future-of-pay-report-2026.pdf`
-- **入库日期**：2026-05-25
+- **入库日期**：2026-05-26
 - **证据层级**：结论层可用，但具体薪酬数字需按地区/样本复核。
 
 ## 核心内容
@@ -108,15 +108,14 @@ EY 把未来薪酬改革连接到技能、绩效、AI 人才、生产率和治�
 - `specials/ai-org-talent-mechanism/2026-05-25/02-talent-density.md:37`：EY Future of Pay 2026
 - `specials/ai-org-talent-mechanism/2026-05-25/03-job-family-career-architecture.md:37`：EY Future of Pay 2026
 - `specials/ai-org-talent-mechanism/2026-05-25/04-promotion-system.md:37`：EY Future of Pay 2026
+- `specials/ai-org-talent-mechanism/2026-05-26/02-talent-density.md:13`：EY《Future of Pay 2026》报告中明确讨论技能导向薪酬（skills-based pay）与其治理挑战（含规则有效期/退出条款等）。来源：
+- `specials/ai-org-talent-mechanism/2026-05-26/02-talent-density.md:79`：EY｜Future of Pay 2026（PDF，2026）：
 - `specials/ai-org-talent-mechanism/weekly/2026-W20-quick.md:83`：EY Future of Pay 2026：
 - `specials/ai-org-talent-mechanism/weekly/2026-W20.md:83`：EY Future of Pay 2026：
 - `specials/ai-org-talent-mechanism/weekly/2026-W21-detailed.md:388`：EY Future of Pay 2026（技能溢价（skill premium） 治理建议）：
 - `specials/ai-org-talent-mechanism/weekly/2026-W21-quick.md:28`：EY Future of Pay 2026
 - `specials/ai-org-talent-mechanism/weekly/2026-W21.md:388`：EY Future of Pay 2026（技能溢价（skill premium） 治理建议）：
 - `specials/ai-org-talent-mechanism/weekly/archive/2026-W20-after-rerun.md:83`：EY Future of Pay 2026：
-- `specials/ai-org-talent-mechanism/weekly/latest-detailed.md:388`：EY Future of Pay 2026（技能溢价（skill premium） 治理建议）：
-- `specials/ai-org-talent-mechanism/weekly/latest-quick.md:28`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/weekly/latest.md:388`：EY Future of Pay 2026（技能溢价（skill premium） 治理建议）：
 
 ## 后续精读任务
 

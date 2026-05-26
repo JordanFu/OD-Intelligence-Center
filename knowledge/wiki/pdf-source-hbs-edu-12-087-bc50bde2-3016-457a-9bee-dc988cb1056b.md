@@ -2,7 +2,7 @@
 title: 12 087 bc50bde2 3016 457a 9bee dc988cb1056b
 source: hbs.edu
 date: 待核验
-ingested: 2026-05-25
+ingested: 2026-05-26
 sourceFile: ../knowledge/raw/hbs-edu-12-087-bc50bde2-3016-457a-9bee-dc988cb1056b.pdf
 sourceUrl: https://www.hbs.edu/ris/Publication%20Files/12-087_bc50bde2-3016-457a-9bee-dc988cb1056b.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 - **来源类型**：media
 - **原文 URL**：https://www.hbs.edu/ris/Publication%20Files/12-087_bc50bde2-3016-457a-9bee-dc988cb1056b.pdf
 - **原始文件**：`knowledge/raw/hbs-edu-12-087-bc50bde2-3016-457a-9bee-dc988cb1056b.pdf`
-- **入库日期**：2026-05-25
+- **入库日期**：2026-05-26
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
@@ -56,8 +56,6 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 - `specials/ai-org-talent-mechanism/2026-05-19/01-flat-organization.md:31`：- 证据基础：HBS 工作论文提供扁平化的反例与边界条件；Deloitte spans/layers 的设计框架也强调不能只动组织图不动机制。 ｜ https://www.deloitte.com/content/dam/Deloitte/us/Documents/human-capital/us-spans-and-layers-for-the-moder
 - `specials/ai-org-talent-mechanism/weekly/2026-W21-detailed.md:379`：HBS Working Paper（Flattened firm 边界条件）：
 - `specials/ai-org-talent-mechanism/weekly/2026-W21.md:379`：HBS Working Paper（Flattened firm 边界条件）：
-- `specials/ai-org-talent-mechanism/weekly/latest-detailed.md:379`：HBS Working Paper（Flattened firm 边界条件）：
-- `specials/ai-org-talent-mechanism/weekly/latest.md:379`：HBS Working Paper（Flattened firm 边界条件）：
 
 ## 后续精读任务
 

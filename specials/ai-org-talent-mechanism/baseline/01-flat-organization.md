@@ -34,12 +34,13 @@
 | 2026-05-23 | [日报](../2026-05-23/01-flat-organization.html) | 线索层/待验证 | 口径：事实与判断分离；结论层只写可追溯事实支撑的判断；弱信号进入背景材料（Context）/待验证。 | 口径：事实与判断分离；结论层只写可追溯事实支撑的判断；弱信号进入背景材料（Context）/待验证。 | 口径：事实与判断分离；结论层只写可追溯事实支撑的判断；弱信号进入背景材料（Context）/待验证。 |
 | 2026-05-24 | [日报](../2026-05-24/01-flat-organization.html) | 结论层候选 | 口径：事实与判断分离；高置信判断必须能回溯到一手/权威证据；“未验证线索”放入 Context/待验证，不硬凑结论。 | 口径：事实与判断分离；高置信判断必须能回溯到一手/权威证据；“未验证线索”放入 Context/待验证，不硬凑结论。 | 口径：事实与判断分离；高置信判断必须能回溯到一手/权威证据；“未验证线索”放入 Context/待验证，不硬凑结论。 |
 | 2026-05-25 | [日报](../2026-05-25/01-flat-organization.html) | 背景材料（Context）强证据 | 1. **AI 运营模式（operating model） 正在从工具层走向组织层。** IBM、Microsoft、Deloitte、McKinsey 的材料共同指向 智能体、人、数据、流程和治理的一体化重构。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
-| 2026-05-26 | [日报](../2026-05-26/01-flat-organization.html) | 结论层候选 | 1. **GitLab 是今日最强案例：它把层级压缩、小团队和 agent 自动化放在同一组织动作里。可信度：高。** 这比“AI 提效所以少管理层”的泛泛判断更硬，因为它有主体、时间、动作和官方来源。 | - Deloitte 的 84% 未重设岗位/工作流提醒我们：绝大多数组织仍未完成真正组织重构，因此不能看到 agent 使用就判断“组织已扁平化”。 | 待下次日报/周报继续追踪。 |
+| 2026-05-26 | [日报](../2026-05-26/01-flat-organization.html) | 线索层/待验证 | 1. **扁平化不是组织图工程，而是“协调劳动迁移工程”。可信度：高。** | - 暂不形成结论，但提示我们关注：**扁平化后的“晋升与薪酬承接”**会更敏感。岗位/头衔变宽、层级变少后，员工会将不确定性投射到公平与可预期性上（与 Amazon “Builder” 试点引发晋升路径担忧相似）。线索来源：https:/… | - 招聘薪酬：本日未新增“扁平化专属”的 JD/薪酬硬证据（与治理/agent ops 相关 JD 需继续补齐）。 |
 
 ## 知识库与 PDF 证据关联
 
 | 资料 | 对本专题的价值 |
 |---|---|
+| [腾讯 WXG 取消“组长负责制”与项目负责制试点](./knowledge/wiki/tencent-wxg-project-owner-reform-2026-05.md) | 基于《中国企业家》、竞核、搜狐/IT时代网、腾讯官方财报与股东大会报道，梳理腾讯 WXG 多部门试行项目负责制、弱化组长/总监固定管理链条的组织含义。重点用于 AI 时代扁平化、项目 owner、干部年轻化和技术组织变… |
 | [知识库主题分类与去重治理建议](./knowledge/wiki/knowledge-taxonomy-dedup-review-2026-05-22.md) | 对当前知识库重复信息与分类体系的健康检查。结论是来源页不应删除，需新增主题导航层，将 Zapier、GitLab、AI能力盘点、AI-first operating model、技术组织、绩效薪酬等高重叠主题收敛到主题… |
 | [Microsoft：2026 Work Trend Index Annual Report](./knowledge/wiki/pdf-source-microsoft-2026-work-trend-index.md) | Microsoft 2026 Work Trend Index 年度报告，基于全球 AI 工作用户调研和 Microsoft 365 匿名遥测，提出 Agent 时代组织需要从个人 AI 使用升级到工作重构、Front… |
 | [McKinsey：AI-first 时代端到端技术 workforce 设计](./knowledge/wiki/pdf-source-mckinsey-2026-ai-first-technology-workforce.md) | McKinsey Technology 文章，讨论 agentic AI 时代 CIO 如何重构技术组织的人才招聘、内部能力建设、Agent 训练和供应商策略。适合用于 AI-first 技术岗位族群和职级变化研究。 |
@@ -51,7 +52,6 @@
 | [AI 原生工程组织：团队、度量与管理层级重构](./knowledge/concepts/ai-first-engineering-org-obsidian.md) | 围绕 AI 工具能力边界重设工程组织：精简团队、度量重构、隐性知识制度化、管理层扁平化、AI 基础设施固定投入。适合作为“角色合并 vs 专家深化”的概念底座。 |
 | [技能为本的组织：职位、技能与薪酬架构的连接](./knowledge/concepts/skills-based-organization-obsidian.md) | 围绕技能而非职位角色管理人才：从技能分类法、技能评估与匹配，到招聘、发展、薪酬和劳动力规划。对“何时新增岗位/序列，何时只加技能标签”有直接参考价值。 |
 | [知音楼资料索引：人力资源行业洞察 2024](./knowledge/wiki/zhiyinlou-hr-industry-insights-2024.md) | 通过授权知音楼会话读取到的 HR 行业资料索引页，已确认并临时解析 11 份 PDF 附件，覆盖怡安医疗趋势、美世招聘与人才趋势、上市公司人效、弹性福利、人才发展指数、腾讯全域经营组织与人才洞察等材料。当前作为 Con… |
-| [知音楼 HR 知识库十主题整理](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md) | 将知音楼 HR 知识库 331 个节点、234 份 PDF 按 AI+HR、薪酬激励、组织人才、领导力、出海 HR、劳动法、咨询白皮书、推荐书籍、行业背景、学习工具十个主题重组，形成页面端可读导航和精读优先级。 |
 
 ## 当前不可越界的结论
 
