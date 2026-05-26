@@ -103,12 +103,18 @@ function updateHome() {
     const end = source.indexOf('    ];', start) + 6;
     return source.slice(0, start) + block + source.slice(end);
   }
-  const dates = fs.readdirSync(project).filter(name => /^\d{4}-\d{2}-\d{2}$/.test(name)).sort().reverse().slice(0, 6);
+  const dates = fs.readdirSync(project).filter(name => /^\d{4}-\d{2}-\d{2}$/.test(name)).sort().reverse();
   const week = isoWeek(weeklyAnchorDate());
-  const dailyItems = [
-    `      {\n        date: '${today}',\n        title: 'AI时代组织与人才机制研究状态记录',\n        status: '待正式重跑 / 非决策稿',\n        summary: '仅记录自动化触发与研究缺口；缺少新增事实、反例、薪酬/JD 信号和交叉验证时，不再冒充正式日报。',\n        href: './specials/ai-org-talent-mechanism/${today}/index.html'\n      },`,
-    ...dates.filter(date => date !== today).map(date => `      {\n        date: '${date}',\n        title: 'AI时代组织与人才机制四课题日报',\n        status: '历史版本',\n        summary: '四专题日报历史归档。',\n        href: './specials/ai-org-talent-mechanism/${date}/index.html'\n      },`),
-  ];
+  function isNonDecisionDate(date) {
+    const overview = path.join(project, date, '00-overview.md');
+    if (!fs.existsSync(overview)) return true;
+    const text = fs.readFileSync(overview, 'utf8');
+    return /^# .*研究状态记录/m.test(text) || /^>\s*研究状态记录\s*\/\s*非决策稿/m.test(text) || /待正式重跑\s*\/\s*非决策稿/.test(text);
+  }
+  const dailyItems = dates.map(date => {
+    const nonDecision = isNonDecisionDate(date);
+    return `      {\n        date: '${date}',\n        title: 'AI时代组织与人才机制四课题日报',\n        status: '${nonDecision ? '待正式重跑 / 非决策稿' : (date === today ? '已修正 / 决策稿' : '历史版本')}',\n        summary: '${nonDecision ? '仅记录自动化触发与研究缺口；缺少新增事实、反例、薪酬/JD 信号和交叉验证时，不作为正式日报。' : '四专题日报归档，包含总览和四份专题报告。'}',\n        href: './specials/ai-org-talent-mechanism/${date}/index.html'\n      },`;
+  });
   const weeklyItems = [
     `      {\n        date: '${week}',\n        title: '周报状态记录',\n        status: '待正式重跑 / 非决策稿',\n        summary: '仅记录本周入口和研究缺口；没有信息密度时不输出快速导读式结论。',\n        href: './specials/ai-org-talent-mechanism/weekly/${week}-quick.html',\n        markdown: './specials/ai-org-talent-mechanism/weekly/${week}-quick.md'\n      },`,
     `      {\n        date: '${week}',\n        title: '详细资料状态记录',\n        status: '待正式重跑 / 非决策稿',\n        summary: '仅整理当周日报入口、Context 候选和待验证线索；正式资料版需主代理重跑。',\n        href: './specials/ai-org-talent-mechanism/weekly/${week}-detailed.html',\n        markdown: './specials/ai-org-talent-mechanism/weekly/${week}-detailed.md'\n      },`,
