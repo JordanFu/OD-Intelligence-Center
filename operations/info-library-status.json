@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-05-26T10:17:38.755Z",
+  "latestDate": "2026-05-26",
+  "latestItems": 5,
+  "totalDays": 37,
+  "totalItems": 459,
+  "totalPlatforms": 259,
+  "trustStats": {
+    "⭐高": 220,
+    "📰较高": 231,
+    "💬参考": 6,
+    "💬参考（多篇学术论文交叉验证）": 1,
+    "📰较高 / ⭐高": 1
+  },
+  "missing": {
+    "summary": 0,
+    "source": 0,
+    "sourceUrl": 43,
+    "platform": 0,
+    "trust": 0,
+    "insight": 0,
+    "tags": 0,
+    "time": 1
+  },
+  "ownership": "Codex owns intelligence-center stability and information delivery; WorkBuddy remains a basic document and knowledge-management utility."
+}

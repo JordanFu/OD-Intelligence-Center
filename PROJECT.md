@@ -64,6 +64,12 @@ ai-org-research/
 
 ## 🔄 自动化工作流
 
+### 运营责任边界（2026-05-26 更新）
+
+首页「信息库」由 `digest.md` 驱动，历史上主要由 WorkBuddy 本地自动化写入并通过 `sync.sh` 生成 `auto-sync` 提交。后续情报中心的稳定运营、信息质量、证据交付和页面发布由 Codex 负责；WorkBuddy 仅作为基础文档与知识管理工具，写入内容视为候选素材，需要经过 Codex 抽检、去重、补源和质量校准。
+
+详细交接说明见 `operations/intelligence-library-ownership.md`；状态检查由 `scripts/audit-info-library.js` 生成 `operations/info-library-status.md`。
+
 ### 每日任务（8:00-8:35 并行执行）
 
 | 时间 | 任务 | Skill | 数据来源 |
