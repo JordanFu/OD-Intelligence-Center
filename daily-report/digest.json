@@ -10,8 +10,8 @@
       "totalSources": 85,
       "hypothesesVerified": 4,
       "hypothesesPending": 1,
-      "updateDate": "2026-05-25",
-      "updateItems": 381,
+      "updateDate": "2026-05-26",
+      "updateItems": 386,
       "updateSources": 20
     },
     "subPropositions": [
@@ -2025,6 +2025,71 @@
         "咨询公司跟进：McKinsey/BCG是否会发布更具体的'AI时代CHRO角色重塑'操作手册或诊断工具"
       ],
       "note": "【2026-05-25 日报】6条信息，⭐高5/📰较高1/💬参考0，6个平台（Microsoft/WEF/IBM/ServiceNow/Workday/SAP）。焦点：Microsoft WTI组织因素占67%；IBM 1600+ agents治理转向；SAP Agent Hub成system of records；ServiceNow Autonomous Workforce扩至全职能；WEF定义CHRO四角色。"
+    },
+    {
+      "date": "2026-05-26",
+      "weekday": "周二",
+      "items": 5,
+      "platforms": 5,
+      "trust": {
+        "high": 5,
+        "mid": 0,
+        "ref": 0
+      },
+      "tags": [
+        "OperatingModel",
+        "人机协作",
+        "共享服务",
+        "HRTech",
+        "AgentIdentity",
+        "AIGovernance",
+        "跨职能流程"
+      ],
+      "topPicks": [
+        {
+          "title": "Microsoft：高绩效AI团队的差距开始体现为管理设计差距",
+          "platform": "Microsoft",
+          "url": "https://www.microsoft.com/en-us/worklab/ai-at-work-one-function-wrote-the-ai-playbook-the-rest-will-follow",
+          "reason": "把manager的新职责说透了，不是支持员工多用AI，而是为人机协作定义节奏、标准、反馈和升级回路"
+        },
+        {
+          "title": "McKinsey：agentic AI迫使企业把跨职能工作重写成可编排执行流水线",
+          "platform": "McKinsey",
+          "url": "https://www.mckinsey.com/industries/industrials/our-insights/the-ai-assembly-line-strategic-imperatives-for-ceos",
+          "reason": "把AI规模化的真正前提从部署模型拉回重写end-to-end work，非常适合OD视角理解下一阶段组织改造"
+        },
+        {
+          "title": "ServiceNow：governed autonomous work正在成为企业agent的控制平面",
+          "platform": "ServiceNow",
+          "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-turns-enterprise-AI-chaos-into-control-with-the-platform-for-governed-autonomous-work/default.aspx",
+          "reason": "清楚说明企业已经从AI试验阶段进入AI控制阶段，治理对象开始变成完整的数字执行层"
+        },
+        {
+          "title": "Zendesk：employee service正被改写为policy-bound的agent-first服务链路",
+          "platform": "Zendesk",
+          "url": "https://www.zendesk.com/newsroom/articles/relate-2026/",
+          "reason": "对HR shared services很有启发，核心不是聊天入口，而是政策、权限、知识和流程能否被agent继承"
+        },
+        {
+          "title": "Okta：agent治理首先是身份与授权治理",
+          "platform": "Okta",
+          "url": "https://investor.okta.com/news-and-events/news-releases/news-details/2026/Okta-Announces-New-Blueprint-for-the-Secure-Agentic-Enterprise/default.aspx",
+          "reason": "把很多抽象的AI governance问题落到最硬的组织问题上，即谁能代表谁行动、谁被允许访问什么、谁最终负责"
+        }
+      ],
+      "trends": [
+        "组织设计的焦点正从让员工会用AI转向让管理系统会管理AI——Microsoft与McKinsey共同指向workflow design、manager orchestration和end-to-end operating model",
+        "共享服务组织正在被重写成人工团队+agent执行层+控制平面的三层结构——ServiceNow与Zendesk指向HR/法务/财务等职能正在管理数字执行层",
+        "AI governance正在具体化为身份、权限、审计和升级设计——Okta与ServiceNow共同信号：治理从原则宣言进入基础设施建设阶段",
+        "OD与IT/安全/风险的边界会进一步重叠——agent可代表组织行动后，decision rights、access rights与accountability落到同一张图上"
+      ],
+      "nextFocus": [
+        "经理人制度如何变化：manager-to-agent ratio、agent supervision span、绩效校准方式等更具体的一手材料",
+        "HR shared services的新事实标准：Workday、SAP、Oracle、ServiceNow、Zendesk是否继续公开employee service/self-service agent的流程边界与治理口径",
+        "Agent身份台账与system of record：SAP、Okta、Microsoft、Salesforce等厂商如何定义企业级agent inventory、owner、权限和KPI",
+        "中国企业的公开治理样本：国内大厂或头部企业是否开始披露agent权限治理、升级路径和组织改造实践"
+      ],
+      "note": "【2026-05-26 日报】5条信息，⭐高5/较高0/参考0，5个平台（Microsoft/McKinsey/ServiceNow/Zendesk/Okta）。焦点：Microsoft定义manager orchestration角色；McKinsey提出AI装配线需重写end-to-end work；ServiceNow建立agent控制平面；Zendesk把员工服务改写为agent-first链路；Okta把agent治理落地为身份与授权问题。"
     }
   ]
 }
