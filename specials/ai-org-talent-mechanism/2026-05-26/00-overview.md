@@ -1,54 +1,58 @@
 # 2026-05-26｜AI时代组织与人才机制四课题总览
 
-> 固定结构：总判断 → 最重要发现 → 四专题交叉关系 → 判断变化 → 关键冲突与反例 → 行动启发（六维）→ 明日优先追踪问题。
-> 方法论：MECE + 金字塔原理；事实/判断/线索分层；不够硬的材料放 Context 与待验证。
+> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
 
-## 1. 今日总判断：四个专题之间共同指向什么
+## 今日一句话结论
 
-今天更清晰的一条主线是：**AI 正在把“组织优势”从组织图层面的配置，推回到 operating model 层面的“工作如何流动、如何被审计、谁为结果兜底”**。一方面，Walmart/HP/Coinbase 等公开信息强化了“更少层级、更快交付、更强 ownership”的扁平化叙事；另一方面，Microsoft WTI 2026 把“AI 产出差异更由组织因素决定”的判断抬升为主流框架；同时，SAP/ServiceNow 的发布把 agent 叙事明确拉向“角色边界 + 治理台账（system of record）+ 可控执行层”。这意味着四专题的共同底盘不再是“组织图”，而是：**角色‑权限‑KPI‑审计‑例外升级**能否连成一条可运行的责任链。
+今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
 
-## 2. 今日最重要的 5–7 条发现
+## 今日核心判断
 
-1. **Microsoft Work Trend Index 2026**：强调 AI 时代的产出差异更受组织系统/流程（operating model）影响，而不仅是个人是否会用工具；提出“Frontier Firm”框架，提示“先改 operating model，再谈人才密度”的顺序。https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization
-2. **Coinbase（Bloomberg）推动 “one-person teams”**：个人被期望借助 AI 完成过去小团队的工作，把最小交付单元下探到“1 人 + N agents”，会显著放大对工作流资产化、审计链与例外升级机制的需求。https://www.bloomberg.com/news/articles/2026-05-19/coinbase-wants-one-person-teams-to-do-work-of-small-groups
-3. **Walmart（权威媒体）裁撤/迁址组合**：公开报道指向 Walmart 在公司岗进行较大规模调整（约 1,000 岗位的裁撤/调整与办公地点迁移），反映“结构收敛+治理边界收紧”仍是大型组织降协同成本的常用手段。https://www.retaildive.com/news/walmart-cuts-1000-jobs-relocates-workers/713095/
-4. **ServiceNow（公司一手）把 “Autonomous Workforce” 扩展到 HR/法务/财务**：以 role-scoped “AI specialists/数字员工”方式表达，可视为“共享服务/职能条线的执行层组织化”信号。https://newsroom.servicenow.com/press-releases/details/2026/servicenow-brings-autonomous-workforce-to-every-major-business-function/default.aspx
-5. **SAP（公司一手）把 Business AI/agent 与 system of record/治理叙事绑定**：提示 agent 进入企业运营模式后，必须有角色映射、KPI 与审计台账的承接接口。https://news.sap.com/2026/05/sap-sapphire-keynote-business-ai-platform-power-autonomous-enterprise/
-6. **晋升机制的风险信号**：媒体转引显示部分组织尝试把晋升与“AI adoption”直接绑定（需谨慎对待），提示“指标投机/表演式 adoption”风险需要制度设计防范。https://www.techradar.com/pro/accenture-tells-workers-getting-a-promotion-will-require-regular-adoption-of-ai
+1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
+2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
+3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
 
-## 3. 四专题交叉关系：扁平化 × 人才密度 × 岗位序列 × 晋升机制如何互相影响
+## 今日背景材料（Context）
 
-- **扁平化（01）依赖人才密度（02）**：一人小队/更少管理层级会把更多决策与例外处理下放；若缺少“问题定义‑编排‑验证‑治理”的复合能力与工具连接，组织会被返工与事故拖垮。
-- **人才密度（02）反过来要求岗位/序列（03）给出共同语言**：当 agent 进入 role-scoped 执行层，岗位族群（job family）/角色分类（role taxonomy）会成为权限、审计与 KPI 的锚点；没有共同语言就无法校准与定价。
-- **岗位/序列（03）决定晋升机制（04）的可解释性**：角色边界更端到端后，晋升必须从“title 变化”转向“证据包+校准”，否则公平与解释性崩溃。
-- **晋升机制（04）反向约束扁平化与人才密度激励方向**：若奖励“AI 使用量”，会把组织推向表演式 adoption；若奖励“工作流资产化+治理质量”，才能形成正反馈。
+- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
+- 继续关注 岗位与工作流重设计（job/workflow redesign）、智能体治理（agent governance）、基于技能的薪酬（skills-based pay） 和 薪酬带宽（pay band） 等方向，但必须用当日新证据验证。
+- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
 
-## 4. 今日判断变化：哪些判断被增强、削弱或修正
+## 今日新增证据地图
 
-- **增强**：AI 时代的竞争优势更多来自 operating model（组织因素）而非单点个人能力（WTI 2026 强化该方向）。
-- **增强**：agent 正在被厂商叙事推动进入“角色边界+治理台账”的组织资产范畴（SAP/ServiceNow），岗位体系将更像治理基础设施。
-- **需要警惕**：把晋升与 AI adoption 指标绑定的倾向可能出现，必须用“贡献度+可靠性”替代“使用量”。
+| 渠道 | 当前状态 | 必须补齐 |
+|---|---|---|
+| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
+| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
+| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
+| 招聘 JD 与薪酬 | 待检索 | title、职责、薪资区间、level、地区、IC/Manager 边界 |
 
-## 5. 关键冲突与反例：哪些信息相互矛盾，需要继续验证
+## 线索层
 
-- **“更扁平=更快” vs “更扁平=更脆弱”**：one-person teams 可能提升速度，但也可能带来单点风险、知识孤岛与重复造轮子；关键在于可复用资产与审计链是否存在。
-- **厂商“治理即产品” vs 组织“治理即能力”**：SAP/ServiceNow 的发布强调平台能力，但客户侧仍需承担角色映射、流程重写、数据治理与变更沟通成本。
-- **“AI adoption 指标” vs “AI contribution 指标”**：把使用量当贡献会引发投机，必须建立可审计的结果与质量指标。
+- 追踪 FDE、AI 工作流负责人、智能体运营（agent ops）、AI 治理（AI governance）、基于技能的薪酬（skills-based pay）等头衔是否形成稳定 岗位族群（job family）。
+- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
+- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
 
-## 6. 行动启发：按战略‑组织架构‑岗位序列‑人才密度‑晋升激励‑沟通落地六个维度归纳
+## 待补齐的落地问题
 
-1) **战略**：把 AI 从“工具投入”升级为“operating model 改造”；用可追溯 KPI（周期/返工/异常升级/审计完备度）替代泛化 adoption。
-2) **组织架构**：用“协调劳动迁移清单”驱动扁平化：把 approval/handoff/routing/reporting 拆解后逐项系统化/平台化/agent 化。
-3) **岗位序列**：把 role taxonomy 当作治理工程：新增岗位/序列必须同时给出评价字段、薪酬承接接口与校准机制；短期稀缺优先用技能标签+稀缺系数+项目激励。
-4) **人才密度**：把人才密度做成 operating model 供给：连接（tools/data）+ 护栏（policy/audit）+ 责任链（accountability），减少人类 middleware。
-5) **晋升激励**：窗口制校准为底盘 + 例外通道承接项目型高贡献；晋升证据包奖励 workflow redesign/可复用资产/治理质量，不奖励 AI 使用次数。
-6) **沟通落地**：避免“低价值人力”话术；把承诺具体化为转岗机制、训练路径、护栏与审计安排，并可兑现。
+正式重跑必须把证据转化为战略、岗位、职级、薪酬和激励机制建议；没有证据链时，只记录缺口，不输出管理建议。
 
-## 7. 明日优先追踪问题
+## 待验证清单与下一步计划
 
-1. Microsoft WTI 2026 的方法学细节：组织因素如何量化？哪些是可落地的诊断维度与问卷项？
-2. Coinbase one-person teams 的配套机制：是否存在统一的质量门禁、复用资产仓库与异常升级路径？
-3. Walmart 组织调整的最权威证据链：公司公开声明/原始报道/明确影响组织与层级。
-4. SAP/ServiceNow 的 agent governance 在客户侧的真实落地：谁做 role mapping、谁做 KPI、谁兜底异常？
-5. 国内可追溯案例补强：是否出现公开的岗位族群/职级指南更新，或“AI 贡献度/证据包”晋升规则片段？
+1. 检索今日新增官方/一手材料，确认是否有新公司案例。
+2. 检索权威媒体与咨询报告，补齐改革时间线、员工影响和争议。
+3. 检索招聘 JD 与薪酬信号，验证岗位变宽、专家深化和技能溢价。
+4. 收集社媒/职场平台弱信号，只进入线索池，不进入结论层。
+5. 主代理交叉验证后，将可互证内容升级为正式日报。
 
+## 来源索引
+
+- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
+- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
+- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
+- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
+- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
+- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价（AI skill premium）、基于技能的薪酬（skills-based pay）、退出条款（sunset clauses）
+- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
+- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
+- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池

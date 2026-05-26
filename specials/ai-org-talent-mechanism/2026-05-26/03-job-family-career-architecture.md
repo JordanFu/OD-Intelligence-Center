@@ -1,84 +1,50 @@
-# 2026-05-26｜专题三：岗位、族群、序列的持续建设（Job Family & Career Architecture）
+# 2026-05-26｜专题三：岗位、族群、序列持续建设
 
-> 固定结构：一句话判断 → 新增事实 → 核心判断 → 案例事实还原 → Context → 证据地图 → 行动启发 → 待验证 → 来源索引。
-> 口径：事实与判断分离；高置信判断必须能回溯到一手/权威证据；低信号不硬凑结论。
+> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
 
-## 1. 今日一句话专题判断
+## 今日一句话结论
 
-岗位/族群/序列在 AI 时代正在从“写岗位说明（JD）”迁移为“**写清楚角色—权限—KPI—审计—责任链**”的体系工程：当企业软件与研究叙事开始把 agent 映射到业务角色与 KPI，并把 agent 纳入 system of record（台账/治理）时，岗位体系不再只是 HR 的分类法，而会成为**数字劳动力与人类劳动力共用的 operating model 语言层**；这会放大一个判断：**是否新增序列，越来越取决于能否给出可执行的治理与薪酬承接接口，而不是命名是否漂亮。**
+今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
 
-## 2. 今日新增事实：只写可追溯事实（注明来源）
+## 今日核心判断
 
-- **SAP（公司一手）**：SAP 在 Sapphire 相关材料中强调“Business AI 平台 + agent”的组织叙事，并提出需要把 AI（含 agent/assistant）嵌入企业流程与治理系统（system of record）以实现可控执行与可审计管理。https://news.sap.com/2026/05/sap-sapphire-keynote-business-ai-platform-power-autonomous-enterprise/
-- **ServiceNow（公司一手）**：ServiceNow 将其“Autonomous Workforce”扩展到 HR/法务/财务等职能，并以“AI specialists/数字员工”的角色边界表述，强调以角色为边界的执行层扩展。https://newsroom.servicenow.com/press-releases/details/2026/servicenow-brings-autonomous-workforce-to-every-major-business-function/default.aspx
-- **WEF（国际组织/框架材料）**：WEF 提出 AI 转型需要 work redesign，强调 HR 需要参与组织与工作的重新设计（为岗位/族群/序列的“何时新增、何时不新增”提供原则性上位框架）。https://www.weforum.org/stories/2026/05/ai-transformation-reshaping-work-hr-leaders-must-help-redesign-it/
-- **Microsoft WTI 2026（公司研究）**：WTI 2026 提及 AI 时代组织需要重构 operating model（从工作如何流动、如何交付的角度），这对岗位族群/序列的“颗粒度”与“端到端责任”定义是一种外部趋势支撑。https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization
+1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
+2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
+3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
 
-## 3. 今日核心判断：3–5 条（每条注明可信度、证据基础、为什么重要）
+## 今日背景材料（Context）
 
-1. **岗位体系的“共同语言层”正在从人类岗位扩展到“人+agent”的角色映射（可信度：中高）。**
-   - 证据基础：SAP/ServiceNow 的发布把 agent/数字员工写成“角色边界清晰的执行层”，并绑定治理与 system of record 叙事。
-   - 为什么重要：未来 job family/role taxonomy 可能成为企业治理 agent 的基础设施；岗位体系不再只是 HR 文档，而是权限、审计与 KPI 的锚点。
+- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
+- 继续关注 岗位与工作流重设计（job/workflow redesign）、智能体治理（agent governance）、基于技能的薪酬（skills-based pay） 和 薪酬带宽（pay band） 等方向，但必须用当日新证据验证。
+- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
 
-2. **“颗粒度变粗/更端到端”与“更专业化/高溢价”会并存，关键在于：哪里需要判断与责任链，哪里适合被规则化（可信度：中）。**
-   - 证据基础：WTI 强调 operating model 重构；ServiceNow/SAP 强调 role-scoped 执行层，暗示事务劳动可被压缩。
-   - 为什么重要：岗位颗粒度的选择不是审美问题，而是风险与治理问题：越端到端，越要求证据包、审计链与薪酬承接更清晰；越专业化，越要求市场稀缺系数与技能认证机制。
+## 今日新增证据地图
 
-3. **“新建岗位/族群/序列”越来越像一种治理承诺：你必须同时回答‘怎么评估、怎么晋升、怎么定价、怎么校准’（可信度：中高）。**
-   - 证据基础：厂商叙事把“角色/KPI/治理台账”捆绑出现；WEF 把 redesign 与 transition guardian 放到 HR 责任中。
-   - 为什么重要：如果业务提“新序列”，但无法给出治理与薪酬承接接口，往往只是为关键员工争取溢价的组织语言包装，长期会伤公平与可解释性。
+| 渠道 | 当前状态 | 必须补齐 |
+|---|---|---|
+| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
+| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
+| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
+| 招聘 JD 与薪酬 | 待检索 | title、职责、薪资区间、level、地区、IC/Manager 边界 |
 
-4. **方法论更新：三类需求应尽量避免新增序列（可信度：中）。**
-   - 证据基础：结合近期材料的共同趋势（role mapping、治理台账、operating model），我们更容易识别“假需求”。
-   - 为什么重要：新增序列是高不可逆成本（评审、薪酬带宽、校准、人才盘点、系统配置），需要更严格门槛。
+## 线索层
 
-## 4. 重点案例事实还原：ServiceNow “Autonomous Workforce to every major business function”（以公司新闻稿为边界）
+- 追踪 FDE、AI 工作流负责人、智能体运营（agent ops）、AI 治理（AI governance）、基于技能的薪酬（skills-based pay）等头衔是否形成稳定 岗位族群（job family）。
+- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
+- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
 
-- **背景**：企业希望把 AI 从点状助手升级为可控的执行层，尤其在 HR/法务/财务等高流程密度职能中。
-- **时间线（以公开新闻稿为准）**：
-  - **2026**：ServiceNow 宣布将 Autonomous Workforce 扩展到 HR/法务/财务等主要职能。
-- **动作**：
-  - 用“role-scoped AI specialists”描述 AI 执行能力的组织化形态，强调按职能与角色边界扩展。
-- **机制含义（判断层，用于 OD 解读）**：
-  - 如果 AI specialist 以角色为边界，组织必须提供：角色定义（role taxonomy）、输入/输出标准、权限与审计、异常升级与兜底责任，否则无法规模化。
-- **可借鉴点**：把“岗位/角色”重新定义为“可被系统/agent 承接的责任集合”，倒逼工作标准化与治理。
-- **不可照搬点**：厂商方案不等于组织能力；客户侧仍需投入大量岗位/流程/数据治理工作。
+## 待补齐的落地问题
 
-## 5. Context 层：暂不形成结论，但提示我们关注……
+正式重跑必须回答：是新建岗位族群、保留技能标签，还是调整薪酬带宽和项目激励；必须同时验证岗位合并与专家岗位深化。
 
-- **业务提“新岗位/新序列”常是薪酬溢价诉求**：若不把“市场稀缺系数/项目激励/专项津贴/带宽调整”的替代方案摆出来，就容易用组织结构去掩盖激励问题。
-- **Role taxonomy 可能成为新的政治战场**：谁定义角色，谁就部分定义了 KPI 与资源；需要设计跨职能的治理机制（人才委员会/经营委员会接口）。
+## 来源索引
 
-## 6. 证据地图：官方/一手｜权威媒体/咨询｜公司案例｜学术/研究｜招聘薪酬｜社媒/职场线索｜内部库/知识库
-
-- 官方/一手：SAP 新闻稿｜ServiceNow 新闻稿｜WEF 框架文章｜Microsoft WTI 2026。
-- 权威媒体/咨询：本期暂无新增可完整还原的权威媒体案例（下一步补强“岗位/族群/序列变革”的公开制度文本）。
-- 公司案例：ServiceNow（role-scoped AI specialists）｜SAP（system of record + agent 治理叙事）。
-- 学术/研究：本期暂无新增高置信学术实证（继续沿用内部库对“岗位颗粒度变化/职业架构重分类”的历史材料）。
-- 招聘薪酬：重点观察“role taxonomy owner / agent governance / workflow architect / audit & compliance”岗位的 JD 与薪酬信号。
-- 社媒/职场线索：用于校验岗位颗粒度变化的员工视角，但不入结论层。
-- 内部库/知识库：`specials/ai-org-talent-mechanism/baseline/`（基线档案）｜`digest.md`（历史 job architecture 材料）｜`specials/ai-org-talent-mechanism/2026-05-23/03-job-family-career-architecture.md`（上一轮方法论）。
-
-## 7. 对我们行动的启发
-
-- **新增岗位/序列的“硬门槛”**：必须同时给出 role definition（边界）、评价字段（证据包/审计）、薪酬承接（带宽/稀缺系数）、校准机制（committee）。
-- **优先用“技能标签 + 市场稀缺系数 + 项目激励”替代新增序列**：当需求只是短期稀缺或项目性溢价时，避免结构性扩张。
-- **把 role taxonomy 当作治理工程**：建立跨 HR/业务/法务/信息安全的角色变更评审与审计机制，避免角色泛滥。
-
-## 8. 待验证清单与下一步搜索路径
-
-1. SAP/ServiceNow 的“角色映射到 KPI/治理台账”在真实客户侧如何落地：谁负责 role taxonomy 与校准？
-   - Query：`SAP Agent Hub role mapping KPI customer case study governance system of record`
-2. 国内公司是否出现公开的 job family / career architecture 更新：是否有岗位族群重构、职级指南、或岗位重分类项目的制度文本？
-   - Query：`岗位族群 重构 职级 指南 岗位重分类 制度 文本 2026`
-3. 业务“新序列诉求”识别：哪些信号表明这是为个体溢价包装？哪些表明确有结构性能力缺口？
-   - Query：`new job family request compensation premium market scarcity allowance pay band adjustment`
-
-## 9. 来源索引
-
-- SAP：https://news.sap.com/2026/05/sap-sapphire-keynote-business-ai-platform-power-autonomous-enterprise/
-- ServiceNow：https://newsroom.servicenow.com/press-releases/details/2026/servicenow-brings-autonomous-workforce-to-every-major-business-function/default.aspx
-- WEF：https://www.weforum.org/stories/2026/05/ai-transformation-reshaping-work-hr-leaders-must-help-redesign-it/
-- Microsoft WTI：https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization
-- 内部信息库：`specials/ai-org-talent-mechanism/baseline/` ｜ `digest.md` ｜ `specials/ai-org-talent-mechanism/2026-05-23/03-job-family-career-architecture.md`
-
+- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
+- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
+- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
+- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
+- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
+- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价（AI skill premium）、基于技能的薪酬（skills-based pay）、退出条款（sunset clauses）
+- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
+- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
+- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池

@@ -40,6 +40,12 @@ jobs:
           TZ: Asia/Shanghai
         run: node scripts/ensure-ai-org-reports.js
 
+      - name: Run report quality gate
+        env:
+          REPORT_DATE: ${{ inputs.report_date }}
+          TZ: Asia/Shanghai
+        run: node scripts/quality-gate-ai-org-reports.js
+
       - name: Ingest PDF references into knowledge base
         env:
           TZ: Asia/Shanghai
@@ -63,6 +69,6 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html assets specials daily-report knowledge pdfs report-viewer.html knowledge-viewer.html scripts/ensure-ai-org-reports.js scripts/ingest-pdf-references.js scripts/update-ai-org-baselines.js scripts/render-markdown-page.js scripts/render-special-html.js scripts/enhance-report-sharing.js
+          git add index.html assets specials daily-report knowledge pdfs report-viewer.html knowledge-viewer.html scripts/ensure-ai-org-reports.js scripts/ingest-pdf-references.js scripts/update-ai-org-baselines.js scripts/render-markdown-page.js scripts/render-special-html.js scripts/enhance-report-sharing.js scripts/quality-gate-ai-org-reports.js
           git commit -m "auto-fallback: ensure AI org reports"
           git push
