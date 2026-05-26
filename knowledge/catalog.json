@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "lastUpdated": "2026-05-25",
+  "lastUpdated": "2026-05-26",
   "mode": "karpathy-llm-wiki",
   "schema": "knowledge/CLAUDE.md",
   "categories": {
@@ -104,6 +104,38 @@
     }
   ],
   "reports": [
+    {
+      "id": "tencent-wxg-project-owner-reform-2026-05",
+      "title": "腾讯 WXG 取消“组长负责制”与项目负责制试点",
+      "originalTitle": "Tencent WXG project owner reform and removal of group-leader responsibility trial",
+      "author": "Codex research synthesis",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计",
+        "组织设计",
+        "职级改革",
+        "绩效管理",
+        "变革管理",
+        "人才发展"
+      ],
+      "date": "2026-05-22",
+      "uploadDate": "2026-05-26",
+      "description": "基于《中国企业家》、竞核、搜狐/IT时代网、腾讯官方财报与股东大会报道，梳理腾讯 WXG 多部门试行项目负责制、弱化组长/总监固定管理链条的组织含义。重点用于 AI 时代扁平化、项目 owner、干部年轻化和技术组织变革研究。",
+      "summaryFile": "./knowledge/wiki/tencent-wxg-project-owner-reform-2026-05.md",
+      "fileName": "web sources",
+      "fileSize": "summary only",
+      "tags": [
+        "腾讯",
+        "WXG",
+        "组长负责制",
+        "项目负责制",
+        "扁平化",
+        "干部年轻化",
+        "AI组织变革"
+      ],
+      "originalUrl": "https://www.ce.cn/xwzx/gnsz/gdxw/202605/t20260522_2982969.shtml"
+    },
     {
       "id": "knowledge-taxonomy-dedup-review-2026-05-22",
       "title": "知识库主题分类与去重治理建议",
