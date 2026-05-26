@@ -1,7 +1,7 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-05-26 14:23
+> 最后更新：2026-05-27 06:24
 
 ---
 
@@ -23,6 +23,45 @@
 - 💬参考：社交平台/社区讨论，需交叉验证
 
 -->
+
+## 2026-05-27
+
+### [1] Workday：Agent System of Record 转正，企业开始把 agent 纳入正式台账，而不是继续把它们当插件
+- **事件摘要**：Workday 于 2026 年 5 月 21 日公布 FY2027 Q1 财报时披露，Workday Agent System of Record 已正式 general availability，可为客户提供对全部 AI agents 的 visibility 与 control。这个信号的关键不在于又多了一个 agent 管理功能，而在于 Workday 已明确把 agent 视为与 people、money 并列的正式管理对象，意味着企业开始为数字劳动力建立可持续的台账、权限和生命周期管理基础。
+- **来源**：Workday（https://newsroom.workday.com/2026-05-21-Workday-Announces-Fiscal-2027-First-Quarter-Financial-Results）
+- **来源平台**：Workday
+- **来源可信度**：⭐高
+- **OD启示**：对 OD 来说，这意味着 agent 治理正在从“工具目录”升级为“组织资产管理”。未来企业不能只问某个团队用了什么 AI，还要回答每个 agent 的 owner、角色边界、调用权限、成本归属、升级路径和停用机制。HRIS/ERP 正在成为数字劳动力的 system of record，OD 也需要把岗位体系旁边的“agent 编制台账”设计出来。
+- **标签**：#Workday #AgentSystemOfRecord #数字劳动力 #治理台账 #OperatingModel
+- **抓取时间**：2026-05-27 06:24
+
+### [2] Workday：Sana 从 HR/Finance 扩到 ITSM 与差旅，员工服务组织开始被重写成一层跨职能的政策执行系统
+- **事件摘要**：Workday 于 2026 年 5 月 21 日发布 Sana for IT Service Management 和 Travel Agent。官方信息显示，新 agent 可处理入离职、权限变更、常见 IT 请求，以及差旅行程、预订、审批、报销等流程，并且直接继承 Workday 已有的 security、controls、approval chains 与 policy information。变化重点不是又多了两个场景，而是 HR、Finance、IT 与差旅支持开始被拉进同一套对话式执行层。
+- **来源**：Workday（https://newsroom.workday.com/2026-05-21-Workday-Announces-Sana-for-IT-Service-Management-and-New-Travel-Agent）
+- **来源平台**：Workday
+- **来源可信度**：⭐高
+- **OD启示**：这条信息比单纯的 HR Tech 升级更重要。共享服务的组织边界正在从“按职能分队列”转向“按政策和例外统一编排”。一旦 IT 支持、员工服务、差旅和费用控制都进入同一 agent 层，shared services 的核心能力就不再只是处理工单，而是维护政策逻辑、审批链、例外升级和跨系统执行质量。
+- **标签**：#Workday #SharedServices #ITSM #Travel #PolicyExecution
+- **抓取时间**：2026-05-27 06:24
+
+### [3] ServiceNow：Project Arc 把长时 autonomous agent 放上员工桌面，运行时审计开始成为正式治理要求
+- **事件摘要**：ServiceNow 于 2026 年 5 月 5 日宣布与 NVIDIA 扩展合作，推出由 NVIDIA OpenShell 保护、由 ServiceNow AI Control Tower 治理的 Project Arc。官方表述非常直接：该桌面 agent 可以“think, write code, execute, and adapt”，在不依赖预建 workflow 的情况下完成复杂多步工作；同时 Control Tower 会记录其读取的文件、执行的命令和调用的 API，并把治理范围从 desktops 延伸到 data centers。
+- **来源**：ServiceNow（https://investor.servicenow.com/news/news-details/2026/ServiceNow-extends-agentic-AI-governance-from-desktops-to-data-centers-with-NVIDIA/default.aspx）
+- **来源平台**：ServiceNow
+- **来源可信度**：⭐高
+- **OD启示**：这意味着 agent 治理开始进入“运行时”阶段。过去很多组织讨论的是准不准上 agent，下一阶段更现实的问题是：谁批准 agent 读文件、谁承担其执行动作的责任、谁审计异常行为。只要 agent 真正进入桌面和端点执行，OD、IT、安全和法务就必须共同定义新的审批权、例外升级和问责机制。
+- **标签**：#ServiceNow #ProjectArc #RuntimeGovernance #AIGovernance #DecisionRights
+- **抓取时间**：2026-05-27 06:24
+
+### [4] Slack：开始把“agent 入口”和“agent 管理”收回到协作中枢，组织默认工作界面正在变成人与 agent 共用的操作台
+- **事件摘要**：Slack 于 2026 年 4 月 15 日发布新一代 agent workspace 方向，明确提出 Slackbot 将演进为跨数据、应用与 workflow 的对话式编排入口，同时在 `Tools > Agents` 提供统一 agent browser，用于浏览 AgentExchange、管理 active agents 与恢复最近对话。官方逻辑很清楚：如果员工无法在工作流里找到并调用 agent，就会回到手工流程；如果 IT 无法统一治理，shadow AI 会迅速扩散。
+- **来源**：Slack（https://slack.com/blog/news/slack-is-where-agents-work）
+- **来源平台**：Slack
+- **来源可信度**：⭐高
+- **OD启示**：这条信号说明协作平台正在争夺“人机协作操作系统”的位置。对组织设计的影响不是入口换皮，而是工作分发、agent 发现、权限配置和跨职能协作会被重新锚定在同一个界面里。未来 manager 和项目 owner 可能管理的不是一组人，而是一组人加一组可随时被路由和调用的 agents。
+- **标签**：#Slack #AgentWorkspace #WorkflowOrchestration #协作平台 #ShadowAI
+- **抓取时间**：2026-05-27 06:24
+
 
 ## 2026-05-26
 
