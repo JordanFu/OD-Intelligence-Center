@@ -1,7 +1,7 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-05-25 09:45
+> 最后更新：2026-05-26 14:23
 
 ---
 
@@ -23,6 +23,54 @@
 - 💬参考：社交平台/社区讨论，需交叉验证
 
 -->
+
+## 2026-05-26
+
+### [1] Microsoft：高绩效团队与低绩效团队的差距，开始取决于管理者能否为人机协作定义清晰节奏、标准与反馈回路
+- **事件摘要**：Microsoft 于 2026 年 5 月 7 日发布《The AI playbook: 4 patterns shaping human-agent teams》，总结当前企业中正在形成的人机协作工作模式。文章强调，高绩效 AI 团队并不是简单“多用工具”，而是更早建立了四类组织实践：围绕 outcomes 重新定义岗位边界、把 manager 角色从任务分派者转成 work orchestration owner、把 agent 接入真实工作流而非孤立试点、以及用明确反馈机制持续修正 agent 行为。Microsoft 的判断很直接：AI 价值差距会越来越表现为组织设计差距。
+- **来源**：Microsoft WorkLab（https://www.microsoft.com/en-us/worklab/ai-at-work-one-function-wrote-the-ai-playbook-the-rest-will-follow）
+- **来源平台**：Microsoft
+- **来源可信度**：⭐高
+- **OD启示**：这条信息对 OD 的价值在于把“manager support”进一步具体化了。真正决定 AI 团队产出的，不只是员工会不会写 prompt，而是管理层是否把人机分工、反馈节奏、质量标准和工作流接口设计清楚。未来 manager 的核心职责会更像“数字劳动力编排者”，而绩效管理也要从评价个人执行量，转向评价人机系统的产出质量、升级判断与持续改进能力。
+- **标签**：#Microsoft #人机协作 #ManagerRole #绩效管理 #WorkflowDesign
+- **抓取时间**：2026-05-26 14:23
+
+### [2] McKinsey：agentic AI 不是加一层工具，而是在迫使企业把跨职能工作重写成“可拆解、可编排、可度量”的执行流水线
+- **事件摘要**：McKinsey 于 2026 年 5 月 13 日发布《The AI assembly line: Strategic imperatives for CEOs》，指出 agentic AI 真正改变的不是单点自动化，而是企业如何设计 end-to-end work。文章强调，过去数字化更多优化单个步骤，而 agentic AI 开始把任务分解、路由、例外处理和跨团队协同纳入统一编排逻辑；同时，成功的大型数字与 AI 变革更可能由 CEO 直接牵引，并通过更清晰的 operating model 把技术、业务与组织改造捆在一起。核心信号是：AI 规模化的前提不再只是技术堆栈，而是组织能否把工作本身重构为可治理的生产系统。
+- **来源**：McKinsey（https://www.mckinsey.com/industries/industrials/our-insights/the-ai-assembly-line-strategic-imperatives-for-ceos）
+- **来源平台**：McKinsey
+- **来源可信度**：⭐高
+- **OD启示**：这篇材料强化了一个越来越明确的判断：组织设计的基本单位正在从岗位和部门，逐步转向“端到端工作系统”。如果工作本身没有被拆成清晰的 handoff、决策点、升级口和度量口径，agent 就只能停留在 demo 层。对 OD 来说，下一阶段最值钱的能力不是做 adoption campaign，而是和业务一起重写跨职能流程、定义 exception design，并把组织结构与 workflow architecture 对齐。
+- **标签**：#McKinsey #OperatingModel #跨职能流程 #ExceptionDesign #CEO
+- **抓取时间**：2026-05-26 14:23
+
+### [3] ServiceNow：企业开始把 agent 治理做成控制平面，目标不是“多几个 agent”，而是把 AI chaos 收敛成可审计、可问责、可运营的自治工作体系
+- **事件摘要**：ServiceNow 于 2026 年 5 月 5 日发布“the platform for governed autonomous work”，明确提出企业当前面临的问题已从 AI experimentation 转向 AI control。官方把重点放在统一平台、governance layer、full auditability 与跨职能执行能力上，并继续把 Autonomous Workforce 延伸到 employee services、CRM、security、HR、legal、finance、procurement 等主要职能。ServiceNow 给出的方向并非单个助手功能，而是为 agent 建立统一控制面，让数字执行层在权限、流程、审计和升级路径上服从企业正式运营规则。
+- **来源**：ServiceNow（https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-turns-enterprise-AI-chaos-into-control-with-the-platform-for-governed-autonomous-work/default.aspx）
+- **来源平台**：ServiceNow
+- **来源可信度**：⭐高
+- **OD启示**：这意味着共享服务与职能组织的设计逻辑会进一步平台化。未来 HR、法务、财务、采购等组织要管理的不只是人工团队和 SOP，还包括一层不断扩张的 agent 执行系统。OD 需要把 owner、权限边界、升级路径、风险分层和审计要求前置进组织设计，而不是等工具上线后再补治理。真正稀缺的组织能力，将是把 agent 纳入正式 operating rhythm 与问责机制。
+- **标签**：#ServiceNow #GovernedAutonomousWork #ControlPlane #共享服务 #问责机制
+- **抓取时间**：2026-05-26 14:23
+
+### [4] Zendesk：Autonomous Service Workforce 把员工服务与客户服务一起纳入 agent 执行层，组织关键不在入口，而在政策、权限与业务逻辑能否被准确继承
+- **事件摘要**：Zendesk 于 2026 年 5 月 19 日发布 Autonomous Service Workforce 更新，提出 AI agents 正在同时覆盖 customer service 与 employee service 场景。官方重点强调，这些 agents 并不是只会对话，而是能在 Slack、Teams 等工作界面中调用企业流程，并继承 business logic、permissions、policies 与 knowledge。其产品方向清楚表明，企业服务型组织正在把“员工提问 - 系统判断 - 流程执行 - 例外升级”重写为一套 agent-first 的服务链路，而不是只给原有工单系统外挂聊天层。
+- **来源**：Zendesk Newsroom（https://www.zendesk.com/newsroom/articles/relate-2026/）
+- **来源平台**：Zendesk
+- **来源可信度**：⭐高
+- **OD启示**：这对 HR Tech 和员工服务团队是非常直接的信号。未来员工服务能力的上限，不在于 FAQ 是否完备，而在于组织能否把政策、权限、知识、流程规则和例外判断结构化，让 agent 在真实约束下执行。换句话说，employee service 的组织设计正在从“热线与工单队列管理”转向“政策执行系统设计”，而 HR shared services 也会更像一个持续训练和治理数字服务劳动力的团队。
+- **标签**：#Zendesk #EmployeeService #HRTech #PolicyExecution #SharedServices
+- **抓取时间**：2026-05-26 14:23
+
+### [5] Okta：agentic enterprise 的第一治理问题不是模型能力，而是“这些 agent 到底是谁、能访问什么、代表谁行动”
+- **事件摘要**：Okta 于 2026 年 3 月 16 日发布面向 secure agentic enterprise 的官方蓝图，强调企业进入 agent 时代后，最先失控的往往不是模型，而是 identity、access 和 delegation。材料把核心治理问题归结为三件事：组织是否能识别所有 agent 身份、是否能限制其访问范围、以及是否能追溯 agent 是代表哪个人或哪个系统在执行动作。Okta 还强调，企业需要把 agent 作为一等身份对象纳入目录、授权与审计体系，说明数字劳动力一旦进入正式流程，就必须像员工和系统账户一样被纳入身份治理。
+- **来源**：Okta Investor Relations（https://investor.okta.com/news-and-events/news-releases/news-details/2026/Okta-Announces-New-Blueprint-for-the-Secure-Agentic-Enterprise/default.aspx）
+- **来源平台**：Okta
+- **来源可信度**：⭐高
+- **OD启示**：这条信息对组织设计的意义在于，未来很多 decision rights 争议会表现成身份与授权问题。一个 agent 能否代表经理审批、代表 HR 调取记录、代表采购发起动作，背后都是组织权责映射问题。OD、IT、信息安全和风险团队需要共同定义“数字身份架构”，否则企业很容易出现 agent 在流程中“能做事但没人真正授权、出了问题也没人真正负责”的治理真空。
+- **标签**：#Okta #AgentIdentity #AccessControl #DecisionRights #AIGovernance
+- **抓取时间**：2026-05-26 14:23
+
 
 ## 2026-05-25
 
