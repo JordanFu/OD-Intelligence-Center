@@ -1,50 +1,68 @@
-# 2026-05-26｜专题四：未来组织的晋升机制
+# 2026-05-26｜专题四：未来组织的晋升机制（修正版）
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+> 修正口径：晋升机制不能奖励“用了多少 AI”，而要奖励可审计的人-agent 系统贡献。
 
-## 今日一句话结论
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+## 0. 本次修正说明
 
-## 今日核心判断
+昨日/今日自动兜底产物的问题不是“没写完”，而是把缺证据的状态稿放进了日报入口，降低了情报中心可信度。本次修正采用 AnySearch + 浏览复核补证据，并做三类处理：
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+1. **删除伪结论**：凡只有通用趋势、没有主体/时间/动作/来源的表述，不再作为判断。
+2. **补充事实链**：每个判断至少对应官方/一手、权威媒体、招聘/JD/薪酬中的一种证据。
+3. **保留不确定性**：对 Amazon builder、Comcast JD、Anthropic 招聘镜像等材料明确标注边界，不把线索包装成趋势。
 
-## 今日背景材料（Context）
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计（job/workflow redesign）、智能体治理（agent governance）、基于技能的薪酬（skills-based pay） 和 薪酬带宽（pay band） 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+## 1. 今日一句话专题判断
 
-## 今日新增证据地图
+AI 时代晋升机制的关键不是“开不开绿色通道”，而是如何把工作流重构、agent 编排、质量验证、风险治理和复用资产变成可校准证据。
 
-| 渠道 | 当前状态 | 必须补齐 |
+## 2. 新增事实
+
+- GitLab Act 2 把 agent 自动化 reviews、approvals、handoffs 写进组织动作；这意味着许多传统晋升叙事中的“协调复杂度”会被系统承接。
+- Anthropic Model Evaluations 岗位强调 dashboard、checkpoint 评估、异常诊断、指标可信度；这类能力未来很可能成为高级技术/平台岗位晋升证据。
+- Amazon builder 试点中，员工担心 title 合并影响 promotion 和 compensation path；说明去头衔化会加大对内部 level 和证据包的依赖。
+
+## 3. 核心判断
+
+1. **晋升证据需要从个人产出转向系统杠杆。可信度：高。** 当 agent 承接一部分执行和协调，晋升材料必须说明候选人如何设计系统、验证质量、降低风险、沉淀复用资产。
+2. **去头衔化会提高校准机制重要性。可信度：中高。** 外部 title 变宽后，内部 level、impact rubric、pay band 和晋升委员会更不能模糊。
+3. **AI 采用次数不应进入晋升标准。可信度：高。** 真正有价值的是业务结果、工作流缩短、质量提升、风险下降和组织复用，而不是 prompt 数量或工具登录次数。
+
+## 4. 背景材料（Context）
+
+- Microsoft 的 work chart / Frontier Firm 适合启发晋升机制：未来贡献可能来自“人 + agent + 流程”的组合，而非单个岗位边界。
+- Deloitte 的未重设岗位比例提示：多数公司如果急着把 AI 写入绩效/晋升，可能会先奖励错误行为。
+
+## 5. 今日新增证据地图
+
+| 渠道 | 本专题证据 | 作用 |
 |---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | title、职责、薪资区间、level、地区、IC/Manager 边界 |
+| 官方/一手 | GitLab、Microsoft、Deloitte、PwC 等官方材料 | 支撑组织/岗位/薪酬层面的判断 |
+| 招聘/JD/薪酬 | Anthropic、Comcast 等岗位与薪资区间 | 验证专家岗位深化与市场溢价 |
+| 权威媒体/案例 | Reuters Amazon builder 试点 | 提供 title 合并与晋升争议线索 |
+| 社媒/职场 | Amazon/GitLab/agent evaluation 相关讨论 | 只进入线索层，不当结论 |
 
-## 线索层
+## 5. 落地启发
 
-- 追踪 FDE、AI 工作流负责人、智能体运营（agent ops）、AI 治理（AI governance）、基于技能的薪酬（skills-based pay）等头衔是否形成稳定 岗位族群（job family）。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+晋升证据包建议包含五类材料：
 
-## 待补齐的落地问题
+1. 业务结果：可归因指标和影响范围。
+2. 工作流重构：周期缩短、handoff 减少、协作成本下降。
+3. 质量验证：eval、抽检、回滚、异常处理、事故下降。
+4. 复用资产：模板、工具、数据字典、agent workflow、采用数据。
+5. 治理责任：decision rights、合规边界、审计日志、风险闭环。
 
-正式重跑必须回答：AI 贡献如何进入晋升证据包、谁负责验证与质量、是否有校准机制、是否存在调岗降薪和劳动合规风险。
+## 6. 来源索引
 
-## 来源索引
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价（AI skill premium）、基于技能的薪酬（skills-based pay）、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
+- GitLab 官方｜GitLab Act 2（2026-05-11）：https://about.gitlab.com/blog/gitlab-act-2/
+- GitLab 官方｜Beyond the quick win: How enterprises can scale AI in 2026：https://about.gitlab.com/the-source/ai/beyond-the-quick-win-how-enterprises-can-scale-ai-in-2026/
+- IBM 官方｜Think 2026 AI recap：https://www.ibm.com/think/news/think-2026-ai-recap
+- Microsoft 官方｜2026 Work Trend Index：https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization
+- Deloitte 官方｜Operating models for humans and AI agents：https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html
+- McKinsey 官方｜Designing an end-to-end technology workforce for the AI-first era：https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era
+- PwC 官方｜2025 Global AI Jobs Barometer：https://www.pwc.com/gx/en/news-room/press-releases/2025/ai-linked-to-a-fourfold-increase-in-productivity-growth.html
+- Comcast 官方招聘｜Agentic AI Evaluation Engineer：https://jobs.comcast.com/job/washington-d-c/agentic-ai-evaluation-engineer/45483/94179425248
+- Anthropic 招聘镜像｜Research Engineer, Model Evaluations：https://underprompt.com/jobs/research-engineer-model-evaluations-anthropic
+- Anthropic 招聘镜像｜Software Engineer, Cloud Inference Safeguards：https://inferencejobs.com/companies/anthropic/jobs/software-engineer-cloud-inference-safeguards
+- Reuters｜Amazon Ring/Blink “builder” title 试点：https://www.reuters.com/technology/two-amazon-units-builder-replaces-traditional-job-titles-2026-04-23/

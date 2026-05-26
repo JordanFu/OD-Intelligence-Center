@@ -1,31 +1,41 @@
-# 2026-W21｜AI时代组织与人才机制快速导读版周报
+# 2026-W22｜AI时代组织与人才机制快速导读版周报（修正版）
 
-> 云端兜底生成：只保留结论、重要事实和启发，确保本地设备离线时周报入口不断档。正式决策版仍需主代理基于一手证据重跑增强。
+> 修正口径：本版替换此前“周报状态记录”。只呈现可用于 CEO 快速阅读的结论、关键事实和启发；证据不足处不包装成判断。
 
 ## 本周一句话结论
 
-本周证据继续指向：AI 组织改革不是单点工具上线，而是 运营模式（operating model）、岗位与工作流重设计（job/workflow redesign）、基于技能的薪酬（skills-based pay） 和 晋升证据 的组合变革。
+本周最重要的结论是：AI 组织改革正在从“工具提效”进入“工作流、岗位架构、管理层级、薪酬激励一起重构”的阶段；但正确做法不是盲目合并岗位，而是区分执行层合并与专家层深化，并用薪酬机制承接稀缺能力。
 
-## 本周核心判断
+## CEO 必读三件事
 
-1. **组织改革入口不是裁层级，而是重写工作。** 先识别 协调性工作、判断性工作、人才发展工作、治理工作，再决定层级和管理跨度。
-2. **岗位会同时变宽和变深。** 交付层更端到端，AI 基础设施、智能体治理（agent governance）、数据上下文、安全治理、模型评测 等专家能力更深。
-3. **很多岗位变革诉求本质是激励承接问题。** 如果 薪酬带宽（pay band）、技能溢价（skill premium）、项目奖金（project bonus）、长期激励（LTI） 和保留预算不足，业务会倾向用新增头衔或序列解决薪酬问题。
+1. **不要把“减中层”当目标，要把“协调工作系统化”当目标。** GitLab Act 2 说明层级压缩必须和端到端小团队、agent 自动化 reviews/approvals/handoffs 同步，否则只是成本动作。
+2. **岗位会变宽，但专家会更贵。** Anthropic eval/safeguards 岗位 $320k–$485k/$405k–$485k，Comcast agent evaluation 岗位 $142k–$214k，说明 eval、safety、inference、agent governance 正在成为高价值专家能力。
+3. **岗位改革经常是薪酬问题。** PwC 近 10 亿条招聘广告显示 AI 技能有 56% 工资溢价；如果不调整 pay band、skill premium、project bonus、LTI refresh，业务会用新增 title/序列绕开薪酬治理。
 
 ## 对我们的启发
 
-- 快速导读只用于 CEO 和高管判断方向，不替代详细资料版。
-- 没有多源互证的信息不进入结论层。
-- 证据不足时明确写“暂不形成结论”，不硬凑完整周报。
+- 新建岗位族群前先做“长期能力 vs 短期技能 vs 薪酬保留”三分法。
+- 对执行层复合角色，用端到端业务结果和工作流改造激励。
+- 对专家岗位，用市场稀缺系数、专项津贴、股权刷新和更宽薪酬带宽承接。
+- 把“AI 使用次数”从晋升标准中排除，改看质量验证、复用资产和组织杠杆。
+
+## 本周仍不足以下结论
+
+- 不能证明 Amazon builder 已成为 Amazon 全公司制度。
+- 不能证明 Comcast 单个 agent evaluation JD 已形成成熟 job family。
+- 不能证明所有行业都会减少中层；目前强证据主要来自技术公司与 AI/软件工作流。
 
 ## 来源索引
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价（AI skill premium）、基于技能的薪酬（skills-based pay）、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
+
+- GitLab 官方｜GitLab Act 2（2026-05-11）：https://about.gitlab.com/blog/gitlab-act-2/
+- GitLab 官方｜Beyond the quick win: How enterprises can scale AI in 2026：https://about.gitlab.com/the-source/ai/beyond-the-quick-win-how-enterprises-can-scale-ai-in-2026/
+- IBM 官方｜Think 2026 AI recap：https://www.ibm.com/think/news/think-2026-ai-recap
+- Microsoft 官方｜2026 Work Trend Index：https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization
+- Deloitte 官方｜Operating models for humans and AI agents：https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html
+- McKinsey 官方｜Designing an end-to-end technology workforce for the AI-first era：https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era
+- PwC 官方｜2025 Global AI Jobs Barometer：https://www.pwc.com/gx/en/news-room/press-releases/2025/ai-linked-to-a-fourfold-increase-in-productivity-growth.html
+- Comcast 官方招聘｜Agentic AI Evaluation Engineer：https://jobs.comcast.com/job/washington-d-c/agentic-ai-evaluation-engineer/45483/94179425248
+- Anthropic 招聘镜像｜Research Engineer, Model Evaluations：https://underprompt.com/jobs/research-engineer-model-evaluations-anthropic
+- Anthropic 招聘镜像｜Software Engineer, Cloud Inference Safeguards：https://inferencejobs.com/companies/anthropic/jobs/software-engineer-cloud-inference-safeguards
+- Reuters｜Amazon Ring/Blink “builder” title 试点：https://www.reuters.com/technology/two-amazon-units-builder-replaces-traditional-job-titles-2026-04-23/
