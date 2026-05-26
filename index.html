@@ -3125,6 +3125,17 @@
       },
     ];
 
+    const levelsQualityOutputs = [
+      {
+        date: '2026-05-26',
+        title: '日报覆盖审计',
+        status: '自动化审计',
+        summary: '盘点四课题日报是否断档、是否仍为非决策稿、是否缺少关键结构信号。',
+        href: './specials/ai-org-talent-mechanism/quality/coverage-latest.html',
+        markdown: './specials/ai-org-talent-mechanism/quality/coverage-latest.md'
+      },
+    ];
+
     const levelsWeeklyOutputs = [
       {
         date: '2026-W22',
@@ -3200,6 +3211,25 @@
           <div class="levels-actions">
             <a class="levels-btn" href="./specials/ai-org-talent-mechanism/weekly/index.html" target="_blank">进入周报总页</a>
           </div>
+        </div>
+        <div class="levels-section">
+          <h3>质量审计</h3>
+          <p class="levels-section-note">自动盘点日报是否断档、是否仍为非决策稿、是否缺少关键结构信号；用于防止低质内容静默进入情报中心。</p>
+          ${levelsQualityOutputs.map(item => `
+            <div class="levels-output">
+              <div class="levels-output-head">
+                <div>
+                  <div class="levels-output-title">${esc(item.date)} · ${esc(item.title)}</div>
+                  <p>${esc(item.summary)}</p>
+                </div>
+                <span class="report-day-badge">${esc(item.status)}</span>
+              </div>
+              <div class="levels-actions">
+                <a class="levels-btn primary" href="${esc(item.href)}" target="_blank">查看审计</a>
+                <a class="levels-btn" href="${esc(item.markdown)}" target="_blank">查看 Markdown</a>
+              </div>
+            </div>
+          `).join('')}
         </div>
 
         <div class="levels-section">

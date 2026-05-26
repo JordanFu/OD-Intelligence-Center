@@ -109,7 +109,7 @@ function collectTopicEntries(topic) {
     const file = path.join(project, date, topic.file);
     const text = read(file);
     if (!text) return null;
-    if (/研究状态记录\s*\/\s*非决策稿|非决策稿|待正式重跑/.test(text)) return null;
+    if (/^# .*研究状态记录/m.test(text) || /^>\s*研究状态记录\s*\/\s*非决策稿/m.test(text) || /待正式重跑\s*\/\s*非决策稿/.test(text)) return null;
     return {
       date,
       href: `../${date}/${topic.file.replace(/\.md$/, '.html')}`,
