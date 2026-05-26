@@ -13,6 +13,7 @@ const today = process.env.REPORT_DATE || formatter.format(new Date());
 const strict = process.env.STRICT_DECISION_REPORT === '1';
 
 const requiredSections = [
+  '读者应该带走什么',
   '今日一句话',
   '核心判断',
   '背景材料',
@@ -27,6 +28,7 @@ const qualitySignals = [
   { name: '反例或冲突信息', pattern: /(反例|冲突|风险|不能直接照搬|争议|不足以下结论|暂不形成结论)/ },
   { name: '薪酬/JD/激励信号', pattern: /(薪酬|总包|奖金|股权|长期激励|JD|招聘|salary|compensation|pay band|skill premium|市场溢价|稀缺系数)/i },
   { name: '落地启发', pattern: /(落地启发|待补齐的落地问题|对我们的启发|行动启发|机制设计|可落地)/ },
+  { name: '决策感', pattern: /(管理层该问|不要误读|管理含义|今天真正有价值)/ },
   { name: '可追溯来源', pattern: /https?:\/\/|knowledge\/|daily\/|specials\// },
 ];
 
