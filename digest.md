@@ -1,7 +1,7 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-05-27 06:24
+> 最后更新：2026-05-28 02:11
 
 ---
 
@@ -61,6 +61,24 @@
 - **OD启示**：这条信号说明协作平台正在争夺“人机协作操作系统”的位置。对组织设计的影响不是入口换皮，而是工作分发、agent 发现、权限配置和跨职能协作会被重新锚定在同一个界面里。未来 manager 和项目 owner 可能管理的不是一组人，而是一组人加一组可随时被路由和调用的 agents。
 - **标签**：#Slack #AgentWorkspace #WorkflowOrchestration #协作平台 #ShadowAI
 - **抓取时间**：2026-05-27 06:24
+
+### [5] SAP：AI Agent Hub 已管理 150 家企业超 10 万个 agents，agent 治理开始与企业架构和流程治理合并
+- **事件摘要**：SAP 于 2026 年 5 月 13 日介绍 Autonomous Enterprise 配套的治理基础设施时披露，SAP AI Agent Hub 已被 150 家企业用于管理超过 100,000 个 agents，并且不仅管理 AI agents，也纳入 large language models 与 MCP servers。官方同时强调，LeanIX 提供 enterprise architecture context，Signavio 的 agent mining 提供对 agent 行为、政策符合度与业务影响的可视性。重点不是数量本身，而是 agent 治理已经被拉进企业架构与流程治理主干。
+- **来源**：SAP（https://news.sap.com/2026/05/business-transformation-management-foundation-autonomous-enterprise/）
+- **来源平台**：SAP
+- **来源可信度**：⭐高
+- **OD启示**：这说明 agent 治理不再只是 IT 的目录管理问题，而是开始和 capability map、流程挖掘、架构台账合并。未来企业如果要大规模运行 agent，就必须回答这些 agent 对应哪项业务能力、嵌在哪段流程、触发哪些升级口、由谁对业务结果负责。对 OD 来说，这意味着组织设计需要把 enterprise architecture、process ownership 与数字劳动力治理串成一张图，而不是分别治理。
+- **标签**：#SAP #AgentHub #EnterpriseArchitecture #ProcessGovernance #Agent治理
+- **抓取时间**：2026-05-28 02:11
+
+### [6] BCG：AI 难以规模化的瓶颈不只在模型和系统，而在组织是否为机器建立了共享语义层
+- **事件摘要**：BCG 于 2026 年 5 月 26 日发布文章指出，许多 AI 项目难以从 pilot 走向 scale，并非首先卡在模型能力，而是企业数据缺乏 shared meaning。文章提出 ontology 是企业数据架构中缺失的一层，用来统一 customer、account、order 等核心概念及其关系，并明确指出 gen AI 与 agentic AI 都依赖 shared meaning、relationships 与 governing rules 才能可靠推理和执行。问题的本质不是再接一个系统，而是是否先把业务概念讲清楚。
+- **来源**：BCG（https://www.bcg.com/publications/2026/your-ai-wont-scale-without-a-shared-language）
+- **来源平台**：BCG
+- **来源可信度**：⭐高
+- **OD启示**：这条信息把一个常被低估的组织问题点了出来：很多 agent 失控，不是因为没人会 prompt，而是因为不同部门对同一个业务对象定义不同。未来 AI scale 的前提会越来越像“语义治理”而不只是“模型治理”。对 OD 与 transformation owner 来说，跨职能共享词汇、主数据口径、业务规则 owner 和概念变更机制，会成为工作流重写和 agent 协作的前置条件。
+- **标签**：#BCG #Ontology #语义治理 #DataGovernance #AgentScale
+- **抓取时间**：2026-05-28 02:11
 
 
 ## 2026-05-26
