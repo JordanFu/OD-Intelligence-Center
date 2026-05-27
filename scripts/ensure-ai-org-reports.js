@@ -111,13 +111,41 @@ function updateHome() {
     const text = fs.readFileSync(overview, 'utf8');
     return /^# .*研究状态记录/m.test(text) || /^>\s*研究状态记录\s*\/\s*非决策稿/m.test(text) || /待正式重跑\s*\/\s*非决策稿/.test(text);
   }
+  function weeklyStatus(file, fallbackTitle, fallbackSummary) {
+    const reportPath = path.join(weeklyDir, file);
+    if (!fs.existsSync(reportPath)) {
+      return {
+        title: fallbackTitle,
+        status: '待正式重跑 / 非决策稿',
+        summary: fallbackSummary,
+      };
+    }
+    const text = fs.readFileSync(reportPath, 'utf8');
+    const nonDecision = /非决策稿|周报状态记录|待正式重跑/.test(text);
+    if (nonDecision) {
+      return {
+        title: fallbackTitle,
+        status: '待正式重跑 / 非决策稿',
+        summary: fallbackSummary,
+      };
+    }
+    return {
+      title: file.includes('detailed') ? '详细资料版周报' : '快速导读版周报',
+      status: '已重跑 / 决策稿',
+      summary: file.includes('detailed')
+        ? '聚合当周高价值信息、Context、线索与落地方法论，已完成正式重跑。'
+        : '只呈现本周结论、关键事实和对我们的启发，已完成正式重跑。',
+    };
+  }
   const dailyItems = dates.map(date => {
     const nonDecision = isNonDecisionDate(date);
     return `      {\n        date: '${date}',\n        title: 'AI时代组织与人才机制四课题日报',\n        status: '${nonDecision ? '待正式重跑 / 非决策稿' : (date === today ? '已修正 / 决策稿' : '历史版本')}',\n        summary: '${nonDecision ? '仅记录自动化触发与研究缺口；缺少新增事实、反例、薪酬/JD 信号和交叉验证时，不作为正式日报。' : '四专题日报归档，包含总览和四份专题报告。'}',\n        href: './specials/ai-org-talent-mechanism/${date}/index.html'\n      },`;
   });
+  const quickStatus = weeklyStatus(`${week}-quick.md`, '周报状态记录', '仅记录本周入口和研究缺口；没有信息密度时不输出快速导读式结论。');
+  const detailedStatus = weeklyStatus(`${week}-detailed.md`, '详细资料状态记录', '仅整理当周日报入口、Context 候选和待验证线索；正式资料版需主代理重跑。');
   const weeklyItems = [
-    `      {\n        date: '${week}',\n        title: '周报状态记录',\n        status: '待正式重跑 / 非决策稿',\n        summary: '仅记录本周入口和研究缺口；没有信息密度时不输出快速导读式结论。',\n        href: './specials/ai-org-talent-mechanism/weekly/${week}-quick.html',\n        markdown: './specials/ai-org-talent-mechanism/weekly/${week}-quick.md'\n      },`,
-    `      {\n        date: '${week}',\n        title: '详细资料状态记录',\n        status: '待正式重跑 / 非决策稿',\n        summary: '仅整理当周日报入口、Context 候选和待验证线索；正式资料版需主代理重跑。',\n        href: './specials/ai-org-talent-mechanism/weekly/${week}-detailed.html',\n        markdown: './specials/ai-org-talent-mechanism/weekly/${week}-detailed.md'\n      },`,
+    `      {\n        date: '${week}',\n        title: '${quickStatus.title}',\n        status: '${quickStatus.status}',\n        summary: '${quickStatus.summary}',\n        href: './specials/ai-org-talent-mechanism/weekly/${week}-quick.html',\n        markdown: './specials/ai-org-talent-mechanism/weekly/${week}-quick.md'\n      },`,
+    `      {\n        date: '${week}',\n        title: '${detailedStatus.title}',\n        status: '${detailedStatus.status}',\n        summary: '${detailedStatus.summary}',\n        href: './specials/ai-org-talent-mechanism/weekly/${week}-detailed.html',\n        markdown: './specials/ai-org-talent-mechanism/weekly/${week}-detailed.md'\n      },`,
   ];
   let next = replaceConstArray(s, 'levelsDailyOutputs', `    const levelsDailyOutputs = [\n${dailyItems.join('\n')}\n    ];`);
   next = replaceConstArray(next, 'levelsWeeklyOutputs', `    const levelsWeeklyOutputs = [\n${weeklyItems.join('\n')}\n    ];`);
