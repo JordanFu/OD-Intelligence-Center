@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>四课题总览</title>
+  <link rel="stylesheet" href="../../../assets/report-share.css">
+  <script defer src="../../../assets/report-share.js"></script>
+  <style>
+    :root{--bg:#0f1117;--surface:#171a24;--surface2:#202434;--border:#31374b;--text:#eef2fb;--text2:#b2bad0;--accent:#7c92ff;--green:#34d399;--orange:#fbbf24}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Noto Sans SC",sans-serif;background:linear-gradient(180deg,rgba(124,146,255,.06),transparent 300px),var(--bg);color:var(--text);line-height:1.78}
+    main{max-width:980px;margin:0 auto;padding:28px 24px 70px}
+    .toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px}
+    .btn{display:inline-flex;align-items:center;padding:8px 14px;border:1px solid var(--border);border-radius:8px;background:var(--surface);color:var(--text);text-decoration:none;font-size:13px;font-weight:700}
+    .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+    .doc{background:rgba(23,26,36,.92);border:1px solid var(--border);border-radius:16px;padding:28px;box-shadow:0 18px 60px rgba(0,0,0,.18);overflow:hidden}
+    .doc:before{content:"";display:block;height:3px;margin:-28px -28px 24px;background:linear-gradient(90deg,var(--accent),var(--green),var(--orange))}
+    h1{font-size:clamp(27px,4vw,42px);line-height:1.18;margin-bottom:16px}
+    h2{font-size:22px;margin:34px 0 14px;padding-top:18px;border-top:1px solid var(--border)}
+    h3{font-size:17px;margin:24px 0 10px;color:var(--green)}
+    h4{font-size:15px;margin:18px 0 8px;color:var(--orange)}
+    p{margin:10px 0;color:var(--text2);font-size:14px}
+    ul,ol{display:grid;gap:8px;margin:12px 0 16px;padding-left:22px}
+    li{color:var(--text2);font-size:14px}
+    strong{color:var(--text)}
+    a{color:var(--green);text-decoration:none;font-weight:700}
+    a:hover{text-decoration:underline}
+    blockquote{margin:16px 0;padding:14px 18px;border-left:4px solid var(--green);background:rgba(52,211,153,.08);border-radius:10px}
+    blockquote p{color:var(--text);margin:4px 0}
+    hr{border:0;border-top:1px solid var(--border);margin:22px 0}
+    table{width:100%;border-collapse:collapse;margin:14px 0 20px;border:1px solid var(--border);border-radius:10px;overflow:hidden}
+    td{border:1px solid var(--border);padding:10px 12px;color:var(--text2);font-size:13px;vertical-align:top}
+    tr:first-child td{background:var(--surface2);color:var(--text);font-weight:800}
+    code{background:var(--surface2);border:1px solid var(--border);border-radius:5px;padding:1px 5px;color:var(--text);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em}
+    @media(max-width:720px){main{padding:18px 12px 44px}.doc{padding:18px}.doc:before{margin:-18px -18px 20px}table{display:block;overflow-x:auto;white-space:nowrap}}
+  </style>
+</head>
+<body>
+  <main>
+    <div class="toolbar">
+      <a class="btn" href="./index.html">返回四课题总览</a>
+      <a class="btn" href="../../../index.html">返回 OD 情报中心</a>
+      <a class="btn primary" href="./00-overview.md">查看 Markdown</a>
+    </div>
+    <article class="doc"><h1>2026-05-28｜AI时代组织与人才机制四专题总览</h1><h2>1. 今日总判断：四个专题之间共同指向什么</h2><p>四个专题共同指向同一条更“硬核”的主线：AI 组织变革正在从“治理底座”（台账/身份/审计）继续推进到“<strong>组织默认运行规则 + 旧流程缝隙 + 政策执行系统</strong>”。当 agent 既能行动、又能穿透 legacy UI、并把政策变成运行时约束时，组织必须把大量中层协调劳动迁移为 <strong>可执行的工作流、清晰的规则 owner/override owner、以及可审计的例外升级路径</strong>；否则扁平化与人才密度都会被“人类 gatekeeping 与例外处理”拖垮。</p><h2>2. 今日最重要的 5-7 条发现</h2><ol><li>McKinsey 提出 agentic AI 冲击的是组织默认四条运行规则（尤其是“只有人能行动”“绩效只评估人”）。来源：https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-organization-blog/how-agentic-ai-challenges-four-rules-your-organization-runs-on  </li><li>Microsoft Copilot Studio 宣布 computer-using agents GA，并提供新的 workflows 体验、agent-to-agent 通信，让“无 API 的旧系统流程”也进入正式 agent 执行层。来源：https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences/  </li><li>SAP 发布 sustainability AI agents，显示政策/合规开始作为运行时约束进入跨职能流程，并披露效率指标。来源：https://news.sap.com/2026/05/autonomous-enterprise-new-sustainability-ai-agents/  </li><li>Cloudflare 公告转向 agentic AI-first operating model，并披露约 1,100 个岗位已不再需要。来源：https://cloudflare.net/news/news-details/2026/Cloudflare-Embarks-on-a-New-Chapter-An-Agentic-AI-First-Operating-Model/default.aspx  </li><li>Freshworks CEO 员工信披露将 remove management layers、集中部分职能并用 AI 自动化提升效率。来源：https://www.freshworks.com/company/newsroom/important-changes-to-set-up-freshworks-for-our-next-phase-of-growth/  </li><li>Microsoft Learn 文档对 Entra Agent ID 的管理关系与角色分工给出公开描述，为“agent 作为治理对象”的岗位/责任链提供制度化表达模板。来源：https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/administrative-relationships-of-agents  </li></ol><h2>3. 四专题交叉关系：组织扁平化 × 人才密度 × 岗位序列 × 晋升机制</h2><ul><li>扁平化（专题一）的本质从“裁中层”进一步转为“重写组织默认运行规则 + 例外路径”：当 agent 能行动且能执行旧系统流程，人类 gatekeeping 会成为瓶颈，必须把协调劳动系统化迁移。  </li><li>人才密度（专题二）决定谁能驾驭这种迁移：高密度人才不只是会用工具，而是能在受控约束下设计工作流、定义例外升级并对结果负责。  </li><li>岗位族群/序列（专题三）是责任链与定价承接接口：政策执行型场景会强迫组织明确 rule owner / override owner / auditor，并把“责任对象+审计字段”写进 job architecture。  </li><li>晋升机制（专题四）反过来塑造行为：如果晋升仍只评估“人的可见忙碌”，组织会系统性低估 hybrid team 的系统贡献；必须用可审计证据包奖励 workflow 重构、治理与复用资产沉淀。  </li></ul><h2>4. 今日判断变化：哪些判断被增强、削弱或修正</h2><ul><li>增强：从“治理底座”进一步走向“运行规则重写”。McKinsey 把矛盾直接指向组织默认规则，提示 OD 的主战场从 adoption campaign 转向 operating model。  </li><li>增强：对“legacy process 是自动化豁免区”的判断被削弱。computer-using agents GA 让旧系统流程也进入 agent 执行层，意味着 shared services/运营支持将更快被重写。  </li><li>增强：policy execution 会把组织争议从“组织图”推向“规则 owner/override 权限/审计与升级路径”。SAP sustainability agents 给出清晰信号。  </li></ul><h2>5. 关键冲突与反例：哪些信息相互矛盾，需要继续验证</h2><ul><li>“更扁平”与“更强治理层”可能并存：组织图更扁平，但规则 owner、审计与控制面角色更重；如何避免形成新的“治理中层拥堵”，需要更多落地样本验证。  </li><li>“AI-first operating model”与“裁员叙事”混用：Cloudflare/Freshworks 的公开口径既包含 operating model 转向，也包含效率与岗位替代；对标时需拆分哪些是能力升级、哪些是成本动作。  </li><li>policy execution 的风险：一旦政策能运行时阻断业务，override 权限的配置、审计与豁免将高度政治化；若缺少透明治理，反而会损害信任。  </li></ul><h2>6. 行动启发：按战略-组织架构-岗位序列-人才密度-晋升激励-沟通落地六个维度归纳</h2><ul><li>战略：把 AI 目标从“上更多 agent”改为“重写组织默认运行规则”，明确行动者、审批、例外升级与审计边界。  </li><li>组织架构：以“协调劳动迁移清单”驱动减层：先定义 approvals/handoffs/例外升级/审计要求，再动组织图与管理跨度。  </li><li>岗位序列：优先补齐 <code>job family + level guide + pay band</code>，并把 rule owner/override/audit 字段写进岗位定义，避免用新增序列掩盖问责缺口。  </li><li>人才密度：把门槛升级为“受控约束下编排与治理 agents 的结果负责”，用 work sample 题库保证识别可复制。  </li><li>晋升激励：以“可审计证据包 + 校准节奏”为底盘，奖励 workflow 重构、治理贡献与复用资产，把使用量降级为输入信号。  </li><li>沟通落地：同步解释“为什么要改规则”“对个人路径意味着什么”“如何校准与承接薪酬”，并明确豁免与例外处理机制，避免信任崩塌。  </li></ul><h2>7. 明日优先追踪问题</h2><ol><li>McKinsey “四条运行规则”在企业落地的可复原样本：哪些公司已经重写了“谁能行动/绩效如何评估”。  </li><li>Copilot Studio computer-using agents 的治理细节：审批链、异常升级、审计字段、权限与回滚机制。  </li><li>SAP sustainability agents 的组织 owner 模型：规则维护/override/责任归属如何设计，是否出现可复原案例。  </li><li>国内企业对应实践：是否出现“policy execution + agent 执行层”的制度文本、岗位族群与晋升承接样本。  </li></ol></article>
+  </main>
+</body>
+</html>
