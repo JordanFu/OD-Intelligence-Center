@@ -1,6 +1,6 @@
 # 专题三：岗位、族群、序列持续建设｜滚动基线档案
 
-> 更新日期：2026-05-27
+> 更新日期：2026-05-28
 > 用途：这是四课题研究的“滚动母稿”，不是某一天的日报。日报负责记录新增事实、Context 和线索；周报负责做阶段复盘；基线档案负责沉淀稳定判断、证据账本和待验证问题。
 > 自动化规则：每日/周报与 PDF 入库后自动回写证据账本；正式重跑遵循 research-protocol.md 的多代理并行与主代理交叉证伪机制；只有多源互证或一手材料足够强的内容，才进入稳定判断。
 
@@ -21,7 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-05-14 | [日报](../2026-05-14/03-job-family-career-architecture.html) | 背景材料（Context）强证据 | 当日未抽取到核心判断，保留源文档待人工复核。 | - **Deloitte 的反例**：很多企业还停留在 education/upskilling，不足以证明岗位族群已经系统性变化。 | 待下次日报/周报继续追踪。 |
 | 2026-05-15 | [日报](../2026-05-15/03-job-family-career-architecture.html) | 线索层/待验证 | 当日未抽取到核心判断，保留源文档待人工复核。 | 暂无单独 Context 摘要。 | - 采集 AI 治理（AI governance）/智能体运营（agent ops） JD。 |
 | 2026-05-16 | [日报](../2026-05-16/03-job-family-career-architecture.html) | 线索层/待验证 | 当日未抽取到核心判断，保留源文档待人工复核。 | 暂无单独 Context 摘要。 | - 采集 AI 治理（AI governance）/智能体运营（agent ops） JD。 |
 | 2026-05-17 | [日报](../2026-05-17/03-job-family-career-architecture.html) | 线索层/待验证 | 当日未抽取到核心判断，保留源文档待人工复核。 | 暂无单独 Context 摘要。 | - 采集 AI 治理（AI governance）/智能体运营（agent ops） JD。 |
@@ -35,6 +34,7 @@
 | 2026-05-25 | [日报](../2026-05-25/03-job-family-career-architecture.html) | 背景材料（Context）强证据 | 1. **AI 运营模式（operating model） 正在从工具层走向组织层。** IBM、Microsoft、Deloitte、McKinsey 的材料共同指向 智能体、人、数据、流程和治理的一体化重构。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 | 2026-05-26 | [日报](../2026-05-26/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **title 简化/职责变宽可以是有效组织工具，但不能替代 level guide 与 pay band。可信度：高。** | - 暂不形成结论，但提示我们关注：title 简化与岗位变宽后，**外部市场识别与内部公平**如何同时成立（尤其在中国市场更依赖 title 识别的环境下）。 | - 为什么重要：组织若只做“合并岗位”，会在评测/安全/治理等环节出现硬能力断层。 |
 | 2026-05-27 | [日报](../2026-05-27/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **“岗位/序列是否新增”的本质，越来越像“责任对象是否从人扩展到 agent/workflow”，而不是命名游戏。可信度：高。** | - 暂不形成结论，但提示我们关注：**“agent 目录/注册/审计”可能会重塑 IT/安全/HR/法务之间的边界**，从而触发“谁来拥有这些新职责”的组织拉扯（需要更多客户落地案例验证）。 | - 社媒/职场线索：围绕 Agent ID 与治理的讨论多，但噪音高，仅作线索。 |
+| 2026-05-28 | [日报](../2026-05-28/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **岗位体系必须先回答“谁对 workflow/policy/agent 负责”，再回答“岗位叫什么”。可信度：高。** | - 暂不形成结论，但提示我们关注：**“computer-using agents + policy execution”可能会重塑后台职能的岗位边界**。当执行穿透到旧系统，很多“凭经验卡点”的岗位会被迫转型为“规则维护/例外处理/质量… | - 社媒/职场线索：对“岗位被 AI 吃掉/岗位被重写”的讨论多，但缺乏制度文本，仅作线索。 |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-05-27｜[打开专题日报](../2026-05-27/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-05-27/03-job-family-career-architecture.md`
+- 最新日报：2026-05-28｜[打开专题日报](../2026-05-28/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-05-28/03-job-family-career-architecture.md`
