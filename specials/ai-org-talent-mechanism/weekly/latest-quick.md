@@ -1,63 +1,57 @@
-# 2026-W22｜AI时代组织与人才机制周报｜快速导读版
+# 2026-W22｜AI时代组织与人才机制变革｜快速导读版
 
-> 正式重跑版｜截至 2026-05-27。
-> 本版只呈现 CEO 快速阅读需要的结论、关键事实和行动启发；详细资料、Context 和线索池见 `2026-W22-detailed.md`。
+> 截至 2026-05-29（本周四课题日报覆盖到 2026-05-28；2026-05-29～2026-05-31 日报未入库；`digest.md` 已捕捉到部分 2026-05-28～2026-05-29 的官方材料，用于校验补充）。
+> 决策版详见：`2026-W22-detailed.md`（四课题聚合 CEO 周报：结论-证据-行动-试点-待决策清单）。
 
 ## 本周一句话结论
 
-AI 组织改革已经从“个人用工具提效”推进到“企业重写工作流、岗位责任、管理者角色、专家能力与薪酬激励”的系统阶段；执行层角色会变宽，但 AI 评测、安全、身份权限、治理和推理基础设施等专家能力会继续拆分并获得溢价。
+AI 组织变革正在从“治理底座（台账/身份/审计）”推进到“默认运行规则重写（谁能行动/谁来审批/如何 override/如何审计）”：当 agent 能穿透 legacy UI 执行旧流程、并把政策变成运行时约束时，组织若仍依赖人类 gatekeeping 与层级审批，会在例外处理与问责上被拖垮，最终以隐形中层回潮与公平争议反噬扁平化与人才密度。
 
 ## CEO 必读五件事
 
-1. **岗位改革先改工作流，不先改 title。** GitLab Act 2、Microsoft AI playbook、McKinsey AI assembly line 都指向同一件事：AI 价值不是来自多一个工具，而是来自把端到端流程、交接、审批、例外处理和反馈回路重写清楚。
-2. **管理者不会简单消失，而是从“分派任务的人”变成“人机系统编排者”。** Microsoft 把高绩效团队差异归因于 manager 能否定义 human-agent 节奏、质量标准和反馈回路；GitLab 的减层也必须和小团队、agent 自动化、工作流责任一起看。
-3. **专家岗位正在变细、变贵。** Anthropic model evaluation / safeguards、Comcast Agentic AI Evaluation Engineer、Okta agent identity、ServiceNow AI control plane 都说明 AI 评测、安全治理、身份授权、审计追踪会成为独立高价值能力。
-4. **岗位体系问题经常是薪酬治理问题。** PwC 近 10 亿条招聘广告显示 AI 技能岗位平均 56% 工资溢价；若没有薪酬带宽、技能溢价、项目奖金、长期激励和稀缺系数，业务会用新增 title/序列绕开薪酬治理。
-5. **不要用“AI 使用次数”做晋升标准。** 晋升证据应看业务结果、工作流改造、质量验证、可复用资产、治理责任和团队杠杆，而不是 token、prompt 或工具打卡量。
+1. **扁平化不是 org chart 工程，而是“协调劳动迁移工程”。** GitLab 把“减层 + 端到端小队 + agents 自动化审批/交接”打包推进；没有 workflow/审计/例外升级承接，层级一定会以隐形形态长回来。（⭐）
+2. **computer-using agents 让“旧系统流程”不再是自动化豁免区。** 这会把组织矛盾从“谁做事”前移到“谁能发起动作、谁来审批、异常如何升级”。（⭐）
+3. **policy execution 会把合规/政策从“文档审查”变成“运行时约束”。** 组织必须明确 rule owner / override owner / 审计字段，否则阻断与误阻断会迅速政治化。（⭐）
+4. **高人才密度被重写：accountability 变成硬门槛。** Zapier Rubric V2 把 accountability 写入招聘标准；未来稀缺不是“会用 AI”，而是“能在受控约束下编排/治理 agents 并对结果负责”。（⭐）
+5. **晋升机制不要被“AI 使用量指标”绑架。** Accenture/KPMG 的实践是强信号但高风险；正确方向是“证据包 + 校准节奏 + 岗位分层/豁免”，并奖励系统贡献（workflow 重构、例外治理、审计护栏、复用资产）。（📰/⭐）
 
-## 本周关键事实
+## 本周关键事实（用于管理会议复述）
 
 | 主题 | 本周事实 | 对我们的含义 |
 |---|---|---|
-| 工作流重构 | GitLab Act 2 把减层、小团队和 agent 自动化 reviews/approvals/handoffs 放在同一组织动作中 | 扁平化必须有流程承接，不能只裁层级 |
-| 人机团队 | Microsoft AI playbook 强调高绩效团队建立 outcomes、manager orchestration、真实工作流接入和反馈机制 | manager 评价要加入“人机系统产出质量” |
-| Agent 治理 | ServiceNow 提出 governed autonomous work；Okta 把 agent identity / access / delegation 作为 agentic enterprise 的基础 | 数字劳动力必须进入正式权限、审计和问责体系 |
-| 员工服务 | Zendesk、Workday 把 HR/Finance/employee service agent 嵌入 Slack、Teams、Microsoft 365 Copilot | HR shared services 会从工单队列管理转向政策执行系统设计 |
-| 薪酬溢价 | PwC AI Jobs Barometer 显示 AI 技能岗位平均 56% 工资溢价 | 需要建立 AI 稀缺能力定价表，而不是无限新增序列 |
+| 扁平化组合拳 | GitLab Act 2 披露“减层 + ~60 个端到端小队 + agents 自动化 reviews/approvals/handoffs” | 减层必须与 workflow 重写绑定 |
+| 旧流程执行 | Microsoft Copilot Studio computer-using agents GA | 旧系统也将被 agent 执行，审批/例外/回滚必须前置 |
+| 政策执行 | SAP sustainability agents 披露多流程覆盖与效率指标（policy-bearing agents） | rule owner / override owner 将成为岗位与权力结构核心 |
+| 治理底座 | Workday ASOR（台账）+ Entra Agent ID（身份）+ ServiceNow runtime audit（运行时审计） | “agent 作为治理对象”进入正式基础设施组合 |
+| 人才密度 | Zapier AI Fluency Rubric V2（accountability） | 招聘/认证要用 rubric + work sample，而不是口号 |
+| 晋升/公平 | Amazon Builder 试点引发晋升/加薪路径焦虑；Accenture/KPMG 纳入 AI 使用指标 | 岗位变宽与指标化会放大公平争议，必须用证据包与校准节奏承接 |
+| 国内信号 | 腾讯 WXG 项目负责制试点（媒体口径）、百度数字职级统一（媒体口径） | 国内更需要制度文本、校准机制与薪酬带宽承接 |
 
-## 对我们的启发
+## 对我们的启发（3 个可落地抓手）
 
-- **战略层**：把 AI 组织改革定义为 operating model 改造，而不是工具推广项目。
-- **岗位层**：先画端到端工作流，再判断哪些角色变宽、哪些专家能力必须独立。
-- **职级层**：晋升证据包加入 workflow redesign、agent governance、quality assurance、reusable assets。
-- **薪酬层**：用 skill premium、market adjustment、project bonus、LTI refresh 和 pay band 调整承接稀缺能力。
-- **激励层**：对复合型执行角色奖励业务结果；对核心专家奖励风险降低、质量门禁、平台复用和组织杠杆。
+1. **协调劳动迁移清单**：把 approvals/handoffs/例外处理逐项写 owner、审计字段、回滚与复盘节奏，再谈减层与 AI 自动化比例。
+2. **Rubric + work sample**：把 AI fluency 的最低门槛改写为“accountability + 受控约束下交付”，并配套题库与评分锚点。
+3. **晋升证据包**：奖励 workflow 重构、例外治理质量、审计护栏与复用资产；把“AI 使用量”降级为输入信号而非主指标。
 
-## 本周不应误读
+## 下周必须追踪（最少 4 件）
 
-- 不能把 GitLab 解读成“所有公司都应裁中层”；它同时包含战略聚焦、国家覆盖收缩、层级压缩、小团队和 agent 自动化。
-- 不能把 Amazon builder 试点解读成“所有公司都应取消 title”；它更像 title 合并后晋升与薪酬解释压力的早期样本。
-- 不能把单个 Comcast JD 解读成成熟岗位族群；它是 agent evaluation 从 AI lab 扩散到大型企业的强信号，但仍需更多样本。
+1. Cloudflare/Freshworks 的组织动作是否有可复原制度与指标披露（能力升级 vs 成本动作拆分）。
+2. GitLab out-of-cycle 机制的校准细节（证据字段、适用范围、预算承接）。
+3. 国内样本制度文本：腾讯 WXG/百度是否出现更高可信材料（范围、绩效/晋升/薪酬承接）。
+4. Workday/Entra/ServiceNow 是否给出可复用“agent owner/approver/auditor”角色模板与治理字段（文档/客户案例）。
 
-## 下周必须追踪
+## 来源索引（本周）
 
-1. GitLab handbook 是否更新 manager/IC 职责、晋升标准和薪酬承接。
-2. Amazon builder 是否披露 level、pay band、promotion path 或员工 FAQ。
-3. Agent evaluation / AI governance 是否在金融、通信、SaaS、制造企业形成稳定 JD 样本。
-4. AI skill premium 应进入永久薪酬带宽，还是用带退出条款的专项津贴。
+- GitLab｜GitLab Act 2：https://about.gitlab.com/blog/gitlab-act-2/
+- Microsoft｜Copilot Studio computer-using agents GA：https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences/
+- SAP｜Sustainability AI agents：https://news.sap.com/2026/05/autonomous-enterprise-new-sustainability-ai-agents/
+- Workday｜FY2027 Q1 财报（ASOR GA）：https://newsroom.workday.com/2026-05-21-Workday-Announces-Fiscal-2027-First-Quarter-Financial-Results
+- ServiceNow｜Project Arc（runtime audit）：https://investor.servicenow.com/news/news-details/2026/ServiceNow-extends-agentic-AI-governance-from-desktops-to-data-centers-with-NVIDIA/default.aspx
+- Microsoft Learn｜Entra Agent ID 管理关系：https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/administrative-relationships-of-agents
+- Zapier｜AI Fluency Rubric V2：https://zapier.com/blog/raising-ai-fluency-bar-in-hiring/
+- TechRepublic｜Accenture ties promotions to AI adoption：https://www.techrepublic.com/article/news-accenture-ties-promotions-to-ai-adoption/
+- Reuters 转引（Investing.com）｜Amazon “Builder” 试点：https://www.investing.com/news/stock-market-news/in-two-amazon-units-builder-replaces-traditional-job-titles-4633350
+- 经济观察网｜百度数字职级调整：https://www.eeo.com.cn/2026/0428/855281.shtml
+- 中国经济网（转载《中国企业家》）｜腾讯 WXG 项目负责制：http://www.ce.cn/cysc/newmain/yc/jsxw/202605/22/t20260522_39397167.shtml
+- 信息库校验补充：`digest.md`（Workday×Google Cloud、SAP Agent Hub、BCG ontology、Okta 调研等）
 
-## 来源索引
-
-- GitLab 官方｜GitLab Act 2：https://about.gitlab.com/blog/gitlab-act-2/
-- GitLab 官方｜Beyond the quick win: How enterprises can scale AI in 2026：https://about.gitlab.com/the-source/ai/beyond-the-quick-win-how-enterprises-can-scale-ai-in-2026/
-- Microsoft WorkLab｜The AI playbook: 4 patterns shaping human-agent teams：https://www.microsoft.com/en-us/worklab/ai-at-work-one-function-wrote-the-ai-playbook-the-rest-will-follow
-- Microsoft WorkLab｜2026 Work Trend Index：https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization
-- McKinsey｜The AI assembly line: Strategic imperatives for CEOs：https://www.mckinsey.com/industries/industrials/our-insights/the-ai-assembly-line-strategic-imperatives-for-ceos
-- Deloitte｜Operating models for humans and AI agents：https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html
-- PwC｜2025 Global AI Jobs Barometer：https://www.pwc.com/gx/en/news-room/press-releases/2025/ai-linked-to-a-fourfold-increase-in-productivity-growth.html
-- ServiceNow｜Governed autonomous work：https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-turns-enterprise-AI-chaos-into-control-with-the-platform-for-governed-autonomous-work/default.aspx
-- Zendesk｜Autonomous Service Workforce：https://www.zendesk.com/newsroom/articles/relate-2026/
-- Workday｜Sana Self-Service Agent for HR and Finance into Microsoft 365 Copilot：https://newsroom.workday.com/2026-05-13-Workday-Brings-Sana-Self-Service-Agent-for-HR-and-Finance-Into-Microsoft-365-Copilot
-- Okta｜Secure agentic enterprise blueprint：https://investor.okta.com/news-and-events/news-releases/news-details/2026/Okta-Announces-New-Blueprint-for-the-Secure-Agentic-Enterprise/default.aspx
-- Comcast 招聘｜Agentic AI Evaluation Engineer：https://jobs.comcast.com/job/washington-d-c/agentic-ai-evaluation-engineer/45483/94179425248
-- Reuters｜Amazon Ring/Blink “builder” title 试点：https://www.reuters.com/technology/two-amazon-units-builder-replaces-traditional-job-titles-2026-04-23/
