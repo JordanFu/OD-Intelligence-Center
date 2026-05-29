@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "lastUpdated": "2026-05-28",
+  "lastUpdated": "2026-05-29",
   "mode": "karpathy-llm-wiki",
   "schema": "knowledge/CLAUDE.md",
   "categories": {
@@ -957,7 +957,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-05-28",
+      "uploadDate": "2026-05-29",
       "description": "GitLab SEC 8-K 是官方披露来源，可作为核验组织调整、AI 智能体优先（AI-agent-first） 运营模式（operating model） 相关说法的原始锚点。 关注重点：官方披露、组织压缩、AI 智能体优先（AI-agent-first） 待核验。相关性：中高相关：公司案例核验。",
       "summaryFile": "./knowledge/wiki/pdf-source-gitlab-gitlab-2026-sec-8-k-filing.md",
       "rawFile": "",
@@ -982,7 +982,7 @@
         "变革管理"
       ],
       "date": "",
-      "uploadDate": "2026-05-28",
+      "uploadDate": "2026-05-29",
       "description": "BCG 把 AI-First 组织定义为从“工具辅助”走向“AI 默认执行、人类编排监督”的经营模式重构。 关注重点：AI 默认执行、端到端流程重构、人机编排。相关性：强相关：组织与岗位重构。",
       "summaryFile": "./knowledge/wiki/pdf-source-bcg-bcg-ai-first-organization.md",
       "rawFile": "./knowledge/raw/bcg-bcg-ai-first-organization.pdf",
@@ -1009,7 +1009,7 @@
         "变革管理"
       ],
       "date": "",
-      "uploadDate": "2026-05-28",
+      "uploadDate": "2026-05-29",
       "description": "Anthropic 从软件开发场景说明 Agentic coding 正在把工程师角色推向任务编排、质量判断和系统设计。 关注重点：Agentic coding、工程师角色重塑、人机协作。相关性：强相关：产品工程一体化。",
       "summaryFile": "./knowledge/wiki/pdf-source-anthropic-anthropic-2026-agentic-coding-trends-report.md",
       "rawFile": "./knowledge/raw/anthropic-anthropic-2026-agentic-coding-trends-report.pdf",
@@ -1036,7 +1036,7 @@
         "战略规划"
       ],
       "date": "",
-      "uploadDate": "2026-05-28",
+      "uploadDate": "2026-05-29",
       "description": "BCG AI Radar 2026 预计可用于观察 AI 投资、价值兑现和组织阻碍，但当前原文下载失败，需要重试后再精读。 关注重点：AI 投资、价值兑现、组织阻碍待核验。相关性：中相关：战略背景。",
       "summaryFile": "./knowledge/wiki/pdf-source-bcg-bcg-ai-radar-2026.md",
       "rawFile": "",
@@ -1062,7 +1062,7 @@
         "人才发展"
       ],
       "date": "",
-      "uploadDate": "2026-05-28",
+      "uploadDate": "2026-05-29",
       "description": "AIHR 把 2026 HR 重点归纳为共领导 AI 转型、把 AI 产能收益再投资增长、从 headcount 转向 skill count。 关注重点：技能本位组织、HR 重构、skill count。相关性：强相关：岗位与技能体系。",
       "summaryFile": "./knowledge/wiki/pdf-source-aihr-aihr-hr-priorities-2026-report.md",
       "rawFile": "./knowledge/raw/aihr-aihr-hr-priorities-2026-report.pdf",
@@ -1088,7 +1088,7 @@
         "绩效管理"
       ],
       "date": "",
-      "uploadDate": "2026-05-28",
+      "uploadDate": "2026-05-29",
       "description": "EY 把未来薪酬改革连接到技能、绩效、AI 人才、生产率和治理，适合支撑“岗位改革背后是激励资源再配置”。 关注重点：技能薪酬、生产率锚点、AI 人才溢价。相关性：强相关：薪酬与激励机制。",
       "summaryFile": "./knowledge/wiki/pdf-source-ey-ey-future-of-pay-report-2026.md",
       "rawFile": "./knowledge/raw/ey-ey-future-of-pay-report-2026.pdf",
@@ -1115,7 +1115,7 @@
         "战略规划"
       ],
       "date": "",
-      "uploadDate": "2026-05-28",
+      "uploadDate": "2026-05-29",
       "description": "WEF/Accenture 把 AI 转型的重点放在 workflow、运营模式（operating model）、decision rights 的系统性重构。 关注重点：工作流重构、决策权、AI 参与执行。相关性：强相关：战略到组织机制。",
       "summaryFile": "./knowledge/wiki/pdf-source-world-economic-forum-wef-organizational-transformation-in-the-age-of-ai.md",
       "rawFile": "./knowledge/raw/world-economic-forum-wef-organizational-transformation-in-the-age-of-ai.pdf",
@@ -1142,7 +1142,7 @@
         "变革管理"
       ],
       "date": "",
-      "uploadDate": "2026-05-28",
+      "uploadDate": "2026-05-29",
       "description": "BCG + MIT Sloan 把 agentic enterprise 作为组织结构变量讨论，尤其适合核验“中层减少、层级压缩、Agent 进入执行流”的证据。 关注重点：Agentic enterprise、中层层级、组织结构变量。相关性：强相关：扁平化与管理层级。",
       "summaryFile": "./knowledge/wiki/pdf-source-bcg-bcg-mit-sloan-the-emerging-agentic-enterprise.md",
       "rawFile": "",
@@ -1168,7 +1168,7 @@
         "绩效管理"
       ],
       "date": "",
-      "uploadDate": "2026-05-28",
+      "uploadDate": "2026-05-29",
       "description": "Payscale 2026 薪酬实践报告可用于验证 AI 技能定价、薪酬公平、benchmarking 和 job management 的制度化问题。 关注重点：AI 技能定价、薪酬公平、薪酬基准、job management。相关性：强相关：薪酬架构与激励资源。",
       "summaryFile": "./knowledge/wiki/pdf-source-payscale-payscale-2026-compensation-best-practices-report.md",
       "rawFile": "./knowledge/raw/payscale-payscale-2026-compensation-best-practices-report.pdf",
@@ -1193,7 +1193,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-05-28",
+      "uploadDate": "2026-05-29",
       "description": "netflix culture 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-jobs-netflix-com-netflix-culture.md",
       "rawFile": "./knowledge/raw/jobs-netflix-com-netflix-culture.pdf",
@@ -1217,7 +1217,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-05-28",
+      "uploadDate": "2026-05-29",
       "description": "engineering progression framework v2 0 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-monzo-com-engineering-progression-framework-v2-0.md",
       "rawFile": "./knowledge/raw/monzo-com-engineering-progression-framework-v2-0.pdf",
@@ -1241,7 +1241,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-05-28",
+      "uploadDate": "2026-05-29",
       "description": "6456498 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-papers-ssrn-com-6456498.md",
       "rawFile": "",
@@ -1266,7 +1266,7 @@
         "变革管理"
       ],
       "date": "",
-      "uploadDate": "2026-05-28",
+      "uploadDate": "2026-05-29",
       "description": "us spans and layers for the modern organization 2020 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计、变革管理。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-deloitte-us-spans-and-layers-for-the-modern-organization-2020.md",
       "rawFile": "./knowledge/raw/deloitte-us-spans-and-layers-for-the-modern-organization-2020.pdf",
@@ -1291,7 +1291,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-05-28",
+      "uploadDate": "2026-05-29",
       "description": "12 087 bc50bde2 3016 457a 9bee dc988cb1056b 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-hbs-edu-12-087-bc50bde2-3016-457a-9bee-dc988cb1056b.md",
       "rawFile": "./knowledge/raw/hbs-edu-12-087-bc50bde2-3016-457a-9bee-dc988cb1056b.pdf",
@@ -1315,7 +1315,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-05-28",
+      "uploadDate": "2026-05-29",
       "description": "0000050863 26 000011 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-intc-com-0000050863-26-000011.md",
       "rawFile": "./knowledge/raw/intc-com-0000050863-26-000011.pdf",
@@ -1339,7 +1339,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-05-28",
+      "uploadDate": "2026-05-29",
       "description": "orgvue ai research ebook 2026 final 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-orgvue-com-orgvue-ai-research-ebook-2026-final.md",
       "rawFile": "./knowledge/raw/orgvue-com-orgvue-ai-research-ebook-2026-final.pdf",
@@ -1364,7 +1364,7 @@
         "绩效管理"
       ],
       "date": "",
-      "uploadDate": "2026-05-28",
+      "uploadDate": "2026-05-29",
       "description": "it job family career ladder matrix software engineer 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计、绩效管理。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-umassmed-edu-it-job-family-career-ladder-matrix-software-engineer.md",
       "rawFile": "",
@@ -1389,7 +1389,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-05-28",
+      "uploadDate": "2026-05-29",
       "description": "pip faq 2026 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-facs-org-pip-faq-2026.md",
       "rawFile": "./knowledge/raw/facs-org-pip-faq-2026.pdf",
@@ -1413,7 +1413,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-05-28",
+      "uploadDate": "2026-05-29",
       "description": "cesifo1 wp12373 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-ifo-de-cesifo1-wp12373.md",
       "rawFile": "./knowledge/raw/ifo-de-cesifo1-wp12373.pdf",
