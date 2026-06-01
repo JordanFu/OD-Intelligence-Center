@@ -17,6 +17,15 @@ const scanRoots = [
   'analysis',
 ].map((dir) => path.join(root, dir)).filter((dir) => fs.existsSync(dir));
 
+const extraScanRoots = (process.env.EXTRA_PDF_SCAN_DIRS || '')
+  .split(path.delimiter)
+  .map((dir) => dir.trim())
+  .filter(Boolean)
+  .map((dir) => path.resolve(dir))
+  .filter((dir) => fs.existsSync(dir));
+
+scanRoots.push(...extraScanRoots);
+
 const knownTitles = new Map([
   ['https://media-publications.bcg.com/AI-First-Organization.pdf', 'BCG：AI-First Organization'],
   ["https://reports.weforum.org/docs/WEF_Organizational_Transformation_in_the_Age_of_AI_How_Organizations_Maximize_AI's_Potential_2026.pdf", 'WEF：Organizational Transformation in the Age of AI'],
@@ -369,6 +378,7 @@ function collectPdfReferences() {
   const references = new Map();
   const urlPattern = /https?:\/\/[^\s<>"]+?\.pdf(?:\?[^\s<>"]*)?/gi;
   for (const file of scanRoots.flatMap(walk)) {
+    if (/source-channels\.private|local-reference-structured|\/archive\//.test(file)) continue;
     const relativeFile = path.relative(root, file);
     const content = fs.readFileSync(file, 'utf8');
     const lines = content.split(/\r?\n/);
