@@ -78,9 +78,9 @@
       "id": "obsidian-vault",
       "title": "Obsidian 本地知识库",
       "sourceType": "local",
-      "status": "已全量覆盖索引，首批重点内容已结构化沉淀",
+      "status": "已全量覆盖索引，2026-06-01 增量已抽取公开安全主题页",
       "path": "/Users/tal/Documents/Obsidian Vault",
-      "description": "本地 Vault 当前识别 58 篇 Markdown，已建立全量 source map；Concepts/Sources/Clippings/People 进入结构化覆盖索引，OD 强相关主题继续升级为 wiki/concept 页面。",
+      "description": "本地 Vault 当前识别 68 篇 Markdown；公开知识库已抽取新增高价值主题，包括 GitLab Handbook 管理机制、Handbook-First/DRI、人机协作演进、Agentic SDLC、McKinsey 九大变革与绩效管理机制流派。内部敏感来源只保留在私有索引，不进入公开仓库。",
       "summaryFile": "./knowledge/wiki/obsidian-vault-full-source-map-2026-05-22.md",
       "rawFile": "./knowledge/raw/obsidian-vault-source-map-2026-05-22.json"
     },
@@ -189,6 +189,213 @@
         "全量索引",
         "Source Map",
         "AI组织设计"
+      ]
+    },
+    {
+      "id": "mckinsey-rewire-agentic-era-software-delivery-2026",
+      "title": "McKinsey：Rewiring Software Delivery for the Agentic Era",
+      "originalTitle": "Rewiring software delivery for the agentic era",
+      "author": "Jared Moon, Rory Walsh, Vito Di Leo, Adam Thelwall",
+      "publisher": "McKinsey & Company",
+      "sourceType": "consulting",
+      "topics": [
+        "AI组织设计",
+        "技术组织",
+        "人才发展",
+        "数字化转型"
+      ],
+      "date": "2026-05",
+      "uploadDate": "2026-06-01",
+      "description": "McKinsey Technology 文章，讨论 Agentic AI 如何重连软件交付操作系统、团队结构、知识图谱和 SDLC。",
+      "summaryFile": "./knowledge/wiki/mckinsey-rewire-agentic-era-software-delivery-2026.md",
+      "fileName": "web article synthesis",
+      "fileSize": "summary only",
+      "tags": [
+        "McKinsey",
+        "Agentic AI",
+        "SDLC",
+        "软件交付"
+      ]
+    },
+    {
+      "id": "microsoft-ai-at-work-function-playbook-2026",
+      "title": "Microsoft WorkLab：AI@Work 与软件工程的人机协作路线图",
+      "originalTitle": "AI@Work: One function wrote the AI playbook",
+      "author": "Jared Spataro",
+      "publisher": "Microsoft WorkLab",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "人才发展",
+        "数字化转型",
+        "技术组织"
+      ],
+      "date": "2026-05-07",
+      "uploadDate": "2026-06-01",
+      "description": "Microsoft WorkLab 文章，提出软件工程的人机协作演进会成为其他知识工作函数的路线图。",
+      "summaryFile": "./knowledge/wiki/microsoft-ai-at-work-function-playbook-2026.md",
+      "fileName": "web article synthesis",
+      "fileSize": "summary only",
+      "tags": [
+        "Microsoft",
+        "AI@Work",
+        "人机协作",
+        "Agent"
+      ]
+    },
+    {
+      "id": "performance-management-benchmark-patterns",
+      "title": "绩效管理标杆实践：四种机制流派",
+      "originalTitle": "Performance management benchmark patterns",
+      "author": "Codex public-safe synthesis",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "concept",
+      "topics": [
+        "绩效管理",
+        "晋升机制",
+        "人才发展",
+        "薪酬激励"
+      ],
+      "date": "2026-06-01",
+      "uploadDate": "2026-06-01",
+      "description": "公开安全版绩效机制抽象，不包含内部采集细节；将绩效管理拆成相对排名、自主发展、快照记录、分层差异四类机制流派。",
+      "summaryFile": "./knowledge/wiki/performance-management-benchmark-patterns.md",
+      "fileName": "concept page",
+      "fileSize": "summary only",
+      "tags": [
+        "绩效管理",
+        "晋升机制",
+        "人才盘点"
+      ]
+    },
+    {
+      "id": "mckinsey-nine-shifts-2026",
+      "title": "McKinsey 组织九大变革框架 2026",
+      "originalTitle": "McKinsey Nine Shifts 2026",
+      "author": "Codex synthesis from McKinsey State of Organizations 2026",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "concept",
+      "topics": [
+        "AI组织设计",
+        "组织设计",
+        "绩效管理",
+        "领导力",
+        "变革管理"
+      ],
+      "date": "2026-06-01",
+      "uploadDate": "2026-06-01",
+      "description": "基于 McKinsey State of Organizations 2026，把九个组织变革议题收敛为三股结构性力量下的 OD 研究框架。",
+      "summaryFile": "./knowledge/wiki/mckinsey-nine-shifts-2026.md",
+      "fileName": "concept page",
+      "fileSize": "summary only",
+      "tags": [
+        "McKinsey",
+        "组织变革",
+        "AI组织设计"
+      ]
+    },
+    {
+      "id": "agentic-sdlc-operating-model",
+      "title": "Agentic SDLC：智能体时代的软件交付操作模型",
+      "originalTitle": "Agentic SDLC operating model",
+      "author": "Codex synthesis from McKinsey Technology",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "concept",
+      "topics": [
+        "AI组织设计",
+        "技术组织",
+        "人才发展",
+        "数字化转型"
+      ],
+      "date": "2026-06-01",
+      "uploadDate": "2026-06-01",
+      "description": "将智能体软件交付模型抽象为从人类主导、AI辅助到人类监督、Agent执行的交付操作系统重构。",
+      "summaryFile": "./knowledge/wiki/agentic-sdlc-operating-model.md",
+      "fileName": "concept page",
+      "fileSize": "summary only",
+      "tags": [
+        "Agentic SDLC",
+        "软件交付",
+        "技术组织"
+      ]
+    },
+    {
+      "id": "human-agent-collaboration-evolution",
+      "title": "人机协作演进框架：Author、Editor、Director、Orchestrator",
+      "originalTitle": "Human-agent collaboration evolution",
+      "author": "Codex synthesis from Microsoft WorkLab",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "concept",
+      "topics": [
+        "AI组织设计",
+        "人才发展",
+        "绩效管理",
+        "数字化转型"
+      ],
+      "date": "2026-06-01",
+      "uploadDate": "2026-06-01",
+      "description": "把人机协作拆成四种模式，强调人类签核单元从单行代码扩大到 backlog，适合用于岗位重塑、AI fluency 和绩效归属研究。",
+      "summaryFile": "./knowledge/wiki/human-agent-collaboration-evolution.md",
+      "fileName": "concept page",
+      "fileSize": "summary only",
+      "tags": [
+        "人机协作",
+        "Agent",
+        "AI组织设计"
+      ]
+    },
+    {
+      "id": "handbook-first-dri-operating-system",
+      "title": "Handbook-First 与 DRI：远程组织的决策操作系统",
+      "originalTitle": "Handbook-First and DRI operating system",
+      "author": "Codex synthesis",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "concept",
+      "topics": [
+        "组织设计",
+        "远程组织",
+        "变革管理",
+        "AI组织设计"
+      ],
+      "date": "2026-06-01",
+      "uploadDate": "2026-06-01",
+      "description": "解释 Handbook-First 如何解决组织知识位置问题，DRI 如何解决决策责任问题，以及二者为何是 AI 组织上下文工程的前置机制。",
+      "summaryFile": "./knowledge/wiki/handbook-first-dri-operating-system.md",
+      "fileName": "concept page",
+      "fileSize": "summary only",
+      "tags": [
+        "Handbook First",
+        "DRI",
+        "组织机制",
+        "GitLab"
+      ]
+    },
+    {
+      "id": "gitlab-handbook-management-research-synthesis",
+      "title": "GitLab Handbook 企业管理机制研究补充",
+      "originalTitle": "GitLab Handbook management mechanism synthesis",
+      "author": "Codex synthesis from Obsidian and GitLab Handbook",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "public-safe-synthesis",
+      "topics": [
+        "组织设计",
+        "人才发展",
+        "绩效管理",
+        "远程组织",
+        "变革管理"
+      ],
+      "date": "2026-06-01",
+      "uploadDate": "2026-06-01",
+      "description": "从 Obsidian 新增 GitLab 管理研究中抽取公开可复核的机制结论，补充 Handbook-First、DRI、TeamOps 和 QTR/Talent Assessment 的组织含义。",
+      "summaryFile": "./knowledge/wiki/gitlab-handbook-management-research-synthesis.md",
+      "fileName": "obsidian synthesis",
+      "fileSize": "summary only",
+      "tags": [
+        "GitLab",
+        "Handbook First",
+        "DRI",
+        "TeamOps",
+        "人才管理"
       ]
     },
     {

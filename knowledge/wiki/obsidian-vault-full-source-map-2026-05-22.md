@@ -24,6 +24,19 @@ Obsidian 是个人知识工作台，不把全部原文直接推到可分享知�
 - 新增本页作为可分享的 Obsidian 全量覆盖入口。
 - 保留旧的 `obsidian-vault-map-2026-05-13.md` 作为首批导入历史记录。
 
+## 2026-06-01 增量处理
+
+2026-06-01 复查时，Obsidian Vault 当前共识别 **68 篇 Markdown**，较 2026-05-22 新增 10 篇，新增或修改 20 篇。公开知识库已抽取其中可公开、可复核、适合组织研究的主题：
+
+- Handbook-First 与 DRI：作为远程组织和 AI 组织上下文工程的决策操作系统。
+- 人机协作演进框架：Author、Editor、Director、Orchestrator 四阶协作模式。
+- Agentic SDLC：智能体时代的软件交付操作模型。
+- McKinsey 组织九大变革框架：State of Organizations 2026 的主题化提炼。
+- 绩效管理标杆实践：只保留公开安全的机制流派抽象，不同步内部采集细节。
+- GitLab Handbook、Microsoft AI@Work、McKinsey ReWire Agentic Era 作为新增来源页进入索引。
+
+内部敏感来源继续保留在本地私有清单，不进入公开 GitHub 仓库。
+
 ## 主题沉淀：Concepts
 
 - **AI 劳动力重塑 AI Labor Disruption**：定义；核心框架：AI Labor Disruption Segments；六类角色；关键分析维度

@@ -4,6 +4,13 @@
 
 ---
 
+## [2026-06-01] ingest | Obsidian 增量公开安全入库
+- 对本地 Obsidian Vault 做增量检查：当前 68 篇 Markdown，较 2026-05-22 全量 source map 新增 10 篇，新增或修改 20 篇。
+- 按公开知识库边界处理：内部敏感来源不进入公开仓库；其余高价值内容抽取为公开安全的主题/来源页。
+- 新增概念页：Handbook-First 与 DRI、人机协作演进框架、Agentic SDLC、McKinsey 组织九大变革框架、绩效管理四种机制流派。
+- 新增来源页：Microsoft WorkLab AI@Work、McKinsey Rewiring Software Delivery for the Agentic Era、GitLab Handbook 企业管理机制研究补充。
+- 更新 `knowledge/index.md` 与 `knowledge/catalog.json`，将这些新增页纳入知识库入口。
+
 ## [2026-06-01] ingest | 日报 PDF 证据源自动入库
 - 从 daily、daily-report、specials、analysis 中扫描 PDF URL，按知识库 Raw/Wiki/Catalog 规则自动建档。
 - 本次识别 19 个唯一 PDF 来源：14 个已下载原始 PDF，5 个保留 URL 与引用上下文待重试。

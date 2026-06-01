@@ -13,6 +13,7 @@ related:
   - ./zapier-ai-practice-research-2026-05-20.md
   - ./bcg-2026-04-design-company-for-ai.md
   - ./pdf-source-world-economic-forum-wef-organizational-transformation-in-the-age-of-ai.md
+  - ./mckinsey-nine-shifts-2026.md
 ---
 
 # McKinsey：The State of Organizations 2026

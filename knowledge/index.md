@@ -34,10 +34,13 @@
 | 23 | [GitLab：Promotions and Transfers 晋升与内部流动机制](wiki/gitlab-promotions-transfers-handbook.md) | GitLab Handbook | 2026-05-21 | 晋升机制, 内部流动, 职级改革, 薪酬激励 |
 | 24 | [GitLab：People & Organization 机制研究模块](wiki/gitlab-people-org-handbook-module-2026-05-21.md) | GitLab Handbook | 2026-05-21 | 组织设计, PeopleOps, 人才发展, 政策合规 |
 | 25 | [GitLab：People Group / People Policies 覆盖索引](wiki/gitlab-people-org-handbook-source-map-2026-05-21.md) | GitLab Handbook | 2026-05-21 | 覆盖索引, 知识管理, People Handbook |
-| 26 | [BCG: Design Your Company for AI](wiki/bcg-2026-04-design-company-for-ai.md) | BCG | 2026-04 | AI组织设计, 运营模型, Agent |
-| 27 | [BCG: AI转型本质上是劳动力转型](summaries/r001-bcg-zh.md) | BCG | 2026-02 | AI转型, 10-20-70法则 |
-| 28 | [Deloitte: 企业AI应用现状](summaries/r002-deloitte-zh.md) | Deloitte | 2025 | 数字化转型, AI战略 |
-| 29 | [HR Analytics: Top 10 AI Solutions](summaries/r003-hr-analytics-ai-zh.md) | HR Analytics Trends | 2025 | HR Analytics, 人才发展 |
+| 26 | [GitLab Handbook 企业管理机制研究补充](wiki/gitlab-handbook-management-research-synthesis.md) | GitLab Handbook / Obsidian synthesis | 2026-06-01 | GitLab, Handbook First, TeamOps, DRI |
+| 27 | [Microsoft WorkLab：AI@Work 与软件工程的人机协作路线图](wiki/microsoft-ai-at-work-function-playbook-2026.md) | Microsoft WorkLab | 2026-05-07 | AI@Work, 人机协作, Agent, 工作重构 |
+| 28 | [McKinsey：Rewiring Software Delivery for the Agentic Era](wiki/mckinsey-rewire-agentic-era-software-delivery-2026.md) | McKinsey & Company | 2026-05 | Agentic AI, 软件交付, SDLC |
+| 29 | [BCG: Design Your Company for AI](wiki/bcg-2026-04-design-company-for-ai.md) | BCG | 2026-04 | AI组织设计, 运营模型, Agent |
+| 30 | [BCG: AI转型本质上是劳动力转型](summaries/r001-bcg-zh.md) | BCG | 2026-02 | AI转型, 10-20-70法则 |
+| 31 | [Deloitte: 企业AI应用现状](summaries/r002-deloitte-zh.md) | Deloitte | 2025 | 数字化转型, AI战略 |
+| 32 | [HR Analytics: Top 10 AI Solutions](summaries/r003-hr-analytics-ai-zh.md) | HR Analytics Trends | 2025 | HR Analytics, 人才发展 |
 
 ## 概念页
 
@@ -48,6 +51,11 @@
 | 3 | [AI-First 运营模型](concepts/ai-first-operating-model.md) | 围绕 Agent 重新设计的组织运营模型，30%技术+70%人组织 | BCG |
 | 4 | [能力-判断评估矩阵](concepts/capability-judgment-matrix.md) | 两维框架确定人机分工：AI能不能 + AI应不应该 | BCG |
 | 5 | [端到端旅程重设计](concepts/end-to-end-journey-redesign.md) | 从客户旅程出发重构组织，而非在职能流程上叠加AI | BCG |
+| 6 | [Handbook-First 与 DRI](wiki/handbook-first-dri-operating-system.md) | 用单一事实源和唯一责任人支撑远程组织决策速度 | GitLab / Obsidian |
+| 7 | [人机协作演进框架](wiki/human-agent-collaboration-evolution.md) | Author、Editor、Director、Orchestrator 四阶协作模式 | Microsoft / Obsidian |
+| 8 | [Agentic SDLC](wiki/agentic-sdlc-operating-model.md) | 从人类主导、AI辅助转向人类监督、Agent执行的软件交付模型 | McKinsey / Obsidian |
+| 9 | [McKinsey 组织九大变革框架](wiki/mckinsey-nine-shifts-2026.md) | 用三股结构性力量解释 2026 年九个组织变革议题 | McKinsey / Obsidian |
+| 10 | [绩效管理标杆实践：四种机制流派](wiki/performance-management-benchmark-patterns.md) | 将绩效机制抽象为相对排名、自主发展、快照记录、分层差异四类 | Obsidian synthesis |
 
 ## 实体页
 
