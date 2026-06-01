@@ -1,6 +1,6 @@
 # 专题二：高人才密度与复合型人才机制｜滚动基线档案
 
-> 更新日期：2026-06-01
+> 更新日期：2026-06-02
 > 用途：这是四课题研究的“滚动母稿”，不是某一天的日报。日报负责记录新增事实、Context 和线索；周报负责做阶段复盘；基线档案负责沉淀稳定判断、证据账本和待验证问题。
 > 自动化规则：每日/周报与 PDF 入库后自动回写证据账本；正式重跑遵循 research-protocol.md 的多代理并行与主代理交叉证伪机制；只有多源互证或一手材料足够强的内容，才进入稳定判断。
 
@@ -41,6 +41,7 @@ AI 时代的高人才密度不只是“更强个体”，而是能把问题定�
 | 资料 | 对本专题的价值 |
 |---|---|
 | [知识库主题分类与去重治理建议](./knowledge/wiki/knowledge-taxonomy-dedup-review-2026-05-22.md) | 对当前知识库重复信息与分类体系的健康检查。结论是来源页不应删除，需新增主题导航层，将 Zapier、GitLab、AI能力盘点、AI-first operating model、技术组织、绩效薪酬等高重叠主题收敛到主题… |
+| [人机协作演进框架：Author、Editor、Director、Orchestrator](./knowledge/wiki/human-agent-collaboration-evolution.md) | 把人机协作拆成四种模式，强调人类签核单元从单行代码扩大到 backlog，适合用于岗位重塑、AI fluency 和绩效归属研究。 |
 | [McKinsey：AI-first 时代端到端技术 workforce 设计](./knowledge/wiki/pdf-source-mckinsey-2026-ai-first-technology-workforce.md) | McKinsey Technology 文章，讨论 agentic AI 时代 CIO 如何重构技术组织的人才招聘、内部能力建设、Agent 训练和供应商策略。适合用于 AI-first 技术岗位族群和职级变化研究。 |
 | [GitLab：Promotions and Transfers 晋升与内部流动机制](./knowledge/wiki/gitlab-promotions-transfers-handbook.md) | GitLab 官方 Handbook 中的晋升与内部流动制度页，结构化说明周期性晋升校准、promotion document、业务结果、业务必要性、价值观对齐、跨职能反馈、Senior Director+ 角色评估、… |
 | [GitLab：People & Organization 机制研究模块](./knowledge/wiki/gitlab-people-org-handbook-module-2026-05-21.md) | 覆盖 GitLab Handbook People Group 与 People Policies 两个一级目录，沉淀 GitLab 的 People 操作系统：公开手册、服务台、员工生命周期、能力模型、人才盘点、晋升… |
@@ -51,7 +52,6 @@ AI 时代的高人才密度不只是“更强个体”，而是能把问题定�
 | [知音楼 HR 知识库十主题整理](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md) | 将知音楼 HR 知识库 331 个节点、234 份 PDF 按 AI+HR、薪酬激励、组织人才、领导力、出海 HR、劳动法、咨询白皮书、推荐书籍、行业背景、学习工具十个主题重组，形成页面端可读导航和精读优先级。 |
 | [AI 转型本质上是劳动力转型](./knowledge/summaries/r001-bcg-zh.md) | 仅有约5%的组织从AI中获得了实质性财务回报。这些'面向未来'企业的三年期股东总回报约为AI落后者的4倍。价值分布遵循10-20-70法则：10%来自算法，20%来自技术，70%来自组织变革和人才。 |
 | [Top 10 AI Solutions for HR Analytics](./knowledge/summaries/r003-hr-analytics-ai-zh.md) | AI 在 HR Analytics 中的十大应用方案，涵盖离职预测、招聘优化、内部人才识别、员工体验提升等场景。核心数据：招聘时间减少30%、员工满意度提升20%、内部晋升率提升30%。强调数据整合、预测分析、伦理规范… |
-| [AIHR：HR Priorities 2026 Report](./knowledge/wiki/pdf-source-aihr-aihr-hr-priorities-2026-report.md) | AIHR 把 2026 HR 重点归纳为共领导 AI 转型、把 AI 产能收益再投资增长、从 headcount 转向 skill count。 关注重点：技能本位组织、HR 重构、skill count。相关性：强相… |
 
 ## 当前不可越界的结论
 
