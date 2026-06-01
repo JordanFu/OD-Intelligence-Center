@@ -26,7 +26,6 @@
 - 已下载：orgvue ai research ebook 2026 final（引用 1 次）
 - 已下载：Payscale：2026 Compensation Best Practices Report（引用 3 次）
 - 待重试：it job family career ladder matrix software engineer（引用 1 次）
-
 ## [2026-06-01] ingest | Obsidian 增量公开安全入库
 - 对本地 Obsidian Vault 做增量检查：当前 68 篇 Markdown，较 2026-05-22 全量 source map 新增 10 篇，新增或修改 20 篇。
 - 按公开知识库边界处理：内部敏感来源不进入公开仓库；其余高价值内容抽取为公开安全的主题/来源页。
