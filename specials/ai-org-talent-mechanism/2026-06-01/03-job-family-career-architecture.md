@@ -10,6 +10,8 @@
    - 来源：PR Newswire（Censia，2026-03-31）https://www.prnewswire.com/news-releases/censia-ai-launches-workday-marketplace-app-that-helps-hr-leaders-understand-and-act-on-ai-powered-workforce-intelligence-302729176.html
 2. **arXiv 上一篇 2026-04-07 提交的论文（基于 2018-2025 的 150,000+ 英文招聘信息）**：研究以 job postings 语料分析 generative AI 如何改变技能要求与行业动态，报告称 AI 相关技能（如 prompt engineering、fine-tuning、model validation）在 2021 年后显著增加，并伴随例行任务（如 data entry、manual coding）相关技能提及下降；并预测 AI_Data 与 Soft_Meta 类技能将持续增长。  
    - 来源：arXiv（2026-04-07 提交）https://arxiv.org/abs/2605.00843
+3. **McKinsey（2026-05-28）在《Rewiring software delivery for the agentic era》中给出岗位变化方向**：团队可能收缩为更小的高技能 pods；工程师从手工协调/测试转向 judgment、code review、domain modeling 与 agent supervision；并强调 risk/legal/testing/procurement 等 outer loop 角色需要被纳入交付闭环。  
+   - 来源：McKinsey（2026-05-28）https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/rewiring-software-delivery-for-the-agentic-era
 
 ## 3. 今日核心判断（3-5 条；每条注明可信度、证据基础、为什么重要）
 
@@ -20,7 +22,7 @@
    - 证据基础：Censia 把技能与 job profile 关联并标注 core/emerging/sunsetting；同时要求每次更新有理由与审批。  
    - 为什么重要：如果把每次技能变化都固化成新序列，会制造组织复杂性与激励通胀；反之，若只有技能标签但缺少审批/审计，会失去公平与治理。
 3. **AI 时代岗位分工呈现“双向运动”仍成立：交付层更端到端、更复合；专家能力（AI/数据/治理/安全）继续深化并溢价。可信度：中。**  
-   - 证据基础：arXiv 的 job postings 分析显示 AI_Data 与 Soft_Meta 增长、例行任务下降，提示“复合 + 专业化”同时存在。  
+   - 证据基础：arXiv 的 job postings 分析显示 AI_Data 与 Soft_Meta 增长、例行任务下降；McKinsey 把工程角色迁移到 review/modeling/supervision，并把 outer loop 角色纳入闭环，提示“复合 + 专业化 + 治理角色前移”同时存在。  
    - 为什么重要：岗位体系若只向“更通用”或只向“更细分”单边倾斜，都会造成关键能力供给断层。
 4. **当业务推动岗位/族群/序列变更时，常见的真实诉求是“关键人才的市场溢价与激励空间”。可信度：中。**  
    - 证据基础：当 job profile 更新被数据化/透明化后，技能溢价与岗位价值变化更容易被暴露；这会把薪酬带宽与津贴工具推到前台。  
@@ -57,7 +59,7 @@
 ## 6. 证据地图（按渠道）
 
 - 官方/一手：Censia（Workday Marketplace 应用发布稿）。  
-- 权威媒体/咨询：Censia 稿件中引用 Deloitte/WEF 等（不在本文做二次背书，仅作线索）。  
+- 权威媒体/咨询：McKinsey（agentic SDLC 与岗位/角色迁移）；Censia 稿件中引用 Deloitte/WEF 等（不在本文做二次背书，仅作线索）。  
 - 公司案例/制度材料：Workday Extend 工作流式审批与发布机制；（内部）GitLab Handbook、Zapier 等的岗位/能力实践材料。  
 - 学术/研究：arXiv（job postings 技能变化分析）。  
 - 招聘 JD / 薪酬信号：待补“skills inference / job architecture / workforce intelligence”岗位的薪酬与层级信号。  
@@ -86,5 +88,5 @@
 
 - Censia（PR Newswire，2026-03-31）：https://www.prnewswire.com/news-releases/censia-ai-launches-workday-marketplace-app-that-helps-hr-leaders-understand-and-act-on-ai-powered-workforce-intelligence-302729176.html  
 - arXiv（2026-04-07 提交）：https://arxiv.org/abs/2605.00843  
+- McKinsey（2026-05-28）：https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/rewiring-software-delivery-for-the-agentic-era  
 - 内部：`specials/ai-org-talent-mechanism/baseline/03-job-family-career-architecture.md` ｜ `digest.md`
-

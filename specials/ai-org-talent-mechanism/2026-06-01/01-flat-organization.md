@@ -16,11 +16,15 @@
    - 来源：Gallup（2026-01-14）https://www.gallup.com/workplace/700718/span-control-optimal-team-size-managers.aspx
 3. **TechCrunch（2026-05-11）报道 GM（General Motors）裁撤其 IT 部门 10%+（约 600 名受薪员工）**，并将其描述为一次“skills swap”：清出不再匹配的技能，腾挪岗位给更偏 AI 的技能背景。  
    - 来源：TechCrunch（2026-05-11）https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/
+4. **McKinsey（2026-05-28）在《Rewiring software delivery for the agentic era》中提出交付模式重构信号**：团队可能从 8-12 人大团队收缩为更小的高技能 pods；工程师角色向 judgment / code review / domain modeling / agent supervision 迁移；risk/legal/testing/procurement 等 outer loop 角色需要被纳入 agentic SDLC 的闭环，而非末端 gatekeeper。  
+   - 来源：McKinsey（2026-05-28）https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/rewiring-software-delivery-for-the-agentic-era
+5. **SAP（2026-05-27）强调 autonomous enterprise 中每个 AI 驱动动作需要“可追溯、可审计”**，并将人机分工表述为：people 负责 priorities/policies/guardrails，assistants 做跨域协调，agents 负责持续执行。  
+   - 来源：SAP News Center（2026-05-27）https://news.sap.com/2026/05/autonomous-enterprise-better-decisions-in-motion/
 
 ## 3. 今日核心判断（3-5 条；每条注明可信度、证据基础、为什么重要）
 
 1. **“去中层”的第一动作正在从‘组织图’前移到‘流程运行时’：先把交接/审批自动化成可审计工作流，再谈压层级。可信度：高。**  
-   - 证据基础：GitLab 公开把“移除最多三层管理”与“用 AI agents 自动化 reviews/approvals/handoffs”放在同一组运营变化里，并明确要形成端到端负责的小团队。  
+   - 证据基础：GitLab 公开把“移除最多三层管理”与“用 AI agents 自动化 reviews/approvals/handoffs”放在同一组运营变化里，并明确要形成端到端负责的小团队；McKinsey 与 SAP 进一步把“运行时闭环与可审计性”表达为组织重构的共同前提。  
    - 为什么重要：如果只压层级、不把交接机制系统化，组织会把原本由中层吸收的例外处理与风险兜底硬转移到一线，容易带来质量波动与责任真空，最终长出新的“协调层”。
 2. **扁平化的真正难点不是‘管理跨度数值’，而是‘跨度背后的认知负荷与风险门禁’。可信度：中高。**  
    - 证据基础：Gallup 指向平均 span of control 上升；GitLab 指向用 AI 工作流重连审批与交接。  
@@ -75,7 +79,7 @@
 ## 6. 证据地图（按渠道）
 
 - 官方/一手：GitLab Act 2（公开信与内部邮件全文）。  
-- 权威媒体/咨询：TechCrunch（GM 技能重配裁撤报道）；Gallup（span of control 数据文章）。  
+- 权威媒体/咨询：McKinsey（agentic SDLC 与交付模式重构）；TechCrunch（GM 技能重配裁撤报道）；Gallup（span of control 数据文章）。  
 - 公司案例/制度材料：GitLab（端到端小队、流程 agent 化）；GM（skills swap）。  
 - 学术/研究：待补“delayering 与组织绩效/质量”实证研究（见待验证清单）。  
 - 招聘 JD / 薪酬信号：待用“agent governance / workflow owner / approval & audit”类岗位验证是否固化为稳定层级与序列。  
@@ -102,5 +106,6 @@
 - GitLab（2026-05-11）：https://about.gitlab.com/blog/gitlab-act-2/  
 - Gallup（2026-01-14）：https://www.gallup.com/workplace/700718/span-control-optimal-team-size-managers.aspx  
 - TechCrunch（2026-05-11）：https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/  
+- McKinsey（2026-05-28）：https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/rewiring-software-delivery-for-the-agentic-era  
+- SAP（2026-05-27）：https://news.sap.com/2026/05/autonomous-enterprise-better-decisions-in-motion/  
 - 内部：`specials/ai-org-talent-mechanism/baseline/01-flat-organization.md` ｜ `digest.md`
-

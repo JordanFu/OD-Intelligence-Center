@@ -7,12 +7,12 @@
 ## 2. 今日最重要的 5-7 条发现
 
 1. **GitLab（2026-05-11）明确四项运营变化**：减少国家足迹、移除最多三层管理层级、把 R&D 重组为约 60 个端到端小队、并用 AI agents 自动化 reviews/approvals/handoffs。来源：GitLab Blog。  
-2. **扁平化与管理跨度的现实压力在上升**：Gallup 指出其数据中 2024→2025 的平均 span of control 从 10.9→12.1。来源：Gallup。  
-3. **Zapier（2026-03-31）把 AI fluency 设为所有新 hire 的最低门槛**，并在 V2 rubric 中把 accountability 作为显式维度、把测量嵌入招聘四个触点。来源：Zapier Blog。  
-4. **Workday 引用其 research 指向 manager enablement 的缺口**：只有 28% 领导者优先投入 manager enablement；员工更愿意与 AI agent 结对而非被 AI 管理（75% vs 30%）。来源：Workday。  
+2. **McKinsey（2026-05-28）明确“agentic SDLC”将触发交付模式重构**：团队可能收缩为更小的高技能 pods；工程师角色向 judgment / code review / domain modeling / agent supervision 迁移；risk/legal/testing/procurement 等 outer loop 角色必须被纳入交付闭环。来源：McKinsey。  
+3. **SAP（2026-05-27）把 autonomous enterprise 的组织分工讲清楚**：people 负责 priorities/policies/guardrails，assistants 做跨域协调，agents 负责持续执行；并强调每个 AI 驱动动作需 auditable/traceable。来源：SAP News Center。  
+4. **Zapier（2026-03-31）把 AI fluency 设为所有新 hire 的最低门槛**，并在 V2 rubric 中把 accountability 作为显式维度、把测量嵌入招聘四个触点。来源：Zapier Blog。  
 5. **Censia（2026-03-31）把 job profile 更新做成“解释 + 审批 + 发布”的治理工作流**：在 Workday 界面展示 AI-inferred skills 与更新建议，并通过 governed approval workflow 保持人类控制。来源：PR Newswire。  
-6. **空军（媒体报道，2026-05-11）探索用 AI 辅助 promotion board 的 screening/ranking**：把人才识别与晋升效率议题推到机制层。来源：Air Force Times。  
-7. **岗位变化在招聘市场层面可被观测**：一篇基于 2018-2025 招聘信息的研究报告 AI 相关技能提及上升并伴随例行任务相关技能下降。来源：arXiv（job postings 分析）。
+6. **OpenAI（2026-05-28/29）把前沿模型治理与第三方评测方法“外显成可对接接口”**：强调评测结果取决于模型与 harness/工具/预算/监控/环境的组合，第三方评测需明确 claim、setup 与有效性。来源：OpenAI。  
+7. **空军（媒体报道，2026-05-11）探索用 AI 辅助 promotion board 的 screening/ranking**：把人才识别与晋升效率议题推到机制层。来源：Air Force Times。
 
 ## 3. 四专题交叉关系：组织扁平化 × 人才密度 × 岗位序列 × 晋升机制
 
@@ -53,11 +53,14 @@
 ## 来源索引（当日关键）
 
 - GitLab（2026-05-11）：https://about.gitlab.com/blog/gitlab-act-2/  
+- McKinsey（2026-05-28）：https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/rewiring-software-delivery-for-the-agentic-era  
+- SAP（2026-05-27）：https://news.sap.com/2026/05/autonomous-enterprise-better-decisions-in-motion/  
 - Zapier（2026-03-31）：https://zapier.com/blog/raising-ai-fluency-bar-in-hiring/  
 - Workday（页面内引用 research）：https://www.workday.com/en-us/perspectives/ai/building-ai-fluent-culture.html  
 - Censia（PR Newswire，2026-03-31）：https://www.prnewswire.com/news-releases/censia-ai-launches-workday-marketplace-app-that-helps-hr-leaders-understand-and-act-on-ai-powered-workforce-intelligence-302729176.html  
+- OpenAI（2026-05-28）：https://openai.com/index/openai-frontier-governance-framework/  
+- OpenAI（2026-05-29）：https://openai.com/index/trustworthy-third-party-evaluations-foundations/  
 - Air Force Times（2026-05-11）：https://www.airforcetimes.com/news/your-military/2026/05/11/air-force-experimenting-with-using-ai-for-promotion-boards/  
 - Gallup（2026-01-14）：https://www.gallup.com/workplace/700718/span-control-optimal-team-size-managers.aspx  
 - arXiv（2026-04-07 提交）：https://arxiv.org/abs/2605.00843  
 - 内部：`digest.md` ｜ `daily/` ｜ `daily-report/` ｜ `knowledge/` ｜ `specials/ai-org-talent-mechanism/baseline/*`
-

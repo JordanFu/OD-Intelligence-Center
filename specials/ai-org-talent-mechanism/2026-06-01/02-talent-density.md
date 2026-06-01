@@ -10,6 +10,10 @@ AI 时代的“高人才密度”正在从“会用工具的人更多”升级�
    - 来源：Zapier Blog（2026-03-31）https://zapier.com/blog/raising-ai-fluency-bar-in-hiring/
 2. **Workday 的一篇文章引用其研究（research shows）**：称“75% 的员工愿意与 AI agents 结对（teaming up）”，但只有“30% 的员工愿意被 AI 管理（being managed by one）”；同文还称 Workday 研究发现只有 “28% 的领导者优先投入 manager enablement”。  
    - 来源：Workday Perspectives（页面内引用 Workday research）https://www.workday.com/en-us/perspectives/ai/building-ai-fluent-culture.html
+3. **TestGorilla 发布《The State of Hiring for AI Fluency 2026》报告**：其宣称基于约 2,000 名招聘从业者/专家调查，并指出尽管组织提高“AI fluency”优先级，但仍有 59% 的组织表示出现过“bad AI hire”（面试通过但入职后表现不匹配），并强调若缺少共享 rubric，所谓“fluency”容易沦为主观的 vibe-check。  
+   - 来源：TestGorilla（报告页面）https://www.testgorilla.com/talent-discovery/state-hiring-ai-fluency/
+4. **Terminal.io（2026-04-14）发布“AI Fluency Standard”**：提出用于招聘工程人才的 AI fluency 识别框架，并明确其参考了学界/业界的既有框架与标准（文章表述）。  
+   - 来源：Terminal.io（2026-04-14）https://www.terminal.io/blog/ai-fluency-standard
 
 ## 3. 今日核心判断（3-5 条；每条注明可信度、证据基础、为什么重要）
 
@@ -22,7 +26,10 @@ AI 时代的“高人才密度”正在从“会用工具的人更多”升级�
 3. **面试与评估应从“知识/口才”升级为“约束下的行动题”。可信度：中高。**  
    - 证据基础：Zapier 将 skills test 设计为测量 AI fluency 的固定一环，并强调多触点信号累积。  
    - 为什么重要：AI 时代的关键能力是“在权限/质量/合规约束下交付”，只有行动题能暴露候选人的判断力、系统思维与责任感。
-4. **高人才密度的保留机制将更依赖“资产化与影响力的可见性”，而不是只靠加薪留人。可信度：中。**  
+4. **没有共享 rubric 的“AI fluency”会快速退化为叙事与面试表演，反而增加误招率。可信度：中。**  
+   - 证据基础：TestGorilla 报告强调缺少 rubric 会变成 vibe-check，并报告“bad AI hire”比例较高（其口径需持续校验）。  
+   - 为什么重要：当候选人可以用 AI 提升表达与材料包装，组织越依赖主观叙事，越会奖励“会讲的人”而不是“能在约束下交付的人”。  
+5. **高人才密度的保留机制将更依赖“资产化与影响力的可见性”，而不是只靠加薪留人。可信度：中。**  
    - 证据基础：Zapier 的描述把重点放在“workflows redesign / repeatable systems”；Workday 强调 manager 需要把“时间如何被 AI 释放并再投资”转成行动。  
    - 为什么重要：当产出被 AI 放大，优秀人才更在意自己是否在构建可复用资产、是否获得清晰授权与影响力路径；否则会把组织当跳板。
 
@@ -59,7 +66,7 @@ AI 时代的“高人才密度”正在从“会用工具的人更多”升级�
 ## 6. 证据地图（按渠道）
 
 - 官方/一手：Zapier（招聘与 onboarding 机制公开文章）；Workday（研究引用与 manager enablement 数据）。  
-- 权威媒体/咨询：今日未新增能“量化比较不同人才机制 ROI”的咨询/权威报告（列入待补）。  
+- 权威媒体/咨询：今日未新增能“量化比较不同人才机制 ROI”的咨询/权威报告（列入待补）；TestGorilla（招聘侧 AI fluency 报告，属行业研究口径，需交叉验证）。  
 - 公司案例/制度材料：Zapier（rubric + 评估触点 + onboarding）；（内部）GitLab / GitLab Handbook 的晋升与贡献证据包作为对照。  
 - 学术/研究：待补“AI fluency 的可测量维度与偏差控制”的研究与实践报告。  
 - 招聘 JD / 薪酬信号：待补“accountability / workflow building / governed automation”成为 JD 的频率与薪酬溢价。  
@@ -85,5 +92,6 @@ AI 时代的“高人才密度”正在从“会用工具的人更多”升级�
 
 - Zapier（2026-03-31）：https://zapier.com/blog/raising-ai-fluency-bar-in-hiring/  
 - Workday（页面内引用 research）：https://www.workday.com/en-us/perspectives/ai/building-ai-fluent-culture.html  
+- TestGorilla（报告页）：https://www.testgorilla.com/talent-discovery/state-hiring-ai-fluency/  
+- Terminal.io（2026-04-14）：https://www.terminal.io/blog/ai-fluency-standard  
 - 内部：`specials/ai-org-talent-mechanism/baseline/02-talent-density.md` ｜ `knowledge/wiki/zapier-ai-practice-research-2026-05-20.md` ｜ `digest.md`
-

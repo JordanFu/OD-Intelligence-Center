@@ -10,6 +10,8 @@
    - 来源：Air Force Times（2026-05-11）https://www.airforcetimes.com/news/your-military/2026/05/11/air-force-experimenting-with-using-ai-for-promotion-boards/
 2. **Workday 的文章（页面内引用其 research）称只有 28% 的领导者优先投入 manager enablement**（与晋升机制相关：管理者若未被赋能，晋升证据收集、辅导与校准质量会下降）。  
    - 来源：Workday Perspectives（页面内引用 Workday research）https://www.workday.com/en-us/perspectives/ai/building-ai-fluent-culture.html
+3. **OpenAI 于 2026-05-28/29 连续发布两份治理/评测方法框架**：其在《Frontier Governance Framework》中说明其安全与安保实践如何对齐 California 的 Transparency in Frontier AI Act 与 EU AI Act 的通用模型实践要求；并在《A shared playbook for trustworthy third party evaluations》中强调对 agentic system 的评测不仅取决于模型，也取决于 harness、工具、预算、监控与环境设置，第三方评测需明确所验证的 claim、具体 setup 与结果有效性。  
+   - 来源：OpenAI（2026-05-28/29）https://openai.com/index/openai-frontier-governance-framework/ ｜ https://openai.com/index/trustworthy-third-party-evaluations-foundations/
 
 ## 3. 今日核心判断（3-5 条；每条注明可信度、证据基础、为什么重要）
 
@@ -25,6 +27,9 @@
 4. **manager enablement 是晋升公平的系统性前置条件。可信度：中。**  
    - 证据基础：Workday 指向仅 28% 领导者优先投入 manager enablement。  
    - 为什么重要：晋升证据从何而来、如何被辅导、如何被校准，本质上依赖 manager 的一致性与可解释性；manager 不被赋能，AI 只能加速“低质量证据”的流转。
+5. **晋升机制可借鉴“第三方评测”的方法论：明确 claim、固定 setup、解释结果有效性，把证据治理从口径争论变成可审计流程。可信度：中。**  
+   - 证据基础：OpenAI 在第三方评测 playbook 中强调 claim/setup/validity 与环境依赖；空军案例提示 AI 可能进入晋升筛选/排序链路。  
+   - 为什么重要：当晋升争议出现时，组织需要能回答“我们评的是什么、在什么条件下评的、为什么可信”；否则即时晋升/AI 辅助只会加速不信任。
 
 ## 4. 重点案例事实还原（美国空军：用 AI 探索晋升评审材料的筛选与排序）
 
@@ -55,7 +60,7 @@
 
 ## 6. 证据地图（按渠道）
 
-- 官方/一手：暂无公开的一手制度文件（仅有媒体报道引用公开发言）。  
+- 官方/一手：OpenAI（治理框架与第三方评测方法）；晋升制度本身暂无公开的一手制度文件（仅有媒体报道引用公开发言）。  
 - 权威媒体/咨询：Air Force Times（报道）。  
 - 公司案例/制度材料：对照内部知识库中 GitLab promotions/transfers、Zapier accountability 等材料。  
 - 学术/研究：待补“AI 辅助评审/排序的偏差与治理”研究。  
@@ -82,5 +87,6 @@
 
 - Air Force Times（2026-05-11）：https://www.airforcetimes.com/news/your-military/2026/05/11/air-force-experimenting-with-using-ai-for-promotion-boards/  
 - Workday（页面内引用 research）：https://www.workday.com/en-us/perspectives/ai/building-ai-fluent-culture.html  
+- OpenAI（2026-05-28）：https://openai.com/index/openai-frontier-governance-framework/  
+- OpenAI（2026-05-29）：https://openai.com/index/trustworthy-third-party-evaluations-foundations/  
 - 内部：`specials/ai-org-talent-mechanism/baseline/04-promotion-system.md` ｜ `knowledge/wiki/gitlab-promotions-transfers-handbook.md` ｜ `digest.md`
-
