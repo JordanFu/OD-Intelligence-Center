@@ -1,7 +1,7 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-05-29 09:33
+> 最后更新：2026-06-01 09:41
 
 ---
 
@@ -23,6 +23,36 @@
 - 💬参考：社交平台/社区讨论，需交叉验证
 
 -->
+
+## 2026-06-01
+
+### [1] OpenAI：前沿模型治理开始从“内部安全做法”外显为可对接监管、可接受第三方评测的方法框架
+- **事件摘要**：OpenAI 于 2026 年 5 月 28 日发布 Frontier Governance Framework，明确将其安全与安保实践映射到 California 的 Transparency in Frontier AI Act 与 EU AI Act 的通用模型实践要求；5 月 29 日又进一步发布《A shared playbook for trustworthy third party evaluations》，强调前沿模型尤其是 agentic system 的评测结果，不仅取决于模型本身，还显著取决于 harness、工具、预算、监控和环境设置，第三方评测需要同时说明所验证的 claim、具体 setup 以及结果有效性。两份材料放在一起看，信号不是“再发一篇安全说明”，而是头部模型厂商开始把治理与评测从内部能力，转成企业、监管与外部评审都可引用的公共接口。
+- **来源**：OpenAI（https://openai.com/index/openai-frontier-governance-framework/；https://openai.com/index/trustworthy-third-party-evaluations-foundations/）
+- **来源平台**：OpenAI
+- **来源可信度**：⭐高
+- **OD启示**：这意味着企业 AI 治理的重心要进一步前移。未来组织采购和部署模型时，不能只问“效果如何”，还要问供应商是否有公开治理框架、第三方评测方法、以及能否清楚解释 agent 在什么环境下被验证过。对 OD、风险与 AI governance owner 来说，这会把原本偏技术或法务的审核问题，变成正式 operating model 的一部分：谁有权批准模型进入关键流程、谁定义可接受的评测标准、谁对 agent 在真实工作环境中的偏差负责。
+- **标签**：#OpenAI #AIGovernance #ThirdPartyEvaluation #AgenticSystems #RiskManagement
+- **抓取时间**：2026-06-01 09:41
+
+### [2] McKinsey：工程组织进入 agentic SDLC 重构期，团队缩编不是重点，真正变化是人类角色向架构、评审与监督迁移
+- **事件摘要**：McKinsey 于 2026 年 5 月 28 日发布《Rewiring software delivery for the agentic era》，明确提出 agentic AI 在软件交付中的应用，是更广泛 delivery model 重构的前兆。文中给出几个关键组织信号：原先 8-12 人的大团队可能收缩为更小的高技能 pods；工程师需要从手工协调和测试，转向 judgment、code review、domain modeling 与 agent supervision；同时 risk、legal、testing、procurement 等“outer loop”角色必须被纳入 agentic SDLC，而不能继续做末端 gatekeeper。McKinsey 的意思很清楚：AI coding 的价值如果只停留在“提效”，组织最后只会更快地产出新的瓶颈。
+- **来源**：McKinsey（https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/rewiring-software-delivery-for-the-agentic-era）
+- **来源平台**：McKinsey
+- **来源可信度**：⭐高
+- **OD启示**：这对研发组织设计的价值非常直接。下一步要重写的不只是工程师岗位说明书，而是整条交付链的边界：谁负责 agent factory、谁做质量与风险嵌入、谁拥有知识图谱与 domain model、以及 freed capacity 被重新投向哪里。很多企业如果只看到“更小团队”，却没有同步重写 architecture owner、review discipline 和 control embedding，AI coding 带来的不是 operating leverage，而是更隐蔽的治理债。
+- **标签**：#McKinsey #EngineeringOrg #AgenticSDLC #RoleRedesign #OperatingModel
+- **抓取时间**：2026-06-01 09:41
+
+### [3] SAP：Autonomous Enterprise 的真正组织含义开始被说清楚，人定目标与边界，assistant 做跨域协调，agent 负责持续执行
+- **事件摘要**：SAP 于 2026 年 5 月 27 日发布《The Autonomous Enterprise: Better Decisions in Motion》，把 autonomous enterprise 的运行分工讲得比此前更具体：企业要能持续感知信号、基于 business context 与 established rules 推理，并在端到端流程中行动，而不是依赖人工逐步协调。文中明确提出三层原则是 process knowledge、business data 与 governance；同时给出角色分工：people 负责 priorities、policies 和 guardrails，assistants 理解 role 与 process context 并跨域协调，agents 则执行已定义工作；每一个 AI 驱动动作都必须 auditable 与 traceable。
+- **来源**：SAP News Center（https://news.sap.com/2026/05/autonomous-enterprise-better-decisions-in-motion/）
+- **来源平台**：SAP
+- **来源可信度**：⭐高
+- **OD启示**：这条信息的价值在于，它把很多企业正在模糊处理的人机分工说成了一个可操作的组织结构问题。未来真正稀缺的不是“再多几个 agent”，而是有没有人能稳定定义 priorities、policies、guardrails 与 exception handling；assistant 和 agent 只是执行层。对财务、供应链、HCM 与共享服务团队来说，这意味着岗位价值会从手工推进流程，转向维护规则、解释例外、校准跨域协同与承担结果责任。谁拥有这些边界，谁就是新的关键管理节点。
+- **标签**：#SAP #AutonomousEnterprise #DecisionRights #SharedServices #HumanAgentOperatingModel
+- **抓取时间**：2026-06-01 09:41
+
 
 ## 2026-05-29
 
