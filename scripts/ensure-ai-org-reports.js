@@ -97,6 +97,19 @@ function updateHome() {
   const indexPath = path.join(root, 'index.html');
   if (!fs.existsSync(indexPath)) return;
   const s = fs.readFileSync(indexPath, 'utf8');
+  function existingDailyMeta(source) {
+    const start = source.indexOf('    const levelsDailyOutputs = [');
+    if (start === -1) return new Map();
+    const end = source.indexOf('    ];', start);
+    const block = end === -1 ? source.slice(start) : source.slice(start, end);
+    const meta = new Map();
+    const pattern = /date:\s*'(\d{4}-\d{2}-\d{2})'[\s\S]*?title:\s*'([^']*)'[\s\S]*?status:\s*'([^']*)'[\s\S]*?summary:\s*'([^']*)'/g;
+    let match;
+    while ((match = pattern.exec(block))) {
+      meta.set(match[1], { title: match[2], status: match[3], summary: match[4] });
+    }
+    return meta;
+  }
   function replaceConstArray(source, name, block) {
     const start = source.indexOf(`    const ${name} = [`);
     if (start === -1) return source;
@@ -105,6 +118,7 @@ function updateHome() {
   }
   const dates = fs.readdirSync(project).filter(name => /^\d{4}-\d{2}-\d{2}$/.test(name)).sort().reverse();
   const week = isoWeek(weeklyAnchorDate());
+  const existingDaily = existingDailyMeta(s);
   function isNonDecisionDate(date) {
     const overview = path.join(project, date, '00-overview.md');
     if (!fs.existsSync(overview)) return true;
@@ -139,7 +153,16 @@ function updateHome() {
   }
   const dailyItems = dates.map(date => {
     const nonDecision = isNonDecisionDate(date);
-    return `      {\n        date: '${date}',\n        title: 'AI时代组织与人才机制四课题日报',\n        status: '${nonDecision ? '待正式重跑 / 非决策稿' : (date === today ? '已修正 / 决策稿' : '历史版本')}',\n        summary: '${nonDecision ? '仅记录自动化触发与研究缺口；缺少新增事实、反例、薪酬/JD 信号和交叉验证时，不作为正式日报。' : '四专题日报归档，包含总览和四份专题报告。'}',\n        href: './specials/ai-org-talent-mechanism/${date}/index.html'\n      },`;
+    const previous = existingDaily.get(date);
+    const preservePrevious = previous && !/非决策稿|待正式重跑/.test(previous.status) && !nonDecision;
+    const title = preservePrevious ? previous.title : 'AI时代组织与人才机制四课题日报';
+    const status = nonDecision ? '待正式重跑 / 非决策稿' : preservePrevious ? previous.status : (date === today ? '已修正 / 决策稿' : '历史版本');
+    const summary = nonDecision
+      ? '仅记录自动化触发与研究缺口；缺少新增事实、反例、薪酬/JD 信号和交叉验证时，不作为正式日报。'
+      : preservePrevious
+        ? previous.summary
+        : '四专题日报归档，包含总览和四份专题报告。';
+    return `      {\n        date: '${date}',\n        title: '${title}',\n        status: '${status}',\n        summary: '${summary}',\n        href: './specials/ai-org-talent-mechanism/${date}/index.html'\n      },`;
   });
   const quickStatus = weeklyStatus(`${week}-quick.md`, '周报状态记录', '仅记录本周入口和研究缺口；没有信息密度时不输出快速导读式结论。');
   const detailedStatus = weeklyStatus(`${week}-detailed.md`, '详细资料状态记录', '仅整理当周日报入口、Context 候选和待验证线索；正式资料版需主代理重跑。');

@@ -10,6 +10,10 @@ on:
   schedule:
     # 18:20 Asia/Shanghai daily. GitHub cron uses UTC.
     - cron: '20 10 * * *'
+    # Same-day guardrail at 21:30 Asia/Shanghai in case the local deep-research run missed 18:00.
+    - cron: '30 13 * * *'
+    # Next-morning backfill at 09:30 Asia/Shanghai; covers weekends, sleep, and local network failures.
+    - cron: '30 1 * * *'
     # Extra weekly guardrail every Monday 18:45 Asia/Shanghai.
     - cron: '45 10 * * 1'
 
@@ -34,11 +38,12 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Ensure daily and weekly reports
+      - name: Ensure recent daily and weekly reports
         env:
           REPORT_DATE: ${{ inputs.report_date }}
+          ENSURE_DAYS: 4
           TZ: Asia/Shanghai
-        run: node scripts/ensure-ai-org-reports.js
+        run: node scripts/ensure-recent-ai-org-reports.js
 
       - name: Run report quality gate
         env:
@@ -49,6 +54,7 @@ jobs:
       - name: Audit report coverage
         env:
           REPORT_DATE: ${{ inputs.report_date }}
+          AUDIT_LOOKBACK_DAYS: 14
           TZ: Asia/Shanghai
         run: node scripts/audit-ai-org-report-coverage.js
 
@@ -80,6 +86,6 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html assets specials daily-report knowledge pdfs operations report-viewer.html knowledge-viewer.html scripts/ensure-ai-org-reports.js scripts/ingest-pdf-references.js scripts/update-ai-org-baselines.js scripts/render-markdown-page.js scripts/render-special-html.js scripts/enhance-report-sharing.js scripts/quality-gate-ai-org-reports.js scripts/audit-ai-org-report-coverage.js scripts/audit-info-library.js
+          git add index.html assets specials daily-report knowledge pdfs operations report-viewer.html knowledge-viewer.html scripts/ensure-ai-org-reports.js scripts/ensure-recent-ai-org-reports.js scripts/ingest-pdf-references.js scripts/update-ai-org-baselines.js scripts/render-markdown-page.js scripts/render-special-html.js scripts/enhance-report-sharing.js scripts/quality-gate-ai-org-reports.js scripts/audit-ai-org-report-coverage.js scripts/audit-info-library.js
           git commit -m "auto-fallback: ensure AI org reports"
           git push

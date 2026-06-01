@@ -35,6 +35,9 @@ function dateRange(start, end) {
   for (let cur = start; cur <= end; cur = dateAdd(cur, 1)) out.push(cur);
   return out;
 }
+function dateAddLocal(date, days) {
+  return dateAdd(date, days);
+}
 function dailyDirs() {
   if (!fs.existsSync(project)) return [];
   return fs.readdirSync(project).filter((name) => /^\d{4}-\d{2}-\d{2}$/.test(name)).sort();
@@ -60,11 +63,13 @@ function auditDate(date) {
 function main() {
   fs.mkdirSync(qualityDir, { recursive: true });
   const dates = dailyDirs();
-  const start = process.env.AUDIT_START_DATE || dates[0] || today;
+  const lookback = Number.parseInt(process.env.AUDIT_LOOKBACK_DAYS || '14', 10);
+  const defaultStart = dateAddLocal(today, -Math.max(1, Number.isFinite(lookback) ? lookback : 14) + 1);
+  const start = process.env.AUDIT_START_DATE || defaultStart;
   const expected = dateRange(start, today);
   const existing = new Set(dates);
   const missingDates = expected.filter((date) => !existing.has(date));
-  const audits = dates.map(auditDate);
+  const audits = expected.filter((date) => existing.has(date)).map(auditDate);
   const nonDecision = audits.filter((item) => item.status === 'non-decision');
   const incomplete = audits.filter((item) => item.missing.length || item.signalIssues.length);
   const rows = audits.map((item) => `| ${item.date} | ${item.status} | ${item.missing.length ? item.missing.join('<br>') : '完整'} | ${item.signalIssues.length ? item.signalIssues.join('<br>') : '通过'} |`).join('\n');
