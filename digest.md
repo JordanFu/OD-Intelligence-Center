@@ -1,7 +1,7 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-06-02 10:35
+> 最后更新：2026-06-02 18:07
 
 ---
 
@@ -26,59 +26,59 @@
 
 ## 2026-06-02
 
-### [1] Workday × Google Cloud：HR/Finance agent 开始原生支持 A2A / A2UI / MCP，员工服务入口从“应用集合”收敛为“对话式执行层”
+### [1] Workday：Agent System of Record 正式 GA，agent 开始进入企业正式台账而不是继续停留在“工具目录”
+- **事件摘要**：Workday 于 2026 年 5 月 21 日发布 FY2027 Q1 财报时披露，Workday Agent System of Record 已正式 general availability；同一份材料还给出两个落地信号：截至当时已有超过 4,000 家客户在至少一个业务流程中使用 Workday 自研 agents，Recruiting Agent 在第一财季支持了 1,400 万个招聘流程、同比增长 44%。
+- **来源**：Workday（https://newsroom.workday.com/2026-05-21-Workday-Announces-Fiscal-2027-First-Quarter-Financial-Results?asPDF=1）
+- **来源平台**：Workday
+- **来源可信度**：⭐高
+- **OD启示**：这说明企业开始把 agent 当成正式治理对象，而不再只是“谁接了哪个插件”。对 OD 和 shared services 来说，更现实的问题变成：每个 agent 的 owner、权限、成本归属、停用机制和升级路径是否进入正式台账；否则 agent 数量一旦扩散，组织只会新增一层看不见的数字劳动力。
+- **标签**：#Workday #AgentSystemOfRecord #DigitalLabor #Governance #SharedServices
+- **抓取时间**：2026-06-02 18:07
+
+### [2] Workday × Google Cloud：HR/Finance agent 原生支持 A2A / A2UI / MCP，员工服务入口从“应用集合”收敛为“对话式执行层”
 - **事件摘要**：Workday 与 Google Cloud 于 2026 年 5 月 28 日宣布扩大战略合作，把 Sana Self-Service Agent 直接接入 Gemini Enterprise，并明确支持 Agent-to-Agent（A2A）、Agent-to-UI（A2UI）和 MCP，让 Workday、Google Cloud 与第三方 agents 在同一工作流里实时共享信息与自主交接任务。官方还强调，Gemini 成为 Sana for Workday 默认模型，HR 与财务动作可在原有权限、审批与安全框架下直接触发。
 - **来源**：Workday（https://newsroom.workday.com/2026-05-28-Workday-and-Google-Cloud-Expand-Strategic-Partnership-to-Bring-AI-Agents-for-HR-and-Finance-Into-Employees-Daily-Workflows）
 - **来源平台**：Workday
 - **来源可信度**：⭐高
 - **OD启示**：这意味着员工服务组织要从“多系统入口管理”转向“统一对话式执行层治理”。未来 HR shared services、finance ops 与 IT owner 更需要定义的不是 FAQ，而是 agent 之间如何继承权限、谁批准跨 agent handoff、异常何时升级给人，以及默认工作界面上的责任边界归谁。
 - **标签**：#Workday #GoogleCloud #A2A #MCP #SharedServices
-- **抓取时间**：2026-06-02 10:35
+- **抓取时间**：2026-06-02 18:07
 
-### [2] SAP：Agent Hub 被明确成 agent / LLM / MCP server 的 system of record，agent 治理开始并入企业架构与流程治理主干
-- **事件摘要**：SAP 于 2026 年 5 月 13 日介绍 Autonomous Enterprise 配套的 Business Transformation Management 基础设施时披露，SAP AI Agent Hub 现已可用，且已被 150 家公司用于管理超过 100,000 个 agents。官方进一步说明，该 Hub 不只管理 AI agents，也管理 large language models 与 MCP servers，并与 LeanIX 的 enterprise architecture context 以及 Signavio 的 agent mining 能力结合，用于观察 agent 行为、政策符合度与业务影响。
-- **来源**：SAP News Center（https://news.sap.com/2026/05/business-transformation-management-foundation-autonomous-enterprise/）
+### [3] SAP：Autonomous Suite 把 assistants 明确映射到核心业务角色并绑定 KPI，agent 开始带着岗位与结果责任进入正式 operating model
+- **事件摘要**：SAP 于 2026 年 5 月 13 日在 Sapphire 主题演讲中介绍 SAP Autonomous Suite，称其覆盖 Autonomous Finance、Spend、Supply Chain、HCM 与 CX 五大域，未来数月将提供 200 多个 agents 和 50 多个 assistants。更关键的是，SAP 明确说明每个 assistant 都被映射到核心业务角色，并携带一组通过 SAP AI Agent Hub 跟踪的既定 KPI。
+- **来源**：SAP News Center（https://news.sap.com/2026/05/sap-sapphire-keynote-business-ai-platform-power-autonomous-enterprise/）
 - **来源平台**：SAP
 - **来源可信度**：⭐高
-- **OD启示**：这条信号的重要性在于，agent 治理不再只是 IT 工具目录，而是开始被正式拉进 enterprise architecture、process ownership 和 transformation management。对 OD 来说，下一步要补的不是“再设一个 AI 委员会”，而是把 agent 对应哪项业务能力、嵌在哪段流程、谁拥有 override 权、谁承担业务结果责任写进组织台账。
-- **标签**：#SAP #AgentHub #SystemOfRecord #EnterpriseArchitecture #Governance
-- **抓取时间**：2026-06-02 10:35
+- **OD启示**：这里真正重要的不是 agent 数量，而是 SAP 把“agent 对应哪个角色、交付什么结果、由什么 KPI 衡量”说成了正式产品逻辑。对企业来说，这意味着 agent 进入 operating model 后，岗位说明、结果口径和责任链都需要同步重写；否则 agent 只会变成没人真正负责的自动化表演层。
+- **标签**：#SAP #AutonomousSuite #RoleDesign #KPI #OperatingModel
+- **抓取时间**：2026-06-02 18:07
 
-### [3] Oracle：Fusion Agentic Applications for HR 把 manager / HR 的大量协调劳动改写成“守护栏内自动推进，例外升级给人”
-- **事件摘要**：Oracle 于 2026 年 4 月 9 日发布 Fusion Agentic Applications for HR，明确提出其由多类 specialized AI agents 协同执行，可在既有业务流程内安全访问统一数据、workflow、policy、approval hierarchy、permission 与 transactional context。官方列出八类已可用应用，包括 career mobility、talent calibration、manager concierge、employee help 与 workforce operations 等，并强调 routine work 可在既有 security framework 中 autonomously progress，而 exceptions、tradeoffs 与关键决策再交由人类判断。
-- **来源**：Oracle（https://www.oracle.com/news/announcement/oracle-introduces-fusion-agentic-applications-for-hr-2026-04-09/）
-- **来源平台**：Oracle
+### [4] SAP × NVIDIA：enterprise-grade agent execution 被定义成“可检查、可治理、可依赖”的运行时，而不是单个模型能力
+- **事件摘要**：SAP 于 2026 年 5 月 12 日发布与 NVIDIA 的合作说明，明确表示双方目标不是简单集成，而是共同定义 autonomous AI systems 的“enterprise-grade”标准。SAP 写得很直接：通过结合 NVIDIA 的 runtime 与 security innovation，以及 SAP 的 enterprise productization、governance expertise 与 operational scale，双方正朝着一套 trusted agent execution 方案推进，使企业能 inspect、govern and rely on 这些 agents。
+- **来源**：SAP News Center（https://news.sap.com/2026/05/secure-ai-agents-how-sap-and-nvidia-co-define-enterprise-grade-agent-execution/）
+- **来源平台**：SAP
 - **来源可信度**：⭐高
-- **OD启示**：这意味着许多经理人和 HRBP 的工作重心将从“人肉追进度、跨系统找信息、逐项协调”转向“定义 guardrails、处理例外、承担判断责任”。组织真正要改写的是 manager role 和 service operating model，而不是单独加一个 HR agent 功能页。
-- **标签**：#Oracle #HRTech #ManagerRole #ExceptionHandling #OperatingModel
-- **抓取时间**：2026-06-02 10:35
+- **OD启示**：这意味着 agent 规模化的门槛正在从“会不会用”转成“能不能安全授权、审计、回滚和问责”。组织下一步需要补的不是再做一轮 AI 培训，而是明确 agent 的运行时治理谁负责、异常谁兜底、哪些流程能让 agent 真正执行、哪些仍必须保留人为 override。
+- **标签**：#SAP #NVIDIA #RuntimeGovernance #TrustedExecution #AIGovernance
+- **抓取时间**：2026-06-02 18:07
 
-### [4] Cornerstone：Workforce AI 把 skills、performance、career mobility、organization design 拉进同一推理层，人才判断基础设施开始平台化
-- **事件摘要**：Cornerstone 于 2026 年 5 月 20 日发布 Cornerstone Workforce AI，称其以 People Graph、Skills Engine、系统记录数据、劳动力市场情报和 agentic orchestration 构成 workforce readiness intelligence layer。官方披露，该层基于 45 million users、超过 55,000 项技能 taxonomy、1 billion workforce profiles 与多类 system-of-record signals，并明确可用于组织设计、绩效管理、career mobility、manager coaching，以及给出“哪些任务可由 AI 自动化”的建议。
-- **来源**：Cornerstone（https://www.cornerstoneondemand.com/company/news-room/press-releases/cornerstone-launches-cornerstone-workforce-ai-the-intelligence-platform-for-workforce-readiness-built-to-amplify-human-potential-exponentially-with-ai/）
-- **来源平台**：Cornerstone
-- **来源可信度**：⭐高
-- **OD启示**：这意味着 HR Tech 正在从记录人才信息，升级为持续生成组织判断。对 OD 的含义是，岗位、技能、绩效、流动性和 AI 劳动分工不再适合分开治理，而要被拉进同一张动态推理图谱；否则组织会同时维护多套相互冲突的人才真相。
-- **标签**：#Cornerstone #WorkforceAI #SkillsGraph #OrganizationDesign #TalentStrategy
-- **抓取时间**：2026-06-02 10:35
-
-### [5] OpenAI × Endava：把 senior judgment 编码进 agent，开始重写“小团队如何规模化复用资深经验”的机制
-- **事件摘要**：OpenAI 于 2026 年 5 月 28 日发布 Endava 客户案例。Endava 将自己定义为 “agentic organization”，并明确表示把 senior expertise codified into agents，使其横跨客户生命周期从 intake、ideation 到 delivery 与团队协作。案例还指出，原本要靠多年 pairing、code review 与 mentoring 传递的 senior judgment，如今可以被 junior teams 实时调用；requirements、design 与 build 也不再被视为严格顺序交接的阶段。
-- **来源**：OpenAI（https://openai.com/index/endava/）
+### [5] OpenAI：Deployment Company 被单独做成 business unit，模型厂商开始把“部署与变革执行”本身组织化
+- **事件摘要**：OpenAI 于 2026 年 5 月 11 日宣布成立 OpenAI Deployment Company，并明确写明其被设为 standalone business unit，以发展这类工作所需的 operating model、pace 与 customer focus。官方同时披露，该单元将从一开始就获得约 150 名 Forward Deployed Engineers 与 Deployment Specialists，并在客户组织内部围绕数据、工具、控制与业务流程设计、测试和部署生产系统。
+- **来源**：OpenAI（https://openai.com/index/openai-launches-the-deployment-company/）
 - **来源平台**：OpenAI
 - **来源可信度**：⭐高
-- **OD启示**：这条信息的价值不在“AI 又提升研发效率”，而在于资深经验开始被当成可复制的组织资产。未来高绩效工程组织的关键，不只是招更多 senior，而是有没有机制把 senior judgment 编码、复用、审校并持续更新；这会直接影响 mentoring、团队配置、晋升标准与 player-coach 角色设计。
-- **标签**：#OpenAI #Endava #SeniorJudgment #EngineeringOrg #TalentLeverage
-- **抓取时间**：2026-06-02 10:35
+- **OD启示**：这条信号的重点不在“OpenAI 又开了一个新业务”，而在模型公司开始把“把 AI 变成日常工作系统”的能力独立成组织边界。对企业侧的含义是，AI 转型的主战场正在从模型选型前移到 workflow redesign、controls 接入、change management 和前线 adoption；交付能力本身开始变成 operating leverage。
+- **标签**：#OpenAI #DeploymentCompany #FDE #WorkflowRedesign #ChangeManagement
+- **抓取时间**：2026-06-02 18:07
 
-### [6] OpenAI × Warp：90% PR 由 agents 共同创建，工程组织的瓶颈从“写代码”转向“编排、记忆、可观测性与人审”
-- **事件摘要**：OpenAI 于 2026 年 5 月 27 日发布 Warp 客户案例。文中披露，Warp 在自身工程组织中已有约 90% 的 pull requests 由 agents 共同创建；其 Open Agentic Development 模式由人类定义目标并监督结果，而 agents 负责规划、写代码、测试与开 PR。Warp 进一步说明，要让这种长时工作流规模化，需要 observability、coordination、memory、reproducible environments、evaluation systems 与 human review，而不只是更强的代码生成。
-- **来源**：OpenAI（https://openai.com/index/warp/）
-- **来源平台**：OpenAI
+### [6] McKinsey：Agentic SDLC 指向更小的高技能 pods，outer-loop 的 risk / legal / testing / procurement 必须被嵌回交付链
+- **事件摘要**：McKinsey 于 2026 年 5 月 28 日发布《Rewiring software delivery for the agentic era》，明确提出原先 8-12 人的大团队可能让位于更小的高技能 pods，由人监督 agent-driven execution；同时强调除了中央 agent factory 外，工程师角色将从 manual coordination 和 testing 转向 judgment、code review、domain modeling 与 AI supervision。McKinsey 还特别指出，risk、legal、testing 与 procurement 等 outer-loop 角色必须从一开始就被纳入，否则更快的 SDLC 不会自动转化为更快的业务进展。
+- **来源**：McKinsey（https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/rewiring-software-delivery-for-the-agentic-era）
+- **来源平台**：McKinsey
 - **来源可信度**：⭐高
-- **OD启示**：这意味着工程管理真正稀缺的能力正在转向“控制平面设计”。当大部分实现劳动可以被 agent 吃掉，组织需要重新定义 review discipline、知识沉淀、agent memory、权限与评测体系；否则团队只是把人类编码瓶颈替换成新的 agent 协调瓶颈。
-- **标签**：#OpenAI #Warp #AgenticDevelopment #EngineeringManagement #ControlPlane
-- **抓取时间**：2026-06-02 10:35
+- **OD启示**：这说明工程组织 redesign 的关键不只是“缩小团队”，而是把原先流程末端的风控、法务、测试和采购重新嵌入执行主干。未来很多组织如果只学到了“小团队 + AI coding”，却没同步重写 outer loop 的权限、节奏与责任边界，最后只会更快地产出新的治理瓶颈。
+- **标签**：#McKinsey #AgenticSDLC #SmallPods #OuterLoop #EngineeringOrg
+- **抓取时间**：2026-06-02 18:07
 
 
 ## 2026-06-01
