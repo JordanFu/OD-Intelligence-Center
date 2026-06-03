@@ -1,50 +1,113 @@
-# 2026-06-03｜专题三：岗位、族群、序列持续建设
+# 2026-06-03｜专题三：岗位、族群、序列的持续建设
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+## 1. 今日一句话专题判断
 
-## 今日一句话结论
+今天岗位/族群/序列最值得关注的新变化是：组织开始把 `skills governance` 做成正式治理接口，这意味着 AI 时代的岗位体系正在从“职位目录”升级为 **技能标准、岗位边界、绩效证据和内部流动共享的一套底层规则系统**。
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+## 2. 今日新增事实：只写可追溯事实，注明来源
 
-## 今日核心判断
+1. **SAP SuccessFactors 1H 2026（2026-04-13）**增强了 `talent intelligence hub` 的 `skills governance`，用于集中管理 skills、应用 governance standards，并保持跨 SAP SuccessFactors 与 partner applications 的一致性。  
+   - 来源：SAP  
+   - https://news.sap.com/2026/04/sap-successfactors-1h-2026-release/
+2. **同一 SAP release** 说明，agentic AI 已覆盖 recruiting、workforce administration、payroll、learning、performance 和 talent development。  
+   - 来源：SAP  
+   - https://news.sap.com/2026/04/sap-successfactors-1h-2026-release/
+3. **Oracle（2026-04-09）**发布 Fusion Agentic Applications for HR，可在 unified enterprise data、workflows、policies、approval hierarchies、permissions 与 transactional context 中执行 HR 决策。  
+   - 来源：Oracle  
+   - https://www.oracle.com/news/announcement/oracle-introduces-fusion-agentic-applications-for-hr-2026-04-09/
+4. **LinkedIn（2026-01-26）**推出 verified AI proficiency skills，让 AI 工具熟练度成为更可展示的职业信号。  
+   - 来源：LinkedIn News  
+   - https://news.linkedin.com/2026/Professional_Edge_Skills_Verified
+5. **Cornerstone（2026-04-02）**指出，强绩效组织 4 倍更可能清晰定义战略技能，且更依赖 system-enabled skills visibility。  
+   - 来源：Cornerstone  
+   - https://www.cornerstoneondemand.com/company/news-room/press-releases/is-your-workforce-operating-like-a-connected-system-new-study-shows-an-adaptive-workforce-is-a-key-characteristic-of-top-performing-organizations/
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+## 3. 今日核心判断：3-5 条，每条注明可信度、证据基础、为什么重要
 
-## 今日背景材料（Context）
+1. **岗位体系的下一步，不是继续细分 title，而是先稳定 `skills governance`。可信度：高。**  
+   - 证据基础：SAP 单独把 skills governance 提出来，并要求跨系统一致。  
+   - 为什么重要：没有统一技能标准，job architecture、内部流动、培训、绩效和晋升都无法共用一套语言。
+2. **岗位/族群/序列会越来越像“规则容器”，而不是“身份标签”。可信度：中高。**  
+   - 证据基础：Oracle 将数据、workflow、policy、approval hierarchy 和 permissions 一起接进 HR agentic 应用。  
+   - 为什么重要：这意味着新增岗位/序列不该只回答“叫什么”，还要回答“承载哪些规则、边界和权限”。
+3. **verified skills 会进一步削弱纯 title 作为价值证明的地位。可信度：中高。**  
+   - 证据基础：LinkedIn 把 AI proficiency 做成可验证、可公开展示的信号。  
+   - 为什么重要：外部市场越 skills-first，内部岗位体系越需要回答“skills 如何映射到 level、pay 和 role boundary”。
+4. **岗位体系维护频率必须提升，否则会落后于工作重构速度。可信度：高。**  
+   - 证据基础：SAP 把 skills 治理接进持续运行层，Cornerstone 把 skills visibility 做成系统能力。  
+   - 为什么重要：岗位 catalog 若还是年度更新，将持续失真并误导编制、薪酬和晋升。
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计（job/workflow redesign）、智能体治理（agent governance）、基于技能的薪酬（skills-based pay） 和 薪酬带宽（pay band） 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+## 4. 重点案例事实还原：SAP SuccessFactors 把 skills governance 从“分类工作”升级为“运行时接口”
 
-## 今日新增证据地图
+- 背景：SAP 过去已经强调 skills-based organization，但 1H 2026 release 更进一步，把 skills governance 放到更靠近日常运行的位置。
+- 时间线：
+  - 2026-04-13：发布 `SAP SuccessFactors 1H 2026 Release`。
+- 原组织形态：
+  - 技能标签可能分散在不同模块与合作方系统；
+  - 岗位、学习、绩效、发展之间未必共享同一标准；
+  - job architecture 维护更偏项目式和低频。
+- 新组织形态：
+  - `talent intelligence hub` 提供集中技能治理接口；
+  - skills 贯穿 recruiting、learning、performance、talent development 等环节；
+  - AI agents 在同一体系中协同支持 HR 生命周期。
+- 哪些岗位逻辑被削弱：
+  - 单纯靠 job title 管理人才的方式；
+  - 各模块各自维护技能口径的方式。
+- 哪些岗位逻辑被增强：
+  - 用统一 skills 标准连接岗位、学习、绩效、内部流动与发展；
+  - 以能力和边界为中心维护 career architecture。
+- 管理与 HR 如何执行：
+  - 建立 skills governance owner；
+  - 确保 partner applications 与主系统口径一致；
+  - 用 skills 解释绩效与发展建议，而不只是记录培训结果。
+- 员工影响：
+  - 技能证据在更多场景下变得可见；
+  - title 不再是唯一锚点；
+  - 内部流动与发展路径可能更依赖 skills profile。
+- 争议和阻碍：
+  - skills 标准若过宽，会失去定价与边界价值；
+  - skills 标准若过细，会把岗位治理重新拉回复杂目录。
+- 可借鉴点：
+  - 先做统一 skills governance，再决定是否改 title 和序列；
+  - 把 skills 口径作为 job architecture 更新的前置条件。
+- 不可照搬点：
+  - 没有清晰 owner 和变更节奏时，过早推广全公司 skills 体系会制造更多争议而非共识。
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | title、职责、薪资区间、level、地区、IC/Manager 边界 |
+## 5. Context层：暂不形成结论，但提示我们关注……
 
-## 线索层
+- 暂不形成结论，但提示我们关注：**内部 skills governance 建得越快，外部 market premium 和内部 pay band 的张力会越早暴露**。  
+- 暂不形成结论，但提示我们关注：**verified skills 可能强化通用能力流动性，但也可能弱化组织内部对领域深专家的识别精度**。
 
-- 追踪 FDE、AI 工作流负责人、智能体运营（agent ops）、AI 治理（AI governance）、基于技能的薪酬（skills-based pay）等头衔是否形成稳定 岗位族群（job family）。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+## 6. 证据地图
 
-## 待补齐的落地问题
+- 官方/一手：SAP；Oracle；LinkedIn。  
+- 权威媒体/咨询：Cornerstone 研究。  
+- 公司案例/制度材料：SAP SuccessFactors 1H 2026；Oracle Fusion Agentic Applications for HR。  
+- 学术/研究：Cornerstone x Lighthouse Research。  
+- 招聘 JD / 薪酬信号：verified AI skills 前移到外部职业市场。  
+- 社媒/职场线索：不纳入结论层。  
+- 内部信息库/知识库：`specials/ai-org-talent-mechanism/baseline/03-job-family-career-architecture.md`；`knowledge/concepts/skills-based-organization-obsidian.md`；`digest.md`。
 
-正式重跑必须回答：是新建岗位族群、保留技能标签，还是调整薪酬带宽和项目激励；必须同时验证岗位合并与专家岗位深化。
+## 7. 对我们行动的启发
 
-## 来源索引
+1. 把岗位治理重点改成 `skills governance + role boundary + pay logic` 三件事一起看。  
+2. 新建岗位/序列前先问：是责任链稳定了，还是只是 skills 缺口和定价问题？  
+3. 让岗位 catalog 更新从年度动作改为持续治理流程，但保留变更门槛。  
+4. 把 verified skills、内部项目表现、manager judgment 三类证据共同映射到 career architecture。
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价（AI skill premium）、基于技能的薪酬（skills-based pay）、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
+## 8. 待验证清单与下一步搜索路径
+
+1. 哪些企业已公开定义 `skills governance owner`？  
+   - Query：`skills governance owner official company`
+2. verified skills 如何进入企业内部 pay band 和 level judgment？  
+   - Query：`verified skills pay band level judgment official`
+3. Oracle/SAP/Workday 中，job architecture 是否开始与 policy/permission 直接连接？  
+   - Query：`job architecture policy permissions official HR system`
+
+## 9. 来源索引
+
+- SAP（2026-04-13）：https://news.sap.com/2026/04/sap-successfactors-1h-2026-release/  
+- Oracle（2026-04-09）：https://www.oracle.com/news/announcement/oracle-introduces-fusion-agentic-applications-for-hr-2026-04-09/  
+- LinkedIn（2026-01-26）：https://news.linkedin.com/2026/Professional_Edge_Skills_Verified  
+- Cornerstone（2026-04-02）：https://www.cornerstoneondemand.com/company/news-room/press-releases/is-your-workforce-operating-like-a-connected-system-new-study-shows-an-adaptive-workforce-is-a-key-characteristic-of-top-performing-organizations/  
+- 内部：`specials/ai-org-talent-mechanism/baseline/03-job-family-career-architecture.md` ｜ `digest.md`

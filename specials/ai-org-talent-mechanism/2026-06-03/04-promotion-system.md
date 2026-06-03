@@ -1,50 +1,111 @@
 # 2026-06-03｜专题四：未来组织的晋升机制
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+## 1. 今日一句话专题判断
 
-## 今日一句话结论
+今天晋升机制最关键的新判断是：未来晋升规则正在被迫从“评审会逻辑”升级到“运行时证据逻辑”，因为 manager 的 compensation、performance、talent actions 正被集中到统一界面和政策体系中，**晋升公平越来越取决于证据字段、skills 口径和 policy-backed decision flow 是否一致**。
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+## 2. 今日新增事实：只写可追溯事实，注明来源
 
-## 今日核心判断
+1. **Oracle（2026-04-09）**发布 `Manager Concierge Workspace`，帮助 managers 在 compensation、performance、talent、absence 等事项上做出更智能决策，并通过 built-in approvals 完成 policy-backed one-click actions。  
+   - 来源：Oracle  
+   - https://www.oracle.com/news/announcement/oracle-introduces-fusion-agentic-applications-for-hr-2026-04-09/
+2. **Oracle 同文说明**，这些 HR agentic applications 可在 unified enterprise data、workflows、policies、approval hierarchies、permissions 和 transactional context 中执行。  
+   - 来源：Oracle  
+   - https://www.oracle.com/news/announcement/oracle-introduces-fusion-agentic-applications-for-hr-2026-04-09/
+3. **SAP SuccessFactors 1H 2026（2026-04-13）**将 performance 与 talent development 纳入 suite-wide agentic AI 支持范围，并强化 `skills governance`。  
+   - 来源：SAP  
+   - https://news.sap.com/2026/04/sap-successfactors-1h-2026-release/
+4. **LinkedIn（2026-01-26）**推出 verified AI proficiency skills，使一部分技能证据更容易被公开验证和展示。  
+   - 来源：LinkedIn News  
+   - https://news.linkedin.com/2026/Professional_Edge_Skills_Verified
+5. **Microsoft Work Trend Index 2026（2026-05-05）**已把 `AI in performance evaluation` 纳入 organizational readiness 组成项。  
+   - 来源：Microsoft WorkLab  
+   - https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+## 3. 今日核心判断：3-5 条，每条注明可信度、证据基础、为什么重要
 
-## 今日背景材料（Context）
+1. **晋升机制的焦点正在从“什么时候评”转向“依据什么字段评”。可信度：高。**  
+   - 证据基础：Oracle 将 compensation/performance/talent actions 放到统一 manager 决策界面；微软把 AI in performance evaluation 纳入 readiness。  
+   - 为什么重要：如果证据字段不统一，固定窗口和即时晋升都会失真。
+2. **manager 不会在晋升机制中退场，反而会因为统一决策界面而被更强问责。可信度：中高。**  
+   - 证据基础：Oracle 让 manager 在统一上下文中发起与执行人才动作；SAP 让 performance 与 development 进入同一运行层。  
+   - 为什么重要：未来晋升公正性的第一责任人，仍然很可能是 manager，而不是 AI 系统。
+3. **skills 证据会更丰富，但仍不能自动替代 level judgment。可信度：中高。**  
+   - 证据基础：LinkedIn verified skills 强化技能可见性；SAP 强调 skills governance。  
+   - 为什么重要：会展示、会验证某项技能，不等于已经具备下一层级所需的影响力、判断和组织贡献。
+4. **AI 更适合进入晋升的提速层与一致性层，而不是直接进入裁决层。可信度：高。**  
+   - 证据基础：Oracle 与 SAP 都在把流程、政策、审批和上下文接在一起；微软强调 AI in performance evaluation，而非 AI automatic promotion decision。  
+   - 为什么重要：组织真正需要的是更结构化、更可审计的证据流，而不是黑盒打分。
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计（job/workflow redesign）、智能体治理（agent governance）、基于技能的薪酬（skills-based pay） 和 薪酬带宽（pay band） 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+## 4. 重点案例事实还原：Oracle `Manager Concierge Workspace` 对晋升机制的制度含义
 
-## 今日新增证据地图
+- 背景：Oracle 不是直接发布一套 promotion policy，而是把 manager 需要处理的人才动作放进统一的 AI 辅助界面，这对晋升机制非常关键。
+- 时间线：
+  - 2026-04-09：发布 `Oracle Introduces Fusion Agentic Applications for HR`。
+- 原组织形态：
+  - compensation、performance、talent 等动作分散在不同模块和流程；
+  - manager 需要跨系统拼证据；
+  - 审批和政策逻辑分散，导致速度慢且一致性弱。
+- 新组织形态：
+  - manager 在统一工作台中查看团队信号和优先事项；
+  - 可在 policy-backed、built-in approvals 前提下执行人才动作；
+  - HR agentic applications 在统一 enterprise context 中运行。
+- 对晋升机制的直接含义：
+  - promotion readiness 与 compensation/performance/talent 之间会更容易被联动；
+  - 证据不再只存在于评审会 PPT，而会越来越存在于日常 manager action log 和系统字段中；
+  - 一致性检查、政策符合性和审批路径会更早进入流程。
+- manager 如何转型：
+  - 从整理材料的人，转向解释材料、承担判断和发起动作的人；
+  - 从“等窗口”转向持续经营团队证据的人。
+- HR 与业务如何执行：
+  - 更需要统一 evidence schema；
+  - 更需要定义什么是 development signal、什么是 promotion signal、什么只是短期表现波动。
+- 员工影响：
+  - 优秀表现更可能更早被看见；
+  - 但若字段定义不清，也更容易让员工质疑系统在“记录什么、忽略什么”。
+- 争议和阻碍：
+  - 统一界面不自动等于公平；
+  - 如果 policy 和 skills governance 本身设计得不好，只会更快复制坏判断。
+- 可借鉴点：
+  - 设计统一 `promotion evidence packet v2`：结果、skills、work redesign、风险/质量、组织影响。  
+- 不可照搬点：
+  - 不能把 built-in approvals 误解为“审批逻辑已合理”，仍需对字段和标准做人工治理。
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | title、职责、薪资区间、level、地区、IC/Manager 边界 |
+## 5. Context层：暂不形成结论，但提示我们关注……
 
-## 线索层
+- 暂不形成结论，但提示我们关注：**统一 manager workspace 可能让即时认可和即时调薪更容易，但不代表正式晋升窗口会消失**。  
+- 暂不形成结论，但提示我们关注：**skills badge 越多，员工越可能追求“可展示技能”而不是“高层级影响力”，这会扭曲晋升材料**。
 
-- 追踪 FDE、AI 工作流负责人、智能体运营（agent ops）、AI 治理（AI governance）、基于技能的薪酬（skills-based pay）等头衔是否形成稳定 岗位族群（job family）。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+## 6. 证据地图
 
-## 待补齐的落地问题
+- 官方/一手：Oracle；SAP；LinkedIn；Microsoft。  
+- 权威媒体/咨询：今日未新增咨询个案进入结论层。  
+- 公司案例/制度材料：Oracle Fusion Agentic Applications for HR；SAP SuccessFactors 1H 2026。  
+- 学术/研究：微软 WTI 大样本研究。  
+- 招聘 JD / 薪酬信号：verified skills 增强外部技能信号。  
+- 社媒/职场线索：不纳入结论层。  
+- 内部信息库/知识库：`specials/ai-org-talent-mechanism/baseline/04-promotion-system.md`；`knowledge/wiki/gitlab-promotions-transfers-handbook.md`；`digest.md`。
 
-正式重跑必须回答：AI 贡献如何进入晋升证据包、谁负责验证与质量、是否有校准机制、是否存在调岗降薪和劳动合规风险。
+## 7. 对我们行动的启发
 
-## 来源索引
+1. 先统一 promotion evidence schema，再讨论固定窗口还是即时晋升。  
+2. 让 AI 先用在材料归纳、一致性检查、政策匹配和异常提示，不直接做自动裁决。  
+3. 要求 manager 持续经营团队证据，而不是等晋升季临时拼材料。  
+4. 把 skills、结果、work redesign 和组织影响拆成不同字段，避免用单一 badge 代替 level judgment。
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价（AI skill premium）、基于技能的薪酬（skills-based pay）、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
+## 8. 待验证清单与下一步搜索路径
+
+1. Oracle/SAP/Workday 是否公开将 promotion 与 compensation/performance 信号更直接连接？  
+   - Query：`promotion compensation performance unified manager workspace official`
+2. 哪些企业已定义 `skills evidence` 到 `level judgment` 的映射规则？  
+   - Query：`skills evidence level judgment official company`
+3. 即时调薪、即时认可和正式晋升窗口如何在 AI 时代分工？  
+   - Query：`spot increase promotion window AI official policy`
+
+## 9. 来源索引
+
+- Oracle（2026-04-09）：https://www.oracle.com/news/announcement/oracle-introduces-fusion-agentic-applications-for-hr-2026-04-09/  
+- SAP（2026-04-13）：https://news.sap.com/2026/04/sap-successfactors-1h-2026-release/  
+- LinkedIn（2026-01-26）：https://news.linkedin.com/2026/Professional_Edge_Skills_Verified  
+- Microsoft Work Trend Index（2026-05-05）：https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization  
+- 内部：`specials/ai-org-talent-mechanism/baseline/04-promotion-system.md` ｜ `digest.md`
