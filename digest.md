@@ -1,7 +1,7 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-06-02 18:07
+> 最后更新：2026-06-03 18:20
 
 ---
 
@@ -23,6 +23,53 @@
 - 💬参考：社交平台/社区讨论，需交叉验证
 
 -->
+
+## 2026-06-03
+
+### [1] OpenAI：frontier models 与 Codex 在 AWS 正式 GA，企业 AI 落地开始被收编进既有 procurement / billing / compliance / governance 主干
+- **事件摘要**：OpenAI 于 2026 年 6 月 1 日宣布 frontier models 与 Codex 在 AWS 正式 general availability，强调企业如今可以在 Amazon Bedrock 内，通过既有的 security、compliance、procurement、billing 与 governance workflows 把 OpenAI 能力放进生产环境；官方把这件事定义为“移除 AI adoption 最大障碍之一”，即不再要求企业为前沿模型单独新建一套落地路径，而是直接嵌回已经被组织批准和信任的云平台 operating model。
+- **来源**：OpenAI（https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/）
+- **来源平台**：OpenAI
+- **来源可信度**：⭐高
+- **OD启示**：这条信号的重要性不在“又多了一个云分发渠道”，而在企业 AI 部署开始被吸收到现有平台治理主干。对 OD、IT 与采购治理来说，下一步更现实的问题会变成：谁拥有 AI 平台入口、谁定义模型接入标准、谁承担成本与权限边界，而不是继续把 AI 视为例外项目。AI 组织化正在从“工具试点”转向“平台归口”。
+- **标签**：#OpenAI #AWS #Codex #PlatformGovernance #OperatingModel
+- **抓取时间**：2026-06-03 18:20
+
+### [2] SAP：Autonomous HCM 把 org modeling 拉回领导者日常控制面，角色、团队和汇报线开始直接与 agent 编排相连
+- **事件摘要**：SAP 在 2026 年 5 月 14 日与 Sapphire 2026 Innovation News Guide 中连续披露，Autonomous HCM 将由 Joule Assistants 编排数十个 agents 执行端到端 HR 流程；同时，面向“operational change”的 organizational modeling 被定位为领导者可直接使用的能力，用于在角色、团队与 reporting lines 调整时保持 data integrity 并减少 disruption。SAP 的写法已经不再把组织建模视作一次性 HR 项目，而是把它放回 agent 驱动执行体系中的日常管理界面。
+- **来源**：SAP News Center / SAP Sapphire Innovation News Guide（https://news.sap.com/tags/autonomous-hcm/；https://www.sap.com/mena/topics/events/sapphire/innovation-news-guide-2026）
+- **来源平台**：SAP
+- **来源可信度**：⭐高
+- **OD启示**：这意味着 org design 工具本身正在从“年中调组织图”升级为“持续校准人机分工的控制面”。未来 HR 与业务 leader 更需要持续维护的，不只是 headcount 和汇报线，而是角色边界、流程 owner、agent handoff 和变更后的数据一致性。组织建模开始更像运行时治理，而不是后台文档管理。
+- **标签**：#SAP #AutonomousHCM #OrgModeling #RoleDesign #HRTech
+- **抓取时间**：2026-06-03 18:20
+
+### [3] Anthropic：FDE 岗位公开要求交付 MCP servers / sub-agents / agent skills，部署能力开始与治理框架一起被正式组织化
+- **事件摘要**：Anthropic 当前公开的 Forward Deployed Engineer 岗位说明写明，FDE 会直接嵌入战略客户环境，交付生产级 AI 应用，并产出 MCP servers、sub-agents 与 agent skills 等可用于生产 workflow 的技术资产；同时，Anthropic 的 Responsible Scaling Policy 更新页显示其 RSP 已在 2026 年 4 月 2 日、4 月 29 日和 5 月 26 日连续迭代到 3.1、3.2、3.3 版本。两条信号放在一起看，说明 Anthropic 正把“企业部署”与“风险治理”同时做成正式组织能力，而不是分别留在售前支持和安全叙事里。
+- **来源**：Anthropic（https://www.anthropic.com/careers/jobs/4985877008；https://www.anthropic.com/responsible-scaling-policy）
+- **来源平台**：Anthropic
+- **来源可信度**：⭐高
+- **OD启示**：对企业客户和同行来说，这意味着 agent 规模化落地需要两层组织边界同步成型：一层负责把模型真正接进客户系统和工作流，另一层负责持续更新风险门槛、评测和例外规则。未来“部署团队”和“治理团队”都不再是边角支持，而会成为 AI operating model 的正式骨架。
+- **标签**：#Anthropic #FDE #RSP #AIGovernance #Deployment
+- **抓取时间**：2026-06-03 18:20
+
+### [4] MiniMax：Agent Team 把 Leader / Worker / Verifier 与 Team Engine 公开成产品逻辑，AI-native 公司开始把“验证和调度”显性化
+- **事件摘要**：MiniMax 于 2026 年 5 月 27 日发布《MiniMax Agent Team: Built for Long-Running Tasks and Continuous Evolution》，公开其 Agent Team 设计逻辑：复杂任务可拆给不同角色并行运行，由 Leader、Worker、Verifier 和 Team Engine 协同推进；官方还特别强调，Verifier 与 Worker 处于对抗性关系，Team Engine 负责决定哪些任务可并行、哪些结果必须验证、哪些状态需要保留。这已经不是“多 agent 更强大”的泛产品叙事，而是把任务拆解、调度和验收变成显式结构。
+- **来源**：MiniMax（https://www.minimax.io/blog/minimax-agent-team-long-running-1779893953）
+- **来源平台**：MiniMax
+- **来源可信度**：⭐高
+- **OD启示**：这条信息对组织设计的价值在于，它把很多企业内部还说不清的工作机制说成了结构问题：谁拆任务、谁执行、谁验收、谁保留上下文。AI-native 公司正在把“验证与调度”从隐性管理劳动做成显式系统能力，这预示着未来很多知识工作团队的 redesign，会更像重写一套角色协作协议，而不是只给个人加一个助手。
+- **标签**：#MiniMax #MultiAgent #Verification #WorkflowDesign #AINativeOrg
+- **抓取时间**：2026-06-03 18:20
+
+### [5] SAP：开始向大学免费开放 agent building、enterprise architecture 与 process 工具，人才供给侧从“AI 使用”转向“agent orchestration + governance”
+- **事件摘要**：SAP 于 2026 年 6 月 2 日发布《From Campus to Career: SAP Empowers Academia to Prepare Students for the Age of Agentic AI》，宣布通过 SAP University Alliances 向高校提供新的无成本资源，包括 agent building、process management 与 SAP LeanIX 等工具；官方写得很直接，学生不只是学习使用 AI，而是需要理解 agents 在组织 IT landscape 中的位置、连接真实业务流程，并思考 architecture 与 governance。这说明企业软件厂商已经开始向教育侧前置定义新的人才标准。
+- **来源**：SAP News Center（https://news.sap.com/2026/06/sap-academia-prepare-students-agentic-ai/）
+- **来源平台**：SAP
+- **来源可信度**：⭐高
+- **OD启示**：这意味着人才与岗位体系的变化正在从需求侧溢出到供给侧。未来企业真正稀缺的，可能不是“会不会用某个 AI 工具”的人，而是能理解 agent、流程、架构和治理如何连成一体的人。对 OD 和人才团队来说，这会影响校招画像、培养路径和岗位族群定义，尤其是 HR Tech、enterprise IT、process excellence 与 AI governance 交叉岗位。
+- **标签**：#SAP #TalentPipeline #AgenticAI #EnterpriseArchitecture #FutureOfWork
+- **抓取时间**：2026-06-03 18:20
 
 ## 2026-06-02
 
