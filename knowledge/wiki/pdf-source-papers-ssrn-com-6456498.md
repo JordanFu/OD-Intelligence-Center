@@ -2,7 +2,7 @@
 title: 6456498
 source: papers.ssrn.com
 date: 待核验
-ingested: 2026-06-03
+ingested: 2026-06-04
 sourceFile: 
 sourceUrl: https://papers.ssrn.com/sol3/Delivery.cfm/6456498.pdf?abstractid=6456498&mirid=1
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ status: 已索引来源，PDF下载待重试
 - **来源类型**：media
 - **原文 URL**：https://papers.ssrn.com/sol3/Delivery.cfm/6456498.pdf?abstractid=6456498&mirid=1
 - **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
-- **入库日期**：2026-06-03
+- **入库日期**：2026-06-04
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
