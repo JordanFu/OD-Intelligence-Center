@@ -21,7 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-05-18 | [日报](../2026-05-18/03-job-family-career-architecture.html) | 线索层/待验证 | 口径：本专题优先回答三个问题：岗位边界是否变宽？哪些能力更专业化并产生溢价？当业务要求“新建岗位/族群/序列”时，什么时候其实是在争取薪酬与激励空间？ | 口径：本专题优先回答三个问题：岗位边界是否变宽？哪些能力更专业化并产生溢价？当业务要求“新建岗位/族群/序列”时，什么时候其实是在争取薪酬与激励空间？ | 口径：本专题优先回答三个问题：岗位边界是否变宽？哪些能力更专业化并产生溢价？当业务要求“新建岗位/族群/序列”时，什么时候其实是在争取薪酬与激励空间？ |
 | 2026-05-19 | [日报](../2026-05-19/03-job-family-career-architecture.html) | 线索层/待验证 | 口径：本专题优先回答三个问题：岗位边界是否变宽？哪些能力更专业化并产生溢价？当业务要求“新建岗位/族群/序列”时，什么时候其实是在争取薪酬与激励空间？ | 口径：本专题优先回答三个问题：岗位边界是否变宽？哪些能力更专业化并产生溢价？当业务要求“新建岗位/族群/序列”时，什么时候其实是在争取薪酬与激励空间？ | 口径：本专题优先回答三个问题：岗位边界是否变宽？哪些能力更专业化并产生溢价？当业务要求“新建岗位/族群/序列”时，什么时候其实是在争取薪酬与激励空间？ |
 | 2026-05-20 | [日报](../2026-05-20/03-job-family-career-architecture.html) | 背景材料（Context）强证据 | 1. **AI 运营模式（operating model） 正在从工具层走向组织层。** IBM、Microsoft、Deloitte、McKinsey 的材料共同指向 智能体、人、数据、流程和治理的一体化重构。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 | 2026-05-21 | [日报](../2026-05-21/03-job-family-career-architecture.html) | 结论层候选 | 口径：事实与判断分离；高置信判断必须能回溯到一手/权威证据。 | 口径：事实与判断分离；高置信判断必须能回溯到一手/权威证据。 | 口径：事实与判断分离；高置信判断必须能回溯到一手/权威证据。 |
@@ -35,6 +34,7 @@
 | 2026-05-29 | [日报](../2026-05-29/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **岗位族群将围绕三条“硬责任链”重构：工作流编排、身份权限治理、技能/岗位数据治理。可信度：中高。** | - 暂不形成结论，但提示我们关注：**多 agent 编排会让“中间层协调岗”快速失去正当性，但其隐性工作不会消失**——它会迁移到 workflow owner / governance owner 身上；如果组织不承认这种迁移并配套职… | 1. Workday/Google 的 A2A/A2UI/MCP 在客户侧落地：是否出现明确的“workflow owner / orchestration owner”岗位定义与职级。 |
 | 2026-06-01 | [日报](../2026-06-01/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **岗位体系正在从“静态目录”升级为“可解释的变更流水线（change pipeline）”。可信度：高。** | - 暂不形成结论，但提示我们关注：**job architecture 的“更新速度”本身可能成为企业竞争力差异**——更新慢的组织不仅招不到人，更无法快速重组任务与授权边界。 | 1. Censia/Workday 的治理细节：推荐被拒绝/被修改时如何沉淀为模型/规则的反向校准？是否有申诉机制？ |
 | 2026-06-03 | [日报](../2026-06-03/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **岗位体系的下一步，不是继续细分 title，而是先稳定 `skills governance`。可信度：高。** | - 暂不形成结论，但提示我们关注：**内部 skills governance 建得越快，外部 market premium 和内部 pay band 的张力会越早暴露**。 | - 证据基础：SAP 单独把 skills governance 提出来，并要求跨系统一致。 |
+| 2026-06-04 | [日报](../2026-06-04/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **岗位体系的主变量正在从 title 转向 shared skill needs。可信度：高。** | - 暂不形成结论，但提示我们关注：**未来很多业务提出“新建序列”的真实诉求，可能是想把 process / governance / AI orchestration 的市场溢价显性化**。 | 1. 哪些企业已将 `skills-based role redesign` 接入 job architecture 与 pay band？ |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-06-03｜[打开专题日报](../2026-06-03/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-03/03-job-family-career-architecture.md`
+- 最新日报：2026-06-04｜[打开专题日报](../2026-06-04/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-04/03-job-family-career-architecture.md`
