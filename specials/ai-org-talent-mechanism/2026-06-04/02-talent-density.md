@@ -1,50 +1,116 @@
 # 2026-06-04｜专题二：高人才密度与复合型人才机制
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+## 1. 今日一句话专题判断
 
-## 今日一句话结论
+今天高人才密度最重要的新变化是：组织开始更明确地把“复合型人才”定义为 **既能使用 AI，又能理解 process context、治理边界、业务系统和内部流动路径的人**，而不再把“会用某个工具”当成充分条件。
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+## 2. 今日新增事实：只写可追溯事实，注明来源
 
-## 今日核心判断
+1. **BCG（2026-06-03）**基于 11,749 名员工调研指出，72% 受访者认为 AI 已显著改变其岗位技能期待，47% 表示自己现在花更多时间在 managing and directing AI，而不是直接做工作。  
+   - 来源：BCG  
+   - https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work
+2. **同一 BCG 调研显示**，42% 的 regular frontline AI users 每周节省至少一个完整工作日，但 66% 表示组织几乎没有给出“省下来的时间该怎么用”的明确引导。  
+   - 来源：BCG  
+   - https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work
+3. **SAP（2026-06-02）**明确表示，学生在 agentic AI 场景中“会搭 agent 只是工作的一部分”，更重要的是理解 process context、architecture 和 governance implications。  
+   - 来源：SAP  
+   - https://news.sap.com/2026/06/sap-academia-prepare-students-agentic-ai/
+4. **华为（2026-03-03）**发布 AI 人才发展服务方案，公开 22 类角色、71 项核心技能的能力图谱，并将人才机制做成“规划-培养-评估”一体化。  
+   - 来源：华为  
+   - https://www.huawei.com/cn/news/2026/3/ai-talent-development
+5. **LinkedIn Top Companies 2026（2026-04-28）**指出，internal mobility 正成为 career growth 的主要路径，AI 正嵌入日常工作，career path 正从 tenure/title 导向转向 skills、adaptability 和 continuous learning。  
+   - 来源：LinkedIn  
+   - https://news.linkedin.com/2026/LinkedIn-Top-Companies-2026
+6. **同一 LinkedIn 材料**还强调早期人才培养仍在加码，IBM 正在扩大 2026 年 entry-level hiring，Accenture 正扩招 AI-savvy new grads。  
+   - 来源：LinkedIn  
+   - https://news.linkedin.com/2026/LinkedIn-Top-Companies-2026
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+## 3. 今日核心判断：3-5 条，每条注明可信度、证据基础、为什么重要
 
-## 今日背景材料（Context）
+1. **高人才密度的判据正在从“熟练使用 AI”升级为“能管理 AI + 能重构工作”。可信度：高。**  
+   - 证据基础：BCG 显示 47% 已把更多时间花在 managing AI；SAP 强调 process context 与 governance 同等重要。  
+   - 为什么重要：这意味着组织不能再用单一工具熟练度筛人，而要看其是否能承担更高阶的人机协同责任。
+2. **组织若不给“时间再投资”规则，高人才密度不会自然产生。可信度：高。**  
+   - 证据基础：BCG 显示 42% 省下一整天，但 66% 缺乏如何使用节省时间的引导。  
+   - 为什么重要：AI 省下来的时间若没有被转向高价值工作，只会变成更碎的忙碌，而不会沉淀为密度优势。
+3. **复合型人才的培养越来越像体系工程，而不是点状培训。可信度：中高。**  
+   - 证据基础：华为公开能力图谱、角色与技能数量，并把规划-培养-评估串成一体；SAP 把 agentic AI 教到 business context 层。  
+   - 为什么重要：没有能力标准、训练路径和验证机制，组织很难稳定复制复合型人才。
+4. **internal mobility 正在从“福利项”变成高人才密度的主机制。可信度：中高。**  
+   - 证据基础：LinkedIn 把 internal mobility 视为 career growth 的 primary path。  
+   - 为什么重要：AI 时代岗位变化快于招聘速度，内部流动越通，组织越能把已有高潜转成新能力供给。
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计（job/workflow redesign）、智能体治理（agent governance）、基于技能的薪酬（skills-based pay） 和 薪酬带宽（pay band） 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+## 4. 重点案例事实还原：华为把 AI 人才机制做成能力图谱与一体化发展方案
 
-## 今日新增证据地图
+- 背景：华为不是只发培训课程，而是把 AI 人才问题定义为能力标准、培养体系和认证路径的系统工程。
+- 时间线：
+  - 2026-03-03：在 MWC26 发布 AI 人才发展服务解决方案。
+- 原组织形态：
+  - AI 能力容易以项目经验、单点课程和局部岗位要求存在；
+  - 技术、业务和商业能力标准分散；
+  - 培养与评估脱节。
+- 新组织形态：
+  - 先定义 AI 人才能力图谱；
+  - 覆盖 22 类角色、71 项核心技能；
+  - 采用“规划-培养-评估”一体化路径；
+  - 认证范围从工程师扩展到架构师、开发者，并强调与国家标准和行业规范接轨。
+- 识别标准如何变化：
+  - 不再只看是否懂模型或会写代码；
+  - 要看其在算力、模型、应用、商业四层的能力位置与成长路径。
+- 管理与 HR 如何执行：
+  - 先统一能力语言；
+  - 再设计培养与实训；
+  - 最后通过认证与评估确认可用性。
+- 员工影响：
+  - 成长路径更可见；
+  - 角色切换与内部流动更容易对齐能力标准；
+  - AI 人才不再只靠“天赋型个人”定义。
+- 争议和阻碍：
+  - 图谱若过粗，会失去辨识度；
+  - 图谱若过细，会变成新一轮复杂目录。
+- 可借鉴点：
+  - 用 capability map 统一识别、培养、评估与保留；
+  - 对复合型人才增加 business process 和 governance literacy 维度。
+- 不可照搬点：
+  - 不能把能力图谱直接等同于岗位或职级体系，仍需配套项目分配和激励逻辑。
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | title、职责、薪资区间、level、地区、IC/Manager 边界 |
+## 5. Context层：暂不形成结论，但提示我们关注……
 
-## 线索层
+- 暂不形成结论，但提示我们关注：**高人才密度未来可能更依赖“谁能把省下来的时间重新投资到哪里”这一管理能力**。  
+- 暂不形成结论，但提示我们关注：**internal mobility 被强化后，直线 manager 可能更担心失去人才，从而抑制组织内部流动**。  
+- 暂不形成结论，但提示我们关注：**“会管理 AI”正在快速成为很多白领的默认能力要求，但相应支持体系未必同步成熟**。
 
-- 追踪 FDE、AI 工作流负责人、智能体运营（agent ops）、AI 治理（AI governance）、基于技能的薪酬（skills-based pay）等头衔是否形成稳定 岗位族群（job family）。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+## 6. 证据地图
 
-## 待补齐的落地问题
+- 官方/一手：BCG；SAP；华为；LinkedIn。  
+- 权威媒体/咨询：BCG 全球调研。  
+- 公司案例/制度材料：华为 AI 人才发展；LinkedIn Top Companies。  
+- 学术/研究：BCG survey；SAP education program。  
+- 招聘 JD / 薪酬信号：LinkedIn 关于 AI-savvy new grads 和 internal mobility 的公开信号。  
+- 社媒/职场线索：不纳入结论层。  
+- 内部信息库/知识库：`specials/ai-org-talent-mechanism/baseline/02-talent-density.md`；`knowledge/wiki/zapier-ai-first-hiring-onboarding-2025.md`；`digest.md`。
 
-正式重跑必须回答：复合型人才的能力证据是什么、是否有招聘/JD/薪酬信号、是否存在验证和治理能力的溢价、组织如何避免把“少招人”包装成高人才密度。
+## 7. 对我们行动的启发
 
-## 来源索引
+1. 识别复合型人才时，加入 `process context + governance + orchestration` 三个维度。  
+2. 对 AI 节省的时间建立明确再投资机制，优先转向高价值项目、复用资产和内部辅导。  
+3. 把 internal mobility 视为高人才密度机制，而不是普通员工体验项目。  
+4. 设计早期人才路径时，同时给工具、真实业务场景和判断力训练。  
+5. 若要做国内落地样本，华为式 capability map 值得继续跟踪。
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价（AI skill premium）、基于技能的薪酬（skills-based pay）、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
+## 8. 待验证清单与下一步搜索路径
+
+1. 哪些企业已经把“managing AI”写进岗位标准、面试评价或绩效要求？  
+   - Query：`managing AI role expectations official company`
+2. internal mobility 如何与 AI skills growth 共同进入晋升 readiness？  
+   - Query：`AI skills internal mobility promotion readiness official`
+3. 华为能力图谱是否已进入招聘、认证费用报销、薪酬或岗位准入？  
+   - Query：`华为 AI 人才 能力图谱 招聘 认证 薪酬`
+
+## 9. 来源索引
+
+- BCG（2026-06-03）：https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work  
+- SAP（2026-06-02）：https://news.sap.com/2026/06/sap-academia-prepare-students-agentic-ai/  
+- 华为（2026-03-03）：https://www.huawei.com/cn/news/2026/3/ai-talent-development  
+- LinkedIn（2026-04-28）：https://news.linkedin.com/2026/LinkedIn-Top-Companies-2026  
+- 内部：`specials/ai-org-talent-mechanism/baseline/02-talent-density.md` ｜ `knowledge/wiki/zapier-ai-first-hiring-onboarding-2025.md` ｜ `digest.md`

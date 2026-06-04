@@ -1,50 +1,115 @@
 # 2026-06-04｜专题四：未来组织的晋升机制
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+## 1. 今日一句话专题判断
 
-## 今日一句话结论
+今天晋升机制最关键的新判断是：对“固定窗口 vs 随时晋升”，**今日无高置信新增结论**；但更强的新证据已经出现，说明晋升体系正在明显转向 **可审计证据、outcome-based metrics、runtime governance 和 calibration support**，而不是继续依赖低频窗口期的叙事材料。
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+## 2. 今日新增事实：只写可追溯事实，注明来源
 
-## 今日核心判断
+1. **Workday Agent Passport（2026-06-02）**宣布，企业可在 agent 上线前测试、验证，并在运行中持续监控；每项 attestation 都绑定 OWASP LLM Top 10、NIST AI RMF、MITRE ATLAS 等公开标准，并保留 signed, auditable record。  
+   - 来源：Workday  
+   - https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-Launches-Agent-Passport-to-Test-Verify-and-Continuously-Monitor-Every-AI-Agent-in-the-Enterprise/default.aspx
+2. **同一 Workday 文章（2026-04-24）**指出，human-agent collaboration 更适合用 outcome-based metrics 衡量，包括 decision quality、quality of hire、override frequency、voluntary use 和 employee trust，而不是 automation volume。  
+   - 来源：Workday  
+   - https://www.workday.com/en-us/perspectives/hr/operating-models-for-human-and-agents.html
+3. **Workday 同文还提出**，涉及 people、capital、compliance 的决策需要更高等级的 human-led governance。  
+   - 来源：Workday  
+   - https://www.workday.com/en-us/perspectives/hr/operating-models-for-human-and-agents.html
+4. **LinkedIn Top Companies 2026（2026-04-28）**把 career progression 的核心信号定义为 skill development、internal mobility 和 career advancement，而不是单纯 tenure。  
+   - 来源：LinkedIn  
+   - https://news.linkedin.com/2026/LinkedIn-Top-Companies-2026
+5. **内部一手制度基线：GitLab Handbook**明确将晋升与 business results、business justification、cross-functional feedback、半年校准、薪酬预算和内部流动机制绑定。  
+   - 来源：内部结构化整理自 GitLab Handbook  
+   - `knowledge/wiki/gitlab-promotions-transfers-handbook.md`
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+## 3. 今日核心判断：3-5 条，每条注明可信度、证据基础、为什么重要
 
-## 今日背景材料（Context）
+1. **晋升证据正在从“讲故事”转向“有日志、有标准、有比较基线”。可信度：高。**  
+   - 证据基础：Workday Agent Passport 强调 signed, auditable record；GitLab 用 promotion document + calibration + budget 审核。  
+   - 为什么重要：AI 时代很多贡献发生在工作流与系统里，不做证据结构升级，晋升会越来越失真。
+2. **晋升更适合奖励 outcome 与 governance，而不是 AI 使用量。可信度：高。**  
+   - 证据基础：Workday 明确更适合看 decision quality、quality of hire、override frequency、employee trust。  
+   - 为什么重要：这给“AI 贡献怎么进晋升材料”提供了更稳的衡量方向。
+3. **涉及 people、capital、compliance 的晋升判断仍会强依赖 human-led governance。可信度：中高。**  
+   - 证据基础：Workday 直接指出这些领域需要更高等级的人类治理。  
+   - 为什么重要：这说明 AI 更可能进入辅助、审计和一致性层，而不是替代晋升裁决层。
+4. **internal mobility 与 skill growth 会越来越深地进入晋升 readiness。可信度：中高。**  
+   - 证据基础：LinkedIn Top Companies 把 internal mobility 和 skills growth 当作 career progression 核心变量。  
+   - 为什么重要：优秀员工是否准备好更高层级，未来更可能通过跨角色成长和技能升级而不是单一任期来证明。
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计（job/workflow redesign）、智能体治理（agent governance）、基于技能的薪酬（skills-based pay） 和 薪酬带宽（pay band） 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+## 4. 重点案例事实还原：从 Workday 的 auditable agent record 反推晋升证据结构的升级方向
 
-## 今日新增证据地图
+- 背景：Workday 发布的并不是 promotion product，而是 agent verification / runtime governance 产品。但它对晋升机制有直接制度含义。
+- 时间线：
+  - 2026-04-24：提出 outcome-based metrics 与 human-led governance。
+  - 2026-06-02：发布 Agent Passport，强调 signed, auditable record 与 runtime revocation。
+- 原组织形态：
+  - AI 贡献大多以口头表述、工具使用情况、个体经验描述出现；
+  - 很难比较不同人、不同团队、不同场景的真实贡献；
+  - 晋升材料多在窗口期集中补。
+- 新组织形态趋势：
+  - 系统运行数据越来越可审计；
+  - override、risk、quality、decision outcome 更容易结构化记录；
+  - 绩效、人才和 agent 治理开始共享更接近“运行时”的证据。
+- 对晋升机制的直接含义：
+  - AI 贡献不应再只写“我用了什么工具”，而应写“我把什么流程跑起来、质量如何、风险如何被控制、谁因此受益”。  
+  - promotion evidence packet 将更适合分成：结果、流程重设计、治理质量、复用资产、跨团队影响。  
+  - 校准会议将更有条件比较候选人对 system-level improvement 的贡献。
+- manager 如何转型：
+  - 从帮员工补故事，转向持续经营团队证据和发展记录；
+  - 从只评输出量，转向解释何种 override / trust / decision quality 才代表更高层级贡献。
+- HR 与业务如何执行：
+  - 先统一 evidence schema；
+  - 再决定哪些字段能进入晋升；
+  - 最后用 calibration 保证不同团队标准一致。
+- 员工影响：
+  - 真正能把流程、风险、结果说清楚的人更有优势；
+  - 仅凭“用了很多 AI”更难获得说服力。
+- 争议和阻碍：
+  - 可审计不等于可公平解释；
+  - 系统字段如果设计不好，会更快复制偏差。
+- 可借鉴点：
+  - 用 outcome-based metrics 替代 AI 使用量；
+  - 用日常证据流替代晋升季临时拼装。
+- 不可照搬点：
+  - 不能把 agent 运行日志直接等同于人的晋升价值，仍需人工解释业务背景和组织影响。
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | title、职责、薪资区间、level、地区、IC/Manager 边界 |
+## 5. Context层：暂不形成结论，但提示我们关注……
 
-## 线索层
+- 暂不形成结论，但提示我们关注：**固定窗口未必会消失，但窗口内要审的证据会越来越来自日常运行层**。  
+- 暂不形成结论，但提示我们关注：**internal mobility 被强化后，晋升与横向流动的边界可能更模糊**。  
+- 暂不形成结论，但提示我们关注：**越来越多可审计字段，可能会引发新一轮“哪些字段才算高层级贡献”的政治争论**。
 
-- 追踪 FDE、AI 工作流负责人、智能体运营（agent ops）、AI 治理（AI governance）、基于技能的薪酬（skills-based pay）等头衔是否形成稳定 岗位族群（job family）。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+## 6. 证据地图
 
-## 待补齐的落地问题
+- 官方/一手：Workday；LinkedIn。  
+- 权威媒体/咨询：今日无新增咨询个案进入结论层。  
+- 公司案例/制度材料：Workday Agent Passport；Workday operating model；GitLab 晋升制度。  
+- 学术/研究：Workday 引用的企业调研。  
+- 招聘 JD / 薪酬信号：LinkedIn 关于 career progression 与 internal mobility 的公开市场信号。  
+- 社媒/职场线索：不纳入结论层。  
+- 内部信息库/知识库：`specials/ai-org-talent-mechanism/baseline/04-promotion-system.md`；`knowledge/wiki/gitlab-promotions-transfers-handbook.md`；`digest.md`。
 
-正式重跑必须回答：AI 贡献如何进入晋升证据包、谁负责验证与质量、是否有校准机制、是否存在调岗降薪和劳动合规风险。
+## 7. 对我们行动的启发
 
-## 来源索引
+1. 先定义 `promotion evidence schema v2`，再讨论窗口节奏。  
+2. 明确把结果、流程重设计、override、风险控制、复用资产和跨团队影响拆成不同字段。  
+3. AI 只用于证据归纳、一致性检查和异常提示，不直接做晋升裁决。  
+4. 将 internal mobility 与 skill growth 纳入晋升 readiness 观察面。  
+5. 继续用 GitLab 这类制度样本校准“业务必要性 + 个人准备度”双重门槛。
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价（AI skill premium）、基于技能的薪酬（skills-based pay）、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
+## 8. 待验证清单与下一步搜索路径
+
+1. 哪些企业已经把 outcome-based metrics 接入 promotion / talent review？  
+   - Query：`outcome-based metrics promotion talent review official`
+2. override frequency、employee trust 这类指标能否稳定进入晋升材料？  
+   - Query：`override frequency employee trust performance promotion AI official`
+3. internal mobility 与晋升预算如何衔接，避免横向流动反而被惩罚？  
+   - Query：`internal mobility promotion budget calibration official`
+
+## 9. 来源索引
+
+- Workday Agent Passport（2026-06-02）：https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-Launches-Agent-Passport-to-Test-Verify-and-Continuously-Monitor-Every-AI-Agent-in-the-Enterprise/default.aspx  
+- Workday Operating Models（2026-04-24）：https://www.workday.com/en-us/perspectives/hr/operating-models-for-human-and-agents.html  
+- LinkedIn（2026-04-28）：https://news.linkedin.com/2026/LinkedIn-Top-Companies-2026  
+- 内部：`knowledge/wiki/gitlab-promotions-transfers-handbook.md` ｜ `specials/ai-org-talent-mechanism/baseline/04-promotion-system.md` ｜ `digest.md`

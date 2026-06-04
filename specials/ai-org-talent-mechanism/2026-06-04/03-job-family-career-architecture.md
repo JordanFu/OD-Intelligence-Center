@@ -1,50 +1,114 @@
-# 2026-06-04｜专题三：岗位、族群、序列持续建设
+# 2026-06-04｜专题三：岗位、族群、序列的持续建设
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+## 1. 今日一句话专题判断
 
-## 今日一句话结论
+今天岗位/族群/序列最值得关注的新变化是：组织开始把岗位体系从“静态 title 目录”升级为 **围绕 skills-based role redesign、capability map、authority boundary 和 outcome metric 的持续变更系统**。
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+## 2. 今日新增事实：只写可追溯事实，注明来源
 
-## 今日核心判断
+1. **Workday（2026-04-24）**提出 hybrid operating model 的第五个 building block 是 `Skills-Based Role Redesign`，明确写道随着执行任务迁移给 agents，员工应更少做 routine coordination，更集中在 judgment、creativity、problem-solving 等高价值活动。  
+   - 来源：Workday  
+   - https://www.workday.com/en-us/perspectives/hr/operating-models-for-human-and-agents.html
+2. **同一 Workday 文章**强调组织应围绕 shared skill needs 而非过时的 role responsibilities 重构角色。  
+   - 来源：Workday  
+   - https://www.workday.com/en-us/perspectives/hr/operating-models-for-human-and-agents.html
+3. **SAP（2026-06-02）**明确指出，学习 agentic AI 时，building an agent is only part of the job，必须同时理解 process context、system landscape、architecture 和 governance implications。  
+   - 来源：SAP  
+   - https://news.sap.com/2026/06/sap-academia-prepare-students-agentic-ai/
+4. **华为（2026-03-03）**公开 AI 人才能力图谱，覆盖 22 类角色和 71 项核心技能，并围绕算力、模型、应用、商业四层构建技术与商业两类能力标准。  
+   - 来源：华为  
+   - https://www.huawei.com/cn/news/2026/3/ai-talent-development
+5. **LinkedIn Top Companies 2026（2026-04-28）**指出 career path 正从传统线性路径转向由 skills、adaptability 和 continuous learning 驱动。  
+   - 来源：LinkedIn  
+   - https://news.linkedin.com/2026/LinkedIn-Top-Companies-2026
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+## 3. 今日核心判断：3-5 条，每条注明可信度、证据基础、为什么重要
 
-## 今日背景材料（Context）
+1. **岗位体系的主变量正在从 title 转向 shared skill needs。可信度：高。**  
+   - 证据基础：Workday 直接提出 skills-based role redesign；LinkedIn 说明 career path 更依赖 skills 与 adaptability。  
+   - 为什么重要：这意味着很多“新建岗位”的诉求，先要回答共享技能和责任边界有没有稳定下来。
+2. **交付层岗位会继续变宽，但 process / architecture / governance 能力会继续深化溢价。可信度：高。**  
+   - 证据基础：Workday 让 routine coordination 退后、judgment/problem-solving 前移；SAP 说明真正稀缺的是把 agent 放进业务系统的能力。  
+   - 为什么重要：这正好解释了本专题长期观察到的“双向运动”。
+3. **能力图谱比新序列更适合承接快变化能力。可信度：中高。**  
+   - 证据基础：华为用 22 类角色和 71 项技能做图谱，而不是简单无限增设头衔。  
+   - 为什么重要：这为“什么时候只加技能标签、不新建序列”提供了更现实的制度样本。
+4. **岗位体系更新速度本身会变成竞争力。可信度：中高。**  
+   - 证据基础：Workday 和 SAP 都把角色重构与业务运行层直接连接。  
+   - 为什么重要：如果 job architecture 仍按年度更新，组织会持续落后于真实工作内容变化。
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计（job/workflow redesign）、智能体治理（agent governance）、基于技能的薪酬（skills-based pay） 和 薪酬带宽（pay band） 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+## 4. 重点案例事实还原：Workday 把岗位重构写成 `Skills-Based Role Redesign`
 
-## 今日新增证据地图
+- 背景：许多企业还在把 AI 影响理解成“新增 AI 岗位”，而 Workday 的写法更接近岗位体系真正的变更方向。
+- 时间线：
+  - 2026-04-24：发布 `Designing Operating Models for Human + Agent Teams`。
+- 原组织形态：
+  - 角色按固定职责描述定义；
+  - 大量 routine coordination 被看作人类岗位的一部分；
+  - 岗位与流程、技能、治理之间连接较弱。
+- 新组织形态：
+  - execution 更多交给 agent；
+  - humans 更集中在 judgment、creativity、problem-solving；
+  - role redesign 围绕 shared skill needs 展开；
+  - emerging capability gaps 能被更早看到。
+- 哪些岗位逻辑被削弱：
+  - 靠人工协调和重复推动形成的岗位价值；
+  - 仅按旧职责模板维护岗位的做法。
+- 哪些岗位逻辑被增强：
+  - 以技能、判断和系统责任为核心的角色；
+  - 与治理、质量、结果挂钩的职责定义。
+- 管理与 HR 如何执行：
+  - 先识别哪些任务迁移给 agent；
+  - 再重写 role boundary；
+  - 用 skills 和 outcome 重新定义角色贡献。
+- 员工影响：
+  - 端到端责任更重；
+  - routine coordination 价值下降；
+  - 对 judgment 和跨系统理解的要求升高。
+- 争议和阻碍：
+  - 若 role redesign 只改 JD 不改激励和晋升，员工会把“职责变宽”理解为“工作变多”。  
+- 可借鉴点：
+  - 用 `task migration -> shared skill needs -> role redesign` 三步法重写岗位。  
+- 不可照搬点：
+  - 没有 skills visibility 和稳定能力语言时，过早做大规模 role redesign 很容易失真。
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | title、职责、薪资区间、level、地区、IC/Manager 边界 |
+## 5. Context层：暂不形成结论，但提示我们关注……
 
-## 线索层
+- 暂不形成结论，但提示我们关注：**未来很多业务提出“新建序列”的真实诉求，可能是想把 process / governance / AI orchestration 的市场溢价显性化**。  
+- 暂不形成结论，但提示我们关注：**能力图谱越成熟，title 的外部识别价值与内部治理价值之间的张力会越明显**。  
+- 暂不形成结论，但提示我们关注：**部分组织可能会把 role redesign 做成“职责扩张”而不是“能力升级 + 激励重构”**。
 
-- 追踪 FDE、AI 工作流负责人、智能体运营（agent ops）、AI 治理（AI governance）、基于技能的薪酬（skills-based pay）等头衔是否形成稳定 岗位族群（job family）。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+## 6. 证据地图
 
-## 待补齐的落地问题
+- 官方/一手：Workday；SAP；华为；LinkedIn。  
+- 权威媒体/咨询：今日无新增咨询个案进入结论层。  
+- 公司案例/制度材料：Workday skills-based role redesign；华为能力图谱。  
+- 学术/研究：Workday operating model research。  
+- 招聘 JD / 薪酬信号：LinkedIn 对 skills-driven career path 的市场信号。  
+- 社媒/职场线索：不纳入结论层。  
+- 内部信息库/知识库：`specials/ai-org-talent-mechanism/baseline/03-job-family-career-architecture.md`；`knowledge/concepts/skills-based-organization-obsidian.md`；`digest.md`。
 
-正式重跑必须回答：是新建岗位族群、保留技能标签，还是调整薪酬带宽和项目激励；必须同时验证岗位合并与专家岗位深化。
+## 7. 对我们行动的启发
 
-## 来源索引
+1. 新建岗位/序列前，先判断是不是可以用 capability map、skills tag 或项目角色承接。  
+2. 对需要长期定价和稳定评估的能力域，再考虑新建专家序列。  
+3. 把 role redesign 和 `authority boundary / outcome metric / pay logic` 一起设计。  
+4. 在 AI 影响明显的职能里，优先盘点哪些岗位价值来自协调，哪些来自判断与治理。  
+5. 保留岗位架构更新门槛，但提高更新频率。
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价（AI skill premium）、基于技能的薪酬（skills-based pay）、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
+## 8. 待验证清单与下一步搜索路径
+
+1. 哪些企业已将 `skills-based role redesign` 接入 job architecture 与 pay band？  
+   - Query：`skills-based role redesign pay band official company`
+2. 华为能力图谱是否已进入正式岗位说明书或认证准入？  
+   - Query：`华为 AI 人才 能力图谱 岗位 认证`
+3. 当业务要求新序列时，如何识别其真实诉求是责任变化还是市场溢价？  
+   - Query：`new job family market premium role boundary methodology`
+
+## 9. 来源索引
+
+- Workday（2026-04-24）：https://www.workday.com/en-us/perspectives/hr/operating-models-for-human-and-agents.html  
+- SAP（2026-06-02）：https://news.sap.com/2026/06/sap-academia-prepare-students-agentic-ai/  
+- 华为（2026-03-03）：https://www.huawei.com/cn/news/2026/3/ai-talent-development  
+- LinkedIn（2026-04-28）：https://news.linkedin.com/2026/LinkedIn-Top-Companies-2026  
+- 内部：`specials/ai-org-talent-mechanism/baseline/03-job-family-career-architecture.md` ｜ `knowledge/concepts/skills-based-organization-obsidian.md` ｜ `digest.md`
