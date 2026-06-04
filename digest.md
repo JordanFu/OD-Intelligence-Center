@@ -1,7 +1,7 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-06-04 18:20
+> 最后更新：2026-06-04 19:09
 
 ---
 
@@ -23,6 +23,89 @@
 - 💬参考：社交平台/社区讨论，需交叉验证
 
 -->
+
+## 2026-06-04
+
+### [1] GitLab：重组计划正式落地，14% workforce reduction 与 22 国退出把“去层级”推进到硬组织动作
+- **事件摘要**：GitLab 在 2026 年 6 月 2 日披露 8-K 和 Q1 FY2027 财报时说明，董事会已批准重组计划，预计影响约 14% 全球员工，并退出 22 个国家、将地理足迹压缩约 37%。这意味着 5 月 `Act 2` 中提出的去层级、端到端团队化与 AI 交接自动化，不再只是理念，而是已经进入正式 operating structure 重排。
+- **来源**：GitLab / SEC（https://www.sec.gov/Archives/edgar/data/1653482/000162828026039805/gtlb-20260601.htm；https://www.sec.gov/Archives/edgar/data/1653482/000162828026039805/gitlab-ex99120260430fy27.htm）
+- **来源平台**：GitLab
+- **来源可信度**：⭐高
+- **OD启示**：扁平化一旦进入硬落地阶段，OD 关注点必须从“会不会减层”切到“authority boundary、例外路径、manager 新职责如何承接”。否则组织只会更快暴露返工和治理缺口。
+- **标签**：#GitLab #Delayering #Restructuring #OperatingStructure #AIWorkflow
+- **抓取时间**：2026-06-04 18:00
+
+### [2] Microsoft：AI 成败取决于围绕 AI 的运行系统，而不是模型本身
+- **事件摘要**：Microsoft 于 2026 年 6 月 2 日发布官方博客，明确指出真正决定企业 AI 价值的不是 access to model 或 compute，而是系统：engineering teams 如何 build and deploy agents、如何 contextualize、govern、observe，并让其安全持续改进。Microsoft 的表述进一步把 AI 转型主战场从 adoption campaign 拉回 operating model。
+- **来源**：Microsoft（https://blogs.microsoft.com/blog/2026/06/02/ai-alone-wont-change-your-business-the-system-running-it-will/）
+- **来源平台**：Microsoft
+- **来源可信度**：⭐高
+- **OD启示**：这条信号把组织设计的优先级排得很清楚：先有角色边界、权限、质量门禁与监督方式，AI 才能真正进入核心流程。没有这些，AI 只是碎片化工具，不是组织能力。
+- **标签**：#Microsoft #OperatingModel #Governance #AgentSystem #CoreAI
+- **抓取时间**：2026-06-04 18:00
+
+### [3] Workday：manager 将转向“编排 humans and agents”，role redesign 要按 shared skill needs 重写
+- **事件摘要**：Workday 在 2026 年 4 月 24 日文章中提出，2026 年真正的差异化来自 team architecture 而不是技术本身。文章明确表示 manager 将从带人转向 orchestrating a workforce of humans and agents，并把 `Skills-Based Role Redesign` 设为 hybrid operating model 的核心模块之一，强调 humans 应更少做 routine coordination、更多做 judgment、creativity 与 problem-solving。
+- **来源**：Workday（https://www.workday.com/en-us/perspectives/hr/operating-models-for-human-and-agents.html）
+- **来源平台**：Workday
+- **来源可信度**：⭐高
+- **OD启示**：岗位体系和管理者角色正在同步重写。未来很多“岗位新增”未必需要新 title，更可能需要更清晰的 skills map、authority boundary 和 outcome metric。
+- **标签**：#Workday #ManagerRedesign #SkillsBasedRoleRedesign #HybridWorkforce #JobArchitecture
+- **抓取时间**：2026-06-04 18:00
+
+### [4] Workday：Agent Passport 把 agent 的测试、审计、runtime policy 和 revocation 做成正式基础设施
+- **事件摘要**：Workday 于 2026 年 6 月 2 日发布 Agent Passport，允许企业在 agent 上线前测试并验证，运行中持续监控，且每项结果都对齐 OWASP LLM Top 10、NIST AI RMF、MITRE ATLAS 等公开标准，保留 signed、auditable record。系统还能在问题出现时基于 company policy allow、block 或 route action，并通过 revocation 统一限制相关 agent。
+- **来源**：Workday（https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-Launches-Agent-Passport-to-Test-Verify-and-Continuously-Monitor-Every-AI-Agent-in-the-Enterprise/default.aspx）
+- **来源平台**：Workday
+- **来源可信度**：⭐高
+- **OD启示**：这说明 agent 已经开始像正式劳动力一样被纳入台账、审计和停用机制。对绩效、晋升和 shared services 治理来说，证据结构将越来越来自“运行时记录”，而不是只靠窗口期材料。
+- **标签**：#Workday #AgentPassport #Auditability #RuntimeGovernance #DigitalLabor
+- **抓取时间**：2026-06-04 18:00
+
+### [5] BCG：72% 员工已感到技能期待被 AI 重写，47% 花更多时间“管理 AI”
+- **事件摘要**：BCG 于 2026 年 6 月 3 日发布第四年度《AI at Work》全球调研。结果显示，72% 受访者认为 AI 已显著改变岗位技能期待，47% 表示自己把更多时间花在 managing and directing AI；42% 的 regular frontline users 每周通过 AI 节省至少一个完整工作日，但 66% 表示组织没有明确说明节省时间该如何转成更高价值工作。
+- **来源**：BCG（https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work）
+- **来源平台**：BCG
+- **来源可信度**：⭐高
+- **OD启示**：高人才密度和岗位重构的难点不再是“会不会用 AI”，而是组织是否重新定义了技能标准、时间再投资规则和 manager 的新责任。否则省下来的时间不会自动变成组织价值。
+- **标签**：#BCG #AIAtWork #SkillsShift #ManagingAI #TalentDensity
+- **抓取时间**：2026-06-04 18:00
+
+### [6] SAP：会搭 agent 只是起点，真正稀缺的是 process context、architecture 和 governance 能力
+- **事件摘要**：SAP 于 2026 年 6 月 2 日发布教育合作材料时强调，学生在 agentic AI 场景中学习的不只是 building an agent，更重要的是理解 process context、system landscape、architecture 和 governance implications。SAP 同时将这些能力接入真实企业应用场景，而不是孤立实验。
+- **来源**：SAP（https://news.sap.com/2026/06/sap-academia-prepare-students-agentic-ai/）
+- **来源平台**：SAP
+- **来源可信度**：⭐高
+- **OD启示**：这为复合型人才定义提供了更清晰的抓手。企业不该只筛“会搭 agent”的人，而应找能把 agent 放进业务系统并理解治理后果的人。
+- **标签**：#SAP #AgenticAI #ProcessContext #Governance #CompositeTalent
+- **抓取时间**：2026-06-04 18:00
+
+### [7] 华为 + LinkedIn：能力图谱与内部流动正在一起重写 career growth 逻辑
+- **事件摘要**：华为于 2026 年 3 月发布 AI 人才发展服务解决方案，公开 22 类角色、71 项核心技能的能力图谱，并将人才机制做成“规划-培养-评估”一体化；LinkedIn 于 2026 年 4 月发布 Top Companies 2026，指出 internal mobility 正成为 career growth 的 primary path，career path 正由 skills、adaptability 和 continuous learning 驱动。两条线索放在一起，说明职业成长逻辑已从“等下一层 title”逐步转向“能力图谱 + 内部流动 + AI 日常化”。
+- **来源**：华为（https://www.huawei.com/cn/news/2026/3/ai-talent-development）；LinkedIn（https://news.linkedin.com/2026/LinkedIn-Top-Companies-2026）
+- **来源平台**：华为 / LinkedIn
+- **来源可信度**：⭐高
+- **OD启示**：岗位序列、人才密度和晋升机制会越来越共享同一套能力语言。对企业来说，更现实的问题是：什么时候需要新建序列，什么时候只需要能力图谱、技能标签和内部流动机制。
+- **标签**：#Huawei #LinkedIn #CapabilityMap #InternalMobility #CareerGrowth
+- **抓取时间**：2026-06-04 18:00
+
+### [8] OpenAI：把 frontier governance 公开成面向监管义务的正式文件，治理开始从“内部做法”外显为可被审视的公共制度接口
+- **事件摘要**：OpenAI 于 2026 年 5 月 28 日发布《OpenAI’s Frontier Governance Framework》，明确说明该框架用于解释其 safety 与 security practices 如何对齐 California Transparency in Frontier AI Act 与 EU AI Act General Purpose AI Code of Practice 等新监管要求。官方进一步写明，框架覆盖 cyber offense、CBRN、harmful manipulation、loss of control 等风险评估与缓解，以及 model reporting、security risk management、incident response、external expert input 与 framework updates。其含义不是又发布一份安全声明，而是把原本更多留在公司内部的前沿模型治理逻辑，转成可被外部比较、审视和追责的公共治理文档。
+- **来源**：OpenAI（https://openai.com/index/openai-frontier-governance-framework/）
+- **来源平台**：OpenAI
+- **来源可信度**：⭐高
+- **OD启示**：这会倒逼企业内部 AI governance 也从“原则口号”走向“文件化、版本化、责任化”。未来高风险 AI 使用场景里，组织需要回答的不只是有没有 policy，而是谁维护版本、谁记录 incident、谁引入外部专家、谁把监管要求翻译成实际评测和审批动作。治理开始变成正式 operating interface，而不是法务附录。
+- **标签**：#OpenAI #FrontierGovernance #AIGovernance #RiskManagement #PolicyOps
+- **抓取时间**：2026-06-04 19:09
+
+### [9] SAP：采购组织的 AI 化被重新定义为“先消灭 person-dependent handoffs，再谈 agent”，传统职能数字化的真正瓶颈被说成了组织模型问题
+- **事件摘要**：SAP 于 2026 年 6 月 1 日发布客户 roundtable 总结，讨论 direct procurement 如何接入 AI。文中最关键的不是功能发布，而是客户共识：真正的 friction 不在 sourcing event 本身，而在 systems 与 teams 之间的 handoffs；没有贯通 product design、sourcing、contracting、execution 的 unified digital thread，AI 只会放大噪音。SAP 还明确写到，组织需要从 fragmented、person-dependent processes 迁移到 cohesive models，并把 AI agents 直接锚定在 transactional business processes、data 与 governance 中。
+- **来源**：SAP（https://news.sap.com/2026/06/direct-procurement-roundtable-customer-journeys-product-direction-ai/）
+- **来源平台**：SAP
+- **来源可信度**：⭐高
+- **OD启示**：这条信号的价值在于，它把“AI 还没规模化”的原因重新翻译成组织设计语言：不是员工不够积极，而是关键流程仍靠少数英雄人物和断裂交接维持。对采购、供应链和共享服务团队来说，真正的 AI 准备度指标应落在 handoff 可视性、数字线程完整性、合同是否可执行对象化、以及 person-dependent work 是否被系统化，而不只是部署了多少 agent。
+- **标签**：#SAP #Procurement #Handoffs #DigitalThread #OperatingModel
+- **抓取时间**：2026-06-04 19:09
 
 ## 2026-06-03
 
