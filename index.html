@@ -3128,6 +3128,17 @@
       },
     ];
 
+    const levelsMonthlyOutputs = [
+      {
+        date: '2026-05-06 至 2026-06-04',
+        title: 'OD 情报中心月度信息月报',
+        status: '月度整合 / 决策稿',
+        summary: '把近一个月 503 条信息库、20 天专题日报、W20-W23 周报和知识库材料，按管理价值分为结论层、Context、线索与方法论。',
+        href: './specials/ai-org-talent-mechanism/monthly/2026-05-06_to_2026-06-04.html',
+        markdown: './specials/ai-org-talent-mechanism/monthly/2026-05-06_to_2026-06-04.md'
+      },
+    ];
+
     const levelsComparisonOutputs = [
       {
         title: '2026-W20 重跑前周报',
@@ -3161,6 +3172,26 @@
           <div class="levels-card"><h3>高人才密度</h3><p>研究复合型人才识别、招聘、授权、激励、保留和持续涌现机制。</p></div>
           <div class="levels-card"><h3>岗位族群序列</h3><p>持续更新岗位族群、职业通道、职级结构、薪酬带宽和激励资源配置。</p></div>
           <div class="levels-card"><h3>未来晋升机制</h3><p>研究即时晋升、常规窗口、项目制晋升、能力认证和公平校准机制。</p></div>
+        </div>
+
+        <div class="levels-section">
+          <h3>月报分区</h3>
+          <p class="levels-section-note">按月把日报、周报、信息库、知识库和基线档案重新归类，沉淀高价值机制、案例库、Context、线索池和下月追踪问题。</p>
+          ${levelsMonthlyOutputs.map(item => `
+            <div class="levels-output">
+              <div class="levels-output-head">
+                <div>
+                  <div class="levels-output-title">${esc(item.date)} · ${esc(item.title)}</div>
+                  <p>${esc(item.summary)}</p>
+                </div>
+                <span class="report-day-badge">${esc(item.status)}</span>
+              </div>
+              <div class="levels-actions">
+                <a class="levels-btn primary" href="${esc(item.href)}" target="_blank">阅读月报</a>
+                <a class="levels-btn" href="${esc(item.markdown)}" target="_blank">查看 Markdown</a>
+              </div>
+            </div>
+          `).join('')}
         </div>
 
         <div class="levels-section">
