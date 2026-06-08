@@ -81,6 +81,62 @@
 - **抓取时间**：2026-06-05 11:11
 
 
+## 2026-06-08
+
+### [1] Microsoft：AI 落地的真正前提仍是 redesign first，先重写任务、交接与决策权，再谈工具扩散
+- **事件摘要**：Microsoft WorkLab 在 2026 年 5 月 21 日文章中再次强调，真正让 AI 生效的不是把模型接入旧流程，而是先重写 tasks、handoffs、decision rights 和 work cadence。5 月 5 日的 Frontier Firm 研究又把高价值协作模式抽象为 author、editor、director、orchestrator 四类，说明组织真正被重写的是人机协作接口，而不是单个岗位本身。
+- **来源**：Microsoft（https://www.microsoft.com/en-us/worklab/ai-at-work-redesign-first-then-ai-just-works；https://www.microsoft.com/en-us/worklab/how-frontier-firms-are-rebuilding-the-operating-model-for-the-age-of-ai）
+- **来源平台**：Microsoft
+- **来源可信度**：⭐高
+- **OD启示**：扁平化、岗位重写和 manager role redesign 的前提，都是先把协作接口写清楚。没有任务边界、例外路径和 decision rights，组织只会把旧摩擦加速，而不是被 AI 消除。
+- **标签**：#Microsoft #RedesignFirst #OperatingModel #DecisionRights #HumanAgent
+- **抓取时间**：2026-06-08 18:00
+
+### [2] Workday：Agent Passport 把 agent 的测试、验证、审计、allow/block/route 与 revocation 做成正式运行时治理
+- **事件摘要**：Workday 于 2026 年 6 月 2 日发布 Agent Passport，强调每个 agent 在上线前要测试与验证、运行中要持续监控，并保留 signed、auditable record；在出现风险时可按 company policy 进行 allow、block 或 route action，并通过 revocation 限制相关 agent。重点不只是安全，而是 agent 已经进入正式组织台账。
+- **来源**：Workday（https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-Launches-Agent-Passport-to-Test-Verify-and-Continuously-Monitor-Every-AI-Agent-in-the-Enterprise/default.aspx）
+- **来源平台**：Workday
+- **来源可信度**：⭐高
+- **OD启示**：未来很多组织证据会来自运行时记录，而不只是窗口期材料。这会反向影响 manager role、晋升证据、shared services 治理与 agent owner 责任划分。
+- **标签**：#Workday #AgentPassport #RuntimeGovernance #Auditability #DigitalLabor
+- **抓取时间**：2026-06-08 18:00
+
+### [3] Oracle：Career Advancement Command Center、Manager Concierge 与 Talent Calibration Workspace 开始收束成一套人才动作界面
+- **事件摘要**：Oracle 于 2026 年 4 月 9 日发布 Fusion Agentic Applications for HR，除 `Manager Concierge Workspace` 外，还明确推出 `Career Advancement Command Center` 与 `Team Talent Calibration and Review Workspace`。这些模块分别覆盖职业成长路径、manager 动作和结构化人才校准，表明成长、管理和评审机制正在进入统一工作台。
+- **来源**：Oracle（https://www.oracle.com/news/announcement/oracle-introduces-fusion-agentic-applications-for-hr-2026-04-09/）
+- **来源平台**：Oracle
+- **来源可信度**：⭐高
+- **OD启示**：晋升机制首先被重写的不是“窗口是否取消”，而是 career evidence、manager action 和 calibration discipline 是否日常化、结构化、可追溯。
+- **标签**：#Oracle #CareerAdvancement #Calibration #ManagerWorkspace #Promotion
+- **抓取时间**：2026-06-08 18:00
+
+### [4] LinkedIn：verified skills 与 AI literacy / adaptability 组合，开始进入招聘主语言
+- **事件摘要**：LinkedIn《Future of Recruiting 2026》把 verified skills 进一步推到招聘前台，并将 AI literacy、adaptability、communication、conflict mitigation 等能力组合列为更重要的人才判断维度。信号不是“更多技能清单”，而是劳动力市场开始要求更可证明、可迁移、可解释的能力语言。
+- **来源**：LinkedIn（https://www.linkedin.com/business/talent/blog/future-of-recruiting/2026-future-of-recruiting-report）
+- **来源平台**：LinkedIn
+- **来源可信度**：⭐高
+- **OD启示**：高人才密度机制需要从“主观觉得这个人很强”转向“有证明的技能 + 可验证的结果责任”。技能证明层很可能进一步进入内部流动、项目分配和晋升证据包。
+- **标签**：#LinkedIn #VerifiedSkills #AILiteracy #TalentDensity #HiringSignal
+- **抓取时间**：2026-06-08 18:00
+
+### [5] Workday 与 Deloitte 高薪招聘 Forward Deployed / Enterprise Architect，说明 deployment + architecture + client translation 已经稳定成 role package
+- **事件摘要**：Workday 公开招聘 `Forward Deployed Enterprise Architect`，岗位区间约为 $162,200-$243,200；Deloitte 公开招聘 `Lead Forward Deployed Engineer`，岗位区间约为 $197,000-$278,000。两者共同强调的都不是单点技术，而是 client-facing AI delivery、solution architecture、workflow integration、governance 与 transformation roadmap。
+- **来源**：LinkedIn Jobs（https://www.linkedin.com/jobs/view/forward-deployed-enterprise-architect-at-workday-4250559773/；https://www.linkedin.com/jobs/view/lead-forward-deployed-engineer-at-deloitte-4254214476/）
+- **来源平台**：LinkedIn Jobs / Workday / Deloitte
+- **来源可信度**：⭐高
+- **OD启示**：这说明 AI 时代新工作单元正在稳定成更清晰的角色包。对多数企业来说，第一步未必是直接新建序列，而是先承认这类角色有独立的能力要求和 pay logic。
+- **标签**：#ForwardDeployed #EnterpriseArchitect #JDSignal #JobArchitecture #PayLogic
+- **抓取时间**：2026-06-08 18:00
+
+### [6] GitLab Handbook + EY 机制样本共同说明：正式晋升仍偏节奏化，技能溢价与调薪则正在更高频治理
+- **事件摘要**：内部结构化的 GitLab promotions handbook 显示，正式晋升仍与 business justification、跨团队反馈和半年校准节奏绑定；内部 EY Future of Pay 2026 摘要则显示，skills-based pay 更强调 clear eligibility criteria、sunset clauses、audit mechanism 和更高频 recalibration。两者放在一起，说明“成长动作”正在拆分为正式晋升、技能溢价和其他资源动作。
+- **来源**：内部知识库（`knowledge/wiki/gitlab-promotions-transfers-handbook.md`；`knowledge/wiki/pdf-source-ey-ey-future-of-pay-report-2026.md`）
+- **来源平台**：内部知识库
+- **来源可信度**：⭐高
+- **OD启示**：企业如果继续把所有资源动作都塞进“晋升”，会越来越难管。AI 时代更适合把 promotion、skill premium、project reward、market adjustment 明确拆开。
+- **标签**：#GitLab #EY #Promotion #SkillsBasedPay #Calibration
+- **抓取时间**：2026-06-08 18:00
+
 ## 2026-06-04
 
 ### [1] GitLab：重组计划正式落地，14% workforce reduction 与 22 国退出把“去层级”推进到硬组织动作
