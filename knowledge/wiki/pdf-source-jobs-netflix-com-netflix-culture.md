@@ -2,8 +2,8 @@
 title: netflix culture
 source: jobs.netflix.com
 date: 待核验
-ingested: 2026-06-07
-sourceFile: ../knowledge/raw/jobs-netflix-com-netflix-culture.pdf
+ingested: 2026-06-08
+sourceFile: ../raw/jobs-netflix-com-netflix-culture.pdf
 sourceUrl: https://jobs.netflix.com/netflix-culture.pdf
 tags: [AI组织设计]
 status: 已下载原始PDF，已生成结构化初筛卡片
@@ -21,7 +21,7 @@ netflix culture 已作为日报/周报 PDF 证据源入库，当前需要完成�
 - **来源类型**：media
 - **原文 URL**：https://jobs.netflix.com/netflix-culture.pdf
 - **原始文件**：`knowledge/raw/jobs-netflix-com-netflix-culture.pdf`
-- **入库日期**：2026-06-07
+- **入库日期**：2026-06-08
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
