@@ -3,7 +3,7 @@ title: WEF：Organizational Transformation in the Age of AI
 source: World Economic Forum
 date: 待核验
 ingested: 2026-06-08
-sourceFile: ../raw/world-economic-forum-wef-organizational-transformation-in-the-age-of-ai.pdf
+sourceFile: ../knowledge/raw/world-economic-forum-wef-organizational-transformation-in-the-age-of-ai.pdf
 sourceUrl: https://reports.weforum.org/docs/WEF_Organizational_Transformation_in_the_Age_of_AI_How_Organizations_Maximize_AI's_Potential_2026.pdf
 tags: [AI组织设计, 变革管理, 战略规划]
 status: 已下载原始PDF，已生成结构化初筛卡片

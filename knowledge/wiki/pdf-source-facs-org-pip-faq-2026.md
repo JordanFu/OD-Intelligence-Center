@@ -3,7 +3,7 @@ title: pip faq 2026
 source: facs.org
 date: 待核验
 ingested: 2026-06-08
-sourceFile: ../raw/facs-org-pip-faq-2026.pdf
+sourceFile: ../knowledge/raw/facs-org-pip-faq-2026.pdf
 sourceUrl: https://www.facs.org/media/ix3p33su/pip-faq-2026.pdf
 tags: [AI组织设计]
 status: 已下载原始PDF，已生成结构化初筛卡片

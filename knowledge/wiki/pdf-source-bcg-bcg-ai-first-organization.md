@@ -3,7 +3,7 @@ title: BCG：AI-First Organization
 source: BCG
 date: 待核验
 ingested: 2026-06-08
-sourceFile: ../raw/bcg-bcg-ai-first-organization.pdf
+sourceFile: ../knowledge/raw/bcg-bcg-ai-first-organization.pdf
 sourceUrl: https://media-publications.bcg.com/AI-First-Organization.pdf
 tags: [AI组织设计, 变革管理]
 status: 已下载原始PDF，已生成结构化初筛卡片

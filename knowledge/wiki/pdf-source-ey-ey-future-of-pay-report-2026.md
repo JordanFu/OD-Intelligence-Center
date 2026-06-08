@@ -3,7 +3,7 @@ title: EY：Future of Pay Report 2026
 source: EY
 date: 待核验
 ingested: 2026-06-08
-sourceFile: ../raw/ey-ey-future-of-pay-report-2026.pdf
+sourceFile: ../knowledge/raw/ey-ey-future-of-pay-report-2026.pdf
 sourceUrl: https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf
 tags: [AI组织设计, 绩效管理]
 status: 已下载原始PDF，已生成结构化初筛卡片

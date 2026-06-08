@@ -3,7 +3,7 @@ title: 12 087 bc50bde2 3016 457a 9bee dc988cb1056b
 source: hbs.edu
 date: 待核验
 ingested: 2026-06-08
-sourceFile: ../raw/hbs-edu-12-087-bc50bde2-3016-457a-9bee-dc988cb1056b.pdf
+sourceFile: ../knowledge/raw/hbs-edu-12-087-bc50bde2-3016-457a-9bee-dc988cb1056b.pdf
 sourceUrl: https://www.hbs.edu/ris/Publication%20Files/12-087_bc50bde2-3016-457a-9bee-dc988cb1056b.pdf
 tags: [AI组织设计]
 status: 已下载原始PDF，已生成结构化初筛卡片

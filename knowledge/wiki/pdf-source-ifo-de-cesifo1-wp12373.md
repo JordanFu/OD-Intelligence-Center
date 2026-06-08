@@ -3,7 +3,7 @@ title: cesifo1 wp12373
 source: ifo.de
 date: 待核验
 ingested: 2026-06-08
-sourceFile: ../raw/ifo-de-cesifo1-wp12373.pdf
+sourceFile: ../knowledge/raw/ifo-de-cesifo1-wp12373.pdf
 sourceUrl: https://www.ifo.de/DocDL/cesifo1_wp12373.pdf
 tags: [AI组织设计]
 status: 已下载原始PDF，已生成结构化初筛卡片

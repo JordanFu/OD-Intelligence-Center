@@ -3,7 +3,7 @@ title: Anthropic：2026 Agentic Coding Trends Report
 source: Anthropic
 date: 待核验
 ingested: 2026-06-08
-sourceFile: ../raw/anthropic-anthropic-2026-agentic-coding-trends-report.pdf
+sourceFile: ../knowledge/raw/anthropic-anthropic-2026-agentic-coding-trends-report.pdf
 sourceUrl: https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf
 tags: [AI组织设计, 人才发展, 变革管理]
 status: 已下载原始PDF，已生成结构化初筛卡片

@@ -3,7 +3,7 @@ title: us spans and layers for the modern organization 2020
 source: Deloitte
 date: 待核验
 ingested: 2026-06-08
-sourceFile: ../raw/deloitte-us-spans-and-layers-for-the-modern-organization-2020.pdf
+sourceFile: ../knowledge/raw/deloitte-us-spans-and-layers-for-the-modern-organization-2020.pdf
 sourceUrl: https://www.deloitte.com/content/dam/Deloitte/us/Documents/human-capital/us-spans-and-layers-for-the-modern-organization-2020.pdf
 tags: [AI组织设计, 变革管理]
 status: 已下载原始PDF，已生成结构化初筛卡片

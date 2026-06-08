@@ -3,7 +3,7 @@ title: netflix culture
 source: jobs.netflix.com
 date: 待核验
 ingested: 2026-06-08
-sourceFile: ../raw/jobs-netflix-com-netflix-culture.pdf
+sourceFile: ../knowledge/raw/jobs-netflix-com-netflix-culture.pdf
 sourceUrl: https://jobs.netflix.com/netflix-culture.pdf
 tags: [AI组织设计]
 status: 已下载原始PDF，已生成结构化初筛卡片

@@ -3,7 +3,7 @@ title: Payscale：2026 Compensation Best Practices Report
 source: Payscale
 date: 待核验
 ingested: 2026-06-08
-sourceFile: ../raw/payscale-payscale-2026-compensation-best-practices-report.pdf
+sourceFile: ../knowledge/raw/payscale-payscale-2026-compensation-best-practices-report.pdf
 sourceUrl: https://www.payscale.com/content/report/2026-compensation-best-practice-report.pdf
 tags: [AI组织设计, 绩效管理]
 status: 已下载原始PDF，已生成结构化初筛卡片

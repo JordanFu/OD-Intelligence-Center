@@ -3,7 +3,7 @@ title: engineering progression framework v2 0
 source: monzo.com
 date: 待核验
 ingested: 2026-06-08
-sourceFile: ../raw/monzo-com-engineering-progression-framework-v2-0.pdf
+sourceFile: ../knowledge/raw/monzo-com-engineering-progression-framework-v2-0.pdf
 sourceUrl: https://monzo.com/documents/engineering-progression-framework-v2-0.pdf
 tags: [AI组织设计]
 status: 已下载原始PDF，已生成结构化初筛卡片

@@ -3,7 +3,7 @@ title: AIHR：HR Priorities 2026 Report
 source: AIHR
 date: 待核验
 ingested: 2026-06-08
-sourceFile: ../raw/aihr-aihr-hr-priorities-2026-report.pdf
+sourceFile: ../knowledge/raw/aihr-aihr-hr-priorities-2026-report.pdf
 sourceUrl: https://www.aihr.com/resources/AIHR_HR_Priorities_2026_Report.pdf
 tags: [AI组织设计, 人才发展]
 status: 已下载原始PDF，已生成结构化初筛卡片
