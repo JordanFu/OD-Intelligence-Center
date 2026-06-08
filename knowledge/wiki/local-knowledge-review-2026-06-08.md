@@ -10,41 +10,45 @@ tags: [知识管理, 定期Review, 资料治理, AI组织设计]
 
 ## 本周健康度
 
-- **总体判断：75/100，处于“可用但需治理补强”区间。**
-- 结构层面稳定：`knowledge/raw/`、`knowledge/wiki/`、`knowledge/index.md`、`knowledge/log.md` 均可用，PDF 自动入库脚本在干净副本中已验证可运行。
-- 证据层面有进展：本轮强制重跑 PDF 自动入库后，19 个被日报/周报引用的公开 PDF 来源中，14 个已成功下载到 `knowledge/raw/`，并生成中文结构化来源卡片。
-- 治理层面仍有明显缺口：仍有 5 个高相关 PDF 入口下载失败，22/53 个 wiki 页面仍停在线索层或待精读状态，部分来源卡片标题、路径和证据层级表达还不够稳。
+- **总体判断：78/100，处于“可用、已恢复同步能力，但治理仍需补强”区间。**
+- 结构层面恢复可用：当前工作目录 `/private/tmp/ODIC-current` 原本存在损坏的 `.git` 对象，已用干净克隆的元数据修复，`git pull` / `git fsck` 阻塞已解除。
+- 证据层面继续前进：本轮按要求重跑 PDF 自动入库后，共识别 21 个公开 PDF 引用，其中 14 个已成功下载到 `knowledge/raw/`，7 个保留来源卡片与引用上下文待重试。
+- 边界控制正常：未发现把 `source-channels.private`、`local-reference-structured`、`archive` 或密码/私有渠道内容写入公开知识库。
+- 治理层面仍有缺口：`knowledge/index.md` 与 `knowledge/catalog.json` 已补入腾讯两份新增 PDF，但 `operations/info-library-status.*` 仍停在 `2026-06-05`，说明知识库状态页和最新日报还没有完全同步。
 
 ## 本周完成的核查
 
-1. 确认原本地目录 `/private/tmp/ODIC-current` 虽是 git repo，但对象库损坏，`git pull` 无法完成；为避免覆盖风险，本轮 review 在干净副本 `/private/tmp/ODIC-review-fresh-20260608` 完成。
+1. 确认 `/private/tmp/ODIC-current` 是完整 git 仓库，但 `.git` 对象损坏，`git pull --rebase --autostash` 失败；随后通过干净克隆修复元数据并恢复当前工作目录的同步能力。
 2. 按要求执行 PDF 自动入库：`EXTRA_PDF_SCAN_DIRS="/Users/tal/Documents/New project/research/private-industry-bigtech-watch" node scripts/ingest-pdf-references.js`。
-3. 检查最近一周新增内容的落点、结构化程度、PDF 入库状态、标题质量、来源链接和重复噪音。
-4. 抽查现有 PDF 来源卡片的相对路径、证据层级和引用位置，确认大多数条目已具备中文结构化骨架，不是只有原文路径。
+3. 重建并核查 `knowledge/index.md`、`knowledge/catalog.json`、`knowledge/log.md` 的本轮变更，清理了一个未被当前索引引用的孤立 PDF 卡片，并把腾讯两份匿名文件名卡片改成可读标题。
+4. 检查最近新增内容的落点、结构化程度、PDF 入库状态、标题质量、来源链接和重复噪音。
+5. 抽查现有 PDF 来源卡片的相对路径、证据层级和引用位置，确认大多数条目已具备中文结构化骨架，不是只有原文路径。
 
 ## 已发现问题
 
 ### P1
 
-1. **原工作目录仓库损坏，无法在原地完成同步。**
-   当前 `/private/tmp/ODIC-current/.git` 存在大量缺失 blob/tree，对应 `git pull --ff-only` 与 `git fsck --full` 都报错。这会直接影响后续 automation 的稳定同步、对比和提交能力。
+1. **知识库状态摘要滞后于实际内容。**
+   `operations/info-library-status.json` 与 `operations/info-library-status.md` 当前最新日期仍是 `2026-06-05`，但仓库已经存在 `daily/2026-06-08.md` 与 `daily-report/2026-06-08.md`。这说明首页/状态页依赖的数据流和日报写入流尚未完全对齐。
 
-2. **5 个高价值 PDF 仍停留在“已索引待重试”，证据链未闭环。**
+2. **7 个公开 PDF 仍停留在“已索引待重试”，证据链未闭环。**
    具体包括：
    - GitLab：2026 SEC 8-K Filing
    - SSRN `6456498`
+   - 腾讯 2026 一季度业绩公告 PDF
+   - 腾讯 2026 一季度业绩演示 PDF
    - BCG：AI Radar 2026
    - BCG + MIT Sloan：The Emerging Agentic Enterprise
    - UMass Chan IT Job Family Career Ladder Matrix
-   这些条目已被日报/周报引用，但原文未落入 `knowledge/raw/`，只能作为线索层或锚点，不能稳定进入结论层。
+   这些条目已被日报/周报或本地研究上下文引用，但原文未落入 `knowledge/raw/`，只能作为线索层或锚点，不能稳定进入结论层。
 
 ### P2
 
 1. **待精读条目占比偏高。**
-   `knowledge/wiki/` 共 53 个 markdown 页面，其中 22 个仍带有“待评估 / 待精读 / 待核验 / 待重试”等状态。知识库已能覆盖来源，但结论沉淀速度还不足。
+   `knowledge/index.md` 的 PDF 自动入库区块中，至少 12 条仍保留“待评估 / 待精读 / 待核验 / 待重试”等状态。知识库已经能较稳定地吸纳来源，但结论沉淀速度还不足。
 
-2. **自动入库条目标题质量不一致。**
-   至少 10 个 PDF 来源卡片标题仍是 slug 或编号风格，例如 `netflix culture`、`6456498`、`cesifo1 wp12373`、`0000050863 26 000011`。这会降低索引可读性，也增加后续去重难度。
+2. **自动入库条目标题质量仍不一致。**
+   本轮已修复腾讯两份匿名标题，但索引中仍有多个 slug 或编号风格标题，例如 `netflix culture`、`6456498`、`cesifo1 wp12373`、`0000050863 26 000011`。这会降低索引可读性，也增加后续去重难度。
 
 3. **日志噪音偏高。**
    `knowledge/log.md` 从 2026-06-03 到 2026-06-08 连续出现几乎相同的 PDF 自动入库记录。它保留了执行痕迹，但会稀释真正重要的知识治理和研究沉淀事件。
@@ -86,9 +90,9 @@ tags: [知识管理, 定期Review, 资料治理, AI组织设计]
 
 ### 链接与分享入口
 
-- 5 个高价值 PDF 入口当前不可用或下载失败，属于证据链阻塞点。
+- 7 个高价值 PDF 入口当前不可用或下载失败，属于证据链阻塞点。
 - 当前 review 未发现把 `source-channels.private`、`local-reference-structured`、`archive` 或私有附件直接写入公开知识库的情况；这条边界目前守住了。
-- 原工作目录仓库损坏会间接影响后续“分享页更新后能否稳定同步”的可用性，这属于运维层分享风险。
+- 仓库同步能力已恢复，但 `operations/info-library-status.*` 未跟上最新日报，会间接影响外部查看者对“库是否已更新”的判断。
 
 ## 值得继续研究的缺口
 
@@ -103,6 +107,9 @@ tags: [知识管理, 定期Review, 资料治理, AI组织设计]
 3. **岗位/职级/薪酬三者如何联动。**
    目前 EY、Payscale、CFTE、Monzo、UMass Chan 等线索都在，但尚未形成“技能标签 -> 岗位族群 -> pay band / premium -> 晋升证据”的统一框架页。
 
+4. **中国公司在 AI 组织变革中的正式披露样本仍偏少。**
+   腾讯两份 2026Q1 PDF 已形成来源卡片，但原文未落地，说明中国语境的一手组织案例仍需要更稳定的备用网址和结构化提炼机制。
+
 ### P2 下一轮重点
 
 1. **管理者角色重写。**
@@ -116,16 +123,16 @@ tags: [知识管理, 定期Review, 资料治理, AI组织设计]
 
 ## 建议优先级
 
-1. **P1 运维修复**：用干净克隆替换损坏的 `/private/tmp/ODIC-current` 工作副本，恢复稳定 `git pull / commit / push` 能力。
-2. **P1 证据闭环**：优先解决 5 个下载失败 PDF，尤其是 GitLab 8-K、BCG AI Radar、BCG+MIT Sloan、UMass Chan。
+1. **P1 状态同步**：补齐 `digest.md` / 状态页到 `2026-06-08`，避免首页和状态页继续落后于日报。
+2. **P1 证据闭环**：优先解决 7 个下载失败 PDF，尤其是 GitLab 8-K、腾讯两份 Q1 PDF、BCG AI Radar、BCG+MIT Sloan、UMass Chan。
 3. **P1 主题升级**：从已入库 PDF 中优先把 AI fluency、People operating model、岗位族群与薪酬联动三条线做成综合页。
-4. **P2 标题治理**：把 slug 型 PDF 标题统一改成中文或完整英文正式标题。
+4. **P2 标题治理**：继续把 slug 型 PDF 标题统一改成中文或完整英文正式标题。
 5. **P2 日志治理**：把重复的每日 PDF 入库日志折叠为状态快照，保留变化量而不是重复全文。
 
 ## 可直接执行的下一步
 
-1. 用新的干净仓库替换当前损坏副本，再重新执行一次 `git pull` 验证同步稳定性。
-2. 对 5 个下载失败 PDF 分别增加备用网址或 HTML 落地页兜底，而不是只保留原 PDF URL。
+1. 重建 `digest.md` 相关状态流，确认 `operations/info-library-status.*` 能反映到 `2026-06-08`。
+2. 对 7 个下载失败 PDF 分别增加备用网址或 HTML 落地页兜底，而不是只保留原 PDF URL。
 3. 先精读 3 份最值得升级的材料：
    - `knowledge/wiki/pdf-source-bcg-bcg-mit-sloan-the-emerging-agentic-enterprise.md`
    - `knowledge/wiki/pdf-source-aihr-aihr-hr-priorities-2026-report.md`

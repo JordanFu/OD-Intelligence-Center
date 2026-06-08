@@ -1632,6 +1632,57 @@
         "ifo.de"
       ],
       "originalUrl": "https://www.ifo.de/DocDL/cesifo1_wp12373.pdf"
+    },
+    {
+      "id": "p020",
+      "title": "腾讯 2026 一季度业绩公告 PDF",
+      "originalTitle": "47382ae415a209fd161bc19a1f9b3704",
+      "author": "腾讯",
+      "publisher": "腾讯",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-06-08",
+      "description": "腾讯 2026 一季度业绩公告已作为公开 PDF 证据源入库，但原文尚未下载成功，当前只能作为线索层材料。关注重点：财报披露、AI 研究投入、组织动作待核验。相关性：中相关，公司案例补证。",
+      "summaryFile": "./knowledge/wiki/pdf-source-static-www-tencent-com-47382ae415a209fd161bc19a1f9b3704.md",
+      "rawFile": "",
+      "fileName": "static-www-tencent-com-47382ae415a209fd161bc19a1f9b3704.pdf",
+      "fileSize": "download pending",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "腾讯",
+        "财报电话会"
+      ],
+      "originalUrl": "https://static.www.tencent.com/uploads/2026/05/13/47382ae415a209fd161bc19a1f9b3704.pdf"
+    },
+    {
+      "id": "p021",
+      "title": "腾讯 2026 一季度业绩演示 PDF",
+      "originalTitle": "e048dfed72bc718f7986a83f23c8e294",
+      "author": "腾讯",
+      "publisher": "腾讯",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-06-08",
+      "description": "腾讯 2026 一季度业绩演示已作为公开 PDF 证据源入库，但原文暂未下载成功，现阶段仍停在线索层。关注重点：internal deployment、retention、AgentOps、workflow。相关性：中高相关，组织接口层案例。",
+      "summaryFile": "./knowledge/wiki/pdf-source-static-www-tencent-com-e048dfed72bc718f7986a83f23c8e294.md",
+      "rawFile": "",
+      "fileName": "static-www-tencent-com-e048dfed72bc718f7986a83f23c8e294.pdf",
+      "fileSize": "download pending",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "腾讯",
+        "财报演示",
+        "AgentOps"
+      ],
+      "originalUrl": "https://static.www.tencent.com/uploads/2026/05/13/e048dfed72bc718f7986a83f23c8e294.pdf"
     }
   ]
 }
