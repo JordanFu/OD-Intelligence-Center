@@ -110,9 +110,9 @@
 - **标签**：#Oracle #CareerAdvancement #Calibration #ManagerWorkspace #Promotion
 - **抓取时间**：2026-06-08 18:00
 
-### [4] LinkedIn：verified skills 与 AI literacy / adaptability 组合，开始进入招聘主语言
-- **事件摘要**：LinkedIn《Future of Recruiting 2026》把 verified skills 进一步推到招聘前台，并将 AI literacy、adaptability、communication、conflict mitigation 等能力组合列为更重要的人才判断维度。信号不是“更多技能清单”，而是劳动力市场开始要求更可证明、可迁移、可解释的能力语言。
-- **来源**：LinkedIn（https://www.linkedin.com/business/talent/blog/future-of-recruiting/2026-future-of-recruiting-report）
+### [4] LinkedIn：招聘市场正把 AI 辅助识别 skills 与 hidden gem candidates 写进主语言
+- **事件摘要**：LinkedIn 于 2026 年 1 月 7 日发布研究，指出 93% 的 recruiters 计划在 2026 年增加 AI 使用，59% 表示 AI 已帮助他们发现过去本来找不到的 skills-based candidates。更关键的信号不是“招聘更快”，而是 hiring logic 正从 title / pedigree 进一步转向 skills discovery、AI-assisted matching 与 candidate confidence support。
+- **来源**：LinkedIn（https://news.linkedin.com/en-us/2026/LinkedIn-Research-Talent-2026）
 - **来源平台**：LinkedIn
 - **来源可信度**：⭐高
 - **OD启示**：高人才密度机制需要从“主观觉得这个人很强”转向“有证明的技能 + 可验证的结果责任”。技能证明层很可能进一步进入内部流动、项目分配和晋升证据包。
@@ -128,10 +128,10 @@
 - **标签**：#ForwardDeployed #EnterpriseArchitect #JDSignal #JobArchitecture #PayLogic
 - **抓取时间**：2026-06-08 18:00
 
-### [6] GitLab Handbook + EY 机制样本共同说明：正式晋升仍偏节奏化，技能溢价与调薪则正在更高频治理
-- **事件摘要**：内部结构化的 GitLab promotions handbook 显示，正式晋升仍与 business justification、跨团队反馈和半年校准节奏绑定；内部 EY Future of Pay 2026 摘要则显示，skills-based pay 更强调 clear eligibility criteria、sunset clauses、audit mechanism 和更高频 recalibration。两者放在一起，说明“成长动作”正在拆分为正式晋升、技能溢价和其他资源动作。
-- **来源**：内部知识库（`knowledge/wiki/gitlab-promotions-transfers-handbook.md`；`knowledge/wiki/pdf-source-ey-ey-future-of-pay-report-2026.md`）
-- **来源平台**：内部知识库
+### [6] BCG：岗位变化速度已经快过组织重写速度，manager 与 frontline 都在转向“管理与指挥 AI”
+- **事件摘要**：BCG 于 2026 年 6 月 3 日发布第四年度《AI at Work》调研，指出 72% 受访者认为 AI 已显著改变岗位技能期待，47% 表示自己把更多时间花在 managing and directing AI 上；同时 30% 称 agents 已进入实际 workflow。信号不是“AI 用得更多”这么简单，而是 jobs、management 和 operating model 的重写速度已经不同步。
+- **来源**：BCG（https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work）
+- **来源平台**：BCG
 - **来源可信度**：⭐高
 - **OD启示**：企业如果继续把所有资源动作都塞进“晋升”，会越来越难管。AI 时代更适合把 promotion、skill premium、project reward、market adjustment 明确拆开。
 - **标签**：#GitLab #EY #Promotion #SkillsBasedPay #Calibration
