@@ -1,50 +1,108 @@
 # 2026-06-09｜专题四：未来组织的晋升机制
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+## 1. 今日一句话专题判断
 
-## 今日一句话结论
+今天晋升机制最关键的新判断是：**未来晋升首先会变成“持续识别、结构化校准、按规则触发”的机制，而不是简单走向“随时晋升”或“AI 自动定级”。**
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+## 2. 今日新增事实：只写可追溯事实，注明来源
 
-## 今日核心判断
+1. **Oracle Fusion Agentic Applications for HR（2026-04-09）**推出 `Career Advancement Command Center`，帮助 HR leaders 推动 career mobility、连接员工与 open roles，并将 career development 从 ad hoc 变成 guided, strategic advancement。  
+   - 来源：Oracle  
+   - https://www.oracle.com/news/announcement/oracle-introduces-fusion-agentic-applications-for-hr-2026-04-09/
+2. **同一 Oracle 发布**推出 `Team Talent Calibration and Review Workspace`，用于 conduct more consistent and structured talent review assessments、streamline calibration meetings、identify rating inconsistencies、provide evidence-based recommendations。  
+   - 来源：Oracle  
+   - https://www.oracle.com/news/announcement/oracle-introduces-fusion-agentic-applications-for-hr-2026-04-09/
+3. **Workday《Designing Operating Models for Human + Agent Teams》**指出，只有 24% 的员工接受 agents 在“后台无感运行”，并强调数据透明与隐私是员工信任 agent workflow 的前提。  
+   - 来源：Workday  
+   - https://www.workday.com/en-us/perspectives/hr/operating-models-for-human-and-agents.html
+4. **LinkedIn Research Talent 2026**显示，verified members 获得更高可信度与回响，侧面说明“可信证明层”正在影响职业成长与机会获得。  
+   - 来源：LinkedIn  
+   - https://news.linkedin.com/en-us/2026/LinkedIn-Research-Talent-2026
+5. **BCG《Reinvention of the CHRO in an AI-Driven Enterprise》**指出，AI 已在 recruiting、learning、people analytics、HR administration 等高数据、规则驱动领域带来 20%-30% efficiency gains，并强调 HR 需要主导 roles、governance、fairness 的重写。  
+   - 来源：BCG  
+   - https://www.bcg.com/publications/2026/reinvention-of-the-chro-in-an-ai-driven-enterprise
+6. **内部 GitLab Promotions Handbook 与 EY Future of Pay 2026 摘要**继续显示：正式晋升仍与 business justification 和校准节奏绑定，而 skill premium / 高频 recalibration 更适合作为独立资源动作。  
+   - 来源：内部知识库  
+   - `knowledge/wiki/gitlab-promotions-transfers-handbook.md`  
+   - `knowledge/wiki/pdf-source-ey-ey-future-of-pay-report-2026.md`
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+## 3. 今日核心判断：3-5 条，每条注明可信度、证据基础、为什么重要
 
-## 今日背景材料（Context）
+1. **晋升被重写的第一层是 evidence schema，不是窗口频率。可信度：高。**  
+   - 证据基础：Oracle 直接把 career advancement、manager workspace、talent calibration 做成统一工作台。  
+   - 为什么重要：企业如果先争论“要不要取消窗口”，很容易错过真正该改的证据底座。
+2. **持续识别会增强，但正式升级动作仍大概率保留节奏化校准。可信度：高。**  
+   - 证据基础：Oracle 的 structured review / calibration，叠加 GitLab 的 business justification 和节奏化正式晋升。  
+   - 为什么重要：这更符合大企业对公平、预算和跨团队对齐的现实约束。
+3. **可信证明层会越来越进入成长与晋升周边机制。可信度：中高。**  
+   - 证据基础：LinkedIn verified signal 带来更高回应；Oracle 推 guided advancement；EY 强调 eligibility criteria。  
+   - 为什么重要：未来“成长证据包”会越来越依赖可验证、可解释、可追踪的记录。
+4. **AI 在晋升机制中的合理位置是证据整理、一致性检查和风险提示，而不是自动裁决。可信度：中高。**  
+   - 证据基础：Workday 强调员工对后台 agent 的信任边界；BCG 强调 fairness、governance 与 HR 主导。  
+   - 为什么重要：如果直接让 AI 做定级，组织信任成本会显著上升。  
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计（job/workflow redesign）、智能体治理（agent governance）、基于技能的薪酬（skills-based pay） 和 薪酬带宽（pay band） 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+## 4. 重点案例事实还原：Oracle 为什么先做 Career Advancement 和 Calibration Workspace
 
-## 今日新增证据地图
+- 背景：很多企业把 AI 与晋升机制的关系想得过快，直接跳到“随时晋升”或“AI 打分”。  
+- 时间线：  
+  - 2026-04-09：Oracle 发布新的 Fusion Agentic Applications for HR。  
+- 组织问题：  
+  - career path 信息分散；  
+  - manager 到窗口期才集中找证据；  
+  - calibration 依赖人为汇总，口径不一。  
+- Oracle 的处理顺序：  
+  - 先让员工看见 career mobility 和 open roles；  
+  - 再让 manager 有统一 workspace 承接动作；  
+  - 再把 calibration 做成 structured review + inconsistency detection + evidence-based recommendation。  
+- 这意味着什么：  
+  - “随时识别”可以更早发生；  
+  - “正式晋升”仍可能按季度或半年度统一触发；  
+  - promotion、mobility、skill premium、development action 会越来越分轨治理。  
+- 风险和争议：  
+  - 工作台如果只加速操作、不统一口径，会更快放大不公平。  
+  - 背景式 agent 越强，员工越关心知道“系统看了什么、怎么判断”。  
+- 可借鉴点：  
+  - 先统一成长语言与证据字段。  
+  - 让 AI 优先做汇总、提醒、校对、一致性检查。  
+- 不可照搬点：  
+  - 没有清晰 policy 和 role architecture 的公司，单独上 workspace 不会自然变公平。  
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | title、职责、薪资区间、level、地区、IC/Manager 边界 |
+## 5. Context层：暂不形成结论，但提示我们关注……
 
-## 线索层
+- 暂不形成结论，但提示我们关注：**未来最频繁发生的，可能首先是 skill premium、项目奖励和 mobility 标记，而不是 formal level promotion。**  
+- 暂不形成结论，但提示我们关注：**agent log、项目复盘、技能认证是否会进入正式晋升证据包，还需要更多公开样本。**  
+- 暂不形成结论，但提示我们关注：**员工对后台 agent 的不适感，可能成为 future talent system adoption 的主要阻力之一。**  
 
-- 追踪 FDE、AI 工作流负责人、智能体运营（agent ops）、AI 治理（AI governance）、基于技能的薪酬（skills-based pay）等头衔是否形成稳定 岗位族群（job family）。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+## 6. 证据地图
 
-## 待补齐的落地问题
+- 官方/一手：Oracle、Workday、LinkedIn。  
+- 权威媒体/咨询：BCG。  
+- 公司案例/制度材料：Oracle workspace、GitLab promotions handbook。  
+- 学术/研究：暂无新增学术样本进入结论层。  
+- 招聘 JD / 薪酬：EY 技能薪酬机制。  
+- 社媒/职场线索：暂不升结论层。  
+- 内部信息库/知识库：`knowledge/wiki/gitlab-promotions-transfers-handbook.md`、`knowledge/wiki/pdf-source-ey-ey-future-of-pay-report-2026.md`。  
 
-正式重跑必须回答：AI 贡献如何进入晋升证据包、谁负责验证与质量、是否有校准机制、是否存在调岗降薪和劳动合规风险。
+## 7. 对我们行动的启发
 
-## 来源索引
+1. 先做 `promotion evidence schema v2`，再讨论窗口改革。  
+2. 把 promotion、skill premium、project reward、mobility action 分开治理。  
+3. 在 calibration 中加入 inconsistency detection 和 explainability 字段。  
+4. 明确告诉员工系统看什么、不看什么、谁是最终决策者。  
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价（AI skill premium）、基于技能的薪酬（skills-based pay）、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
+## 8. 待验证清单与下一步搜索路径
+
+1. 哪些企业已公开“持续识别 + 节奏校准”的混合晋升机制？  
+   - Query：`continuous promotion calibration workspace official`
+2. verified skills 是否进入正式内部晋升证据？  
+   - Query：`verified skills promotion evidence official company`
+3. 背景式 agent 对员工信任的边界如何被制度化？  
+   - Query：`employee trust background AI agent HR official`
+
+## 9. 来源索引
+
+- Oracle：https://www.oracle.com/news/announcement/oracle-introduces-fusion-agentic-applications-for-hr-2026-04-09/  
+- Workday：https://www.workday.com/en-us/perspectives/hr/operating-models-for-human-and-agents.html  
+- LinkedIn：https://news.linkedin.com/en-us/2026/LinkedIn-Research-Talent-2026  
+- BCG：https://www.bcg.com/publications/2026/reinvention-of-the-chro-in-an-ai-driven-enterprise  
+- 内部：`knowledge/wiki/gitlab-promotions-transfers-handbook.md` ｜ `knowledge/wiki/pdf-source-ey-ey-future-of-pay-report-2026.md`
