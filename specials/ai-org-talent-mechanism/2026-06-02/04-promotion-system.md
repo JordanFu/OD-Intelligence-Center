@@ -1,50 +1,52 @@
 # 2026-06-02｜专题四：未来组织的晋升机制
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+> 补跑修正 / 决策稿。本专题从“Agent 进入正式 operating model：台账、角色/KPI、trusted runtime 与部署组织化”中抽取与 专题四：未来组织的晋升机制 直接相关的组织机制判断；不把 Context 或单点线索升级成结论。
 
-## 今日一句话结论
+## 一句话判断
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+晋升机制首先会被证据结构重写：AI 贡献应进入结果、复杂度、复用资产、治理质量和跨团队影响，而不是以工具使用量直接定级。
 
-## 今日核心判断
+## 核心判断
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+1. **持续证据流增强**：Agent System of Record、manager workspace、verified skills 都会让日常证据更连续。
+2. **正式动作仍需校准**：目前没有高置信证据说明固定晋升窗口会立即消失，更可能是持续识别 + 节奏化校准。
+3. **激励要拆分**：晋升、调薪、skill premium、project reward、retention grant 应分开治理。
 
-## 今日背景材料（Context）
+## Context / 弱信号
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计（job/workflow redesign）、智能体治理（agent governance）、基于技能的薪酬（skills-based pay） 和 薪酬带宽（pay band） 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+- 暂不形成结论，但提示关注：业务提出岗位/序列改革，很多时候是在找关键人才激励与薪酬承接空间。
+- 与主假设的关系：支持“岗位变革本质常是薪酬激励承接问题”的判断。
+- 反例或风险：如果没有校准，AI 证据流可能放大 manager bias、数据可见性差异和资源不均。
 
-## 今日新增证据地图
+## 落地启发
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | title、职责、薪资区间、level、地区、IC/Manager 边界 |
-
-## 线索层
-
-- 追踪 FDE、AI 工作流负责人、智能体运营（agent ops）、AI 治理（AI governance）、基于技能的薪酬（skills-based pay）等头衔是否形成稳定 岗位族群（job family）。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
-
-## 待补齐的落地问题
-
-正式重跑必须回答：AI 贡献如何进入晋升证据包、谁负责验证与质量、是否有校准机制、是否存在调岗降薪和劳动合规风险。
+- 先定义责任边界和证据字段，再决定组织结构。
+- 先用试点流程验证，再决定是否进入正式岗位、职级和薪酬制度。
+- 对稀缺但未稳定的能力，优先用技能标签、项目激励或专项津贴，避免盲目新增序列。
 
 ## 来源索引
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价（AI skill premium）、基于技能的薪酬（skills-based pay）、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
+- [BCG：Design Your Company for AI, Not AI for Your Company](https://www.bcg.com/publications/2026/design-your-company-for-ai-not-ai-for-your-company)
+- [BCG：The Reinvention of the CHRO in an AI-Driven Enterprise](https://www.bcg.com/publications/2026/reinvention-of-the-chro-in-an-ai-driven-enterprise)
+- [BCG：To Thrive in the AI Era, Tech Leaders Must Reinvent Organization and Operating Models](https://www.bcg.com/publications/2026/to-thrive-in-the-ai-era-tech-leaders-must-reinvent-organization-and-operating-models)
+- [McKinsey：Designing an end-to-end technology workforce for the AI-first era](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)
+- [McKinsey：Rewiring software delivery for the agentic era](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/rewiring-software-delivery-for-the-agentic-era)
+- [Workday：Designing Operating Models for Human + Agent Teams](https://www.workday.com/en-us/perspectives/hr/operating-models-for-human-and-agents.html)
+- [Workday FY2027 Q1：Agent System of Record GA](https://newsroom.workday.com/2026-05-21-Workday-Announces-Fiscal-2027-First-Quarter-Financial-Results?asPDF=1)
+- [Workday × Google Cloud：AI agents for HR and Finance](https://newsroom.workday.com/2026-05-28-Workday-and-Google-Cloud-Expand-Strategic-Partnership-to-Bring-AI-Agents-for-HR-and-Finance-Into-Employees-Daily-Workflows)
+- [Workday：Agent Passport](https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-Launches-Agent-Passport-to-Test-Verify-and-Continuously-Monitor-Every-AI-Agent-in-the-Enterprise/default.aspx)
+- [Workday Horizon Zurich 2026：enterprise rails for AI](https://www.workday.com/en-ch/company/latest/events-webinars/horizon.html)
+- [SAP Sapphire：Autonomous Suite](https://news.sap.com/2026/05/sap-sapphire-keynote-business-ai-platform-power-autonomous-enterprise/)
+- [SAP × NVIDIA：secure AI agents](https://news.sap.com/2026/05/secure-ai-agents-how-sap-and-nvidia-co-define-enterprise-grade-agent-execution/)
+- [Oracle：Fusion Agentic Applications for HR](https://www.oracle.com/news/announcement/oracle-introduces-fusion-agentic-applications-for-hr-2026-04-09/)
+- [LinkedIn Research：Talent 2026](https://news.linkedin.com/en-us/2026/LinkedIn-Research-Talent-2026)
+- [OpenAI：OpenAI Deployment Company](https://openai.com/index/openai-launches-the-deployment-company/)
+- [OpenAI：Forward deployed engineering at OpenAI](https://openai.com/business/the-openai-deployment-company)
+- [OpenAI：Codex for every role, tool, and workflow](https://openai.com/index/codex-for-every-role-tool-workflow/)
+- [Anthropic：Enterprise AI services company](https://www.anthropic.com/news/enterprise-ai-services-company)
+- [Anthropic：Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
+- [Tencent：Productivity Agent Suite / ADP 4.0 / CodeBuddy](https://www.tencent.com/en-us/articles/2202350.html)
+- [Meta：Meta Business Agent Platform](https://about.fb.com/news/2026/06/meta-business-agent/amp/)
+- [Huawei：AI Talent Development Service](https://www.huawei.com/en/news/2026/3/ai-talent-development)
+- [EY：Future of Pay Report 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)
+- [Payscale：2026 Compensation Best Practices Report](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)

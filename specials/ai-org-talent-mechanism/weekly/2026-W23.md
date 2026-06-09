@@ -1,7 +1,7 @@
 # 2026-W23｜AI时代组织与人才机制变革｜四课题聚合 CEO 周报
 
-> 周期：2026-06-01 ～ 2026-06-05（ISO Week 23）
-> 本周主证据：`specials/ai-org-talent-mechanism/2026-06-01/`、`2026-06-03/`、`2026-06-04/` 的总览与四专题日报；`2026-06-05/` 总览为非决策稿，但其专题稿中关于 deployment、partner enablement、verification、workflow telemetry 的事实，已用 `daily/`、`daily-report/`、`digest.md` 与知识库交叉校验后吸收。
+> 周期：2026-06-01 ～ 2026-06-07（ISO Week 23）
+> 本周主证据：`specials/ai-org-talent-mechanism/2026-06-01/` 至 `2026-06-07/` 的总览与四专题日报；其中 `2026-06-02`、`2026-06-06`、`2026-06-07` 已于 2026-06-09 完成正式补跑，`2026-06-05` 已入库为正式决策稿。
 > 校验底座：`digest.md`、`daily/`、`daily-report/`、`daily-report/digest.json`、`knowledge/index.md`、`knowledge/catalog.json`、`knowledge/wiki/`、`specials/ai-org-talent-mechanism/baseline/`、`AI时代的职级变革-全球大公司组织架构调整追踪.md`。
 > 方法：事实与判断分离；证据按可信度分层（⭐官方/一手｜📰权威二手/行业研究｜📊招聘/薪酬/劳动力市场信号｜💬弱信号｜🏢内部知识库综合）；证据不足处明确写“暂不形成结论”。
 
@@ -121,8 +121,8 @@ OpenAI、Anthropic、Mistral、Endava、MiniMax 让 `FDE / technical architect /
 
 ### 本周明确缺口
 
-- `2026-06-02` 总览为非决策稿，只作为背景材料，不进入高置信结论层。
-- `2026-06-05` 总览同样为非决策稿；本周仅吸收其已被专题稿、`daily-report/`、`digest.md` 和知识库支持的事实。
+- `2026-06-02` 已完成正式补跑，作为“Agent 进入正式 operating model”的主证据进入本周结论层。
+- `2026-06-05` 已入库为正式决策稿，作为 deployment、partner enablement、verification 与 workflow telemetry 的主证据。
 - 国内企业的正式制度文本仍明显不足，尤其在晋升、薪酬、角色边界和治理字段上。
 
 ---
@@ -463,7 +463,7 @@ OpenAI、Anthropic、Mistral、Endava、MiniMax 让 `FDE / technical architect /
 
 - **修正 1**：上周更强调“默认运行规则重写”，本周进一步校准为“运行规则重写必须落到系统字段、role flow 和 operating model 上”，不是抽象原则。
 - **修正 2**：本周没有足够新证据支持“固定晋升窗口正在快速消失”；更稳的判断是“窗口会被持续证据流改写，但不会轻易消失”。
-- **修正 3**：`2026-06-05` 总览为非决策稿，因此本周只把其已被专题稿、`daily-report/`、`digest.md` 和知识库交叉支持的事实吸收到专题层，不把它抬升为整日正式结论。
+- **修正 3**：`2026-06-05` 已入库为正式决策稿；本周把其关于 deployment、partner enablement、verification、workflow telemetry 的事实纳入正式结论层。
 
 ### 本周被证实
 

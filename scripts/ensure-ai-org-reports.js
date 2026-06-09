@@ -68,8 +68,7 @@ function ensureDaily() {
 
 function weeklyAnchorDate() {
   const d = new Date(now);
-  const shanghaiDay = new Intl.DateTimeFormat('en-US', { timeZone: 'Asia/Shanghai', weekday: 'short' }).format(d);
-  if (shanghaiDay === 'Mon') d.setDate(d.getDate() - 7);
+  if (!process.env.REPORT_WEEK) d.setDate(d.getDate() - 7);
   return d;
 }
 
@@ -135,7 +134,9 @@ function updateHome() {
       };
     }
     const text = fs.readFileSync(reportPath, 'utf8');
-    const nonDecision = /非决策稿|周报状态记录|待正式重跑/.test(text);
+    const firstLines = text.split(/\r?\n/).slice(0, 6).join('\n');
+    const nonDecision = /^# .*状态记录/m.test(firstLines)
+      || /^>\s*(非决策稿|研究状态记录|.*待正式重跑)/m.test(firstLines);
     if (nonDecision) {
       return {
         title: fallbackTitle,
@@ -156,7 +157,13 @@ function updateHome() {
     const previous = existingDaily.get(date);
     const preservePrevious = previous && !/非决策稿|待正式重跑/.test(previous.status) && !nonDecision;
     const title = preservePrevious ? previous.title : 'AI时代组织与人才机制四课题日报';
-    const status = nonDecision ? '待正式重跑 / 非决策稿' : preservePrevious ? previous.status : (date === today ? '已修正 / 决策稿' : '历史版本');
+    const status = nonDecision
+      ? '待正式重跑 / 非决策稿'
+      : preservePrevious
+        ? previous.status
+        : previous && /非决策稿|待正式重跑/.test(previous.status)
+          ? '已补跑 / 决策稿'
+          : (date === today ? '已修正 / 决策稿' : '历史版本');
     const summary = nonDecision
       ? '仅记录自动化触发与研究缺口；缺少新增事实、反例、薪酬/JD 信号和交叉验证时，不作为正式日报。'
       : preservePrevious
