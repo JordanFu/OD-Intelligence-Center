@@ -21,7 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-05-21 | [日报](../2026-05-21/03-job-family-career-architecture.html) | 结论层候选 | 口径：事实与判断分离；高置信判断必须能回溯到一手/权威证据。 | 口径：事实与判断分离；高置信判断必须能回溯到一手/权威证据。 | 口径：事实与判断分离；高置信判断必须能回溯到一手/权威证据。 |
 | 2026-05-22 | [日报](../2026-05-22/03-job-family-career-architecture.html) | 结论层候选 | 口径：事实与判断分离；高置信判断必须能回溯到一手/权威证据。 | 口径：事实与判断分离；高置信判断必须能回溯到一手/权威证据。 | 口径：事实与判断分离；高置信判断必须能回溯到一手/权威证据。 |
 | 2026-05-23 | [日报](../2026-05-23/03-job-family-career-architecture.html) | 线索层/待验证 | 口径：回答三个问题：岗位边界是否变宽？哪些能力更专业化并产生溢价？业务提出岗位/族群/序列变更时，真实诉求是否常常是激励与市场溢价承接？ | 口径：回答三个问题：岗位边界是否变宽？哪些能力更专业化并产生溢价？业务提出岗位/族群/序列变更时，真实诉求是否常常是激励与市场溢价承接？ | 口径：回答三个问题：岗位边界是否变宽？哪些能力更专业化并产生溢价？业务提出岗位/族群/序列变更时，真实诉求是否常常是激励与市场溢价承接？ |
 | 2026-05-24 | [日报](../2026-05-24/03-job-family-career-architecture.html) | 线索层/待验证 | 本专题延续滚动课题：持续验证“岗位边界变粗/更端到端”与“关键领域更专业化/高溢价”的双向运动；并输出“什么时候新建序列、什么时候只用技能标签、什么时候用薪酬工具承接”的方法论。 | 本专题延续滚动课题：持续验证“岗位边界变粗/更端到端”与“关键领域更专业化/高溢价”的双向运动；并输出“什么时候新建序列、什么时候只用技能标签、什么时候用薪酬工具承接”的方法论。 | 本专题延续滚动课题：持续验证“岗位边界变粗/更端到端”与“关键领域更专业化/高溢价”的双向运动；并输出“什么时候新建序列、什么时候只用技能标签、什么时候用薪酬工具承接”的方法论。 |
@@ -35,6 +34,7 @@
 | 2026-06-04 | [日报](../2026-06-04/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **岗位体系的主变量正在从 title 转向 shared skill needs。可信度：高。** | - 暂不形成结论，但提示我们关注：**未来很多业务提出“新建序列”的真实诉求，可能是想把 process / governance / AI orchestration 的市场溢价显性化**。 | 1. 哪些企业已将 `skills-based role redesign` 接入 job architecture 与 pay band？ |
 | 2026-06-05 | [日报](../2026-06-05/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **很多“新岗位”本质上是稳定的新角色包，而不是一时 buzzword。可信度：高。** | - 暂不形成结论，但提示我们关注：**未来很多业务要求“新建序列”，真实诉求可能只是想为稀缺技能争取 pay band 空间**。 | 1. 哪些企业已经把 `FDE / technical architect / verifier` 纳入正式 career framework 或 internal mobility fr… |
 | 2026-06-08 | [日报](../2026-06-08/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **AI 时代很多新工作单元已经稳定到足以被视为 role package。可信度：高。** | - 暂不形成结论，但提示我们关注：**`verifier / orchestrator` 这类角色未必都会演化成正式岗位，也可能先以 capability badge 或项目角色稳定存在。** | 1. 哪些企业已把 forward deployed / architect 角色写入正式 career framework？ |
+| 2026-06-09 | [日报](../2026-06-09/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **很多 AI 新角色首先需要的是 role package，不一定是新序列。可信度：高。** | - 暂不形成结论，但提示我们关注：**未来 job family 可能变薄，但 capability catalog 会变厚。** | 1. 哪些企业已公开 AI role package 与 career ladder 的正式文档？ |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-06-08｜[打开专题日报](../2026-06-08/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-08/03-job-family-career-architecture.md`
+- 最新日报：2026-06-09｜[打开专题日报](../2026-06-09/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-09/03-job-family-career-architecture.md`
