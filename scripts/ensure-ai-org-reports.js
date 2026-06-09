@@ -8,6 +8,39 @@ const weeklyDir = path.join(project, 'weekly');
 const now = process.env.REPORT_DATE ? new Date(`${process.env.REPORT_DATE}T12:00:00+08:00`) : new Date();
 const formatter = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit' });
 const today = process.env.REPORT_DATE || formatter.format(now);
+const LANGUAGE_POLICY = '正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。';
+
+function normalizeReportLanguage(text) {
+  const urls = [];
+  let next = text.replace(/https?:\/\/[^\s)]+/g, match => {
+    const key = `__URL_${urls.length}__`;
+    urls.push(match);
+    return key;
+  });
+  const replacements = [
+    ['今日背景材料（Context）', '今日背景材料'],
+    ['背景材料（Context）候选', '背景材料候选'],
+    ['Context 候选', '背景材料候选'],
+    ['Context 和线索', '背景材料和线索'],
+    ['Context/线索层', '背景材料/线索层'],
+    ['岗位与工作流重设计（job/workflow redesign）', '岗位与工作流重设计'],
+    ['智能体治理（agent governance）', '智能体治理'],
+    ['基于技能的薪酬（skills-based pay）', '基于技能的薪酬'],
+    ['薪酬带宽（pay band）', '薪酬带宽'],
+    ['AI 运营模式（operating model）', 'AI 运营模式'],
+    ['智能体运营（agent ops）', '智能体运营'],
+    ['技能津贴（skill allowance）', '技能津贴'],
+    ['市场溢价（market premium）', '市场溢价'],
+    ['AI 技能溢价（AI skill premium）', 'AI 技能溢价'],
+    ['岗位族群（job family）', '岗位族群'],
+    ['player-coach', '队员兼教练型管理者'],
+    ['title', '头衔'],
+    ['level', '职级'],
+    ['IC/Manager', '个人贡献者/管理者'],
+  ];
+  for (const [from, to] of replacements) next = next.split(from).join(to);
+  return next.replace(/__URL_(\d+)__/g, (_, index) => urls[Number(index)]);
+}
 
 const SOURCES = [
   ['IBM Think 2026 recap', 'https://www.ibm.com/think/news/think-2026-ai-recap', '智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率'],
@@ -23,7 +56,7 @@ const SOURCES = [
 
 function ensureDir(dir) { fs.mkdirSync(dir, { recursive: true }); }
 function writeIfMissing(file, content) {
-  if (!fs.existsSync(file)) fs.writeFileSync(file, content);
+  if (!fs.existsSync(file)) fs.writeFileSync(file, file.endsWith('.md') ? normalizeReportLanguage(content) : content);
 }
 function isoWeek(date) {
   const d = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
@@ -37,7 +70,7 @@ function sourceList() {
   return SOURCES.map(([name, url, note]) => `- [${name}](${url})：${note}`).join('\n');
 }
 function md(title, body) {
-  return `# ${today}｜${title}\n\n${body}\n\n## 来源索引\n\n${sourceList()}\n`;
+  return normalizeReportLanguage(`# ${today}｜${title}\n\n> 语言规则：${LANGUAGE_POLICY}\n\n${body}\n\n## 来源索引\n\n${sourceList()}\n`);
 }
 
 function dailyContent(kind) {
@@ -77,14 +110,14 @@ function ensureWeekly() {
   const week = isoWeek(weeklyAnchorDate());
   const files = fs.readdirSync(project).filter(name => /^\d{4}-\d{2}-\d{2}$/.test(name)).sort().slice(-7);
   const rows = files.map(date => `| ${date} | [日报](../${date}/index.html) | ${fs.existsSync(path.join(project, date, '00-overview.md')) ? '已生成' : '缺总览'} |`).join('\n');
-  const quick = `# ${week}｜AI时代组织与人才机制周报状态记录\n\n> 非决策稿：这是云端兜底状态记录，只保证入口不断档，不替代正式周报。若本周缺少多源互证、案例事实、反例、薪酬/JD 信号和主代理交叉验证，不输出快速导读式结论。\n\n## 本周一句话结论\n\n本周暂不形成正式结论：当前文件只记录资料入口和待补齐问题，不能作为 CEO 决策周报。\n\n## 本周核心判断\n\n1. **不升级为结论。可信度：低。** 来源池和历史日报只能提供追踪方向，不能替代本周新增事实与互证。\n2. **周报必须先有信息密度再做导读。可信度：高。** 快速导读版只能压缩高质量信息，不能把低质量信息包装得更像结论。\n3. **详细版应成为证据仓，而不是流水账。可信度：高。** 每条材料必须说明它支持什么、反驳什么、提示什么风险。\n\n## 对我们的启发\n\n- 证据不足时明确写“暂不形成结论”，不硬凑完整周报。\n- 正式周报必须先完成详细资料版，再抽取快速导读版。\n- 周报入口可以不断档，但不能让兜底稿占用正式报告心智。\n\n## 来源索引\n\n${sourceList()}\n`;
-  const detailed = `# ${week}｜AI时代组织与人才机制详细资料状态记录\n\n> 非决策稿：整理当周日报入口、来源池和待验证问题。它是资料聚合底稿，不是最终决策结论；主代理重跑后应按多代理研究协议补充 Context、案例、反例、社媒/招聘薪酬信号和交叉验证。\n\n## 本周日报索引\n\n| 日期 | 链接 | 状态 |\n|---|---|---|\n${rows}\n\n## 本周信息聚合框架\n\n### 结论层候选\n\n- AI 运营模式（operating model）、岗位与工作流重设计（job/workflow redesign）、基于技能的薪酬（skills-based pay） 和 晋升证据 是否形成多源互证。\n- 执行层角色变宽与核心专家能力变深是否同时成立。\n- 业务提出岗位/序列变化是否实为薪酬、激励和市场溢价承接问题。\n\n### 背景材料（Context）候选\n\n- 公司制度片段、员工体感、行业讨论、招聘 JD 和薪酬信号，只要未充分互证就保留在 Context。\n- 国内外案例不能直接互推，必须标注地区、业务类型、岗位层级和公司阶段。\n\n### 线索层候选\n\n- FDE、AI 工作流负责人、智能体运营（agent ops）、AI 治理（AI governance）、基于技能的薪酬（skills-based pay）、技能津贴（skill allowance）、市场溢价（market premium） 等关键词。\n- 中层减少与 player-coach 角色变化的真实落地细节。\n\n## 本周待增强\n\n- 由主代理补充每天的新增一手证据与 Context/线索层。\n- 对 AI 技能溢价（AI skill premium）、管理者角色重写、智能体治理（agent governance） 岗位族群（job family） 做交叉验证。\n- 补充中国公司案例、招聘薪酬信号和员工影响。\n\n## 来源索引\n\n${sourceList()}\n`;
+  const quick = `# ${week}｜AI时代组织与人才机制周报状态记录\n\n> 非决策稿：这是云端兜底状态记录，只保证入口不断档，不替代正式周报。若本周缺少多源互证、案例事实、反例、薪酬/JD 信号和主代理交叉验证，不输出快速导读式结论。\n> 语言规则：${LANGUAGE_POLICY}\n\n## 本周一句话结论\n\n本周暂不形成正式结论：当前文件只记录资料入口和待补齐问题，不能作为 CEO 决策周报。\n\n## 本周核心判断\n\n1. **不升级为结论。可信度：低。** 来源池和历史日报只能提供追踪方向，不能替代本周新增事实与互证。\n2. **周报必须先有信息密度再做导读。可信度：高。** 快速导读版只能压缩高质量信息，不能把低质量信息包装得更像结论。\n3. **详细版应成为证据仓，而不是流水账。可信度：高。** 每条材料必须说明它支持什么、反驳什么、提示什么风险。\n\n## 对我们的启发\n\n- 证据不足时明确写“暂不形成结论”，不硬凑完整周报。\n- 正式周报必须先完成详细资料版，再抽取快速导读版。\n- 周报入口可以不断档，但不能让兜底稿占用正式报告心智。\n\n## 来源索引\n\n${sourceList()}\n`;
+  const detailed = `# ${week}｜AI时代组织与人才机制详细资料状态记录\n\n> 非决策稿：整理当周日报入口、来源池和待验证问题。它是资料聚合底稿，不是最终决策结论；主代理重跑后应按多代理研究协议补充 Context、案例、反例、社媒/招聘薪酬信号和交叉验证。\n> 语言规则：${LANGUAGE_POLICY}\n\n## 本周日报索引\n\n| 日期 | 链接 | 状态 |\n|---|---|---|\n${rows}\n\n## 本周信息聚合框架\n\n### 结论层候选\n\n- AI 运营模式（operating model）、岗位与工作流重设计（job/workflow redesign）、基于技能的薪酬（skills-based pay） 和 晋升证据 是否形成多源互证。\n- 执行层角色变宽与核心专家能力变深是否同时成立。\n- 业务提出岗位/序列变化是否实为薪酬、激励和市场溢价承接问题。\n\n### 背景材料（Context）候选\n\n- 公司制度片段、员工体感、行业讨论、招聘 JD 和薪酬信号，只要未充分互证就保留在 Context。\n- 国内外案例不能直接互推，必须标注地区、业务类型、岗位层级和公司阶段。\n\n### 线索层候选\n\n- FDE、AI 工作流负责人、智能体运营（agent ops）、AI 治理（AI governance）、基于技能的薪酬（skills-based pay）、技能津贴（skill allowance）、市场溢价（market premium） 等关键词。\n- 中层减少与 player-coach 角色变化的真实落地细节。\n\n## 本周待增强\n\n- 由主代理补充每天的新增一手证据与 Context/线索层。\n- 对 AI 技能溢价（AI skill premium）、管理者角色重写、智能体治理（agent governance） 岗位族群（job family） 做交叉验证。\n- 补充中国公司案例、招聘薪酬信号和员工影响。\n\n## 来源索引\n\n${sourceList()}\n`;
   writeIfMissing(path.join(weeklyDir, `${week}-quick.md`), quick);
   writeIfMissing(path.join(weeklyDir, `${week}-detailed.md`), detailed);
   writeIfMissing(path.join(weeklyDir, `${week}.md`), quick);
-  if (!fs.existsSync(path.join(weeklyDir, 'latest-quick.md'))) fs.writeFileSync(path.join(weeklyDir, 'latest-quick.md'), quick);
-  if (!fs.existsSync(path.join(weeklyDir, 'latest-detailed.md'))) fs.writeFileSync(path.join(weeklyDir, 'latest-detailed.md'), detailed);
-  if (!fs.existsSync(path.join(weeklyDir, 'latest.md'))) fs.writeFileSync(path.join(weeklyDir, 'latest.md'), quick);
+  if (!fs.existsSync(path.join(weeklyDir, 'latest-quick.md'))) fs.writeFileSync(path.join(weeklyDir, 'latest-quick.md'), normalizeReportLanguage(quick));
+  if (!fs.existsSync(path.join(weeklyDir, 'latest-detailed.md'))) fs.writeFileSync(path.join(weeklyDir, 'latest-detailed.md'), normalizeReportLanguage(detailed));
+  if (!fs.existsSync(path.join(weeklyDir, 'latest.md'))) fs.writeFileSync(path.join(weeklyDir, 'latest.md'), normalizeReportLanguage(quick));
   for (const file of [`${week}-quick.md`, `${week}-detailed.md`, `${week}.md`, 'latest-quick.md', 'latest-detailed.md', 'latest.md']) {
     execFileSync('node', ['scripts/render-markdown-page.js', `specials/ai-org-talent-mechanism/weekly/${file}`], { cwd: root, stdio: 'inherit' });
   }

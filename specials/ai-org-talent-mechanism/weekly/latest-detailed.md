@@ -15,78 +15,78 @@
 
 ### 本周 5 个最重要管理判断
 
-1. **扁平化进入第二阶段：先迁移协调劳动，再压层级。** GitLab 把“减层 + 小队端到端负责 + reviews/approvals/handoffs 的 agent 化”放在同一套重组动作里，说明没有运行时治理，扁平化只会长出影子流程层。可信度：⭐
-2. **管理者没有消失，但角色被改写成 orchestrator 和 rule owner。** Microsoft、Workday、SAP 的共同口径都不是“少经理”，而是“经理必须管理人和 agent 的组合，并对权限、上下文、例外和质量负责”。可信度：⭐
-3. **高人才密度的定义已变：不是“AI 用得多”，而是“能把 AI 变成可复用系统，并承担结果与风险”。** Zapier 把 accountability 写进招聘 rubric；BCG 指出 47% 的 regular AI users 已把更多时间花在“管理和指挥 AI”上。可信度：⭐/📰
-4. **岗位/序列改革的最小单元从 title 转向 capability map、authority boundary 和 outcome metric。** Workday 的 skills-based role redesign、华为的能力图谱、SAP 的 process context/governance 教学都指向：先定义能力和责任，再谈是否新建序列。可信度：⭐
-5. **晋升机制的关键创新不在“是否取消窗口”，而在“证据包是否可审计、是否奖励系统贡献、是否保留人类裁决底线”。** Workday 明确更该看 decision quality、override frequency、employee trust 等结果指标；内部 GitLab Handbook 基线仍保留 business justification、校准与预算纪律。可信度：⭐/🏢
+1. **扁平化进入第二阶段：先迁移协调劳动，再压层级。** GitLab 把“减层 + 小队端到端负责 + 评审、审批、交接的智能体化”放在同一套重组动作里，说明没有运行时治理，扁平化只会长出影子流程层。可信度：⭐
+2. **管理者没有消失，但角色被改写成 编排者 和 规则负责人。** Microsoft、Workday、SAP 的共同口径都不是“少经理”，而是“经理必须管理人和 智能体 的组合，并对权限、上下文、例外和质量负责”。可信度：⭐
+3. **高人才密度的定义已变：不是“AI 用得多”，而是“能把 AI 变成可复用系统，并承担结果与风险”。** Zapier 把 结果负责 写进招聘评价量表；BCG 指出 47% 的 经常使用 AI 的员工 已把更多时间花在“管理和指挥 AI”上。可信度：⭐/📰
+4. **岗位/序列改革的最小单元从头衔转向 能力图谱、权责边界和结果指标。** Workday 的 基于技能的岗位重设计、华为的能力图谱、SAP 的 流程语境理解/治理 教学都指向：先定义能力和责任，再谈是否新建序列。可信度：⭐
+5. **晋升机制的关键创新不在“是否取消窗口”，而在“证据包是否可审计、是否奖励系统贡献、是否保留人类裁决底线”。** Workday 明确更该看 决策质量、例外覆盖频率、员工信任 等结果指标；内部 GitLab Handbook 基线仍保留 业务理由、校准与预算纪律。可信度：⭐/🏢
 
 ### 本周需要 CEO / 高管拍板或重点关注的 3 个问题
 
-1. **是否设立一个“人机混合运行规则”总 owner？**
+1. **是否设立一个“人机混合运行规则”总负责人？**
 背景：当前变化已经超出单个工具、单个部门试点。
-如果不设 owner，组织会各自上 agent、各自定义审批与例外，最后形成新的治理碎片化。
+如果不设 负责人，组织会各自上 智能体、各自定义审批与例外，最后形成新的治理碎片化。
 
-2. **是否把“例外升级 + 审计字段 + 回滚机制”设为扁平化和 agent 化的准入门槛？**
+2. **是否把“例外升级 + 审计字段 + 回滚机制”设为扁平化和 智能体化的准入门槛？**
 背景：Workday、SAP、Microsoft、GitLab 的共同逻辑都是先有治理再谈规模。
 如果不设门槛，速度会先释放，事故会更快放大。
 
 3. **是否认可“高潜人才”的识别口径要从岗位资历转向系统贡献与治理能力？**
-背景：扁平化后，组织更稀缺的是 workflow owner、rule owner、player-coach、治理型复合人才。
+背景：扁平化后，组织更稀缺的是 工作流负责人、规则负责人、队员兼教练型管理者、治理型复合人才。
 如果仍按旧资历逻辑识别人才，会出现组织结构变了、关键角色却没人承接。
 
 ### 本周建议推进的 3 个动作
 
 1. **启动一个 8 周“协调劳动迁移”试点。**
-优先选一个审批/交接密集的跨部门流程，先做 owner、approve、override、audit、rollback 五个字段。
+优先选一个审批/交接密集的跨部门流程，先定义负责人、审批、例外覆盖、审计和回滚 五个字段。
 
-2. **发布 `AI fluency x accountability` 招聘与内部认证 rubric v0。**
+2. **发布 `AI 熟练度 × 结果负责` 招聘与内部认证 评价量表 v0。**
 必须把“在约束下交付”“能定义好结果”“能做复用资产”写成硬标准。
 
 3. **设计晋升证据包 v2。**
-新增 `流程重构`、`风险控制`、`override 质量`、`复用资产`、`跨团队影响` 五类字段，明确 AI 使用量不是主指标。
+新增 `流程重构`、`风险控制`、`例外覆盖质量`、`复用资产`、`跨团队影响` 五类字段，明确 AI 使用量不是主指标。
 
 ### 最大风险与最大机会
 
 - **最大风险**：把 AI 组织变革理解成“减层/提效/多上工具”，却不重写默认运行规则，结果是中层影子回潮、例外处理爆炸、晋升公平争议和关键人才流失同时出现。
-- **最大机会**：趁规则还在重写期，率先把组织从“人治式协调系统”升级为“有审计、有边界、有证据流的人机混合 operating model”，形成速度、质量和人才密度的复利。
+- **最大机会**：趁规则还在重写期，率先把组织从“人治式协调系统”升级为“有审计、有边界、有证据流的人机混合运营模式”，形成速度、质量和人才密度的复利。
 
 ---
 
 ## 2) 本周最高置信结论
 
-1. **扁平化正在和 AI 工作流重写绑定成一组动作，而不再是单纯 headcount 动作。**
+1. **扁平化正在和 AI 工作流重写绑定成一组动作，而不再是单纯的人员规模动作。**
 来源：GitLab Act 2（2026-05-11）、GitLab 8-K（2026-06-01）。可信度：⭐
 为什么重要：这是本周最强的一手公司案例。
 相较上周：增强，从“公开信中的方向”升级为“8-K 披露约 14% 员工受影响、退出 22 个国家、地理足迹压缩约 37%”。
-对管理层意味着什么：任何减层方案都要连带提交流程 agent 化和例外治理方案。
+对管理层意味着什么：任何减层方案都要连带提交流程智能体化和例外治理方案。
 
-2. **决定 AI 成败的，不是模型，而是围绕 AI 的 build、context、govern、observe、improve 系统。**
-来源：Microsoft 2026-06-02 官方博客、WorkLab 2026-05-21 `Redesign first`。可信度：⭐
-为什么重要：把组织变革重心从 adoption campaign 拉回 operating model。
+2. **决定 AI 成败的，不是模型，而是围绕 AI 的 建设、语境化、治理、观测和持续改进系统。**
+来源：Microsoft 2026-06-02 官方博客、WorkLab 2026-05-21 “先重设计”。可信度：⭐
+为什么重要：把组织变革重心从采纳推广拉回运营模式。
 相较上周：增强，从“重设计优先”变为更完整的平台/系统口径。
 对管理层意味着什么：不要把 AI 项目继续归为工具采购或培训项目。
 
 3. **管理者角色会更少依赖人工转单和逐层审批，更强依赖边界设定、编排、例外处理和证据经营。**
-来源：Workday operating model、Oracle Manager Concierge Workspace、SAP autonomous enterprise。可信度：⭐
+来源：Workday 运营模式、Oracle Manager Concierge Workspace、SAP autonomous enterprise。可信度：⭐
 为什么重要：这直接决定中层该减什么、不该减什么。
 相较上周：增强，管理者不是被替代，而是职责重写更清晰。
-对管理层意味着什么：manager enablement 将成为组织瓶颈，不做会直接卡住扁平化。
+对管理层意味着什么：管理者赋能将成为组织瓶颈，不做会直接卡住扁平化。
 
-4. **高人才密度的主变量已从“AI adoption”转向“accountability + process context + governance literacy”。**
+4. **高人才密度的主变量已从“AI 采纳”转向“结果负责、流程语境理解和治理意识”。**
 来源：Zapier AI Fluency Rubric V2、BCG 2026-06-03 survey、SAP academia。可信度：⭐/📰
 为什么重要：复合型人才的识别与培养口径已经变了。
-相较上周：增强，从招聘门槛上升到“管理 AI”和“把 agent 放进业务系统”的能力要求。
+相较上周：增强，从招聘门槛上升到“管理 AI”和“把智能体放进业务系统”的能力要求。
 对管理层意味着什么：高潜与关键人才不应再只按岗位年限和功能专长识别。
 
-5. **岗位体系的最佳承接容器不是无限增设新 title，而是 capability map + skills-based redesign + authority boundary。**
+5. **岗位体系的最佳承接容器不是无限增设新头衔，而是 能力图谱 + 基于技能的岗位重设计 + 权责边界。**
 来源：Workday、华为、LinkedIn、内部基线档案。可信度：⭐/🏢
-为什么重要：可避免 title inflation 和序列膨胀。
+为什么重要：可避免 头衔膨胀 和序列膨胀。
 相较上周：增强，从“岗位变宽/专家变深”升级为“先能力图谱、再决定序列”。
 对管理层意味着什么：大多数“新建序列”诉求，应先拆成能力、责任和薪酬三层问题。
 
-6. **晋升机制更应奖励 outcome 和治理质量，而不是 AI 使用量。**
-来源：Workday outcome metrics、GitLab promotion/transfers 内部基线、LinkedIn Top Companies。可信度：⭐/🏢
+6. **晋升机制更应奖励 结果和治理质量，而不是 AI 使用量。**
+来源：Workday 结果指标、GitLab 晋升与调动内部基线、LinkedIn Top Companies。可信度：⭐/🏢
 为什么重要：如果把 AI 使用量直接做成晋升指标，组织很容易奖励可见忙碌和权限优势。
 相较上周：修正，当前周没有新增高置信证据支持“固定窗口会消失”，但有更强证据支持“证据结构必须升级”。
 对管理层意味着什么：保留人类裁决底线，先升级证据包与校准，而不是先激进改节奏。
@@ -104,7 +104,7 @@
 ### 高价值信息增量
 
 - **6 月 1 日**：周内第一份正式总览把四课题首次拉到同一个机制拐点上，核心不是“AI 工具更多”，而是 `可审计责任链、可解释证据包、可控提速机制` 开始成为共同底座。
-- **6 月 3 日**：周内第二个正式总览把命题从“研究判断”推进到“制度接口”，重点从工作重构升级为 `skills governance、manager action、workflow evidence` 的持续运行体系。
+- **6 月 3 日**：周内第二个正式总览把命题从“研究判断”推进到“制度接口”，重点从工作重构升级为 `技能治理、管理者行动和工作流证据` 的持续运行体系。
 - **6 月 4 日**：四专题日报虽有高价值增量，但总览包仍未升级为正式决策稿；本周因此不能把 6 月 4 日整包等同于完整日决策结论，只能吸收其中被专题稿和官方材料支撑的部分。
 
 ### 本周最重要的三类增量
@@ -116,7 +116,7 @@ GitLab 从 5 月 11 日公开信走到 6 月 1 日 8-K，说明“去层级 + �
 Microsoft、Workday、SAP 本周形成更完整的一手证据链，明确 AI 规模化要求企业把身份、权限、上下文、审计、改进闭环写进系统。
 
 3. **人才与晋升口径收敛**
-Zapier、BCG、Workday、LinkedIn 的材料共同把焦点推向 `系统贡献、管理 AI、internal mobility、outcome-based metrics`，而不是单次绩效故事或 AI 使用量。
+Zapier、BCG、Workday、LinkedIn 的材料共同把焦点推向 `系统贡献、管理 AI、内部流动、基于结果的指标`，而不是单次绩效故事或 AI 使用量。
 
 ### 本周明确缺口
 
@@ -131,14 +131,14 @@ Zapier、BCG、Workday、LinkedIn 的材料共同把焦点推向 `系统贡献�
 ### 课题一｜AI时代组织扁平化与中层减少
 
 **本周新增事实**
-- GitLab Act 2 把减层、约 60 个端到端小队和 AI 自动化 `reviews/approvals/handoffs` 打包推进。⭐
+- GitLab Act 2 把减层、约 60 个端到端小队和 AI 自动化 `评审、审批、交接` 打包推进。⭐
 - GitLab 8-K 披露：约 14% 全球员工受重组影响，退出 22 个国家，地理足迹压缩约 37%。⭐
-- Gallup 指向 manager span 持续上升，说明组织已在承压。📰
+- Gallup 指向 管理跨度 持续上升，说明组织已在承压。📰
 - McKinsey 明确 outer loop 角色必须前置进交付闭环，而不是末端 gatekeeper。⭐
 
 **判断变化**
 - 从“扁平化要减少中层”升级为“扁平化要迁移中层承担的协调劳动”。
-- 从“manager span 变大”升级为“没有治理底座时，span 变大只会让影子中层回来”。
+- 从“管理跨度 变大”升级为“没有治理底座时，span 变大只会让影子中层回来”。
 
 **重点案例**
 - GitLab：最完整的一手样本。
@@ -152,15 +152,15 @@ Zapier、BCG、Workday、LinkedIn 的材料共同把焦点推向 `系统贡献�
 - 我们当前真正想减的是哪一层劳动：汇报链、审批链，还是教练/质量门禁？
 
 **仍需验证**
-- GitLab 重组后 manager span、质量指标、保留角色边界。
-- 国内公司是否出现高可信的项目 owner / player-coach 制度文本。
+- GitLab 重组后 管理跨度、质量指标、保留角色边界。
+- 国内公司是否出现高可信的项目 负责人 / 队员兼教练型管理者 制度文本。
 
 ### 课题二｜高人才密度与复合型人才机制
 
 **本周新增事实**
-- Zapier 将 AI fluency 作为所有新 hire 最低门槛，并在 V2 rubric 中加入 accountability。⭐
+- Zapier 将 AI 熟练度 作为所有新 hire 最低门槛，并在 V2 评价量表 中加入 结果负责。⭐
 - BCG 2026 survey：72% 员工认为 AI 已显著改变岗位技能期待，47% 已把更多时间用于管理和指挥 AI。📰
-- SAP 指出 early-career talent 更快 role-ready，但 enablement 不均会增加流失风险。⭐
+- SAP 指出 早期职业阶段 talent 更快 角色就绪，但 赋能不均会增加流失风险。⭐
 - 华为公开 22 类角色、71 项核心技能的能力图谱。⭐
 
 **判断变化**
@@ -171,8 +171,8 @@ Zapier、BCG、Workday、LinkedIn 的材料共同把焦点推向 `系统贡献�
 - 华为：能力图谱化，而不是无限增设头衔。
 
 **管理启发**
-- 识别复合型人才时，必须测 `process context`、`governance literacy`、`repeatable systems`。
-- 高人才密度若没有 manager enablement 和 early-career 脚手架，会迅速演变成明星依赖。
+- 识别复合型人才时，必须测 `流程语境理解`、`治理意识`、`可复用系统`。
+- 高人才密度若没有 管理者赋能 和 早期职业阶段 脚手架，会迅速演变成明星依赖。
 
 **CEO 需要关注**
 - 我们是把 AI 时代的复合型人才当“少数高手”，还是当“可被设计出来的机制结果”？
@@ -184,8 +184,8 @@ Zapier、BCG、Workday、LinkedIn 的材料共同把焦点推向 `系统贡献�
 ### 课题三｜岗位、族群、序列的持续建设
 
 **本周新增事实**
-- Workday 把 `Skills-Based Role Redesign` 直接写成 human+agent operating model 的 building block。⭐
-- SAP 把 process context、architecture、governance 放进 agentic AI 教学重点。⭐
+- Workday 把 `Skills-Based Role Redesign` 直接写成 human+智能体 运营模式 的 building block。⭐
+- SAP 把 流程语境理解、architecture、治理 放进 agentic AI 教学重点。⭐
 - 华为能力图谱给出“图谱先于序列”的国内样本。⭐
 - LinkedIn Top Companies 强调 career path 更由 skills、adaptability、continuous learning 驱动。⭐
 
@@ -195,25 +195,25 @@ Zapier、BCG、Workday、LinkedIn 的材料共同把焦点推向 `系统贡献�
 
 **重点案例**
 - Workday：`task migration -> shared skill needs -> role redesign`
-- 华为：capability map 先行。
+- 华为：能力图谱 先行。
 
 **管理启发**
 - 多数 AI 新岗位诉求，实质上是三个问题混在一起：责任边界、市场溢价、晋升容器。
-- 不拆开，最后会同时制造 title inflation 和薪酬公平争议。
+- 不拆开，最后会同时制造 头衔膨胀 和薪酬公平争议。
 
 **CEO 需要关注**
 - 哪些能力域该建长期序列，哪些只该用技能标签、项目角色或稀缺津贴承接？
 
 **仍需验证**
-- `agent governance owner`、`workflow owner`、`runtime auditor` 是否正在成为稳定 job family。
+- `智能体治理负责人`、`工作流负责人`、`运行审计者` 是否正在成为稳定 岗位族群。
 
 ### 课题四｜未来组织的晋升机制
 
 **本周新增事实**
 - Workday Agent Passport 强调 `signed, auditable record`、实时监控与 revocation。⭐
-- Workday 明确建议用 decision quality、quality of hire、override frequency、employee trust 等 outcome-based metrics 衡量人机协作。⭐
-- LinkedIn 把 internal mobility、skill development、career advancement 视为 career progression 关键变量。⭐
-- 内部 GitLab Handbook 基线仍强调 business results、business justification、cross-functional feedback、半年校准和预算约束。🏢
+- Workday 明确建议用 决策质量、quality of hire、例外覆盖频率、员工信任 等 基于结果的指标 衡量人机协作。⭐
+- LinkedIn 把 内部流动、skill development、career advancement 视为 career progression 关键变量。⭐
+- 内部 GitLab Handbook 基线仍强调 business results、业务理由、cross-functional feedback、半年校准和预算约束。🏢
 
 **判断变化**
 - 保持谨慎：本周没有足够新证据支持“固定晋升窗口正在消失”。
@@ -231,7 +231,7 @@ Zapier、BCG、Workday、LinkedIn 的材料共同把焦点推向 `系统贡献�
 - 如果我们现在就把 AI 使用量当晋升指标，会不会系统性奖励权限更大、资源更多的人？
 
 **仍需验证**
-- 哪些 outcome metrics 能稳定进入晋升证据包，哪些容易被游戏化。
+- 哪些 结果指标 能稳定进入晋升证据包，哪些容易被游戏化。
 
 ---
 
@@ -241,7 +241,7 @@ Zapier、BCG、Workday、LinkedIn 的材料共同把焦点推向 `系统贡献�
 如果没有运行规则，四个课题会各自优化、彼此打架。
 
 2. **必须联动设计的三件事**
-- `authority boundary`：谁能发起动作、谁能 override、谁承担结果。
+- `authority boundary`：谁能发起动作、谁能 例外覆盖、谁承担结果。
 - `capability system`：组织如何识别、培养和定价复合型治理人才。
 - `evidence flow`：日常工作中的系统贡献如何进入晋升和激励。
 
@@ -251,8 +251,8 @@ Zapier、BCG、Workday、LinkedIn 的材料共同把焦点推向 `系统贡献�
 
 4. **单独推进会出问题的地方**
 - 只压层级，不改证据流：晋升季会炸。
-- 只上 AI 工具，不改岗位边界：manager 会超载。
-- 只新建序列，不改薪酬和项目分配：title inflation 会来得很快。
+- 只上 AI 工具，不改岗位边界：管理者 会超载。
+- 只新建序列，不改薪酬和项目分配：头衔膨胀 会来得很快。
 
 ---
 
@@ -263,7 +263,7 @@ Zapier、BCG、Workday、LinkedIn 的材料共同把焦点推向 `系统贡献�
 **议题 1：是否成立“人机混合运行规则”专项**
 - 背景：组织变化已超出单点流程优化。
 - 选项：
-1. CEO/COO 牵头设一个跨部门 owner。
+1. CEO/COO 牵头设一个跨部门 负责人。
 2. 各部门各自试点。
 3. 继续放在 IT/数字化项目里。
 - 利：
@@ -275,8 +275,8 @@ Zapier、BCG、Workday、LinkedIn 的材料共同把焦点推向 `系统贡献�
 2. 容易碎片化。
 3. 会把组织问题误做成工具问题。
 - 推荐选项：1
-- 风险：没有总 owner，扁平化和治理会出现双轨制。
-- 下一步：两周内确定 owner、范围、第一条试点流程。
+- 风险：没有总负责人，扁平化和治理会出现双轨制。
+- 下一步：两周内确定 负责人、范围、第一条试点流程。
 
 **议题 2：是否把“例外升级 + 审计 + 回滚”设为 AI 规模化红线**
 - 背景：本周所有高质量官方证据都把治理写在前面。
@@ -291,7 +291,7 @@ Zapier、BCG、Workday、LinkedIn 的材料共同把焦点推向 `系统贡献�
 2. 后期补洞成本更高。
 - 推荐选项：1
 - 风险：若选 2，事故会先发生，制度会后补。
-- 下一步：先定义五个最小字段：owner、approve、override、audit、rollback。
+- 下一步：先定义五个最小字段：负责人、approve、例外覆盖、审计、回滚。
 
 ### 需要授权试点
 
@@ -318,26 +318,26 @@ Zapier、BCG、Workday、LinkedIn 的材料共同把焦点推向 `系统贡献�
 **议题 4：是否新建 AI 相关岗位序列**
 - 背景：本周证据更支持能力图谱先行，而不是立即扩序列。
 - 选项：
-1. 先不新建序列，只做 capability map 与稀缺能力定价。
-2. 为 agent governance / workflow owner 新建序列。
+1. 先不新建序列，只做 能力图谱 与稀缺能力定价。
+2. 为 智能体 治理 / 工作流负责人 新建序列。
 - 推荐选项：1
-- 风险：过早新建序列会制造 title inflation 和内部公平争议。
+- 风险：过早新建序列会制造 头衔膨胀 和内部公平争议。
 - 下一步：先观察 1-2 个季度，积累职责稳定性和市场样本。
 
 ---
 
 ## 7) 建议试点方案
 
-### 试点 1｜AI-native 小队 / player-coach 试点
+### 试点 1｜AI 原生小队 / 队员兼教练型管理者 试点
 - 目标：验证“少一层协调、多一层系统化”能否同时提升速度和质量。
-- 范围：1 条跨职能流程，1 个业务单元，1 个 player-coach leader。
+- 范围：1 条跨职能流程，1 个业务单元，1 个 队员兼教练型负责人。
 - 周期：8 周。
 - Owner：COO 指定 DRI，HR/OD 联合设计机制。
-- 成功指标：handoff 次数、例外处理时长、返工率、员工信任度。
-- 风险控制：设 rollback、审计抽检、双周复盘。
+- 成功指标：交接次数、例外处理时长、返工率、员工信任度。
+- 风险控制：设 回滚、审计抽检、双周复盘。
 
 ### 试点 2｜复合型人才识别和激励试点
-- 目标：用 rubric + work sample 找出真正的治理型复合人才。
+- 目标：用 评价量表 + work sample 找出真正的治理型复合人才。
 - 范围：产品、运营、共享服务三个族群中各选 1-2 个关键岗位。
 - 周期：6 周。
 - Owner：CHRO。
@@ -346,7 +346,7 @@ Zapier、BCG、Workday、LinkedIn 的材料共同把焦点推向 `系统贡献�
 
 ### 试点 3｜项目制晋升证据包试点
 - 目标：验证“日常证据流”能否替代窗口期拼材料。
-- 范围：一个季度内所有跨部门项目 owner 候选人。
+- 范围：一个季度内所有跨部门项目 负责人 候选人。
 - 周期：1 个晋升周期。
 - Owner：HRBP + 业务一号位。
 - 成功指标：证据完整率、校准争议数、优秀案例复用率。
@@ -366,27 +366,27 @@ Zapier、BCG、Workday、LinkedIn 的材料共同把焦点推向 `系统贡献�
 
 - **腾讯 WXG / 百度**
 现状：方向信号明确，但正式制度文本仍不足。
-可借鉴点：项目 owner 化、数字职级统一值得继续跟踪。
+可借鉴点：项目 负责人化、数字职级统一值得继续跟踪。
 不可照搬点：当前证据层级不足，不能直接当模板。
 
 ### 海外公司
 
 - **GitLab**
 时间线：5 月 11 日公开 Act 2；6 月 1 日董事会批准重组计划；6 月 2 日通过 8-K 对外披露。
-动作：减层、端到端小队、流程 agent 化同步推进。
+动作：减层、端到端小队、流程智能体化同步推进。
 争议：透明重组会前置不确定性；质量门禁是否跟得上仍待验证。
 可借鉴点：把结构动作和运行时改造放在一张变更清单上。
 不可照搬点：没有 handbook-first、DRI 和远程协作底座的组织很难照抄。
 
 - **Workday / SAP / Microsoft**
 共同点：都在把身份、上下文、治理、审计写成系统能力。
-可借鉴点：先统一运行规则，再推广 agent。
+可借鉴点：先统一运行规则，再推广 智能体。
 不可照搬点：供应商产品逻辑不等于企业内部制度已自动成熟。
 
 ### AI原生 / AI强相关公司
 
 - **Zapier**
-动作：招聘和入职机制 AI-first 化，强调 accountability。
+动作：招聘和入职机制 AI 优先化，强调 结果负责。
 可借鉴点：高人才密度可以被机制化。
 不可照搬点：没有 approved tools 和 clear data boundary 的组织，直接拉高门槛会逼出 shadow AI。
 
@@ -402,12 +402,12 @@ Zapier、BCG、Workday、LinkedIn 的材料共同把焦点推向 `系统贡献�
 
 ---
 
-## 9) 本周Context
+## 9) 本周背景材料
 
-- 暂不形成结论，但提示我们关注：**更快 role-ready 是否会牺牲长期能力沉淀。** SAP 的 early-career 信号提醒，这个问题已经进入正式管理议程。
-- 暂不形成结论，但提示我们关注：**internal mobility 会不会被 line manager 的“留人冲动”抑制。**
+- 暂不形成结论，但提示我们关注：**更快 角色就绪 是否会牺牲长期能力沉淀。** SAP 的 早期职业阶段 信号提醒，这个问题已经进入正式管理议程。
+- 暂不形成结论，但提示我们关注：**内部流动 会不会被 line 管理者 的“留人冲动”抑制。**
 - 暂不形成结论，但提示我们关注：**可审计字段越多，越会引发“哪些字段才代表高层级贡献”的新政治争论。**
-- 暂不形成结论，但提示我们关注：**agent 数量增加可能让 shared services 和 HR/Finance/IT 形成新的隐性平台中层。**
+- 暂不形成结论，但提示我们关注：**智能体 数量增加可能让 shared services 和 HR/Finance/IT 形成新的隐性平台中层。**
 
 ---
 
@@ -415,7 +415,7 @@ Zapier、BCG、Workday、LinkedIn 的材料共同把焦点推向 `系统贡献�
 
 ### 本周修正
 
-- **修正 1**：上周更强调“默认运行规则重写”，本周进一步校准为“运行规则重写必须落到系统字段和 operating model 上”，不是抽象原则。
+- **修正 1**：上周更强调“默认运行规则重写”，本周进一步校准为“运行规则重写必须落到系统字段和 运营模式 上”，不是抽象原则。
 - **修正 2**：本周没有足够新证据支持“固定晋升窗口正在快速消失”；更稳的判断是“窗口会被持续证据流改写，但不会轻易消失”。
 - **修正 3**：`2026-06-04` 虽有高价值专题稿，但由于总览包未通过质量门禁，本周只把其可独立验证内容吸收到专题层，不把它抬升为整日正式结论。
 
@@ -423,7 +423,7 @@ Zapier、BCG、Workday、LinkedIn 的材料共同把焦点推向 `系统贡献�
 
 - 扁平化与工作流重写绑定。
 - 管理者角色重写而非简单消失。
-- skills-based redesign 正在成为正式组织语言。
+- 基于技能的岗位重设计 正在成为正式组织语言。
 
 ### 本周被削弱
 
@@ -441,15 +441,15 @@ Zapier、BCG、Workday、LinkedIn 的材料共同把焦点推向 `系统贡献�
 
 ### 组织架构
 - 机制：`协调劳动迁移清单`
-- 核心字段：owner、approve、override、audit、rollback
+- 核心字段：负责人、approve、例外覆盖、审计、回滚
 
 ### 岗位序列
-- 机制：`capability map 先行，序列后置`
+- 机制：`能力图谱先行，序列后置`
 - 使用条件：当职责尚未稳定时，用技能标签和项目角色承接
 
 ### 高人才密度
-- 机制：`AI fluency x accountability rubric`
-- 核心维度：mindset、strategy、building、accountability、process context、governance
+- 机制：`AI 熟练度 × 结果负责 评价量表`
+- 核心维度：心智模式、战略理解、构建能力和结果负责、流程语境理解、治理
 
 ### 招聘识别
 - 机制：`约束下行动题`
@@ -461,7 +461,7 @@ Zapier、BCG、Workday、LinkedIn 的材料共同把焦点推向 `系统贡献�
 
 ### 晋升机制
 - 机制：`evidence schema v2`
-- 核心字段：结果、流程、治理、override、复用、影响
+- 核心字段：结果、流程、治理、例外覆盖、复用、影响
 
 ### 沟通落地
 - 机制：`透明但有节奏`
@@ -477,7 +477,7 @@ Zapier、BCG、Workday、LinkedIn 的材料共同把焦点推向 `系统贡献�
 
 ### 立即可做
 - 锁定一个试点流程。
-- 确定运行规则 owner。
+- 确定运行规则 负责人。
 - 发布晋升证据包草案。
 
 ### 需要试点
@@ -486,13 +486,13 @@ Zapier、BCG、Workday、LinkedIn 的材料共同把焦点推向 `系统贡献�
 - 项目制晋升证据包。
 
 ### 需要高层共识
-- manager 角色重写口径。
+- 管理者 角色重写口径。
 - 序列膨胀控制原则。
 - AI 使用量不做晋升主指标。
 
 ### 需要数据验证
-- override frequency、employee trust、internal mobility 与结果表现的相关性。
-- manager enablement 对扁平化成败的影响。
+- 例外覆盖频率、员工信任、内部流动 与结果表现的相关性。
+- 管理者赋能 对扁平化成败的影响。
 
 ### 需要暂缓
 - 大规模新建 AI 序列。
@@ -504,10 +504,10 @@ Zapier、BCG、Workday、LinkedIn 的材料共同把焦点推向 `系统贡献�
 ## 13) 风险与反例
 
 - **照搬 GitLab 会错在哪里**
-如果没有 handbook-first、DRI、审计基础设施，学到的只会是裁层，不会是 operating model。
+如果没有 handbook-first、DRI、审计基础设施，学到的只会是裁层，不会是 运营模式。
 
 - **照搬 Zapier 会错在哪里**
-如果没有 approved tools、数据边界和评估题库，只会把 AI fluency 变成面试表演赛。
+如果没有 approved tools、数据边界和评估题库，只会把 AI 熟练度 变成面试表演赛。
 
 - **照搬华为能力图谱会错在哪里**
 如果没有项目分配、培养路径和激励承接，图谱会变成复杂目录。
@@ -520,26 +520,26 @@ Zapier、BCG、Workday、LinkedIn 的材料共同把焦点推向 `系统贡献�
 ## 14) 下周待验证清单
 
 ### CEO 关注项
-- GitLab 重组后 manager span、团队边界和 retained roles 是否有更多披露。
-- 哪些组织已设立正式的 human-agent operating model owner。
+- GitLab 重组后 管理跨度、团队边界和 retained roles 是否有更多披露。
+- 哪些组织已设立正式的 human-智能体 运营模式 负责人。
 
 ### HR / OD 研究项
-- `skills governance owner` 是否开始在企业制度中显性化。
-- `agent governance / workflow owner / runtime auditor` 是否出现更稳定的岗位样本。
-- internal mobility 与 skill growth 如何进入 promotion readiness。
+- `技能治理负责人` 是否开始在企业制度中显性化。
+- `智能体 治理 / 工作流负责人 / 运行审计者` 是否出现更稳定的岗位样本。
+- 内部流动 与 skill growth 如何进入 promotion readiness。
 
 ### 业务侧访谈项
 - 哪类流程的审批/交接成本最高、最适合做第一轮迁移。
-- 当前 manager 最消耗时间的例外处理是什么。
+- 当前 管理者 最消耗时间的例外处理是什么。
 - 哪些关键人才已经在做“系统贡献”，但现行机制还看不见。
 
 ### 关键词
-- `human-agent operating model`
-- `skills-based role redesign`
-- `manager orchestration`
-- `agent passport`
-- `internal mobility`
-- `override frequency`
+- `human-智能体 运营模式`
+- `基于技能的岗位重设计`
+- `管理者编排`
+- `智能体护照`
+- `内部流动`
+- `例外覆盖频率`
 
 ---
 
@@ -555,7 +555,7 @@ Zapier、BCG、Workday、LinkedIn 的材料共同把焦点推向 `系统贡献�
 - SAP SuccessFactors 1H 2026：https://news.sap.com/2026/04/sap-successfactors-1h-2026-release/
 - SAP autonomous enterprise：https://news.sap.com/2026/05/autonomous-enterprise-better-decisions-in-motion/
 - SAP academia / agentic AI：https://news.sap.com/2026/06/sap-academia-prepare-students-agentic-ai/
-- Zapier AI fluency hiring rubric：https://zapier.com/blog/raising-ai-fluency-bar-in-hiring/
+- Zapier AI 熟练度 hiring 评价量表：https://zapier.com/blog/raising-ai-fluency-bar-in-hiring/
 - Oracle HR agentic applications：https://www.oracle.com/news/announcement/oracle-introduces-fusion-agentic-applications-for-hr-2026-04-09/
 - 华为 AI 人才发展：https://www.huawei.com/cn/news/2026/3/ai-talent-development
 - LinkedIn Top Companies 2026：https://news.linkedin.com/2026/LinkedIn-Top-Companies-2026
@@ -581,7 +581,7 @@ Zapier、BCG、Workday、LinkedIn 的材料共同把焦点推向 `系统贡献�
 - `knowledge/catalog.json`
 - `knowledge/wiki/gitlab-promotions-transfers-handbook.md`
 - `knowledge/wiki/gitlab-handbook-management-research-synthesis.md`
-- `knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md`
+- `knowledge/wiki/zapier-ai-fluency-评价量表-v2-2026.md`
 - `specials/ai-org-talent-mechanism/baseline/01-flat-organization.md`
 - `specials/ai-org-talent-mechanism/baseline/02-talent-density.md`
 - `specials/ai-org-talent-mechanism/baseline/03-job-family-career-architecture.md`

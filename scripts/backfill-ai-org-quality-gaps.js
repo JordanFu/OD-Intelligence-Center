@@ -4,6 +4,92 @@ const { execFileSync } = require('child_process');
 
 const root = path.resolve(__dirname, '..');
 const project = path.join(root, 'specials', 'ai-org-talent-mechanism');
+const LANGUAGE_POLICY = '正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。';
+
+function normalizeReportLanguage(text) {
+  const urls = [];
+  let next = text.replace(/https?:\/\/[^\s)]+/g, match => {
+    const key = `__URL_${urls.length}__`;
+    urls.push(match);
+    return key;
+  });
+  const replacements = [
+    ['Context / 弱信号', '背景材料 / 弱信号'],
+    ['Context 或线索层', '背景材料或线索层'],
+    ['## 3. 今日 Context：背景材料、弱信号、反例和冲突信息', '## 3. 今日背景材料：弱信号、反例和冲突信息'],
+    ['operating model', '运营模式'],
+    ['hybrid workforce architect', '混合劳动力架构师'],
+    ['title inflation', '头衔膨胀'],
+    ['AI title', 'AI 头衔'],
+    ['skills-based pay', '基于技能的薪酬'],
+    ['skill premium', '技能溢价'],
+    ['market premium', '市场溢价'],
+    ['journey teams', '旅程团队'],
+    ['build by employees vs deploy by agents', '由员工建设哪些能力、由智能体部署哪些能力'],
+    ['workflow owner', '工作流负责人'],
+    ['manager', '管理者'],
+    ['player-coach / orchestrator', '队员兼教练型管理者 / 编排者'],
+    ['orchestrator', '编排者'],
+    ['job family', '岗位族群'],
+    ['skill tag', '技能标签'],
+    ['role package', '角色包'],
+    ['human + agent', '人机混合'],
+    ['authority boundary', '权责边界'],
+    ['skills-based role redesign', '基于技能的岗位重设计'],
+    ['outcome-based metrics', '基于结果的指标'],
+    ['agents 部署', '智能体部署'],
+    ['AI governance', 'AI 治理'],
+    ['technical architect', '技术架构师'],
+    ['agent operations', '智能体运营'],
+    ['vendor', '供应商'],
+    ['Agent 进入正式', '智能体进入正式'],
+    ['agent 已开始', '智能体已开始'],
+    ['handoff', '交接'],
+    ['agent 台账化', '智能体台账化'],
+    ['trusted runtime', '可信运行时'],
+    ['enterprise-grade agent execution', '企业级智能体执行'],
+    ['inspect、govern、rely on', '检查、治理和可靠执行'],
+    ['override', '例外覆盖'],
+    ['standalone business unit', '独立业务单元'],
+    ['Deployment Specialists', '部署专家'],
+    ['workflow redesign', '工作流重设计'],
+    ['controls 接入', '控制接入'],
+    ['change management', '变革管理'],
+    ['pods', '小队'],
+    ['outer-loop', '外环节'],
+    ['AgentOps', '智能体运营'],
+    ['governance owner', '治理负责人'],
+    ['verification layer', '验证层'],
+    ['agent 是否', '智能体是否'],
+    ['owner', '负责人'],
+    ['AI transformation architect', 'AI 转型架构师'],
+    ['agent 规模化', '智能体规模化'],
+    ['agent 从工具', '智能体从工具'],
+    ['controls/guardrails/measurement', '控制、护栏和度量'],
+    ['agent 执行动作', '智能体执行动作'],
+    ['enterprise rails', '企业轨道'],
+    ['adoption 前提', '采纳前提'],
+    ['AI workflow', 'AI 工作流'],
+    ['career evidence', '职业证据'],
+    ['verified skills', '已验证技能'],
+    ['manager workspace', '管理者工作台'],
+    ['calibration', '校准'],
+    ['AI operating model', 'AI 运营模式'],
+    ['evidence workspace', '证据工作台'],
+    ['workflow、journey 或 运营模式', '工作流、旅程或运营模式'],
+    ['角色/KPI', '角色 / KPI'],
+    ['senior judgment', '高级判断力'],
+    ['AI fluency', 'AI 熟练度'],
+    ['ownership', '责任'],
+    ['agents、playbooks 和 deployment method', '智能体、行动手册和部署方法'],
+    ['project reward', '项目激励'],
+    ['retention grant', '留才激励'],
+    ['manager bias', '管理者偏差'],
+    ['policy', '制度规则'],
+  ];
+  for (const [from, to] of replacements) next = next.split(from).join(to);
+  return next.replace(/__URL_(\d+)__/g, (_, index) => urls[Number(index)]);
+}
 
 const sources = {
   bcgDesign: ['BCG：Design Your Company for AI, Not AI for Your Company', 'https://www.bcg.com/publications/2026/design-your-company-for-ai-not-ai-for-your-company'],
@@ -161,7 +247,8 @@ function overview(date, item) {
   const sourceKeys = Object.keys(sources);
   return `# ${date}｜AI时代组织与人才机制四课题日报
 
-> ${item.status}。本稿用于替换此前自动化占位内容；所有强判断只来自一手材料、权威咨询/媒体或已入库知识库的交叉验证。若证据不足，保留在 Context 或线索层，不冒充结论。
+> ${item.status}。本稿用于替换此前自动化占位内容；所有强判断只来自一手材料、权威咨询/媒体或已入库知识库的交叉验证。若证据不足，保留在背景材料或线索层，不冒充结论。
+> 语言规则：${LANGUAGE_POLICY}
 
 ## 1. 今日一句话结论
 
@@ -219,7 +306,8 @@ ${sourceIndex(sourceKeys)}
 function topic(date, item, topicName, angle) {
   return `# ${date}｜${topicName}
 
-> ${item.status}。本专题从“${item.theme}”中抽取与 ${topicName} 直接相关的组织机制判断；不把 Context 或单点线索升级成结论。
+> ${item.status}。本专题从“${item.theme}”中抽取与 ${topicName} 直接相关的组织机制判断；不把背景材料或单点线索升级成结论。
+> 语言规则：${LANGUAGE_POLICY}
 
 ## 一句话判断
 
@@ -330,17 +418,17 @@ ${sourceIndex(Object.keys(sources))}
 for (const [date, item] of Object.entries(data)) {
   const dir = path.join(project, date);
   fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(path.join(dir, '00-overview.md'), overview(date, item));
+  fs.writeFileSync(path.join(dir, '00-overview.md'), normalizeReportLanguage(overview(date, item)));
   for (const [file, title, angle] of topicAngles(item)) {
-    fs.writeFileSync(path.join(dir, file), topic(date, item, title, angle));
+    fs.writeFileSync(path.join(dir, file), normalizeReportLanguage(topic(date, item, title, angle)));
   }
   fs.writeFileSync(path.join(dir, 'index.html'), indexHtml(date, item));
   execFileSync('node', ['scripts/render-special-html.js', `specials/ai-org-talent-mechanism/${date}`], { cwd: root, stdio: 'inherit' });
   fs.writeFileSync(path.join(dir, 'index.html'), indexHtml(date, item));
   fs.mkdirSync(path.join(root, 'daily'), { recursive: true });
   fs.mkdirSync(path.join(root, 'daily-report'), { recursive: true });
-  fs.writeFileSync(path.join(root, 'daily', `${date}.md`), dailyMarkdown(date, item));
-  fs.writeFileSync(path.join(root, 'daily-report', `${date}.md`), dailyMarkdown(date, item));
+  fs.writeFileSync(path.join(root, 'daily', `${date}.md`), normalizeReportLanguage(dailyMarkdown(date, item)));
+  fs.writeFileSync(path.join(root, 'daily-report', `${date}.md`), normalizeReportLanguage(dailyMarkdown(date, item)));
 }
 
 console.log(`Backfilled ${Object.keys(data).length} OD daily reports.`);
