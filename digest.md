@@ -1,7 +1,7 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-06-09 18:00
+> 最后更新：2026-06-11 11:23
 
 ---
 
@@ -23,6 +23,35 @@
 - 💬参考：社交平台/社区讨论，需交叉验证
 
 -->
+
+## 2026-06-11
+
+### [1] OpenAI：把“第三阶段”公开定义为 deployment 扩散 + AI 进入研究主流程的双重 operating model 重写
+- **事件摘要**：OpenAI 于 2026 年 6 月 8 日发布 `Built to benefit everyone: our plan`，明确表示公司正“进入第三阶段”。官方写道，下一阶段的核心问题不再只是 frontier capability，而是如何让 advanced AI 变得 abundant、affordable、safe、useful，并进一步指出其内部判断是：到 2028 年 3 月，显著比例的研究可能由 AI systems 与研究员协同完成。
+- **来源**：OpenAI（https://openai.com/index/built-to-benefit-everyone-our-plan/）
+- **来源平台**：OpenAI
+- **来源可信度**：⭐高
+- **OD启示**：这不是普通愿景文，而是在公开重写两类组织假设：一是 deployment 不再只是产品落地配套，而是经济扩散主任务；二是 research 本身开始被 AI 反向重构。未来 frontier AI 公司的关键管理问题，会更像“谁定义研究目标、谁验证 AI 产出、谁拥有最终 judgment”。
+- **标签**：#OpenAI #ThirdPhase #AIResearch #Deployment #OperatingModel
+- **抓取时间**：2026-06-11 11:23
+
+### [2] Anthropic：Claude Enterprise 把 workforce-wide rollout 建在 central governance、audit 与 identity controls 上
+- **事件摘要**：Anthropic 的 `Claude Enterprise` 页面明确写到，企业级部署需要 `governance, data controls, and admin infrastructure`，并说明产品是为 `workforce-wide deployment under central governance` 而设计。同时，官方强调每一位 Anthropic 员工都在相同治理模型下使用 Claude Enterprise，覆盖 research、legal、finance、recruiting 与 operations。
+- **来源**：Anthropic（https://www.anthropic.com/product/enterprise）
+- **来源平台**：Anthropic
+- **来源可信度**：⭐高
+- **OD启示**：这说明 enterprise AI 的主产品越来越不是“更强助手”，而是统一身份、权限、保留策略、审计与高风险工作边界。组织里 AI platform owner、security reviewer 与 business adoption owner 的分工会因此变得更正式。
+- **标签**：#Anthropic #ClaudeEnterprise #CentralGovernance #Audit #IdentityControls
+- **抓取时间**：2026-06-11 11:23
+
+### [3] Anthropic：Economic Futures 与 2 亿美元承诺，把治理边界从 safety 扩到就业与经济影响层
+- **事件摘要**：Anthropic `Economic Futures` 页面把该项目定义为支持研究与政策开发、应对 AI 经济影响的持续计划，涵盖 research grants、policy forums 与 Economic Index；Associated Press 于 2026 年 6 月 10 日进一步报道，Anthropic 承诺投入 2 亿美元研究 AI 对就业和经济的影响。两条信息叠加，显示其治理边界正在从 model safety 外扩到 labor market 与 public policy 层。
+- **来源**：Anthropic / AP（https://www.anthropic.com/economic-futures；https://apnews.com/article/afeb5279eef406980dffa46ff91495e0）
+- **来源平台**：Anthropic / AP
+- **来源可信度**：⭐高 / 📰较高
+- **OD启示**：frontier AI 公司开始把“经济影响解释权”纳入正式组织叙事。对 OD 而言，值得关注的不只是安全委员会，而是企业治理、公共政策、劳动力影响研究是否会逐渐进入预算、路线图和外部沟通的常设层。
+- **标签**：#Anthropic #EconomicFutures #AIGovernance #EmploymentImpact #PolicyLayer
+- **抓取时间**：2026-06-11 11:23
 
 ## 2026-06-09
 
