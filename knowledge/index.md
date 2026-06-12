@@ -82,7 +82,8 @@
 | [6456498](wiki/pdf-source-papers-ssrn-com-6456498.md) | papers.ssrn.com | AI组织设计 | 待评估：需精读后确定 | 已索引待重试，引用 6 次 |
 | [WEF：Organizational Transformation in the Age of AI](wiki/pdf-source-world-economic-forum-wef-organizational-transformation-in-the-age-of-ai.md) | World Economic Forum | 工作流重构、决策权、AI 参与执行 | 强相关：战略到组织机制 | 已下载原文，引用 3 次 |
 | [Anthropic：2026 Agentic Coding Trends Report](wiki/pdf-source-anthropic-anthropic-2026-agentic-coding-trends-report.md) | Anthropic | Agentic coding、工程师角色重塑、人机协作 | 强相关：产品工程一体化 | 已下载原文，引用 1 次 |
-| [47382ae415a209fd161bc19a1f9b3704](wiki/pdf-source-static-www-tencent-com-47382ae415a209fd161bc19a1f9b3704.md) | static.www.tencent.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 1 次 |
+| [47382ae415a209fd161bc19a1f9b3704](wiki/pdf-source-static-www-tencent-com-47382ae415a209fd161bc19a1f9b3704.md) | static.www.tencent.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 3 次 |
+| [e048dfed72bc718f7986a83f23c8e294](wiki/pdf-source-static-www-tencent-com-e048dfed72bc718f7986a83f23c8e294.md) | static.www.tencent.com | AI组织设计 | 待评估：需精读后确定 | 已索引待重试，引用 2 次 |
 | [BCG：AI Radar 2026](wiki/pdf-source-bcg-bcg-ai-radar-2026.md) | BCG | AI 投资、价值兑现、组织阻碍待核验 | 中相关：战略背景 | 已索引待重试，引用 2 次 |
 | [BCG + MIT Sloan：The Emerging Agentic Enterprise](wiki/pdf-source-bcg-bcg-mit-sloan-the-emerging-agentic-enterprise.md) | BCG | Agentic enterprise、中层层级、组织结构变量 | 强相关：扁平化与管理层级 | 已索引待重试，引用 8 次 |
 | [AIHR：HR Priorities 2026 Report](wiki/pdf-source-aihr-aihr-hr-priorities-2026-report.md) | AIHR | 技能本位组织、HR 重构、skill count | 强相关：岗位与技能体系 | 已下载原文，引用 1 次 |
