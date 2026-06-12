@@ -1,52 +1,108 @@
 # 2026-06-12｜专题二：高人才密度与复合型人才机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+## 1. 今日一句话专题判断
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+今天高人才密度最关键的新判断是：**AI 时代的人才密度不应理解为“尽量多找 deep AI 天才”，而应理解为“把全员 fluency、构建型骨干、深度专家三层能力按组织需要配出来”**。
 
-## 今日一句话结论
+## 2. 今日新增事实：只写可追溯事实，注明来源
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+1. **arXiv《The AI Pyramid》**提出三层能力结构：AI Native、AI Foundation、AI Deep，并明确指出这不是职业阶梯，而是组织级 capability distribution。  
+   - 来源：arXiv  
+   - https://arxiv.org/abs/2601.06500
+2. **Zapier《AI Fluency Rubric V2》**把最低招聘门槛从“使用过 AI”提高到“AI 已嵌入核心工作、形成可重复系统，并带来可衡量影响”。  
+   - 来源：Zapier（内部结构化知识卡）  
+   - `knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md`
+3. **Zapier 同时要求管理者的 AI 标准高于 IC**：不仅要自己会用，还要能创造实验安全感、设预期、为 upskilling 留时间，并重构团队 workflow。  
+   - 来源：Zapier（内部结构化知识卡）  
+   - `knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md`
+4. **arXiv《AI Skills Improve Job Prospects》**显示，AI skills 会把 interview invitation probability 提高约 8-15 个百分点；部分岗位中 formal AI certificates 有额外补偿效应。  
+   - 来源：arXiv  
+   - https://arxiv.org/abs/2601.13286
+5. **LinkedIn Research Talent 2026**显示，59% 的 recruiters 已用 AI 发现过去会遗漏的 skills-based candidates，66% 计划增加 AI pre-screening interviews。  
+   - 来源：LinkedIn  
+   - https://news.linkedin.com/en-us/2026/LinkedIn-Research-Talent-2026
+6. **Shopify 官方文章**把 `Crafter / Manager` 双轨、`Mastery` 成长体系与 `FlexComp` 激励机制写进同一人才 operating system。  
+   - 来源：Shopify  
+   - https://www.shopify.com/news/building-for-crafters
 
-## 今日核心判断
+## 3. 今日核心判断：3-5 条，每条注明可信度、证据基础、为什么重要
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+1. **高人才密度必须先回答“组织要配哪几层能力”，而不是只回答“要不要多招高手”。可信度：高。**  
+   - 证据基础：`AI Pyramid`。  
+   - 为什么重要：否则组织会把深度专家标准错误地下沉到所有岗位，导致招人、培养和成本都失真。
+2. **AI fluency 的最低标准正在快速抬高。可信度：高。**  
+   - 证据基础：Zapier V2。  
+   - 为什么重要：未来“懂一点工具”不会构成竞争优势，能把 AI 嵌入核心工作并做成复用资产才有价值。
+3. **高人才密度越来越依赖可验证信号，而不是自述。可信度：高。**  
+   - 证据基础：招聘实验、LinkedIn verified/AI pre-screening 信号。  
+   - 为什么重要：识别标准、面试机制、内部盘点和项目分配都将被证据字段重写。
+4. **成长机制与激励机制必须同时设计。可信度：中高。**  
+   - 证据基础：Shopify 的 Mastery + FlexComp；Zapier 对 manager 的更高 AI 标准。  
+   - 为什么重要：只做能力要求，不做成长与激励承接，人才密度会快速流失。  
 
-## 今日背景材料
+## 4. 重点案例事实还原：Zapier V2 与 ShopifyOS 为什么应该一起看
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+- 背景：多数公司谈 AI 人才，只到“要招会用 AI 的人”；很少有公司把能力门槛、成长体系和激励方式写成同一套制度语言。
+- Zapier 提供了什么：  
+  - 统一 AI fluency 语言；  
+  - 将最低门槛抬到“核心工作嵌入 + 可重复系统 + 可衡量影响”；  
+  - 对 manager 额外要求团队 workflow redesign。  
+- Shopify 提供了什么：  
+  - `Crafter / Manager` 双轨；  
+  - `Mastery` 成长体系；  
+  - `FlexComp` 激励机制；  
+  - 将人才系统写成 `ShopifyOS`。  
+- 两者放在一起的启示：  
+  - 高人才密度不是只靠筛选高手；  
+  - 还要用成长路径和激励机制把不同类型的人才留在系统里。  
+- 识别标准怎么变：  
+  - 不只看背景和 title；  
+  - 更看 before/after 影响、复用资产、责任承担。  
+- 内部发现机制怎么变：  
+  - 通过统一能力语言识别隐藏高手；  
+  - 通过双轨成长保护非管理型高价值人才。  
+- 保留机制怎么变：  
+  - 不是所有高价值人才都必须走管理岗；  
+  - 激励机制必须能承接 crafter / builder / manager 的不同贡献。  
+- 不可照搬点：  
+  - Shopify 与 Zapier 都属于数字化程度较高的科技公司，传统企业需要更轻量的起步版本。  
 
-## 今日新增证据地图
+## 5. Context层：暂不形成结论，但提示我们关注……
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+- 暂不形成结论，但提示我们关注：**内部 AI badge/认证是否会像外部 verified profile 一样，逐步变成资源分配入口。**
+- 暂不形成结论，但提示我们关注：**中国公司何时会公开类似 Crafter/Manager 或 fluency tier 的制度文本。**
+- 暂不形成结论，但提示我们关注：**当全员 AI fluency 门槛持续抬高，企业如何避免对非技术岗位形成不必要的过筛。**
 
-## 线索层
+## 6. 证据地图
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+- 官方/一手：LinkedIn、Shopify。  
+- 权威媒体/咨询：暂无新增咨询进入主结论层。  
+- 公司案例/制度材料：Zapier AI Fluency Rubric V2、ShopifyOS。  
+- 学术/研究：`The AI Pyramid`；`AI Skills Improve Job Prospects`。  
+- 招聘 JD / 薪酬：今日未新增高置信 JD 进入主结论层。  
+- 社媒/职场线索：暂不升结论层。  
+- 内部信息库/知识库：`knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md` ｜ `digest.md`。  
 
-## 待补齐的落地问题
+## 7. 对我们行动的启发
 
-正式重跑必须回答：复合型人才的能力证据是什么、是否有招聘/JD/薪酬信号、是否存在验证和治理能力的溢价、组织如何避免把“少招人”包装成高人才密度。
+1. 先按 `fluency / foundation / deep` 做三层能力设计，再谈招聘与培养。  
+2. 面试、盘点、项目分配要优先收集“可重复 workflow + 可衡量影响”的证据。  
+3. 为 manager 单独设立 AI 带队标准，避免只奖励个人使用熟练度。  
+4. 用双轨成长和差异化激励承接高密度人才，而不是默认所有人都走管理岗。  
 
-## 来源索引
+## 8. 待验证清单与下一步搜索路径
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
+1. 哪些企业已公开 capability tiers 并接入内部 mobility 或晋升？  
+   - Query：`AI capability tiers internal mobility official`
+2. Shopify 的 `Mastery` 与 `FlexComp` 是否会公开更细的执行规则？  
+   - Query：`Shopify Mastery FlexComp official`
+3. 中国公司是否公开类似 Crafter/Manager 双轨或 AI fluency tier？  
+   - Query：`AI fluency 双轨 成长 官方`
+
+## 9. 来源索引
+
+- arXiv AI Pyramid：https://arxiv.org/abs/2601.06500  
+- Zapier（内部卡片）：`knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md`  
+- arXiv Hiring Experiment：https://arxiv.org/abs/2601.13286  
+- LinkedIn：https://news.linkedin.com/en-us/2026/LinkedIn-Research-Talent-2026  
+- Shopify：https://www.shopify.com/news/building-for-crafters

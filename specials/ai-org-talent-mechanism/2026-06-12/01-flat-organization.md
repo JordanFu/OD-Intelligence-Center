@@ -1,52 +1,102 @@
 # 2026-06-12｜专题一：组织扁平化与中层减少
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+## 1. 今日一句话专题判断
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+今天关于扁平化最值得确认的新判断是：**AI 时代的扁平化不是“人变少”这么简单，而是“协调层变薄、判断层 seniorize、执行层与基础设施层重新补强”**。
 
-## 今日一句话结论
+## 2. 今日新增事实：只写可追溯事实，注明来源
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+1. **arXiv《Generative AI and the Reorganization of Labor Demand》**指出，AI exposure 带来的劳动力重组中，52% 来自 hiring reallocation，39.5% 来自 within-job redesign；senior jobs 调整更早。  
+   - 来源：arXiv  
+   - https://arxiv.org/abs/2605.23159
+2. **Microsoft WorkLab《AI@Work 与软件工程的人机协作路线图》**把人机协作模式拆成 Author、Editor、Director、Orchestrator 四类，强调人的责任从亲自生产转向判断、设意图、设计护栏和编排 agents。  
+   - 来源：Microsoft WorkLab（内部结构化知识卡）  
+   - `knowledge/wiki/microsoft-ai-at-work-function-playbook-2026.md`
+3. **Salesforce 于 2026 年 4 月 29 日发布 workforce reshaping 文章**，披露其在 Agentforce 推进中把数百名 support engineers 再部署到增长更快的岗位，并通过不回填部分岗位管理 headcount。  
+   - 来源：Salesforce  
+   - https://www.salesforce.com/news/stories/salesforce-reshaping-workforce-in-age-of-ai/
+4. **36 氪转载《中国企业家》文章**披露，腾讯 WXG 多部门试行项目负责制，混元团队汇报线被描述为从“基层员工-组长-总监”压缩到“基层研发-项目负责人”；当前仍缺少腾讯官方制度文件确认。  
+   - 来源：36氪转载《中国企业家》  
+   - https://www.36kr.com/p/3818792805516167
+5. **arXiv《Payrolls to Prompts》**发现，AI 采用更强的企业会同步减少在线劳务平台支出，表明替代更早发生在外包与可切片执行劳动。  
+   - 来源：arXiv  
+   - https://arxiv.org/abs/2602.00139
 
-## 今日核心判断
+## 3. 今日核心判断：3-5 条，每条注明可信度、证据基础、为什么重要
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+1. **扁平化的第一刀通常先落在协调劳动，而不是落在所有劳动。可信度：高。**  
+   - 证据基础：labor demand 研究中的 hiring reallocation；Salesforce 的再部署与不回填逻辑。  
+   - 为什么重要：这解释了为什么一些组织减少层级后，仍会在执行层或基础设施层继续补人。
+2. **AI 会把 manager 从信息中继者逼成 workflow orchestrator 或 player-coach。可信度：中高。**  
+   - 证据基础：Microsoft WorkLab 的 Author/Editor/Director/Orchestrator 路线；内部追踪样本。  
+   - 为什么重要：中层不是必然消失，但其合法性必须从“转信息”转向“带判断、带治理、带教练”。
+3. **headcount reduction 与 internal redeploy 会同时发生。可信度：中高。**  
+   - 证据基础：Salesforce 的 support engineers 再部署与不回填岗位。  
+   - 为什么重要：组织并非只做裁撤，而是在同步重配能力与预算。
+4. **中国大厂出现层级压缩强信号，但仍需更高等级一手材料。可信度：中。**  
+   - 证据基础：腾讯 WXG / 混元媒体转述。  
+   - 为什么重要：值得追踪，但不能在制度层过度下结论。  
 
-## 今日背景材料
+## 4. 重点案例事实还原：Salesforce 如何把“AI 提效”写进正式 workforce reshaping
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+- 背景：很多公司会说 AI 提升效率，但很少公开把岗位再部署、不回填和内部流动一起写进正式人才机制。
+- 时间线：  
+  - 2026-04-29：Salesforce 发布 `How Salesforce Is Reshaping Its Workforce in the Age of AI`。  
+- 战略背景：Agentforce 推进后，组织需要重新决定哪些岗位继续扩、哪些岗位可转岗、哪些 headcount 不再默认补回。
+- 关键动作：  
+  - 将数百名 support engineers 再部署到增长更快岗位；  
+  - 通过不回填部分岗位管理 headcount；  
+  - 用 `4Rs` 与 `Career Connect` 承接再配置。  
+- 对扁平化的含义：  
+  - 扁平化不只是减少层级；  
+  - 更是把原本低杠杆或被 AI 吸收的容量，转向更高价值角色。  
+- 管理者如何转型：  
+  - 从守编制转向解释“哪些工作消失、哪些工作转移、哪些工作升级”。  
+- HR 与业务如何执行：  
+  - 需要正式 internal mobility 路径和再部署话术，而不是临时挪人。  
+- 员工影响：  
+  - 角色稳定性下降，但内部流动机会被显性化。  
+- 可借鉴点：  
+  - 把 redeploy、career path、headcount 决策放进同一叙事。  
+- 不可照搬点：  
+  - 若组织内部流动机制薄弱，仅做不回填会被员工理解为被动缩编。  
 
-## 今日新增证据地图
+## 5. Context层：暂不形成结论，但提示我们关注……
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+- 暂不形成结论，但提示我们关注：**腾讯项目负责制与汇报线压缩值得追踪，但目前仍是媒体层信号。**
+- 暂不形成结论，但提示我们关注：**若组织只压协调层、不补执行层和质量治理，扁平化会变成责任堆积。**
+- 暂不形成结论，但提示我们关注：**基础设施、部署、运维岗位是否会成为下一波关键人才瓶颈。**
 
-## 线索层
+## 6. 证据地图
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+- 官方/一手：Salesforce、Microsoft WorkLab。  
+- 权威媒体/咨询：36氪转载《中国企业家》。  
+- 公司案例：Salesforce workforce reshaping；腾讯项目负责制线索。  
+- 学术/研究：`Generative AI and the Reorganization of Labor Demand`；`Payrolls to Prompts`。  
+- 招聘 JD / 薪酬：今日未新增高置信 JD 进入主结论层。  
+- 社媒/职场线索：腾讯样本暂列强线索，待继续验证。  
+- 内部信息库/知识库：`AI时代的职级变革-全球大公司组织架构调整追踪.md` ｜ `digest.md`。  
 
-## 待补齐的落地问题
+## 7. 对我们行动的启发
 
-正式重跑必须回答：哪些管理工作被系统化、哪些仍需管理者承担、管理跨度是否变化、员工体验和晋升路径是否受影响、是否只是成本控制而非组织升级。
+1. 扁平化方案应先拆出协调劳动、判断劳动、执行劳动、再部署劳动四类，再决定减哪里、补哪里。  
+2. 中层 redesign 的重点不是裁撤人数，而是把角色改成 orchestrator、coach、exception owner。  
+3. 若要减少部分岗位，必须同步建设 internal mobility 与 re-skilling 路径。  
+4. 中国样本进入主结论层前，必须补官方制度文本或更多一手确认。  
 
-## 来源索引
+## 8. 待验证清单与下一步搜索路径
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
+1. 哪些公司已公开 manager-orchestrator/player-coach 的制度文本？  
+   - Query：`AI orchestrator manager role official`
+2. Salesforce 的 `4Rs` 与 `Career Connect` 是否披露更细的晋升/保留规则？  
+   - Query：`Salesforce 4Rs Career Connect workforce official`
+3. 腾讯项目负责制是否出现官方确认、适用范围和绩效口径？  
+   - Query：`腾讯 项目负责制 混元 汇报线 官方`
+
+## 9. 来源索引
+
+- arXiv Labor Demand：https://arxiv.org/abs/2605.23159  
+- Microsoft WorkLab（内部卡片）：`knowledge/wiki/microsoft-ai-at-work-function-playbook-2026.md`  
+- Salesforce：https://www.salesforce.com/news/stories/salesforce-reshaping-workforce-in-age-of-ai/  
+- 36氪转载《中国企业家》：https://www.36kr.com/p/3818792805516167  
+- arXiv Payrolls to Prompts：https://arxiv.org/abs/2602.00139
