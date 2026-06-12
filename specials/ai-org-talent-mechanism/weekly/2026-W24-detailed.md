@@ -1,51 +1,65 @@
-# 2026-W24｜AI时代组织与人才机制详细资料状态记录
+# 2026-W24｜AI时代组织与人才机制变革｜详细资料版
 
-> 非决策稿：整理当周日报入口、来源池和待验证问题。它是资料聚合底稿，不是最终决策结论；主代理重跑后应按多代理研究协议补充 Context、案例、反例、社媒/招聘薪酬信号和交叉验证。
+> 说明：本版为 CEO 正式周报的证据强化版本。它保留同样的结论口径，但更强调证据结构、样本边界与下周待验证点，便于研究与校准使用。
 
-## 本周日报索引
+[阅读 CEO 正式周报](./2026-W24.html)
 
-| 日期 | 链接 | 状态 |
-|---|---|---|
-| 2026-06-03 | [日报](../2026-06-03/index.html) | 已生成 |
-| 2026-06-04 | [日报](../2026-06-04/index.html) | 已生成 |
-| 2026-06-05 | [日报](../2026-06-05/index.html) | 已生成 |
-| 2026-06-06 | [日报](../2026-06-06/index.html) | 已生成 |
-| 2026-06-07 | [日报](../2026-06-07/index.html) | 已生成 |
-| 2026-06-08 | [日报](../2026-06-08/index.html) | 已生成 |
-| 2026-06-09 | [日报](../2026-06-09/index.html) | 已生成 |
+## 本版使用规则
 
-## 本周信息聚合框架
+1. 结论层与 CEO 版保持一致，不额外拔高。
+2. 6 月 10 日、6 月 11 日状态稿只做背景，不升主结论。
+3. 国内项目负责制与层级压缩类样本，除一手制度文本外，暂不作为可照搬机制。
 
-### 结论层候选
+## 本周结论摘要
 
-- AI 运营模式（operating model）、岗位与工作流重设计（job/workflow redesign）、基于技能的薪酬（skills-based pay） 和 晋升证据 是否形成多源互证。
-- 执行层角色变宽与核心专家能力变深是否同时成立。
-- 业务提出岗位/序列变化是否实为薪酬、激励和市场溢价承接问题。
+1. 接口层是本周最强共识。
+2. 扁平化必须和治理前置联动。
+3. 高人才密度应按三层能力组合设计。
+4. role package、capability band、pay logic 比新 title 更紧迫。
+5. 晋升机制应先升级 evidence schema，再讨论窗口。
 
-### 背景材料（Context）候选
+## 证据抓手
 
-- 公司制度片段、员工体感、行业讨论、招聘 JD 和薪酬信号，只要未充分互证就保留在 Context。
-- 国内外案例不能直接互推，必须标注地区、业务类型、岗位层级和公司阶段。
+### 扁平化与中层减少
 
-### 线索层候选
+- BCG：AI-first operating model 重写 work structure、governance、staffing、prioritization。
+- McKinsey：priority journeys 将由 AI agent teams + human oversight 贯穿。
+- Salesforce：4Rs + Career Connect + 不回填部分岗位。
+- 腾讯：AgentOps、CodeBuddy、WorkBuddy、研究与基础设施重构为一手；WXG/混元压层级为媒体信号。
 
-- FDE、AI 工作流负责人、智能体运营（agent ops）、AI 治理（AI governance）、基于技能的薪酬（skills-based pay）、技能津贴（skill allowance）、市场溢价（market premium） 等关键词。
-- 中层减少与 player-coach 角色变化的真实落地细节。
+### 高人才密度
 
-## 本周待增强
+- AI Pyramid：AI Native / Foundation / Deep 三层能力分布。
+- Zapier V2：最低门槛抬到“嵌入核心工作 + 可重复系统 + 可衡量影响”。
+- Huawei：22 角色、71 能力、规划-训练-评估-认证闭环。
+- LinkedIn / 招聘实验：AI skills 与 verified signal 已进入正式机会分配。
 
-- 由主代理补充每天的新增一手证据与 Context/线索层。
-- 对 AI 技能溢价（AI skill premium）、管理者角色重写、智能体治理（agent governance） 岗位族群（job family） 做交叉验证。
-- 补充中国公司案例、招聘薪酬信号和员工影响。
+### 岗位、族群、序列
 
-## 来源索引
+- Workday / Deloitte JD：FDE / Enterprise Architect 高薪且责任边界清晰。
+- Cursor：deployment 成组出现，说明已形成连续岗位层。
+- AI Roles Continuum：Research / Engineering 边界变成连续谱。
+- EY：skill tiers、sunset clauses、pay band 调整更适合承接快速变化的市场价格。
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价（AI skill premium）、基于技能的薪酬（skills-based pay）、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
+### 晋升机制
+
+- GitLab：半年节奏、promotion document、out-of-cycle 例外通道。
+- Oracle：Career Advancement、Manager Concierge、Calibration Workspace。
+- EY：promotion、premium、reward 分轨治理。
+
+## 需要继续保持克制的地方
+
+1. verified skills 进入晋升委员会，证据仍弱。
+2. FDE 是否应独立成正式序列，取决于长期性和可迁移性。
+3. 腾讯项目负责制与汇报线压缩尚无正式制度文本。
+
+## 下周优先补强
+
+1. capability tiers 是否接入 mobility / promotion。
+2. role package 与 career ladder 的正式文档样本。
+3. 中国公司公开的 skill premium、role package、例外晋升制度。
+
+## 参考入口
+
+- [CEO 正式周报](./2026-W24.html)
+- [快速导读版](./2026-W24-quick.html)
