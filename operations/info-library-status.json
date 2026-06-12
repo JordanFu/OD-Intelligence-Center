@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-12T06:08:22.452Z",
+  "generatedAt": "2026-06-12T13:44:18.077Z",
   "latestDate": "2026-06-12",
-  "latestItems": 3,
+  "latestItems": 13,
   "totalDays": 50,
-  "totalItems": 533,
-  "totalPlatforms": 274,
+  "totalItems": 540,
+  "totalPlatforms": 279,
   "trustStats": {
-    "⭐高": 291,
-    "📰较高": 233,
+    "⭐高": 295,
+    "📰较高": 236,
     "⭐高 / 📰较高": 1,
     "💬参考": 6,
     "💬参考（多篇学术论文交叉验证）": 1,
@@ -16,7 +16,7 @@
   "missing": {
     "summary": 0,
     "source": 0,
-    "sourceUrl": 43,
+    "sourceUrl": 46,
     "platform": 0,
     "trust": 0,
     "insight": 0,

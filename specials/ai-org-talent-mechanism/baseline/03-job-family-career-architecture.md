@@ -21,7 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-05-27 | [日报](../2026-05-27/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **“岗位/序列是否新增”的本质，越来越像“责任对象是否从人扩展到 agent/workflow”，而不是命名游戏。可信度：高。** | - 暂不形成结论，但提示我们关注：**“agent 目录/注册/审计”可能会重塑 IT/安全/HR/法务之间的边界**，从而触发“谁来拥有这些新职责”的组织拉扯（需要更多客户落地案例验证）。 | - 社媒/职场线索：围绕 Agent ID 与治理的讨论多，但噪音高，仅作线索。 |
 | 2026-05-28 | [日报](../2026-05-28/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **岗位体系必须先回答“谁对 workflow/policy/agent 负责”，再回答“岗位叫什么”。可信度：高。** | - 暂不形成结论，但提示我们关注：**“computer-using agents + policy execution”可能会重塑后台职能的岗位边界**。当执行穿透到旧系统，很多“凭经验卡点”的岗位会被迫转型为“规则维护/例外处理/质量… | - 社媒/职场线索：对“岗位被 AI 吃掉/岗位被重写”的讨论多，但缺乏制度文本，仅作线索。 |
 | 2026-05-29 | [日报](../2026-05-29/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **岗位族群将围绕三条“硬责任链”重构：工作流编排、身份权限治理、技能/岗位数据治理。可信度：中高。** | - 暂不形成结论，但提示我们关注：**多 agent 编排会让“中间层协调岗”快速失去正当性，但其隐性工作不会消失**——它会迁移到 workflow owner / governance owner 身上；如果组织不承认这种迁移并配套职… | 1. Workday/Google 的 A2A/A2UI/MCP 在客户侧落地：是否出现明确的“workflow owner / orchestration owner”岗位定义与职级。 |
 | 2026-05-30 | [日报](../2026-05-30/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **先 role package，后 job family**：FDE、AI transformation architect、agent governance owner 需要先验证是否长期稳定。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
@@ -35,6 +34,7 @@
 | 2026-06-07 | [日报](../2026-06-07/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **先 role package，后 job family**：FDE、AI transformation architect、agent governance owner 需要先验证是否长期稳定。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 | 2026-06-08 | [日报](../2026-06-08/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **AI 时代很多新工作单元已经稳定到足以被视为 role package。可信度：高。** | - 暂不形成结论，但提示我们关注：**`verifier / orchestrator` 这类角色未必都会演化成正式岗位，也可能先以 capability badge 或项目角色稳定存在。** | 1. 哪些企业已把 forward deployed / architect 角色写入正式 career framework？ |
 | 2026-06-09 | [日报](../2026-06-09/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **很多 AI 新角色首先需要的是 role package，不一定是新序列。可信度：高。** | - 暂不形成结论，但提示我们关注：**未来 job family 可能变薄，但 capability catalog 会变厚。** | 1. 哪些企业已公开 AI role package 与 career ladder 的正式文档？ |
+| 2026-06-12 | [日报](../2026-06-12/03-job-family-career-architecture.html) | 结论层候选 | 1. **很多 AI 新岗位的真实变化是边界重叠，不是边界新增。可信度：高。** | - 暂不形成结论，但提示我们关注：**中国企业公开的 AI technical family / capability band 样本仍少，很多变化仍藏在 JD 和薪酬带宽里。** | 1. 哪些企业已公开 AI technical family 或 capability band？ |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-06-09｜[打开专题日报](../2026-06-09/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-09/03-job-family-career-architecture.md`
+- 最新日报：2026-06-12｜[打开专题日报](../2026-06-12/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-12/03-job-family-career-architecture.md`
