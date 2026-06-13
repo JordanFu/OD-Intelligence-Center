@@ -1,7 +1,7 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-06-12 19:05
+> 最后更新：2026-06-13 18:00
 
 ---
 
@@ -23,6 +23,62 @@
 - 💬参考：社交平台/社区讨论，需交叉验证
 
 -->
+
+## 2026-06-13
+
+### [1] BCG：AI 已经更快重写岗位，而多数组织还没学会把节省下来的时间转成价值
+- **事件摘要**：BCG 于 2026 年 6 月 3 日发布第四年度《AI at Work》调研，覆盖 14 个市场、11,749 名员工。新闻稿显示，72% 受访者认为 AI 已显著改变岗位技能期待，47% 表示自己把更多时间花在 managing and directing AI；42% 的 regular frontline users 每周节省至少一个完整工作日，但 66% 几乎没有得到如何重新配置这段时间的指引。
+- **来源**：BCG（https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work）
+- **来源平台**：BCG
+- **来源可信度**：⭐高
+- **OD启示**：组织 redesign 的关键已从 adoption 转到价值捕获。AI 节省时间若无任务再分配、manager 重设计和例外处理机制，就会直接流失。
+- **标签**：#BCG #AIAtWork #TimeReallocation #ManagerOrchestration #WorkRedesign
+- **抓取时间**：2026-06-13 18:00
+
+### [2] Beyond the Org Chart：AI 正在改变 mentoring、反馈网络与职业成长等 invisible work
+- **事件摘要**：2026 年 5 月提交的 arXiv 论文《Beyond the Org Chart》基于一家大型科技公司 24 位 product-focused 员工访谈指出，AI 不只改变 formal role responsibilities 和团队协作，也改变 informal cultural practices，例如 professional mentoring、反馈网络、职业融入和多样化思考的支持机制。论文认为其中一部分变化提高了协作效率，但另一部分正在削弱典型成长机会。
+- **来源**：arXiv（https://arxiv.org/abs/2605.22707）
+- **来源平台**：arXiv
+- **来源可信度**：⭐高
+- **OD启示**：扁平化、高人才密度和晋升机制都不能只围绕可见产出设计。AI 若让 invisible work 消失在报表之外，企业会在人才成长、文化稳定性和管理质量上出现滞后问题。
+- **标签**：#InvisibleWork #Mentoring #CareerGrowth #FlatOrganization #PromotionEvidence
+- **抓取时间**：2026-06-13 18:00
+
+### [3] AI-native 软件工程：岗位要求正在转向 intent、collaboration、verification 与 agent orchestration
+- **事件摘要**：2026 年 6 月 11 日发布的 arXiv 论文《The Rise of AI-Native Software Engineering》系统综述了 48 篇 2016-2026 年研究，提出 AI-native software engineering 的三大核心框架是 intent、collaboration、verification，并进一步归纳出 specification、critical evaluation、agent orchestration、metacognition 等九维能力。论文同时指出，生产率效果在现有证据中存在明显矛盾，收益高度依赖情境。
+- **来源**：arXiv（https://arxiv.org/abs/2606.12986）
+- **来源平台**：arXiv
+- **来源可信度**：⭐高
+- **OD启示**：这条信号对人才密度和岗位架构都很关键。企业未来不该只定义“谁能写代码/做分析”，而要定义“谁能设意图、谁能编排 agent、谁能验证结果并承担责任”。
+- **标签**：#AINativeSE #CompetencyModel #Verification #AgentOrchestration #JobArchitecture
+- **抓取时间**：2026-06-13 18:00
+
+### [4] Workday：human-agent operating model 的关键不是更多 agent，而是 authority boundaries 与人类最终责任
+- **事件摘要**：Workday 在 2026 年文章《Designing Operating Models for Human + Agent Teams》中明确提出，human-agent operating model 的第一原则是 clear boundaries of authority：agents 可以承担 routine execution，但高风险或复杂判断仍需人类 oversight。文章同时写明 humans are the ultimate orchestrators and decision makers，且只有 24% 员工接受 agent 在“后台无感运行”。
+- **来源**：Workday（https://www.workday.com/en-us/perspectives/hr/operating-models-for-human-and-agents.html）
+- **来源平台**：Workday
+- **来源可信度**：⭐高
+- **OD启示**：manager role、岗位责任和晋升规则将越来越围绕 authority boundary、task-to-agent mapping、explainability 和人类最终责任设计，而不是围绕单个工具熟练度设计。
+- **标签**：#Workday #AuthorityBoundary #HumanInControl #OperatingModel #Explainability
+- **抓取时间**：2026-06-13 18:00
+
+### [5] Google：AI 基础设施瓶颈开始倒逼科技公司把 skilled trades pipeline 当成正式人才议题
+- **事件摘要**：Axios 于 2026 年 6 月 11 日报道，Google.org 启动 5,000 万美元计划，目标是在美国培训超过 30 万名 skilled trade workers，以缓解 AI 基础设施建设所需劳动力短缺。报道将这一动作放在 AI data center 扩张背景下，指出 tech companies 正开始把劳动力供给问题从“招聘难”上升到“基础设施能否按时落地”的战略问题。
+- **来源**：Axios（https://www.axios.com/2026/06/11/google-trade-worker-initiative-ai）
+- **来源平台**：Axios
+- **来源可信度**：📰较高
+- **OD启示**：AI 人才议题不应只盯白领知识岗位。随着数据中心和算力基础设施扩张，组织竞争也开始包含 skilled trades pipeline、区域劳动力供给和项目交付能力。
+- **标签**：#Google #SkilledTrades #TalentPipeline #AIInfrastructure #WorkforcePlanning
+- **抓取时间**：2026-06-13 18:00
+
+### [6] 加州：州政府开始把 AI 就业影响监测和 worker safeguards 上升为正式公共治理议题
+- **事件摘要**：Axios 于 2026 年 6 月 12 日报道，加州州长 Gavin Newsom 已要求州机构评估 AI 如何改变就业结构，并围绕 employment data、at-risk occupations 和 worker safeguards 开展后续工作。当前公开信息仍以媒体报道为主，但其价值在于：AI 劳动力影响已从企业内部 HR/OD 议题，外扩到州级公共治理议题。
+- **来源**：Axios（https://www.axios.com/local/san-francisco/2026/06/12/california-ai-workforce-displacement-newsom-order-employment-data-worker-safeguards）
+- **来源平台**：Axios
+- **来源可信度**：📰较高
+- **OD启示**：企业未来对 AI 岗位重写、转岗、reskilling 和 worker safeguards 的处理，可能越来越受外部公共治理和社会预期影响。
+- **标签**：#California #AIWorkforcePolicy #WorkerSafeguards #Reskilling #PublicGovernance
+- **抓取时间**：2026-06-13 18:00
 
 ## 2026-06-12
 

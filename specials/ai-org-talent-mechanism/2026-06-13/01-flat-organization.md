@@ -1,52 +1,102 @@
 # 2026-06-13｜专题一：组织扁平化与中层减少
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+## 1. 今日一句话专题判断
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+今天关于扁平化最值得确认的新判断是：**AI 时代真正危险的不是“中层减少”，而是组织在压薄层级时，没有把 mentoring、反馈、异常协调和质量把关这些 invisible work 重新制度化。**
 
-## 今日一句话结论
+## 2. 今日新增事实：只写可追溯事实，注明来源
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+1. **BCG 2026《AI at Work》显示，72% 受访者认为 AI 已显著改变岗位技能期待，47% 表示自己花更多时间在 managing and directing AI。**  
+   - 来源：BCG  
+   - https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work
+2. **同一份 BCG 调研指出，42% 的 regular frontline AI users 每周节省至少一个完整工作日，但 66% 表示组织几乎没有给出如何重新配置这段时间的清晰指引。**  
+   - 来源：BCG  
+   - https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work
+3. **arXiv《Beyond the Org Chart》基于一家大型科技公司 24 位 product-focused 员工访谈发现，AI 不只改变 formal role responsibilities，也改变 mentoring、professional feedback network 和职业融入等 invisible work。**  
+   - 来源：arXiv  
+   - https://arxiv.org/abs/2605.22707
+4. **Workday 官方明确提出，在 human-agent operating model 中，humans are the ultimate orchestrators and decision makers，并强调要先定义 authority boundaries。**  
+   - 来源：Workday  
+   - https://www.workday.com/en-us/perspectives/hr/operating-models-for-human-and-agents.html
+5. **Salesforce 2026-04-29 官方披露，已将数百名 support engineers 再部署到增长更快岗位，并通过不回填部分岗位管理 headcount。**  
+   - 来源：Salesforce  
+   - https://www.salesforce.com/news/stories/salesforce-reshaping-workforce-in-age-of-ai/
 
-## 今日核心判断
+## 3. 今日核心判断：3-5 条，每条注明可信度、证据基础、为什么重要
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+1. **扁平化真正要替代的是低密度协调层，而不是所有中层功能。可信度：高。**  
+   - 证据基础：BCG 对“更多时间 managing and directing AI”的发现；Workday 的 authority boundaries。  
+   - 为什么重要：这意味着层级可以变薄，但判断、升级、例外处理与资源编排不会自然消失。
+2. **如果不把 invisible work 显性化，扁平化会把成长和文化一起削薄。可信度：中高。**  
+   - 证据基础：`Beyond the Org Chart` 对 mentoring、反馈网络和职业成长风险的访谈证据。  
+   - 为什么重要：组织往往只看编制表，却忽略中层和资深员工还承担了大量带教与社交化劳动。
+3. **AI 释放的时间不会自动转化成组织价值；没有 redesign，时间会泄漏。可信度：高。**  
+   - 证据基础：BCG 的“42% 节省一天/周”与“66% 缺少后续指引”。  
+   - 为什么重要：扁平化若只做 headcount 或层级压缩，不重写任务与资源配置，价值捕获会失败。
+4. **manager 的新合法性越来越来自 orchestrator / coach / exception owner，而不是信息传递。可信度：中高。**  
+   - 证据基础：Workday human-agent operating model；Microsoft WorkLab 内部知识卡。  
+   - 为什么重要：这为“中层减少后留下什么样的管理者”提供了更具体的设计方向。
 
-## 今日背景材料
+## 4. 重点案例事实还原：Salesforce 如何把“扁平化”变成正式的人才再配置机制
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+- 背景：许多企业对外只讲“AI 提效”，但很少把 headcount、转岗、角色重写和内部流动一起说清楚。
+- 时间线：  
+  - 2026-04-29：Salesforce 发布 `How Salesforce Is Reshaping Its Workforce in the Age of AI`。  
+- 战略背景：Agentforce 推进后，组织需要决定哪些岗位继续扩、哪些岗位可被重新部署、哪些岗位不再默认补回。
+- 关键动作：  
+  - 将数百名 support engineers 再部署到增长更快岗位；  
+  - 通过不回填部分岗位管理 HC；  
+  - 以 `4Rs` 与 `Career Connect` 承接再配置。  
+- 对扁平化的真实含义：  
+  - 不是只减少层级；  
+  - 而是把旧的容量和编制逻辑，转成更高价值岗位配置逻辑。  
+- 管理者如何转型：  
+  - 从守住编制和信息流，转向解释“哪些工作保留、哪些转岗、哪些升级、哪些不再回填”。  
+- HR 与业务如何执行：  
+  - 必须同步建设 internal mobility、reskilling、沟通口径和岗位再安置规则。  
+- 员工影响：  
+  - 角色稳定性下降，但组织若能提供清晰转岗路径，可把冲击从“被动缩编感”转向“受控重配”。  
+- 可借鉴点：  
+  - 把岗位再部署、HC 决策、内部流动和管理叙事放进同一机制。  
+- 不可照搬点：  
+  - 若企业没有足够成熟的 mobility 与 reskilling 基础，不回填只会被感知为简单削减。
 
-## 今日新增证据地图
+## 5. Context层：暂不形成结论，但提示我们关注……
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+- 暂不形成结论，但提示我们关注：**`Beyond the Org Chart` 指出的 mentoring / feedback erosion，目前仍以单公司访谈为主，值得继续找多案例验证。**
+- 暂不形成结论，但提示我们关注：**中国公司压层级的公开信号仍多停留在媒体转述，制度文本依然偏少。**
+- 暂不形成结论，但提示我们关注：**如果组织把大量判断和签核责任推给少数资深个体，扁平化可能演化成“薄层级 + 高责任拥堵”。**
 
-## 线索层
+## 6. 证据地图
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+- 官方/一手：Workday、Salesforce。  
+- 权威媒体/咨询：BCG。  
+- 公司案例：Salesforce workforce reshaping。  
+- 学术/研究：`Beyond the Org Chart`。  
+- 招聘 JD / 薪酬：今日无高置信新增 JD 进入结论层。  
+- 社媒/职场线索：今日无足以进入结论层的新线索。  
+- 内部信息库/知识库：`knowledge/wiki/microsoft-ai-at-work-function-playbook-2026.md` ｜ `digest.md`。  
 
-## 待补齐的落地问题
+## 7. 对我们行动的启发
 
-正式重跑必须回答：哪些管理工作被系统化、哪些仍需管理者承担、管理跨度是否变化、员工体验和晋升路径是否受影响、是否只是成本控制而非组织升级。
+1. 扁平化方案必须先盘点 invisible work：谁在带教、谁在反馈、谁在处理例外、谁在做质量签核。  
+2. 中层 redesign 的重点不是“留多少人”，而是“留下什么样的 orchestrator / coach / exception owner”。  
+3. 要把 AI 节省下来的时间重新定向到更高价值任务，否则时间红利会流失。  
+4. 任何压层级动作都应与 internal mobility、reskilling 和沟通口径同步设计。  
 
-## 来源索引
+## 8. 待验证清单与下一步搜索路径
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
+1. 哪些公司已把 mentoring、quality gate、exception handling 写进更宽的 manager 或 senior IC 角色定义？  
+   - Query：`mentor quality gate exception owner AI organization official`
+2. 哪些企业在扁平化后显性重写了 authority boundaries 和 task-to-agent mapping？  
+   - Query：`authority boundaries task to agent mapping official company`
+3. 中国科技公司是否有公开的管理者 player-coach / orchestrator 机制？  
+   - Query：`项目负责制 orchestrator manager 官方`
+
+## 9. 来源索引
+
+- BCG：https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work  
+- arXiv《Beyond the Org Chart》：https://arxiv.org/abs/2605.22707  
+- Workday：https://www.workday.com/en-us/perspectives/hr/operating-models-for-human-and-agents.html  
+- Salesforce：https://www.salesforce.com/news/stories/salesforce-reshaping-workforce-in-age-of-ai/  
+- 内部：`knowledge/wiki/microsoft-ai-at-work-function-playbook-2026.md`

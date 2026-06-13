@@ -1,52 +1,99 @@
 # 2026-06-13｜专题二：高人才密度与复合型人才机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+## 1. 今日一句话专题判断
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+今天高人才密度最关键的新判断是：**AI 时代的人才密度不只是“会用 AI 的人更多”，而是“能定义意图、编排系统、验证结果、带动他人成长的人更集中”**。
 
-## 今日一句话结论
+## 2. 今日新增事实：只写可追溯事实，注明来源
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+1. **BCG 2026《AI at Work》显示，72% 受访者认为 AI 已显著改变岗位技能期待，47% 表示自己花更多时间 managing and directing AI。**  
+   - 来源：BCG  
+   - https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work
+2. **同一份 BCG 调研显示，41% regular AI users 感受到更高 cognitive load，说明 AI 扩大了产能，也提高了判断和管理负荷。**  
+   - 来源：BCG  
+   - https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work
+3. **arXiv《The Rise of AI-Native Software Engineering》提出九维能力模型，覆盖 specification、critical evaluation、agent orchestration、metacognition 等，并将 intent / collaboration / verification 作为核心框架。**  
+   - 来源：arXiv  
+   - https://arxiv.org/abs/2606.12986
+4. **arXiv《Beyond the Org Chart》指出，AI 也在改变 professional mentoring、feedback network 和职业成长路径。**  
+   - 来源：arXiv  
+   - https://arxiv.org/abs/2605.22707
+5. **Zapier《AI Fluency Rubric V2》要求合格候选人证明 AI 已嵌入核心工作、形成可重复系统并带来 measurable impact；对 manager 的标准更高。**  
+   - 来源：Zapier（内部结构化知识卡）  
+   - `knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md`
 
-## 今日核心判断
+## 3. 今日核心判断：3-5 条，每条注明可信度、证据基础、为什么重要
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+1. **高人才密度的核心正在从“会不会用工具”转向“能不能稳定承担意图定义、系统编排、结果验证”。可信度：高。**  
+   - 证据基础：BCG 对 managing/directing AI 的发现；AI-native SE 九维能力模型。  
+   - 为什么重要：这决定了招聘 bar、培养重点和项目 owner 选择标准会继续上移。
+2. **验证能力正在成为与构建能力同等重要的人才密度维度。可信度：中高。**  
+   - 证据基础：AI-native SE 把 verification 与 critical evaluation 置于核心；Zapier 把 accountability 提升为显性组件。  
+   - 为什么重要：组织若只追逐 builder，不补 verifier，会迅速出现质量与信任瓶颈。
+3. **高人才密度不能只靠少数顶尖个体，还要保护 mentoring / feedback 机制。可信度：中高。**  
+   - 证据基础：`Beyond the Org Chart` 关于职业成长与专业网络被侵蚀的发现。  
+   - 为什么重要：如果 AI 让初级员工更快独立完成任务，但更少接受反馈，组织会在 12-24 个月后透支人才梯队。
+4. **manager 的 AI bar 会持续高于 IC。可信度：高。**  
+   - 证据基础：Zapier V2 明确把 manager 要求扩展到心理安全、upskilling 空间和 workflow redesign。  
+   - 为什么重要：高人才密度机制不只是挑人，更是要求管理者能把个体能力转成团队能力。
 
-## 今日背景材料
+## 4. 重点案例事实还原：Zapier V2 与 AI-native competency model 为什么应一起看
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+- 背景：许多企业仍把 AI 人才理解成“某些岗位更懂工具”，但公开样本已在往更高阶能力语言迁移。
+- Zapier 给出的制度信号：  
+  - 最低门槛从“使用过 AI”抬高到“核心工作嵌入 + 可重复系统 + 可测量影响”；  
+  - 新增 accountability；  
+  - 明确 manager 必须带动团队 workflow redesign。  
+- AI-native SE 论文给出的能力信号：  
+  - 从系统综述中总结出 intent / collaboration / verification 三大框架；  
+  - 将 specification、critical evaluation、agent orchestration、metacognition 提到更中心位置。  
+- 两者叠加的真实含义：  
+  - 组织不再只是寻找会提示词的人；  
+  - 而是在寻找能定义任务、组织 agent、验证结果、发现错误并指导他人的高杠杆个体。  
+- 识别标准怎么变：  
+  - 从 title / tool list 转向 workflow asset、verification habit、责任承担和带人能力。  
+- 内部发现机制怎么变：  
+  - 既要看个人成果，也要看其是否持续输出可复用模板、规则和团队资产。  
+- 保留机制怎么变：  
+  - 既要给 builder 资源，也要给 verifier、mentor、orchestrator 相应的 scope 与激励。  
+- 不可照搬点：  
+  - Zapier 与 AI-native SE 更偏数字化/知识工作环境，传统企业需要更低成本的简化能力模型起步。
 
-## 今日新增证据地图
+## 5. Context层：暂不形成结论，但提示我们关注……
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+- 暂不形成结论，但提示我们关注：**如果 AI 让个人独立完成更多任务，企业可能低估了对 feedback、带教和 apprenticeship 的持续投资必要性。**
+- 暂不形成结论，但提示我们关注：**市场会不会把“verification density”也转成独立溢价，尚缺更直接的薪酬证据。**
+- 暂不形成结论，但提示我们关注：**中国公司公开的 AI fluency / orchestration / verification 分层规则仍偏少。**
 
-## 线索层
+## 6. 证据地图
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+- 官方/一手：暂无新增公司官方人才制度文本进入主结论层。  
+- 权威媒体/咨询：BCG。  
+- 公司案例/制度材料：Zapier V2。  
+- 学术/研究：`The Rise of AI-Native Software Engineering`；`Beyond the Org Chart`。  
+- 招聘 JD / 薪酬：今日无高置信新增 JD / 薪酬进入结论层。  
+- 社媒/职场线索：今日无足以进入结论层的新线索。  
+- 内部信息库/知识库：`knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md` ｜ `digest.md`。  
 
-## 待补齐的落地问题
+## 7. 对我们行动的启发
 
-正式重跑必须回答：复合型人才的能力证据是什么、是否有招聘/JD/薪酬信号、是否存在验证和治理能力的溢价、组织如何避免把“少招人”包装成高人才密度。
+1. 高人才密度模型至少要拆成 fluency、building、verification、mentoring 四类责任。  
+2. 面试、盘点和项目分配要显性收集“如何定义意图、如何验证结果、如何复用为系统”的证据。  
+3. 对 manager 的 AI 标准应高于 IC，并单独考察团队 adoption 与 workflow redesign。  
+4. 人才保留策略不能只奖励明星 builder，也要奖励 verifier、mentor 和 orchestrator。  
 
-## 来源索引
+## 8. 待验证清单与下一步搜索路径
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
+1. 哪些企业已公开 verification / orchestration / mentoring 进入能力框架？  
+   - Query：`verification orchestration mentoring capability framework official`
+2. 哪些公司把 AI competency model 接进 internal mobility 或 succession planning？  
+   - Query：`AI competency model internal mobility succession official`
+3. 中国公司是否已出现 AI fluency tier 或 manager AI bar 的公开样本？  
+   - Query：`AI fluency manager standard 官方`
+
+## 9. 来源索引
+
+- BCG：https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work  
+- arXiv《The Rise of AI-Native Software Engineering》：https://arxiv.org/abs/2606.12986  
+- arXiv《Beyond the Org Chart》：https://arxiv.org/abs/2605.22707  
+- 内部：`knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md`
