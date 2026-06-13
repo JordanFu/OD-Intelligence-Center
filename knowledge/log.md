@@ -19,7 +19,7 @@
 - 待重试：BCG + MIT Sloan：The Emerging Agentic Enterprise（引用 8 次）
 - 已下载：AIHR：HR Priorities 2026 Report（引用 1 次）
 - 已下载：us spans and layers for the modern organization 2020（引用 3 次）
-- 已下载：EY：Future of Pay Report 2026（引用 125 次）
+- 已下载：EY：Future of Pay Report 2026（引用 116 次）
 - 已下载：pip faq 2026（引用 6 次）
 - 已下载：12 087 bc50bde2 3016 457a 9bee dc988cb1056b（引用 5 次）
 - 已下载：cesifo1 wp12373（引用 3 次）

@@ -21,7 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-05-28 | [日报](../2026-05-28/01-flat-organization.html) | 线索层/待验证 | 1. **扁平化的“真因”不是成本，而是组织默认规则与现实能力不匹配。可信度：高。** | - 暂不形成结论，但提示我们关注：**扁平化与“政策执行型 agent”会让合规/审计变成组织运营的一部分**。SAP 的 sustainability agents 展示了政策可直接阻断不合规动作；这会强迫组织回答“谁拥有规则、谁批准 … | - 社媒/职场线索：围绕“中层被 AI 替代”的讨论多，但制度细节稀缺，仅作线索。 |
 | 2026-05-29 | [日报](../2026-05-29/01-flat-organization.html) | 线索层/待验证 | 1. **“去中层”更像是“把交接劳动系统化”，而不是简单缩编管理岗。可信度：高。** | - 暂不形成结论，但提示我们关注：**“高管可见性自信”可能是组织治理的最大错觉**。Okta 数据意味着很多企业正在用“政策存在”替代“运行时可见”，这会直接影响扁平化沟通口径（“我们可控”）与实际风险。 | - 社媒/职场线索：shadow AI 的员工侧行为可能在社媒上更早暴露，但噪音大，需用一手/权威报告校准。 |
 | 2026-05-30 | [日报](../2026-05-30/01-flat-organization.html) | 线索层/待验证 | 1. **协调劳动被迁移**：AI 能压缩低价值传递层，但必须有人定义 handoff、approval、override、rollback 和 audit。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 | 2026-05-31 | [日报](../2026-05-31/01-flat-organization.html) | 线索层/待验证 | 1. **协调劳动被迁移**：AI 能压缩低价值传递层，但必须有人定义 handoff、approval、override、rollback 和 audit。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
@@ -35,6 +34,7 @@
 | 2026-06-08 | [日报](../2026-06-08/01-flat-organization.html) | 线索层/待验证 | 1. **扁平化的前提是先把协调劳动系统化，而不是先裁中层。可信度：高。** | - 暂不形成结论，但提示我们关注：**很多企业未来减少的可能不是 manager headcount 本身，而是 manager 的“流程搬运”工作量。** | 1. 哪些企业已经把 forward deployed / transformation architect 纳入正式 org chart 或 career ladder？ |
 | 2026-06-09 | [日报](../2026-06-09/01-flat-organization.html) | 背景材料（Context）强证据 | 1. **扁平化的真实前提是治理前置，而不是授权泛化。可信度：高。** | - 暂不形成结论，但提示我们关注：**中国企业未来更可能新增的是 AI 治理中心、journey PMO 或 transformation office，而不是完全取消中层。** | 1. 哪些企业已公开 transformation office 或 responsible AI CoE 的组织接口？ |
 | 2026-06-12 | [日报](../2026-06-12/01-flat-organization.html) | 背景材料（Context）强证据 | 1. **扁平化的第一刀通常先落在协调劳动，而不是落在所有劳动。可信度：高。** | - 暂不形成结论，但提示我们关注：**腾讯项目负责制与汇报线压缩值得追踪，但目前仍是媒体层信号。** | 1. 哪些公司已公开 manager-orchestrator/player-coach 的制度文本？ |
+| 2026-06-13 | [日报](../2026-06-13/01-flat-organization.html) | 背景材料（Context）强证据 | 1. **扁平化真正要替代的是低密度协调层，而不是所有中层功能。可信度：高。** | - 暂不形成结论，但提示我们关注：**`Beyond the Org Chart` 指出的 mentoring / feedback erosion，目前仍以单公司访谈为主，值得继续找多案例验证。** | 1. 哪些公司已把 mentoring、quality gate、exception handling 写进更宽的 manager 或 senior IC 角色定义？ |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-06-12｜[打开专题日报](../2026-06-12/01-flat-organization.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-12/01-flat-organization.md`
+- 最新日报：2026-06-13｜[打开专题日报](../2026-06-13/01-flat-organization.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-13/01-flat-organization.md`

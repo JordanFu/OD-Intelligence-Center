@@ -161,21 +161,12 @@ EY 把未来薪酬改革连接到技能、绩效、AI 人才、生产率和治�
 - `specials/ai-org-talent-mechanism/2026-06-11/02-talent-density.md:49`：EY Future of Pay 2026
 - `specials/ai-org-talent-mechanism/2026-06-11/03-job-family-career-architecture.md:49`：EY Future of Pay 2026
 - `specials/ai-org-talent-mechanism/2026-06-11/04-promotion-system.md:49`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/2026-06-13/00-overview.md:57`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/2026-06-13/01-flat-organization.md:49`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/2026-06-13/02-talent-density.md:49`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/2026-06-13/03-job-family-career-architecture.md:49`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/2026-06-13/04-promotion-system.md:49`：EY Future of Pay 2026
 - `specials/ai-org-talent-mechanism/weekly/2026-W20-quick.md:83`：EY Future of Pay 2026：
 - `specials/ai-org-talent-mechanism/weekly/2026-W20.md:83`：EY Future of Pay 2026：
 - `specials/ai-org-talent-mechanism/weekly/2026-W21-detailed.md:388`：EY Future of Pay 2026（技能溢价（skill premium） 治理建议）：
 - `specials/ai-org-talent-mechanism/weekly/2026-W21-quick.md:28`：EY Future of Pay 2026
 - `specials/ai-org-talent-mechanism/weekly/2026-W21.md:388`：EY Future of Pay 2026（技能溢价（skill premium） 治理建议）：
 - `specials/ai-org-talent-mechanism/weekly/2026-W23.md:646`：EY Future of Pay 2026（PDF）：
-- `specials/ai-org-talent-mechanism/weekly/2026-W24-detailed.md:48`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/weekly/2026-W24-quick.md:28`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/weekly/2026-W24.md:28`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/weekly/latest.md:646`：EY Future of Pay 2026（PDF）：
 
 ## 后续精读任务
 
