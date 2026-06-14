@@ -21,7 +21,6 @@ AI 时代的高人才密度不只是“更强个体”，而是能把问题定�
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-05-29 | [日报](../2026-05-29/02-talent-density.html) | 线索层/待验证 | 1. **“高人才密度”的判据需要升级：从“会用 AI”升级为“能在受控约束下把 AI 变成可复用的工作流资产”。可信度：高。** | - 暂不形成结论，但提示我们关注：**“看得见”与“真的可控”是两回事**。Okta 的脱节数据意味着人才机制设计必须把“实际使用行为”纳入运行时证据，而不能只依赖政策与培训签到。 | 1. Cornerstone Workforce AI 的 skills inference 方法：可解释性、偏差控制、以及如何与 job architecture 对齐。 |
 | 2026-05-30 | [日报](../2026-05-30/02-talent-density.html) | 线索层/待验证 | 1. **复合能力变成硬门槛**：业务语境、系统理解、AI fluency、治理意识和结果 ownership 要一起看。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 | 2026-05-31 | [日报](../2026-05-31/02-talent-density.html) | 线索层/待验证 | 1. **复合能力变成硬门槛**：业务语境、系统理解、AI fluency、治理意识和结果 ownership 要一起看。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 | 2026-06-01 | [日报](../2026-06-01/02-talent-density.html) | 线索层/待验证 | 1. **人才密度的“硬判据”正在从‘会用 AI’转为‘能构建可复用系统 + 对输出负责’。可信度：高。** | - 暂不形成结论，但提示我们关注：**“与 AI 结对”与“被 AI 管理”之间的心理差异**（Workday 的 75% vs 30%）可能意味着未来组织应把 AI 定位为 teammate/augmenter，而不是 evaluato… | 1. Zapier V2 rubric 的“skills test”如何设计以避免候选人作弊/模板化？ |
@@ -35,6 +34,7 @@ AI 时代的高人才密度不只是“更强个体”，而是能把问题定�
 | 2026-06-09 | [日报](../2026-06-09/02-talent-density.html) | 线索层/待验证 | 1. **高人才密度越来越依赖 competence map，而不是 leader 的主观印象。可信度：高。** | - 暂不形成结论，但提示我们关注：**verified identity / verified profile 这类可信层，未来是否会延伸到内部 skill badge 与项目信用记录。** | 1. competence map 如何与内部 mobility / succession 连接？ |
 | 2026-06-12 | [日报](../2026-06-12/02-talent-density.html) | 线索层/待验证 | 1. **高人才密度必须先回答“组织要配哪几层能力”，而不是只回答“要不要多招高手”。可信度：高。** | - 暂不形成结论，但提示我们关注：**内部 AI badge/认证是否会像外部 verified profile 一样，逐步变成资源分配入口。** | 1. 哪些企业已公开 capability tiers 并接入内部 mobility 或晋升？ |
 | 2026-06-13 | [日报](../2026-06-13/02-talent-density.html) | 线索层/待验证 | 1. **高人才密度的核心正在从“会不会用工具”转向“能不能稳定承担意图定义、系统编排、结果验证”。可信度：高。** | - 暂不形成结论，但提示我们关注：**如果 AI 让个人独立完成更多任务，企业可能低估了对 feedback、带教和 apprenticeship 的持续投资必要性。** | 1. 哪些企业已公开 verification / orchestration / mentoring 进入能力框架？ |
+| 2026-06-14 | [日报](../2026-06-14/02-talent-density.html) | 线索层/待验证 | 1. **高人才密度的语言正在从“岗位名”转向“技能组合”。可信度：高。** | - 暂不形成结论，但提示我们关注：**基础设施劳动力供给是否会成为更多科技公司 People strategy 的正式组成部分，仍需更多样本。** | 1. 哪些企业已把 skill portfolio 接到 staffing、mobility 或 rewards？ |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@ AI 时代的高人才密度不只是“更强个体”，而是能把问题定�
 
 ## 最近日报入口
 
-- 最新日报：2026-06-13｜[打开专题日报](../2026-06-13/02-talent-density.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-13/02-talent-density.md`
+- 最新日报：2026-06-14｜[打开专题日报](../2026-06-14/02-talent-density.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-14/02-talent-density.md`

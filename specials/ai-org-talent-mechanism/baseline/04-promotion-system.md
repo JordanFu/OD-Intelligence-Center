@@ -21,7 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-05-29 | [日报](../2026-05-29/04-promotion-system.html) | 线索层/待验证 | 1. **晋升证据包必须从“故事/使用量”升级为“可审计的过程证据 + 结果链路 + 风险门禁”。可信度：高。** | - 暂不形成结论，但提示我们关注：**skills inference 与持续绩效辅导可能会推动“更连续的识别与激励”**，但若组织没有把解释权/申诉机制做成制度，反而会引发更强的公平争议。 | 1. Okta 报告的完整方法学与细分数据（行业/职能/层级差异），以及其对组织治理的建议清单。 |
 | 2026-05-30 | [日报](../2026-05-30/04-promotion-system.html) | 线索层/待验证 | 1. **持续证据流增强**：Agent System of Record、manager workspace、verified skills 都会让日常证据更连续。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 | 2026-05-31 | [日报](../2026-05-31/04-promotion-system.html) | 线索层/待验证 | 1. **持续证据流增强**：Agent System of Record、manager workspace、verified skills 都会让日常证据更连续。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 | 2026-06-01 | [日报](../2026-06-01/04-promotion-system.html) | 线索层/待验证 | 1. **“AI 辅助晋升评审”会把晋升机制从‘会议制’推向‘数据与证据结构制’。可信度：中高。** | - 暂不形成结论，但提示我们关注：**晋升评审可能成为“组织可解释性”的试金石**——一旦 AI 参与，组织必须更严肃地面对：证据是否可追溯、规则是否透明、异议是否可处理。 | 1. 空军的 AI Action Team 在 promotion board 上到底做“screening”还是“ranking”，以及是否明确“不让 AI 选人”的边界？ |
@@ -35,6 +34,7 @@
 | 2026-06-09 | [日报](../2026-06-09/04-promotion-system.html) | 线索层/待验证 | 1. **晋升被重写的第一层是 evidence schema，不是窗口频率。可信度：高。** | - 暂不形成结论，但提示我们关注：**未来最频繁发生的，可能首先是 skill premium、项目奖励和 mobility 标记，而不是 formal level promotion。** | 1. 哪些企业已公开“持续识别 + 节奏校准”的混合晋升机制？ |
 | 2026-06-12 | [日报](../2026-06-12/04-promotion-system.html) | 线索层/待验证 | 1. **正式晋升仍应是节奏化校准动作。可信度：高。** | - 暂不形成结论，但提示我们关注：**未来更高频发生的可能是 skill premium、项目晋级、机会扩大，而不是 formal level change。** | 1. 哪些企业已经公开 promotion evidence schema 或 calibration workspace？ |
 | 2026-06-13 | [日报](../2026-06-13/04-promotion-system.html) | 线索层/待验证 | 1. **晋升证据必须开始覆盖 invisible work。可信度：中高。** | - 暂不形成结论，但提示我们关注：**哪些 invisible work 适合进入正式 promotion rubric，哪些只适合做 manager note，目前仍需更多样本。** | 1. 哪些企业已把 mentoring / orchestration / quality gate 写入正式 promotion rubric？ |
+| 2026-06-14 | [日报](../2026-06-14/04-promotion-system.html) | 线索层/待验证 | 1. **未来晋升机制会更分层，而不是更统一。可信度：高。** | - 暂不形成结论，但提示我们关注：**企业是否会形成 senior / junior 两套不同的 promotion evidence 语法，仍需更多公开样本。** | 1. 哪些企业已经按层级差异重写 promotion rubric？ |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-06-13｜[打开专题日报](../2026-06-13/04-promotion-system.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-13/04-promotion-system.md`
+- 最新日报：2026-06-14｜[打开专题日报](../2026-06-14/04-promotion-system.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-14/04-promotion-system.md`
