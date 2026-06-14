@@ -1,60 +1,63 @@
-# 2026-06-14｜AI时代组织与人才机制四课题总览
+# 2026-06-14｜AI时代组织与人才机制四专题总览
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+## 1. 今日总判断：四个专题之间共同指向什么
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+今天四个专题共同把判断再推进了一层：**AI 时代组织机制正在从“可见性分层”进入“架构分层”**。组织不再只需要把 invisible work 看见，而是开始把原来混在一起的人才系统拆开治理: `title architecture`、`skills architecture`、`authority architecture`、`workforce pipeline architecture` 正在分离。也就是说，企业越来越不愿再用单一职级或单一岗位名称，同时承接能力识别、项目分配、薪酬溢价、晋升资格、劳动力供给和组织治理。
 
-## 今日一句话结论
+## 2. 今日最重要的 5-7 条发现
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+1. **arXiv《Generative AI and the Reorganization of Labor Demand》指出，企业对 AI 的调整同时通过“跨岗位重配”和“岗位内任务重写”发生；其中 hiring reallocation 平均解释 52%，within-job redesign 解释 39.5%。**
+2. **同一篇论文进一步指出，senior jobs 调整更早，且更主要通过 reallocation 发生；junior jobs 则通过 reallocation、redesign 及其交互共同调整。**
+3. **Deloitte 从 2026 年 6 月 1 日起为美国员工启用新的更具体 title，并引入新的 `leaders` 角色。按 Business Insider 报道，Deloitte 将这次动作定义为 modernizing talent architecture，以适配更异质的技能结构和 AI 改变后的咨询工作。**
+4. **PwC 在 2026 年 2 月推出 `Learning Collective`，公开强调“skills, not titles”，并明确把 30 项关键技能拆成 15 项 AI-centric 和 15 项 human-centric。**
+5. **微软 People 团队在 2026 年 3 月重组时单列 `Workforce Acceleration`，将 skilling、redeployment、workforce planning 和 emerging human-agent collaboration 放到同一负责人下。**
+6. **Google.org 于 2026 年 6 月 11 日承诺投入 5,000 万美元，目标是在美国培训 30 万名 skilled trade workers，说明 AI 人才议题正从知识工作外扩到算力基础设施劳动力供给。**
+7. **腾讯 WXG 项目负责制试点继续提供中国样本：固定组长层级正在被更动态的项目责任权替代，但公开制度文本仍不足，暂时只能作为中等强度信号。**
 
-## 今日核心判断
+## 3. 四专题交叉关系：组织扁平化、高人才密度、岗位序列、晋升机制之间如何互相影响
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+- **组织扁平化**不再只是减层，而是把原来由稳定管理链条承接的权力、反馈、资源调度和人才发展拆散后重新分配。
+- **高人才密度**因此不只是“多招高手”，还包括谁有资格承担判断、验证、项目 owner、跨团队资源协调和带教责任。
+- **岗位族群/序列**要承接这种变化，就不能只改 title；更重要的是把 skill portfolio、authority boundary、scope 和 pricing logic 分开表达。
+- **晋升机制**也会被迫从“岗位级别升级”转向“是否稳定承担更大责任包、是否能跨周期证明更高层级判断与组织性贡献”。
+- 四者连起来看，AI 时代真正被重写的是：**组织用什么容器来承接变化中的工作、能力、责任和价格**。
 
-## 今日背景材料
+## 4. 今日判断变化：哪些判断被增强、削弱或修正
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+- **增强**：岗位变化正在被更明确地拆成两类机制: headcount/岗位重配 与 job content/任务重写，两者不能混为一谈。
+- **增强**：title architecture 与 skills architecture 正在分离。Deloitte 更像重写 title 容器，PwC 更像强化 skill 容器。
+- **增强**：AI 人才系统已不再是单一 HR 议题，而是 workforce planning、redeployment、learning、human-agent collaboration 的联动系统。
+- **增强**：高层级岗位与低层级岗位面对的 AI 调整路径不同，说明未来晋升和培养节奏也不宜一刀切。
+- **保持谨慎**：今天仍缺足够一手制度文本，证明中国公司已经把 project-owner 结构正式写入晋升、薪酬和人才盘点机制。
 
-## 今日新增证据地图
+## 5. 关键冲突与反例：哪些信息相互矛盾，需要继续验证
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+- **skills, not titles** 与 **更细新 title** 同时存在：这不是谁对谁错，而是不同企业在解决不同问题。
+- **高层级更早重配** 与 **初级岗位更广泛重写** 之间存在张力：组织可能更快改变 senior scope，却让 junior employee 承受更大的不确定性。
+- **扁平化** 与 **培养梯队** 之间仍有冲突：项目 owner 化能提速，但也可能削弱稳定带教容器。
+- **AI 人才外扩** 与 **白领人才密度叙事** 之间存在盲点：若企业只研究白领岗位，就会低估基础设施劳动力约束。
 
-## 线索层
+## 6. 行动启发：按战略-组织架构-岗位序列-人才密度-晋升激励-沟通落地六个维度归纳
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+- **战略**：先拆清楚组织要解决的是 title 僵化、技能识别、资源重配、还是外部劳动力供给，不要用一个“AI 转型”统包。
+- **组织架构**：在压层级前，先明确 authority boundary，判断哪些稳定管理权要转成动态项目责任权。
+- **岗位序列**：优先做 family + capability band + authority + pricing 的四层表达，而不是先扩 title 树。
+- **人才密度**：把高人才密度拆成 build、verify、orchestrate、mentor、redeploy 五类责任，不只盯“会用工具”。
+- **晋升激励**：固定窗口可以保留，但证据流要前置，并能区分岗位升级、技能溢价、项目奖励和市场校准。
+- **沟通落地**：向业务解释“新岗位/新序列”未必是答案，很多时候真正需要的是更清晰的 skill tag、scope 定义和 pay treatment。
 
-## 待补齐的落地问题
+## 7. 明日优先追踪问题
 
-正式重跑必须把证据转化为战略、岗位、职级、薪酬和激励机制建议；没有证据链时，只记录缺口，不输出管理建议。
+1. 哪些企业已把 title architecture、skills architecture、authority architecture 分开写进正式制度？
+2. 哪些公司给 junior employee 提供了 AI 时代更稳定的带教与成长容器？
+3. 中国科技公司是否会出现“项目负责制 + 宽岗位 family + 分轨激励”的组合式样本？
+4. 基础设施劳动力供给是否会进入更多科技公司的正式 workforce planning 口径？
 
-## 待验证清单与下一步计划
+## 来源索引（当日关键）
 
-1. 检索今日新增官方/一手材料，确认是否有新公司案例。
-2. 检索权威媒体与咨询报告，补齐改革时间线、员工影响和争议。
-3. 检索招聘 JD 与薪酬信号，验证岗位变宽、专家深化和技能溢价。
-4. 收集社媒/职场平台弱信号，只进入线索池，不进入结论层。
-5. 主代理交叉验证后，将可互证内容升级为正式日报。
-
-## 来源索引
-
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
+- arXiv《Generative AI and the Reorganization of Labor Demand》：https://arxiv.org/abs/2605.23159
+- Business Insider《Deloitte is overhauling job titles for its US workforce》：https://www.businessinsider.com/deloitte-gives-us-employees-new-job-titles-leader-role-2026-1
+- Business Insider《PwC is rethinking how to train workers in the AI era》：https://www.businessinsider.com/pwc-training-employees-for-ai-workplace-learning-agents-big-four-2026-2
+- Business Insider《Microsoft makes sweeping overhaul of HR organization》：https://www.businessinsider.com/microsoft-makes-sweeping-overhaul-of-hr-organization-internal-memo-shows-2026-3
+- Axios《Google pledges $50 million to help train skilled trade workers》：https://www.axios.com/2026/06/11/google-trade-worker-initiative-ai
+- 内部知识源：`knowledge/wiki/tencent-wxg-project-owner-reform-2026-05.md` ｜ `knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md` ｜ `knowledge/wiki/gitlab-promotions-transfers-handbook.md` ｜ `digest.md`

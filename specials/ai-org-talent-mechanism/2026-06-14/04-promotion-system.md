@@ -1,52 +1,100 @@
 # 2026-06-14｜专题四：未来组织的晋升机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+## 1. 今日一句话专题判断
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+今天晋升机制最关键的新判断是：**未来晋升机制需要从“统一窗口管理所有人”转向“按层级和责任包差异管理证据流”，因为 senior 与 junior 岗位正沿不同路径被 AI 重写。**
 
-## 今日一句话结论
+## 2. 今日新增事实：只写可追溯事实，注明来源
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+1. **arXiv《Generative AI and the Reorganization of Labor Demand》指出，senior jobs 调整更早且更主要通过 reallocation 发生；junior jobs 则通过 reallocation、redesign 和交互共同调整。**  
+   - 来源：arXiv  
+   - https://arxiv.org/abs/2605.23159
+2. **GitLab Handbook 仍采用 `planning → calibration → processing` 的半年节奏，所有 inline promotions 需要 promotion document，并要求同时说明 business results 与 business justification。**  
+   - 来源：内部结构化知识卡  
+   - `knowledge/wiki/gitlab-promotions-transfers-handbook.md`
+3. **PwC 公开强调不同层级不需要在一年内掌握全部 30 项关键技能，而是按层级定义不同 focus。**  
+   - 来源：Business Insider  
+   - https://www.businessinsider.com/pwc-training-employees-for-ai-workplace-learning-agents-big-four-2026-2
+4. **微软 People 团队将 skilling、redeployment、workforce planning 和 human-agent collaboration 并入 `Workforce Acceleration`，显示 career movement 与 learning 的治理正在前置。**  
+   - 来源：Business Insider  
+   - https://www.businessinsider.com/microsoft-makes-sweeping-overhaul-of-hr-organization-internal-memo-shows-2026-3
+5. **`Beyond the Org Chart` 继续提醒，AI 影响 mentoring、feedback network 和职业成长体验，说明 promotion evidence 若只看显性结果，会遗漏重要成长与组织性贡献。**  
+   - 来源：arXiv  
+   - https://arxiv.org/abs/2605.22707
 
-## 今日核心判断
+## 3. 今日核心判断：3-5条，每条注明可信度、证据基础、为什么重要
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+1. **未来晋升机制会更分层，而不是更统一。可信度：高。**  
+   - 证据基础：岗位重组论文表明 senior 与 junior 的调整路径不同；PwC 对不同层级 skill focus 的区分。  
+   - 为什么重要：同一窗口、同一证据模板、同一准备路径会越来越难适配不同层级岗位。
+2. **晋升窗口可以保留，但 readiness evidence 必须持续化。可信度：高。**  
+   - 证据基础：GitLab promotion document + 半年校准；微软把 redeployment 与 skilling 前置治理。  
+   - 为什么重要：组织不一定要取消窗口，但必须把证据采集、技能增长和职责变化的跟踪前移。
+3. **高层级晋升会越来越看重 reallocation capability，低层级成长则更依赖 redesign learning。可信度：中高。**  
+   - 证据基础：岗位重组论文关于 senior/junior 差异。  
+   - 为什么重要：未来更高层级的价值，更多体现在如何重配资源、定义 scope、调度能力，而不只是个人产出。
+4. **promotion evidence 需要覆盖 invisible work，否则组织会系统性低估 mentor / orchestrator。可信度：中高。**  
+   - 证据基础：`Beyond the Org Chart`；GitLab 的 business justification 逻辑。  
+   - 为什么重要：AI 时代越高层级，越多贡献不体现在可见 deliverable 数量上。
 
-## 今日背景材料
+## 4. 重点案例事实还原：为什么 GitLab 仍是最佳基线，但证据模板需要升级
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+- 背景：很多企业会把 AI 时代晋升讨论偷换成“要不要取消固定晋升窗口”。
+- GitLab 基线告诉我们的事实：  
+  - 保留半年校准并不妨碍灵活；  
+  - inline promotion 通过 promotion document 把 business results、business justification、values alignment 结构化；  
+  - out-of-cycle 可以存在，但要把预算、审批和业务必要性显性化。  
+- 今天新增证据带来的升级要求：  
+  - senior 岗位更早通过 reallocation 被改写，说明高层级证据需要更多捕捉资源重配、scope 设计、人才调度。  
+  - junior 岗位更多通过 redesign 被改写，说明低层级成长更要看学习速度、任务边界变化、验证能力提升。  
+  - invisible work 仍然容易被忽略，必须进入证据流。  
+- 未来 promotion schema 可以怎么改：  
+  - 对 senior 岗位增加 `resource reallocation`、`authority design`、`team acceleration` 字段；  
+  - 对 junior / mid 岗位增加 `capability growth`、`verification maturity`、`workflow redesign contribution` 字段；  
+  - 持续记录 mentoring、quality gate、cross-team coordination，而不是窗口前临时补写。
+- 可借鉴点：  
+  - 保留节奏化校准；  
+  - 区分层级的证据重点；  
+  - 把 skill growth 与 role growth 拆开治理。
+- 不可照搬点：  
+  - 如果现有 job framework 很弱，直接扩充证据字段会造成管理负担和噪音。
 
-## 今日新增证据地图
+## 5. Context层：暂不形成结论，但提示我们关注……
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+- 暂不形成结论，但提示我们关注：**企业是否会形成 senior / junior 两套不同的 promotion evidence 语法，仍需更多公开样本。**
+- 暂不形成结论，但提示我们关注：**若晋升之外的 skill premium、market adjustment、项目奖励不分流，promotion 仍会承接过多资源诉求。**
+- 暂不形成结论，但提示我们关注：**员工是否会接受更持续的 evidence tracking，尤其是 AI 参与汇总时的信任边界。**
 
-## 线索层
+## 6. 证据地图
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+- 官方/一手：暂无新增官方晋升制度全文进入主结论层。  
+- 权威媒体/咨询：Business Insider 关于 PwC 与微软。  
+- 公司案例/制度材料：GitLab Promotions Handbook。  
+- 学术/研究：`Generative AI and the Reorganization of Labor Demand`；`Beyond the Org Chart`。  
+- 招聘 JD / 薪酬：今日无高置信新增薪酬事实进入结论层。  
+- 社媒/职场线索：不进入结论层。  
+- 内部信息库/知识库：`knowledge/wiki/gitlab-promotions-transfers-handbook.md` ｜ `digest.md`。  
 
-## 待补齐的落地问题
+## 7. 对我们行动的启发
 
-正式重跑必须回答：AI 贡献如何进入晋升证据包、谁负责验证与质量、是否有校准机制、是否存在调岗降薪和劳动合规风险。
+1. 先区分岗位层级差异，再设计晋升规则；不要让 senior 和 junior 共用同一套证据重心。  
+2. 把 promotion、skill growth、market adjustment、project reward 分轨治理。  
+3. 保留固定校准窗口，但把证据记录日常化，并明确哪些字段由 AI 汇总、哪些必须由人判断。  
+4. 把 mentoring、verification、resource reallocation、authority design 纳入更高层级晋升证据。  
 
-## 来源索引
+## 8. 待验证清单与下一步搜索路径
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
+1. 哪些企业已经按层级差异重写 promotion rubric？  
+   - Query：`promotion rubric senior junior different official`
+2. 哪些公司把 skill growth 与 title promotion 分轨管理？  
+   - Query：`skill growth separate from promotion official`
+3. 中国公司是否会出现“固定窗口 + 持续证据 + skill premium 分流”的公开样本？  
+   - Query：`晋升 窗口 持续证据 技能津贴 官方`
+
+## 9. 来源索引
+
+- arXiv《Generative AI and the Reorganization of Labor Demand》：https://arxiv.org/abs/2605.23159  
+- arXiv《Beyond the Org Chart》：https://arxiv.org/abs/2605.22707  
+- Business Insider《PwC is rethinking how to train workers in the AI era》：https://www.businessinsider.com/pwc-training-employees-for-ai-workplace-learning-agents-big-four-2026-2  
+- Business Insider《Microsoft makes sweeping overhaul of HR organization》：https://www.businessinsider.com/microsoft-makes-sweeping-overhaul-of-hr-organization-internal-memo-shows-2026-3  
+- 内部：`knowledge/wiki/gitlab-promotions-transfers-handbook.md`

@@ -1,7 +1,7 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-06-13 18:00
+> 最后更新：2026-06-14 18:00
 
 ---
 
@@ -23,6 +23,62 @@
 - 💬参考：社交平台/社区讨论，需交叉验证
 
 -->
+
+## 2026-06-14
+
+### [1] 劳动力重组论文：企业对 AI 的调整同时通过“岗位重配”和“岗位内任务重写”发生
+- **事件摘要**：2026 年 5 月 22 日提交的 arXiv 论文《Generative AI and the Reorganization of Labor Demand》基于覆盖美国全行业的招聘数据指出，企业对 AI 的劳动力调整并非单一路径，而是同时通过 hiring reallocation 和 within-job redesign 进行。其中前者平均解释 52%，后者解释 39.5%；论文同时指出 senior jobs 更早且更主要通过重配调整，而 junior jobs 更常同时经历重配与任务重写。
+- **来源**：arXiv（https://arxiv.org/abs/2605.23159）
+- **来源平台**：arXiv
+- **来源可信度**：⭐高
+- **OD启示**：这条证据把“AI 改变岗位”拆成了两个不同治理对象：一个是 HC/岗位配置，一个是 job content / task architecture。组织若把两者混在一起，会同时做错扁平化、岗位架构与晋升机制。
+- **标签**：#LaborDemand #Reallocation #JobRedesign #SeniorityGap #WorkRedesign
+- **抓取时间**：2026-06-14 18:00
+
+### [2] Deloitte：用更细的新 title 与 job family 重写咨询业的人才架构
+- **事件摘要**：Business Insider 于 2026 年 1 月 22 日报道，Deloitte 将从 2026 年 6 月 1 日起为美国员工启用新的更具体 title，并引入新的 `leaders` 角色。报道援引公司内部说明称，现有人才架构已无法支撑更异质的咨询技能结构，新的 title / family / sub-family 设计旨在让角色差异更清晰。
+- **来源**：Business Insider（https://www.businessinsider.com/deloitte-gives-us-employees-new-job-titles-leader-role-2026-1）
+- **来源平台**：Business Insider
+- **来源可信度**：📰较高
+- **OD启示**：这说明并不是所有企业都会走“skills 替代 title”。当外部市场识别、职业路径可读性和客户沟通变成问题时，组织反而会把 title 设计得更细。
+- **标签**：#Deloitte #TalentArchitecture #JobFamily #TitleOverhaul #Consulting
+- **抓取时间**：2026-06-14 18:00
+
+### [3] PwC：公开强调“skills, not titles”，并把关键能力拆成 30 项
+- **事件摘要**：Business Insider 于 2026 年 2 月 6 日报道，PwC 推出 `Learning Collective`，并明确提出“skills, not titles”。PwC 将未来关键能力拆成 30 项，其中 15 项 AI-centric、15 项 human-centric，并表示不同层级只需聚焦适合自己的 skill focus，不追求一年内掌握全部。
+- **来源**：Business Insider（https://www.businessinsider.com/pwc-training-employees-for-ai-workplace-learning-agents-big-four-2026-2）
+- **来源平台**：Business Insider
+- **来源可信度**：📰较高
+- **OD启示**：PwC 展示了另一条路径：不急着改 title，而是先改 skill language、学习路径和项目配置逻辑。它对岗位/族群/序列和高人才密度课题都很关键。
+- **标签**：#PwC #SkillsNotTitles #LearningCollective #SkillPortfolio #TalentDensity
+- **抓取时间**：2026-06-14 18:00
+
+### [4] 微软 People 团队单列 `Workforce Acceleration`，把 skilling、redeployment 与 human-agent collaboration 收口
+- **事件摘要**：Business Insider 于 2026 年 3 月 25 日披露微软 Chief People Officer 的内部 memo，其中新设 `Workforce Acceleration`，并明确将 skilling、redeployment、workforce planning 和 emerging human-agent collaboration 视为一组需要统一治理的能力。
+- **来源**：Business Insider（https://www.businessinsider.com/microsoft-makes-sweeping-overhaul-of-hr-organization-internal-memo-shows-2026-3）
+- **来源平台**：Business Insider
+- **来源可信度**：📰较高
+- **OD启示**：People 职能正在从“政策和福利管理”走向“人才系统加速器”。AI 时代扁平化与岗位重组如果不让 People 团队接住 redeployment 和 skill acceleration，就很难落地。
+- **标签**：#Microsoft #WorkforceAcceleration #Redeployment #Skilling #HumanAgentCollaboration
+- **抓取时间**：2026-06-14 18:00
+
+### [5] Google：AI 基础设施竞争开始倒逼科技公司投资 skilled trades pipeline
+- **事件摘要**：Axios 于 2026 年 6 月 11 日报道，Google.org 承诺投入 5,000 万美元，在美国培训超过 30 万名 skilled trade workers。报道强调，Anthropic、Meta、OpenAI 与 Google 等公司都在寻找缓解 AI 基础设施建设劳动力短缺的方案。
+- **来源**：Axios（https://www.axios.com/2026/06/11/google-trade-worker-initiative-ai）
+- **来源平台**：Axios
+- **来源可信度**：📰较高
+- **OD启示**：高人才密度不应再只盯知识工作者。AI 竞争已经开始包含算力基础设施的人才供给链、区域劳动力和项目交付能力。
+- **标签**：#Google #SkilledTrades #AIInfrastructure #TalentPipeline #WorkforcePlanning
+- **抓取时间**：2026-06-14 18:00
+
+### [6] 腾讯 WXG：项目负责制继续提供中国大厂层级重排的中强信号
+- **事件摘要**：内部知识卡基于《中国企业家》及多家转述整理指出，腾讯 WXG 多部门在 2026 年 5 月开始试行从“组长负责制”转向“项目负责制”，核心变化是弱化固定管理链条，把责任更多压到项目 owner 与结果责任上。当前仍缺腾讯公开制度全文。
+- **来源**：内部结构化知识卡（`knowledge/wiki/tencent-wxg-project-owner-reform-2026-05.md`）
+- **来源平台**：内部知识库 / 媒体转述整理
+- **来源可信度**：📰较高
+- **OD启示**：国内样本虽然仍偏弱，但已经足以提示我们关注：AI 时代中国大厂的扁平化更可能先表现为 project-owner 化，而不是正式宣布大规模去职级。
+- **标签**：#Tencent #ProjectOwner #FlatOrganization #ChinaSignal #AuthorityShift
+- **抓取时间**：2026-06-14 18:00
 
 ## 2026-06-13
 
