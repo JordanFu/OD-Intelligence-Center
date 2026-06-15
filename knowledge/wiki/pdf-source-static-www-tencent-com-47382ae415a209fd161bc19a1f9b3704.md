@@ -1,5 +1,5 @@
 ---
-title: 47382ae415a209fd161bc19a1f9b3704
+title: 腾讯 2026 一季度业绩公告 PDF
 source: static.www.tencent.com
 date: 待核验
 ingested: 2026-06-15
@@ -9,11 +9,11 @@ tags: [AI组织设计]
 status: 已下载原始PDF，已生成结构化初筛卡片
 ---
 
-# 47382ae415a209fd161bc19a1f9b3704
+# 腾讯 2026 一季度业绩公告 PDF
 
 ## 一句话判断
 
-47382ae415a209fd161bc19a1f9b3704 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
+腾讯 2026 一季度业绩公告 PDF 已作为日报/周报证据源入库，当前需要完成结构化精读后再进入结论层。
 
 ## 入库状态
 
@@ -52,6 +52,8 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 ## 被引用位置
 
 - `daily/2026-06-09.md:99`：来源：Tencent（；https://www.tencent.com/en-us/articles/2202350.html）
+- `../../../Users/tal/Documents/New project/research/private-industry-bigtech-watch/daily-log/2026-06-08.md:80`：- 腾讯 2026 一季度业绩公告 PDF：``
+- `../../../Users/tal/Documents/New project/research/private-industry-bigtech-watch/daily-log/2026-06-08.md:187`：| 腾讯 2026 一季度业绩公告 |  | 腾讯 | revamped AI researchers / new AI products 单独核算 | A | 是 |
 
 ## 后续精读任务
 
