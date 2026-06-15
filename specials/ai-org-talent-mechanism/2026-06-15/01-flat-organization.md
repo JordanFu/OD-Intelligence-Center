@@ -1,52 +1,120 @@
 # 2026-06-15｜专题一：组织扁平化与中层减少
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+## 1. 今日一句话专题判断
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+今天关于扁平化最关键的新判断是：**AI 时代扁平化正在从“压缩中层”转向“重写中层责任包”，manager 的核心价值越来越从流程传递者变成 authority owner、AI orchestrator 和人才再部署教练。**
 
-## 今日一句话结论
+## 2. 今日新增事实：只写可追溯事实，注明来源
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+1. **BCG 于 2026 年 6 月 3 日披露，72% 受访者认为 AI 已改变其岗位技能期待，47% 表示自己花更多时间 managing and directing AI than doing the work itself。**  
+   - 来源：BCG  
+   - https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work
+2. **同一报告显示，42% 的 regular frontline users 每周因 AI 节省至少一个完整工作日，但 66% 表示组织几乎没有指导这些时间该如何重新配置。**  
+   - 来源：BCG  
+   - https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work
+3. **Workday 明确提出，在 human-agent workflows 中 humans remain the ultimate orchestrators and decision makers，且设计 operating model 的第一原则是 clear boundaries of authority。**  
+   - 来源：Workday  
+   - https://www.workday.com/en-us/perspectives/hr/operating-models-for-human-and-agents.html
+4. **Workday 同文指出，75% 员工愿意与 agents 协作，但只有 24% 员工接受 agents 在自己不知情的情况下“后台运行”。**  
+   - 来源：Workday  
+   - https://www.workday.com/en-us/perspectives/hr/operating-models-for-human-and-agents.html
+5. **Salesforce 官方披露，通过 4Rs 框架已把数百名 support engineers redeploy 到增长更快岗位，并通过 `Career Connect`、培训和 cohort move 承接结构调整。**  
+   - 来源：Salesforce  
+   - https://www.salesforce.com/news/stories/salesforce-reshaping-workforce-in-age-of-ai/
+6. **腾讯 WXG 项目负责制的内部知识卡继续显示：组织试点的重点不是“少一层 title”，而是把固定组长权力改成动态项目责任权。**  
+   - 来源：内部知识库  
+   - `knowledge/wiki/tencent-wxg-project-owner-reform-2026-05.md`
 
-## 今日核心判断
+## 3. 今日核心判断：3-5条，每条注明可信度、证据基础、为什么重要
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+1. **扁平化的核心对象已从 org chart 转向 responsibility package。可信度：高。**  
+   - 证据基础：BCG 的 `managing/directing AI`、Workday 的 authority boundaries、Salesforce 的 redeploy playbook。  
+   - 为什么重要：如果责任包不重写，压层级只会把更多隐性协调劳动压给个体和团队。
+2. **未来中层更像“编排者 + 护栏制定者”，而不是信息中继站。可信度：高。**  
+   - 证据基础：Workday 直接将人定义为 orchestrators and decision makers；BCG 观察到大量员工已在管理 AI。  
+   - 为什么重要：这意味着中层 redesign 不该只关注 span of control，而要重写 authority、governance、质量责任和异常处理权。
+3. **时间节省不自动等于组织变薄，反而会暴露更强的工作再设计需求。可信度：高。**  
+   - 证据基础：BCG 42% 节省一个工作日、66% 缺少再配置指导。  
+   - 为什么重要：大量企业以为效率会自然释放层级，但实际上没有 redesign 就只会制造更高节奏与更大模糊性。
+4. **People/业务联合承接 redeployment 将成为扁平化能否落地的分水岭。可信度：中高。**  
+   - 证据基础：Salesforce 通过 Career Connect、cohort move、培训来处理岗位迁移；腾讯案例提示项目 owner 化若缺少配套会失稳。  
+   - 为什么重要：中层减少后，谁负责把人转到新责任包，是组织能否持续推进扁平化的关键。
 
-## 今日背景材料
+## 4. 重点案例事实还原：Salesforce 的 4Rs 为什么比“裁中层”更值得研究
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+- 背景：AI 进入客服、支持和交付场景后，很多组织首先看到的是 headcount 问题。
+- 时间线：  
+  - 2025 年初，Salesforce 在 support 场景部署 Agentforce；  
+  - 几个月后已处理 260 万次客户对话，63% resolution rate；  
+  - 2026-04-29，Salesforce 公开总结 workforce reshaping 做法。
+- 战略背景：  
+  - 把 reactive support 转成更 proactive 的 customer engagement；  
+  - 目标不是简单减人，而是让被自动化冲击的岗位转向更高价值场景。
+- 原组织形态：  
+  - 大量 support engineers 围绕被动问题处理展开。
+- 新组织形态：  
+  - 一部分工作被 AI 吸收；  
+  - 人员通过个人申请、cohort move 和基于技能匹配的定向转岗进入 success architect、renewals 等增长岗位。
+- 减少了哪些层级/角色：  
+  - 官方没有披露“裁掉哪些 manager”；  
+  - 但明确通过不回填部分岗位来管理 headcount，并重平衡支持与增长岗位。
+- 管理者如何转型：  
+  - 更关注识别 transferable skills、安排训练、安抚转岗焦虑、帮助员工在新责任包里成功。
+- HR 与业务如何执行：  
+  - 依托 `4Rs` 和 `Career Connect`；  
+  - 在工作时间内给培训时间；  
+  - 用 cohort move 与定向匹配降低个人转岗摩擦。
+- 员工影响：  
+  - 技术支持背景被重新定价；  
+  - 原先不显眼的“客户问题处理、沟通、复杂信息不完整下解决问题”的能力被移植到新岗位。
+- 指标变化：  
+  - 2.6 million conversations；63% resolution rate；官方表述为“hundreds” support engineers redeployed。
+- 争议和阻碍：  
+  - 转岗前期不适、语言和目标体系切换、学习曲线陡峭。
+- 可借鉴点：  
+  - 先定义 `redesign / reskill / redeploy / rebalance`，再讨论层级与人数。  
+  - 给员工时间与路径，而不是默认他们自己消化结构变化。
+- 不可照搬点：  
+  - Salesforce 有较成熟的人才市场和培训基础；缺少这些底座的公司直接照搬，容易变成隐性裁撤。
 
-## 今日新增证据地图
+## 5. Context层：暂不形成结论，但提示我们关注……
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+- 暂不形成结论，但提示我们关注：**manager-orchestrator 的新责任包是否会让少数中层过载，尤其当带教和治理职责没有同步减法时。**
+- 暂不形成结论，但提示我们关注：**中国公司项目负责制的公开样本仍偏媒体层，制度文本不足。**
+- 暂不形成结论，但提示我们关注：**authority boundary 如何进入绩效、问责和异常升级机制，公开样本还不够。**
 
-## 线索层
+## 6. 证据地图
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+- 官方/一手：Salesforce、Workday。  
+- 权威媒体/咨询：BCG；腾讯案例的内部知识卡。  
+- 公司案例：Salesforce 4Rs、腾讯 WXG 项目负责制。  
+- 学术/研究：今日主结论层未新增学术论文；沿用既有岗位重组研究作为背景。  
+- 招聘 JD / 薪酬：今日无高置信新增 JD / 薪酬进入主结论。  
+- 社媒/职场线索：未升格为结论。  
+- 内部信息库/知识库：`knowledge/wiki/tencent-wxg-project-owner-reform-2026-05.md` ｜ `digest.md`。  
 
-## 待补齐的落地问题
+## 7. 对我们行动的启发
 
-正式重跑必须回答：哪些管理工作被系统化、哪些仍需管理者承担、管理跨度是否变化、员工体验和晋升路径是否受影响、是否只是成本控制而非组织升级。
+1. 扁平化设计先列出要迁移的责任包：authority、review、escalation、coaching、redeployment。  
+2. 中层转型定义不要停留在“player-coach”，要进一步写清楚 AI 编排与治理责任。  
+3. 对被节省下来的时间，要明确规定转投到哪些高价值活动，否则节省会被重新填满。  
+4. 扁平化沟通必须同时讲清“谁少做什么、谁多做什么、谁拥有最终决定权”。  
 
-## 来源索引
+## 8. 待验证清单与下一步搜索路径
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
+1. 哪些企业已公开 manager-orchestrator 的正式能力模型？  
+   - Query：`manager orchestrator AI capability model official`
+2. 哪些公司把 authority boundary 写入流程或岗位说明？  
+   - Query：`authority boundary human agent workflow official`
+3. 中国公司是否有公开的 redeployment playbook 或内部人才市场制度？  
+   - Query：`内部人才市场 转岗 AI 官方`
+
+## 9. 来源索引
+
+- BCG：`AI Is Reshaping Jobs Faster Than Companies Are Reshaping Work`  
+  https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work
+- Workday：`Designing Operating Models for Human + Agent Teams`  
+  https://www.workday.com/en-us/perspectives/hr/operating-models-for-human-and-agents.html
+- Salesforce：`How Salesforce Is Reshaping Its Workforce in the Age of AI`  
+  https://www.salesforce.com/news/stories/salesforce-reshaping-workforce-in-age-of-ai/
+- 内部：`knowledge/wiki/tencent-wxg-project-owner-reform-2026-05.md`

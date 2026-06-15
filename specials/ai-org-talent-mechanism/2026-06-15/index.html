@@ -1,3 +1,91 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>2026-06-15 AI时代组织与人才机制研究状态记录</title><style>body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",sans-serif;background:#0f1117;color:#eef2fb;line-height:1.75;margin:0}main{max-width:1080px;margin:auto;padding:28px 24px}.hero,.card{background:#171a24;border:1px solid #31374b;border-radius:16px;padding:22px;margin:12px 0}.hero{border-color:#f59e0b}.badge{display:inline-block;background:#78350f;color:#fde68a;border:1px solid #f59e0b;border-radius:999px;padding:4px 10px;font-weight:800}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.card a,.btn{display:inline-block;color:white;background:#7c92ff;text-decoration:none;border-radius:8px;padding:8px 12px;font-weight:700}.btn{background:#202434;border:1px solid #31374b}@media(max-width:900px){.grid{grid-template-columns:1fr}}</style><link rel="stylesheet" href="../../../assets/report-share.css">
-<script defer src="../../../assets/report-share.js"></script>
-</head><body><main><a class="btn" href="../../../index.html">返回 OD 情报中心</a><section class="hero"><span class="badge">非决策稿｜待正式重跑</span><h1>2026-06-15 AI时代组织与人才机制研究状态记录</h1><p>本页只说明自动化已触发但尚未完成正式多代理研究。缺少当日新增一手事实、反例、薪酬/JD 信号和主代理交叉验证时，不再用兜底内容冒充日报。</p><a class="card a" href="./00-overview.html">查看缺口与重跑清单</a></section><section class="grid"><article class="card"><h2>组织扁平化</h2><p>待补齐管理层级、管理跨度、员工影响与反例。</p><a href="./01-flat-organization.html">查看缺口</a></article><article class="card"><h2>高人才密度</h2><p>待补齐复合能力证据、招聘/JD/薪酬信号。</p><a href="./02-talent-density.html">查看缺口</a></article><article class="card"><h2>岗位族群序列</h2><p>待补齐岗位合并、专家深化与薪酬承接证据。</p><a href="./03-job-family-career-architecture.html">查看缺口</a></article><article class="card"><h2>未来晋升机制</h2><p>待补齐晋升证据包、校准与合规风险。</p><a href="./04-promotion-system.html">查看缺口</a></article></section></main></body></html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026-06-15 AI时代组织与人才机制四课题日报</title>
+  <style>
+    :root{--bg:#0f1117;--surface:#171a24;--surface2:#202434;--border:#31374b;--text:#eef2fb;--text2:#b2bad0;--accent:#7c92ff;--green:#34d399;--orange:#fbbf24}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Noto Sans SC",sans-serif;background:linear-gradient(180deg,rgba(124,146,255,.06),transparent 300px),var(--bg);color:var(--text);line-height:1.75}
+    main{max-width:1080px;margin:0 auto;padding:28px 24px 70px}
+    .toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px}
+    .btn{display:inline-flex;align-items:center;padding:8px 14px;border:1px solid var(--border);border-radius:8px;background:var(--surface);color:var(--text);text-decoration:none;font-size:13px;font-weight:700}
+    .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+    .hero{border:1px solid rgba(124,146,255,.38);border-radius:16px;padding:26px;background:linear-gradient(135deg,rgba(124,146,255,.12),rgba(52,211,153,.06)),var(--surface);position:relative;overflow:hidden;margin-bottom:18px}
+    .hero:before{content:"";position:absolute;inset:0 0 auto;height:3px;background:linear-gradient(90deg,var(--accent),var(--green),var(--orange))}
+    .badge{display:inline-flex;font-size:11px;font-weight:800;padding:3px 10px;border-radius:999px;background:rgba(124,146,255,.14);color:var(--accent);border:1px solid rgba(124,146,255,.34);margin-bottom:10px}
+    h1{font-size:clamp(28px,4vw,44px);line-height:1.16;margin-bottom:10px}
+    .lead{color:var(--text2);max-width:920px;font-size:15px}
+    .grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:18px 0}
+    .card,.section{background:rgba(23,26,36,.9);border:1px solid var(--border);border-radius:12px;padding:16px;box-shadow:inset 0 1px 0 rgba(255,255,255,.025)}
+    .card{min-height:178px;display:flex;flex-direction:column;gap:8px}
+    .card h2{font-size:16px;line-height:1.35}
+    .card p,.section p,li{font-size:13px;color:var(--text2)}
+    .card a{margin-top:auto;color:#fff;background:var(--accent);border-radius:8px;padding:8px 12px;text-decoration:none;font-size:13px;font-weight:800;text-align:center}
+    .section{margin-top:16px}
+    .section h2{font-size:20px;margin-bottom:12px}
+    ul{display:grid;gap:8px;padding-left:20px}
+    .callout{border-left:3px solid var(--green);background:rgba(52,211,153,.08)}
+    .meta{display:flex;gap:10px;flex-wrap:wrap;color:var(--text2);font-size:12px;margin-top:12px}
+    .meta span{background:var(--surface2);border:1px solid var(--border);border-radius:999px;padding:3px 9px}
+    @media(max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:640px){main{padding:18px 14px 52px}.grid{grid-template-columns:1fr}.hero{padding:20px}.card{min-height:auto}}
+  </style>
+  <link rel="stylesheet" href="../../../assets/report-share.css">
+  <script defer src="../../../assets/report-share.js"></script>
+</head>
+<body>
+  <main>
+    <div class="toolbar">
+      <a class="btn" href="../../../index.html">返回 OD 情报中心</a>
+      <a class="btn primary" href="./00-overview.html">阅读总览报告</a>
+    </div>
+
+    <section class="hero">
+      <span class="badge">四专题日报 · 2026-06-15</span>
+      <h1>AI时代组织与人才机制四课题日报</h1>
+      <p class="lead">今日主线从“架构分层”继续推进到“责任包分层”。BCG 的岗位期待重写、Workday 的 authority boundary、EY 的 career portfolios 与 agile promotions、Accenture 的 AI 晋升门槛，以及 Salesforce 的 redeploy playbook 共同说明：组织正在围绕责任包，而不是静态 title，重写岗位、人才与晋升机制。</p>
+      <div class="meta"><span>4 份专题日报</span><span>1 份总览摘要</span><span>内部知识源 + 官方/一手 + 权威媒体互证</span></div>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2>组织扁平化与中层减少</h2>
+        <p>扁平化正在从“减层”转向“重写中层责任包”：authority、AI 编排、再部署与带教责任被重新分层。</p>
+        <a href="./01-flat-organization.html">阅读专题一</a>
+      </article>
+      <article class="card">
+        <h2>高人才密度与复合型人才</h2>
+        <p>高人才密度正在从“会不会用 AI”升级为“能否承担 problem framing、AI orchestration、verification 与 team acceleration”。</p>
+        <a href="./02-talent-density.html">阅读专题二</a>
+      </article>
+      <article class="card">
+        <h2>岗位族群序列建设</h2>
+        <p>岗位架构正转向 career portfolio、skill proof 与 authority field 的组合表达，而不是只靠静态职位描述。</p>
+        <a href="./03-job-family-career-architecture.html">阅读专题三</a>
+      </article>
+      <article class="card">
+        <h2>未来晋升机制</h2>
+        <p>晋升机制开始从统一窗口转向责任包证据管理，AI 使用与 scope 扩展正进入更显性的晋升语法。</p>
+        <a href="./04-promotion-system.html">阅读专题四</a>
+      </article>
+    </section>
+
+    <section class="section callout">
+      <h2>今日总判断</h2>
+      <p>AI 时代组织不该再试图用一个岗位名或一个晋升窗口承接所有变化。更稳妥的方向是把 problem framing、AI orchestration、verification、authority ownership 与 redeployment 拆成不同责任包，再决定这些责任由哪些岗位、路径和激励机制接住。</p>
+    </section>
+
+    <section class="section">
+      <h2>最重要的行动启发</h2>
+      <ul>
+        <li>先定义责任包，再决定它们由岗位、skill tag、项目机制还是晋升规则承接。</li>
+        <li>把 manager redesign 写成 orchestrate、govern、coach、redeploy 四类责任，而不是抽象“带队”。</li>
+        <li>用 career portfolio 和 skill proof 承接更流动的人才路径，不急着膨胀新序列。</li>
+        <li>保留校准节奏，但把 AI 使用、verification 和 authority ownership 纳入 promotion evidence。</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>

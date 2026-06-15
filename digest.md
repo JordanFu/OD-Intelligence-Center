@@ -1,7 +1,7 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-06-14 18:00
+> 最后更新：2026-06-15 18:00
 
 ---
 
@@ -23,6 +23,62 @@
 - 💬参考：社交平台/社区讨论，需交叉验证
 
 -->
+
+## 2026-06-15
+
+### [1] BCG：AI 正在更快改写岗位期待，越来越多员工在“管理和指挥 AI”
+- **事件摘要**：BCG 于 2026 年 6 月 3 日发布第四年度 `AI at Work` 报告。新闻稿显示，72% 受访者认为 AI 已明显改变其岗位技能期待，47% 表示自己已把更多时间花在 managing and directing AI，而不是直接做工作本身。
+- **来源**：BCG（https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work）
+- **来源平台**：BCG
+- **来源可信度**：⭐高
+- **OD启示**：这条证据说明岗位价值正在从“亲自产出”转向“编排 AI + 判断结果 + 负责输出”。组织设计若还沿用旧岗位语法，会低估 manager、senior IC 和复合型人才的新责任包。
+- **标签**：#BCG #AIAtWork #ManagingAI #RoleRedesign #ResponsibilityPackage
+- **抓取时间**：2026-06-15 18:00
+
+### [2] BCG：42% 节省一整天工作时间，但 66% 缺少再配置指引
+- **事件摘要**：同一份 BCG 报告还指出，42% 的 regular frontline users 每周因 AI 节省至少一个完整工作日，但 66% 表示组织几乎没有告诉他们该把这段时间转投到什么更高价值工作上。
+- **来源**：BCG（https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work）
+- **来源平台**：BCG
+- **来源可信度**：⭐高
+- **OD启示**：组织真正的瓶颈不再只是 adoption，而是 `time reallocation governance`。如果缺少明确责任与优先级设计，AI 节省的时间会重新泄漏成更高节奏、更高压力和更多碎片劳动。
+- **标签**：#BCG #TimeReallocation #WorkRedesign #ManagerRole #JoyParadox
+- **抓取时间**：2026-06-15 18:00
+
+### [3] Workday：human-agent operating model 的第一原则是 authority boundary
+- **事件摘要**：Workday 在 2026 年文章《Designing Operating Models for Human + Agent Teams》中明确提出，人在每个 workflow 中仍是 ultimate orchestrators and decision makers，设计 operating model 的第一原则是 clear boundaries of authority，并通过 task-to-agent mapping 与 human-led governance 防止 agents 越界。
+- **来源**：Workday（https://www.workday.com/en-us/perspectives/hr/operating-models-for-human-and-agents.html）
+- **来源平台**：Workday
+- **来源可信度**：⭐高
+- **OD启示**：未来岗位、序列和晋升机制必须把“谁最终拍板、谁可 override AI、谁承担结果责任”写进制度。AI 时代很多所谓组织扁平化，本质上是在重写 authority architecture。
+- **标签**：#Workday #AuthorityBoundary #HumanAgentOperatingModel #Governance #DecisionRights
+- **抓取时间**：2026-06-15 18:00
+
+### [4] EY：传统组织金字塔让位于更灵活的 career portfolios，并测试 agile promotions
+- **事件摘要**：EY Americas Chief Talent and Culture Officer Ginnie Carlier 于 2026 年 4 月 10 日接受 Business Insider 采访时表示，传统 organizational pyramid 正让位于更灵活的 `career portfolios`，impact 将比 title or tenure 更重要。EY 同时测试 more flexible individualized career paths、agile promotions 与 expanded use of skills assessments。
+- **来源**：Business Insider（https://www.businessinsider.com/ey-talent-chief-ai-changing-employee-recruitment-evaluations-promotions-careers-2026-4）
+- **来源平台**：Business Insider
+- **来源可信度**：📰较高
+- **OD启示**：这说明未来人才机制不再只看职位梯子，而更像在管理 `career portfolio + scope growth + skill proof`。它对岗位架构、人才密度与晋升机制三个专题都很关键。
+- **标签**：#EY #CareerPortfolio #AgilePromotion #SkillsPoweredOrganization #JobArchitecture
+- **抓取时间**：2026-06-15 18:00
+
+### [5] Accenture：AI 使用被直接连到晋升资格
+- **事件摘要**：Business Insider 于 2026 年 3 月 11 日报道，Accenture CEO Julie Sweet 明确表示“Today, AI at Accenture is how we do work”，如果想获得晋升，就必须按这种方式工作。报道同时提到，Amazon 某些 division 的 promotion packets 也已纳入 AI usage。
+- **来源**：Business Insider（https://www.businessinsider.com/accenture-ceo-ai-use-is-required-for-promotion-2026-3）
+- **来源平台**：Business Insider
+- **来源可信度**：📰较高
+- **OD启示**：AI fluency 正从培训议题进入 career gate。组织若要这么做，必须同步定义“什么算高质量 AI 使用、如何审计、如何避免表演性使用”，否则晋升公平性会受损。
+- **标签**：#Accenture #PromotionGate #AIFluency #PerformanceEvaluation #CareerRules
+- **抓取时间**：2026-06-15 18:00
+
+### [6] Salesforce：4Rs 框架下的 redeploy 已进入正式人才操作系统
+- **事件摘要**：Salesforce 于 2026 年 4 月 29 日披露，其 `4Rs` 框架包括 redesign、reskill、redeploy、rebalance。在 Agentforce 应用于支持场景后，公司已把数百名 support engineers 再部署到增长更快岗位，并通过 `Career Connect`、cohort move、岗位匹配和在岗训练承接结构调整。
+- **来源**：Salesforce（https://www.salesforce.com/news/stories/salesforce-reshaping-workforce-in-age-of-ai/）
+- **来源平台**：Salesforce
+- **来源可信度**：⭐高
+- **OD启示**：AI 对组织的影响越来越不是“谁被替代”，而是“哪些责任包被重写后，谁被转到更高价值位置”。这条样本对扁平化、高人才密度和晋升机制都极具参考价值。
+- **标签**：#Salesforce #4Rs #Redeploy #CareerConnect #WorkforceReshaping
+- **抓取时间**：2026-06-15 18:00
 
 ## 2026-06-14
 

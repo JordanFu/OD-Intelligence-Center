@@ -1,60 +1,63 @@
-# 2026-06-15｜AI时代组织与人才机制四课题总览
+# 2026-06-15｜AI时代组织与人才机制四专题总览
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+## 1. 今日总判断：四个专题之间共同指向什么
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+今天四个专题共同把判断从“架构分层”进一步推进到**责任包分层**。AI 不只是让 title、skills、authority 分开治理，而是迫使组织把原来由单一岗位或单一职级承接的责任包拆开: 谁负责解释问题、谁负责编排 AI、谁负责验证输出、谁负责再部署人才、谁负责承担最终结果。未来组织更像在管理 `career portfolio + responsibility portfolio`，而不是只管理静态岗位。
 
-## 今日一句话结论
+## 2. 今日最重要的 5-7 条发现
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+1. **BCG 于 2026 年 6 月 3 日发布的第四年度 `AI at Work` 报告显示，72% 受访者认为 AI 已明显改变其岗位技能期待，47% 表示自己花更多时间“管理和指挥 AI”而不是直接做工作。**
+2. **同一报告显示，42% 的 regular frontline users 每周因 AI 节省至少一个完整工作日，但 66% 表示组织几乎没有告诉他们该把这段时间重新投向哪里。**
+3. **Workday 在 2026 年文章《Designing Operating Models for Human + Agent Teams》中明确提出：人在每个 workflow 里仍是 ultimate orchestrators and decision makers，组织必须先定义 clear boundaries of authority。**
+4. **EY Americas Chief Talent and Culture Officer Ginnie Carlier 于 2026 年 4 月 10 日表示，传统组织金字塔正在让位于更灵活的 `career portfolios`；EY 正测试 agile promotions、individualized career paths 和 skills-based assessments。**
+5. **Accenture CEO Julie Sweet 于 2026 年 3 月 11 日表示，在 Accenture“AI is how we do work”，想获得晋升就必须按这种方式工作，AI 使用已被纳入绩效与晋升评价。**
+6. **Salesforce 于 2026 年 4 月 29 日披露，其 4Rs 框架下已把数百名 support engineers 再部署到增长更快岗位，并通过 `Career Connect`、培训和不回填部分岗位来重平衡 headcount。**
+7. **内部制度样本继续给出校准基线：GitLab 仍以 promotion document + 半年校准承接晋升；Zapier 则要求候选人证明 AI 已嵌入核心工作并形成可重复系统。**
 
-## 今日核心判断
+## 3. 四专题交叉关系：组织扁平化、高人才密度、岗位序列、晋升机制之间如何互相影响
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+- **组织扁平化**要求把中层原来承接的责任拆清楚，否则 AI 只会减少汇报层，不会减少治理复杂度。
+- **高人才密度**开始被重新定义为“谁能稳定承担更大的责任包”，而不是“谁会更多工具”。
+- **岗位族群/序列**因此要从静态 job description 转向更动态的 `career portfolio + authority field + skill proof` 组合。
+- **晋升机制**也会从“是否升一级”转向“是否已稳定承担下一层级的责任包，并能用 AI 放大而不是掩盖贡献”。
+- 四者合起来看，未来组织真正稀缺的不是单一专家或单一管理者，而是**能在更少层级里承担更完整责任包的 orchestrator 型人才**。
 
-## 今日背景材料
+## 4. 今日判断变化：哪些判断被增强、削弱或修正
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+- **增强**：AI 时代 manager role 的重写已从推断进入更清晰的公开表达。BCG、Workday、EY 都在把 manager 指向 orchestrator、coach、authority owner。
+- **增强**：晋升机制正在从“结果证明”延伸到“AI 工作方式证明”。Accenture 已把 AI 使用直接连到晋升资格。
+- **增强**：岗位架构正从 static job descriptions 转向更灵活的 career portfolios；EY 的说法把这一点讲得更明确。
+- **增强**：时间节省不会自动变成价值。BCG 的 42%/66% 数据说明组织若不重写 responsibility package，AI 效率会泄漏。
+- **修正**：昨天更偏向“把不同治理层拆开”；今天进一步确认，真正需要重写的是各层之间由谁接住责任包，而不只是概念分层。
 
-## 今日新增证据地图
+## 5. 关键冲突与反例：哪些信息相互矛盾，需要继续验证
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+- **career portfolio** 与 **更细 title / family** 并存：EY 倾向更灵活路径，Deloitte 倾向更细 title 容器，说明不同企业在解决不同问题。
+- **AI 被写进晋升门槛** 与 **公平校准** 存在张力：如果 AI 使用成为强要求，组织需要定义“好使用”和“可审计使用”，否则会放大展示偏差。
+- **manager 转向 orchestrator** 与 **带教、反馈、心理安全** 之间存在容量冲突：层级变少后，manager 是否还有足够时间做培养工作，仍需验证。
+- **效率释放** 与 **员工压力增加** 同时存在：BCG 的 joy paradox 说明生产率提升不必然带来更健康的组织体验。
 
-## 线索层
+## 6. 行动启发：按战略-组织架构-岗位序列-人才密度-晋升激励-沟通落地六个维度归纳
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+- **战略**：先定义 AI 时代最关键的责任包是什么，再设计岗位和人才，不要先画 title 树。
+- **组织架构**：把 authority boundary、task-to-agent mapping、resource reallocation 一起设计，扁平化才不会失控。
+- **岗位序列**：优先用 career portfolio、skill proof、authority field 表达变化，只有长期稳定差异才固化成新序列。
+- **人才密度**：把人才标准拆成 problem framing、AI orchestration、verification、cross-functional translation、team acceleration 五类。
+- **晋升激励**：保留校准节奏，但把 AI 使用、责任扩展、可重复系统资产和带教/治理贡献纳入证据流。
+- **沟通落地**：向员工明确说明“AI 带来的节省时间将被重新投入什么工作”，否则焦虑会快于组织学习。
 
-## 待补齐的落地问题
+## 7. 明日优先追踪问题
 
-正式重跑必须把证据转化为战略、岗位、职级、薪酬和激励机制建议；没有证据链时，只记录缺口，不输出管理建议。
+1. 哪些企业已公开定义 manager-orchestrator 的正式能力模型与评价字段？
+2. 哪些公司把 AI 使用从“会用”进一步定义成“可证明、可审计、可晋升使用”？
+3. 中国科技公司是否会出现 `career portfolio / skill portfolio / project-owner` 的组合式制度样本？
+4. 哪些组织能证明被 AI 节省下来的时间已经被稳定转投到更高价值工作，而不是重新填满低价值任务？
 
-## 待验证清单与下一步计划
+## 来源索引（当日关键）
 
-1. 检索今日新增官方/一手材料，确认是否有新公司案例。
-2. 检索权威媒体与咨询报告，补齐改革时间线、员工影响和争议。
-3. 检索招聘 JD 与薪酬信号，验证岗位变宽、专家深化和技能溢价。
-4. 收集社媒/职场平台弱信号，只进入线索池，不进入结论层。
-5. 主代理交叉验证后，将可互证内容升级为正式日报。
-
-## 来源索引
-
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
+- BCG `AI Is Reshaping Jobs Faster Than Companies Are Reshaping Work`：https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work
+- Workday `Designing Operating Models for Human + Agent Teams`：https://www.workday.com/en-us/perspectives/hr/operating-models-for-human-and-agents.html
+- Business Insider `EY's talent chief says AI is changing the entire employee lifecycle`：https://www.businessinsider.com/ey-talent-chief-ai-changing-employee-recruitment-evaluations-promotions-careers-2026-4
+- Business Insider `Accenture's CEO says using AI is now required for promotion`：https://www.businessinsider.com/accenture-ceo-ai-use-is-required-for-promotion-2026-3
+- Salesforce `How Salesforce Is Reshaping Its Workforce in the Age of AI`：https://www.salesforce.com/news/stories/salesforce-reshaping-workforce-in-age-of-ai/
+- 内部知识源：`knowledge/wiki/gitlab-promotions-transfers-handbook.md` ｜ `knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md` ｜ `digest.md`
