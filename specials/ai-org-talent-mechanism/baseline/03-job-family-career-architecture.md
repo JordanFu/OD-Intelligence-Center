@@ -1,6 +1,6 @@
 # 专题三：岗位、族群、序列持续建设｜滚动基线档案
 
-> 更新日期：2026-06-15
+> 更新日期：2026-06-16
 > 用途：这是四课题研究的“滚动母稿”，不是某一天的日报。日报负责记录新增事实、Context 和线索；周报负责做阶段复盘；基线档案负责沉淀稳定判断、证据账本和待验证问题。
 > 自动化规则：每日/周报与 PDF 入库后自动回写证据账本；正式重跑遵循 research-protocol.md 的多代理并行与主代理交叉证伪机制；只有多源互证或一手材料足够强的内容，才进入稳定判断。
 
@@ -21,7 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-05-30 | [日报](../2026-05-30/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **先 role package，后 job family**：FDE、AI transformation architect、agent governance owner 需要先验证是否长期稳定。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 | 2026-05-31 | [日报](../2026-05-31/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **先 role package，后 job family**：FDE、AI transformation architect、agent governance owner 需要先验证是否长期稳定。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 | 2026-06-01 | [日报](../2026-06-01/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **岗位体系正在从“静态目录”升级为“可解释的变更流水线（change pipeline）”。可信度：高。** | - 暂不形成结论，但提示我们关注：**job architecture 的“更新速度”本身可能成为企业竞争力差异**——更新慢的组织不仅招不到人，更无法快速重组任务与授权边界。 | 1. Censia/Workday 的治理细节：推荐被拒绝/被修改时如何沉淀为模型/规则的反向校准？是否有申诉机制？ |
 | 2026-06-02 | [日报](../2026-06-02/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **先 role package，后 job family**：FDE、AI transformation architect、agent governance owner 需要先验证是否长期稳定。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
@@ -35,6 +34,7 @@
 | 2026-06-12 | [日报](../2026-06-12/03-job-family-career-architecture.html) | 结论层候选 | 1. **很多 AI 新岗位的真实变化是边界重叠，不是边界新增。可信度：高。** | - 暂不形成结论，但提示我们关注：**中国企业公开的 AI technical family / capability band 样本仍少，很多变化仍藏在 JD 和薪酬带宽里。** | 1. 哪些企业已公开 AI technical family 或 capability band？ |
 | 2026-06-13 | [日报](../2026-06-13/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **AI 时代很多岗位变化的第一语言应该是 competency bundle，而不是 new title。可信度：高。** | - 暂不形成结论，但提示我们关注：**许多 invisible work 是否应进入 job description 正文，还是进入 capability profile / promotion rubric，仍缺统一实践。** | 1. 哪些企业已把 intent / verification / orchestration 写进正式岗位框架？ |
 | 2026-06-14 | [日报](../2026-06-14/03-job-family-career-architecture.html) | 结论层候选 | 1. **岗位架构问题要先区分“title 清晰度”与“skills 清晰度”。可信度：高。** | - 暂不形成结论，但提示我们关注：**Deloitte 的 title overhaul 目前主要来自媒体披露，仍需更多官方制度细节。** | 1. 哪些企业已公开 family / sub-family / capability band 的 AI 时代新版规则？ |
+| 2026-06-15 | [日报](../2026-06-15/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **岗位容器正在从“我属于哪个岗位”转向“我稳定承接哪些责任包”。可信度：高。** | - 暂不形成结论，但提示我们关注：**career portfolio 是否会增加员工对“下一步到底是什么”的不确定感。** | - 暂不形成结论，但提示我们关注：**中国公司公开的 authority-based job architecture 样本仍不足。** |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-06-14｜[打开专题日报](../2026-06-14/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-14/03-job-family-career-architecture.md`
+- 最新日报：2026-06-15｜[打开专题日报](../2026-06-15/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-15/03-job-family-career-architecture.md`

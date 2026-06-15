@@ -1,6 +1,6 @@
 # 专题四：未来组织的晋升机制｜滚动基线档案
 
-> 更新日期：2026-06-15
+> 更新日期：2026-06-16
 > 用途：这是四课题研究的“滚动母稿”，不是某一天的日报。日报负责记录新增事实、Context 和线索；周报负责做阶段复盘；基线档案负责沉淀稳定判断、证据账本和待验证问题。
 > 自动化规则：每日/周报与 PDF 入库后自动回写证据账本；正式重跑遵循 research-protocol.md 的多代理并行与主代理交叉证伪机制；只有多源互证或一手材料足够强的内容，才进入稳定判断。
 
@@ -21,7 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-05-30 | [日报](../2026-05-30/04-promotion-system.html) | 线索层/待验证 | 1. **持续证据流增强**：Agent System of Record、manager workspace、verified skills 都会让日常证据更连续。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 | 2026-05-31 | [日报](../2026-05-31/04-promotion-system.html) | 线索层/待验证 | 1. **持续证据流增强**：Agent System of Record、manager workspace、verified skills 都会让日常证据更连续。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 | 2026-06-01 | [日报](../2026-06-01/04-promotion-system.html) | 线索层/待验证 | 1. **“AI 辅助晋升评审”会把晋升机制从‘会议制’推向‘数据与证据结构制’。可信度：中高。** | - 暂不形成结论，但提示我们关注：**晋升评审可能成为“组织可解释性”的试金石**——一旦 AI 参与，组织必须更严肃地面对：证据是否可追溯、规则是否透明、异议是否可处理。 | 1. 空军的 AI Action Team 在 promotion board 上到底做“screening”还是“ranking”，以及是否明确“不让 AI 选人”的边界？ |
 | 2026-06-02 | [日报](../2026-06-02/04-promotion-system.html) | 线索层/待验证 | 1. **持续证据流增强**：Agent System of Record、manager workspace、verified skills 都会让日常证据更连续。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
@@ -35,6 +34,7 @@
 | 2026-06-12 | [日报](../2026-06-12/04-promotion-system.html) | 线索层/待验证 | 1. **正式晋升仍应是节奏化校准动作。可信度：高。** | - 暂不形成结论，但提示我们关注：**未来更高频发生的可能是 skill premium、项目晋级、机会扩大，而不是 formal level change。** | 1. 哪些企业已经公开 promotion evidence schema 或 calibration workspace？ |
 | 2026-06-13 | [日报](../2026-06-13/04-promotion-system.html) | 线索层/待验证 | 1. **晋升证据必须开始覆盖 invisible work。可信度：中高。** | - 暂不形成结论，但提示我们关注：**哪些 invisible work 适合进入正式 promotion rubric，哪些只适合做 manager note，目前仍需更多样本。** | 1. 哪些企业已把 mentoring / orchestration / quality gate 写入正式 promotion rubric？ |
 | 2026-06-14 | [日报](../2026-06-14/04-promotion-system.html) | 线索层/待验证 | 1. **未来晋升机制会更分层，而不是更统一。可信度：高。** | - 暂不形成结论，但提示我们关注：**企业是否会形成 senior / junior 两套不同的 promotion evidence 语法，仍需更多公开样本。** | 1. 哪些企业已经按层级差异重写 promotion rubric？ |
+| 2026-06-15 | [日报](../2026-06-15/04-promotion-system.html) | 线索层/待验证 | 1. **AI 使用正在从“加分项”转向“晋升强信号甚至资格项”。可信度：中高。** | - 暂不形成结论，但提示我们关注：**组织若把 AI 使用写进晋升，却没有共识化评分标准，可能放大主观性和表演性。** | 1. 哪些公司已公开“AI contribution”进入 promotion packet 的评分规则？ |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-06-14｜[打开专题日报](../2026-06-14/04-promotion-system.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-14/04-promotion-system.md`
+- 最新日报：2026-06-15｜[打开专题日报](../2026-06-15/04-promotion-system.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-15/04-promotion-system.md`
