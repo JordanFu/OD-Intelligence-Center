@@ -21,7 +21,6 @@ AI 时代的高人才密度不只是“更强个体”，而是能把问题定�
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-05-31 | [日报](../2026-05-31/02-talent-density.html) | 线索层/待验证 | 1. **复合能力变成硬门槛**：业务语境、系统理解、AI fluency、治理意识和结果 ownership 要一起看。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 | 2026-06-01 | [日报](../2026-06-01/02-talent-density.html) | 线索层/待验证 | 1. **人才密度的“硬判据”正在从‘会用 AI’转为‘能构建可复用系统 + 对输出负责’。可信度：高。** | - 暂不形成结论，但提示我们关注：**“与 AI 结对”与“被 AI 管理”之间的心理差异**（Workday 的 75% vs 30%）可能意味着未来组织应把 AI 定位为 teammate/augmenter，而不是 evaluato… | 1. Zapier V2 rubric 的“skills test”如何设计以避免候选人作弊/模板化？ |
 | 2026-06-02 | [日报](../2026-06-02/02-talent-density.html) | 线索层/待验证 | 1. **复合能力变成硬门槛**：业务语境、系统理解、AI fluency、治理意识和结果 ownership 要一起看。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 | 2026-06-03 | [日报](../2026-06-03/02-talent-density.html) | 线索层/待验证 | 1. **AI 让人才“更早可用”，但也让组织更早暴露支持机制不足。可信度：高。** | - 暂不形成结论，但提示我们关注：**verified skills 可能提高人才发现效率，但也可能强化“会展示的人比会做的人更占优”**。 | 1. 哪些企业已把 early-career AI enablement 做成正式项目，而非培训附属项？ |
@@ -35,6 +34,7 @@ AI 时代的高人才密度不只是“更强个体”，而是能把问题定�
 | 2026-06-13 | [日报](../2026-06-13/02-talent-density.html) | 线索层/待验证 | 1. **高人才密度的核心正在从“会不会用工具”转向“能不能稳定承担意图定义、系统编排、结果验证”。可信度：高。** | - 暂不形成结论，但提示我们关注：**如果 AI 让个人独立完成更多任务，企业可能低估了对 feedback、带教和 apprenticeship 的持续投资必要性。** | 1. 哪些企业已公开 verification / orchestration / mentoring 进入能力框架？ |
 | 2026-06-14 | [日报](../2026-06-14/02-talent-density.html) | 线索层/待验证 | 1. **高人才密度的语言正在从“岗位名”转向“技能组合”。可信度：高。** | - 暂不形成结论，但提示我们关注：**基础设施劳动力供给是否会成为更多科技公司 People strategy 的正式组成部分，仍需更多样本。** | 1. 哪些企业已把 skill portfolio 接到 staffing、mobility 或 rewards？ |
 | 2026-06-15 | [日报](../2026-06-15/02-talent-density.html) | 线索层/待验证 | 1. **高人才密度的主判据正在从“工具熟练度”转向“责任包成熟度”。可信度：高。** | - 暂不形成结论，但提示我们关注：**career portfolio 会不会削弱员工对长期专业身份的稳定感，仍需更多案例。** | 1. 哪些企业已把 career portfolio 接入 staffing 和 succession？ |
+| 2026-06-16 | [日报](../2026-06-16/02-talent-density.html) | 线索层/待验证 | 1. **高人才密度已经分裂成两类核心供给：AI orchestration 人才与 AI infrastructure 人才。可信度：高。** | - 暂不形成结论，但提示我们关注：**科技公司对 skilled trades 的投入，长期会被纳入正式 People strategy，还是仍停留在外部 workforce initiative。** | 1. 哪些企业已经把 capability tiers 接入 staffing、mobility 或 succession？ |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@ AI 时代的高人才密度不只是“更强个体”，而是能把问题定�
 
 ## 最近日报入口
 
-- 最新日报：2026-06-15｜[打开专题日报](../2026-06-15/02-talent-density.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-15/02-talent-density.md`
+- 最新日报：2026-06-16｜[打开专题日报](../2026-06-16/02-talent-density.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-16/02-talent-density.md`

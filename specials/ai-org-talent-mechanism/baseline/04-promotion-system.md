@@ -21,7 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-05-31 | [日报](../2026-05-31/04-promotion-system.html) | 线索层/待验证 | 1. **持续证据流增强**：Agent System of Record、manager workspace、verified skills 都会让日常证据更连续。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 | 2026-06-01 | [日报](../2026-06-01/04-promotion-system.html) | 线索层/待验证 | 1. **“AI 辅助晋升评审”会把晋升机制从‘会议制’推向‘数据与证据结构制’。可信度：中高。** | - 暂不形成结论，但提示我们关注：**晋升评审可能成为“组织可解释性”的试金石**——一旦 AI 参与，组织必须更严肃地面对：证据是否可追溯、规则是否透明、异议是否可处理。 | 1. 空军的 AI Action Team 在 promotion board 上到底做“screening”还是“ranking”，以及是否明确“不让 AI 选人”的边界？ |
 | 2026-06-02 | [日报](../2026-06-02/04-promotion-system.html) | 线索层/待验证 | 1. **持续证据流增强**：Agent System of Record、manager workspace、verified skills 都会让日常证据更连续。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 | 2026-06-03 | [日报](../2026-06-03/04-promotion-system.html) | 线索层/待验证 | 1. **晋升机制的焦点正在从“什么时候评”转向“依据什么字段评”。可信度：高。** | - 暂不形成结论，但提示我们关注：**统一 manager workspace 可能让即时认可和即时调薪更容易，但不代表正式晋升窗口会消失**。 | 1. Oracle/SAP/Workday 是否公开将 promotion 与 compensation/performance 信号更直接连接？ |
@@ -35,6 +34,7 @@
 | 2026-06-13 | [日报](../2026-06-13/04-promotion-system.html) | 线索层/待验证 | 1. **晋升证据必须开始覆盖 invisible work。可信度：中高。** | - 暂不形成结论，但提示我们关注：**哪些 invisible work 适合进入正式 promotion rubric，哪些只适合做 manager note，目前仍需更多样本。** | 1. 哪些企业已把 mentoring / orchestration / quality gate 写入正式 promotion rubric？ |
 | 2026-06-14 | [日报](../2026-06-14/04-promotion-system.html) | 线索层/待验证 | 1. **未来晋升机制会更分层，而不是更统一。可信度：高。** | - 暂不形成结论，但提示我们关注：**企业是否会形成 senior / junior 两套不同的 promotion evidence 语法，仍需更多公开样本。** | 1. 哪些企业已经按层级差异重写 promotion rubric？ |
 | 2026-06-15 | [日报](../2026-06-15/04-promotion-system.html) | 线索层/待验证 | 1. **AI 使用正在从“加分项”转向“晋升强信号甚至资格项”。可信度：中高。** | - 暂不形成结论，但提示我们关注：**组织若把 AI 使用写进晋升，却没有共识化评分标准，可能放大主观性和表演性。** | 1. 哪些公司已公开“AI contribution”进入 promotion packet 的评分规则？ |
+| 2026-06-16 | [日报](../2026-06-16/04-promotion-system.html) | 线索层/待验证 | 1. **“会不会用 AI”只是晋升证据升级的起点，不是终点。可信度：高。** | - 暂不形成结论，但提示我们关注：**如果 AI 使用成为晋升门槛，不同岗位的合理使用深度如何区分，仍缺公开规则。** | 1. 哪些公司已公开“AI contribution”进入 promotion packet、document 或 calibration rubric 的正式字段？ |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-06-15｜[打开专题日报](../2026-06-15/04-promotion-system.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-15/04-promotion-system.md`
+- 最新日报：2026-06-16｜[打开专题日报](../2026-06-16/04-promotion-system.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-16/04-promotion-system.md`
