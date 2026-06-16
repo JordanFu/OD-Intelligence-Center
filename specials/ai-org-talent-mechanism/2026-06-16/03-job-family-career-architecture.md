@@ -1,52 +1,119 @@
-# 2026-06-16｜专题三：岗位、族群、序列持续建设
+# 2026-06-16｜专题三：岗位、族群、序列的持续建设
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+## 1. 今日一句话专题判断
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+今天岗位/族群/序列最关键的新判断是：**AI 时代岗位架构正在从“定义岗位是什么”转向“决定哪类责任包由 family 承接、哪类责任包由 skill tag、authority field、market premium 或项目激励承接”。**
 
-## 今日一句话结论
+## 2. 今日新增事实：只写可追溯事实，注明来源
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+1. **EY 继续公开表示，传统 organizational pyramid 正在让位于更灵活的 `career portfolios`，贡献越来越跨 skills、experiences 和 outcomes，而不是静态 job descriptions。**  
+   - 来源：Business Insider  
+   - https://www.businessinsider.com/ey-talent-chief-ai-changing-employee-recruitment-evaluations-promotions-careers-2026-4
+2. **《The Rise of AI-Native Software Engineering》提出 AI-native SE 的能力骨架是 intent、collaboration、verification，并归纳出九维能力模型。**  
+   - 来源：arXiv  
+   - https://arxiv.org/abs/2606.12986
+3. **Workday 提出，设计 human-agent operating model 的前提是 clear boundaries of authority 和 task-to-agent mapping。**  
+   - 来源：Workday  
+   - https://www.workday.com/en-us/perspectives/hr/operating-models-for-human-and-agents.html
+4. **内部方法论继续强调：只有长期、稳定、稀缺、可评价、可定价的能力域，才适合沉淀为正式 job family 或专家序列。**  
+   - 来源：内部知识库  
+   - `knowledge/concepts/skills-based-organization-obsidian.md`
+5. **百度职级体系改革的内部知识卡继续提醒：去标签化、通道打通与统一数字职级，背后常同时夹带协同、筛选和再定价逻辑。**  
+   - 来源：内部知识库  
+   - `knowledge/wiki/baidu-level-reform-2026-obsidian.md`
+6. **Meta 与 Google 同时把 skilled trades pipeline 升格为 AI 时代关键能力供给，说明某些能力差异更像 workforce segment，而不是单一 white-collar 序列。**  
+   - 来源：Axios  
+   - https://www.axios.com/2026/06/08/meta-data-center-workforce-academy-job-guarantee  
+   - https://www.axios.com/2026/06/11/google-trade-worker-initiative-ai
 
-## 今日核心判断
+## 3. 今日核心判断：3-5条，每条注明可信度、证据基础、为什么重要
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+1. **岗位架构的首要任务已不是多造 title，而是给责任包选对制度容器。可信度：高。**  
+   - 证据基础：EY 的 career portfolios；内部 skills-based 方法论；Workday 的 authority language。  
+   - 为什么重要：很多所谓“新岗位需求”并不是要新身份，而是要新边界、新定价和新证据。
+2. **AI 时代很多变化更适合先沉淀为 capability bundle，而不是新序列。可信度：高。**  
+   - 证据基础：AI-native SE 的九维能力；Zapier rubric；BCG 的技能期待变化。  
+   - 为什么重要：如果每个新能力都直接变成 title，岗位体系会膨胀且很快过时。
+3. **authority field 会成为岗位架构与 title 同等重要的维度。可信度：高。**  
+   - 证据基础：Workday 的 authority boundaries、task-to-agent mapping。  
+   - 为什么重要：未来岗位差异不只在技能难度，还在于谁能最终拍板、谁对 AI 输出负责、谁拥有升级权。
+4. **一些“新增序列”诉求，本质上是 pay and scarcity 问题而不是 architecture 问题。可信度：中高。**  
+   - 证据基础：内部 skills-based 组织方法论；百度职级改革的再定价启示；EY Future of Pay 既有知识。  
+   - 为什么重要：如果真实问题是留人或定价，却用新序列解决，只会制造 title inflation。
 
-## 今日背景材料
+## 4. 重点案例事实还原：什么时候该新建岗位/族群/序列，什么时候不该
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+- 背景：AI 让岗位变化加速，业务经常把“新技能出现”直接翻译成“我们要新岗位、新序列、新 title”。
+- 今天综合信号给出的判断框架：
+- **适合新建正式岗位/族群/序列的情况**：  
+  - 能力域长期存在，不是短期风口；  
+  - 多业务单元重复需要；  
+  - 外部市场已有稳定识别和定价；  
+  - 该能力伴随独立 authority / 风险 / 合规边界；  
+  - 能清楚写出 job framework、晋升标准和 pay band。
+- **更适合用 skill tag / capability band 的情况**：  
+  - 变化快，半年到一年可能继续演化；  
+  - 仍依附在既有 family 中；  
+  - 主要差异在 AI fluency、workflow design、verification maturity，而不是职业身份。
+- **更适合用 authority field 的情况**：  
+  - 关键差异在谁能 final approve、override AI、承担例外责任；  
+  - 职责边界比技能清单更影响角色价值。
+- **更适合用 market scarcity coefficient / 项目激励 / 专项津贴 / 薪酬带宽调整的情况**：  
+  - 供需短期失衡；  
+  - 贡献高度项目化；  
+  - 组织还不确定该能力是否需要长期独立身份。
+- **应坚决不新增序列的情况**：  
+  - 本质只是想给关键员工涨价留人；  
+  - scope 变宽但 family 本质未变；  
+  - 想绕开现有晋升、校准或薪酬治理机制。
+- 可借鉴点：  
+  - 先给问题分类，再选制度容器；  
+  - 让 title 回到表达长期稳定差异，而不是承担所有变化。
+- 不可照搬点：  
+  - career portfolio 语言如果没有统一的 capability taxonomy 和 pay tools，会落成抽象口号。
 
-## 今日新增证据地图
+## 5. Context层：暂不形成结论，但提示我们关注……
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+- 暂不形成结论，但提示我们关注：**career portfolio 虽然能承接流动性，但是否会增加员工对“下一步路径”的模糊感。**
+- 暂不形成结论，但提示我们关注：**中国公司公开的 authority-based job architecture 样本仍偏少。**
+- 暂不形成结论，但提示我们关注：**基础设施类 AI 人才到底应该归入新 workforce segment、既有 family，还是外部生态供给，仍缺成熟做法。**
 
-## 线索层
+## 6. 证据地图
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+- 官方/一手：Workday。  
+- 权威媒体/咨询：Business Insider 关于 EY。  
+- 公司案例/制度材料：EY、百度内部知识卡。  
+- 学术/研究：`The Rise of AI-Native Software Engineering`。  
+- 招聘 JD / 薪酬：今日无高置信新增 JD / 薪酬进入主结论，但沿用 EY Future of Pay 作为定价背景。  
+- 社媒/职场线索：不进入主结论。  
+- 内部信息库/知识库：`knowledge/concepts/skills-based-organization-obsidian.md` ｜ `knowledge/wiki/baidu-level-reform-2026-obsidian.md` ｜ `digest.md`。  
 
-## 待补齐的落地问题
+## 7. 对我们行动的启发
 
-正式重跑必须回答：是新建岗位族群、保留技能标签，还是调整薪酬带宽和项目激励；必须同时验证岗位合并与专家岗位深化。
+1. 业务提出“新建岗位/序列”时，先强制拆成 `identity / capability / authority / pricing` 四层问题。  
+2. 岗位架构设计顺序建议改为：`family -> capability band -> authority field -> pricing rule -> title`。  
+3. AI 相关新角色优先用 capability bundle 和 authority field 表达，只有长期稳定差异才固化成正式序列。  
+4. 对稀缺人才保留，优先动 market premium、project incentive、allowance 或 pay band，而不是先造新 title。  
 
-## 来源索引
+## 8. 待验证清单与下一步搜索路径
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
+1. 哪些企业已经把 authority field 写进岗位框架或 role architecture？  
+   - Query：`authority field role architecture official`
+2. 哪些组织公开使用 career portfolio 而非 job ladder 语言，并有配套制度？  
+   - Query：`career portfolio role design official`
+3. 哪些公司把 AI capability bundle 接进 pay band、premium 或 mobility 规则？  
+   - Query：`AI capability pay band premium official`
+
+## 9. 来源索引
+
+- Business Insider：`EY's talent chief says AI is changing the entire employee lifecycle`  
+  https://www.businessinsider.com/ey-talent-chief-ai-changing-employee-recruitment-evaluations-promotions-careers-2026-4
+- arXiv：`The Rise of AI-Native Software Engineering`  
+  https://arxiv.org/abs/2606.12986
+- Workday：`Designing Operating Models for Human + Agent Teams`  
+  https://www.workday.com/en-us/perspectives/hr/operating-models-for-human-and-agents.html
+- Axios：`Meta launches $115 million data center job guarantee`  
+  https://www.axios.com/2026/06/08/meta-data-center-workforce-academy-job-guarantee
+- Axios：`Exclusive: Google launches $50 million skilled worker initiative`  
+  https://www.axios.com/2026/06/11/google-trade-worker-initiative-ai
+- 内部：`knowledge/concepts/skills-based-organization-obsidian.md` ｜ `knowledge/wiki/baidu-level-reform-2026-obsidian.md`
