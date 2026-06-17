@@ -1,26 +1,26 @@
 ---
-title: e048dfed72bc718f7986a83f23c8e294
-source: static.www.tencent.com
+title: 03.20.26 National Policy Framework for Artificial Intelligence Legislative Recommendations
+source: whitehouse.gov
 date: 待核验
 ingested: 2026-06-17
-sourceFile: ../knowledge/raw/static-www-tencent-com-e048dfed72bc718f7986a83f23c8e294.pdf
-sourceUrl: https://static.www.tencent.com/uploads/2026/05/13/e048dfed72bc718f7986a83f23c8e294.pdf
+sourceFile: 
+sourceUrl: https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf
 tags: [AI组织设计]
-status: 已下载原始PDF，已生成结构化初筛卡片
+status: 已索引来源，PDF下载待重试
 ---
 
-# e048dfed72bc718f7986a83f23c8e294
+# 03.20.26 National Policy Framework for Artificial Intelligence Legislative Recommendations
 
 ## 一句话判断
 
-e048dfed72bc718f7986a83f23c8e294 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
+03.20.26 National Policy Framework for Artificial Intelligence Legislative Recommendations 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
 
 ## 入库状态
 
-- **来源机构**：static.www.tencent.com
+- **来源机构**：whitehouse.gov
 - **来源类型**：media
-- **原文 URL**：https://static.www.tencent.com/uploads/2026/05/13/e048dfed72bc718f7986a83f23c8e294.pdf
-- **原始文件**：`knowledge/raw/static-www-tencent-com-e048dfed72bc718f7986a83f23c8e294.pdf`
+- **原文 URL**：https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf
+- **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
 - **入库日期**：2026-06-17
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
@@ -51,8 +51,8 @@ e048dfed72bc718f7986a83f23c8e294 已作为日报/周报 PDF 证据源入库，�
 
 ## 被引用位置
 
-- `../../../Users/tal/Documents/New project/research/private-industry-bigtech-watch/daily-log/2026-06-08.md:81`：- 腾讯 2026 一季度业绩演示 PDF：``
-- `../../../Users/tal/Documents/New project/research/private-industry-bigtech-watch/daily-log/2026-06-08.md:188`：| 腾讯 2026 一季度业绩演示 |  | 腾讯 | internal deployment / retention / AgentOps / workflow | A | 是 |
+- `daily/2026-06-17.md:9`：来源：OpenAI Careers（https://openai.com/careers/search/?q=deployment）；Amazon.jobs（https://www.amazon.jobs/en/jobs/3017138/member-of-technical-staff-applied-science-people-leader-agi-a
+- `daily/2026-06-17.md:18`：来源：White House（）
 
 ## 后续精读任务
 
