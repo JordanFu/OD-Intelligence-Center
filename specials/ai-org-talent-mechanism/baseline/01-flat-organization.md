@@ -21,7 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-06-01 | [日报](../2026-06-01/01-flat-organization.html) | 线索层/待验证 | 1. **“去中层”的第一动作正在从‘组织图’前移到‘流程运行时’：先把交接/审批自动化成可审计工作流，再谈压层级。可信度：高。** | - 暂不形成结论，但提示我们关注：**“扁平化 + 端到端小队”可能显著提高组织对 senior / 高判断力人才的依赖**，从而压缩传统的“IC→Manager”通道与梯队培养空间；若不补齐替代性成长路径（staff/principal… | - 管理者如何转型（从公开信息可推断的机制方向，标注为推断）： |
 | 2026-06-02 | [日报](../2026-06-02/01-flat-organization.html) | 线索层/待验证 | 1. **协调劳动被迁移**：AI 能压缩低价值传递层，但必须有人定义 handoff、approval、override、rollback 和 audit。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 | 2026-06-03 | [日报](../2026-06-03/01-flat-organization.html) | 线索层/待验证 | 1. **扁平化的先决条件，正在从“减少层级”转向“减少交接成本”。可信度：高。** | - 暂不形成结论，但提示我们关注：**扁平化后真正稀缺的可能不是“更少 manager”，而是“更强 standards owner / workflow owner”**。 | 1. GitLab 2026-06-02 earnings call 是否补充披露层级和团队边界变化？ |
 | 2026-06-04 | [日报](../2026-06-04/01-flat-organization.html) | 线索层/待验证 | 1. **扁平化进入“硬约束阶段”，不是只画组织图。可信度：高。** | - 暂不形成结论，但提示我们关注：**真正稀缺的可能不是“更少 manager”，而是“更少但更强的 governance owner / workflow owner”**。 | 1. GitLab 后续是否披露 retained manager roles、span 或 team topology？ |
@@ -35,6 +34,7 @@
 | 2026-06-14 | [日报](../2026-06-14/01-flat-organization.html) | 背景材料（Context）强证据 | 1. **扁平化的第一动作越来越像“责任重分配”，而不是单纯减人。可信度：高。** | - 暂不形成结论，但提示我们关注：**中国公司项目负责制的公开样本仍主要来自媒体转述，制度层证据偏弱。** | 1. 哪些企业公开定义了项目 owner 的评价权、人员调配权和资源权？ |
 | 2026-06-15 | [日报](../2026-06-15/01-flat-organization.html) | 线索层/待验证 | 1. **扁平化的核心对象已从 org chart 转向 responsibility package。可信度：高。** | - 暂不形成结论，但提示我们关注：**manager-orchestrator 的新责任包是否会让少数中层过载，尤其当带教和治理职责没有同步减法时。** | 1. 哪些企业已公开 manager-orchestrator 的正式能力模型？ |
 | 2026-06-16 | [日报](../2026-06-16/01-flat-organization.html) | 线索层/待验证 | 1. **中层减少已经从叙事走向执行，但被保留下来的管理责任会更重。可信度：高。** | - 暂不形成结论，但提示我们关注：**manager 减少后 direct reports 是否显著上升，以及剩余 manager 的 coaching 时间是否被挤压。** | 1. 哪些企业已公开 manager-orchestrator / player-coach 的正式能力模型？ |
+| 2026-06-17 | [日报](../2026-06-17/01-flat-organization.html) | 线索层/待验证 | 1. **扁平化开始同时削薄中层和 junior training layer。可信度：中高。** | - 暂不形成结论，但提示我们关注：**PwC 所说的“seniorized entry roles”究竟是普遍抬高门槛，还是主要集中在高 AI 暴露职业。** | 1. 哪些企业已公开 apprentice redesign、manager coaching 或 junior capability ramp 机制？ |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-06-16｜[打开专题日报](../2026-06-16/01-flat-organization.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-16/01-flat-organization.md`
+- 最新日报：2026-06-17｜[打开专题日报](../2026-06-17/01-flat-organization.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-17/01-flat-organization.md`
