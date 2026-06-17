@@ -1,7 +1,7 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-06-15 18:00
+> 最后更新：2026-06-17 18:00
 
 ---
 
@@ -23,6 +23,44 @@
 - 💬参考：社交平台/社区讨论，需交叉验证
 
 -->
+
+## 2026-06-17
+
+### [1] PwC 2026 AI Jobs Barometer：AI 暴露型初级岗位正在被“seniorize”
+- **事件摘要**：Business Insider 于 2026 年 6 月 15 日转述 PwC 2026 AI Jobs Barometer 称，基于全球超过 10 亿条招聘广告与美国 240 万条入门岗位样本，AI 暴露型 entry-level roles 如今比 2019 年更有可能要求“传统上属于资深岗位”的技能；在美国，这类岗位要求 senior-level skills 的概率达到 7 倍，而这类“seniorized”初级岗位自 2019 到 2025 增长 35%，未被 seniorize 的同类岗位则下降 10%。
+- **来源**：Business Insider（https://www.businessinsider.com/pwc-global-jobs-barometer-ai-advanced-skills-entry-level-jobs-2026-6）
+- **来源平台**：Business Insider（转述 PwC 2026 AI Jobs Barometer）
+- **来源可信度**：📰较高
+- **OD启示**：AI 正在改写组织的人才梯队入口。未来企业若继续用传统 junior work 作为训练场，却不重写 apprenticeship、带教和反馈机制，就会出现“入门岗要求更高、成长通道反而更窄”的断层。
+- **标签**：#PwC #EntryLevel #SeniorizedJobs #TalentDensity #PromotionPipeline
+- **抓取时间**：2026-06-17 18:00
+
+### [2] 任务链理论：AI 自动化更像吞并连续步骤，而不是零散代替单个任务
+- **事件摘要**：2026 年 6 月 14 日提交 arXiv 的论文《Chaining Tasks, Redefining Work: A Theory of AI Automation》提出，生产活动由一系列步骤构成，AI 倾向于把相邻步骤串成连续执行的 chains；论文还指出，AI-executed steps 往往会共现于同一链条，且与 AI 步骤相邻的任务更容易继续被 AI 吸收。
+- **来源**：arXiv（https://arxiv.org/abs/2606.15960）
+- **来源平台**：arXiv
+- **来源可信度**：⭐高
+- **OD启示**：岗位设计和管理边界未来要围绕“链条断点”和“责任接口”重写。很多原来适合拆分给 junior、协调岗或中层的 routine step，会成批消失而不是逐个消失。
+- **标签**：#TaskChaining #AIAutomation #JobArchitecture #FlatOrganization #WorkflowRedesign
+- **抓取时间**：2026-06-17 18:00
+
+### [3] 劳动力重组论文：企业对 AI 的调整同时通过“招聘重配”和“岗位内任务重写”发生
+- **事件摘要**：2026 年 5 月 22 日提交 arXiv 的论文《Generative AI and the Reorganization of Labor Demand》基于美国全国招聘数据指出，企业对生成式 AI 的劳动力调整既通过 hiring reallocation，也通过 within-job redesign 进行；其中招聘重配平均解释 52%，岗位内任务重写解释 39.5%。论文同时指出，senior jobs 更早且更主要通过重配调整，junior jobs 更常同时经历重配与任务重写。
+- **来源**：arXiv（https://arxiv.org/abs/2605.23159）
+- **来源平台**：arXiv
+- **来源可信度**：⭐高
+- **OD启示**：组织若只把 AI 看成 headcount 问题，或只看成单岗位 task automation，都会失真。真正要管理的是岗位重配、任务重写和职业成长路径被同时改变后的系统后果。
+- **标签**：#LaborDemand #HiringReallocation #WithinJobRedesign #JuniorWork #CareerArchitecture
+- **抓取时间**：2026-06-17 18:00
+
+### [4] AI Pyramid：AI 能力应被视为组织基础设施，而不是新的单一路径晋升梯子
+- **事件摘要**：arXiv 论文《The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI》提出三层能力框架：AI Native、AI Foundation、AI Deep。论文明确强调，这不是 career ladder，而是组织在 AI 时代需要同时具备的 capability distribution；作者主张 capability formation 应被当成 infrastructure，而不是零散培训项目。
+- **来源**：arXiv（https://arxiv.org/abs/2601.06500）
+- **来源平台**：arXiv
+- **来源可信度**：⭐高
+- **OD启示**：高人才密度不应只理解为少数顶尖人才更贵，而要理解为全组织 baseline 抬升、构建层补齐和深度专家层聚焦突破的能力分布工程。
+- **标签**：#AIPyramid #CapabilityInfrastructure #TalentDensity #LearningArchitecture #SkillsBasedOrganization
+- **抓取时间**：2026-06-17 18:00
 
 ## 2026-06-16
 

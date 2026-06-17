@@ -1,52 +1,121 @@
 # 2026-06-17｜专题二：高人才密度与复合型人才机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+## 1. 今日一句话专题判断
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+今天高人才密度最关键的新判断是：**AI 时代的人才密度不再只是“少数高端人才更强”，而是“全组织 baseline 被抬高 + 关键构建层补齐 + 深度专家层聚焦”的三层能力分布。**
 
-## 今日一句话结论
+## 2. 今日新增事实：只写可追溯事实，注明来源
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+1. **Business Insider 于 2026-06-15 转述 PwC 2026 AI Jobs Barometer 称，美国 AI 暴露型 entry-level roles 现在更高频要求传统 senior-level skills；这类“seniorized”初级岗位自 2019 到 2025 增长 35%，未被 seniorize 的同类岗位下降 10%。**  
+   - 来源：Business Insider  
+   - https://www.businessinsider.com/pwc-global-jobs-barometer-ai-advanced-skills-entry-level-jobs-2026-6
+2. **arXiv 论文《The AI Pyramid》提出三层能力框架：AI Native、AI Foundation、AI Deep，并强调这不是 career ladder，而是 capability distribution at scale。**  
+   - 来源：arXiv  
+   - https://arxiv.org/abs/2601.06500
+3. **BCG 报告显示，72% 受访者认为 AI 已改变岗位技能期待，47% 表示自己花更多时间管理和指挥 AI。**  
+   - 来源：BCG  
+   - https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work
+4. **《The Rise of AI-Native Software Engineering》于 2026-06-11 提交 arXiv，系统综述 48 篇研究，提出 AI-native software engineering 的核心从 code production 转向 intent、collaboration、verification，并归纳出九维能力模型。**  
+   - 来源：arXiv  
+   - https://arxiv.org/abs/2606.12986
+5. **Zapier 的内部知识卡继续要求合格候选人证明 AI 已嵌入核心工作、形成可重复系统、带来 measurable impact，并体现 accountability。**  
+   - 来源：内部知识库  
+   - `knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md`
+6. **Axios 关于 Meta 与 Google skilled trades pipeline 的既有案例继续提示：AI 人才密度仍需覆盖基础设施层。**  
+   - 来源：Axios  
+   - https://www.axios.com/2026/06/08/meta-data-center-workforce-academy-job-guarantee  
+   - https://www.axios.com/2026/06/11/google-trade-worker-initiative-ai
 
-## 今日核心判断
+## 3. 今日核心判断：3-5条，每条注明可信度、证据基础、为什么重要
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+1. **AI 时代的人才密度正在从“高端人才稀缺”转向“baseline 抬高 + tiers 分层”。可信度：高。**  
+   - 证据基础：PwC 的 entry-level seniorization；AI Pyramid 的三层能力结构。  
+   - 为什么重要：如果 baseline 不抬高，组织会在最前线就卡住；如果没有 tiers，又会把所有人都按 deep expert 的标准要求。
+2. **高密度白领人才的判据继续从“会用 AI”升级为“能定义意图、编排流程、验证结果并承担责任”。可信度：高。**  
+   - 证据基础：BCG 的 managing/directing AI；AI-native SE 的 intent/collaboration/verification；Zapier 的 accountability。  
+   - 为什么重要：未来高价值人才越来越像 system owner，而不是单点执行者。
+3. **初级岗位的“seniorization”意味着组织必须把 learning architecture 当成基础设施。可信度：中高。**  
+   - 证据基础：PwC 的招聘广告分析；AI Pyramid 对 capability formation as infrastructure 的强调。  
+   - 为什么重要：如果初级岗位门槛更高，但企业仍靠传统培训和自然磨炼，高潜人才会更难形成。
+4. **人才密度仍是双重约束：white-collar capability distribution 与 AI infrastructure pipeline 要并行治理。可信度：高。**  
+   - 证据基础：AI Pyramid 的 capability tiers；Meta 与 Google 的 skilled trades 案例。  
+   - 为什么重要：企业若只优化白领复合能力，会错过交付侧的真实瓶颈。
 
-## 今日背景材料
+## 4. 重点案例事实还原：为什么“entry-level seniorization + AI Pyramid”会改写人才密度方法论
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+- 背景：过去谈高人才密度，很多组织默认是“找到更多顶尖人才，给更高薪，更快晋升”。
+- 今天的新变化：  
+  - PwC 发现 AI 暴露型入门岗位正在更频繁要求 leadership、judgment、mentorship、stakeholder management 等传统 senior skills；  
+  - AI Pyramid 则明确区分 AI Native、AI Foundation、AI Deep 三层能力，并强调这不是 career ladder。
+- 这两个信号合起来说明：  
+  - 人才密度不是只看顶部有多强；  
+  - 也要看底部 baseline 是否足够高；  
+  - 中间是否有足够多能构建、集成和支撑系统的人。
+- 原有做法：  
+  - 招聘更多“明星人才”；  
+  - 把 AI 看成少数岗位的附加技能；  
+  - 把培养看成培训部门的周期性项目。
+- 新做法应是什么：  
+  - 先定义全员 AI Native baseline；  
+  - 再区分 Foundation 层与 Deep 层的识别、激励与保留；  
+  - 用 workflow asset、verification、accountability 和 learning slope 取代“会不会某个工具”的粗糙判断。
+- 对识别标准的影响：  
+  - 入门岗位要更看 judgment potential、学习斜率与可复用 workflow；  
+  - 中层与专家要更看系统构建、团队赋能和结果验证。
+- 对保留机制的影响：  
+  - 高潜保留不再只靠 title；  
+  - 还要靠更快的责任包扩大、项目机会、可见度和 market premium。
+- 不可照搬点：  
+  - baseline 抬高不等于对所有岗位都一刀切；企业仍要按岗位暴露度和业务风险分层要求。
 
-## 今日新增证据地图
+## 5. Context层：暂不形成结论，但提示我们关注……
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+- 暂不形成结论，但提示我们关注：**PwC 所说的 junior seniorization 会不会在未来两三季转化为更明确的薪酬与晋升差异。**
+- 暂不形成结论，但提示我们关注：**AI Native baseline 该如何按岗位暴露度分层，而不是全员同一个 bar。**
+- 暂不形成结论，但提示我们关注：**如果 entry-level 更早需要 senior skills，企业如何避免把本应由组织提供的成长支持外包给市场。**
 
-## 线索层
+## 6. 证据地图
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+- 官方/一手：BCG；Zapier（通过内部知识卡整理）；AI Pyramid 原文。  
+- 权威媒体/咨询：Business Insider 关于 PwC。  
+- 公司案例：Zapier、Meta、Google。  
+- 学术/研究：`The AI Pyramid` ｜ `The Rise of AI-Native Software Engineering`。  
+- 招聘 JD / 薪酬：今日无高置信新增薪酬事实进入主结论。  
+- 社媒/职场线索：不升格。  
+- 内部信息库/知识库：`knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md` ｜ `digest.md`。  
 
-## 待补齐的落地问题
+## 7. 对我们行动的启发
 
-正式重跑必须回答：复合型人才的能力证据是什么、是否有招聘/JD/薪酬信号、是否存在验证和治理能力的溢价、组织如何避免把“少招人”包装成高人才密度。
+1. 人才密度框架建议改成三层：`AI Native baseline / AI Foundation builders / AI Deep experts`，并与基础设施人才层并行看。  
+2. 白领盘点表建议补入 `intent / orchestration / verification / reusable system / accountability / learning slope` 六类字段。  
+3. 入门岗位招聘与培养要同步升级，不能只提高 bar 不提高 support。  
+4. People strategy 需要同时管理 capability distribution 和 workforce pipeline，避免只盯高端招聘。  
 
-## 来源索引
+## 8. 待验证清单与下一步搜索路径
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
+1. 哪些企业已经把 AI Native / Foundation / Deep 或类似 capability tiers 接入 staffing、mobility 或 succession？  
+   - Query：`AI capability tiers staffing mobility official`
+2. 哪些企业已公开 junior capability ramp、AI apprentice path 或 AI-native onboarding bar？  
+   - Query：`AI apprentice path official`
+3. 哪些公司对 skilled trades 建立了更正式的 AI workforce planning 机制？  
+   - Query：`AI data center workforce planning skilled trades official`
+4. 哪些组织已把 verification / orchestration / accountability 写入正式面试 rubric？  
+   - Query：`AI orchestration accountability hiring rubric official`
+
+## 9. 来源索引
+
+- Business Insider：`Employers want entry-level workers with senior-level skills in the age of AI, a huge PwC analysis found`  
+  https://www.businessinsider.com/pwc-global-jobs-barometer-ai-advanced-skills-entry-level-jobs-2026-6
+- arXiv：`The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI`  
+  https://arxiv.org/abs/2601.06500
+- BCG：`AI Is Reshaping Jobs Faster Than Companies Are Reshaping Work`  
+  https://www.bcg.com/press/3june2026-ai-reshaping-jobs-faster-than-companies-reshaping-work
+- arXiv：`The Rise of AI-Native Software Engineering`  
+  https://arxiv.org/abs/2606.12986
+- Axios：`Meta launches $115 million data center job guarantee`  
+  https://www.axios.com/2026/06/08/meta-data-center-workforce-academy-job-guarantee
+- Axios：`Exclusive: Google launches $50 million skilled worker initiative`  
+  https://www.axios.com/2026/06/11/google-trade-worker-initiative-ai
+- Business Insider：`EY's talent chief says AI is changing the entire employee lifecycle`  
+  https://www.businessinsider.com/ey-talent-chief-ai-changing-employee-recruitment-evaluations-promotions-careers-2026-4
+- 内部：`knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md`
