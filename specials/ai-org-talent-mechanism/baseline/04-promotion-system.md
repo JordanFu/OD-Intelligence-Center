@@ -21,7 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-06-02 | [日报](../2026-06-02/04-promotion-system.html) | 线索层/待验证 | 1. **持续证据流增强**：Agent System of Record、manager workspace、verified skills 都会让日常证据更连续。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 | 2026-06-03 | [日报](../2026-06-03/04-promotion-system.html) | 线索层/待验证 | 1. **晋升机制的焦点正在从“什么时候评”转向“依据什么字段评”。可信度：高。** | - 暂不形成结论，但提示我们关注：**统一 manager workspace 可能让即时认可和即时调薪更容易，但不代表正式晋升窗口会消失**。 | 1. Oracle/SAP/Workday 是否公开将 promotion 与 compensation/performance 信号更直接连接？ |
 | 2026-06-04 | [日报](../2026-06-04/04-promotion-system.html) | 线索层/待验证 | 1. **晋升证据正在从“讲故事”转向“有日志、有标准、有比较基线”。可信度：高。** | - 暂不形成结论，但提示我们关注：**固定窗口未必会消失，但窗口内要审的证据会越来越来自日常运行层**。 | 1. 哪些企业已经把 outcome-based metrics 接入 promotion / talent review？ |
 | 2026-06-05 | [日报](../2026-06-05/04-promotion-system.html) | 线索层/待验证 | 1. **晋升机制正在从“窗口期故事”转向“持续证据经营 + 结构化校准”。可信度：高。** | - 暂不形成结论，但提示我们关注：**未来真正增加频率的，可能先是“认可、调薪、项目奖励和人才标记”，而不是正式晋升级别动作**。 | 1. 哪些企业已把 calibration workspace 或 evidence-based recommendation 直接接入正式晋升流程？ |
@@ -35,6 +34,7 @@
 | 2026-06-15 | [日报](../2026-06-15/04-promotion-system.html) | 线索层/待验证 | 1. **AI 使用正在从“加分项”转向“晋升强信号甚至资格项”。可信度：中高。** | - 暂不形成结论，但提示我们关注：**组织若把 AI 使用写进晋升，却没有共识化评分标准，可能放大主观性和表演性。** | 1. 哪些公司已公开“AI contribution”进入 promotion packet 的评分规则？ |
 | 2026-06-16 | [日报](../2026-06-16/04-promotion-system.html) | 线索层/待验证 | 1. **“会不会用 AI”只是晋升证据升级的起点，不是终点。可信度：高。** | - 暂不形成结论，但提示我们关注：**如果 AI 使用成为晋升门槛，不同岗位的合理使用深度如何区分，仍缺公开规则。** | 1. 哪些公司已公开“AI contribution”进入 promotion packet、document 或 calibration rubric 的正式字段？ |
 | 2026-06-17 | [日报](../2026-06-17/04-promotion-system.html) | 线索层/待验证 | 1. **“会不会用 AI”只是晋升证据升级的起点，不是终点。可信度：高。** | - 暂不形成结论，但提示我们关注：**如果 junior 更早承担 senior-like tasks，企业会不会先调整 premium/bonus，而不是晋升 title。** | 1. 哪些公司已公开“AI contribution”进入 promotion packet、document 或 calibration rubric 的正式字段？ |
+| 2026-06-18 | [日报](../2026-06-18/04-promotion-system.html) | 线索层/待验证 | 1. **entry-level seniorization 会让“早担责”与“该晋升”更容易被混淆。可信度：高。** | - 暂不形成结论，但提示我们关注：**当 entry-level 机会收缩时，企业是否会增加 bonus / allowance，而不是晋升机会。** | 1. 哪些公司已明确区分短期 expanded responsibilities 与正式 promotion scope？ |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-06-17｜[打开专题日报](../2026-06-17/04-promotion-system.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-17/04-promotion-system.md`
+- 最新日报：2026-06-18｜[打开专题日报](../2026-06-18/04-promotion-system.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-18/04-promotion-system.md`

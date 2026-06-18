@@ -21,7 +21,6 @@ AI 时代的高人才密度不只是“更强个体”，而是能把问题定�
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-06-02 | [日报](../2026-06-02/02-talent-density.html) | 线索层/待验证 | 1. **复合能力变成硬门槛**：业务语境、系统理解、AI fluency、治理意识和结果 ownership 要一起看。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 | 2026-06-03 | [日报](../2026-06-03/02-talent-density.html) | 线索层/待验证 | 1. **AI 让人才“更早可用”，但也让组织更早暴露支持机制不足。可信度：高。** | - 暂不形成结论，但提示我们关注：**verified skills 可能提高人才发现效率，但也可能强化“会展示的人比会做的人更占优”**。 | 1. 哪些企业已把 early-career AI enablement 做成正式项目，而非培训附属项？ |
 | 2026-06-04 | [日报](../2026-06-04/02-talent-density.html) | 线索层/待验证 | 1. **高人才密度的判据正在从“熟练使用 AI”升级为“能管理 AI + 能重构工作”。可信度：高。** | - 暂不形成结论，但提示我们关注：**高人才密度未来可能更依赖“谁能把省下来的时间重新投资到哪里”这一管理能力**。 | 1. 哪些企业已经把“managing AI”写进岗位标准、面试评价或绩效要求？ |
 | 2026-06-05 | [日报](../2026-06-05/02-talent-density.html) | 线索层/待验证 | 1. **高人才密度的关键不再是“高手更多”，而是“senior judgment 能否被规模化复制”。可信度：高。** | - 暂不形成结论，但提示我们关注：**高人才密度未来可能更依赖“验证者密度”而不只是“创作者密度”**。 | 1. 哪些企业已经把 `accountability / verification / governance literacy` 写进正式面试 rubrics？ |
@@ -35,6 +34,7 @@ AI 时代的高人才密度不只是“更强个体”，而是能把问题定�
 | 2026-06-15 | [日报](../2026-06-15/02-talent-density.html) | 线索层/待验证 | 1. **高人才密度的主判据正在从“工具熟练度”转向“责任包成熟度”。可信度：高。** | - 暂不形成结论，但提示我们关注：**career portfolio 会不会削弱员工对长期专业身份的稳定感，仍需更多案例。** | 1. 哪些企业已把 career portfolio 接入 staffing 和 succession？ |
 | 2026-06-16 | [日报](../2026-06-16/02-talent-density.html) | 线索层/待验证 | 1. **高人才密度已经分裂成两类核心供给：AI orchestration 人才与 AI infrastructure 人才。可信度：高。** | - 暂不形成结论，但提示我们关注：**科技公司对 skilled trades 的投入，长期会被纳入正式 People strategy，还是仍停留在外部 workforce initiative。** | 1. 哪些企业已经把 capability tiers 接入 staffing、mobility 或 succession？ |
 | 2026-06-17 | [日报](../2026-06-17/02-talent-density.html) | 线索层/待验证 | 1. **AI 时代的人才密度正在从“高端人才稀缺”转向“baseline 抬高 + tiers 分层”。可信度：高。** | - 暂不形成结论，但提示我们关注：**PwC 所说的 junior seniorization 会不会在未来两三季转化为更明确的薪酬与晋升差异。** | 1. 哪些企业已经把 AI Native / Foundation / Deep 或类似 capability tiers 接入 staffing、mobility 或 successio… |
+| 2026-06-18 | [日报](../2026-06-18/02-talent-density.html) | 线索层/待验证 | 1. **人才密度的载体开始从“全职 headcount”扩展到“全职 + fellows + AI service + project talent”。可信度：中高。** | - 暂不形成结论，但提示我们关注：**`Claude Corps` 更像公益场景的能力普及项目，还是会扩散成企业常规人才入口模式。** | 1. 哪些企业已用 fellowship、guild、residency 作为 AI 人才入口？ |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@ AI 时代的高人才密度不只是“更强个体”，而是能把问题定�
 
 ## 最近日报入口
 
-- 最新日报：2026-06-17｜[打开专题日报](../2026-06-17/02-talent-density.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-17/02-talent-density.md`
+- 最新日报：2026-06-18｜[打开专题日报](../2026-06-18/02-talent-density.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-18/02-talent-density.md`

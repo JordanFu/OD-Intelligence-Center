@@ -21,7 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-06-02 | [日报](../2026-06-02/01-flat-organization.html) | 线索层/待验证 | 1. **协调劳动被迁移**：AI 能压缩低价值传递层，但必须有人定义 handoff、approval、override、rollback 和 audit。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 | 2026-06-03 | [日报](../2026-06-03/01-flat-organization.html) | 线索层/待验证 | 1. **扁平化的先决条件，正在从“减少层级”转向“减少交接成本”。可信度：高。** | - 暂不形成结论，但提示我们关注：**扁平化后真正稀缺的可能不是“更少 manager”，而是“更强 standards owner / workflow owner”**。 | 1. GitLab 2026-06-02 earnings call 是否补充披露层级和团队边界变化？ |
 | 2026-06-04 | [日报](../2026-06-04/01-flat-organization.html) | 线索层/待验证 | 1. **扁平化进入“硬约束阶段”，不是只画组织图。可信度：高。** | - 暂不形成结论，但提示我们关注：**真正稀缺的可能不是“更少 manager”，而是“更少但更强的 governance owner / workflow owner”**。 | 1. GitLab 后续是否披露 retained manager roles、span 或 team topology？ |
 | 2026-06-05 | [日报](../2026-06-05/01-flat-organization.html) | 线索层/待验证 | 1. **扁平化真正压缩的是“低判断、低治理、低复用”的协调层，而不是所有中间层。可信度：高。** | - 暂不形成结论，但提示我们关注：**更扁平的企业可能不一定更少“中间人”，而是更多“带专业控制权的中间人”**。 | - 多一层 partner / deployco，也可能在短期形成新的协调复杂度。 |
@@ -35,6 +34,7 @@
 | 2026-06-15 | [日报](../2026-06-15/01-flat-organization.html) | 线索层/待验证 | 1. **扁平化的核心对象已从 org chart 转向 responsibility package。可信度：高。** | - 暂不形成结论，但提示我们关注：**manager-orchestrator 的新责任包是否会让少数中层过载，尤其当带教和治理职责没有同步减法时。** | 1. 哪些企业已公开 manager-orchestrator 的正式能力模型？ |
 | 2026-06-16 | [日报](../2026-06-16/01-flat-organization.html) | 线索层/待验证 | 1. **中层减少已经从叙事走向执行，但被保留下来的管理责任会更重。可信度：高。** | - 暂不形成结论，但提示我们关注：**manager 减少后 direct reports 是否显著上升，以及剩余 manager 的 coaching 时间是否被挤压。** | 1. 哪些企业已公开 manager-orchestrator / player-coach 的正式能力模型？ |
 | 2026-06-17 | [日报](../2026-06-17/01-flat-organization.html) | 线索层/待验证 | 1. **扁平化开始同时削薄中层和 junior training layer。可信度：中高。** | - 暂不形成结论，但提示我们关注：**PwC 所说的“seniorized entry roles”究竟是普遍抬高门槛，还是主要集中在高 AI 暴露职业。** | 1. 哪些企业已公开 apprentice redesign、manager coaching 或 junior capability ramp 机制？ |
+| 2026-06-18 | [日报](../2026-06-18/01-flat-organization.html) | 背景材料（Context）强证据 | 1. **扁平化的真实执行路径越来越像“先减少中层，再减少支持层/训练层”。可信度：高。** | - 暂不形成结论，但提示我们关注：**graduate hiring cut 是行业广泛趋势，还是集中在会计、咨询、软件等 AI 最快吸收 entry tasks 的行业。** | 1. 哪些企业已公开把 graduate hiring shrink 与 AI task redesign 绑定解释？ |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-06-17｜[打开专题日报](../2026-06-17/01-flat-organization.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-17/01-flat-organization.md`
+- 最新日报：2026-06-18｜[打开专题日报](../2026-06-18/01-flat-organization.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-18/01-flat-organization.md`
