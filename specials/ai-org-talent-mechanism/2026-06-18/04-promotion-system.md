@@ -1,52 +1,114 @@
 # 2026-06-18｜专题四：未来组织的晋升机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+## 1. 今日一句话专题判断
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+今天晋升机制最关键的新判断是：**当组织把更多入口层任务外部化、项目化或交给 AI 时，晋升会更强调“持续内部 ownership”而不是“短期承担更难工作”；很多资源诉求应被分流到 premium、allowance 或项目激励，而不是直接转成 title。**
 
-## 今日一句话结论
+## 2. 今日新增事实：只写可追溯事实，注明来源
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+1. **PwC 2026 AI Jobs Barometer（经 Business Insider、Investopedia 转述）继续显示，AI 暴露型 entry-level roles 更频繁要求 senior-level skills。**  
+   - 来源：Business Insider / Investopedia  
+   - https://www.businessinsider.com/pwc-global-jobs-barometer-ai-advanced-skills-entry-level-jobs-2026-6  
+   - https://www.investopedia.com/entry-level-jobs-now-want-senior-skills-as-ai-splits-the-workforce-new-study-says-11998894
+2. **《金融时报》2026-06-16 报道，部分大型雇主缩减 graduate recruitment，说明“传统入门层”正在收缩。**  
+   - 来源：Financial Times  
+   - https://www.ft.com/content/bbf57e46-51ef-4013-8f09-8391fb69e6f1
+3. **GitLab 内部知识卡继续显示，其 inline promotion 仍以 promotion document、business results、business justification 和半年校准为核心。**  
+   - 来源：内部知识库  
+   - `knowledge/wiki/gitlab-promotions-transfers-handbook.md`
+4. **Anthropic `Claude Corps` 这类项目说明，一部分 AI 能力可先通过 external fellows 注入，而不必直接转成正式层级变化。**  
+   - 来源：AP News  
+   - https://apnews.com/article/b1c130a08417d13e1256f8982d233b0e
+5. **Accenture 与 Amazon 的既有媒体信号继续显示，AI 使用正在进入 promotion packet / promotion gate 讨论。**  
+   - 来源：Business Insider  
+   - https://www.businessinsider.com/accenture-ceo-ai-use-is-required-for-promotion-2026-3
 
-## 今日核心判断
+## 3. 今日核心判断：3-5条，每条注明可信度、证据基础、为什么重要
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+1. **entry-level seniorization 会让“早担责”与“该晋升”更容易被混淆。可信度：高。**  
+   - 证据基础：PwC seniorization；graduate hiring shrink。  
+   - 为什么重要：组织若不区分短期高要求与稳定 scope 扩张，就会出现 title inflation。
+2. **未来晋升更要证明“持续内部 ownership”，而不是只证明“在一个 AI-heavy 项目里做得不错”。可信度：高。**  
+   - 证据基础：GitLab 的 business justification；外部 fellows / project capability injection。  
+   - 为什么重要：很多 AI 能力可通过外部或项目化获得，只有持续内部 owner 才适合用层级确认。
+3. **越来越多资源诉求应从晋升分流到 premium、allowance、project reward。可信度：中高。**  
+   - 证据基础：skills-based 定价方法论；岗位变化与序列变化不等价。  
+   - 为什么重要：如果所有稀缺和贡献都靠升 title 解决，校准机制会失真。
+4. **固定窗口仍有必要，但证据采集必须更细、更连续。可信度：高。**  
+   - 证据基础：GitLab 半年校准；Accenture AI signal；scope 识别更复杂。  
+   - 为什么重要：组织仍需公平与预算校准，但不能再依赖临门一脚的模糊印象。
 
-## 今日背景材料
+## 4. 重点案例事实还原：为什么“外部化入口层”会改变晋升设计
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+- 背景：传统晋升体系隐含一个前提，即组织内部有足够多初级岗位、项目支持岗和练手机会，员工能逐步积累证据。
+- 新变化：  
+  - entry-level roles 更少、更高 bar；  
+  - 一部分能力由 external fellows、contract talent、AI service layer 补充；  
+  - 一部分初级任务直接消失。
+- 这会带来什么：  
+  - 员工更早承担高复杂度工作，但未必更早拥有稳定组织 scope；  
+  - 管理者更难判断“这是短期项目性高要求”还是“角色已长期升级”；  
+  - 员工也更容易把稀缺价值诉求转化为 title 诉求。
+- 这就是为什么 GitLab 式骨架更重要：  
+  - `promotion document` 强制要求事实证据；  
+  - `business justification` 强制回答组织是否真的需要更高层级角色；  
+  - 半年校准维持横向公平。
+- AI 时代建议补的字段：  
+  - `scope durability`：候选人承担的高复杂度责任是否已稳定持续；  
+  - `internal ownership`：关键判断、风险和协同接口是否长期由其持有；  
+  - `AI leverage quality`：是否把 AI 用成高质量 workflow，而非表演性使用；  
+  - `team acceleration`：是否把个人方法变成组织资产；  
+  - `invisible work`：是否承担 mentoring、feedback、系统维护等不易可见但关键的工作。
+- 为什么不是立刻改成“随时晋升”：  
+  - 预算、同级比较、公平性仍要校准；  
+  - 现在更需要的不是取消窗口，而是把证据积累前置、把定价工具分流。
+- 不可照搬点：  
+  - 只学会往表单里加 AI 字段，不会自动得到更公平的晋升机制；核心仍是 scope 与 business need。
 
-## 今日新增证据地图
+## 5. Context层：暂不形成结论，但提示我们关注……
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+- 暂不形成结论，但提示我们关注：**当 entry-level 机会收缩时，企业是否会增加 bonus / allowance，而不是晋升机会。**
+- 暂不形成结论，但提示我们关注：**external fellows 参与关键工作后，内部员工如何证明自己真正拥有可晋升的 internal ownership。**
+- 暂不形成结论，但提示我们关注：**中国企业是否会先把 AI contribution 写进干部评审、项目评优，而不是标准 promotion packet。**
 
-## 线索层
+## 6. 证据地图
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+- 官方/一手：GitLab 公开 handbook。  
+- 权威媒体/咨询：Business Insider；Investopedia；Financial Times。  
+- 公司案例/制度材料：GitLab、Accenture、Anthropic。  
+- 学术/研究：`Beyond the Org Chart` 作为 invisible work 背景；`Payrolls to Prompts` 作为任务外包被替代背景。  
+- 招聘 JD / 薪酬：PwC 招聘广告研究。  
+- 社媒/职场线索：不进入主结论。  
+- 内部信息库/知识库：`knowledge/wiki/gitlab-promotions-transfers-handbook.md` ｜ `digest.md`。  
 
-## 待补齐的落地问题
+## 7. 对我们行动的启发
 
-正式重跑必须回答：AI 贡献如何进入晋升证据包、谁负责验证与质量、是否有校准机制、是否存在调岗降薪和劳动合规风险。
+1. 晋升证据模板建议升级为 `scope / scope durability / internal ownership / AI leverage / team acceleration / invisible work / business need`。  
+2. 把 title promotion、market premium、专项津贴、项目激励和 fellowship-to-hire 分开设计。  
+3. 对“更早承担 senior-like tasks”的员工，可先用 premium、expanded charter 或 acting scope 记录，而不是直接升 title。  
+4. 保留固定校准窗口，但要求经理平时持续记录证据。  
 
-## 来源索引
+## 8. 待验证清单与下一步搜索路径
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
+1. 哪些公司已明确区分短期 expanded responsibilities 与正式 promotion scope？  
+   - Query：`expanded responsibilities not promotion official`
+2. 哪些组织已把 AI leverage、verification、team enablement 写进 promotion rubric？  
+   - Query：`AI promotion rubric verification official`
+3. 哪些企业公开使用 premium/allowance 替代部分晋升诉求？  
+   - Query：`market premium allowance skills official`
+4. 哪些组织已设计 external fellowship 到正式 hire 的转化规则？  
+   - Query：`fellowship to hire policy official`
+
+## 9. 来源索引
+
+- Business Insider：`Employers want entry-level workers with senior-level skills in the age of AI, a huge PwC analysis found`  
+  https://www.businessinsider.com/pwc-global-jobs-barometer-ai-advanced-skills-entry-level-jobs-2026-6
+- Investopedia：`Entry-Level Jobs Now Want Senior Skills as AI Splits the Workforce, New Study Finds`  
+  https://www.investopedia.com/entry-level-jobs-now-want-senior-skills-as-ai-splits-the-workforce-new-study-says-11998894
+- Financial Times：`Large employers slash graduate recruitment as AI starts to bite`  
+  https://www.ft.com/content/bbf57e46-51ef-4013-8f09-8391fb69e6f1
+- Business Insider：`Accenture's CEO says using AI is now required for promotion`  
+  https://www.businessinsider.com/accenture-ceo-ai-use-is-required-for-promotion-2026-3
+- AP News：`Anthropic announces 'Claude Corps' to teach nonprofits to use AI more effectively`  
+  https://apnews.com/article/b1c130a08417d13e1256f8982d233b0e
+- 内部：`knowledge/wiki/gitlab-promotions-transfers-handbook.md`

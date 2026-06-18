@@ -62,6 +62,42 @@
 - **标签**：#Glean #Botsitting #HiddenLabor #AIGovernance #ProductivityParadox
 - **抓取时间**：2026-06-18 18:00
 
+### [5] Anthropic 推出 `Claude Corps`：把 early-career AI fellows 批量送进组织
+- **事件摘要**：AP News 于 2026 年 6 月 12 日报道，Anthropic 发布 `Claude Corps`，计划向美国 400 家 nonprofit 配置 1,000 名 early-career AI fellows，并向每家机构提供 1 万美元 grant 和 Claude credits，以帮助组织更有效地把 AI 嵌入实际工作。
+- **来源**：AP News（https://apnews.com/article/b1c130a08417d13e1256f8982d233b0e）
+- **来源平台**：AP News
+- **来源可信度**：📰较高
+- **OD启示**：AI 时代的人才密度不再只靠正式 headcount。组织可能越来越多地通过 fellows、residency、项目化能力注入和工具 credits 来快速形成新能力，再决定哪些要内生化。
+- **标签**：#Anthropic #ClaudeCorps #AIFellowship #TalentDensity #CapabilityInjection
+- **抓取时间**：2026-06-18 18:00
+
+### [6] `Payrolls to Prompts`：企业正在用 AI 部分替代 outsourced online labor
+- **事件摘要**：arXiv 论文《Payrolls to Prompts: Firm-Level Evidence on the Substitution of Labor for AI》基于企业支出数据发现，更依赖 Upwork、Fiverr 等在线劳务平台的企业，在 ChatGPT 发布后更早采用 AI，并同步减少在线劳务平台支出。到 2025 年第三季度，最高暴露组企业的 AI 模型支出占比较低暴露组提升 0.8 个百分点，且 contracted labor spending 明显下降。
+- **来源**：arXiv（https://arxiv.org/abs/2602.00139）
+- **来源平台**：arXiv
+- **来源可信度**：⭐高
+- **OD启示**：很多组织变化并不先表现为“正式岗位消失”，而先表现为外包任务包和支持性执行层被 AI 服务替代。岗位设计、扁平化和晋升机制都要重新盘点哪些接口仍需内部拥有。
+- **标签**：#PayrollsToPrompts #OutsourcedLabor #AIAutomation #FlatOrganization #JobPackaging
+- **抓取时间**：2026-06-18 18:00
+
+### [7] FT：部分大型雇主把 graduate recruitment 削减至多 40%
+- **事件摘要**：英国《金融时报》于 2026 年 6 月 16 日报道，部分大型会计与咨询公司已把 graduate recruitment 削减至多 40%，原因是 AI 正开始吞并一部分传统 entry-level tasks。
+- **来源**：Financial Times（https://www.ft.com/content/bbf57e46-51ef-4013-8f09-8391fb69e6f1）
+- **来源平台**：Financial Times
+- **来源可信度**：📰较高
+- **OD启示**：这说明“入口层外部化”正在发生。企业未必完全不需要初级人才，但会减少低标准入口，转而要求更高 baseline，或用外部项目、fellowship、AI service 补位。
+- **标签**：#GraduateHiring #EntryLevel #AIImpact #TalentPipeline #Apprenticeship
+- **抓取时间**：2026-06-18 18:00
+
+### [8] PwC seniorized entry roles 信号持续增强
+- **事件摘要**：Business Insider 与 Investopedia 继续转述 PwC 2026 AI Jobs Barometer：AI 暴露型 entry-level roles 更高频要求传统 senior-level skills，自 2019 到 2025，“seniorized”初级岗位增长 35%，未被 seniorize 的同类岗位下降 10%。
+- **来源**：Business Insider（https://www.businessinsider.com/pwc-global-jobs-barometer-ai-advanced-skills-entry-level-jobs-2026-6）；Investopedia（https://www.investopedia.com/entry-level-jobs-now-want-senior-skills-as-ai-splits-the-workforce-new-study-says-11998894）
+- **来源平台**：Business Insider / Investopedia
+- **来源可信度**：📰较高
+- **OD启示**：AI 不是单纯减少岗位，而是在重写进入门槛。未来更典型的组织形态，可能是更少的正式初级岗、更高的能力 baseline、更多 project/fellow/AI layer 的组合。
+- **标签**：#PwC #SeniorizedEntryRoles #TalentDensity #PromotionPipeline #AIJobs
+- **抓取时间**：2026-06-18 18:00
+
 ## 2026-06-17
 
 ### [1] PwC 2026 AI Jobs Barometer：AI 暴露型初级岗位正在被“seniorize”
