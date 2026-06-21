@@ -2,7 +2,7 @@
 title: it job family career ladder matrix software engineer
 source: umassmed.edu
 date: 待核验
-ingested: 2026-06-20
+ingested: 2026-06-21
 sourceFile: 
 sourceUrl: https://www.umassmed.edu/globalassets/human-resources/documents/compensation/job-families/it-job-family-career-ladder-matrix_software-engineer.pdf
 tags: [AI组织设计, 绩效管理]
@@ -21,7 +21,7 @@ it job family career ladder matrix software engineer 已作为日报/周报 PDF 
 - **来源类型**：media
 - **原文 URL**：https://www.umassmed.edu/globalassets/human-resources/documents/compensation/job-families/it-job-family-career-ladder-matrix_software-engineer.pdf
 - **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
-- **入库日期**：2026-06-20
+- **入库日期**：2026-06-21
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
