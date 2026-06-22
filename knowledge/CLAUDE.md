@@ -107,3 +107,4 @@ name: 概念名称
 ## 课题标签体系
 - AI组织设计、人才发展、绩效管理、变革管理、组织文化、战略规划、数字化转型、领导力
 - 来源类型：consulting（咨询）、academic（学术）、industry（行业）、media（媒体）、internal（内部）
+- 国内垂直内容源：微信公众号「AI组织进化论」等内容源可作为观点、案例和线索入口；入库时默认标注为 `media` 或 `industry`，只有与官方材料、招聘 JD、薪酬信号或权威媒体互证后，才能升级为结论层证据。详细规则见 `operations/source-channels.md`。

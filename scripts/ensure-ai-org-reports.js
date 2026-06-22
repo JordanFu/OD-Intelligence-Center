@@ -52,6 +52,7 @@ const SOURCES = [
   ['Payscale 2026 薪酬最佳实践报告', 'https://www.payscale.com/press-releases/2026-compensation-best-practices-report', 'AI 技能薪酬、薪酬公平'],
   ['CHRO Association 2026 Survey', 'https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p', '中层阻力、CHRO 议题'],
   ['OD Intelligence Center 知识库', './knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md', 'AI+HR、薪酬福利、组织发展精读池'],
+  ['微信公众号「AI组织进化论」', 'wechat:AI组织进化论', '国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层'],
 ];
 
 function ensureDir(dir) { fs.mkdirSync(dir, { recursive: true }); }
