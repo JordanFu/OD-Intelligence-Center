@@ -1,7 +1,7 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-06-18 18:00
+> 最后更新：2026-06-22 18:00
 
 ---
 
@@ -23,6 +23,26 @@
 - 💬参考：社交平台/社区讨论，需交叉验证
 
 -->
+
+## 2026-06-22
+
+### [1] Anthropic：`Applied AI` 继续以独立团队形态公开扩张，且管理层与行业分线仍然可见
+- **事件摘要**：截至 2026 年 6 月 22 日复核，Anthropic 官方 jobs 页面仍将 `Applied AI` 单列为独立团队，并持续公开 `Head of ANZ, Applied AI`、多条 `Manager of Applied AI Architecture`、`Manager of Solutions Architecture, Applied AI`、`Applied AI Architect`、`Partner Solutions Architect, Applied AI`、`Applied AI Claude Evangelist, Startups` 等岗位。这说明 `Applied AI` 仍在被组织化为可管理、可分行业、可分区域复制的客户嵌入与交付层，而不是短期前线支援角色集合。
+- **来源**：Anthropic 官方 Jobs（https://www.anthropic.com/careers/jobs）
+- **来源平台**：Anthropic
+- **来源可信度**：⭐高
+- **OD启示**：AI 原生公司的组织竞争，越来越不只是模型能力竞争，而是谁先把客户嵌入、架构抽象、伙伴协同和反馈回流写成正式组织层。`Applied AI` 的持续管理化，说明“部署层”已经是长期 operating layer，而不是项目性补丁。
+- **标签**：#Anthropic #AppliedAI #SolutionsArchitecture #ForwardDeployed #OperatingLayer
+- **抓取时间**：2026-06-22 18:00
+
+### [2] 今日无更强新增公开信号超过现有基线，维持 6/17-6/18 的有效判断
+- **事件摘要**：2026 年 6 月 19 日至 2026 年 6 月 22 日间，未发现比现有基线更强、且足以入库为新结论的公开组织机制信号。当前最值得保留的有效判断，仍是 6 月 17 日的 `task chaining` / `labor demand reorganization` 与 6 月 18 日的 HR GenAI adoption 条件研究：AI 更像在吞并连续工作链条、同时通过招聘重配和岗位内任务重写改变组织；高风险职能里的采纳成败，则取决于角色位置、语言环境与知识基础设施匹配度。
+- **来源**：arXiv《Chaining Tasks, Redefining Work: A Theory of AI Automation》（https://arxiv.org/abs/2606.15960）；arXiv《Generative AI and the Reorganization of Labor Demand》（https://arxiv.org/abs/2605.23159）；arXiv《AI Adoption Across a Multinational Workforce: Sociotechnical Conditions for GenAI Acceptance in Human Resources》（https://arxiv.org/abs/2606.17887）
+- **来源平台**：arXiv
+- **来源可信度**：⭐高
+- **OD启示**：在新鲜新闻不足时，项目不应为了“日更”降低入库门槛。当前更稳妥的做法，是继续围绕工作链条重写、岗位成长接口、知识基础设施与信任校准四个机制层变量积累证据，而不是追逐弱新闻。
+- **标签**：#NoUpdate #TaskChaining #LaborReallocation #HRTech #KnowledgeInfrastructure
+- **抓取时间**：2026-06-22 18:00
 
 ## 2026-06-18
 
