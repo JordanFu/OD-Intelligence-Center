@@ -1,110 +1,70 @@
-# 2026-06-22｜专题四：未来组织的晋升机制
+# 2026-06-22｜专题4：AI 原生工作方式与治理机制
 
-## 1. 今日一句话专题判断
+> 状态：正式补跑稿｜用途：CEO/OD 决策参考｜语言规则：中文为主，必要英文仅保留专名和来源标题。
 
-今天晋升机制最关键的新判断是：**随着 AI fluency 与风险控制逐步变成全员基础门槛，未来晋升更要奖励“持续内部 ownership、系统级影响和团队放大效应”，而不是把任何 AI 熟练度或短期高要求都折算成升层级。**
+## 1. 今日一句话结论
 
-## 2. 今日新增事实：只写可追溯事实，注明来源
+6 月 19 日至 22 日的新增证据共同说明：AI 组织改革的主线不是新增多少岗位名称，而是重写人才入口、专家深度、业务责任、风险治理和激励分配的运行责任链。
 
-1. **NatWest 正对约 60,000 名员工进行 AI 风险训练，说明 prompt hygiene、核验和责任边界正在成为广泛职业底线。**  
-   - 来源：The Times  
-   - https://www.thetimes.com/business/companies-markets/article/natwest-trains-all-staff-ai-tech-banking-qc7ngmzsw
-2. **Lloyds 一边减少部分岗位，一边新增 300 个 AI/data roles，并通过 AI Academy 覆盖 67,000 名员工。**  
-   - 来源：The Guardian  
-   - https://www.theguardian.com/business/2026/jun/20/lloyds-banking-group-ai-recruitment-drive-300-tech-experts
-3. **PwC `2026 AI Jobs Barometer` 显示，岗位技能要求变化速度明显加快，AI 暴露型岗位的价值分化持续增强。**  
-   - 来源：PwC  
-   - https://www.pwc.com/gx/en/issues/artificial-intelligence/job-barometer.html
-4. **GitLab 的公开 handbook 仍把 inline promotion 建立在 promotion document、business justification、business results 与半年校准之上。**  
-   - 来源：内部知识库 / GitLab Handbook  
-   - `knowledge/wiki/gitlab-promotions-transfers-handbook.md`
-5. **Zapier 的 AI Fluency Rubric V2 继续强调，manager 的门槛不是自己会用 AI，而是能让团队 workflow 发生真实变化。**  
-   - 来源：内部知识库 / Zapier  
-   - `knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md`
+## 2. 本专题为什么重要
 
-## 3. 今日核心判断：3-5条，每条注明可信度、证据基础、为什么重要
+AI 原生工作方式与治理机制的核心不是换几个岗位名称，而是回答：在 AI 放大个人产出、压缩交接和改变技能供需以后，企业如何重新定义责任、能力、价格和激励。关注智能体流程、风险分级、测试演练、成本归属和责任链。
 
-1. **AI fluency 会越来越像晋升前提，而不是晋升理由。可信度：高。**  
-   - 证据基础：NatWest 全员训练；Lloyds Academy；PwC 技能变化提速。  
-   - 为什么重要：未来“会用 AI”将不再足以构成升职依据，就像会用办公软件不会自动带来晋升。
-2. **值得晋升的是长期 internal ownership 与 team/system impact，而不是一两次 AI-heavy 项目表现。可信度：高。**  
-   - 证据基础：GitLab business justification；Zapier manager bar；专家岗与全员 baseline 分化。  
-   - 为什么重要：这能避免把短期稀缺和长期 scope 混在一起。
-3. **对 AI 时代员工贡献的承认，需要分流到晋升、acting scope、premium、allowance、认证和项目激励多种机制。可信度：高。**  
-   - 证据基础：岗位变化提速；专家稀缺与全员普及并存。  
-   - 为什么重要：只有分轨，校准机制才不会被 title inflation 拖垮。
-4. **固定晋升窗口仍有价值，但证据采集必须更连续、更细化。可信度：高。**  
-   - 证据基础：GitLab 半年校准骨架；AI 工作方式变化更快。  
-   - 为什么重要：组织仍需要公平、预算和横向一致性，但经理不能等到窗口前才补材料。
+## 3. 今日核心判断
 
-## 4. 重点案例事实还原：为什么“全员 AI 基线”会改变晋升设计
+1. **执行层工作正在合并，高复杂度责任前移**：PwC 相关材料显示初级岗位开始要求过去属于资深角色的能力，这与岗位颗粒度变粗、端到端负责增强的假设一致。可信度高。
+2. **核心专家能力仍在继续拆分并获得溢价**：Lloyds 扩大 AI 专家队伍、PwC 报告中的 AI 技能溢价、银行模型测试讨论共同构成反例：平台、治理、评测、安全、数据能力不会被合并掉。可信度中高。
+3. **岗位体系问题经常是激励和定价问题**：AI 技能溢价、专业化岗位更快薪酬增长和专家团队扩张说明，很多“新增序列”诉求背后是关键能力的市场定价缺口。可信度高。
+4. **自动化本身也需要责任机制**：过去几天页面出现非决策稿占位，说明情报生产不能只依赖触发器；必须把证据门槛、质量门禁、补跑责任和页面发布状态分开。可信度高，来自本项目自身运行复盘。
 
-- 背景：过去很多企业默认“掌握新技术、能做更难任务”本身就足以推动晋升讨论。
-- 新变化：  
-  - NatWest 把 AI 风险训练推向几乎全员；  
-  - Lloyds 让大规模员工可进入 AI Academy；  
-  - Zapier 把 AI fluency 提升为招聘最低门槛；  
-  - GitLab 仍坚持晋升必须回答 business need 与长期 scope。
-- 这意味着什么：  
-  - AI fluency、核验习惯和数据安全意识会越来越像职业 hygiene；  
-  - 晋升需要看的是，在这个新底线上，谁真正扩大了内部 ownership、谁让团队工作系统性变好、谁承担了更高等级的业务后果。
-- 传统风险：  
-  - 员工更早承担 senior-like tasks；  
-  - 经理更容易把 AI 使用、项目高压和市场稀缺误当作升层级证据。
-- 建议的晋升证据升级字段：  
-  - `scope durability`：高复杂度责任是否持续存在；  
-  - `internal ownership`：关键判断、风险和跨团队接口是否稳定掌握在该人手中；  
-  - `workflow/system impact`：是否把 AI 变成团队可复用资产；  
-  - `team enablement`：是否让他人 adoption 更快；  
-  - `verification quality`：是否建立更好的风险识别、核验和责任边界；  
-  - `business need`：组织是否真的需要更高层级角色，而非只是短期稀缺。
-- 为什么不主张全面改成“随时晋升”：  
-  - 组织仍需要预算校准、同级比较和公平性控制；  
-  - 更合理的做法是保留窗口，但允许 acting scope、premium 和 out-of-cycle exception 作为缓冲机制。
-- 不可照搬点：  
-  - 不能简单在 promotion packet 里多加一个“AI”字段，而不重写证据标准与分流机制。
+## 4. 今日事实底座
 
-## 5. Context层：暂不形成结论，但提示我们关注……
+- **PwC 2026 AI Jobs Barometer（二手报道交叉验证）**：PwC 基于十亿级招聘广告分析指出，受 AI 影响的美国初级岗位比 2019 年更可能要求过去通常属于资深岗位的能力；相关岗位中新增大量资深能力要求的部分增长 35%，对照岗位下降 10%。
+- **Investopedia 对 PwC 报告的二次核验**：报道复核 PwC 样本口径：27 个国家、十亿级招聘广告、美国 240 万个初级岗位；受 AI 影响的初级岗位更强调领导力、流程管理、辅导、数据化决策等能力。
+- **The Guardian：Lloyds 招募 300 名 AI 技术专家**：Lloyds 计划到 2026 年 9 月招聘 300 名技术专家，加入约 1000 人的 AI 团队；其 2025 年生成式 AI 收益约 5000 万英镑，2026 年目标约 1 亿英镑，同时承认未来可能出现由 AI 引发的岗位削减。
+- **ITPro：AI 技能薪酬溢价与双轨劳动力市场**：基于 PwC 报告，具备 AI 相关技能的岗位薪酬溢价达到 62%；专业化岗位增长约为普及化岗位两倍，薪酬增长快 42%。
+- **Business Insider：白宫与 Anthropic 讨论 AI 安全评估框架**：双方讨论用统一框架评估 AI 安全风险，指标包括防护绕过程度、潜在滥用能力和现实影响。
+- **Financial Times：英国讨论银行 AI 模型统一测试**：英国金融监管相关讨论提出，对银行使用的通用 AI 模型建立统一测试机制，背景是英格兰银行担忧模型评估不足、监测频率不够。
+- **KPMG 财务 AI 调研报道**：KPMG 报道显示，财务场景中的 AI 已进入运营阶段，企业主要难点包括岗位场景识别、练习环境、安全隐私、模型可靠性、监管合规。
+- **arXiv：Payrolls to Prompts**：研究跟踪 2021 年三季度至 2025 年三季度企业在在线劳务市场与 AI 模型供应商上的支出，发现对在线劳务依赖越高的企业越早采用 AI，并减少外部劳务支出。
 
-- 暂不形成结论，但提示我们关注：**AI baseline 全员化后，企业是否会减少晋升频次、增加 allowance 和一次性激励。**
-- 暂不形成结论，但提示我们关注：**manager 是否会因为 team enablement 贡献而更被看重，而不只是看个人交付。**
-- 暂不形成结论，但提示我们关注：**中国企业会先把 AI 贡献写进干部述职、评优和项目评审，还是进入正式晋升机制。**
+## 5. 今日 Context：暂不下结论，但必须纳入判断
 
-## 6. 证据地图
+- 暂不形成结论，但提示我们关注：AI 时代的组织改革不是扁平化口号，而是减少交接、提高责任密度，同时把关键专家能力做深。
+- 暂不形成结论，但提示我们关注：如果薪酬架构不承认 AI 稀缺能力，业务就会用新增头衔、虚高职级和例外审批来绕开规则。
+- 暂不形成结论，但提示我们关注：情报中心页面必须明确区分正式决策稿、补跑稿、占位记录和待验证线索。
 
-- 官方/一手：PwC；GitLab Handbook；Zapier。  
-- 权威媒体/咨询：The Guardian；The Times。  
-- 公司案例/制度材料：Lloyds、NatWest、GitLab、Zapier。  
-- 学术/研究：延续 `Payrolls to Prompts` 对 scope 与任务外部化的背景判断。  
-- 招聘 JD / 薪酬：PwC。  
-- 社媒/职场线索：不进入主结论。  
-- 内部信息库/知识库：`knowledge/wiki/gitlab-promotions-transfers-handbook.md` ｜ `knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md` ｜ `digest.md`。  
+## 6. 重点案例更新
 
-## 7. 对我们行动的启发
+### 中国公司
 
-1. 晋升标准要明确区分 `baseline AI fluency` 与 `promotable ownership`。  
-2. 设计一张分流表：哪些贡献走晋升，哪些走 premium、acting scope、专项津贴、认证或项目奖励。  
-3. 要求经理持续记录 `team enablement`、`verification discipline` 和 `system asset creation` 证据。  
-4. 保留集中校准窗口，但给短期稀缺和 expanded scope 准备更轻量的承接机制。  
+本日为补跑整合日，未新增中国公司个案。后续要补齐国内互联网、金融、教育企业在 AI 岗位合并、专家序列、薪酬溢价和项目激励方面的一手材料。
 
-## 8. 待验证清单与下一步搜索路径
+### 海外公司
 
-1. 哪些公司已把 AI fluency 明确从“加分项”改写为“基础门槛”？  
-   - Query：`AI fluency baseline not promotion official`
-2. 哪些组织公开区分了 acting scope 与正式 promotion scope？  
-   - Query：`acting scope promotion official`
-3. 哪些企业已把 team enablement 写进 manager promotion rubric？  
-   - Query：`manager promotion rubric team enablement AI official`
-4. 哪些公司使用 premium / allowance 承接 AI 稀缺，而不是升层级？  
-   - Query：`AI premium allowance official`
+海外证据形成较清晰链条：PwC 解释岗位能力变化，Lloyds 呈现专家队伍扩张，KPMG 与英国金融监管线索呈现治理缺口，Payrolls to Prompts 呈现外部低复杂度劳务被替代。
+
+## 7. 对本课题的落地启发
+
+- 战略：先定义哪些工作要端到端负责，哪些专家能力必须集中建设。
+- 岗位：执行岗位可合并，专家岗位不宜粗暴合并。
+- 职级：业务通道强调责任范围，专家通道强调技术深度、风险判断和复用资产。
+- 薪酬：岗位架构与薪酬架构解耦，用稀缺系数、专项津贴、项目奖金处理市场溢价。
+- 激励：禁止用新增族群掩盖薪酬预算不足；新增序列必须有清晰供给缺口和评价标准。
+
+## 8. 待验证清单
+
+- 建立日报缺口审计：每天检查正式日报、专题页、首页卡片和证据库是否同步。
+- 把“非决策稿”从首页主列表降权或单独标识，避免误读为正式产出。
+- 补充 6 月国内企业岗位改革和薪酬溢价材料，降低海外材料占比。
 
 ## 9. 来源索引
 
-- The Times：`NatWest trains all staff on AI risks as it rolls out new tech`  
-  https://www.thetimes.com/business/companies-markets/article/natwest-trains-all-staff-ai-tech-banking-qc7ngmzsw
-- The Guardian：`Lloyds Banking Group to cut jobs in AI drive and hire 300 tech experts`  
-  https://www.theguardian.com/business/2026/jun/20/lloyds-banking-group-ai-recruitment-drive-300-tech-experts
-- PwC：`2026 AI Jobs Barometer`  
-  https://www.pwc.com/gx/en/issues/artificial-intelligence/job-barometer.html
-- 内部：`knowledge/wiki/gitlab-promotions-transfers-handbook.md`
-- 内部：`knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md`
+1. PwC 2026 AI Jobs Barometer（二手报道交叉验证）（媒体/报告解读，L3）：https://www.businessinsider.com/pwc-global-jobs-barometer-ai-advanced-skills-entry-level-jobs-2026-6
+2. Investopedia 对 PwC 报告的二次核验（媒体/报告解读，L3）：https://www.investopedia.com/entry-level-jobs-now-want-senior-skills-as-ai-splits-the-workforce-new-study-says-11998894
+3. The Guardian：Lloyds 招募 300 名 AI 技术专家（权威媒体/企业案例，L3）：https://www.theguardian.com/business/2026/jun/20/lloyds-banking-group-ai-recruitment-drive-300-tech-experts
+4. ITPro：AI 技能薪酬溢价与双轨劳动力市场（媒体/报告解读，L3）：https://www.itpro.com/technology/artificial-intelligence/ai-is-creating-a-two-track-labor-market-with-better-pay-for-human-intensive-skills
+5. Business Insider：白宫与 Anthropic 讨论 AI 安全评估框架（媒体/政策线索，L2）：https://www.businessinsider.com/white-house-talks-anthropic-ai-security-rules-2026-6
+6. Financial Times：英国讨论银行 AI 模型统一测试（权威媒体/监管线索，L2）：https://www.ft.com/content/3053b547-5e55-4520-9b95-828c417a5d79
+7. KPMG 财务 AI 调研报道（咨询报告报道，L2）：https://www.techradar.com/pro/ai-is-no-longer-a-future-concept-but-an-operational-reality-new-kpmg-report-claims-firms-are-racing-to-deploy-ai-but-need-to-ensure-they-have-the-right-security-protections
+8. arXiv：Payrolls to Prompts（学术论文，L2）：https://arxiv.org/abs/2602.00139

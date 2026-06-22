@@ -1,107 +1,70 @@
-# 2026-06-22｜专题三：岗位、族群、序列的持续建设
+# 2026-06-22｜专题3：岗位族群、职级序列与薪酬架构
 
-## 1. 今日一句话专题判断
+> 状态：正式补跑稿｜用途：CEO/OD 决策参考｜语言规则：中文为主，必要英文仅保留专名和来源标题。
 
-今天岗位/族群/序列最关键的新判断是：**AI 时代更需要区分“所有人都该具备的新基线”与“只有少数岗位需要长期承担的新 ownership”，序列只该承接后者，前者更适合用 skills、认证、训练和 pay differentiation 表达。**
+## 1. 今日一句话结论
 
-## 2. 今日新增事实：只写可追溯事实，注明来源
+6 月 19 日至 22 日的新增证据共同说明：AI 组织改革的主线不是新增多少岗位名称，而是重写人才入口、专家深度、业务责任、风险治理和激励分配的运行责任链。
 
-1. **PwC `2026 AI Jobs Barometer` 显示，岗位技能要求变化速度明显加快，说明很多变化首先发生在 job content，而不是 job title。**  
-   - 来源：PwC  
-   - https://www.pwc.com/gx/en/issues/artificial-intelligence/job-barometer.html
-2. **Lloyds 同时缩减部分岗位、增设 300 个 AI/data roles，并开放 AI Academy 与 tech/data trainees 入口。**  
-   - 来源：The Guardian  
-   - https://www.theguardian.com/business/2026/jun/20/lloyds-banking-group-ai-recruitment-drive-300-tech-experts
-3. **NatWest 让约 60,000 名员工接受 AI 风险训练，说明一部分 AI 相关能力正在从“新岗位要求”变成“全员基础职业素养”。**  
-   - 来源：The Times  
-   - https://www.thetimes.com/business/companies-markets/article/natwest-trains-all-staff-ai-tech-banking-qc7ngmzsw
-4. **Workday 延续强调，human-agent operating model 设计要先定义 authority boundary 与 task-to-agent mapping。**  
-   - 来源：Workday  
-   - https://www.workday.com/en-us/perspectives/hr/operating-models-for-human-and-agents.html
-5. **内部方法论与 6 月 18 日以来的外部信号共同表明：很多“建新岗”诉求，本质上是 baseline 提升、market scarcity 或短期 capability gap。**  
-   - 来源：内部知识库 / Financial Times / AP News  
-   - `knowledge/concepts/skills-based-organization-obsidian.md`  
-   - https://www.ft.com/content/bbf57e46-51ef-4013-8f09-8391fb69e6f1  
-   - https://apnews.com/article/b1c130a08417d13e1256f8982d233b0e
+## 2. 本专题为什么重要
 
-## 3. 今日核心判断：3-5条，每条注明可信度、证据基础、为什么重要
+岗位族群、职级序列与薪酬架构的核心不是换几个岗位名称，而是回答：在 AI 放大个人产出、压缩交接和改变技能供需以后，企业如何重新定义责任、能力、价格和激励。关注岗位合并、专家拆分、薪酬带宽、稀缺系数和头衔膨胀风险。
 
-1. **很多 AI 能力变化应先被定义为全员 baseline，而不是新岗位族群。可信度：高。**  
-   - 证据基础：NatWest 全员训练；PwC 技能变化提速。  
-   - 为什么重要：如果把每个新基线都做成新 title，岗位体系会快速膨胀且失真。
-2. **只有那些长期、稳定、跨团队复用、带风险/质量/决策责任的 AI 能力，才值得升格为 job family 或专家序列。可信度：高。**  
-   - 证据基础：Lloyds 新增 AI/data roles；Workday authority boundary。  
-   - 为什么重要：岗位体系的本质是管理长期 ownership，而不是记录一切技能变化。
-3. **短期稀缺或能力跃迁，更适合用 premium、allowance、certification 或 project charter，而不是新建序列。可信度：中高。**  
-   - 证据基础：专家扩招与全员 training 并存；内部 skills-based 组织方法论。  
-   - 为什么重要：这能避免把临时市场溢价固化成长期组织结构。
-4. **岗位设计顺序应从 `任务链 -> 权责边界 -> 能力标签 -> 定价 -> title`，而不是反过来。可信度：高。**  
-   - 证据基础：Workday task-to-agent mapping；6 月以来各类岗位和序列争议。  
-   - 为什么重要：先谈 title 会跳过最关键的 ownership 与 workflow 决策。
+## 3. 今日核心判断
 
-## 4. 重点案例事实还原：什么时候该新建序列，什么时候只用技能和定价工具
+1. **执行层工作正在合并，高复杂度责任前移**：PwC 相关材料显示初级岗位开始要求过去属于资深角色的能力，这与岗位颗粒度变粗、端到端负责增强的假设一致。可信度高。
+2. **核心专家能力仍在继续拆分并获得溢价**：Lloyds 扩大 AI 专家队伍、PwC 报告中的 AI 技能溢价、银行模型测试讨论共同构成反例：平台、治理、评测、安全、数据能力不会被合并掉。可信度中高。
+3. **岗位体系问题经常是激励和定价问题**：AI 技能溢价、专业化岗位更快薪酬增长和专家团队扩张说明，很多“新增序列”诉求背后是关键能力的市场定价缺口。可信度高。
+4. **自动化本身也需要责任机制**：过去几天页面出现非决策稿占位，说明情报生产不能只依赖触发器；必须把证据门槛、质量门禁、补跑责任和页面发布状态分开。可信度高，来自本项目自身运行复盘。
 
-- 背景：AI 时代业务经常会把几种完全不同的问题，都包装成“要不要设新岗位/新序列”。
-- 今天的新证据让这个判断更清楚：
-  - **NatWest 式全员训练** 说明，有些能力是 baseline，应该普及，不该新设序列；
-  - **Lloyds 式 AI/data roles 扩招** 说明，有些能力具备长期 ownership 价值，值得成为明确岗位；
-  - **FT graduate shrink 与 `Claude Corps`** 说明，还有一些能力更像过渡性入口重写或项目化能力注入。
-- 因此建议使用四分法：
-  - **新建岗位/序列**：当能力域长期存在、职责边界稳定、跨团队复用、需要内部 owner 承担质量/风险/决策责任。  
-  - **只用 skill tag / certification**：当能力正在变成广泛 baseline，更多是工作方式升级，而非职业域分化。  
-  - **用 premium / allowance / pay band 调整**：当市场稀缺暂时上升，但职责本质未发生长期变化。  
-  - **坚决不新增序列**：当诉求只是为了给关键员工加激励、对某个项目短期保留人才，或只是 AI 让同一岗位的 bar 抬高。
-- 可借鉴点：
-  - 先问“这项能力 18-24 个月后是否仍需要稳定内部 ownership”，再决定是否升格为序列。  
-  - 把 `AI risk literacy`、`verification discipline` 这类内容直接做成全员要求。  
-  - 对 builder / orchestrator / model governance 等长期能力域，才进入正式 family 讨论。
-- 不可照搬点：
-  - 不能看到 AI 相关岗位涨薪，就把所有相关能力都塞进新序列；那往往是 pricing，不是 architecture。
+## 4. 今日事实底座
 
-## 5. Context层：暂不形成结论，但提示我们关注……
+- **PwC 2026 AI Jobs Barometer（二手报道交叉验证）**：PwC 基于十亿级招聘广告分析指出，受 AI 影响的美国初级岗位比 2019 年更可能要求过去通常属于资深岗位的能力；相关岗位中新增大量资深能力要求的部分增长 35%，对照岗位下降 10%。
+- **Investopedia 对 PwC 报告的二次核验**：报道复核 PwC 样本口径：27 个国家、十亿级招聘广告、美国 240 万个初级岗位；受 AI 影响的初级岗位更强调领导力、流程管理、辅导、数据化决策等能力。
+- **The Guardian：Lloyds 招募 300 名 AI 技术专家**：Lloyds 计划到 2026 年 9 月招聘 300 名技术专家，加入约 1000 人的 AI 团队；其 2025 年生成式 AI 收益约 5000 万英镑，2026 年目标约 1 亿英镑，同时承认未来可能出现由 AI 引发的岗位削减。
+- **ITPro：AI 技能薪酬溢价与双轨劳动力市场**：基于 PwC 报告，具备 AI 相关技能的岗位薪酬溢价达到 62%；专业化岗位增长约为普及化岗位两倍，薪酬增长快 42%。
+- **Business Insider：白宫与 Anthropic 讨论 AI 安全评估框架**：双方讨论用统一框架评估 AI 安全风险，指标包括防护绕过程度、潜在滥用能力和现实影响。
+- **Financial Times：英国讨论银行 AI 模型统一测试**：英国金融监管相关讨论提出，对银行使用的通用 AI 模型建立统一测试机制，背景是英格兰银行担忧模型评估不足、监测频率不够。
+- **KPMG 财务 AI 调研报道**：KPMG 报道显示，财务场景中的 AI 已进入运营阶段，企业主要难点包括岗位场景识别、练习环境、安全隐私、模型可靠性、监管合规。
+- **arXiv：Payrolls to Prompts**：研究跟踪 2021 年三季度至 2025 年三季度企业在在线劳务市场与 AI 模型供应商上的支出，发现对在线劳务依赖越高的企业越早采用 AI，并减少外部劳务支出。
 
-- 暂不形成结论，但提示我们关注：**金融和咨询行业的“全员基线 + 少量专家序列”模式，是否会成为主流模板。**
-- 暂不形成结论，但提示我们关注：**中国大厂是否会先以统一数字序列 + 技能标签承接 AI 变化，而不是继续细分专业通道。**
-- 暂不形成结论，但提示我们关注：**企业会否越来越多用内部认证或 badge 替代新 title。**
+## 5. 今日 Context：暂不下结论，但必须纳入判断
 
-## 6. 证据地图
+- 暂不形成结论，但提示我们关注：AI 时代的组织改革不是扁平化口号，而是减少交接、提高责任密度，同时把关键专家能力做深。
+- 暂不形成结论，但提示我们关注：如果薪酬架构不承认 AI 稀缺能力，业务就会用新增头衔、虚高职级和例外审批来绕开规则。
+- 暂不形成结论，但提示我们关注：情报中心页面必须明确区分正式决策稿、补跑稿、占位记录和待验证线索。
 
-- 官方/一手：PwC；Workday。  
-- 权威媒体/咨询：The Guardian；The Times；Financial Times。  
-- 公司案例/制度材料：Lloyds、NatWest、Anthropic。  
-- 学术/研究：延续 `Payrolls to Prompts` 的 work packaging 判断。  
-- 招聘 JD / 薪酬：PwC 对工资、岗位与技能变化的追踪。  
-- 社媒/职场线索：不进入主结论。  
-- 内部信息库/知识库：`knowledge/concepts/skills-based-organization-obsidian.md` ｜ `digest.md`。  
+## 6. 重点案例更新
 
-## 7. 对我们行动的启发
+### 中国公司
 
-1. 任何“建新岗/新序列”需求都要先回答：`长期 ownership 还是 baseline 提升？`  
-2. 默认先用 `skill tags + certification + pay differentiation`，只有稳定后再升格为 family。  
-3. 对 AI 相关技能，应建立一个“序列升格门槛清单”，避免业务把资源诉求直接包装成新 title。  
-4. 岗位架构评审会议要新增一个固定问题：`如果不建新序列，最合适的替代载体是什么？`  
+本日为补跑整合日，未新增中国公司个案。后续要补齐国内互联网、金融、教育企业在 AI 岗位合并、专家序列、薪酬溢价和项目激励方面的一手材料。
 
-## 8. 待验证清单与下一步搜索路径
+### 海外公司
 
-1. 哪些组织已明确把 AI fluency 做成全员认证，而非岗位序列？  
-   - Query：`AI fluency certification all employees official`
-2. 哪些公司公开了 AI specialist family 或 ladder 的正式定义？  
-   - Query：`AI specialist job family official`
-3. 哪些企业把 premium、allowance 与 skill tags 分轨管理？  
-   - Query：`skills premium allowance official`
-4. 中国企业是否已有“统一序列 + 技能标签 + AI认证”的实践文本？  
-   - Query：`统一序列 技能标签 AI认证 官方`
+海外证据形成较清晰链条：PwC 解释岗位能力变化，Lloyds 呈现专家队伍扩张，KPMG 与英国金融监管线索呈现治理缺口，Payrolls to Prompts 呈现外部低复杂度劳务被替代。
+
+## 7. 对本课题的落地启发
+
+- 战略：先定义哪些工作要端到端负责，哪些专家能力必须集中建设。
+- 岗位：执行岗位可合并，专家岗位不宜粗暴合并。
+- 职级：业务通道强调责任范围，专家通道强调技术深度、风险判断和复用资产。
+- 薪酬：岗位架构与薪酬架构解耦，用稀缺系数、专项津贴、项目奖金处理市场溢价。
+- 激励：禁止用新增族群掩盖薪酬预算不足；新增序列必须有清晰供给缺口和评价标准。
+
+## 8. 待验证清单
+
+- 建立日报缺口审计：每天检查正式日报、专题页、首页卡片和证据库是否同步。
+- 把“非决策稿”从首页主列表降权或单独标识，避免误读为正式产出。
+- 补充 6 月国内企业岗位改革和薪酬溢价材料，降低海外材料占比。
 
 ## 9. 来源索引
 
-- PwC：`2026 AI Jobs Barometer`  
-  https://www.pwc.com/gx/en/issues/artificial-intelligence/job-barometer.html
-- The Guardian：`Lloyds Banking Group to cut jobs in AI drive and hire 300 tech experts`  
-  https://www.theguardian.com/business/2026/jun/20/lloyds-banking-group-ai-recruitment-drive-300-tech-experts
-- The Times：`NatWest trains all staff on AI risks as it rolls out new tech`  
-  https://www.thetimes.com/business/companies-markets/article/natwest-trains-all-staff-ai-tech-banking-qc7ngmzsw
-- Workday：`Designing Operating Models for Human + Agent Teams`  
-  https://www.workday.com/en-us/perspectives/hr/operating-models-for-human-and-agents.html
-- Financial Times：`Large employers slash graduate recruitment as AI starts to bite`  
-  https://www.ft.com/content/bbf57e46-51ef-4013-8f09-8391fb69e6f1
-- 内部：`knowledge/concepts/skills-based-organization-obsidian.md`
+1. PwC 2026 AI Jobs Barometer（二手报道交叉验证）（媒体/报告解读，L3）：https://www.businessinsider.com/pwc-global-jobs-barometer-ai-advanced-skills-entry-level-jobs-2026-6
+2. Investopedia 对 PwC 报告的二次核验（媒体/报告解读，L3）：https://www.investopedia.com/entry-level-jobs-now-want-senior-skills-as-ai-splits-the-workforce-new-study-says-11998894
+3. The Guardian：Lloyds 招募 300 名 AI 技术专家（权威媒体/企业案例，L3）：https://www.theguardian.com/business/2026/jun/20/lloyds-banking-group-ai-recruitment-drive-300-tech-experts
+4. ITPro：AI 技能薪酬溢价与双轨劳动力市场（媒体/报告解读，L3）：https://www.itpro.com/technology/artificial-intelligence/ai-is-creating-a-two-track-labor-market-with-better-pay-for-human-intensive-skills
+5. Business Insider：白宫与 Anthropic 讨论 AI 安全评估框架（媒体/政策线索，L2）：https://www.businessinsider.com/white-house-talks-anthropic-ai-security-rules-2026-6
+6. Financial Times：英国讨论银行 AI 模型统一测试（权威媒体/监管线索，L2）：https://www.ft.com/content/3053b547-5e55-4520-9b95-828c417a5d79
+7. KPMG 财务 AI 调研报道（咨询报告报道，L2）：https://www.techradar.com/pro/ai-is-no-longer-a-future-concept-but-an-operational-reality-new-kpmg-report-claims-firms-are-racing-to-deploy-ai-but-need-to-ensure-they-have-the-right-security-protections
+8. arXiv：Payrolls to Prompts（学术论文，L2）：https://arxiv.org/abs/2602.00139

@@ -1,6 +1,6 @@
 # 专题三：岗位、族群、序列持续建设｜滚动基线档案
 
-> 更新日期：2026-06-21
+> 更新日期：2026-06-22
 > 用途：这是四课题研究的“滚动母稿”，不是某一天的日报。日报负责记录新增事实、Context 和线索；周报负责做阶段复盘；基线档案负责沉淀稳定判断、证据账本和待验证问题。
 > 自动化规则：每日/周报与 PDF 入库后自动回写证据账本；正式重跑遵循 research-protocol.md 的多代理并行与主代理交叉证伪机制；只有多源互证或一手材料足够强的内容，才进入稳定判断。
 
@@ -21,10 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-06-03 | [日报](../2026-06-03/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **岗位体系的下一步，不是继续细分 title，而是先稳定 `skills governance`。可信度：高。** | - 暂不形成结论，但提示我们关注：**内部 skills governance 建得越快，外部 market premium 和内部 pay band 的张力会越早暴露**。 | - 证据基础：SAP 单独把 skills governance 提出来，并要求跨系统一致。 |
-| 2026-06-04 | [日报](../2026-06-04/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **岗位体系的主变量正在从 title 转向 shared skill needs。可信度：高。** | - 暂不形成结论，但提示我们关注：**未来很多业务提出“新建序列”的真实诉求，可能是想把 process / governance / AI orchestration 的市场溢价显性化**。 | 1. 哪些企业已将 `skills-based role redesign` 接入 job architecture 与 pay band？ |
-| 2026-06-05 | [日报](../2026-06-05/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **很多“新岗位”本质上是稳定的新角色包，而不是一时 buzzword。可信度：高。** | - 暂不形成结论，但提示我们关注：**未来很多业务要求“新建序列”，真实诉求可能只是想为稀缺技能争取 pay band 空间**。 | 1. 哪些企业已经把 `FDE / technical architect / verifier` 纳入正式 career framework 或 internal mobility fr… |
-| 2026-06-06 | [日报](../2026-06-06/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **先 role package，后 job family**：FDE、AI transformation architect、agent governance owner 需要先验证是否长期稳定。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 | 2026-06-07 | [日报](../2026-06-07/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **先 role package，后 job family**：FDE、AI transformation architect、agent governance owner 需要先验证是否长期稳定。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 | 2026-06-08 | [日报](../2026-06-08/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **AI 时代很多新工作单元已经稳定到足以被视为 role package。可信度：高。** | - 暂不形成结论，但提示我们关注：**`verifier / orchestrator` 这类角色未必都会演化成正式岗位，也可能先以 capability badge 或项目角色稳定存在。** | 1. 哪些企业已把 forward deployed / architect 角色写入正式 career framework？ |
 | 2026-06-09 | [日报](../2026-06-09/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **很多 AI 新角色首先需要的是 role package，不一定是新序列。可信度：高。** | - 暂不形成结论，但提示我们关注：**未来 job family 可能变薄，但 capability catalog 会变厚。** | 1. 哪些企业已公开 AI role package 与 career ladder 的正式文档？ |
@@ -34,7 +30,11 @@
 | 2026-06-15 | [日报](../2026-06-15/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **岗位容器正在从“我属于哪个岗位”转向“我稳定承接哪些责任包”。可信度：高。** | - 暂不形成结论，但提示我们关注：**career portfolio 是否会增加员工对“下一步到底是什么”的不确定感。** | - 暂不形成结论，但提示我们关注：**中国公司公开的 authority-based job architecture 样本仍不足。** |
 | 2026-06-16 | [日报](../2026-06-16/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **岗位架构的首要任务已不是多造 title，而是给责任包选对制度容器。可信度：高。** | - 暂不形成结论，但提示我们关注：**career portfolio 虽然能承接流动性，但是否会增加员工对“下一步路径”的模糊感。** | - 暂不形成结论，但提示我们关注：**中国公司公开的 authority-based job architecture 样本仍偏少。** |
 | 2026-06-17 | [日报](../2026-06-17/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **岗位架构的最小设计单元正在从 static role 转向 workflow chain + human checkpoint。可信度：高。** | - 暂不形成结论，但提示我们关注：**哪些岗位最容易因 task chains 而失去原有 junior 训练价值，仍缺更细职业样本。** | - 暂不形成结论，但提示我们关注：**中国公司公开的 authority-based job architecture 样本仍偏少。** |
-| 2026-06-18 | [日报](../2026-06-18/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **岗位架构的首要问题正从“这个新能力叫什么岗位”转向“这项工作该留在内部、外包、项目化还是交给 AI”。可信度：高。** | - 暂不形成结论，但提示我们关注：**一些 fellowship 或 AI residency 是否最终会固化成新的长期岗位族群。** | 1. 哪些企业已明确用 fellowship 或 residency 承接 AI 能力，而非直接建新序列？ |
+| 2026-06-18 | [日报](../2026-06-18/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **岗位架构的首要问题正从“这个新能力叫什么岗位”转向“这项工作该留在内部、外包、项目化还是交给 AI”。可信度：高。** | - 暂不形成结论，但提示我们关注：**一些专项培养项目或 AI residency 是否最终会固化成新的长期岗位族群。** | 1. 哪些企业已明确用专项培养项目或 residency 承接 AI 能力，而非直接建新序列？ |
+| 2026-06-19 | [日报](../2026-06-19/03-job-family-career-architecture.html) | 背景材料（Context）强证据 | 1. **初级岗位正在被重新定价**：PwC、FT 与 Investopedia 的交叉报道共同指向：受 AI 影响的初级岗位不再只要求执行能力，而是提前要求流程管理、利益相关方协同、判断力和辅导能力。可信度高，因为样本口径大、媒体交叉一致。 | 4. **外部低复杂度劳务可能先被替代**：Payrolls to Prompts 显示企业减少在线劳务支出并增加模型支出，提示被压缩的未必先是正式员工，而可能是可标准化、可外包的执行性工作。可信度中等，因为样本来自在线劳务市场。 | - 继续追踪 PwC 报告原文中各行业、各国家的岗位族群差异。 |
+| 2026-06-20 | [日报](../2026-06-20/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **AI 安全正在形成跨企业、跨监管的共同语言**：白宫与 Anthropic 讨论统一风险评估框架，英国银行业讨论模型统一测试，说明模型风险不再只是技术团队内部问题。可信度中等，因为目前多为政策和监管讨论。 | - 暂不形成结论，但提示我们关注：AI 风险管理可能需要成为所有关键岗位的责任标签，而不是单独成立一个孤岛式序列。 | - 追踪英国银行 AI 模型统一测试是否由监管机构或独立机构落地。 |
+| 2026-06-21 | [日报](../2026-06-21/03-job-family-career-architecture.html) | 背景材料（Context）强证据 | 1. **专家队伍扩张不是反例，而是结构变化的一部分**：Lloyds 招募 300 名技术专家并建设约 1000 人 AI 团队，说明企业在减少传统执行成本的同时，会集中投入模型、平台、智能体和风险治理能力。可信度高，来自权威媒体企业案例。 | 2. **AI 收益与岗位削减会同时出现**：Lloyds 披露生成式 AI 已带来财务收益，并承认未来可能出现由 AI 引发的岗位削减；这支持“低复杂度任务被压缩、专家能力被强化”的双轨判断。可信度中高。 | - 继续追踪 Lloyds 300 名专家的岗位类型、职级分布和薪酬口径。 |
+| 2026-06-22 | [日报](../2026-06-22/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **执行层工作正在合并，高复杂度责任前移**：PwC 相关材料显示初级岗位开始要求过去属于资深角色的能力，这与岗位颗粒度变粗、端到端负责增强的假设一致。可信度高。 | 3. **岗位体系问题经常是激励和定价问题**：AI 技能溢价、专业化岗位更快薪酬增长和专家团队扩张说明，很多“新增序列”诉求背后是关键能力的市场定价缺口。可信度高。 | 待下次日报/周报继续追踪。 |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-06-18｜[打开专题日报](../2026-06-18/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-18/03-job-family-career-architecture.md`
+- 最新日报：2026-06-22｜[打开专题日报](../2026-06-22/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-22/03-job-family-career-architecture.md`
