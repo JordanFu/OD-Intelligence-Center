@@ -51,8 +51,8 @@ e048dfed72bc718f7986a83f23c8e294 已作为日报/周报 PDF 证据源入库，�
 
 ## 被引用位置
 
-- `../../../Users/tal/Documents/New project/research/private-industry-bigtech-watch/daily-log/2026-06-08.md:81`：- 腾讯 2026 一季度业绩演示 PDF：``
-- `../../../Users/tal/Documents/New project/research/private-industry-bigtech-watch/daily-log/2026-06-08.md:188`：| 腾讯 2026 一季度业绩演示 |  | 腾讯 | internal deployment / retention / AgentOps / workflow | A | 是 |
+- 当前公开知识库尚未记录到正文级公开引用；本卡片先作为公开财报/演示 PDF 的证据锚点。
+- 已移除自动入库阶段带入的本地私有扫描目录路径，避免公开知识库暴露私有研究痕迹。
 
 ## 后续精读任务
 
