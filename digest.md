@@ -24,6 +24,35 @@
 
 -->
 
+## 2026-06-23
+
+### [1] Samsung Electronics：ChatGPT Enterprise 与 Codex 进入公司级工作平台层
+- **事件摘要**：OpenAI 于 2026 年 6 月 21 日官方发布，Samsung Electronics 将向韩国全体员工和全球 Device eXperience（DX）员工开放 ChatGPT Enterprise 与 Codex，覆盖研发、制造、营销、公司职能等场景，并在 Samsung 安全政策和治理框架内运行。
+- **来源**：OpenAI（https://openai.com/index/samsung-electronics-chatgpt-codex-deployment/）
+- **来源平台**：OpenAI
+- **来源可信度**：⭐高
+- **OD启示**：这条信号的组织含义不是“又一个企业采购 AI”，而是 AI 工作平台从技术团队试点扩展到技术与非技术群体的日常工作机制。CEO 应关注治理、权限、流程嵌入和产出责任是否同步设计。
+- **标签**：#Samsung #ChatGPTEnterprise #Codex #CompanyWideAdoption #AIGovernance
+- **抓取时间**：2026-06-23 18:00
+
+### [2] AI 原生公司：Applied / Deployment / Deployed PM 正在成为常设组织接口
+- **事件摘要**：Perplexity 官方 careers / Ashby 岗位页显示 `Forward Deployed Engineer, Applied AI` 被放在 `AI Research & Systems`；Anthropic jobs 页面显示 `Applied AI` 独立团队和 `Claude Code` 的 PM、技术赋能、技术专家岗位并存；OpenAI careers 页面显示 `Manager, AI Deployment Engineering - Codex` 与 `Deployed Product Manager, Codex`。
+- **来源**：Perplexity Careers（https://www.perplexity.ai/hub/careers）；Anthropic Jobs（https://www.anthropic.com/careers/jobs）；OpenAI Careers（https://openai.com/careers/manager-ai-deployment-engineering-codex-london-uk/；https://openai.com/careers/deployed-product-manager-codex-san-francisco/）
+- **来源平台**：Perplexity / Anthropic / OpenAI
+- **来源可信度**：⭐高
+- **OD启示**：客户现场部署能力正在从临时项目支持变成产品、工程、GTM 和客户工作流之间的正式接口层。岗位设计应评价可复用 playbook、客户阻塞清除、反馈回流和跨职能分权。
+- **标签**：#AppliedAI #ForwardDeployed #DeployedPM #Codex #ClaudeCode
+- **抓取时间**：2026-06-23 18:00
+
+### [3] OpenAI Daybreak：安全治理劳动从漏洞发现转向修复运营
+- **事件摘要**：OpenAI 于 2026 年 6 月 22 日发布 Daybreak / Codex Security 更新，称 Codex Security research preview 已扫描 3000 万以上 commits、3 万多个 codebases，并通过 Codex Security、GPT-5.5-Cyber、Daybreak Cyber Partner Program 和 Patch the Planet 推动验证、补丁生成、维护者协作与人类审核。
+- **来源**：OpenAI（https://openai.com/index/daybreak-securing-the-world/）
+- **来源平台**：OpenAI
+- **来源可信度**：⭐高
+- **OD启示**：当 AI 能更快发现问题，组织瓶颈会从“有没有风险扫描”转向“谁排优先级、谁验证、谁合并、谁承担残余风险”。安全、工程和开源维护者之间需要新的修复运营机制。
+- **标签**：#Daybreak #CodexSecurity #AIGovernance #SecurityOps #HumanOversight
+- **抓取时间**：2026-06-23 18:00
+
 ## 2026-06-22
 
 ### [1] Anthropic：`Applied AI` 继续以独立团队形态公开扩张，且管理层与行业分线仍然可见
