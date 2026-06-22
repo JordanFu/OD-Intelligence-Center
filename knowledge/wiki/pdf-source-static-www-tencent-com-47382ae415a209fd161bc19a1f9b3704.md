@@ -52,7 +52,6 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 ## 被引用位置
 
 - `daily/2026-06-09.md:99`：来源：Tencent（；https://www.tencent.com/en-us/articles/2202350.html）
-- 当前卡片仅保留公开仓库内的引用位置，不再记录本地私有扫描目录路径。
 
 ## 后续精读任务
 
