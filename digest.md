@@ -5405,3 +5405,20 @@
 - **抓取时间**：2026-06-04 18:00
 
 ## 2026-06-03
+## 2026-06-22
+
+### [01] Lloyds 用“岗位缩减 + AI/data specialists + AI Academy”重写人才骨架
+- **事件摘要**：The Guardian 于 2026 年 6 月 20 日报道，Lloyds Banking Group 将裁减约 400 个岗位，同时新增 300 个数据与 AI 职位，并让 67,000 名员工可进入 AI Academy；此外还将招聘 1,200 名 technology and data trainees。
+- **来源**：The Guardian（https://www.theguardian.com/business/2026/jun/20/lloyds-banking-group-ai-recruitment-drive-300-tech-experts）
+- **来源平台**：The Guardian
+- **来源可信度**：📰较高
+- **OD启示**：AI 时代组织不会平均变薄，而会形成更少的通用层级、更厚的专家核和更技术化的培养入口。扁平化、人才密度、岗位序列和晋升机制必须一起重写。
+- **标签**：#Lloyds #AIAcademy #AIHiring #扁平化 #人才密度
+
+### [02] NatWest 对约 6 万员工做 AI 风险训练：AI fluency 正变成 workforce baseline
+- **事件摘要**：The Times 于 2026 年 6 月 17 日报道，NatWest 正对约 60,000 名员工进行 AI 风险训练，重点覆盖 prompt hygiene、数据泄露、输出核验和责任边界。
+- **来源**：The Times（https://www.thetimes.com/business/companies-markets/article/natwest-trains-all-staff-ai-tech-banking-qc7ngmzsw）
+- **来源平台**：The Times
+- **来源可信度**：📰较高
+- **OD启示**：AI 风险识别、核验和责任边界正在从少数专家能力，转向更广泛的全员新底线。未来“会用 AI”会越来越像职业 hygiene，而不是晋升理由。
+- **标签**：#NatWest #AIRisk #AIBaseline #晋升机制 #岗位基线
