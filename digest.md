@@ -44,7 +44,16 @@
 - **标签**：#AppliedAI #ForwardDeployed #DeployedPM #Codex #ClaudeCode
 - **抓取时间**：2026-06-23 18:00
 
-### [3] OpenAI Daybreak：安全治理劳动从漏洞发现转向修复运营
+### [3] OpenAI Deployment Company：企业部署能力从岗位线扩成独立经营实体
+- **事件摘要**：OpenAI 于 2026 年 5 月 11 日发布 OpenAI Deployment Company，称其为 standalone business unit，同时作为 OpenAI extension 连接 research、product 和 in-house deployment teams；公司由 OpenAI majority-owned and controlled，计划以超过 40 亿美元初始投资扩张，并通过拟收购 Tomoro 从第一天带入约 150 名 Forward Deployed Engineers 与 Deployment Specialists。
+- **来源**：OpenAI（https://openai.com/index/openai-launches-the-deployment-company/）；Tomoro（https://tomoro.ai/insights/tomoro-acquired-by-openai-deployment-company）；Advent International（https://www.adventinternational.com/news/openai-launches-the-openai-deployment-company-to-help-businesses-build-around-intelligence/）
+- **来源平台**：OpenAI / Tomoro / Advent International
+- **来源可信度**：⭐高
+- **OD启示**：这不是今日新事件，而是今日补录的关键基线。它说明 AI 原生公司的企业落地能力正在从销售或客户成功支持，扩成前线工程、工作流重构、系统集成、变革管理和产品反馈回流共同组成的经营层。
+- **标签**：#OpenAI #DeploymentCompany #FDE #EnterpriseAI #OperatingModel
+- **抓取时间**：2026-06-23 18:00
+
+### [4] OpenAI Daybreak：安全治理劳动从漏洞发现转向修复运营
 - **事件摘要**：OpenAI 于 2026 年 6 月 22 日发布 Daybreak / Codex Security 更新，称 Codex Security research preview 已扫描 3000 万以上 commits、3 万多个 codebases，并通过 Codex Security、GPT-5.5-Cyber、Daybreak Cyber Partner Program 和 Patch the Planet 推动验证、补丁生成、维护者协作与人类审核。
 - **来源**：OpenAI（https://openai.com/index/daybreak-securing-the-world/）
 - **来源平台**：OpenAI
