@@ -2,7 +2,7 @@
 title: BCG + MIT Sloan：The Emerging Agentic Enterprise
 source: BCG
 date: 待核验
-ingested: 2026-06-23
+ingested: 2026-06-24
 sourceFile: 
 sourceUrl: https://web-assets.bcg.com/dc/c5/1bcbfdc0405c85fb14972a57c20a/the-emerging-agentic-enterprise-how-leaders-must-navigate-a-new-age-of-ai.pdf
 tags: [AI组织设计, 变革管理]
@@ -21,7 +21,7 @@ BCG + MIT Sloan 把 agentic enterprise 作为组织结构变量讨论，尤其�
 - **来源类型**：consulting
 - **原文 URL**：https://web-assets.bcg.com/dc/c5/1bcbfdc0405c85fb14972a57c20a/the-emerging-agentic-enterprise-how-leaders-must-navigate-a-new-age-of-ai.pdf
 - **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
-- **入库日期**：2026-06-23
+- **入库日期**：2026-06-24
 - **证据层级**：Context 到结论层之间；当前下载失败，需用报告原文或可访问版本复核具体数字。
 
 ## 核心内容
