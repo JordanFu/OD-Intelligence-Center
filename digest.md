@@ -24,6 +24,26 @@
 
 -->
 
+## 2026-06-24
+
+### [1] 生产级 AI agent 治理：控制对象从模型行为转向委托行动链
+- **事件摘要**：arXiv 论文《A Five-Plane Reference Architecture for Runtime Governance of Production AI Agents》提出，生产 agent 会读取上下文、调用工具、连接器并修改 systems of record，传统以数据边界为中心的安全控制不足以覆盖这种 workflow 内部风险。论文提出 reasoning、network、identity、endpoint、data 五平面架构，以及 stop-anywhere mediation、composite principals、capability attenuation 和结构化审计证据。
+- **来源**：arXiv（https://arxiv.org/abs/2606.12320）
+- **来源平台**：arXiv
+- **来源可信度**：⭐高
+- **OD启示**：Agent 治理的组织对象正在从“谁能使用 AI”变成“AI 能代表谁执行哪些连续动作”。这会直接改变权限设计、升级路径、审计责任和业务流程 owner 的角色边界。
+- **标签**：#AgentGovernance #RuntimeControl #AIGovernance #DecisionRights #Auditability
+- **抓取时间**：2026-06-24 18:00
+
+### [2] AI-related layoffs 汇总：AI-native 小团队叙事扩散，但仍只能作 Context
+- **事件摘要**：Business Insider 于 2026 年 6 月 23 日更新 16 家 AI-related layoffs 汇总，包含 Atlassian、Block、Cloudflare、Coinbase 等公司在裁员或重组时引用 AI efficiency、AI era、agentic AI era 或 AI-native operating model。部分条目出现 agent sessions、agent fleets、one-person teams、小团队和更扁平组织等管理语言。
+- **来源**：Business Insider（https://www.businessinsider.com/list-companies-replacing-human-employees-with-ai-layoffs-workforce-reductions）
+- **来源平台**：Business Insider
+- **来源可信度**：📰较高
+- **OD启示**：这类材料提示“更小、更扁平、AI-native pods / one-person teams”的组织叙事正在扩散，但它混合了成本压力、AI washing、公司一手 memo 与二手报道，不能直接证明 AI 已稳定提升组织效率。
+- **标签**：#AILayoffs #AINativeTeams #FlatOrganization #Context #AIWashing
+- **抓取时间**：2026-06-24 18:00
+
 ## 2026-06-23
 
 ### [1] Samsung Electronics：ChatGPT Enterprise 与 Codex 进入公司级工作平台层

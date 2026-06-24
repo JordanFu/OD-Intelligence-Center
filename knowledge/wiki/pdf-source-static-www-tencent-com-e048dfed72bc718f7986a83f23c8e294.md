@@ -2,7 +2,7 @@
 title: e048dfed72bc718f7986a83f23c8e294
 source: static.www.tencent.com
 date: 待核验
-ingested: 2026-06-23
+ingested: 2026-06-24
 sourceFile: ../knowledge/raw/static-www-tencent-com-e048dfed72bc718f7986a83f23c8e294.pdf
 sourceUrl: https://static.www.tencent.com/uploads/2026/05/13/e048dfed72bc718f7986a83f23c8e294.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ e048dfed72bc718f7986a83f23c8e294 已作为日报/周报 PDF 证据源入库，�
 - **来源类型**：media
 - **原文 URL**：https://static.www.tencent.com/uploads/2026/05/13/e048dfed72bc718f7986a83f23c8e294.pdf
 - **原始文件**：`knowledge/raw/static-www-tencent-com-e048dfed72bc718f7986a83f23c8e294.pdf`
-- **入库日期**：2026-06-23
+- **入库日期**：2026-06-24
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
@@ -51,8 +51,7 @@ e048dfed72bc718f7986a83f23c8e294 已作为日报/周报 PDF 证据源入库，�
 
 ## 被引用位置
 
-- 当前公开知识库尚未记录到正文级公开引用；本卡片先作为公开财报/演示 PDF 的证据锚点。
-- 已移除自动入库阶段带入的本地私有扫描目录路径，避免公开知识库暴露私有研究痕迹。
+暂无公开日报引用；仅保留公共 PDF 原文 URL，私有扫描路径不入公开卡片。
 
 ## 后续精读任务
 
