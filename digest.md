@@ -1,7 +1,7 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-06-22 18:00
+> 最后更新：2026-06-25 18:00
 
 ---
 
@@ -23,6 +23,26 @@
 - 💬参考：社交平台/社区讨论，需交叉验证
 
 -->
+
+## 2026-06-25
+
+### [1] Oracle 年报：AI 部署、裁员、技能短缺与知识流失进入同一风险链条
+- **事件摘要**：Oracle 于 2026 年 6 月 22 日提交 FY2026 Form 10-K，披露截至 2026 年 5 月 31 日约 141,000 名全职员工，并在 workforce restructuring 风险因素中说明 AI technologies across operations 的 adoption and deployment 已经、且可能继续导致 workforce reductions。外部媒体据 2025 年约 162,000 人与 2026 年约 141,000 人对比，计算出约 21,000 人减少。
+- **来源**：SEC / Oracle（https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm）；Investor's Business Daily（https://www.investors.com/news/technology/oracle-stock-21000-ai-layoffs/）
+- **来源平台**：SEC / Oracle / Investor's Business Daily
+- **来源可信度**：⭐高
+- **OD启示**：这条信号的管理价值不在裁员数字本身，而在 Oracle 把 AI deployment、restructuring costs、productivity risk、skilled employee shortages、institutional knowledge loss、morale and retention 放进同一风险链条。AI 组织调整需要同时管理资源重配和二阶组织成本。
+- **标签**：#Oracle #AIWorkforce #Restructuring #InstitutionalKnowledge #AIGovernance
+- **抓取时间**：2026-06-25 18:00
+
+### [2] DeepSeek Harness：Agent 产品化出现研究/工程/产品三角，但仍是 L2 观察
+- **事件摘要**：私有组织情报 2026-06-24 扫描显示，DeepSeek Harness 团队招聘线索被多家媒体与负责人社交招聘信息互证，涉及 Harness 研究员、工程师、产品经理三类角色，并指向 Agent / Code Harness 产品化方向。由于缺完整官方岗位页、汇报线和公司公告，暂不升为公司级组织机制结论。
+- **来源**：36 氪 / 量子位（https://36kr.com/p/3863982620923141）；SCMP（https://www.scmp.com/tech/big-tech/article/3358077/deepseeks-harness-team-races-recruit-talent-booming-ai-agent-market）
+- **来源平台**：36 氪 / SCMP / 私有组织情报脱敏摘要
+- **来源可信度**：📰较高
+- **OD启示**：Agent 能力产品化正在逼出比模型研究更细的工作单元，至少需要研究前沿定义、工程架构实现和产品形态定义三类接口。但当前只能作为观察池，用于追踪模型公司如何把 AI 能力转成可用工作流。
+- **标签**：#DeepSeek #Harness #AgentProductization #AppliedAI #Context
+- **抓取时间**：2026-06-25 18:00
 
 ## 2026-06-24
 
