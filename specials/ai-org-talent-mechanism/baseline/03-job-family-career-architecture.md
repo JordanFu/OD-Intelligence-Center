@@ -21,8 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-06-07 | [日报](../2026-06-07/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **先 role package，后 job family**：FDE、AI transformation architect、agent governance owner 需要先验证是否长期稳定。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
-| 2026-06-08 | [日报](../2026-06-08/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **AI 时代很多新工作单元已经稳定到足以被视为 role package。可信度：高。** | - 暂不形成结论，但提示我们关注：**`verifier / orchestrator` 这类角色未必都会演化成正式岗位，也可能先以 capability badge 或项目角色稳定存在。** | 1. 哪些企业已把 forward deployed / architect 角色写入正式 career framework？ |
 | 2026-06-09 | [日报](../2026-06-09/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **很多 AI 新角色首先需要的是 role package，不一定是新序列。可信度：高。** | - 暂不形成结论，但提示我们关注：**未来 job family 可能变薄，但 capability catalog 会变厚。** | 1. 哪些企业已公开 AI role package 与 career ladder 的正式文档？ |
 | 2026-06-12 | [日报](../2026-06-12/03-job-family-career-architecture.html) | 结论层候选 | 1. **很多 AI 新岗位的真实变化是边界重叠，不是边界新增。可信度：高。** | - 暂不形成结论，但提示我们关注：**中国企业公开的 AI technical family / capability band 样本仍少，很多变化仍藏在 JD 和薪酬带宽里。** | 1. 哪些企业已公开 AI technical family 或 capability band？ |
 | 2026-06-13 | [日报](../2026-06-13/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **AI 时代很多岗位变化的第一语言应该是 competency bundle，而不是 new title。可信度：高。** | - 暂不形成结论，但提示我们关注：**许多 invisible work 是否应进入 job description 正文，还是进入 capability profile / promotion rubric，仍缺统一实践。** | 1. 哪些企业已把 intent / verification / orchestration 写进正式岗位框架？ |
@@ -35,6 +33,8 @@
 | 2026-06-20 | [日报](../2026-06-20/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **AI 安全正在形成跨企业、跨监管的共同语言**：白宫与 Anthropic 讨论统一风险评估框架，英国银行业讨论模型统一测试，说明模型风险不再只是技术团队内部问题。可信度中等，因为目前多为政策和监管讨论。 | - 暂不形成结论，但提示我们关注：AI 风险管理可能需要成为所有关键岗位的责任标签，而不是单独成立一个孤岛式序列。 | - 追踪英国银行 AI 模型统一测试是否由监管机构或独立机构落地。 |
 | 2026-06-21 | [日报](../2026-06-21/03-job-family-career-architecture.html) | 背景材料（Context）强证据 | 1. **专家队伍扩张不是反例，而是结构变化的一部分**：Lloyds 招募 300 名技术专家并建设约 1000 人 AI 团队，说明企业在减少传统执行成本的同时，会集中投入模型、平台、智能体和风险治理能力。可信度高，来自权威媒体企业案例。 | 2. **AI 收益与岗位削减会同时出现**：Lloyds 披露生成式 AI 已带来财务收益，并承认未来可能出现由 AI 引发的岗位削减；这支持“低复杂度任务被压缩、专家能力被强化”的双轨判断。可信度中高。 | - 继续追踪 Lloyds 300 名专家的岗位类型、职级分布和薪酬口径。 |
 | 2026-06-22 | [日报](../2026-06-22/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **执行层工作正在合并，高复杂度责任前移**：PwC 相关材料显示初级岗位开始要求过去属于资深角色的能力，这与岗位颗粒度变粗、端到端负责增强的假设一致。可信度高。 | 3. **岗位体系问题经常是激励和定价问题**：AI 技能溢价、专业化岗位更快薪酬增长和专家团队扩张说明，很多“新增序列”诉求背后是关键能力的市场定价缺口。可信度高。 | 待下次日报/周报继续追踪。 |
+| 2026-06-23 | [日报](../2026-06-23/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **AI 时代岗位变化至少有四种类型，不能都用新增序列解决。可信度：高。** | - 暂不形成结论，但提示我们关注：**AI-exposed junior jobs 的高级化是否会推动“准高级初级岗”成为隐性层级。** | 1. Oracle 被减少的 21,000 名员工涉及哪些岗位族群？ |
+| 2026-06-25 | [日报](../2026-06-25/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **可信度：高｜岗位变化至少有四种类型，不能统一用“新增序列”处理。** 证据基础是 arXiv、PwC、Workday、华为和内部知识库。为什么重要：新增序列成本很高，会制造晋升预期、薪酬带宽和组织政治。 | - AI 产品经理、AI workflow owner、agent governance lead、prompt evaluation engineer 等名称是否会稳定成岗位，还是只是现有产品/运营/工程岗位的技能标签。 | 1. AI workflow owner、agent governance lead 是否出现稳定 JD 与薪酬带宽。 |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-06-22｜[打开专题日报](../2026-06-22/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-22/03-job-family-career-architecture.md`
+- 最新日报：2026-06-25｜[打开专题日报](../2026-06-25/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-25/03-job-family-career-architecture.md`
