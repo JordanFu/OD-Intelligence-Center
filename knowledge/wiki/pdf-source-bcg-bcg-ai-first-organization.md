@@ -2,7 +2,7 @@
 title: BCG：AI-First Organization
 source: BCG
 date: 待核验
-ingested: 2026-06-25
+ingested: 2026-06-26
 sourceFile: ../knowledge/raw/bcg-bcg-ai-first-organization.pdf
 sourceUrl: https://media-publications.bcg.com/AI-First-Organization.pdf
 tags: [AI组织设计, 变革管理]
@@ -21,7 +21,7 @@ BCG 把 AI-First 组织定义为从“工具辅助”走向“AI 默认执行、
 - **来源类型**：consulting
 - **原文 URL**：https://media-publications.bcg.com/AI-First-Organization.pdf
 - **原始文件**：`knowledge/raw/bcg-bcg-ai-first-organization.pdf`
-- **入库日期**：2026-06-25
+- **入库日期**：2026-06-26
 - **证据层级**：结论层可用，但关键案例和数字需在引用时回到原文复核。
 
 ## 核心内容
