@@ -52,7 +52,6 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 ## 被引用位置
 
 - `daily/2026-06-09.md:99`：来源：Tencent（；https://www.tencent.com/en-us/articles/2202350.html）
-- 私有组织情报扫描曾引用该公开 PDF；公开卡片仅保留来源标题和上下文，不发布本地私有路径。
 
 ## 后续精读任务
 
