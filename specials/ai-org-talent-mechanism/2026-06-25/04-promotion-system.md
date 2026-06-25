@@ -1,53 +1,77 @@
 # 2026-06-25｜专题四：未来组织的晋升机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+## 1. 今日一句话专题判断
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+未来晋升机制不会简单从固定窗口切到“随时晋升”，而会形成“固定校准保公平 + 即时认可保速度 + 项目/acting scope 保试运行 + 能力认证保底线”的组合；AI 贡献只有在变成稳定业务影响和可复用组织能力时，才应转化为正式晋升。
 
-## 今日一句话结论
+## 2. 今日新增事实：只写可追溯事实，注明来源
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+1. Microsoft 2026 Work Trend Index 认为领先员工/团队的差异不只是高频使用 AI，而是能把复杂多步任务、可重复实践、流程重设计、人机交接机制结合起来。来源：内部知识库。
+2. GitLab promotions/transfers handbook 强调晋升需要稳定 scope、业务必要性、manager 校准和可证据化影响，而不是单次项目表现。来源：内部知识库。
+3. Zapier AI Fluency Rubric 将 AI fluency 做成分岗位、分层级能力要求，并强调 AI 应进入工作方式和评价证据。来源：内部知识库。
+4. PwC 2026 AI Jobs Barometer 后续解读显示，AI 暴露初级岗位被要求更多 senior-like skills，意味着晋升前的能力门槛正在前移。来源：Business Insider / PwC。
+5. Workday Agent Passport 将 agent 测试、验证、监控、runtime policy、revocation 与审计记录做成基础设施，提示 AI 贡献的证据越来越可能来自运行时记录。来源：`digest.md` 2026-06-04。
 
-## 今日核心判断
+## 3. 今日核心判断：3-5条
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+1. **可信度：高｜固定晋升窗口仍有价值，因为 AI 贡献更需要跨团队校准。** GitLab 和 Microsoft 都强调证据、scope、业务必要性和可重复机制。为什么重要：如果完全随时晋升，AI 工具使用强的人会更容易包装短期成果，公平性下降。
+2. **可信度：高｜即时晋升不应奖励“会用 AI”，而应奖励“稳定扩大责任”。** Zapier、Microsoft、PwC 支持 AI fluency 成为工作底线。为什么重要：AI fluency 会像数据素养一样变成门槛，不是自动升职理由。
+3. **可信度：中高｜项目制晋升适合做试运行，不适合直接永久升层。** AI 项目常有短期爆发，需要区分一次性战功和长期岗位价值变化。为什么重要：可先给 acting scope、项目奖金、临时津贴，再观察是否形成稳定职责。
+4. **可信度：中｜AI 贡献度评估必须从“个人产出”转向“组织放大”。** Microsoft 的可复用流程、Workday 的 runtime audit、GitLab 的 handbook-first 共同支持。为什么重要：未来晋升材料应包括 workflow 被复用、质量稳定、他人 adoption、风险下降等证据。
+5. **可信度：中｜能力认证和技能徽章适合做准入，不适合替代晋升委员会。** CFTE / Zapier / Huawei 能力图谱支持认证，但晋升仍涉及业务必要性和薪酬校准。为什么重要：防止“拿证即晋升”的机制膨胀。
 
-## 今日背景材料
+## 4. 重点案例事实还原
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+### 案例：GitLab handbook-first 晋升逻辑与 AI 时代可迁移性
 
-## 今日新增证据地图
+- **背景**：GitLab 长期远程、异步、handbook-first，晋升与岗位变化需要清晰证据、manager 支持和组织需要。
+- **时间线**：内部知识库已整理 GitLab promotions/transfers handbook；2026 年 GitLab 又发生正式重组与地理足迹收缩。
+- **动作**：晋升不是只看个人表现，而看是否持续承担更高层级 scope、是否有业务必要性、是否经过校准。
+- **机制**：通过 handbook、MR、issue、绩效材料和 manager 校准，把贡献转为可审计证据。
+- **结果**：这种机制适合 AI 时代，因为 AI 贡献也需要被文档化、复用化和校准化。
+- **争议**：handbook-first 对写作和可见性要求高，可能低估隐性贡献。
+- **阻碍**：如果 AI 自动化成果不被纳入正式证据模板，员工会转向包装个人故事。
+- **可借鉴点**：把 AI 贡献写成“问题-工作流-质量门禁-复用范围-业务影响-风险控制”的晋升证据格式。
+- **不可照搬点**：高度异步和公开文档文化不是所有公司都具备，需要结合本地组织习惯。
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+## 5. Context层
 
-## 线索层
+暂不形成结论，但提示我们关注：
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+- Workday Agent Passport 等工具可能让 AI 贡献从主观描述变成 runtime log，但也会带来员工监控、数据归属和隐私边界问题。
+- AI 技能徽章可能提升人才流动效率，但如果徽章和晋升直接绑定，会诱导刷证和短期行为。
+- 初级岗位高级化会让“晋升前置”：员工入职时就承担过去需要晋升后才承担的能力要求，薪酬和 title 是否同步调整需要继续验证。
 
-## 待补齐的落地问题
+## 6. 证据地图
 
-正式重跑必须回答：AI 贡献如何进入晋升证据包、谁负责验证与质量、是否有校准机制、是否存在调岗降薪和劳动合规风险。
+- **官方/一手**：GitLab handbook、Workday Agent Passport、Zapier AI Fluency Rubric。
+- **权威媒体/咨询**：Microsoft Work Trend Index、PwC AI Jobs Barometer、McKinsey State of Organizations。
+- **公司案例**：GitLab、Zapier、Workday、Microsoft、PwC、Lloyds。
+- **学术/研究**：arXiv labor demand reorganization 支持岗位价值变化触发晋升讨论。
+- **招聘薪酬**：PwC senior-like entry-level skills；Payscale/EY 薪酬治理线索。
+- **社媒/职场线索**：待追踪员工对 AI 贡献评估是否公平、是否增加监控压力。
+- **内部信息库/知识库**：`knowledge/wiki/gitlab-promotions-transfers-handbook.md`、`knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md`、`knowledge/wiki/pdf-source-microsoft-2026-work-trend-index.md`。
 
-## 来源索引
+## 7. 对我们行动的启发
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+- 保留每年 1-2 次固定晋升窗口，用于跨团队校准、薪酬预算和公平审查。
+- 增设即时认可机制：spot bonus、项目奖金、公开表彰、临时津贴，承接短期 AI 战功。
+- 增设 acting scope：让员工先以 3-6 个月承担更高 scope，观察是否稳定，再进入正式晋升。
+- AI 贡献证据模板应包含：业务问题、AI 工作流、质量标准、风险控制、复用范围、他人 adoption、量化影响。
+- 能力认证用于准入和项目分配，不直接等同晋升。
+
+## 8. 待验证清单与下一步搜索路径
+
+1. 有哪些公司已把 AI fluency 正式写入晋升 rubric。
+2. Workday Agent Passport 或类似系统是否被用于绩效/晋升证据。
+3. AI 项目制晋升在咨询、软件、金融、制造企业中是否有公开案例。
+4. 员工数字足迹用于 AI 分身或贡献评估的法律边界。
+5. 搜索路径：AI promotion rubric、AI fluency performance review、agent workflow performance evaluation、skills badge promotion policy、project based promotion AI。
+
+## 9. 来源索引
+
+- Microsoft WorkLab：2026 Work Trend Index：https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization
+- GitLab Handbook：Promotions and transfers：https://handbook.gitlab.com/handbook/people-group/promotions-transfers/
+- Zapier AI Fluency Rubric（内部知识库整理）：`knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md`
+- Workday Agent Passport：https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-Launches-Agent-Passport-to-Test-Verify-and-Continuously-Monitor-Every-AI-Agent-in-the-Enterprise/default.aspx
+- Business Insider：PwC global jobs barometer and entry-level senior skills：https://www.businessinsider.com/pwc-global-jobs-barometer-ai-advanced-skills-entry-level-jobs-2026-6

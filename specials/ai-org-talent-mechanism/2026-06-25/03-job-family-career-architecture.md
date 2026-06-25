@@ -1,53 +1,77 @@
-# 2026-06-25｜专题三：岗位、族群、序列持续建设
+# 2026-06-25｜专题三：岗位、族群、序列的持续建设
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+## 1. 今日一句话专题判断
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+AI 时代岗位体系的关键不是“看到新任务就新增序列”，而是先判断变化属于长期责任包、技能标签、市场稀缺定价、项目激励还是临时补贴；只有稳定、可复用、可评审、可形成职业路径的责任组合才值得新建岗位/族群/序列。
 
-## 今日一句话结论
+## 2. 今日新增事实：只写可追溯事实，注明来源
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+1. arXiv 论文 `Generative AI and the Reorganization of Labor Demand` 将 AI 对招聘需求的影响拆成岗位间需求重分配和岗位内任务重设计；高级岗位更早通过 reallocation 调整，初级岗位同时经历 reallocation 与 redesign。来源：arXiv。
+2. PwC 2026 AI Jobs Barometer 后续解读显示，AI-exposed entry-level roles 更常要求 leadership、stakeholder management、mentorship、process management 和 data-driven decision-making 等高级能力。来源：Business Insider / PwC。
+3. Workday 2026 文章提出 manager 将转向 orchestrating a workforce of humans and agents，并把 Skills-Based Role Redesign 设为 hybrid operating model 的核心模块之一。来源：`digest.md` 2026-06-04。
+4. 华为 2026 AI 人才发展服务方案公开 22 类角色、71 项核心技能的能力图谱，并将“规划-培养-评估”做成一体化机制。来源：`digest.md` 2026-06-04。
+5. 内部知识库中 Monzo progression framework、GitLab promotions/transfers handbook、Zapier AI Fluency Rubric、Microsoft Work Trend Index 共同提示，岗位体系需要把 scope、impact、AI fluency、可复用工作流和业务必要性放到同一证据系统中。
 
-## 今日核心判断
+## 3. 今日核心判断：3-5条
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+1. **可信度：高｜岗位变化至少有四种类型，不能统一用“新增序列”处理。** 证据基础是 arXiv、PwC、Workday、华为和内部知识库。为什么重要：新增序列成本很高，会制造晋升预期、薪酬带宽和组织政治。
+2. **可信度：高｜AI 让岗位颗粒度在两端分化：应用层更粗颗粒、更端到端，基础设施/治理层更专业化。** SAP 与 Microsoft 支持“业务流程 + AI 编排”复合化；Agent Passport、AI 安全、数据治理支持专业化。为什么重要：岗位架构不能只谈“复合型”，还要承认高溢价专门岗位。
+3. **可信度：中高｜业务提出新增岗位/族群/序列时，很多本质是要为关键员工争取激励或市场溢价。** PwC、Payscale/EY、AI 薪酬线索均支持市场定价压力。为什么重要：HR 应先判断是长期职业架构问题还是薪酬治理问题。
+4. **可信度：中｜初级岗位高级化会逼迫企业重建培养入口。** PwC 与 Lloyds tech/data trainees 形成互补证据。为什么重要：如果只把初级岗位改成“半高级”，3-5 年后会出现中坚人才断层。
+5. **可信度：高｜技能标签比岗位名称更适合承接快速变化。** 华为能力图谱、LinkedIn internal mobility、Zapier rubric 都支持技能语言。为什么重要：AI 技能半衰期短，过早序列化会把短期技能固化成长期组织负担。
 
-## 今日背景材料
+## 4. 重点案例事实还原
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+### 案例：华为能力图谱与 AI 人才发展服务
 
-## 今日新增证据地图
+- **背景**：AI 转型需要把岗位、能力、培养、评估和内部供给连接起来，单纯招聘不能满足速度和规模。
+- **时间线**：2026 年 3 月公开 AI 人才发展服务方案。
+- **动作**：公开 22 类角色、71 项核心技能，并把人才机制做成规划、培养、评估一体化。
+- **机制**：不是先设一堆新 title，而是先用角色与技能图谱识别能力缺口，再连接学习和评估。
+- **结果**：为岗位/序列变革提供了更轻量的中间层：能力图谱可以承接快速变化，正式序列只承接稳定责任。
+- **争议**：公开材料更多是解决方案表述，仍需验证客户实际应用与评估结果。
+- **阻碍**：能力图谱如果不接薪酬、项目机会、内部流动和晋升证据，会停留在培训目录。
+- **可借鉴点**：先建技能-角色-业务场景矩阵，再决定是否新增岗位或序列。
+- **不可照搬点**：不要把供应商能力图谱直接当公司岗位体系；必须按自身业务流程和关键战役裁剪。
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+## 5. Context层
 
-## 线索层
+暂不形成结论，但提示我们关注：
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+- AI 产品经理、AI workflow owner、agent governance lead、prompt evaluation engineer 等名称是否会稳定成岗位，还是只是现有产品/运营/工程岗位的技能标签。
+- AI 基础设施岗位，如数据中心、芯片、能源、网络安全，可能比知识工作岗位更快形成市场溢价和专门序列。
+- 百度取消 T/P/E/Band/M 体系的数字序列化样本仍需继续验证员工影响、薪酬映射和晋升评审变化。
 
-## 待补齐的落地问题
+## 6. 证据地图
 
-正式重跑必须回答：是新建岗位族群、保留技能标签，还是调整薪酬带宽和项目激励；必须同时验证岗位合并与专家岗位深化。
+- **官方/一手**：华为 AI 人才发展方案、Workday Skills-Based Role Redesign、GitLab handbook、Monzo progression framework。
+- **权威媒体/咨询**：PwC AI Jobs Barometer、Microsoft Work Trend Index、McKinsey State of Organizations、BCG AI at Work。
+- **公司案例**：华为、百度、Workday、Zapier、GitLab、Monzo、Lloyds。
+- **学术/研究**：arXiv labor demand reorganization。
+- **招聘薪酬**：PwC entry-level seniorization；Payscale/EY 薪酬治理材料；AI 岗位薪酬溢价线索。
+- **社媒/职场线索**：待追踪员工对“新 title vs 技能标签 vs 补贴”的接受度。
+- **内部信息库/知识库**：`knowledge/wiki/baidu-level-reform-2026-obsidian.md`、`knowledge/wiki/tencent-wxg-project-owner-reform-2026-05.md`、`knowledge/wiki/gitlab-promotions-transfers-handbook.md`、`knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md`。
 
-## 来源索引
+## 7. 对我们行动的启发
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+- **什么时候新建岗位/族群/序列**：责任长期稳定、市场有可比岗位、业务有持续规模、能力可评审、薪酬带宽需要单独管理。
+- **什么时候只用技能标签**：技能变化快、跨多个岗位复用、尚未形成独立产出责任、只影响项目分配或学习路径。
+- **什么时候用市场稀缺系数**：外部人才价格快速上涨但内部责任结构未变，如 AI 安全、数据平台、芯片/基础设施关键岗位。
+- **什么时候用项目激励/专项津贴/临时补贴**：短期攻坚、临时跨职能 owner、阶段性 AI 自动化落地。
+- **什么时候坚决不新增序列**：只是为了给个别人涨薪、只是换名包装旧职责、职责还依附在原岗位、评审证据不可复用。
+
+## 8. 待验证清单与下一步搜索路径
+
+1. AI workflow owner、agent governance lead 是否出现稳定 JD 与薪酬带宽。
+2. 百度数字序列改革后是否公开晋升、薪酬、管理序列映射变化。
+3. 华为 22 类角色、71 项技能是否有可下载细则或客户案例。
+4. PwC entry-level seniorization 的岗位样本是否覆盖中国市场。
+5. 搜索路径：AI job family framework、agent governance job description、AI skills premium compensation、career architecture AI fluency、job architecture agentic AI。
+
+## 9. 来源索引
+
+- arXiv：Generative AI and the Reorganization of Labor Demand：https://arxiv.org/abs/2605.23159
+- Business Insider：PwC global jobs barometer and entry-level senior skills：https://www.businessinsider.com/pwc-global-jobs-barometer-ai-advanced-skills-entry-level-jobs-2026-6
+- Workday：Operating models for humans and agents：https://www.workday.com/en-us/perspectives/hr/operating-models-for-human-and-agents.html
+- 华为 AI 人才发展服务解决方案：https://www.huawei.com/cn/news/2026/3/ai-talent-development
+- Microsoft WorkLab：2026 Work Trend Index：https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization
