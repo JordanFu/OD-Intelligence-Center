@@ -1,306 +1,215 @@
-# 2026-W24｜AI时代组织与人才机制变革｜四课题聚合 CEO 周报
+# 2026-W26｜AI时代组织与人才机制CEO周报
 
-> 周期：2026-06-08 ～ 2026-06-12（ISO Week 24）
-> 输出对象：CEO / CHRO / 业务一号位 / 核心高管团队
-> 本周主证据：`specials/ai-org-talent-mechanism/2026-06-08/`、`2026-06-09/`、`2026-06-12/` 的总览与四专题日报；`2026-06-10/`、`2026-06-11/` 多为状态兜底稿，仅用于补线索，不进入高置信结论层。
-> 校验底座：`digest.md`、`daily/2026-06-08.md` ～ `2026-06-12.md`、`daily-report/digest.json`、`knowledge/index.md`、`knowledge/catalog.json`、`knowledge/wiki/`、`knowledge/concepts/`、`AI时代的职级变革-全球大公司组织架构调整追踪.md`、既有 `weekly/` 周报与基线档案。
-> 方法：事实与判断分离；来源按可信度分层（⭐一手/官方｜📰权威二手/行业研究｜🎓学术研究｜📊招聘/薪酬信号｜💬弱信号｜🏢内部知识库综合）；证据不足处明确写“暂不足以下结论”。
-
----
+> 覆盖窗口：2026-06-22 至 2026-06-25。2026-06-26 尚无当日专题日报入库；2026-06-24 为非决策兜底记录，仅作断档说明，不进入高置信结论层。
+> 面向对象：CEO、CHRO、业务一号位、核心高管团队。
+> 证据规则：先结论、再证据、再行动；区分一手材料、权威二手、行业研究、招聘薪酬信号、社媒线索和内部知识库。
 
 ## 1. CEO一页纸摘要
 
 ### 本周一句话总判断
 
-本周最值得管理层立刻调整的，不是“要不要继续上 AI”，而是 **要不要把组织的接口层正式制度化**: 谁定义目标、谁编排人机协作、谁处理例外、谁验证结果、谁拥有审计记录、谁对晋升与资源分配负责。没有这层，扁平化会变成责任悬空，高人才密度会退化成少数明星透支，岗位序列会膨胀，晋升机制会更不被信任。
+AI 组织变革本周最强信号不是“又有公司裁员”，而是组织责任正在被重新分配：减层释放成本和速度压力，高人才密度承接更大责任，岗位体系决定哪些责任被制度化，晋升机制决定谁获得长期回报。
 
-### 本周 5 个最重要管理判断
+### 本周最重要的管理判断
 
-1. **扁平化的真正前提不是减层，而是治理前置。** BCG、Microsoft、Workday、Oracle 的共同结论是：必须先把 `decision rights / authority boundary / exception path / review gate` 写清楚，再谈层级压缩。可信度：⭐
-2. **AI 时代被压缩的是低密度协调层，被强化的是薄而强的接口层。** Forward Deployed、Enterprise Architect、Field Engineering、AI Deployment、Verifier 这类角色正在稳定化。可信度：⭐/📊
-3. **高人才密度的定义已经变化。** 组织不该只追求更多“深度 AI 天才”，而要设计全员 fluency、构建型骨干、深度专家三层能力组合。可信度：⭐/🎓
-4. **岗位体系的主战场从 title 设计转向 role package、capability band 和 pay logic。** 多数新诉求先该用技能标签、稀缺系数、项目角色和带宽调整承接，而不是直接新建序列。可信度：⭐/🎓
-5. **晋升机制本周没有出现“全面取消窗口”的强证据。** 更确定的方向是：持续识别、结构化校准、节奏化正式动作，以及把 skill premium、项目奖励、promotion 分轨治理。可信度：⭐
+1. **AI 相关组织调整已经进入可审计层。** Oracle 把 AI deployment 与 workforce reductions 写入年报风险链条，Lucid 披露裁减 18% 美国员工并取消 COO 职位，Robinhood 在 CEO memo 中把 10% 裁员、组织扁平化和人才密度绑定。管理层不能再把这当成舆论趋势，而要当成治理议题。
+2. **扁平化的核心不是少几名管理者，而是少掉的协调、决策、风控和育人责任由谁承接。** 如果没有责任迁移表、例外升级机制和 30/60/90 天监控指标，组织会更薄但更脆。
+3. **高人才密度不是少招人，而是更高责任包、更强 AI 杠杆、更少协调损耗和更清晰回报。** 如果只压 headcount，不配授权、薪酬和成长路径，会变成高压缩。
+4. **岗位体系要先分类，再建序列。** AI 时代岗位变化至少分为长期责任包、技能标签、市场稀缺系数、项目激励和临时补贴；看到新任务就新增岗位族群，会制造 title inflation 和薪酬公平问题。
+5. **AI fluency 是底线能力，不是自动晋升理由。** 正式晋升仍应看持续 scope 扩大、业务必要性、可复用工作流、质量门禁和组织放大效应。
 
-### 本周需要 CEO / 高管拍板或重点关注的 3 个问题
+### 本周需要 CEO/高管拍板或关注的 3 个问题
 
-1. **是否明确设一个“人机协作接口层”设计责任人？**
-如果没有，业务、HR、IT、安全会各自定义规则，结果是局部提速、整体变慢。
-
-2. **是否同意“高人才密度”从招聘口号升级为能力分层与资源分层机制？**
-如果不同意，组织会一边喊复合型人才，一边继续用单一职级和单一路径来管理。
-
-3. **是否允许先用 skill premium / role package / 项目授权试点，而不是立即新建序列或改晋升大规章？**
-如果不做分轨，所有资源压力都会被挤进 title 和 promotion。
+1. 是否授权 1-2 个业务单元做“减层 + 责任迁移表 + 人机工作流”试点，而不是全公司口号式扁平化？
+2. 是否批准建立复合型人才的识别、激励和保留机制，把高责任人才的授权、项目机会、薪酬倾斜和晋升证据打通？
+3. 是否确定岗位序列治理原则：哪些新责任可以建序列，哪些只允许技能标签、市场稀缺系数、项目奖金或临时补贴？
 
 ### 本周建议推进的 3 个动作
 
-1. **启动一个 8 周“接口层显性化”试点。**
-先选一个审批密集、交接多、例外频发的流程，画清 `目标定义-执行-验证-升级-审计` 五环责任图。
-
-2. **启动一个“三层能力组合”人才试点。**
-在一个关键职能内先定义 `fluency / builder / deep expert` 三层标准，并配对应的项目、激励和培养动作。
-
-3. **上线一版 `promotion evidence schema v2`。**
-新增 `业务结果、流程重构、治理质量、复用资产、跨团队影响、例外处理` 六类证据字段。
+1. **启动一个 AI-native 小队 / player-coach 试点。** 先选边界清晰、流程数据可追踪、业务风险可控的场景，验证少层级是否真的提高速度和质量。
+2. **建立复合型人才六维识别表。** 维度包括业务判断力、AI 编排力、流程理解、风险意识、可复用沉淀、跨职能影响。
+3. **设计 AI 贡献晋升证据包。** 统一要求写清业务问题、AI 工作流、质量标准、风险控制、复用范围、他人采用和量化影响。
 
 ### 最大风险与最大机会
 
-- **最大风险**：把 AI 时代组织变革误做成“减层 + 上工具 + 提高要求”，却不重写责任边界和资源承接，最终得到影子层级、明星依赖、title inflation 和晋升公平争议。
-- **最大机会**：率先把组织从“靠人肉协调的层级系统”升级成“靠接口规则运行的人机混合系统”，同时获得速度、质量、人才密度和资源效率。
-
----
+- **最大风险**：把 AI 组织变革误做成裁员或工具推广，导致责任断点、junior 培养断层、幸存者压力、薪酬公平争议和隐性层级回潮。
+- **最大机会**：把组织从“层级驱动”推进到“责任包 + 工作流 + 证据系统驱动”，让高密度人才真正承接更大业务结果。
 
 ## 2. 本周最高置信结论
 
-1. **AI 时代组织 redesign 的焦点，已经从岗位讨论推进到接口层设计。**
-   - 来源：Microsoft WorkLab（2026-05-21 / 2026-05-05）、Workday（2026-06-02 / 2026-06-09）、Oracle（2026-04-09）。可信度：⭐
-   - 相较上周：增强。
-   - 为什么重要：这说明“谁定义规则、谁处理例外、谁拥有审计与验证”正在取代“谁汇报给谁”成为更关键的组织变量。
-   - 对管理层意味着什么：减层、岗位、晋升、激励必须围绕接口层一并设计。
-
-2. **中层减少不是孤立动作，而是与治理权、角色权责和工作流重写同步发生。**
-   - 来源：BCG（2026-04-23；2026-06-03）、McKinsey（2026-04-06；2026-06 agentic CEO 文章）、Salesforce（2026-04-29）。可信度：⭐
-   - 相较上周：增强。
-   - 为什么重要：45% 的 AI agentic leaders 预计中层减少，但同一组研究也显示治理权和角色职责同步变化。
-   - 对管理层意味着什么：不能把中层压缩当作单独的成本动作推进。
-
-3. **高人才密度更适合被定义为能力组合，而不是精英堆砌。**
-   - 来源：The AI Pyramid（2026-01）、Zapier AI Fluency Rubric V2（2026-03-31）、Huawei AI Talent Development（2026-03-03）、LinkedIn Research Talent 2026。可信度：⭐/🎓
-   - 相较上周：显著增强。
-   - 为什么重要：fluency、builder、deep expert 三层组合，比“人人都是 AI 高手”更符合组织现实。
-   - 对管理层意味着什么：招聘、培养、授权和保留要分层设计，不能一个标准压所有岗位。
-
-4. **Forward Deployed / Deployment / Field Engineering / Architect / Verifier 正在长成稳定 role package。**
-   - 来源：Workday JD、Deloitte JD、Cursor Careers、Anthropic enterprise services、OpenAI / Anthropic / Meta / Tencent 的部署与平台化叙事。可信度：⭐/📊
-   - 相较上周：增强。
-   - 为什么重要：这批角色说明新中间层不是“管理层复活”，而是组织接口责任显性化。
-   - 对管理层意味着什么：应先为这类角色定义责任边界和 pay logic，再决定是否新建序列。
-
-5. **岗位边界变宽与关键专家节点升值，会同时发生。**
-   - 来源：AI Roles Continuum（2025-12-31）、Generative-AI and the transformation of workforce（2026-05）、Huawei competence map、ShopifyOS。可信度：⭐/🎓
-   - 相较上周：增强。
-   - 为什么重要：这纠正了“岗位会统一变宽，因此不再需要专家节点”的误判。
-   - 对管理层意味着什么：job family 要变宽，但 pricing 和 career path 不能把深度节点抹平。
-
-6. **本周没有足够证据支持“固定晋升窗口将被普遍取消”。**
-   - 来源：GitLab Promotions Handbook、Oracle calibration workspace、EY Future of Pay 2026。可信度：⭐/🏢
-   - 相较上周：保持谨慎。
-   - 为什么重要：更可靠的方向是持续识别 + 节奏化校准 + 例外通道，而不是全盘改成随时晋升。
-   - 对管理层意味着什么：先改证据结构和资源分轨，不要先在窗口问题上做大动作。
-
-7. **国内层级压缩与项目负责制出现中强信号，但制度化证据仍不足。**
-   - 来源：腾讯官方财报与工程采用（⭐）、36氪转载《中国企业家》关于 WXG/混元层级压缩（📰）。可信度：中
-   - 相较上周：略增强，但仍不足以升为制度模板。
-   - 为什么重要：这是最容易被误判并直接照搬的国内信号。
-   - 对管理层意味着什么：可追踪、可访谈、不可直接作为结论级制度样本。
-
----
+| 结论 | 来源与可信度 | 相较上周 | 为什么重要 | 对管理层意味着什么 |
+|---|---|---|---|---|
+| AI 相关组织减法已经进入年报、重组费用、CEO memo 等硬信号层。 | Oracle 年报/SEC、Lucid 披露、Robinhood memo 经媒体引用；可信度：高/中高 | 增强 | 组织变化已可被审计、追责和员工感知 | 任何减层或合并都必须有权责迁移、财务影响和员工影响评估 |
+| 扁平化的真实问题是责任再分配，不是组织图变薄。 | McKinsey State of Organizations、Microsoft Work Trend Index、Lucid 案例；可信度：高 | 增强 | 少掉的中间层可能承担了隐性协调和风控 | 先做责任盘点，再裁撤节点；否则速度红利会变成质量风险 |
+| 高人才密度正在和组织减法绑定，但需要授权和回报承接。 | Robinhood memo、BCG AI at Work、PwC、内部知识库；可信度：中高 | 增强 | 高密度叙事可能提升责任，也可能制造恐惧文化 | CEO 要同时批准高标准和高回报，不能只批准高压缩 |
+| AI 暴露岗位的入口正在高级化，但培养入口并未消失。 | PwC AI Jobs Barometer、Lloyds trainee 反例；可信度：中高 | 修正 | 初级岗位不是简单消失，而是门槛提高、训练方式改变 | 需要重建 apprenticeship、导师制和项目化成长通道 |
+| 岗位/族群/序列不应看到新任务就新增。 | arXiv labor demand、Workday Skills-Based Role Redesign、华为能力图谱、GitLab/Monzo/Zapier；可信度：高 | 增强 | 过早序列化会扩大 title 和薪酬复杂度 | 建立“新序列/技能标签/市场稀缺/项目激励/临时补贴”五分法 |
+| AI fluency 正在成为职业底线，正式晋升仍要看稳定 scope。 | GitLab handbook、Zapier AI Fluency Rubric、Microsoft WTI、Workday Agent Passport；可信度：高 | 增强 | 会用 AI 不等于组织贡献扩大 | 晋升委员会需要 AI 贡献证据模板，而不是看工具使用热情 |
+| Agent 治理会把绩效证据从主观叙述推向运行记录，但隐私边界必须先定。 | Workday Agent Passport、arXiv agent runtime governance；可信度：中 | 新增 | 运行时证据可审计，但也可能变成监控 | 在用于绩效/晋升前，先定义用途、权限、保留周期和申诉机制 |
 
 ## 3. 本周日报回顾
 
-### 本周真正产生管理增量的 4 组信息
+### 高价值增量
 
-1. **6 月 8 日：接口层第一次被系统化地拉到前台。**
-   - Microsoft 把 redesign first 再次锚定到任务、交接和决策权。
-   - Workday 把 allow / block / route / revocation 做成正式运行时治理。
-   - Oracle 把 career advancement、manager action、calibration 合到统一工作台。
-   - 结论：组织 redesign 的最小单元，从部门结构转向接口规则。
+- **6/22**：补跑校准日。核心价值是把 PwC、Lloyds、AI 技能薪酬溢价、arXiv `Payrolls to Prompts` 等材料纳入能力双轨和外包劳动替代框架；但没有新增足够强的一手公司机制样本。
+- **6/23**：本周第一个关键证据日。Oracle、Lucid、Robinhood、PwC 和 arXiv 共同把判断推进到“组织减法进入可审计阶段”。这一天的日报最适合作为周报事实底座。
+- **6/24**：非决策兜底记录。只说明自动化触发和待补齐问题，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证。本周不把 6/24 写入高置信结论。
+- **6/25**：本周主判断成型日。四专题共同形成“AI 组织变革正在从工具提效进入责任再分配阶段”的主线，并把组织、人才、岗位、晋升四个机制联成闭环。
 
-2. **6 月 9 日：治理前置成为扁平化的必要条件。**
-   - BCG 给出 `small cross-functional teams + transformation office + responsible AI CoE` 的组合样本。
-   - McKinsey把传统 functions 弱化、priority journeys 与 AI agent teams 绑定。
-   - Huawei 把 AI 人才标准正式写成 22 角色、71 能力的能力图谱。
-   - 结论：扁平化、高人才密度、岗位重构和晋升机制开始共享同一套治理语言。
+### 判断变化
 
-3. **6 月 10 日与 6 月 11 日：正式结论不足，但模型公司与平台公司的治理层信号值得记账。**
-   - OpenAI、Anthropic、Meta、Tencent、Workday 的共同点不是“又发新工具”，而是 deployment、enterprise rails、identity controls、audit、AgentOps 成为正式组织层。
-   - 结论：这两天更像背景补强，而不是新增制度结论。
-
-4. **6 月 12 日：能力分层、证据分层、资源分层三件事被一次性打通。**
-   - AI Pyramid 说明人才密度该按分层能力组合设计。
-   - AI Roles Continuum 说明岗位不应被切成更细 static title。
-   - GitLab 证明晋升仍要靠正式节奏与 promotion document。
-   - Shopify 与 Salesforce 证明成长系统、激励系统、流动系统和 headcount 决策正在被一起重写。
-   - 结论：本周可对 CEO 说的判断，终于从“趋势观察”升级为“机制判断”。
-
-### 本周最重要的判断变化
-
-- 从“AI 会改岗位”升级为“AI 会重写接口层、能力层和资源层的组合规则”。
-- 从“复合型人才更重要”升级为“组织应明确分层能力组合，而不是抽象地追求更强人才”。
-- 从“可能更灵活晋升”修正为“更灵活的是证据沉淀与例外动作，正式晋升仍应保留节奏和校准”。
-
----
+- 从“AI 可能带来扁平化”修正为“AI、财务压力、流程简化和高层权责集中共同推动组织责任重排”。
+- 从“高人才密度 = 更少更强的人”修正为“高人才密度 = 更高责任包 + AI 杠杆 + 更少协调损耗 + 更清晰回报”。
+- 从“新增 AI 岗位/序列”修正为“先判断责任是否长期稳定，再决定新序列、技能标签、市场溢价、项目激励或临时补贴”。
 
 ## 4. 四大课题聚合复盘
 
-### 课题一｜AI时代组织扁平化与中层减少
+### 课题一：AI时代组织扁平化与中层减少
 
 **本周新增事实**
 
-- BCG 明确展示 AI-first operating model 会同时重写 work structure、governance、staffing 和 prioritization。⭐
-- 45% 的 AI agentic leaders 预计 middle management layers 减少，但 58% 同时预计 governance and decision-making rights 改变。⭐
-- Salesforce 把再部署、不回填和内部流动写进 workforce reshaping。⭐
-- 腾讯在内部 AI 平台、AgentOps、研发采用上给出强一手材料，但项目负责制压层级仍以媒体报道为主。⭐/📰
+- Oracle FY2026 年报披露约 141,000 名全职员工，并把 AI technologies across operations 的 adoption and deployment 与 workforce reductions 风险放在同一链条；外部媒体据 2025 年约 162,000 人与 2026 年约 141,000 人对比估算约 21,000 人减少。
+- Lucid 2026-06-22 披露裁减约 18% 美国员工、取消 COO 职位、取消 AMP-1 第二班次，预计年化节约约 1.58 亿美元，现金重组费用约 3,200 万美元。
+- Robinhood CEO memo 把 10% 裁员、flatten org structure、maximize talent density、top-tier talent 和 frontier technologies 放进同一叙事。
 
 **判断变化**
 
-- 从“压缩中层”升级为“压缩线性 handoff 层，建设 exception / governance / deployment 接口层”。
-- 从“manager 变少”升级为“manager 的合法性从流程搬运转向 orchestrator、coach、quality gate、exception owner”。
+- 增强：减层已经从文化语言变成公司披露、重组费用和 memo 里的治理动作。
+- 修正：Lucid 不能归因于 AI 直接替代，它更像“技术转型 + 财务压力 + 运营再集中”的综合样本。
 
 **重点案例**
 
-- BCG 欧洲能源企业：小型 cross-functional teams + transformation office + responsible AI CoE。
-- Salesforce：4Rs + Career Connect + 不回填部分岗位。
-- 腾讯：研究团队重构、AI 基础设施重构、AgentOps 平台化是一手；WXG/混元层级压缩是强线索。
+- Oracle 是“AI workforce reduction 写入年报风险链条”的硬证据。
+- Lucid 是“取消高管运营节点”的高层减层样本。
+- Robinhood 是“业务强势期也主动压层级，并用人才密度解释”的文化样本。
 
 **管理启发**
 
-- 扁平化前先定义 `journey owner / governance owner / review gate / exception owner`。
-- 组织中最该被系统吸收的是低密度协调劳动，不是高判断责任。
-- 如果不补 internal mobility 和 reskilling，压层级只会被员工理解为缩编。
+- 减层前必须列出被取消角色原本承担的四类责任：决策、协调、风险、育人。
+- 每个被取消节点必须有承接者、指标看板、例外路径和员工发展承接者。
 
 **CEO 需要关注的问题**
 
-- 我们真正想削减的是哪些劳动：汇总、推进、审批，还是教练、判断和质量门禁？
-- 哪些例外必须回到人，哪些 routine 应被系统接管？
+- 我们是否知道哪些中层职能只是信息搬运，哪些实际承担风控、质量、人才培养和跨部门协调？
+- 如果取消一层，业务结果、员工成长和风险控制分别由谁背书？
 
-**仍需验证的问题**
+**仍需验证**
 
-- 腾讯项目负责制的适用范围、正式制度文本和绩效口径。
-- 扁平化后的管理跨度、例外率和质量指标是否有公开量化案例。
+- Oracle workforce reduction 的业务线分布和后续再招聘方向。
+- Robinhood 裁员后 manager span、晋升和招聘结构是否同步改变。
+- 国内是否出现公告级 AI 相关组织减层样本。
 
-### 课题二｜高人才密度与复合型人才机制
+### 课题二：高人才密度与复合型人才机制
 
 **本周新增事实**
 
-- AI Pyramid 提出 AI Native、AI Foundation、AI Deep 三层能力分布。🎓
-- Zapier V2 把最低门槛抬到“核心工作嵌入 + 可重复系统 + 可衡量影响”，且 manager 标准更高。⭐
-- Huawei competence map 覆盖 22 角色、71 能力，并形成 planning-training-evaluation-certification 闭环。⭐
-- LinkedIn 与招聘实验都显示 AI skills 和 verified signal 已进入正式机会分配。⭐/🎓
+- Robinhood 将 talent density 与 flattening 绑定。
+- PwC 后续解读显示 AI-exposed entry-level roles 更频繁要求 leadership、stakeholder management、mentorship、process management 和 data-driven decision-making。
+- BCG AI at Work 显示，部分高频 AI 使用者节省大量时间，但多数组织没有清楚定义节省时间如何转成更高价值工作。
+- SAP、华为、LinkedIn 等线索共同指向：稀缺能力不是“会用 AI”，而是业务流程、系统架构、治理意识和学习迁移能力的组合。
 
 **判断变化**
 
-- 从“招更强的人”修正为“设计不同层级的人才组合”。
-- 从“复合型人才=懂业务+懂技术”升级为“懂业务、懂技术、懂治理、能解释边界、能验证结果”。
+- 增强：高人才密度被用来承接组织减法。
+- 修正：高密度不是“少招人”，而是更高责任包和更清晰回报。
 
 **重点案例**
 
-- Zapier：以统一 rubric 前置招聘与管理者标准。
-- Huawei：能力图谱先于头衔图谱。
-- Shopify：用 Crafter / Manager 双轨、Mastery、FlexComp 把成长和激励绑在一起。
+- Robinhood：强业务期仍裁 10%，用 talent density 和 frontier technologies 解释组织压缩。
+- 华为能力图谱：以角色和技能图谱连接规划、培养、评估，提示复合型人才可以通过能力系统发现，而不只靠招聘。
 
 **管理启发**
 
-- 复合型人才机制必须回答三件事：如何识别、如何培养、如何给资源。
-- 高人才密度如果没有 manager enablement 和 early-career 脚手架，会演变成明星依赖和 junior 断层。
+- 复合型人才识别应采用六维：业务判断力、AI 编排力、流程理解、风险意识、可复用沉淀、跨职能影响。
+- 节省出来的时间要有再投资方向：客户洞察、质量改进、自动化资产沉淀、辅导他人、流程简化。
 
 **CEO 需要关注的问题**
 
-- 哪些岗位只需 fluency，哪些岗位必须配 builder，哪些岗位必须保 deep expert？
-- 组织要不要把“AI fluency slope”作为高潜识别信号之一？
+- 组织是否有足够高密度人才承接更扁平结构？
+- 高密度人才如何定价、授权和保留？
+- 如何避免明星员工依赖和 junior 断层？
 
-**仍需验证的问题**
+**仍需验证**
 
-- verified skills、内部 skill badge 是否会正式进入 mobility / promotion / staffing。
-- 中国公司是否会公开类 Huawei / Zapier 的能力图谱与管理者标准。
+- Robinhood 是否发布具体 talent density 指标和薪酬/晋升承接机制。
+- PwC 技能样本能否下载复算。
+- RAISE US、Meta Workforce Academy 等项目是否有认证、岗位连接和雇佣承诺。
 
-### 课题三｜岗位、族群、序列的持续建设
+### 课题三：岗位、族群、序列的持续建设
 
 **本周新增事实**
 
-- Forward Deployed、Enterprise Architect、AI Deployment、Field Engineering 等角色在招聘市场和 AI 原生公司中持续成组出现。⭐/📊
-- AI Roles Continuum 说明研究与工程边界趋于连续谱。🎓
-- 招聘样本显示 AI_Data、Soft_Meta 和跨职能混合能力需求上升，routine task 下降。🎓
-- EY Future of Pay 与 skills-based organization 概念卡都支持：先做 capability bands、skill tiers、sunset clauses 和 pay band 调整。⭐/🏢
+- arXiv `Generative AI and the Reorganization of Labor Demand` 将 AI 对岗位需求的影响拆成岗位间需求重分配和岗位内任务重设计。
+- Workday 提出 manager 将转向编排人类与 agent，并将 Skills-Based Role Redesign 作为混合运营模型模块。
+- 华为公开 22 类角色、71 项核心技能的 AI 人才发展服务方案。
+- 内部知识库中的 GitLab、Monzo、Zapier、Microsoft 材料共同提示，岗位体系需要把 scope、impact、AI fluency、可复用工作流和业务必要性放到同一证据系统。
 
 **判断变化**
 
-- 从“是否新建序列”升级为“先定义 role package、再判断是否需要 sequence”。
-- 从“岗位会更宽”升级为“宽 family + 深节点 + 价格分层”并存。
+- 增强：AI 让岗位颗粒度两端分化，应用层更粗颗粒、更端到端，基础设施/治理层更专业化。
+- 修正：很多“新增序列”诉求本质是薪酬、激励或市场稀缺问题。
 
 **重点案例**
 
-- Workday / Deloitte JD：角色包已具备独立责任、产出和高薪带宽。
-- Cursor：deployment 成为一组连续组织层，而非单一岗位。
-- Shopify：人才 operating system 数据化。
+- 华为能力图谱：先用角色与技能图谱识别能力缺口，再连接培养和评估，正式序列只承接稳定责任。
+- 百度职级改革、腾讯 WXG 项目负责制仍是国内基线，但本周缺新的公告级制度材料。
 
 **管理启发**
 
-- 判断是否新建岗位/族群/序列，至少看四条：长期性、重复性、可评价性、可定价性。
-- 很多“要新建序列”的业务诉求，本质上是“市场溢价要承接”。
+- 新建岗位/族群/序列的门槛：责任长期稳定、市场有可比岗位、业务有持续规模、能力可评审、薪酬带宽需要单独管理。
+- 不满足门槛时，优先使用技能标签、项目激励、市场稀缺系数或临时补贴。
 
 **CEO 需要关注的问题**
 
-- 哪些 AI 新角色要进入正式 family，哪些只适合做 skill tag / 项目角色 / 稀缺津贴？
-- 如果不先拆开“结构诉求”和“定价诉求”，岗位体系会不会失控膨胀？
+- 哪些序列确实应新建？哪些只是给关键人才涨薪的包装？
+- AI 安全、数据治理、Agent 工程、AI Infra 等高溢价岗位是否需要独立带宽？
 
-**仍需验证的问题**
+**仍需验证**
 
-- 中国公司是否出现公开的 AI technical family 或 capability band 样本。
-- FDE / Deployment / Verifier 是否已进入更多公司的正式 career framework。
+- AI workflow owner、agent governance lead 等岗位是否形成稳定 JD 与薪酬带宽。
+- 百度数字序列改革后的薪酬、晋升、管理序列映射变化。
 
-### 课题四｜未来组织的晋升机制
+### 课题四：未来组织的晋升机制
 
 **本周新增事实**
 
-- Oracle 把 career advancement、manager workspace、talent calibration 做成统一 HR agentic workspace。⭐
-- GitLab 仍采用 `planning → calibration → processing` 半年节奏，promotion document 最多 3 页，并保留 out-of-cycle 例外通道。⭐
-- EY 支持 skill premium、skill tiers、sunset clauses 和更高频 recalibration。⭐
-- LinkedIn、Workday 等证据都提示：可验证技能和运行证据会进入人才系统周边，但尚未看到其已普遍进入正式晋升委员会。⭐/📰
+- GitLab handbook 继续提供可迁移基线：晋升需要稳定 scope、业务必要性、manager 支持、校准和可证据化影响。
+- Zapier AI Fluency Rubric 将 AI fluency 做成分岗位、分层级能力要求。
+- Workday Agent Passport 提供 agent 测试、验证、监控和审计记录线索，提示 AI 贡献证据可能从主观叙述转向运行记录。
+- PwC entry-level seniorization 说明晋升前能力门槛正在前移。
 
 **判断变化**
 
-- 从“窗口是否取消”转向“证据字段如何升级、资源动作如何分轨”。
-- 从“AI 会参与评审”转向“AI 更适合做 evidence plumbing，而非 final judge”。
+- 增强：固定晋升窗口仍有价值，因为 AI 贡献更需要跨团队校准。
+- 修正：即时认可有必要，但不等于即时晋升；短期 AI 战功应先通过项目奖金、acting scope、临时津贴承接。
 
 **重点案例**
 
-- GitLab：固定窗口 + 例外通道 + promotion document + business need。
-- Oracle：持续识别 + 结构化校准 + evidence-based recommendation。
+- GitLab handbook-first 晋升逻辑：贡献被文档化、复用化、校准化，适合映射到 AI 贡献证据包。
+- Workday Agent Passport：让运行时证据可审计，但也引出绩效监控和隐私边界问题。
 
 **管理启发**
 
-- promotion 应继续承接正式层级确认。
-- skill premium、项目奖励、market adjustment、mobility 标记应单独治理。
-- 如果把所有稀缺价值都塞进晋升，组织会更快走向 title inflation。
+- 保留固定晋升窗口，叠加即时认可、acting scope、项目奖金和能力认证。
+- AI 贡献证据包必须写清：业务问题、AI 工作流、质量标准、风险控制、复用范围、他人采用、量化影响。
 
 **CEO 需要关注的问题**
 
-- 我们是否认可“AI 贡献”不能直接等于“晋升贡献”，必须转译成业务结果、流程重构和治理质量？
-- 我们是否有能力让例外晋升成为受控例外，而不是绕过标准的捷径？
+- 如何快速识别优秀伙伴，同时不牺牲公平、预算纪律和组织信任？
+- 是否允许 runtime log 用于绩效或晋升？边界是什么？
 
-**仍需验证的问题**
+**仍需验证**
 
-- AI certification、agent log、项目复盘是否会进入正式 promotion packet。
-- 中国公司是否已有公开的“固定窗口 + 例外通道 + 技能津贴分轨”制度文本。
-
----
+- 哪些公司已把 AI fluency 正式写入晋升 rubric。
+- AI 项目制晋升在咨询、软件、金融、制造中的公开案例。
 
 ## 5. 跨课题综合判断
 
-1. **四个课题本周被一条主线串起来：组织正在从层级结构管理，转向接口规则管理。**
-   - 扁平化需要接口规则。
-   - 高人才密度需要能力分层规则。
-   - 岗位体系需要 role package 与 pay rule。
-   - 晋升机制需要 evidence rule 与 exception rule。
-
-2. **必须联动设计的四项机制**
-   - `authority rule`：谁定义目标、谁能 override、谁担责。
-   - `capability rule`：谁属于 fluency、builder、deep expert。
-   - `resource rule`：哪些价值进 promotion，哪些进 premium / reward / allowance。
-   - `evidence rule`：什么证据可入表、谁验证、谁可申诉。
-
-3. **可以相对独立推进的两项**
-   - skill premium / 稀缺津贴试点。
-   - role package card / capability band 轻量定义。
-
-4. **最容易单独推进出问题的三项**
-   - 只做减层，不做例外治理。
-   - 只提复合型人才，不改 manager bar 和培养机制。
-   - 只建新 title，不改薪酬带宽和证据包。
-
----
+1. **四个机制必须联动。** 扁平化释放责任缺口，高人才密度承接责任，岗位序列决定责任是否制度化，晋升机制决定责任如何被回报。只动其中一个，都会出问题。
+2. **可以独立推进的是技能标签和晋升证据包。** 它们不需要先改组织图，可作为低风险基础设施先做。
+3. **不能单独推进的是减层。** 如果只裁层级，不做人才密度、岗位边界和晋升激励，会形成管理真空、质量风险和隐性层级回潮。
+4. **岗位改革和薪酬改革必须同频。** 不少新岗位诉求本质是关键人才溢价。如果 HR 只用 title 承接，会制造 title inflation；如果只用补贴，不建证据规则，会制造公平争议。
+5. **晋升机制是信任阀门。** AI 让贡献更快、更难比较，也更容易包装。没有校准机制，组织会奖励最会讲 AI 故事的人，而不是最能放大业务结果的人。
 
 ## 6. CEO决策议题清单
 
@@ -308,291 +217,232 @@
 
 | 议题 | 背景 | 选项 | 利弊 | 推荐 | 风险 | 下一步 |
 |---|---|---|---|---|---|---|
-| 是否设立“人机协作接口层”设计责任人 | 当前材料显示接口层是本周最强共同变量 | A. 分散给各职能；B. 设一个跨职能 owner | A 快，但碎片化；B 慢一些，但能统一规则 | **B** | 若 owner 没实权，会变 PMO 化 | 一周内明确 sponsor、owner、试点范围 |
-| 是否把 promotion、skill premium、项目奖励分轨治理 | 稀缺价值已不适合全部挤进 title | A. 继续混用；B. 分轨 | A 简单但更政治化；B 复杂但更可控 | **B** | 规则设计初期沟通成本高 | 先做一个职能试点，定义四类资源动作 |
-| 是否允许国内项目负责制样本进入内部试点参考 | 腾讯等样本有中强信号但制度证据不足 | A. 直接照搬；B. 只作线索参考 | A 快但误判风险高；B 慢但更稳 | **B** | 可能错过窗口，但能避免误抄媒体叙事 | 通过访谈和官方资料再验证后再定 |
+| 是否启动 AI-native 小队试点 | 外部样本显示减层必须配责任迁移 | A 全公司推；B 选 1-2 个业务试点；C 暂不动 | A 快但风险大；B 可控；C 错失学习窗口 | B | 试点选错会变成形式主义 | 2 周内选场景、owner、指标 |
+| 是否建立岗位序列五分法 | AI 新任务不断出现，业务可能要求新 title | A 直接建序列；B 先五分法；C 个案特批 | B 最能控制复杂度 | B | 审批过严会留不住稀缺人才 | CHRO 牵头提交规则 |
+| 是否批准 AI 贡献晋升证据包 | AI 贡献可见性和公平性风险上升 | A 立即纳入晋升；B 先证据包试运行；C 暂不纳入 | B 兼顾速度和公平 | B | 证据包过重会增加管理负担 | 下个晋升周期前试运行 |
 
 ### 需要授权试点
 
 | 议题 | 背景 | 选项 | 利弊 | 推荐 | 风险 | 下一步 |
 |---|---|---|---|---|---|---|
-| 接口层显性化试点 | 本周最强结论可直接试 | A. 客服/运营流程；B. 研发支持流程 | A 可量化快；B 更复杂但战略性更高 | **A 起步** | 若只测效率不测例外，会误判 | 选一个多审批多交接流程，8 周验证 |
-| 三层能力组合试点 | Talent density 需要从概念变机制 | A. 全公司推；B. 单职能推 | A 声势大但失真；B 可控 | **B** | 影响范围小，但更真实 | 先在产品/运营/技术之一落地 |
-| Promotion evidence schema v2 | 晋升证据升级迫切 | A. 全面改制度；B. 附加字段试运行 | A 风险高；B 可渐进 | **B** | 若不配解释模板，manager 执行不一致 | 下个晋升周期前先做 shadow run |
+| 复合型人才识别和激励试点 | 高密度人才需承接更大责任 | A 只盘点；B 盘点 + 项目机会 + 激励；C 外部招聘优先 | B 能形成内生供给 | B | 过度倾斜引发公平争议 | 用六维模型做 30 人样本 |
+| 技能标签/市场稀缺系数试点 | 新序列与薪酬诉求混杂 | A 新建 title；B 技能标签 + 稀缺系数；C 项目补贴 | B 更灵活 | B | 定价不透明 | 先选 AI 安全/数据治理/Agent 工程 |
+| 项目制晋升证据包试点 | AI 项目贡献周期短 | A 项目后直接晋升；B acting scope 3-6 个月；C 只给奖金 | B 最稳 | B | acting scope 不清会被视为免费加活 | 每个项目设 sponsor 和评审日期 |
 
 ### 需要继续观察
 
 | 议题 | 背景 | 选项 | 利弊 | 推荐 | 风险 | 下一步 |
 |---|---|---|---|---|---|---|
-| verified skills 是否进入正式晋升 | 招聘侧证据强，晋升侧仍弱 | A. 立即接入；B. 继续追踪 | A 过早；B 稳健 | **B** | 可能略慢，但避免误伤公平性 | 跟踪 Oracle / Workday / GitLab / Shopify |
-| FDE 是否应独立成正式序列 | role package 在稳定，但并非所有公司都适用 | A. 立刻建序列；B. 先 role package | A 可能膨胀；B 可试错 | **B** | 业务可能觉得不够快 | 先在一个业务单元做角色卡和 pay rule |
-| 项目负责制能否替代现有管理层级 | 国内证据仍不足 | A. 强推；B. 局部试点 | A 风险高；B 更稳 | **B** | 节奏较慢 | 先做场景式试点，不做全组织变更 |
-
----
+| 是否用 agent runtime log 支持绩效/晋升 | Workday Agent Passport 等工具使运行记录可审计 | A 直接使用；B 只用于流程改进；C 禁止使用 | B 先控风险 | B | 员工监控争议 | 法务/HR/安全共同定义边界 |
+| 是否参考 Robinhood 式强业务期裁员 | 外部有样本，但文化风险高 | A 照搬；B 只学责任密度；C 不参考 | B | 错把裁员当高密度 | 跟踪员工反馈和后续组织结构 |
+| 是否取消某类高管/中层节点 | Lucid 样本说明可能但不可泛化 | A 取消；B 做责任审计；C 不动 | B | 取消后质量/交付风险 | 先做 4 类责任盘点 |
 
 ## 7. 建议试点方案
 
-### 试点一｜AI-native 小队接口层试点
+### 试点一：AI-native 小队 / player-coach 试点
 
-| 项目 | 设计 |
-|---|---|
-| 目标 | 验证“先定义接口层，再压缩协调劳动”是否能同时提升速度与质量 |
-| 范围 | 一个审批/交接密集的运营或客服流程 |
-| 周期 | 8 周 |
-| Owner | 业务负责人 + HRBP + IT/数据接口人 |
-| 成功指标 | 周期时长下降 20%；例外处理时效提升；override 有审计；员工净体验不下降 |
-| 风险控制 | 明确人工接管点；每周复盘 exception rate；不把 headcount 目标绑定在首轮试点上 |
+- **目标**：验证少层级、强 owner、AI 工作流和 player-coach 是否提高速度与质量。
+- **范围**：选择一个产品/运营/客户交付流程，8-12 人，含业务 owner、工程/数据、流程 owner、风险/质量角色。
+- **周期**：12 周。
+- **Owner**：业务一号位 + CHRO 指派 OD partner。
+- **成功指标**：决策周期缩短 30%；返工率不升；关键流程自动化资产至少 3 个；员工升级路径明确；客户/内部满意度不下降。
+- **风险控制**：设置例外升级路径、质量门禁、周度风险复盘、30/60/90 天离职和负荷监控。
 
-### 试点二｜复合型人才识别与激励试点
+### 试点二：复合型人才识别和激励试点
 
-| 项目 | 设计 |
-|---|---|
-| 目标 | 建立 `fluency / builder / deep expert` 三层能力标准，并验证资源承接方式 |
-| 范围 | 一个关键职能或产品线 |
-| 周期 | 6 周定义 + 8 周试运行 |
-| Owner | CHRO / OD 负责人 + 业务一号位 |
-| 成功指标 | 识别出首批三层人才池；项目分配更精准；关键人才保留率改善；manager 对标准可解释 |
-| 风险控制 | 不把三层能力直接等同于新职级；保留人工校准；防止 badge 化官僚主义 |
+- **目标**：找出能承接更高责任包的人，而不是只找 AI 工具使用者。
+- **范围**：一个业务单元 30-50 名骨干，使用六维模型评估。
+- **周期**：8 周评估，随后 3 个月项目授权。
+- **Owner**：CHRO + 业务 VP + People Analytics。
+- **成功指标**：识别出 10-15 名高潜 owner；形成项目机会池；至少 5 个工作流复用资产；关键人才留存风险下降。
+- **风险控制**：评估标准公开，反馈给所有参与者；激励分为项目奖金、acting scope、学习预算和长期晋升，不一次性固化。
 
-### 试点三｜项目制晋升证据包试点
+### 试点三：岗位族群/技能标签/市场稀缺系数试点
 
-| 项目 | 设计 |
-|---|---|
-| 目标 | 验证 `promotion evidence schema v2` 是否比旧版更能区分真实贡献 |
-| 范围 | 下一轮晋升前，在一个部门做 shadow packet |
-| 周期 | 1 个晋升周期 |
-| Owner | HRBP + People Analytics + 部门负责人 |
-| 成功指标 | 证据完整性提升；manager 准备时间下降；校准争议减少；能分清 promotion 与 premium |
-| 风险控制 | AI 只做归纳和一致性检查，不做自动排序；保留申诉与人工判断 |
+- **目标**：区分新序列、技能标签、市场稀缺、项目激励和临时补贴。
+- **范围**：AI 安全、数据治理、Agent 工程、AI Infra 四类岗位。
+- **周期**：10 周。
+- **Owner**：CHRO + CPO/CTO + Comp & Ben。
+- **成功指标**：每类岗位形成责任定义、技能标签、市场价位、内部供给、晋升证据；减少个案 title 特批。
+- **风险控制**：不直接承诺新增序列；先通过稀缺系数和项目激励解决短期留才。
 
----
+### 试点四：项目制晋升证据包试点
+
+- **目标**：把 AI 项目贡献从故事变成证据。
+- **范围**：选 5 个 AI 自动化/agent 项目。
+- **周期**：3-6 个月 acting scope。
+- **Owner**：Talent Committee + 项目 sponsor。
+- **成功指标**：每个候选人提交一页证据包；至少 2 个工作流被他人复用；项目质量和风险指标可审计；晋升/奖金/不晋升决策有一致口径。
+- **风险控制**：固定校准窗口不取消；证据包只是进入评审的材料，不是自动晋升凭证。
 
 ## 8. 重点案例事实还原
 
 ### 国内公司
 
-| 公司 | 背景与动作 | 结果/争议 | 可借鉴点 | 不可照搬点 |
-|---|---|---|---|---|
-| 华为 | 公开 AI Talent Competence Map，覆盖 22 角色、71 能力，并形成 planning-training-evaluation-certification 闭环 | 强制度化样本；也可能过重 | 先统一能力语言，再做选育用留 | 大体系做法不适合小团队照搬 |
-| 腾讯 | 一手强信号在 AgentOps、CodeBuddy、WorkBuddy、研究与基础设施重构；媒体信号在 WXG 项目负责制与混元汇报线压缩 | 内部采用与平台治理强；层级压缩仍缺制度文本 | 国内大厂也在向“平台层 + 项目 owner”演进 | 项目负责制部分仍不能当高置信制度样本 |
+- **华为**：2026 年公开 AI 人才发展服务方案，包含 22 类角色、71 项核心技能，并将规划、培养、评估一体化。可借鉴点是先建技能-角色-业务场景矩阵；不可照搬点是供应商方案不能直接当公司岗位体系。
+- **百度**：知识库基线显示其职级改革从 T/P/E/Band/M 等标签转向数字体系，支持“打通专业/管理、降低标签壁垒”的观察；但本周未新增一手制度材料，不能把员工影响写成新结论。
+- **腾讯 WXG**：项目负责制和取消组长负责制仍是国内“责任向项目 owner 迁移”的关键基线；本周没有新增公告级材料。
+- **DeepSeek Harness**：6/25 digest 记录招聘线索显示研究/工程/产品三角正在围绕 Agent 产品化形成，但仍是 L2 观察，缺少完整官方岗位页、汇报线和公司公告，暂不升为公司级机制结论。
 
 ### 海外公司
 
-| 公司 | 背景与动作 | 结果/争议 | 可借鉴点 | 不可照搬点 |
-|---|---|---|---|---|
-| Workday | Agent Passport + human-agent operating model + FDE/EA 角色包 | 说明运行时治理与部署层正式化 | 把 allow/block/route/revoke 做成正式台账 | 平台型产品能力不是普通企业一夜可得 |
-| Oracle | Career Advancement、Manager Concierge、Calibration Workspace 合一 | 说明晋升先改证据流 | 先统一 career language 与 evidence schema | 没有清晰 policy 时，工具会放大噪音 |
-| Salesforce | 4Rs + Career Connect + 不回填部分岗位 + 再部署 support engineers | 说明 AI 已进入正式 workforce reshaping | 再部署必须和流动机制一起设计 | 若只有不回填、没有 Career Connect，会被视为缩编 |
-| Shopify | ShopifyOS、Crafter/Manager、Mastery、FlexComp 一体化 | 人才系统被正式产品化 | 双轨成长 + 数据化人才系统 | 文化与数字化基础要求高 |
+- **Oracle**：AI deployment 与 workforce reductions 同时进入年报风险披露，并伴随 severance and other exit costs 上升。可借鉴点是把 AI 组织调整纳入治理和风险框架；不可照搬点是不能把所有 headcount 变化都归因于 AI。
+- **Lucid**：裁减 18% 美国员工，取消 COO 和第二班次。可借鉴点是高层节点取消后必须做责任迁移；不可照搬点是 Lucid 的核心背景包含 EV 需求、现金流和产能压力，不是 AI 原生样本。
+- **Robinhood**：强业务期裁 10%，把 flattening 与 talent density 绑定。可借鉴点是高密度要配更大责任和机会；不可照搬点是强业务期裁员可能伤害心理安全。
+- **GitLab**：handbook-first 晋升和内部流动机制适合 AI 贡献证据化；不可照搬点是高度异步和文档文化不是所有组织都具备。
 
 ### AI原生公司
 
-| 公司 | 背景与动作 | 结果/争议 | 可借鉴点 | 不可照搬点 |
-|---|---|---|---|---|
-| OpenAI | “第三阶段”把 deployment 扩散和 AI 进入研究主流程放在一起 | frontier 公司开始重写 research operating model | 把 deployment 和 research 同时视为组织议题 | frontier lab 节奏不适合传统企业直接照搬 |
-| Anthropic | Claude Enterprise 强调 central governance、audit、identity；Economic Futures 延伸到就业与政策层 | 治理边界更宽 | enterprise AI 不是工具，而是治理产品 | 公共政策层布局不是每家公司都要做 |
-| Cursor | Deployment / Field Engineering / Solutions 构成连续岗位层 | deployment 组织层显性化 | 角色包先于序列 | AI vendor 场景强客户嵌入，不等于内部通用岗位 |
+- **OpenAI / Anthropic / Perplexity / Mistral 基线**：内部 digest 与知识库显示 Applied AI、Forward Deployed、Deployment PM、Codex Deployment Engineering 等岗位正在成为企业部署接口层。管理含义是“部署层”可能是长期 operating layer，不是销售或客户成功补丁。
 
-### 传统企业 / 传统科技平台
+### 传统企业
 
-| 公司 | 背景与动作 | 结果/争议 | 可借鉴点 | 不可照搬点 |
-|---|---|---|---|---|
-| BCG 案例能源企业 | 小型旅程团队 + transformation office + responsible AI CoE | 展示 AI-first operating model 组合拳 | 扁平化必须配套 central governance | transformation office 若做成新官僚层会更慢 |
-| GitLab | promotion document + 半年校准 + out-of-cycle | 证明固定窗口并未失效 | 持续识别和节奏校准可并存 | 公开 handbook 透明度高，普通企业需简化实现 |
-
----
+- **Lloyds / Workday / SAP**：Lloyds 同时招 AI 技术专家和 trainee，说明培养入口未消失；Workday/SAP 强调人机编排、技能重设计和治理意识，提示传统企业不会只靠裁层级完成 AI 转型。
 
 ## 9. 本周Context
 
-- 暂不足以下结论，但提示关注：**verified skills 可能从招聘信号延伸为内部项目分配和晋升准备度信号。**
-- 暂不足以下结论，但提示关注：**internal forward-deployed / AI accelerator 可能成为传统企业的过渡型接口角色。**
-- 暂不足以下结论，但提示关注：**企业对后台 agent 的员工信任边界，会直接影响晋升、公平和 adoption 叙事。**
-- 暂不足以下结论，但提示关注：**国内公司是否会公开 capability band、skill premium、例外晋升规则，仍是下周关键观察点。**
+暂不形成结论，但提示我们关注：
 
----
+- Business Insider AI-related layoffs 汇总显示 AI-native 小团队、one-person teams、agent fleets 等语言扩散，但该材料混合成本压力、一手 memo 和二手报道，不能证明 AI 已稳定提升组织效率。
+- Workday Agent Passport 说明 agent 运行记录可能进入审计体系，但是否用于个人绩效/晋升仍需谨慎。
+- DeepSeek Harness 招聘线索说明 Agent 产品化可能形成研究/工程/产品三角，但缺少完整官方组织材料。
+- 中国公司公开一手 People/HR 制度材料仍偏弱，需要继续找公告、handbook、职位体系、晋升规则和薪酬映射材料。
 
 ## 10. 准确性校验与修正
 
-1. **修正一：本周不能把“更连续的证据流”写成“固定晋升窗口会消失”。**
-   - 现有高置信样本更支持“连续识别 + 节奏校准 + 例外通道”。
-
-2. **修正二：不能把腾讯项目负责制媒体信号上升为国内大厂普遍制度结论。**
-   - 腾讯官方一手材料更强的是 AgentOps、内部采用和研究/基础设施重构。
-
-3. **修正三：不能把 FDE / Deployment / Architect 角色的增多，直接写成“所有企业都应新建独立序列”。**
-   - 现阶段更稳健的表述是：role package 稳定化，sequence 决策仍取决于长期性、重复性、可评价性、可定价性。
-
-4. **修正四：不能把 AI skill certification 已成晋升主证据当作结论。**
-   - 招聘与机会发现层面证据很强；正式 promotion committee 层面证据仍弱。
-
-5. **修正五：6 月 10 日、6 月 11 日多数专题日报为状态稿，不能与 6 月 8、9、12 的正式证据同权。**
-
----
+- **修正 1**：不再把所有裁员写成 AI 替代。Oracle 有年报级 AI workforce reduction 风险披露，可进入高置信；Lucid 更主要是财务与运营重组，只能作为高层节点取消样本。
+- **修正 2**：不把 6/24 兜底稿写入证据层。它只说明当天未完成正式研究。
+- **修正 3**：不把 entry-level seniorization 写成“初级岗位消失”。Lloyds trainee 反例说明培养入口仍存在，只是更集中、更技术化、更高门槛。
+- **修正 4**：不把 AI fluency 写成晋升充分条件。它更像底线能力，正式晋升仍需稳定责任扩大。
+- **修正 5**：不把 DeepSeek Harness 写成确定组织机制。它是较强线索，但仍缺一手组织结构证据。
 
 ## 11. 机制库更新
 
-### 组织架构
-
-- `接口层设计`：journey owner、review gate、exception owner、governance owner 必须显性化。
-- `扁平化条件`：先重写 routine / exception / escalation，再压协调层。
-
-### 岗位序列
-
-- `role package card`：职责、交付物、验证方式、边界、稀缺性、pay logic。
-- `family + tag + band`：优先宽 family，辅以 skill tag 与 capability band。
-
-### 高人才密度
-
-- `三层能力组合`：fluency、builder、deep expert。
-- `manager higher bar`：管理者必须承担 workflow redesign 与实验安全感建设。
-
-### 招聘识别
-
-- `可信证明层`：verified skills、项目证据、可重复 workflow、错误识别与边界判断。
-
-### 激励保留
-
-- `分轨资源机制`：promotion、skill premium、项目奖励、market adjustment 分开治理。
-
-### 晋升机制
-
-- `evidence schema v2`：业务结果、流程重构、治理质量、复用资产、跨团队影响、例外处理。
-- `controlled exception`：保留 out-of-cycle，但须可解释、可预算、可审计。
-
-### 沟通落地
-
-- `反误读话术`：不是 AI 让 manager 不重要，而是 AI 让低密度协调不再值得保留。
-
-### 风险治理
-
-- `不可自动化裁决`：AI 先做 evidence plumbing，不做 final judge。
-
----
+| 机制领域 | 本周沉淀 | 可复用规则 |
+|---|---|---|
+| 组织架构 | 责任迁移表 | 每次减层必须列出决策、协调、风险、育人四类责任的承接者 |
+| 岗位序列 | 五分法 | 新序列、技能标签、市场稀缺系数、项目激励、临时补贴分开处理 |
+| 高人才密度 | 六维识别 | 业务判断、AI 编排、流程理解、风险意识、可复用沉淀、跨职能影响 |
+| 招聘识别 | 真实流程题 | 面试加入业务流程拆解、AI 输出质检、异常处理、利益相关方取舍 |
+| 激励保留 | 分轨回报 | 项目奖金承接短期战功，晋升承接持续 scope，稀缺系数承接市场价差 |
+| 晋升机制 | AI 贡献证据包 | 业务问题、工作流、质量门禁、复用范围、影响、风险控制 |
+| 沟通落地 | 四因说明 | 区分业务压力、AI 替代、流程重构、组织简化，避免 AI 背锅 |
+| 风险治理 | runtime 边界 | 运行记录用于流程改进优先；用于绩效/晋升前需定义权限和申诉 |
 
 ## 12. 行动建议
 
 ### 立即可做
 
-- 明确一个跨职能 owner，负责接口层试点设计。
-- 在一个部门内起草 `role package card` 模板和 `promotion evidence schema v2`。
-- 盘点现有关键岗位，按 fluency / builder / deep expert 粗分层。
+- 要求所有组织减层提案附带责任迁移表。
+- 建立复合型人才六维识别模板。
+- 将 AI 贡献证据包加入下一轮人才盘点材料，而不是直接改晋升规则。
 
 ### 需要试点
 
-- 接口层显性化试点。
-- 三层能力组合试点。
-- 项目制晋升证据包试点。
+- AI-native 小队 / player-coach 试点。
+- 技能标签 + 市场稀缺系数试点。
+- 项目制晋升 acting scope 试点。
 
 ### 需要高层共识
 
-- promotion、premium、reward 分轨治理。
-- manager bar 升级，不再只看带队和汇报，而看 workflow redesign 与 exception handling。
+- 高人才密度是否配套薪酬倾斜、项目优先权和更快晋升通道。
+- 哪些岗位可以用 runtime log 做流程改进，哪些绝不能直接用于个人评价。
+- 是否允许业务用“AI 提效”作为裁层沟通主因。
 
 ### 需要数据验证
 
-- 例外率、override 质量、handoff cycle time、内部流动转化率、关键人才保留率。
+- 每个管理层级的真实工作构成：审批、协调、风控、育人、专家判断。
+- AI 节省时间是否转成更高价值工作，而不是被返工、校对和监督吞回。
+- 初级岗位门槛提高后，3-5 年人才梯队是否断层。
 
 ### 需要暂缓
 
-- 全公司统一改 title。
-- 全面取消固定晋升窗口。
-- 把国内媒体信号直接变成组织变更蓝本。
-
----
+- 全公司统一取消中层或合并岗位。
+- 大规模新增 AI title。
+- 把 AI fluency 证书直接绑定晋升。
+- 未经治理就把 agent runtime log 用于绩效评分。
 
 ## 13. 风险与反例
 
-1. **如果我们只学“减层”，会错在没有把例外治理和接口层一起建设。**
-2. **如果我们只学“高人才密度”，会错在把工作量堆给少数人，却不给成长路径和资源承接。**
-3. **如果我们只学“新岗位”，会错在把薪酬问题包装成序列问题，造成 title inflation。**
-4. **如果我们只学“持续证据流”，会错在让员工感到被系统观察，却说不清规则和申诉路径。**
-5. **如果我们照搬 AI 原生公司角色包，会错在忽视自身业务语境、数字化基础和管理成熟度。**
-
----
+| 风险/反例 | 本周证据 | 如果照搬会错在哪里 |
+|---|---|---|
+| 把 Lucid 当成 AI 原生减层样本 | Lucid 有 EV 需求、现金流、产能压力 | 会误以为所有 AI 转型都该取消运营高管 |
+| 把 Robinhood 裁员当作高人才密度路径 | Robinhood 是强业务期主动裁员 | 会把高密度做成恐惧文化，伤害信任 |
+| 把 PwC 解读成初级岗位消失 | Lloyds 仍招 1,200 tech/data trainees | 会放弃培养入口，制造中坚断层 |
+| 把技能标签当万能解 | AI 安全、数据治理等可能有高市场溢价 | 会留不住关键岗位 |
+| 把 AI 使用率当晋升证据 | GitLab/Zapier/Microsoft 都强调 scope 和影响 | 会奖励包装能力，不奖励组织放大 |
+| 把运行记录直接用于绩效 | Workday Agent Passport 提供可审计可能性 | 会触发隐私、监控和信任问题 |
 
 ## 14. 下周待验证清单
 
 ### CEO 关注项
 
-- 哪些企业已把接口层 owner、deployment owner、governance owner 写进正式 org/career framework？
-- 哪些公司公开了“固定窗口 + 例外通道 + 分轨激励”的完整制度文本？
+1. Oracle AI workforce reduction 原文上下文、业务线分布、后续再招聘方向。
+2. Robinhood 是否发布 talent density 的具体评价、晋升或薪酬承接机制。
+3. Lucid 取消 COO 后运营、制造、供应链、质量责任由谁承接。
+4. 哪些公司把 AI 组织变革写进年报、8-K、proxy、CEO memo 或投资者材料。
 
-### HR / OD 研究项
+### HR/OD 研究项
 
-- verified skills / certification 是否进入内部 mobility、promotion、staffing。
-- capability tiers、AI fluency levels、skill premium 的执行规则。
-- 中国公司公开的 AI role package、津贴机制、能力图谱样本。
+1. AI workflow owner、agent governance lead、AI safety ops 是否形成稳定 JD 和薪酬溢价。
+2. AI fluency 是否被写入晋升 rubric、绩效评价或能力认证。
+3. 百度、腾讯、华为是否有更完整 People/HR 制度材料。
+4. PwC entry-level seniorization 的岗位样本、行业分布和地区差异。
 
 ### 业务侧访谈项
 
-- 现有流程里哪些例外最多、哪些交接最慢、哪些 manager 实际已在做 orchestrator 工作。
-- 哪些岗位最需要 role package 而不是新 title。
-
-### 关键词 / 公司 / 文件
-
-- `Forward Deployed`, `AI Deployment`, `Verifier`, `Enterprise rails`, `Career Advancement`, `Calibration workspace`, `skill premium`, `out-of-cycle promotion`
-- Workday、Oracle、GitLab、Shopify、Salesforce、Cursor、OpenAI、Anthropic、腾讯、华为
-
----
+1. 我们内部哪些管理节点实际承担不可替代的风控、协调和育人责任？
+2. 哪些业务流程可在 12 周内做 AI-native 小队试点？
+3. 哪些骨干已经在事实承担更高 scope，但 title/薪酬/授权未同步？
+4. AI 节省时间当前被投入到哪里：更多产出、质量提升、返工校验还是隐性加班？
 
 ## 15. 来源索引与可信度分层
 
-### ⭐ 一手 / 官方
+### 一手材料 / 官方材料
 
-- Microsoft WorkLab：`redesign first`、Frontier Firm、Author/Editor/Director/Orchestrator
-- Workday：Agent Passport；human-agent operating model
-- Oracle：Fusion Agentic Applications for HR
-- Huawei：AI Talent Development / Competence Map
-- LinkedIn：Future of Recruiting 2026；LinkedIn Research Talent 2026
-- Salesforce：workforce reshaping；4Rs；Career Connect
-- Shopify：ShopifyOS；Crafter / Manager；Mastery；FlexComp
-- OpenAI：Built to benefit everyone；Codex for every role
-- Anthropic：Claude Enterprise；Economic Futures
-- Meta：Business Agent Platform
-- Tencent：Q1 2026 业绩材料；CodeBuddy / ADP 4.0 / WorkBuddy
-- GitLab Handbook：Promotions and Transfers
+- Oracle FY2026 Form 10-K / SEC：AI deployment 与 workforce reductions 风险披露。
+- Lucid 重组披露：裁减 18% 美国员工、取消 COO 职位、取消 AMP-1 第二班次、重组费用和年化节约。
+- Workday Agent Passport：agent 测试、验证、监控、runtime policy 与审计记录。
+- GitLab Handbook：Promotions and transfers。
+- 华为 AI 人才发展服务方案：22 类角色、71 项核心技能。
+- Zapier AI Fluency Rubric：内部知识库整理。
 
-### 📰 权威二手 / 行业研究
+### 权威二手
 
-- BCG：Design Your Company for AI；Reinvention of the CHRO；AI at Work
-- McKinsey：AI-first technology workforce；agentic age CEO 文章
-- 36氪转载《中国企业家》：腾讯 WXG / 混元项目负责制与层级压缩
+- WSJ：Oracle workforce reduction 报道；Lucid 重组报道。
+- Business Insider：Oracle、Lucid、Robinhood、PwC entry-level seniorization、AI-related layoffs 汇总。
+- AP / FT / Investopedia 等历史知识源：用于校准 trainee、entry-level 和组织影响。
 
-### 🎓 学术研究
+### 行业研究 / 咨询
 
-- The AI Pyramid
-- The AI Roles Continuum
-- AI Skills Improve Job Prospects
-- Generative-AI and the transformation of workforce
-- Generative AI and the Reorganization of Labor Demand
-- Payrolls to Prompts
+- Microsoft Work Trend Index 2026。
+- McKinsey The State of Organizations 2026。
+- BCG AI at Work 2026。
+- PwC 2026 AI Jobs Barometer。
+- EY / Payscale 薪酬治理材料（内部知识库基线）。
 
-### 📊 招聘 / 薪酬信号
+### 学术研究
 
-- Workday `Forward Deployed Enterprise Architect` JD
-- Deloitte `Lead Forward Deployed Engineer` JD
-- Cursor careers 岗位组
-- EY Future of Pay 2026
+- arXiv：`Generative AI and the Reorganization of Labor Demand`。
+- arXiv：`Payrolls to Prompts`。
+- arXiv：AI agent runtime governance 五平面架构。
 
-### 💬 弱信号
+### 招聘薪酬信号
 
-- Reddit / Levels.fyi 对 FDE 职业路径的讨论
-- 国内项目负责制媒体讨论与社区转述
+- PwC AI-exposed entry-level roles senior-like skills。
+- OpenAI / Anthropic / Perplexity / Mistral Applied AI、Forward Deployed、Deployment PM、Codex Deployment Engineering 等岗位基线。
+- AI 安全、数据治理、Agent 工程、AI Infra 薪酬溢价线索，仍需继续验证。
 
-### 🏢 内部信息库 / 知识库
+### 社媒/职场平台线索
 
-- `digest.md`
-- `daily/2026-06-08.md` ～ `daily/2026-06-12.md`
-- `daily-report/digest.json`
-- `knowledge/wiki/gitlab-promotions-transfers-handbook.md`
-- `knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md`
-- `knowledge/wiki/microsoft-ai-at-work-function-playbook-2026.md`
-- `knowledge/wiki/pdf-source-ey-ey-future-of-pay-report-2026.md`
-- `knowledge/concepts/skills-based-organization-obsidian.md`
-- `AI时代的职级变革-全球大公司组织架构调整追踪.md`
+- Robinhood、Oracle、Lucid 员工影响反馈待追踪；当前不进入结论层。
+- DeepSeek Harness 招聘线索为 L2 观察，暂不升为公司级机制结论。
 
----
+### 内部信息库/知识库
 
-## 结论给 CEO
+- `digest.md`，最后更新 2026-06-25。
+- `daily/` 与 `daily-report/digest.json`。
+- `knowledge/index.md`、`knowledge/wiki/`、`knowledge/summaries/`、`knowledge/concepts/`。
+- `specials/ai-org-talent-mechanism/2026-06-22` 至 `2026-06-25`。
+- `AI时代的职级变革-全球大公司组织架构调整追踪.md`。
 
-如果只允许保留一个本周判断，那就是：**AI 时代组织变革的关键，不是再讨论一次组织图，而是把接口层、能力层、资源层和证据层的规则正式写出来。** 先写规则，再谈减层；先做 role package 和 premium，再谈 title；先改证据包，再谈晋升窗口。谁先完成这四层联动，谁才真正进入 AI 时代的组织 operating model。
