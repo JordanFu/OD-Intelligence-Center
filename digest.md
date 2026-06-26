@@ -1,7 +1,7 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-06-25 18:00
+> 最后更新：2026-06-26 18:00
 
 ---
 
@@ -23,6 +23,26 @@
 - 💬参考：社交平台/社区讨论，需交叉验证
 
 -->
+
+## 2026-06-26
+
+### [1] RAISE US：AI 劳动力冲击进入州政府、雇主和政策工具共同治理层
+- **事件摘要**：AP、WSJ、Business Insider 于 2026 年 6 月 25-26 日报道，RAISE US 由 Gina Raimondo 与 Eric Holcomb 牵头，已获 5 亿美元以上资金，目标募资 10 亿美元，并与 Arkansas、Maryland、Utah、Connecticut 等州以及 Amazon、Microsoft、Anthropic、OpenAI Foundation、Bank of America 等合作，测试 AI 时代 workforce transition 模型。
+- **来源**：AP（https://apnews.com/article/929986c149d415cd2ef4dc3eaf66ca8c）；WSJ（https://www.wsj.com/lifestyle/careers/the-new-push-to-ready-millions-for-ai-career-upheaval-dfb04cc5）；Business Insider（https://www.businessinsider.com/raise-us-ai-workers-supporters-openai-anthropic-2026-6）
+- **来源平台**：AP / WSJ / Business Insider
+- **来源可信度**：📰较高
+- **OD启示**：这条信号说明 AI workforce 问题正在从企业内部培训，外溢成跨组织治理题。career navigation、service-year、wage insurance、short-time compensation 和雇主激励，会成为 AI 组织调整的外部缓冲层；但目前只能证明制度化响应出现，不能证明方案有效。
+- **标签**：#RAISEUS #AIWorkforce #WorkforceTransition #PublicPrivateGovernance #HRTech
+- **抓取时间**：2026-06-26 18:00
+
+### [2] AWS / Palo Alto Networks：AI 技能转型信号仍需停在 Context 层
+- **事件摘要**：私有组织情报 2026-06-25 扫描显示，AWS CEO Matt Garman 在 6 月 24 日访谈中同时谈到 11,000 名实习生和应届毕业生招聘、工程师减少手写代码、更多 agent 编排与产品判断，以及 AI 使用 leaderboard 纠偏。Business Insider 6 月 26 日报道 Palo Alto Networks CEO Nikesh Arora 讨论 AI skills、自然流失和 G&A headcount 压缩。
+- **来源**：Platformer（https://www.platformer.news/matt-garman-aws-ceo-interview-ai-jobs/）；Business Insider（https://www.businessinsider.com/palo-alto-networks-ceo-ai-training-skills-jobs-2026-6）
+- **来源平台**：Platformer / Business Insider / 私有组织情报脱敏摘要
+- **来源可信度**：📰较高
+- **OD启示**：两条信号都指向岗位任务、技能口径和人才入口正在被 AI 重写，但公开证据仍以访谈和媒体报道为主，缺少正式岗位族群、绩效标准或组织制度文件。适合进入观察池，不应写成“AI 不会裁员”或“技能转型已经成功”。
+- **标签**：#AWS #PaloAltoNetworks #AISkills #EngineeringWork #Context
+- **抓取时间**：2026-06-26 18:00
 
 ## 2026-06-25
 
