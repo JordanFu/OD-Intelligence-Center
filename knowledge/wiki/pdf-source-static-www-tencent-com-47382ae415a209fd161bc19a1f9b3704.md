@@ -52,8 +52,6 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 ## 被引用位置
 
 - `daily/2026-06-09.md:99`：来源：Tencent（；https://www.tencent.com/en-us/articles/2202350.html）
-- 私有组织情报 2026-06-08 脱敏引用：腾讯 2026 一季度业绩公告 PDF。
-- 私有组织情报 2026-06-08 脱敏引用：腾讯 Q1 材料被用于观察 AI researchers / new AI products 单独核算线索。
 
 ## 后续精读任务
 
