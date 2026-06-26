@@ -21,7 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-06-09 | [日报](../2026-06-09/04-promotion-system.html) | 线索层/待验证 | 1. **晋升被重写的第一层是 evidence schema，不是窗口频率。可信度：高。** | - 暂不形成结论，但提示我们关注：**未来最频繁发生的，可能首先是 skill premium、项目奖励和 mobility 标记，而不是 formal level promotion。** | 1. 哪些企业已公开“持续识别 + 节奏校准”的混合晋升机制？ |
 | 2026-06-12 | [日报](../2026-06-12/04-promotion-system.html) | 线索层/待验证 | 1. **正式晋升仍应是节奏化校准动作。可信度：高。** | - 暂不形成结论，但提示我们关注：**未来更高频发生的可能是 skill premium、项目晋级、机会扩大，而不是 formal level change。** | 1. 哪些企业已经公开 promotion evidence schema 或 calibration workspace？ |
 | 2026-06-13 | [日报](../2026-06-13/04-promotion-system.html) | 线索层/待验证 | 1. **晋升证据必须开始覆盖 invisible work。可信度：中高。** | - 暂不形成结论，但提示我们关注：**哪些 invisible work 适合进入正式 promotion rubric，哪些只适合做 manager note，目前仍需更多样本。** | 1. 哪些企业已把 mentoring / orchestration / quality gate 写入正式 promotion rubric？ |
 | 2026-06-14 | [日报](../2026-06-14/04-promotion-system.html) | 线索层/待验证 | 1. **未来晋升机制会更分层，而不是更统一。可信度：高。** | - 暂不形成结论，但提示我们关注：**企业是否会形成 senior / junior 两套不同的 promotion evidence 语法，仍需更多公开样本。** | 1. 哪些企业已经按层级差异重写 promotion rubric？ |
@@ -35,6 +34,7 @@
 | 2026-06-22 | [日报](../2026-06-22/04-promotion-system.html) | 线索层/待验证 | 1. **执行层工作正在合并，高复杂度责任前移**：PwC 相关材料显示初级岗位开始要求过去属于资深角色的能力，这与岗位颗粒度变粗、端到端负责增强的假设一致。可信度高。 | 3. **岗位体系问题经常是激励和定价问题**：AI 技能溢价、专业化岗位更快薪酬增长和专家团队扩张说明，很多“新增序列”诉求背后是关键能力的市场定价缺口。可信度高。 | 待下次日报/周报继续追踪。 |
 | 2026-06-23 | [日报](../2026-06-23/04-promotion-system.html) | 线索层/待验证 | 1. **固定晋升窗口仍应保留，用于公平、预算和跨团队校准。可信度：高。** | - 暂不形成结论，但提示我们关注：**AI 项目中的 acting scope 是否会成为晋升前置验证机制。** | 1. 哪些公司公开把 AI contribution 写入 promotion criteria？ |
 | 2026-06-25 | [日报](../2026-06-25/04-promotion-system.html) | 线索层/待验证 | 1. **可信度：高｜固定晋升窗口仍有价值，因为 AI 贡献更需要跨团队校准。** GitLab 和 Microsoft 都强调证据、scope、业务必要性和可重复机制。为什么重要：如果完全随时晋升，AI 工具使用强的人会更容易包装短期成果，公平性下降。 | - Workday Agent Passport 等工具可能让 AI 贡献从主观描述变成 runtime log，但也会带来员工监控、数据归属和隐私边界问题。 | 1. 有哪些公司已把 AI fluency 正式写入晋升 rubric。 |
+| 2026-06-26 | [日报](../2026-06-26/04-promotion-system.html) | 线索层/待验证 | 1. **可信度：高｜AI fluency 是门槛，不是晋升理由。** Palo Alto Networks 的“AI savvy”叙事说明 AI 能力正在成为基本要求。为什么重要：如果把会用工具直接晋升，会奖励表演型使用，而不是稳定影响。 | - Palo Alto Networks 的 AI savvy 叙事会影响晋升机会，但目前缺正式 promotion rubric。 | 1. AWS 是否把 AI 工具使用、agent orchestration 或 customer feedback 写入工程晋升标准。 |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-06-25｜[打开专题日报](../2026-06-25/04-promotion-system.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-25/04-promotion-system.md`
+- 最新日报：2026-06-26｜[打开专题日报](../2026-06-26/04-promotion-system.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-26/04-promotion-system.md`
