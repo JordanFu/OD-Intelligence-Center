@@ -1,7 +1,7 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-06-26 18:00
+> 最后更新：2026-06-27 18:00
 
 ---
 
@@ -23,6 +23,26 @@
 - 💬参考：社交平台/社区讨论，需交叉验证
 
 -->
+
+## 2026-06-27
+
+### [1] 人才漏斗重构：AI 组织变革从岗位替代转向入口、成长、定价和晋升重写
+- **事件摘要**：今日专题综合 Oracle 年报级 workforce reduction、Robinhood flattening/talent density、PwC entry-level seniorization、McKinsey AI-first workforce、GitLab promotion handbook 和内部知识库材料，判断 AI 组织变革的关键风险是人才漏斗重构：初级训练任务被压缩，中层协调责任迁移，专家能力继续溢价，晋升证据从工具使用转向稳定责任扩大。
+- **来源**：OD Intelligence Center 专题日报（specials/ai-org-talent-mechanism/2026-06-27/index.html）
+- **来源平台**：内部专题研究 / 外部公开材料交叉验证
+- **来源可信度**：⭐高
+- **OD启示**：企业不应只追踪裁员或新增 AI title，而要重建入口岗位训练、中层角色转型、技能/岗位/薪酬分层工具箱和晋升证据体系。AI fluency 应成为门槛，业务影响、可复用机制和责任扩大才进入晋升。
+- **标签**：#TalentPipeline #AIWorkforce #JobArchitecture #PromotionSystem #TalentDensity
+- **抓取时间**：2026-06-27 18:00
+
+### [2] 中层减少的责任迁移：从信息搬运转向 workflow owner / coach / agent supervisor
+- **事件摘要**：Oracle、Lucid、Robinhood 等近期案例强化组织减法信号；McKinsey 2026 State of Organizations 则提示真正的生产率前沿在于跨职能 workflow、决策例程和信息流重写，而不是单纯压层级。今天专题据此把中层减少拆成决策权、例外升级、育人、风险和 agent workflow 责任迁移问题。
+- **来源**：OD Intelligence Center 专题日报（specials/ai-org-talent-mechanism/2026-06-27/01-flat-organization.html）
+- **来源平台**：内部专题研究 / McKinsey / WSJ / Business Insider
+- **来源可信度**：📰较高
+- **OD启示**：每次减层都应同步生成责任迁移表，明确原中层承担的协调、绩效校准、员工发展、风险控制和例外处理如何迁移到流程 owner、系统、经理或人才委员会。
+- **标签**：#Flattening #MiddleManagement #WorkflowOwner #AgentSupervisor #OrgDesign
+- **抓取时间**：2026-06-27 18:00
 
 ## 2026-06-26
 
