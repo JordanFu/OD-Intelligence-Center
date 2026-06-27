@@ -21,7 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-06-12 | [日报](../2026-06-12/04-promotion-system.html) | 线索层/待验证 | 1. **正式晋升仍应是节奏化校准动作。可信度：高。** | - 暂不形成结论，但提示我们关注：**未来更高频发生的可能是 skill premium、项目晋级、机会扩大，而不是 formal level change。** | 1. 哪些企业已经公开 promotion evidence schema 或 calibration workspace？ |
 | 2026-06-13 | [日报](../2026-06-13/04-promotion-system.html) | 线索层/待验证 | 1. **晋升证据必须开始覆盖 invisible work。可信度：中高。** | - 暂不形成结论，但提示我们关注：**哪些 invisible work 适合进入正式 promotion rubric，哪些只适合做 manager note，目前仍需更多样本。** | 1. 哪些企业已把 mentoring / orchestration / quality gate 写入正式 promotion rubric？ |
 | 2026-06-14 | [日报](../2026-06-14/04-promotion-system.html) | 线索层/待验证 | 1. **未来晋升机制会更分层，而不是更统一。可信度：高。** | - 暂不形成结论，但提示我们关注：**企业是否会形成 senior / junior 两套不同的 promotion evidence 语法，仍需更多公开样本。** | 1. 哪些企业已经按层级差异重写 promotion rubric？ |
 | 2026-06-15 | [日报](../2026-06-15/04-promotion-system.html) | 线索层/待验证 | 1. **AI 使用正在从“加分项”转向“晋升强信号甚至资格项”。可信度：中高。** | - 暂不形成结论，但提示我们关注：**组织若把 AI 使用写进晋升，却没有共识化评分标准，可能放大主观性和表演性。** | 1. 哪些公司已公开“AI contribution”进入 promotion packet 的评分规则？ |
@@ -35,6 +34,7 @@
 | 2026-06-23 | [日报](../2026-06-23/04-promotion-system.html) | 线索层/待验证 | 1. **固定晋升窗口仍应保留，用于公平、预算和跨团队校准。可信度：高。** | - 暂不形成结论，但提示我们关注：**AI 项目中的 acting scope 是否会成为晋升前置验证机制。** | 1. 哪些公司公开把 AI contribution 写入 promotion criteria？ |
 | 2026-06-25 | [日报](../2026-06-25/04-promotion-system.html) | 线索层/待验证 | 1. **可信度：高｜固定晋升窗口仍有价值，因为 AI 贡献更需要跨团队校准。** GitLab 和 Microsoft 都强调证据、scope、业务必要性和可重复机制。为什么重要：如果完全随时晋升，AI 工具使用强的人会更容易包装短期成果，公平性下降。 | - Workday Agent Passport 等工具可能让 AI 贡献从主观描述变成 runtime log，但也会带来员工监控、数据归属和隐私边界问题。 | 1. 有哪些公司已把 AI fluency 正式写入晋升 rubric。 |
 | 2026-06-26 | [日报](../2026-06-26/04-promotion-system.html) | 线索层/待验证 | 1. **可信度：高｜AI fluency 是门槛，不是晋升理由。** Palo Alto Networks 的“AI savvy”叙事说明 AI 能力正在成为基本要求。为什么重要：如果把会用工具直接晋升，会奖励表演型使用，而不是稳定影响。 | - Palo Alto Networks 的 AI savvy 叙事会影响晋升机会，但目前缺正式 promotion rubric。 | 1. AWS 是否把 AI 工具使用、agent orchestration 或 customer feedback 写入工程晋升标准。 |
+| 2026-06-27 | [日报](../2026-06-27/04-promotion-system.html) | 线索层/待验证 | 1. **固定晋升窗口仍有必要。** | - 暂不形成结论，但提示我们关注：同行评审和人才委员会在 AI 时代可能更重要，因为 AI 输出常跨团队，单一经理未必看得见真实贡献。 | 1. 哪些公司已把 AI fluency 写进 promotion rubric 或 performance review。 |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-06-26｜[打开专题日报](../2026-06-26/04-promotion-system.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-26/04-promotion-system.md`
+- 最新日报：2026-06-27｜[打开专题日报](../2026-06-27/04-promotion-system.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-27/04-promotion-system.md`

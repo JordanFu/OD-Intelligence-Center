@@ -21,7 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-06-12 | [日报](../2026-06-12/03-job-family-career-architecture.html) | 结论层候选 | 1. **很多 AI 新岗位的真实变化是边界重叠，不是边界新增。可信度：高。** | - 暂不形成结论，但提示我们关注：**中国企业公开的 AI technical family / capability band 样本仍少，很多变化仍藏在 JD 和薪酬带宽里。** | 1. 哪些企业已公开 AI technical family 或 capability band？ |
 | 2026-06-13 | [日报](../2026-06-13/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **AI 时代很多岗位变化的第一语言应该是 competency bundle，而不是 new title。可信度：高。** | - 暂不形成结论，但提示我们关注：**许多 invisible work 是否应进入 job description 正文，还是进入 capability profile / promotion rubric，仍缺统一实践。** | 1. 哪些企业已把 intent / verification / orchestration 写进正式岗位框架？ |
 | 2026-06-14 | [日报](../2026-06-14/03-job-family-career-architecture.html) | 结论层候选 | 1. **岗位架构问题要先区分“title 清晰度”与“skills 清晰度”。可信度：高。** | - 暂不形成结论，但提示我们关注：**Deloitte 的 title overhaul 目前主要来自媒体披露，仍需更多官方制度细节。** | 1. 哪些企业已公开 family / sub-family / capability band 的 AI 时代新版规则？ |
 | 2026-06-15 | [日报](../2026-06-15/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **岗位容器正在从“我属于哪个岗位”转向“我稳定承接哪些责任包”。可信度：高。** | - 暂不形成结论，但提示我们关注：**career portfolio 是否会增加员工对“下一步到底是什么”的不确定感。** | - 暂不形成结论，但提示我们关注：**中国公司公开的 authority-based job architecture 样本仍不足。** |
@@ -35,6 +34,7 @@
 | 2026-06-23 | [日报](../2026-06-23/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **AI 时代岗位变化至少有四种类型，不能都用新增序列解决。可信度：高。** | - 暂不形成结论，但提示我们关注：**AI-exposed junior jobs 的高级化是否会推动“准高级初级岗”成为隐性层级。** | 1. Oracle 被减少的 21,000 名员工涉及哪些岗位族群？ |
 | 2026-06-25 | [日报](../2026-06-25/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **可信度：高｜岗位变化至少有四种类型，不能统一用“新增序列”处理。** 证据基础是 arXiv、PwC、Workday、华为和内部知识库。为什么重要：新增序列成本很高，会制造晋升预期、薪酬带宽和组织政治。 | - AI 产品经理、AI workflow owner、agent governance lead、prompt evaluation engineer 等名称是否会稳定成岗位，还是只是现有产品/运营/工程岗位的技能标签。 | 1. AI workflow owner、agent governance lead 是否出现稳定 JD 与薪酬带宽。 |
 | 2026-06-26 | [日报](../2026-06-26/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **可信度：高｜岗位架构需要增加“外部职业路径接口”。** RAISE US 把职业导航、服务年、工资保险和短工时补偿组合起来。为什么重要：当某些岗位责任被 AI 吞并或压缩，公司内部未必能吸收所有人，岗位设计要连接外部转型生态。 | - RAISE US 的职业导航如果有效，可能成为岗位架构之外的“外部职业地图”；但当前还没有结果数据。 | 1. AWS 是否公开新版工程 career ladder、AI coding 培养机制或实习生训练要求。 |
+| 2026-06-27 | [日报](../2026-06-27/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **AI 时代岗位颗粒度总体会变粗，但关键专家域会更深。** | - 暂不形成结论，但提示我们关注：agent governance lead、AI workflow owner、AI evaluator、forward deployed AI engineer 等 title 正在出现，但是否形成稳定… | 1. AI workflow owner / agent supervisor / AI evaluator 的 JD 数量、薪酬和层级分布。 |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-06-26｜[打开专题日报](../2026-06-26/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-26/03-job-family-career-architecture.md`
+- 最新日报：2026-06-27｜[打开专题日报](../2026-06-27/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-27/03-job-family-career-architecture.md`

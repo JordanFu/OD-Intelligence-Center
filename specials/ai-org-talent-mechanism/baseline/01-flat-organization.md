@@ -21,7 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-06-12 | [日报](../2026-06-12/01-flat-organization.html) | 背景材料（Context）强证据 | 1. **扁平化的第一刀通常先落在协调劳动，而不是落在所有劳动。可信度：高。** | - 暂不形成结论，但提示我们关注：**腾讯项目负责制与汇报线压缩值得追踪，但目前仍是媒体层信号。** | 1. 哪些公司已公开 manager-orchestrator/player-coach 的制度文本？ |
 | 2026-06-13 | [日报](../2026-06-13/01-flat-organization.html) | 背景材料（Context）强证据 | 1. **扁平化真正要替代的是低密度协调层，而不是所有中层功能。可信度：高。** | - 暂不形成结论，但提示我们关注：**`Beyond the Org Chart` 指出的 mentoring / feedback erosion，目前仍以单公司访谈为主，值得继续找多案例验证。** | 1. 哪些公司已把 mentoring、quality gate、exception handling 写进更宽的 manager 或 senior IC 角色定义？ |
 | 2026-06-14 | [日报](../2026-06-14/01-flat-organization.html) | 背景材料（Context）强证据 | 1. **扁平化的第一动作越来越像“责任重分配”，而不是单纯减人。可信度：高。** | - 暂不形成结论，但提示我们关注：**中国公司项目负责制的公开样本仍主要来自媒体转述，制度层证据偏弱。** | 1. 哪些企业公开定义了项目 owner 的评价权、人员调配权和资源权？ |
 | 2026-06-15 | [日报](../2026-06-15/01-flat-organization.html) | 线索层/待验证 | 1. **扁平化的核心对象已从 org chart 转向 responsibility package。可信度：高。** | - 暂不形成结论，但提示我们关注：**manager-orchestrator 的新责任包是否会让少数中层过载，尤其当带教和治理职责没有同步减法时。** | 1. 哪些企业已公开 manager-orchestrator 的正式能力模型？ |
@@ -35,6 +34,7 @@
 | 2026-06-23 | [日报](../2026-06-23/01-flat-organization.html) | 线索层/待验证 | 1. **扁平化正在从“中层减少”变成“组织节点取消”。可信度：高。** | - 暂不形成结论，但提示我们关注：**高管层减层会不会成为新一轮扁平化的显性动作。** | - 社媒/职场线索：不进入主结论。 |
 | 2026-06-25 | [日报](../2026-06-25/01-flat-organization.html) | 线索层/待验证 | 1. **可信度：高｜减层已经进入“可审计组织动作”阶段。** 证据基础是 Oracle 年报级 workforce reduction 披露、Lucid 8-K/重组费用、Robinhood CEO memo。为什么重要：OD 不能再把扁平化当成文化口号，必须要求业… | - Oracle 把 AI 和 workforce reduction 写入披露，但仍需区分 AI 真实替代、流程自动化、云业务重配和一般性降本。 | 1. Oracle 年报原文中 AI workforce reduction 的完整上下文与业务线分布。 |
 | 2026-06-26 | [日报](../2026-06-26/01-flat-organization.html) | 线索层/待验证 | 1. **可信度：高｜组织减层的成本正在外部化。** 证据基础是 RAISE US 同时连接州政府、雇主、教育路径和收入缓冲工具。为什么重要：如果企业只看内部降本，不设计外部转型接口，组织调整会把风险推给员工和公共系统。 | - RAISE US 是机制信号，不是成效信号；后续必须追踪参与率、培训完成率、岗位匹配率、工资变化和雇主留用。 | 1. RAISE US 是否公开治理结构、资金来源、州级项目指标和企业岗位承诺。 |
+| 2026-06-27 | [日报](../2026-06-27/01-flat-organization.html) | 线索层/待验证 | 1. **扁平化的第一风险是责任空洞。** | 暂无单独 Context 摘要。 | 1. Oracle 年报原文中 AI 与 employee reduction 的完整措辞、业务线和地区变化。 |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-06-26｜[打开专题日报](../2026-06-26/01-flat-organization.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-26/01-flat-organization.md`
+- 最新日报：2026-06-27｜[打开专题日报](../2026-06-27/01-flat-organization.html)｜源文件：`specials/ai-org-talent-mechanism/2026-06-27/01-flat-organization.md`
