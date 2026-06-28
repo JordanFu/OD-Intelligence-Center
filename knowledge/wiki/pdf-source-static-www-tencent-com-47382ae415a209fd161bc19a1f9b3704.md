@@ -2,7 +2,7 @@
 title: 47382ae415a209fd161bc19a1f9b3704
 source: static.www.tencent.com
 date: 待核验
-ingested: 2026-06-28
+ingested: 2026-06-29
 sourceFile: ../knowledge/raw/static-www-tencent-com-47382ae415a209fd161bc19a1f9b3704.pdf
 sourceUrl: https://static.www.tencent.com/uploads/2026/05/13/47382ae415a209fd161bc19a1f9b3704.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 - **来源类型**：media
 - **原文 URL**：https://static.www.tencent.com/uploads/2026/05/13/47382ae415a209fd161bc19a1f9b3704.pdf
 - **原始文件**：`knowledge/raw/static-www-tencent-com-47382ae415a209fd161bc19a1f9b3704.pdf`
-- **入库日期**：2026-06-28
+- **入库日期**：2026-06-29
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
@@ -52,6 +52,8 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 ## 被引用位置
 
 - `daily/2026-06-09.md:99`：来源：Tencent（；https://www.tencent.com/en-us/articles/2202350.html）
+- 公开安全引用：腾讯 2026 一季度业绩公告 PDF，用于核验 AI 研发投入、新产品核算和业务组织叙事。
+- 公开安全引用：2026-06-08 组织情报脱敏摘要曾将该 PDF 标注为 Tencent 一手材料与 AI 组织线索来源。
 
 ## 后续精读任务
 

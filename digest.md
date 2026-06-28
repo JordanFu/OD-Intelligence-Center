@@ -1,7 +1,7 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-06-27 18:00
+> 最后更新：2026-06-29 02:00
 
 ---
 
@@ -23,6 +23,26 @@
 - 💬参考：社交平台/社区讨论，需交叉验证
 
 -->
+
+## 2026-06-29
+
+### [1] DeepSeek 全部门扩招：AI 原生公司进入平台型组织承接压力
+- **事件摘要**：2026-06-28 私有组织情报扫描复核显示，严格看 6 月 27 日至 6 月 28 日窗口，没有足够硬的新增 L3 公司级组织机制变化；最强近窗观察是 DeepSeek 6 月 25 日晚释放大规模招聘信息，多源报道显示其计划将所有部门规模至少扩大一倍，覆盖算法、研发、运维、产品、数据工程和职能等方向。
+- **来源**：世界互联网大会（https://cn.wicinternet.org/2026-06/26/content_38851362.htm）；界面新闻（https://www.jiemian.com/article/14650951.html）；财新（https://companies.caixin.com/2026-06-26/102458093.html）；21 财经（https://m.21jingji.com/article/20260626/herald/5f8a04c4d792b92f2f05aa2144773272.html）
+- **来源平台**：世界互联网大会 / 界面新闻 / 财新 / 21 财经 / 私有组织情报脱敏摘要
+- **来源可信度**：📰较高
+- **OD启示**：这条信号的管理价值不是“扩招”本身，而是 AI 原生模型公司从高密度研究小队进入平台型扩张后，必须承接 onboarding、任务拆分、评审质量、Agent / Infra / 产品化接口和职能边界。因缺官方完整岗位页和组织制度证据，暂不升为 L3 结论。
+- **标签**：#DeepSeek #AI原生组织 #TalentDensity #PlatformOrganization #Context
+- **抓取时间**：2026-06-29 02:00
+
+### [2] Anthropic / Cursor / Replit：安全、交付和质量机制成为 AI 公司常设接口
+- **事件摘要**：Anthropic 官方岗位与团队页显示 Frontier Red Team 位于 Policy organization，并与 Security、Safeguards、Policy 及外部专家协作；Cursor 官方岗位页显示 FDE 出现 Regional Director 管理层，负责 6-8 名 FDE、战略客户交付和 partner FDE track；Replit 工程博客描述了基于真实轨迹、失败聚类、候选修复和人类发布 gate 的 agent 评测闭环。
+- **来源**：Anthropic Frontier Red Team（https://www.anthropic.com/research/team/frontier-red-team）；Cursor Careers（https://cursor.com/careers/forward-deployed-engineer）；Cursor Regional Director（https://cursor.com/careers/regional-director-forward-deployed-engineering-new-york-remote-san-francisco）
+- **来源平台**：Anthropic / Cursor / Replit / 私有组织情报脱敏摘要
+- **来源可信度**：⭐高
+- **OD启示**：这些材料共同说明 AI 公司正在把安全红队、前线交付和 agent 质量控制做成常设组织接口。但多数缺今日发布时间、预算、绩效和权责边界证据，因此只能作为基线补证，不应写成当日新组织改革。
+- **标签**：#Anthropic #Cursor #FDE #AIGovernance #AgentEvaluation
+- **抓取时间**：2026-06-29 02:00
 
 ## 2026-06-27
 

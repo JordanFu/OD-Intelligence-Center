@@ -2,7 +2,7 @@
 title: e048dfed72bc718f7986a83f23c8e294
 source: static.www.tencent.com
 date: 待核验
-ingested: 2026-06-26
+ingested: 2026-06-29
 sourceFile: ../knowledge/raw/static-www-tencent-com-e048dfed72bc718f7986a83f23c8e294.pdf
 sourceUrl: https://static.www.tencent.com/uploads/2026/05/13/e048dfed72bc718f7986a83f23c8e294.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ e048dfed72bc718f7986a83f23c8e294 已作为日报/周报 PDF 证据源入库，�
 - **来源类型**：media
 - **原文 URL**：https://static.www.tencent.com/uploads/2026/05/13/e048dfed72bc718f7986a83f23c8e294.pdf
 - **原始文件**：`knowledge/raw/static-www-tencent-com-e048dfed72bc718f7986a83f23c8e294.pdf`
-- **入库日期**：2026-06-26
+- **入库日期**：2026-06-29
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
@@ -51,8 +51,8 @@ e048dfed72bc718f7986a83f23c8e294 已作为日报/周报 PDF 证据源入库，�
 
 ## 被引用位置
 
-- 私有组织情报 2026-06-08 脱敏引用：腾讯 2026 一季度业绩演示 PDF。
-- 私有组织情报 2026-06-08 脱敏引用：腾讯 Q1 材料被用于观察 internal deployment / retention / AgentOps / workflow 线索。
+- 公开安全引用：腾讯 2026 一季度业绩演示 PDF，用于核验 internal deployment、retention、AgentOps 和 workflow 相关叙事。
+- 公开安全引用：2026-06-08 组织情报脱敏摘要曾将该 PDF 标注为 Tencent 一手材料与 AI 组织线索来源。
 
 ## 后续精读任务
 
