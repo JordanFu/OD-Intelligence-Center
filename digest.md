@@ -1,7 +1,7 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-06-29 02:00
+> 最后更新：2026-06-29 18:30
 
 ---
 
@@ -26,23 +26,32 @@
 
 ## 2026-06-29
 
-### [1] DeepSeek 全部门扩招：AI 原生公司进入平台型组织承接压力
-- **事件摘要**：2026-06-28 私有组织情报扫描复核显示，严格看 6 月 27 日至 6 月 28 日窗口，没有足够硬的新增 L3 公司级组织机制变化；最强近窗观察是 DeepSeek 6 月 25 日晚释放大规模招聘信息，多源报道显示其计划将所有部门规模至少扩大一倍，覆盖算法、研发、运维、产品、数据工程和职能等方向。
-- **来源**：世界互联网大会（https://cn.wicinternet.org/2026-06/26/content_38851362.htm）；界面新闻（https://www.jiemian.com/article/14650951.html）；财新（https://companies.caixin.com/2026-06-26/102458093.html）；21 财经（https://m.21jingji.com/article/20260626/herald/5f8a04c4d792b92f2f05aa2144773272.html）
-- **来源平台**：世界互联网大会 / 界面新闻 / 财新 / 21 财经 / 私有组织情报脱敏摘要
-- **来源可信度**：📰较高
-- **OD启示**：这条信号的管理价值不是“扩招”本身，而是 AI 原生模型公司从高密度研究小队进入平台型扩张后，必须承接 onboarding、任务拆分、评审质量、Agent / Infra / 产品化接口和职能边界。因缺官方完整岗位页和组织制度证据，暂不升为 L3 结论。
-- **标签**：#DeepSeek #AI原生组织 #TalentDensity #PlatformOrganization #Context
-- **抓取时间**：2026-06-29 02:00
-
-### [2] Anthropic / Cursor / Replit：安全、交付和质量机制成为 AI 公司常设接口
-- **事件摘要**：Anthropic 官方岗位与团队页显示 Frontier Red Team 位于 Policy organization，并与 Security、Safeguards、Policy 及外部专家协作；Cursor 官方岗位页显示 FDE 出现 Regional Director 管理层，负责 6-8 名 FDE、战略客户交付和 partner FDE track；Replit 工程博客描述了基于真实轨迹、失败聚类、候选修复和人类发布 gate 的 agent 评测闭环。
-- **来源**：Anthropic Frontier Red Team（https://www.anthropic.com/research/team/frontier-red-team）；Cursor Careers（https://cursor.com/careers/forward-deployed-engineer）；Cursor Regional Director（https://cursor.com/careers/regional-director-forward-deployed-engineering-new-york-remote-san-francisco）
-- **来源平台**：Anthropic / Cursor / Replit / 私有组织情报脱敏摘要
+### [1] Amazon AI Red Team：AI 安全红队进入 Threat Operations 管理建制
+- **事件摘要**：Amazon 官方岗位页显示 `Senior Manager, AI Red Team, Threat Operations`，申请截止日为 2026-07-04，职责包括建立 AI offensive security research program、领导 security engineers 与 researchers，并针对 AI systems、training pipelines、inference systems、model architectures 和 supporting infrastructure 做红队行动。
+- **来源**：Amazon Jobs（https://www.amazon.jobs/en/jobs/10379285/senior-manager-ai-red-team-threat-operations）
+- **来源平台**：Amazon Jobs / 私有组织情报脱敏摘要
 - **来源可信度**：⭐高
-- **OD启示**：这些材料共同说明 AI 公司正在把安全红队、前线交付和 agent 质量控制做成常设组织接口。但多数缺今日发布时间、预算、绩效和权责边界证据，因此只能作为基线补证，不应写成当日新组织改革。
-- **标签**：#Anthropic #Cursor #FDE #AIGovernance #AgentEvaluation
-- **抓取时间**：2026-06-29 02:00
+- **OD启示**：这条信号的价值不是“新增安全岗位”，而是 AI security 从专家评测活动进入 Threat Operations 的经理建制、指标报告、高层风险沟通和跨组织安全改进节奏。它可作为传统大厂 AI 安全组织化的 L2-L3 基线，但不能外推为 Amazon 已完成全公司 AI 安全组织重构。
+- **标签**：#Amazon #AIRedTeam #ThreatOperations #AIGovernance #SecurityOrg
+- **抓取时间**：2026-06-29 18:30
+
+### [2] Anthropic 职能扩厚：研究公司向产品运营和 GTM 扩展
+- **事件摘要**：Business Today 2026-06-28 报道 Anthropic H-1B / BI 链路薪酬样本，显示高薪岗位覆盖 Product Operations、Research Operations、Technical Sales、Partnerships 等非纯研究职能；Anthropic 官方岗位面也可见产品、支持、运营和 Claude Code PM 等角色。
+- **来源**：Business Today（https://www.businesstoday.in/technology/news/story/from-engineers-to-product-managers-heres-how-much-anthropic-pays-with-salaries-up-to-rs13-02-crore-539575-2026-06-28）；Anthropic Careers（https://www.anthropic.com/careers）
+- **来源平台**：Business Today / Anthropic / 私有组织情报脱敏摘要
+- **来源可信度**：💬参考
+- **OD启示**：该信号提示 frontier AI 公司规模化后，组织价值不只在研究/工程，也在产品运营、研究运营、技术销售、伙伴关系和客户采用。但 H-1B 样本和二手链路不能代表完整薪酬制度，官方岗位面也缺窗口日期，因此只进入 L1-L2 观察池。
+- **标签**：#Anthropic #ProductOperations #ResearchOperations #GTM #Context
+- **抓取时间**：2026-06-29 18:30
+
+### [3] FDE 行业化：Forward Deployed Engineering 成为 AI 企业化公共议题
+- **事件摘要**：AI Engineer World's Fair 2026 于 2026-06-30 设置 `Forward Deployed Engineering` 独立 track，Cursor、Cognition、Sierra、Factory 等围绕 FDE / deployed engineering 分享做法；Cursor 官方 Regional Director, FDE 岗位也继续显示 FDE 管理层、伙伴 track 和交付质量责任。
+- **来源**：AI Engineer World's Fair（https://www.ai.engineer/worldsfair/schedule?track=Local+AI）；Cursor Careers（https://cursor.com/careers/regional-director-forward-deployed-engineering-new-york-remote-san-francisco）
+- **来源平台**：AI Engineer World's Fair / Cursor / 私有组织情报脱敏摘要
+- **来源可信度**：📰较高
+- **OD启示**：FDE 正从少数 AI 原生公司的岗位标题变成行业公共语言，连接客户现场 workflow、产品反馈、伙伴交付和技术销售。但会议议程不是组织制度，不能证明 FDE 已成为成熟、标准化的公司级职业体系。
+- **标签**：#FDE #ForwardDeployedEngineering #EnterpriseAI #AppliedAI #Context
+- **抓取时间**：2026-06-29 18:30
 
 ## 2026-06-27
 
