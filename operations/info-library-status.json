@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-06-29T06:12:20.433Z",
+  "generatedAt": "2026-06-29T14:30:16.869Z",
   "latestDate": "2026-06-29",
-  "latestItems": 2,
+  "latestItems": 3,
   "totalDays": 65,
-  "totalItems": 599,
-  "totalPlatforms": 303,
+  "totalItems": 600,
+  "totalPlatforms": 304,
   "trustStats": {
-    "📰较高": 265,
     "⭐高": 325,
+    "💬参考": 7,
+    "📰较高": 265,
     "⭐高 / 📰较高": 1,
-    "💬参考": 6,
     "💬参考（多篇学术论文交叉验证）": 1,
     "📰较高 / ⭐高": 1
   },
