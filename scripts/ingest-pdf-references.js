@@ -36,6 +36,7 @@ const knownTitles = new Map([
   ['https://web-assets.bcg.com/73/8e/cc44cbc14a3b81695f8a3de28ff1/ai-radar-2026-web-jan-2026-edit.pdf', 'BCG：AI Radar 2026'],
   ['https://web-assets.bcg.com/dc/c5/1bcbfdc0405c85fb14972a57c20a/the-emerging-agentic-enterprise-how-leaders-must-navigate-a-new-age-of-ai.pdf', 'BCG + MIT Sloan：The Emerging Agentic Enterprise'],
   ['https://www.payscale.com/content/report/2026-compensation-best-practice-report.pdf', 'Payscale：2026 Compensation Best Practices Report'],
+  ['https://www.hkexnews.hk/listedco/listconews/sehk/2026/0623/2026062301078_c.pdf', 'MiniMax：IPO 后股份激励计划授出奖励公告'],
 ]);
 
 const reportProfiles = new Map([
@@ -374,12 +375,26 @@ function contextFromLine(line, url) {
   return line.replace(url, '').replace(/^[-*]\s*/, '').replace(/\*\*/g, '').trim().slice(0, 180);
 }
 
+function isPublicRepoCitation(file) {
+  return !path.relative(root, file).startsWith('..');
+}
+
+function citationFileLabel(file) {
+  if (isPublicRepoCitation(file)) return path.relative(root, file);
+  return '外部公开 PDF 扫描';
+}
+
+function citationContext(line, url, file) {
+  const context = contextFromLine(line, url);
+  if (isPublicRepoCitation(file)) return context;
+  return context ? `公开安全引用：${context}` : '公开安全引用：外部公开 PDF 扫描命中。';
+}
+
 function collectPdfReferences() {
   const references = new Map();
   const urlPattern = /https?:\/\/[^\s<>"]+?\.pdf(?:\?[^\s<>"]*)?/gi;
   for (const file of scanRoots.flatMap(walk)) {
     if (/source-channels\.private|local-reference-structured|\/archive\//.test(file)) continue;
-    const relativeFile = path.relative(root, file);
     const content = fs.readFileSync(file, 'utf8');
     const lines = content.split(/\r?\n/);
     lines.forEach((line, index) => {
@@ -396,9 +411,9 @@ function collectPdfReferences() {
           });
         }
         references.get(url).citations.push({
-          file: relativeFile,
+          file: citationFileLabel(file),
           line: index + 1,
-          context: contextFromLine(line, url),
+          context: citationContext(line, url, file),
         });
       }
     });

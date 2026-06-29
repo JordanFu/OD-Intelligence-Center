@@ -41,6 +41,7 @@
 | 30 | [BCG: AI转型本质上是劳动力转型](summaries/r001-bcg-zh.md) | BCG | 2026-02 | AI转型, 10-20-70法则 |
 | 31 | [Deloitte: 企业AI应用现状](summaries/r002-deloitte-zh.md) | Deloitte | 2025 | 数字化转型, AI战略 |
 | 32 | [HR Analytics: Top 10 AI Solutions](summaries/r003-hr-analytics-ai-zh.md) | HR Analytics Trends | 2025 | HR Analytics, 人才发展 |
+| 33 | [本地知识库定期 Review（2026-06-29）](wiki/local-knowledge-review-2026-06-29.md) | OD Intelligence Center | 2026-06-29 | 知识管理, 定期Review, 资料治理 |
 
 ## 概念页
 
@@ -91,6 +92,7 @@
 | [EY：Future of Pay Report 2026](wiki/pdf-source-ey-ey-future-of-pay-report-2026.md) | EY | 技能薪酬、生产率锚点、AI 人才溢价 | 强相关：薪酬与激励机制 | 已下载原文，引用 129 次 |
 | [pip faq 2026](wiki/pdf-source-facs-org-pip-faq-2026.md) | facs.org | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 6 次 |
 | [12 087 bc50bde2 3016 457a 9bee dc988cb1056b](wiki/pdf-source-hbs-edu-12-087-bc50bde2-3016-457a-9bee-dc988cb1056b.md) | hbs.edu | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 5 次 |
+| [MiniMax：IPO 后股份激励计划授出奖励公告](wiki/pdf-source-hkexnews-hk-minimax-ipo.md) | hkexnews.hk | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 2 次 |
 | [cesifo1 wp12373](wiki/pdf-source-ifo-de-cesifo1-wp12373.md) | ifo.de | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 3 次 |
 | [0000050863 26 000011](wiki/pdf-source-intc-com-0000050863-26-000011.md) | intc.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 2 次 |
 | [orgvue ai research ebook 2026 final](wiki/pdf-source-orgvue-com-orgvue-ai-research-ebook-2026-final.md) | orgvue.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 1 次 |

@@ -1704,6 +1704,30 @@
         "whitehouse.gov"
       ],
       "originalUrl": "https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf"
+    },
+    {
+      "id": "p023",
+      "title": "MiniMax：IPO 后股份激励计划授出奖励公告",
+      "originalTitle": "MiniMax：IPO 后股份激励计划授出奖励公告",
+      "author": "hkexnews.hk",
+      "publisher": "hkexnews.hk",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-06-29",
+      "description": "MiniMax：IPO 后股份激励计划授出奖励公告 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-hkexnews-hk-minimax-ipo.md",
+      "rawFile": "./knowledge/raw/hkexnews-hk-minimax-ipo.pdf",
+      "fileName": "hkexnews-hk-minimax-ipo.pdf",
+      "fileSize": "189968 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "hkexnews.hk"
+      ],
+      "originalUrl": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0623/2026062301078_c.pdf"
     }
   ]
 }

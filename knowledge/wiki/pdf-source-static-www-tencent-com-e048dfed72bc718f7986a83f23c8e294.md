@@ -51,8 +51,8 @@ e048dfed72bc718f7986a83f23c8e294 已作为日报/周报 PDF 证据源入库，�
 
 ## 被引用位置
 
-- 公开安全引用：腾讯 2026 一季度业绩演示 PDF，用于核验 internal deployment、retention、AgentOps 和 workflow 相关叙事。
-- 公开安全引用：2026-06-08 组织情报脱敏摘要曾将该 PDF 标注为 Tencent 一手材料与 AI 组织线索来源。
+- `外部公开 PDF 扫描:81`：公开安全引用：- 腾讯 2026 一季度业绩演示 PDF：``
+- `外部公开 PDF 扫描:188`：公开安全引用：| 腾讯 2026 一季度业绩演示 |  | 腾讯 | internal deployment / retention / AgentOps / workflow | A | 是 |
 
 ## 后续精读任务
 
