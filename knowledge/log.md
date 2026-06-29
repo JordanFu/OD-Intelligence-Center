@@ -4,6 +4,30 @@
 
 ---
 
+## [2026-06-30] ingest | 日报 PDF 证据源自动入库
+- 从 daily、daily-report、specials、analysis 中扫描 PDF URL，按知识库 Raw/Wiki/Catalog 规则自动建档。
+- 本次识别 20 个唯一 PDF 来源：15 个已下载原始 PDF，5 个保留 URL 与引用上下文待重试。
+- 待重试：GitLab：2026 SEC 8-K Filing（引用 12 次）
+- 已下载：netflix culture（引用 8 次）
+- 已下载：BCG：AI-First Organization（引用 3 次）
+- 已下载：engineering progression framework v2 0（引用 1 次）
+- 待重试：6456498（引用 6 次）
+- 已下载：WEF：Organizational Transformation in the Age of AI（引用 3 次）
+- 已下载：Anthropic：2026 Agentic Coding Trends Report（引用 1 次）
+- 已下载：47382ae415a209fd161bc19a1f9b3704（引用 1 次）
+- 待重试：BCG：AI Radar 2026（引用 2 次）
+- 待重试：BCG + MIT Sloan：The Emerging Agentic Enterprise（引用 8 次）
+- 已下载：AIHR：HR Priorities 2026 Report（引用 1 次）
+- 已下载：us spans and layers for the modern organization 2020（引用 3 次）
+- 已下载：EY：Future of Pay Report 2026（引用 139 次）
+- 已下载：pip faq 2026（引用 6 次）
+- 已下载：12 087 bc50bde2 3016 457a 9bee dc988cb1056b（引用 5 次）
+- 已下载：cesifo1 wp12373（引用 3 次）
+- 已下载：0000050863 26 000011（引用 2 次）
+- 已下载：orgvue ai research ebook 2026 final（引用 1 次）
+- 已下载：Payscale：2026 Compensation Best Practices Report（引用 3 次）
+- 待重试：it job family career ladder matrix software engineer（引用 1 次）
+
 ## [2026-06-29] review | 本地知识库定期 Review
 - 新增巡检报告 `knowledge/wiki/local-knowledge-review-2026-06-29.md`，记录本周健康度、PDF 入库结果、专题覆盖缺口和下一步优先级。
 - 修复 PDF 自动入库的仓库外 citation 脱敏逻辑，避免公开卡片写入本地扫描目录路径。
