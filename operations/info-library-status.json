@@ -1,10 +1,26 @@
 {
-  "generatedAt": "2026-06-30T05:40:06.065Z",
+  "generatedAt": "2026-06-30T10:40:17.639Z",
   "latestDate": "2026-06-30",
   "latestItems": 3,
+  "latestPlatforms": [
+    "arXiv / OpenAI / 私有组织情报脱敏摘要",
+    "TechCrunch / California Governor / 私有组织情报脱敏摘要",
+    "Amazon Jobs / Cursor Careers / 私有组织情报脱敏摘要"
+  ],
+  "latestLinks": 3,
+  "latestThinInsights": 0,
+  "latestAbcScore": 0,
+  "qualityIssues": [
+    "最新日期信息卡少于 8 条：当前 3 条；若为低信息日，必须写明扫描范围和缺口。",
+    "最新日期来源平台少于 4 个：当前 3 个；需要恢复多渠道代理采集。",
+    "最新日期可追溯链接少于 6 个：当前 3 个；信息库不能只保留观点摘要。"
+  ],
   "totalDays": 66,
   "totalItems": 603,
   "totalPlatforms": 307,
+  "dailyFiles": 69,
+  "dailyReportFiles": 73,
+  "weeklyFiles": 1,
   "trustStats": {
     "⭐高": 327,
     "📰较高": 266,
@@ -23,5 +39,6 @@
     "tags": 0,
     "time": 3
   },
-  "ownership": "Codex owns intelligence-center stability and information delivery; WorkBuddy remains a basic document and knowledge-management utility."
+  "governance": "Intelligence center, topic projects, and knowledge base are governed separately and periodically cross-fed.",
+  "ownership": "Codex owns end-to-end operation while inheriting WorkBuddy high-density multi-channel information-card standards."
 }
