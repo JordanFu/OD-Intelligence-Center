@@ -105,6 +105,33 @@
   ],
   "reports": [
     {
+      "id": "wechat-ai-org-evolution-intake",
+      "title": "微信公众号「AI组织进化论」候选来源池",
+      "originalTitle": "AI组织进化论 WeChat intake queue",
+      "author": "Codex intake",
+      "publisher": "微信公众号「AI组织进化论」",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计",
+        "人才发展",
+        "知识管理"
+      ],
+      "date": "2026-06-30",
+      "uploadDate": "2026-06-30",
+      "description": "记录用户提供的 AI组织进化论 微信原文链接，当前作为人才密度方向候选输入；原文自动访问触发微信环境验证，待读取正文后再判断进入线索层、Context 层或结论候选。",
+      "summaryFile": "./knowledge/wiki/wechat-ai-org-evolution-intake.md",
+      "fileName": "mp.weixin.qq.com candidate links",
+      "fileSize": "source intake page",
+      "tags": [
+        "微信公众号",
+        "AI组织进化论",
+        "人才密度",
+        "待核验",
+        "Context候选"
+      ],
+      "originalUrl": "https://mp.weixin.qq.com/s/I0t_7h_YeRVL0f2VraeBzw"
+    },
+    {
       "id": "tencent-wxg-project-owner-reform-2026-05",
       "title": "腾讯 WXG 取消“组长负责制”与项目负责制试点",
       "originalTitle": "Tencent WXG project owner reform and removal of group-leader responsibility trial",
