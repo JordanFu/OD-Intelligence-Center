@@ -53,6 +53,51 @@
 - **标签**：#AIRedTeam #ThreatOperations #FDE #ManagementLayer #Context
 - **抓取时间**：2026-06-30 09:46
 
+### [4] Oracle 年报复核：AI 部署与人力风险被放入同一风险链条
+- **事件摘要**：Oracle FY2026 Form 10-K 披露，截至 2026-05-31 约 141,000 名全职员工，并在风险因素中把 AI technologies across operations 的 adoption and deployment、workforce reductions、技能短缺、制度知识流失、士气与留任放在同一人力风险链条中。外部媒体据历史员工数估算约 21,000 人减少，但年报本身没有给出岗位族群细节。
+- **来源**：SEC / Oracle（https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm）；Investor's Business Daily（https://www.investors.com/news/technology/oracle-stock-21000-ai-layoffs/）
+- **来源平台**：SEC / Oracle / Investor's Business Daily
+- **来源可信度**：⭐高
+- **OD启示**：这条近窗基线提示，AI 组织调整不能只看“减人”或“效率”，还要把技能供给、知识保留、士气、留任、重组成本和业务连续性放进同一设计表。它支持风险链条判断，但不证明 Oracle 已公开完整岗位重构方案。
+- **标签**：#Oracle #AIWorkforce #Restructuring #InstitutionalKnowledge #Context
+- **抓取时间**：2026-06-30 18:32
+
+### [5] RAISE US：AI 劳动力转型开始外溢为公共治理议题
+- **事件摘要**：AP、WSJ、Business Insider 在 2026-06-25 至 2026-06-26 报道 RAISE US 获 5 亿美元以上资金承诺，目标募资 10 亿美元，并与多个州政府、Amazon、Microsoft、Anthropic、OpenAI Foundation、Bank of America 等合作测试 AI 时代 workforce transition 模型，议题包括职业导航、服务年、工资保险和雇主激励。
+- **来源**：AP（https://apnews.com/article/929986c149d415cd2ef4dc3eaf66ca8c）；WSJ（https://www.wsj.com/lifestyle/careers/the-new-push-to-ready-millions-for-ai-career-upheaval-dfb04cc5）；Business Insider（https://www.businessinsider.com/raise-us-ai-workers-supporters-openai-anthropic-2026-6）
+- **来源平台**：AP / WSJ / Business Insider
+- **来源可信度**：📰较高
+- **OD启示**：这不是单家公司组织改革，但提示 AI workforce 问题正在从企业内部培训外溢到跨组织治理。企业做岗位、晋升和薪酬调整时，外部再就业、转岗、补贴、地方政策和声誉风险会成为组织设计的约束变量。
+- **标签**：#RAISEUS #AIWorkforce #WorkforceTransition #PublicPrivateGovernance #Context
+- **抓取时间**：2026-06-30 18:32
+
+### [6] AWS / Palo Alto Networks：技能转型叙事需要保留在 Context 层
+- **事件摘要**：Platformer 对 AWS CEO Matt Garman 的访谈提到 11,000 名实习生和应届毕业生招聘、工程师减少手写代码、更多代理编排与产品判断，以及 AI 使用排行榜纠偏。Business Insider 报道 Palo Alto Networks CEO Nikesh Arora 讨论 AI skills、自然流失和 G&A headcount 压缩。两者都指向技能口径变化，但缺少正式岗位制度文件。
+- **来源**：Platformer（https://www.platformer.news/matt-garman-aws-ceo-interview-ai-jobs/）；Business Insider（https://www.businessinsider.com/palo-alto-networks-ceo-ai-training-skills-jobs-2026-6）
+- **来源平台**：Platformer / Business Insider
+- **来源可信度**：📰较高
+- **OD启示**：这组信号提示“AI 技能转型”不能简单等同于不裁员或必裁员。更稳妥的 OD 问题是：哪些任务被自动化，哪些判断能力变贵，哪些入口岗位仍需保留训练功能，哪些通用管理岗位会被压缩。
+- **标签**：#AWS #PaloAltoNetworks #AISkills #EntryTalent #Context
+- **抓取时间**：2026-06-30 18:32
+
+### [7] Business Insider 裁员汇总：AI 原生小团队叙事扩散但证据层级有限
+- **事件摘要**：Business Insider 2026-06-23 更新 AI-related layoffs 汇总，包含 Atlassian、Block、Cloudflare、Coinbase 等公司在裁员或重组时引用 AI efficiency、AI era、agentic AI era 或 AI-native operating model。部分条目出现代理会话、代理集群、单人团队、小团队和更扁平组织等管理语言。
+- **来源**：Business Insider（https://www.businessinsider.com/list-companies-replacing-human-employees-with-ai-layoffs-workforce-reductions）
+- **来源平台**：Business Insider
+- **来源可信度**：📰较高
+- **OD启示**：这条材料能说明 AI 原生小团队叙事在管理层话语中扩散，但不能单独证明岗位体系已经重构。应作为线索池使用，后续逐家公司找官方公告、岗位变化、薪酬/JD 和员工影响互证。
+- **标签**：#AILayoffs #AINativeOperatingModel #SmallTeams #Flattening #WeakSignal
+- **抓取时间**：2026-06-30 18:32
+
+### [8] FDE 议程化：Forward Deployed Engineering 从公司岗位走向行业公共语言
+- **事件摘要**：AI Engineer World's Fair 2026 设置 Forward Deployed Engineering 独立 track，Cursor、Cognition、Sierra、Factory 等围绕现场工程、客户工作流、产品反馈和企业交付分享做法。Cursor 官方 Regional Director FDE 岗位继续显示 FDE 管理层、伙伴 track 和交付质量责任。
+- **来源**：AI Engineer World's Fair（https://www.ai.engineer/worldsfair/schedule?track=Local+AI）；Cursor Careers（https://cursor.com/careers/regional-director-forward-deployed-engineering-new-york-remote-san-francisco）
+- **来源平台**：AI Engineer World's Fair / Cursor
+- **来源可信度**：📰较高
+- **OD启示**：FDE 正从个别 AI 原生公司的岗位标题，扩展为行业讨论中的组织接口语言。它提示产品、工程、销售、客户成功之间的边界可能重组，但会议议程不能替代公司制度，仍需追踪职级、绩效、薪酬和汇报线。
+- **标签**：#FDE #ForwardDeployedEngineering #EnterpriseAI #AppliedAI #JobArchitecture
+- **抓取时间**：2026-06-30 18:32
+
 ## 2026-06-29
 
 ### [1] Amazon AI Red Team：AI 安全红队进入 Threat Operations 管理建制
