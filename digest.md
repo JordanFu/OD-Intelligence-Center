@@ -1,7 +1,7 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-06-29 18:30
+> 最后更新：2026-06-30 09:46
 
 ---
 
@@ -23,6 +23,35 @@
 - 💬参考：社交平台/社区讨论，需交叉验证
 
 -->
+
+## 2026-06-30
+
+### [1] OpenAI Codex：知识工作从聊天式辅助转向代理式执行界面
+- **事件摘要**：arXiv / OpenAI 作者论文 `Codex for Knowledge Work` 显示，2026 上半年 Codex 活跃用户增长超过 5 倍，OpenAI 内部 Codex 使用接近普及，并在工作场景中明显替代 ChatGPT 使用。材料记录了并行 agent、长任务、skills 和复杂任务委派等使用方式。
+- **来源**：arXiv（https://arxiv.org/html/2606.26959v1）；OpenAI（https://openai.com/index/codex-for-knowledge-work/）
+- **来源平台**：arXiv / OpenAI / 私有组织情报脱敏摘要
+- **来源可信度**：⭐高
+- **OD启示**：这条材料的价值不是证明岗位替代，而是说明 agentic AI 的组织变量变成任务封装、上下文供给、权限、验收复核和多 agent 协调。OpenAI 内部环境特殊，因此适合作为 L2-L3 工作机制观察，不应外推为普通企业已完成组织重构。
+- **标签**：#OpenAI #Codex #AgenticAI #KnowledgeWork #WorkflowDesign
+- **抓取时间**：2026-06-30 09:46
+
+### [2] Anthropic / California：公共部门 AI 部署从账号采购变成培训与支持机制
+- **事件摘要**：TechCrunch 与 California Governor 2026-06-29 信息显示，Anthropic 将向加州州机构和地方政府提供 Claude 折扣访问，并包含培训与支持。官方口径强调帮助政府员工更快处理文档、信息分析和服务效率，而不是替代政府工作人员。
+- **来源**：TechCrunch（https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/）；California Governor（https://www.gov.ca.gov/2026/06/29/governor-newsom-announces-a-first-of-its-kind-partnership-providing-anthropic-tools-to-state-agencies-and-improving-services-for-californians/）
+- **来源平台**：TechCrunch / California Governor / 私有组织情报脱敏摘要
+- **来源可信度**：📰较高
+- **OD启示**：强治理客户的 AI adoption 不是单纯开账号，而是供应商与客户共同处理培训、技术支持、政策边界、安全承诺和使用规范。该信号只能作为 L2 部署机制观察，尚不能证明 Anthropic 内部公共部门组织线已经成型。
+- **标签**：#Anthropic #Claude #PublicSectorAI #Training #Deployment
+- **抓取时间**：2026-06-30 09:46
+
+### [3] Amazon / Cursor 旧线复核：AI security 与 FDE 正在岗位层面管理化
+- **事件摘要**：Amazon 官方 AI Red Team 经理岗位继续作为 AI security 进入 Threat Operations 管理建制的强基线；Cursor 官方 Regional Director, Forward Deployed Engineering 岗位继续显示 FDE 管理 6-8 名 FDE、交付质量、产品反馈和 partner FDE track。
+- **来源**：Amazon Jobs（https://www.amazon.jobs/en/jobs/10379285/senior-manager-ai-red-team-threat-operations）；Cursor Careers（https://cursor.com/careers/regional-director-forward-deployed-engineering-new-york-remote-san-francisco）
+- **来源平台**：Amazon Jobs / Cursor Careers / 私有组织情报脱敏摘要
+- **来源可信度**：⭐高
+- **OD启示**：AI security 与 FDE 正从专家个体或临时项目走向管理者、指标、质量门槛和跨组织接口；但两者都不是 2026-06-30 新事件，今天只作为基线复核，不写成新增组织重构或行业标准已经形成。
+- **标签**：#AIRedTeam #ThreatOperations #FDE #ManagementLayer #Context
+- **抓取时间**：2026-06-30 09:46
 
 ## 2026-06-29
 
