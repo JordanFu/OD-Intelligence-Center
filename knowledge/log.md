@@ -4,6 +4,12 @@
 
 ---
 
+## [2026-06-30] ingest | Obsidian 增量同步
+- 对本地 Obsidian Vault 做全量扫描：当前 70 篇 Markdown；公开 source map 覆盖 69 篇，排除 1 篇内部敏感来源。
+- 新增 source map：`knowledge/raw/obsidian-vault-source-map-2026-06-30.json`，只保留公开安全条目的元数据、标题层级、链接、标签和价值判断，不公开原文整包。
+- 新增公开安全知识页：字节跳动 AI 时代领导力原则更新、AI 时代五环协同人才体系、AI 原生组织操作模式。
+- 继续执行边界：内部敏感来源只做 private-index-only，不进入公开仓库正文。
+
 ## [2026-06-30] intake | 微信公众号「AI组织进化论」人才密度候选链接登记
 - 用户提供微信原文链接 `https://mp.weixin.qq.com/s/I0t_7h_YeRVL0f2VraeBzw`，初步判断为人才密度方向候选输入。
 - 自动访问触发微信环境验证，当前未读取正文；已登记到 `wiki/wechat-ai-org-evolution-intake.md`。

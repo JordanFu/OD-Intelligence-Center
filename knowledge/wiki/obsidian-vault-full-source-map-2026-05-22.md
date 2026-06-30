@@ -37,6 +37,18 @@ Obsidian 是个人知识工作台，不把全部原文直接推到可分享知�
 
 内部敏感来源继续保留在本地私有清单，不进入公开 GitHub 仓库。
 
+## 2026-06-30 增量处理
+
+2026-06-30 复查时，Obsidian Vault 当前共识别 **70 篇 Markdown**，其中公开 source map 覆盖 69 篇，排除 1 篇内部敏感来源。新增公开安全 source map：`knowledge/raw/obsidian-vault-source-map-2026-06-30.json`。
+
+本次新增或更新的公开安全沉淀：
+
+- 字节跳动 AI 时代领导力原则更新：提炼 Context over Control、方向判断、深入一线、文化责任等管理范式变化。
+- AI 时代五环协同人才体系：将 AI 人才从单点技术岗位扩展为研发、工程化、产业化、组织化、治理五类组合能力。
+- AI 原生组织：补齐“从加 AI 功能到长 AI 基因”的组织操作模式，强调业务流/工作流合一、经验可复制和激励机制重构。
+
+内部敏感来源仍只进入私有索引，不进入公开知识库正文。
+
 ## 主题沉淀：Concepts
 
 - **AI 劳动力重塑 AI Labor Disruption**：定义；核心框架：AI Labor Disruption Segments；六类角色；关键分析维度

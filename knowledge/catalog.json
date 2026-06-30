@@ -78,11 +78,11 @@
       "id": "obsidian-vault",
       "title": "Obsidian 本地知识库",
       "sourceType": "local",
-      "status": "已全量覆盖索引，2026-06-01 增量已抽取公开安全主题页",
+      "status": "已全量覆盖索引，2026-06-30 增量已抽取公开安全主题页",
       "path": "/Users/tal/Documents/Obsidian Vault",
-      "description": "本地 Vault 当前识别 68 篇 Markdown；公开知识库已抽取新增高价值主题，包括 GitLab Handbook 管理机制、Handbook-First/DRI、人机协作演进、Agentic SDLC、McKinsey 九大变革与绩效管理机制流派。内部敏感来源只保留在私有索引，不进入公开仓库。",
+      "description": "本地 Vault 当前识别 70 篇 Markdown；2026-06-30 已新增公开安全 source map（覆盖 69 篇，排除 1 篇内部敏感来源），并抽取字节跳动 AI 时代领导力原则、AI 五环协同人才体系、AI 原生组织操作模式等公开安全主题页。内部敏感来源不进入公开仓库正文或公开 source map。",
       "summaryFile": "./knowledge/wiki/obsidian-vault-full-source-map-2026-05-22.md",
-      "rawFile": "./knowledge/raw/obsidian-vault-source-map-2026-05-22.json"
+      "rawFile": "./knowledge/raw/obsidian-vault-source-map-2026-06-30.json"
     },
     {
       "id": "zhiyinlou-hr-learning",
@@ -188,6 +188,89 @@
         "主题页",
         "source map"
       ]
+    },
+    {
+      "id": "ai-native-organization-operating-pattern",
+      "title": "AI 原生组织：从加 AI 功能到长 AI 基因",
+      "originalTitle": "AI原生组织 AI-Native Organization",
+      "author": "Obsidian synthesis",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "concept",
+      "topics": [
+        "AI组织设计",
+        "组织设计",
+        "变革管理",
+        "绩效管理",
+        "人才发展"
+      ],
+      "date": "2026-06-30",
+      "uploadDate": "2026-06-30",
+      "description": "补齐 AI 原生组织概念页，强调业务流/工作流合一、智能决策默认推送、经验可复制、激励机制和 Context over Control。",
+      "summaryFile": "./knowledge/wiki/ai-native-organization-operating-pattern.md",
+      "fileName": "concept page",
+      "fileSize": "summary only",
+      "tags": [
+        "AI原生组织",
+        "AI组织设计",
+        "激励机制",
+        "人机协同"
+      ]
+    },
+    {
+      "id": "ai-five-ring-talent-system-huang-qifan-2026",
+      "title": "AI 时代五环协同人才体系",
+      "originalTitle": "黄奇帆：AI时代，需要这五个环节里的20类人才",
+      "author": "黄奇帆演讲整理 / Obsidian synthesis",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "public-safe-synthesis",
+      "topics": [
+        "AI组织设计",
+        "人才发展",
+        "组织能力",
+        "技能组织",
+        "变革管理"
+      ],
+      "date": "2026-06-30",
+      "uploadDate": "2026-06-30",
+      "description": "将 AI 时代人才体系抽象为研发、工程化、产业化、组织化、治理五环协同，强调人才组合、任务共同体和协同机制。",
+      "summaryFile": "./knowledge/wiki/ai-five-ring-talent-system-huang-qifan-2026.md",
+      "fileName": "obsidian synthesis",
+      "fileSize": "summary only",
+      "tags": [
+        "AI人才",
+        "人才组合",
+        "组织能力",
+        "新质生产力"
+      ],
+      "originalUrl": "https://mp.weixin.qq.com/s/I0t_7h_YeRVL0f2VraeBzw"
+    },
+    {
+      "id": "bytedance-ai-era-leadership-principles-2026",
+      "title": "字节跳动 AI 时代领导力原则更新",
+      "originalTitle": "字节跳动刷新领导力原则：AI时代管理新范式",
+      "author": "AI组织进化论 / Obsidian synthesis",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "public-safe-synthesis",
+      "topics": [
+        "AI组织设计",
+        "领导力",
+        "组织文化",
+        "变革管理",
+        "人才发展"
+      ],
+      "date": "2026-06-30",
+      "uploadDate": "2026-06-30",
+      "description": "从 Obsidian 新增来源抽取公开安全结论，沉淀字节领导力原则更新中的 Context over Control、方向判断、深入一线、文化责任等 AI 时代管理范式变化。",
+      "summaryFile": "./knowledge/wiki/bytedance-ai-era-leadership-principles-2026.md",
+      "fileName": "obsidian synthesis",
+      "fileSize": "summary only",
+      "tags": [
+        "字节跳动",
+        "领导力原则",
+        "Context over Control",
+        "AI时代管理"
+      ],
+      "originalUrl": "https://mp.weixin.qq.com/s/KnWTLLq4tOKMLh4vwJOemg"
     },
     {
       "id": "obsidian-vault-full-source-map-2026-05-22",

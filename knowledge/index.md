@@ -37,10 +37,12 @@
 | 26 | [GitLab Handbook 企业管理机制研究补充](wiki/gitlab-handbook-management-research-synthesis.md) | GitLab Handbook / Obsidian synthesis | 2026-06-01 | GitLab, Handbook First, TeamOps, DRI |
 | 27 | [Microsoft WorkLab：AI@Work 与软件工程的人机协作路线图](wiki/microsoft-ai-at-work-function-playbook-2026.md) | Microsoft WorkLab | 2026-05-07 | AI@Work, 人机协作, Agent, 工作重构 |
 | 28 | [McKinsey：Rewiring Software Delivery for the Agentic Era](wiki/mckinsey-rewire-agentic-era-software-delivery-2026.md) | McKinsey & Company | 2026-05 | Agentic AI, 软件交付, SDLC |
-| 29 | [BCG: Design Your Company for AI](wiki/bcg-2026-04-design-company-for-ai.md) | BCG | 2026-04 | AI组织设计, 运营模型, Agent |
-| 30 | [BCG: AI转型本质上是劳动力转型](summaries/r001-bcg-zh.md) | BCG | 2026-02 | AI转型, 10-20-70法则 |
-| 31 | [Deloitte: 企业AI应用现状](summaries/r002-deloitte-zh.md) | Deloitte | 2025 | 数字化转型, AI战略 |
-| 32 | [HR Analytics: Top 10 AI Solutions](summaries/r003-hr-analytics-ai-zh.md) | HR Analytics Trends | 2025 | HR Analytics, 人才发展 |
+| 29 | [字节跳动 AI 时代领导力原则更新](wiki/bytedance-ai-era-leadership-principles-2026.md) | Obsidian synthesis / AI组织进化论 | 2026-06-30 | 字节跳动, 领导力原则, Context over Control |
+| 30 | [AI 时代五环协同人才体系](wiki/ai-five-ring-talent-system-huang-qifan-2026.md) | Obsidian synthesis / 黄奇帆演讲整理 | 2026-06-30 | AI人才, 组织能力, 人才组合 |
+| 31 | [BCG: Design Your Company for AI](wiki/bcg-2026-04-design-company-for-ai.md) | BCG | 2026-04 | AI组织设计, 运营模型, Agent |
+| 32 | [BCG: AI转型本质上是劳动力转型](summaries/r001-bcg-zh.md) | BCG | 2026-02 | AI转型, 10-20-70法则 |
+| 33 | [Deloitte: 企业AI应用现状](summaries/r002-deloitte-zh.md) | Deloitte | 2025 | 数字化转型, AI战略 |
+| 34 | [HR Analytics: Top 10 AI Solutions](summaries/r003-hr-analytics-ai-zh.md) | HR Analytics Trends | 2025 | HR Analytics, 人才发展 |
 | 33 | [本地知识库定期 Review（2026-06-29）](wiki/local-knowledge-review-2026-06-29.md) | OD Intelligence Center | 2026-06-29 | 知识管理, 定期Review, 资料治理 |
 | 34 | [微信公众号「AI组织进化论」候选来源池](wiki/wechat-ai-org-evolution-intake.md) | 微信公众号「AI组织进化论」 | 2026-06-30 | AI组织设计, 人才密度, 微信公众号, 待核验 |
 
@@ -58,6 +60,7 @@
 | 8 | [Agentic SDLC](wiki/agentic-sdlc-operating-model.md) | 从人类主导、AI辅助转向人类监督、Agent执行的软件交付模型 | McKinsey / Obsidian |
 | 9 | [McKinsey 组织九大变革框架](wiki/mckinsey-nine-shifts-2026.md) | 用三股结构性力量解释 2026 年九个组织变革议题 | McKinsey / Obsidian |
 | 10 | [绩效管理标杆实践：四种机制流派](wiki/performance-management-benchmark-patterns.md) | 将绩效机制抽象为相对排名、自主发展、快照记录、分层差异四类 | Obsidian synthesis |
+| 11 | [AI 原生组织](wiki/ai-native-organization-operating-pattern.md) | 从加 AI 功能到长 AI 基因，围绕人机协同重构业务、组织与激励 | Obsidian synthesis |
 
 ## 实体页
 
