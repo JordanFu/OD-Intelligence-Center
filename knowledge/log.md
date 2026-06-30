@@ -30,13 +30,13 @@
 - 待重试：BCG + MIT Sloan：The Emerging Agentic Enterprise（引用 8 次）
 - 已下载：AIHR：HR Priorities 2026 Report（引用 1 次）
 - 已下载：us spans and layers for the modern organization 2020（引用 3 次）
-- 已下载：EY：Future of Pay Report 2026（引用 139 次）
+- 已下载：EY：Future of Pay Report 2026（引用 119 次）
 - 已下载：pip faq 2026（引用 6 次）
 - 已下载：12 087 bc50bde2 3016 457a 9bee dc988cb1056b（引用 5 次）
 - 已下载：cesifo1 wp12373（引用 3 次）
 - 已下载：0000050863 26 000011（引用 2 次）
 - 已下载：orgvue ai research ebook 2026 final（引用 1 次）
-- 已下载：Payscale：2026 Compensation Best Practices Report（引用 3 次）
+- 已下载：Payscale：2026 Compensation Best Practices Report（引用 6 次）
 - 待重试：it job family career ladder matrix software engineer（引用 1 次）
 ## [2026-06-29] review | 本地知识库定期 Review
 - 新增巡检报告 `knowledge/wiki/local-knowledge-review-2026-06-29.md`，记录本周健康度、PDF 入库结果、专题覆盖缺口和下一步优先级。

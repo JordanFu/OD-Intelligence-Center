@@ -54,6 +54,9 @@ Payscale 2026 薪酬实践报告可用于验证 AI 技能定价、薪酬公平�
 - `specials/ai-org-talent-mechanism/2026-05-18/02-talent-density.md:49`：2. 报告正文（PDF）：Payscale 提供更细分的薪酬与治理主题（用于后续拆分：base vs 奖金（bonus） vs 长期激励（LTI）、pay equity、benchmarking、job management）。
 - `specials/ai-org-talent-mechanism/2026-05-18/02-talent-density.md:114`：Payscale 2026 Report（PDF）：
 - `specials/ai-org-talent-mechanism/2026-05-19/02-talent-density.md:124`：Payscale 2026 Report（PDF）：
+- `specials/ai-org-talent-mechanism/2026-06-30/03-job-family-career-architecture.md:14`：Payscale 2026 薪酬报告支持把技能化薪酬、benchmarking、pay band 管理作为治理工具。 这提示市场溢价不必全部通过新增 title 承接。来源：
+- `specials/ai-org-talent-mechanism/2026-06-30/03-job-family-career-architecture.md:90`：Payscale 2026 Compensation Best Practices Report：
+- `specials/ai-org-talent-mechanism/2026-06-30/04-promotion-system.md:89`：Payscale 2026 Compensation Best Practices Report：
 
 ## 后续精读任务
 

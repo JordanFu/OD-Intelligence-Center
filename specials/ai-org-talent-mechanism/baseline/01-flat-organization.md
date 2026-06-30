@@ -34,24 +34,24 @@
 | 2026-06-27 | [日报](../2026-06-27/01-flat-organization.html) | 线索层/待验证 | 1. **扁平化的第一风险是责任空洞。** | 暂无单独 Context 摘要。 | 1. Oracle 年报原文中 AI 与 employee reduction 的完整措辞、业务线和地区变化。 |
 | 2026-06-28 | [日报](../2026-06-28/01-flat-organization.html) | 线索层/待验证 | 1. **高人才密度不是永远小团队；当模型公司进入平台化阶段，组织问题会变成如何在扩编中保持高标准、低协调损耗和新人高质量进入核心任务。 可信度：中高。** 证据基础来自当日公开来源、信息库和上游组织情报；为什么重要：它影响 扁平化 的设计边界。 | 暂无单独 Context 摘要。 | - 找一手材料：官方博客、招聘页、政府公告、SEC/年报、公司手册。 |
 | 2026-06-29 | [日报](../2026-06-29/01-flat-organization.html) | 线索层/待验证 | 1. **AI 安全岗位正在组织化：从“做一次红队测试”转向“有经理、有团队、有指标、有高层沟通、有跨组织修复节奏”。 可信度：中高。** 证据基础来自当日公开来源、信息库和上游组织情报；为什么重要：它影响 扁平化 的设计边界。 | - 管理层该问：如果减少中间节点，谁承担质量复核、跨团队协调、人才培养和风险升级？ | - 找一手材料：官方博客、招聘页、政府公告、SEC/年报、公司手册。 |
-| 2026-06-30 | [日报](../2026-06-30/01-flat-organization.html) | 线索层/待验证 | 1. **AI 工具活跃度不是组织能力，真正的组织能力是把任务封装为可委派工作包，并配置上下文、权限、验收和复核机制。 可信度：中高。** 证据基础来自当日公开来源、信息库和上游组织情报；为什么重要：它影响 扁平化 的设计边界。 | - 管理层该问：如果减少中间节点，谁承担质量复核、跨团队协调、人才培养和风险升级？ | - 找一手材料：官方博客、招聘页、政府公告、SEC/年报、公司手册。 |
+| 2026-06-30 | [日报](../2026-06-30/01-flat-organization.html) | 背景材料（Context）强证据 | 1. **扁平化的设计对象不是层级数，而是责任迁移。可信度：高。** Oracle、Lucid、Robinhood 线索都说明减员或减层会释放责任缺口；McKinsey 进一步提示单纯调结构不等于生产率提升。重要性：决定减层试点能否避免“组织图变薄、责任变糊”。 | - 暂不形成结论，但提示我们关注：BCG + MIT Sloan agentic enterprise 材料提到减少中层层级，但本地 PDF 标注仍需核验样本口径和中层定义。 | - Oracle：继续查 FY2026 10-K 中 AI workforce reduction 原文上下文、业务线、重组费用与知识流失风险。 |
 
 ## 知识库与 PDF 证据关联
 
 | 资料 | 对本专题的价值 |
 |---|---|
+| [Obsidian 本地知识库](./knowledge/wiki/obsidian-vault-full-source-map-2026-05-22.md) | 本地 Vault 当前识别 70 篇 Markdown；2026-06-30 已新增公开安全 source map（覆盖 69 篇，排除 1 篇内部敏感来源），并抽取字节跳动 AI 时代领导力原则、AI 五环协同人才体… |
 | [微信公众号「AI组织进化论」候选来源池](./knowledge/wiki/wechat-ai-org-evolution-intake.md) | 记录用户提供的 AI组织进化论 微信原文链接，当前作为人才密度方向候选输入；原文自动访问触发微信环境验证，待读取正文后再判断进入线索层、Context 层或结论候选。 |
 | [腾讯 WXG 取消“组长负责制”与项目负责制试点](./knowledge/wiki/tencent-wxg-project-owner-reform-2026-05.md) | 基于《中国企业家》、竞核、搜狐/IT时代网、腾讯官方财报与股东大会报道，梳理腾讯 WXG 多部门试行项目负责制、弱化组长/总监固定管理链条的组织含义。重点用于 AI 时代扁平化、项目 owner、干部年轻化和技术组织变… |
 | [知识库主题分类与去重治理建议](./knowledge/wiki/knowledge-taxonomy-dedup-review-2026-05-22.md) | 对当前知识库重复信息与分类体系的健康检查。结论是来源页不应删除，需新增主题导航层，将 Zapier、GitLab、AI能力盘点、AI-first operating model、技术组织、绩效薪酬等高重叠主题收敛到主题… |
+| [AI 原生组织：从加 AI 功能到长 AI 基因](./knowledge/wiki/ai-native-organization-operating-pattern.md) | 补齐 AI 原生组织概念页，强调业务流/工作流合一、智能决策默认推送、经验可复制、激励机制和 Context over Control。 |
+| [AI 时代五环协同人才体系](./knowledge/wiki/ai-five-ring-talent-system-huang-qifan-2026.md) | 将 AI 时代人才体系抽象为研发、工程化、产业化、组织化、治理五环协同，强调人才组合、任务共同体和协同机制。 |
 | [McKinsey 组织九大变革框架 2026](./knowledge/wiki/mckinsey-nine-shifts-2026.md) | 基于 McKinsey State of Organizations 2026，把九个组织变革议题收敛为三股结构性力量下的 OD 研究框架。 |
 | [Handbook-First 与 DRI：远程组织的决策操作系统](./knowledge/wiki/handbook-first-dri-operating-system.md) | 解释 Handbook-First 如何解决组织知识位置问题，DRI 如何解决决策责任问题，以及二者为何是 AI 组织上下文工程的前置机制。 |
 | [GitLab Handbook 企业管理机制研究补充](./knowledge/wiki/gitlab-handbook-management-research-synthesis.md) | 从 Obsidian 新增 GitLab 管理研究中抽取公开可复核的机制结论，补充 Handbook-First、DRI、TeamOps 和 QTR/Talent Assessment 的组织含义。 |
 | [Microsoft：2026 Work Trend Index Annual Report](./knowledge/wiki/pdf-source-microsoft-2026-work-trend-index.md) | Microsoft 2026 Work Trend Index 年度报告，基于全球 AI 工作用户调研和 Microsoft 365 匿名遥测，提出 Agent 时代组织需要从个人 AI 使用升级到工作重构、Front… |
 | [McKinsey：AI-first 时代端到端技术 workforce 设计](./knowledge/wiki/pdf-source-mckinsey-2026-ai-first-technology-workforce.md) | McKinsey Technology 文章，讨论 agentic AI 时代 CIO 如何重构技术组织的人才招聘、内部能力建设、Agent 训练和供应商策略。适合用于 AI-first 技术岗位族群和职级变化研究。 |
 | [AI 能力标准、考核与员工盘点研究](./knowledge/wiki/ai-capability-assessment-employee-inventory-research-2026-05-19.md) | 本地研究稿二次沉淀，区分人的 AI 能力框架、组织级 AI 治理标准、模型/系统评测基准，提出员工 AI 能力盘点应采用岗位分簇、双轨证据和周期复测。 |
-| [Zapier 全公司 AI 实施复盘（本地研究稿沉淀）](./knowledge/wiki/zapier-ai-implementation-retrospective-local-2026-05-20.md) | 本地 DOCX 研究稿二次沉淀，将 Zapier AI-first 转型整理为组织变革时间线、机制设计和可迁移启发，补充既有 Zapier AI 实践深研。 |
-| [McKinsey：The State of Organizations 2026](./knowledge/wiki/pdf-source-mckinsey-2026-the-state-of-organizations.md) | McKinsey 2026 组织状态报告，基于 10,018 名全球组织领导者调研，提出三大构造性力量和九个组织转型议题。核心价值在于把 AI 从局部工具使用推进到 operating model、工作流、人机协作、共… |
-| [CFTE：AI Proficiency Framework](./knowledge/wiki/pdf-source-cfte-2026-04-ai-proficiency-framework.md) | CFTE 提出的专业劳动力 AI 熟练度参考框架：三层公开等级、六档内部发展模型、十个能力域，以及 knowledge/skills/behaviours 三类评估维度。适合用于 AI 能力盘点、岗位技能标签、人才发展… |
 
 ## 当前不可越界的结论
 

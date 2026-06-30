@@ -34,13 +34,12 @@
 | 2026-06-27 | [日报](../2026-06-27/04-promotion-system.html) | 线索层/待验证 | 1. **固定晋升窗口仍有必要。** | - 暂不形成结论，但提示我们关注：同行评审和人才委员会在 AI 时代可能更重要，因为 AI 输出常跨团队，单一经理未必看得见真实贡献。 | 1. 哪些公司已把 AI fluency 写进 promotion rubric 或 performance review。 |
 | 2026-06-28 | [日报](../2026-06-28/04-promotion-system.html) | 线索层/待验证 | 1. **高人才密度不是永远小团队；当模型公司进入平台化阶段，组织问题会变成如何在扩编中保持高标准、低协调损耗和新人高质量进入核心任务。 可信度：中高。** 证据基础来自当日公开来源、信息库和上游组织情报；为什么重要：它影响 晋升机制 的设计边界。 | 暂无单独 Context 摘要。 | - 找一手材料：官方博客、招聘页、政府公告、SEC/年报、公司手册。 |
 | 2026-06-29 | [日报](../2026-06-29/04-promotion-system.html) | 线索层/待验证 | 1. **AI 安全岗位正在组织化：从“做一次红队测试”转向“有经理、有团队、有指标、有高层沟通、有跨组织修复节奏”。 可信度：中高。** 证据基础来自当日公开来源、信息库和上游组织情报；为什么重要：它影响 晋升机制 的设计边界。 | - 管理层该问：AI 贡献如何进入证据包，如何区分短期项目表现、工具熟练度和真实职级扩张？ | - 找一手材料：官方博客、招聘页、政府公告、SEC/年报、公司手册。 |
-| 2026-06-30 | [日报](../2026-06-30/04-promotion-system.html) | 线索层/待验证 | 1. **AI 工具活跃度不是组织能力，真正的组织能力是把任务封装为可委派工作包，并配置上下文、权限、验收和复核机制。 可信度：中高。** 证据基础来自当日公开来源、信息库和上游组织情报；为什么重要：它影响 晋升机制 的设计边界。 | - 管理层该问：AI 贡献如何进入证据包，如何区分短期项目表现、工具熟练度和真实职级扩张？ | - 找一手材料：官方博客、招聘页、政府公告、SEC/年报、公司手册。 |
+| 2026-06-30 | [日报](../2026-06-30/04-promotion-system.html) | 线索层/待验证 | 1. **固定晋升窗口仍有必要。可信度：高。** GitLab 样本显示，校准、预算、薪酬、跨团队公平需要固定节奏。重要性：避免“谁会讲 AI 故事谁先晋升”。 | - 暂不形成结论，但提示我们关注：Workhuman Future Leaders 等 AI 人才识别产品提示“AI 预测晋升准备度”正在出现，但需要验证算法偏差、解释性和组织接受度。 | - 搜索 `AI promotion packet 2026`、`AI contribution performance review`、`agent workflow promotion… |
 
 ## 知识库与 PDF 证据关联
 
 | 资料 | 对本专题的价值 |
 |---|---|
-| [Obsidian 本地知识库](./knowledge/wiki/obsidian-vault-full-source-map-2026-05-22.md) | 本地 Vault 当前识别 68 篇 Markdown；公开知识库已抽取新增高价值主题，包括 GitLab Handbook 管理机制、Handbook-First/DRI、人机协作演进、Agentic SDLC、Mc… |
 | [知识库主题分类与去重治理建议](./knowledge/wiki/knowledge-taxonomy-dedup-review-2026-05-22.md) | 对当前知识库重复信息与分类体系的健康检查。结论是来源页不应删除，需新增主题导航层，将 Zapier、GitLab、AI能力盘点、AI-first operating model、技术组织、绩效薪酬等高重叠主题收敛到主题… |
 | [绩效管理标杆实践：四种机制流派](./knowledge/wiki/performance-management-benchmark-patterns.md) | 公开安全版绩效机制抽象，不包含内部采集细节；将绩效管理拆成相对排名、自主发展、快照记录、分层差异四类机制流派。 |
 | [人机协作演进框架：Author、Editor、Director、Orchestrator](./knowledge/wiki/human-agent-collaboration-evolution.md) | 把人机协作拆成四种模式，强调人类签核单元从单行代码扩大到 backlog，适合用于岗位重塑、AI fluency 和绩效归属研究。 |
@@ -52,6 +51,7 @@
 | [Zapier AI 实践深度研究：从工具采用到 AI-first operating model](./knowledge/wiki/zapier-ai-practice-research-2026-05-20.md) | 基于 Zapier 多篇公开 AI 实践文章和产品页形成的深度研究报告，覆盖全员 adoption、AI fluency、招聘/入职/绩效机制、跨职能 AI workflow、Agents/MCP 产品化、agent … |
 | [Zapier：AI-first 招聘与入职机制](./knowledge/wiki/zapier-ai-first-hiring-onboarding-2025.md) | Zapier 将 AI fluency 设为所有新员工最低门槛的初始实践：四级 AI fluency、四个招聘评估触点、AI-first onboarding、builder mindset，以及绩效预期同步更新。 |
 | [百度职级体系改革：从多轨标签到 5-12 数字体系](./knowledge/wiki/baidu-level-reform-2026-obsidian.md) | 本地 Obsidian 中已沉淀的百度职级改革笔记：取消 T/P/E/Band/M，统一为 5-12 级，打通专业与管理通道，并从利益视角解释改革背后的筛选与激励逻辑。 |
+| [亚马逊 Builder 与百度职级改革的共同趋势](./knowledge/wiki/amazon-baidu-job-title-reform-obsidian.md) | 对亚马逊 Ring/Blink Builder 试点与百度职级改革的对照笔记：岗位头衔弱化、评价转向客户价值量级、白领角色更端到端和实战化，同时提示晋升梯子不可见的风险。 |
 
 ## 当前不可越界的结论
 

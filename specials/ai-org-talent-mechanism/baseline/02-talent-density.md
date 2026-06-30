@@ -34,14 +34,16 @@ AI 时代的高人才密度不只是“更强个体”，而是能把问题定�
 | 2026-06-27 | [日报](../2026-06-27/02-talent-density.html) | 线索层/待验证 | 1. **复合型人才的核心不是工具熟练，而是“业务判断 + AI 编排 + 流程理解 + 风险意识 + 可复用沉淀”。** | - 暂不形成结论，但提示我们关注：Palo Alto Networks 的“Darwinian moment”表达说明 AI skill 可能被企业用作自然淘汰机制，但仍缺正式制度文件。 | 1. Robinhood 是否披露 talent density 的招聘、绩效、薪酬和晋升机制。 |
 | 2026-06-28 | [日报](../2026-06-28/02-talent-density.html) | 线索层/待验证 | 1. **高人才密度不是永远小团队；当模型公司进入平台化阶段，组织问题会变成如何在扩编中保持高标准、低协调损耗和新人高质量进入核心任务。 可信度：中高。** 证据基础来自当日公开来源、信息库和上游组织情报；为什么重要：它影响 人才密度 的设计边界。 | 暂无单独 Context 摘要。 | - 找一手材料：官方博客、招聘页、政府公告、SEC/年报、公司手册。 |
 | 2026-06-29 | [日报](../2026-06-29/02-talent-density.html) | 线索层/待验证 | 1. **AI 安全岗位正在组织化：从“做一次红队测试”转向“有经理、有团队、有指标、有高层沟通、有跨组织修复节奏”。 可信度：中高。** 证据基础来自当日公开来源、信息库和上游组织情报；为什么重要：它影响 人才密度 的设计边界。 | - 管理层该问：高密度人才获得了授权、上下文、复核资源和薪酬/股权/项目激励吗？ | - 找一手材料：官方博客、招聘页、政府公告、SEC/年报、公司手册。 |
-| 2026-06-30 | [日报](../2026-06-30/02-talent-density.html) | 线索层/待验证 | 1. **AI 工具活跃度不是组织能力，真正的组织能力是把任务封装为可委派工作包，并配置上下文、权限、验收和复核机制。 可信度：中高。** 证据基础来自当日公开来源、信息库和上游组织情报；为什么重要：它影响 人才密度 的设计边界。 | - 管理层该问：高密度人才获得了授权、上下文、复核资源和薪酬/股权/项目激励吗？ | - 找一手材料：官方博客、招聘页、政府公告、SEC/年报、公司手册。 |
+| 2026-06-30 | [日报](../2026-06-30/02-talent-density.html) | 线索层/待验证 | 1. **高密度复合型人才的识别标准应是六维，而不是单一 AI 熟练度。可信度：高。** 六维为业务判断、AI 编排、流程理解、风险意识、可复用沉淀、跨职能影响。证据基础来自 Codex、Zapier、本地 skills-based organization 与近期专… | - 暂不形成结论，但提示我们关注：PwC/FT/Investopedia 对 entry-level seniorization 的材料需要继续追踪具体职业族群和薪酬变化。 | - 搜索 AI 原生公司是否公开 AI fluency、agent workflow、FDE、deployment 等能力评价标准。 |
 
 ## 知识库与 PDF 证据关联
 
 | 资料 | 对本专题的价值 |
 |---|---|
+| [Obsidian 本地知识库](./knowledge/wiki/obsidian-vault-full-source-map-2026-05-22.md) | 本地 Vault 当前识别 70 篇 Markdown；2026-06-30 已新增公开安全 source map（覆盖 69 篇，排除 1 篇内部敏感来源），并抽取字节跳动 AI 时代领导力原则、AI 五环协同人才体… |
 | [微信公众号「AI组织进化论」候选来源池](./knowledge/wiki/wechat-ai-org-evolution-intake.md) | 记录用户提供的 AI组织进化论 微信原文链接，当前作为人才密度方向候选输入；原文自动访问触发微信环境验证，待读取正文后再判断进入线索层、Context 层或结论候选。 |
 | [知识库主题分类与去重治理建议](./knowledge/wiki/knowledge-taxonomy-dedup-review-2026-05-22.md) | 对当前知识库重复信息与分类体系的健康检查。结论是来源页不应删除，需新增主题导航层，将 Zapier、GitLab、AI能力盘点、AI-first operating model、技术组织、绩效薪酬等高重叠主题收敛到主题… |
+| [AI 时代五环协同人才体系](./knowledge/wiki/ai-five-ring-talent-system-huang-qifan-2026.md) | 将 AI 时代人才体系抽象为研发、工程化、产业化、组织化、治理五环协同，强调人才组合、任务共同体和协同机制。 |
 | [人机协作演进框架：Author、Editor、Director、Orchestrator](./knowledge/wiki/human-agent-collaboration-evolution.md) | 把人机协作拆成四种模式，强调人类签核单元从单行代码扩大到 backlog，适合用于岗位重塑、AI fluency 和绩效归属研究。 |
 | [McKinsey：AI-first 时代端到端技术 workforce 设计](./knowledge/wiki/pdf-source-mckinsey-2026-ai-first-technology-workforce.md) | McKinsey Technology 文章，讨论 agentic AI 时代 CIO 如何重构技术组织的人才招聘、内部能力建设、Agent 训练和供应商策略。适合用于 AI-first 技术岗位族群和职级变化研究。 |
 | [GitLab：Promotions and Transfers 晋升与内部流动机制](./knowledge/wiki/gitlab-promotions-transfers-handbook.md) | GitLab 官方 Handbook 中的晋升与内部流动制度页，结构化说明周期性晋升校准、promotion document、业务结果、业务必要性、价值观对齐、跨职能反馈、Senior Director+ 角色评估、… |
@@ -50,8 +52,6 @@ AI 时代的高人才密度不只是“更强个体”，而是能把问题定�
 | [标杆研究更新：AI如何重塑组织设计](./knowledge/wiki/benchmark-ai-org-design-update-2026-05-08.html) | 从工作日报模块迁入知识库的标杆研究更新报告：基于 04-28 至 05-08 期间 80+ 条信息，聚焦 AI 时代人才发展机制创新与飞轮人员待优化复盘，整理 Deloitte、BCG、IBM、Lovable、百度、K… |
 | [技能为本的组织：职位、技能与薪酬架构的连接](./knowledge/concepts/skills-based-organization-obsidian.md) | 围绕技能而非职位角色管理人才：从技能分类法、技能评估与匹配，到招聘、发展、薪酬和劳动力规划。对“何时新增岗位/序列，何时只加技能标签”有直接参考价值。 |
 | [知音楼资料索引：人力资源行业洞察 2024](./knowledge/wiki/zhiyinlou-hr-industry-insights-2024.md) | 通过授权知音楼会话读取到的 HR 行业资料索引页，已确认并临时解析 11 份 PDF 附件，覆盖怡安医疗趋势、美世招聘与人才趋势、上市公司人效、弹性福利、人才发展指数、腾讯全域经营组织与人才洞察等材料。当前作为 Con… |
-| [知音楼 HR 知识库十主题整理](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md) | 将知音楼 HR 知识库 331 个节点、234 份 PDF 按 AI+HR、薪酬激励、组织人才、领导力、出海 HR、劳动法、咨询白皮书、推荐书籍、行业背景、学习工具十个主题重组，形成页面端可读导航和精读优先级。 |
-| [AI 转型本质上是劳动力转型](./knowledge/summaries/r001-bcg-zh.md) | 仅有约5%的组织从AI中获得了实质性财务回报。这些'面向未来'企业的三年期股东总回报约为AI落后者的4倍。价值分布遵循10-20-70法则：10%来自算法，20%来自技术，70%来自组织变革和人才。 |
 
 ## 当前不可越界的结论
 
