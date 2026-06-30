@@ -1,61 +1,79 @@
-# 2026-06-28｜AI时代组织与人才机制四课题总览
+# 2026-06-28｜四课题总览
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注。
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+## 读者应该带走什么
 
-## 今日一句话结论
+DeepSeek 全链路扩招说明 AI 原生公司正在从“小队高密度”进入“平台型扩容”的组织承接压力。 四个课题共同指向：AI 组织变化不是单点裁员、招聘或工具采用，而是责任、能力、岗位容器和激励证据的再分配。
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+## 今日一句话总览判断
 
-## 今日核心判断
+四个课题共同指向：AI 组织变化不是单点裁员、招聘或工具采用，而是责任、能力、岗位容器和激励证据的再分配。 今日真正有价值的不是把材料堆满，而是把事实翻译成可验证的组织机制。
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+## 今日新增事实
 
-## 今日背景材料
+- 多家媒体报道 DeepSeek 6 月 25 日晚发布招聘信息，计划所有部门规模至少扩大一倍，覆盖 7 大类 33 个岗位，并接受实习。
+- Anthropic 官方 Frontier Red Team 岗位显示红队位于政策组织，并与安全、保障、政策和外部专家协作。
+- Cursor 官方 前线部署工程（FDE） 和区域负责人岗位显示，客户现场工程已出现团队管理、伙伴交付和交付质量机制。
+- Replit 官方工程文章显示，智能体质量改进正在从静态评测走向真实轨迹、失败聚类、候选补丁和人工发布闸门。
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+## 核心判断
 
-## 今日新增证据地图
+1. **高人才密度不是永远小团队；当模型公司进入平台化阶段，组织问题会变成如何在扩编中保持高标准、低协调损耗和新人高质量进入核心任务。 可信度：中高。** 证据基础来自当日公开来源、信息库和上游组织情报；为什么重要：它影响 总览 的设计边界。
+2. **执行层岗位边界在变宽：工程、产品、数据、运维和职能都要理解智能体产品化，但核心专家能力也在变深。 可信度：中高。** 证据基础来自当日公开来源、信息库和上游组织情报；为什么重要：它影响 总览 的设计边界。
+3. **前线部署工程（FDE） 和红队岗位管理化说明，一些新能力不再只是专家个人，而是开始拥有管理跨度、质量标准和跨团队接口。 可信度：中高。** 证据基础来自当日公开来源、信息库和上游组织情报；为什么重要：它影响 总览 的设计边界。
 
-| 渠道 | 当前状态 | 必须补齐 |
+## 重点案例事实还原
+
+DeepSeek 的全部门扩招是本日最重要的组织观察：它不是单点招聘，而是从算法、研发、运维、产品、数据工程到职能的全链路补齐。反例是 Anthropic 和 Cursor：它们不是大规模招聘叙事，而是用官方岗位页暴露安全红队、前线部署工程（FDE）、伙伴交付等更细分的组织接口。
+
+## 背景材料
+
+- 管理层该问：今天的事实改变了哪类责任归属？哪些只是背景材料？哪些需要继续追踪而不能当结论？
+- 招聘岗位说明（JD）、招聘页、官方公告、年报/SEC、工程博客、政府公告和薪酬/股权材料共同构成本日证据底座；社媒与公众号只进入线索池。
+- 与薪酬/招聘岗位说明（JD）/激励相关的信号必须单独标记：招聘说明能力需求，薪酬和股权说明稀缺性与保留压力，但都不能自动等同于正式职级变化。
+
+## Context
+
+- 暂不形成结论，但提示我们关注：DeepSeek 扩招可能只是增长窗口或雇主品牌释放，尚不能证明组织治理成熟。
+- 暂不形成结论，但提示我们关注：所有岗位接受实习意味着人才入口前移，但也会带来带教、质量控制和任务拆分压力。
+- 暂不形成结论，但提示我们关注：前线部署工程（FDE） 管理化可能提高客户落地速度，也可能制造项目范围和产品优先级冲突。
+
+## 线索
+
+- 继续追踪相关 招聘岗位说明（JD） 是否出现管理层、团队规模、绩效指标、伙伴认证、发布闸门或晋升标准。
+- 继续追踪薪酬、股权、长期激励、市场溢价和项目奖金是否被用来承接关键能力，而不是新增头衔。
+- 继续追踪中国公司是否以技能标签、稀缺系数、项目激励替代新增岗位族群。
+
+## 证据地图
+
+| 渠道/来源 | 证据等级 | 链接 |
 |---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+| 世界互联网大会：DeepSeek 全部门扩招 | L2-L3 观察 | https://cn.wicinternet.org/2026-06/26/content_38851362.htm |
+| 界面新闻：DeepSeek 7 大类 33 岗位招聘 | L2 互证 | https://www.jiemian.com/article/14650951.html |
+| Anthropic Frontier Red Team 官方岗位 | L2-L3 基线 | http://job-boards.greenhouse.io/anthropic/jobs/5076477008 |
+| Cursor 官方招聘页：前线部署工程（FDE） | L2 基线 | https://cursor.com/careers/forward-deployed-engineer |
+| Replit：Evaluating and improving agents at scale | L2 观察 | https://replit.com/blog/evaluating-and-improving-agent-at-scale |
 
-## 线索层
+## 对我们的启发
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+- 战略：先确认这条信息改变的是效率、风险、人才密度、客户部署还是激励资源配置。
+- 岗位：不要看到新词就新建序列；先判断它是长期责任包、技能标签、项目角色还是短期专项能力。
+- 职级：只有稳定扩大责任范围、可复用机制和跨团队影响，才进入职级证据；工具熟练度只是门槛。
+- 薪酬激励：如果问题本质是市场稀缺和保留压力，优先考虑薪酬带宽、股权刷新、项目激励或专项津贴。
+- 风险：不能直接照搬外部公司做法；必须识别行业、规模、监管、客户复杂度和组织成熟度边界。
 
-## 待补齐的落地问题
+## 待验证清单与下一步搜索路径
 
-正式重跑必须把证据转化为战略、岗位、职级、薪酬和激励机制建议；没有证据链时，只记录缺口，不输出管理建议。
-
-## 待验证清单与下一步计划
-
-1. 检索今日新增官方/一手材料，确认是否有新公司案例。
-2. 检索权威媒体与咨询报告，补齐改革时间线、员工影响和争议。
-3. 检索招聘 JD 与薪酬信号，验证岗位变宽、专家深化和技能溢价。
-4. 收集社媒/职场平台弱信号，只进入线索池，不进入结论层。
-5. 主代理交叉验证后，将可互证内容升级为正式日报。
+- 找一手材料：官方博客、招聘页、政府公告、SEC/年报、公司手册。
+- 找反例：是否存在财务压力、融资叙事、雇主品牌或媒体标题党导致的误读。
+- 找薪酬/招聘岗位说明（JD） 信号：岗位职责、薪资区间、股权激励、汇报线、团队规模和能力要求。
+- 找落地证据：是否出现质量指标、发布闸门、晋升规则、绩效字段、人才盘点或项目复盘。
 
 ## 来源索引
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+- [世界互联网大会：DeepSeek 全部门扩招](https://cn.wicinternet.org/2026-06/26/content_38851362.htm)：L2-L3 观察
+- [界面新闻：DeepSeek 7 大类 33 岗位招聘](https://www.jiemian.com/article/14650951.html)：L2 互证
+- [Anthropic Frontier Red Team 官方岗位](http://job-boards.greenhouse.io/anthropic/jobs/5076477008)：L2-L3 基线
+- [Cursor 官方招聘页：前线部署工程（FDE）](https://cursor.com/careers/forward-deployed-engineer)：L2 基线
+- [Replit：Evaluating and improving agents at scale](https://replit.com/blog/evaluating-and-improving-agent-at-scale)：L2 观察
