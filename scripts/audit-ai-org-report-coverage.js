@@ -100,7 +100,7 @@ ${rows || '| - | - | - | - |'}
   fs.writeFileSync(reportPath, report);
   fs.writeFileSync(path.join(qualityDir, 'coverage-latest.md'), report);
   console.log(report);
-  if (process.env.STRICT_COVERAGE_AUDIT === '1' && (missingDates.length || incomplete.some((item) => item.missing.length))) {
+  if (process.env.STRICT_COVERAGE_AUDIT === '1' && (missingDates.length || nonDecision.length || incomplete.some((item) => item.missing.length))) {
     process.exitCode = 1;
   }
 }

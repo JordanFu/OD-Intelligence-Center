@@ -40,6 +40,7 @@
 
 | 资料 | 对本专题的价值 |
 |---|---|
+| [微信公众号「AI组织进化论」候选来源池](./knowledge/wiki/wechat-ai-org-evolution-intake.md) | 记录用户提供的 AI组织进化论 微信原文链接，当前作为人才密度方向候选输入；原文自动访问触发微信环境验证，待读取正文后再判断进入线索层、Context 层或结论候选。 |
 | [腾讯 WXG 取消“组长负责制”与项目负责制试点](./knowledge/wiki/tencent-wxg-project-owner-reform-2026-05.md) | 基于《中国企业家》、竞核、搜狐/IT时代网、腾讯官方财报与股东大会报道，梳理腾讯 WXG 多部门试行项目负责制、弱化组长/总监固定管理链条的组织含义。重点用于 AI 时代扁平化、项目 owner、干部年轻化和技术组织变… |
 | [知识库主题分类与去重治理建议](./knowledge/wiki/knowledge-taxonomy-dedup-review-2026-05-22.md) | 对当前知识库重复信息与分类体系的健康检查。结论是来源页不应删除，需新增主题导航层，将 Zapier、GitLab、AI能力盘点、AI-first operating model、技术组织、绩效薪酬等高重叠主题收敛到主题… |
 | [McKinsey 组织九大变革框架 2026](./knowledge/wiki/mckinsey-nine-shifts-2026.md) | 基于 McKinsey State of Organizations 2026，把九个组织变革议题收敛为三股结构性力量下的 OD 研究框架。 |
@@ -51,7 +52,6 @@
 | [Zapier 全公司 AI 实施复盘（本地研究稿沉淀）](./knowledge/wiki/zapier-ai-implementation-retrospective-local-2026-05-20.md) | 本地 DOCX 研究稿二次沉淀，将 Zapier AI-first 转型整理为组织变革时间线、机制设计和可迁移启发，补充既有 Zapier AI 实践深研。 |
 | [McKinsey：The State of Organizations 2026](./knowledge/wiki/pdf-source-mckinsey-2026-the-state-of-organizations.md) | McKinsey 2026 组织状态报告，基于 10,018 名全球组织领导者调研，提出三大构造性力量和九个组织转型议题。核心价值在于把 AI 从局部工具使用推进到 operating model、工作流、人机协作、共… |
 | [CFTE：AI Proficiency Framework](./knowledge/wiki/pdf-source-cfte-2026-04-ai-proficiency-framework.md) | CFTE 提出的专业劳动力 AI 熟练度参考框架：三层公开等级、六档内部发展模型、十个能力域，以及 knowledge/skills/behaviours 三类评估维度。适合用于 AI 能力盘点、岗位技能标签、人才发展… |
-| [标杆研究更新：AI如何重塑组织设计](./knowledge/wiki/benchmark-ai-org-design-update-2026-05-08.html) | 从工作日报模块迁入知识库的标杆研究更新报告：基于 04-28 至 05-08 期间 80+ 条信息，聚焦 AI 时代人才发展机制创新与飞轮人员待优化复盘，整理 Deloitte、BCG、IBM、Lovable、百度、K… |
 
 ## 当前不可越界的结论
 

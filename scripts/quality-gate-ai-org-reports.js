@@ -47,6 +47,15 @@ function auditFile(file) {
     return { file, status: 'fail', issues: ['文件不存在或为空'] };
   }
 
+  const isFallback = /云端兜底|最低可用|非决策稿|待增强|研究状态记录/.test(text);
+  if (isFallback) {
+    return {
+      file,
+      status: 'fail',
+      issues: ['非决策稿/兜底稿不能通过日报质量门禁，必须正式重跑后才能作为情报更新展示'],
+    };
+  }
+
   for (const section of requiredSections) {
     if (!text.includes(section)) issues.push(`缺少结构模块：${section}`);
   }
@@ -57,7 +66,6 @@ function auditFile(file) {
   const externalLinks = countExternalLinks(text);
   if (externalLinks < 4) issues.push(`外部来源链接不足：${externalLinks}/4`);
 
-  const isFallback = /云端兜底|最低可用|非决策稿|待增强|研究状态记录/.test(text);
   const looksFormal = /今日核心判断|正式|决策稿/.test(text) && !/非决策稿|不作为决策稿/.test(text);
   if (isFallback && looksFormal) {
     issues.push('兜底或待增强内容不能伪装成正式决策稿');

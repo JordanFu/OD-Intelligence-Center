@@ -186,7 +186,8 @@ function updateHome() {
         : '只呈现本周结论、关键事实和对我们的启发，已完成正式重跑。',
     };
   }
-  const dailyItems = dates.map(date => {
+  const decisionDates = dates.filter(date => !isNonDecisionDate(date));
+  const dailyItems = decisionDates.map(date => {
     const nonDecision = isNonDecisionDate(date);
     const previous = existingDaily.get(date);
     const preservePrevious = previous && !/非决策稿|待正式重跑/.test(previous.status) && !nonDecision;

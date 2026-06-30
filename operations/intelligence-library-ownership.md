@@ -61,3 +61,10 @@ node scripts/audit-info-library.js
 ## 交接后的判断
 
 从 2026-05-26 起，情报中心稳定运营和信息交付由 Codex 负责。WorkBuddy 可以继续做低风险的资料搬运、文档整理和知识库辅助，但不再作为信息库滚动更新的最终责任主体。
+
+## 与四专题日报的边界
+
+- `od-intelligence-center-daily` 每天 09:40 更新的是信息库、PDF 入库、首页信息流和组织情报桥接；它是素材层，不等于四专题日报完成。
+- `automation` 每天 18:00 生成的 `specials/ai-org-talent-mechanism/YYYY-MM-DD/` 五份报告才是 AI 时代组织与人才机制四专题正式日报。
+- 如果信息库当天有 `daily/` 与 `daily-report/`，但专题目录只有“研究状态记录 / 非决策稿”，页面应视为“素材层已更新、正式日报未完成”。
+- 如果 GitHub Actions 只生成兜底记录，Codex 第二天必须先补跑缺口日期，再做当天正式日报。
