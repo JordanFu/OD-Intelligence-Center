@@ -4,6 +4,11 @@
 
 ---
 
+## [2026-06-30] intake | 微信公众号「AI组织进化论」人才密度候选链接登记
+- 用户提供微信原文链接 `https://mp.weixin.qq.com/s/I0t_7h_YeRVL0f2VraeBzw`，初步判断为人才密度方向候选输入。
+- 自动访问触发微信环境验证，当前未读取正文；已登记到 `wiki/wechat-ai-org-evolution-intake.md`。
+- 后续需通过微信内打开、用户补链/摘录、截图 OCR 或转载反查获取正文，再判断进入线索层、Context 层或结论候选。
+
 ## [2026-06-30] ingest | 日报 PDF 证据源自动入库
 - 从 daily、daily-report、specials、analysis 中扫描 PDF URL，按知识库 Raw/Wiki/Catalog 规则自动建档。
 - 本次识别 22 个唯一 PDF 来源：17 个已下载原始 PDF，5 个保留 URL 与引用上下文待重试。

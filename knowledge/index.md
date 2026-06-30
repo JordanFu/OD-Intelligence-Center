@@ -42,6 +42,7 @@
 | 31 | [Deloitte: 企业AI应用现状](summaries/r002-deloitte-zh.md) | Deloitte | 2025 | 数字化转型, AI战略 |
 | 32 | [HR Analytics: Top 10 AI Solutions](summaries/r003-hr-analytics-ai-zh.md) | HR Analytics Trends | 2025 | HR Analytics, 人才发展 |
 | 33 | [本地知识库定期 Review（2026-06-29）](wiki/local-knowledge-review-2026-06-29.md) | OD Intelligence Center | 2026-06-29 | 知识管理, 定期Review, 资料治理 |
+| 34 | [微信公众号「AI组织进化论」候选来源池](wiki/wechat-ai-org-evolution-intake.md) | 微信公众号「AI组织进化论」 | 2026-06-30 | AI组织设计, 人才密度, 微信公众号, 待核验 |
 
 ## 概念页
 
@@ -106,9 +107,9 @@
 
 最近 5 条：
 ```
+[2026-06-30] intake | 微信公众号「AI组织进化论」人才密度候选链接登记
 [2026-05-26] research | 腾讯 WXG 项目负责制与取消组长负责制案例入库
 [2026-05-22] review | 知识库主题分类与去重治理建议
 [2026-05-22] ingest | Obsidian 本地知识库全量覆盖索引补齐
 [2026-05-22] review | 定时任务启动前知识库预检与本地资料补齐
-[2026-05-22] ingest | Microsoft Work Trend Index 2026 + McKinsey AI-first Technology Workforce 入库
 ```
