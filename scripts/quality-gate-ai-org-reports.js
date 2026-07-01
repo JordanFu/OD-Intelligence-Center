@@ -11,6 +11,8 @@ const formatter = new Intl.DateTimeFormat('en-CA', {
 });
 const today = process.env.REPORT_DATE || formatter.format(new Date());
 const strict = process.env.STRICT_DECISION_REPORT === '1';
+const fallbackWorkflow = process.env.GITHUB_WORKFLOW === 'AI Org Reports Fallback';
+const allowNonDecision = (process.env.ALLOW_NON_DECISION_REPORT === '1' || fallbackWorkflow) && !strict;
 
 const requiredSections = [
   '读者应该带走什么',
@@ -51,8 +53,10 @@ function auditFile(file) {
   if (isFallback) {
     return {
       file,
-      status: 'fail',
-      issues: ['非决策稿/兜底稿不能通过日报质量门禁，必须正式重跑后才能作为情报更新展示'],
+      status: allowNonDecision ? 'warn' : 'fail',
+      issues: [allowNonDecision
+        ? '非决策稿/兜底稿仅允许在 fallback 工作流中作为状态记录通过；不得升级为正式日报或进入基线证据'
+        : '非决策稿/兜底稿不能通过日报质量门禁，必须正式重跑后才能作为情报更新展示'],
     };
   }
 
@@ -98,6 +102,7 @@ function main() {
   lines.push(`# ${today}｜AI 组织人才日报质量门禁`);
   lines.push('');
   lines.push(`- 模式：${strict ? '正式决策稿严格门禁' : '常规质量巡检'}`);
+  lines.push(`- Fallback 状态记录放行：${allowNonDecision ? '是' : '否'}`);
   lines.push(`- 结论：${results.some((item) => item.status === 'fail') ? '未通过' : results.some((item) => item.status === 'warn') ? '存在待增强项' : '通过'}`);
   lines.push('');
   for (const result of results) {
