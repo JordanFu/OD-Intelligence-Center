@@ -143,9 +143,9 @@
       margin-bottom: 14px;
       padding: 14px 16px;
       background: var(--surface);
-      border: 1px solid var(--green);
-      border-radius: 10px;
-      box-shadow: 0 8px 24px rgba(52, 211, 153, 0.08);
+      border: 1px solid rgba(102, 125, 234, 0.32);
+      border-radius: 14px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.10);
     }
     .sync-bridge-top {
       display: flex;
@@ -186,38 +186,44 @@
     }
     .status-dashboard {
       margin-bottom: 14px;
+    }
+    .public-status-panel {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 10px;
+      gap: 12px;
     }
-    .status-card {
-      padding: 14px 16px;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    .public-status-summary {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 14px;
+      align-items: center;
     }
-    .status-card.pass { border-color: rgba(52, 211, 153, 0.58); }
-    .status-card.warn { border-color: rgba(245, 158, 11, 0.62); }
-    .status-card.fail { border-color: rgba(248, 113, 113, 0.72); }
-    .status-card h3 {
-      margin-bottom: 8px;
-      font-size: 15px;
+    .public-status-eyebrow {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 7px;
+      color: var(--text3);
+      font-size: 12px;
+      font-weight: 760;
+      letter-spacing: 0.04em;
     }
-    .status-card p {
-      margin-top: 4px;
+    .public-status-title {
+      margin: 0;
+      color: var(--text);
+      font-size: 17px;
+      line-height: 1.5;
+      font-weight: 820;
+    }
+    .public-status-note {
+      margin-top: 6px;
       color: var(--text2);
       font-size: 13px;
-      line-height: 1.55;
-    }
-    .status-card strong {
-      color: var(--text);
+      line-height: 1.6;
     }
     .status-pill {
       display: inline-flex;
       align-items: center;
       min-height: 22px;
-      margin-bottom: 8px;
       padding: 2px 8px;
       border-radius: 999px;
       background: rgba(148, 163, 184, 0.16);
@@ -225,9 +231,52 @@
       font-size: 12px;
       font-weight: 760;
     }
-    .status-card.pass .status-pill { background: rgba(52, 211, 153, 0.16); color: var(--green); }
-    .status-card.warn .status-pill { background: rgba(245, 158, 11, 0.16); color: var(--orange); }
-    .status-card.fail .status-pill { background: rgba(248, 113, 113, 0.16); color: #fca5a5; }
+    .public-status-panel.pass .status-pill { background: rgba(52, 211, 153, 0.16); color: var(--green); }
+    .public-status-panel.warn .status-pill { background: rgba(245, 158, 11, 0.16); color: var(--orange); }
+    .public-status-panel.fail .status-pill { background: rgba(248, 113, 113, 0.16); color: #fca5a5; }
+    .system-health-details {
+      border-top: 1px solid var(--border);
+      padding-top: 10px;
+    }
+    .system-health-details summary {
+      width: fit-content;
+      min-height: 34px;
+      display: inline-flex;
+      align-items: center;
+      padding: 7px 11px;
+      border-radius: 9px;
+      color: var(--text);
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      font-size: 13px;
+      font-weight: 780;
+      cursor: pointer;
+      list-style: none;
+    }
+    .system-health-details summary::-webkit-details-marker {
+      display: none;
+    }
+    .system-health-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+      margin-top: 12px;
+    }
+    .system-health-item {
+      padding: 10px 12px;
+      border-radius: 10px;
+      background: rgba(32, 36, 52, 0.72);
+      border: 1px solid var(--border);
+      color: var(--text2);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .system-health-item strong {
+      display: block;
+      color: var(--text);
+      font-size: 12px;
+      margin-bottom: 2px;
+    }
     .status-actions {
       display: flex;
       gap: 8px;
@@ -254,7 +303,6 @@
       opacity: 0.76;
     }
     .manifest-fallback-warning {
-      grid-column: 1 / -1;
       padding: 10px 12px;
       border: 1px solid rgba(245, 158, 11, 0.5);
       border-radius: 10px;
@@ -2528,10 +2576,14 @@
       .levels-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
+      .system-health-grid {
+        grid-template-columns: 1fr;
+      }
     }
 
     @media (max-width: 640px) {
-      .levels-grid {
+      .levels-grid,
+      .public-status-summary {
         grid-template-columns: 1fr;
       }
       .levels-card {
@@ -2578,7 +2630,7 @@
     <div class="controls">
       <section class="sync-bridge" aria-label="组织情报信息同步状态">
         <div class="status-dashboard" id="statusDashboard">
-          <div class="manifest-fallback-warning">正在读取最新状态；状态由 manifest 校验后显示，加载前不代表今日正式状态。</div>
+          <div class="manifest-fallback-warning">正在读取最新运营状态，加载前不展示正式更新结论。</div>
         </div>
       </section>
       <div class="search-wrap">
@@ -2650,7 +2702,7 @@
     let isGenerating = false;
     let kbSourceTypeFilter = null;
     let kbTopicFilter = null;
-    let statusManifests = { info: null, topics: null, knowledge: null };
+    let statusManifests = { info: null, topics: null, knowledge: null, automation: null };
     let statusManifestLoadFailed = false;
     let statusManifestErrors = [];
 
@@ -2745,16 +2797,30 @@
     function statusText(status) {
       const map = {
         pass: '可信',
-        warn: '有告警',
+        warn: '待验证',
         fail: '失败',
         formal: '正式决策稿',
         scheduled: '待今日正式运行',
-        fallback: '仅兜底记录 / 待正式重跑',
-        'needs-rerun': '待正式重跑',
+        fallback: '今日专题待正式更新',
+        'needs-rerun': '今日专题待正式更新',
         missing: '缺失',
         'pending-link-check': '待验证'
       };
       return map[status] || status || '未知';
+    }
+    function overallPublicStatus(...statuses) {
+      if (statuses.some(status => statusClass(status) === 'fail')) return 'fail';
+      if (statuses.some(status => statusClass(status) === 'warn')) return 'warn';
+      return 'pass';
+    }
+    function publicTopicStatus(topics) {
+      if (topics?.todayStatus === 'formal') return `今日专题已正式更新`;
+      if (topics?.todayStatus === 'scheduled') return `今日专题等待正式运行`;
+      if (topics?.todayStatus === 'fallback' || topics?.todayStatus === 'needs-rerun') return `今日专题待正式更新`;
+      return `今日专题状态待验证`;
+    }
+    function healthNumber(value, fallback = '未知') {
+      return value === 0 || value ? value : fallback;
     }
     function getPublicScanBridgeState(info) {
       const latestScanUrl = info?.homepageBridge?.latestScanUrl || '';
@@ -2785,13 +2851,14 @@
       }
     }
     async function loadStatusManifests() {
-      statusManifests = { info: null, topics: null, knowledge: null };
+      statusManifests = { info: null, topics: null, knowledge: null, automation: null };
       statusManifestLoadFailed = false;
       statusManifestErrors = [];
       await Promise.all([
         fetchManifest('./data/info-feed-status.json', 'info'),
         fetchManifest('./data/topic-projects-status.json', 'topics'),
-        fetchManifest('./data/knowledge-status.json', 'knowledge')
+        fetchManifest('./data/knowledge-status.json', 'knowledge'),
+        fetchManifest('./data/automation-status.json', 'automation')
       ]);
     }
     function renderStatusDashboard() {
@@ -2800,48 +2867,65 @@
       const info = statusManifests.info;
       const topics = statusManifests.topics;
       const knowledge = statusManifests.knowledge;
+      const automation = statusManifests.automation;
       const fallbackWarning = statusManifestLoadFailed
         ? `<div class="manifest-fallback-warning">状态源加载失败，以下为历史静态索引，不代表今日正式状态。${esc(statusManifestErrors.join('；'))}</div>`
         : '';
       const infoStatus = info?.qualityStatus || 'warn';
       const topicStatus = topics?.todayStatus || topics?.qualityStatus || 'warn';
       const knowledgeStatus = knowledge?.qualityStatus || 'warn';
+      const publicStatus = overallPublicStatus(infoStatus, topicStatus, knowledgeStatus, automation?.qualityStatus);
       const publicScanState = getPublicScanBridgeState(info);
+      const latestDate = info?.latestDate || allDays[0]?.date || '未知';
+      const cardCount = info?.latest?.cardCount ?? info?.latestCardCount ?? '未知';
+      const newFactCount = info?.latest?.newFactCount ?? info?.newFactCount ?? '未知';
+      const latestFormalDate = topics?.latestFormalDate || '暂无';
+      const knowledgePages = knowledge?.counts?.reports ?? '未知';
+      const entityConceptNote = knowledgePages === '未知' ? '知识库持续入库中' : '核心实体与概念已入库';
+      const brokenCount = Math.max(info?.links?.brokenCount || 0, topics?.links?.brokenCount || 0, knowledge?.links?.brokenCount || 0);
+      const externalWarnings = Math.max(info?.links?.externalWarnings || 0, topics?.links?.externalWarnings || 0, knowledge?.links?.externalWarnings || 0);
+      const pathLeakCount = knowledge?.privatePathLeaks?.length ?? 0;
+      const pdfRetryCount = knowledge?.pdfRetryCount ?? 0;
+      const pendingRerunCount = topics?.pendingRerunDates?.length ?? 0;
+      const githubFallbackRole = automation?.chains?.githubActionsFallback?.role || 'unknown';
+      const localFormalTask = automation?.chains?.localFormalTask?.status || 'unknown';
+      const readerNote = publicStatus === 'pass'
+        ? '当前状态稳定，可直接阅读。'
+        : '当前有待验证项，不影响阅读。';
       container.innerHTML = `
         ${fallbackWarning}
-        <div class="status-card ${statusClass(infoStatus)}">
-          <span class="status-pill">${statusText(infoStatus)}</span>
-          <h3>情报流状态</h3>
-          <p>最新日期：<strong>${esc(info?.latestDate || allDays[0]?.date || '未知')}</strong></p>
-          <p>卡片：<strong>${info?.latest?.cardCount ?? '未知'}</strong>；新增事实：<strong>${info?.latest?.newFactCount ?? '未知'}</strong>；弱信号：<strong>${info?.latest?.weakSignalCount ?? '未知'}</strong></p>
-          <p>渠道覆盖：${esc((info?.latest?.channelTypes || []).join('、') || '未识别')}；断链：<strong>${info?.brokenLinks?.length ?? 0}</strong></p>
-          <p>公开扫描：${esc(statusText(publicScanState.status))}；${esc(publicScanState.note)}</p>
-          <div class="status-actions">
-            ${publicScanState.showLatestScan ? `<a href="${esc(info.homepageBridge.latestScanUrl)}" target="_blank" rel="noopener">最新扫描</a>` : '<span class="disabled-action">最新扫描待验证</span>'}
-            ${info?.homepageBridge?.publicMirrorUrl ? `<a href="${esc(info.homepageBridge.publicMirrorUrl)}" target="_blank" rel="noopener">公开镜像</a>` : ''}
+        <div class="public-status-panel ${statusClass(publicStatus)}">
+          <div class="public-status-summary">
+            <div>
+              <div class="public-status-eyebrow">
+                <span class="status-pill">${esc(statusText(publicStatus))}</span>
+                <span>运营状态</span>
+              </div>
+              <p class="public-status-title">信息流更新至 ${esc(latestDate)} · ${esc(String(cardCount))} 条信息卡 · 新增事实 ${esc(String(newFactCount))} 条</p>
+              <p class="public-status-note">专题研究最新正式日报 ${esc(latestFormalDate)} · ${esc(publicTopicStatus(topics))} · 知识库 ${esc(String(knowledgePages))} 页 · ${esc(entityConceptNote)}。${readerNote}</p>
+            </div>
+            <div class="status-actions">
+              ${publicScanState.showLatestScan ? `<a href="${esc(info.homepageBridge.latestScanUrl)}" target="_blank" rel="noopener">最新扫描</a>` : '<span class="disabled-action">最新扫描待验证</span>'}
+              ${info?.homepageBridge?.publicMirrorUrl ? `<a href="${esc(info.homepageBridge.publicMirrorUrl)}" target="_blank" rel="noopener">公开镜像</a>` : ''}
+            </div>
           </div>
-        </div>
-        <div class="status-card ${statusClass(topicStatus)}">
-          <span class="status-pill">${statusText(topicStatus)}</span>
-          <h3>专题研究状态</h3>
-          <p>今日：<strong>${esc(topics?.today || '未知')}</strong>；状态：<strong>${esc(statusText(topics?.todayStatus))}</strong></p>
-          <p>最新正式日报：<strong>${esc(topics?.latestFormalDate || '无')}</strong></p>
-          <p>待正式重跑：<strong>${topics?.pendingRerunDates?.length ?? '未知'}</strong> 个日期</p>
-          <div class="status-actions">
-            <a href="./specials/ai-org-talent-mechanism/manifest.json" target="_blank">专题 manifest</a>
-            <a href="./data/topic-projects-status.json" target="_blank">状态源</a>
-          </div>
-        </div>
-        <div class="status-card ${statusClass(knowledgeStatus)}">
-          <span class="status-pill">${statusText(knowledgeStatus)}</span>
-          <h3>知识库状态</h3>
-          <p>Catalog 日期：<strong>${esc(knowledge?.latestCatalogDate || '未知')}</strong></p>
-          <p>知识页：<strong>${knowledge?.counts?.reports ?? '未知'}</strong>；知识源：<strong>${knowledge?.counts?.knowledgeSources ?? '未知'}</strong></p>
-          <p>待重试 PDF：<strong>${knowledge?.pdfRetryCount ?? '未知'}</strong>；路径泄露：<strong>${knowledge?.privatePathLeaks?.length ?? '未知'}</strong></p>
-          <div class="status-actions">
-            <a href="./operations/knowledge-lint-latest.md" target="_blank">知识库 Lint</a>
-            <a href="./operations/system-health-latest.md" target="_blank">系统健康</a>
-          </div>
+          <details class="system-health-details">
+            <summary>查看系统健康详情</summary>
+            <div class="system-health-grid">
+              <div class="system-health-item"><strong>一方链接异常</strong>${healthNumber(brokenCount, 0)}</div>
+              <div class="system-health-item"><strong>外部链接 warning</strong>${healthNumber(externalWarnings, 0)}</div>
+              <div class="system-health-item"><strong>内部路径检查</strong>${healthNumber(pathLeakCount, 0)}</div>
+              <div class="system-health-item"><strong>PDF 入库待重试</strong>${healthNumber(pdfRetryCount, 0)}</div>
+              <div class="system-health-item"><strong>待正式更新日期</strong>${healthNumber(pendingRerunCount, 0)}</div>
+              <div class="system-health-item"><strong>GitHub Actions</strong>${esc(githubFallbackRole)}</div>
+              <div class="system-health-item"><strong>本地正式任务</strong>${esc(localFormalTask)}</div>
+              <div class="system-health-item"><strong>公开扫描</strong>${esc(statusText(publicScanState.status))} · ${esc(publicScanState.note)}</div>
+            </div>
+            <div class="status-actions">
+              <a href="./operations/system-health-latest.md" target="_blank">打开完整健康记录</a>
+              <a href="./data/automation-status.json" target="_blank">自动化状态源</a>
+            </div>
+          </details>
         </div>
       `;
     }
@@ -3585,13 +3669,13 @@
         <div class="levels-hero">
           <div class="levels-badge">专题项目 · manifest 驱动状态</div>
           <h2>${esc(manifest.project?.title || 'AI时代组织与人才机制四课题研究')}</h2>
-          <p>专题项目负责深度研究、假设检验、证据升级、反例与行动建议。首页只展示由 manifest 生成的真实状态；兜底稿、待正式重跑和缺失不会被包装成正式日报。</p>
+          <p>专题项目负责深度研究、假设检验、证据升级、反例与行动建议。首页只展示由 manifest 生成的真实状态；兜底状态、待正式更新和缺失不会被包装成正式日报。</p>
         </div>
 
         <div class="levels-grid">
           <div class="levels-card"><h3>今日状态</h3><p><strong>${esc(manifest.today || '未知')}</strong>：${esc(statusText(manifest.todayStatus))}</p></div>
           <div class="levels-card"><h3>最新正式日报</h3><p>${esc(manifest.latestFormalDate || '无正式日报')}</p></div>
-          <div class="levels-card"><h3>待正式重跑</h3><p>${pending.length} 个日期；首页不得显示为已正式完成。</p></div>
+          <div class="levels-card"><h3>待正式更新</h3><p>${pending.length} 个日期；首页不得显示为已正式完成。</p></div>
           <div class="levels-card"><h3>质量状态</h3><p>${esc(statusText(manifest.qualityStatus))}；正式状态来自文件完整性、正文关键词和质量门禁。</p></div>
         </div>
 
@@ -3599,8 +3683,8 @@
           <h3>专题状态定义</h3>
           <div class="levels-evidence">
             <div class="levels-evidence-item"><strong>formal</strong><span>${esc(manifest.statusDefinitions?.formal || '正式决策稿')}</span></div>
-            <div class="levels-evidence-item"><strong>fallback</strong><span>${esc(manifest.statusDefinitions?.fallback || '仅兜底记录')}</span></div>
-            <div class="levels-evidence-item"><strong>needs-rerun</strong><span>${esc(manifest.statusDefinitions?.needsRerun || '待正式重跑')}</span></div>
+            <div class="levels-evidence-item"><strong>fallback</strong><span>${esc(statusText('fallback'))}</span></div>
+            <div class="levels-evidence-item"><strong>needs-rerun</strong><span>${esc(statusText('needs-rerun'))}</span></div>
             <div class="levels-evidence-item"><strong>missing</strong><span>${esc(manifest.statusDefinitions?.missing || '缺失')}</span></div>
           </div>
         </div>
@@ -3630,8 +3714,8 @@
           <h3>当前统计</h3>
           <ul class="levels-list">
             <li>正式决策稿：${statusCounts.formal || 0}</li>
-            <li>仅兜底记录：${statusCounts.fallback || 0}</li>
-            <li>待正式重跑：${statusCounts['needs-rerun'] || 0}</li>
+            <li>今日专题待正式更新：${statusCounts.fallback || 0}</li>
+            <li>待正式更新：${statusCounts['needs-rerun'] || 0}</li>
             <li>缺失：${statusCounts.missing || 0}</li>
           </ul>
           <div class="levels-actions">
