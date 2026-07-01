@@ -234,8 +234,11 @@
       margin-top: 10px;
       flex-wrap: wrap;
     }
-    .status-actions a {
+    .status-actions a,
+    .status-actions .disabled-action {
       min-height: 30px;
+      display: inline-flex;
+      align-items: center;
       padding: 6px 9px;
       border-radius: 8px;
       text-decoration: none;
@@ -244,6 +247,11 @@
       background: var(--surface2);
       color: var(--text);
       border: 1px solid var(--border);
+    }
+    .status-actions .disabled-action {
+      color: var(--text3);
+      cursor: not-allowed;
+      opacity: 0.76;
     }
     .manifest-fallback-warning {
       grid-column: 1 / -1;
@@ -2570,7 +2578,7 @@
     <div class="controls">
       <section class="sync-bridge" aria-label="组织情报信息同步状态">
         <div class="status-dashboard" id="statusDashboard">
-          <div class="manifest-fallback-warning">状态源加载中；加载完成前不代表今日正式同步状态。</div>
+          <div class="manifest-fallback-warning">正在读取最新状态；状态由 manifest 校验后显示，加载前不代表今日正式状态。</div>
         </div>
       </section>
       <div class="search-wrap">
@@ -2748,6 +2756,24 @@
       };
       return map[status] || status || '未知';
     }
+    function getPublicScanBridgeState(info) {
+      const latestScanUrl = info?.homepageBridge?.latestScanUrl || '';
+      const publicScanBridge = Array.isArray(info?.links?.publicScanBridge) ? info.links.publicScanBridge : [];
+      const matched = publicScanBridge.find(entry => entry?.url === latestScanUrl);
+      if (!latestScanUrl) {
+        return { status: 'pending-link-check', showLatestScan: false, note: '未配置最新扫描链接' };
+      }
+      if (matched?.ok === true) {
+        return { status: 'pass', showLatestScan: true, note: '链接已校验' };
+      }
+      if (matched?.hardBroken || matched?.status === 404) {
+        return { status: 'fail', showLatestScan: false, note: '最新扫描不可访问，改用公开镜像入口' };
+      }
+      if (matched) {
+        return { status: 'pending-link-check', showLatestScan: false, note: '最新扫描待验证，暂不开放直达入口' };
+      }
+      return { status: 'pending-link-check', showLatestScan: false, note: '等待链接校验，暂不开放直达入口' };
+    }
     async function fetchManifest(url, key) {
       try {
         const resp = await fetch(url, { cache: 'no-store' });
@@ -2780,7 +2806,7 @@
       const infoStatus = info?.qualityStatus || 'warn';
       const topicStatus = topics?.todayStatus || topics?.qualityStatus || 'warn';
       const knowledgeStatus = knowledge?.qualityStatus || 'warn';
-      const latestScanStatus = info?.homepageBridge?.status || info?.links?.qualityStatus || '待验证';
+      const publicScanState = getPublicScanBridgeState(info);
       container.innerHTML = `
         ${fallbackWarning}
         <div class="status-card ${statusClass(infoStatus)}">
@@ -2789,9 +2815,9 @@
           <p>最新日期：<strong>${esc(info?.latestDate || allDays[0]?.date || '未知')}</strong></p>
           <p>卡片：<strong>${info?.latest?.cardCount ?? '未知'}</strong>；新增事实：<strong>${info?.latest?.newFactCount ?? '未知'}</strong>；弱信号：<strong>${info?.latest?.weakSignalCount ?? '未知'}</strong></p>
           <p>渠道覆盖：${esc((info?.latest?.channelTypes || []).join('、') || '未识别')}；断链：<strong>${info?.brokenLinks?.length ?? 0}</strong></p>
-          <p>公开扫描：${esc(statusText(latestScanStatus))}</p>
+          <p>公开扫描：${esc(statusText(publicScanState.status))}；${esc(publicScanState.note)}</p>
           <div class="status-actions">
-            ${info?.homepageBridge?.latestScanUrl ? `<a href="${esc(info.homepageBridge.latestScanUrl)}" target="_blank" rel="noopener">最新扫描</a>` : ''}
+            ${publicScanState.showLatestScan ? `<a href="${esc(info.homepageBridge.latestScanUrl)}" target="_blank" rel="noopener">最新扫描</a>` : '<span class="disabled-action">最新扫描待验证</span>'}
             ${info?.homepageBridge?.publicMirrorUrl ? `<a href="${esc(info.homepageBridge.publicMirrorUrl)}" target="_blank" rel="noopener">公开镜像</a>` : ''}
           </div>
         </div>
