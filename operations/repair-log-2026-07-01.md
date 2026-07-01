@@ -12,7 +12,7 @@
 ## 当前状态
 
 - 情报流：warn，最新日期 2026-07-01，今日卡片 8。
-- 专题研究：warn，今日状态 scheduled，最新正式日报 2026-06-30。
+- 专题研究：warn，今日状态 fallback，最新正式日报 2026-06-30。
 - 知识库：warn，本地/私有路径泄露 0，缺失 summaryFile 0。
 - 链接检查：warn，一方断链 0。
 
@@ -24,8 +24,8 @@
 
 ## 需要补跑或人工验证
 
-- 待正式重跑日期：2026-06-22、2026-06-11、2026-06-10、2026-06-01、2026-05-29、2026-05-28、2026-05-27、2026-05-25、2026-05-20、2026-05-17、2026-05-16、2026-05-15、2026-05-13
-- 待人工验证链接：https://www.aboutamazon.com/news/aws/aws-1-billion-forward-deployed-ai-engineers、https://job-boards.greenhouse.io/anthropic/jobs/5140403008、https://www.anthropic.com/careers/jobs、https://news.bjd.com.cn/2026/06/30/11836953.shtml、https://jobs.bytedance.com/experienced/culture、https://deploy.co/、https://openai.com/index/introducing-openai-deployment-company/、https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm、https://apnews.com/article/929986c149d415cd2ef4dc3eaf66ca8c、https://www.businessinsider.com/list-companies-replacing-human-employees-with-ai-layoffs-workforce-reductions、https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-01.html、https://jordanfu.github.io/org-intelligence-info/
+- 待正式重跑日期：2026-07-01、2026-06-22、2026-06-11、2026-06-10、2026-06-01、2026-05-29、2026-05-28、2026-05-27、2026-05-25、2026-05-20、2026-05-17、2026-05-16、2026-05-15、2026-05-13
+- 待人工验证链接：https://www.aboutamazon.com/news/aws/aws-1-billion-forward-deployed-ai-engineers、https://job-boards.greenhouse.io/anthropic/jobs/5140403008、https://www.anthropic.com/careers/jobs、https://news.bjd.com.cn/2026/06/30/11836953.shtml、https://jobs.bytedance.com/experienced/culture、https://deploy.co/、https://openai.com/index/introducing-openai-deployment-company/、https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm、https://apnews.com/article/929986c149d415cd2ef4dc3eaf66ca8c、https://www.businessinsider.com/list-companies-replacing-human-employees-with-ai-layoffs-workforce-reductions
 
 ## 之后每日自动化应如何运行
 
