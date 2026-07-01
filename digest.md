@@ -31,6 +31,10 @@
 - **来源**：AWS / About Amazon（https://www.aboutamazon.com/news/aws/aws-1-billion-forward-deployed-ai-engineers）
 - **来源平台**：AWS / About Amazon / 私有组织情报脱敏摘要
 - **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：官方
+- **结论置信度**：L3 机制
+- **验证问题**：继续追踪 AWS FDE 的组织规模、汇报线、客户交付质量标准、能力迁移指标和是否进入正式职级/薪酬体系。
 - **OD启示**：这条信号的价值不在“更多工程师服务客户”，而在云平台公司把 AI adoption 摩擦组织化为 FDE、partner enablement、客户能力迁移和治理嵌入。可判为 L3 组织机制，但不采纳未独立验证的效率提升表述。
 - **标签**：#AWS #FDE #AgenticAI #CustomerDeployment #AppliedAI
 - **抓取时间**：2026-07-01 09:42
@@ -40,6 +44,10 @@
 - **来源**：北京日报客户端（https://news.bjd.com.cn/2026/06/30/11836953.shtml）；字节跳动招聘官网 Culture（https://jobs.bytedance.com/experienced/culture）
 - **来源平台**：北京日报 / ByteDance Careers / 私有组织情报脱敏摘要
 - **来源可信度**：📰较高
+- **信息类型**：新增事实
+- **渠道类型**：媒体
+- **结论置信度**：L2 观察
+- **验证问题**：需要找到字节官方制度文本、绩效校准说明或员工影响证据，确认领导力原则如何进入评价与晋升。
 - **OD启示**：这是 L2 管理评价语言观察：文化原则靠近绩效场景，可能影响管理者如何举证、校准和复盘。但公开证据还不足以写成绩效档位、晋升规则、奖金或干部任免机制已改变。
 - **标签**：#ByteDance #LeadershipPrinciples #PerformanceReview #ManagementStandard #AIOrg
 - **抓取时间**：2026-07-01 09:42
@@ -49,6 +57,10 @@
 - **来源**：Anthropic Greenhouse（https://job-boards.greenhouse.io/anthropic/jobs/5140403008）；Anthropic Careers（https://www.anthropic.com/careers/jobs）
 - **来源平台**：Anthropic Careers / 私有组织情报脱敏摘要
 - **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：JD薪酬
+- **结论置信度**：L2 观察
+- **验证问题**：继续找 Anthropic 公共部门团队的组织页、岗位族群、客户部署案例和 eval / safety 责任边界。
 - **OD启示**：公共部门 AI adoption 不是折扣账号采购，而是客户任务、技术架构、eval、安全可靠性、部署路径和产品反馈的跨组织工作。单个岗位页只能支持 L2 机制观察，不能证明完整公共部门组织线成熟。
 - **标签**：#Anthropic #AppliedAI #PublicSectorAI #Evaluation #Deployment
 - **抓取时间**：2026-07-01 09:42
@@ -58,6 +70,10 @@
 - **来源**：OpenAI（https://openai.com/index/introducing-openai-deployment-company/）；DeployCo（https://deploy.co/）
 - **来源平台**：OpenAI / DeployCo
 - **来源可信度**：⭐高
+- **信息类型**：旧线复核
+- **渠道类型**：官方
+- **结论置信度**：L3 机制
+- **验证问题**：继续验证 DeployCo 是否形成独立职级、岗位族群、客户交付评价和与 OpenAI 主体之间的资源分配规则。
 - **OD启示**：这条材料继续作为 L3 旧线基线使用，不写成 2026-07-01 新事件。它的组织含义是模型公司开始把客户现场 workflow、数据、权限、安全和反馈回路组织化，而不是只依赖产品自助采用。
 - **标签**：#OpenAI #DeployCo #FDE #EnterpriseAI #CustomerWorkflow
 - **抓取时间**：2026-07-01 09:42
@@ -67,6 +83,10 @@
 - **来源**：Cursor Careers（https://cursor.com/careers/regional-director-forward-deployed-engineering-new-york-remote-san-francisco）；AI Engineer World's Fair（https://www.ai.engineer/worldsfair/schedule?track=Local+AI）
 - **来源平台**：Cursor / AI Engineer World's Fair / AWS / Anthropic
 - **来源可信度**：📰较高
+- **信息类型**：旧线复核
+- **渠道类型**：JD薪酬
+- **结论置信度**：L2 观察
+- **验证问题**：需要跨公司收集 FDE 的汇报线、职级、绩效指标、薪酬带宽和 partner 质量门槛，判断是否从语言收敛进入制度收敛。
 - **OD启示**：可以判断“语言与组织接口正在收敛”，但不能判断“成熟职业体系已经形成”。下一步必须找汇报线、职级、绩效、薪酬、partner 质量门槛和客户能力迁移证据。
 - **标签**：#FDE #AppliedAI #JobArchitecture #EnterpriseDeployment #Context
 - **抓取时间**：2026-07-01 09:42
@@ -76,6 +96,10 @@
 - **来源**：SEC / Oracle（https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm）；AP（https://apnews.com/article/929986c149d415cd2ef4dc3eaf66ca8c）
 - **来源平台**：SEC / Oracle / AP
 - **来源可信度**：⭐高
+- **信息类型**：旧线复核
+- **渠道类型**：官方
+- **结论置信度**：L3 机制
+- **验证问题**：继续找 Oracle 或同类公司如何把 AI 风险链条转化为岗位调整、再培训、知识保留和留任机制。
 - **OD启示**：AI 人力调整必须同时管理效率、技能供给、知识保留、士气、留任、外部转岗和政策缓冲。它不是单点裁员新闻，而是组织风险设计表。
 - **标签**：#Oracle #RAISEUS #AIWorkforce #RiskChain #PublicGovernance
 - **抓取时间**：2026-07-01 09:42
@@ -85,6 +109,10 @@
 - **来源**：私有组织情报扫描 2026-07-01 脱敏摘要；公开媒体转述待进一步核验
 - **来源平台**：私有组织情报脱敏摘要 / 国内媒体转述
 - **来源可信度**：💬参考
+- **信息类型**：弱信号
+- **渠道类型**：社媒公众号
+- **结论置信度**：L1 线索
+- **验证问题**：需要找到公开制度说明、预算/额度治理规则、项目评审材料或多名员工可交叉验证的执行证据。
 - **OD启示**：AI token、模型调用额度和 agent 权限可能成为新的组织资源治理对象，但今天只能保留为 L1-L2 观察。不能写成腾讯已经完成 AI 资源治理制度化或绩效化。
 - **标签**：#Tencent #AIToken #ResourceGovernance #WeakSignal #Context
 - **抓取时间**：2026-07-01 09:42
@@ -94,6 +122,10 @@
 - **来源**：私有组织情报扫描 2026-07-01 脱敏摘要；公开搜索覆盖记录
 - **来源平台**：微信公众号 / 社媒 / 招聘 JD / 私有组织情报脱敏摘要
 - **来源可信度**：💬参考
+- **信息类型**：缺口记录
+- **渠道类型**：社媒公众号
+- **结论置信度**：L1 线索
+- **验证问题**：下一轮优先找官方公告、招聘 JD 变化、薪酬样本、员工影响和多源互证，确认全栈化、QA 边界迁移和 AI 工具吸收测试职责是否真实发生。
 - **OD启示**：这些线索有助于建立待核验池：小业务单元全栈化、QA 边界迁移、AI 工具吸收测试职责。但缺少官方公告、招聘变化、人数范围和多源互证时，只能提示关注，不能形成结论。
 - **标签**：#WeChat #SocialSignal #JobBoundary #FullStackTeam #WeakSignal
 - **抓取时间**：2026-07-01 09:42
@@ -105,6 +137,10 @@
 - **来源**：arXiv（https://arxiv.org/html/2606.26959v1）；OpenAI（https://openai.com/index/codex-for-knowledge-work/）
 - **来源平台**：arXiv / OpenAI / 私有组织情报脱敏摘要
 - **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：报告学术
+- **结论置信度**：L2 观察
+- **验证问题**：需要继续找普通企业采用 Codex 后的任务重组、权限边界、验收标准和岗位责任变化，避免直接外推 OpenAI 内部样本。
 - **OD启示**：这条材料的价值不是证明岗位替代，而是说明 agentic AI 的组织变量变成任务封装、上下文供给、权限、验收复核和多 agent 协调。OpenAI 内部环境特殊，因此适合作为 L2-L3 工作机制观察，不应外推为普通企业已完成组织重构。
 - **标签**：#OpenAI #Codex #AgenticAI #KnowledgeWork #WorkflowDesign
 - **抓取时间**：2026-06-30 09:46
@@ -114,6 +150,10 @@
 - **来源**：TechCrunch（https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/）；California Governor（https://www.gov.ca.gov/2026/06/29/governor-newsom-announces-a-first-of-its-kind-partnership-providing-anthropic-tools-to-state-agencies-and-improving-services-for-californians/）
 - **来源平台**：TechCrunch / California Governor / 私有组织情报脱敏摘要
 - **来源可信度**：📰较高
+- **信息类型**：新增事实
+- **渠道类型**：媒体
+- **结论置信度**：L2 观察
+- **验证问题**：继续追踪合同、培训范围、政府使用规范和 Anthropic 公共部门团队的正式组织边界。
 - **OD启示**：强治理客户的 AI adoption 不是单纯开账号，而是供应商与客户共同处理培训、技术支持、政策边界、安全承诺和使用规范。该信号只能作为 L2 部署机制观察，尚不能证明 Anthropic 内部公共部门组织线已经成型。
 - **标签**：#Anthropic #Claude #PublicSectorAI #Training #Deployment
 - **抓取时间**：2026-06-30 09:46
@@ -123,6 +163,10 @@
 - **来源**：Amazon Jobs（https://www.amazon.jobs/en/jobs/10379285/senior-manager-ai-red-team-threat-operations）；Cursor Careers（https://cursor.com/careers/regional-director-forward-deployed-engineering-new-york-remote-san-francisco）
 - **来源平台**：Amazon Jobs / Cursor Careers / 私有组织情报脱敏摘要
 - **来源可信度**：⭐高
+- **信息类型**：旧线复核
+- **渠道类型**：JD薪酬
+- **结论置信度**：L2 观察
+- **验证问题**：继续查找 AI security 与 FDE 是否出现更明确的岗位族群、薪酬带宽、管理跨度和晋升证据。
 - **OD启示**：AI security 与 FDE 正从专家个体或临时项目走向管理者、指标、质量门槛和跨组织接口；但两者都不是 2026-06-30 新事件，今天只作为基线复核，不写成新增组织重构或行业标准已经形成。
 - **标签**：#AIRedTeam #ThreatOperations #FDE #ManagementLayer #Context
 - **抓取时间**：2026-06-30 09:46
@@ -132,6 +176,10 @@
 - **来源**：SEC / Oracle（https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm）；Investor's Business Daily（https://www.investors.com/news/technology/oracle-stock-21000-ai-layoffs/）
 - **来源平台**：SEC / Oracle / Investor's Business Daily
 - **来源可信度**：⭐高
+- **信息类型**：旧线复核
+- **渠道类型**：官方
+- **结论置信度**：L2 观察
+- **验证问题**：继续验证 Oracle 是否公开岗位族群变化、再培训投入、知识保留机制或相关员工影响。
 - **OD启示**：这条近窗基线提示，AI 组织调整不能只看“减人”或“效率”，还要把技能供给、知识保留、士气、留任、重组成本和业务连续性放进同一设计表。它支持风险链条判断，但不证明 Oracle 已公开完整岗位重构方案。
 - **标签**：#Oracle #AIWorkforce #Restructuring #InstitutionalKnowledge #Context
 - **抓取时间**：2026-06-30 18:32
@@ -141,6 +189,10 @@
 - **来源**：AP（https://apnews.com/article/929986c149d415cd2ef4dc3eaf66ca8c）；WSJ（https://www.wsj.com/lifestyle/careers/the-new-push-to-ready-millions-for-ai-career-upheaval-dfb04cc5）；Business Insider（https://www.businessinsider.com/raise-us-ai-workers-supporters-openai-anthropic-2026-6）
 - **来源平台**：AP / WSJ / Business Insider
 - **来源可信度**：📰较高
+- **信息类型**：旧线复核
+- **渠道类型**：媒体
+- **结论置信度**：L2 观察
+- **验证问题**：需要跟踪 RAISE US 项目试点结果、雇主参与方式和是否反向影响企业岗位/薪酬/再培训机制。
 - **OD启示**：这不是单家公司组织改革，但提示 AI workforce 问题正在从企业内部培训外溢到跨组织治理。企业做岗位、晋升和薪酬调整时，外部再就业、转岗、补贴、地方政策和声誉风险会成为组织设计的约束变量。
 - **标签**：#RAISEUS #AIWorkforce #WorkforceTransition #PublicPrivateGovernance #Context
 - **抓取时间**：2026-06-30 18:32
@@ -150,6 +202,10 @@
 - **来源**：Platformer（https://www.platformer.news/matt-garman-aws-ceo-interview-ai-jobs/）；Business Insider（https://www.businessinsider.com/palo-alto-networks-ceo-ai-training-skills-jobs-2026-6）
 - **来源平台**：Platformer / Business Insider
 - **来源可信度**：📰较高
+- **信息类型**：旧线复核
+- **渠道类型**：媒体
+- **结论置信度**：L2 观察
+- **验证问题**：需要找正式岗位说明、组织结构调整、入口岗位训练安排和 AI 技能评价标准。
 - **OD启示**：这组信号提示“AI 技能转型”不能简单等同于不裁员或必裁员。更稳妥的 OD 问题是：哪些任务被自动化，哪些判断能力变贵，哪些入口岗位仍需保留训练功能，哪些通用管理岗位会被压缩。
 - **标签**：#AWS #PaloAltoNetworks #AISkills #EntryTalent #Context
 - **抓取时间**：2026-06-30 18:32
@@ -159,6 +215,10 @@
 - **来源**：Business Insider（https://www.businessinsider.com/list-companies-replacing-human-employees-with-ai-layoffs-workforce-reductions）
 - **来源平台**：Business Insider
 - **来源可信度**：📰较高
+- **信息类型**：弱信号
+- **渠道类型**：媒体
+- **结论置信度**：L1 线索
+- **验证问题**：逐家公司补官方公告、内部 memo 原文、岗位变化、招聘/JD 和薪酬信号，剔除 AI washing。
 - **OD启示**：这条材料能说明 AI 原生小团队叙事在管理层话语中扩散，但不能单独证明岗位体系已经重构。应作为线索池使用，后续逐家公司找官方公告、岗位变化、薪酬/JD 和员工影响互证。
 - **标签**：#AILayoffs #AINativeOperatingModel #SmallTeams #Flattening #WeakSignal
 - **抓取时间**：2026-06-30 18:32
@@ -168,6 +228,10 @@
 - **来源**：AI Engineer World's Fair（https://www.ai.engineer/worldsfair/schedule?track=Local+AI）；Cursor Careers（https://cursor.com/careers/regional-director-forward-deployed-engineering-new-york-remote-san-francisco）
 - **来源平台**：AI Engineer World's Fair / Cursor
 - **来源可信度**：📰较高
+- **信息类型**：新增事实
+- **渠道类型**：JD薪酬
+- **结论置信度**：L2 观察
+- **验证问题**：继续追踪 FDE 在公司内是否形成独立职级、管理跨度、绩效标准、薪酬溢价和客户交付质量门槛。
 - **OD启示**：FDE 正从个别 AI 原生公司的岗位标题，扩展为行业讨论中的组织接口语言。它提示产品、工程、销售、客户成功之间的边界可能重组，但会议议程不能替代公司制度，仍需追踪职级、绩效、薪酬和汇报线。
 - **标签**：#FDE #ForwardDeployedEngineering #EnterpriseAI #AppliedAI #JobArchitecture
 - **抓取时间**：2026-06-30 18:32
@@ -179,6 +243,10 @@
 - **来源**：Amazon Jobs（https://www.amazon.jobs/en/jobs/10379285/senior-manager-ai-red-team-threat-operations）
 - **来源平台**：Amazon Jobs / 私有组织情报脱敏摘要
 - **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：JD薪酬
+- **结论置信度**：L2 观察
+- **验证问题**：继续找 Amazon AI Red Team 的组织归属、团队规模、风险报告机制和与产品/安全团队的责任边界。
 - **OD启示**：这条信号的价值不是“新增安全岗位”，而是 AI security 从专家评测活动进入 Threat Operations 的经理建制、指标报告、高层风险沟通和跨组织安全改进节奏。它可作为传统大厂 AI 安全组织化的 L2-L3 基线，但不能外推为 Amazon 已完成全公司 AI 安全组织重构。
 - **标签**：#Amazon #AIRedTeam #ThreatOperations #AIGovernance #SecurityOrg
 - **抓取时间**：2026-06-29 18:30
@@ -188,6 +256,10 @@
 - **来源**：Business Today（https://www.businesstoday.in/technology/news/story/from-engineers-to-product-managers-heres-how-much-anthropic-pays-with-salaries-up-to-rs13-02-crore-539575-2026-06-28）；Anthropic Careers（https://www.anthropic.com/careers）
 - **来源平台**：Business Today / Anthropic / 私有组织情报脱敏摘要
 - **来源可信度**：💬参考
+- **信息类型**：弱信号
+- **渠道类型**：JD薪酬
+- **结论置信度**：L1 线索
+- **验证问题**：需要用官方岗位页、H-1B 原始披露、组织图或多期招聘变化验证 Anthropic 职能扩厚是否稳定。
 - **OD启示**：该信号提示 frontier AI 公司规模化后，组织价值不只在研究/工程，也在产品运营、研究运营、技术销售、伙伴关系和客户采用。但 H-1B 样本和二手链路不能代表完整薪酬制度，官方岗位面也缺窗口日期，因此只进入 L1-L2 观察池。
 - **标签**：#Anthropic #ProductOperations #ResearchOperations #GTM #Context
 - **抓取时间**：2026-06-29 18:30
@@ -197,6 +269,10 @@
 - **来源**：AI Engineer World's Fair（https://www.ai.engineer/worldsfair/schedule?track=Local+AI）；Cursor Careers（https://cursor.com/careers/regional-director-forward-deployed-engineering-new-york-remote-san-francisco）
 - **来源平台**：AI Engineer World's Fair / Cursor / 私有组织情报脱敏摘要
 - **来源可信度**：📰较高
+- **信息类型**：新增事实
+- **渠道类型**：JD薪酬
+- **结论置信度**：L2 观察
+- **验证问题**：需要继续验证 FDE 是否在不同公司出现稳定职责包、管理跨度、薪酬溢价和职业通道。
 - **OD启示**：FDE 正从少数 AI 原生公司的岗位标题变成行业公共语言，连接客户现场 workflow、产品反馈、伙伴交付和技术销售。但会议议程不是组织制度，不能证明 FDE 已成为成熟、标准化的公司级职业体系。
 - **标签**：#FDE #ForwardDeployedEngineering #EnterpriseAI #AppliedAI #Context
 - **抓取时间**：2026-06-29 18:30
@@ -208,6 +284,10 @@
 - **来源**：OD Intelligence Center 专题日报（specials/ai-org-talent-mechanism/2026-06-27/index.html）
 - **来源平台**：内部专题研究 / 外部公开材料交叉验证
 - **来源可信度**：⭐高
+- **信息类型**：旧线复核
+- **渠道类型**：报告学术
+- **结论置信度**：L3 机制
+- **验证问题**：后续需要把该专题判断拆回公开证据链，分别验证入口岗位、晋升证据、专家溢价和中层责任迁移。
 - **OD启示**：企业不应只追踪裁员或新增 AI title，而要重建入口岗位训练、中层角色转型、技能/岗位/薪酬分层工具箱和晋升证据体系。AI fluency 应成为门槛，业务影响、可复用机制和责任扩大才进入晋升。
 - **标签**：#TalentPipeline #AIWorkforce #JobArchitecture #PromotionSystem #TalentDensity
 - **抓取时间**：2026-06-27 18:00
@@ -217,6 +297,10 @@
 - **来源**：OD Intelligence Center 专题日报（specials/ai-org-talent-mechanism/2026-06-27/01-flat-organization.html）
 - **来源平台**：内部专题研究 / McKinsey / WSJ / Business Insider
 - **来源可信度**：📰较高
+- **信息类型**：旧线复核
+- **渠道类型**：报告学术
+- **结论置信度**：L2 观察
+- **验证问题**：继续找企业正式减层公告、管理跨度变化、流程 owner 设置和员工发展责任迁移证据。
 - **OD启示**：每次减层都应同步生成责任迁移表，明确原中层承担的协调、绩效校准、员工发展、风险控制和例外处理如何迁移到流程 owner、系统、经理或人才委员会。
 - **标签**：#Flattening #MiddleManagement #WorkflowOwner #AgentSupervisor #OrgDesign
 - **抓取时间**：2026-06-27 18:00
@@ -228,6 +312,10 @@
 - **来源**：AP（https://apnews.com/article/929986c149d415cd2ef4dc3eaf66ca8c）；WSJ（https://www.wsj.com/lifestyle/careers/the-new-push-to-ready-millions-for-ai-career-upheaval-dfb04cc5）；Business Insider（https://www.businessinsider.com/raise-us-ai-workers-supporters-openai-anthropic-2026-6）
 - **来源平台**：AP / WSJ / Business Insider
 - **来源可信度**：📰较高
+- **信息类型**：新增事实
+- **渠道类型**：媒体
+- **结论置信度**：L2 观察
+- **验证问题**：继续跟踪 RAISE US 试点州、雇主工具、资金到位情况和是否形成可验证的转岗/补贴结果。
 - **OD启示**：这条信号说明 AI workforce 问题正在从企业内部培训，外溢成跨组织治理题。career navigation、service-year、wage insurance、short-time compensation 和雇主激励，会成为 AI 组织调整的外部缓冲层；但目前只能证明制度化响应出现，不能证明方案有效。
 - **标签**：#RAISEUS #AIWorkforce #WorkforceTransition #PublicPrivateGovernance #HRTech
 - **抓取时间**：2026-06-26 18:00
@@ -237,6 +325,10 @@
 - **来源**：Platformer（https://www.platformer.news/matt-garman-aws-ceo-interview-ai-jobs/）；Business Insider（https://www.businessinsider.com/palo-alto-networks-ceo-ai-training-skills-jobs-2026-6）
 - **来源平台**：Platformer / Business Insider / 私有组织情报脱敏摘要
 - **来源可信度**：📰较高
+- **信息类型**：旧线复核
+- **渠道类型**：媒体
+- **结论置信度**：L2 观察
+- **验证问题**：需要补充正式岗位族群、绩效标准、入口岗位训练和 AI 技能要求的制度证据。
 - **OD启示**：两条信号都指向岗位任务、技能口径和人才入口正在被 AI 重写，但公开证据仍以访谈和媒体报道为主，缺少正式岗位族群、绩效标准或组织制度文件。适合进入观察池，不应写成“AI 不会裁员”或“技能转型已经成功”。
 - **标签**：#AWS #PaloAltoNetworks #AISkills #EngineeringWork #Context
 - **抓取时间**：2026-06-26 18:00
@@ -248,6 +340,10 @@
 - **来源**：SEC / Oracle（https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm）；Investor's Business Daily（https://www.investors.com/news/technology/oracle-stock-21000-ai-layoffs/）
 - **来源平台**：SEC / Oracle / Investor's Business Daily
 - **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：官方
+- **结论置信度**：L3 机制
+- **验证问题**：继续查找 Oracle 是否披露岗位族群调整、再培训安排、知识保留机制和与 AI 部署相关的具体组织动作。
 - **OD启示**：这条信号的管理价值不在裁员数字本身，而在 Oracle 把 AI deployment、restructuring costs、productivity risk、skilled employee shortages、institutional knowledge loss、morale and retention 放进同一风险链条。AI 组织调整需要同时管理资源重配和二阶组织成本。
 - **标签**：#Oracle #AIWorkforce #Restructuring #InstitutionalKnowledge #AIGovernance
 - **抓取时间**：2026-06-25 18:00
@@ -257,6 +353,10 @@
 - **来源**：36 氪 / 量子位（https://36kr.com/p/3863982620923141）；SCMP（https://www.scmp.com/tech/big-tech/article/3358077/deepseeks-harness-team-races-recruit-talent-booming-ai-agent-market）
 - **来源平台**：36 氪 / SCMP / 私有组织情报脱敏摘要
 - **来源可信度**：📰较高
+- **信息类型**：弱信号
+- **渠道类型**：媒体
+- **结论置信度**：L2 观察
+- **验证问题**：需要找到 DeepSeek 官方岗位页、团队说明、负责人公开表述或多期招聘变化，确认 Harness 是否成为稳定组织单元。
 - **OD启示**：Agent 能力产品化正在逼出比模型研究更细的工作单元，至少需要研究前沿定义、工程架构实现和产品形态定义三类接口。但当前只能作为观察池，用于追踪模型公司如何把 AI 能力转成可用工作流。
 - **标签**：#DeepSeek #Harness #AgentProductization #AppliedAI #Context
 - **抓取时间**：2026-06-25 18:00
@@ -268,6 +368,10 @@
 - **来源**：arXiv（https://arxiv.org/abs/2606.12320）
 - **来源平台**：arXiv
 - **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：报告学术
+- **结论置信度**：L2 观察
+- **验证问题**：需要继续找企业实践案例，验证五平面治理是否进入权限、审计、流程 owner 和岗位责任设计。
 - **OD启示**：Agent 治理的组织对象正在从“谁能使用 AI”变成“AI 能代表谁执行哪些连续动作”。这会直接改变权限设计、升级路径、审计责任和业务流程 owner 的角色边界。
 - **标签**：#AgentGovernance #RuntimeControl #AIGovernance #DecisionRights #Auditability
 - **抓取时间**：2026-06-24 18:00
@@ -277,6 +381,10 @@
 - **来源**：Business Insider（https://www.businessinsider.com/list-companies-replacing-human-employees-with-ai-layoffs-workforce-reductions）
 - **来源平台**：Business Insider
 - **来源可信度**：📰较高
+- **信息类型**：弱信号
+- **渠道类型**：媒体
+- **结论置信度**：L1 线索
+- **验证问题**：逐家公司查找官方原文、裁员范围、岗位/JD 变化和生产率证据，区分真实组织重构与 AI washing。
 - **OD启示**：这类材料提示“更小、更扁平、AI-native pods / one-person teams”的组织叙事正在扩散，但它混合了成本压力、AI washing、公司一手 memo 与二手报道，不能直接证明 AI 已稳定提升组织效率。
 - **标签**：#AILayoffs #AINativeTeams #FlatOrganization #Context #AIWashing
 - **抓取时间**：2026-06-24 18:00

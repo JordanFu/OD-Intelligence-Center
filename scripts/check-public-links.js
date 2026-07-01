@@ -264,7 +264,7 @@ function renderSystemHealth({ info, topics, knowledge, linkStatus }) {
 - 专题研究状态：${renderStatusLine(topics)}
 - 知识库状态：${renderStatusLine(knowledge)}
 - 一方链接状态：${linkStatus.qualityStatus === 'pass' ? '✅ pass' : linkStatus.qualityStatus === 'fail' ? '❌ fail' : '⚠️ warn'}
-- 当前结论：${linkStatus.qualityStatus === 'fail' || [info, topics, knowledge].some((entry) => entry?.qualityStatus === 'fail') ? '系统仍有 P0/P1 风险，首页必须显示告警，不得显示虚假已同步。' : 'Phase 1 状态链已可读；仍需在 Phase 2 提升内容质量与知识复利。'}
+- 当前结论：${linkStatus.qualityStatus === 'fail' || [info, topics, knowledge].some((entry) => entry?.qualityStatus === 'fail') ? '系统仍有 P0/P1 风险，首页必须显示告警，不得显示虚假已同步。' : '状态链已可读；当前主要剩余问题是信息质量 warning、专题待补跑和知识库复利深化。'}
 
 ## 情报流状态
 

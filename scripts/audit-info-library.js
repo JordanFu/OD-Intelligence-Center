@@ -18,6 +18,11 @@ const MIN_LATEST_PLATFORMS = 4;
 const MIN_LATEST_LINKS = 6;
 const MIN_CHANNEL_TYPES = 4;
 const MIN_INSIGHT_CHARS = 24;
+const RECENT_DAY_COUNT = 7;
+const PRIVATE_SIGNAL_WARN_RATIO = 0.25;
+const PRIVATE_SIGNAL_FAIL_RATIO = 0.4;
+const SUBTOPIC_WARN_RATIO = 0.4;
+const SUBTOPIC_FAIL_RATIO = 0.6;
 
 const INFO_TYPES = ['新增事实', '旧线复核', '弱信号', '缺口记录'];
 const CHANNEL_TYPES = ['官方', '媒体', '报告学术', '社媒公众号', 'JD薪酬'];
@@ -118,6 +123,15 @@ function parseDigest(markdown) {
   return days;
 }
 
+function readExistingStatus() {
+  if (!fs.existsSync(infoStatusPath)) return null;
+  try {
+    return JSON.parse(fs.readFileSync(infoStatusPath, 'utf8'));
+  } catch {
+    return null;
+  }
+}
+
 function countMissing(items, field) {
   return items.filter((item) => !item[field] || (Array.isArray(item[field]) && item[field].length === 0)).length;
 }
@@ -167,7 +181,8 @@ function inferChannelType(item) {
 function inferConclusionConfidence(item) {
   const text = `${item.infoType} ${item.trust} ${item.summary} ${item.insight}`;
   if (/L[1-4]/.test(item.conclusionConfidence)) return item.conclusionConfidence.match(/L[1-4]/)[0];
-  if (/弱信号|待验证|线索|传闻|💬/.test(text)) return 'L1';
+  if (/缺口记录|弱信号|待验证|线索|传闻|💬/.test(text)) return 'L1';
+  if (/旧线复核|复核|Context|context/i.test(text)) return 'L2';
   if (/机制|制度|多源|互证|稳定模式|L4/.test(text)) return 'L3';
   if (/官方|⭐|高|报告|研究/.test(text)) return 'L2';
   return 'L1';
@@ -197,12 +212,50 @@ function distribution(items, field) {
   }, {});
 }
 
-function latestSectionText(digest, latestDate) {
-  const latestDigestMatch = digest.match(new RegExp(`^## ${latestDate}[\\s\\S]*?(?=^## \\d{4}-\\d{2}-\\d{2}\\b|$)`, 'm'));
-  return latestDigestMatch ? latestDigestMatch[0] : '';
+function normalizeConclusionConfidence(value) {
+  const match = String(value || '').match(/L[1-4]/);
+  return match ? match[0] : '';
 }
 
-function fieldWarnings(latestItems) {
+function classifySubtopic(item) {
+  const text = `${item.title} ${item.summary} ${item.insight} ${item.tags.join(' ')}`.toLowerCase();
+  const rules = [
+    ['AI交付与部署', /fde|forward deployed|deployment|applied ai|客户部署|交付|落地|实施/],
+    ['AI治理与安全', /治理|governance|安全|security|red team|风险|审计|control|guardrail|passport/],
+    ['组织层级与管理', /层级|扁平|中层|manager|管理者|领导力|组织结构|span|coach/],
+    ['岗位与职业架构', /岗位|job|role|title|career|序列|族群|能力图谱|skills|capability/],
+    ['人才密度与流动', /人才密度|talent density|招聘|hiring|裁员|layoff|晋升|promotion|薪酬|pay|salary|流动/],
+    ['劳动力与公共治理', /劳动力|workforce|worker|州政府|公共|政策|就业|skills academy|training/],
+  ];
+  const found = rules.find(([, pattern]) => pattern.test(text));
+  return found ? found[0] : '其他';
+}
+
+function isPrivateOrgSignal(item) {
+  const text = `${item.title} ${item.summary} ${item.source} ${item.platform} ${item.tags.join(' ')}`;
+  if (item.sourceUrl) return false;
+  return /内部|私有|匿名|员工体感|脉脉|Blind|社群|群聊|非公开|脱敏/.test(text);
+}
+
+function isLikelyOldLine(item) {
+  const text = `${item.title} ${item.summary} ${item.tags.join(' ')}`;
+  return /旧线|复核|跟踪|回看|再验证|Context|context|不是今日新增|仍需|维持|基线/.test(text);
+}
+
+function isWeakOverclaimed(item) {
+  return item.normalizedInfoType === '弱信号'
+    && ['L3', 'L4'].includes(item.normalizedConclusionConfidence);
+}
+
+function hasValidGapRecord(items) {
+  return items.some((item) => {
+    if (item.normalizedInfoType !== '缺口记录') return false;
+    const text = `${item.title} ${item.summary} ${item.verificationQuestion} ${item.insight}`;
+    return /扫描|检索|覆盖|渠道|范围/.test(text) && /缺口|未发现|不足|未形成|待验证|原因/.test(text);
+  });
+}
+
+function fieldWarningsForItems(items, scopeLabel) {
   const requiredNewFields = [
     ['信息类型', 'infoType'],
     ['渠道类型', 'channelType'],
@@ -211,81 +264,155 @@ function fieldWarnings(latestItems) {
   ];
   return requiredNewFields
     .map(([label, field]) => ({
+      scope: scopeLabel,
       field: label,
-      missing: latestItems.filter((item) => !item.explicitFields[label] || !item[field]).length,
+      missing: items.filter((item) => !item.explicitFields[label] || !item[field]).length,
     }))
     .filter((entry) => entry.missing > 0);
 }
 
-function qualityIssues(latestDay, latestDigestText) {
-  const latestItems = enrichLatestItems(latestDay.items);
-  const latestPlatforms = [...new Set(latestItems.map((item) => item.platform || item.source).filter(Boolean))];
-  const latestLinks = latestItems.filter((item) => item.sourceUrl).length;
-  const latestSourceUrlsMissing = latestItems.filter((item) => !item.sourceUrl).map((item) => item.id);
-  const thinInsights = latestItems.filter((item) => (item.insight || '').length < MIN_INSIGHT_CHARS).length;
-  const channelTypes = [...new Set(latestItems.map((item) => item.normalizedChannelType).filter((type) => type && type !== '未归类'))];
-  const infoTypeStats = distribution(latestItems, 'normalizedInfoType');
-  const channelStats = distribution(latestItems, 'normalizedChannelType');
-  const confidenceStats = distribution(latestItems, 'normalizedConclusionConfidence');
-  const newFactCount = infoTypeStats['新增事实'] || 0;
-  const oldLineReviewCount = infoTypeStats['旧线复核'] || 0;
-  const weakSignalCount = infoTypeStats['弱信号'] || 0;
-  const gapCount = infoTypeStats['缺口记录'] || 0;
+function analyzeDay(day, digestText) {
+  const items = enrichLatestItems(day.items).map((item) => ({
+    ...item,
+    normalizedConclusionConfidence: normalizeConclusionConfidence(item.normalizedConclusionConfidence) || 'L1',
+    subtopic: classifySubtopic(item),
+    isPrivateSignal: isPrivateOrgSignal(item),
+  }));
+  const latestPlatforms = [...new Set(items.map((item) => item.platform || item.source).filter(Boolean))];
+  const sourceUrlMissingItemIds = items.filter((item) => !item.sourceUrl).map((item) => item.id);
+  const channelTypes = [...new Set(items.map((item) => item.normalizedChannelType).filter((type) => type && type !== '未归类'))];
+  const infoTypeStats = distribution(items, 'normalizedInfoType');
+  const channelStats = distribution(items, 'normalizedChannelType');
+  const confidenceStats = distribution(items, 'normalizedConclusionConfidence');
+  const subtopicStats = distribution(items, 'subtopic');
+  const nonGapItems = items.filter((item) => item.normalizedInfoType !== '缺口记录');
+  const newFactItems = items.filter((item) => item.normalizedInfoType === '新增事实');
+  const gapRecords = items.filter((item) => item.normalizedInfoType === '缺口记录');
+  const privateSignalCount = items.filter((item) => item.isPrivateSignal).length;
+  const privateSignalRatio = items.length ? Number((privateSignalCount / items.length).toFixed(3)) : 0;
+  const largestSubtopicCount = Math.max(0, ...Object.values(subtopicStats));
+  const subtopicConcentration = items.length ? Number((largestSubtopicCount / items.length).toFixed(3)) : 0;
+  const oldLineDisguisedAsNew = items
+    .filter((item) => item.normalizedInfoType === '新增事实' && isLikelyOldLine(item))
+    .map((item) => item.id);
+  const weakSignalsOverclaimed = items
+    .filter((item) => isWeakOverclaimed(item))
+    .map((item) => item.id);
+  const fieldWarnings = fieldWarningsForItems(items, day.date);
+  const thinInsightCount = items.filter((item) => (item.insight || '').length < MIN_INSIGHT_CHARS).length;
+
+  return {
+    date: day.date,
+    items,
+    cardCount: items.length,
+    nonGapCardCount: nonGapItems.length,
+    newFactCount: newFactItems.length,
+    contextCount: infoTypeStats['旧线复核'] || 0,
+    oldLineReviewCount: infoTypeStats['旧线复核'] || 0,
+    weakSignalCount: infoTypeStats['弱信号'] || 0,
+    gapRecordCount: gapRecords.length,
+    gapCount: gapRecords.length,
+    sourcePlatformCount: latestPlatforms.length,
+    sourceUrlCount: items.filter((item) => item.sourceUrl).length,
+    sourceUrlMissingCount: sourceUrlMissingItemIds.length,
+    sourceUrlMissingItemIds,
+    channelTypeCount: channelTypes.length,
+    channelTypes,
+    infoTypeDistribution: infoTypeStats,
+    channelCoverage: channelStats,
+    confidenceDistribution: confidenceStats,
+    conclusionConfidenceDistribution: confidenceStats,
+    subtopicDistribution: subtopicStats,
+    subtopicConcentration,
+    privateSignalCount,
+    privateSignalRatio,
+    fieldCompleteness: {
+      requiredFieldMissingCount: fieldWarnings.reduce((sum, entry) => sum + entry.missing, 0),
+      missingFields: fieldWarnings,
+    },
+    fieldWarnings,
+    thinInsightCount,
+    abcScore: detectAbcStyle(digestText),
+    oldLineDisguisedAsNew,
+    weakSignalsOverclaimed,
+    hasValidGapRecord: hasValidGapRecord(items),
+  };
+}
+
+function latestSectionText(digest, latestDate) {
+  const latestDigestMatch = digest.match(new RegExp(`^## ${latestDate}[\\s\\S]*?(?=^## \\d{4}-\\d{2}-\\d{2}\\b|$)`, 'm'));
+  return latestDigestMatch ? latestDigestMatch[0] : '';
+}
+
+function fieldWarnings(latestItems) {
+  return fieldWarningsForItems(latestItems, 'latest').map(({ field, missing }) => ({ field, missing }));
+}
+
+function qualityIssues(latestDay, latestDigestText, existingStatus = null) {
+  const latest = analyzeDay(latestDay, latestDigestText);
   const criticalIssues = [];
   const warnings = [];
 
-  if (latestItems.length < MIN_LATEST_ITEMS) {
-    criticalIssues.push(`最新日期信息卡少于 ${MIN_LATEST_ITEMS} 条：当前 ${latestItems.length} 条；若为低信息日，必须写明扫描范围和缺口。`);
+  if (latest.nonGapCardCount < MIN_LATEST_ITEMS && latest.hasValidGapRecord) {
+    warnings.push(`最新日期非缺口信息卡少于 ${MIN_LATEST_ITEMS} 条：当前 ${latest.nonGapCardCount} 条；已有缺口记录，不能用缺口记录凑数量。`);
+  } else if (latest.nonGapCardCount < MIN_LATEST_ITEMS) {
+    criticalIssues.push(`最新日期非缺口信息卡少于 ${MIN_LATEST_ITEMS} 条：当前 ${latest.nonGapCardCount} 条；且没有有效缺口记录。`);
   }
-  if (latestItems.length > MAX_LATEST_ITEMS) {
-    warnings.push(`最新日期信息卡多于 ${MAX_LATEST_ITEMS} 条：当前 ${latestItems.length} 条；需要确认不是低价值堆叠。`);
+  if (latest.nonGapCardCount > MAX_LATEST_ITEMS) {
+    warnings.push(`最新日期非缺口信息卡多于 ${MAX_LATEST_ITEMS} 条：当前 ${latest.nonGapCardCount} 条；需要确认不是低价值堆叠。`);
   }
-  if (latestPlatforms.length < MIN_LATEST_PLATFORMS) {
-    criticalIssues.push(`最新日期来源平台少于 ${MIN_LATEST_PLATFORMS} 个：当前 ${latestPlatforms.length} 个；需要恢复多渠道代理采集。`);
+  if (latest.sourcePlatformCount < MIN_LATEST_PLATFORMS) {
+    criticalIssues.push(`最新日期来源平台少于 ${MIN_LATEST_PLATFORMS} 个：当前 ${latest.sourcePlatformCount} 个；需要恢复多渠道代理采集。`);
   }
-  if (latestLinks < MIN_LATEST_LINKS) {
-    criticalIssues.push(`最新日期可追溯链接少于 ${MIN_LATEST_LINKS} 个：当前 ${latestLinks} 个；信息库不能只保留观点摘要。`);
+  if (latest.sourceUrlCount < MIN_LATEST_LINKS) {
+    criticalIssues.push(`最新日期可追溯链接少于 ${MIN_LATEST_LINKS} 个：当前 ${latest.sourceUrlCount} 个；信息库不能只保留观点摘要。`);
   }
-  if (latestSourceUrlsMissing.length > 0) {
-    warnings.push(`最新日期有 ${latestSourceUrlsMissing.length} 条 sourceUrl 缺失：${latestSourceUrlsMissing.join(', ')}。`);
+  if (latest.sourceUrlMissingItemIds.length > 0) {
+    warnings.push(`最新日期有 ${latest.sourceUrlMissingItemIds.length} 条 sourceUrl 缺失：${latest.sourceUrlMissingItemIds.join(', ')}。`);
   }
-  if (channelTypes.length < MIN_CHANNEL_TYPES) {
-    warnings.push(`最新日期渠道类型少于 ${MIN_CHANNEL_TYPES} 类：当前 ${channelTypes.length} 类；应覆盖官方、媒体、报告学术、社媒公众号、JD薪酬中的至少 4 类。`);
+  if (latest.channelTypeCount < MIN_CHANNEL_TYPES) {
+    warnings.push(`最新日期渠道类型少于 ${MIN_CHANNEL_TYPES} 类：当前 ${latest.channelTypeCount} 类；应覆盖官方、媒体、报告学术、社媒公众号、JD薪酬中的至少 4 类。`);
   }
-  if (newFactCount < 5) {
-    warnings.push(`最新日期“新增事实”少于 5 条：当前 ${newFactCount} 条；如果确实低新增，应显式写缺口记录。`);
+  if (latest.newFactCount < 5 && latest.hasValidGapRecord) {
+    warnings.push(`最新日期“新增事实”少于 5 条：当前 ${latest.newFactCount} 条；已有缺口记录，首页应诚实显示可信新增不足。`);
+  } else if (latest.newFactCount < 5) {
+    criticalIssues.push(`最新日期“新增事实”少于 5 条：当前 ${latest.newFactCount} 条；且没有有效缺口记录。`);
   }
-  if (thinInsights > 0) {
-    warnings.push(`最新日期有 ${thinInsights} 条 OD 启示过短；每条高价值信息必须说明提示关注的组织机制。`);
+  if (latest.thinInsightCount > 0) {
+    warnings.push(`最新日期有 ${latest.thinInsightCount} 条 OD 启示过短；每条高价值信息必须说明提示关注的组织机制。`);
   }
-  const abcScore = detectAbcStyle(latestDigestText);
-  if (abcScore >= 3) {
-    warnings.push(`最新日期疑似 ABC 体表达过多：命中 ${abcScore} 类英文混写；应改为中文为主，必要英文用“中文解释 + 英文原词”。`);
+  if (latest.abcScore >= 3) {
+    warnings.push(`最新日期疑似 ABC 体表达过多：命中 ${latest.abcScore} 类英文混写；应改为中文为主，必要英文用“中文解释 + 英文原词”。`);
   }
-  const missingNewFields = fieldWarnings(latestItems);
-  if (missingNewFields.length > 0) {
-    warnings.push(`最新日期仍有新结构字段缺失：${missingNewFields.map((entry) => `${entry.field} ${entry.missing} 条`).join('；')}。Phase 1 仅告警，不批量改写历史。`);
+  if (latest.fieldWarnings.length > 0) {
+    warnings.push(`最新日期仍有新结构字段缺失：${latest.fieldWarnings.map((entry) => `${entry.field} ${entry.missing} 条`).join('；')}。`);
+  }
+  if (latest.privateSignalRatio > PRIVATE_SIGNAL_FAIL_RATIO) {
+    criticalIssues.push(`最新日期私有/匿名/脱敏信号占比过高：${Math.round(latest.privateSignalRatio * 100)}%。`);
+  } else if (latest.privateSignalRatio > PRIVATE_SIGNAL_WARN_RATIO) {
+    warnings.push(`最新日期私有/匿名/脱敏信号占比偏高：${Math.round(latest.privateSignalRatio * 100)}%；不能替代公开可追溯事实。`);
+  }
+  if (latest.subtopicConcentration > SUBTOPIC_FAIL_RATIO && !latest.hasValidGapRecord) {
+    criticalIssues.push(`最新日期同一子主题占比过高：${Math.round(latest.subtopicConcentration * 100)}%；日常情报流不能退化为单专题摘要。`);
+  } else if (latest.subtopicConcentration > SUBTOPIC_WARN_RATIO) {
+    warnings.push(`最新日期同一子主题超过 40%：${Math.round(latest.subtopicConcentration * 100)}%；需要关注广谱雷达覆盖。`);
+  }
+  if (latest.oldLineDisguisedAsNew.length > 0) {
+    warnings.push(`最新日期疑似旧线复核被标为新增事实：${latest.oldLineDisguisedAsNew.join(', ')}。`);
+  }
+  if (latest.weakSignalsOverclaimed.length > 0) {
+    criticalIssues.push(`最新日期弱信号被标成 L3/L4：${latest.weakSignalsOverclaimed.join(', ')}。`);
+  }
+  const existingBrokenCount = Number(existingStatus?.links?.brokenCount || 0);
+  if (existingBrokenCount > 0 || (Array.isArray(existingStatus?.brokenLinks) && existingStatus.brokenLinks.length > 0)) {
+    criticalIssues.push(`一方内部链接存在断链：${existingBrokenCount || existingStatus.brokenLinks.length} 条；需先运行或修复链接检查。`);
   }
   if (LOCAL_PATH_PATTERN.test(latestDigestText)) {
     criticalIssues.push('最新日期 digest 存在本地绝对路径或私有路径泄露。');
   }
 
   return {
-    latestItems,
-    latestPlatforms,
-    latestLinks,
-    latestSourceUrlsMissing,
-    thinInsights,
-    abcScore,
-    channelTypes,
-    infoTypeStats,
-    channelStats,
-    confidenceStats,
-    newFactCount,
-    oldLineReviewCount,
-    weakSignalCount,
-    gapCount,
-    fieldWarnings: missingNewFields,
+    ...latest,
     criticalIssues,
     warnings,
   };
@@ -315,8 +442,10 @@ function main() {
   }
 
   const latestDate = days[0].date;
+  const existingStatus = readExistingStatus();
   const latestDigestText = latestSectionText(digest, latestDate);
-  const latestQuality = qualityIssues(days[0], latestDigestText);
+  const recentDays = days.slice(0, RECENT_DAY_COUNT).map((day) => analyzeDay(day, latestSectionText(digest, day.date)));
+  const latestQuality = qualityIssues(days[0], latestDigestText, existingStatus);
   const platforms = [...new Set(items.map((item) => item.platform || item.source).filter(Boolean))].sort();
   const trustStats = items.reduce((stats, item) => {
     const key = item.trust || '未标注';
@@ -338,31 +467,117 @@ function main() {
     tags: countMissing(items, 'tags'),
     time: countMissing(items, 'time'),
   };
+  const recentFieldWarnings = recentDays
+    .flatMap((day) => day.fieldWarnings.map((entry) => ({ ...entry, date: day.date })));
+  const recentLocalPathDates = recentDays
+    .filter((day) => LOCAL_PATH_PATTERN.test(latestSectionText(digest, day.date)))
+    .map((day) => day.date);
+  const recentWeakOverclaims = recentDays
+    .filter((day) => day.weakSignalsOverclaimed.length > 0)
+    .map((day) => `${day.date}: ${day.weakSignalsOverclaimed.join(', ')}`);
+  const recentWarnings = [];
+  const recentCriticalIssues = [];
+
+  if (recentFieldWarnings.length > 0) {
+    recentWarnings.push(`最近 ${RECENT_DAY_COUNT} 个信息日存在结构字段缺失：${recentFieldWarnings.length} 类日期/字段组合需逐步补齐。`);
+  }
+  if (recentLocalPathDates.length > 0) {
+    recentCriticalIssues.push(`最近 ${RECENT_DAY_COUNT} 个信息日存在本地绝对路径或私有路径泄露：${recentLocalPathDates.join('、')}。`);
+  }
+  if (recentWeakOverclaims.length > 0) {
+    recentCriticalIssues.push(`最近 ${RECENT_DAY_COUNT} 个信息日存在弱信号 L3/L4 越级：${recentWeakOverclaims.join('；')}。`);
+  }
+
+  const criticalIssues = [...latestQuality.criticalIssues, ...recentCriticalIssues];
+  const warnings = [...latestQuality.warnings, ...recentWarnings];
+  const linkState = {
+    brokenLinks: Array.isArray(existingStatus?.brokenLinks) ? existingStatus.brokenLinks : [],
+    links: existingStatus?.links || {
+      checkedAt: null,
+      qualityStatus: 'pending',
+      firstPartyChecked: 0,
+      externalWarnings: 0,
+      brokenCount: 0,
+    },
+  };
 
   const status = {
     generatedAt: new Date().toISOString(),
     module: 'info-feed',
-    qualityStatus: qualityStatus(latestQuality.criticalIssues, latestQuality.warnings),
+    qualityStatus: qualityStatus(criticalIssues, warnings),
     latestDate,
+    latestCardCount: latestQuality.cardCount,
+    newFactCount: latestQuality.newFactCount,
+    contextCount: latestQuality.contextCount,
+    weakSignalCount: latestQuality.weakSignalCount,
+    gapRecordCount: latestQuality.gapRecordCount,
+    sourceCount: latestQuality.sourcePlatformCount,
+    channelCoverage: latestQuality.channelTypes,
+    confidenceDistribution: latestQuality.confidenceDistribution,
+    subtopicConcentration: latestQuality.subtopicConcentration,
+    privateSignalRatio: latestQuality.privateSignalRatio,
+    fieldCompleteness: latestQuality.fieldCompleteness,
+    sourceUrlMissingCount: latestQuality.sourceUrlMissingCount,
     latest: {
       date: latestDate,
-      cardCount: days[0].items.length,
+      cardCount: latestQuality.cardCount,
+      nonGapCardCount: latestQuality.nonGapCardCount,
       newFactCount: latestQuality.newFactCount,
       oldLineReviewCount: latestQuality.oldLineReviewCount,
+      contextCount: latestQuality.contextCount,
       weakSignalCount: latestQuality.weakSignalCount,
       gapCount: latestQuality.gapCount,
-      sourcePlatformCount: latestQuality.latestPlatforms.length,
-      sourceUrlCount: latestQuality.latestLinks,
+      gapRecordCount: latestQuality.gapRecordCount,
+      sourcePlatformCount: latestQuality.sourcePlatformCount,
+      sourceUrlCount: latestQuality.sourceUrlCount,
       channelTypeCount: latestQuality.channelTypes.length,
       channelTypes: latestQuality.channelTypes,
-      infoTypeDistribution: latestQuality.infoTypeStats,
-      channelTypeDistribution: latestQuality.channelStats,
-      conclusionConfidenceDistribution: latestQuality.confidenceStats,
-      sourceUrlMissingItemIds: latestQuality.latestSourceUrlsMissing,
+      infoTypeDistribution: latestQuality.infoTypeDistribution,
+      channelTypeDistribution: latestQuality.channelCoverage,
+      channelCoverage: latestQuality.channelCoverage,
+      confidenceDistribution: latestQuality.confidenceDistribution,
+      conclusionConfidenceDistribution: latestQuality.confidenceDistribution,
+      subtopicDistribution: latestQuality.subtopicDistribution,
+      subtopicConcentration: latestQuality.subtopicConcentration,
+      privateSignalRatio: latestQuality.privateSignalRatio,
+      sourceUrlMissingItemIds: latestQuality.sourceUrlMissingItemIds,
+      sourceUrlMissingCount: latestQuality.sourceUrlMissingCount,
+      fieldCompleteness: latestQuality.fieldCompleteness,
       explicitFieldWarnings: latestQuality.fieldWarnings,
       abcScore: latestQuality.abcScore,
-      thinInsightCount: latestQuality.thinInsights,
+      thinInsightCount: latestQuality.thinInsightCount,
+      oldLineDisguisedAsNew: latestQuality.oldLineDisguisedAsNew,
+      weakSignalsOverclaimed: latestQuality.weakSignalsOverclaimed,
+      hasValidGapRecord: latestQuality.hasValidGapRecord,
     },
+    recentDays: recentDays.map((day) => ({
+      date: day.date,
+      cardCount: day.cardCount,
+      nonGapCardCount: day.nonGapCardCount,
+      newFactCount: day.newFactCount,
+      contextCount: day.contextCount,
+      weakSignalCount: day.weakSignalCount,
+      gapRecordCount: day.gapRecordCount,
+      sourcePlatformCount: day.sourcePlatformCount,
+      sourceUrlCount: day.sourceUrlCount,
+      sourceUrlMissingCount: day.sourceUrlMissingCount,
+      channelTypeCount: day.channelTypeCount,
+      channelTypes: day.channelTypes,
+      channelCoverage: day.channelCoverage,
+      confidenceDistribution: day.confidenceDistribution,
+      subtopicDistribution: day.subtopicDistribution,
+      subtopicConcentration: day.subtopicConcentration,
+      privateSignalRatio: day.privateSignalRatio,
+      fieldCompleteness: day.fieldCompleteness,
+      qualityIssues: [
+        ...(day.newFactCount < 5 && !day.hasValidGapRecord ? ['新增事实少于 5 条且缺少有效缺口记录'] : []),
+        ...(day.newFactCount < 5 && day.hasValidGapRecord ? ['新增事实少于 5 条，已有缺口记录'] : []),
+        ...(day.channelTypeCount < MIN_CHANNEL_TYPES ? [`渠道类型少于 ${MIN_CHANNEL_TYPES} 类`] : []),
+        ...(day.sourceUrlMissingCount > 0 ? [`sourceUrl 缺失 ${day.sourceUrlMissingCount} 条`] : []),
+        ...(day.fieldCompleteness.requiredFieldMissingCount > 0 ? [`结构字段缺失 ${day.fieldCompleteness.requiredFieldMissingCount} 项`] : []),
+        ...(day.weakSignalsOverclaimed.length > 0 ? [`弱信号越级：${day.weakSignalsOverclaimed.join(', ')}`] : []),
+      ],
+    })),
     totals: {
       days: days.length,
       cards: items.length,
@@ -380,16 +595,10 @@ function main() {
     },
     trustStats,
     missing,
-    warnings: latestQuality.warnings,
-    criticalIssues: latestQuality.criticalIssues,
-    brokenLinks: [],
-    links: {
-      checkedAt: null,
-      qualityStatus: 'pending',
-      firstPartyChecked: 0,
-      externalWarnings: 0,
-      brokenCount: 0,
-    },
+    warnings,
+    criticalIssues,
+    brokenLinks: linkState.brokenLinks,
+    links: linkState.links,
     governance: '信息库负责广谱前沿雷达；专题项目负责假设检验；知识库负责长期复利，三者分开治理、周期互补。',
   };
 
@@ -404,7 +613,10 @@ function main() {
   const trustRows = Object.entries(trustStats)
     .map(([trust, count]) => `| ${trust} | ${count} |`)
     .join('\n');
-  const warningList = [...latestQuality.criticalIssues, ...latestQuality.warnings];
+  const warningList = [...criticalIssues, ...warnings];
+  const recentRows = status.recentDays
+    .map((day) => `| ${day.date} | ${day.cardCount} | ${day.newFactCount} | ${day.contextCount} | ${day.weakSignalCount} | ${day.gapRecordCount} | ${day.channelTypes.join('、') || '未识别'} | ${day.confidenceDistribution.L1 || 0}/${day.confidenceDistribution.L2 || 0}/${day.confidenceDistribution.L3 || 0}/${day.confidenceDistribution.L4 || 0} | ${day.qualityIssues.length ? day.qualityIssues.join('；') : '无'} |`)
+    .join('\n');
 
   const markdown = `# 信息库滚动流状态
 
@@ -422,12 +634,21 @@ function main() {
 - 最新日期来源平台数：${status.latest.sourcePlatformCount}
 - 最新日期渠道覆盖：${status.latest.channelTypes.join('、') || '未识别'}
 - 最新日期可追溯链接数：${status.latest.sourceUrlCount}
+- 最新日期字段完整度缺口：${status.latest.fieldCompleteness.requiredFieldMissingCount}
+- 最新日期子主题集中度：${Math.round(status.latest.subtopicConcentration * 100)}%
+- 最新日期私有/匿名/脱敏信号占比：${Math.round(status.latest.privateSignalRatio * 100)}%
 - 总天数：${days.length}
 - 总条目：${items.length}
 
 ## 质量闸门
 
 ${warningList.length ? warningList.map((issue) => `- ⚠️ ${issue}`).join('\n') : '- ✅ 最新日期未触发密度、来源、链接、字段或表达质量警报。'}
+
+## 最近 7 个信息日
+
+| 日期 | 卡片 | 新增事实 | Context | 弱信号 | 缺口 | 渠道覆盖 | L1/L2/L3/L4 | 质量提示 |
+|---|---:|---:|---:|---:|---:|---|---|---|
+${recentRows}
 
 ## 可信度分布
 
@@ -436,6 +657,8 @@ ${warningList.length ? warningList.map((issue) => `- ⚠️ ${issue}`).join('\n'
 ${trustRows}
 
 ## 字段缺失
+
+> 旧字段按全库统计；信息类型、渠道类型、结论置信度、验证问题按最新日期强检查统计，最近 7 个信息日详见上表。
 
 | 字段 | 缺失条目数 |
 |---|---:|
