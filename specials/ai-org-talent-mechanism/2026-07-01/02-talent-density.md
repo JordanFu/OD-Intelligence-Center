@@ -1,53 +1,106 @@
 # 2026-07-01｜专题二：高人才密度与复合型人才机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+## 1. 今日一句话专题判断
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+“高人才密度”的最新硬信号不是提高招聘门槛，而是把少数复合型人才放到真实部署、客户现场、AI 工作流、风险治理和业务结果中检验，并用授权、项目机会、薪酬溢价和可审计晋升证据承接。
 
-## 今日一句话结论
+## 2. 今日新增事实
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+| 事实 | 来源 | 发布时间 | 证据等级 |
+|---|---|---:|---|
+| AWS 投入 10 亿美元建立 FDE 组织，嵌入客户业务、工程、安全团队，共建 agentic AI 生产系统，并产出 runbook、知识图谱、内部 champion | AWS 官方：https://www.aboutamazon.com/news/aws/aws-1-billion-forward-deployed-ai-engineers | 2026-06-30 前后 | L3 |
+| AWS Partner FDE 要求合作伙伴建立 ring-fenced、AWS-credentialed 工程团队，通过 AWS production bar | AWS APN：https://aws.amazon.com/blogs/apn/introducing-forward-deployed-engineering-for-partners-winning-the-future-of-enterprise-ai/ | 2026-06-30 前后 | L3 |
+| Anthropic Applied AI Architect 岗位负责 discovery、eval、deployment、架构集成、跨 Sales/Product/Engineering 协同，薪酬区间为 240K-345K 美元 OTE | Anthropic Greenhouse：http://job-boards.greenhouse.io/anthropic/jobs/5140403008 | 2026-07-01 抽取有效 | L2 |
+| 字节跳动新版领导力原则进入 2026 半年绩效周期；公开报道强调外部视角、上下文、一线判断和实质产出 | 北京日报：https://news.bjd.com.cn/2026/06/30/11836953.shtml | 2026-06-30 | L2 |
+| Randstad 称 AI fluency + human capabilities 正在加速职业晋升，AI Solutions Leads 需求上升，AI 集成领导人才短缺 | Randstad：https://www.randstad.com/press/2026/the-new-career-currency/ | 2026 | L2 |
+| BCG 和 Deloitte 均强调 AI 时代要重构组织、角色、流程、能力编排和授权，而不是只做工具培训 | BCG：https://www.bcg.com/publications/2026/how-tech-leaders-must-reinvent-for-the-ai-era；Deloitte：https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends.html | 2026 | L2-L3 |
 
-## 今日核心判断
+## 3. 今日核心判断
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+1. **识别标准应从“AI 熟练”升级为“部署型复合能力”。可信度：高。** 高密度人才的关键维度是业务判断、AI 编排、流程理解、客户/组织沟通、风险治理、复用沉淀和结果负责。重要性：防止把会用工具误判为高潜。
+2. **评价指标要看真实项目证据。可信度：高。** 最强证据不是培训证书或工具活跃，而是能否拆解模糊问题、定义 eval、接入数据/权限、交付生产系统、沉淀运行手册并让他人复用。重要性：人才盘点要从主观评价转向可审计项目证据。
+3. **面试机制应加入现场任务和反思轨迹。可信度：中高。** Zapier AI fluency 招聘材料提示，技能测试要观察候选人的问题拆解、迭代、质疑输出、验证和失败模式，而不是漂亮答案。重要性：提高复合型人才识别质量。
+4. **内部发现要通过项目分配实现。可信度：高。** AWS/Anthropic/FDE 线索说明，复合型人才常在客户现场、跨团队部署、评估框架和复杂 stakeholder 中显现。重要性：人才盘点不能只靠经理提名。
+5. **薪酬股权要承接稀缺性，但避免 title inflation。可信度：中高。** Anthropic OTE、Randstad/Korn Ferry、Payscale 共同提示 AI+领域复合能力存在溢价。重要性：涨薪和保留问题不应全部伪装成新职级。
 
-## 今日背景材料
+## 4. 重点案例事实还原
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+### 案例 A：AWS FDE，从专家外派到能力迁移
 
-## 今日新增证据地图
+- **背景：** 企业 AI 进入生产部署阶段，真实难点是数据、权限、流程、安全、评估和客户内部能力迁移。
+- **时间线：** 2026-06-30 前后 AWS 正式宣布 10 亿美元 FDE 组织，并同步 partner-led FDE。
+- **动作：** 嵌入客户团队，在客户真实业务、工程、安全约束下共同构建 agentic AI 解决方案。
+- **机制：** 通过生产系统、知识图谱、运行手册、架构文档、内部 champion，把能力留在客户组织内部。
+- **结果：** 官方宣称可缩短部署周期，但效果仍需独立验证。
+- **争议和阻碍：** 依赖高密度复合人才；规模化可能受交付质量、人才供给和伙伴认证约束。
+- **可借鉴点：** 高人才密度要看“能否让组织获得新能力”，而不只是个人产出高。
+- **不可照搬点：** 如果组织缺少真实项目、授权、数据权限和复核机制，FDE 只会变成高压救火队。
 
-| 渠道 | 当前状态 | 必须补齐 |
+### 案例 B：Anthropic Applied AI Architect
+
+- **背景：** 公共部门、金融、医疗等强治理客户对 AI adoption 的要求高于普通工具采购。
+- **时间线：** 2026-07-01 抽取到 Anthropic 官方岗位页；与 2026-06-29 加州政府合作旧线互证。
+- **动作：** 岗位负责 technical discovery、evaluation、deployment，并与 Sales、Product、Engineering 协作。
+- **机制：** 把客户理解、LLM、Python、云架构、eval、安全可靠性、沟通和产品反馈合成一个复合责任包。
+- **结果：** 支持“部署型复合人才”正在成为 AI 原生公司的高价值岗位样本。
+- **争议和阻碍：** 单个岗位页不能证明完整公共部门组织线成熟。
+- **可借鉴点：** 高密度人才的识别应纳入客户/内部用户理解、评估和治理能力。
+- **不可照搬点：** 不能把所有技术岗位都包装成 Applied AI；要看真实部署责任和评价标准。
+
+### 案例 C：字节领导力原则进入绩效周期
+
+- **背景：** 国内互联网公司开始把 AI 时代管理语言纳入文化与领导力框架。
+- **动作：** 公开报道显示新版领导力原则进入 2026 半年绩效周期。
+- **机制含义：** 一线判断、上下文供给、高目标、实质产出可能成为管理者评价证据语言。
+- **边界：** 公开证据不足以证明奖金、晋升、调薪或干部任免规则已改变。
+
+## 5. Context 层
+
+- 暂不形成结论，但提示我们关注：腾讯 AI token、美团前后端合并、蚂蚁测试转研发等线索仍缺官方或多源互证，只能放入弱信号池。
+- 暂不形成结论，但提示我们关注：AI fluency 进入招聘门槛不等于直接进入晋升规则。
+- 暂不形成结论，但提示我们关注：高人才密度若没有授权、薪酬和学习机制，容易退化成更少人承担更多压力。
+- 暂不形成结论，但提示我们关注：AI 原生公司更早把能力标准嵌入招聘、部署和客户成功，但普通企业复制时会遇到数据权限、流程成熟度和安全边界问题。
+
+## 6. 证据地图
+
+| 机制环节 | 当前最好证据 | 等级 |
 |---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+| 识别标准 | Zapier AI Fluency、CFTE AI Proficiency、本地能力矩阵 | L2-L3 |
+| 面试机制 | Zapier 四触点招聘与技能测试 | L3 |
+| 内部发现 | AWS FDE、Anthropic Applied AI、真实部署项目 | L2-L3 |
+| 项目分配 | AWS embedded model、Partner FDE production bar | L3 |
+| 薪酬股权 | Anthropic OTE、Randstad/Korn Ferry AI 溢价、Payscale | L2-L3 |
+| 快速晋升 | Randstad AI fluency 晋升加速；GitLab 晋升治理作校准基线 | L2 |
+| 授权机制 | AWS 客户自给、runbook、knowledge graph、champion | L3 |
+| 学习机制 | Zapier manager-led adoption、Deloitte continuous learning | L2-L3 |
+| 盘点机制 | CFTE levels、skills-based organization、GitLab promotion document | L2-L3 |
+| 保留机制 | 股权刷新、项目机会、稀缺技能带宽；公开硬案例仍少 | L1-L2 |
 
-## 线索层
+## 7. 对我们行动的启发
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+- 建一张复合型人才六维表：业务判断、AI 编排、流程/系统理解、风险治理、跨职能影响、复用资产。
+- 人才盘点增加真实项目证据：eval、runbook、workflow asset、复用人数、风险处置、客户/内部 adoption。
+- 面试增加 live AI workflow exercise，让候选人解释取舍、验证和失败模式。
+- 项目分配采用“高授权 + 明确复核”：给上下文、权限边界、验收标准和升级路径。
+- 激励分层：短期战功给奖金/专项激励，持续 scope 扩大给 acting scope/晋升，市场稀缺给带宽/股权刷新。
+- 晋升材料必须写清：业务问题、AI 工作流、质量标准、风险控制、复用范围、他人采用、量化影响。
 
-## 待补齐的落地问题
+## 8. 待验证清单与下一步搜索路径
 
-正式重跑必须回答：复合型人才的能力证据是什么、是否有招聘/JD/薪酬信号、是否存在验证和治理能力的溢价、组织如何避免把“少招人”包装成高人才密度。
+1. AWS FDE 是否形成独立职级、晋升路径、绩效指标和 partner 认证机制。
+2. ByteDance 新版领导力原则是否进入奖金、调薪、晋升和干部任免。
+3. Anthropic 是否出现 Public Sector Applied AI manager/head 层级和部署 playbook。
+4. 国内 AI 复合型人才薪酬是否有可核验公司公告、招聘页或薪酬报告。
+5. AI fluency 是否被更多公司正式写入 promotion rubric，而非只进入招聘门槛。
 
-## 来源索引
+## 9. 来源索引
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+- AWS FDE：https://www.aboutamazon.com/news/aws/aws-1-billion-forward-deployed-ai-engineers
+- AWS Partner FDE：https://aws.amazon.com/blogs/apn/introducing-forward-deployed-engineering-for-partners-winning-the-future-of-enterprise-ai/
+- Anthropic Applied AI Architect：http://job-boards.greenhouse.io/anthropic/jobs/5140403008
+- 北京日报 ByteDance：https://news.bjd.com.cn/2026/06/30/11836953.shtml
+- BCG AI operating model：https://www.bcg.com/publications/2026/how-tech-leaders-must-reinvent-for-the-ai-era
+- Deloitte Human Capital Trends：https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends.html
+- Randstad AI career currency：https://www.randstad.com/press/2026/the-new-career-currency/
+- Korn Ferry AI fluency pay：https://www.kornferry.com/insights/this-week-in-leadership/a-bonus-for-ai-fluency
+- Zapier AI fluency：https://zapier.com/blog/raising-ai-fluency-bar-in-hiring/

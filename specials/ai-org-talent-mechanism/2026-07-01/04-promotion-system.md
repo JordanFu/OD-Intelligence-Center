@@ -1,53 +1,103 @@
 # 2026-07-01｜专题四：未来组织的晋升机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+## 1. 今日一句话专题判断
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+未来晋升机制不应从“固定窗口”跳到“随时晋升”；更稳的组合是固定校准窗口负责公平、预算和薪酬一致性，即时认可/项目奖金承接短期战功，acting scope 验证责任扩大，AI 贡献进入可审计 promotion packet，而不是用 AI 使用量换职级。
 
-## 今日一句话结论
+## 2. 今日新增事实
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+| 事实 | 来源 | 发布时间 | 证据等级 |
+|---|---|---:|---|
+| ByteDance 新版领导力原则进入 2026 半年绩效周期，公开报道强调外部视角、一线信息、上下文供给、高目标和实质产出 | 北京日报：https://news.bjd.com.cn/2026/06/30/11836953.shtml | 2026-06-30 | L2 |
+| AWS FDE 将部署责任、客户能力迁移、运行手册、内部 champion 和质量验证组织化，提示 AI 贡献需要被写成可复用资产和业务影响证据 | AWS 官方：https://www.aboutamazon.com/news/aws/aws-1-billion-forward-deployed-ai-engineers | 2026-06-30 前后 | L3 |
+| GitLab 官方 Handbook 用固定校准、promotion document、business justification、跨职能反馈、PBP/Total Rewards/FP&A 审批管理晋升 | GitLab：https://handbook.gitlab.com/handbook/people-group/promotions-transfers/ | 持续更新 | L3 |
+| Zapier AI Fluency Rubric V2 将 AI 能力从“会用工具”升级为核心工作嵌入、可重复系统、可度量影响和 accountability | Zapier：https://zapier.com/blog/raising-ai-fluency-bar-in-hiring/ | 2026 | L2-L3 |
+| Payscale 2026 显示 61% 组织已更新角色以包含 AI 技能/能力，但 55% 尚未调整 AI 技能薪酬；33% 将绩效评估直接连接晋升，57% 连接基本薪资增长 | Payscale：https://www.payscale.com/press-releases/2026-compensation-best-practices-report | 2026-02-24 | L3 |
+| Workday Skills Cloud、CFTE AI Proficiency、Microsoft WTI 2026 支持“技能数据/能力认证用于流动和发展，但晋升仍要看业务影响和责任扩大” | Workday：https://www.workday.com/en-us/products/human-capital-management/skills-cloud.html；Microsoft：https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization | 2026 | L2-L3 |
 
-## 今日核心判断
+## 3. 今日核心判断
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+1. **固定晋升窗口仍应保留。可信度：高。** 它的价值不是慢，而是让同级比较、薪酬预算、组织需要和公平审计有统一时点。重要性：AI 贡献变化越快，越需要防止“谁更会包装 AI 故事谁先升”。
+2. **即时晋升应是治理例外，不是默认制度。可信度：高。** 适用条件应同时满足：已稳定承担下一层级责任、岗位价值或业务范围已经改变、业务需要该层级持续存在、薪酬预算和内部公平可解释。重要性：避免晋升通胀和内部公平风险。
+3. **项目制晋升应先走 acting scope。可信度：中高。** AI 项目常有短期峰值，适合先给项目负责人身份、项目奖金、临时授权或公开认可；连续 1-2 个周期证明责任可持续后，再进入正式晋升窗口。重要性：让快速激励和长期职级分开。
+4. **AI 贡献度评估必须看可审计贡献链。可信度：高。** 证据包包括业务问题、AI 工作流、质量标准、风险控制、人工复核、复用范围、他人采用、量化影响和责任边界。重要性：工具活跃度不能替代业务影响。
+5. **能力认证和技能徽章适合做门槛、分配和发展，不适合单独决定晋升。可信度：中高。** 认证提高透明度，但晋升仍要证明更大 scope、更高复杂度、更强业务影响和更稳定责任。重要性：避免证书化和形式主义。
+6. **薪酬校准要与晋升部分解耦。可信度：高。** AI 稀缺能力可能需要技能津贴、市场调整、项目奖金、股权刷新或薪酬带宽扩展；不要把所有保留和稀缺定价问题都塞进 title promotion。重要性：减少新序列和晋升资源滥用。
 
-## 今日背景材料
+## 4. 重点案例事实还原
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+### 案例 A：GitLab 固定校准 + 可审计晋升文档
 
-## 今日新增证据地图
+- **背景：** 分布式公司需要让晋升可比较、可解释、可预算。
+- **时间线：** GitLab Handbook 长期公开更新，作为公司一手制度样本。
+- **动作：** 使用半年校准、promotion document、business justification、values alignment、job framework、跨职能反馈和薪酬预算审批。
+- **机制：** 晋升不是奖励过去，而是确认业务需要这个人在更高层级持续承担责任。
+- **结果：** 提供 AI 时代晋升治理的强参照：AI 贡献可以进入证据包，但仍需业务必要性、责任扩大和校准。
+- **争议和阻碍：** GitLab 的公开 handbook 不能直接复制到所有组织；需要匹配本公司职级、预算和绩效周期。
+- **可借鉴点：** 用 promotion document 固化证据，减少经理主观判断。
+- **不可照搬点：** 不要把文档流程做成形式主义；证据必须连接业务结果和未来责任。
 
-| 渠道 | 当前状态 | 必须补齐 |
+### 案例 B：Zapier AI Fluency 进入能力门槛
+
+- **背景：** AI 能力成为招聘、岗位能力和管理者带队采用的重要要求。
+- **动作：** Zapier 将 AI fluency 写入招聘和岗位能力评价，V2 门槛从“用过 AI”提高到“AI 已嵌入核心工作并带来可度量改善”。
+- **机制：** AI fluency 成为门槛和证据语言，高阶员工/管理者还要证明团队级工作流改造和治理责任。
+- **结果：** 支持“AI fluency 是晋升条件之一，不是晋升理由本身”。
+- **不可照搬点：** 不能用自评、证书或工具日志直接决定晋升。
+
+### 案例 C：Payscale 薪酬承接滞后
+
+- **背景：** AI 技能快速进入岗位要求，但薪酬制度调整更慢。
+- **事实：** Payscale 2026 显示多数组织已更新角色以包含 AI 技能，但多数尚未调整 AI 技能薪酬。
+- **机制含义：** 企业会先提高岗位要求，再慢慢校准薪酬和晋升制度。
+- **启发：** 短期更现实的设计是技能标签、项目激励和薪酬校准，而不是立刻重写所有晋升规则。
+
+## 5. Context 层
+
+- 暂不形成结论，但提示我们关注：AI runtime log 可辅助晋升评审，但如果缺少隐私、解释、申诉和误判纠正机制，会破坏信任。
+- 暂不形成结论，但提示我们关注：技能徽章可能制造新的不公平，因为学习时间、数据权限、真实项目机会并不均等。
+- 暂不形成结论，但提示我们关注：项目负责人、FDE、AI workflow owner 等新角色可能变成长期岗位族群，也可能只是阶段性项目接口。
+- 暂不形成结论，但提示我们关注：AI 贡献的同行评审会变重要，因为直属经理未必看得见跨团队复用、质量风险和真实影响。
+- 暂不形成结论，但提示我们关注：微信/社媒关于 AI Agent 后绩效、薪酬、晋升变化的观点适合作为问题池，不能直接进入结论层。
+
+## 6. 证据地图
+
+| 渠道 | 今日证据 | 等级 |
 |---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+| 官方/一手 | GitLab Handbook、AWS FDE、Microsoft WTI、Workday Skills Cloud | L1-L3 |
+| 权威媒体/咨询 | Payscale、BCG、Deloitte、PwC、CFTE | L2-L3 |
+| 公司案例 | GitLab、Zapier、AWS、ByteDance | L2-L3 |
+| 学术/研究 | Organizational Control Layer、Codex for Knowledge Work | L2 |
+| 招聘薪酬 | Payscale、Anthropic OTE、Amazon AI Red Team salary | L2-L3 |
+| 社媒/职场线索 | 微信公众号/LinkedIn 讨论 | L3 |
+| 内部信息库/知识库 | auditable promotion evidence、GitLab 卡片、promotion baseline | L2-L3 |
 
-## 线索层
+## 7. 对我们行动的启发
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+- 设计双轨晋升节奏：固定窗口处理正式晋升；窗口外处理例外晋升、acting scope、spot bonus、项目奖金和市场薪酬调整。
+- 建立 AI contribution packet：业务问题、工作流、质量、风险、复用、采用、影响、责任边界。
+- 将 AI fluency 设为分层门槛：全员安全使用、骨干工作流改造、专家/管理者系统治理。
+- 建立同行评审：AI 项目至少收集 stakeholder、用户、平台/安全/数据方反馈。
+- 把薪酬校准单独建模：AI 稀缺技能优先用津贴、项目激励、市场调整或股权刷新解决。
+- 明确绩效与晋升关系：绩效证明过去结果，晋升证明未来更大责任的业务必要性和准备度。
 
-## 待补齐的落地问题
+## 8. 待验证清单与下一步搜索路径
 
-正式重跑必须回答：AI 贡献如何进入晋升证据包、谁负责验证与质量、是否有校准机制、是否存在调岗降薪和劳动合规风险。
+1. 哪些公司已正式把 AI contribution 写入 promotion packet 或 performance review。
+2. 是否有公开的 AI impact memo、agent-orchestrator scorecard、AI workflow asset 评审模板。
+3. 国内公司是否出现“技能徽章 + 人才委员会 + 晋升校准”的公开制度样本。
+4. AI runtime log 用于绩效/晋升时，隐私、申诉、保留周期和偏差审计如何设计。
+5. 项目制晋升的最小观察周期应是一个项目、一个季度，还是两个绩效周期。
+6. ByteDance 新领导力原则是否实际进入奖金、调薪、晋升和干部任免。
 
-## 来源索引
+## 9. 来源索引
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+- GitLab Promotions and Transfers：https://handbook.gitlab.com/handbook/people-group/promotions-transfers/
+- Zapier AI fluency：https://zapier.com/blog/raising-ai-fluency-bar-in-hiring/
+- Payscale CBPR：https://www.payscale.com/press-releases/2026-compensation-best-practices-report
+- AWS FDE：https://www.aboutamazon.com/news/aws/aws-1-billion-forward-deployed-ai-engineers
+- 北京日报 ByteDance：https://news.bjd.com.cn/2026/06/30/11836953.shtml
+- Workday Skills Cloud：https://www.workday.com/en-us/products/human-capital-management/skills-cloud.html
+- Microsoft Work Trend Index：https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization
+- Deloitte Human Capital Trends：https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends.html
+- PwC AI Jobs Barometer：https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html
