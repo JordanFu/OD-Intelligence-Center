@@ -4,6 +4,12 @@
 
 ---
 
+## [2026-07-01] ingest | Phase 4 核心实体与概念页回流
+- 新增 8 个核心实体页：OpenAI、Anthropic、AWS / Amazon、Cursor、ByteDance、Oracle、GitLab、Microsoft。
+- 新增 3 个概念页：FDE / Applied AI、AI workforce risk、可审计晋升证据。
+- 更新 `knowledge/index.md` 与 `knowledge/catalog.json`，把 Phase 3 四专题账本和最近 7 个信息日中的高价值判断回流到知识导航。
+- 本次仅使用仓库相对路径和公开安全证据；未读取 PDF 原文，未改 digest、daily、daily-report、首页或专题账本。
+
 ## [2026-07-01] ingest | 日报 PDF 证据源自动入库
 - 从 daily、daily-report、specials、analysis 中扫描 PDF URL，按知识库 Raw/Wiki/Catalog 规则自动建档。
 - 本次识别 20 个唯一 PDF 来源：15 个已下载原始 PDF，5 个保留 URL 与引用上下文待重试。

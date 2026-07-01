@@ -61,10 +61,22 @@
 | 9 | [McKinsey 组织九大变革框架](wiki/mckinsey-nine-shifts-2026.md) | 用三股结构性力量解释 2026 年九个组织变革议题 | McKinsey / Obsidian |
 | 10 | [绩效管理标杆实践：四种机制流派](wiki/performance-management-benchmark-patterns.md) | 将绩效机制抽象为相对排名、自主发展、快照记录、分层差异四类 | Obsidian synthesis |
 | 11 | [AI 原生组织](wiki/ai-native-organization-operating-pattern.md) | 从加 AI 功能到长 AI 基因，围绕人机协同重构业务、组织与激励 | Obsidian synthesis |
+| 12 | [FDE / Applied AI](concepts/fde-applied-ai.md) | 客户现场部署、产品反馈、交付质量和伙伴协同形成的新组织接口 | Phase 4 |
+| 13 | [AI workforce risk](concepts/ai-workforce-risk.md) | AI 部署带来的技能、知识保留、士气、留任和外部转型风险链条 | Phase 4 |
+| 14 | [可审计晋升证据](concepts/auditable-promotion-evidence.md) | 把 AI 贡献转化为业务影响、复用机制和责任扩大的可复核证据 | Phase 4 |
 
 ## 实体页
 
-（待补充）
+| # | 实体 | 说明 | 关联主题 |
+|---|------|------|------|
+| 1 | [OpenAI](entities/openai.md) | DeployCo 与 Codex 作为企业部署组织和代理式知识工作证据 | FDE / Applied AI, 晋升证据 |
+| 2 | [Anthropic](entities/anthropic.md) | Applied AI、公共部门部署和 Frontier Red Team 的组织接口信号 | FDE / Applied AI, AI workforce risk |
+| 3 | [AWS / Amazon](entities/aws-amazon.md) | AWS FDE、AI Red Team 与技能转型信号 | FDE / Applied AI, AI workforce risk |
+| 4 | [Cursor](entities/cursor.md) | FDE 管理化、交付质量和产品反馈接口 | FDE / Applied AI |
+| 5 | [ByteDance](entities/bytedance.md) | AI 时代领导力原则进入绩效语境的中国公司观察 | 可审计晋升证据 |
+| 6 | [Oracle](entities/oracle.md) | AI 部署、人力调整、技能短缺和知识流失进入正式风险链条 | AI workforce risk |
+| 7 | [GitLab](entities/gitlab.md) | 公开晋升与内部流动机制作为 AI 晋升证据治理参照 | 可审计晋升证据 |
+| 8 | [Microsoft](entities/microsoft.md) | 人机协作、manager role 和组织准备度的背景实体 | 人机协作, 晋升证据 |
 
 ## 原始资料
 

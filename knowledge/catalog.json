@@ -1838,6 +1838,319 @@
         "hkexnews.hk"
       ],
       "originalUrl": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0623/2026062301078_c.pdf"
+    },
+    {
+      "id": "entity-openai",
+      "title": "OpenAI",
+      "originalTitle": "OpenAI",
+      "author": "OD Intelligence Center",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "public-safe-synthesis",
+      "topics": [
+        "AI组织设计",
+        "职级改革"
+      ],
+      "date": "2026-07-01",
+      "uploadDate": "2026-07-01",
+      "description": "DeployCo 与 Codex 作为企业部署组织、任务封装和可审计 AI 贡献的实体锚点。",
+      "summaryFile": "./knowledge/entities/openai.md",
+      "tags": [
+        "Phase4知识回流",
+        "AI组织设计",
+        "职级改革"
+      ],
+      "related": [
+        "./knowledge/concepts/fde-applied-ai.md",
+        "./knowledge/concepts/auditable-promotion-evidence.md"
+      ],
+      "backlinks": [
+        "./specials/ai-org-talent-mechanism/topics/job-family-career-architecture/evidence-map.md",
+        "./specials/ai-org-talent-mechanism/topics/promotion-system/evidence-map.md"
+      ]
+    },
+    {
+      "id": "entity-anthropic",
+      "title": "Anthropic",
+      "originalTitle": "Anthropic",
+      "author": "OD Intelligence Center",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "public-safe-synthesis",
+      "topics": [
+        "AI组织设计",
+        "人才发展"
+      ],
+      "date": "2026-07-01",
+      "uploadDate": "2026-07-01",
+      "description": "Applied AI、公共部门部署和 Frontier Red Team 的组织接口信号。",
+      "summaryFile": "./knowledge/entities/anthropic.md",
+      "tags": [
+        "Phase4知识回流",
+        "AI组织设计",
+        "人才发展"
+      ],
+      "related": [
+        "./knowledge/concepts/fde-applied-ai.md",
+        "./knowledge/concepts/ai-workforce-risk.md"
+      ],
+      "backlinks": [
+        "./specials/ai-org-talent-mechanism/topics/job-family-career-architecture/evidence-map.md"
+      ]
+    },
+    {
+      "id": "entity-aws-amazon",
+      "title": "AWS / Amazon",
+      "originalTitle": "AWS / Amazon",
+      "author": "OD Intelligence Center",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "public-safe-synthesis",
+      "topics": [
+        "AI组织设计",
+        "人才发展"
+      ],
+      "date": "2026-07-01",
+      "uploadDate": "2026-07-01",
+      "description": "AWS FDE、Amazon AI Red Team 与 AI 技能转型的组织机制证据。",
+      "summaryFile": "./knowledge/entities/aws-amazon.md",
+      "tags": [
+        "Phase4知识回流",
+        "AI组织设计",
+        "人才发展"
+      ],
+      "related": [
+        "./knowledge/concepts/fde-applied-ai.md",
+        "./knowledge/concepts/ai-workforce-risk.md"
+      ],
+      "backlinks": [
+        "./specials/ai-org-talent-mechanism/topics/job-family-career-architecture/evidence-map.md",
+        "./specials/ai-org-talent-mechanism/topics/talent-density/evidence-map.md"
+      ]
+    },
+    {
+      "id": "entity-cursor",
+      "title": "Cursor",
+      "originalTitle": "Cursor",
+      "author": "OD Intelligence Center",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "public-safe-synthesis",
+      "topics": [
+        "AI组织设计",
+        "职级改革"
+      ],
+      "date": "2026-07-01",
+      "uploadDate": "2026-07-01",
+      "description": "FDE 管理化、交付质量、产品反馈和伙伴交付接口的实体锚点。",
+      "summaryFile": "./knowledge/entities/cursor.md",
+      "tags": [
+        "Phase4知识回流",
+        "AI组织设计",
+        "职级改革"
+      ],
+      "related": [
+        "./knowledge/concepts/fde-applied-ai.md"
+      ],
+      "backlinks": [
+        "./specials/ai-org-talent-mechanism/topics/job-family-career-architecture/evidence-map.md"
+      ]
+    },
+    {
+      "id": "entity-bytedance",
+      "title": "ByteDance",
+      "originalTitle": "ByteDance",
+      "author": "OD Intelligence Center",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "public-safe-synthesis",
+      "topics": [
+        "AI组织设计",
+        "绩效管理"
+      ],
+      "date": "2026-07-01",
+      "uploadDate": "2026-07-01",
+      "description": "AI 时代领导力原则进入绩效语境的中国公司观察。",
+      "summaryFile": "./knowledge/entities/bytedance.md",
+      "tags": [
+        "Phase4知识回流",
+        "AI组织设计",
+        "绩效管理"
+      ],
+      "related": [
+        "./knowledge/concepts/auditable-promotion-evidence.md"
+      ],
+      "backlinks": [
+        "./specials/ai-org-talent-mechanism/topics/promotion-system/evidence-map.md"
+      ]
+    },
+    {
+      "id": "entity-oracle",
+      "title": "Oracle",
+      "originalTitle": "Oracle",
+      "author": "OD Intelligence Center",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "public-safe-synthesis",
+      "topics": [
+        "AI组织设计",
+        "变革管理"
+      ],
+      "date": "2026-07-01",
+      "uploadDate": "2026-07-01",
+      "description": "AI 部署、人力调整、技能短缺和知识流失进入正式风险链条的实体锚点。",
+      "summaryFile": "./knowledge/entities/oracle.md",
+      "tags": [
+        "Phase4知识回流",
+        "AI组织设计",
+        "变革管理"
+      ],
+      "related": [
+        "./knowledge/concepts/ai-workforce-risk.md"
+      ],
+      "backlinks": [
+        "./specials/ai-org-talent-mechanism/topics/flat-organization/evidence-map.md",
+        "./specials/ai-org-talent-mechanism/topics/talent-density/evidence-map.md"
+      ]
+    },
+    {
+      "id": "entity-gitlab",
+      "title": "GitLab",
+      "originalTitle": "GitLab",
+      "author": "OD Intelligence Center",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "public-safe-synthesis",
+      "topics": [
+        "绩效管理",
+        "组织文化"
+      ],
+      "date": "2026-07-01",
+      "uploadDate": "2026-07-01",
+      "description": "公开晋升与内部流动机制作为 AI 晋升证据治理参照。",
+      "summaryFile": "./knowledge/entities/gitlab.md",
+      "tags": [
+        "Phase4知识回流",
+        "绩效管理",
+        "组织文化"
+      ],
+      "related": [
+        "./knowledge/concepts/auditable-promotion-evidence.md"
+      ],
+      "backlinks": [
+        "./specials/ai-org-talent-mechanism/topics/promotion-system/evidence-map.md"
+      ]
+    },
+    {
+      "id": "entity-microsoft",
+      "title": "Microsoft",
+      "originalTitle": "Microsoft",
+      "author": "OD Intelligence Center",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "public-safe-synthesis",
+      "topics": [
+        "AI组织设计",
+        "领导力"
+      ],
+      "date": "2026-07-01",
+      "uploadDate": "2026-07-01",
+      "description": "人机协作、manager role 和组织准备度的背景实体。",
+      "summaryFile": "./knowledge/entities/microsoft.md",
+      "tags": [
+        "Phase4知识回流",
+        "AI组织设计",
+        "领导力"
+      ],
+      "related": [
+        "./knowledge/concepts/fde-applied-ai.md",
+        "./knowledge/concepts/auditable-promotion-evidence.md"
+      ],
+      "backlinks": [
+        "./specials/ai-org-talent-mechanism/topics/flat-organization/evidence-map.md"
+      ]
+    },
+    {
+      "id": "concept-fde-applied-ai",
+      "title": "FDE / Applied AI",
+      "originalTitle": "FDE / Applied AI",
+      "author": "OD Intelligence Center",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "concept",
+      "topics": [
+        "AI组织设计",
+        "技能组织"
+      ],
+      "date": "2026-07-01",
+      "uploadDate": "2026-07-01",
+      "description": "客户现场部署、产品反馈、交付质量和伙伴协同形成的新组织接口。",
+      "summaryFile": "./knowledge/concepts/fde-applied-ai.md",
+      "tags": [
+        "Phase4知识回流",
+        "AI组织设计",
+        "技能组织"
+      ],
+      "related": [
+        "./knowledge/entities/openai.md",
+        "./knowledge/entities/aws-amazon.md",
+        "./knowledge/entities/anthropic.md",
+        "./knowledge/entities/cursor.md"
+      ],
+      "backlinks": [
+        "./specials/ai-org-talent-mechanism/topics/job-family-career-architecture/evidence-map.md"
+      ]
+    },
+    {
+      "id": "concept-ai-workforce-risk",
+      "title": "AI workforce risk",
+      "originalTitle": "AI workforce risk",
+      "author": "OD Intelligence Center",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "concept",
+      "topics": [
+        "AI组织设计",
+        "变革管理"
+      ],
+      "date": "2026-07-01",
+      "uploadDate": "2026-07-01",
+      "description": "AI 部署带来的技能、知识保留、士气、留任和外部转型风险链条。",
+      "summaryFile": "./knowledge/concepts/ai-workforce-risk.md",
+      "tags": [
+        "Phase4知识回流",
+        "AI组织设计",
+        "变革管理"
+      ],
+      "related": [
+        "./knowledge/entities/oracle.md",
+        "./knowledge/entities/aws-amazon.md",
+        "./knowledge/entities/anthropic.md"
+      ],
+      "backlinks": [
+        "./specials/ai-org-talent-mechanism/topics/talent-density/evidence-map.md",
+        "./specials/ai-org-talent-mechanism/topics/flat-organization/evidence-map.md"
+      ]
+    },
+    {
+      "id": "concept-auditable-promotion-evidence",
+      "title": "可审计晋升证据",
+      "originalTitle": "可审计晋升证据",
+      "author": "OD Intelligence Center",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "concept",
+      "topics": [
+        "绩效管理",
+        "职级改革"
+      ],
+      "date": "2026-07-01",
+      "uploadDate": "2026-07-01",
+      "description": "把 AI 贡献转化为业务影响、复用机制和责任扩大的可复核证据。",
+      "summaryFile": "./knowledge/concepts/auditable-promotion-evidence.md",
+      "tags": [
+        "Phase4知识回流",
+        "绩效管理",
+        "职级改革"
+      ],
+      "related": [
+        "./knowledge/entities/gitlab.md",
+        "./knowledge/entities/openai.md",
+        "./knowledge/entities/bytedance.md",
+        "./knowledge/entities/microsoft.md"
+      ],
+      "backlinks": [
+        "./specials/ai-org-talent-mechanism/topics/promotion-system/evidence-map.md"
+      ]
     }
   ]
 }
