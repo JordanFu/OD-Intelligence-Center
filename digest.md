@@ -1,7 +1,7 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-06-30 09:46
+> 最后更新：2026-07-01 09:42
 
 ---
 
@@ -23,6 +23,80 @@
 - 💬参考：社交平台/社区讨论，需交叉验证
 
 -->
+
+## 2026-07-01
+
+### [1] AWS FDE：云平台把 agentic AI adoption 组织化为前线工程交付
+- **事件摘要**：AWS 官方宣布投入 10 亿美元建立 AWS Forward Deployed Engineering 组织，把专家嵌入客户 business、engineering、security teams，共同构建和部署 agentic AI 解决方案，并留下 knowledge graphs、runbooks、architectural documentation 和 trained internal champions。
+- **来源**：AWS / About Amazon（https://www.aboutamazon.com/news/aws/aws-1-billion-forward-deployed-ai-engineers）
+- **来源平台**：AWS / About Amazon / 私有组织情报脱敏摘要
+- **来源可信度**：⭐高
+- **OD启示**：这条信号的价值不在“更多工程师服务客户”，而在云平台公司把 AI adoption 摩擦组织化为 FDE、partner enablement、客户能力迁移和治理嵌入。可判为 L3 组织机制，但不采纳未独立验证的效率提升表述。
+- **标签**：#AWS #FDE #AgenticAI #CustomerDeployment #AppliedAI
+- **抓取时间**：2026-07-01 09:42
+
+### [2] ByteDance 领导力原则：AI 时代管理语言进入半年绩效周期
+- **事件摘要**：北京日报客户端 2026-06-30 报道，字节跳动更新适配 AI 行业变革与组织发展需求的公司文化与领导力准则，并称新版领导力原则将在 2026 半年绩效评估周期投入应用。公开材料强调外部视角、一线信息、上下文供给、高目标和实质产出。
+- **来源**：北京日报客户端（https://news.bjd.com.cn/2026/06/30/11836953.shtml）；字节跳动招聘官网 Culture（https://jobs.bytedance.com/experienced/culture）
+- **来源平台**：北京日报 / ByteDance Careers / 私有组织情报脱敏摘要
+- **来源可信度**：📰较高
+- **OD启示**：这是 L2 管理评价语言观察：文化原则靠近绩效场景，可能影响管理者如何举证、校准和复盘。但公开证据还不足以写成绩效档位、晋升规则、奖金或干部任免机制已改变。
+- **标签**：#ByteDance #LeadershipPrinciples #PerformanceReview #ManagementStandard #AIOrg
+- **抓取时间**：2026-07-01 09:42
+
+### [3] Anthropic 公共部门 Applied AI：政府客户部署岗位边界显性化
+- **事件摘要**：Anthropic 官方岗位页 `Applied AI Architect, State and Local Government` 要求服务州与地方政府客户，负责 technical discovery、evaluation、deployment，支持 Claude Code、Claude API、Claude for Enterprise，并与 Sales、Product、Engineering 协同。
+- **来源**：Anthropic Greenhouse（https://job-boards.greenhouse.io/anthropic/jobs/5140403008）；Anthropic Careers（https://www.anthropic.com/careers/jobs）
+- **来源平台**：Anthropic Careers / 私有组织情报脱敏摘要
+- **来源可信度**：⭐高
+- **OD启示**：公共部门 AI adoption 不是折扣账号采购，而是客户任务、技术架构、eval、安全可靠性、部署路径和产品反馈的跨组织工作。单个岗位页只能支持 L2 机制观察，不能证明完整公共部门组织线成熟。
+- **标签**：#Anthropic #AppliedAI #PublicSectorAI #Evaluation #Deployment
+- **抓取时间**：2026-07-01 09:42
+
+### [4] OpenAI Deployment Company：FDE 从岗位走向企业部署公司，但不是今日新增
+- **事件摘要**：OpenAI 2026-05-11 公开 Deployment Company / DeployCo，目标是把 OpenAI 技术带入企业实际工作流。该旧线与 AWS FDE、Cursor FDE、Anthropic Applied AI 互证，说明客户现场工程、产品反馈和部署组织正在成为企业 AI adoption 的核心接口。
+- **来源**：OpenAI（https://openai.com/index/introducing-openai-deployment-company/）；DeployCo（https://deploy.co/）
+- **来源平台**：OpenAI / DeployCo
+- **来源可信度**：⭐高
+- **OD启示**：这条材料继续作为 L3 旧线基线使用，不写成 2026-07-01 新事件。它的组织含义是模型公司开始把客户现场 workflow、数据、权限、安全和反馈回路组织化，而不是只依赖产品自助采用。
+- **标签**：#OpenAI #DeployCo #FDE #EnterpriseAI #CustomerWorkflow
+- **抓取时间**：2026-07-01 09:42
+
+### [5] FDE / Applied AI 主线复核：行业语言开始收敛，但制度仍需互证
+- **事件摘要**：AWS FDE、OpenAI Deployment Company、Cursor Regional Director FDE、AI Engineer World's Fair FDE track 与 Anthropic Applied AI 岗位共同显示，FDE / Applied AI / deployment architect 正从少数 AI 原生公司的岗位标题扩展为更广泛的企业 AI 部署语言。
+- **来源**：Cursor Careers（https://cursor.com/careers/regional-director-forward-deployed-engineering-new-york-remote-san-francisco）；AI Engineer World's Fair（https://www.ai.engineer/worldsfair/schedule?track=Local+AI）
+- **来源平台**：Cursor / AI Engineer World's Fair / AWS / Anthropic
+- **来源可信度**：📰较高
+- **OD启示**：可以判断“语言与组织接口正在收敛”，但不能判断“成熟职业体系已经形成”。下一步必须找汇报线、职级、绩效、薪酬、partner 质量门槛和客户能力迁移证据。
+- **标签**：#FDE #AppliedAI #JobArchitecture #EnterpriseDeployment #Context
+- **抓取时间**：2026-07-01 09:42
+
+### [6] Oracle / RAISE US 旧线：AI workforce 风险链条仍是 7 月基线
+- **事件摘要**：Oracle FY2026 10-K 把 AI deployment、workforce reductions、技能短缺、制度知识流失、士气与留任放进同一风险链条；RAISE US 则把 AI workforce transition 推到州政府、雇主和基金会共同治理层。这两条不是今日新增，但继续解释企业 AI 组织调整的二阶成本。
+- **来源**：SEC / Oracle（https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm）；AP（https://apnews.com/article/929986c149d415cd2ef4dc3eaf66ca8c）
+- **来源平台**：SEC / Oracle / AP
+- **来源可信度**：⭐高
+- **OD启示**：AI 人力调整必须同时管理效率、技能供给、知识保留、士气、留任、外部转岗和政策缓冲。它不是单点裁员新闻，而是组织风险设计表。
+- **标签**：#Oracle #RAISEUS #AIWorkforce #RiskChain #PublicGovernance
+- **抓取时间**：2026-07-01 09:42
+
+### [7] 国内 AI 资源治理弱信号：token 额度可能成为组织资源分配对象
+- **事件摘要**：私有组织情报扫描显示，腾讯 AI token 额度动态调配、任务导向配额等线索仍在传播，但公开证据多为二级媒体或旧线转述，事件锚点早于今天，且缺少绩效、预算、项目评审或组织结构互证。
+- **来源**：私有组织情报扫描 2026-07-01 脱敏摘要；公开媒体转述待进一步核验
+- **来源平台**：私有组织情报脱敏摘要 / 国内媒体转述
+- **来源可信度**：💬参考
+- **OD启示**：AI token、模型调用额度和 agent 权限可能成为新的组织资源治理对象，但今天只能保留为 L1-L2 观察。不能写成腾讯已经完成 AI 资源治理制度化或绩效化。
+- **标签**：#Tencent #AIToken #ResourceGovernance #WeakSignal #Context
+- **抓取时间**：2026-07-01 09:42
+
+### [8] 微信公众号与社媒扫描：未发现可公开互证的新 L3 组织机制
+- **事件摘要**：本轮覆盖微信公众号「AI组织进化论」相关公开搜索、社媒/职场讨论、招聘与薪酬线索。除 AWS、ByteDance、Anthropic 已入库材料外，国内美团 CLC/Keemart 前后端合并、蚂蚁网商测试转研发等线索仍以单源匿名或二级转述为主。
+- **来源**：私有组织情报扫描 2026-07-01 脱敏摘要；公开搜索覆盖记录
+- **来源平台**：微信公众号 / 社媒 / 招聘 JD / 私有组织情报脱敏摘要
+- **来源可信度**：💬参考
+- **OD启示**：这些线索有助于建立待核验池：小业务单元全栈化、QA 边界迁移、AI 工具吸收测试职责。但缺少官方公告、招聘变化、人数范围和多源互证时，只能提示关注，不能形成结论。
+- **标签**：#WeChat #SocialSignal #JobBoundary #FullStackTeam #WeakSignal
+- **抓取时间**：2026-07-01 09:42
 
 ## 2026-06-30
 
