@@ -5,7 +5,7 @@
 > **发布日期**：2026年1月  
 > **样本**：24个国家、3,235名企业高管  
 > **原文链接**：https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html  
-> **PDF 本地路径**：`.workbuddy/ai-org-research/pdfs/Deloitte-State-of-AI-Enterprise-2026.pdf`
+> **PDF 本地缓存**：`历史本地缓存路径已脱敏`
 
 ---
 

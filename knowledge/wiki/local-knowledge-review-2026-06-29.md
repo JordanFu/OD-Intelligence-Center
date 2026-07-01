@@ -12,7 +12,7 @@ status: 已完成本地巡检；含 PDF 自动入库、边界修复、覆盖审�
 ## 本周健康度
 
 - **总体健康度：84/100。**
-- **仓库完整性：** `/private/tmp/ODIC-current` 是完整 git 仓库，remote 指向 `https://github.com/JordanFu/OD-Intelligence-Center.git`；`git pull --ff-only` 返回 `Already up to date.`。
+- **仓库完整性：** 当前 OD Intelligence Center 仓库是完整 git 仓库，remote 指向 `https://github.com/JordanFu/OD-Intelligence-Center.git`；`git pull --ff-only` 返回 `Already up to date.`。
 - **信息库同步：** `node scripts/audit-info-library.js` 通过，当前信息库覆盖 65 天、599 条，最新日期为 `2026-06-29`，最新日 2 条。
 - **PDF 入库：** 本轮自动识别 22 个唯一公开 PDF 来源，17 个已下载，5 个保留 URL 与引用上下文待重试；新增 MiniMax / HKEX 股份激励计划 PDF 原文与结构化卡片。
 - **边界控制：** 已修复 PDF 入库脚本的仓库外引用路径泄露问题；仓库外扫描命中现在只保留“外部公开 PDF 扫描”的脱敏引用，不写本地私有目录路径。
@@ -21,7 +21,7 @@ status: 已完成本地巡检；含 PDF 自动入库、边界修复、覆盖审�
 ## 已确认的积极变化
 
 1. **信息库状态页已追平最新日报。** `operations/info-library-status.md` 从 `2026-06-27` 更新到 `2026-06-29`，解决了状态页滞后于日报的问题。
-2. **PDF 自动入库边界得到脚本级修复。** 上周已手工清理过腾讯 PDF 卡片的本地路径，本周入库再次复现；本轮已在 `scripts/ingest-pdf-references.js` 增加脱敏引用标签，避免下次入库回流。
+2. **PDF 自动入库边界得到脚本级修复。** 上周已手工清理过腾讯 PDF 卡片的本地绝对路径，本周入库再次复现；本轮已在 `scripts/ingest-pdf-references.js` 增加脱敏引用标签，避免下次入库回流。
 3. **新增 MiniMax 股份激励线索。** HKEX 公告已下载到 `knowledge/raw/`，并在 `knowledge/wiki/` 生成中文结构化卡片，可作为 AI 公司上市后长期激励、股权授予和稀缺人才保留的线索层证据。
 4. **近期日报质量控制较克制。** `daily/2026-06-29.md` 明确把 DeepSeek 扩招降级为 L2-L3 近窗观察，未把招聘线索包装成公司级组织机制结论。
 
@@ -69,7 +69,7 @@ status: 已完成本地巡检；含 PDF 自动入库、边界修复、覆盖审�
 ## 本次执行记录
 
 1. 读取上次自动化记忆，确认上周遗留问题包括 PDF 失败项、文件名式标题和私有路径回流风险。
-2. 确认 `/private/tmp/ODIC-current` 为完整 git 仓库，并执行 `git pull --ff-only`，结果为 `Already up to date.`。
+2. 确认当前 OD Intelligence Center 仓库为完整 git 仓库，并执行 `git pull --ff-only`，结果为 `Already up to date.`。
 3. 按自动化指定的 `EXTRA_PDF_SCAN_DIRS` 执行 PDF 自动入库；报告中不保留本地私有扫描目录路径。
 4. 入库结果：22 个唯一 PDF 来源，17 个下载成功，5 个下载失败待重试。
 5. 修复 `scripts/ingest-pdf-references.js`，对仓库外扫描来源进行脱敏 citation 输出，并为 HKEX MiniMax 公告补充中文标题。

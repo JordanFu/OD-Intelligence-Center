@@ -4,7 +4,7 @@
 
 每日情报任务不能再依赖某一台电脑是否在线。正式交付采用“两层机制”：
 
-1. **本地正式交付**：Codex 自动化 `automation` 每天 18:00 在 `/private/tmp/ODIC-current` 产出四专题日报、一份总览、HTML 阅读页，并推送到 GitHub Pages。这是正式研究链路。
+1. **本地正式交付**：Codex 自动化 `automation` 每天 18:00 在当前 OD Intelligence Center 仓库产出四专题日报、一份总览、HTML 阅读页，并推送到 GitHub Pages。这是正式研究链路。
 2. **上游信息扫描**：Codex 自动化 `automation-3` 每天 08:30 维护私有组织情报扫描，`od-intelligence-center-daily` 每天 09:40 维护公开信息库、PDF 入库和首页信息流。这是日报的素材来源。
 3. **云端兜底交付**：GitHub Actions 每天固定运行，只负责不断档、生成缺口记录、覆盖审计、知识库同步和分享能力；它不能替代正式多代理研究。
 
@@ -12,11 +12,11 @@
 
 2026-05-30 至 2026-05-31 周末期间，GitHub 云端兜底任务成功运行，但没有本地 `auto-sync` 提交。说明问题不是 GitHub Pages 部署失败，而是正式研究链路仍依赖本地执行环境；当本地电脑离线、休眠、网络异常或自动化未触发时，只剩兜底稿。
 
-2026-06-28 至 2026-06-30 再次出现断档：正式四专题日报自动化 `automation` 仍指向旧工作目录 `/Users/tal/WorkBuddy/Claw/.workbuddy/ai-org-research`，该目录停在 `2026-06-27`；页面当前仓库 `/private/tmp/ODIC-current` 只收到 GitHub Actions 的兜底状态记录。因此页面看起来“有更新”，但不是正式研究完成。
+2026-06-28 至 2026-06-30 再次出现断档：正式四专题日报自动化 `automation` 仍指向旧本地研究目录，该目录停在 `2026-06-27`；页面当前仓库只收到 GitHub Actions 的兜底状态记录。因此页面看起来“有更新”，但不是正式研究完成。
 
 2026-06-30 已修正本地自动化配置：
 
-- `automation`：工作目录改为 `/private/tmp/ODIC-current`；任务开始必须 `git pull --rebase origin main`，结束必须 `./sync.sh` 或等价提交推送；外部检索优先使用 AnySearch；支持 sub-agent 时必须并行启动专题/渠道/内部知识源/主代理。
+- `automation`：工作目录改为当前 OD Intelligence Center 仓库；任务开始必须 `git pull --rebase origin main`，结束必须 `./sync.sh` 或等价提交推送；外部检索优先使用 AnySearch；支持 sub-agent 时必须并行启动专题/渠道/内部知识源/主代理。
 - `od-intelligence-center-daily`：从工作日运行改为每日 09:40 运行；周末和低新增日也必须写入明确日期记录，不能静默跳过。
 - `automation-3`：继续作为每日 08:30 的上游私有组织情报扫描，不直接替代 OD 情报中心专题日报。
 

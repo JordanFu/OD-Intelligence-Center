@@ -184,6 +184,77 @@
       color: var(--text);
       border: 1px solid var(--border);
     }
+    .status-dashboard {
+      margin-bottom: 14px;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .status-card {
+      padding: 14px 16px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    }
+    .status-card.pass { border-color: rgba(52, 211, 153, 0.58); }
+    .status-card.warn { border-color: rgba(245, 158, 11, 0.62); }
+    .status-card.fail { border-color: rgba(248, 113, 113, 0.72); }
+    .status-card h3 {
+      margin-bottom: 8px;
+      font-size: 15px;
+    }
+    .status-card p {
+      margin-top: 4px;
+      color: var(--text2);
+      font-size: 13px;
+      line-height: 1.55;
+    }
+    .status-card strong {
+      color: var(--text);
+    }
+    .status-pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 22px;
+      margin-bottom: 8px;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: rgba(148, 163, 184, 0.16);
+      color: var(--text2);
+      font-size: 12px;
+      font-weight: 760;
+    }
+    .status-card.pass .status-pill { background: rgba(52, 211, 153, 0.16); color: var(--green); }
+    .status-card.warn .status-pill { background: rgba(245, 158, 11, 0.16); color: var(--orange); }
+    .status-card.fail .status-pill { background: rgba(248, 113, 113, 0.16); color: #fca5a5; }
+    .status-actions {
+      display: flex;
+      gap: 8px;
+      margin-top: 10px;
+      flex-wrap: wrap;
+    }
+    .status-actions a {
+      min-height: 30px;
+      padding: 6px 9px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 740;
+      background: var(--surface2);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+    .manifest-fallback-warning {
+      grid-column: 1 / -1;
+      padding: 10px 12px;
+      border: 1px solid rgba(245, 158, 11, 0.5);
+      border-radius: 10px;
+      color: var(--orange);
+      background: rgba(245, 158, 11, 0.08);
+      font-size: 13px;
+      font-weight: 720;
+    }
     .search-box {
       width: 100%;
       padding: 12px 16px 12px 42px;
@@ -238,6 +309,9 @@
     .filter-tag.trust-mid.active { background: var(--trust-mid); border-color: var(--trust-mid); color: #fff; }
     .filter-tag.trust-ref.active { background: var(--trust-ref); border-color: var(--trust-ref); color: #fff; }
     .filter-tag.source-tag.active { background: var(--green); border-color: var(--green); color: #000; }
+    @media (max-width: 860px) {
+      .status-dashboard { grid-template-columns: 1fr; }
+    }
     .filter-tag.collapsed { display: none; }
     .filter-tag.expanded { display: inline-block; }
     .filter-more {
@@ -2495,15 +2569,8 @@
   <div class="page active" id="page-info">
     <div class="controls">
       <section class="sync-bridge" aria-label="组织情报信息同步状态">
-        <div class="sync-bridge-top">
-          <div>
-            <strong>组织情报信息已同步到 2026-07-01</strong>
-            <p>新扫描先进入本地私有源，再脱敏回写公开镜像；老站继续作为 OD 情报中心总入口。</p>
-          </div>
-          <div class="sync-bridge-actions">
-            <a href="https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-01.html" target="_blank" rel="noopener">最新扫描</a>
-            <a class="secondary" href="https://jordanfu.github.io/org-intelligence-info/" target="_blank" rel="noopener">公开镜像</a>
-          </div>
+        <div class="status-dashboard" id="statusDashboard">
+          <div class="manifest-fallback-warning">状态源加载中；加载完成前不代表今日正式同步状态。</div>
         </div>
       </section>
       <div class="search-wrap">
@@ -2575,6 +2642,9 @@
     let isGenerating = false;
     let kbSourceTypeFilter = null;
     let kbTopicFilter = null;
+    let statusManifests = { info: null, topics: null, knowledge: null };
+    let statusManifestLoadFailed = false;
+    let statusManifestErrors = [];
 
     const PLATFORM_CATEGORIES = {
       '国内媒体': ['36氪', '机器之心', '钛媒体', '虎嗅', '界面新闻', '第一财经', '晚点LatePost', '新智元', '量子位', '新浪财经', '搜狐', '每日经济新闻'],
@@ -2659,6 +2729,97 @@
       copyText(getKBShareUrl(reportId), '分享链接已复制');
     }
 
+    function statusClass(status) {
+      if (status === 'pass' || status === 'formal') return 'pass';
+      if (status === 'fail' || status === 'missing') return 'fail';
+      return 'warn';
+    }
+    function statusText(status) {
+      const map = {
+        pass: '可信',
+        warn: '有告警',
+        fail: '失败',
+        formal: '正式决策稿',
+        scheduled: '待今日正式运行',
+        fallback: '仅兜底记录 / 待正式重跑',
+        'needs-rerun': '待正式重跑',
+        missing: '缺失',
+        'pending-link-check': '待验证'
+      };
+      return map[status] || status || '未知';
+    }
+    async function fetchManifest(url, key) {
+      try {
+        const resp = await fetch(url, { cache: 'no-store' });
+        if (!resp.ok) throw new Error(`${resp.status} ${resp.statusText}`);
+        statusManifests[key] = await resp.json();
+      } catch (error) {
+        statusManifestLoadFailed = true;
+        statusManifestErrors.push(`${url}: ${error.message}`);
+      }
+    }
+    async function loadStatusManifests() {
+      statusManifests = { info: null, topics: null, knowledge: null };
+      statusManifestLoadFailed = false;
+      statusManifestErrors = [];
+      await Promise.all([
+        fetchManifest('./data/info-feed-status.json', 'info'),
+        fetchManifest('./data/topic-projects-status.json', 'topics'),
+        fetchManifest('./data/knowledge-status.json', 'knowledge')
+      ]);
+    }
+    function renderStatusDashboard() {
+      const container = document.getElementById('statusDashboard');
+      if (!container) return;
+      const info = statusManifests.info;
+      const topics = statusManifests.topics;
+      const knowledge = statusManifests.knowledge;
+      const fallbackWarning = statusManifestLoadFailed
+        ? `<div class="manifest-fallback-warning">状态源加载失败，以下为历史静态索引，不代表今日正式状态。${esc(statusManifestErrors.join('；'))}</div>`
+        : '';
+      const infoStatus = info?.qualityStatus || 'warn';
+      const topicStatus = topics?.todayStatus || topics?.qualityStatus || 'warn';
+      const knowledgeStatus = knowledge?.qualityStatus || 'warn';
+      const latestScanStatus = info?.homepageBridge?.status || info?.links?.qualityStatus || '待验证';
+      container.innerHTML = `
+        ${fallbackWarning}
+        <div class="status-card ${statusClass(infoStatus)}">
+          <span class="status-pill">${statusText(infoStatus)}</span>
+          <h3>情报流状态</h3>
+          <p>最新日期：<strong>${esc(info?.latestDate || allDays[0]?.date || '未知')}</strong></p>
+          <p>卡片：<strong>${info?.latest?.cardCount ?? '未知'}</strong>；新增事实：<strong>${info?.latest?.newFactCount ?? '未知'}</strong>；弱信号：<strong>${info?.latest?.weakSignalCount ?? '未知'}</strong></p>
+          <p>渠道覆盖：${esc((info?.latest?.channelTypes || []).join('、') || '未识别')}；断链：<strong>${info?.brokenLinks?.length ?? 0}</strong></p>
+          <p>公开扫描：${esc(statusText(latestScanStatus))}</p>
+          <div class="status-actions">
+            ${info?.homepageBridge?.latestScanUrl ? `<a href="${esc(info.homepageBridge.latestScanUrl)}" target="_blank" rel="noopener">最新扫描</a>` : ''}
+            ${info?.homepageBridge?.publicMirrorUrl ? `<a href="${esc(info.homepageBridge.publicMirrorUrl)}" target="_blank" rel="noopener">公开镜像</a>` : ''}
+          </div>
+        </div>
+        <div class="status-card ${statusClass(topicStatus)}">
+          <span class="status-pill">${statusText(topicStatus)}</span>
+          <h3>专题研究状态</h3>
+          <p>今日：<strong>${esc(topics?.today || '未知')}</strong>；状态：<strong>${esc(statusText(topics?.todayStatus))}</strong></p>
+          <p>最新正式日报：<strong>${esc(topics?.latestFormalDate || '无')}</strong></p>
+          <p>待正式重跑：<strong>${topics?.pendingRerunDates?.length ?? '未知'}</strong> 个日期</p>
+          <div class="status-actions">
+            <a href="./specials/ai-org-talent-mechanism/manifest.json" target="_blank">专题 manifest</a>
+            <a href="./data/topic-projects-status.json" target="_blank">状态源</a>
+          </div>
+        </div>
+        <div class="status-card ${statusClass(knowledgeStatus)}">
+          <span class="status-pill">${statusText(knowledgeStatus)}</span>
+          <h3>知识库状态</h3>
+          <p>Catalog 日期：<strong>${esc(knowledge?.latestCatalogDate || '未知')}</strong></p>
+          <p>知识页：<strong>${knowledge?.counts?.reports ?? '未知'}</strong>；知识源：<strong>${knowledge?.counts?.knowledgeSources ?? '未知'}</strong></p>
+          <p>待重试 PDF：<strong>${knowledge?.pdfRetryCount ?? '未知'}</strong>；路径泄露：<strong>${knowledge?.privatePathLeaks?.length ?? '未知'}</strong></p>
+          <div class="status-actions">
+            <a href="./operations/knowledge-lint-latest.md" target="_blank">知识库 Lint</a>
+            <a href="./operations/system-health-latest.md" target="_blank">系统健康</a>
+          </div>
+        </div>
+      `;
+    }
+
     // ============================================================
     // Tab Switching
     // ============================================================
@@ -2700,7 +2861,8 @@
           currentItem = {
             id: titleMatch[1], title: titleMatch[2],
             summary: '', source: '', sourceUrl: '', platform: '',
-            trust: '', insight: '', tags: [], time: ''
+            trust: '', infoType: '', channelType: '', conclusionConfidence: '',
+            verificationQuestion: '', insight: '', tags: [], time: ''
           };
           currentDay.items.push(currentItem);
           continue;
@@ -2730,6 +2892,14 @@
         if (platformMatch) { currentItem.platform = platformMatch[1].trim(); continue; }
         const trustMatch = line.match(/^- \*\*来源可信度\*\*[：:]\s*(.+)/);
         if (trustMatch) { currentItem.trust = trustMatch[1].trim(); continue; }
+        const infoTypeMatch = line.match(/^- \*\*信息类型\*\*[：:]\s*(.+)/);
+        if (infoTypeMatch) { currentItem.infoType = infoTypeMatch[1].trim(); continue; }
+        const channelTypeMatch = line.match(/^- \*\*渠道类型\*\*[：:]\s*(.+)/);
+        if (channelTypeMatch) { currentItem.channelType = channelTypeMatch[1].trim(); continue; }
+        const confidenceMatch = line.match(/^- \*\*结论置信度\*\*[：:]\s*(.+)/);
+        if (confidenceMatch) { currentItem.conclusionConfidence = confidenceMatch[1].trim(); continue; }
+        const verificationMatch = line.match(/^- \*\*验证问题\*\*[：:]\s*(.+)/);
+        if (verificationMatch) { currentItem.verificationQuestion = verificationMatch[1].trim(); continue; }
         const insightMatch = line.match(/^- \*\*OD启示\*\*[：:]\s*(.+)/);
         if (insightMatch) { currentItem.insight = insightMatch[1]; continue; }
         const tagMatch = line.match(/^- \*\*标签\*\*[：:]\s*(.+)/);
@@ -2749,6 +2919,7 @@
     // Load
     // ============================================================
     async function loadData() {
+      await loadStatusManifests();
       try {
         const resp = await fetch('./digest.md');
         if (resp.ok) {
@@ -2785,6 +2956,7 @@
       } catch (e) { console.log('kb catalog not loaded'); }
 
       updateBadges();
+      renderStatusDashboard();
       renderInfoPage();
       renderLevelsPage();
 
@@ -3375,10 +3547,88 @@
       }
     ];
 
+    function topicEntryUrl(entry) {
+      return entry?.index || entry?.overview || entry?.overviewMarkdown || './specials/ai-org-talent-mechanism/manifest.json';
+    }
+    function renderLevelsPageFromManifest(container, manifest) {
+      const dates = manifest.dates || [];
+      const recentDates = dates.slice(0, 30);
+      const pending = manifest.pendingRerunDates || [];
+      const statusCounts = manifest.statusCounts || {};
+      container.innerHTML = `
+        <div class="levels-hero">
+          <div class="levels-badge">专题项目 · manifest 驱动状态</div>
+          <h2>${esc(manifest.project?.title || 'AI时代组织与人才机制四课题研究')}</h2>
+          <p>专题项目负责深度研究、假设检验、证据升级、反例与行动建议。首页只展示由 manifest 生成的真实状态；兜底稿、待正式重跑和缺失不会被包装成正式日报。</p>
+        </div>
+
+        <div class="levels-grid">
+          <div class="levels-card"><h3>今日状态</h3><p><strong>${esc(manifest.today || '未知')}</strong>：${esc(statusText(manifest.todayStatus))}</p></div>
+          <div class="levels-card"><h3>最新正式日报</h3><p>${esc(manifest.latestFormalDate || '无正式日报')}</p></div>
+          <div class="levels-card"><h3>待正式重跑</h3><p>${pending.length} 个日期；首页不得显示为已正式完成。</p></div>
+          <div class="levels-card"><h3>质量状态</h3><p>${esc(statusText(manifest.qualityStatus))}；正式状态来自文件完整性、正文关键词和质量门禁。</p></div>
+        </div>
+
+        <div class="levels-section">
+          <h3>专题状态定义</h3>
+          <div class="levels-evidence">
+            <div class="levels-evidence-item"><strong>formal</strong><span>${esc(manifest.statusDefinitions?.formal || '正式决策稿')}</span></div>
+            <div class="levels-evidence-item"><strong>fallback</strong><span>${esc(manifest.statusDefinitions?.fallback || '仅兜底记录')}</span></div>
+            <div class="levels-evidence-item"><strong>needs-rerun</strong><span>${esc(manifest.statusDefinitions?.needsRerun || '待正式重跑')}</span></div>
+            <div class="levels-evidence-item"><strong>missing</strong><span>${esc(manifest.statusDefinitions?.missing || '缺失')}</span></div>
+          </div>
+        </div>
+
+        <div class="levels-section">
+          <h3>日报状态记录</h3>
+          <p class="levels-section-note">以下列表直接来自 <code>specials/ai-org-talent-mechanism/manifest.json</code>，不是手工硬编码的“已同步”。</p>
+          ${recentDates.map(item => `
+            <div class="levels-output">
+              <div class="levels-output-head">
+                <div>
+                  <div class="levels-output-title">${esc(item.date)} · ${esc(statusText(item.status))}</div>
+                  <p>${item.qualityIssues?.length ? esc(item.qualityIssues.join('；')) : '文件完整性与状态规则已记录。'}</p>
+                </div>
+                <span class="report-day-badge">${esc(item.status)}</span>
+              </div>
+              <div class="levels-actions">
+                <a class="levels-btn primary" href="${esc(topicEntryUrl(item))}" target="_blank">打开入口</a>
+                ${item.overviewMarkdown ? `<a class="levels-btn" href="${esc(item.overviewMarkdown)}" target="_blank">查看 Markdown</a>` : ''}
+                ${item.qualityGate?.path ? `<a class="levels-btn" href="${esc(item.qualityGate.path)}" target="_blank">质量记录</a>` : ''}
+              </div>
+            </div>
+          `).join('')}
+        </div>
+
+        <div class="levels-section">
+          <h3>当前统计</h3>
+          <ul class="levels-list">
+            <li>正式决策稿：${statusCounts.formal || 0}</li>
+            <li>仅兜底记录：${statusCounts.fallback || 0}</li>
+            <li>待正式重跑：${statusCounts['needs-rerun'] || 0}</li>
+            <li>缺失：${statusCounts.missing || 0}</li>
+          </ul>
+          <div class="levels-actions">
+            <a class="levels-btn primary" href="./specials/ai-org-talent-mechanism/manifest.json" target="_blank">查看专题 manifest</a>
+            <a class="levels-btn" href="./data/topic-projects-status.json" target="_blank">查看状态源</a>
+            <a class="levels-btn" href="./operations/system-health-latest.md" target="_blank">查看系统健康</a>
+          </div>
+        </div>
+      `;
+    }
+
     function renderLevelsPage() {
       const container = document.getElementById('levelsContent');
       if (!container) return;
+      if (statusManifests.topics && Array.isArray(statusManifests.topics.dates)) {
+        renderLevelsPageFromManifest(container, statusManifests.topics);
+        return;
+      }
+      const manifestFallbackBanner = statusManifestLoadFailed
+        ? `<div class="manifest-fallback-warning">状态源加载失败，以下为历史静态索引，不代表今日正式状态。</div>`
+        : '';
       container.innerHTML = `
+        ${manifestFallbackBanner}
         <div class="levels-hero">
           <div class="levels-badge">专题项目 · 每日追踪</div>
           <h2>AI时代组织与人才机制四课题研究</h2>
@@ -3468,7 +3718,7 @@
               </div>
               <div class="levels-actions">
                 <a class="levels-btn primary" href="${esc(item.href)}" target="_blank">阅读日报</a>
-                <a class="levels-btn" href="./specials/job-levels/baseline.html" target="_blank">查看基线档案</a>
+                <a class="levels-btn" href="./specials/ai-org-talent-mechanism/baseline/index.html" target="_blank">查看基线档案</a>
               </div>
             </div>
           `).join('')}

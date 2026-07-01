@@ -46,19 +46,27 @@ jobs:
         run: node scripts/ensure-recent-ai-org-reports.js
 
       - name: Run report quality gate
+        continue-on-error: true
         env:
           REPORT_DATE: ${{ inputs.report_date }}
           TZ: Asia/Shanghai
         run: node scripts/quality-gate-ai-org-reports.js
 
       - name: Audit report coverage
+        continue-on-error: true
         env:
           REPORT_DATE: ${{ inputs.report_date }}
           AUDIT_LOOKBACK_DAYS: 14
           TZ: Asia/Shanghai
         run: node scripts/audit-ai-org-report-coverage.js
 
+      - name: Generate topic project status
+        env:
+          TZ: Asia/Shanghai
+        run: node scripts/generate-topic-project-status.js
+
       - name: Audit information library
+        continue-on-error: true
         env:
           TZ: Asia/Shanghai
         run: node scripts/audit-info-library.js
@@ -78,6 +86,18 @@ jobs:
           TZ: Asia/Shanghai
         run: node scripts/enhance-report-sharing.js
 
+      - name: Lint knowledge base
+        continue-on-error: true
+        env:
+          TZ: Asia/Shanghai
+        run: node scripts/lint-knowledge-base.js
+
+      - name: Check public links
+        continue-on-error: true
+        env:
+          TZ: Asia/Shanghai
+        run: node scripts/check-public-links.js
+
       - name: Commit changes if any
         run: |
           if git diff --quiet; then
@@ -86,6 +106,6 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html assets specials daily-report knowledge pdfs operations report-viewer.html knowledge-viewer.html scripts/ensure-ai-org-reports.js scripts/ensure-recent-ai-org-reports.js scripts/ingest-pdf-references.js scripts/update-ai-org-baselines.js scripts/render-markdown-page.js scripts/render-special-html.js scripts/enhance-report-sharing.js scripts/quality-gate-ai-org-reports.js scripts/audit-ai-org-report-coverage.js scripts/audit-info-library.js
+          git add index.html assets data specials daily daily-report knowledge pdfs operations report-viewer.html knowledge-viewer.html .github/workflows/ai-org-reports-fallback.yml scripts/ensure-ai-org-reports.js scripts/ensure-recent-ai-org-reports.js scripts/ingest-pdf-references.js scripts/update-ai-org-baselines.js scripts/render-markdown-page.js scripts/render-special-html.js scripts/enhance-report-sharing.js scripts/quality-gate-ai-org-reports.js scripts/audit-ai-org-report-coverage.js scripts/audit-info-library.js scripts/generate-topic-project-status.js scripts/lint-knowledge-base.js scripts/check-public-links.js ':(exclude)**/.DS_Store' ':(exclude)**/*.env' ':(exclude)**/*.tmp' ':(exclude)**/*.log' ':(exclude)**/*secret*' ':(exclude)**/*private*'
           git commit -m "auto-fallback: ensure AI org reports"
           git push

@@ -99,16 +99,44 @@
     "最新日期有 2 条 sourceUrl 缺失：7, 8。",
     "最新日期渠道类型少于 4 类：当前 3 类；应覆盖官方、媒体、报告学术、社媒公众号、JD薪酬中的至少 4 类。",
     "最新日期“新增事实”少于 5 条：当前 3 条；如果确实低新增，应显式写缺口记录。",
-    "最新日期仍有新结构字段缺失：信息类型 8 条；渠道类型 8 条；结论置信度 8 条；验证问题 8 条。Phase 1 仅告警，不批量改写历史。"
+    "最新日期仍有新结构字段缺失：信息类型 8 条；渠道类型 8 条；结论置信度 8 条；验证问题 8 条。Phase 1 仅告警，不批量改写历史。",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "network check warning: fetch failed",
+    "network check warning: fetch failed"
   ],
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": null,
-    "qualityStatus": "pending",
-    "firstPartyChecked": 0,
-    "externalWarnings": 0,
-    "brokenCount": 0
+    "checkedAt": "2026-07-01T03:30:56.032Z",
+    "qualityStatus": "warn",
+    "firstPartyChecked": 1452,
+    "externalWarnings": 12,
+    "brokenCount": 0,
+    "publicScanBridge": [
+      {
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-01.html",
+        "reason": "network check warning: fetch failed"
+      },
+      {
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/",
+        "reason": "network check warning: fetch failed"
+      }
+    ]
   },
   "governance": "信息库负责广谱前沿雷达；专题项目负责假设检验；知识库负责长期复利，三者分开治理、周期互补。"
 }

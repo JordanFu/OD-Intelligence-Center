@@ -1,6 +1,6 @@
 ---
 title: Obsidian 本地知识库全量覆盖索引与主题沉淀
-source: /Users/tal/Documents/Obsidian Vault
+source: 本地 Obsidian Vault（路径已脱敏）
 date: 2026-05-22
 ingested: 2026-05-22
 sourceFile: ../raw/obsidian-vault-source-map-2026-05-22.json

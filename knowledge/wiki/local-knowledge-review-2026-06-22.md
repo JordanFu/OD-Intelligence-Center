@@ -12,24 +12,24 @@ status: 已完成本地巡检；含 PDF 自动入库结果、问题分级与下�
 ## 本周健康度
 
 - **总体健康度：81/100。**
-- **仓库完整性：** `/private/tmp/ODIC-current` 已恢复为正常 `main` 工作树；`git pull --ff-only` 成功，当前可持续维护。
+- **仓库完整性：** 当前 OD Intelligence Center 仓库已恢复为正常 `main` 工作树；`git pull --ff-only` 成功，当前可持续维护。
 - **PDF 入库：** 本轮自动识别 21 个公开 PDF 引用，16 个已下载，5 个仍为待重试卡片；`knowledge/index.md`、`knowledge/catalog.json`、`knowledge/log.md` 已更新。
-- **边界控制：** 未发现把 `source-channels.private`、`local-reference-structured`、`archive` 或密码/私有附件正文直接入库；但自动入库卡片一度写入本地私有扫描路径，已在本轮清理。
+- **边界控制：** 未发现把 `source-channels.private`、`local-reference-structured`、`archive` 或密码/私有附件正文直接入库；但自动入库卡片一度写入本地私有扫描地址，已在本轮清理。
 - **研究连续性：** `daily/` 与 `daily-report/` 当前最新到 `2026-06-18`，`coverage-latest.md` 显示 `2026-06-19` 至 `2026-06-21` 仍为 non-decision，说明近三天产出存在“有稿但未升级”为正式结论的断层。
 
 ## 已确认的积极变化
 
 1. **仓库同步能力正常。** 当前 HEAD 位于 `main`，远端同步正常，已不是上周那种残缺工作树。
-2. **状态页已追平已存在日报。** [`operations/info-library-status.md`](/private/tmp/ODIC-current/operations/info-library-status.md:5) 现在显示最新日期 `2026-06-18`，与当前 `daily/` 最新日期一致，说明上周“状态页滞后日报”的问题已消除。
+2. **状态页已追平已存在日报。** [`operations/info-library-status.md`](../../operations/info-library-status.md) 现在显示最新日期 `2026-06-18`，与当前 `daily/` 最新日期一致，说明上周“状态页滞后日报”的问题已消除。
 3. **公开 PDF 已形成中文结构化骨架。** 新入库的 WEF、AIHR、BCG AI-First Organization、Anthropic 等卡片至少具备“一句话判断、核心内容、相关性、后续任务”等中文结构。
-4. **本轮修复了两项低风险治理问题。** 腾讯两份 PDF 卡片已改成中文标题；公开知识库中带出的本地私有扫描路径已移除。
+4. **本轮修复了两项低风险治理问题。** 腾讯两份 PDF 卡片已改成中文标题；公开知识库中带出的本地私有扫描地址已移除。
 
 ## 已发现问题
 
 ### P1
 
 1. **最近三天专题仍停留在 non-decision。**
-   [`specials/ai-org-talent-mechanism/quality/coverage-latest.md`](/private/tmp/ODIC-current/specials/ai-org-talent-mechanism/quality/coverage-latest.md:7) 明确将 `2026-06-19`、`2026-06-20`、`2026-06-21` 标为 non-decision。对外看起来像“日报持续产出”，但高置信结论层实际上中断了。
+   [`specials/ai-org-talent-mechanism/quality/coverage-latest.md`](../../specials/ai-org-talent-mechanism/quality/coverage-latest.md) 明确将 `2026-06-19`、`2026-06-20`、`2026-06-21` 标为 non-decision。对外看起来像“日报持续产出”，但高置信结论层实际上中断了。
 2. **5 个高价值 PDF 仍未完成原文闭环。**
    本轮失败项包括 GitLab 8-K、SSRN `6456498`、BCG AI Radar 2026、BCG+MIT Sloan《The Emerging Agentic Enterprise》、UMassMed career ladder matrix。它们目前只能作为线索层，不应与已下载精读材料并列使用。
 3. **自动入库存在公开边界回流风险。**
@@ -40,9 +40,9 @@ status: 已完成本地巡检；含 PDF 自动入库结果、问题分级与下�
 4. **大量 PDF 卡片仍是“结构化初筛”，不是“结论化精读”。**
    多份卡片仍保留 `date: 待核验`、`待评估：需精读后确定`、`线索层优先` 等标记，说明知识库吸纳来源的速度快于把来源升级成复用知识的速度。
 5. **索引命名质量不稳定。**
-   虽然腾讯两条已修复，但 [`knowledge/index.md`](/private/tmp/ODIC-current/knowledge/index.md:81) 附近仍有 `netflix culture`、`engineering progression framework v2 0`、`6456498`、`0000050863 26 000011` 这类文件名式标题，影响检索和去重。
+   虽然腾讯两条已修复，但 [`knowledge/index.md`](../index.md) 附近仍有 `netflix culture`、`engineering progression framework v2 0`、`6456498`、`0000050863 26 000011` 这类文件名式标题，影响检索和去重。
 6. **知识日志噪声偏高。**
-   [`knowledge/log.md`](/private/tmp/ODIC-current/knowledge/log.md:7) 开始的多轮 PDF 入库记录对同一报告反复记账，已不适合作为快速巡检入口。
+   [`knowledge/log.md`](../log.md) 开始的多轮 PDF 入库记录对同一报告反复记账，已不适合作为快速巡检入口。
 
 ### P3
 
@@ -79,8 +79,8 @@ status: 已完成本地巡检；含 PDF 自动入库结果、问题分级与下�
 
 ## 本次执行记录
 
-1. 确认 `/private/tmp/ODIC-current` 初始为异常 checkout：只有 `.git` 元数据、无正常 HEAD 工作树；通过拉取远端 `main` 恢复为完整工作树。
+1. 确认当前 OD Intelligence Center 仓库初始为异常 checkout：只有 `.git` 元数据、无正常 HEAD 工作树；通过拉取远端 `main` 恢复为完整工作树。
 2. 执行 `git pull --ff-only`，结果为 `Already up to date.`。
-3. 执行 PDF 自动入库：`EXTRA_PDF_SCAN_DIRS="/Users/tal/Documents/New project/research/private-industry-bigtech-watch" node scripts/ingest-pdf-references.js`。
+3. 执行 PDF 自动入库：`EXTRA_PDF_SCAN_DIRS="[本地私有资料目录已脱敏]" node scripts/ingest-pdf-references.js`。
 4. 入库结果：21 个引用中成功 16 个、失败 5 个；成功项已写入 `knowledge/raw/` 和 `knowledge/wiki/`。
 5. 修正腾讯两张 PDF 来源卡片的标题与公开边界，避免知识库继续保留哈希标题和本地私有路径。

@@ -79,7 +79,7 @@
       "title": "Obsidian 本地知识库",
       "sourceType": "local",
       "status": "已全量覆盖索引，2026-06-30 增量已抽取公开安全主题页",
-      "path": "/Users/tal/Documents/Obsidian Vault",
+      "path": "本地 Obsidian Vault（公开仓库不暴露本地绝对路径）",
       "description": "本地 Vault 当前识别 70 篇 Markdown；2026-06-30 已新增公开安全 source map（覆盖 69 篇，排除 1 篇内部敏感来源），并抽取字节跳动 AI 时代领导力原则、AI 五环协同人才体系、AI 原生组织操作模式等公开安全主题页。内部敏感来源不进入公开仓库正文或公开 source map。",
       "summaryFile": "./knowledge/wiki/obsidian-vault-full-source-map-2026-05-22.md",
       "rawFile": "./knowledge/raw/obsidian-vault-source-map-2026-06-30.json"
@@ -288,7 +288,7 @@
       ],
       "date": "2026-05-22",
       "uploadDate": "2026-05-22",
-      "description": "对 /Users/tal/Documents/Obsidian Vault 进行全量扫描，覆盖 58 篇 Markdown；建立 source map 并按 Concepts、Sources、People、Clippings、Daily、Templates、Root 分类沉淀知识价值。",
+      "description": "对本地 Obsidian Vault 进行全量扫描，覆盖 58 篇 Markdown；建立 source map 并按 Concepts、Sources、People、Clippings、Daily、Templates、Root 分类沉淀知识价值。公开仓库不暴露本地绝对路径。",
       "summaryFile": "./knowledge/wiki/obsidian-vault-full-source-map-2026-05-22.md",
       "rawFile": "./knowledge/raw/obsidian-vault-source-map-2026-05-22.json",
       "fileName": "obsidian-vault-source-map-2026-05-22.json",

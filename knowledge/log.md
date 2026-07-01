@@ -998,7 +998,7 @@
 - 去重原则：不删除来源证据页；把重复观点收敛到主题页，来源页保留证据链和差异。
 
 ## [2026-05-22] ingest | Obsidian 本地知识库全量覆盖索引补齐
-- 重新扫描 `/Users/tal/Documents/Obsidian Vault`，当前共识别 58 篇 Markdown：Root 11，Clippings 2，Concepts 20，Daily 4，People 2，Sources 16，Templates 3。
+- 重新扫描本地 Obsidian Vault（路径已脱敏），当前共识别 58 篇 Markdown：Root 11，Clippings 2，Concepts 20，Daily 4，People 2，Sources 16，Templates 3。
 - 新增全量 source map `knowledge/raw/obsidian-vault-source-map-2026-05-22.json`，记录每篇笔记的路径、标题、标题层级、内部链接、标签、入库方式和知识价值判断。
 - 新增可分享页面 `knowledge/wiki/obsidian-vault-full-source-map-2026-05-22.md`，作为 Obsidian 全量覆盖入口。
 - 更新 catalog 中 Obsidian 条目：从“首批导入 43 篇”修正为“58 篇全量覆盖索引”。
@@ -1017,7 +1017,7 @@
 - 重点结论：AI 组织变革的下一步应把 AI fluency、Agent workflow、管理者工作重构、技术岗位族群变化和组织 readiness 串成同一套机制。
 
 ## [2026-05-22] ingest | McKinsey The State of Organizations 2026 入库
-- 将用户提供的 `/Users/tal/Downloads/the-state-of-organizations-2026.pdf` 归档为 `knowledge/raw/mckinsey-2026-the-state-of-organizations.pdf`。
+- 将用户提供的本地下载 PDF（路径已脱敏）归档为 `knowledge/raw/mckinsey-2026-the-state-of-organizations.pdf`。
 - 新增结构化中文摘要页 `knowledge/wiki/pdf-source-mckinsey-2026-the-state-of-organizations.md`。
 - 报告覆盖三大构造性力量和九个组织转型议题，重点用于 AI 组织设计、组织转型、绩效管理、共享服务和领导力研究。
 - 重点结论：AI 组织转型不能停留在局部工具试点，而要重构 operating model、端到端工作流、能力体系、共享服务、绩效机制和持续变革能力。
@@ -1127,7 +1127,7 @@
 - 仅同步目录、分类判断和研究价值；不发布附件 PDF 原文、不暴露内部会话信息。
 
 ## [2026-05-13] ingest | Obsidian 首批导入 + 知音楼入口建档 + LLM Wiki 运维规则
-- 读取本地 `/Users/tal/Documents/Obsidian Vault`，识别 43 篇 Markdown。
+- 读取本地 Obsidian Vault（路径已脱敏），识别 43 篇 Markdown。
 - 首批导入 LLM Wiki、AI 原生工程组织、技能为本组织、百度职级改革、亚马逊 Builder 与百度对比。
 - 验证知音楼短链 `https://s.tal.com/a/lXaUte`，已定位石墨文件夹入口，但静态抓取只能读到 JS 容器，待登录态或导出文件后批量摄入。
 - 将 Karpathy LLM Wiki 方法论固化为 OD 情报中心知识库运维规则。

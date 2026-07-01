@@ -11,15 +11,15 @@ tags: [知识管理, 定期Review, 资料治理, AI组织设计]
 ## 本周健康度
 
 - **总体判断：78/100，处于“可用、已恢复同步能力，但治理仍需补强”区间。**
-- 结构层面恢复可用：当前工作目录 `/private/tmp/ODIC-current` 原本存在损坏的 `.git` 对象，已用干净克隆的元数据修复，`git pull` / `git fsck` 阻塞已解除。
+- 结构层面恢复可用：当前 OD Intelligence Center 仓库原本存在损坏的 `.git` 对象，已用干净克隆的元数据修复，`git pull` / `git fsck` 阻塞已解除。
 - 证据层面继续前进：本轮按要求重跑 PDF 自动入库后，共识别 21 个公开 PDF 引用，其中 14 个已成功下载到 `knowledge/raw/`，7 个保留来源卡片与引用上下文待重试。
 - 边界控制正常：未发现把 `source-channels.private`、`local-reference-structured`、`archive` 或密码/私有渠道内容写入公开知识库。
 - 治理层面仍有缺口：`knowledge/index.md` 与 `knowledge/catalog.json` 已补入腾讯两份新增 PDF，但 `operations/info-library-status.*` 仍停在 `2026-06-05`，说明知识库状态页和最新日报还没有完全同步。
 
 ## 本周完成的核查
 
-1. 确认 `/private/tmp/ODIC-current` 是完整 git 仓库，但 `.git` 对象损坏，`git pull --rebase --autostash` 失败；随后通过干净克隆修复元数据并恢复当前工作目录的同步能力。
-2. 按要求执行 PDF 自动入库：`EXTRA_PDF_SCAN_DIRS="/Users/tal/Documents/New project/research/private-industry-bigtech-watch" node scripts/ingest-pdf-references.js`。
+1. 确认当前 OD Intelligence Center 仓库是完整 git 仓库，但 `.git` 对象损坏，`git pull --rebase --autostash` 失败；随后通过干净克隆修复元数据并恢复当前工作目录的同步能力。
+2. 按要求执行 PDF 自动入库：`EXTRA_PDF_SCAN_DIRS="[本地私有资料目录已脱敏]" node scripts/ingest-pdf-references.js`。
 3. 重建并核查 `knowledge/index.md`、`knowledge/catalog.json`、`knowledge/log.md` 的本轮变更，清理了一个未被当前索引引用的孤立 PDF 卡片，并把腾讯两份匿名文件名卡片改成可读标题。
 4. 检查最近新增内容的落点、结构化程度、PDF 入库状态、标题质量、来源链接和重复噪音。
 5. 抽查现有 PDF 来源卡片的相对路径、证据层级和引用位置，确认大多数条目已具备中文结构化骨架，不是只有原文路径。

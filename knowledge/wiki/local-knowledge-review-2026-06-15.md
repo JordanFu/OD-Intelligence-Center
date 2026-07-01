@@ -12,7 +12,7 @@ status: 已完成本地巡检；含仓库修复、PDF入库结果与后续优先
 ## 本周健康度
 
 - **总体健康度：74/100。**
-- **结构完整性：** 已从异常状态恢复到可维护状态。`/private/tmp/ODIC-current` 原工作树残缺，已通过干净克隆修复并重新执行 `git pull --ff-only`。
+- **结构完整性：** 已从异常状态恢复到可维护状态。当前 OD Intelligence Center 仓库原工作树残缺，已通过干净克隆修复并重新执行 `git pull --ff-only`。
 - **索引与入库：** PDF 自动入库成功处理 21 个引用，成功下载 16 个，失败 5 个；`knowledge/index.md`、`knowledge/catalog.json`、`knowledge/log.md` 已更新。
 - **主题交付：** 最近一周 `daily/`、`daily-report/`、`specials/ai-org-talent-mechanism/` 持续有新增，但质量门禁并未全部通过，`2026-06-15` 仍是非决策稿。
 
@@ -27,15 +27,15 @@ status: 已完成本地巡检；含仓库修复、PDF入库结果与后续优先
 
 ### P1
 
-1. **信息库索引滞后于最新日报。** [`operations/info-library-status.md`](/private/tmp/ODIC-current/operations/info-library-status.md:5) 仍显示最新日期为 `2026-06-14`，但本地已存在 [`daily/2026-06-15.md`](/private/tmp/ODIC-current/daily/2026-06-15.md:1)。这说明“日报存在”与“正式进入信息库滚动流”仍然脱节。
-2. **当日专题页是兜底稿，不是正式研究稿。** [`specials/ai-org-talent-mechanism/2026-06-15/00-overview.md`](/private/tmp/ODIC-current/specials/ai-org-talent-mechanism/2026-06-15/00-overview.md:1) 及同日分专题文件均标明“非决策稿 / 待检索”，但目录结构上已经占位，容易让读者误判为已完成研究。
-3. **质量审计显示连续结构缺口。** [`specials/ai-org-talent-mechanism/quality/coverage-latest.md`](/private/tmp/ODIC-current/specials/ai-org-talent-mechanism/quality/coverage-latest.md:6) 仍将 `2026-06-03`、`06-04`、`06-05`、`06-08`、`06-09`、`06-12`、`06-13`、`06-14` 标记为“文件或结构缺口”；`2026-06-10`、`06-11`、`06-15` 为非决策稿。
+1. **信息库索引滞后于最新日报。** [`operations/info-library-status.md`](../../operations/info-library-status.md) 仍显示最新日期为 `2026-06-14`，但本地已存在 [`daily/2026-06-15.md`](../../daily/2026-06-15.md)。这说明“日报存在”与“正式进入信息库滚动流”仍然脱节。
+2. **当日专题页是兜底稿，不是正式研究稿。** [`specials/ai-org-talent-mechanism/2026-06-15/00-overview.md`](../../specials/ai-org-talent-mechanism/2026-06-15/00-overview.md) 及同日分专题文件均标明“非决策稿 / 待检索”，但目录结构上已经占位，容易让读者误判为已完成研究。
+3. **质量审计显示连续结构缺口。** [`specials/ai-org-talent-mechanism/quality/coverage-latest.md`](../../specials/ai-org-talent-mechanism/quality/coverage-latest.md) 仍将 `2026-06-03`、`06-04`、`06-05`、`06-08`、`06-09`、`06-12`、`06-13`、`06-14` 标记为“文件或结构缺口”；`2026-06-10`、`06-11`、`06-15` 为非决策稿。
 
 ### P2
 
 4. **大量 PDF 卡片仍停留在“待核验”层。** 多份 `knowledge/wiki/pdf-source-*.md` 只有初筛结构，没有明确发布日期、样本口径或可复用结论；`operations/info-library-status.md` 同时记录 `sourceUrl` 缺失 47 条。
 5. **证据层级仍有混用风险。** 例如 GitLab 8-K、BCG Radar、BCG+MIT Sloan 等卡片虽然已入库，但仍是“待重试/待核验”，而专题稿中很容易把它们和正式一手制度材料并列使用。
-6. **知识日志噪声偏高。** [`knowledge/log.md`](/private/tmp/ODIC-current/knowledge/log.md:17) 对同一 PDF 的重复下载/待重试记录很多，长期会降低日志作为巡检入口的可读性。
+6. **知识日志噪声偏高。** [`knowledge/log.md`](../log.md) 对同一 PDF 的重复下载/待重试记录很多，长期会降低日志作为巡检入口的可读性。
 
 ### P3
 
@@ -78,8 +78,8 @@ status: 已完成本地巡检；含仓库修复、PDF入库结果与后续优先
 
 ## 本次执行记录
 
-1. 确认原目录不是完整工作树后，先备份旧目录，再用干净克隆替换为新的 `/private/tmp/ODIC-current`。
+1. 确认原目录不是完整工作树后，先备份旧目录，再用干净克隆替换为新的当前 OD Intelligence Center 仓库。
 2. 执行 `git pull --ff-only`，结果为 `Already up to date.`。
-3. 执行 PDF 自动入库：`EXTRA_PDF_SCAN_DIRS="/Users/tal/Documents/New project/research/private-industry-bigtech-watch" node scripts/ingest-pdf-references.js`。
+3. 执行 PDF 自动入库：`EXTRA_PDF_SCAN_DIRS="[本地私有资料目录已脱敏]" node scripts/ingest-pdf-references.js`。
 4. 入库结果：21 个引用中成功 16 个、失败 5 个；失败项包括 GitLab 8-K、SSRN、两份 BCG PDF、UMassMed PDF。
 5. 恢复旧目录中的 `2026-06-15` 日报与工作日报，避免今日新增内容丢失。

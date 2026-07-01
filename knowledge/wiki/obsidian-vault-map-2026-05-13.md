@@ -1,6 +1,6 @@
 ---
 title: Obsidian 本地知识库首批导入地图
-source: /Users/tal/Documents/Obsidian Vault
+source: 本地 Obsidian Vault（路径已脱敏）
 date: 2026-05-13
 tags: [Obsidian, 知识库, OD情报中心]
 ---
@@ -9,7 +9,7 @@ tags: [Obsidian, 知识库, OD情报中心]
 
 ## 已识别内容
 
-本地 Vault 路径：`/Users/tal/Documents/Obsidian Vault`
+本地 Vault 路径：`已脱敏：本地 Obsidian Vault`
 
 首轮扫描识别到：
 

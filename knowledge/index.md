@@ -43,8 +43,8 @@
 | 32 | [BCG: AI转型本质上是劳动力转型](summaries/r001-bcg-zh.md) | BCG | 2026-02 | AI转型, 10-20-70法则 |
 | 33 | [Deloitte: 企业AI应用现状](summaries/r002-deloitte-zh.md) | Deloitte | 2025 | 数字化转型, AI战略 |
 | 34 | [HR Analytics: Top 10 AI Solutions](summaries/r003-hr-analytics-ai-zh.md) | HR Analytics Trends | 2025 | HR Analytics, 人才发展 |
-| 33 | [本地知识库定期 Review（2026-06-29）](wiki/local-knowledge-review-2026-06-29.md) | OD Intelligence Center | 2026-06-29 | 知识管理, 定期Review, 资料治理 |
-| 34 | [微信公众号「AI组织进化论」候选来源池](wiki/wechat-ai-org-evolution-intake.md) | 微信公众号「AI组织进化论」 | 2026-06-30 | AI组织设计, 人才密度, 微信公众号, 待核验 |
+| 35 | [本地知识库定期 Review（2026-06-29）](wiki/local-knowledge-review-2026-06-29.md) | OD Intelligence Center | 2026-06-29 | 知识管理, 定期Review, 资料治理 |
+| 36 | [微信公众号「AI组织进化论」候选来源池](wiki/wechat-ai-org-evolution-intake.md) | 微信公众号「AI组织进化论」 | 2026-06-30 | AI组织设计, 人才密度, 微信公众号, 待核验 |
 
 ## 概念页
 

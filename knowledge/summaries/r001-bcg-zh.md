@@ -4,7 +4,7 @@
 > **作者**：Julie Bedard, Vinciane Beauchene  
 > **发布日期**：2026年2月4日  
 > **原文链接**：https://www.bcg.com/publications/2026/ai-transformation-is-a-workforce-transformation  
-> **PDF 本地路径**：`.workbuddy/ai-org-research/pdfs/BCG-AI-Transformation-Workforce-2026.pdf`
+> **PDF 本地缓存**：`历史本地缓存路径已脱敏`
 
 ---
 

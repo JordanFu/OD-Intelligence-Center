@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-07-01T03:30:55.854Z",
+  "module": "knowledge-base",
+  "qualityStatus": "warn",
+  "latestCatalogDate": "2026-07-01",
+  "counts": {
+    "reports": 64,
+    "knowledgeSources": 3,
+    "sourceTypes": {
+      "media": 16,
+      "internal": 15,
+      "concept": 6,
+      "public-safe-synthesis": 3,
+      "consulting": 11,
+      "industry": 13
+    }
+  },
+  "privatePathLeaks": [],
+  "missingSummaryFiles": [],
+  "duplicateNumbers": [],
+  "pdfRetryCount": 0,
+  "pdfRetrySample": [],
+  "warnings": [
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "network check warning: fetch failed",
+    "network check warning: fetch failed"
+  ],
+  "criticalIssues": [],
+  "brokenLinks": [],
+  "links": {
+    "checkedAt": "2026-07-01T03:30:56.032Z",
+    "qualityStatus": "warn",
+    "firstPartyChecked": 1452,
+    "externalWarnings": 12,
+    "brokenCount": 0,
+    "publicScanBridge": [
+      {
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-01.html",
+        "reason": "network check warning: fetch failed"
+      },
+      {
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/",
+        "reason": "network check warning: fetch failed"
+      }
+    ]
+  }
+}
