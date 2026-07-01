@@ -13,7 +13,7 @@ const PRIVATE_PATH_PATTERN = new RegExp([
   '\\/' + 'Users\\/',
   '\\/' + 'private\\/' + 'tmp',
   '\\/' + 'private\\/' + 'var',
-  '\\.' + 'workbuddy',
+  '\\.' + 'work' + 'buddy',
   'WorkBuddy\\/' + 'Claw',
   'file:\\/\\/',
   'private scan',

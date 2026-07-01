@@ -1,24 +1,27 @@
 # 系统健康状态
 
-> 自动生成：2026-07-01T05:59:32.251Z
+> 自动生成：2026-07-01T07:20:07.650Z
 
 ## 一眼判断
 
+- 总体状态：⚠️ warn
 - 情报流状态：⚠️ warn
 - 专题研究状态：⚠️ warn
 - 知识库状态：⚠️ warn
+- 自动化状态：⚠️ warn
 - 一方链接状态：⚠️ warn
-- 当前结论：状态链已可读；当前主要剩余问题是信息质量 warning、专题待补跑和知识库复利深化。
+- 当前结论：状态链可信但仍有运营债务；允许展示 warn，不允许美化成 pass。
 
 ## 情报流状态
 
 - 最新日期：2026-07-01
 - 今日卡片数：8
 - 今日新增事实：3
+- 旧线复核 / Context：3
 - 弱信号：1
 - 缺口记录：1
 - 渠道覆盖：官方、媒体、JD薪酬、社媒公众号
-- 断链数：0
+- sourceUrl 缺失：2
 
 ## 专题研究状态
 
@@ -26,21 +29,59 @@
 - 今日专题状态：fallback
 - 最新正式日报日期：2026-06-30
 - 待正式重跑日期数：14
-- 待正式重跑日期：2026-07-01、2026-06-22、2026-06-11、2026-06-10、2026-06-01、2026-05-29、2026-05-28、2026-05-27、2026-05-25、2026-05-20、2026-05-17、2026-05-16、2026-05-15、2026-05-13
+- 待正式重跑日期：2026-07-01、2026-06-22、2026-06-11、2026-06-10、2026-06-01、2026-05-29、2026-05-28、2026-05-27、2026-05-25、2026-05-20、2026-05-17、2026-05-16 等 14 项
 
 ## 知识库状态
 
 - Catalog 日期：2026-07-01
 - 知识源：3
-- 知识页 / 报告：64
+- 报告 / 知识页：75
 - 待重试 PDF：0
 - 本地或私有路径泄露：0
 - 缺失 summaryFile：0
 
+## 自动化状态
+
+- 本地正式任务：manual-check-required
+- GitHub Actions 角色：fallback-only
+- GitHub Actions 定时数：4
+- 信息库链路：⚠️ warn
+- 专题链路：⚠️ warn
+- 知识库 lint 链路：✅ pass
+- 链接检查链路：⚠️ warn
+
 ## 链接检查
 
-- 一方链接检查数：1476
 - 一方断链数：0
-- 外部链接 warning：10
+- 外部链接 warning：12
+- 公开扫描桥接：warn:n/a、warn:n/a
 
-- ✅ 未发现一方内部断链或公开扫描桥接 404。
+## 质量语义
+
+- pass：状态一致；一方链接无 broken；无路径泄露；脚本通过；fallback 未冒充 formal。
+- warn：外部链接网络失败；低信息日但有缺口说明；今日未到正式运行时间；专题待正式重跑；sourceUrl 缺失但为弱信号或缺口记录。
+- fail：本机绝对路径或私有来源路径泄露；一方内部链接 broken；公开扫描桥接 404；manifest JSON 不可解析；fallback 被标成 formal；弱信号被标成 L3/L4；首页关键状态不可验证。
+
+## 当前问题
+
+- ✅ 无 P0 fail。
+- ⚠️ 最新日期非缺口信息卡少于 8 条：当前 7 条；已有缺口记录，不能用缺口记录凑数量。
+- ⚠️ 最新日期有 2 条 sourceUrl 缺失：7, 8。
+- ⚠️ 最新日期“新增事实”少于 5 条：当前 3 条；已有缺口记录，首页应诚实显示可信新增不足。
+- ⚠️ 最新日期同一子主题超过 40%：63%；需要关注广谱雷达覆盖。
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ network check warning: fetch failed
+- ⚠️ network check warning: fetch failed
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1

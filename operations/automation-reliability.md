@@ -1,5 +1,12 @@
 # 自动化可靠性机制：每日情报任务
 
+## 2026-07-01 Phase 5 固化
+
+- 新增 `data/automation-status.json` 作为自动化链路状态源，记录信息库、专题、知识库、链接检查、GitHub fallback 和本地正式任务的可确认状态。
+- 新增 `scripts/generate-automation-status.js` 与 `scripts/generate-system-health.js`；前者记录链路，后者只聚合 manifest 生成 `operations/system-health-latest.md`。
+- GitHub Actions 仍然只作为兜底，不得把兜底稿标为正式日报；本地正式任务无法确认时必须显示 `manual-check-required`。
+- 最终运营规则见 `operations/final-operating-runbook-2026-07-01.md`，token 控制见 `operations/token-control-policy.md`。
+
 ## 目标
 
 每日情报任务不能再依赖某一台电脑是否在线。正式交付采用“两层机制”：

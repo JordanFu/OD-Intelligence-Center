@@ -415,19 +415,6 @@ async function main() {
   if (mergedKnowledge) writeJson(knowledgeStatusPath, mergedKnowledge);
   if (mergedTopicManifest) writeJson(topicManifestPath, mergedTopicManifest);
 
-  fs.writeFileSync(systemHealthPath, renderSystemHealth({
-    info: mergedInfo,
-    topics: mergedTopics,
-    knowledge: mergedKnowledge,
-    linkStatus,
-  }));
-  fs.writeFileSync(repairLogPath, renderRepairLog({
-    info: mergedInfo,
-    topics: mergedTopics,
-    knowledge: mergedKnowledge,
-    linkStatus,
-  }));
-
   console.log(`Public link check completed: ${linkStatus.qualityStatus}; checked ${linkStatus.firstPartyChecked}, broken ${brokenLinks.length}, warnings ${externalWarnings.length}.`);
 
   if (linkStatus.qualityStatus === 'fail') {
