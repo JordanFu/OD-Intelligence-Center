@@ -1,6 +1,6 @@
 # 系统健康状态
 
-> 自动生成：2026-07-02T01:48:29.927Z
+> 自动生成：2026-07-02T05:15:04.237Z
 
 ## 一眼判断
 
@@ -53,8 +53,8 @@
 ## 链接检查
 
 - 一方断链数：0
-- 外部链接 warning：11
-- 公开扫描桥接：warn:n/a、warn:n/a
+- 外部链接 warning：9
+- 公开扫描桥接：ok:200、ok:200
 
 ## 质量语义
 
@@ -77,8 +77,8 @@
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
-- ⚠️ network check warning: fetch failed
-- ⚠️ network check warning: fetch failed
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
