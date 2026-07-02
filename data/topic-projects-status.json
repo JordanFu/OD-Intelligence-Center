@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T10:13:15.134Z",
+  "generatedAt": "2026-07-02T12:23:05.583Z",
   "module": "topic-projects",
   "project": {
     "id": "ai-org-talent-mechanism",
@@ -84,7 +84,7 @@
       "hasFormalEntry": true,
       "qualityGate": {
         "path": "specials/ai-org-talent-mechanism/quality/2026-07-02.md",
-        "status": "pass-or-warn"
+        "status": "warn-or-unknown"
       },
       "qualityIssues": []
     },
@@ -2567,10 +2567,33 @@
   ],
   "brokenLinks": [],
   "links": {
-    "checkedAt": null,
-    "qualityStatus": "pending",
-    "firstPartyChecked": 0,
-    "externalWarnings": 0,
-    "brokenCount": 0
-  }
+    "checkedAt": "2026-07-02T12:23:07.055Z",
+    "qualityStatus": "warn",
+    "firstPartyChecked": 1522,
+    "externalWarnings": 9,
+    "brokenCount": 0,
+    "publicScanBridge": [
+      {
+        "ok": true,
+        "status": 200,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-02.html"
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "url": "https://jordanfu.github.io/org-intelligence-info/"
+      }
+    ]
+  },
+  "warnings": [
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1"
+  ]
 }
