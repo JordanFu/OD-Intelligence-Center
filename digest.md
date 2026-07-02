@@ -1,7 +1,7 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-07-01 09:42
+> 最后更新：2026-07-02 09:43
 
 ---
 
@@ -23,6 +23,112 @@
 - 💬参考：社交平台/社区讨论，需交叉验证
 
 -->
+
+## 2026-07-02
+
+### [1] AWS Partner-led FDE：FDE 从厂商直服走向伙伴体系复制
+- **事件摘要**：AWS Partner Network 官方博客在 AWS FDE 发布同一窗口推出 Partner-Led Forward Deployed Engineering Motion，要求伙伴建立 ring-fenced、AWS-credentialed engineering teams，通过 AWS-defined technical bar，并沉淀 delivery harness、context graph、MCP servers 和 agent operations tooling。
+- **来源**：AWS APN Blog（https://aws.amazon.com/blogs/apn/introducing-forward-deployed-engineering-for-partners-winning-the-future-of-enterprise-ai/）；AWS / About Amazon（https://www.aboutamazon.com/news/aws/aws-1-billion-forward-deployed-ai-engineers）
+- **来源平台**：AWS APN / AWS About Amazon / 私有组织情报脱敏摘要
+- **来源可信度**：⭐高
+- **信息类型**：旧线复核
+- **渠道类型**：官方
+- **结论置信度**：L3 机制
+- **验证问题**：继续追踪首批 partner 名单、AWS-defined technical bar 的具体内容、质量事故责任和与 AWS ProServe / Solutions Architecture 的分工。
+- **OD启示**：这条增量说明 FDE 不只是 AWS 派专家进入客户现场，而是平台公司开始把客户现场工程转化为伙伴可复制的生产标准、交付资产和质量门槛。它可判为 L3 机制加厚，但不证明该模式已经规模化成功。
+- **标签**：#AWS #FDE #PartnerEcosystem #AgenticAI #DeliveryModel
+- **抓取时间**：2026-07-02 09:43
+
+### [2] AWS FDE 旧线加厚：客户自给能力成为交付结果
+- **事件摘要**：AWS aboutamazon 官方页面继续提供 FDE 主证据：AWS 创建 dedicated FDE organization，投入 10 亿美元，把 AWS frontier teams 嵌入客户 business、engineering、security teams，部署 production AI systems，并留下 knowledge graphs、runbooks、architecture documentation 和 trained internal champions。
+- **来源**：AWS / About Amazon（https://www.aboutamazon.com/news/aws/aws-1-billion-forward-deployed-ai-engineers）；TechCrunch（https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/）
+- **来源平台**：AWS / TechCrunch
+- **来源可信度**：⭐高
+- **信息类型**：旧线复核
+- **渠道类型**：官方
+- **结论置信度**：L3 机制
+- **验证问题**：需要确认 FDE 团队的绩效指标、汇报线、客户自给能力评估和与既有 GenAI Innovation Center 的边界。
+- **OD启示**：FDE 的组织含义是把 AI adoption 的隐性摩擦显性化：数据、权限、业务流程、安全、runbook 和内部 champion 都成为交付对象。今天不重复写成新组织新闻，而是作为 partner-led 复制机制的基线。
+- **标签**：#AWS #CustomerDeployment #KnowledgeGraph #Runbook #AppliedAI
+- **抓取时间**：2026-07-02 09:43
+
+### [3] ByteDance 领导力原则评价化：文化语言接入管理者晋升与考核
+- **事件摘要**：多家媒体转述梁汝波 2026-06-29 全员信，称字节新版 10 条领导力原则将纳入管理者晋升与年度考核核心标准，并对无法落地产出、长期脱离业务一线的管理层调整岗位权责。公开层面尚未见官方全文。
+- **来源**：新浪财经（https://finance.sina.com.cn/tech/2026-06-30/doc-inifeaah3468907.shtml）；证券时报（https://www.stcn.com/article/detail/3989035.html）；36氪（https://36kr.com/p/3877008950751241）
+- **来源平台**：新浪财经 / 证券时报 / 36氪 / 私有组织情报脱敏摘要
+- **来源可信度**：📰较高
+- **信息类型**：新增事实
+- **渠道类型**：媒体
+- **结论置信度**：L2 观察
+- **验证问题**：需要找到字节官方全文、绩效校准说明、晋升材料样例或员工影响证据，确认原则如何影响评级、晋升和岗位调整。
+- **OD启示**：这条信号的机制不是“字节又改文化”，而是管理理念进入评价系统。可判断为 L2-L3 核心观察，但官方全文缺失前不能写成已完成管理制度改革或 AI 时代效率提升。
+- **标签**：#ByteDance #LeadershipPrinciples #PerformanceReview #ManagerEvaluation #AIOrg
+- **抓取时间**：2026-07-02 09:43
+
+### [4] Microsoft 裁员报道：AI capex 压力下的成本纪律，而非替代结论
+- **事件摘要**：Reuters、Business Insider、GeekWire 等报道称 Microsoft 计划裁员低于 2.5%，涉及 sales、consulting、Xbox 等范围，背景包括新财年成本控制和 AI 基础设施投入。Microsoft 未在公开确认中把该轮裁员定义为 AI 直接替代岗位。
+- **来源**：Reuters（https://www.reuters.com/business/microsoft-cut-under-25-workforce-latest-layoffs-business-insider-reports-2026-06-30/）；GeekWire（https://www.geekwire.com/2026/microsoft-set-to-cut-thousands-of-jobs-next-week-spanning-xbox-sales-and-consulting/）
+- **来源平台**：Reuters / GeekWire / Business Insider
+- **来源可信度**：📰较高
+- **信息类型**：新增事实
+- **渠道类型**：媒体
+- **结论置信度**：L1 线索
+- **验证问题**：等待 Microsoft 正式确认部门、人数和原因，并验证是否有流程自动化、岗位族变化、层级压缩或业务线收缩证据。
+- **OD启示**：这条材料只能说明高 AI 投资周期中，销售、咨询、游戏等线条可能面对资源再分配压力。不能把低于 2.5% 裁员直接解释为 AI 替代岗位，也不能写成 Microsoft 组织结构已被 AI 重写。
+- **标签**：#Microsoft #Layoffs #AICapex #CostDiscipline #WeakSignal
+- **抓取时间**：2026-07-02 09:43
+
+### [5] Meta AI 转型治理成本：员工信任、监控边界和研究主权被公开化
+- **事件摘要**：France24 / AFP 综合报道 Meta AI push 伴随裁员、reshuffle、员工监控争议、Model Capability Initiative 暂停和研究线冲突。该报道整合多条既有线索，更像组织气候与治理成本暴露，而不是 2026-07-02 新组织动作。
+- **来源**：France24 / AFP（https://www.france24.com/en/live-news/20260701-fear-and-anger-brew-inside-meta-amid-ai-frenzy）；Reuters 旧线（https://www.reuters.com/business/world-at-work/meta-planning-sweeping-layoffs-ai-costs-mount-2026-03-14/）
+- **来源平台**：France24 / AFP / Reuters
+- **来源可信度**：📰较高
+- **信息类型**：新增事实
+- **渠道类型**：媒体
+- **结论置信度**：L1 线索
+- **验证问题**：继续追踪 Model Capability Initiative 是否恢复或重设边界，以及 superintelligence lab 与原研究线如何分权。
+- **OD启示**：Meta 信号提示 AI 转型成本不只来自组织结构调整，也来自员工数据边界、内部信任、研究主权和被动调岗。它适合作为治理风险观察，不适合作为效率方法样本。
+- **标签**：#Meta #AIGovernance #EmployeeTrust #ResearchOrg #WeakSignal
+- **抓取时间**：2026-07-02 09:43
+
+### [6] BCG high-agency 观点：AI 时代个人贡献者被推向管理化能力
+- **事件摘要**：Business Insider 采访 BCG People & Organization 负责人 Julia Dhar，转述 BCG 2026 AI at Work 研究：许多员工感到技能要求变化并预期需要再培训，AI 节省时间后仍缺少明确指导。Dhar 强调 high-agency 员工更能主动识别问题、重排工作和创造价值。
+- **来源**：Business Insider（https://www.businessinsider.com/bcg-leader-says-successful-employees-have-high-agency-mindset-2026-6）
+- **来源平台**：Business Insider / BCG
+- **来源可信度**：📰较高
+- **信息类型**：旧线复核
+- **渠道类型**：报告学术
+- **结论置信度**：L2 观察
+- **验证问题**：需要获取 BCG 原始报告与样本口径，并验证企业是否把 high-agency 转化为招聘、晋升、培训或绩效标准。
+- **OD启示**：这条材料提示 AI 时代个人贡献者被要求提前承担任务识别、agent 管理、反馈修正和跨流程协调责任。但它仍是能力模型和管理建议，不能直接证明岗位族或晋升制度已经改变。
+- **标签**：#BCG #AIAtWork #HighAgency #CapabilityModel #FutureWork
+- **抓取时间**：2026-07-02 09:43
+
+### [7] 国内 AI 原生组织观察池：扩招、人才密度和期权激励仍缺制度互证
+- **事件摘要**：私有组织情报扫描显示 DeepSeek 扩招、Kimi 高人才密度与克制扩张、MiniMax 全职能期权激励等线索仍在传播，但主要锚定 6 月下旬或更早，且多来自媒体深描、招聘入口和融资叙事，缺岗位体系、评价规则和汇报线证据。
+- **来源**：36氪 DeepSeek（https://36kr.com/p/3875491576904581）；MiniMax Careers（https://www.minimax.io/careers）；Kimi Careers（https://careers.kimi.com/land-on）；私有组织情报 2026-07-02 脱敏摘要
+- **来源平台**：36氪 / MiniMax / Kimi / 私有组织情报脱敏摘要
+- **来源可信度**：💬参考
+- **信息类型**：弱信号
+- **渠道类型**：JD薪酬
+- **结论置信度**：L1 线索
+- **验证问题**：继续找官方岗位架构、职级、薪酬带宽、期权规则、汇报线和管理者评价证据，避免把招聘热度写成组织方法。
+- **OD启示**：国内 AI 原生组织今天可读的是人才竞争与激励叙事，不是正式组织机制。对信息库的价值是保留候选样本和验证清单，不把扩招、估值或期权宣传升级为组织设计结论。
+- **标签**：#DeepSeek #Kimi #MiniMax #TalentDensity #WeakSignal
+- **抓取时间**：2026-07-02 09:43
+
+### [8] 微信公众号、社媒与招聘扫描：今日未发现新的公开 L3 组织机制
+- **事件摘要**：本轮覆盖微信公众号「AI组织进化论」相关公开搜索、国内社媒、海外 workplace 媒体、JD/薪酬入口和私有组织情报脱敏摘要。除 AWS、ByteDance、Microsoft、Meta 已入库材料外，未发现新的公开可互证 L3 组织机制。
+- **来源**：公开搜索覆盖记录；私有组织情报扫描 2026-07-02 脱敏摘要
+- **来源平台**：微信公众号 / 社媒 / 招聘 JD / 私有组织情报脱敏摘要
+- **来源可信度**：💬参考
+- **信息类型**：缺口记录
+- **渠道类型**：社媒公众号
+- **结论置信度**：L1 线索
+- **验证问题**：下一轮优先找官方公告、岗位族变化、薪酬样本、员工影响和多源互证，确认 token 额度治理、全栈化、测试转研发等线索是否真实发生。
+- **OD启示**：今天的低新增边界应被显式记录：广谱扫描有覆盖，但公开证据不足以形成新的 L3 结论。保留弱信号池比强行补满信息卡更可靠。
+- **标签**：#WeChat #SocialSignal #JobArchitecture #ScanCoverage #WeakSignal
+- **抓取时间**：2026-07-02 09:43
 
 ## 2026-07-01
 
