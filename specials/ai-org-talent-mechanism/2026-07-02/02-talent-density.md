@@ -1,53 +1,97 @@
 # 2026-07-02｜专题二：高人才密度与复合型人才机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+## 1. 今日一句话专题判断
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+高人才密度的今日增量不是继续拔高个人标准，而是复合型人才机制开始从厂商直服 FDE 扩展为伙伴交付体系，同时大公司把一线判断、上下文供给和实质产出接入管理者评价，说明“高密度人才”正在制度化为可部署、可复制、可考核的责任包。
 
-## 今日一句话结论
+## 2. 今日新增事实
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+| 事实 | 来源 | 证据等级 |
+|---|---|---:|
+| AWS APN 官方发布 Partner-led FDE，要求伙伴建立 ring-fenced、AWS-credentialed 工程团队，并通过 AWS-defined technical bar。 | AWS APN Blog | L3 |
+| AWS FDE 组织嵌入客户业务、工程、安全团队，留下知识图谱、运行手册、架构文档和 trained internal champions。 | About Amazon | L3 |
+| 多家中文媒体转述字节新版领导力原则将纳入管理者晋升、年度考核，脱离一线/无法落地产出的管理层会调整岗位权责。 | 36Kr、证券时报、新浪财经 | L2-L3 |
+| BCG 2026 AI at Work 显示，74% frontline employees 已定期使用 AI，72% 认为技能期待改变，66% 对节省时间如何使用缺少指导。 | BCG | L3 |
+| Microsoft 裁员和 Meta 争议只能作为 AI 投资期成本纪律与治理成本背景，不构成高人才密度机制结论。 | Reuters/BI/France24 | L1-L2 Context |
 
-## 今日核心判断
+## 3. 今日核心判断
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+1. **复合型人才的硬标准正在变成部署型能力，不是 AI 工具熟练度。可信度：高。** 证据来自 AWS FDE、AWS Partner-led FDE、Anthropic Applied AI 旧线。人才盘点应看业务判断、AI 编排、部署、治理、复用资产和能力迁移。
+2. **高人才密度正在从“强个人”转向“可复制交付体系”。可信度：高。** AWS 的 production bar、delivery harness、runbook、context graph 说明组织不能只招聘明星，而要设计交付标准、认证门槛和复用机制。
+3. **管理者的复合能力开始评价化。可信度：中高。** 字节媒体互证显示一线连接、上下文供给、实质产出可能进入管理者考核语言。高密度组织不只要求 IC 变强，也要求管理者从控制者变成上下文和结果系统设计者。
+4. **AI fluency 是门槛，不是晋升理由。可信度：高。** Zapier、GitLab、本地正式稿持续支持：晋升仍应看持续 scope 扩大、业务必要性、复用资产和跨团队影响。
+5. **高人才密度若没有授权、薪酬和治理承接，会退化为“少数人扛更多活”。可信度：中高。** BCG 的时间节省未被有效再分配、Meta 治理成本和本地周报都提示，人才密度需要项目机会、薪酬溢价、复核机制和负荷监控。
 
-## 今日背景材料
+## 4. 重点案例事实还原
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+### AWS Partner-led FDE：从专家队到伙伴复制机制
 
-## 今日新增证据地图
+**背景：** 企业 AI 生产部署难点集中在数据、权限、安全、流程、评估和客户内部吸收能力。
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+**动作：** AWS APN 将 FDE 扩展为 partner-led motion，伙伴需建立封闭专属、AWS 认证工程团队，并达到 AWS 定义的技术门槛。
 
-## 线索层
+**机制：** AWS 不只派人解决项目，还把交付方法、上下文图谱、运行手册、智能体运营工具和质量门槛产品化。每次交付都沉淀可复用 harness。
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+**人才含义：** 高密度人才不再只是最强工程师，而是能在客户现场整合业务、架构、安全、评估、交付和能力迁移的复合型部署者。
 
-## 待补齐的落地问题
+**结果与待验证：** 官方尚未披露首批 partner 完整名单、质量事故责任、与 AWS ProServe / Solutions Architecture 的边界、FDE 的职级与薪酬路径。
 
-正式重跑必须回答：复合型人才的能力证据是什么、是否有招聘/JD/薪酬信号、是否存在验证和治理能力的溢价、组织如何避免把“少招人”包装成高人才密度。
+**可借鉴点：** 建立复合型人才机制时，应同步定义技术门槛、交付资产、认证机制、事故责任和客户自给能力评估。
 
-## 来源索引
+**不可照搬点：** 如果企业没有复杂客户部署、跨系统集成和治理要求，直接复制 FDE 组织会制造过重前线层。
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+### 字节领导力原则：从文化语言到评价语言
+
+**背景：** 大组织在 AI 时代面临管理层远离一线、上下文不足、产出不实和层级惯性。
+
+**动作：** 多家媒体转述新版 10 条领导力原则将进入管理者晋升和年度考核，无法落地产出、长期脱离业务一线的管理层将调整岗位权责。
+
+**机制含义：** 高人才密度不只是提高 IC 密度，也是在压缩只做管理动作、不创造上下文和结果的管理层。
+
+**边界：** 缺少字节官方全文、HR FAQ、绩效校准样例和真实任免/转岗数据，暂不写成已验证制度变革。
+
+## 5. Context 层
+
+- 暂不形成结论，但提示我们关注：Microsoft 裁员是 AI 投资期成本纪律背景，不是 AI 替代岗位或高人才密度机制证据。
+- 暂不形成结论，但提示我们关注：Meta 争议说明员工数据、监控边界、研究自主权和组织信任需要前置设计。
+- 暂不形成结论，但提示我们关注：国内 DeepSeek / Kimi / MiniMax 扩招、期权、人才密度线索仍缺公开岗位体系、评价规则和薪酬互证。
+- 暂不形成结论，但提示我们关注：BCG high-agency 观点支持复合型人才需要主动定义问题与重排工作，但应回到原始报告验证样本口径。
+
+## 6. 证据地图
+
+| 机制环节 | 当前最好证据 | 等级 |
+|---|---|---:|
+| 识别标准 | Zapier AI Fluency、CFTE AI Proficiency、本地六维模型 | L2-L3 |
+| 部署型复合人才 | AWS FDE、AWS Partner FDE、Anthropic Applied AI Architect | L2-L3 |
+| 复制机制 | AWS production bar、partner-led FDE、runbook / knowledge graph | L3 |
+| 管理者评价 | 字节领导力原则媒体互证 | L2-L3 |
+| 薪酬/保留 | Anthropic OTE、Payscale、EY、Randstad/Korn Ferry 旧线 | L2-L3 |
+| 反例/边界 | Microsoft 裁员、Meta 监控争议 | L1-L2 Context |
+| 内部信息库 | 06-30、07-01 专题二，W26 周报，talent-density baseline/evidence-map | L3 本地综合 |
+
+## 7. 对我们行动的启发
+
+- 建立复合型人才六维表：业务判断、AI 编排、流程/系统理解、风险治理、跨职能影响、复用资产。
+- 人才盘点必须收真实项目证据：评估标准、运行手册、复用人数、风险处置、客户/内部采用、量化影响。
+- 复制 FDE 时不要只建专家队，要同步设计技术门槛、交付资产、伙伴认证、事故责任和客户自给能力评估。
+- 管理者评价增加一线连接、上下文质量、实质产出、跨团队复用和反证处理。
+- 激励分层：短期战功用项目奖金，持续 scope 扩大用 acting scope / 晋升，市场稀缺用带宽或股权刷新。
+
+## 8. 待验证清单与下一步搜索路径
+
+1. AWS Partner-led FDE 首批 partner、项目案例、质量事故责任和认证机制。
+2. AWS FDE 是否出现正式 JD、管理岗、职级路径、绩效指标和薪酬带宽。
+3. 字节新版领导力原则官方全文、HR FAQ、绩效校准样例、晋升/转岗影响。
+4. 国内 AI 复合型人才是否出现可核验薪酬、职级、岗位族群或项目激励制度。
+5. AI fluency 是否被更多公司正式写入 promotion rubric，而非只进入招聘门槛。
+6. BCG 的“时间节省未被再分配”是否在中国企业有相似管理缺口证据。
+
+## 9. 来源索引
+
+1. AWS APN：Introducing Forward Deployed Engineering for Partners, https://aws.amazon.com/blogs/apn/introducing-forward-deployed-engineering-for-partners-winning-the-future-of-enterprise-ai/
+2. AWS：AWS invests $1 billion in forward deployed AI engineers, https://www.aboutamazon.com/news/aws/aws-1-billion-forward-deployed-ai-engineers
+3. BCG：AI at Work: Strategy Matters More Than Tools, https://www.bcg.com/publications/2026/ai-at-work-why-strategy-matters-more-than-tools
+4. 36Kr：字节正式打响管理变革第一枪, https://36kr.com/p/3875167002154249
+5. 证券时报：时隔四年，字节跳动CEO梁汝波再发全员信, https://www.stcn.com/article/detail/3989035.html
+6. France24 / AFP：Fear and anger brew inside Meta amid AI frenzy, https://www.france24.com/en/live-news/20260701-fear-and-anger-brew-inside-meta-amid-ai-frenzy
+7. 本地：`daily/2026-07-02.md`、`specials/ai-org-talent-mechanism/2026-07-01/02-talent-density.md`、`specials/ai-org-talent-mechanism/topics/talent-density/baseline.md`
