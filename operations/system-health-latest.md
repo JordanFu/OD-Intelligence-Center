@@ -1,6 +1,6 @@
 # 系统健康状态
 
-> 自动生成：2026-07-03T01:49:10.019Z
+> 自动生成：2026-07-03T05:10:10.256Z
 
 ## 一眼判断
 
@@ -25,15 +25,15 @@
 
 ## 专题研究状态
 
-- 今日日期：2026-07-02
-- 今日专题状态：formal
+- 今日日期：2026-07-03
+- 今日专题状态：fallback
 - 最新正式日报日期：2026-07-02
-- 待正式重跑日期数：13
-- 待正式重跑日期：2026-06-22、2026-06-11、2026-06-10、2026-06-01、2026-05-29、2026-05-28、2026-05-27、2026-05-25、2026-05-20、2026-05-17、2026-05-16、2026-05-15 等 13 项
+- 待正式重跑日期数：14
+- 待正式重跑日期：2026-07-03、2026-06-22、2026-06-11、2026-06-10、2026-06-01、2026-05-29、2026-05-28、2026-05-27、2026-05-25、2026-05-20、2026-05-17、2026-05-16 等 14 项
 
 ## 知识库状态
 
-- Catalog 日期：2026-07-02
+- Catalog 日期：2026-07-03
 - 知识源：3
 - 报告 / 知识页：75
 - 待重试 PDF：0
@@ -42,7 +42,7 @@
 
 ## 自动化状态
 
-- 本地正式任务：confirmed-formal
+- 本地正式任务：manual-check-required
 - GitHub Actions 角色：fallback-only
 - GitHub Actions 定时数：4
 - 信息库链路：⚠️ warn
@@ -53,8 +53,8 @@
 ## 链接检查
 
 - 一方断链数：0
-- 外部链接 warning：12
-- 公开扫描桥接：warn:n/a、warn:n/a、warn:n/a
+- 外部链接 warning：9
+- 公开扫描桥接：ok:200、ok:200、ok:200
 
 ## 质量语义
 
@@ -77,9 +77,9 @@
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
-- ⚠️ network check warning: fetch failed
-- ⚠️ network check warning: fetch failed
-- ⚠️ network check warning: fetch failed
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
