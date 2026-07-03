@@ -3642,6 +3642,14 @@
       },
       {
         date: '2026-W27',
+        title: '详细资料版周报',
+        status: '阶段复盘 / 资料聚合',
+        summary: '沉淀当周高价值信息、Context、线索和方法论，作为快速导读版的证据底盘。',
+        href: './specials/ai-org-talent-mechanism/weekly/2026-W27-detailed.html',
+        markdown: './specials/ai-org-talent-mechanism/weekly/2026-W27-detailed.md'
+      },
+      {
+        date: '2026-W27',
         title: 'CEO 决策周报',
         status: '有限证据窗口 / 决策稿',
         summary: '聚合 6/26-6/27 四课题日报、知识库校验、决策议题和试点方案。',
@@ -3760,6 +3768,29 @@
             <a class="levels-btn primary" href="./specials/ai-org-talent-mechanism/manifest.json" target="_blank">查看专题 manifest</a>
             <a class="levels-btn" href="./data/topic-projects-status.json" target="_blank">查看状态源</a>
             <a class="levels-btn" href="./operations/system-health-latest.md" target="_blank">查看系统健康</a>
+          </div>
+        </div>
+
+        <div class="levels-section">
+          <h3>周报分区</h3>
+          <p class="levels-section-note">每周固定两份：快速导读版负责高层决策阅读；详细资料版负责沉淀当周所有有价值信息、Context 和线索。</p>
+          ${levelsWeeklyOutputs.map(item => `
+            <div class="levels-output">
+              <div class="levels-output-head">
+                <div>
+                  <div class="levels-output-title">${esc(item.date)} · ${esc(item.title)}</div>
+                  <p>${esc(item.summary)}</p>
+                </div>
+                <span class="report-day-badge">${esc(item.status)}</span>
+              </div>
+              <div class="levels-actions">
+                <a class="levels-btn primary" href="${esc(item.href)}" target="_blank">阅读周报</a>
+                <a class="levels-btn" href="${esc(item.markdown)}" target="_blank">查看 Markdown</a>
+              </div>
+            </div>
+          `).join('')}
+          <div class="levels-actions">
+            <a class="levels-btn" href="./specials/ai-org-talent-mechanism/weekly/index.html" target="_blank">进入周报总页</a>
           </div>
         </div>
       `;
