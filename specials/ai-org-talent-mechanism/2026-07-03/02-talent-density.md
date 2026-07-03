@@ -1,53 +1,113 @@
 # 2026-07-03｜专题二：高人才密度与复合型人才机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+## 1. 今日一句话专题判断
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+高人才密度不是“少招人”或“人人会用 AI”，而是组织开始用真实部署任务、AI 工作流评估、授权、技能薪酬和关键人才保留机制，筛出能把 AI 能力转化为业务结果的复合型人才。
 
-## 今日一句话结论
+## 2. 今日新增事实：只写可追溯事实
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+| 事实 | 来源 | 证据等级 | 对应机制 |
+|---|---|---:|---|
+| Anthropic 招聘 Head of Applied AI Architecture，要求建设全球分布式 Applied AI Architect 团队，覆盖 discovery 到 deployment、团队结构、职业发展路径、目标和 review，并给出 $315K-$380K 薪资区间。 | Anthropic Greenhouse | L2-L3 | 内部发现、项目分配、授权、薪酬、学习 |
+| OpenAI AI Deployment Engineer 岗位强调客户真实工作流、失败模式、eval、prompt / agent / workflow 原型，并把现场信号反馈给产品和研究。 | OpenAI Ashby 搜索摘要 | L1-L2 | 评价指标、面试机制、项目分配 |
+| TestGorilla 2026 AI fluency 报告称 71% 组织已定义 AI fluency，95% 将其列为招聘要求，但 59% 仍出现 bad AI hire。 | TestGorilla | L2 | 识别标准、面试机制 |
+| Riviera Partners 指出 AI leader 平均总薪酬较可比工程高管约高 10%；候选人关注汇报线、预算权、数据基础、决策流程和组织稳定性。 | Riviera Partners | L2 | 薪酬股权、授权、保留 |
+| Mercer/Eightfold Pay for Skills 调查显示，400+ 公司中 80% 将“吸引和保留高溢价技能”列为 pay-for-skills 首要目标；86% 在新招聘时为技能付费，但入职后维护技能溢价不足。 | Mercer/Eightfold | L2 | 技能薪酬、人才盘点、保留 |
+| GitLab Talent Assessment 将人才盘点与晋升提名合并到同一周期，关注 performance、growth potential、key talent、SPOF、succession planning、calibration。 | GitLab Handbook | L3 | 人才盘点、快速晋升、保留 |
+| BCG AI at Work 2026 显示，AI 节省时间后 66% 员工缺少如何使用节省时间的指导。 | BCG | L2 | 授权、学习、任务再分配 |
 
-## 今日核心判断
+## 3. 今日核心判断
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+1. **高人才密度的识别标准应升级为“部署型复合能力”。可信度：中高。** 证据来自 Anthropic、OpenAI、Zapier、TestGorilla 与 AWS FDE。重要性在于避免把“会讲 AI 术语的人”误判为高潜。
+2. **面试和评估要从问工具转向做任务。可信度：中高。** TestGorilla 的 bad AI hire 信号提示，仅用自述或术语测试会误判；更可靠的方法是 live workflow exercise、失败复盘、输出审计和约束变化。
+3. **薪酬和授权是高人才密度的必要承接。可信度：中。** Riviera、Anthropic、Mercer/Eightfold 共同提示，稀缺 AI 复合人才不仅看薪资，也看汇报线、预算权、数据基础、决策权和组织稳定性。
+4. **快速晋升不宜替代校准机制。可信度：高。** GitLab 仍是强一手制度基线：AI 项目战功可以进入证据包、acting scope、项目奖金，但正式晋升应看稳定 scope 和业务必要性。
+5. **高人才密度不能等同“少人更强”。可信度：中高。** Human fallback 研究和 BCG high-agency 提示，若组织不设计兜底技能、任务再分配和学习路径，少数高密度人才会过载，普通员工能力会萎缩。
 
-## 今日背景材料
+## 4. 重点案例事实还原
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+### 案例 A：Anthropic Applied AI Architecture 领导岗
 
-## 今日新增证据地图
+**背景。** Anthropic 的 Applied AI / FDE 类岗位已经从单个专家扩展到全球分布式团队建设、客户部署和职业路径设计。
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+**时间线。** 2026 年近窗招聘信息显示，Head of Applied AI Architecture 要负责建设团队、定义目标、review、职业发展路径，并覆盖 discovery 到 deployment。
 
-## 线索层
+**动作。** 岗位要求候选人能在高约束客户场景中识别业务问题、设计解决方案、推动部署、培养团队，并管理分布式 Applied AI Architect 队伍。
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+**机制。** 它把复合型人才从“会做 AI 项目”提升到“能建立团队能力、交付标准、职业路径和客户价值”的层级。
 
-## 待补齐的落地问题
+**结果。** 薪资区间 $315K-$380K 说明市场已经为部分 AI 部署型复合能力付出高价，但这仍是岗位信号，不等于组织内晋升制度已完整公开。
 
-正式重跑必须回答：复合型人才的能力证据是什么、是否有招聘/JD/薪酬信号、是否存在验证和治理能力的溢价、组织如何避免把“少招人”包装成高人才密度。
+**争议和阻碍。** 公开信息仍缺完整职级、绩效指标、晋升路径、股权细节和内部培养机制。
 
-## 来源索引
+**可借鉴点。** 把高密度人才识别标准写成：业务判断、客户场景、部署能力、团队赋能、复用资产、职业路径建设。
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+**不可照搬点。** Anthropic 是 AI 原生公司，普通企业不应直接照搬薪酬区间和团队密度。
+
+### 案例 B：GitLab Talent Assessment
+
+**背景。** 远程、跨职能组织需要用系统化人才盘点避免主管主观判断。
+
+**时间线。** GitLab FY26 Talent Assessment 与 Q2 promotion nominations 合并，关键节点覆盖 2026-01 到 2026-05。
+
+**动作。** 使用 performance、growth potential、key talent、single point of failure、succession planning、calibration，并与 Workday、年度薪酬评审、晋升提名联动。
+
+**机制。** 高人才密度不是“谁最近项目表现亮眼”，而是通过盘点识别关键人才、保留风险、继任风险和晋升证据。
+
+**结果。** Talent assessment 与 promotion nomination 合并，说明快速晋升、保留和盘点需要共同治理。
+
+**争议和阻碍。** 流程较重，对小组织要简化，但关键字段不能省：绩效、潜力、关键性、继任、保留风险、校准。
+
+**可借鉴点。** 把 AI 高密度人才纳入关键人才盘点，而不是只用项目负责人口头推荐。
+
+**不可照搬点。** GitLab 的 handbook-first 与远程文化成熟，其他组织需要先建立事实记录与校准习惯。
+
+## 5. Context 层
+
+- 暂不形成结论，但提示我们关注：OpenAI AI Deployment Engineer 正文抽取失败，只能作为 L1-L2 招聘信号。
+- 暂不形成结论，但提示我们关注：TestGorilla 是测评供应商报告，有商业立场，适合做“面试误判风险”证据，不适合作为普遍市场真相。
+- 暂不形成结论，但提示我们关注：Mercer/Eightfold pay-for-skills 不是 AI 专属材料，但能增强“技能溢价与保留机制”的薪酬治理判断。
+- 暂不形成结论，但提示我们关注：BCG high-agency 不能写成性格标签，它更像组织未定义节省时间如何再分配时，把任务识别责任前移给个人。
+
+## 6. 证据地图
+
+| 机制 | 今日素材判断 | 主要来源 | 等级 |
+|---|---|---|---:|
+| 识别标准 | 从工具熟悉升级为业务判断、工作流拆解、eval、风险治理、复用沉淀 | Zapier、TestGorilla、CFTE | L2-L3 |
+| 评价指标 | 看真实任务、失败模式、质量校验、复用系统 | OpenAI、Anthropic、AWS FDE | L2-L3 |
+| 面试机制 | live workflow exercise、约束变化、失败复盘、输出审计 | TestGorilla、Zapier | L2 |
+| 内部发现 | 通过客户现场、跨职能部署、高约束场景发现复合人才 | Anthropic、AWS FDE、GitLab | L2-L3 |
+| 项目分配 | 把高潜人才放入高真实度项目，不只靠经理提名 | Anthropic、OpenAI、AWS FDE | L2-L3 |
+| 薪酬股权 | AI 领导/复合型能力存在市场溢价，需薪酬带宽和 LTI 承接 | Riviera、Anthropic、Payscale/EY | L2 |
+| 快速晋升 | 项目贡献先进入 acting scope、奖金和证据包，再固定窗口校准 | GitLab | L3 |
+| 授权机制 | 高责任人才需要汇报线、预算权、数据权限、决策权、升级路径 | Riviera、Anthropic | L2 |
+| 学习机制 | 学习是 workflow 迭代、团队 enablement、manager-led adoption | Zapier、CFTE、Mercer | L2-L3 |
+| 人才盘点 | 技能库、岗位技能映射、9-box、key talent、SPOF、继任计划 | GitLab、Mercer、CFTE | L2-L3 |
+| 保留机制 | 薪酬溢价、股权、关键项目、授权、成长路径共同承接 | Riviera、Mercer、GitLab | L2-L3 |
+
+## 7. 对我们行动的启发
+
+- 把高潜识别从“AI 工具熟练”改为“部署型复合能力”：业务问题、AI 工作流、评估、风险、复用、跨职能影响。
+- 面试和内部选拔加入真实任务：给约束、给坏输出、给数据边界，看候选人如何判断、修正、升级和沉淀。
+- 对关键 AI 复合人才同步设计授权和定价：预算权、数据权限、项目优先级、薪酬带宽、股权刷新、保留风险。
+- 人才盘点要把 key talent、SPOF、继任计划和 AI 能力证据放在同一张表，而不是把 AI 能力单独做培训记录。
+- 快速晋升要克制：项目战功先用奖金、acting scope、公开认可和技能津贴承接，正式晋升进入固定校准。
+
+## 8. 待验证清单与下一步搜索路径
+
+1. Anthropic / OpenAI 是否公开 Applied AI / FDE 类岗位的职级、晋升路径和绩效指标。
+2. 哪些公司已把 AI fluency 写入正式 performance review 或 promotion rubric。
+3. 技能薪酬是否有明确 sunset、audit、pay equity 和市场稀缺系数机制。
+4. 国内公司是否出现 AI 复合型人才的公开薪酬、项目任命、期权或干部盘点证据。
+5. AI 高密度人才的保留是否更多依赖现金薪酬、长期激励、关键项目，还是组织授权。
+
+## 9. 来源索引
+
+- Anthropic Head of Applied AI Architecture, http://job-boards.greenhouse.io/anthropic/jobs/5192104008
+- OpenAI AI Deployment Engineer, https://jobs.ashbyhq.com/openai/193d33d8-4993-4220-bc5d-cfd792d7e583
+- TestGorilla State of Hiring AI Fluency, https://www.testgorilla.com/talent-discovery/state-hiring-ai-fluency/
+- Riviera Partners AI hiring 2026, https://www.rivierapartners.com/insights/ai-hiring-in-2026-what-the-data-reveals-about-talent-pay-and-readiness/
+- Mercer / Eightfold Pay for Skills, https://eightfold.ai/wp-content/uploads/Mercer_and_Eightfold_Pay_for_Skills.pdf
+- GitLab Talent Assessment, https://handbook.gitlab.com/handbook/people-group/talent-assessment/
+- BCG AI at Work 2026, https://www.bcg.com/publications/2026/ai-at-work-why-strategy-matters-more-than-tools
+- 本地知识源：`knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md`、`knowledge/concepts/capability-judgment-matrix.md`、`specials/ai-org-talent-mechanism/2026-07-02/02-talent-density.md`

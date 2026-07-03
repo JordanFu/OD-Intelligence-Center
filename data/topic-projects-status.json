@@ -1,19 +1,18 @@
 {
-  "generatedAt": "2026-07-03T05:10:08.063Z",
+  "generatedAt": "2026-07-03T10:11:16.537Z",
   "module": "topic-projects",
   "project": {
     "id": "ai-org-talent-mechanism",
     "title": "AI时代组织与人才机制四课题研究",
     "root": "specials/ai-org-talent-mechanism"
   },
-  "qualityStatus": "warn",
-  "latestFormalDate": "2026-07-02",
+  "qualityStatus": "pass-or-warn",
+  "latestFormalDate": "2026-07-03",
   "latestAnyDate": "2026-07-03",
   "today": "2026-07-03",
-  "todayStatus": "fallback",
-  "latestStatus": "fallback",
+  "todayStatus": "formal",
+  "latestStatus": "formal",
   "pendingRerunDates": [
-    "2026-07-03",
     "2026-06-22",
     "2026-06-11",
     "2026-06-10",
@@ -29,8 +28,8 @@
     "2026-05-13"
   ],
   "statusCounts": {
-    "fallback": 14,
-    "formal": 38
+    "fallback": 13,
+    "formal": 39
   },
   "statusDefinitions": {
     "formal": "正式决策稿：00-overview、四专题 Markdown、正式入口均存在，且无兜底/待重跑关键词，质量门禁未明确失败。",
@@ -42,10 +41,10 @@
   "dates": [
     {
       "date": "2026-07-03",
-      "status": "fallback",
-      "isFormal": false,
-      "isFallback": true,
-      "needsRerun": true,
+      "status": "formal",
+      "isFormal": true,
+      "isFallback": false,
+      "needsRerun": false,
       "overview": "specials/ai-org-talent-mechanism/2026-07-03/00-overview.html",
       "overviewMarkdown": "specials/ai-org-talent-mechanism/2026-07-03/00-overview.md",
       "index": "specials/ai-org-talent-mechanism/2026-07-03/index.html",
@@ -85,11 +84,9 @@
       "hasFormalEntry": true,
       "qualityGate": {
         "path": "specials/ai-org-talent-mechanism/quality/2026-07-03.md",
-        "status": "warn-or-unknown"
+        "status": "pass-or-warn"
       },
-      "qualityIssues": [
-        "正文包含兜底/非决策稿/待正式重跑关键词"
-      ]
+      "qualityIssues": []
     },
     {
       "date": "2026-07-02",
