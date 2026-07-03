@@ -2151,6 +2151,34 @@
       "backlinks": [
         "./specials/ai-org-talent-mechanism/topics/promotion-system/evidence-map.md"
       ]
+    },
+    {
+      "id": "p024",
+      "title": "Mercer and Eightfold Pay for Skills",
+      "originalTitle": "Mercer and Eightfold Pay for Skills",
+      "author": "eightfold.ai",
+      "publisher": "eightfold.ai",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计",
+        "绩效管理",
+        "人才发展"
+      ],
+      "date": "",
+      "uploadDate": "2026-07-03",
+      "description": "Mercer and Eightfold Pay for Skills 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计、绩效管理、人才发展。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-eightfold-ai-mercer-and-eightfold-pay-for-skills.md",
+      "rawFile": "./knowledge/raw/eightfold-ai-mercer-and-eightfold-pay-for-skills.pdf",
+      "fileName": "eightfold-ai-mercer-and-eightfold-pay-for-skills.pdf",
+      "fileSize": "2023887 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "绩效管理",
+        "人才发展",
+        "eightfold.ai"
+      ],
+      "originalUrl": "https://eightfold.ai/wp-content/uploads/Mercer_and_Eightfold_Pay_for_Skills.pdf"
     }
   ]
 }
