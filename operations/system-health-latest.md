@@ -1,6 +1,6 @@
 # 系统健康状态
 
-> 自动生成：2026-07-02T15:40:49.808Z
+> 自动生成：2026-07-03T01:49:10.019Z
 
 ## 一眼判断
 
@@ -14,14 +14,14 @@
 
 ## 情报流状态
 
-- 最新日期：2026-07-02
+- 最新日期：2026-07-03
 - 今日卡片数：8
 - 今日新增事实：3
 - 旧线复核 / Context：3
 - 弱信号：1
 - 缺口记录：1
-- 渠道覆盖：官方、媒体、报告学术、JD薪酬、社媒公众号
-- sourceUrl 缺失：1
+- 渠道覆盖：媒体、报告学术、社媒公众号
+- sourceUrl 缺失：0
 
 ## 专题研究状态
 
@@ -53,8 +53,8 @@
 ## 链接检查
 
 - 一方断链数：0
-- 外部链接 warning：9
-- 公开扫描桥接：ok:200、ok:200
+- 外部链接 warning：12
+- 公开扫描桥接：warn:n/a、warn:n/a、warn:n/a
 
 ## 质量语义
 
@@ -66,7 +66,7 @@
 
 - ✅ 无 P0 fail。
 - ⚠️ 最新日期非缺口信息卡少于 8 条：当前 7 条；已有缺口记录，不能用缺口记录凑数量。
-- ⚠️ 最新日期有 1 条 sourceUrl 缺失：8。
+- ⚠️ 最新日期渠道类型少于 4 类：当前 3 类；应覆盖官方、媒体、报告学术、社媒公众号、JD薪酬中的至少 4 类。
 - ⚠️ 最新日期“新增事实”少于 5 条：当前 3 条；已有缺口记录，首页应诚实显示可信新增不足。
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
@@ -77,9 +77,9 @@
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ network check warning: fetch failed
+- ⚠️ network check warning: fetch failed
+- ⚠️ network check warning: fetch failed
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1

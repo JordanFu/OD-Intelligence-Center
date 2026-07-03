@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T15:40:48.231Z",
+  "generatedAt": "2026-07-02T10:13:15.134Z",
   "module": "topic-projects",
   "project": {
     "id": "ai-org-talent-mechanism",
@@ -84,7 +84,7 @@
       "hasFormalEntry": true,
       "qualityGate": {
         "path": "specials/ai-org-talent-mechanism/quality/2026-07-02.md",
-        "status": "warn-or-unknown"
+        "status": "pass-or-warn"
       },
       "qualityIssues": []
     },
@@ -2567,21 +2567,32 @@
   ],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-07-02T15:40:49.672Z",
+    "checkedAt": "2026-07-03T01:49:03.168Z",
     "qualityStatus": "warn",
-    "firstPartyChecked": 1522,
-    "externalWarnings": 9,
+    "firstPartyChecked": 1525,
+    "externalWarnings": 12,
     "brokenCount": 0,
     "publicScanBridge": [
       {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-02.html"
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-02.html",
+        "reason": "network check warning: fetch failed"
       },
       {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/"
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-03.html",
+        "reason": "network check warning: fetch failed"
+      },
+      {
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/",
+        "reason": "network check warning: fetch failed"
       }
     ]
   },
@@ -2594,6 +2605,20 @@
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1"
+    "external link not hard-checked in Phase 1",
+    "network check warning: fetch failed",
+    "network check warning: fetch failed",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "network check warning: fetch failed",
+    "network check warning: fetch failed",
+    "network check warning: fetch failed"
   ]
 }

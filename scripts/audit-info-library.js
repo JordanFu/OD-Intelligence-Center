@@ -11,6 +11,7 @@ const legacyStatusMdPath = path.join(operationsDir, 'info-library-status.md');
 const dailyDir = path.join(root, 'daily');
 const dailyReportDir = path.join(root, 'daily-report');
 const weeklyDir = path.join(root, 'weekly');
+const privateOrgDailyLogDir = '/Users/tal/Documents/New project/research/private-industry-bigtech-watch/daily-log';
 
 const MIN_LATEST_ITEMS = 8;
 const MAX_LATEST_ITEMS = 15;
@@ -428,6 +429,22 @@ function publicScanUrlFor(date) {
   return `https://jordanfu.github.io/org-intelligence-info/daily-log/${date}.html`;
 }
 
+function latestPrivateOrgDailyLogDate() {
+  try {
+    if (!fs.existsSync(privateOrgDailyLogDir)) return null;
+    const dates = fs.readdirSync(privateOrgDailyLogDir)
+      .map((file) => {
+        const match = file.match(/^(\d{4}-\d{2}-\d{2})\.md$/);
+        return match ? match[1] : null;
+      })
+      .filter(Boolean)
+      .sort();
+    return dates.at(-1) || null;
+  } catch {
+    return null;
+  }
+}
+
 function main() {
   if (!fs.existsSync(digestPath)) {
     throw new Error('digest.md does not exist');
@@ -446,6 +463,7 @@ function main() {
   const latestDigestText = latestSectionText(digest, latestDate);
   const recentDays = days.slice(0, RECENT_DAY_COUNT).map((day) => analyzeDay(day, latestSectionText(digest, day.date)));
   const latestQuality = qualityIssues(days[0], latestDigestText, existingStatus);
+  const latestPrivateScanDate = latestPrivateOrgDailyLogDate() || latestDate;
   const platforms = [...new Set(items.map((item) => item.platform || item.source).filter(Boolean))].sort();
   const trustStats = items.reduce((stats, item) => {
     const key = item.trust || '未标注';
@@ -588,7 +606,8 @@ function main() {
     },
     homepageBridge: {
       digestLatestDate: latestDate,
-      latestScanUrl: publicScanUrlFor(latestDate),
+      latestScanDate: latestPrivateScanDate,
+      latestScanUrl: publicScanUrlFor(latestPrivateScanDate),
       publicMirrorUrl: 'https://jordanfu.github.io/org-intelligence-info/',
       checkedBy: 'scripts/check-public-links.js',
       status: 'pending-link-check',

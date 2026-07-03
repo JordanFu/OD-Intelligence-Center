@@ -2836,9 +2836,9 @@
         return { status: 'fail', showLatestScan: false, note: '最新扫描不可访问，改用公开镜像入口' };
       }
       if (matched) {
-        return { status: 'pending-link-check', showLatestScan: false, note: '最新扫描待验证，暂不开放直达入口' };
+        return { status: 'pending-link-check', showLatestScan: true, note: '最新扫描链接待复核，已保留直达入口' };
       }
-      return { status: 'pending-link-check', showLatestScan: false, note: '等待链接校验，暂不开放直达入口' };
+      return { status: 'pending-link-check', showLatestScan: true, note: '等待链接校验，已保留直达入口' };
     }
     async function fetchManifest(url, key) {
       try {
@@ -2877,6 +2877,7 @@
       const publicStatus = overallPublicStatus(infoStatus, topicStatus, knowledgeStatus, automation?.qualityStatus);
       const publicScanState = getPublicScanBridgeState(info);
       const latestDate = info?.latestDate || allDays[0]?.date || '未知';
+      const latestScanDate = info?.homepageBridge?.latestScanDate || info?.homepageBridge?.digestLatestDate || latestDate;
       const cardCount = info?.latest?.cardCount ?? info?.latestCardCount ?? '未知';
       const newFactCount = info?.latest?.newFactCount ?? info?.newFactCount ?? '未知';
       const latestFormalDate = topics?.latestFormalDate || '暂无';
@@ -2902,7 +2903,7 @@
                 <span>运营状态</span>
               </div>
               <p class="public-status-title">信息流更新至 ${esc(latestDate)} · ${esc(String(cardCount))} 条信息卡 · 新增事实 ${esc(String(newFactCount))} 条</p>
-              <p class="public-status-note">专题研究最新正式日报 ${esc(latestFormalDate)} · ${esc(publicTopicStatus(topics))} · 知识库 ${esc(String(knowledgePages))} 页 · ${esc(entityConceptNote)}。${readerNote}</p>
+              <p class="public-status-note">组织情报镜像更新至 ${esc(latestScanDate)} · 专题研究最新正式日报 ${esc(latestFormalDate)} · ${esc(publicTopicStatus(topics))} · 知识库 ${esc(String(knowledgePages))} 页 · ${esc(entityConceptNote)}。${readerNote}</p>
             </div>
             <div class="status-actions">
               ${publicScanState.showLatestScan ? `<a href="${esc(info.homepageBridge.latestScanUrl)}" target="_blank" rel="noopener">最新扫描</a>` : '<span class="disabled-action">最新扫描待验证</span>'}

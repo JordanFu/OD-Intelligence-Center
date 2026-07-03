@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-02T15:40:48.296Z",
+  "generatedAt": "2026-07-03T01:48:59.723Z",
   "module": "info-feed",
   "qualityStatus": "warn",
-  "latestDate": "2026-07-02",
+  "latestDate": "2026-07-03",
   "latestCardCount": 8,
   "newFactCount": 3,
   "contextCount": 3,
@@ -10,26 +10,24 @@
   "gapRecordCount": 1,
   "sourceCount": 8,
   "channelCoverage": [
-    "官方",
     "媒体",
     "报告学术",
-    "JD薪酬",
     "社媒公众号"
   ],
   "confidenceDistribution": {
-    "L3": 2,
-    "L2": 2,
-    "L1": 4
+    "L2": 6,
+    "L3": 1,
+    "L1": 1
   },
   "subtopicConcentration": 0.375,
-  "privateSignalRatio": 0.125,
+  "privateSignalRatio": 0,
   "fieldCompleteness": {
     "requiredFieldMissingCount": 0,
     "missingFields": []
   },
-  "sourceUrlMissingCount": 1,
+  "sourceUrlMissingCount": 0,
   "latest": {
-    "date": "2026-07-02",
+    "date": "2026-07-03",
     "cardCount": 8,
     "nonGapCardCount": 7,
     "newFactCount": 3,
@@ -39,57 +37,49 @@
     "gapCount": 1,
     "gapRecordCount": 1,
     "sourcePlatformCount": 8,
-    "sourceUrlCount": 7,
-    "channelTypeCount": 5,
+    "sourceUrlCount": 8,
+    "channelTypeCount": 3,
     "channelTypes": [
-      "官方",
       "媒体",
       "报告学术",
-      "JD薪酬",
       "社媒公众号"
     ],
     "infoTypeDistribution": {
-      "旧线复核": 3,
       "新增事实": 3,
+      "旧线复核": 3,
       "弱信号": 1,
       "缺口记录": 1
     },
     "channelTypeDistribution": {
-      "官方": 2,
       "媒体": 3,
-      "报告学术": 1,
-      "JD薪酬": 1,
+      "报告学术": 4,
       "社媒公众号": 1
     },
     "channelCoverage": {
-      "官方": 2,
       "媒体": 3,
-      "报告学术": 1,
-      "JD薪酬": 1,
+      "报告学术": 4,
       "社媒公众号": 1
     },
     "confidenceDistribution": {
-      "L3": 2,
-      "L2": 2,
-      "L1": 4
+      "L2": 6,
+      "L3": 1,
+      "L1": 1
     },
     "conclusionConfidenceDistribution": {
-      "L3": 2,
-      "L2": 2,
-      "L1": 4
+      "L2": 6,
+      "L3": 1,
+      "L1": 1
     },
     "subtopicDistribution": {
-      "AI交付与部署": 3,
-      "组织层级与管理": 1,
-      "AI治理与安全": 1,
-      "岗位与职业架构": 3
+      "AI治理与安全": 3,
+      "其他": 1,
+      "AI交付与部署": 2,
+      "岗位与职业架构": 2
     },
     "subtopicConcentration": 0.375,
-    "privateSignalRatio": 0.125,
-    "sourceUrlMissingItemIds": [
-      "8"
-    ],
-    "sourceUrlMissingCount": 1,
+    "privateSignalRatio": 0,
+    "sourceUrlMissingItemIds": [],
+    "sourceUrlMissingCount": 0,
     "fieldCompleteness": {
       "requiredFieldMissingCount": 0,
       "missingFields": []
@@ -102,6 +92,50 @@
     "hasValidGapRecord": true
   },
   "recentDays": [
+    {
+      "date": "2026-07-03",
+      "cardCount": 8,
+      "nonGapCardCount": 7,
+      "newFactCount": 3,
+      "contextCount": 3,
+      "weakSignalCount": 1,
+      "gapRecordCount": 1,
+      "sourcePlatformCount": 8,
+      "sourceUrlCount": 8,
+      "sourceUrlMissingCount": 0,
+      "channelTypeCount": 3,
+      "channelTypes": [
+        "媒体",
+        "报告学术",
+        "社媒公众号"
+      ],
+      "channelCoverage": {
+        "媒体": 3,
+        "报告学术": 4,
+        "社媒公众号": 1
+      },
+      "confidenceDistribution": {
+        "L2": 6,
+        "L3": 1,
+        "L1": 1
+      },
+      "subtopicDistribution": {
+        "AI治理与安全": 3,
+        "其他": 1,
+        "AI交付与部署": 2,
+        "岗位与职业架构": 2
+      },
+      "subtopicConcentration": 0.375,
+      "privateSignalRatio": 0,
+      "fieldCompleteness": {
+        "requiredFieldMissingCount": 0,
+        "missingFields": []
+      },
+      "qualityIssues": [
+        "新增事实少于 5 条，已有缺口记录",
+        "渠道类型少于 4 类"
+      ]
+    },
     {
       "date": "2026-07-02",
       "cardCount": 8,
@@ -350,66 +384,28 @@
         "新增事实少于 5 条且缺少有效缺口记录",
         "渠道类型少于 4 类"
       ]
-    },
-    {
-      "date": "2026-06-25",
-      "cardCount": 2,
-      "nonGapCardCount": 2,
-      "newFactCount": 1,
-      "contextCount": 0,
-      "weakSignalCount": 1,
-      "gapRecordCount": 0,
-      "sourcePlatformCount": 2,
-      "sourceUrlCount": 2,
-      "sourceUrlMissingCount": 0,
-      "channelTypeCount": 2,
-      "channelTypes": [
-        "官方",
-        "媒体"
-      ],
-      "channelCoverage": {
-        "官方": 1,
-        "媒体": 1
-      },
-      "confidenceDistribution": {
-        "L3": 1,
-        "L2": 1
-      },
-      "subtopicDistribution": {
-        "AI交付与部署": 1,
-        "岗位与职业架构": 1
-      },
-      "subtopicConcentration": 0.5,
-      "privateSignalRatio": 0,
-      "fieldCompleteness": {
-        "requiredFieldMissingCount": 0,
-        "missingFields": []
-      },
-      "qualityIssues": [
-        "新增事实少于 5 条且缺少有效缺口记录",
-        "渠道类型少于 4 类"
-      ]
     }
   ],
   "totals": {
-    "days": 68,
-    "cards": 624,
-    "platforms": 324,
-    "dailyFiles": 71,
-    "dailyReportFiles": 75,
+    "days": 69,
+    "cards": 632,
+    "platforms": 329,
+    "dailyFiles": 72,
+    "dailyReportFiles": 76,
     "weeklyFiles": 1
   },
   "homepageBridge": {
-    "digestLatestDate": "2026-07-02",
-    "latestScanUrl": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-02.html",
+    "digestLatestDate": "2026-07-03",
+    "latestScanDate": "2026-07-03",
+    "latestScanUrl": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-03.html",
     "publicMirrorUrl": "https://jordanfu.github.io/org-intelligence-info/",
     "checkedBy": "scripts/check-public-links.js",
     "status": "pending-link-check"
   },
   "trustStats": {
-    "⭐高": 334,
-    "📰较高": 276,
-    "💬参考": 11,
+    "📰较高": 281,
+    "⭐高": 336,
+    "💬参考": 12,
     "⭐高 / 📰较高": 1,
     "💬参考（多篇学术论文交叉验证）": 1,
     "📰较高 / ⭐高": 1
@@ -430,7 +426,7 @@
   },
   "warnings": [
     "最新日期非缺口信息卡少于 8 条：当前 7 条；已有缺口记录，不能用缺口记录凑数量。",
-    "最新日期有 1 条 sourceUrl 缺失：8。",
+    "最新日期渠道类型少于 4 类：当前 3 类；应覆盖官方、媒体、报告学术、社媒公众号、JD薪酬中的至少 4 类。",
     "最新日期“新增事实”少于 5 条：当前 3 条；已有缺口记录，首页应诚实显示可信新增不足。",
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
@@ -440,26 +436,40 @@
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1"
+    "external link not hard-checked in Phase 1",
+    "network check warning: fetch failed",
+    "network check warning: fetch failed",
+    "network check warning: fetch failed"
   ],
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-07-02T15:40:49.672Z",
+    "checkedAt": "2026-07-03T01:49:03.168Z",
     "qualityStatus": "warn",
-    "firstPartyChecked": 1522,
-    "externalWarnings": 9,
+    "firstPartyChecked": 1525,
+    "externalWarnings": 12,
     "brokenCount": 0,
     "publicScanBridge": [
       {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-02.html"
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-02.html",
+        "reason": "network check warning: fetch failed"
       },
       {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/"
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-03.html",
+        "reason": "network check warning: fetch failed"
+      },
+      {
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/",
+        "reason": "network check warning: fetch failed"
       }
     ]
   },
