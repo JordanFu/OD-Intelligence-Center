@@ -1,53 +1,123 @@
 # 2026-07-04｜专题四：未来组织的晋升机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+## 1. 今日一句话专题判断
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+今天没有新的 L3 晋升制度文本足以推翻既有判断：未来晋升机制应保留固定校准窗口，把即时晋升作为例外，把 AI fluency 和 AI 贡献纳入可审计证据包，并用项目奖金、acting scope、技能津贴、薪酬带宽和股权刷新承接窗口外贡献。
 
-## 今日一句话结论
+## 2. 今日新增事实：只写可追溯事实
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+| 事实 | 来源 | 证据等级 | 对晋升机制的含义 |
+|---|---|---:|---|
+| GitLab FY26 Talent Assessment 把 performance/growth potential ratings 与 Q2 promotion nominations 合并，1 月自评、1 月经理评估、2 月 leadership calibration、3 月 ACR、5 月 1 日晋升和薪酬变化生效。 | GitLab Handbook | L3 | 固定窗口仍是公平、预算和薪酬承接的核心机制。 |
+| GitLab 使用 9-box performance/growth potential matrix，并在校准中强调一致性、公平、跨部门反馈、bias checkpoint、事实和 SBI feedback。 | GitLab Handbook | L3 | 晋升应基于证据和校准，而不是单点 manager 判断。 |
+| Railsware 将 AI fluency 放入 competency model，覆盖 peer review、promotion criteria 和 job descriptions；四个可观察行为是 effective application、critical validation、ownership & accountability、safety and ethics。 | Railsware 公司博客, 2026-05-14 | L2 | AI fluency 可进入晋升语言，但重点是判断和责任，不是工具使用量。 |
+| Railsware 明确 AI fluency 随 seniority 扩展：Junior 改善个人工作，Senior 影响团队工作流，Lead 设定组织标准和 guardrails。 | Railsware | L2 | AI 贡献评估应按层级看影响范围。 |
+| Times of India 2026-02-26 报道 AI fluency 与 outcomes 正进入绩效评估；Amazon India 用 AI nudges 支持反馈和 promotion documentation；LinkedIn India 看 outcomes 和 how；Accenture 相关线索仍缺公开制度全文。 | Times of India | B/C | 可作为趋势线索，不能升为 L3 制度。 |
+| Meta 员工行为数据项目若恢复将改为 opt-in。 | `daily/2026-07-04.md` / BI / Reuters | L2-L3 候选 | 员工数据可辅助证据，但必须有 consent、解释、申诉和纠错机制。 |
 
-## 今日核心判断
+## 3. 今日核心判断
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+1. **固定晋升窗口仍应保留。可信度：高。** GitLab 说明 promotion nominations、calibration、ACR 和生效日需要节奏化，才能处理同级比较、公平审计、预算和薪酬带宽。
+2. **即时晋升只做例外，不做默认制度。可信度：高。** 只有当候选人已稳定承担下一层级责任、业务需要持续存在、预算和岗位价值可承接时，才可窗口外晋升。
+3. **项目制贡献先进入激励和 acting scope。可信度：高。** 一次 AI 项目成功不等于岗位价值永久变化；可先给奖金、公开认可、临时授权和证据包，观察 1-2 个周期。
+4. **AI fluency 是门槛和证据输入，不是晋升理由本身。可信度：高。** Railsware 把 fluency 定义为四个可观察行为，并按 seniority 扩展影响范围；这比使用次数更适合晋升。
+5. **员工行为数据不能直接接入晋升。可信度：高。** Meta MCI opt-in 线索提醒，任何日志、工具活跃度和员工行为数据都需要用途说明、授权、解释、申诉和误判纠正。
 
-## 今日背景材料
+## 4. 重点案例事实还原
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+### 案例 A：GitLab FY26 Talent Assessment / Promotion Cycle
 
-## 今日新增证据地图
+**背景。** 远程组织需要透明、可校准的人才盘点和晋升流程，避免只依赖直属经理判断。
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+**时间线。** FY26 cycle 中，2025 年 12 月准备 self-assessment 和 promotion document；2026 年 1 月 team members 完成 self-assessment；1 月 managers 完成 Assess My Team 和 promotion nominations；2 月 leadership calibration；3 月 Annual Compensation Review；5 月 1 日 promotion 和 cash compensation changes 生效。
 
-## 线索层
+**动作。** GitLab 将 talent assessment 与 Q2 promotion nominations 合并，用 Workday 完成评估，用 performance/growth potential matrix 识别 key talent、promotion readiness、succession 和 development needs。
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+**机制。** 校准强调一致性、公平、跨部门反馈、bias checkpoint、事实证据、SBI feedback、job family、competencies 和 values。
 
-## 待补齐的落地问题
+**结果。** 该机制把晋升、人才盘点、薪酬和发展对话放在一个节奏中，形成可复核链条。
 
-正式重跑必须回答：AI 贡献如何进入晋升证据包、谁负责验证与质量、是否有校准机制、是否存在调岗降薪和劳动合规风险。
+**争议和阻碍。** 固定窗口可能慢；对高速 AI 项目贡献需要窗口外激励和 acting scope 补充。
 
-## 来源索引
+**可借鉴点。** 保留固定窗口；把 AI contribution packet 纳入 self-assessment、manager assessment 和 calibration pre-work。
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+**不可照搬点。** 不同企业不一定使用 9-box 或 Workday，但必须保留事实证据、校准和薪酬承接。
+
+### 案例 B：Railsware AI Fluency Competency
+
+**背景。** 很多公司把 AI 当工具 rollout，容易出现 adoption 不均和无批判采用。
+
+**时间线。** Railsware 2026-05-14 更新博客，说明把 AI fluency 放入 competency model。
+
+**动作。** Railsware 将 AI fluency 定义为四个可观察行为：有效应用、批判验证、所有权与责任、安全和伦理；并把它放入 peer review、promotion criteria 和 job descriptions。
+
+**机制。** AI fluency 随 seniority 扩展：Junior 主要提升个人产出，Senior 影响团队工作流，Lead 制定组织标准和 guardrails。
+
+**结果。** 该模式把 AI fluency 从“是否用工具”转为“是否有判断、验证、责任和安全边界”。
+
+**争议和阻碍。** 公司博客是 L2 一手实践，不是大型企业通用制度；仍需更多组织验证。
+
+**可借鉴点。** 把 AI 贡献写成行为证据和层级影响范围，而不是工具使用次数。
+
+**不可照搬点。** 不应把 AI fluency 自动变成晋升门票；它更适合作为准入、发展和证据输入。
+
+## 5. Context 层
+
+- 暂不形成结论，但提示我们关注：2026-07-04 没有新的 L3 晋升制度文本；Meta、Challenger、FDE 只作为组织校准背景。
+- 暂不形成结论，但提示我们关注：Workday Agent System of Record / Agent Passport 可让 AI 贡献和 agent 治理更可审计，但不能直接证明员工晋升制度已改变。
+- 暂不形成结论，但提示我们关注：Accenture AI 工具使用进入晋升输入的媒体链可作 L2 career gate 信号，因缺公开 rubric 不升为 L3。
+- 暂不形成结论，但提示我们关注：AI 技能进入岗位要求快于薪酬制度调整，晋升、调薪、津贴、项目奖金和长期激励应分轨治理。
+
+## 6. 证据地图
+
+| 渠道 | 今日证据 | 等级 |
+|---|---|---:|
+| 官方/一手 | GitLab Handbook；Railsware 公司博客；Workday ASOR / Agent Passport | L2-L3 |
+| 权威媒体/咨询 | Times of India AI fluency appraisal；Payscale/EY/Mercer 本地材料 | B/C-L2 |
+| 公司案例 | GitLab、Railsware、Meta、Accenture、Amazon India、LinkedIn India | L2-L3 |
+| 学术/研究 | skills-based organization、auditable promotion evidence 本地概念 | 本地综合 |
+| 招聘薪酬 | AI fluency 写入 JD、promotion criteria；薪酬承接仍不足 | L2 |
+| 社媒/职场线索 | LinkedIn HR 专业文章、脉脉/职场讨论 | Context |
+| 内部信息库/知识库 | GitLab promotions card、Zapier AI Fluency、7 月 1-3 日正式专题 | 本地综合 |
+
+## 7. 对我们行动的启发
+
+**常规晋升窗口。** 每年或半年固定窗口用于同级比较、预算、薪酬带宽、人才委员会和公平审计。
+
+**即时晋升。** 只作为例外：稳定承担下一层级责任、业务必要性持续、岗位价值变化、预算可承接、同级公平可解释。
+
+**项目制晋升。** AI 项目战功先进入项目奖金、公开认可、临时授权、acting scope 和证据包；稳定 1-2 个周期后进入窗口。
+
+**岗位价值变化触发。** 晋升触发点不是任务变多，而是复杂度、决策权、风险责任、跨团队影响和业务必要性持续上移。
+
+**能力认证/技能徽章。** 作为准入、项目匹配、内部流动和发展语言；不能自动触发晋升。
+
+**AI 贡献度评估。** 评估业务问题、AI 工作流、质量标准、风险控制、复用范围、他人采用、量化影响和责任边界；不看调用次数、提示词数量或学习时长。
+
+**同行评审。** AI 贡献常跨团队，必须纳入 stakeholder、平台、安全、数据方反馈，验证真实贡献和采用效果。
+
+**人才委员会。** 负责同级候选人、预算、薪酬公平、关键岗位和继任校准；敏感评级与公开晋升文档分层。
+
+**薪酬校准。** 与晋升部分解耦。AI 稀缺能力优先用技能津贴、市场调薪、项目奖金、股权刷新、带宽调整承接。
+
+**绩效与晋升耦合/解耦。** 绩效证明过去结果，是必要证据；晋升证明未来更大责任和岗位价值变化，不能完全等同。
+
+## 8. 待验证清单与下一步搜索路径
+
+1. Railsware 是否公开具体 promotion rubric、peer review 模板和 JD 样例。
+2. Accenture 是否有正式制度文本说明 AI 工具使用如何进入 senior staff promotion。
+3. GitLab 是否在 FY26 后继续合并 Talent Assessment 与 Promotion Cycle，并公开效果或调整。
+4. Workday / SAP / Oracle 是否把 agent contribution logs 接入 performance / promotion workflows。
+5. 国内企业是否把 AI 胜任力、领导力原则、agent 项目贡献写入正式绩效或晋升校准文本。
+6. 员工行为数据用于人才评价时，是否有 consent、解释、申诉、误判纠正和最小化采集机制。
+
+## 9. 来源索引
+
+- GitLab Handbook: Talent Assessment, https://handbook.gitlab.com/handbook/people-group/talent-assessment/
+- GitLab Handbook: Promotions and Transfers, https://handbook.gitlab.com/handbook/people-group/promotions-transfers/
+- Railsware: AI Fluency at Railsware, 2026-05-14, https://railsware.com/blog/ai-fluency-at-railsware-the-four-competencies-we-hire-and-promote-for/
+- Times of India: AI fluency, outcomes key to appraisals, 2026-02-26, https://timesofindia.indiatimes.com/technology/tech-news/ai-fluency-outcomes-key-to-appraisals/articleshow/128802962.cms
+- Workday Agent System of Record, https://www.workday.com/en-us/artificial-intelligence/agent-system-of-record.html
+- Workday Agent Passport, https://newsroom.workday.com/2026-06-02-Workday-Launches-Agent-Passport-to-Test,-Verify,-and-Continuously-Monitor-Every-AI-Agent-in-the-Enterprise
+- Business Insider / Reuters Meta AI agent 线索，https://www.businessinsider.com/zuckerberg-said-metas-ai-progress-has-been-slower-than-expected-2026-7
+- 本地知识源：`knowledge/wiki/gitlab-promotions-transfers-handbook.md`、`knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md`、`specials/ai-org-talent-mechanism/2026-07-03/04-promotion-system.md`

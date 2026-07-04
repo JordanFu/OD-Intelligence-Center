@@ -1,53 +1,102 @@
 # 2026-07-04｜专题二：高人才密度与复合型人才机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+## 1. 今日一句话专题判断
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+高人才密度在 AI 时代不能再理解为“多招几个明星专家”，而要理解为关键责任包中的复合型人才占比、团队整合质量和授权承接能力；HBS 的 talent density 研究与 Cars24 / AWS FDE / 新华招聘信号共同指向：识别、激励和保留复合型人才，必须从真实任务、团队过程和结果证据入手。
 
-## 今日一句话结论
+## 2. 今日新增事实：只写可追溯事实
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+| 事实 | 来源 | 证据等级 | 对高人才密度的含义 |
+|---|---|---:|---|
+| HBS Boris Groysberg 访谈指出，AI talent density 可看总体人才占比，也可看关键岗位中人才占比；招到顶尖个人不等于能用好他们。 | HBS Working Knowledge, 2026-01-14 | B | 人才密度要测关键岗位和团队整合，不只测招聘数量。 |
+| HBS 访谈指出，明星人才迁移到新公司平均不一定继续成功；团队设计、团队启动、团队过程和团队化学反应很关键。 | 同上 | B | 复合型人才保留和发挥依赖组织机制。 |
+| 新华网/经济参考报 2026-07-03 报道，人社部互联网企业云端招聘月释放 20 万+岗位；腾讯 8000+、字节约 7000；2026 年 1-5 月 AI、芯片应届职位同比增长 28.4%、21.0%。 | 新华网, 2026-07-03 | B+ | 国内 AI/芯片招聘需求仍强，但不是高密度机制本身。 |
+| 同文称美团 2026 校招新增 AI 产品经理、AI Agent 开发工程师，并加入 AI 胜任力考察模块；科大讯飞 AI 医学研究员需要临床经验和 AI 产品思维。 | 新华网 | B+ | AI 胜任力开始进入招聘评价，复合岗位更显性。 |
+| Cars24 称权威来自 ownership、execution、customer impact，而不是 formal rank。 | Economic Times, 2026-07-03 | B+ | 高密度人才的组织条件是问题所有权和影响评价。 |
+| AWS FDE 组织把工程师嵌入客户团队，共同构建 agentic AI 系统，并让客户从观察者、共建者到自主运营者。 | AWS 官方 | L3 | 复合型人才机制应包含项目分配、授权、能力迁移和复用资产。 |
+| Meta 7 月 4 日线索提示，AI agent 组织重构需要校准技术进度、组织承载和员工信任。 | `daily/2026-07-04.md` | L2-L3 候选 | 高密度 task force 不能跑在治理和信任之前。 |
 
-## 今日核心判断
+## 3. 今日核心判断
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+1. **高人才密度的分母应从“全员”拆到“关键责任包”。可信度：高。** HBS 提醒关键岗位中的人才密度比全员平均更接近竞争优势；对 AI 组织，应优先看 FDE、agent governance、AI safety、workflow owner 等关键责任包。
+2. **复合型人才不是单点能力，而是“业务判断 + AI 编排 + 风险治理 + 复用资产 + 影响他人”。可信度：高。** AWS FDE、Cars24 和本地 7 月 1-3 日专题都支持这一点。
+3. **招聘只是入口，团队整合才决定产出。可信度：高。** HBS 对明星人才和 lift-out 的讨论说明，买人、挖人或组建小队都需要团队设计、启动、过程和文化整合。
+4. **AI 胜任力正在进入招聘，但不能直接等同高潜。可信度：中高。** 美团 AI 胜任力考察和科大讯飞复合岗位是招聘信号；还需看到面试题、评价标准、入职后项目分配和留存结果。
+5. **高密度人才保留必须分轨承接。可信度：高。** 对稳定责任包用职级/薪酬带宽，对短期项目用奖金/授权/股权刷新，对稀缺技能用技能津贴或市场调薪，不要全部挤进晋升。
 
-## 今日背景材料
+## 4. 重点案例事实还原：HBS Talent Density 与 AWS FDE
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+**背景。** AI 人才竞争中，公司容易把注意力放在挖明星、买团队和高薪抢人，但 HBS 研究提醒，人才是否能发挥取决于组织设计和团队整合。
 
-## 今日新增证据地图
+**时间线。** HBS Working Knowledge 2026-01-14 发布 Boris Groysberg 访谈；AWS 2026 年宣布 10 亿美元 FDE 组织；本地 7 月 1-3 日专题已把 AWS FDE 作为 L3 机制基线。
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+**动作。** HBS 给出两个测量口径：全员人才密度、关键岗位人才密度。AWS FDE 则把工程师直接嵌入客户业务、工程、安全团队，围绕业务结果和客户自给能力部署 agentic AI。
 
-## 线索层
+**机制。** 高密度人才机制至少包含：识别关键岗位、定义复合能力、用真实任务评价、给到上下文和授权、设计团队启动、沉淀 runbook / knowledge graph / internal champions、用薪酬和晋升承接长期责任。
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+**结果。** AWS 公开称 FDE 目标是将部署从月压缩到天，并让客户在项目结束后获得系统、技能、工作流和模式。HBS 则强调 AI 可以让更少人更高产，但团队互补性仍关键。
 
-## 待补齐的落地问题
+**争议和阻碍。** 明星人才可能不可移植；高薪挖人可能变成投资者信号而非能力建设；AI 工具会放大好人才也会放大差错；高密度小队可能与既有组织隔离。
 
-正式重跑必须回答：复合型人才的能力证据是什么、是否有招聘/JD/薪酬信号、是否存在验证和治理能力的溢价、组织如何避免把“少招人”包装成高人才密度。
+**可借鉴点。** 用“关键责任包人才密度”做指标：关键岗位有多少人真正能独立承担 AI 工作流、客户结果、风险和复用资产。
 
-## 来源索引
+**不可照搬点。** 云厂商和 AI 原生公司的 FDE 模式不适合原样复制到所有企业；普通企业应先从关键流程试点复合责任包。
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+## 5. Context 层
+
+- 暂不形成结论，但提示我们关注：DeepSeek 扩招覆盖研发、算法、产品、数据、IDC、职能等岗位，可能说明 AI 原生组织从研究小队向公司化扩厚，但没有新的正式制度文本。
+- 暂不形成结论，但提示我们关注：Meta 的进展校准说明，高密度团队如果缺少信任、数据授权和技术成熟度，会被组织摩擦消耗。
+- 暂不形成结论，但提示我们关注：36氪猎头访谈和薪酬讨论说明 AI 人才溢价强，但单一媒体访谈不应作为薪酬制度结论。
+- 暂不形成结论，但提示我们关注：AI 胜任力进入校招评价后，企业需要防止把会用工具误判为能承担端到端责任。
+
+## 6. 证据地图
+
+| 渠道 | 今日证据 | 等级 |
+|---|---|---:|
+| 官方/一手 | AWS FDE；人社部招聘月经新华报道转述 | L3 / B+ |
+| 权威媒体/咨询 | HBS talent density；新华网招聘报道；PwC AI Jobs Barometer | B / B+ |
+| 公司案例 | AWS FDE、Cars24、Meta、DeepSeek、美团、科大讯飞 | L2-L3 |
+| 学术/研究 | HBS star talent / talent density；PwC 技能变化和工资溢价 | B |
+| 招聘薪酬 | 美团 AI 胜任力、科大讯飞临床 + AI 产品思维、腾讯/字节岗位规模 | B+ |
+| 社媒/职场线索 | 猎头访谈、职场平台薪酬讨论 | Context |
+| 内部信息库/知识库 | baseline 02、7 月 1-3 日正式专题、`daily/2026-07-04.md` | 本地综合 |
+
+## 7. 对我们行动的启发
+
+**识别标准。** 不看“是否会用 AI”，看能否定义业务问题、拆工作流、选择工具/agent、设质量阈值、识别失败模式、管理风险、影响他人采用、沉淀复用资产。
+
+**评价指标。** 关键责任包人才密度、关键项目端到端成功率、复用资产采用率、质量事故率、人机交接成功率、客户/内部用户自给能力、跨团队反馈。
+
+**面试机制。** 用真实业务 case、工作流拆解、失败模式复盘、风险情境、跨职能沟通和产出验收替代概念问答。
+
+**内部发现机制。** 从 AI 项目复盘、工具日志、代码/文档贡献、跨团队反馈、客户成功案例和风险接管记录中识别人，而不是只看自荐。
+
+**项目分配机制。** 把高密度人才放到高杠杆流程，但必须配上下文、数据权限、决策边界、复核资源和升级路径。
+
+**薪酬与股权激励。** 对长期稀缺责任用带宽调整和股权刷新；对阶段性攻坚用项目奖金；对技能溢价用技能津贴和 sunset 机制。
+
+**快速晋升。** 不因一次 AI 项目成功立即晋升；先给 acting scope 或临时授权，观察 1-2 个周期后进入校准。
+
+**学习机制。** 建任务内学习：部署复盘、失败案例库、agent 评估模板、同伴评审和内部 champion 机制。
+
+**人才盘点机制。** 每季度盘点关键责任包：谁能独立承担、谁能带人、谁是单点风险、哪些岗位需要外部招聘或内部转化。
+
+**保留机制。** 保留的不只是人，而是团队关系、上下文、复用资产和成长路径；避免把明星人才做成孤岛。
+
+## 8. 待验证清单与下一步搜索路径
+
+1. 美团 AI 胜任力考察是否公开具体题型、评分标准和入职后培养机制。
+2. 腾讯、字节 AI 招聘规模是否对应具体岗位族、薪酬带宽、晋升路径或项目分配机制。
+3. DeepSeek 扩招后是否出现正式组织架构、职级、期权、IDC SLA 和 Agent Harness 产品指标。
+4. AWS FDE 是否公开人才选拔、内部培训、绩效指标、晋升和保留机制。
+5. AI 人才高薪案例是否能追到团队整合结果，而不是只停留在招聘新闻。
+
+## 9. 来源索引
+
+- HBS Working Knowledge: Winning with AI Starts With Talent Density, 2026-01-14, https://www.library.hbs.edu/working-knowledge/winning-with-ai-starts-with-talent-density
+- 新华网：互联网企业云端招聘月释放 20 万+岗位，2026-07-03, https://www.news.cn/tech/20260703/8e658de8864c4e6e96df04d35ce93ed4/c.html
+- AWS FDE, https://www.aboutamazon.com/news/aws/aws-1-billion-forward-deployed-ai-engineers
+- Economic Times: Cars24 scraps job titles and hierarchy in AI-era organisational overhaul, 2026-07-03, https://economictimes.indiatimes.com/industry/auto/auto-news/cars24-scraps-job-titles-and-hierarchy-in-ai-era-organisational-overhaul/articleshow/132157238.cms
+- PwC Global AI Jobs Barometer 2026, https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html
+- Business Insider / Reuters Meta AI agent 线索，https://www.businessinsider.com/zuckerberg-said-metas-ai-progress-has-been-slower-than-expected-2026-7
+- 本地知识源：`daily/2026-07-04.md`、`daily-report/2026-07-04.md`、`specials/ai-org-talent-mechanism/2026-07-03/02-talent-density.md`
