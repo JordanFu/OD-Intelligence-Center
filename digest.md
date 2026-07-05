@@ -1,7 +1,7 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-07-04 09:40
+> 最后更新：2026-07-05 09:40
 
 ---
 
@@ -23,6 +23,112 @@
 - 💬参考：社交平台/社区讨论，需交叉验证
 
 -->
+
+## 2026-07-05
+
+### [1] Microsoft Frontier Company：FDE 从岗位族升级为客户现场工程经营单元
+- **事件摘要**：Microsoft 2026-07-02 官方发布 Frontier Company，称投入 25 亿美元，组织 6,000 名 industry and engineering experts 嵌入客户，共同设计、部署并持续改进 AI systems，目标是 measurable business outcomes。
+- **来源**：Microsoft 官方（https://blogs.microsoft.com/blog/2026/07/02/microsoft-frontier-company-ai-engineering-that-amplifies-and-protects-your-intelligence/）
+- **来源平台**：Microsoft
+- **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：官方
+- **结论置信度**：L3 候选
+- **验证问题**：继续验证 25 亿美元是否为新增预算、6,000 人来源、P&L、客户归属、事故责任、SI 分润和 outcome 计量方式。
+- **OD启示**：这条信号说明 AI adoption 的组织边界正在外扩：模型 / 云厂商不只交付 API、license 或咨询建议，也开始直接进入客户流程、数据治理和业务结果闭环。
+- **标签**：#Microsoft #FrontierCompany #FDE #EnterpriseAI #CustomerEngineering
+- **抓取时间**：2026-07-05 09:40
+
+### [2] Frontier Company 的 model-diverse 与 IP 保护口径：客户数据治理成为交付卖点
+- **事件摘要**：Microsoft 官方博客强调 Frontier Company 支持 OpenAI、Anthropic、Microsoft AI、开源和行业模型等 model-diverse 平台，并承诺客户 data / IP / competitive advantage 不用于训练会商品化其差异化的模型。
+- **来源**：Microsoft 官方（https://blogs.microsoft.com/blog/2026/07/02/microsoft-frontier-company-ai-engineering-that-amplifies-and-protects-your-intelligence/）
+- **来源平台**：Microsoft
+- **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：官方
+- **结论置信度**：L2-L3 候选
+- **验证问题**：需要继续看合同条款、日志留存、模型训练排除、客户审计权、事故责任和 cross-model routing 的实际治理机制。
+- **OD启示**：客户现场 AI 工程不仅是技术交付，还会把客户 IP、数据边界、模型选择、平台锁定和合规责任变成组织设计问题。FDE 团队必须内置治理能力。
+- **标签**：#DataGovernance #ModelDiversity #CustomerIP #AIGovernance #Microsoft
+- **抓取时间**：2026-07-05 09:40
+
+### [3] CNBC / TechCrunch / GeekWire 互证：Microsoft AI implementation unit 不是单点传闻
+- **事件摘要**：CNBC、TechCrunch、GeekWire 对 Microsoft Frontier Company 做了同步报道，均指向 25 亿美元、6,000 人、客户嵌入和 AI deployment / implementation unit。Directions on Microsoft 同时提示它可能包含既有 consulting / customer engineering 的重组包装。
+- **来源**：CNBC（https://www.cnbc.com/2026/07/02/microsoft-commits-2point5-billion-6000-employees-ai-implementation-unit.html）；TechCrunch（https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/）；GeekWire（https://www.geekwire.com/2026/microsoft-announces-2-5b-frontier-company-to-embed-ai-engineers-inside-customers/）；Directions on Microsoft（https://www.directionsonmicrosoft.com/microsoft-launches-its-own-forward-deployed-engineering-unit-the-frontier-company/）
+- **来源平台**：CNBC / TechCrunch / GeekWire / Directions on Microsoft
+- **来源可信度**：📰较高
+- **信息类型**：新增事实
+- **渠道类型**：媒体
+- **结论置信度**：L2-L3 候选
+- **验证问题**：等待 Microsoft 披露组织图、客户案例、人员调动、partner 边界和与近期 sales / consulting 裁员报道的关系。
+- **OD启示**：多源互证提高了事实可信度，但反向解释同样重要：这可能既是新能力建设，也可能是既有客户工程能力重组命名。OD 结论必须保留预算和人员来源的不确定性。
+- **标签**：#Microsoft #AIImplementation #MediaCrossCheck #OrgRestructure #FDE
+- **抓取时间**：2026-07-05 09:40
+
+### [4] AWS FDE 官方链复核：10 亿美元 dedicated organization 成为 Microsoft 趋势互证
+- **事件摘要**：AWS 2026-06-30 官方宣布投入 10 亿美元建立 dedicated Forward Deployed Engineering organization，嵌入客户 business、engineering、security teams，交付 production-grade agentic AI，并留下 knowledge graphs、runbooks、architecture documentation、trained internal champions。
+- **来源**：AWS 官方（https://www.aboutamazon.com/news/aws/aws-1-billion-forward-deployed-ai-engineers）
+- **来源平台**：Amazon Web Services
+- **来源可信度**：⭐高
+- **信息类型**：旧线复核
+- **渠道类型**：官方
+- **结论置信度**：L3 机制背景
+- **验证问题**：继续验证 AWS FDE 与 Professional Services、Solutions Architect、GenAI Innovation Center、partner-led FDE 的边界，以及绩效指标是 outcome、云消耗还是可复用资产。
+- **OD启示**：AWS 与 Microsoft 同时把 AI deployment 组织化，说明 FDE 已从 AI 原生公司的岗位族扩散到大型云平台的正式能力。它也提示企业 AI 落地仍高度依赖现场工程补位。
+- **标签**：#AWS #FDE #AgenticAI #CustomerEngineering #Runbook
+- **抓取时间**：2026-07-05 09:40
+
+### [5] OpenAI Deployment Company 旧线互证：模型公司也在外部化部署能力
+- **事件摘要**：OpenAI 2026-05-11 官方发布 The Deployment Company，与 Advent / Tomoro 相关线索共同说明，模型公司正在把客户 workflow integration、deployment specialists 和 FDE 能力外部资本化。今天不重复升级，只作为 Microsoft / AWS 趋势背景。
+- **来源**：OpenAI 官方（https://openai.com/index/openai-launches-the-deployment-company/）
+- **来源平台**：OpenAI
+- **来源可信度**：⭐高
+- **信息类型**：旧线复核
+- **渠道类型**：官方
+- **结论置信度**：L3 机制背景
+- **验证问题**：继续追踪 Deployment Company 的客户案例、人员结构、与 OpenAI sales / solutions 的边界、Tomoro FDE 人员规模和 outcome 口径。
+- **OD启示**：OpenAI 旧线与 Microsoft / AWS 新线互证：AI 厂商的组织边界正在从产品 / 模型延伸到客户现场工程、业务流程重写和结果责任。
+- **标签**：#OpenAI #DeploymentCompany #FDE #WorkflowIntegration #AIAdoption
+- **抓取时间**：2026-07-05 09:40
+
+### [6] Cars24 Flatland：取消 title / grade / band 的去层级样本进入观察池
+- **事件摘要**：Cars24 官方博客称公司取消 traditional levels、grades、job titles / bands，统一员工身份为 Builder；Business Today / Economic Times 7 月报道进一步提到福利、差旅、报销、IT asset allocation 等 HR 系统边界调整。
+- **来源**：Cars24 官方（https://autonauts.cars24.com/blog/only-role-in-the-company-builder）；Business Today（https://www.businesstoday.in/jobs/story/cars24-removes-job-titles-grades-bands-people-mistake-position-for-contribution-540848-2026-07-03）
+- **来源平台**：Cars24 / Business Today
+- **来源可信度**：📰较高
+- **信息类型**：弱信号
+- **渠道类型**：媒体
+- **结论置信度**：L1-L2 观察池
+- **验证问题**：需要验证薪酬、股权、绩效、任免、预算审批、法律 title、冲突解决和离职率是否同步变化。
+- **OD启示**：Cars24 的价值不在证明“AI 时代应取消职级”，而在提醒我们区分身份标签取消与权责系统重写。真正的去层级必须进入薪酬、任免、绩效和预算机制。
+- **标签**：#Cars24 #Flatland #NoTitles #JobArchitecture #Builder
+- **抓取时间**：2026-07-05 09:40
+
+### [7] Meta / 字节 / DeepSeek 旧线复核：今日是补证，不是新增结论
+- **事件摘要**：Meta 今日新增命中主要是 7 月 2 日 AI agent 进展慢于预期和组织校准主线的再传播；字节跳动仍围绕 6 月 29 日全员信和中层管理原则；DeepSeek 扩招、Harness、IDC、融资 / 期权叙事仍为 6 月底旧线。
+- **来源**：私有组织情报脱敏镜像（https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-05.html）；Business Insider / Reuters Meta 链；36氪 / 中国企业家字节链
+- **来源平台**：私有组织情报脱敏摘要 / 媒体
+- **来源可信度**：💬参考
+- **信息类型**：旧线复核
+- **渠道类型**：媒体
+- **结论置信度**：L2 观察
+- **验证问题**：等待 Meta 官方口径、字节绩效校准结果、DeepSeek 岗位族 / 职级 / 薪酬 / 期权 / IDC SLA 等公开制度文本。
+- **OD启示**：旧线复核的作用是防止重复升级。Meta 提醒技术预期不能直接驱动组织图；字节提醒管理原则评价化；DeepSeek 提醒 AI 原生公司从研究小队向产品 / 算力 / 职能扩厚。
+- **标签**：#Meta #ByteDance #DeepSeek #OldLineReview #EvidenceBoundary
+- **抓取时间**：2026-07-05 09:40
+
+### [8] 微信公众号、中文社媒与 JD / 薪酬扫描：周日低新增，未发现新的公开 L3 制度证据
+- **事件摘要**：本轮覆盖微信公众号「AI组织进化论」相关公开搜索、中文社媒、海外 workplace 媒体、国内 AI 原生公司招聘入口、FDE / Applied AI 岗位和薪酬聚合。新增有效材料集中在 Microsoft / AWS / Cars24；中文公众号与 JD / 薪酬侧未形成新的公开 L3。
+- **来源**：公开搜索覆盖记录；私有组织情报脱敏镜像（https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-05.html）
+- **来源平台**：微信公众号 / 社媒 / 招聘 JD / 私有组织情报脱敏摘要
+- **来源可信度**：💬参考
+- **信息类型**：缺口记录
+- **渠道类型**：社媒公众号
+- **结论置信度**：L1 线索
+- **验证问题**：下一轮优先寻找官方岗位族、薪酬带宽、期权规则、晋升标准、员工影响数据和 agent 权限治理文本。
+- **OD启示**：今天不是没有扫描，而是公开中文侧更多是旧线复述、观点稿、招聘营销、融资叙事和薪酬聚合。缺少制度文本时，保留观察池比补充 filler 更可靠。
+- **标签**：#WeChat #SocialSignal #JDSignal #Compensation #ScanCoverage
+- **抓取时间**：2026-07-05 09:40
 
 ## 2026-07-04
 
