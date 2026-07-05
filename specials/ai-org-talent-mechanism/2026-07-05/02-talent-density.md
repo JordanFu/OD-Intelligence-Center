@@ -1,53 +1,97 @@
 # 2026-07-05｜专题二：高人才密度与复合型人才机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+## 1. 今日一句话专题判断
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+高人才密度的今日增量不是“继续招更强的人”，而是 FDE / Frontier Company 把复合型人才机制推到组织单元级：识别、招聘、项目分配、授权、学习迁移、薪酬保留和晋升证据必须联动，否则只会变成少数高能力人才的高负荷救火。
 
-## 今日一句话结论
+## 2. 今日新增事实
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+1. **Microsoft Frontier Company 进入 L3 候选。** Microsoft 官方称投入 25 亿美元，组织 6,000 名行业与工程专家嵌入客户，共同设计、部署、持续改进 AI systems。证据等级：L3 候选。
+2. **AWS FDE 旧线升级为趋势互证。** AWS 10 亿美元 FDE、客户团队嵌入、production-grade agentic AI、runbook、knowledge graph、internal champions，继续支持“部署型复合人才”判断。证据等级：L3。
+3. **Zapier V2 AI Fluency Rubric 加厚能力语言。** Zapier 把 AI fluency 嵌入 application、screen、skills test、executive interview 四个候选人触点，并新增 accountability 维度，强调 repeatable systems、impact、quality、risk 和 outcome ownership。证据等级：L2-L3。
+4. **GitLab FY26 Talent Assessment 继续提供人才盘点基线。** FY26 talent assessment 与 Q2 promotion nominations 合并，经理评估、领导校准、ACR 和晋升/薪酬生效放入同一周期。证据等级：L3。
+5. **招聘薪酬信号仍不足以升级为制度结论。** 小红书 AI 导购/智能客服产品岗、美团 AI Agent 产品经理、DeepSeek Harness 团队、脉脉 AI 高薪数据是重要信号，但缺公开盘点、任命、保留和晋升制度文本。
 
-## 今日核心判断
+## 3. 今日核心判断
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+1. **识别标准应锁定部署型复合能力。可信度：高。** 关键能力包括业务判断、AI 编排、流程理解、风险治理、复用资产、跨职能影响，而不是 AI 工具熟练度。重要性：防止把“会用工具”误判为“能承担关键责任”。
+2. **招聘与内部发现要用真实任务。可信度：高。** live workflow exercise、失败模式复盘、约束变化、输出审计、跨团队反馈，比自述 AI fluency 更可靠。重要性：高密度人才往往在复杂情境里被看见。
+3. **项目分配是发现高密度人才的核心机制。可信度：高。** FDE 类项目把人放进客户现场、权限、数据、治理、交付结果中检验。重要性：人才盘点不能停留在 manager 评价。
+4. **薪酬股权和授权是必要承接。可信度：中高。** 稀缺 AI 复合人才不仅看薪资，还看汇报线、预算权、数据权限、决策权、关键项目和组织稳定性。重要性：否则高密度会变成高流失。
+5. **快速晋升要克制。可信度：高。** AI 项目战功先进入项目奖金、acting scope、公开认可和证据包；正式晋升仍需固定校准、业务必要性和持续 scope 扩大。重要性：避免工具红利被永久写入职级。
 
-## 今日背景材料
+## 4. 重点案例事实还原
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+### Microsoft Frontier Company / AWS FDE
 
-## 今日新增证据地图
+**背景：** 企业 AI 从试点进入生产部署，难点不只是模型能力，而是客户真实流程、数据权限、业务目标、评估标准、安全合规和持续改进。
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+**动作：** Microsoft 组织 6,000 名行业与工程专家嵌入客户；AWS 建立 10 亿美元 FDE 组织，嵌入客户业务、工程、安全团队，并留下 deployed systems、knowledge graphs、runbooks、architecture documentation 和 trained internal champions。
 
-## 线索层
+**机制：** 复合型人才不再只是“会 AI 的专家”，而是能把业务问题转成可运行系统，并把知识、标准、工具、治理和内部 champion 留在组织里的部署型人才。
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+**结果：** 公开材料尚未披露人员来源、薪酬、晋升路径、绩效指标和保留数据。
 
-## 待补齐的落地问题
+**可借鉴点：** 用真实项目识别复合能力；把复用资产、风险治理和内部能力迁移写入项目验收。
 
-正式重跑必须回答：复合型人才的能力证据是什么、是否有招聘/JD/薪酬信号、是否存在验证和治理能力的溢价、组织如何避免把“少招人”包装成高人才密度。
+**不可照搬点：** 如果边界不清，FDE 会和销售、咨询、解决方案架构、客户成功、产品工程、SI 伙伴互相挤压，变成高成本救火队。
 
-## 来源索引
+### Zapier / GitLab 能力与盘点机制
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+**背景：** AI fluency 已从可选技能变成多岗位底层要求，但不同岗位的 AI 贡献形式不同。
+
+**动作：** Zapier 在招聘全流程评估 AI mindset、strategy、building、accountability；GitLab 将 FY26 talent assessment 与 promotion nominations 合并，通过经理评估、领导校准和 ACR 串联发展、晋升和薪酬。
+
+**机制：** 先用能力语言统一识别，再用项目、反馈、校准和薪酬承接结果。
+
+**可借鉴点：** AI fluency 适合做候选人和员工的基本能力门槛；高密度人才识别还需要真实责任和跨周期表现。
+
+**不可照搬点：** 不能把 AI fluency 变成“一票通过”的晋升或高潜标签。
+
+## 5. Context层
+
+- 暂不形成结论，但提示我们关注：Microsoft 25 亿美元和 6,000 人可能包含既有 consulting / customer engineering / solution architecture 的重组包装。
+- 暂不形成结论，但提示我们关注：Cars24 去层级若不同步薪酬、任免、绩效、预算和冲突裁决，只是显性 title 消失，隐性层级仍在。
+- 暂不形成结论，但提示我们关注：国内 AI 原生公司招聘、期权和薪酬讨论今天仍缺公开制度文本，不能进入结论层。
+- 暂不形成结论，但提示我们关注：高人才密度可能带来更高流失风险，尤其当责任扩大快于授权、薪酬和成长承接时。
+
+## 6. 证据地图
+
+| 机制 | 当前最好证据 | 等级 |
+|---|---|---:|
+| 识别标准 | Zapier AI Fluency、Railsware、CFTE、本地专题二 07-01 至 07-04 | L2-L3 |
+| 面试机制 | Zapier 四触点、真实任务演练、TestGorilla bad AI hire 背景 | L2-L3 |
+| 内部发现 | AWS FDE、Microsoft Frontier Company、Anthropic Applied AI、GitLab Talent Assessment | L2-L3 |
+| 项目分配 | FDE embedded model、partner-led production bar、客户现场部署 | L3 |
+| 薪酬股权 | Anthropic 薪酬区间、Riviera、Mercer/Eightfold、EY/Payscale | L2 |
+| 快速晋升 | GitLab promotion document / calibration / business justification | L3 |
+| 授权学习盘点保留 | FDE runbook / champion、Zapier manager-led adoption、GitLab key talent / SPOF / succession | L2-L3 |
+| 招聘薪酬信号 | 小红书、美团、DeepSeek、脉脉薪酬、2026 中国智能体工程化报告 | L1-L2 |
+
+## 7. 对我们行动的启发
+
+- 建立“复合型人才六维盘点”：业务判断、AI 编排、流程理解、风险治理、复用资产、跨职能影响。
+- 招聘和选拔加入真实任务，不只问工具经验。
+- 项目分配采用“高授权 + 明确复核”：给上下文、数据权限、验收标准、升级路径和事故责任。
+- 激励分层：短期攻坚给项目奖金，持续责任扩大给 acting scope / 晋升，市场稀缺给带宽调整或股权刷新。
+- 保留机制不要只保人，还要保团队关系、业务上下文、复用资产和成长路径。
+
+## 8. 待验证清单与下一步搜索路径
+
+1. Microsoft Frontier Company 的预算来源、人员来源、独立 P&L、客户 outcome 指标和事故责任。
+2. AWS FDE 与 ProServe、Solutions Architect、GenAI Innovation Center、partner-led FDE 的边界。
+3. Anthropic / OpenAI / Microsoft / AWS 是否公开 FDE / Applied AI 的职级、晋升路径和绩效指标。
+4. 国内公司是否出现 AI 复合型人才的公开薪酬带宽、期权、项目任命或干部盘点证据。
+5. AI fluency 是否进入正式 promotion rubric，而不是只进入招聘门槛。
+
+## 9. 来源索引
+
+- Microsoft Official Blog: https://blogs.microsoft.com/blog/2026/07/02/microsoft-frontier-company-ai-engineering-that-amplifies-and-protects-your-intelligence/
+- AWS: https://www.aboutamazon.com/news/aws/aws-1-billion-forward-deployed-ai-engineers
+- Zapier: https://zapier.com/blog/raising-ai-fluency-bar-in-hiring/
+- GitLab Talent Assessment: https://handbook.gitlab.com/handbook/people-group/talent-assessment/
+- GitLab Promotions and Transfers: https://handbook.gitlab.com/handbook/people-group/promotions-transfers/
+- HBS Working Knowledge: Winning with AI Starts With Talent Density, https://www.library.hbs.edu/working-knowledge/winning-with-ai-starts-with-talent-density
+- Stanford AI Index 2026: https://hai.stanford.edu/ai-index/2026-ai-index-report
+- 36Kr / 中国企业家 AI 薪酬信号: https://36kr.com/p/3843770567379204
+- 本地知识源：`daily/2026-07-05.md`、`daily-report/2026-07-05.md`、`specials/ai-org-talent-mechanism/2026-07-04/02-talent-density.md`

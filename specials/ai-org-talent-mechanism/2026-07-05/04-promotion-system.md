@@ -1,53 +1,105 @@
 # 2026-07-05｜专题四：未来组织的晋升机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+## 1. 今日一句话专题判断
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+今天没有新的 L3 晋升制度文本足以推翻既有主线：未来晋升机制应保留固定晋升窗口，用例外即时晋升、项目激励、acting scope、能力认证/技能徽章和薪酬校准承接快速变化；AI 贡献进入可审计证据包，但不能用工具使用量换职级。
 
-## 今日一句话结论
+## 2. 今日新增事实
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+1. **Microsoft Frontier Company 加强岗位价值变化判断。** 25 亿美元、6,000 名行业与工程专家、measurable outcomes 共同设计/部署/持续改进 AI systems，说明 FDE/客户现场工程若进入长期经营单元，可能触发新责任包、评估口径和晋升证据。证据等级：L3 候选，但不是晋升制度文本。
+2. **Microsoft 强调治理与客户信任。** 客户数据/IP保护、多模型平台和持续改进说明 AI 贡献不能只看交付速度，还要看治理、风险、客户信任和可持续结果。证据等级：L2-L3。
+3. **Railsware AI fluency 进入 competency model。** Railsware 将 AI fluency 写入 peer review、promotion criteria、job descriptions，四个行为是有效应用、批判验证、责任归属、安全伦理。证据等级：L2。
+4. **GitLab FY26 Talent Assessment / Q2 Promotion Cycle 继续提供固定窗口样本。** 自评、经理评估/提名、领导校准、ACR、5月1日晋升和现金薪酬变化生效，说明固定窗口承担校准、预算、薪酬和公平审计。证据等级：L3。
+5. **Cars24 Flatland 仍是边界案例。** 去 title / grade / band 不等于晋升系统重写，必须验证薪酬、绩效、任免、预算和法定 title。证据等级：L1-L2。
 
-## 今日核心判断
+## 3. 今日核心判断
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+1. **固定晋升窗口仍应保留。可信度：高。** 它负责同级比较、预算、薪酬带宽、人才委员会和公平审计。重要性：AI 项目贡献更需要跨团队校准。
+2. **即时晋升只能是治理例外。可信度：高。** 已稳定承担下一层级责任、岗位价值持续变化、预算和同级公平可解释，才进入例外通道。重要性：避免项目战功永久化。
+3. **项目制晋升应先走分轨承接。可信度：高。** 项目贡献 -> 即时奖励/项目奖金 -> acting scope -> 1-2 个周期验证 -> 正式窗口。重要性：让快速贡献被看见，但不破坏校准。
+4. **岗位价值触发晋升，不是任务增加触发晋升。可信度：高。** 看复杂度、决策权、风险责任、跨团队影响、业务必要性是否持续上移。重要性：防止忙碌程度替代岗位价值。
+5. **AI 贡献评估必须看可审计影响。可信度：高。** 业务问题、AI 工作流、质量标准、风险控制、复用范围、他人采用、量化影响、责任边界。重要性：不能以工具使用量或 runtime log 直接评职级。
+6. **薪酬校准与晋升要部分解耦。可信度：中高。** AI 稀缺能力优先用技能津贴、市场调薪、项目奖金、股权刷新、薪酬带宽扩展承接。重要性：很多诉求是定价问题，不是晋升问题。
 
-## 今日背景材料
+## 4. 重点案例事实还原
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+### GitLab：固定窗口 + 证据文档 + 校准 + 薪酬联动
 
-## 今日新增证据地图
+**背景：** 远程、透明、跨职能组织需要把晋升从 manager 单点判断转为可审计、可比较、可解释的证据流程。
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+**动作：** GitLab 将 talent assessment、promotion nominations、calibration、Annual Compensation Review 和生效日放入同一周期；晋升和内部流动要求岗位、职级、job family、scope 和 compensation impact 被重新审视。
 
-## 线索层
+**机制：** 晋升不是奖励过去战功，而是确认“业务持续需要这个人在更高层级承担责任”。
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+**可借鉴点：** 固定窗口承担公平、预算、薪酬和同级比较；窗口外只处理严格例外。
 
-## 待补齐的落地问题
+**不可照搬点：** GitLab 的公开手册适合做机制样本，但具体评分表、组织文化和薪酬预算需本地化。
 
-正式重跑必须回答：AI 贡献如何进入晋升证据包、谁负责验证与质量、是否有校准机制、是否存在调岗降薪和劳动合规风险。
+### Railsware / Zapier：AI fluency 进入能力语言
 
-## 来源索引
+**背景：** AI fluency 从工具培训变成胜任力模型，且不同层级承担不同外溢责任。
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+**动作：** Railsware 将 AI fluency 写入 peer review、promotion criteria、job descriptions；Zapier V2 rubric 在招聘中加入 accountability，要求候选人证明 repeatable systems、impact 和质量/风险责任。
+
+**机制：** Junior 可改善个人产出，Senior 影响团队工作流，Lead 制定组织标准和 guardrails。
+
+**可借鉴点：** 用行为证据评估 AI 能力，把 AI fluency 设为门槛或证据补充。
+
+**不可照搬点：** 不能把 AI fluency 直接变成晋升门票。
+
+### Microsoft Frontier Company：岗位价值变化 Context
+
+**背景：** FDE/客户现场工程可能从临时项目角色变成正式经营单元。
+
+**机制启发：** 若企业内部出现类似团队，晋升评估应看客户结果、可复用资产、治理责任、知识迁移、内部 champion 培养，而不是 POC 数、云消耗或工具调用次数。
+
+## 5. Context层
+
+- 暂不形成结论，但提示我们关注：Microsoft 6,000 人可能包含既有 consulting / customer engineering / sales solution 组织重组，不一定全是新增岗位。
+- 暂不形成结论，但提示我们关注：Cars24 去 title 可能把显性层级变成隐性层级。
+- 暂不形成结论，但提示我们关注：AI runtime log、Agent Passport、员工行为数据可增强证据连续性，但必须有 consent、解释、申诉、误判纠正和最小化采集。
+- 暂不形成结论，但提示我们关注：国内公开材料今日仍未出现新的“AI 胜任力 + 人才委员会 + 晋升校准 + 薪酬承接”完整制度文本。
+
+## 6. 证据地图
+
+| 机制 | 当前证据 | 等级 |
+|---|---|---:|
+| 常规晋升窗口 | GitLab Talent Assessment / Promotions；07-01 至 07-04 正式专题四 | L3 |
+| 即时晋升 | GitLab out-of-cycle promotion 作为重审批例外 | L3 |
+| 项目制晋升 | acting scope / 项目奖金 / 证据包路径 | L2-L3 |
+| 岗位价值触发 | GitLab business justification；Microsoft FDE 经营单元化 | L2-L3 |
+| 能力认证/技能徽章 | Railsware、Zapier、CFTE、Workday Skills Cloud | L2-L3 |
+| AI贡献度评估 | auditable promotion evidence、本地专题基线、Railsware | L3 本地综合 |
+| 同行评审 | GitLab cross-functional feedback；Railsware peer review | L2-L3 |
+| 人才委员会 | GitLab calibration / E-Group / PBP / Total Rewards / FP&A | L3 |
+| 薪酬校准 | GitLab ACR；Payscale；EY Future of Pay | L2-L3 |
+| 绩效与晋升耦合/解耦 | GitLab performance/growth potential + promotion + ACR 同周期，但晋升仍需业务必要性 | L3 |
+
+## 7. 对我们行动的启发
+
+- 建立 `AI contribution packet`：业务问题、AI 工作流、人工判断、质量标准、风险控制、复用资产、他人采用、量化影响、责任边界。
+- 固定窗口处理正式晋升；窗口外用 spot bonus、项目奖金、acting scope、技能津贴、市场调薪承接快速贡献。
+- 人才委员会只校准三件事：是否已稳定承担下一层级责任、业务是否需要该岗位价值、薪酬/预算是否公平可承接。
+- AI fluency 可设为晋升门槛或证据补充，不写成“会用 AI 所以晋升”。
+- 对 FDE / AI deployment 类角色，晋升证据要看客户自给能力、runbook、知识图谱、治理机制和可复用交付资产。
+
+## 8. 待验证清单与下一步搜索路径
+
+1. Microsoft Frontier Company 的 25 亿美元和 6,000 人是否新增，还是既有组织重分类。
+2. Frontier Company 是否有独立 P&L、客户归属、失败责任、outcome 指标和晋升/绩效口径。
+3. Cars24 Flatland 是否同步改变薪酬、绩效、晋升、任免、预算和法定 title。
+4. Railsware 是否公开具体 promotion rubric、peer review 模板和岗位描述样例。
+5. 国内是否出现 AI 胜任力、技能徽章、人才委员会、晋升校准和薪酬承接的完整制度文本。
+6. AI runtime log 用于人才评价时，隐私、申诉、保留周期、偏差审计如何设计。
+
+## 9. 来源索引
+
+- GitLab Talent Assessment: https://handbook.gitlab.com/handbook/people-group/talent-assessment/
+- GitLab Promotions and Transfers: https://handbook.gitlab.com/handbook/people-group/promotions-transfers/
+- Railsware AI Fluency: https://railsware.com/blog/ai-fluency-at-railsware-the-four-competencies-we-hire-and-promote-for/
+- Zapier AI Fluency: https://zapier.com/blog/raising-ai-fluency-bar-in-hiring/
+- Microsoft Frontier Company: https://blogs.microsoft.com/blog/2026/07/02/microsoft-frontier-company-ai-engineering-that-amplifies-and-protects-your-intelligence/
+- Workday Agent System of Record: https://www.workday.com/en-us/artificial-intelligence/agent-system-of-record.html
+- Workday UK Agent System of Record: https://workday.com/en-gb/artificial-intelligence/agent-system-of-record.html
+- Cars24 Builder: https://autonauts.cars24.com/blog/only-role-in-the-company-builder
+- 本地知识源：`specials/ai-org-talent-mechanism/topics/promotion-system/baseline.md`、`specials/ai-org-talent-mechanism/2026-07-04/04-promotion-system.md`、`daily-report/2026-07-05.md`
