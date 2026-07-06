@@ -1,0 +1,1 @@
+2026-07-06 11:30 - 国际媒体情报搜集完成。抓取 TechCrunch/HN/The Verge，筛选5条AI组织相关条目（阿里巴巴Claude Code禁令、扎克伯格AI Agent进展不如预期、Amazon MTurk停新、代码整洁度影响Coding Agent实证、AI替代教师），已追加到daily/2026-07-06.md并同步至GitHub。
