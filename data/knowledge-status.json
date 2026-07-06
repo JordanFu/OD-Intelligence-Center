@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T14:03:38.861Z",
+  "generatedAt": "2026-07-06T14:16:43.469Z",
   "module": "knowledge-base",
   "qualityStatus": "warn",
   "latestCatalogDate": "2026-07-06",
@@ -49,7 +49,7 @@
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-07-06T14:03:39.468Z",
+    "checkedAt": "2026-07-06T14:16:43.862Z",
     "qualityStatus": "warn",
     "firstPartyChecked": 1638,
     "externalWarnings": 18,
