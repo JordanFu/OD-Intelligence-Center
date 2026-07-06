@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-05T14:57:33.798Z",
+  "generatedAt": "2026-07-06T01:53:55.715Z",
   "module": "knowledge-base",
-  "qualityStatus": "warn",
-  "latestCatalogDate": "2026-07-05",
+  "qualityStatus": "pass",
+  "latestCatalogDate": "2026-07-06",
   "counts": {
-    "reports": 77,
+    "reports": 79,
     "knowledgeSources": 3,
     "sourceTypes": {
       "media": 18,
-      "internal": 15,
+      "internal": 17,
       "concept": 9,
       "public-safe-synthesis": 11,
       "consulting": 11,
@@ -18,38 +18,22 @@
   "privatePathLeaks": [],
   "missingSummaryFiles": [],
   "duplicateNumbers": [],
-  "pdfRetryCount": 0,
-  "pdfRetrySample": [],
-  "warnings": [
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1"
+  "pdfRetryCount": 1,
+  "pdfRetrySample": [
+    {
+      "id": "local-knowledge-review-2026-06-29",
+      "title": "本地知识库定期 Review（2026-06-29）",
+      "summaryFile": "./knowledge/wiki/local-knowledge-review-2026-06-29.md"
+    }
   ],
+  "warnings": [],
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-07-05T14:57:34.266Z",
-    "qualityStatus": "warn",
-    "firstPartyChecked": 1607,
-    "externalWarnings": 9,
-    "brokenCount": 0,
-    "publicScanBridge": [
-      {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-05.html"
-      },
-      {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/"
-      }
-    ]
+    "checkedAt": null,
+    "qualityStatus": "pending",
+    "firstPartyChecked": 0,
+    "externalWarnings": 0,
+    "brokenCount": 0
   }
 }

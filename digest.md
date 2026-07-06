@@ -1,7 +1,7 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-07-05 09:40
+> 最后更新：2026-07-06 09:50
 
 ---
 
@@ -23,6 +23,112 @@
 - 💬参考：社交平台/社区讨论，需交叉验证
 
 -->
+
+## 2026-07-06
+
+### [1] 低新增日复核：Microsoft Frontier Company 仍是近期最高价值组织机制
+- **事件摘要**：7 月 6 日公开新增多为 Microsoft Frontier Company 的解释性传播和旧线再报道，尚未出现新的组织图、预算来源、P&L、人员调动或客户 outcome 指标。因此今天继续把 Microsoft 25 亿美元、6,000 人客户现场工程组织作为 L3 候选主线，而不制造新结论。
+- **来源**：Microsoft 官方（https://blogs.microsoft.com/blog/2026/07/02/microsoft-frontier-company-ai-engineering-that-amplifies-and-protects-your-intelligence/）
+- **来源平台**：Microsoft
+- **来源可信度**：⭐高
+- **信息类型**：旧线复核
+- **渠道类型**：官方
+- **结论置信度**：L3 候选
+- **验证问题**：继续验证预算是否新增、6,000 人来源、P&L、客户归属、事故责任、SI 分润和 outcome 计量方式。
+- **OD启示**：低新增日的关键不是找新词，而是守住证据等级。Microsoft 的组织动作仍说明 AI adoption 正从工具采购转向客户现场工程、数据治理和结果责任。
+- **标签**：#Microsoft #FrontierCompany #FDE #EnterpriseAI #EvidenceBoundary
+- **抓取时间**：2026-07-06 09:50
+
+### [2] ETtech 7 月 6 日解释 Frontier Company：公众叙事补强，但不升级为新机制
+- **事件摘要**：ETtech 2026-07-06 对 Microsoft Frontier Company 做解释性报道，继续围绕 AI engineering、客户嵌入、部署和 AWS / OpenAI / Anthropic 相邻动作展开。该材料有近窗价值，但没有新增组织制度细节。
+- **来源**：ETtech（https://m.economictimes.com/tech/technology/ettech-explainer-what-is-microsofts-new-frontier-company/articleshow/132194098.cms）
+- **来源平台**：ETtech
+- **来源可信度**：📰较高
+- **信息类型**：新增事实
+- **渠道类型**：媒体
+- **结论置信度**：L2 解释
+- **验证问题**：等待 Microsoft 官方或客户案例披露 Frontier Company 的组织图、客户签约方式、交付失败责任和与咨询 / SI 伙伴的边界。
+- **OD启示**：解释性报道的价值是帮助识别主流叙事如何形成，而不是替代制度证据。OD 写法应把它放在趋势互证层，不把媒体热度当机制成熟度。
+- **标签**：#Microsoft #FrontierCompany #MediaCrossCheck #FDE #LowNewness
+- **抓取时间**：2026-07-06 09:50
+
+### [3] AWS FDE 复核：客户自给能力成为 AI deployment 的可交付物
+- **事件摘要**：AWS 2026-06-30 官方宣布投入 10 亿美元建立 dedicated FDE organization，嵌入客户业务、工程、安全团队，交付 production-grade agentic AI，并留下 knowledge graphs、runbooks、architecture documentation 和 trained internal champions。
+- **来源**：AWS 官方（https://www.aboutamazon.com/news/aws/aws-1-billion-forward-deployed-ai-engineers）
+- **来源平台**：Amazon Web Services
+- **来源可信度**：⭐高
+- **信息类型**：旧线复核
+- **渠道类型**：官方
+- **结论置信度**：L3 机制背景
+- **验证问题**：继续验证 AWS FDE 与 Professional Services、Solutions Architect、GenAI Innovation Center、partner-led FDE 的边界，以及绩效指标是 outcome、云消耗还是可复用资产。
+- **OD启示**：AWS 和 Microsoft 的共同点是把客户自给能力变成交付结果，而不是只交付模型访问或项目建议。FDE 团队需要沉淀 runbook、权限模型和内部 champion。
+- **标签**：#AWS #FDE #AgenticAI #Runbook #CustomerCapability
+- **抓取时间**：2026-07-06 09:50
+
+### [4] Codex for Knowledge Work：agentic coding 有任务层加速，但不能直接等同组织效率
+- **事件摘要**：2026-07-01 arXiv 论文《Codex for Knowledge Work》研究 Codex CLI 在模拟 knowledge-work 软件工程任务中的表现，报告 1.5x 加速、80.2% 任务由 agent 主导，以及接管次数、token usage 和 eval setup 等数据。
+- **来源**：arXiv（https://arxiv.org/abs/2607.01418）
+- **来源平台**：arXiv / Microsoft Research / OpenAI
+- **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：报告学术
+- **结论置信度**：L2 研究证据
+- **验证问题**：需要真实公司代码库复现，验证 review 成本、返工率、生产缺陷、security exception、知识转移和 junior engineer 成长影响。
+- **OD启示**：个人任务提速只是第一层。组织是否真正提效，取决于代码审查、责任归属、系统知识、事故处理和人才培养是否同步重写。
+- **标签**：#Codex #KnowledgeWork #SoftwareEngineering #Productivity #AgenticCoding
+- **抓取时间**：2026-07-06 09:50
+
+### [5] Workday Agent System of Record：agent 成为需要管理的组织对象
+- **事件摘要**：Workday 2026-06-25 官方发布 Agent System of Record，定位为企业管理 AI agents 的系统；WSJ Pro / Deloitte 对 Workday refounding in the age of AI 做公司案例报道，补强 agent governance 与企业 operating model 的关系。
+- **来源**：Workday 官方（https://newsroom.workday.com/2026-06-25-Workday-Announces-New-Agent-System-of-Record-to-Manage-AI-Agents）；WSJ Pro / Deloitte（https://deloitte.wsj.com/cio/workday-refounds-in-the-age-of-ai-d5729e63）
+- **来源平台**：Workday / WSJ Pro / Deloitte
+- **来源可信度**：⭐高
+- **信息类型**：旧线复核
+- **渠道类型**：官方
+- **结论置信度**：L2-L3 候选
+- **验证问题**：继续验证 agent 身份、owner、权限、审计日志、停用机制、异常升级和与 HRIS / IAM 的集成样例。
+- **OD启示**：当 agent 进入企业流程，它不只是软件功能，而是新的组织对象。OD / HR / IT 需要一起定义 agent 的职责、权限、评价和问责边界。
+- **标签**：#Workday #AgentSystemOfRecord #AIGovernance #HRTech #OperatingModel
+- **抓取时间**：2026-07-06 09:50
+
+### [6] Deloitte AI assurance：审计岗位被重写，junior pipeline 与新能力同时承压
+- **事件摘要**：Deloitte UK 关于 AI assurance 的材料显示，AI 正在改变传统审计工作，尤其影响 junior auditors 过去承担的基础 audit work；同时，AI assurance demand 上升，要求审计组织补入模型验证、控制、解释和治理能力。
+- **来源**：Deloitte UK（https://www2.deloitte.com/uk/en/pages/audit/articles/ai-assurance.html）
+- **来源平台**：Deloitte
+- **来源可信度**：📰较高
+- **信息类型**：研究 / Context
+- **渠道类型**：报告学术
+- **结论置信度**：L2 观察
+- **验证问题**：需要 Deloitte 或审计行业公开 junior training hours、staffing pyramid、promotion criteria、AI assurance skill model 和客户定价变化。
+- **OD启示**：AI 不只是替代初级任务，也会重写 apprenticeship。企业若自动化低阶工作，必须补设计案例暴露、反馈循环、判断力训练和新型 assurance 岗位。
+- **标签**：#Deloitte #AIAssurance #Audit #JuniorPipeline #SkillArchitecture
+- **抓取时间**：2026-07-06 09:50
+
+### [7] HR GenAI 与 invisible work：AI 落地会产生新的验证、协调和例外处理劳动
+- **事件摘要**：2026-06-16 HR GenAI 研究与 2026-05-29 invisible-work 研究共同提示，AI 工具会改变 HR 与工程岗位中的信息处理、判断、解释、验证、协调和例外处理任务；这些工作常被工具 ROI 叙事低估。
+- **来源**：arXiv HR GenAI（https://arxiv.org/abs/2606.13253）；arXiv Invisible Work（https://arxiv.org/abs/2605.23420）
+- **来源平台**：arXiv
+- **来源可信度**：⭐高
+- **信息类型**：研究 / Context
+- **渠道类型**：报告学术
+- **结论置信度**：L2 观察
+- **验证问题**：需要公司级时间分配、incident data、员工体验、manager workload、HR case quality 和 exception handling 数据验证隐藏劳动规模。
+- **OD启示**：AI 项目如果只统计节省的执行时间，会漏掉新增的审查、解释、协调和信任成本。OD 评估要把 invisible work 显性化，纳入岗位说明和绩效。
+- **标签**：#HRTech #GenAI #InvisibleWork #GovernanceLabor #JobDesign
+- **抓取时间**：2026-07-06 09:50
+
+### [8] 微信公众号、中文社媒与 JD / 薪酬扫描：周一低新增，未发现新的公开 L3 制度证据
+- **事件摘要**：本轮覆盖微信公众号「AI组织进化论」相关公开搜索、中文社媒、国内 AI 原生公司招聘入口、FDE / Applied AI 岗位和薪酬聚合。新增有效材料集中在海外旧线复核与研究加厚；中文公众号、JD / 薪酬侧未形成新的公开 L3。
+- **来源**：公开搜索覆盖记录；私有组织情报脱敏镜像（https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-05.html）
+- **来源平台**：微信公众号 / 社媒 / 招聘 JD / 私有组织情报脱敏摘要
+- **来源可信度**：💬参考
+- **信息类型**：缺口记录
+- **渠道类型**：社媒公众号
+- **结论置信度**：L1 线索
+- **验证问题**：下一轮优先寻找官方岗位族、薪酬带宽、期权规则、晋升标准、员工影响数据和 agent 权限治理文本。
+- **OD启示**：今天不是没有扫描，而是公开中文侧更多是旧线复述、观点稿、招聘营销、融资叙事和薪酬聚合。缺少制度文本时，保留观察池比补充 filler 更可靠。
+- **标签**：#WeChat #SocialSignal #JDSignal #Compensation #ScanCoverage
+- **抓取时间**：2026-07-06 09:50
 
 ## 2026-07-05
 
