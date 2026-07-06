@@ -1,6 +1,6 @@
 # 专题四：未来组织的晋升机制｜滚动基线档案
 
-> 更新日期：2026-07-05
+> 更新日期：2026-07-06
 > 用途：这是四课题研究的“滚动母稿”，不是某一天的日报。日报负责记录新增事实、Context 和线索；周报负责做阶段复盘；基线档案负责沉淀稳定判断、证据账本和待验证问题。
 > 自动化规则：每日/周报与 PDF 入库后自动回写证据账本；正式重跑遵循 research-protocol.md 的多代理并行与主代理交叉证伪机制；只有多源互证或一手材料足够强的内容，才进入稳定判断。
 
@@ -45,13 +45,13 @@
 | [人机协作演进框架：Author、Editor、Director、Orchestrator](./knowledge/wiki/human-agent-collaboration-evolution.md) | 把人机协作拆成四种模式，强调人类签核单元从单行代码扩大到 backlog，适合用于岗位重塑、AI fluency 和绩效归属研究。 |
 | [McKinsey：AI-first 时代端到端技术 workforce 设计](./knowledge/wiki/pdf-source-mckinsey-2026-ai-first-technology-workforce.md) | McKinsey Technology 文章，讨论 agentic AI 时代 CIO 如何重构技术组织的人才招聘、内部能力建设、Agent 训练和供应商策略。适合用于 AI-first 技术岗位族群和职级变化研究。 |
 | [知识库定期 Review 基线报告](./knowledge/wiki/local-knowledge-review-2026-05-22.md) | 定时任务启动前的本地知识库人工预检报告，记录 catalog、raw/wiki 引用、索引、分享能力和 Downloads 新资料处理结果，并固化后续每周 review 口径。 |
+| [本地知识库定期 Review（2026-06-29）](./knowledge/wiki/local-knowledge-review-2026-06-29.md) | 本地知识库定期巡检报告，记录 PDF 自动入库、私有路径脱敏修复、专题覆盖审计、PDF 待重试项和下一步治理建议。 |
+| [本地知识库定期 Review（2026-07-06）](./knowledge/wiki/local-knowledge-review-2026-07-06.md) | 本周知识库巡检报告，覆盖 PDF 自动入库结果、最近 7 个信息日质量、专题连续性、PDF 卡片精读缺口和 AI 组织研究下一步优先级。 |
 | [McKinsey：The State of Organizations 2026](./knowledge/wiki/pdf-source-mckinsey-2026-the-state-of-organizations.md) | McKinsey 2026 组织状态报告，基于 10,018 名全球组织领导者调研，提出三大构造性力量和九个组织转型议题。核心价值在于把 AI 从局部工具使用推进到 operating model、工作流、人机协作、共… |
 | [GitLab：Promotions and Transfers 晋升与内部流动机制](./knowledge/wiki/gitlab-promotions-transfers-handbook.md) | GitLab 官方 Handbook 中的晋升与内部流动制度页，结构化说明周期性晋升校准、promotion document、业务结果、业务必要性、价值观对齐、跨职能反馈、Senior Director+ 角色评估、… |
 | [GitLab：People & Organization 机制研究模块](./knowledge/wiki/gitlab-people-org-handbook-module-2026-05-21.md) | 覆盖 GitLab Handbook People Group 与 People Policies 两个一级目录，沉淀 GitLab 的 People 操作系统：公开手册、服务台、员工生命周期、能力模型、人才盘点、晋升… |
 | [Zapier AI 实践深度研究：从工具采用到 AI-first operating model](./knowledge/wiki/zapier-ai-practice-research-2026-05-20.md) | 基于 Zapier 多篇公开 AI 实践文章和产品页形成的深度研究报告，覆盖全员 adoption、AI fluency、招聘/入职/绩效机制、跨职能 AI workflow、Agents/MCP 产品化、agent … |
 | [Zapier：AI-first 招聘与入职机制](./knowledge/wiki/zapier-ai-first-hiring-onboarding-2025.md) | Zapier 将 AI fluency 设为所有新员工最低门槛的初始实践：四级 AI fluency、四个招聘评估触点、AI-first onboarding、builder mindset，以及绩效预期同步更新。 |
-| [百度职级体系改革：从多轨标签到 5-12 数字体系](./knowledge/wiki/baidu-level-reform-2026-obsidian.md) | 本地 Obsidian 中已沉淀的百度职级改革笔记：取消 T/P/E/Band/M，统一为 5-12 级，打通专业与管理通道，并从利益视角解释改革背后的筛选与激励逻辑。 |
-| [亚马逊 Builder 与百度职级改革的共同趋势](./knowledge/wiki/amazon-baidu-job-title-reform-obsidian.md) | 对亚马逊 Ring/Blink Builder 试点与百度职级改革的对照笔记：岗位头衔弱化、评价转向客户价值量级、白领角色更端到端和实战化，同时提示晋升梯子不可见的风险。 |
 
 ## 当前不可越界的结论
 

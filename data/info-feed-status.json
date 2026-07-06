@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-06T01:54:05.712Z",
+  "generatedAt": "2026-07-06T05:50:30.253Z",
   "module": "info-feed",
   "qualityStatus": "warn",
   "latestDate": "2026-07-06",
-  "latestCardCount": 8,
-  "newFactCount": 4,
+  "latestCardCount": 12,
+  "newFactCount": 8,
   "contextCount": 3,
   "weakSignalCount": 0,
   "gapRecordCount": 1,
-  "sourceCount": 8,
+  "sourceCount": 11,
   "channelCoverage": [
     "官方",
     "媒体",
@@ -18,9 +18,9 @@
   "confidenceDistribution": {
     "L3": 2,
     "L2": 5,
-    "L1": 1
+    "L1": 5
   },
-  "subtopicConcentration": 0.625,
+  "subtopicConcentration": 0.417,
   "privateSignalRatio": 0,
   "fieldCompleteness": {
     "requiredFieldMissingCount": 0,
@@ -29,16 +29,16 @@
   "sourceUrlMissingCount": 0,
   "latest": {
     "date": "2026-07-06",
-    "cardCount": 8,
-    "nonGapCardCount": 7,
-    "newFactCount": 4,
+    "cardCount": 12,
+    "nonGapCardCount": 11,
+    "newFactCount": 8,
     "oldLineReviewCount": 3,
     "contextCount": 3,
     "weakSignalCount": 0,
     "gapCount": 1,
     "gapRecordCount": 1,
-    "sourcePlatformCount": 8,
-    "sourceUrlCount": 8,
+    "sourcePlatformCount": 11,
+    "sourceUrlCount": 12,
     "channelTypeCount": 4,
     "channelTypes": [
       "官方",
@@ -48,37 +48,38 @@
     ],
     "infoTypeDistribution": {
       "旧线复核": 3,
-      "新增事实": 4,
+      "新增事实": 8,
       "缺口记录": 1
     },
     "channelTypeDistribution": {
       "官方": 3,
       "媒体": 1,
-      "报告学术": 3,
+      "报告学术": 7,
       "社媒公众号": 1
     },
     "channelCoverage": {
       "官方": 3,
       "媒体": 1,
-      "报告学术": 3,
+      "报告学术": 7,
       "社媒公众号": 1
     },
     "confidenceDistribution": {
       "L3": 2,
       "L2": 5,
-      "L1": 1
+      "L1": 5
     },
     "conclusionConfidenceDistribution": {
       "L3": 2,
       "L2": 5,
-      "L1": 1
+      "L1": 5
     },
     "subtopicDistribution": {
       "AI交付与部署": 5,
-      "其他": 1,
-      "AI治理与安全": 2
+      "其他": 2,
+      "AI治理与安全": 3,
+      "组织层级与管理": 2
     },
-    "subtopicConcentration": 0.625,
+    "subtopicConcentration": 0.417,
     "privateSignalRatio": 0,
     "sourceUrlMissingItemIds": [],
     "sourceUrlMissingCount": 0,
@@ -96,14 +97,14 @@
   "recentDays": [
     {
       "date": "2026-07-06",
-      "cardCount": 8,
-      "nonGapCardCount": 7,
-      "newFactCount": 4,
+      "cardCount": 12,
+      "nonGapCardCount": 11,
+      "newFactCount": 8,
       "contextCount": 3,
       "weakSignalCount": 0,
       "gapRecordCount": 1,
-      "sourcePlatformCount": 8,
-      "sourceUrlCount": 8,
+      "sourcePlatformCount": 11,
+      "sourceUrlCount": 12,
       "sourceUrlMissingCount": 0,
       "channelTypeCount": 4,
       "channelTypes": [
@@ -115,28 +116,27 @@
       "channelCoverage": {
         "官方": 3,
         "媒体": 1,
-        "报告学术": 3,
+        "报告学术": 7,
         "社媒公众号": 1
       },
       "confidenceDistribution": {
         "L3": 2,
         "L2": 5,
-        "L1": 1
+        "L1": 5
       },
       "subtopicDistribution": {
         "AI交付与部署": 5,
-        "其他": 1,
-        "AI治理与安全": 2
+        "其他": 2,
+        "AI治理与安全": 3,
+        "组织层级与管理": 2
       },
-      "subtopicConcentration": 0.625,
+      "subtopicConcentration": 0.417,
       "privateSignalRatio": 0,
       "fieldCompleteness": {
         "requiredFieldMissingCount": 0,
         "missingFields": []
       },
-      "qualityIssues": [
-        "新增事实少于 5 条，已有缺口记录"
-      ]
+      "qualityIssues": []
     },
     {
       "date": "2026-07-05",
@@ -409,25 +409,25 @@
     }
   ],
   "totals": {
-    "days": 72,
-    "cards": 656,
-    "platforms": 343,
+    "days": 73,
+    "cards": 676,
+    "platforms": 347,
     "dailyFiles": 75,
     "dailyReportFiles": 79,
     "weeklyFiles": 1
   },
   "homepageBridge": {
     "digestLatestDate": "2026-07-06",
-    "latestScanDate": "2026-07-05",
-    "latestScanUrl": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-05.html",
+    "latestScanDate": "2026-07-06",
+    "latestScanUrl": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-06.html",
     "publicMirrorUrl": "https://jordanfu.github.io/org-intelligence-info/",
     "checkedBy": "scripts/check-public-links.js",
     "status": "pending-link-check"
   },
   "trustStats": {
-    "⭐高": 347,
-    "📰较高": 289,
-    "💬参考": 17,
+    "⭐高": 356,
+    "📰较高": 297,
+    "💬参考": 20,
     "⭐高 / 📰较高": 1,
     "💬参考（多篇学术论文交叉验证）": 1,
     "📰较高 / ⭐高": 1
@@ -444,35 +444,52 @@
     "verificationQuestion": 0,
     "insight": 0,
     "tags": 0,
-    "time": 3
+    "time": 4
   },
   "warnings": [
-    "最新日期非缺口信息卡少于 8 条：当前 7 条；已有缺口记录，不能用缺口记录凑数量。",
-    "最新日期“新增事实”少于 5 条：当前 4 条；已有缺口记录，首页应诚实显示可信新增不足。",
-    "最新日期同一子主题超过 40%：63%；需要关注广谱雷达覆盖。"
+    "最新日期同一子主题超过 40%：42%；需要关注广谱雷达覆盖。",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1"
   ],
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-07-06T01:53:07.659Z",
+    "checkedAt": "2026-07-06T05:50:32.394Z",
     "qualityStatus": "warn",
-    "firstPartyChecked": 1609,
-    "externalWarnings": 11,
+    "firstPartyChecked": 1638,
+    "externalWarnings": 18,
     "brokenCount": 0,
     "publicScanBridge": [
       {
-        "ok": false,
-        "hardBroken": false,
-        "status": null,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-05.html",
-        "reason": "network check warning: fetch failed"
+        "ok": true,
+        "status": 200,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-05.html"
       },
       {
-        "ok": false,
-        "hardBroken": false,
-        "status": null,
-        "url": "https://jordanfu.github.io/org-intelligence-info/",
-        "reason": "network check warning: fetch failed"
+        "ok": true,
+        "status": 200,
+        "url": "https://jordanfu.github.io/org-intelligence-info/"
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-06.html"
       }
     ]
   },
