@@ -85,6 +85,39 @@
       "rawFile": "./knowledge/raw/obsidian-vault-source-map-2026-06-30.json"
     },
     {
+      "id": "bigtech-hr-ai-era-hiring-talent-2026",
+      "title": "大厂 HR：AI 时代招聘标准与人才画像变化",
+      "originalTitle": "大厂HR：AI时代，我们招什么人？",
+      "author": "定焦One（李梦冉、王璐、王汉星、雷晶、金玙璠）",
+      "publisher": "钛媒体 / 腾讯新闻 / 36氪",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计",
+        "人才发展",
+        "招聘标准",
+        "人才密度",
+        "技能组织"
+      ],
+      "date": "2026-05-19",
+      "uploadDate": "2026-07-07",
+      "description": "基于用户提供微信文章链接，并通过腾讯新闻与 36氪转载交叉核验正文；沉淀 AI 时代大厂招聘标准从工具熟练度转向项目证据、业务闭环、多 Agent 编排和 AI 应用落地的市场观察。",
+      "summaryFile": "./knowledge/wiki/bigtech-hr-ai-era-hiring-talent-2026.md",
+      "fileName": "web article synthesis",
+      "fileSize": "summary only",
+      "tags": [
+        "AI时代人才",
+        "招聘标准",
+        "人才密度",
+        "复合型人才",
+        "AI能力证据化"
+      ],
+      "originalUrl": "https://mp.weixin.qq.com/s/0Ba8fG4l6kD-mspkJ8hksw",
+      "mirrorUrls": [
+        "https://news.qq.com/rain/a/20260519A02W5A00",
+        "https://36kr.com/p/3815497925205507"
+      ]
+    },
+    {
       "id": "zhiyinlou-hr-learning",
       "title": "知音楼：《人力资源书籍和学习资料》",
       "sourceType": "internal-link",

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-06T16:36:40.827Z",
+  "generatedAt": "2026-07-07T02:04:26.482Z",
   "module": "knowledge-base",
-  "qualityStatus": "warn",
+  "qualityStatus": "pass",
   "latestCatalogDate": "2026-07-07",
   "counts": {
     "reports": 79,
-    "knowledgeSources": 3,
+    "knowledgeSources": 4,
     "sourceTypes": {
       "media": 18,
       "internal": 17,
@@ -26,50 +26,14 @@
       "summaryFile": "./knowledge/wiki/local-knowledge-review-2026-06-29.md"
     }
   ],
-  "warnings": [
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1"
-  ],
+  "warnings": [],
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-07-06T16:36:41.434Z",
-    "qualityStatus": "warn",
-    "firstPartyChecked": 1664,
-    "externalWarnings": 18,
-    "brokenCount": 0,
-    "publicScanBridge": [
-      {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-05.html"
-      },
-      {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/"
-      },
-      {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-06.html"
-      }
-    ]
+    "checkedAt": null,
+    "qualityStatus": "pending",
+    "firstPartyChecked": 0,
+    "externalWarnings": 0,
+    "brokenCount": 0
   }
 }

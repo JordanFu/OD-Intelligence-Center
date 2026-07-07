@@ -46,6 +46,7 @@
 | 35 | [本地知识库定期 Review（2026-06-29）](wiki/local-knowledge-review-2026-06-29.md) | OD Intelligence Center | 2026-06-29 | 知识管理, 定期Review, 资料治理 |
 | 36 | [本地知识库定期 Review（2026-07-06）](wiki/local-knowledge-review-2026-07-06.md) | OD Intelligence Center | 2026-07-06 | 知识管理, 定期Review, 资料治理 |
 | 37 | [微信公众号「AI组织进化论」候选来源池](wiki/wechat-ai-org-evolution-intake.md) | 微信公众号「AI组织进化论」 | 2026-06-30 | AI组织设计, 人才密度, 微信公众号, 待核验 |
+| 38 | [大厂 HR：AI 时代招聘标准与人才画像变化](wiki/bigtech-hr-ai-era-hiring-talent-2026.md) | 定焦One / 钛媒体 / 腾讯新闻 / 36氪 | 2026-05-19 | AI时代人才, 招聘标准, 人才密度, 复合型人才 |
 
 ## 概念页
 

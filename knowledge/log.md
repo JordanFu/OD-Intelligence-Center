@@ -4,6 +4,11 @@
 
 ---
 
+## [2026-07-07] ingest | 大厂 HR：AI 时代招聘标准与人才画像变化
+- 用户提供微信原文 `https://mp.weixin.qq.com/s/0Ba8fG4l6kD-mspkJ8hksw`，微信原文直取受限；通过腾讯新闻与 36氪转载交叉核验正文，确认标题为《大厂HR：AI时代，我们招什么人？》。
+- 新增知识页 `knowledge/wiki/bigtech-hr-ai-era-hiring-talent-2026.md`，归入“AI时代的人才 / 人才密度 / 招聘标准 / AI能力证据化”主题。
+- 更新微信公众号候选来源池、知识库索引和 catalog；本来源按媒体访谈/招聘市场观察处理，作为 Context/线索层证据，不单独升级为公司正式制度结论。
+
 ## [2026-07-07] ingest | 日报 PDF 证据源自动入库
 - 从 daily、daily-report、specials、analysis 中扫描 PDF URL，按知识库 Raw/Wiki/Catalog 规则自动建档。
 - 本次识别 22 个唯一 PDF 来源：17 个已下载原始 PDF，5 个保留 URL 与引用上下文待重试。
