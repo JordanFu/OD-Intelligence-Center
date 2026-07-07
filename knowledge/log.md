@@ -34,7 +34,6 @@
 - 已下载：orgvue ai research ebook 2026 final（引用 1 次）
 - 已下载：Payscale：2026 Compensation Best Practices Report（引用 6 次）
 - 待重试：it job family career ladder matrix software engineer（引用 1 次）
-
 ## [2026-07-06] review | 本地知识库定期 Review
 - 完成本周知识库巡检：确认仓库完整、PDF 入库已执行、私有路径/私有渠道边界未泄露。
 - 健康度评估为 86/100；主要风险为最近信息日新增事实和渠道不足、5 个 PDF 仍待重试、自动 PDF 卡片待精读。

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T16:36:39.715Z",
+  "generatedAt": "2026-07-07T05:30:47.937Z",
   "module": "info-feed",
   "qualityStatus": "warn",
   "latestDate": "2026-07-06",
@@ -409,10 +409,10 @@
     }
   ],
   "totals": {
-    "days": 73,
-    "cards": 676,
-    "platforms": 347,
-    "dailyFiles": 75,
+    "days": 74,
+    "cards": 696,
+    "platforms": 352,
+    "dailyFiles": 76,
     "dailyReportFiles": 79,
     "weeklyFiles": 1
   },
@@ -425,9 +425,9 @@
     "status": "pending-link-check"
   },
   "trustStats": {
-    "⭐高": 356,
-    "📰较高": 297,
-    "💬参考": 20,
+    "⭐高": 361,
+    "📰较高": 310,
+    "💬参考": 22,
     "⭐高 / 📰较高": 1,
     "💬参考（多篇学术论文交叉验证）": 1,
     "📰较高 / ⭐高": 1
@@ -470,9 +470,9 @@
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-07-06T16:36:41.434Z",
+    "checkedAt": "2026-07-07T05:30:50.151Z",
     "qualityStatus": "warn",
-    "firstPartyChecked": 1664,
+    "firstPartyChecked": 1666,
     "externalWarnings": 18,
     "brokenCount": 0,
     "publicScanBridge": [

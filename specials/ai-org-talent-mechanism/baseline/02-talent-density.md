@@ -21,7 +21,6 @@ AI 时代的高人才密度不只是“更强个体”，而是能把问题定�
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-07-07 | [知识库来源页](../../../knowledge/wiki/bigtech-hr-ai-era-hiring-talent-2026.md) | Context/线索层 | **AI 时代人才评价正在从“会用 AI 工具”转向“能用 AI 改造业务并交付结果”。可信度：中高。** 证据来自定焦One/钛媒体文章及腾讯新闻、36氪转载；多位招聘从业者共同指向：泛泛写熟练使用 AI 已无区分度，项目证据、业务闭环、多 Agent 编排和 AI 应用落地更重要。 | 这是一线招聘市场观察，不是公司正式制度；适合支持“部署型复合能力”和“AI 能力证据化”的判断。 | 继续找一手材料：大厂招聘 JD、校招测评题、AI fluency rubric、岗位胜任力模型、面试评分表。 |
 | 2026-06-22 | [日报](../2026-06-22/02-talent-density.html) | 线索层/待验证 | 1. **执行层工作正在合并，高复杂度责任前移**：PwC 相关材料显示初级岗位开始要求过去属于资深角色的能力，这与岗位颗粒度变粗、端到端负责增强的假设一致。可信度高。 | 3. **岗位体系问题经常是激励和定价问题**：AI 技能溢价、专业化岗位更快薪酬增长和专家团队扩张说明，很多“新增序列”诉求背后是关键能力的市场定价缺口。可信度高。 | 待下次日报/周报继续追踪。 |
 | 2026-06-23 | [日报](../2026-06-23/02-talent-density.html) | 线索层/待验证 | 1. **高人才密度正在被制度化为“更少人承担更大责任”的叙事，但需要防止把裁员包装成能力升级。可信度：高。** | - 为什么重要：只招“已经成熟的初级人才”会破坏未来人才管道。 | 1. Robinhood 是否更新薪酬、晋升或 equity 机制来匹配 greater responsibility？ |
 | 2026-06-24 | [日报](../2026-06-24/02-talent-density.html) | 线索层/待验证 | 1. **智能体治理会重写岗位责任边界，尤其是业务流程负责人、安全、法务、平台和一线管理者之间的责任接口。 可信度：中高。** 证据基础来自当日公开来源、信息库和上游组织情报；为什么重要：它影响 人才密度 的设计边界。 | 暂无单独 Context 摘要。 | - 找一手材料：官方博客、招聘页、政府公告、SEC/年报、公司手册。 |
@@ -41,19 +40,18 @@ AI 时代的高人才密度不只是“更强个体”，而是能把问题定�
 
 | 资料 | 对本专题的价值 |
 |---|---|
-| [Obsidian 本地知识库](../../../knowledge/wiki/obsidian-vault-full-source-map-2026-05-22.md) | 本地 Vault 当前识别 70 篇 Markdown；2026-06-30 已新增公开安全 source map（覆盖 69 篇，排除 1 篇内部敏感来源），并抽取字节跳动 AI 时代领导力原则、AI 五环协同人才体… |
-| [微信公众号「AI组织进化论」候选来源池](../../../knowledge/wiki/wechat-ai-org-evolution-intake.md) | 记录用户提供的 AI组织进化论 微信原文链接，当前作为人才密度方向候选输入；原文自动访问触发微信环境验证，待读取正文后再判断进入线索层、Context 层或结论候选。 |
-| [大厂 HR：AI 时代招聘标准与人才画像变化](../../../knowledge/wiki/bigtech-hr-ai-era-hiring-talent-2026.md) | 媒体访谈/招聘市场观察，沉淀“AI 能力从工具熟练度转向业务闭环证据”的线索，适合用于人才密度、招聘标准和 AI fluency 评价。 |
-| [知识库主题分类与去重治理建议](../../../knowledge/wiki/knowledge-taxonomy-dedup-review-2026-05-22.md) | 对当前知识库重复信息与分类体系的健康检查。结论是来源页不应删除，需新增主题导航层，将 Zapier、GitLab、AI能力盘点、AI-first operating model、技术组织、绩效薪酬等高重叠主题收敛到主题… |
-| [AI 时代五环协同人才体系](../../../knowledge/wiki/ai-five-ring-talent-system-huang-qifan-2026.md) | 将 AI 时代人才体系抽象为研发、工程化、产业化、组织化、治理五环协同，强调人才组合、任务共同体和协同机制。 |
-| [人机协作演进框架：Author、Editor、Director、Orchestrator](../../../knowledge/wiki/human-agent-collaboration-evolution.md) | 把人机协作拆成四种模式，强调人类签核单元从单行代码扩大到 backlog，适合用于岗位重塑、AI fluency 和绩效归属研究。 |
-| [McKinsey：AI-first 时代端到端技术 workforce 设计](../../../knowledge/wiki/pdf-source-mckinsey-2026-ai-first-technology-workforce.md) | McKinsey Technology 文章，讨论 agentic AI 时代 CIO 如何重构技术组织的人才招聘、内部能力建设、Agent 训练和供应商策略。适合用于 AI-first 技术岗位族群和职级变化研究。 |
-| [GitLab：Promotions and Transfers 晋升与内部流动机制](../../../knowledge/wiki/gitlab-promotions-transfers-handbook.md) | GitLab 官方 Handbook 中的晋升与内部流动制度页，结构化说明周期性晋升校准、promotion document、业务结果、业务必要性、价值观对齐、跨职能反馈、Senior Director+ 角色评估、… |
-| [GitLab：People & Organization 机制研究模块](../../../knowledge/wiki/gitlab-people-org-handbook-module-2026-05-21.md) | 覆盖 GitLab Handbook People Group 与 People Policies 两个一级目录，沉淀 GitLab 的 People 操作系统：公开手册、服务台、员工生命周期、能力模型、人才盘点、晋升… |
-| [CFTE：AI Proficiency Framework](../../../knowledge/wiki/pdf-source-cfte-2026-04-ai-proficiency-framework.md) | CFTE 提出的专业劳动力 AI 熟练度参考框架：三层公开等级、六档内部发展模型、十个能力域，以及 knowledge/skills/behaviours 三类评估维度。适合用于 AI 能力盘点、岗位技能标签、人才发展… |
-| [标杆研究更新：AI如何重塑组织设计](../../../knowledge/wiki/benchmark-ai-org-design-update-2026-05-08.html) | 从工作日报模块迁入知识库的标杆研究更新报告：基于 04-28 至 05-08 期间 80+ 条信息，聚焦 AI 时代人才发展机制创新与飞轮人员待优化复盘，整理 Deloitte、BCG、IBM、Lovable、百度、K… |
-| [技能为本的组织：职位、技能与薪酬架构的连接](../../../knowledge/concepts/skills-based-organization-obsidian.md) | 围绕技能而非职位角色管理人才：从技能分类法、技能评估与匹配，到招聘、发展、薪酬和劳动力规划。对“何时新增岗位/序列，何时只加技能标签”有直接参考价值。 |
-| [知音楼资料索引：人力资源行业洞察 2024](../../../knowledge/wiki/zhiyinlou-hr-industry-insights-2024.md) | 通过授权知音楼会话读取到的 HR 行业资料索引页，已确认并临时解析 11 份 PDF 附件，覆盖怡安医疗趋势、美世招聘与人才趋势、上市公司人效、弹性福利、人才发展指数、腾讯全域经营组织与人才洞察等材料。当前作为 Con… |
+| [Obsidian 本地知识库](./knowledge/wiki/obsidian-vault-full-source-map-2026-05-22.md) | 本地 Vault 当前识别 70 篇 Markdown；2026-06-30 已新增公开安全 source map（覆盖 69 篇，排除 1 篇内部敏感来源），并抽取字节跳动 AI 时代领导力原则、AI 五环协同人才体… |
+| [大厂 HR：AI 时代招聘标准与人才画像变化](./knowledge/wiki/bigtech-hr-ai-era-hiring-talent-2026.md) | 基于用户提供微信文章链接，并通过腾讯新闻与 36氪转载交叉核验正文；沉淀 AI 时代大厂招聘标准从工具熟练度转向项目证据、业务闭环、多 Agent 编排和 AI 应用落地的市场观察。 |
+| [微信公众号「AI组织进化论」候选来源池](./knowledge/wiki/wechat-ai-org-evolution-intake.md) | 记录用户提供的 AI组织进化论 微信原文链接，当前作为人才密度方向候选输入；原文自动访问触发微信环境验证，待读取正文后再判断进入线索层、Context 层或结论候选。 |
+| [知识库主题分类与去重治理建议](./knowledge/wiki/knowledge-taxonomy-dedup-review-2026-05-22.md) | 对当前知识库重复信息与分类体系的健康检查。结论是来源页不应删除，需新增主题导航层，将 Zapier、GitLab、AI能力盘点、AI-first operating model、技术组织、绩效薪酬等高重叠主题收敛到主题… |
+| [AI 时代五环协同人才体系](./knowledge/wiki/ai-five-ring-talent-system-huang-qifan-2026.md) | 将 AI 时代人才体系抽象为研发、工程化、产业化、组织化、治理五环协同，强调人才组合、任务共同体和协同机制。 |
+| [人机协作演进框架：Author、Editor、Director、Orchestrator](./knowledge/wiki/human-agent-collaboration-evolution.md) | 把人机协作拆成四种模式，强调人类签核单元从单行代码扩大到 backlog，适合用于岗位重塑、AI fluency 和绩效归属研究。 |
+| [McKinsey：AI-first 时代端到端技术 workforce 设计](./knowledge/wiki/pdf-source-mckinsey-2026-ai-first-technology-workforce.md) | McKinsey Technology 文章，讨论 agentic AI 时代 CIO 如何重构技术组织的人才招聘、内部能力建设、Agent 训练和供应商策略。适合用于 AI-first 技术岗位族群和职级变化研究。 |
+| [GitLab：Promotions and Transfers 晋升与内部流动机制](./knowledge/wiki/gitlab-promotions-transfers-handbook.md) | GitLab 官方 Handbook 中的晋升与内部流动制度页，结构化说明周期性晋升校准、promotion document、业务结果、业务必要性、价值观对齐、跨职能反馈、Senior Director+ 角色评估、… |
+| [GitLab：People & Organization 机制研究模块](./knowledge/wiki/gitlab-people-org-handbook-module-2026-05-21.md) | 覆盖 GitLab Handbook People Group 与 People Policies 两个一级目录，沉淀 GitLab 的 People 操作系统：公开手册、服务台、员工生命周期、能力模型、人才盘点、晋升… |
+| [CFTE：AI Proficiency Framework](./knowledge/wiki/pdf-source-cfte-2026-04-ai-proficiency-framework.md) | CFTE 提出的专业劳动力 AI 熟练度参考框架：三层公开等级、六档内部发展模型、十个能力域，以及 knowledge/skills/behaviours 三类评估维度。适合用于 AI 能力盘点、岗位技能标签、人才发展… |
+| [标杆研究更新：AI如何重塑组织设计](./knowledge/wiki/benchmark-ai-org-design-update-2026-05-08.html) | 从工作日报模块迁入知识库的标杆研究更新报告：基于 04-28 至 05-08 期间 80+ 条信息，聚焦 AI 时代人才发展机制创新与飞轮人员待优化复盘，整理 Deloitte、BCG、IBM、Lovable、百度、K… |
+| [技能为本的组织：职位、技能与薪酬架构的连接](./knowledge/concepts/skills-based-organization-obsidian.md) | 围绕技能而非职位角色管理人才：从技能分类法、技能评估与匹配，到招聘、发展、薪酬和劳动力规划。对“何时新增岗位/序列，何时只加技能标签”有直接参考价值。 |
 
 ## 当前不可越界的结论
 
