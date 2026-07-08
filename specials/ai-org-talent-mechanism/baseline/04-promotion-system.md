@@ -21,7 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-06-23 | [日报](../2026-06-23/04-promotion-system.html) | 线索层/待验证 | 1. **固定晋升窗口仍应保留，用于公平、预算和跨团队校准。可信度：高。** | - 暂不形成结论，但提示我们关注：**AI 项目中的 acting scope 是否会成为晋升前置验证机制。** | 1. 哪些公司公开把 AI contribution 写入 promotion criteria？ |
 | 2026-06-24 | [日报](../2026-06-24/04-promotion-system.html) | 线索层/待验证 | 1. **智能体治理会重写岗位责任边界，尤其是业务流程负责人、安全、法务、平台和一线管理者之间的责任接口。 可信度：中高。** 证据基础来自当日公开来源、信息库和上游组织情报；为什么重要：它影响 晋升机制 的设计边界。 | 暂无单独 Context 摘要。 | - 找一手材料：官方博客、招聘页、政府公告、SEC/年报、公司手册。 |
 | 2026-06-25 | [日报](../2026-06-25/04-promotion-system.html) | 线索层/待验证 | 1. **可信度：高｜固定晋升窗口仍有价值，因为 AI 贡献更需要跨团队校准。** GitLab 和 Microsoft 都强调证据、scope、业务必要性和可重复机制。为什么重要：如果完全随时晋升，AI 工具使用强的人会更容易包装短期成果，公平性下降。 | - Workday Agent Passport 等工具可能让 AI 贡献从主观描述变成 runtime log，但也会带来员工监控、数据归属和隐私边界问题。 | 1. 有哪些公司已把 AI fluency 正式写入晋升 rubric。 |
 | 2026-06-26 | [日报](../2026-06-26/04-promotion-system.html) | 线索层/待验证 | 1. **可信度：高｜AI fluency 是门槛，不是晋升理由。** Palo Alto Networks 的“AI savvy”叙事说明 AI 能力正在成为基本要求。为什么重要：如果把会用工具直接晋升，会奖励表演型使用，而不是稳定影响。 | - Palo Alto Networks 的 AI savvy 叙事会影响晋升机会，但目前缺正式 promotion rubric。 | 1. AWS 是否把 AI 工具使用、agent orchestration 或 customer feedback 写入工程晋升标准。 |
@@ -35,6 +34,7 @@
 | 2026-07-04 | [日报](../2026-07-04/04-promotion-system.html) | 线索层/待验证 | 1. **固定晋升窗口仍应保留。可信度：高。** GitLab 说明 promotion nominations、calibration、ACR 和生效日需要节奏化，才能处理同级比较、公平审计、预算和薪酬带宽。 | - 暂不形成结论，但提示我们关注：2026-07-04 没有新的 L3 晋升制度文本；Meta、Challenger、FDE 只作为组织校准背景。 | 1. Railsware 是否公开具体 promotion rubric、peer review 模板和 JD 样例。 |
 | 2026-07-05 | [日报](../2026-07-05/04-promotion-system.html) | 线索层/待验证 | 1. **固定晋升窗口仍应保留。可信度：高。** 它负责同级比较、预算、薪酬带宽、人才委员会和公平审计。重要性：AI 项目贡献更需要跨团队校准。 | 暂无单独 Context 摘要。 | 1. Microsoft Frontier Company 的 25 亿美元和 6,000 人是否新增，还是既有组织重分类。 |
 | 2026-07-07 | [日报](../2026-07-07/04-promotion-system.html) | 线索层/待验证 | 1. **固定晋升窗口仍应保留。** 可信度：高。证据基础：GitLab、专题基线、薪酬校准逻辑。为什么重要：晋升涉及同级比较、公平审计、预算、薪酬带宽和人才委员会校准，不能完全实时化。 | 暂无单独 Context 摘要。 | 1. 哪些公司已公开把 AI contribution 写入 promotion packet 或绩效字段？ |
+| 2026-07-08 | [日报](../2026-07-08/04-promotion-system.html) | 线索层/待验证 | 1. **固定窗口仍是默认制度。可信度：高。** 证据基础：GitLab、专题 baseline、2026-07-07 formal。为什么重要：晋升牵涉同级比较、预算、薪酬带宽、公平审计和人才委员会校准，AI 贡献越快越需要统一校准时点。 | 暂无单独 Context 摘要。 | 1. 搜索公开 promotion packet 是否出现 AI contribution 字段。 |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-07-07｜[打开专题日报](../2026-07-07/04-promotion-system.html)｜源文件：`specials/ai-org-talent-mechanism/2026-07-07/04-promotion-system.md`
+- 最新日报：2026-07-08｜[打开专题日报](../2026-07-08/04-promotion-system.html)｜源文件：`specials/ai-org-talent-mechanism/2026-07-08/04-promotion-system.md`

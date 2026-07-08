@@ -57,6 +57,8 @@ Payscale 2026 薪酬实践报告可用于验证 AI 技能定价、薪酬公平�
 - `specials/ai-org-talent-mechanism/2026-06-30/03-job-family-career-architecture.md:14`：Payscale 2026 薪酬报告支持把技能化薪酬、benchmarking、pay band 管理作为治理工具。 这提示市场溢价不必全部通过新增 title 承接。来源：
 - `specials/ai-org-talent-mechanism/2026-06-30/03-job-family-career-architecture.md:90`：Payscale 2026 Compensation Best Practices Report：
 - `specials/ai-org-talent-mechanism/2026-06-30/04-promotion-system.md:89`：Payscale 2026 Compensation Best Practices Report：
+- `specials/ai-org-talent-mechanism/2026-07-08/03-job-family-career-architecture.md:105`：Payscale 2026 Compensation Best Practices,
+- `specials/ai-org-talent-mechanism/2026-07-08/04-promotion-system.md:92`：Payscale 2026 Compensation Best Practices,
 
 ## 后续精读任务
 

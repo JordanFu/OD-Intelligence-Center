@@ -21,13 +21,13 @@
 - 待重试：BCG + MIT Sloan：The Emerging Agentic Enterprise（引用 8 次）
 - 已下载：AIHR：HR Priorities 2026 Report（引用 1 次）
 - 已下载：us spans and layers for the modern organization 2020（引用 3 次）
-- 已下载：EY：Future of Pay Report 2026（引用 129 次）
+- 已下载：EY：Future of Pay Report 2026（引用 126 次）
 - 已下载：pip faq 2026（引用 6 次）
 - 已下载：12 087 bc50bde2 3016 457a 9bee dc988cb1056b（引用 5 次）
 - 已下载：cesifo1 wp12373（引用 3 次）
 - 已下载：0000050863 26 000011（引用 2 次）
 - 已下载：orgvue ai research ebook 2026 final（引用 1 次）
-- 已下载：Payscale：2026 Compensation Best Practices Report（引用 6 次）
+- 已下载：Payscale：2026 Compensation Best Practices Report（引用 8 次）
 - 待重试：it job family career ladder matrix software engineer（引用 1 次）
 ## [2026-07-07] ingest | 大厂 HR：AI 时代招聘标准与人才画像变化
 - 用户提供微信原文 `https://mp.weixin.qq.com/s/0Ba8fG4l6kD-mspkJ8hksw`，微信原文直取受限；通过腾讯新闻与 36氪转载交叉核验正文，确认标题为《大厂HR：AI时代，我们招什么人？》。

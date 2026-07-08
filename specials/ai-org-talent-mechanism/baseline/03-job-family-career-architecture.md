@@ -21,7 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-06-23 | [日报](../2026-06-23/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **AI 时代岗位变化至少有四种类型，不能都用新增序列解决。可信度：高。** | - 暂不形成结论，但提示我们关注：**AI-exposed junior jobs 的高级化是否会推动“准高级初级岗”成为隐性层级。** | 1. Oracle 被减少的 21,000 名员工涉及哪些岗位族群？ |
 | 2026-06-24 | [日报](../2026-06-24/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **智能体治理会重写岗位责任边界，尤其是业务流程负责人、安全、法务、平台和一线管理者之间的责任接口。 可信度：中高。** 证据基础来自当日公开来源、信息库和上游组织情报；为什么重要：它影响 岗位族群 的设计边界。 | 暂无单独 Context 摘要。 | - 找一手材料：官方博客、招聘页、政府公告、SEC/年报、公司手册。 |
 | 2026-06-25 | [日报](../2026-06-25/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **可信度：高｜岗位变化至少有四种类型，不能统一用“新增序列”处理。** 证据基础是 arXiv、PwC、Workday、华为和内部知识库。为什么重要：新增序列成本很高，会制造晋升预期、薪酬带宽和组织政治。 | - AI 产品经理、AI workflow owner、agent governance lead、prompt evaluation engineer 等名称是否会稳定成岗位，还是只是现有产品/运营/工程岗位的技能标签。 | 1. AI workflow owner、agent governance lead 是否出现稳定 JD 与薪酬带宽。 |
 | 2026-06-26 | [日报](../2026-06-26/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **可信度：高｜岗位架构需要增加“外部职业路径接口”。** RAISE US 把职业导航、服务年、工资保险和短工时补偿组合起来。为什么重要：当某些岗位责任被 AI 吞并或压缩，公司内部未必能吸收所有人，岗位设计要连接外部转型生态。 | - RAISE US 的职业导航如果有效，可能成为岗位架构之外的“外部职业地图”；但当前还没有结果数据。 | 1. AWS 是否公开新版工程 career ladder、AI coding 培养机制或实习生训练要求。 |
@@ -35,6 +34,7 @@
 | 2026-07-04 | [日报](../2026-07-04/03-job-family-career-architecture.html) | 结论层候选 | 1. **岗位体系主线仍是“双向分化”。可信度：高。** 应用/业务岗位变宽，专家/治理岗位变深；今天新增的 Redox/Postman/Figure JD 强化了 agent operations 与 agentic systems 两端。 | - 暂不形成结论，但提示我们关注：Cars24 取消 title 后，内部薪酬、晋升、招聘定级和外部职业信号如何处理，是验证该模式能否长期成立的关键。 | 1. Microsoft Frontier Company 是否公开具体岗位族、职级、绩效指标、晋升路径和客户 outcome 数据。 |
 | 2026-07-05 | [日报](../2026-07-05/03-job-family-career-architecture.html) | 结论层候选 | 1. **FDE / Frontier / Applied AI 责任包继续稳定。可信度：高。** 客户现场、行业知识、AI 工程、变革管理、数据治理、模型选择、持续改进和结果责任正在合并成一个高价值责任包。重要性：它是岗位族候选，但不能直接跳到序列。 | 5. **国内 JD / 薪酬线索增加但制度不足。** 小红书 AI 导购/智能客服产品岗、美团 AI Agent 产品经理、DeepSeek Harness 团队与中国智能体工程化人才报告说明需求增长，但不足以证明成熟岗位族或序列。 | 1. Microsoft Frontier Company 是否公开岗位族、职级、绩效、晋升、薪酬或 P&L。 |
 | 2026-07-07 | [日报](../2026-07-07/03-job-family-career-architecture.html) | 背景材料（Context）强证据 | 1. **粗颗粒岗位不是“岗位消失”，而是责任对象更清楚。** 可信度：中高。证据基础：HBR、Deloitte、国内大厂 AI 整合。为什么重要：岗位名称可能变宽，但内部责任会围绕客户结果、流程、智能体、风险和审计重新拆分。 | 暂无单独 Context 摘要。 | 1. 搜索 `agent governance owner`、`AI operations manager`、`model routing engineer`、`evaluation le… |
+| 2026-07-08 | [日报](../2026-07-08/03-job-family-career-architecture.html) | 背景材料（Context）强证据 | 1. **粗颗粒岗位会增加，但不是岗位消失。可信度：中高。** 证据基础：2026-07-07 formal、HBR role fluidity、Deloitte AI-native organization、今日前后端合并线索。为什么重要：岗位名称可变宽，但内部仍要… | 暂无单独 Context 摘要。 | 1. 找官方 JD：FDE、Agent Governance、AI Operations、Model Evaluation、AI Infra、Inference Cost Optimiza… |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-07-07｜[打开专题日报](../2026-07-07/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-07-07/03-job-family-career-architecture.md`
+- 最新日报：2026-07-08｜[打开专题日报](../2026-07-08/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-07-08/03-job-family-career-architecture.md`
