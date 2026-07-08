@@ -1,53 +1,95 @@
 # 2026-07-08｜专题四：未来组织的晋升机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+## 0. 读者应该带走什么
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+今天没有出现足以改写晋升制度基线的新公司级晋升手册。更稳的结论仍是：固定晋升窗口 + 受治理的例外晋升 + 项目激励/acting scope + AI 贡献证据包 + 薪酬校准。不要把项目战功、AI 使用量、证书或 badge 直接兑换职级。管理层该问的是：贡献应进入晋升、项目奖金、临时授权还是薪酬校准。
 
-## 今日一句话结论
+## 背景材料
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+本专题读取了 `daily/2026-07-08.md`、`digest.md`、2026-07-07 专题四正式稿、promotion baseline/evidence-map、GitLab Promotions and Transfers、Zapier AI Fluency V2、Auditable Promotion Evidence、EY/Payscale、Workday Agent Passport/ASOR 线索、Monzo progression framework 和今日 Agent 治理/薪酬公平 Context。
 
-## 今日核心判断
+## 1. 今日一句话专题判断
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+未来晋升机制的创新不是默认“随时升”，而是把 AI 贡献、项目责任和技能溢价拆开处理：晋升看稳定责任扩大和岗位价值变化，项目贡献看证据包和 acting scope，稀缺能力看薪酬工具，AI 使用量只做诊断线索。
 
-## 今日背景材料
+## 2. 今日新增事实
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+1. **今日未发现新的公司级晋升手册。** 外部检索没有找到自 2026-07-07 以来把 AI contribution 直接写入正式晋升周期、职级规则或 promotion packet 的强一手证据。证据等级：缺口事实。
+2. **GitLab 仍是公开晋升治理基线。** 机制包括 promotion document、business justification、跨职能反馈、半年校准、Total Rewards/FP&A/预算联动和 out-of-cycle 例外审批。证据等级：L3。
+3. **Zapier AI Fluency V2 仍是 AI 能力标准基线。** 它把 AI 能力从“会用工具”提高到核心工作嵌入、可重复系统、可衡量影响和 accountability。证据等级：L3。
+4. **EY/Payscale 继续支撑技能溢价与薪酬工具箱。** 技能津贴、薪酬带宽、稀缺系数、变量薪酬、长期激励和审计机制可承接很多“要晋升/要新 title”的诉求。证据等级：L2-L3。
+5. **今日新增 Context 包括 Agent 国家标准、BCG 决策代理、Deloitte AI 原生组织、初级岗位压缩、岗位边界消失、三星奖金撕裂和 AI 人才高薪化。** 证据等级：L1-L2 Context。
 
-## 今日新增证据地图
+## 3. 今日核心判断
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+1. **固定窗口仍是默认制度。可信度：高。** 证据基础：GitLab、专题 baseline、2026-07-07 formal。为什么重要：晋升牵涉同级比较、预算、薪酬带宽、公平审计和人才委员会校准，AI 贡献越快越需要统一校准时点。
+2. **即时晋升只能处理岗位价值突变，不能处理所有项目胜利。可信度：高。** 证据基础：GitLab out-of-cycle、专题 evidence-map。为什么重要：项目成功先用项目奖金、即时认可、临时授权、acting scope 承接；只有职责稳定进入下一层级，才进入例外晋升。
+3. **项目制晋升应改成项目证据包 + acting scope 观察期。可信度：中高。** 证据基础：GitLab promotion document、Zapier reusable workflow、W26/W27 周报。为什么重要：AI 项目周期短、贡献跨团队，直接升职容易奖励短期可见性。
+4. **AI fluency、认证和 badge 是准入/准备度，不是职级货币。可信度：高。** 证据基础：Zapier V2、skills-based organization。为什么重要：证书能证明学习和准备度，不能单独证明业务影响、责任扩大或组织放大。
+5. **AI 贡献必须进入可审计证据包。可信度：高。** 证据基础：Auditable Promotion Evidence、GitLab、Zapier、Workday Agent Passport 线索。为什么重要：字段应包括业务问题、AI 工作流、复用资产、采用范围、量化影响、质量门禁、风险控制、人工校验和责任归属。
 
-## 线索层
+## 4. 重点案例事实还原：GitLab + Zapier + Workday/EY/Payscale 组合基线
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+**背景：** AI 让贡献更快、更跨团队，也更容易被包装；传统经理叙事不足以支撑公平晋升。
 
-## 待补齐的落地问题
+**时间线：** GitLab 持续公开 promotions/transfers handbook；Zapier 2026 AI Fluency V2 提高招聘/能力标准；EY/Payscale 2026 提供技能薪酬和薪酬公平框架；Workday Agent Passport/ASOR 线索提示运行记录可审计。
 
-正式重跑必须回答：AI 贡献如何进入晋升证据包、谁负责验证与质量、是否有校准机制、是否存在调岗降薪和劳动合规风险。
+**动作：** GitLab 用 promotion document、business results、business justification、跨职能反馈、校准会、Total Rewards 和 FP&A 把晋升变成可审计组织流程。Zapier 用 AI Fluency V2 定义 AI 能力证据。EY/Payscale 把技能溢价和稀缺能力从“升 title”中拆出来。
 
-## 来源索引
+**机制：** 晋升机制应分层：职级晋升处理稳定责任扩大；项目激励处理短期贡献；薪酬工具处理市场溢价；AI 证据包处理贡献归因。
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+**结果：** 这套组合基线比“随时晋升”更稳，但仍缺新的公司公开案例把 AI contribution 字段正式写入 promotion packet。
+
+**争议与阻碍：** 如果用 AI 使用量、token 消耗或 badge 替代业务影响，会诱导表演式使用和公平争议。
+
+**可借鉴点：** 在 promotion packet 中新增 AI 贡献字段，但保留固定校准窗口。
+
+**不可照搬点：** GitLab 和 Zapier 的远程/技术文化不能直接复制；传统企业要先建立数据隐私、申诉、质量和预算规则。
+
+## 5. Context层
+
+- 暂不形成结论，但提示我们关注：初级岗位压缩会削弱未来晋升候选池，需要学徒制、导师津贴、轮岗、AI 辅助训练和 early-career 项目。
+- 暂不形成结论，但提示我们关注：决策代理、Agent 国家标准和企业核心系统接入，会让谁拥有 agent、谁审批、谁审计、谁最终负责成为晋升证据的一部分。
+- 暂不形成结论，但提示我们关注：岗位边界消失和全栈化会放大岗位不可比性，晋升委员会需要先定义岗位分层和豁免规则。
+- 暂不形成结论，但提示我们关注：三星奖金撕裂、AI 顶尖人才高薪化提醒，AI 超额收益和稀缺能力定价会冲击内部公平，不能只靠晋升解决。
+
+## 6. 证据地图
+
+| 证据 | 等级 | 用法 |
+|---|---:|---|
+| GitLab Promotions and Transfers | L3 | 固定窗口、例外晋升、校准、薪酬预算基线 |
+| Zapier AI Fluency V2 | L3 | AI 能力门槛、岗位化证据、accountability |
+| Promotion baseline/evidence-map | L3 | 当前稳定判断与不可越界边界 |
+| EY Future of Pay / Payscale CBPR | L2-L3 | 技能溢价、薪酬带宽、稀缺系数、审计 |
+| Workday Agent Passport/ASOR 周报线索 | L2-L3 | runtime evidence 可能性与隐私风险 |
+| Monzo progression framework | L1-L2 | 职级/期望/证据写法线索 |
+| 2026-07-08 daily/digest | L1-L2 | Context：岗位边界、初级岗位、Agent治理、薪酬公平 |
+
+## 7. 落地启发：对我们的启发
+
+1. 保留固定晋升窗口，不推默认“随时晋升”。
+2. 设计 out-of-cycle 门槛：岗位价值变化、稳定责任扩大、预算来源、PBP/Total Rewards/FP&A 审批。
+3. 建立项目贡献分流：即时认可、项目奖金、acting scope、临时津贴、学习预算。
+4. 在 promotion packet 加 AI 字段，但禁止用 AI 使用量、token 消耗、登录次数作主指标。
+5. 把 AI fluency/badge 用作岗位准入、项目机会和晋升准备度。
+6. 人才委员会增加 AI 贡献归因、复用资产、质量风险、隐私合规和跨团队采用审查。
+7. 薪酬校准单独做：技能津贴、稀缺系数、pay band、LTI、项目奖金，不让 title 承接所有激励压力。
+
+## 8. 待验证清单与下一步搜索路径
+
+1. 搜索公开 promotion packet 是否出现 AI contribution 字段。
+2. 验证 Accenture/KPMG AI 使用指标是否有官方制度文本。
+3. 找 AI 项目制晋升或 acting scope 的公司样例。
+4. 验证 Workday/ServiceNow/Entra 的 runtime log 是否被用于绩效或晋升。
+5. 精读 Monzo progression framework，抽取可复用证据字段。
+6. 继续追踪国内大厂是否披露职级、薪酬带宽、校准会或 AI 能力认证规则。
+
+## 9. 来源索引
+
+- GitLab Handbook, Promotions and Transfers, https://handbook.gitlab.com/handbook/people-group/promotions-transfers/
+- Zapier, Raising the AI fluency bar in hiring, https://www.zapier.com/blog/raising-ai-fluency-bar-in-hiring/
+- EY Future of Pay 2026, https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf
+- Payscale 2026 Compensation Best Practices, https://www.payscale.com/content/report/2026-compensation-best-practice-report.pdf
+- BCG, How AI Decision Agents Transform Strategy, https://www.bcg.com/publications/2026/how-ai-decision-agents-transform-strategy
+- 国家标准平台，GB/Z 185.2-2026，https://std.samr.gov.cn/gb/search/gbDetailed?id=52A05F81134B3761E06397BE0A0AFEB5
+- OD Intelligence Center 内部来源：`daily/2026-07-08.md`、`digest.md`、`knowledge/wiki/gitlab-promotions-transfers-handbook.md`、`knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md`、`knowledge/concepts/auditable-promotion-evidence.md`
