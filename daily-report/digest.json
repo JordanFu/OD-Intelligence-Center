@@ -2090,6 +2090,72 @@
         "中国企业的公开治理样本：国内大厂或头部企业是否开始披露agent权限治理、升级路径和组织改造实践"
       ],
       "note": "【2026-05-26 日报】5条信息，⭐高5/较高0/参考0，5个平台（Microsoft/McKinsey/ServiceNow/Zendesk/Okta）。焦点：Microsoft定义manager orchestration角色；McKinsey提出AI装配线需重写end-to-end work；ServiceNow建立agent控制平面；Zendesk把员工服务改写为agent-first链路；Okta把agent治理落地为身份与授权问题。"
+    },
+    {
+      "date": "2026-07-07",
+      "weekday": "周二",
+      "items": 26,
+      "platforms": 16,
+      "trust": {
+        "high": 8,
+        "mid": 16,
+        "ref": 2
+      },
+      "tags": [
+        "AI裁员",
+        "组织重构",
+        "人才转型",
+        "大厂AI组织",
+        "工程师角色",
+        "AI原生组织",
+        "管理者进化",
+        "人机协作",
+        "Agent",
+        "基因驱动"
+      ],
+      "topPicks": [
+        {
+          "title": "McKinsey《2026年组织现状报告》：组织重构的三股力量与九大主题",
+          "platform": "McKinsey",
+          "url": "https://www.mckinsey.com.cn/2026%e9%ba%a6%e8%82%af%e9%94%a1%e7%bb%84%e7%bb%87%e7%8e%b0%e7%8a%b6%e6%8a%a5%e5%91%8a%ef%bc%9a%e6%94%b9%e5%8f%98%e7%bb%84%e7%bb%87%e6%9c%aa%e6%9d%a5%e7%9a%84%e4%b8%89%e8%82%a1%e5%8a%9b%e9%87%8f/",
+          "reason": "15国16行业超1万名高管调研，今年最权威的AI组织重构全景图，OD可据此建立评估框架"
+        },
+        {
+          "title": "36氪深氪《AI砍掉的第一批大厂人：高薪，高绩效，高P》",
+          "platform": "36氪",
+          "url": "https://m.36kr.com/p/3883456791163138",
+          "reason": "国内最扎实的AI裁员一线报道，AI裁员不再遵循绩效逻辑，OD需紧急建立岗位替代风险评估框架"
+        },
+        {
+          "title": "BCG《AI转型本质上是人才转型》：70%价值来自人的重构",
+          "platform": "BCG",
+          "url": "https://www.bcg.com/publications/2026/ai-transformation-is-a-workforce-transformation",
+          "reason": "AI价值仅10%来自算法、20%来自技术，70%来自人的重构；仅5%企业获得显著AI回报，OD核心战场"
+        },
+        {
+          "title": "晚点LatePost《AI写了90%代码，大厂程序员的煎熬时刻》",
+          "platform": "晚点LatePost",
+          "url": "https://www.sohu.com/a/1043923915_121948396",
+          "reason": "AI代码率从20-30%飙至90%的一线实录，工程组织的OD预案迫在眉睫"
+        },
+        {
+          "title": "HBR《智能机器时代重新思考角色》：从决策者到意义建构者",
+          "platform": "HBR",
+          "url": "https://www.harvardbusiness.org/insight/the-fluid-future-of-work-rethinking-roles-in-the-age-of-intelligent-machines/",
+          "reason": "提出静态岗位说明书已过时的判断，以瑞银为例展示角色重构方法论，可直接参考"
+        }
+      ],
+      "trends": [
+        "AI裁员逻辑已发生根本性转变：从成本削减转向战略置换，OD需建立岗位影响评估框架并管理裁撤与招聘的双轨转型",
+        "咨询巨头同步发声：AI转型70%价值来自人的重构，AI必须从IT项目升级为组织重构战略",
+        "国内大厂AI组织从赛马到大一统，组织整合与AI中台成为主线，多业务线集团的AI能力横向流动机制设计需求凸显"
+      ],
+      "nextFocus": [
+        "深度研读McKinsey《2026年组织现状报告》原文，提取九大主题对应的具体OD行动项和方法论框架",
+        "追踪国内大厂630裁员后组织调整细节：部门合并、角色重定义、内部转岗机制的实际落地情况",
+        "关注AWS FDE与Microsoft Frontier Company的客户案例披露，获取组织细节和outcome指标"
+      ],
+      "note": "【2026-07-07 日报】26条信息，⭐高8/📰较高16/💬参考2，16个平台。焦点：McKinsey组织现状报告为年度最权威全景图；BCG揭示AI转型70%价值来自人的重构；36氪深氪披露国内AI裁员不再遵循绩效逻辑；晚点实录AI代码率90%对工程组织的冲击；五大咨询机构同步发声指向同一结论：AI=组织重构而非工具升级。"
     }
   ]
 }
