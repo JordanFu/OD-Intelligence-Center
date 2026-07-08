@@ -5,8 +5,8 @@
     "date": "2026-04-09",
     "sourceFile": "./report-viewer.html",
     "stats": {
-      "totalDays": 34,
-      "totalItems": 372,
+      "totalDays": 37,
+      "totalItems": 432,
       "totalSources": 85,
       "hypothesesVerified": 4,
       "hypothesesPending": 1,
@@ -66,7 +66,8 @@
     ],
     "pendingHypotheses": [
       "H5：具身智能2-3年内大规模冲击制造业/服务业岗位（☐ 待Stanford HAI 2026数据）"
-    ]
+    ],
+    "updateDate": "2026-07-08"
   },
   "reports": [
     {
@@ -2156,6 +2157,77 @@
         "关注AWS FDE与Microsoft Frontier Company的客户案例披露，获取组织细节和outcome指标"
       ],
       "note": "【2026-07-07 日报】26条信息，⭐高8/📰较高16/💬参考2，16个平台。焦点：McKinsey组织现状报告为年度最权威全景图；BCG揭示AI转型70%价值来自人的重构；36氪深氪披露国内AI裁员不再遵循绩效逻辑；晚点实录AI代码率90%对工程组织的冲击；五大咨询机构同步发声指向同一结论：AI=组织重构而非工具升级。"
+    },
+    {
+      "date": "2026-07-08",
+      "weekday": "周三",
+      "items": 20,
+      "platforms": 12,
+      "trust": {
+        "high": 10,
+        "mid": 9,
+        "ref": 1
+      },
+      "tags": [
+        "智能体型组织",
+        "决策代理",
+        "Agent国家标准",
+        "初级岗位消失",
+        "中层消失",
+        "极坐标系",
+        "Humagent",
+        "人才规则重构",
+        "AI原生组织",
+        "岗位重构",
+        "经验资产公有化",
+        "Token超工资",
+        "业务分拆",
+        "组织公平",
+        "AI人才抢购"
+      ],
+      "topPicks": [
+        {
+          "title": "麦肯锡《组织现状报告2026》：三股构造性力量重塑组织，迈向智能体型组织",
+          "platform": "McKinsey",
+          "url": "https://www.mckinsey.com.cn/2026%E9%BA%A6%E8%82%AF%E9%94%A1%E7%BB%84%E7%BB%87%E7%8E%B0%E7%8A%B6%E6%8A%A5%E5%91%8A%EF%BC%9A%E6%94%B9%E5%8F%98%E7%BB%84%E7%BB%87%E6%9C%AA%E6%9D%A5%E7%9A%84%E4%B8%89%E8%82%A1%E5%8A%9B%E9%87%8F/",
+          "reason": "15国16行业超1万名高管调研，今年最权威的AI组织转型框架，智能体型组织定义下一个范式"
+        },
+        {
+          "title": "BCG《决策代理进入董事会》：AI从执行层跃升至战略决策层",
+          "platform": "BCG",
+          "url": "https://www.bcg.com/publications/2026/how-ai-decision-agents-transform-strategy",
+          "reason": "提出决策代理概念，直指AI转型最被忽视的高价值领域，AI正在重构组织权力结构"
+        },
+        {
+          "title": "刘润「极坐标系」组织模型：中层消失后的组织重构方法论",
+          "platform": "微信公众号:刘润",
+          "url": "https://finance.sina.cn/2026-04-18/detail-inhuwssk2617781.d.html",
+          "reason": "提供比砍中层更本质的重构语言，三层角色+马具工程四要素是OD可直接落地的框架"
+        },
+        {
+          "title": "AIEC 2026：Agent成为企业新员工，组织从管理Human进化到管理Humagent",
+          "platform": "微信公众号:机器之心",
+          "url": "https://www.toutiao.com/article/7652222730472817186/",
+          "reason": "清华产研院大会揭示2026下半年是OD介入黄金窗口，Humagent概念要求重新设计编制逻辑"
+        },
+        {
+          "title": "李开复谈零一万物一号位工程：企业AI从提升执行效率转向提升决策质量",
+          "platform": "界面新闻",
+          "url": "https://www.jiemian.com/article/14717967.html",
+          "reason": "披露零一万物DRI机制、合伙人制度、FDE岗位实践，是所有企业AI转型的组织设计镜像"
+        }
+      ],
+      "trends": [
+        "咨询机构共识正在形成：McKinsey/BCG/Deloitte/HBR同步发声，AI转型=技术×组织×人才×治理四者缺一不可，85%企业未能将AI试点转化为规模化价值",
+        "中层管理岗位进入结构性压缩通道，Gartner预测经理层减少75%、总监层减少88%，组织坐标系从金字塔转向极坐标系成为新语言",
+        "经验资产公有化颠覆职业安全感，高P+高绩效不再是护身符；与之对应AI人才市场出现三层结构，35岁以上因行业经验+AI协同能力迎来价值重估"
+      ],
+      "nextFocus": [
+        "获取McKinsey《组织现状报告2026》全文，提取九大主题对应的具体OD行动项和方法论框架",
+        "追踪Agent国家标准后续落地细节：海淀试点案例披露、身份认证标准转为强制性国标时间表、对企业AI治理岗位需求的具体影响",
+        "深挖Humagent概念的企业落地案例，重点关注摩根大通Token费用超工资、浪潮信息Agent Memory五层架构的后续披露"
+      ],
+      "note": "【2026-07-08 日报】20条信息，⭐高10/📰较高9/💬参考1，12个平台。焦点：McKinsey发布年度最权威组织现状报告，智能体型组织成新范式；BCG提出决策代理进入董事会，AI重构权力结构；刘润极坐标系提供中层消失后的落地框架；AIEC 2026揭示Humagent新命题，2026下半年是OD介入黄金窗口；经验资产公有化颠覆人才规则，AI人才市场三层结构成型。"
     }
   ]
 }
