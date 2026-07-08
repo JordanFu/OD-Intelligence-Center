@@ -29,7 +29,6 @@
 - 已下载：orgvue ai research ebook 2026 final（引用 1 次）
 - 已下载：Payscale：2026 Compensation Best Practices Report（引用 6 次）
 - 待重试：it job family career ladder matrix software engineer（引用 1 次）
-
 ## [2026-07-07] ingest | 大厂 HR：AI 时代招聘标准与人才画像变化
 - 用户提供微信原文 `https://mp.weixin.qq.com/s/0Ba8fG4l6kD-mspkJ8hksw`，微信原文直取受限；通过腾讯新闻与 36氪转载交叉核验正文，确认标题为《大厂HR：AI时代，我们招什么人？》。
 - 新增知识页 `knowledge/wiki/bigtech-hr-ai-era-hiring-talent-2026.md`，归入“AI时代的人才 / 人才密度 / 招聘标准 / AI能力证据化”主题。

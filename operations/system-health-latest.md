@@ -1,6 +1,6 @@
 # 系统健康状态
 
-> 自动生成：2026-07-07T16:01:22.367Z
+> 自动生成：2026-07-08T04:42:29.048Z
 
 ## 一眼判断
 
@@ -14,14 +14,14 @@
 
 ## 情报流状态
 
-- 最新日期：2026-07-06
-- 今日卡片数：12
-- 今日新增事实：8
-- 旧线复核 / Context：3
+- 最新日期：2026-07-08
+- 今日卡片数：20
+- 今日新增事实：20
+- 旧线复核 / Context：0
 - 弱信号：0
-- 缺口记录：1
-- 渠道覆盖：官方、媒体、报告学术、社媒公众号
-- sourceUrl 缺失：0
+- 缺口记录：0
+- 渠道覆盖：媒体、官方、社媒公众号、报告学术、JD薪酬
+- sourceUrl 缺失：1
 
 ## 专题研究状态
 
@@ -53,7 +53,7 @@
 ## 链接检查
 
 - 一方断链数：0
-- 外部链接 warning：18
+- 外部链接 warning：20
 - 公开扫描桥接：ok:200、ok:200、ok:200
 
 ## 质量语义
@@ -65,10 +65,10 @@
 ## 当前问题
 
 - ✅ 无 P0 fail。
-- ⚠️ 最新日期同一子主题超过 40%：42%；需要关注广谱雷达覆盖。
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ 最新日期非缺口信息卡多于 15 条：当前 20 条；需要确认不是低价值堆叠。
+- ⚠️ 最新日期有 1 条 sourceUrl 缺失：2。
+- ⚠️ 最新日期仍有新结构字段缺失：信息类型 20 条；渠道类型 20 条；结论置信度 20 条；验证问题 20 条。
+- ⚠️ 最近 7 个信息日存在结构字段缺失：4 类日期/字段组合需逐步补齐。
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
