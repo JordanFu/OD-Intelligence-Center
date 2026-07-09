@@ -53,7 +53,7 @@ WEF/Accenture 把 AI 转型的重点放在 workflow、运营模式（operating m
 
 - `daily/2026-04-02.md:87`：来源：WEF（）
 - `daily-report/2026-04-02.md:44`：WEF《AI时代组织转型》
-- `daily-report/digest.json:1608`："url": "",
+- `daily-report/digest.json:1609`："url": "",
 
 ## 后续精读任务
 

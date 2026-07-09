@@ -53,7 +53,7 @@ BCG 把 AI-First 组织定义为从“工具辅助”走向“AI 默认执行、
 
 - `daily/2026-04-03.md:126`：来源：BCG Publications（）
 - `daily-report/2026-04-03.md:42`：BCG《AI-First组织》
-- `daily-report/digest.json:1523`："url": "",
+- `daily-report/digest.json:1524`："url": "",
 
 ## 后续精读任务
 
