@@ -1,53 +1,126 @@
 # 2026-07-10｜专题四：未来组织的晋升机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+> 研究状态：正式决策稿。今日采用内部知识源代理、外部渠道检索、专题代理和主代理交叉验证；内部来源包括 `digest.md`、`daily/2026-07-10.md`、`knowledge/`、`specials/`、promotion-system baseline/evidence-map 与 W28 周报。
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+## 0. 读者应该带走什么
 
-## 今日一句话结论
+今天没有新增公开公司级 promotion handbook 改写基线。固定晋升窗口、人才委员会校准和可审计 AI 贡献证据包仍是默认机制。需要升级的是晋升材料，而不是把 AI 使用量、技能徽章、代码生成率或单次项目战功直接兑换职级。
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+## 背景材料
 
-## 今日核心判断
+今日背景材料来自 `daily/2026-07-10.md`、`digest.md`、2026-07-09 专题四正式稿、promotion-system baseline/evidence-map、GitLab promotions/transfers、Zapier AI-first hiring/onboarding、EY Future of Pay、Payscale CBPR、可审计晋升证据概念卡，以及 BCG/Deloitte/HBR、字节 TRAE、Momenta、T3、Reid Hoffman JD 三要素等今日线索。
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+## 1. 今日一句话专题判断
 
-## 今日背景材料
+7 月 10 日的新证据没有改写“固定晋升窗口 + 人才委员会校准 + 可审计 AI 贡献证据包”的基线；新增材料强化的是岗位价值、工作流和组织效能正在变化，因此晋升材料要升级，但不支持把 AI 使用量、技能徽章或单次项目战功直接兑换职级。
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+## 2. 今日新增事实：只写可追溯事实
 
-## 今日新增证据地图
+1. **今日外部检索未发现新的公司级公开晋升制度文本。** 未发现把 AI contribution、技能徽章、AI coding 产出量直接写成晋升兑换规则的官方 handbook。来源：AnySearch 检索与专题代理核验，L2。
+2. **GitLab promotions/transfers 仍是机制硬样本。** 固定校准、promotion document、business justification、跨职能反馈、Total Rewards/FP&A 预算联动仍支持固定窗口。来源：内部知识卡与 GitLab Handbook，L3。
+3. **Zapier AI fluency 仍更适合作为门槛/准备度信号。** AI fluency 进入招聘、入职和绩效预期，但不是直接晋升货币。来源：内部知识卡与 Zapier 官方材料，L2-L3。
+4. **字节 TRAE 与 Bun 线索补充 AI 贡献证据包字段。** 高 AI 代码生成率和大规模迁移必须被可维护性、质量门禁、复用 Harness、风险控制和知识传承校准。来源：`daily/2026-07-10.md`，L1-L2/L2。
+5. **Reid Hoffman JD 三要素可转化为晋升证据包字段。** 做哪些判断、掌握哪些 AI 工作流、对哪些业务结果负责，适合写入晋升模板。来源：公开访谈整理，L1-L2。
+6. **FDE/AgentOps/AI governance 岗位责任包继续增厚。** Turing、Okta、Databricks JD 显示生产部署、agent identity、audit、kill-switch、roadmap feedback 等责任，但未披露晋升规则。来源：官方招聘页，L2。
 
-| 渠道 | 当前状态 | 必须补齐 |
+## 3. 今日核心判断
+
+1. **固定晋升窗口仍是默认机制。可信度：高。** AI 贡献越快、越难归因，越需要统一窗口做同级比较、预算约束、薪酬带宽、人才委员会和公平审计。为什么重要：防止 AI 热点项目变成即时晋升通道。
+2. **即时晋升只适合岗位价值稳定突变。可信度：高。** OpenAI/Replit/FDE 一类责任包可作为触发观察样本，但必须证明持续责任扩大、客户/内部采用、复用资产和治理责任。为什么重要：项目救火不等于下一职级。
+3. **项目制晋升应拆成证据包、项目奖金、即时认可和 acting scope。可信度：中高。** 职级晋升只在下一层级责任稳定化后进入校准。为什么重要：让激励及时，但不破坏职级公平。
+4. **能力认证和技能徽章是准入/准备度信号，不是职级货币。可信度：高。** Zapier、LinkedIn/Skillsoft 等信号适合筛选、学习路径和项目机会，不足以单独证明业务影响。为什么重要：避免 badge fatigue 和证书通胀。
+5. **AI 贡献评估必须可审计。可信度：高。** 晋升材料要写业务问题、AI workflow、质量门禁、风险控制、复用范围、他人采用、量化影响、同行反馈和责任归属。为什么重要：区分个人能力、模型能力、平台能力、团队资源和偶发机会。
+
+## 4. 重点案例事实还原
+
+### 案例 A：GitLab 固定校准机制
+
+- **背景：** 远程、跨职能和快速变化环境中，晋升需要证明业务理由、职责扩大和预算/薪酬协调。
+- **动作：** 使用 promotion document、manager/People/Total Rewards/Finance coordination、跨职能反馈和固定流程。
+- **机制：** 晋升不是单点奖励，而是业务 justification、岗位责任、薪酬带宽和组织公平的校准。
+- **结果：** 为 AI 时代保留固定窗口提供机制基线。
+- **可借鉴点：** AI 贡献进入 promotion document，但仍要经过同级比较和预算校准。
+- **不可照搬点：** 不能把 GitLab 流程照搬为低频、低透明组织的一次性审批。
+
+### 案例 B：Zapier AI fluency
+
+- **背景：** AI-first 公司把 AI fluency 放进招聘、入职和绩效预期。
+- **动作：** 通过 AI fluency rubric 和工作方式要求建立能力门槛。
+- **机制：** AI fluency 是准入、学习和岗位准备度信号，而不是直接的晋升级别。
+- **结果：** 支持“AI 能力作为 gate/evidence supplement”，不支持“会用 AI 就晋升”。
+- **可借鉴点：** 把 AI fluency 写入岗位准入、项目机会和晋升准备度。
+- **不可照搬点：** 不要把工具使用次数或 badge 数直接转成职级。
+
+### 案例 C：字节 TRAE / Bun 作为 AI 贡献证据边界
+
+- **背景：** AI coding 极大提高产出，但质量、维护、架构和知识传承风险同步上升。
+- **动作：** 字节 TRAE 线索显示代码生成占比高但吞吐提升有限；Bun 重写暴露 unsafe、回归和无人完整理解的问题。
+- **机制：** AI 贡献必须通过质量门禁、复用 Harness、架构约束、风险控制、他人采用和可维护性证明。
+- **结果：** 强化晋升证据包字段，而不是改写晋升周期。
+- **可借鉴点：** 晋升模板新增“AI 产出如何被验证、复用、交接、治理”。
+- **不可照搬点：** 不以 AI 生成量、token、提交数或工具登录次数为主指标。
+
+## 5. Context 层
+
+- 暂不形成结论，但提示我们关注：技能徽章市场增长不等于晋升制度改变，可能加剧信号噪音。
+- 暂不形成结论，但提示我们关注：AI 数字员工替代客服/流程任务，不等于中层或专家晋升规则同步变化。
+- 暂不形成结论，但提示我们关注：FDE 热可作为岗位价值变化观察，但也可能说明产品仍难以自助部署。
+- 暂不形成结论，但提示我们关注：国内今日未出现足够硬的公开公司级晋升 handbook 更新。
+- 暂不形成结论，但提示我们关注：AI 项目机会分配本身可能形成晋升不公平，需要人才委员会审计。
+
+## 6. 证据地图
+
+| 渠道 | 今日证据 | 证据等级 | 用途 |
+|---|---|---:|---|
+| 官方/一手 | GitLab Handbook；Zapier Blog；Turing/Okta/Databricks JD | L2-L3 | 固定窗口、AI fluency、岗位价值变化 |
+| 权威媒体/咨询 | BCG、Deloitte、HBR、EY、Payscale | L2-L3 | 工作流变化、薪酬治理、公平校准 |
+| 公司案例 | 字节 TRAE、Bun、Momenta、T3、FDE 岗位 | L1-L2 | AI 贡献证据包字段 |
+| 学术/研究 | Nubank Agent 论文；可审计晋升证据概念 | L2-L3 | 评估与审计思路 |
+| 招聘薪酬 | FDE/AI governance 薪酬和职责 | L2 | 岗位价值变化观察 |
+| 社媒/职场线索 | 技能徽章、个人 promotion packet 写作、访谈整理 | L1 | 只作线索 |
+| 内部信息库/知识库 | 2026-07-09 专题四、baseline/evidence-map、W28 周报 | L3 内部基线 | 校准历史判断 |
+
+## 7. 对我们行动的启发
+
+管理层该问的不是“谁用了最多 AI”，而是“谁把 AI 贡献转化为稳定责任、业务结果、复用资产和可审计证据”。
+
+1. 本月即可要求所有 AI 项目提交“AI 贡献证据包”，先用于项目复盘、奖金和 acting scope，不直接触发晋升。
+2. 晋升模板新增字段：业务问题、AI workflow、质量/风险门禁、复用资产、采用范围、同行反馈、量化影响、人工校验。
+3. 人才委员会增加“AI 贡献归因”环节，区分个人能力、模型能力、平台能力、团队资源和偶发机会。
+4. 薪酬侧开独立通道处理 AI 稀缺能力，用 pay band、稀缺系数、技能津贴、项目奖金、股权刷新承接市场溢价。
+5. 对 FDE/AgentOps/AI governance 岗位先做责任包试点和薪酬观察，不急于新建职级序列。
+
+## 8. 机制设计：固定窗口、即时晋升与证据包
+
+| 机制 | 今日建议 | 适用边界 |
 |---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+| 固定晋升窗口 | 保留默认 | 公平、预算、薪酬校准、同级比较 |
+| 即时晋升 | 例外 | 岗位价值稳定突变、持续责任扩大、上级审批和预算闸门 |
+| 项目制晋升 | 不直接晋升 | 先用项目奖金、即时认可、acting scope、项目证据包 |
+| 岗位价值变化触发 | 可观察 | FDE、AI governance、AgentOps 等责任包稳定扩大 |
+| 能力认证/技能徽章 | 准入/准备度 | 岗位准入、项目机会、学习路径、晋升材料补充 |
+| AI 贡献评估 | 写入 promotion packet | 禁用 token、登录次数、工具使用量作主指标 |
+| 同行评审 | 增强 | 跨团队复用价值和真实贡献归因 |
+| 人才委员会 | 增强 | AI 贡献校准、偏差审计、跨团队公平 |
+| 薪酬校准 | 部分解耦 | 市场溢价用薪酬工具承接，不全靠 title |
+| 绩效与晋升 | 证据耦合、出口解耦 | 绩效是输入，晋升看稳定责任扩大和岗位价值 |
 
-## 线索层
+## 9. 待验证清单与下一步搜索路径
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+1. AI contribution promotion packet company handbook。
+2. Out-of-cycle promotion AI deployment FDE performance criteria。
+3. AI fluency performance review promotion Accenture Amazon。
+4. Skills badge compensation promotion AI workforce。
+5. Agent governance promotion rubric performance review。
+6. 国内路径：AI能力认证 晋升 绩效 薪酬；AI工具使用 纳入绩效 晋升；大厂 AI 领导力原则 半年绩效 晋升。
 
-## 待补齐的落地问题
+## 10. 来源索引
 
-正式重跑必须回答：AI 贡献如何进入晋升证据包、谁负责验证与质量、是否有校准机制、是否存在调岗降薪和劳动合规风险。
-
-## 来源索引
-
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+- GitLab Handbook, Promotions and Transfers, https://handbook.gitlab.com/handbook/people-group/promotions-transfers/
+- Zapier, AI-first hiring/onboarding, https://zapier.com/blog/ai-first-hiring/
+- Deloitte, The work chart vs. org chart, https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/articles/role-fusion-organizational-delayering.html
+- BCG, Design Your Company for AI, Not AI for Your Company, https://www.bcg.com/publications/2026/design-your-company-for-ai-not-ai-for-your-company
+- Turing, Fullstack Forward Deployed Engineer, https://job-boards.greenhouse.io/turing/jobs/6007383004
+- Okta, Principal Forward Deployed Engineer - Okta for AI Agents, https://job-boards.greenhouse.io/okta/jobs/7961339
+- Databricks, AI Engineer - FDE U.S. Federal Sector, https://job-boards.greenhouse.io/databricks/jobs/8546365002
+- OD Intelligence Center 内部来源：`daily/2026-07-10.md`、`digest.md`、`knowledge/wiki/gitlab-promotions-transfers-handbook.md`、`knowledge/wiki/zapier-ai-first-hiring-onboarding-2025.md`、`knowledge/concepts/auditable-promotion-evidence.md`、`specials/ai-org-talent-mechanism/2026-07-09/04-promotion-system.md`、`specials/ai-org-talent-mechanism/baseline/04-promotion-system.md`
