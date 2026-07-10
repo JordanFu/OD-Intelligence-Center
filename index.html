@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-edition="internal">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -72,6 +72,29 @@
       color: var(--text2);
     }
     .header-stats strong { color: var(--accent); font-weight: 600; }
+    .header-actions {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .edition-share-button {
+      min-height: 34px;
+      padding: 7px 11px;
+      border: 1px solid rgba(108, 140, 255, 0.45);
+      border-radius: 9px;
+      background: rgba(108, 140, 255, 0.12);
+      color: var(--text);
+      font: inherit;
+      font-size: 12px;
+      font-weight: 760;
+      cursor: pointer;
+    }
+    .edition-share-button:hover {
+      background: rgba(108, 140, 255, 0.2);
+      border-color: var(--accent);
+    }
 
     /* Tabs */
     .tab-bar {
@@ -2603,20 +2626,23 @@
           <h1>🧠 OD 情报中心</h1>
           <p>信息沉淀 · 专题追踪 · 知识库 · 每日自动更新</p>
         </div>
-        <div class="header-stats" id="headerStats"></div>
+        <div class="header-actions">
+          <div class="header-stats" id="headerStats"></div>
+          <button class="edition-share-button" type="button" onclick="copyHrShareLink()">复制 HR 分享版链接</button>
+        </div>
       </div>
       <div class="tab-bar">
-        <button class="tab-btn active" onclick="switchTab('info')">
+        <button class="tab-btn active" data-tab="info" onclick="switchTab('info')">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
           <span class="tab-label-full">信息库</span><span class="tab-label-short">信息</span>
           <span class="badge" id="infoBadge">0</span>
         </button>
-        <button class="tab-btn levels-tab" onclick="switchTab('levels')">
+        <button class="tab-btn levels-tab" data-tab="levels" onclick="switchTab('levels')">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19V5h16v14H4z"/><path d="M8 9h8M8 13h5M8 17h8"/></svg>
           <span class="tab-label-full">专题项目</span><span class="tab-label-short">专题</span>
           <span class="badge" id="levelsBadge">4</span>
         </button>
-        <button class="tab-btn kb-tab" onclick="switchTab('kb')">
+        <button class="tab-btn kb-tab" data-tab="kb" onclick="switchTab('kb')">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
           <span class="tab-label-full">知识库</span><span class="tab-label-short">知识</span>
           <span class="badge" id="kbBadge">0</span>
@@ -2688,6 +2714,7 @@
 
   <div class="toast" id="toast"></div>
 
+  <script src="./assets/odic-app.js"></script>
   <script>
     // ============================================================
     // State
@@ -2710,6 +2737,7 @@
     let statusManifests = { info: null, topics: null, knowledge: null, automation: null };
     let statusManifestLoadFailed = false;
     let statusManifestErrors = [];
+    const ODIC_EDITION = window.ODICApp?.edition || 'internal';
 
     const PLATFORM_CATEGORIES = {
       '国内媒体': ['36氪', '机器之心', '钛媒体', '虎嗅', '界面新闻', '第一财经', '晚点LatePost', '新智元', '量子位', '新浪财经', '搜狐', '每日经济新闻'],
@@ -2793,6 +2821,9 @@
       if (event) event.stopPropagation();
       copyText(getKBShareUrl(reportId), '分享链接已复制');
     }
+    function copyHrShareLink() {
+      copyText(window.ODICApp.getHrShareUrl(), 'HR 分享版链接已复制');
+    }
 
     function statusClass(status) {
       if (status === 'pass' || status === 'formal') return 'pass';
@@ -2859,12 +2890,17 @@
       statusManifests = { info: null, topics: null, knowledge: null, automation: null };
       statusManifestLoadFailed = false;
       statusManifestErrors = [];
-      await Promise.all([
+      const manifestRequests = [
         fetchManifest('./data/info-feed-status.json', 'info'),
-        fetchManifest('./data/topic-projects-status.json', 'topics'),
-        fetchManifest('./data/knowledge-status.json', 'knowledge'),
-        fetchManifest('./data/automation-status.json', 'automation')
-      ]);
+        fetchManifest('./data/knowledge-status.json', 'knowledge')
+      ];
+      if (ODIC_EDITION !== 'hr') {
+        manifestRequests.push(
+          fetchManifest('./data/topic-projects-status.json', 'topics'),
+          fetchManifest('./data/automation-status.json', 'automation')
+        );
+      }
+      await Promise.all(manifestRequests);
     }
     function renderStatusDashboard() {
       const container = document.getElementById('statusDashboard');
@@ -2873,6 +2909,15 @@
       const topics = statusManifests.topics;
       const knowledge = statusManifests.knowledge;
       const automation = statusManifests.automation;
+      if (ODIC_EDITION === 'hr') {
+        container.innerHTML = window.ODICApp.renderReaderStatus({
+          info,
+          knowledge,
+          days: allDays,
+          manifestLoadFailed: statusManifestLoadFailed
+        });
+        return;
+      }
       const fallbackWarning = statusManifestLoadFailed
         ? `<div class="manifest-fallback-warning">状态源加载失败，以下为历史静态索引，不代表今日正式状态。${esc(statusManifestErrors.join('；'))}</div>`
         : '';
@@ -2940,15 +2985,13 @@
     // Tab Switching
     // ============================================================
     function switchTab(tab) {
+      tab = window.ODICApp.allowedTab(tab);
       currentTab = tab;
-      document.querySelectorAll('.tab-btn').forEach((btn, i) => {
-        btn.classList.toggle('active',
-          (i === 0 && tab === 'info') ||
-          (i === 1 && tab === 'levels') ||
-          (i === 2 && tab === 'kb'));
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.tab === tab);
       });
       document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
-      document.getElementById(`page-${tab}`).classList.add('active');
+      document.getElementById(`page-${tab}`)?.classList.add('active');
       if (tab === 'levels') renderLevelsPage();
       if (tab === 'kb') renderKBPage();
     }
@@ -3074,7 +3117,7 @@
       updateBadges();
       renderStatusDashboard();
       renderInfoPage();
-      renderLevelsPage();
+      if (ODIC_EDITION !== 'hr') renderLevelsPage();
 
       const params = new URLSearchParams(window.location.search);
       const sharedKBId = params.get('kb');
@@ -3086,19 +3129,25 @@
 
     function updateBadges() {
       const totalItems = allDays.reduce((s, d) => s + d.items.length, 0);
-      document.getElementById('infoBadge').textContent = totalItems;
-      document.getElementById('levelsBadge').textContent = 4;
-      document.getElementById('kbBadge').textContent = kbReports.length;
+      const infoBadge = document.getElementById('infoBadge');
+      const levelsBadge = document.getElementById('levelsBadge');
+      const kbBadge = document.getElementById('kbBadge');
+      if (infoBadge) infoBadge.textContent = totalItems;
+      if (levelsBadge) levelsBadge.textContent = 4;
+      if (kbBadge) kbBadge.textContent = kbReports.length;
 
       const totalDays = allDays.length;
       const totalSources = new Set();
       allDays.forEach(d => d.items.forEach(item => {
         totalSources.add(item.platform || item.source || '');
       }));
-      document.getElementById('headerStats').innerHTML =
-        `<span>📅 <strong>${totalDays}</strong> 天</span>` +
-        `<span>📄 <strong>${totalItems}</strong> 条</span>` +
-        `<span>📡 <strong>${totalSources.size}</strong> 源</span>`;
+      const headerStats = document.getElementById('headerStats');
+      if (headerStats) {
+        headerStats.innerHTML =
+          `<span>📅 <strong>${totalDays}</strong> 天</span>` +
+          `<span>📄 <strong>${totalItems}</strong> 条</span>` +
+          `<span>📡 <strong>${totalSources.size}</strong> 源</span>`;
+      }
     }
 
     // ============================================================
