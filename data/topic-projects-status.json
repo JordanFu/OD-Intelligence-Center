@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-10T05:30:43.648Z",
+  "generatedAt": "2026-07-10T01:51:08.632Z",
   "module": "topic-projects",
   "project": {
     "id": "ai-org-talent-mechanism",
     "title": "AI时代组织与人才机制四课题研究",
     "root": "specials/ai-org-talent-mechanism"
   },
-  "qualityStatus": "fail",
+  "qualityStatus": "warn",
   "latestFormalDate": "2026-07-09",
   "latestAnyDate": "2026-07-10",
   "today": "2026-07-10",
@@ -2966,47 +2966,27 @@
       ]
     }
   ],
-  "brokenLinks": [
-    {
-      "type": "public-scan",
-      "sourceFile": "data/info-feed-status.json",
-      "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-10.html",
-      "reason": "public scan bridge returned 404",
-      "status": 404
-    },
-    {
-      "type": "public-scan",
-      "sourceFile": "data/info-feed-status.json",
-      "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-10.html）",
-      "reason": "public scan bridge returned 404",
-      "status": 404
-    }
-  ],
+  "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-07-10T05:30:45.461Z",
-    "qualityStatus": "fail",
+    "checkedAt": "2026-07-10T08:06:17.051Z",
+    "qualityStatus": "warn",
     "firstPartyChecked": 1750,
-    "externalWarnings": 14,
-    "brokenCount": 2,
+    "externalWarnings": 17,
+    "brokenCount": 0,
     "publicScanBridge": [
       {
         "ok": false,
-        "hardBroken": true,
-        "status": 404,
+        "hardBroken": false,
+        "status": null,
         "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-10.html",
-        "reason": "public scan bridge returned 404"
-      },
-      {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/"
+        "reason": "network check warning: fetch failed"
       },
       {
         "ok": false,
-        "hardBroken": true,
-        "status": 404,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-10.html）",
-        "reason": "public scan bridge returned 404"
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/",
+        "reason": "network check warning: fetch failed"
       }
     ]
   },
@@ -3024,6 +3004,26 @@
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1"
+    "external link not hard-checked in Phase 1",
+    "network check warning: fetch failed",
+    "network check warning: fetch failed",
+    "network check warning: fetch failed",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "network check warning: fetch failed",
+    "network check warning: fetch failed"
   ]
 }
