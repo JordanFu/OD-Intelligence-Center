@@ -2,7 +2,7 @@
   const loading = document.getElementById('hrLoading');
 
   try {
-    const response = await fetch('../index.html', { cache: 'no-store' });
+    const response = await fetch('index.html', { cache: 'no-store' });
     if (!response.ok) throw new Error(`页面模板读取失败：${response.status}`);
 
     const source = await response.text();
