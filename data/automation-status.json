@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:38:24.041Z",
+  "generatedAt": "2026-07-10T15:55:01.787Z",
   "module": "automation",
   "qualityStatus": "warn",
   "chains": {
@@ -41,7 +41,7 @@
     "linkCheck": {
       "qualityStatus": "warn",
       "brokenCount": 0,
-      "checkedAt": "2026-07-10T12:38:23.995Z"
+      "checkedAt": "2026-07-10T15:55:01.742Z"
     },
     "githubActionsFallback": {
       "status": "pass",
