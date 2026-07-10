@@ -1,6 +1,6 @@
 # 系统健康状态
 
-> 自动生成：2026-07-10T10:12:54.143Z
+> 自动生成：2026-07-10T12:38:24.082Z
 
 ## 一眼判断
 
@@ -14,14 +14,14 @@
 
 ## 情报流状态
 
-- 最新日期：2026-07-10
-- 今日卡片数：8
-- 今日新增事实：3
-- 旧线复核 / Context：1
-- 弱信号：3
-- 缺口记录：1
-- 渠道覆盖：官方、媒体、JD薪酬、报告学术、社媒公众号
-- sourceUrl 缺失：0
+- 最新日期：2026-07-08
+- 今日卡片数：20
+- 今日新增事实：20
+- 旧线复核 / Context：0
+- 弱信号：0
+- 缺口记录：0
+- 渠道覆盖：媒体、官方、社媒公众号、报告学术、JD薪酬
+- sourceUrl 缺失：1
 
 ## 专题研究状态
 
@@ -33,9 +33,9 @@
 
 ## 知识库状态
 
-- Catalog 日期：2026-07-09
+- Catalog 日期：2026-07-10
 - 知识源：4
-- 报告 / 知识页：79
+- 报告 / 知识页：82
 - 待重试 PDF：1
 - 本地或私有路径泄露：0
 - 缺失 summaryFile：0
@@ -53,8 +53,8 @@
 ## 链接检查
 
 - 一方断链数：0
-- 外部链接 warning：17
-- 公开扫描桥接：warn:n/a、warn:n/a
+- 外部链接 warning：30
+- 公开扫描桥接：ok:200、ok:200、ok:200
 
 ## 质量语义
 
@@ -65,10 +65,10 @@
 ## 当前问题
 
 - ✅ 无 P0 fail。
-- ⚠️ 最新日期非缺口信息卡少于 8 条：当前 7 条；已有缺口记录，不能用缺口记录凑数量。
-- ⚠️ 最新日期“新增事实”少于 5 条：当前 3 条；已有缺口记录，首页应诚实显示可信新增不足。
-- ⚠️ 最新日期仍有新结构字段缺失：验证问题 8 条。
-- ⚠️ 最近 7 个信息日存在结构字段缺失：6 类日期/字段组合需逐步补齐。
+- ⚠️ 最新日期非缺口信息卡多于 15 条：当前 20 条；需要确认不是低价值堆叠。
+- ⚠️ 最新日期有 1 条 sourceUrl 缺失：2。
+- ⚠️ 最新日期仍有新结构字段缺失：信息类型 20 条；渠道类型 20 条；结论置信度 20 条；验证问题 20 条。
+- ⚠️ 最近 7 个信息日存在结构字段缺失：4 类日期/字段组合需逐步补齐。
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
@@ -83,5 +83,5 @@
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
-- ⚠️ network check warning: fetch failed
-- ⚠️ network check warning: fetch failed
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
