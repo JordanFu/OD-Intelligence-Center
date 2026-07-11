@@ -2228,6 +2228,77 @@
         "深挖Humagent概念的企业落地案例，重点关注摩根大通Token费用超工资、浪潮信息Agent Memory五层架构的后续披露"
       ],
       "note": "【2026-07-08 日报】20条信息，⭐高10/📰较高9/💬参考1，12个平台。焦点：McKinsey发布年度最权威组织现状报告，智能体型组织成新范式；BCG提出决策代理进入董事会，AI重构权力结构；刘润极坐标系提供中层消失后的落地框架；AIEC 2026揭示Humagent新命题，2026下半年是OD介入黄金窗口；经验资产公有化颠覆人才规则，AI人才市场三层结构成型。"
+    },
+    {
+      "date": "2026-07-10",
+      "weekday": "周五",
+      "items": 15,
+      "platforms": 8,
+      "trust": {
+        "high": 6,
+        "mid": 8,
+        "ref": 1
+      },
+      "tags": [
+        "AI-first组织",
+        "运营模式再造",
+        "AI治理",
+        "分布式领导",
+        "角色重构",
+        "岗位说明书重设计",
+        "中层管理者转型",
+        "AI领导力",
+        "人机协作",
+        "AI数字员工",
+        "AI Agent重构",
+        "极致人效",
+        "人才结构杠铃效应",
+        "组织效能",
+        "协调税"
+      ],
+      "topPicks": [
+        {
+          "title": "揭秘Momenta：马斯克式CEO、AI执念和量产机器丨深氪",
+          "platform": "36氪",
+          "url": "https://36kr.com/p/3888180493318921",
+          "reason": "1000人交付100万辆车、毛利率17.5%→71.6%，\"用工具而非人规模化\"是AI时代组织设计最硬核的标杆案例"
+        },
+        {
+          "title": "90%代码交给AI后，字节发现了一个反常识的真相",
+          "platform": "极客公园（公众号）",
+          "url": "https://www.geekpark.net/news/367002",
+          "reason": "\"个体效率≠组织效能\"，AI落地瓶颈在跨角色协作与指标失真，开发者从code writer转向reviewer/architect"
+        },
+        {
+          "title": "HBR《你的AI战略需要的不仅是一位单一领导者》",
+          "platform": "HBR",
+          "url": "https://hbr.org/2025/08/your-ai-strategy-needs-more-than-a-single-leader",
+          "reason": "戳破CAIO单一领导陷阱，OD新战场是\"AI战略委员会+业务AI负责人+HR/风险/IT\"分布式责任制"
+        },
+        {
+          "title": "BCG《AI-First Companies Win the Future》",
+          "platform": "BCG",
+          "url": "https://media-publications.bcg.com/BCG-Executive-Perspectives-AI-First-Companies-Win-the-Future-Issue1-10June2025.pdf",
+          "reason": "定义AI原生企业五大特征，运营模式从\"人中心+数字工具辅助\"转向\"AI agent为核心、人类关缺口\""
+        },
+        {
+          "title": "Harvard Business《智能机器时代的角色重构》（4B框架）",
+          "platform": "Harvard Business",
+          "url": "https://www.harvardbusiness.org/insight/the-fluid-future-of-work-rethinking-roles-in-the-age-of-intelligent-machines/",
+          "reason": "4B框架+非线性角色演化，静态岗位描述过时，OD需建立动态角色画像与\"意义建构者\"式领导力"
+        }
+      ],
+      "trends": [
+        "AI-first运营模型成为咨询共识，OD战场转向\"运营模型再造\"——BCG（AI原生五特征、以AI agent为核心）、HBR（分布式领导）同日定调：AI不是工具插件，而是重建运营模式、决策机制与人才结构",
+        "\"中层管理者AI领导力\"是AI落地最大杠杆点——BCG《AI at Work 2025》显示仅25%一线员工获领导充分支持、管理层85%已是重度用户，鸿沟自上而下；36氪、哈佛均指向管理者从\"执行协调者\"转向\"人机系统架构师\"",
+        "岗位设计进入\"非线性+个体效能≠组织效能\"双重认知升级——哈佛4B框架、Reid Hoffman岗位说明书三要素、李飞飞杠铃效应、字节效率悖论共同揭示静态JD、橄榄型人才结构、盯个人AI使用率都已过时"
+      ],
+      "nextFocus": [
+        "标杆企业AI原生组织案例深挖：Momenta（1000人/100万辆车）、T3出行（37个AI数字员工替代85%客服）已现可量化标杆，持续追踪\"AI数字员工/AI同事\"落地数据",
+        "管理者AI领导力标准与培训体系：BCG提出\"至少5小时场景化培训\"、36氪\"增强-自动化\"框架，搜集企业级AI领导力课程/认证与一线赋能案例",
+        "AI治理与分布式领导机制：HBR CAIO陷阱+字节AI制药\"拆分公司+保留算力\"风险隔离模式，关注国内企业是否涌现\"AI战略委员会\"类组织与跨界人才\"信用锚\"实践"
+      ],
+      "note": "【2026-07-10 日报】15条信息，⭐高6/📰较高8/💬参考1，8个平台。焦点：BCG定义AI原生企业五大特征、HBR戳破CAIO单一领导陷阱，咨询+学术同日定调AI-first运营模型；Momenta极致人效、字节90%代码仅换60%效能，揭示\"个体效率≠组织效能\"；李飞飞杠铃效应、Reid Hoffman岗位说明书三要素推动岗位设计进入非线性时代；\"协调税\"概念为组织扁平化提供诊断框架。"
     }
   ]
 }
