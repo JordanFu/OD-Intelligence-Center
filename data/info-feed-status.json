@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T15:54:59.127Z",
+  "generatedAt": "2026-07-11T04:38:09.926Z",
   "module": "info-feed",
   "qualityStatus": "warn",
   "latestDate": "2026-07-08",
@@ -513,7 +513,7 @@
     "days": 77,
     "cards": 722,
     "platforms": 355,
-    "dailyFiles": 79,
+    "dailyFiles": 80,
     "dailyReportFiles": 83,
     "weeklyFiles": 1
   },
@@ -590,9 +590,9 @@
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-07-10T15:55:01.742Z",
+    "checkedAt": "2026-07-11T04:38:12.870Z",
     "qualityStatus": "warn",
-    "firstPartyChecked": 1752,
+    "firstPartyChecked": 1778,
     "externalWarnings": 30,
     "brokenCount": 0,
     "publicScanBridge": [
