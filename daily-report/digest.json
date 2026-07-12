@@ -2299,6 +2299,77 @@
         "AI治理与分布式领导机制：HBR CAIO陷阱+字节AI制药\"拆分公司+保留算力\"风险隔离模式，关注国内企业是否涌现\"AI战略委员会\"类组织与跨界人才\"信用锚\"实践"
       ],
       "note": "【2026-07-10 日报】15条信息，⭐高6/📰较高8/💬参考1，8个平台。焦点：BCG定义AI原生企业五大特征、HBR戳破CAIO单一领导陷阱，咨询+学术同日定调AI-first运营模型；Momenta极致人效、字节90%代码仅换60%效能，揭示\"个体效率≠组织效能\"；李飞飞杠铃效应、Reid Hoffman岗位说明书三要素推动岗位设计进入非线性时代；\"协调税\"概念为组织扁平化提供诊断框架。"
+    },
+    {
+      "date": "2026-07-11",
+      "weekday": "周六",
+      "items": 22,
+      "platforms": 14,
+      "trust": {
+        "high": 5,
+        "mid": 15,
+        "ref": 2
+      },
+      "tags": [
+        "智能体型组织",
+        "组织范式",
+        "岗位重塑",
+        "人机协同",
+        "中层替代",
+        "组织扁平化",
+        "决策机制(OVIS)",
+        "对齐税",
+        "10-20-70",
+        "AI原生团队",
+        "Agent编排",
+        "管理幅度25人",
+        "2028危机",
+        "AI战略自有化",
+        "AI考核异化"
+      ],
+      "topPicks": [
+        {
+          "title": "麦肯锡发布「智能体型组织」报告：AI时代组织范式的五大支柱",
+          "platform": "McKinsey",
+          "url": "https://www.mckinsey.com.cn/ai%E6%99%BA%E8%83%BD%E4%BD%93%E7%BB%84%E7%BB%87:-5%E4%B8%AA%E4%BA%BA%E7%AE%A1%E7%90%86100%E4%B8%AA%E6%99%BA%E8%83%BD%E4%BD%93%E5%91%98%E5%B7%A5/",
+          "reason": "目前最系统的AI时代组织范式框架，五大支柱为组织诊断提供全新维度，「89%组织停留在工业范式」是变革紧迫性最强说服工具"
+        },
+        {
+          "title": "BCG提出AI价值「10-20-70」模型：70%的价值来自人的重新思考",
+          "platform": "BCG",
+          "url": "https://www.bcg.com/publications/2026/ai-transformation-is-a-workforce-transformation",
+          "reason": "用数据证明AI价值杠杆在「人」而非「技术」，是OD工作最有力的说服框架，并给出领导者以身作则/技能嵌入/前瞻劳动力规划三大抓手"
+        },
+        {
+          "title": "HBR：共识决策正在杀死你的公司——OVIS决策框架",
+          "platform": "Harvard Business Review",
+          "url": "https://new.qq.com/rain/a/20260410A014GJ00",
+          "reason": "提供AI时代决策机制实操工具，从「建议权→行动权」的授权转变可即时落地自主敏捷团队试点"
+        },
+        {
+          "title": "Deloitte Tech Trends 2026：「The Great Rebuild」——AI原生技术组织正在重建",
+          "platform": "Deloitte",
+          "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends.html",
+          "reason": "「40% Agent项目将失败，因自动化坏流程而非重新设计运营」直指OD核心干预点——部署前必须主导端到端流程重构"
+        },
+        {
+          "title": "极客公园对话Moka CEO：AI原生组织的三个角色、BP Eva与中层消失的底层逻辑",
+          "platform": "极客公园",
+          "url": "https://www.geekpark.net/news/364598",
+          "reason": "「组织两大原罪=人多+层级多」极简框架；BP Eva用线上行为数据替代半年一次人才盘点，前提是组织数字化渗透率"
+        }
+      ],
+      "trends": [
+        "AI组织范式「四大权威同日定调」：McKinsey五大支柱+BCG 10-20-70+HBR OVIS+Deloitte Great Rebuild，共同指向「人机协同+结果授权+流程重设计」新范式，组织设计从职能切分转向工作图+行为模式重组",
+        "中层替代进入「可量化」阶段：Gartner(20%企业/50%中层)、神译局(Q1裁员81,700人+管理幅度25人)、猎聘(Agent岗+40%/Java-34%)三组数据密集落地；「2028危机」(裁中层同时摧毁高管培养机制)成最新预警",
+        "AI角色模型三层互补成型：咨询(M型/T型/AI增强)、腾讯云(编排师/兜底人/人机组长)、Claude Code(5种行为角色)、Moka(三角色)多源指向同一结论——岗位标签消失，设计转向行为模式+产品阶段匹配"
+      ],
+      "nextFocus": [
+        "HBR OVIS与McKinsey「工作图」企业落地试点：追踪大型组织如何把建议权→行动权、组织图→工作图落到真实团队",
+        "「2028危机」中外对照与IC领导力培养路径：验证结构化IC→Staff IC→Principal IC路径在国内可行性",
+        "大厂AI考核指标(token挂钩晋升)的演化与反弹：跟踪阿里/字节/腾讯AI绩效硬指标是否回调，预警工具异化→形式主义→人才流失循环"
+      ],
+      "note": "今日焦点——咨询四大(McKinsey/BCG/HBR/Deloitte)同日定调AI组织新范式；中层替代量化证据密集(神译局81700裁员/管理幅度25人/猎聘+40%vs-34%)；多源AI角色模型互补指向岗位标签消失。36氪聚焦大厂研发合并潮与AI考核异化。"
     }
   ]
 }
