@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-13T04:55:45.849Z",
+  "generatedAt": "2026-07-13T08:15:41.233Z",
   "module": "knowledge-base",
-  "qualityStatus": "fail",
+  "qualityStatus": "pass",
   "latestCatalogDate": "2026-07-13",
   "counts": {
-    "reports": 84,
+    "reports": 85,
     "knowledgeSources": 4,
     "sourceTypes": {
-      "media": 20,
+      "media": 21,
       "internal": 17,
       "concept": 10,
       "public-safe-synthesis": 11,
@@ -26,63 +26,14 @@
       "summaryFile": "./knowledge/wiki/local-knowledge-review-2026-06-29.md"
     }
   ],
-  "warnings": [
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1"
-  ],
+  "warnings": [],
   "criticalIssues": [],
-  "brokenLinks": [
-    {
-      "type": "public-scan",
-      "sourceFile": "data/info-feed-status.json",
-      "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-13.html",
-      "reason": "public scan bridge returned 404",
-      "status": 404
-    }
-  ],
+  "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-07-13T04:55:46.145Z",
-    "qualityStatus": "fail",
-    "firstPartyChecked": 1834,
-    "externalWarnings": 21,
-    "brokenCount": 1,
-    "publicScanBridge": [
-      {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-10.html"
-      },
-      {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/"
-      },
-      {
-        "ok": false,
-        "hardBroken": true,
-        "status": 404,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-13.html",
-        "reason": "public scan bridge returned 404"
-      }
-    ]
+    "checkedAt": null,
+    "qualityStatus": "pending",
+    "firstPartyChecked": 0,
+    "externalWarnings": 0,
+    "brokenCount": 0
   }
 }
