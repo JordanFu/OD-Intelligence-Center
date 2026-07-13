@@ -71,7 +71,7 @@ function parseDigest(markdown) {
 
     if (!currentDay) continue;
 
-    const titleMatch = line.match(/^### \[(\d+)\]\s+(.+)/);
+    const titleMatch = line.match(/^### \[([A-Za-z0-9-]+)\]\s+(.+)/);
     if (titleMatch) {
       currentItem = {
         id: titleMatch[1],

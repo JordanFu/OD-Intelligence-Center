@@ -7,3 +7,4 @@
 | 2026-06-27 | `specials/ai-org-talent-mechanism/2026-06-27/00-overview.md` | formal 总览判断 | 支持 H1、H3 | L3 | 机制 | AI fluency 是门槛；可复用机制、业务影响和责任扩大才是晋升证据。 | 仍需具体公司绩效字段。 |
 | 2026-06-26 | `specials/ai-org-talent-mechanism/2026-06-26/00-overview.md` | formal 总览判断 | 修正 H1 | L2 | 观察 | AI savvy 正从培训转向人才筛选，但制度文件不足。 | 不能直接证明绩效制度已改。 |
 | 2026-06-29 | `specials/ai-org-talent-mechanism/2026-06-29/00-overview.md` | formal 总览判断 | 支持 H3 | L1-L2 | 线索 | Anthropic 薪酬样本提示稀缺职能扩厚，但 H-1B / 媒体链路不能代表完整薪酬制度。 | 不作为高置信薪酬结论。 |
+| 2026-07-06 | `knowledge/wiki/hbr-ai-era-performance-metrics-2026.md` | 权威媒体框架 | 支持 H1、H2 | L2 | 观察 | 绩效与晋升证据需拆开人的边界判断、AI智能体可靠性和人机组合结果；速度、产出量和AI使用率不能替代贡献归因。 | 不是公司正式制度案例，尚需绩效模板、校准规则和实际试点互证。 |

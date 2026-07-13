@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-07-12T14:41:05.652Z",
+  "generatedAt": "2026-07-13T02:04:02.808Z",
   "module": "automation",
   "qualityStatus": "warn",
   "chains": {
     "infoFeed": {
       "qualityStatus": "warn",
-      "latestDate": "2026-07-08",
-      "latestCardCount": 20,
+      "latestDate": "2026-07-11",
+      "latestCardCount": 21,
       "newFactCount": 20
     },
     "topicProjects": {
       "qualityStatus": "warn",
-      "today": "2026-07-12",
-      "todayStatus": "fallback",
+      "today": "2026-07-13",
+      "todayStatus": "scheduled",
       "latestFormalDate": "2026-07-10",
       "pendingRerunDates": [
         "2026-07-12",
@@ -36,14 +36,14 @@
     },
     "knowledgeLint": {
       "qualityStatus": "pass",
-      "latestCatalogDate": "2026-07-12",
-      "reportCount": 82,
+      "latestCatalogDate": "2026-07-13",
+      "reportCount": 84,
       "privatePathLeakCount": 0
     },
     "linkCheck": {
       "qualityStatus": "warn",
       "brokenCount": 0,
-      "checkedAt": "2026-07-12T14:41:05.609Z"
+      "checkedAt": "2026-07-13T02:04:02.753Z"
     },
     "githubActionsFallback": {
       "status": "pass",
@@ -67,14 +67,13 @@
       "criticalIssues": []
     },
     "localFormalTask": {
-      "status": "manual-check-required",
+      "status": "scheduled",
       "evidence": "仅根据 topic-projects manifest 判断；无法从云端伪造本地正式运行完成。"
     }
   },
   "warnings": [
     "信息库质量为 warn",
     "专题研究状态为 warn",
-    "本地正式任务无法确认已完成，需要人工补跑或等待正式自动化",
     "专题待正式重跑 17 天"
   ],
   "criticalIssues": [],

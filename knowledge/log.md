@@ -4,6 +4,11 @@
 
 ---
 
+## [2026-07-13] ingest | HBR AI时代三层绩效指标
+- 摄入 HBR 文章《Performance Management Needs New Metrics in the AI Era》，新增结构化来源页 `wiki/hbr-ai-era-performance-metrics-2026.md`。
+- 新增概念页 `concepts/human-ai-performance-metrics.md`，把绩效对象拆成人的贡献、AI系统与Agent、人机组合结果三层。
+- 回流绩效管理标杆页、可审计晋升证据页和晋升专题 evidence-map；按权威媒体框架标为来源可信度较高、结论 L2，不当作企业正式制度案例。
+
 ## [2026-07-12] ingest | 日报 PDF 证据源自动入库
 - 从 daily、daily-report、specials、analysis 中扫描 PDF URL，按知识库 Raw/Wiki/Catalog 规则自动建档。
 - 本次识别 25 个唯一 PDF 来源：18 个已下载原始 PDF，7 个保留 URL 与引用上下文待重试。

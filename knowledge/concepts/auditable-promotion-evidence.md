@@ -2,7 +2,7 @@
 type: concept
 name: 可审计晋升证据
 tags: [AI组织设计, 概念页]
-related: [../entities/gitlab.md, ../entities/openai.md, ../entities/bytedance.md, ../entities/microsoft.md]
+related: [../entities/gitlab.md, ../entities/openai.md, ../entities/bytedance.md, ../entities/microsoft.md, ./human-ai-performance-metrics.md, ../wiki/hbr-ai-era-performance-metrics-2026.md]
 backlinks: [../../specials/ai-org-talent-mechanism/topics/promotion-system/evidence-map.md]
 ---
 
@@ -26,9 +26,11 @@ backlinks: [../../specials/ai-org-talent-mechanism/topics/promotion-system/evide
 |---|---|---|---|
 | 2026-06-30 | `../../specials/ai-org-talent-mechanism/2026-06-30/00-overview.md` | L3 | AI 贡献进入 promotion packet，但不能用工具活跃度换职级。 |
 | 2026-07-01 | `../../digest.md` [2] | L2 | ByteDance 管理评价语言靠近绩效场景。 |
+| 2026-07-06 | `../wiki/hbr-ai-era-performance-metrics-2026.md` | L2 | 晋升和绩效证据需区分人的判断、Agent表现与人机共同结果，避免把速度或使用量当贡献。 |
 
 ## 当前可形成的判断
 - 可审计晋升证据应奖励责任扩大、业务影响、复用机制、风险控制和跨团队影响；来源 2026-06-30 formal 总览，L3。
+- HBR 的三层框架补充了证据归因：个人证据包应记录边界判断、纠错和编排，不能把 Agent 的产出全部归给个人；来源 2026-07-06 HBR，L2。
 
 ## 边界与反例
 - 不能把 AI fluency 直接写成晋升理由。

@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "lastUpdated": "2026-07-12",
+  "lastUpdated": "2026-07-13",
   "mode": "karpathy-llm-wiki",
   "schema": "knowledge/CLAUDE.md",
   "categories": {
@@ -410,6 +410,58 @@
         "晋升机制",
         "人才盘点"
       ]
+    },
+    {
+      "id": "hbr-ai-era-performance-metrics-2026",
+      "title": "HBR：AI 时代绩效管理需要新的度量对象",
+      "originalTitle": "Performance Management Needs New Metrics in the AI Era",
+      "author": "Randy Bean, Erik Strauss, Randeep Singh",
+      "publisher": "Harvard Business Review",
+      "sourceType": "media",
+      "topics": [
+        "绩效管理",
+        "AI组织设计",
+        "人才发展"
+      ],
+      "date": "2026-07-06",
+      "uploadDate": "2026-07-13",
+      "description": "提出人的贡献、AI系统与Agent、人机组合结果三层绩效度量框架；强调速度、产出量和AI使用率不能替代边界判断、可追溯性、升级质量和共同业务结果。",
+      "summaryFile": "./knowledge/wiki/hbr-ai-era-performance-metrics-2026.md",
+      "fileName": "web article synthesis",
+      "fileSize": "summary only",
+      "tags": [
+        "HBR",
+        "绩效管理",
+        "人机协作",
+        "Agent治理",
+        "晋升机制"
+      ],
+      "originalUrl": "https://hbr.org/2026/07/performance-management-needs-new-metrics-in-the-ai-era"
+    },
+    {
+      "id": "human-ai-performance-metrics",
+      "title": "人—AI—人机系统三层绩效指标",
+      "originalTitle": "Three-layer performance metrics for human, AI, and human-AI systems",
+      "author": "OD Intelligence Center synthesis",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "concept",
+      "topics": [
+        "绩效管理",
+        "AI组织设计",
+        "人才发展"
+      ],
+      "date": "2026-07-13",
+      "uploadDate": "2026-07-13",
+      "description": "把AI工作绩效拆成人的判断与编排、Agent可靠性与治理、人机组合业务结果三层，避免把共同产出错误归因给个人或系统。",
+      "summaryFile": "./knowledge/concepts/human-ai-performance-metrics.md",
+      "fileName": "concept page",
+      "fileSize": "summary only",
+      "tags": [
+        "绩效管理",
+        "人机协作",
+        "可审计晋升证据"
+      ],
+      "originalUrl": "https://hbr.org/2026/07/performance-management-needs-new-metrics-in-the-ai-era"
     },
     {
       "id": "mckinsey-nine-shifts-2026",

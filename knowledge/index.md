@@ -1,7 +1,7 @@
 # AI 组织设计知识库 — 索引
 
 > 按 Karpathy LLM Wiki 模式维护 · LLM 负责更新 · 人类负责审核
-> 最后更新: 2026-07-12
+> 最后更新: 2026-07-13
 
 ---
 
@@ -47,6 +47,7 @@
 | 36 | [本地知识库定期 Review（2026-07-06）](wiki/local-knowledge-review-2026-07-06.md) | OD Intelligence Center | 2026-07-06 | 知识管理, 定期Review, 资料治理 |
 | 37 | [微信公众号「AI组织进化论」候选来源池](wiki/wechat-ai-org-evolution-intake.md) | 微信公众号「AI组织进化论」 | 2026-06-30 | AI组织设计, 人才密度, 微信公众号, 待核验 |
 | 38 | [大厂 HR：AI 时代招聘标准与人才画像变化](wiki/bigtech-hr-ai-era-hiring-talent-2026.md) | 定焦One / 钛媒体 / 腾讯新闻 / 36氪 | 2026-05-19 | AI时代人才, 招聘标准, 人才密度, 复合型人才 |
+| 39 | [HBR：AI 时代绩效管理需要新的度量对象](wiki/hbr-ai-era-performance-metrics-2026.md) | Harvard Business Review | 2026-07-06 | 绩效管理, 人机协作, Agent治理, 晋升机制 |
 
 ## 概念页
 
@@ -66,6 +67,7 @@
 | 12 | [FDE / Applied AI](concepts/fde-applied-ai.md) | 客户现场部署、产品反馈、交付质量和伙伴协同形成的新组织接口 | Phase 4 |
 | 13 | [AI workforce risk](concepts/ai-workforce-risk.md) | AI 部署带来的技能、知识保留、士气、留任和外部转型风险链条 | Phase 4 |
 | 14 | [可审计晋升证据](concepts/auditable-promotion-evidence.md) | 把 AI 贡献转化为业务影响、复用机制和责任扩大的可复核证据 | Phase 4 |
+| 15 | [人—AI—人机系统三层绩效指标](concepts/human-ai-performance-metrics.md) | 分开评价人的判断、Agent可靠性和人机组合业务结果 | HBR 2026-07-06 |
 
 ## 实体页
 
