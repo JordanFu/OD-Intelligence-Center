@@ -4,6 +4,35 @@
 
 ---
 
+## [2026-07-14] ingest | 日报 PDF 证据源自动入库
+- 从 daily、daily-report、specials、analysis 中扫描 PDF URL，按知识库 Raw/Wiki/Catalog 规则自动建档。
+- 本次识别 25 个唯一 PDF 来源：18 个已下载原始 PDF，7 个保留 URL 与引用上下文待重试。
+- 已下载：2026 Work Trend Index Annual Report 050526 7 69fc5b1c4e265（引用 1 次）
+- 已下载：Mercer and Eightfold Pay for Skills（引用 1 次）
+- 待重试：GitLab：2026 SEC 8-K Filing（引用 12 次）
+- 已下载：netflix culture（引用 8 次）
+- 已下载：BCG：AI-First Organization（引用 3 次）
+- 待重试：BCG Executive Perspectives AI First Companies Win the Future Issue1 10June2025（引用 3 次）
+- 已下载：engineering progression framework v2 0（引用 1 次）
+- 待重试：6456498（引用 6 次）
+- 已下载：H3 AP202606221823746144 1（引用 1 次）
+- 已下载：WEF：Organizational Transformation in the Age of AI（引用 3 次）
+- 已下载：Anthropic：2026 Agentic Coding Trends Report（引用 1 次）
+- 已下载：47382ae415a209fd161bc19a1f9b3704（引用 1 次）
+- 待重试：BCG：AI Radar 2026（引用 2 次）
+- 待重试：BCG + MIT Sloan：The Emerging Agentic Enterprise（引用 8 次）
+- 已下载：AIHR：HR Priorities 2026 Report（引用 1 次）
+- 已下载：us spans and layers for the modern organization 2020（引用 3 次）
+- 已下载：EY：Future of Pay Report 2026（引用 146 次）
+- 已下载：pip faq 2026（引用 6 次）
+- 已下载：12 087 bc50bde2 3016 457a 9bee dc988cb1056b（引用 5 次）
+- 已下载：cesifo1 wp12373（引用 3 次）
+- 已下载：0000050863 26 000011（引用 2 次）
+- 待重试：the state of organizations 2026（引用 1 次）
+- 已下载：orgvue ai research ebook 2026 final（引用 1 次）
+- 已下载：Payscale：2026 Compensation Best Practices Report（引用 8 次）
+- 待重试：it job family career ladder matrix software engineer（引用 1 次）
+
 ## [2026-07-13] repair | AI 时代人才微信文章页面可见性修复
 - 已确认《大厂HR：AI时代，我们招什么人？》正文研究页、来源登记、专题关联与索引均已于 2026-07-07 入库。
 - 将 `bigtech-hr-ai-era-hiring-talent-2026` 从仅“知识源登记”升级为正式可检索知识卡，支持页面搜索、筛选、站内阅读与独立分享页。

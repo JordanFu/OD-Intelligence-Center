@@ -2,7 +2,7 @@
 title: Payscale：2026 Compensation Best Practices Report
 source: Payscale
 date: 待核验
-ingested: 2026-07-13
+ingested: 2026-07-14
 sourceFile: ../knowledge/raw/payscale-payscale-2026-compensation-best-practices-report.pdf
 sourceUrl: https://www.payscale.com/content/report/2026-compensation-best-practice-report.pdf
 tags: [AI组织设计, 绩效管理]
@@ -21,7 +21,7 @@ Payscale 2026 薪酬实践报告可用于验证 AI 技能定价、薪酬公平�
 - **来源类型**：industry
 - **原文 URL**：https://www.payscale.com/content/report/2026-compensation-best-practice-report.pdf
 - **原始文件**：`knowledge/raw/payscale-payscale-2026-compensation-best-practices-report.pdf`
-- **入库日期**：2026-07-13
+- **入库日期**：2026-07-14
 - **证据层级**：结论层可用但需精读具体数据口径；适合与 EY Future of Pay 互证。
 
 ## 核心内容
