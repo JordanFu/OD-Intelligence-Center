@@ -37,7 +37,6 @@
 - 已下载：orgvue ai research ebook 2026 final（引用 1 次）
 - 已下载：Payscale：2026 Compensation Best Practices Report（引用 8 次）
 - 待重试：it job family career ladder matrix software engineer（引用 1 次）
-
 ## [2026-07-13] ingest | HBR AI时代三层绩效指标
 - 摄入 HBR 文章《Performance Management Needs New Metrics in the AI Era》，新增结构化来源页 `wiki/hbr-ai-era-performance-metrics-2026.md`。
 - 新增概念页 `concepts/human-ai-performance-metrics.md`，把绩效对象拆成人的贡献、AI系统与Agent、人机组合结果三层。
