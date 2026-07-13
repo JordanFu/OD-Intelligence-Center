@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T02:04:02.551Z",
+  "generatedAt": "2026-07-13T02:06:31.599Z",
   "module": "topic-projects",
   "project": {
     "id": "ai-org-talent-mechanism",
@@ -3127,10 +3127,10 @@
   ],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-07-13T02:04:02.753Z",
+    "checkedAt": "2026-07-13T02:06:31.802Z",
     "qualityStatus": "warn",
     "firstPartyChecked": 1807,
-    "externalWarnings": 22,
+    "externalWarnings": 23,
     "brokenCount": 0,
     "publicScanBridge": [
       {
@@ -3150,6 +3150,7 @@
     ]
   },
   "warnings": [
+    "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",

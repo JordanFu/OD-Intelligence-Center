@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T02:04:02.610Z",
+  "generatedAt": "2026-07-13T02:06:31.656Z",
   "module": "knowledge-base",
   "qualityStatus": "warn",
   "latestCatalogDate": "2026-07-13",
@@ -47,16 +47,17 @@
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
     "network check warning: fetch failed",
     "network check warning: fetch failed"
   ],
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-07-13T02:04:02.753Z",
+    "checkedAt": "2026-07-13T02:06:31.802Z",
     "qualityStatus": "warn",
     "firstPartyChecked": 1807,
-    "externalWarnings": 22,
+    "externalWarnings": 23,
     "brokenCount": 0,
     "publicScanBridge": [
       {
