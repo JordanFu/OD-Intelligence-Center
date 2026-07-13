@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-13T02:06:31.656Z",
+  "generatedAt": "2026-07-13T04:55:45.849Z",
   "module": "knowledge-base",
-  "qualityStatus": "warn",
+  "qualityStatus": "fail",
   "latestCatalogDate": "2026-07-13",
   "counts": {
     "reports": 84,
@@ -47,32 +47,41 @@
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "network check warning: fetch failed",
-    "network check warning: fetch failed"
+    "external link not hard-checked in Phase 1"
   ],
   "criticalIssues": [],
-  "brokenLinks": [],
+  "brokenLinks": [
+    {
+      "type": "public-scan",
+      "sourceFile": "data/info-feed-status.json",
+      "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-13.html",
+      "reason": "public scan bridge returned 404",
+      "status": 404
+    }
+  ],
   "links": {
-    "checkedAt": "2026-07-13T02:06:31.802Z",
-    "qualityStatus": "warn",
-    "firstPartyChecked": 1807,
-    "externalWarnings": 23,
-    "brokenCount": 0,
+    "checkedAt": "2026-07-13T04:55:46.145Z",
+    "qualityStatus": "fail",
+    "firstPartyChecked": 1834,
+    "externalWarnings": 21,
+    "brokenCount": 1,
     "publicScanBridge": [
       {
-        "ok": false,
-        "hardBroken": false,
-        "status": null,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-10.html",
-        "reason": "network check warning: fetch failed"
+        "ok": true,
+        "status": 200,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-10.html"
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "url": "https://jordanfu.github.io/org-intelligence-info/"
       },
       {
         "ok": false,
-        "hardBroken": false,
-        "status": null,
-        "url": "https://jordanfu.github.io/org-intelligence-info/",
-        "reason": "network check warning: fetch failed"
+        "hardBroken": true,
+        "status": 404,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-13.html",
+        "reason": "public scan bridge returned 404"
       }
     ]
   }
