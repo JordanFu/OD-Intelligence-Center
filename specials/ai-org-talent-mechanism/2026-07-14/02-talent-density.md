@@ -1,53 +1,101 @@
 # 2026-07-14｜专题二：高人才密度与复合型人才机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+> 研究状态：正式研究稿。使用当日内部雷达 `daily/2026-07-14.md`、决策日报 `daily-report/2026-07-14.md`、talent-density 专题基线/证据地图，以及官方公告、官方招聘页和咨询研究交叉校验。本文把“事实、判断、行动”分开；招聘页只能证明岗位设计和雇主披露的薪酬带，不能证明实际招聘规模、留存或生产率。
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+## 0. 读者应该带走什么
 
-## 今日一句话结论
+今天真正有价值的是区分普及型能力与高后果交付能力：人才密度不是更少的人，而是更清楚的复合责任、质量控制与能力回流。
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+## 背景材料
 
-## 今日核心判断
+本稿使用 `digest.md`、`daily/2026-07-14.md`、`daily-report/2026-07-14.md`、专题基线与 Zapier 制度样本；外部检索词列于来源索引。
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+## 1. 今日一句话专题判断
 
-## 今日背景材料
+今天新增证据把“高人才密度”具体化为**双层人才供给机制**：一条是把基础 AI 能力嵌入广覆盖岗位训练与招聘门槛，另一条是配置能把客户现场、工作流、评测、审批与审计接起来的部署型专家队。前者解决普及，后者承担高后果交付；不能用一次培训、两条高薪职位或工具使用率替代人才质量与留存的证据。
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+## 2. 今日新增事实：只写可追溯事实
 
-## 今日新增证据地图
+1. **UST 与 Anthropic 公告了“广覆盖训练＋专门部署队”的组合。** Anthropic 于 **2026-07-09** 发布案例称，UST 承诺在全球培训 **20,000 名**工程师、架构师、顾问、行业专家与前线部署工程师，并组建部署 Claude 的专门团队；其医疗、通信场景的建议/响应仍设置人工批准，高风险生产环境强调审计控制。该文同时给出 UST 对其 iDEC 验证流程“缩短 50%–70%”的自述，尚无独立评估或全体受训者的采用/质量数据。**证据：L2（联合官方公告；结果部分仅为供应商/客户自述）。**
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+2. **Anthropic 的两条公开职位把部署能力写成管理、职业路径和可审计交付责任。** 当日抓取的 *Head of Applied AI Architecture, Beneficial Deployments* 职位要求领导全球架构师，并负责招聘计划、组织结构、职业路径、目标和评审，标示美国基本年薪 **315,000–380,000 美元**；生命科学 *Applied AI Engineering Manager* 职位要求带领嵌入客户的工程师，负责原型、MCP 集成、智能体工作流、确定性工具、连接器、测试框架与评测，并与安全团队界定负责任部署，标示基本年薪 **320,000–405,000 美元**。**证据：L2（官方招聘页；职位仍可能随时撤销或变更）。**
 
-## 线索层
+3. **McKinsey 将 AI 转型区分为赋能、自动化、再造三层。** 其 **2026-07-08** 文章基于 750 名已在工作中使用 AI 的跨地区英语受访员工和领导者，主张三层转型需分别处理技能、领导行为、变革管理与高价值流程重构。它不是招聘或薪酬制度样本，但支持“不应用同一套活跃率管理不同责任包”的人才配置判断。**证据：L2（权威咨询研究；样本边界明确）。**
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+4. **既有一手制度样本仍为今天的招聘基线。** Zapier 公开文章（2025；本地知识库已逐条结构化）显示：所有新员工需达到最低 AI 熟练度门槛，申请、初筛、技能测试、高管面试四个触点共同采集信号，入职从学习工具转向从第一天构建工作流；其 2026 版能力量表进一步将“可重复系统、可衡量影响、问责”与能力演进速度纳入标准。**证据：L3（公司公开制度叙述；缺第三方留存/绩效验证）。**
 
-## 待补齐的落地问题
+## 3. 今日核心判断
 
-正式重跑必须回答：复合型人才的能力证据是什么、是否有招聘/JD/薪酬信号、是否存在验证和治理能力的溢价、组织如何避免把“少招人”包装成高人才密度。
+1. **高人才密度的识别单位应从“会用工具的人”改为“可被验证的复合责任包”。可信度：中高。** UST 的训练对象覆盖工程、架构、咨询、行业专家和前线部署；Anthropic 的岗位则将客户交付、工程化、评测、安全和组织建设打包。共同机制不是“多会几个工具”，而是有人能对问题定义、工作流设计、结果验收、风险升级和资产复用负责。
 
-## 来源索引
+2. **招聘要建立两道门，而不是提高一条统一门槛。可信度：中。** 第一门是面向全员的最低能力：能拆解任务、使用 AI、校验结果、说明影响；第二门是部署/高后果角色的专项证据：行业知识、评测与可复现性、审批设计、跨团队交付和客户现场学习。把两类能力混在同一面试题中，会导致基础岗被过度技术化、关键岗又缺少控制面验证。
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+3. **薪酬溢价应支付给“难替代且有外溢”的责任，而不只是 AI 标签。可信度：中。** 两个 Anthropic 职位的薪酬带是“高复杂度部署责任”存在市场定价的直接信号，但不能据此推导普通 AI 技能的普遍溢价。可考虑把额外激励与可审计的生产结果、复用组件、带教/认证、质量与事故控制绑定，并设到期复核，避免永久性“工具津贴”。
+
+4. **保留机制的风险点在于专家队被当作无穷的救火容量。可信度：中低。** UST 的广覆盖训练可减少专家队承担所有基础咨询的压力；反过来，若培训后仍由少数部署人才承担每个例外、审批与客户升级，高人才密度会退化为关键人过载。今天没有离职率、敬业度或工作负荷数据，故这是一项需监测的机制风险，不是已证实结果。
+
+## 4. 重点案例事实还原
+
+### 案例 A：UST × Anthropic——把能力供给拆成普及与生产化两条线
+
+- **背景与动作：** 2026-07-09 的联合案例称，UST 先在自身及客户工程环境中部署 Claude，同时培训 20,000 名不同角色员工，并设专门部署团队。
+- **人才机制：** 角色化基础训练覆盖多数相关岗位；前线部署工程师和专门团队承接复杂场景的工作流、治理与客户落地。医疗与通信示例保留人工批准，说明“能训练”不等于“可自主执行”。
+- **对识别/招聘的启示：** 普通岗位可用项目证据筛选 AI 熟练度；部署型岗位应另验行业情境判断、测试设计、失败升级和跨职能交付，不能仅以模型证书替代。
+- **对激励/留存的启示：** 需给专家队明确的案例回流、标准组件贡献、带教和轮换认可，否则其客户现场经验不能沉淀，且易形成单点依赖。
+- **反事实与边界：** 20,000 是承诺训练人数；iDEC 的效率数字来自案例陈述，不能推出培训完成、生产率提升或人才留存已经发生。
+
+### 案例 B：Anthropic 部署型职位——高薪对应的是控制面责任包
+
+- **背景与动作：** 两条官方职位同时出现：全球应用 AI 架构负责人要设计队伍的招聘、组织、职业路径和评审；生命科学工程经理要把工程交付与安全团队的负责任部署相连。
+- **人才机制：** 企业将部署能力从临时售前支持拆为可管理的岗位族：一端是队伍/能力体系建设，一端是受监管行业现场交付。评测、可复现、审计与安全协作进入“产出定义”。
+- **对识别/招聘的启示：** 面试材料应要求候选人展示一次真实闭环：业务问题、AI/人工分工、评测指标、异常路径、客户采用和可复用资产；避免只问架构知识或提示技巧。
+- **对激励/留存的启示：** 公开薪酬带只能作外部定价锚点。内部应同时设计专业深耕与管理两条发展路径、长期能力资产的署名/回报，以及事故透明上报的非惩罚保护。
+- **反事实与边界：** 单个职位不能说明团队规模、填补情况或行业常态；高薪也可能反映美国地区、稀缺招聘市场与公司阶段，而非每项职责的独立价格。
+
+## 5. Context 层
+
+- **暂不足以下结论，但提示我们关注：** Teradyne 的 *Forward Deployed Engineer, AI Enablement* 招聘页把岗位置于直属首席 AI 官的转型团队，涉及销售、工程、运营、财务和产品，且要求建立基线、识别瓶颈并让业务团队可独立运行。它是“内部 FDE”出现的 L1 线索，仍需团队规模与成效证据。
+- **暂不足以下结论，但提示我们关注：** McKinsey 的三层框架意味着同一员工不必都被培养成流程再造者。若把“再造”能力强加给所有岗位，可能压缩入口岗位与学习空间；需观察企业是否为初级人才保留带教、低风险任务和升级路径。
+- **暂不足以下结论，但提示我们关注：** Zapier 的公开做法表明招聘、入职和绩效预期可以联动，但其为单一公司自述，不能推断 AI 熟练度纳入招聘一定提高留存、公平性或业务结果。
+- **反例检查：** 若没有质量、客户采用、事故、过载和离职数据，“少量专家＋大量受训者”也可能只是成本压缩叙事。因此不把培训覆盖率、职位薪酬或工具活跃率列为人才密度 KPI。
+
+## 6. 证据地图
+
+| 渠道 | 今日证据 | 等级 | 可支持的结论 | 不能支持的结论 |
+|---|---|---:|---|---|
+| 官方公告 | Anthropic × UST，2026-07-09 | L2 | 训练对象、专门部署队、人工批准/审计设计 | 20,000 人已有效采用；生产率或留存改善 |
+| 官方招聘与薪酬 | Anthropic 两条职位，当日可见 | L2 | 岗位责任包、管理化信号、公开基本薪酬带 | 招聘人数、实际薪酬、团队效果或行业普遍性 |
+| 咨询研究 | McKinsey，2026-07-08 | L2 | 不同转型层级需要不同技能与管理法 | 任一公司的人才制度或因果成效 |
+| 公司制度案例 | Zapier 招聘/入职及 V2 量表，2025–2026 | L3 | 招聘多触点、能力证据、问责可被制度化 | 对留存、公平与绩效的普遍效果 |
+| 内部专题账本 | baseline、evidence-map、daily 2026-07-14 | L3（内部基线） | 校准“责任包＋复用机制＋入口培养”的既有判断 | 替代外部一手制度与成效数据 |
+| 招聘市场/社媒 | 当日未纳入结论 | L0–L1 | 仅作检索线索 | 任何机制或趋势结论 |
+
+## 7. 对我们行动的启发
+
+### 决策感与落地启发
+
+1. **人才盘点改字段。** 对关键候选人同时记录：业务问题定义、AI/人工任务拆分、质量指标、异常升级、可复用资产、跨团队采用、带教贡献和业务结果；工具清单只能作背景信息。
+2. **建立“双层供给”规划。** 面向全员设置最低 AI 能力与安全使用训练；面向高后果流程设置部署/评测/治理专家池，并公开其服务目录、进入条件、升级路径和退出/轮换节奏。
+3. **把招聘面试变成证据链。** 基础岗用“真实任务＋结果校验”评估；关键岗位要求案例材料并追问失败场景、批准人、日志、评测及复用。四个触点可参照 Zapier，但评分必须按岗位后果分层。
+4. **激励奖励可验证外溢。** 对沉淀模板、评测集、参考实现、带教课程和跨团队采用给予项目/长期激励；对短期 AI 产量不单列奖金，避免诱发绕过质量门和安全流程。
+5. **保留指标进同一张仪表盘。** 对专家队至少月度追踪：未解决升级量、平均响应/轮换时间、重复问题被产品化比例、加班/休假、关键人集中度、内部流动与离职。任一“人效”目标不得脱离这些护栏。
+
+## 8. 待验证清单与下一步搜索路径
+
+| 优先级 | 待验证问题 | 需要的证据 | 建议搜索词（已使用/下一轮） |
+|---:|---|---|---|
+| 高 | UST 20,000 人训练后的分层、认证、采用与质量结果？ | 课程结构、完训率、项目质量、客户案例、独立评价 | `UST Claude 20000 training certification adoption metrics`；`site:ust.com Claude training` |
+| 高 | Anthropic 部署队如何评审、晋升与保留？ | 职业阶梯、管理者指南、团队规模、员工/客户结果 | `site:job-boards.greenhouse.io/anthropic "career paths" "Applied AI"`；`Anthropic beneficial deployments team` |
+| 高 | 高后果岗位的激励是否与可审计交付相连？ | 奖金/股权原则、绩效字段、事故复盘与申诉规则 | `AI deployment incentive evaluation audit career ladder`；`skills based pay AI governance` |
+| 中 | AI 招聘门槛会否损害入口人才供给或多样性？ | 校招/实习生数据、offer 转化、晋升与离职分群 | `AI fluency hiring early career retention diversity`；`junior pipeline generative AI training` |
+| 中 | 内部 FDE 是否已形成稳定岗位族？ | 多家公司 JD、汇报线、编制、重复职责和成果 | `"Forward Deployed Engineer" "AI Enablement" CAIO`；`internal FDE AI transformation job` |
+
+## 9. 来源索引
+
+1. Anthropic，**UST is bringing Claude to physical AI**，2026-07-09，官方案例。https://www.anthropic.com/news/ust-claude 。检索词：`site:anthropic.com/news UST Claude 20000 engineers July 2026`。用于训练覆盖、部署团队、人工批准与审计控制；L2。
+2. Anthropic Careers，**Head of Applied AI Architecture, Beneficial Deployments**，当日抓取 2026-07-14。https://job-boards.greenhouse.io/anthropic/jobs/5192104008 。检索词：`site:job-boards.greenhouse.io/anthropic 5192104008 Head Applied AI Architecture Beneficial Deployments`。用于职责、组织建设和公开基本薪酬；L2。
+3. Anthropic Careers，**Applied AI Engineering Manager, Life Sciences**，当日抓取 2026-07-14。https://job-boards.greenhouse.io/anthropic/jobs/5277834008 。检索词：`site:job-boards.greenhouse.io/anthropic 5277834008 Applied AI Engineering Manager Life Sciences`。用于受监管交付责任和公开基本薪酬；L2。
+4. McKinsey，**From adoption to impact: Three horizons of AI transformation**，2026-07-08。https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/from-adoption-to-impact-three-horizons-of-ai-transformation 。检索词：`site:mckinsey.com "From adoption to impact: Three horizons of AI transformation" July 2026`。用于三层转型与样本边界；L2。
+5. Zapier，**From AI-friendly to AI-first: How Zapier is transforming hiring and onboarding**，2025（页面未在本轮重取发布日期）。https://zapier.com/blog/zapier-ai-first-hiring-leaning/ 。检索词：`site:zapier.com/blog AI fluency rubric hiring onboarding`。用于四个招聘触点、最低能力门槛和入职设计；L3（公司公开制度叙述）。
+6. Zapier，**One year later: Raising the AI fluency bar for every Zapier hire**，2026。https://zapier.com/blog/raising-ai-fluency-bar/ （本轮检索定位到内容，直链提取返回 404，故正文不以其未复核的发布日期作事实）。检索词：`site:zapier.com/blog AI fluency rubric V2 2026 hiring`。用于“可重复系统、影响、问责、能力斜率”的补充线索；L2–L3，后续应重取原文。
+7. 内部：`daily/2026-07-14.md`（O03、R01、J01–J03），抓取时间 2026-07-14 10:20；`daily-report/2026-07-14.md`；`specials/ai-org-talent-mechanism/topics/talent-density/{baseline,evidence-map,weekly-synthesis,open-questions}.md`。用于当日交叉校验与历史边界，不替代外部来源。
