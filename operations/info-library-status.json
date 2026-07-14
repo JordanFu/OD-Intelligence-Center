@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T16:04:04.689Z",
+  "generatedAt": "2026-07-14T04:23:50.952Z",
   "module": "info-feed",
   "qualityStatus": "fail",
   "latestDate": "2026-07-13",
@@ -626,11 +626,11 @@
     }
   ],
   "totals": {
-    "days": 85,
-    "cards": 810,
-    "platforms": 374,
-    "dailyFiles": 82,
-    "dailyReportFiles": 85,
+    "days": 86,
+    "cards": 836,
+    "platforms": 378,
+    "dailyFiles": 83,
+    "dailyReportFiles": 86,
     "weeklyFiles": 1
   },
   "homepageBridge": {
@@ -642,9 +642,9 @@
     "status": "pending-link-check"
   },
   "trustStats": {
-    "📰较高": 353,
-    "⭐高": 405,
-    "💬参考": 34,
+    "📰较高": 364,
+    "⭐高": 417,
+    "💬参考": 37,
     "⭐高（公司公告+创始人全员信）": 1,
     "📰较高（机器之心Pro转载报道）": 1,
     "📰较高（虎嗅深度文章，引用多项研究）": 1,
@@ -697,9 +697,9 @@
     }
   ],
   "links": {
-    "checkedAt": "2026-07-13T13:06:40.873Z",
+    "checkedAt": "2026-07-13T16:04:06.746Z",
     "qualityStatus": "fail",
-    "firstPartyChecked": 1835,
+    "firstPartyChecked": 1861,
     "externalWarnings": 21,
     "brokenCount": 1,
     "publicScanBridge": [

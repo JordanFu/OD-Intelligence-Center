@@ -32,7 +32,6 @@
 - 已下载：orgvue ai research ebook 2026 final（引用 1 次）
 - 已下载：Payscale：2026 Compensation Best Practices Report（引用 8 次）
 - 待重试：it job family career ladder matrix software engineer（引用 1 次）
-
 ## [2026-07-13] repair | AI 时代人才微信文章页面可见性修复
 - 已确认《大厂HR：AI时代，我们招什么人？》正文研究页、来源登记、专题关联与索引均已于 2026-07-07 入库。
 - 将 `bigtech-hr-ai-era-hiring-talent-2026` 从仅“知识源登记”升级为正式可检索知识卡，支持页面搜索、筛选、站内阅读与独立分享页。
