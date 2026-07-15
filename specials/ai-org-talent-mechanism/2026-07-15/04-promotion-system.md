@@ -1,53 +1,112 @@
 # 2026-07-15｜专题四：未来组织的晋升机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+## 2026-07-15 增量校准
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+**今日一句话专题判断：固定晋升窗口仍是公平、预算与同级比较的默认骨架；AI fluency、认证和可审计交付可进入证据包，却不能兑换职级。即时/例外晋升只处理已持续发生的责任扩大。**
 
-## 今日一句话结论
+### 今日新增事实：只写可追溯事实
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+1. **GitLab 公开手册保留常规晋升流程、校准与 promotion document，并设专门的 out-of-cycle promotion 通道。** 2026-07-15 复核，证据等级 **L3（公司制度）**；这是单家公司制度样本，支持“窗口＋例外”骨架，不代表行业常态。[GitLab Handbook](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/)
+2. **Zapier 的 AI Fluency V2 将 AI 嵌入核心工作、可重复系统和可衡量影响设为招聘能力门槛；公开材料没有说明认证、徽章或调用量可直接兑换晋升。** 证据等级 **L2（官方能力标准）**。[Zapier](https://www.zapier.com/blog/raising-ai-fluency-bar-in-hiring/)
+3. **本轮没有找到新的公开公司制度，将模型调用量、提示词数、登录时长或 AI badge 规定为晋升主条件。** 这是检索边界，不是此类制度不存在的证明。
 
-## 今日核心判断
+### 今日核心判断
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+1. **固定窗口为默认、例外为受控通道。可信度：中高（GitLab L3＋治理判断）。** 为什么重要：窗口提供同级比较、预算与公平校准；例外必须有书面责任扩大、观察期、审批和复盘。
+2. **AI 贡献采用“结果＋控制＋复用＋归因”四联证据。可信度：中高。** 结果看业务价值，控制看质量/安全/人工复核，复用看资产和采用范围，归因区分个人、团队平台、模型和客户资源；这避免把工具日志误记为个人价值。
+3. **认证、技能徽章和项目战功应分流处理。可信度：高（Zapier L2＋制度边界）。** 认证进入学习与项目派任，短期战功走项目奖/认可，临时扩大职责走 acting scope，市场稀缺走调薪；只有稳定更高层级责任进入晋升。
 
-## 今日背景材料
+### Context 与行动
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+暂不形成结论，但提示我们关注：Agent 审批/审计日志可以补强事实证据，不能代替对业务后果、异常处置、隐私和申诉的判断。建议每个例外晋升记录责任扩大、持续时间、预算来源、反事实对照、委员会结论与申诉路径；按季度审计例外比例、群体公平和后续绩效。
 
-## 今日新增证据地图
+### 7 月 15 日来源补充
 
-| 渠道 | 当前状态 | 必须补齐 |
+- GitLab Handbook, *Promotions and Transfers*, accessed 2026-07-15, https://handbook.gitlab.com/handbook/people-group/promotions-transfers/
+- Zapier, *Raising the AI fluency bar for every Zapier hire*, 2026-03-31, https://www.zapier.com/blog/raising-ai-fluency-bar-in-hiring/
+
+> 研究状态：正式决策稿。结论将“公开制度事实”与“本组织建议”分开：招聘页、产品页与培训公告只能说明责任或控制机制，不能证明其雇主已经采用某种晋升制度。
+
+## 0. 读者应该带走什么
+
+AI 降低了可见产出的稀缺性，却提高了个人归因、质量验证和风险责任的难度。可执行的制度基线不是“按 AI 使用量即时晋升”，而是：固定窗口完成同级比较与校准；只有职责范围已经持续扩大时才走例外；把一次项目战功、技能学习和市场稀缺性分别交给项目激励、派任/发展和薪酬工具承接。
+
+## 背景材料
+
+本轮核验使用 `digest.md`、`daily/2026-07-14.md`、`daily-report/2026-07-14.md`、GitLab 晋升手册、Zapier AI Fluency V2，以及 Anthropic/UST 公告与招聘页；外部页面复核日为 2026-07-14。检索词：`AI contribution promotion packet`、`out-of-cycle promotion AI`、`AI fluency promotion calibration`、`acting scope promotion`。本轮未找到可公开复核的“AI 贡献评分表”或“AI 徽章直接兑换晋升”公司制度。
+
+## 1. 今日一句话专题判断
+
+固定窗口与跨部门校准仍是可审计晋升制度的默认骨架；AI 贡献应作为证明“已在更高层级稳定履职”的证据，而不是独立兑换职级的计数器。例外晋升的门槛应是已持续的责任扩大，而非一次交付、培训完成或徽章取得。
+
+## 2. 今日新增事实：只写可追溯事实
+
+1. **GitLab 的公开制度保留常规节奏与例外通道。** 手册将晋升流程组织为规划、校准与处理，并规定 inline promotion 使用 promotion document；页面同时列有 out-of-cycle promotion 的专门流程。它是单家公司公开制度案例，不代表行业普遍做法。来源：GitLab Handbook，2026-07-14 复核，L3。[原文](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/)
+2. **Zapier 将 AI fluency 用于招聘能力门槛，而非公开的晋升兑换规则。** 其 V2 叙述把要求提高到将 AI 嵌入核心工作、形成可重复系统并产生可衡量影响；公开材料未称证书或徽章可直接晋升。来源：Zapier，2026-03-31，L2。[原文](https://www.zapier.com/blog/raising-ai-fluency-bar-in-hiring/)
+3. **Anthropic/UST 将训练、部署与控制要求并置。** 2026-07-09 公告称 UST 计划训练 20,000 名相关人员并建设部署能力；它不能说明受训者的晋升、质量或生产率结果。来源：Anthropic，L2。[原文](https://www.anthropic.com/news/ust-claude)
+4. **Anthropic 的应用 AI 架构负责人岗位把组织建设写入责任包。** 职位描述包含团队建设、招聘、职业路径、目标和绩效评审；这只能证明岗位设计意图，并不证明其晋升机制或实际成效。来源：Anthropic Careers，2026-07-14 复核，L2。[原文](https://job-boards.greenhouse.io/anthropic/jobs/5192104008)
+5. **证据缺口仍在。** 本轮未发现新的公开公司条款，把模型调用量、提示词数量、登录时长或 AI badge 规定为晋升主条件；这是本轮检索结果，不是“此类制度不存在”的证明。
+
+## 3. 今日核心判断
+
+1. **固定窗口应为默认、例外为受控通道。可信度：中高。** GitLab 是 L3 的制度案例；由此推出的“默认”是本组织设计建议，目的在于保留同级比较、预算和公平校准，而不是声称所有企业均如此。
+2. **例外晋升只处理稳定责任扩大。可信度：中高。** 应至少证明候选人已持续承担下一层级的决策权、结果责任和跨团队影响，并经一个可定义的观察/校准周期；周期长度应由本组织岗位节奏确定，不能从公开材料硬推“必须半年”。
+3. **AI 贡献采用“结果＋控制＋复用＋归因”四联证据。可信度：中高。** 这是从部署控制与工作流复用信号推导的制度设计：结果看业务价值，控制看质量/安全/人工复核，复用看资产与采用范围，归因区分个人、团队平台、模型与客户资源。
+4. **AI fluency/badge 是准备度信号，不是职级货币。可信度：高。** Zapier 的公开材料支持能力门槛与工作流能力，不支持“完成认证即晋升”。
+5. **薪酬、项目认可与晋升必须分流。可信度：中。** 对短期战功、代理职责和市场稀缺性分别使用项目奖/即时认可、acting scope、技能或市场调薪，可减少把所有留人压力压入职级的风险；这是治理建议，需以本组织薪酬政策验证。
+
+## 4. 重点案例事实还原：GitLab 制度骨架与应用 AI 责任包
+
+### 事实、机制与边界
+
+- **GitLab：** 公开手册提供 promotion document、常规校准节奏和 out-of-cycle 流程这一制度骨架（L3）。可借鉴的是例外需要书面证据与可见审批；不可照搬的是其具体角色、审批人和节奏。
+- **Anthropic：** UST 公告与应用 AI 架构负责人 JD 显示训练、部署、职业路径和评审等责任会被组织化（L2）。可借鉴的是证据包应记录生产化、控制与复用；不可据此推断 Anthropic 有“AI 快速晋升”制度。
+
+### 反事实检查
+
+若一个候选人只完成高曝光 AI 项目，却未持续承担更高层级的决策、质量后果或团队能力建设，则同一事实也可被解释为项目贡献，不足以支持例外晋升。反之，若持续承担了扩大后的责任但项目恰好未使用 AI，也不应因此处于制度劣势。
+
+## 5. Context 层
+
+- 暂不足以下结论，但提示我们关注：Agent 的审批和审计日志可补充事实证据，却不能替代对业务结果、异常处置和责任边界的判断。
+- 暂不足以下结论，但提示我们关注：大规模 AI 培训说明能力供给投入，不等于晋升准备度或个人贡献。
+- 暂不足以下结论，但提示我们关注：高薪 AI 岗位可能反映外部市场溢价，不能反推内部职级体系已经改变。
+- 国内公开材料仍缺 AI 贡献字段、例外晋升治理和申诉路径；媒体与社媒仅作 L1 检索线索。
+
+## 6. 证据地图
+
+| 渠道 | 可用结论 | 等级与边界 |
 |---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+| 公司制度 | GitLab 常规流程、promotion document、例外通道 | L3；单公司案例 |
+| 公司能力标准 | Zapier AI fluency 与可重复工作系统 | L2；招聘/能力标准，非晋升规则 |
+| 官方公告/JD | Anthropic/UST 训练部署；应用 AI 架构责任包 | L2；意图与职责，不证明成效或制度 |
+| 内部知识库 | `digest.md`、当日日报与历史专题 | 用于交叉核验与缺口追踪 |
+| 媒体/社媒 | 国内 AI 认证、晋升讨论 | L1；仅作后续搜索入口 |
 
-## 线索层
+## 7. 对我们行动的启发
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+### 决策感与落地启发
 
-## 待补齐的落地问题
+今天真正有价值的是将工具熟练度、短期项目战功与稳定岗位价值分流治理，避免把所有激励压力转化为即时晋升。
 
-正式重跑必须回答：AI 贡献如何进入晋升证据包、谁负责验证与质量、是否有校准机制、是否存在调岗降薪和劳动合规风险。
+1. 保留季度或半年度固定晋升窗口，由业务、HR、技术与风险/安全共同校准；频率按组织规模和岗位周期设定。
+2. 建立受控例外：书面说明扩大后的责任、已持续的证据、预算来源、审批人和申诉/复盘路径；例外不应成为项目奖励的替代品。
+3. 把 AI 证据包拆为四栏：业务结果、质量/安全控制、可复用资产与采用、归因边界；明确禁止将 token、调用量或在线时长作为主指标。
+4. 将 badge 用于学习路径、项目派任和 readiness 对话；晋升仍以已承担的层级责任和组织影响判断。
+5. 为项目成功、临时扩大职责和外部市场溢价分别配置项目奖/认可、acting scope、市场或技能调薪，并设退出/复核规则。
 
-## 来源索引
+## 8. 待验证清单与下一步搜索路径
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+1. 查找公开员工手册中 `out-of-cycle promotion`、`acting scope`、`talent committee` 与 AI 贡献字段的同现条款。
+2. 查找 AI workflow、评测、人工复核、事故复盘、复用资产进入绩效或 promotion packet 的一手样本。
+3. 核验中国科技企业是否公开技能认证、专项奖励、稀缺系数与晋升校准之间的边界及申诉机制。
+4. 对例外晋升建立内部基线：比例、观察期、拒绝原因、申诉结果、性别/群体公平影响与后续绩效。
+5. 跟踪 Anthropic 等部署团队是否发布职业路径、绩效或员工结果；未发布前不升级为 L3。
+
+## 9. 来源索引
+
+- GitLab Handbook, *Promotions and Transfers*，2026-07-14 复核，https://handbook.gitlab.com/handbook/people-group/promotions-transfers/
+- Zapier, *Raising the AI fluency bar for every Zapier hire*，2026-03-31，https://www.zapier.com/blog/raising-ai-fluency-bar-in-hiring/
+- Anthropic, *UST is bringing Claude to physical AI*，2026-07-09，https://www.anthropic.com/news/ust-claude
+- Anthropic Careers, *Head of Applied AI Architecture, Beneficial Deployments*，2026-07-14 复核，https://job-boards.greenhouse.io/anthropic/jobs/5192104008
+- 内部来源：`digest.md`、`daily/2026-07-14.md`、`daily-report/2026-07-14.md`、`knowledge/wiki/gitlab-handbook-management-research-synthesis.md`、`knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md`、`specials/ai-org-talent-mechanism/2026-07-09/04-promotion-system.md`。
