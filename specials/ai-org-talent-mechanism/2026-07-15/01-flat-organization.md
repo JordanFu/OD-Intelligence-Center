@@ -25,6 +25,7 @@
 - **可进入事实层：** 腾讯试点取消 L1/L2 管理职级但保留完整管理责任（L2）；京东撤销 C4/C5 层级部门（L2）；Meta 裁员、转岗与 flatter/smaller teams（L2-L3）。
 - **只进入 Context：** 美团去称谓、Amazon `78%` 为 L5-L7、Meta `50:1`、管理跨度普遍扩大至 15–20 人，以及“3–6 个月见效”。
 - **今天真正新增的机制问题：** 管理身份能否从固定职级变成可动态赋予/撤销的标签？如果可以，专业定级、人员发展、绩效校准、薪酬与管理责任如何重新连接？
+- **来源表已补全：** 原文“文章来源”图片中的腾讯、京东、字节、美团、Meta、Amazon 六条链接均已转录并验证可访问。Amazon 官方公告可作为 L3 支撑“约 16,000 个岗位＋减少层级＋增加 ownership”；其余链接继续按媒体来源和同源转载边界使用。
 
 完整输入评估见 `knowledge/summaries/wechat-six-giants-middle-management-2026-07.md`。
 
@@ -34,6 +35,12 @@
 - Microsoft, *The latest in our company transformation*, 2026-07-06, https://blogs.microsoft.com/blog/2026/07/06/the-latest-in-our-company-transformation/
 - 36 氪, *理想汽车组织调整*，2026-07-03, https://36kr.com/p/3877919172047111
 - AI生态增长引擎，*半年之内，从中国到硅谷，六家巨头同时“挥刀”向中层*，2026-07-15 访问，https://mp.weixin.qq.com/s/ko7ka2qJ65Mv92MZsP4Ejg
+- 凤凰网 / 竞核，腾讯游戏负责人制，https://tech.ifeng.com/c/8ugEzpDy48S
+- 虎嗅 / 网易智能，京东零售撤销 C4/C5，https://www.huxiu.com/article/4874883.html
+- 36氪，字节中层与领导力原则，https://36kr.com/p/3878111899725829
+- 钛媒体，美团管理层沟通，https://www.tmtpost.com/7914086.html
+- 金融界，Meta AI 组织调整，https://finance.jrj.com.cn/2026/07/03085257677561.shtml
+- Amazon，*Update on our organization*，https://www.aboutamazon.com/news/company-news/amazon-layoffs-corporate-jan-2026
 
 > 研究状态：正式研究稿（单专题）。本稿复核本地专题基线、当日信息雷达和 2026-07-14 外部检索；以 Cars24 的一手制度文本为主案例，以两家独立媒体补足实施范围与人力机制。它不把单一公司做法外推为行业结论。
 

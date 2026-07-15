@@ -20,16 +20,35 @@
 3. **管理者角色由信息中转转向一线判断和上下文建设**：字节新版领导力原则强调深入一线、外部视角与 Context over Control；美团用“减少登味”弱化身份距离，但公开材料尚不足以证明正式层级变化。
 4. **AI-native 小团队与员工影响同时出现**：Meta 的裁员、转岗和 AI workflow 新组织提供了较强的组织重排案例，也同时暴露员工信任、监控与实施节奏问题。
 
+## 原文列出的六条首发出处
+
+原文没有把来源做成可点击超链接，而是放在“文章来源”图片中。以下链接由图片转录，并于 2026-07-15 逐条访问验证，六条均返回 HTTP 200：
+
+| 公司 | 原文标注的首发出处 | 时间 | 链接 | 来源性质 |
+|---|---|---|---|---|
+| 腾讯 | 竞核 / IT之家 | 7月11日 | https://tech.ifeng.com/c/8ugEzpDy48S | 凤凰网转载，标题为“腾讯游戏被曝试点不再使用组长、总监管理头衔，取消基干管理职级” |
+| 京东 | 网易智能 | 7月7日 | https://www.huxiu.com/article/4874883.html | 原文表格指向虎嗅页面；同一事实可在网易智能原创报道复核 |
+| 字节 | 36氪 / 21财经 | 6月29日 | https://36kr.com/p/3878111899725829 | 36氪深度报道，标题为“梁汝波对字节中层开刀了” |
+| 美团 | 每经 / 钛媒体 | 3月13日 | https://www.tmtpost.com/7914086.html | 钛媒体文章“王兴不想做老登”，属于媒体报道 |
+| Meta | 金融界 / 环球网 | 5–7月 | https://finance.jrj.com.cn/2026/07/03085257677561.shtml | 金融界汇编，标题为“扎克伯格称AI智能体开发未如预期加速，Meta裁员8000人转型承压” |
+| Amazon | 亚马逊官方公告 | 1月28日 | https://www.aboutamazon.com/news/company-news/amazon-layoffs-corporate-jan-2026 | 公司官方说明，页面标题为“Update on our organization” |
+
+### 来源链校准
+
+- **Amazon 官方公告可升级为 L3 事实源**：可支撑当轮约 16,000 个企业岗位调整，以及“减少层级、增加 ownership”的公司口径；它不支持“78% 为 L5–L7”，也没有把调整直接定义为 AI 替代。
+- **腾讯、京东、字节、美团仍以媒体获得的内部邮件或会议信息为主**：多家转载不会自动形成独立互证，需要区分同源转载与真正的第二来源。
+- **Meta 的金融界链接适合作为中文导航**：裁员、转岗和新 AI 组织应继续以 Reuters、NBC、NYT 等原始采访/备忘录链为证据主干；`50:1` 和满意度数字仍未因这条链接而升级。
+
 ## 六个案例的证据分层
 
 | 案例 | 文章主张 | 复核结果 | 当前等级 | 专题使用方式 |
 |---|---|---|---:|---|
-| 腾讯 IEG | 取消 L1/L2，负责人制，动态 M 标签 | 竞核披露内部邮件全文，网易、IT之家等转述；未见腾讯官网公告 | L2 | **重点新增案例**：证明“去管理职级但保留完整管理责任” |
-| 京东零售 | 取消 C4/C5，五级压到三级 | 网易智能原创报道可复核；未见京东官方公告或实施结果 | L2 | **重点新增案例**：用于管理跨度、审批集中和 C3 过载风险 |
+| 腾讯 IEG | 取消 L1/L2，负责人制，动态 M 标签 | 竞核披露内部邮件全文，凤凰/网易/IT之家同源转载；未见腾讯官网公告 | L2 | **重点新增案例**：证明“去管理职级但保留完整管理责任” |
+| 京东零售 | 取消 C4/C5，五级压到三级 | 原文指向虎嗅，网易智能原创报道可复核；未见京东官方公告或实施结果 | L2 | **重点新增案例**：用于管理跨度、审批集中和 C3 过载风险 |
 | 字节跳动 | 领导力原则要求深入一线 | 多家媒体对全员信核心条款一致；“脱离一线的中层价值会持续弱化”不是当前可核验原文 | L2 | 管理者角色重塑；不写成已裁中层或已减层 |
 | 美团 | “减少登味”、管理者接触一线 | 2000 余名管理者沟通会及王兴原话有多家权威媒体互证；“没有纯管理岗”等结构性描述未获一手确认 | L2 / L1 | 沟通与文化线索，不作为正式减层证据 |
 | Meta | 裁约 8000、转岗约 7000、AI-native 小团队 | NYT、NBC、Reuters 链路可支持裁员、转岗和 flatter/smaller teams；`50:1`、满意度跌幅等需另行追源 | L2-L3 | 海外重点案例；拆开组织动作、AI 因果与员工影响 |
-| Amazon | 三个月约 3 万岗位，主要压管理层 | Reuters 支持约 3 万企业岗位计划，并明确 Jassy 归因组织文化而非财务或 AI；`78% 为 L5-L7`仅见二次媒体 | L2 / L1 | 作为反例：压层与 AI 投资并行，不等于 AI 直接替代 |
+| Amazon | 当轮约 1.6 万、三个月计划约 3 万企业岗位 | Amazon 官方支持当轮约 1.6 万和“减少层级、增加 ownership”；Reuters 支持约 3 万计划并明确 Jassy 归因组织文化而非 AI；`78% 为 L5-L7`仅见二次媒体 | L3 / L2 / L1 | 作为反例：压层与 AI 投资并行，不等于 AI 直接替代 |
 
 ## 应进入专题的判断
 
@@ -57,10 +76,16 @@
 ## 复核来源
 
 - 微信原文：https://mp.weixin.qq.com/s/ko7ka2qJ65Mv92MZsP4Ejg
+- 原文“文章来源”图片：https://mmbiz.qpic.cn/mmbiz_png/bSIMssGTCxzGLuEgWyTXyVyUJIpHUFwVldvXWKEpWY42UuK3ExS1bjlbaVFzOpjIIoJFnYAy3Uls3baauzNAXxZVJuL9ZulEMicogyQtZ1W8/640?wx_fmt=png&from=appmsg
+- 凤凰网 / 竞核：腾讯游戏负责人制，https://tech.ifeng.com/c/8ugEzpDy48S
+- 虎嗅 / 网易智能：京东零售撤销 C4/C5，https://www.huxiu.com/article/4874883.html
+- 36氪：字节中层与领导力原则，https://36kr.com/p/3878111899725829
+- 钛媒体：美团管理层沟通，https://www.tmtpost.com/7914086.html
+- 金融界：Meta AI 组织调整，https://finance.jrj.com.cn/2026/07/03085257677561.shtml
+- Amazon：*Update on our organization*，https://www.aboutamazon.com/news/company-news/amazon-layoffs-corporate-jan-2026
 - 竞核 / 网易：腾讯游戏试点负责人制，2026-07-09，https://c.m.163.com/news/a/L1DE05NE0511CVBI.html
 - 网易智能：京东零售架构调整，2026-07-07，https://www.163.com/tech/article/L18JAB2200098IEO.html
 - 新浪科技：字节新版领导力原则，2026-06-30，https://finance.sina.com.cn/tech/2026-06-30/doc-inifeaah3468907.shtml
 - 21世纪经济报道：美团管理层沟通会，2026-03-13，https://www.21jingji.com/article/20260313/herald/f43e52720defeed04249b1ecf060c8af.html
 - NBC News：Meta 转岗与裁员，2026-05-19，https://www.nbcnews.com/tech/tech-news/meta-layoffs-ai-rcna345968
 - Reuters：Amazon 企业岗位削减计划，2026-01-22，https://www.reuters.com/business/world-at-work/amazon-plans-thousands-more-corporate-job-cuts-next-week-sources-say-2026-01-22/
-
