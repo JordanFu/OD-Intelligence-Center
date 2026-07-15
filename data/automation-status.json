@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T04:23:37.060Z",
+  "generatedAt": "2026-07-15T11:52:55.700Z",
   "module": "automation",
   "qualityStatus": "fail",
   "chains": {
@@ -12,11 +12,9 @@
     "topicProjects": {
       "qualityStatus": "fail",
       "today": "2026-07-15",
-      "todayStatus": "fallback",
-      "latestFormalDate": "2026-07-10",
+      "todayStatus": "formal",
+      "latestFormalDate": "2026-07-15",
       "pendingRerunDates": [
-        "2026-07-15",
-        "2026-07-14",
         "2026-07-13",
         "2026-07-12",
         "2026-07-11",
@@ -40,13 +38,13 @@
     "knowledgeLint": {
       "qualityStatus": "pass",
       "latestCatalogDate": "2026-07-15",
-      "reportCount": 86,
+      "reportCount": 87,
       "privatePathLeakCount": 0
     },
     "linkCheck": {
       "qualityStatus": "fail",
       "brokenCount": 1,
-      "checkedAt": "2026-07-15T04:23:36.993Z"
+      "checkedAt": "2026-07-15T11:52:55.648Z"
     },
     "githubActionsFallback": {
       "status": "pass",
@@ -70,13 +68,12 @@
       "criticalIssues": []
     },
     "localFormalTask": {
-      "status": "manual-check-required",
+      "status": "confirmed-formal",
       "evidence": "仅根据 topic-projects manifest 判断；无法从云端伪造本地正式运行完成。"
     }
   },
   "warnings": [
-    "本地正式任务无法确认已完成，需要人工补跑或等待正式自动化",
-    "专题待正式重跑 20 天"
+    "专题待正式重跑 18 天"
   ],
   "criticalIssues": [
     "一方链接或公开扫描桥接存在 fail"

@@ -21,8 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-06-26 | [日报](../2026-06-26/04-promotion-system.html) | 线索层/待验证 | 1. **可信度：高｜AI fluency 是门槛，不是晋升理由。** Palo Alto Networks 的“AI savvy”叙事说明 AI 能力正在成为基本要求。为什么重要：如果把会用工具直接晋升，会奖励表演型使用，而不是稳定影响。 | - Palo Alto Networks 的 AI savvy 叙事会影响晋升机会，但目前缺正式 promotion rubric。 | 1. AWS 是否把 AI 工具使用、agent orchestration 或 customer feedback 写入工程晋升标准。 |
-| 2026-06-27 | [日报](../2026-06-27/04-promotion-system.html) | 线索层/待验证 | 1. **固定晋升窗口仍有必要。** | - 暂不形成结论，但提示我们关注：同行评审和人才委员会在 AI 时代可能更重要，因为 AI 输出常跨团队，单一经理未必看得见真实贡献。 | 1. 哪些公司已把 AI fluency 写进 promotion rubric 或 performance review。 |
 | 2026-06-28 | [日报](../2026-06-28/04-promotion-system.html) | 线索层/待验证 | 1. **高人才密度不是永远小团队；当模型公司进入平台化阶段，组织问题会变成如何在扩编中保持高标准、低协调损耗和新人高质量进入核心任务。 可信度：中高。** 证据基础来自当日公开来源、信息库和上游组织情报；为什么重要：它影响 晋升机制 的设计边界。 | 暂无单独 Context 摘要。 | - 找一手材料：官方博客、招聘页、政府公告、SEC/年报、公司手册。 |
 | 2026-06-29 | [日报](../2026-06-29/04-promotion-system.html) | 线索层/待验证 | 1. **AI 安全岗位正在组织化：从“做一次红队测试”转向“有经理、有团队、有指标、有高层沟通、有跨组织修复节奏”。 可信度：中高。** 证据基础来自当日公开来源、信息库和上游组织情报；为什么重要：它影响 晋升机制 的设计边界。 | - 管理层该问：AI 贡献如何进入证据包，如何区分短期项目表现、工具熟练度和真实职级扩张？ | - 找一手材料：官方博客、招聘页、政府公告、SEC/年报、公司手册。 |
 | 2026-06-30 | [日报](../2026-06-30/04-promotion-system.html) | 线索层/待验证 | 1. **固定晋升窗口仍有必要。可信度：高。** GitLab 样本显示，校准、预算、薪酬、跨团队公平需要固定节奏。重要性：避免“谁会讲 AI 故事谁先晋升”。 | - 暂不形成结论，但提示我们关注：Workhuman Future Leaders 等 AI 人才识别产品提示“AI 预测晋升准备度”正在出现，但需要验证算法偏差、解释性和组织接受度。 | - 搜索 `AI promotion packet 2026`、`AI contribution performance review`、`agent workflow promotion… |
@@ -35,6 +33,8 @@
 | 2026-07-08 | [日报](../2026-07-08/04-promotion-system.html) | 线索层/待验证 | 1. **固定窗口仍是默认制度。可信度：高。** 证据基础：GitLab、专题 baseline、2026-07-07 formal。为什么重要：晋升牵涉同级比较、预算、薪酬带宽、公平审计和人才委员会校准，AI 贡献越快越需要统一校准时点。 | 暂无单独 Context 摘要。 | 1. 搜索公开 promotion packet 是否出现 AI contribution 字段。 |
 | 2026-07-09 | [日报](../2026-07-09/04-promotion-system.html) | 背景材料（Context）强证据 | 1. **固定晋升窗口仍是默认制度。可信度：高。** 晋升涉及同级比较、预算、薪酬带宽、公平审计和人才委员会校准；AI 贡献越快变化，越需要固定时点防止“会包装 AI 故事的人先升”。证据基础：GitLab、Zapier、EY/Payscale 与近日报告。 | 暂无单独 Context 摘要。 | 1. 是否已有公司公开把 AI contribution 写入 promotion packet。 |
 | 2026-07-10 | [日报](../2026-07-10/04-promotion-system.html) | 线索层/待验证 | 1. **固定晋升窗口仍是默认机制。可信度：高。** AI 贡献越快、越难归因，越需要统一窗口做同级比较、预算约束、薪酬带宽、人才委员会和公平审计。为什么重要：防止 AI 热点项目变成即时晋升通道。 | 暂无单独 Context 摘要。 | 1. AI contribution promotion packet company handbook。 |
+| 2026-07-14 | [日报](../2026-07-14/04-promotion-system.html) | 线索层/待验证 | 1. **固定窗口应为默认、例外为受控通道。可信度：中高。** GitLab 是 L3 的制度案例；由此推出的“默认”是本组织设计建议，目的在于保留同级比较、预算和公平校准，而不是声称所有企业均如此。 | 暂无单独 Context 摘要。 | 1. 查找公开员工手册中 `out-of-cycle promotion`、`acting scope`、`talent committee` 与 AI 贡献字段的同现条款。 |
+| 2026-07-15 | [日报](../2026-07-15/04-promotion-system.html) | 线索层/待验证 | 1. **固定窗口为默认、例外为受控通道。可信度：中高（GitLab L3＋治理判断）。** 为什么重要：窗口提供同级比较、预算与公平校准；例外必须有书面责任扩大、观察期、审批和复盘。 | 暂无单独 Context 摘要。 | 1. 查找公开员工手册中 `out-of-cycle promotion`、`acting scope`、`talent committee` 与 AI 贡献字段的同现条款。 |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-07-10｜[打开专题日报](../2026-07-10/04-promotion-system.html)｜源文件：`specials/ai-org-talent-mechanism/2026-07-10/04-promotion-system.md`
+- 最新日报：2026-07-15｜[打开专题日报](../2026-07-15/04-promotion-system.html)｜源文件：`specials/ai-org-talent-mechanism/2026-07-15/04-promotion-system.md`

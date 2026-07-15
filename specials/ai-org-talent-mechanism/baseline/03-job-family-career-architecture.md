@@ -21,8 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-06-26 | [日报](../2026-06-26/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **可信度：高｜岗位架构需要增加“外部职业路径接口”。** RAISE US 把职业导航、服务年、工资保险和短工时补偿组合起来。为什么重要：当某些岗位责任被 AI 吞并或压缩，公司内部未必能吸收所有人，岗位设计要连接外部转型生态。 | - RAISE US 的职业导航如果有效，可能成为岗位架构之外的“外部职业地图”；但当前还没有结果数据。 | 1. AWS 是否公开新版工程 career ladder、AI coding 培养机制或实习生训练要求。 |
-| 2026-06-27 | [日报](../2026-06-27/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **AI 时代岗位颗粒度总体会变粗，但关键专家域会更深。** | - 暂不形成结论，但提示我们关注：agent governance lead、AI workflow owner、AI evaluator、forward deployed AI engineer 等 title 正在出现，但是否形成稳定… | 1. AI workflow owner / agent supervisor / AI evaluator 的 JD 数量、薪酬和层级分布。 |
 | 2026-06-28 | [日报](../2026-06-28/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **高人才密度不是永远小团队；当模型公司进入平台化阶段，组织问题会变成如何在扩编中保持高标准、低协调损耗和新人高质量进入核心任务。 可信度：中高。** 证据基础来自当日公开来源、信息库和上游组织情报；为什么重要：它影响 岗位族群 的设计边界。 | 暂无单独 Context 摘要。 | - 找一手材料：官方博客、招聘页、政府公告、SEC/年报、公司手册。 |
 | 2026-06-29 | [日报](../2026-06-29/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **AI 安全岗位正在组织化：从“做一次红队测试”转向“有经理、有团队、有指标、有高层沟通、有跨组织修复节奏”。 可信度：中高。** 证据基础来自当日公开来源、信息库和上游组织情报；为什么重要：它影响 岗位族群 的设计边界。 | - 管理层该问：这是长期岗位族群、技能标签、项目角色，还是薪酬稀缺系数问题？ | - 找一手材料：官方博客、招聘页、政府公告、SEC/年报、公司手册。 |
 | 2026-06-30 | [日报](../2026-06-30/03-job-family-career-architecture.html) | 背景材料（Context）强证据 | 1. **应用层岗位会变宽，专家/治理岗位会变深。可信度：中高。** Codex、Deloitte、Cursor、Amazon 共同指向：客户场景、流程重构和 agent 协同需要端到端责任；AI 安全、FDE、agent governance 等能力又需要专业化。重… | - 暂不形成结论，但提示我们关注：国内业务提出“新建 AI 序列”时，本质可能是为关键员工争取激励、薪酬调整或市场溢价空间。 | - 搜索 Amazon AI Red Team 是否有发布 gate、风险否决权、强制修复权或正式 career path。 |
@@ -35,6 +33,8 @@
 | 2026-07-08 | [日报](../2026-07-08/03-job-family-career-architecture.html) | 背景材料（Context）强证据 | 1. **粗颗粒岗位会增加，但不是岗位消失。可信度：中高。** 证据基础：2026-07-07 formal、HBR role fluidity、Deloitte AI-native organization、今日前后端合并线索。为什么重要：岗位名称可变宽，但内部仍要… | 暂无单独 Context 摘要。 | 1. 找官方 JD：FDE、Agent Governance、AI Operations、Model Evaluation、AI Infra、Inference Cost Optimiza… |
 | 2026-07-09 | [日报](../2026-07-09/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **FDE 正在组织化，但还不是成熟序列。可信度：高。** OpenAI Gov FDE 与 Replit Head of FDE 说明责任包稳定度上升；缺口是职级路径、晋升规则、绩效模板、团队规模和薪酬带宽。为什么重要：避免把岗位热度误当成序列成熟。 | 暂无单独 Context 摘要。 | 1. OpenAI Gov FDE 的团队规模、正式汇报线、审批 gate、事故复盘和客户部署结果。 |
 | 2026-07-10 | [日报](../2026-07-10/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **岗位说明书要从职责清单改成责任系统。可信度：高。** 今日最可用的表达是：判断、AI 工作流、业务结果、质量/风险责任。为什么重要：这能减少“新词等于新岗位”的冲动。 | 暂无单独 Context 摘要。 | 1. FDE career ladder compensation band promotion criteria OpenAI Replit AWS Databricks Okta。 |
+| 2026-07-14 | [日报](../2026-07-14/03-job-family-career-architecture.html) | 线索层/待验证 | 决策感与证据边界：每条判断依据当日事实或稳定基线；未达成效证据的内容保持 L1-L2，不以岗位广告代替制度结论。 | 暂无单独 Context 摘要。 | 1. Anthropic 应用 AI 团队是否公开职级矩阵、管理跨度、绩效维度、内部流动和薪酬带宽？搜索词：`Anthropic "Applied AI" career ladder pr… |
+| 2026-07-15 | [日报](../2026-07-15/03-job-family-career-architecture.html) | 线索层/待验证 | - **FDE/Applied-AI 正从热词走向候选岗位族群。可信度：中高（L1＋L2）。** 它以端到端交付、客户采用、评测反馈和跨职能协调组成稳定责任包；仍缺 ladder、绩效模板与规模证据，先做 role package。 | 暂无单独 Context 摘要。 | 1. Anthropic 应用 AI 团队是否公开职级矩阵、管理跨度、绩效维度、内部流动和薪酬带宽？搜索词：`Anthropic "Applied AI" career ladder pr… |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-07-10｜[打开专题日报](../2026-07-10/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-07-10/03-job-family-career-architecture.md`
+- 最新日报：2026-07-15｜[打开专题日报](../2026-07-15/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-07-15/03-job-family-career-architecture.md`
