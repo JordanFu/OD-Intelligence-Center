@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "lastUpdated": "2026-07-14",
+  "lastUpdated": "2026-07-15",
   "mode": "karpathy-llm-wiki",
   "schema": "knowledge/CLAUDE.md",
   "categories": {
@@ -2454,6 +2454,34 @@
         "BCG"
       ],
       "originalUrl": "https://media-publications.bcg.com/BCG-Executive-Perspectives-AI-First-Companies-Win-the-Future-Issue1-10June2025.pdf"
+    },
+    {
+      "id": "36kr-china-bigtech-ai-org-routes-2026",
+      "title": "阿里、腾讯、字节 AI 组织路线对比线索",
+      "originalTitle": "一场没有退路的豪赌：解码阿里腾讯字节的AI“总攻”路线图",
+      "author": "王琳、任雪芸、陈桥辉",
+      "publisher": "Tech星球 / 36氪",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计",
+        "战略规划",
+        "人才发展"
+      ],
+      "date": "2026-07-15",
+      "uploadDate": "2026-07-15",
+      "description": "对比阿里、腾讯、字节的 AI 组织治理路径，重点追踪最高管理层参与、模型与算力资源配置、商业化责任、长期研究保护和关键人才策略；媒体细节按 L1 线索管理，已核验事实单独标注。",
+      "summaryFile": "./knowledge/wiki/36kr-china-bigtech-ai-org-routes-2026.md",
+      "fileName": "web article synthesis",
+      "fileSize": "summary only",
+      "tags": [
+        "阿里巴巴",
+        "腾讯",
+        "字节跳动",
+        "AI组织设计",
+        "决策权",
+        "待验证"
+      ],
+      "originalUrl": "https://36kr.com/p/3873498276861186"
     }
   ]
 }

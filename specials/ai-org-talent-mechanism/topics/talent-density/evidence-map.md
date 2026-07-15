@@ -7,3 +7,9 @@
 | 2026-06-27 | `specials/ai-org-talent-mechanism/2026-06-27/00-overview.md` | formal 总览判断 | 支持 H3 | L3 | 机制 | 初级岗位高级化会影响训练任务、成长路径和未来专家供给。 | 仍需行业分层和岗位级样本。 |
 | 2026-06-26 | `specials/ai-org-talent-mechanism/2026-06-26/00-overview.md` | formal 总览判断 | 修正 H3 | L2 | 观察 | 初级招聘可能继续存在，但任务复杂度和 AI 编排要求提高。 | AWS 访谈不能单独证明制度变化。 |
 | 2026-06-30 | `specials/ai-org-talent-mechanism/2026-06-30/00-overview.md` | 冲突 / 反例 | 修正 H2 | L2 | 观察 | OpenAI 内部 Codex 使用深度受组织环境影响，普通企业不宜直接外推。 | 需要普通企业 adoption 证据。 |
+
+## 待验证线索
+
+| 日期 | 来源文件 | 线索 | 等级 | 下一步验证 |
+|---|---|---|---|---|
+| 2026-07-15 | `knowledge/wiki/36kr-china-bigtech-ai-org-routes-2026.md` | 媒体稿提出阿里偏内部培养、腾讯和字节在关键前沿岗位更积极外部引才；关键专家是否获得跨部门资源调度权，可能比“挖到谁”更影响组织产出。 | L1 | 官方履历、招聘 JD、薪酬信号、团队流动与项目交付数据。 |
