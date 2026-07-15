@@ -2588,6 +2588,75 @@
         "AI治理与数字员工制度落地：HBR责任三要素如何转企业SOP；昆山科望/酷开/和睦家模式在HR系统的跟进(数字员工全生命周期：岗位说明书/绩效/安全/追责)"
       ],
       "note": "今日焦点——McKinsey(智能体型组织5人管100Agent)/HBR(1261人实验证伪数字员工)/BCG(5%规模化·45%中层将减)/Deloitte(84%未重设计·93%预算投技术)四大权威同日定调+划边界；纳德拉\"反向信息悖论\"把知识泄漏提为新风险；腾讯去职级/京东砍层级标志去中层化集体行动；昆山科望三证一考/酷开硅基四镜像/和睦家实操数字员工员工化。⚠️数据仅含08:00早间批次(抓取07:55-10:00)，13:00/17:00批次未落库。"
+    },
+    {
+      "date": "2026-07-15",
+      "weekday": "周三",
+      "items": 22,
+      "platforms": 10,
+      "trust": {
+        "high": 9,
+        "mid": 12,
+        "ref": 1
+      },
+      "tags": [
+        "智能型组织范式(McKinsey五大支柱/WorkChart/M-T型人才)",
+        "AI原生组织(Deloitte Great Rebuild/Redesign not automate)",
+        "AI战略清晰度>工具(BCG时间再投资/员工福祉)",
+        "决策架构重分配(CEO→首席决策架构师/四维决策场景)",
+        "层级压缩与中层重组(哑铃型/沙漏型/CAIO/栈型重组/部门墙倒塌)",
+        "数字员工管理(定岗定责/四维KPI/算力预算/Meta考核)",
+        "AI人才价值重估(大模型造富/人才定价/00后创始人/赛道分化)",
+        "AI裁员与编制(资本开支>研发/Block 6000+AI=10000/信息差归零/25岁焦虑)",
+        "合规边界(7·15 AI拟人化暂行办法/智能体下线/物理隔离)",
+        "权力转移(AEO/沙漏型分润/意图截留÷服务履约)",
+        "大厂AI组织(阿里TokenFoundry/腾讯联邦制/字节Seed/影子组织)",
+        "AI办公落地(WPS三通一平/不写周报/Skill定制/中层转型)",
+        "职业结构变化(AI与就业/初级岗位消失/技能鸿沟)"
+      ],
+      "topPicks": [
+        {
+          "title": "麦肯锡《智能型组织：AI时代的下一代组织范式》——五大支柱重塑Work Chart",
+          "platform": "McKinsey & Company",
+          "url": "https://www.mckinsey.com.cn/ai智能体组织：-5个人管理100个智能体员工/",
+          "reason": "目前最系统AI组织设计框架：2-5人管50-100个智能体、Work Chart取代Org Chart、M/T/AI增强型三类人才，可作为企业AI转型全面诊断工具"
+        },
+        {
+          "title": "HBR/Gartner 2026九大趋势：仅2% AI投资产生变革性价值，裁员快于生产力提升",
+          "platform": "Harvard Business Review / Gartner",
+          "url": "https://hbr.org/",
+          "reason": "对AI转型过度乐观的重要纠偏：WorkSlop泛滥、认知疲劳、先裁后补风险，OD须扮演'清醒者'建立严格ROI与反WorkSlop机制"
+        },
+        {
+          "title": "德勤Tech Trends 2026：The Great Rebuild——40%智能体项目2027前将失败因组织未重设计",
+          "platform": "Deloitte",
+          "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends.html",
+          "reason": "核心原则Redesign not automate直指OD根本方法：自动化破碎流程必败，CIO向AI布道者演变、Always Beta文化要求持续演进机制"
+        },
+        {
+          "title": "BCG第四期AI at Work：74%一线已是AI日常用户，战略清晰度比工具更重要",
+          "platform": "BCG",
+          "url": "https://www.bcg.com/publications/2026/ai-at-work-why-strategy-matters-more-than-tools",
+          "reason": "数据揭示采用率飙升但运营模式未升级：须建'节省时间再投资机制'，CEO亲自主导AI战略，衡量从使用率转向业务成果"
+        },
+        {
+          "title": "极客公园拆解Block裁员40%：6000人+AI=10000人，AI是'摩擦力归零机'",
+          "platform": "微信公众号（极客公园）",
+          "url": "https://www.geekpark.net/news/360387",
+          "reason": "利润增长+大规模裁员并行标杆样本，'人+AI乘数'已跑通；信息差归零瓦解中介商业模式，幽灵GDP提示需系统思维"
+        }
+      ],
+      "trends": [
+        "咨询三巨头+学术齐发定调'AI原生组织范式'：McKinsey出蓝图(五大支柱/WorkChart/M-T型人才)、BCG定方向(战略清晰度>工具/时间再投资)、Deloitte给红线(Redesign not automate/40%失败因流程未重设计)、HBR设清醒剂(2%变革性价值/WorkSlop/认知疲劳)——从愿景到'框架+落地红线'完整成型，OD从配套升级为组织变革核心引擎共识再固化",
+        "'裁员—效率'悖论显性化：HBR指出AI裁员速度超生产率提升(<1%因AI效率裁员却基于预期裁人)；晚点(资本开支>研发费用)、极客公园(Block 6000+AI=10000)用硬数据验证'人+AI乘数'已在生产环境跑通，编制规划须从'人力驱动'转向'人+算力协同驱动'",
+        "合规收紧与权力转移双压并行：7·15《AI拟人化暂行办法》施行倒逼豆包/千问/元宝'智能体下线+功能物理隔离'；AEO'沙漏型分润'(意图截留÷服务履约)重估中间层组织价值——OD须同步设计'合规物理隔离'与'价值链位置'评估"
+      ],
+      "nextFocus": [
+        "追踪McKinsey《智能型组织》五大支柱落地案例：尤其WorkChart替代Org Chart、M/T/AI增强型三类人才企业试点，看是否出现可复制国内样本",
+        "关注《AI拟人化暂行办法》施行首周大厂合规动作：智能体下线范围是否扩大、豆包猫箱迁移效果，评估'国内工具/海外情感'双轨组织落地成本",
+        "排查13:00/17:00采集批次：今日仍仅08:00早间批次落库(抓取07:55-09:50)，13:00/17:00批次截至17:00未入库，已连续多日，需排查采集脚本定时任务是否正常触发并补采"
+      ],
+      "note": "今日焦点——McKinsey(智能型组织五大支柱/WorkChart/M-T型人才)/BCG(战略清晰度>工具/时间再投资)/Deloitte(Great Rebuild·Redesign not automate·40%失败)/HBR-Gartner(2%变革性价值·WorkSlop·认知疲劳)咨询三巨头+学术同日定调AI原生组织范式；晚点(资本开支>研发)与极客公园(Block 6000+AI=10000·信息差归零)双验证'人+AI乘数'；7·15 AI拟人化暂行办法施行倒逼大平台智能体下线与功能物理隔离，AEO沙漏型分润重构中间层价值。⚠️数据仅含08:00早间批次(抓取07:55-09:50)，13:00/17:00批次未落库。"
     }
   ]
 }
