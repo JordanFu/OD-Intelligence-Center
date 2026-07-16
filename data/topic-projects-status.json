@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-07-15T15:07:37.480Z",
+  "generatedAt": "2026-07-16T01:48:40.566Z",
   "module": "topic-projects",
   "project": {
     "id": "ai-org-talent-mechanism",
     "title": "AI时代组织与人才机制四课题研究",
     "root": "specials/ai-org-talent-mechanism"
   },
-  "qualityStatus": "fail",
+  "qualityStatus": "warn",
   "latestFormalDate": "2026-07-15",
-  "latestAnyDate": "2026-07-15",
-  "today": "2026-07-15",
-  "todayStatus": "formal",
-  "latestStatus": "formal",
+  "latestAnyDate": "2026-07-16",
+  "today": "2026-07-16",
+  "todayStatus": "scheduled",
+  "latestStatus": "scheduled",
   "pendingRerunDates": [
     "2026-07-13",
     "2026-07-12",
@@ -33,6 +33,7 @@
     "2026-05-13"
   ],
   "statusCounts": {
+    "scheduled": 1,
     "formal": 46,
     "fallback": 18
   },
@@ -44,6 +45,63 @@
     "missing": "缺失：日期目录或必要文件不存在。"
   },
   "dates": [
+    {
+      "date": "2026-07-16",
+      "status": "scheduled",
+      "isFormal": false,
+      "isFallback": false,
+      "needsRerun": false,
+      "overview": null,
+      "overviewMarkdown": null,
+      "index": null,
+      "topicReports": [
+        {
+          "title": "overview",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        },
+        {
+          "title": "flat-organization",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        },
+        {
+          "title": "talent-density",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        },
+        {
+          "title": "job-family-career-architecture",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        },
+        {
+          "title": "promotion-system",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        }
+      ],
+      "missingRequired": [
+        "00-overview.md",
+        "01-flat-organization.md",
+        "02-talent-density.md",
+        "03-job-family-career-architecture.md",
+        "04-promotion-system.md"
+      ],
+      "hasFormalEntry": false,
+      "qualityGate": {
+        "path": null,
+        "status": "not-found"
+      },
+      "qualityIssues": [
+        "未到今日 18:00 正式自动化运行时间"
+      ]
+    },
     {
       "date": "2026-07-15",
       "status": "formal",
@@ -3217,38 +3275,27 @@
       ]
     }
   ],
-  "brokenLinks": [
-    {
-      "type": "public-scan",
-      "sourceFile": "data/info-feed-status.json",
-      "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-15.html",
-      "reason": "public scan bridge returned 404",
-      "status": 404
-    }
-  ],
+  "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-07-15T15:07:41.869Z",
-    "qualityStatus": "fail",
-    "firstPartyChecked": 1892,
-    "externalWarnings": 22,
-    "brokenCount": 1,
+    "checkedAt": "2026-07-16T01:48:58.667Z",
+    "qualityStatus": "warn",
+    "firstPartyChecked": 1891,
+    "externalWarnings": 14,
+    "brokenCount": 0,
     "publicScanBridge": [
       {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-10.html"
-      },
-      {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/"
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-16.html",
+        "reason": "network check warning: fetch failed"
       },
       {
         "ok": false,
-        "hardBroken": true,
-        "status": 404,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-15.html",
-        "reason": "public scan bridge returned 404"
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/",
+        "reason": "network check warning: fetch failed"
       }
     ]
   },
@@ -3265,15 +3312,7 @@
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1"
+    "network check warning: fetch failed",
+    "network check warning: fetch failed"
   ]
 }
