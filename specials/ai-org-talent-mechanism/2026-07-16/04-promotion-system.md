@@ -1,53 +1,79 @@
 # 2026-07-16｜专题四：未来组织的晋升机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+> 研究状态：正式决策稿。AnySearch 返回 GitLab/NIST 结果后用公开制度页面核验；不将 AI 绩效误写为晋升制度。
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+## 0. 读者应该带走什么
 
-## 今日一句话结论
+不要误读 AI 辅助写作、评测或日志为 AI 决定晋升；管理层该问证据是否证明稳定的下一层级责任，且是否有人审、校准与申诉。
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+## 背景材料
 
-## 今日核心判断
+以 GitLab 制度为 L3 样本，结合 NIST 评测纪律、部署案例和专题四基线；培训、JD 和项目成效不替代晋升事实。
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+## 1. 今日一句话专题判断
 
-## 今日背景材料
+AI 可以辅助材料准备，但人必须对评估、校准和裁决负责；固定周期把人才评估、晋升提名、薪酬和跨团队一致性接成闭环，例外只处理已发生的责任/岗位变化。
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+## 2. 今日新增事实：只写可追溯事实
 
-## 今日新增证据地图
+1. GitLab FY26 将人才评估与 Q2 晋升提名合并：1 月自评、1 月末经理评估/提名、2 月领导校准、3 月薪酬审查、5 月 1 日变更生效；评估含绩效与成长潜力，**L3**，单公司样本。[Talent Assessment](https://handbook.gitlab.com/handbook/people-group/talent-assessment/)
+2. GitLab 允许 Claude 协助收集信息、构思或润色评语，但要求实质人工输入/审查，经理不得只依赖 Claude，且禁止用其他 AI 工具评估员工，**L3**。
+3. GitLab 仍有周期性晋升校准及周期外通道；例外需 promotion document、理由和多方审批。其文档要求量化、可比较、下一层级能力/影响和晋升后持续角色变化，**L3**。[流程](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/)｜[指南](https://handbook.gitlab.com/handbook/people-group/promotion-document-style-guide/)
+4. NIST 2026-01 评测实践草案将系统评测分为目标、运行、分析/报告并强调可复现和不确定性沟通，**L2**；对象是模型，不是人事晋升。[NIST](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.800-2.ipd.pdf)
 
-| 渠道 | 当前状态 | 必须补齐 |
+## 3. 今日核心判断
+
+1. **人审评估—跨团队校准—预算治理—结果沟通是晋升闭环，AI 只辅助材料。可信度：高。** GitLab 明文边界可防日志、模型推荐和文笔取代裁决/申诉。
+2. **AI 贡献的证明对象是已持续的下一层级责任。可信度：中高。** 业务结果、质量/人工控制、复用和归因可进证据包；token、调用量、生成率、培训完成率不可单独证明职级价值。
+3. **固定窗口＋受控例外并存。可信度：高。** 周期承接同级比较、预算和公平；例外仅处理岗位价值/责任已稳定扩大，不是一场高曝光项目。
+4. **评测/复用资产须有人审和业务后果边界。可信度：中高。** NIST 支持评测纪律，不授权把 AI judge 分数转换成员工评级。
+5. **晋升、项目奖、认证派任、代理职责、市场保留必须分流。可信度：中高。** 否则头衔膨胀、证书套利和公平风险累积。
+
+## 4. 重点案例事实还原：GitLab 2026 人才评估与 AI 辅助边界
+
+- **机制/时间线：** 自评→经理评估及提名→领导校准→薪酬审查→生效；年度评估配年中非正式检查。
+- **动作：** 合并评估与提名；允许 Claude 辅助写作，但禁止其独立评估；以量化、可比较、下一层级影响和持续角色变化构成材料。
+- **例外/治理：** 周期外异动需要文档、理由及 People/薪酬/财务等审批。
+- **可借鉴：** 先统一证据格式和校准链，再限定 AI 做事实索引、初稿、完整性检查；不可照搬其 Workday、双周期与加薪阈值。
+- **边界：** Ode/DXC/UST 可补业务结果、控制、复用、采用四类证据，却没有“AI 项目成功即晋升”的制度。
+
+## 5. Context 层
+
+暂不形成结论，但提示我们关注：GitLab 的限制不证明实际公平性；FDE/部署人才的职业梯、晋升率、群体差异和留存未公开。系统评测与人事评价必须分离：非 AI 的复杂客户、风险处置和带教同样可证明下一层级责任。
+
+## 线索
+
+继续检索 AI 辅助绩效评审的数据权利、人工复核、薪酬/股权校准和申诉政策；社媒/招聘 JD 仅作线索。
+
+## 6. 证据地图
+
+| 渠道 | 证据 | 等级与边界 |
 |---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+| 公司制度 | GitLab 人才评估、晋升流程、材料指南 | L3；制度样本，非行业普遍性 |
+| 技术规范 | NIST 评测草案 | L2；模型评测，不是人事规则 |
+| 官方案例/媒体 | UST、DXC、Ode | L2；贡献类型，非晋升事实 |
+| 内部库 | `digest.md`、日更、专题四基线 | 去重与缺口定位 |
 
-## 线索层
+## 7. 对我们行动的启发
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+**落地启发：** 先建立可申诉的人工评审链，再考虑在材料阶段使用 AI。
 
-## 待补齐的落地问题
+1. 保留半年度/年度窗口，同时用代理职责、即时认可、项目奖和市场调薪处理周期内需求。
+2. AI 相关证据四栏：业务结果与反事实；质量/安全/人工接管；复用资产与采用；个人/团队/模型/客户归因；保留传统带教和领导证据。
+3. AI 仅可做索引、抽取、格式/完整性检查和差异提示；禁止独立评分、排序、推荐晋升。候选人可查看、更正事实。
+4. 例外记录责任、后果、持续期、预算、审批与申诉；未达门槛使用 acting 或项目认可。
+5. 季度审计例外比例、周期、群体分布与后续绩效。
 
-正式重跑必须回答：AI 贡献如何进入晋升证据包、谁负责验证与质量、是否有校准机制、是否存在调岗降薪和劳动合规风险。
+## 8. 待验证清单与下一步搜索路径
 
-## 来源索引
+- GitLab FY27 执行、公平性、申诉和校准偏差；`FY27 talent assessment promotion calibration fairness`。
+- 是否有公司将评测、复用、人审写入 promotion packet；`promotion document AI evaluation human review`。
+- AI 辅助评估的数据权利、人工复核和申诉；`AI assisted performance review appeal policy`。
+- Ode/DXC/UST 的职业路径和保留机制；国内认证/专项奖励与晋升边界。
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+## 9. 来源索引
+
+- GitLab 三份公开手册，2026-07-16 访问；NIST AI 800-2 IPD，2026-01（链接如上）。
+- Anthropic UST，2026-07-09；Anthropic DXC，2026-06-11；TechCrunch Ode，2026-07-15。
+- 检索词：`GitLab talent assessment promotion calibration 2026`、`AI promotion policy human oversight`；内部：近七日日报、`digest.md`、专题四基线。
+- [Payscale 2026 薪酬报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)（薪酬背景，非晋升制度）。

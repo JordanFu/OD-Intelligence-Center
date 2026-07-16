@@ -1,53 +1,76 @@
 # 2026-07-16｜专题二：高人才密度与复合型人才机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+> 研究状态：正式决策稿。AnySearch 连接失败后，以官方公告、TechCrunch 与内部近七日材料交叉核验。
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+## 0. 读者应该带走什么
 
-## 今日一句话结论
+人才密度是可交付、可控制、可复用的复合责任，不是培训覆盖、招聘 JD 数量或市场薪酬标签。
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+## 背景材料
 
-## 今日核心判断
+复核近期 DXC/UST 的训练与部署材料、Ode 报道及既有人才密度基线；它们均缺晋升/留存闭环。
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+## 1. 今日一句话专题判断
 
-## 今日背景材料
+高人才密度不是培训覆盖率或 AI 产量，而是能界定问题、工程化交付、配置人机控制、度量结果并沉淀复用方案的端到端责任包；应以小型专家池派驻，而非将所有员工培养为部署专家。
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+## 2. 今日新增事实：只写可追溯事实
 
-## 今日新增证据地图
+1. TechCrunch 2026-07-15 报道，Ode with Anthropic 已运营约 100 名工程师，与 Anthropic 应用 AI 团队协作，为企业定制系统；高管称增长中维持质量是挑战，**L2**。这说明团队画像和规模，不证明成效或留存。[报道](https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/)
+2. 报道称 Ode 选择 CEO 列为前一两项优先级的产品/核心流程项目，并拟持续评估业务影响，**L2**；未公开评估口径和结果。
+3. DXC 2026-06-11 计划从既有开发团队选人，配合课程培养数万名认证 FDE；UST 2026-07-09 宣布覆盖 20,000 名工程师、架构师、顾问、行业专家与 FDE，并另建部署团队、保留人工审批/审计，均为**L2**的联合一手公告；计划不等于完训、留存或价值。[DXC](https://www.anthropic.com/news/dxc-anthropic-alliance)｜[UST](https://www.anthropic.com/news/ust-claude)
 
-| 渠道 | 当前状态 | 必须补齐 |
+## 3. 今日核心判断
+
+1. **以端到端责任包定义复合型，而非以 FDE 标签定义。可信度：中高。** Ode、DXC、UST 都包含业务情境、交付、风险/审计和结果责任；人才盘点应验证“问题—交付—风险—影响—复用”。
+2. **采用“双层供给＋小池派驻”。可信度：中高。** 广覆盖保证基础能力，稀缺专家承担高后果流程和跨项目学习；混成一个人才标准会造成入口过筛和专家救火。
+3. **项目分配也是保留机制。可信度：中。** CEO sponsor、授权、结果基线和资产回收应成为核心人才派驻门槛；这是机制推断，不是 Ode 已证明的因果。
+4. **认证、培训和生成率只能作候选池信号。可信度：中高。** 公开样本没有“完训→质量→晋升/留存”闭环，不能兑换永久薪酬或高潜标签。
+
+## 4. 重点案例事实还原：Ode with Anthropic
+
+- **背景：** 模型能力之外，企业将 AI 放入核心流程需要实施能力；Ode 是面向企业的 AI 实施公司。
+- **组织与动作：** 约百名工程师、逾半被报道为有创业经历的通才；聚焦 CEO 高优先级产品/流程，与客户现场团队共同交付。
+- **机制：** 人才按“战略问题所有权＋现场交付＋可度量影响”配置，而不是单点技术技能。
+- **争议：** 质量、负荷、客户依赖、留存及业务结果均未公开。不可将小团队等同于必然高效率。
+- **可借鉴：** 只把专家投向有业务负责人、决策权、基线和资产回收要求的项目；不可照搬 boutique 招聘画像。
+
+## 5. Context 层
+
+暂不形成结论，但提示我们关注：FDE 供不应求、前创始人更适配的说法来自单一报道/高管叙事（L1）；它不应成为招聘硬门槛。DXC、UST 将广泛学习与人工审计并置，反驳“少量专家＋智能体可无监督扩容”。
+
+## 线索
+
+跟踪 FDE 招聘、薪酬带、股权、负荷和留存；JD/市场溢价只能指向后续验证，不能直接定义高潜。
+
+## 6. 证据地图
+
+| 渠道 | 材料 | 等级与边界 |
 |---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+| 权威媒体 | TechCrunch/Ode | L2；公司规模与高管叙事 |
+| 官方/一手 | DXC、UST、Anthropic | L2；训练/部署意图，非成效 |
+| 招聘薪酬 | FDE 职责与市场讨论 | L1；待薪带与留存数据 |
+| 内部库 | `digest.md`、日更、人才密度基线 | 校准与去重 |
 
-## 线索层
+## 7. 对我们行动的启发
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+**落地启发与管理含义：** 不要把专家池用于无授权的救火；优先保护其高价值责任和资产回收时间。
 
-## 待补齐的落地问题
+1. 人才盘点改用六项证据：问题界定、人机切分、评测/升级、业务结果、复用资产、带教。
+2. 建基础池和部署池；部署池有真实案例评审、轮换、服务目录、升级边界和资产回收指标。
+3. 设置核心问题派驻门：无业务 owner、决策权、基线和复用要求的项目，只做短期咨询。
+4. 激励奖励评测集、模板、参考实现、带教、跨团队采用与安全复盘；不以 token、代码生成率或证书直接定奖。
 
-正式重跑必须回答：复合型人才的能力证据是什么、是否有招聘/JD/薪酬信号、是否存在验证和治理能力的溢价、组织如何避免把“少招人”包装成高人才密度。
+## 8. 待验证清单与下一步搜索路径
 
-## 来源索引
+- Ode 的招聘、评估、晋升、负荷与留存；`Ode with Anthropic careers evaluation engineers`。
+- FDE 知识转移与驻场退出标准；`forward deployed engineer knowledge transfer metrics`。
+- DXC/UST 的完训、派驻、质量、加班与离职；`DXC Claude FDE certification outcomes`。
+- 国内是否出现“战略派驻＋资产回收”的正式 JD/项目复盘。
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+## 9. 来源索引
+
+- TechCrunch，2026-07-15；Anthropic DXC 联盟，2026-06-11；Anthropic UST，2026-07-09（链接如上）。
+- [Zapier AI fluency](https://www.zapier.com/blog/raising-ai-fluency-bar-in-hiring/)（能力标准反例校准）。
+- 检索词：`Ode Anthropic FDE July 2026`、`DXC Claude FDE certification`；AnySearch 失败后网页核验。
+- 内部：`daily/2026-07-15.md`、`daily/2026-07-16.md`、`digest.md`、专题二基线/证据图。

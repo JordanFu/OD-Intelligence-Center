@@ -1,53 +1,77 @@
-# 2026-07-16｜专题三：岗位、族群、序列持续建设
+# 2026-07-16｜专题三：岗位、族群、序列的持续建设
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+> 研究状态：正式决策稿。AnySearch 检索与一手页面复核；将 JD、训练公告和国际组织研究分别按其证据边界使用。
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+## 0. 读者应该带走什么
 
-## 今日一句话结论
+新 title 不是岗位架构；先把持续责任、决策/风险权、能力锚点和薪酬诉求分开，才能避免把留人压力伪装成建序列。
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+## 背景材料
 
-## 今日核心判断
+本轮对照岗位五路由基线、近七日日报、FDE JD、UST 案例和 ILO 的初级岗位反例。
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+## 1. 今日一句话专题判断
 
-## 今日背景材料
+今日强化“双速岗位架构”：端到端部署责任在跨地域 FDE JD 中高度同构、评测反馈进入结果口径；AI 能力扩散则应先嵌入既有岗位和真实任务。尚无公开 ladder、薪酬带与晋升数据，不能把 FDE/评测工程师直接宣布为成熟新序列。
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+## 2. 今日新增事实：只写可追溯事实
 
-## 今日新增证据地图
+1. McKinsey 2026-04-06 提出 AI-first 技术人才设计须同时处理新招何种人才、员工构建什么能力、何种能力训练给智能体及供应商 ROI，**L2**；是咨询框架，非全球普查。[原文](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)
+2. UST/Anthropic 7 月公告称将 Claude 嵌入工程平台和内部运营，并训练 20,000 名工程师、架构师和顾问；其称 iDEC 验证周期缩短 50–70%、四天至 48 小时，后者为公司自述，**L2**。[Anthropic](https://www.anthropic.com/news/ust-claude)
+3. OpenAI 多地 FDE JD 以 discovery、范围界定、系统设计、构建、生产上线、采用率、工作流影响、评测反馈为共同职责，检索日 2026-07-16，**L1**；JD 不证明职级或内部流动。[示例](https://openai.com/careers/forward-deployed-engineer-singapore/)
+4. ILO 2026-07 ASEAN 研究指出约 22.9% 劳动者在某种 GenAI 暴露岗位，最高暴露岗位仅 3.3%；高暴露年轻人就业增长偏弱但未见大规模失业，**L3**。暴露不等于替代。[报告](https://www.ilo.org/sites/default/files/2026-07/ILO%20Brief%20ASEAN%20AI%20v11%20clean.pdf)
 
-| 渠道 | 当前状态 | 必须补齐 |
+## 3. 今日核心判断
+
+1. **FDE/应用 AI 部署是候选岗位族群，暂不新建序列。可信度：中高。** JD 责任/结果趋同，但缺三层以上能力锚点、薪酬带、晋升和流动数据。
+2. **设计单元是责任系统，不是工具/标题。可信度：高。** 先写端到端结果、人机交接、质量/风险门、升级权和反馈闭环，才可定级定薪。
+3. **能力扩散不等于删除初级岗位。可信度：中高。** ILO 反例要求把自动化练习替为受监督评测、案例回放、异常处置和逐级授权。
+4. **专家会深化，但只支持 specialty/专家簇。可信度：中高。** 评测、红队、安全、推理系统等招聘是信号，不能等同完整职业梯。
+5. **新序列先审计真实诉求。可信度：中高。** 若本质为客户交付、技能热度或留人价差，应分流到项目角色、标签/认证、稀缺系数/带宽。
+
+## 4. 重点案例事实还原：UST 的既有角色嵌入
+
+- **背景/时间线：** 7 月 UST 与 Anthropic 公布把 Claude 接入工程与运营，并面向 Global 1000 交付。
+- **动作：** 在工程师、架构师、顾问既有角色中加入模型、验证、反馈和行业交付；训练 20,000 人，iDEC 拟纳入推理层。
+- **结果与边界：** 公司自称周期缩短；没有职业梯、薪带、晋升率或对照组。
+- **可借鉴：** 用“场景＋责任＋训练/认证＋质量数据”建立角色包；**不可照搬：** 服务商客户现场密度与伙伴关系不同。
+
+## 5. Context 层
+
+暂不形成结论，但提示我们关注：FDE JD 的稳定责任包不等于成熟序列；Anthropic 评测/安全等职位目录不证明独立组织或权力边界。ILO 也不支持“AI 已大规模消灭初级岗位”；自动化评估必须同时评估人才管道。
+
+## 线索
+
+后续核验 AI 评测工程师 JD、薪酬、职级与汇报线；招聘信号不等于岗位族群已成熟。
+
+## 6. 证据地图
+
+| 渠道 | 材料 | 等级/边界 |
 |---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+| 咨询 | McKinsey | L2；框架校准 |
+| 官方案例 | UST×Anthropic | L2；训练/意图，效果自述 |
+| 招聘 JD | OpenAI FDE、Anthropic 职位目录 | L1；责任信号，非制度 |
+| 国际组织 | ILO ASEAN | L3；暴露与就业边界 |
+| 内部 | `digest.md`、近七日日报、专题基线 | 去重、反例与问题追踪 |
 
-## 线索层
+## 7. 对我们行动的启发：岗位五路由
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+**落地启发与管理含义：** 新序列申请必须同时接受职位与薪酬双重评审，避免市场溢价被误写成组织改革。
 
-## 待补齐的落地问题
+1. **新建序列：** 连续 12 月需求、不可替代决策/风险签字、至少三层能力锚点、外部薪酬基准、预算和流动负责人五项齐备，6–12 月复核。
+2. **技能标签：** 能力附着既有岗位、快速变化或跨族群（AI fluency、基础评测）时使用，连到项目遴选、学习和流动。
+3. **项目角色/代理职责：** 客户部署、迁移、整改有明确终点，写交付、权限、补贴、退出日。
+4. **稀缺系数/项目奖/带宽：** 责任不变而市场溢价、保留或短缺时使用，设日落和复核。
+5. **坚决不新增：** 只是工具/热门词、明星个案、无长期需求/决策权/可评价结果/市场，或与既有族群重复。
 
-正式重跑必须回答：是新建岗位族群、保留技能标签，还是调整薪酬带宽和项目激励；必须同时验证岗位合并与专家岗位深化。
+## 8. 待验证清单与下一步搜索路径
 
-## 来源索引
+- 查 FDE、评测岗位的 ladder、薪酬、绩效和内部流动；`Forward Deployed Engineer career ladder compensation promotion`。
+- 查公开评测岗位架构；`model evaluations job architecture level compensation`。
+- 追 UST 认证、客户质量、事故与晋升；追国内 AI 评测工程师职级/薪酬一手材料。
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+## 9. 来源索引
+
+- McKinsey，2026-04-06；UST/Anthropic，2026-07-08/09；OpenAI Careers，2026-07-16 访问；ILO，2026-07（链接如上）。
+- 检索词：`AI first technology workforce job architecture 2026`、`FDE eval career ladder`、`entry level AI jobs ILO 2026`。
+- [Anthropic 职位目录](https://www.anthropic.com/careers/jobs?team=4079949008)、[GitLab 职业发展](https://handbook.gitlab.com/handbook/engineering/careers/)。
