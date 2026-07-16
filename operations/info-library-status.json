@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T01:48:50.450Z",
+  "generatedAt": "2026-07-16T04:34:51.120Z",
   "module": "info-feed",
   "qualityStatus": "warn",
   "latestDate": "2026-07-16",
@@ -562,8 +562,8 @@
     }
   ],
   "totals": {
-    "days": 90,
-    "cards": 891,
+    "days": 91,
+    "cards": 893,
     "platforms": 395,
     "dailyFiles": 85,
     "dailyReportFiles": 89,
@@ -578,7 +578,7 @@
     "status": "pending-link-check"
   },
   "trustStats": {
-    "⭐高": 445,
+    "⭐高": 446,
     "📰较高": 383,
     "💬参考": 41,
     "⭐高 / 📰较高 / 💬参考": 1,
@@ -602,7 +602,8 @@
     "📰较高（雷科技 AGI 原创+36氪授权发布）": 1,
     "⭐高（腾讯研究院出品）": 1,
     "⭐高（政府政策）": 1,
-    "📰较高（深度长文分析+一手诉讼资料）": 1
+    "📰较高（深度长文分析+一手诉讼资料）": 1,
+    "📰较高（甲子光年智库出品，独家深度）": 1
   },
   "missing": {
     "summary": 0,
@@ -625,7 +626,7 @@
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-07-16T01:48:40.398Z",
+    "checkedAt": "2026-07-16T01:48:58.667Z",
     "qualityStatus": "warn",
     "firstPartyChecked": 1891,
     "externalWarnings": 14,
