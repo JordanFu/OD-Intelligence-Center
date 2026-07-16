@@ -1,26 +1,26 @@
 ---
-title: 6277baa6 0f7b 4fbe 9c7c ceb3e0e9b325 flatland
-source: static-cdn.cars24.com
+title: ILO Brief ASEAN AI v11 clean
+source: ilo.org
 date: 待核验
 ingested: 2026-07-16
-sourceFile: ../knowledge/raw/static-cdn-cars24-com-6277baa6-0f7b-4fbe-9c7c-ceb3e0e9b325-flatland.pdf
-sourceUrl: https://static-cdn.cars24.com/prod/auto-news24-cms/cars24-blog-images/2026/05/28/6277baa6-0f7b-4fbe-9c7c-ceb3e0e9b325-flatland.pdf
+sourceFile: ../knowledge/raw/ilo-org-ilo-brief-asean-ai-v11-clean.pdf
+sourceUrl: https://www.ilo.org/sites/default/files/2026-07/ILO%20Brief%20ASEAN%20AI%20v11%20clean.pdf
 tags: [AI组织设计]
 status: 已下载原始PDF，已生成结构化初筛卡片
 ---
 
-# 6277baa6 0f7b 4fbe 9c7c ceb3e0e9b325 flatland
+# ILO Brief ASEAN AI v11 clean
 
 ## 一句话判断
 
-6277baa6 0f7b 4fbe 9c7c ceb3e0e9b325 flatland 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
+ILO Brief ASEAN AI v11 clean 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
 
 ## 入库状态
 
-- **来源机构**：static-cdn.cars24.com
+- **来源机构**：ilo.org
 - **来源类型**：media
-- **原文 URL**：https://static-cdn.cars24.com/prod/auto-news24-cms/cars24-blog-images/2026/05/28/6277baa6-0f7b-4fbe-9c7c-ceb3e0e9b325-flatland.pdf
-- **原始文件**：`knowledge/raw/static-cdn-cars24-com-6277baa6-0f7b-4fbe-9c7c-ceb3e0e9b325-flatland.pdf`
+- **原文 URL**：https://www.ilo.org/sites/default/files/2026-07/ILO%20Brief%20ASEAN%20AI%20v11%20clean.pdf
+- **原始文件**：`knowledge/raw/ilo-org-ilo-brief-asean-ai-v11-clean.pdf`
 - **入库日期**：2026-07-16
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
@@ -51,13 +51,8 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 
 ## 被引用位置
 
-- `specials/ai-org-talent-mechanism/2026-07-14/00-overview.md:109`：Cars24, *Flatland: An iceberg shift, not just org design*, 2026-05-28,
-- `specials/ai-org-talent-mechanism/2026-07-14/01-flat-organization.md:36`：原文
-- `specials/ai-org-talent-mechanism/2026-07-14/01-flat-organization.md:97`：Cars24，*Flatland: An iceberg shift, not just org design*，2026-05-28，
-- `specials/ai-org-talent-mechanism/2026-07-15/00-overview.md:138`：Cars24, *Flatland: An iceberg shift, not just org design*, 2026-05-28,
-- `specials/ai-org-talent-mechanism/2026-07-15/01-flat-organization.md:78`：原文
-- `specials/ai-org-talent-mechanism/2026-07-15/01-flat-organization.md:139`：Cars24，*Flatland: An iceberg shift, not just org design*，2026-05-28，
-- `specials/ai-org-talent-mechanism/2026-07-16/01-flat-organization.md:74`：Cars24 Flatland
+- `specials/ai-org-talent-mechanism/2026-07-16/00-overview.md:104`：ILO ASEAN
+- `specials/ai-org-talent-mechanism/2026-07-16/03-job-family-career-architecture.md:22`：报告
 
 ## 后续精读任务
 

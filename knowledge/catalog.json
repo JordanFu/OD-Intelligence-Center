@@ -2506,6 +2506,54 @@
         "static-cdn.cars24.com"
       ],
       "originalUrl": "https://static-cdn.cars24.com/prod/auto-news24-cms/cars24-blog-images/2026/05/28/6277baa6-0f7b-4fbe-9c7c-ceb3e0e9b325-flatland.pdf"
+    },
+    {
+      "id": "p030",
+      "title": "NIST.AI.800 2.ipd",
+      "originalTitle": "NIST.AI.800 2.ipd",
+      "author": "nvlpubs.nist.gov",
+      "publisher": "nvlpubs.nist.gov",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-07-16",
+      "description": "NIST.AI.800 2.ipd 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-nvlpubs-nist-gov-nist-ai-800-2-ipd.md",
+      "rawFile": "./knowledge/raw/nvlpubs-nist-gov-nist-ai-800-2-ipd.pdf",
+      "fileName": "nvlpubs-nist-gov-nist-ai-800-2-ipd.pdf",
+      "fileSize": "697882 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "nvlpubs.nist.gov"
+      ],
+      "originalUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.800-2.ipd.pdf"
+    },
+    {
+      "id": "p031",
+      "title": "ILO Brief ASEAN AI v11 clean",
+      "originalTitle": "ILO Brief ASEAN AI v11 clean",
+      "author": "ilo.org",
+      "publisher": "ilo.org",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-07-16",
+      "description": "ILO Brief ASEAN AI v11 clean 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-ilo-org-ilo-brief-asean-ai-v11-clean.md",
+      "rawFile": "./knowledge/raw/ilo-org-ilo-brief-asean-ai-v11-clean.pdf",
+      "fileName": "ilo-org-ilo-brief-asean-ai-v11-clean.pdf",
+      "fileSize": "636859 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "ilo.org"
+      ],
+      "originalUrl": "https://www.ilo.org/sites/default/files/2026-07/ILO%20Brief%20ASEAN%20AI%20v11%20clean.pdf"
     }
   ]
 }

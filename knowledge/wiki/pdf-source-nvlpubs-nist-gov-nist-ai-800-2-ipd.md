@@ -1,26 +1,26 @@
 ---
-title: 6277baa6 0f7b 4fbe 9c7c ceb3e0e9b325 flatland
-source: static-cdn.cars24.com
+title: NIST.AI.800 2.ipd
+source: nvlpubs.nist.gov
 date: 待核验
 ingested: 2026-07-16
-sourceFile: ../knowledge/raw/static-cdn-cars24-com-6277baa6-0f7b-4fbe-9c7c-ceb3e0e9b325-flatland.pdf
-sourceUrl: https://static-cdn.cars24.com/prod/auto-news24-cms/cars24-blog-images/2026/05/28/6277baa6-0f7b-4fbe-9c7c-ceb3e0e9b325-flatland.pdf
+sourceFile: ../knowledge/raw/nvlpubs-nist-gov-nist-ai-800-2-ipd.pdf
+sourceUrl: https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.800-2.ipd.pdf
 tags: [AI组织设计]
 status: 已下载原始PDF，已生成结构化初筛卡片
 ---
 
-# 6277baa6 0f7b 4fbe 9c7c ceb3e0e9b325 flatland
+# NIST.AI.800 2.ipd
 
 ## 一句话判断
 
-6277baa6 0f7b 4fbe 9c7c ceb3e0e9b325 flatland 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
+NIST.AI.800 2.ipd 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
 
 ## 入库状态
 
-- **来源机构**：static-cdn.cars24.com
+- **来源机构**：nvlpubs.nist.gov
 - **来源类型**：media
-- **原文 URL**：https://static-cdn.cars24.com/prod/auto-news24-cms/cars24-blog-images/2026/05/28/6277baa6-0f7b-4fbe-9c7c-ceb3e0e9b325-flatland.pdf
-- **原始文件**：`knowledge/raw/static-cdn-cars24-com-6277baa6-0f7b-4fbe-9c7c-ceb3e0e9b325-flatland.pdf`
+- **原文 URL**：https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.800-2.ipd.pdf
+- **原始文件**：`knowledge/raw/nvlpubs-nist-gov-nist-ai-800-2-ipd.pdf`
 - **入库日期**：2026-07-16
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
@@ -51,13 +51,7 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 
 ## 被引用位置
 
-- `specials/ai-org-talent-mechanism/2026-07-14/00-overview.md:109`：Cars24, *Flatland: An iceberg shift, not just org design*, 2026-05-28,
-- `specials/ai-org-talent-mechanism/2026-07-14/01-flat-organization.md:36`：原文
-- `specials/ai-org-talent-mechanism/2026-07-14/01-flat-organization.md:97`：Cars24，*Flatland: An iceberg shift, not just org design*，2026-05-28，
-- `specials/ai-org-talent-mechanism/2026-07-15/00-overview.md:138`：Cars24, *Flatland: An iceberg shift, not just org design*, 2026-05-28,
-- `specials/ai-org-talent-mechanism/2026-07-15/01-flat-organization.md:78`：原文
-- `specials/ai-org-talent-mechanism/2026-07-15/01-flat-organization.md:139`：Cars24，*Flatland: An iceberg shift, not just org design*，2026-05-28，
-- `specials/ai-org-talent-mechanism/2026-07-16/01-flat-organization.md:74`：Cars24 Flatland
+- `specials/ai-org-talent-mechanism/2026-07-16/04-promotion-system.md:22`：NIST
 
 ## 后续精读任务
 
