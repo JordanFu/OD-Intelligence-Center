@@ -1,53 +1,76 @@
 # 2026-07-17｜专题四：未来组织的晋升机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+> 研究状态：正式日报。固定晋升窗口、即时认可与 AI 辅助评估被分别处理；不把模型日志、培训完成或生成量误写为晋升证据。
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+## 0. 读者应该带走什么｜背景材料
 
-## 今日一句话结论
+管理层该问：一项 AI 贡献能否经人审、同级比较、预算校准和申诉复核，证明其已持续承担下一层级责任？本稿以 GitLab FY26 评估—晋升—薪酬制度、既有能力量表与内部近日报告为背景材料。
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+## 1. 今日一句话专题判断
 
-## 今日核心判断
+未来晋升不应在“随时升”与“只等窗口”间二选一：正式职级晋升仍需周期校准、预算和申诉链，而项目制机会、技能认证与即时奖励应承接周期内的真实贡献；AI 最多辅助证据整理和一致性检查，不能替代裁决。
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+## 2. 今日新增事实：只写可追溯事实
 
-## 今日背景材料
+1. GitLab FY26 把人才评估与 Q2 晋升提名合并：2026-01-12 至 23 日员工自评、1 月 26 至 30 日经理评估及提名、2 月领导校准、3 月薪酬审查，晋升与薪酬变更于 5 月 1 日生效，**L3**。[Talent Assessment](https://handbook.gitlab.com/handbook/people-group/talent-assessment/)
+2. 同一制度页允许 Claude 协助收集资料、构思或润色评语，但要求实质性人工输入和复核，且经理不能只依赖 Claude；页面明确不允许以其他 AI 工具评估员工，**L3**。[Talent Assessment](https://handbook.gitlab.com/handbook/people-group/talent-assessment/)
+3. GitLab 的公开晋升/转岗制度列出两条职业发展通道：周期性晋升校准，或申请并面试公开岗位；跨岗位族群时须复核职级与职责范围，升至更高职级通常对应薪酬和/或晋升股权。该页面标注“正在审阅和建设”，**L3**。[Promotions and Transfers](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/)
+4. GitLab 2026-03-11 更新的年度薪酬审查页面称，薪酬决定同时看人才评估的绩效/成长潜力、团队内部角色与薪酬评估、公司表现和预算、当地支付惯例及法规；FY27 现金薪酬审查预算为除印度外目标现金总额的 3.5%、印度为 7%，**L3**。[Annual Compensation Review](https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-review-cycle/)
+5. 本日外部检索未发现可复核的公司制度，证明“AI 贡献分数/智能体产出”已经作为独立、自动化晋升规则；这是一项**检索结果边界**，不是“没有任何公司这样做”的结论。内部知识库的 Zapier 量表只支持将可复用系统、质量和责任写入证据包，**L2**。[Zapier 量表](../../../knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md)
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+## 3. 今日核心判断
 
-## 今日新增证据地图
+1. **固定窗口与受控例外应共存。可信度：高（L3）。** GitLab 把评估、提名、校准、薪酬、沟通和生效串成闭环；正式晋升的可比性与预算治理需要窗口。周期外需求应先被识别为代理职责、岗位变动、项目奖或市场调薪，只有持续的更高层级责任才走例外晋升。
+2. **AI 贡献的单位是“经人审的责任扩张”，不是工具使用量。可信度：中高（L2-L3）。** 合格证据至少包括业务结果及反事实、质量/安全/人工接管、可复用资产与采用、个人—团队—模型—客户的归因；调用量、节省工时估算和培训证书可作材料，不能单独证明下一层级。
+3. **AI 应被限制在材料层，不能成为晋升裁判。可信度：高（L3）。** GitLab 已给出可执行边界：可做收集/构思/润色，但要求人工实质输入与审查。人事系统须保留证据来源、人工判断、校准记录和员工纠错/申诉入口。
+4. **晋升与薪酬必须既关联又不混同。可信度：高（L3）。** GitLab 将评估、岗位范围、预算、当地法规和公司表现共同纳入薪酬决定；市场紧缺或短期留人不自动构成晋升，反之晋升也不应被视为唯一奖励。
 
-| 渠道 | 当前状态 | 必须补齐 |
+## 4. 重点案例事实还原：GitLab FY26 人才评估—晋升—薪酬闭环
+
+- **背景与时间线：** FY26 将一次人才评估窗口与 Q2 晋升提名整合；1 月完成自评和经理提名，2 月领导校准，3 月薪酬审查，5 月 1 日生效。
+- **机制：** 评估同时考虑绩效与成长潜力；晋升还有公开岗位竞聘通道。薪酬审查纳入个人评估、内部角色/薪酬、预算、当地市场和法规。
+- **AI 使用边界：** Claude 可帮助收集、构思、润色；经理要实质性输入并复核，不能只依赖 Claude，其他 AI 工具不得用于员工评估。
+- **结果与边界：** 文档没有公布晋升率、群体差异、申诉量、AI 辅助比例或公平性效果；因此不能将该制度宣称为已验证的最佳实践。
+- **争议与阻碍：** 周期校准可能滞后于岗位变化；绩效/潜力评语也可能受经理判断偏差影响。用 AI 扩大材料产能并不能消除这些偏差，反会增加数据质量和可解释性风险。
+- **可借鉴点：** 先把人工证据格式、同级比较、预算和沟通链路写清，再为 AI 设定允许动作和禁止动作；把临时代理职责与永久升职分开。
+- **不可照搬点：** GitLab 的远程优先文化、Workday/Greenhouse 流程及年度预算治理，不等同于中国企业的劳动合同、调薪和审批机制。
+
+## 5. Context 层
+
+暂不形成结论，但提示我们关注：技能徽章、AI 认证和项目制认可能够增加高频反馈，却尚无本日高置信证据证明它们应自动兑换职级。百度统一职级的媒体转述也尚未提供晋升规则、校准方式或员工影响原文。与此同时，若 AI 参与整理绩效材料，数据最小化、访问控制、候选人知情、更正权和人工申诉将成为制度必填项，而不是实施细节。
+
+## 6. 证据地图
+
+| 渠道 | 本日材料 | 等级与可用边界 |
 |---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+| 公司制度/一手 | GitLab 人才评估、晋升转岗、年度薪酬审查 | L3；具体制度，非行业普遍结果 |
+| 官方/监管 | 本日未取得直接规定 AI 晋升的权威新文件 | 缺口，后续补法务边界 |
+| 权威媒体/咨询 | 本日无可升级强结论的新增报道 | 不作为主证据 |
+| 公司案例 | GitLab | 可还原流程与禁止动作，未公开成效 |
+| 学术/专业研究 | 本日未取得可验证的晋升算法效果研究 | 缺口 |
+| 招聘/薪酬 | GitLab 薪酬审查中的预算与复核机制 | L3；非 AI 人才市场价格数据 |
+| 社媒/职场线索 | 认证即可晋升、AI 打分等讨论 | L1；只留待验证 |
+| 内部信息库/知识库 | Zapier AI 熟练度量表、近日报告、专题基线 | 用于定义证据项与反例 |
 
-## 线索层
+## 7. 行动启发｜对我们行动的启发
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+建立“**正式晋升 + 高频认可 + 受控例外**”三层机制：
 
-## 待补齐的落地问题
+1. **正式晋升：** 保留半年/年度窗口，统一下一层级责任、影响范围、质量/风险、带教和跨团队证据；由人才委员会做跨团队校准，并记录理由、预算和申诉结果。
+2. **高频认可：** 用技能徽章、项目负责人、即时奖金、项目奖、认证派任和内部机会承接贡献；它们是证据与激励，默认不改变职级。
+3. **受控例外：** 岗位价值或责任已持续扩大时，可走周期外审批；必须写持续期、权限、可量化后果、薪酬来源和复核日期。短期项目先用代理职责。
+4. **AI 证据治理：** AI 仅做索引、去重、模板完整性和差异提示；禁止独立评分、排序或推荐晋升。候选人须能查看原始事实、更正错误并提出申诉。
+5. **季度审计：** 监控例外比例、晋升等待时间、群体分布、评级—调薪一致性、事后绩效和代理职责转正率；对异常团队追查评价标准而非简单压名额。
 
-正式重跑必须回答：AI 贡献如何进入晋升证据包、谁负责验证与质量、是否有校准机制、是否存在调岗降薪和劳动合规风险。
+## 8. 待验证清单与下一步搜索路径
 
-## 来源索引
+- 核验 GitLab FY26 实际执行、申诉、公平性和 AI 使用控制；检索：`GitLab FY26 talent assessment calibration appeal AI Claude`。
+- 查中国企业在岗位价值变化、项目制贡献或技能认证下的正式晋升/调薪制度原文；检索：`项目制 晋升 制度 AI 贡献 人才委员会`。
+- 寻找人事 AI 的数据保护、人工复核和说明/申诉要求的权威法规或执法指南；检索：`AI assisted performance review human oversight appeal guidance 2026`。
+- 获取同一岗位在“代理职责—晋升—薪酬/股权”三阶段的实际案例，检验三层机制是否避免头衔膨胀与等待期不公。
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+## 9. 来源索引
+
+- 检索日期：2026-07-17；检索词：`2026 promotion policy AI performance review human oversight official`、`site:handbook.gitlab.com promotion talent assessment FY26 AI Claude manager evaluation`、`中国 AI 岗位 序列 职级 晋升 制度 2026`。
+- GitLab Handbook：Talent Assessment、Promotions and Transfers、Annual Compensation Review（页面更新/访问日期见正文）。
+- 内部校准源：`knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md`、`digest.md`、`specials/ai-org-talent-mechanism/2026-07-16/04-promotion-system.md`。
