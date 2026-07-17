@@ -21,7 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-06-29 | [日报](../2026-06-29/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **AI 安全岗位正在组织化：从“做一次红队测试”转向“有经理、有团队、有指标、有高层沟通、有跨组织修复节奏”。 可信度：中高。** 证据基础来自当日公开来源、信息库和上游组织情报；为什么重要：它影响 岗位族群 的设计边界。 | - 管理层该问：这是长期岗位族群、技能标签、项目角色，还是薪酬稀缺系数问题？ | - 找一手材料：官方博客、招聘页、政府公告、SEC/年报、公司手册。 |
 | 2026-06-30 | [日报](../2026-06-30/03-job-family-career-architecture.html) | 背景材料（Context）强证据 | 1. **应用层岗位会变宽，专家/治理岗位会变深。可信度：中高。** Codex、Deloitte、Cursor、Amazon 共同指向：客户场景、流程重构和 agent 协同需要端到端责任；AI 安全、FDE、agent governance 等能力又需要专业化。重… | - 暂不形成结论，但提示我们关注：国内业务提出“新建 AI 序列”时，本质可能是为关键员工争取激励、薪酬调整或市场溢价空间。 | - 搜索 Amazon AI Red Team 是否有发布 gate、风险否决权、强制修复权或正式 career path。 |
 | 2026-07-01 | [日报](../2026-07-01/03-job-family-career-architecture.html) | 背景材料（Context）强证据 | 1. **应用层岗位在变宽。可信度：高。** Microsoft 和 Deloitte 都指向同一事实：AI 让人从执行转向定义目标、设计工作、判断质量和拥有结果。重要性：岗位边界会从“做某项任务”转向“拥有一段端到端结果”。 | - **背景：** AI 系统风险进入产品、训练、推理、模型架构和基础设施全链路。 | 1. AWS FDE 是否公开岗位族群、职级路径、薪酬带宽和绩效指标。 |
 | 2026-07-02 | [日报](../2026-07-02/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **岗位分工正在“双向分化”。可信度：高。** 应用岗位变宽，专家岗位变深。业务、产品、运营、项目岗位更需要端到端结果责任；AI 安全、模型评估、智能体治理、FDE 等则需要更深专业门槛。 | - 暂不形成结论，但提示我们关注：AI 安全红队、模型风险、评估验证、智能体治理可能更快成为专家方向，因为它们具有风险责任、质量标准和外部市场溢价。 | 1. AWS FDE 是否公开岗位等级、管理岗、薪酬带宽、绩效指标和晋升路径。 |
@@ -35,6 +34,7 @@
 | 2026-07-14 | [日报](../2026-07-14/03-job-family-career-architecture.html) | 线索层/待验证 | 决策感与证据边界：每条判断依据当日事实或稳定基线；未达成效证据的内容保持 L1-L2，不以岗位广告代替制度结论。 | 暂无单独 Context 摘要。 | 1. Anthropic 应用 AI 团队是否公开职级矩阵、管理跨度、绩效维度、内部流动和薪酬带宽？搜索词：`Anthropic "Applied AI" career ladder pr… |
 | 2026-07-15 | [日报](../2026-07-15/03-job-family-career-architecture.html) | 线索层/待验证 | - **FDE/Applied-AI 正从热词走向候选岗位族群。可信度：中高（L1＋L2）。** 它以端到端交付、客户采用、评测反馈和跨职能协调组成稳定责任包；仍缺 ladder、绩效模板与规模证据，先做 role package。 | 暂无单独 Context 摘要。 | 1. Anthropic 应用 AI 团队是否公开职级矩阵、管理跨度、绩效维度、内部流动和薪酬带宽？搜索词：`Anthropic "Applied AI" career ladder pr… |
 | 2026-07-16 | [日报](../2026-07-16/03-job-family-career-architecture.html) | 结论层候选 | 1. **FDE/应用 AI 部署是候选岗位族群，暂不新建序列。可信度：中高。** JD 责任/结果趋同，但缺三层以上能力锚点、薪酬带、晋升和流动数据。 | 暂无单独 Context 摘要。 | - 查 FDE、评测岗位的 ladder、薪酬、绩效和内部流动；`Forward Deployed Engineer career ladder compensation promotio… |
+| 2026-07-17 | [日报](../2026-07-17/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **“共用能力语言＋角色画像”比“AI 序列”更应先行。可信度：高（L3）。** 华为/TM Forum 的矩阵与既有 Zapier 材料都把能力放在跨域层，支持先建立共用水平语言、再由岗位画像定义任务与责任；这能减少“同一 AI 能力在不同职能被反复命名”的架… | 暂无单独 Context 摘要。 | - 取得百度全员信、任职资格、FAQ 或员工说明，核验统一数字职级后的通道、薪酬和申诉；检索：`百度 2026 职级 全员信 任职资格 套改`。 |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-07-16｜[打开专题日报](../2026-07-16/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-07-16/03-job-family-career-architecture.md`
+- 最新日报：2026-07-17｜[打开专题日报](../2026-07-17/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-07-17/03-job-family-career-architecture.md`
