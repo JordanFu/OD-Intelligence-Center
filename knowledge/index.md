@@ -1,7 +1,7 @@
 # AI 组织设计知识库 — 索引
 
 > 按 Karpathy LLM Wiki 模式维护 · LLM 负责更新 · 人类负责审核
-> 最后更新: 2026-07-16
+> 最后更新: 2026-07-17
 
 ---
 
@@ -115,7 +115,7 @@
 | [BCG + MIT Sloan：The Emerging Agentic Enterprise](wiki/pdf-source-bcg-bcg-mit-sloan-the-emerging-agentic-enterprise.md) | BCG | Agentic enterprise、中层层级、组织结构变量 | 强相关：扁平化与管理层级 | 已索引待重试，引用 8 次 |
 | [AIHR：HR Priorities 2026 Report](wiki/pdf-source-aihr-aihr-hr-priorities-2026-report.md) | AIHR | 技能本位组织、HR 重构、skill count | 强相关：岗位与技能体系 | 已下载原文，引用 1 次 |
 | [us spans and layers for the modern organization 2020](wiki/pdf-source-deloitte-us-spans-and-layers-for-the-modern-organization-2020.md) | Deloitte | AI组织设计、变革管理 | 待评估：需精读后确定 | 已下载原文，引用 3 次 |
-| [EY：Future of Pay Report 2026](wiki/pdf-source-ey-ey-future-of-pay-report-2026.md) | EY | 技能薪酬、生产率锚点、AI 人才溢价 | 强相关：薪酬与激励机制 | 已下载原文，引用 141 次 |
+| [EY：Future of Pay Report 2026](wiki/pdf-source-ey-ey-future-of-pay-report-2026.md) | EY | 技能薪酬、生产率锚点、AI 人才溢价 | 强相关：薪酬与激励机制 | 已下载原文，引用 146 次 |
 | [pip faq 2026](wiki/pdf-source-facs-org-pip-faq-2026.md) | facs.org | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 6 次 |
 | [12 087 bc50bde2 3016 457a 9bee dc988cb1056b](wiki/pdf-source-hbs-edu-12-087-bc50bde2-3016-457a-9bee-dc988cb1056b.md) | hbs.edu | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 5 次 |
 | [cesifo1 wp12373](wiki/pdf-source-ifo-de-cesifo1-wp12373.md) | ifo.de | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 3 次 |

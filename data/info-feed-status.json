@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T15:17:27.181Z",
+  "generatedAt": "2026-07-17T04:37:24.348Z",
   "module": "info-feed",
   "qualityStatus": "warn",
   "latestDate": "2026-07-16",
@@ -565,7 +565,7 @@
     "days": 91,
     "cards": 893,
     "platforms": 395,
-    "dailyFiles": 85,
+    "dailyFiles": 86,
     "dailyReportFiles": 89,
     "weeklyFiles": 1
   },
@@ -635,15 +635,20 @@
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1"
   ],
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-07-16T15:17:31.035Z",
+    "checkedAt": "2026-07-17T04:37:26.166Z",
     "qualityStatus": "warn",
-    "firstPartyChecked": 1923,
-    "externalWarnings": 14,
+    "firstPartyChecked": 1949,
+    "externalWarnings": 19,
     "brokenCount": 0,
     "publicScanBridge": [
       {
