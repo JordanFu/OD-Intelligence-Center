@@ -21,7 +21,6 @@ AI 时代的高人才密度不只是“更强个体”，而是能把问题定�
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-06-30 | [日报](../2026-06-30/02-talent-density.html) | 线索层/待验证 | 1. **高密度复合型人才的识别标准应是六维，而不是单一 AI 熟练度。可信度：高。** 六维为业务判断、AI 编排、流程理解、风险意识、可复用沉淀、跨职能影响。证据基础来自 Codex、Zapier、本地 skills-based organization 与近期专… | - 暂不形成结论，但提示我们关注：PwC/FT/Investopedia 对 entry-level seniorization 的材料需要继续追踪具体职业族群和薪酬变化。 | - 搜索 AI 原生公司是否公开 AI fluency、agent workflow、FDE、deployment 等能力评价标准。 |
 | 2026-07-01 | [日报](../2026-07-01/02-talent-density.html) | 结论层候选 | 1. **识别标准应从“AI 熟练”升级为“部署型复合能力”。可信度：高。** 高密度人才的关键维度是业务判断、AI 编排、流程理解、客户/组织沟通、风险治理、复用沉淀和结果负责。重要性：防止把会用工具误判为高潜。 | - 暂不形成结论，但提示我们关注：腾讯 AI token、美团前后端合并、蚂蚁测试转研发等线索仍缺官方或多源互证，只能放入弱信号池。 | 1. AWS FDE 是否形成独立职级、晋升路径、绩效指标和 partner 认证机制。 |
 | 2026-07-02 | [日报](../2026-07-02/02-talent-density.html) | 线索层/待验证 | 1. **复合型人才的硬标准正在变成部署型能力，不是 AI 工具熟练度。可信度：高。** 证据来自 AWS FDE、AWS Partner-led FDE、Anthropic Applied AI 旧线。人才盘点应看业务判断、AI 编排、部署、治理、复用资产和能力迁移。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 | 2026-07-03 | [日报](../2026-07-03/02-talent-density.html) | 线索层/待验证 | 1. **高人才密度的识别标准应升级为“部署型复合能力”。可信度：中高。** 证据来自 Anthropic、OpenAI、Zapier、TestGorilla 与 AWS FDE。重要性在于避免把“会讲 AI 术语的人”误判为高潜。 | - 暂不形成结论，但提示我们关注：OpenAI AI Deployment Engineer 正文抽取失败，只能作为 L1-L2 招聘信号。 | 1. Anthropic / OpenAI 是否公开 Applied AI / FDE 类岗位的职级、晋升路径和绩效指标。 |
@@ -35,6 +34,7 @@ AI 时代的高人才密度不只是“更强个体”，而是能把问题定�
 | 2026-07-15 | [日报](../2026-07-15/02-talent-density.html) | 线索层/待验证 | 1. **人才密度应按“普及能力＋部署专家”的两层供给建设。可信度：中高（DXC、PwC、UST 三个 L2 联合样本）。** 证据基础是训练、认证、行业课程和部署队被一起设计；为什么重要：全员课程解决最低门槛，复杂场景由能连接业务、工程、评测、审批和审计的人承接。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 | 2026-07-16 | [日报](../2026-07-16/02-talent-density.html) | 线索层/待验证 | 1. **以端到端责任包定义复合型，而非以 FDE 标签定义。可信度：中高。** Ode、DXC、UST 都包含业务情境、交付、风险/审计和结果责任；人才盘点应验证“问题—交付—风险—影响—复用”。 | 暂无单独 Context 摘要。 | - Ode 的招聘、评估、晋升、负荷与留存；`Ode with Anthropic careers evaluation engineers`。 |
 | 2026-07-17 | [日报](../2026-07-17/02-talent-density.html) | 线索层/待验证 | 1. **人才密度应采用“宽基础—窄认证—小单元派驻”的供给架构，而非单一的高门槛招聘。可信度：中高。** 证据基础：Cognizant 披露了 AI fluency、AI-Bridge、认证和 Engineer/Operator pod 的连续设计（L3）。为什么重… | 暂无单独 Context 摘要。 | 1. Cognizant Frontier 的评估标准、内部转入比例、薪酬/股权、认证失败后的再培养与留存表现是什么？检索：`Cognizant Frontier certified en… |
+| 2026-07-18 | [日报](../2026-07-18/02-talent-density.html) | 线索层/待验证 | 1. **复合型人才的最小评价单位应是“可验证责任包”，不是“懂 AI”的自评或一张证书。可信度：中高。**证据基础：OpenAI 的应用工程岗位把真实任务、评估、失败分析、生产反馈和跨团队协作写成同一职责（L3）；国内招聘报道把业务逻辑、工具实践与行业场景并列（L2… | 暂无单独 Context 摘要。 | 1. OpenAI 的人员创新系统是否有公开的隐私、人工复核、影响评估或员工申诉制度？检索：`site:openai.com People Innovation recruiting AI… |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@ AI 时代的高人才密度不只是“更强个体”，而是能把问题定�
 
 ## 最近日报入口
 
-- 最新日报：2026-07-17｜[打开专题日报](../2026-07-17/02-talent-density.html)｜源文件：`specials/ai-org-talent-mechanism/2026-07-17/02-talent-density.md`
+- 最新日报：2026-07-18｜[打开专题日报](../2026-07-18/02-talent-density.html)｜源文件：`specials/ai-org-talent-mechanism/2026-07-18/02-talent-density.md`

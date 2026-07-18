@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-18T04:21:48.652Z",
+  "generatedAt": "2026-07-18T11:27:05.838Z",
   "module": "knowledge-base",
   "qualityStatus": "fail",
   "latestCatalogDate": "2026-07-18",
   "counts": {
-    "reports": 91,
+    "reports": 92,
     "knowledgeSources": 4,
     "sourceTypes": {
-      "media": 27,
+      "media": 28,
       "internal": 17,
       "concept": 10,
       "public-safe-synthesis": 11,
@@ -66,31 +66,22 @@
     {
       "type": "public-scan",
       "sourceFile": "data/info-feed-status.json",
-      "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-17.html",
-      "reason": "public scan bridge returned 404",
-      "status": 404
-    },
-    {
-      "type": "public-scan",
-      "sourceFile": "data/info-feed-status.json",
       "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-18.html",
       "reason": "public scan bridge returned 404",
       "status": 404
     }
   ],
   "links": {
-    "checkedAt": "2026-07-18T04:21:49.072Z",
+    "checkedAt": "2026-07-18T11:27:06.262Z",
     "qualityStatus": "fail",
-    "firstPartyChecked": 1978,
+    "firstPartyChecked": 1981,
     "externalWarnings": 33,
-    "brokenCount": 2,
+    "brokenCount": 1,
     "publicScanBridge": [
       {
-        "ok": false,
-        "hardBroken": true,
-        "status": 404,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-17.html",
-        "reason": "public scan bridge returned 404"
+        "ok": true,
+        "status": 200,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-17.html"
       },
       {
         "ok": true,

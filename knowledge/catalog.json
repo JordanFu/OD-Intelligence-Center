@@ -2602,6 +2602,32 @@
         "storage.courtlistener.com"
       ],
       "originalUrl": "https://storage.courtlistener.com/recap/gov.uscourts.cand.474171/gov.uscourts.cand.474171.1.0.pdf"
+    },
+    {
+      "id": "p034",
+      "title": "UK Standard Skills Classification Development Report",
+      "originalTitle": "UK Standard Skills Classification Development Report",
+      "author": "assets.publishing.service.gov.uk",
+      "publisher": "assets.publishing.service.gov.uk",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计",
+        "人才发展"
+      ],
+      "date": "",
+      "uploadDate": "2026-07-18",
+      "description": "UK Standard Skills Classification Development Report 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计、人才发展。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-assets-publishing-service-gov-uk-uk-standard-skills-classification-development-report.md",
+      "rawFile": "./knowledge/raw/assets-publishing-service-gov-uk-uk-standard-skills-classification-development-report.pdf",
+      "fileName": "assets-publishing-service-gov-uk-uk-standard-skills-classification-development-report.pdf",
+      "fileSize": "1119166 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "人才发展",
+        "assets.publishing.service.gov.uk"
+      ],
+      "originalUrl": "https://assets.publishing.service.gov.uk/media/69f07a6608ecdb5c6f34b04f/UK_Standard_Skills_Classification_-_Development_Report.pdf"
     }
   ]
 }

@@ -21,7 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-06-30 | [日报](../2026-06-30/04-promotion-system.html) | 线索层/待验证 | 1. **固定晋升窗口仍有必要。可信度：高。** GitLab 样本显示，校准、预算、薪酬、跨团队公平需要固定节奏。重要性：避免“谁会讲 AI 故事谁先晋升”。 | - 暂不形成结论，但提示我们关注：Workhuman Future Leaders 等 AI 人才识别产品提示“AI 预测晋升准备度”正在出现，但需要验证算法偏差、解释性和组织接受度。 | - 搜索 `AI promotion packet 2026`、`AI contribution performance review`、`agent workflow promotion… |
 | 2026-07-01 | [日报](../2026-07-01/04-promotion-system.html) | 线索层/待验证 | 1. **固定晋升窗口仍应保留。可信度：高。** 它的价值不是慢，而是让同级比较、薪酬预算、组织需要和公平审计有统一时点。重要性：AI 贡献变化越快，越需要防止“谁更会包装 AI 故事谁先升”。 | - 暂不形成结论，但提示我们关注：AI runtime log 可辅助晋升评审，但如果缺少隐私、解释、申诉和误判纠正机制，会破坏信任。 | 1. 哪些公司已正式把 AI contribution 写入 promotion packet 或 performance review。 |
 | 2026-07-02 | [日报](../2026-07-02/04-promotion-system.html) | 结论层候选 | 1. **固定晋升窗口仍应保留。可信度：高。** 晋升涉及组织层级、薪酬带宽、预算、同级公平和跨团队一致性。AI 贡献变化更快，但恰恰需要固定窗口做校准，防止谁更会展示 AI 成果谁先晋升。 | - 暂不形成结论，但提示我们关注：Accenture 等公司关于 AI fluency 与晋升资格的报道，可能代表“AI 能力成为晋升门槛”的方向，但仍需官方制度文本。 | 1. 找 Accenture 是否有官方制度文本说明 AI fluency 如何进入 promotion criteria。 |
 | 2026-07-03 | [日报](../2026-07-03/04-promotion-system.html) | 结论层候选 | 1. **固定晋升窗口仍应保留。可信度：高。** 它承担公平、预算、薪酬带宽、同级比较和跨团队一致性；AI 贡献越快变化，越需要固定校准避免“会讲 AI 故事的人先晋升”。 | - 暂不形成结论，但提示我们关注：Accenture “AI fluency 与晋升资格”报道可能代表 AI 能力成为 career gate，但还需官方制度文本。 | 1. Accenture 是否有官方制度文本说明 AI fluency 如何进入 promotion criteria。 |
@@ -35,6 +34,7 @@
 | 2026-07-15 | [日报](../2026-07-15/04-promotion-system.html) | 线索层/待验证 | 1. **固定窗口为默认、例外为受控通道。可信度：中高（GitLab L3＋治理判断）。** 为什么重要：窗口提供同级比较、预算与公平校准；例外必须有书面责任扩大、观察期、审批和复盘。 | 暂无单独 Context 摘要。 | 1. 查找公开员工手册中 `out-of-cycle promotion`、`acting scope`、`talent committee` 与 AI 贡献字段的同现条款。 |
 | 2026-07-16 | [日报](../2026-07-16/04-promotion-system.html) | 线索层/待验证 | 1. **人审评估—跨团队校准—预算治理—结果沟通是晋升闭环，AI 只辅助材料。可信度：高。** GitLab 明文边界可防日志、模型推荐和文笔取代裁决/申诉。 | 暂无单独 Context 摘要。 | - GitLab FY27 执行、公平性、申诉和校准偏差；`FY27 talent assessment promotion calibration fairness`。 |
 | 2026-07-17 | [日报](../2026-07-17/04-promotion-system.html) | 线索层/待验证 | 1. **固定窗口与受控例外应共存。可信度：高（L3）。** GitLab 把评估、提名、校准、薪酬、沟通和生效串成闭环；正式晋升的可比性与预算治理需要窗口。周期外需求应先被识别为代理职责、岗位变动、项目奖或市场调薪，只有持续的更高层级责任才走例外晋升。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
+| 2026-07-18 | [日报](../2026-07-18/04-promotion-system.html) | 线索层/待验证 | 1. **固定窗口仍应是默认制度，例外应是治理过的补充，而不是“优秀者随时升”的口号。可信度：高（L3）。** GitLab 的可复查流程把自评、经理判断、跨团队校准、预算和生效日排成一条链，同时允许周期外请求和公开岗位竞聘。它说明窗口的价值在可比性、预算和公平校准，… | 暂无单独 Context 摘要。 | 1. 取得埃森哲内部邮件或正式政策全文，核验适用人群、有效使用定义、豁免、评分权重与申诉。检索：`Accenture AI use promotion policy internal em… |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-07-17｜[打开专题日报](../2026-07-17/04-promotion-system.html)｜源文件：`specials/ai-org-talent-mechanism/2026-07-17/04-promotion-system.md`
+- 最新日报：2026-07-18｜[打开专题日报](../2026-07-18/04-promotion-system.html)｜源文件：`specials/ai-org-talent-mechanism/2026-07-18/04-promotion-system.md`
