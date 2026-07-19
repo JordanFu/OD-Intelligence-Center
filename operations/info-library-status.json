@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-18T14:34:14.185Z",
+  "generatedAt": "2026-07-19T04:44:27.661Z",
   "module": "info-feed",
   "qualityStatus": "fail",
-  "latestDate": "2026-07-18",
+  "latestDate": "2026-07-19",
   "latestCardCount": 10,
   "newFactCount": 8,
   "contextCount": 0,
@@ -28,7 +28,7 @@
   },
   "sourceUrlMissingCount": 1,
   "latest": {
-    "date": "2026-07-18",
+    "date": "2026-07-19",
     "cardCount": 10,
     "nonGapCardCount": 9,
     "newFactCount": 8,
@@ -99,7 +99,7 @@
   },
   "recentDays": [
     {
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "cardCount": 10,
       "nonGapCardCount": 9,
       "newFactCount": 8,
@@ -545,14 +545,14 @@
     "days": 92,
     "cards": 903,
     "platforms": 398,
-    "dailyFiles": 87,
+    "dailyFiles": 88,
     "dailyReportFiles": 91,
     "weeklyFiles": 1
   },
   "homepageBridge": {
-    "digestLatestDate": "2026-07-18",
-    "latestScanDate": "2026-07-18",
-    "latestScanUrl": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-18.html",
+    "digestLatestDate": "2026-07-19",
+    "latestScanDate": "2026-07-19",
+    "latestScanUrl": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-19.html",
     "publicMirrorUrl": "https://jordanfu.github.io/org-intelligence-info/",
     "checkedBy": "scripts/check-public-links.js",
     "status": "pending-link-check"
@@ -616,7 +616,7 @@
     }
   ],
   "links": {
-    "checkedAt": "2026-07-18T11:27:06.262Z",
+    "checkedAt": "2026-07-18T14:34:17.180Z",
     "qualityStatus": "fail",
     "firstPartyChecked": 1981,
     "externalWarnings": 33,

@@ -1,18 +1,19 @@
 {
-  "generatedAt": "2026-07-18T14:34:14.120Z",
+  "generatedAt": "2026-07-19T04:44:27.580Z",
   "module": "topic-projects",
   "project": {
     "id": "ai-org-talent-mechanism",
     "title": "AI时代组织与人才机制四课题研究",
     "root": "specials/ai-org-talent-mechanism"
   },
-  "qualityStatus": "fail",
+  "qualityStatus": "warn",
   "latestFormalDate": "2026-07-18",
-  "latestAnyDate": "2026-07-18",
-  "today": "2026-07-18",
-  "todayStatus": "formal",
-  "latestStatus": "formal",
+  "latestAnyDate": "2026-07-19",
+  "today": "2026-07-19",
+  "todayStatus": "fallback",
+  "latestStatus": "fallback",
   "pendingRerunDates": [
+    "2026-07-19",
     "2026-07-13",
     "2026-07-12",
     "2026-07-11",
@@ -33,8 +34,8 @@
     "2026-05-13"
   ],
   "statusCounts": {
-    "formal": 49,
-    "fallback": 18
+    "fallback": 19,
+    "formal": 49
   },
   "statusDefinitions": {
     "formal": "正式决策稿：00-overview、四专题 Markdown、正式入口均存在，且无兜底/待重跑关键词，质量门禁未明确失败。",
@@ -44,6 +45,57 @@
     "missing": "缺失：日期目录或必要文件不存在。"
   },
   "dates": [
+    {
+      "date": "2026-07-19",
+      "status": "fallback",
+      "isFormal": false,
+      "isFallback": true,
+      "needsRerun": true,
+      "overview": "specials/ai-org-talent-mechanism/2026-07-19/00-overview.html",
+      "overviewMarkdown": "specials/ai-org-talent-mechanism/2026-07-19/00-overview.md",
+      "index": "specials/ai-org-talent-mechanism/2026-07-19/index.html",
+      "topicReports": [
+        {
+          "title": "overview",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-19/00-overview.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-19/00-overview.html",
+          "exists": true
+        },
+        {
+          "title": "flat-organization",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-19/01-flat-organization.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-19/01-flat-organization.html",
+          "exists": true
+        },
+        {
+          "title": "talent-density",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-19/02-talent-density.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-19/02-talent-density.html",
+          "exists": true
+        },
+        {
+          "title": "job-family-career-architecture",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-19/03-job-family-career-architecture.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-19/03-job-family-career-architecture.html",
+          "exists": true
+        },
+        {
+          "title": "promotion-system",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-19/04-promotion-system.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-19/04-promotion-system.html",
+          "exists": true
+        }
+      ],
+      "missingRequired": [],
+      "hasFormalEntry": true,
+      "qualityGate": {
+        "path": "specials/ai-org-talent-mechanism/quality/2026-07-19.md",
+        "status": "warn-or-unknown"
+      },
+      "qualityIssues": [
+        "正文包含兜底/非决策稿/待正式重跑关键词"
+      ]
+    },
     {
       "date": "2026-07-18",
       "status": "formal",
@@ -3364,21 +3416,13 @@
       ]
     }
   ],
-  "brokenLinks": [
-    {
-      "type": "public-scan",
-      "sourceFile": "data/info-feed-status.json",
-      "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-18.html",
-      "reason": "public scan bridge returned 404",
-      "status": 404
-    }
-  ],
+  "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-07-18T14:34:17.180Z",
-    "qualityStatus": "fail",
-    "firstPartyChecked": 1981,
-    "externalWarnings": 33,
-    "brokenCount": 1,
+    "checkedAt": "2026-07-19T04:44:29.779Z",
+    "qualityStatus": "warn",
+    "firstPartyChecked": 2007,
+    "externalWarnings": 11,
+    "brokenCount": 0,
     "publicScanBridge": [
       {
         "ok": true,
@@ -3391,37 +3435,13 @@
         "url": "https://jordanfu.github.io/org-intelligence-info/"
       },
       {
-        "ok": false,
-        "hardBroken": true,
-        "status": 404,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-18.html",
-        "reason": "public scan bridge returned 404"
+        "ok": true,
+        "status": 200,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-19.html"
       }
     ]
   },
   "warnings": [
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",

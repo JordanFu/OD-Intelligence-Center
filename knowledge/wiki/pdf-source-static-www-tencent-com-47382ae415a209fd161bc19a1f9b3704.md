@@ -2,7 +2,7 @@
 title: 47382ae415a209fd161bc19a1f9b3704
 source: static.www.tencent.com
 date: 待核验
-ingested: 2026-07-18
+ingested: 2026-07-19
 sourceFile: ../knowledge/raw/static-www-tencent-com-47382ae415a209fd161bc19a1f9b3704.pdf
 sourceUrl: https://static.www.tencent.com/uploads/2026/05/13/47382ae415a209fd161bc19a1f9b3704.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 - **来源类型**：media
 - **原文 URL**：https://static.www.tencent.com/uploads/2026/05/13/47382ae415a209fd161bc19a1f9b3704.pdf
 - **原始文件**：`knowledge/raw/static-www-tencent-com-47382ae415a209fd161bc19a1f9b3704.pdf`
-- **入库日期**：2026-07-18
+- **入库日期**：2026-07-19
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
