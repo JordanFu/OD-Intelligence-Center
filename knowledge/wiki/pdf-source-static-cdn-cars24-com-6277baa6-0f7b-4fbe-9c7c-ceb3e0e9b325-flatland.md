@@ -63,6 +63,8 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 - `specials/ai-org-talent-mechanism/2026-07-18/00-overview.md:106`：Cars24 Flatland（2026-05-28）
 - `specials/ai-org-talent-mechanism/2026-07-18/01-flat-organization.md:19`：Cars24《Flatland》
 - `specials/ai-org-talent-mechanism/2026-07-18/01-flat-organization.md:87`：Cars24，*Flatland: An iceberg shift, not just org design*，2026-05-28（L3）：
+- `specials/ai-org-talent-mechanism/2026-07-19/01-flat-organization.md:24`：制度原文
+- `specials/ai-org-talent-mechanism/2026-07-19/01-flat-organization.md:74`：Flatland 原文
 
 ## 后续精读任务
 
