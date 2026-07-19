@@ -1,53 +1,80 @@
-# 2026-07-19｜专题三：岗位、族群、序列持续建设
+# 2026-07-19｜专题三：岗位、族群、序列的持续建设
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+> 研究状态：**正式决策稿（增量）**。本稿将公共职业/职称制度、技能分类方法和企业 JD 严格分层：它们能说明能力分类的稳定化信号，不能直接证明企业内部序列、薪酬带或晋升成效。
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+## 读者应该带走什么
 
-## 今日一句话结论
+管理层该问：新名称对应的是持续独立责任，还是短期稀缺、项目任务或关键人保留？四种情况必须使用不同工具，避免生成永久架构债务。
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+## 背景材料
 
-## 今日核心判断
+今日以北京职称新规、人社部公示、UK SSC 更新方法与 Skills England 影响差异研究，校准“先标签、后分类”的原则。
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+## 1. 今日一句话专题判断
 
-## 今日背景材料
+**新建序列只应服务于持续、独立、可评估且有市场边界的责任；新工具名、短期稀缺或跨域能力，应优先用技能标签、项目角色和薪酬工具承接。**
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+## 2. 今日新增事实
 
-## 今日新增证据地图
+- 北京市人社局《北京市人工智能专业职称评价办法》（京人社发〔2026〕4号）于 2026-07-02 成文、7 月 3 日实施，覆盖技术研发、硬件平台、行业应用、安全治理四个方向，细化成果和破格条件，并贯通技能人才与工程技术人才通道。【L3｜[办法](https://rsj.beijing.gov.cn/xxgk/2024zcwj/202607/t20260703_4745330.html)；[解读](https://rsj.beijing.gov.cn/xxgk/2024zcjd/202607/t20260703_4745349.html)】
+- 中国就业网/人社部于 2026-07-10 公示**拟**增加具身智能机器人应用技术员等新职业、**拟**新增“智能体开发员”等新工种；公告写明修改完善后才纳入国家职业分类大典并开发标准。公示不是正式职业发布，更不是企业应立刻新建序列的依据。【L3｜[公示](https://chinajob.mohrss.gov.cn/c/2026-07-10/569764.shtml)】
+- UK Skills England 的 UK SSC 更新方法（2026-04-30）规定：持续监测新职位名/内容后可先在既有分类中映射；只有结构变化才建新分类，因会扰动映射和时间序列，须走审慎修订周期。【L3｜[方法](https://www.gov.uk/government/publications/uk-standard-skills-classification-development-report/updating-the-uk-standard-skills-classification)】
+- Skills England 2026 年度报告指出 AI 对职业影响高度不均，编码、网络安全、研究等工作实践已快速改变，但尚难把毕业生岗位放缓归因于 AI。【L3｜[报告](https://www.gov.uk/government/publications/skills-england-annual-skills-report-and-sectoral-skills-needs-assessments-2026/skills-england-annual-skills-report-2026)】
 
-| 渠道 | 当前状态 | 必须补齐 |
+## 3. 今日核心判断
+
+1. **“更粗颗粒的端到端责任”与“高风险专业化”会并存。可信度：高。** 北京办法的四方向把研发、硬件、行业应用、安全治理区分开，说明安全/平台等稳定风险链可细分；Skills England 同时提示影响不均，故不能单向宣称所有岗位变宽。【L3】
+2. **名称出现不是序列成立。可信度：高。** “智能体开发员”仍处于公示流程；UK SSC 明确先映射、后分类。重要性在于防止为追逐热点头衔制造不可维护的等级和薪酬债务。【L3】
+3. **业务提出新族群，常混杂责任治理与关键人激励诉求。可信度：中高。** 这不是否定激励，而是要求把需求拆成稳定责任、技能可携带性、市场稀缺、项目期限四个问题，分别路由到序列、标签、带宽/津贴或项目奖。【L2-L3 方法推论】
+
+## 4. 重点案例事实还原｜北京 AI 专业职称评价办法
+
+**背景与时间线：** 2020 试行办法被 2026 年新办法替代；新规 7 月 2 日成文、7 月 3 日实施。
+
+**动作与机制：** 不是以某模型或工具命名职业，而是按技术链和风险边界分为研发、硬件、行业应用、安全治理；同时用成果、破格、技能—工程贯通来设计评价入口。其机制价值是证明“稳定责任＋可评价成果”比“AI 标签”更适合建分类。
+
+**结果、争议与阻碍：** 尚无企业薪酬、内部转岗、评审一致性或劳动市场结果；公共职称评价不能替代公司岗位架构。不可照搬为企业职级，也不能从新办法推断任何具体员工获晋升。
+
+**可借鉴点：** 建立跨部门架构委员会，用连续需求、独立责任、可评估成果、外部市场四道门决定是否新建。
+
+## 5. Context 层
+
+暂不形成结论，但提示我们关注：Boston Scientific、GE Vernova 的 AI 组织设计 JD 均在任务级人机边界与岗位/技能架构之间建接口，显示企业可能先用任务与技能语言治理；JD 未披露正式等级、薪酬带或内部流动。
+
+## 6. 证据地图
+
+| 渠道 | 材料 | 证据边界 |
 |---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+| 官方/一手 | 北京办法、人社部公示、UK SSC | 公共分类/评价规则，不是企业制度 |
+| 权威/咨询 | Skills England 年报 | 影响差异，不给单企因果 |
+| 公司案例 | GE/Boston JD | 职能意图，不证明架构结果 |
+| 学术/专业 | UK SSC 分类方法 | 支持审慎新增原则 |
+| 招聘薪酬 | AI 组织设计 JD | 缺连续等级/薪带闭环 |
+| 社媒/职场 | 新头衔讨论 | 仅线索 |
+| 内部库 | 基线、近 14 日日报 | 校准五路由 |
 
-## 线索层
+## 7. 对我们行动的启发｜落地启发与五路由
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+| 条件 | 优先工具 |
+|---|---|
+| 独立责任持续 12–18 个月、可评价、有外部市场 | 新建岗位/族群/序列 |
+| 跨多个岗位、变化快、可迁移 | 技能标签与认证 |
+| 有明确终点、需要临时授权 | 项目角色/代理职责 |
+| 稀缺但责任未稳定 | 市场稀缺系数、薪酬带宽、专项津贴、项目奖或股权刷新 |
+| 不独立、无法评价、需求不稳 | 坚决不新增序列 |
 
-## 待补齐的落地问题
+任何新序列申请都应附：职责迁移图、需求/供给数据、市场对标、等级描述、薪酬影响、退出条件与 6/12 月复核。
 
-正式重跑必须回答：是新建岗位族群、保留技能标签，还是调整薪酬带宽和项目激励；必须同时验证岗位合并与专家岗位深化。
+## 8. 待验证清单与下一步搜索路径
 
-## 来源索引
+1. 北京办法实施后是否公布评审口径、申请量和跨通道流动？
+2. “智能体开发员”公示后是否正式入典、形成何种国家标准？
+3. 搜索 AI 安全、评测、FDE、平台岗位的连续 JD/等级/薪带。
+4. 抽样审计内部新序列申请：多少实为关键人保留或临时项目需求？
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+## 9. 来源索引
+
+- 北京市人社局，2026-07-02/03，[评价办法](https://rsj.beijing.gov.cn/xxgk/2024zcwj/202607/t20260703_4745330.html)、[政策解读](https://rsj.beijing.gov.cn/xxgk/2024zcjd/202607/t20260703_4745349.html)。
+- 中国就业网，2026-07-10，[新职业、新工种公示](https://chinajob.mohrss.gov.cn/c/2026-07-10/569764.shtml)。
+- Skills England，2026-04-30，[UK SSC 更新方法](https://www.gov.uk/government/publications/uk-standard-skills-classification-development-report/updating-the-uk-standard-skills-classification)；2026-07，[年度报告](https://www.gov.uk/government/publications/skills-england-annual-skills-report-and-sectoral-skills-needs-assessments-2026/skills-england-annual-skills-report-2026)。
+- 内部：[`daily-report/2026-07-19.md`](../../../daily-report/2026-07-19.md)、[`digest.md`](../../../digest.md)。

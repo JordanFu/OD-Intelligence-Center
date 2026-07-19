@@ -1,61 +1,88 @@
 # 2026-07-19｜AI时代组织与人才机制四课题总览
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+> 研究状态：**正式决策稿（增量）**。本轮由四个专题代理、内部/渠道代理和主代理交叉复核；使用 `digest.md`、近 14 天日报、知识库与专题基线，并以官方页面、制度和 JD 为主。事实、判断和线索已分层；L3=一手制度/原始研究，L2=权威研究/官方 JD，L1=待核验线索。
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+## 读者应该带走什么
 
-## 今日一句话结论
+管理层该问：每条被 AI 重写的工作流，谁对结果、质量、例外和人才培养签字？答案不清楚时，不应以压层、加头衔或工具使用率取代组织设计。
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+## 背景材料
 
-## 今日核心判断
+今日以 Replit/Microsoft 的一手工作流与重组校准、Cognizant/GE 的人才供给信号、北京人社与 UK SSC 的分类方法、GitLab 的周期评审制度为主；国内媒体只进入 Context。
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+## 1. 今日一句话｜今日总判断
 
-## 今日背景材料
+**AI 正把可扩展的“执行”嵌入工作流，但组织价值仍取决于人类是否清楚持有目的、决策权、质量叫停、异常升级与人才培养；因此四个专题共同从“层级、头衔、工具使用”转向“端到端责任包＋可审计证据链”。**
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+## 2. 今日核心判断｜最重要的 6 条发现
 
-## 今日新增证据地图
+以下判断均标注可信度、证据基础与为什么重要；公司案例不外推为行业因果。
 
-| 渠道 | 当前状态 | 必须补齐 |
+1. **流程和决策权先于压层。** McKinsey 与 Deloitte 都把端到端流程重写置于 AI 组织变革前面；Replit 的官方案例显示智能体进入审查、事故、支持等流程时仍要保留人类目标设定、审计与升级。【L2-L3】
+2. **扁平不等于取消管理。** Cars24 去职级仍保留汇报和问题所有权；Microsoft 7 月 6 日亦明确当轮岗位调整不是 AI 替代。没有 L3 证据支持“AI 已系统性消灭中层”。【L3】
+3. **人才密度需要能力形成系统。** Cognizant 的校招/认证供给链及 GE/Boston 的 AI 工作设计岗位都指向任务拆解、同伴学习、质量反馈与跨职能编排；高密度不是只买成熟人才。【L2-L3】
+4. **岗位架构呈双向分化。** 北京 AI 职称新规按研发、硬件、应用和安全等稳定责任链细分；UK SSC 又要求新名称先映射到既有分类。岗位可变宽，安全/平台等又可能专业化。【L3】
+5. **新工种不等于马上新序列。** “智能体开发员”仍处于人社部公示流程；企业应以责任持续性、可评价性、市场边界和退出条件决定是否新建。【L3】
+6. **晋升默认仍需周期校准。** GitLab FY26 用自评—提名—校准—薪酬—生效的闭环，内部流动另有公开职位与面试程序；AI 使用记录不能自动换取职级或奖金。【L3】
+
+## 3. 四专题交叉关系
+
+| 专题 | 直接机制 | 对其他专题的约束 |
 |---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+| 扁平化 | 被取消的中转工作须有责任、权限、质量门和升级承接 | 责任变化才可触发岗位价值与晋升例外 |
+| 人才密度 | 用真实责任包、评估、反馈和学习管道识别复合能力 | 不可用工具活跃度替代人才评价 |
+| 岗位序列 | 稳定独立责任建序列，快变能力用标签/项目/薪酬工具 | 避免把短期稀缺固化为终身职级 |
+| 晋升机制 | 周期校准为默认，实质责任变化走受控例外 | AI 只能整理证据，人工保有裁决与申诉责任 |
 
-## 线索层
+## 4. 今日判断变化
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+- **增强：** “责任包＋控制面”获得 Replit 的受控工作流、GE/Boston 的组织设计 JD 和 GitLab 的评审闭环三类证据支持。
+- **增强：** “双向分化”不再只是理论：北京新规显示稳定高风险技术链可细分，UK SSC 显示不稳定新名称应先映射。
+- **修正：** 今日国内媒体关于字节、百度与智能体身份的细节大多未获原始制度验证，保留为 Context，不做改革事实。
+- **未升级：** 未见 L3 证据证明 AI 使用率/徽章可自动决定晋升；未见企业公开证明 AI 直接导致中层系统性减少。
 
-## 待补齐的落地问题
+## 5. 关键冲突与反例
 
-正式重跑必须把证据转化为战略、岗位、职级、薪酬和激励机制建议；没有证据链时，只记录缺口，不输出管理建议。
+- Replit 的生产率和质量数据为公司自报，不能推出通用管理跨度或减员结论。
+- McKinsey/咨询调查支持方向，不是中国企业结果；ILO 也提醒任务级收益未必聚合为企业生产率。
+- 北京职称和人社部公示属于公共评价/职业分类，不是企业薪酬、岗位或晋升的替身。
+- GitLab 手册可复原流程，却未披露公平性、速度或 AI 辅助评估的效果数据。
 
-## 待验证清单与下一步计划
+## 证据地图
 
-1. 检索今日新增官方/一手材料，确认是否有新公司案例。
-2. 检索权威媒体与咨询报告，补齐改革时间线、员工影响和争议。
-3. 检索招聘 JD 与薪酬信号，验证岗位变宽、专家深化和技能溢价。
-4. 收集社媒/职场平台弱信号，只进入线索池，不进入结论层。
-5. 主代理交叉验证后，将可互证内容升级为正式日报。
+| 层级 | 当日主要材料 | 使用边界 |
+|---|---|---|
+| 官方/一手 | Replit、Microsoft、Cognizant、北京人社、人社部、GitLab | 支持具体制度/公开事实，不代表行业成效 |
+| 权威/咨询 | McKinsey、Deloitte、ILO、Skills England | 支持调查、方法和风险校准 |
+| JD/薪酬 | GE、Boston Scientific | 仅证明能力/制度投入信号 |
+| 社媒/职场 | 字节、百度、智能体身份讨论 | 只进入 Context，待原始制度复核 |
+| 内部知识源 | `digest.md`、`daily/`、`daily-report/`、`knowledge/`、专题基线 | 去重、交叉验证、补充反例 |
+
+## 6. 行动启发｜落地启发
+
+**战略：** 选 1–3 条高价值、可回滚流程，以质量、风险、客户和人才管道共同定义价值。
+
+**组织架构：** 每次压层前完成责任承接单：最终结果、决策权、资源、质量门、异常、人员发展、数据用途和申诉。
+
+**岗位序列：** 先走五路由——长期独立责任建序列；快变跨域能力用标签；有终点的用项目角色；短期稀缺用带宽/津贴/项目奖；不独立不稳定的拒绝新序列。
+
+**人才密度：** 设计“基础素养—业务构建/运营—评测/平台/治理专家”三层供给；用责任包演示、双人校验、失败复盘和导师负荷衡量，而非培训完成率。
+
+**晋升激励：** 常规周期保障公平与预算；例外仅限实质岗位价值变化，需跨部门复核、薪酬审批与申诉。AI 只检查材料完整性，不评分、不排序。
+
+**沟通落地：** 明确为何改、谁接责任、哪些不变、报酬如何承接、数据如何使用和如何申诉；不得把重组或监测包装成“AI 客观决定”。
+
+## 7. 明日优先追踪问题
+
+1. Replit/Cars24 是否披露管理跨度、薪酬、流失和员工体验？
+2. GE、Boston 的 AI 组织设计岗位是否获得正式决策权与效果数据？
+3. 北京新规和“智能体开发员”后续是否形成可迁移、可评估的标准？
+4. 哪些公司公开了即时晋升的例外门槛、公平审计和撤销机制？
+5. 哪些 AI 评测/FDE/安全角色拥有连续 JD、等级、薪带和内部流动证据闭环？
 
 ## 来源索引
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+- [McKinsey State of Organizations 2026](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-state-of-organizations)；[Deloitte Tech Trends 2026](https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends.html)。
+- [Replit Self-Driving Company（2026-07-16）](https://replit.com/blog/self-driving-company)；[Microsoft transformation note（2026-07-06）](https://blogs.microsoft.com/blog/2026/07/06/the-latest-in-our-company-transformation/)。
+- [北京 AI 职称办法](https://rsj.beijing.gov.cn/xxgk/2024zcwj/202607/t20260703_4745330.html)；[人社部新职业公示](https://chinajob.mohrss.gov.cn/c/2026-07-10/569764.shtml)；[GitLab 人才评估](https://handbook.gitlab.com/handbook/people-group/talent-assessment/)。
+- 内部交叉材料：[`digest.md`](../../../digest.md)、[`daily-report/2026-07-19.md`](../../../daily-report/2026-07-19.md)、[`knowledge/index.md`](../../../knowledge/index.md)。

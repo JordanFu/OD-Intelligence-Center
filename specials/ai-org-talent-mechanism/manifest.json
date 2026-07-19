@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T01:48:29.665Z",
+  "generatedAt": "2026-07-19T10:09:29.678Z",
   "module": "topic-projects",
   "project": {
     "id": "ai-org-talent-mechanism",
@@ -7,11 +7,11 @@
     "root": "specials/ai-org-talent-mechanism"
   },
   "qualityStatus": "warn",
-  "latestFormalDate": "2026-07-18",
+  "latestFormalDate": "2026-07-19",
   "latestAnyDate": "2026-07-19",
   "today": "2026-07-19",
-  "todayStatus": "scheduled",
-  "latestStatus": "scheduled",
+  "todayStatus": "formal",
+  "latestStatus": "formal",
   "pendingRerunDates": [
     "2026-07-13",
     "2026-07-12",
@@ -33,8 +33,7 @@
     "2026-05-13"
   ],
   "statusCounts": {
-    "scheduled": 1,
-    "formal": 49,
+    "formal": 50,
     "fallback": 18
   },
   "statusDefinitions": {
@@ -47,60 +46,52 @@
   "dates": [
     {
       "date": "2026-07-19",
-      "status": "scheduled",
-      "isFormal": false,
+      "status": "formal",
+      "isFormal": true,
       "isFallback": false,
       "needsRerun": false,
-      "overview": null,
-      "overviewMarkdown": null,
-      "index": null,
+      "overview": "specials/ai-org-talent-mechanism/2026-07-19/00-overview.html",
+      "overviewMarkdown": "specials/ai-org-talent-mechanism/2026-07-19/00-overview.md",
+      "index": "specials/ai-org-talent-mechanism/2026-07-19/index.html",
       "topicReports": [
         {
           "title": "overview",
-          "markdown": null,
-          "html": null,
-          "exists": false
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-19/00-overview.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-19/00-overview.html",
+          "exists": true
         },
         {
           "title": "flat-organization",
-          "markdown": null,
-          "html": null,
-          "exists": false
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-19/01-flat-organization.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-19/01-flat-organization.html",
+          "exists": true
         },
         {
           "title": "talent-density",
-          "markdown": null,
-          "html": null,
-          "exists": false
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-19/02-talent-density.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-19/02-talent-density.html",
+          "exists": true
         },
         {
           "title": "job-family-career-architecture",
-          "markdown": null,
-          "html": null,
-          "exists": false
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-19/03-job-family-career-architecture.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-19/03-job-family-career-architecture.html",
+          "exists": true
         },
         {
           "title": "promotion-system",
-          "markdown": null,
-          "html": null,
-          "exists": false
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-19/04-promotion-system.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-19/04-promotion-system.html",
+          "exists": true
         }
       ],
-      "missingRequired": [
-        "00-overview.md",
-        "01-flat-organization.md",
-        "02-talent-density.md",
-        "03-job-family-career-architecture.md",
-        "04-promotion-system.md"
-      ],
-      "hasFormalEntry": false,
+      "missingRequired": [],
+      "hasFormalEntry": true,
       "qualityGate": {
-        "path": null,
-        "status": "not-found"
+        "path": "specials/ai-org-talent-mechanism/quality/2026-07-19.md",
+        "status": "pass-or-warn"
       },
-      "qualityIssues": [
-        "未到今日 18:00 正式自动化运行时间"
-      ]
+      "qualityIssues": []
     },
     {
       "date": "2026-07-18",
@@ -3424,9 +3415,9 @@
   ],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-07-19T01:48:29.834Z",
+    "checkedAt": "2026-07-19T10:09:54.603Z",
     "qualityStatus": "warn",
-    "firstPartyChecked": 1984,
+    "firstPartyChecked": 2010,
     "externalWarnings": 33,
     "brokenCount": 0,
     "publicScanBridge": [
