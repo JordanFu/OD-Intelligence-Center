@@ -2,7 +2,7 @@
 title: 6277baa6 0f7b 4fbe 9c7c ceb3e0e9b325 flatland
 source: static-cdn.cars24.com
 date: 待核验
-ingested: 2026-07-19
+ingested: 2026-07-20
 sourceFile: ../knowledge/raw/static-cdn-cars24-com-6277baa6-0f7b-4fbe-9c7c-ceb3e0e9b325-flatland.pdf
 sourceUrl: https://static-cdn.cars24.com/prod/auto-news24-cms/cars24-blog-images/2026/05/28/6277baa6-0f7b-4fbe-9c7c-ceb3e0e9b325-flatland.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 - **来源类型**：media
 - **原文 URL**：https://static-cdn.cars24.com/prod/auto-news24-cms/cars24-blog-images/2026/05/28/6277baa6-0f7b-4fbe-9c7c-ceb3e0e9b325-flatland.pdf
 - **原始文件**：`knowledge/raw/static-cdn-cars24-com-6277baa6-0f7b-4fbe-9c7c-ceb3e0e9b325-flatland.pdf`
-- **入库日期**：2026-07-19
+- **入库日期**：2026-07-20
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
@@ -65,6 +65,10 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 - `specials/ai-org-talent-mechanism/2026-07-18/01-flat-organization.md:87`：Cars24，*Flatland: An iceberg shift, not just org design*，2026-05-28（L3）：
 - `specials/ai-org-talent-mechanism/2026-07-19/01-flat-organization.md:24`：制度原文
 - `specials/ai-org-talent-mechanism/2026-07-19/01-flat-organization.md:74`：Flatland 原文
+- `specials/ai-org-talent-mechanism/weekly/2026-W29-detailed.md:461`：Cars24, Flatland
+- `specials/ai-org-talent-mechanism/weekly/2026-W29.md:461`：Cars24, Flatland
+- `specials/ai-org-talent-mechanism/weekly/latest-detailed.md:461`：Cars24, Flatland
+- `specials/ai-org-talent-mechanism/weekly/latest.md:461`：Cars24, Flatland
 
 ## 后续精读任务
 
