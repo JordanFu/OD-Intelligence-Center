@@ -1953,7 +1953,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-07-19",
+      "uploadDate": "2026-07-21",
       "description": "e048dfed72bc718f7986a83f23c8e294 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-static-www-tencent-com-e048dfed72bc718f7986a83f23c8e294.md",
       "rawFile": "./knowledge/raw/static-www-tencent-com-e048dfed72bc718f7986a83f23c8e294.pdf",
@@ -2001,7 +2001,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-07-19",
+      "uploadDate": "2026-07-21",
       "description": "MiniMax：IPO 后股份激励计划授出奖励公告 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-hkexnews-hk-minimax-ipo.md",
       "rawFile": "./knowledge/raw/hkexnews-hk-minimax-ipo.pdf",
@@ -2566,7 +2566,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-07-19",
+      "uploadDate": "2026-07-21",
       "description": "gov.uscourts.cand.474171.1.0 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-apnews-com-gov-uscourts-cand-474171-1-0.md",
       "rawFile": "",
@@ -2590,7 +2590,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-07-19",
+      "uploadDate": "2026-07-21",
       "description": "gov.uscourts.cand.474171.1.0 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-storage-courtlistener-com-gov-uscourts-cand-474171-1-0.md",
       "rawFile": "",
@@ -2628,6 +2628,54 @@
         "assets.publishing.service.gov.uk"
       ],
       "originalUrl": "https://assets.publishing.service.gov.uk/media/69f07a6608ecdb5c6f34b04f/UK_Standard_Skills_Classification_-_Development_Report.pdf"
+    },
+    {
+      "id": "p035",
+      "title": "734a5e68 en",
+      "originalTitle": "734a5e68 en",
+      "author": "oecd.org",
+      "publisher": "oecd.org",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-07-21",
+      "description": "734a5e68 en 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-oecd-org-734a5e68-en.md",
+      "rawFile": "",
+      "fileName": "oecd-org-734a5e68-en.pdf",
+      "fileSize": "download pending",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "oecd.org"
+      ],
+      "originalUrl": "https://www.oecd.org/en/publications/oecd-compendium-of-productivity-indicators-2026_734a5e68-en.html)；[PDF](https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/06/oecd-compendium-of-productivity-indicators-2026_04e21c23/734a5e68-en.pdf"
+    },
+    {
+      "id": "p036",
+      "title": "734a5e68 en",
+      "originalTitle": "734a5e68 en",
+      "author": "oecd.org",
+      "publisher": "oecd.org",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-07-21",
+      "description": "734a5e68 en 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-oecd-org-734a5e68-en.md",
+      "rawFile": "",
+      "fileName": "oecd-org-734a5e68-en.pdf",
+      "fileSize": "download pending",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "oecd.org"
+      ],
+      "originalUrl": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/06/oecd-compendium-of-productivity-indicators-2026_04e21c23/734a5e68-en.pdf"
     }
   ]
 }

@@ -1,26 +1,26 @@
 ---
-title: MiniMax：IPO 后股份激励计划授出奖励公告
-source: hkexnews.hk
+title: 734a5e68 en
+source: oecd.org
 date: 待核验
 ingested: 2026-07-21
-sourceFile: ../knowledge/raw/hkexnews-hk-minimax-ipo.pdf
-sourceUrl: https://www.hkexnews.hk/listedco/listconews/sehk/2026/0623/2026062301078_c.pdf
+sourceFile: 
+sourceUrl: https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/06/oecd-compendium-of-productivity-indicators-2026_04e21c23/734a5e68-en.pdf
 tags: [AI组织设计]
-status: 已下载原始PDF，已生成结构化初筛卡片
+status: 已索引来源，PDF下载待重试
 ---
 
-# MiniMax：IPO 后股份激励计划授出奖励公告
+# 734a5e68 en
 
 ## 一句话判断
 
-MiniMax：IPO 后股份激励计划授出奖励公告 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
+734a5e68 en 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
 
 ## 入库状态
 
-- **来源机构**：hkexnews.hk
+- **来源机构**：oecd.org
 - **来源类型**：media
-- **原文 URL**：https://www.hkexnews.hk/listedco/listconews/sehk/2026/0623/2026062301078_c.pdf
-- **原始文件**：`knowledge/raw/hkexnews-hk-minimax-ipo.pdf`
+- **原文 URL**：https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/06/oecd-compendium-of-productivity-indicators-2026_04e21c23/734a5e68-en.pdf
+- **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
 - **入库日期**：2026-07-21
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
@@ -51,7 +51,7 @@ MiniMax：IPO 后股份激励计划授出奖励公告 已作为日报/周报 PDF
 
 ## 被引用位置
 
-- `外部公开 PDF 扫描:214`：公开安全引用：| HKEXnews |  | MiniMax | IPO 后股份激励计划授出奖励 | A | 近窗观察 |
+- `daily/2026-07-21.md:106`：OECD《2026 生产率指标汇编》PDF
 
 ## 后续精读任务
 

@@ -21,7 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-07-03 | [日报](../2026-07-03/03-job-family-career-architecture.html) | 结论层候选 | 1. **岗位体系主线仍是“双向分化”。可信度：高。** 应用/业务岗位变宽，专家/治理岗位变深。证据来自 AWS FDE、Workday agent governance、Google/EY FDE JD、Microsoft/Deloitte/McKinsey 本地… | - 暂不形成结论，但提示我们关注：AI agent governance 可能更快形成专家方向，因为它具有风险责任、质量标准和外部合规压力。 | 1. AWS / Google / EY / Anthropic 是否公开 FDE / Applied AI 的职级路径、绩效指标和晋升规则。 |
 | 2026-07-04 | [日报](../2026-07-04/03-job-family-career-architecture.html) | 结论层候选 | 1. **岗位体系主线仍是“双向分化”。可信度：高。** 应用/业务岗位变宽，专家/治理岗位变深；今天新增的 Redox/Postman/Figure JD 强化了 agent operations 与 agentic systems 两端。 | - 暂不形成结论，但提示我们关注：Cars24 取消 title 后，内部薪酬、晋升、招聘定级和外部职业信号如何处理，是验证该模式能否长期成立的关键。 | 1. Microsoft Frontier Company 是否公开具体岗位族、职级、绩效指标、晋升路径和客户 outcome 数据。 |
 | 2026-07-05 | [日报](../2026-07-05/03-job-family-career-architecture.html) | 结论层候选 | 1. **FDE / Frontier / Applied AI 责任包继续稳定。可信度：高。** 客户现场、行业知识、AI 工程、变革管理、数据治理、模型选择、持续改进和结果责任正在合并成一个高价值责任包。重要性：它是岗位族候选，但不能直接跳到序列。 | 5. **国内 JD / 薪酬线索增加但制度不足。** 小红书 AI 导购/智能客服产品岗、美团 AI Agent 产品经理、DeepSeek Harness 团队与中国智能体工程化人才报告说明需求增长，但不足以证明成熟岗位族或序列。 | 1. Microsoft Frontier Company 是否公开岗位族、职级、绩效、晋升、薪酬或 P&L。 |
 | 2026-07-07 | [日报](../2026-07-07/03-job-family-career-architecture.html) | 背景材料（Context）强证据 | 1. **粗颗粒岗位不是“岗位消失”，而是责任对象更清楚。** 可信度：中高。证据基础：HBR、Deloitte、国内大厂 AI 整合。为什么重要：岗位名称可能变宽，但内部责任会围绕客户结果、流程、智能体、风险和审计重新拆分。 | 暂无单独 Context 摘要。 | 1. 搜索 `agent governance owner`、`AI operations manager`、`model routing engineer`、`evaluation le… |
@@ -35,6 +34,7 @@
 | 2026-07-18 | [日报](../2026-07-18/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **先更新能力分类和责任等级，再讨论新序列，可信度：高。** UK SSC 将更新和验证嵌入分类维护，SFIA 将 AI 融入既有责任等级；二者共同支持“技能语言要动态、等级语言要稳定”。这很重要，因为把每次模型、工具或工作流变化翻译成新职位，会造成头衔膨胀、横… | 暂无单独 Context 摘要。 | 1. 找到 UK SSC 1.0 在企业技能系统、职位目录或劳动力规划中的实施案例，而非只引用分类本身。检索：`"UK Standard Skills Classification" em… |
 | 2026-07-19 | [日报](../2026-07-19/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **“更粗颗粒的端到端责任”与“高风险专业化”会并存。可信度：高。** 北京办法的四方向把研发、硬件、行业应用、安全治理区分开，说明安全/平台等稳定风险链可细分；Skills England 同时提示影响不均，故不能单向宣称所有岗位变宽。【L3】 | 暂无单独 Context 摘要。 | 1. 北京办法实施后是否公布评审口径、申请量和跨通道流动？ |
 | 2026-07-20 | [日报](../2026-07-20/03-job-family-career-architecture.html) | 结论层候选 | 1. **端到端责任包正在跨越传统职能边界。可信度：高。**OpenAI 与 Palantir 两家独立一手 JD 都把客户、业务、工程、上线、采用和反馈装进同一岗位。为什么重要：岗位架构应围绕责任和结果，而非按技术工具继续细切。【L3】 | 暂无单独 Context 摘要。 | 1. OpenAI/Palantir 前置部署岗位是否形成正式等级、薪带、晋升、内部流动和管理跨度。 |
+| 2026-07-21 | [日报](../2026-07-21/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **岗位架构的稳定单位是“可审计责任包”，不是名称。可信度：高。**证据基础：Replit 把目标、执行、验证、升级和最终责任写进同一工作系统；理想把部分产品定义责任并入研发。为什么重要：岗位说明和系统权限应共用一张责任表，至少写清结果、决策权、质量线、停止/升… | 暂无单独 Context 摘要。 | 1. **Harness 成熟度：**检索小米/DeepSeek 官方招聘页、团队介绍和连续 6—12 个月岗位快照，确认是否有研究、工程、产品、评测/治理等稳定岗位，以及等级、薪带、汇报… |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-07-20｜[打开专题日报](../2026-07-20/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-07-20/03-job-family-career-architecture.md`
+- 最新日报：2026-07-21｜[打开专题日报](../2026-07-21/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-07-21/03-job-family-career-architecture.md`
