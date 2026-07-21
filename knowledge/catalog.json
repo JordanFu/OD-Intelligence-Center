@@ -2676,6 +2676,30 @@
         "oecd.org"
       ],
       "originalUrl": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/06/oecd-compendium-of-productivity-indicators-2026_04e21c23/734a5e68-en.pdf"
+    },
+    {
+      "id": "p037",
+      "title": "2Q26 earnings transcript",
+      "originalTitle": "2Q26 earnings transcript",
+      "author": "jpmorganchase.com",
+      "publisher": "jpmorganchase.com",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-07-21",
+      "description": "2Q26 earnings transcript 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-jpmorganchase-com-2q26-earnings-transcript.md",
+      "rawFile": "./knowledge/raw/jpmorganchase-com-2q26-earnings-transcript.pdf",
+      "fileName": "jpmorganchase-com-2q26-earnings-transcript.pdf",
+      "fileSize": "286751 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "jpmorganchase.com"
+      ],
+      "originalUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/2nd-quarter/2Q26-earnings-transcript.pdf"
     }
   ]
 }

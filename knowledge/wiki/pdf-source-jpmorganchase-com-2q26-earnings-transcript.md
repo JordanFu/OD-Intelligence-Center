@@ -1,26 +1,26 @@
 ---
-title: 47382ae415a209fd161bc19a1f9b3704
-source: static.www.tencent.com
+title: 2Q26 earnings transcript
+source: jpmorganchase.com
 date: 待核验
 ingested: 2026-07-21
-sourceFile: ../knowledge/raw/static-www-tencent-com-47382ae415a209fd161bc19a1f9b3704.pdf
-sourceUrl: https://static.www.tencent.com/uploads/2026/05/13/47382ae415a209fd161bc19a1f9b3704.pdf
+sourceFile: ../knowledge/raw/jpmorganchase-com-2q26-earnings-transcript.pdf
+sourceUrl: https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/2nd-quarter/2Q26-earnings-transcript.pdf
 tags: [AI组织设计]
 status: 已下载原始PDF，已生成结构化初筛卡片
 ---
 
-# 47382ae415a209fd161bc19a1f9b3704
+# 2Q26 earnings transcript
 
 ## 一句话判断
 
-47382ae415a209fd161bc19a1f9b3704 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
+2Q26 earnings transcript 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
 
 ## 入库状态
 
-- **来源机构**：static.www.tencent.com
+- **来源机构**：jpmorganchase.com
 - **来源类型**：media
-- **原文 URL**：https://static.www.tencent.com/uploads/2026/05/13/47382ae415a209fd161bc19a1f9b3704.pdf
-- **原始文件**：`knowledge/raw/static-www-tencent-com-47382ae415a209fd161bc19a1f9b3704.pdf`
+- **原文 URL**：https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/2nd-quarter/2Q26-earnings-transcript.pdf
+- **原始文件**：`knowledge/raw/jpmorganchase-com-2q26-earnings-transcript.pdf`
 - **入库日期**：2026-07-21
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
@@ -51,7 +51,12 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 
 ## 被引用位置
 
-- `daily/2026-06-09.md:99`：来源：Tencent（；https://www.tencent.com/en-us/articles/2202350.html）
+- `specials/ai-org-talent-mechanism/2026-07-21/00-overview.md:23`：JPMorgan 2Q26 电话会
+- `specials/ai-org-talent-mechanism/2026-07-21/00-overview.md:111`：2Q26 Earnings Transcript
+- `specials/ai-org-talent-mechanism/2026-07-21/02-talent-density.md:22`：JPMorgan 2026 Q2 电话会 PDF
+- `specials/ai-org-talent-mechanism/2026-07-21/02-talent-density.md:125`：2Q26 Earnings Transcript
+- `specials/ai-org-talent-mechanism/2026-07-21/03-job-family-career-architecture.md:22`：JPMorganChase 2Q26 电话会
+- `specials/ai-org-talent-mechanism/2026-07-21/03-job-family-career-architecture.md:125`：2Q26 Earnings Transcript
 
 ## 后续精读任务
 
