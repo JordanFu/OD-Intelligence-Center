@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-22T10:18:52.557Z",
+  "generatedAt": "2026-07-22T12:08:37.268Z",
   "module": "knowledge-base",
-  "qualityStatus": "pass",
+  "qualityStatus": "warn",
   "latestCatalogDate": "2026-07-22",
   "counts": {
-    "reports": 95,
+    "reports": 97,
     "knowledgeSources": 4,
     "sourceTypes": {
-      "media": 31,
+      "media": 33,
       "internal": 17,
       "concept": 10,
       "public-safe-synthesis": 11,
@@ -26,14 +26,37 @@
       "summaryFile": "./knowledge/wiki/local-knowledge-review-2026-06-29.md"
     }
   ],
-  "warnings": [],
+  "warnings": [
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1"
+  ],
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": null,
-    "qualityStatus": "pending",
-    "firstPartyChecked": 0,
-    "externalWarnings": 0,
-    "brokenCount": 0
+    "checkedAt": "2026-07-22T12:08:37.573Z",
+    "qualityStatus": "warn",
+    "firstPartyChecked": 2095,
+    "externalWarnings": 5,
+    "brokenCount": 0,
+    "publicScanBridge": [
+      {
+        "ok": true,
+        "status": 200,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-19.html"
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "url": "https://jordanfu.github.io/org-intelligence-info/"
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-22.html"
+      }
+    ]
   }
 }

@@ -1,13 +1,13 @@
 # 系统健康状态
 
-> 自动生成：2026-07-22T10:18:59.008Z
+> 自动生成：2026-07-22T12:08:37.673Z
 
 ## 一眼判断
 
 - 总体状态：⚠️ warn
 - 情报流状态：⚠️ warn
 - 专题研究状态：⚠️ warn
-- 知识库状态：✅ pass
+- 知识库状态：⚠️ warn
 - 自动化状态：⚠️ warn
 - 一方链接状态：⚠️ warn
 - 当前结论：状态链可信但仍有运营债务；允许展示 warn，不允许美化成 pass。
@@ -35,7 +35,7 @@
 
 - Catalog 日期：2026-07-22
 - 知识源：4
-- 报告 / 知识页：95
+- 报告 / 知识页：97
 - 待重试 PDF：1
 - 本地或私有路径泄露：0
 - 缺失 summaryFile：0
@@ -53,8 +53,8 @@
 ## 链接检查
 
 - 一方断链数：0
-- 外部链接 warning：8
-- 公开扫描桥接：warn:n/a、warn:n/a、warn:n/a
+- 外部链接 warning：5
+- 公开扫描桥接：ok:200、ok:200、ok:200
 
 ## 质量语义
 
@@ -78,10 +78,10 @@
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
-- ⚠️ network check warning: fetch failed
-- ⚠️ network check warning: fetch failed
-- ⚠️ network check warning: fetch failed
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ 信息库质量为 warn
+- ⚠️ 专题研究状态为 warn
