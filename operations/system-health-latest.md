@@ -1,13 +1,13 @@
 # 系统健康状态
 
-> 自动生成：2026-07-22T01:56:39.318Z
+> 自动生成：2026-07-22T04:43:04.790Z
 
 ## 一眼判断
 
 - 总体状态：⚠️ warn
 - 情报流状态：⚠️ warn
 - 专题研究状态：⚠️ warn
-- 知识库状态：✅ pass
+- 知识库状态：⚠️ warn
 - 自动化状态：⚠️ warn
 - 一方链接状态：⚠️ warn
 - 当前结论：状态链可信但仍有运营债务；允许展示 warn，不允许美化成 pass。
@@ -26,10 +26,10 @@
 ## 专题研究状态
 
 - 今日日期：2026-07-22
-- 今日专题状态：scheduled
+- 今日专题状态：fallback
 - 最新正式日报日期：2026-07-21
-- 待正式重跑日期数：18
-- 待正式重跑日期：2026-07-13、2026-07-12、2026-07-11、2026-07-06、2026-07-03、2026-06-22、2026-06-11、2026-06-10、2026-06-01、2026-05-29、2026-05-28、2026-05-27 等 18 项
+- 待正式重跑日期数：19
+- 待正式重跑日期：2026-07-22、2026-07-13、2026-07-12、2026-07-11、2026-07-06、2026-07-03、2026-06-22、2026-06-11、2026-06-10、2026-06-01、2026-05-29、2026-05-28 等 19 项
 
 ## 知识库状态
 
@@ -42,7 +42,7 @@
 
 ## 自动化状态
 
-- 本地正式任务：scheduled
+- 本地正式任务：manual-check-required
 - GitHub Actions 角色：fallback-only
 - GitHub Actions 定时数：4
 - 信息库链路：⚠️ warn
@@ -53,8 +53,8 @@
 ## 链接检查
 
 - 一方断链数：0
-- 外部链接 warning：7
-- 公开扫描桥接：warn:n/a、warn:n/a
+- 外部链接 warning：5
+- 公开扫描桥接：ok:200、ok:200、ok:200
 
 ## 质量语义
 
@@ -68,6 +68,20 @@
 - ⚠️ 最新日期有 1 条 sourceUrl 缺失：D12。
 - ⚠️ 最新日期同一子主题超过 40%：50%；需要关注广谱雷达覆盖。
 - ⚠️ 最近 7 个信息日存在结构字段缺失：12 类日期/字段组合需逐步补齐。
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
 - ⚠️ 信息库质量为 warn
 - ⚠️ 专题研究状态为 warn
-- ⚠️ 专题待正式重跑 18 天

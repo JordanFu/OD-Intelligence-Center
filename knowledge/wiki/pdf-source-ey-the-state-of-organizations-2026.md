@@ -1,6 +1,6 @@
 ---
 title: the state of organizations 2026
-source: McKinsey & Company
+source: EY
 date: 待核验
 ingested: 2026-07-22
 sourceFile: 
