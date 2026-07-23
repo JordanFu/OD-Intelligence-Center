@@ -1,53 +1,117 @@
 # 2026-07-23｜专题二：高人才密度与复合型人才机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+> 研究状态：**正式增量日报**。证据等级沿用 L0—L4；公司产品、内部案例、供应商样本和正式制度分开标注。今日没有形成“识别—招聘—配置—授权—学习—盘点—薪酬股权—晋升—保留”的 L3/L4 闭环。
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+## 读者应该带走什么
 
-## 今日一句话结论
+管理层该问的不是“谁最会用 AI”，而是“谁能在真实责任包里定义问题、正确分工、验证结果、处理风险并让他人复用”。招聘任务、学习模拟和技能数据只有进入真实项目、持续结果、薪酬与保留机制后，才可能提高人才密度。
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+## 背景材料
 
-## 今日核心判断
+7 月 21 日 CJ Olive Young 已把问题定义、AI 使用、迭代和验证纳入资深开发岗位招聘；7 月 22 日 Workday 又把角色、技能、情景练习和反馈连接到学习系统。两个动作共同增强“用真实过程证据识别与培养”的方向，但项目分配、授权升级、正式盘点、快速晋升、股权刷新和留任结果仍为空白。
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+## 1. 今日一句话专题判断
 
-## 今日背景材料
+**今日新增证据把复合型人才机制从招聘测评延伸到角色/技能事件触发的学习与情景练习，但仍不足以证明人才密度提升：课程完成率、模拟分数、AI 活跃度和单条高薪 JD 都只能作为诊断线索，必须继续通过受控工作样本、真实项目结果、风险承担、机制复用、项目配置、薪酬股权与留任结果完成闭环。【L3 方向判断，L2 新增事实】**
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+## 2. 今日新增事实：只写可追溯事实
 
-## 今日新增证据地图
+1. **Workday 于 7 月 22 日宣布 Workday Learning powered by Sana 全球正式可用。**系统读取员工角色、技能、组织和地区，为入职、换岗及跨地区流动动态更新学习路径，并提供 AI 导师、问答、测验、反思题和情景练习。【L2 一手产品动作｜[Workday 公告](https://newsroom.workday.com/2026-07-22-Workday-Learning,-Powered-by-Sana,-Now-Generally-Available-as-an-AI-Native-Learning-Experience-Built-on-Workdays-Trusted-Data)】
+2. **Workday 披露约 20,000 名员工、35 个国家、三年使用 Sana Learn 的内部结果。**公司自报必修和选修课程完成率提高 25%、全员负责任 AI 课程完成率 86%、课程制作加快 50%、旧课程迁移加快 60%、年度维护时间减少 70%；目标设定课程让 AI 扮演直属主管供员工练习。【L2 公司自报｜[Workday 内部案例](https://blog.workday.com/en-us/workday-built-courses-faster-sana-learn.html)】
+3. **平台可以把学习数据与技能发展、内部流动、绩效、留任和事故数据关联，但没有披露这些人才结果已经改善。**Workday 自己也承认完成课程不等于形成技能；正式结果仍集中于完成率与内容效率。
+4. **Synthesia 7 月 22 日推出 AI 情景角色扮演训练。**员工可练习销售、绩效反馈和客户投诉，AI 按企业量表评分并输出分析；公司计划扩展到面试和候选人筛选。早期客户不具名，也未披露效度、公平、人工复核和申诉。【L1-L2 媒体＋厂商｜[TechCrunch](https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching/)】
+5. **Pave 2026 年自有样本为稀缺人才回报提供市场信号。**其 200 多家公司、10 万多名员工样本显示，AI/机器学习工程师未晋升加薪中位数为 4.4%，高于研发整体 3.7%；研发员工晋升加薪中位数由 2025 年 9.9% 降至 2026 年 7.7%，AI/机器学习工程师为 6.5%；“符合预期”的研发员工中持续获得股权者中位比例为 30%。【L2 供应商样本｜[Pave](https://www.pave.com/blog-posts/how-the-ai-era-is-reshaping-merit-cycles)】
+6. **CJ Olive Young 的招聘动作仍是当期最强识别机制基线。**三类资深开发岗位用 AI 协作任务观察问题定义、工具/提示、迭代与结果验证，而非只看最终代码；未披露录用后的项目配置、绩效和留任。【L3 动作｜[CJ Newsroom](https://cjnews.cj.net/cj%ec%98%ac%eb%a6%ac%eb%b8%8c%ec%98%81-ai%eb%84%a4%ec%9d%b4%ed%8b%b0%eb%b8%8c-%ec%9d%b8%ec%9e%ac-%ec%b0%be%eb%8a%94%eb%8b%a4-%ea%b0%9c%eb%b0%9c%ec%9e%90-%ea%b2%bd%eb%a0%a5/)】
+7. **今日未检得新的正式快速晋升、内部人才市场分配、股权刷新、人才盘点或保留制度原文。**这只说明本轮检索范围内无新增，不代表全网绝对不存在。
 
-| 渠道 | 当前状态 | 必须补齐 |
+## 3. 今日核心判断
+
+1. **招聘、学习和内部发现应共享同一套责任包语言。可信度：高。**证据基础：CJ 的真实 AI 任务与 Workday 的角色/技能/情景机制；为什么重要：三个环节若用不同标准，数据无法积累，也无法判断谁能承担真实业务责任。
+2. **学习指标必须从参与递进到工作证据。可信度：高。**证据基础：Workday 公布的完成率/制作效率与其“完成不等于技能”的边界；为什么重要：课程完成、模拟分数和工具点击很容易被优化，却不代表结果、质量或判断。
+3. **AI 稀缺人才的保留可能更多通过非晋升调薪和股权，而非频繁升职。可信度：中。**证据基础：Pave 样本；为什么重要：职位责任未变化时，用市场定价工具比虚增职级更诚实，但样本不能替代企业内部政策。
+4. **AI 模拟评分可用于发展诊断，暂不应直接用于盘点、薪酬或淘汰。可信度：高。**证据基础：Synthesia 未披露效度、公平、人工复核和申诉；为什么重要：复杂对话不存在唯一标准答案，算法可能固化单一管理风格。
+5. **人才密度是组织吸收能力，不是明星人数。可信度：高。**证据基础：招聘、学习、项目与治理跨案例；为什么重要：高能力人才若无授权、复核、协作、复用、负荷上限和继任机制，只会形成关键人风险。
+
+## 4. 重点案例事实还原｜Workday：学习嵌入人才数据，但尚未形成闭环
+
+**背景与时间线。**约 2023 年，Workday 内部学习团队开始在约 20,000 名员工、35 个国家使用 Sana Learn；2025 年 11 月完成收购；2026 年 7 月 22 日整合产品正式全球可用。内部团队未来数月才迁移到完整整合产品，故本次结果主要来自既有 Sana Learn，而非新产品长期成效。
+
+**识别标准。**角色、技能、组织、地区和发展目标成为推荐输入，但没有公开技能证据门槛、标签准确率或员工纠错机制。
+
+**评价指标。**系统可提供测验、反思和情景练习；公开结果偏向完成率、参与度和内容生产效率，缺前后测、真实任务质量、业务影响与评委一致性。
+
+**面试与内部发现。**Workday 本次不涉及面试。学习数据可以形成更细技能画像，但未证明能有效识别高潜或复合人才；Synthesia 未来进入筛选仍只是 L1 线索。
+
+**项目分配与授权。**没有披露系统是否影响项目配置、岗位授权、预算或客户责任，因此不能称为人才市场闭环。
+
+**薪酬、股权、晋升与保留。**平台理论上可以关联绩效、内部流动和留任，未披露结果；Pave 只能作为外部市场校准，不能证明 Workday 的制度。
+
+**学习机制。**这是今天最强部分：入职、转岗、跨地区等岗位事件触发路径；AI 导师和情景模拟提供反馈；旧资料可转成课程并由人工调整。
+
+**争议与阻碍。**角色/技能标签可能过时；推荐逻辑难解释；完成率容易成为替代指标；模拟评分可能带偏见；学习数据用途可能从辅导漂移到高风险人员决策。
+
+**可借鉴点。**把学习变成“岗位事件—情景练习—受控工作样本—真实项目”的能力供应链。
+
+**不可照搬点。**不能把 25% 完成率提升解释成能力提升，不能把模拟分数直接写入盘点或晋升，不能因一次翻译抽检合格就永久取消本地人工复核。
+
+### 高密度复合型人才机制清单
+
+| 环节 | 建议证据 | 决策边界 |
 |---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+| 识别/面试 | 真实任务中的问题定义、人机分工、迭代、验证、拒绝错误建议 | 禁用工具活跃度替代能力 |
+| 内部发现 | 受控工作样本、项目结果、质量/风险、复用、他人成长 | AI 只索引，不排序潜力 |
+| 项目分配 | 项目价值、风险、能力匹配、成长目标、备份人 | 不把关键项目永久给同一明星 |
+| 授权 | 权限阶梯、审批、停止、升级与复盘 | 能力认证不自动获得高风险权限 |
+| 学习 | 情景模拟、导师、轮岗、真实任务验证 | 完成率不进入高风险决策 |
+| 薪酬股权 | 岗位价值、市场稀缺、项目结果、长期关键性分别路由 | 不用晋升解决所有保留问题 |
+| 晋升/保留 | 持续更高责任、横向校准、公平审计、继任和负荷 | 单次战功与模拟高分不升职 |
 
-## 线索层
+## 5. Context 层与线索
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+- **暂不形成结论，但提示我们关注……**Synthesia 的学习平台可能变成人才评估平台；需追踪评分效度、用途告知、更正、申诉与不同群体差异。
+- **暂不形成结论，但提示我们关注……**Workday 可以关联学习、流动、绩效和留任，但“可以关联”不是“已改善”，更不是因果。
+- **暂不形成结论，但提示我们关注……**Pave 数据反驳“稀缺人才只能快速晋升保留”，但也可能说明企业仅用钱延缓离职，未改善责任和成长。
+- **反例。**完成率提高既可能来自个性化，也可能来自课程更短、更易或提醒更强；没有真实工作数据不能判定能力形成。
+- **暂不形成结论，但提示我们关注……**BCG 保险模型指出基础任务自动化会削弱学徒制，使少数专家承担更复杂例外；高人才密度若没有新人管道会变成脆弱密度。
 
-## 待补齐的落地问题
+## 6. 证据地图
 
-正式重跑必须回答：复合型人才的能力证据是什么、是否有招聘/JD/薪酬信号、是否存在验证和治理能力的溢价、组织如何避免把“少招人”包装成高人才密度。
+| 渠道 | 材料 | 等级 | 能支持 | 不能支持 |
+|---|---|---:|---|---|
+| 官方/一手 | Workday、CJ | L2-L3 | 正式产品与招聘流程动作 | 能力/留任因果 |
+| 权威媒体/咨询 | TechCrunch、BCG | L1-L2 | 模拟训练与专家管道问题 | 企业制度成效 |
+| 公司案例 | Workday 内部使用 | L2 | 范围和自报效率 | 独立审计 |
+| 学术/研究 | 近期学习/人才模型 | L2 | 机制与风险假设 | 普遍因果 |
+| 招聘薪酬 | Pave、Anthropic JD | L1-L2 | 市场定价与招聘科学线索 | 单家公司完整机制 |
+| 社媒/职场 | 无稳定新增 | L0-L1 | 体验问题池 | 正式结论 |
+| 内部信息库/知识库 | `digest.md`、能力—判断矩阵、近两周专题 | L3 校准 | 去重、连续判断 | 替代制度原文 |
 
-## 来源索引
+## 7. 对我们的行动启发｜落地启发
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+1. 建一个招聘、内部试岗和学习共用的责任包：问题、分工、证据、迭代、验证、失败升级、复用资产。
+2. 指标分四级：课程完成 → 情景练习 → 受控工作样本 → 真实项目结果；只有后两级跨周期稳定才进入项目配置、盘点或晋升。
+3. 把学习数据用于辅导与把人才数据用于薪酬/晋升分开授权；员工应可查看、更正和申诉。
+4. 基础薪酬承接稳定岗位价值，短期稀缺用有退出条款的津贴，项目结果用项目奖，长期关键性与保留用股权刷新。
+5. 人才盘点同时检查高绩效、可扩展责任、风险判断、复用、他人成长、负荷和继任，不做“AI 使用排行榜”。
+6. 为复合人才配置明确项目授权和独立复核，避免既让其端到端负责，又不给资源和停止权。
+
+## 8. 待验证清单与下一步搜索路径
+
+1. `Workday Sana internal mobility performance retention outcomes validation skills assessment`
+2. `Synthesia roleplay scoring rubric validity bias candidate screening privacy`
+3. `Pave 2026 merit cycle methodology AI ML equity retention`
+4. 追踪 CJ AI 任务评分量表、公平审计与入职后预测效度。
+5. 寻找同时公开项目分配、授权、人才盘点、调薪/股权、晋升和留任结果的公司闭环。
+6. 追踪初级任务自动化后，导师制、模拟、轮岗和成长证据如何重建。
+
+## 9. 来源索引
+
+1. Workday，[Learning powered by Sana 正式公告](https://newsroom.workday.com/2026-07-22-Workday-Learning,-Powered-by-Sana,-Now-Generally-Available-as-an-AI-Native-Learning-Experience-Built-on-Workdays-Trusted-Data)，2026-07-22，L2。
+2. Workday，[内部学习案例](https://blog.workday.com/en-us/workday-built-courses-faster-sana-learn.html)，2026-07-22，L2 公司自报。
+3. TechCrunch，[Synthesia 进入实时角色扮演训练](https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching/)，2026-07-22，L1-L2。
+4. Pave，[How the AI era is reshaping merit cycles](https://www.pave.com/blog-posts/how-the-ai-era-is-reshaping-merit-cycles)，2026-06-09，L2 供应商样本。
+5. CJ Newsroom，[AI 协作任务招聘](https://cjnews.cj.net/cj%ec%98%ac%eb%a6%ac%eb%b8%8c%ec%98%81-ai%eb%84%a4%ec%9d%b4%ed%8b%b0%eb%b8%8c-%ec%9d%b8%ec%9e%ac-%ec%b0%be%eb%8a%94%eb%8b%a4-%ea%b0%9c%eb%b0%9c%ec%9e%90-%ea%b2%bd%eb%a0%a5/)，2026-07-21，L3 动作。
+6. BCG，[AI Transformation Is a Workforce Transformation](https://www.bcg.com/publications/2026/ai-transformation-is-a-workforce-transformation)，2026-02-04，L2 历史基线。
+7. 内部校准：[`daily/2026-07-23.md`](../../../daily/2026-07-23.md)、[`digest.md`](../../../digest.md)、[`2026-07-22 专题二`](../2026-07-22/02-talent-density.md)。
+
+> 本轮检索词包括：`July 22 2026 AI talent workforce promotion learning company announcement`；`Workday Learning employee data AI tutor privacy`；`Pave 2026 merit cycle AI ML engineers equity`。供应商样本口径不一致处已保留待核，不用于强结论。

@@ -1,53 +1,126 @@
 # 2026-07-23｜专题四：未来组织的晋升机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+> 研究状态：**正式增量日报**。本轮未检得 7 月 22—23 日新的公司级晋升制度、AI 贡献字段、人才委员会或薪酬校准原文，因此不以学习、模拟、重组或供应商功能冒充晋升制度。证据等级沿用 L0—L4。
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+## 读者应该带走什么
 
-## 今日一句话结论
+管理层该问的是“更高价值责任是否持续存在、证据能否横向校准、预算与公平是否通过”，而不是“AI 能否即时识别贡献并自动升职”。即时识别与固定窗口并不冲突：前者负责记录和认可，后者负责岗位、同级、薪酬和公平校准。
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+## 背景材料
 
-## 今日核心判断
+今日新增的 Workday 学习、Synthesia 模拟、monday.com 重组与 Pave 薪酬材料，都可能影响未来晋升证据或岗位价值，但没有一项披露正式晋升规则。GitLab 的固定校准、业务必要性、周期外重审批与人类实质复核仍是最完整公开基线。
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+## 1. 今日一句话专题判断
 
-## 今日背景材料
+**7 月 22—23 日无高置信晋升制度新增：继续采用“固定窗口为主、岗位价值变化触发受控例外、项目贡献即时奖励、绩效与晋升门槛耦合但结论解耦”，并把 AI 贡献写成可审计责任链；课程完成、模拟分数、工具使用、Token、代码量和技能徽章均不得直接兑换职级。【L3 连续判断】**
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+## 2. 今日新增事实：只写可追溯事实
 
-## 今日新增证据地图
+1. **本轮官方/制度/媒体/招聘/薪酬与社媒检索未发现新的公司级晋升制度原文。**该事实只描述检索范围，不证明全网绝对不存在。
+2. **Workday Learning powered by Sana 于 7 月 22 日正式全球可用。**系统依据岗位、技能、组织和地区动态调整学习路径，并可把学习数据关联内部流动、绩效、留任和事故；公告没有说明学习或认证如何进入晋升、调薪或人才委员会。【L2 产品事实；晋升含义仅为 Context｜[Workday](https://newsroom.workday.com/2026-07-22-Workday-Learning,-Powered-by-Sana,-Now-Generally-Available-as-an-AI-Native-Learning-Experience-Built-on-Workdays-Trusted-Data)】
+3. **Synthesia 7 月 22 日发布管理者对话角色扮演能力。**它支持情境模拟、反复练习、AI 教练反馈和尝试记录；未披露评分效度、公平、晋升结果或申诉，不是晋升制度。【L1-L2｜[Synthesia](https://www.synthesia.io/post/role-play-coaching-scenarios)】
+4. **monday.com 重组包括约 20% 裁员、减少管理层级、建立更小自治团队和扩大团队责任。**这可能改变岗位价值和管理/个人贡献者边界，但没有同步披露新职级、晋升窗口、薪带、人才委员会或成长规则。【L2-L3 动作；晋升外推禁止｜[SEC](https://www.sec.gov/Archives/edgar/data/1845338/000117891326003553/zk2635715.htm)】
+5. **Pave 近期材料把标准岗位架构、薪酬理念、市场基准、数据质量与数据整合作为 AI 辅助薪酬的前置条件。**多数企业尚未让 AI 直接生成薪酬建议，不能据此推断 AI 已进入晋升校准。【L1-L2 供应商调研｜[Pave](https://www.pave.com/blog-posts/ai-in-compensation-roadmap)】
+6. **GitLab 仍是最完整公开制度样本。**大多数同岗位族晋升进入半年两次的规划/校准节奏；候选人需持续体现下一层级要求，晋升文档覆盖业务结果、目标能力、价值观和业务必要性；高绩效不自动保证晋升。【L2-L3 一手制度｜[GitLab Promotions and Transfers](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/)】
+7. **GitLab 的周期外晋升治理更重。**请求需说明为何不能等待下一窗口，并经过经理、部门负责人、人员业务伙伴、总报酬和财务等审批；AI 可辅助整理材料，但最终判断需实质人审。【L2-L3 一手制度｜[GitLab Talent Assessment](https://handbook.gitlab.com/handbook/people-group/talent-assessment/)】
 
-| 渠道 | 当前状态 | 必须补齐 |
+## 3. 今日核心判断
+
+1. **固定窗口与即时识别应并存。可信度：高。**证据基础：GitLab 固定校准与周期外例外；为什么重要：贡献可以随时记录和奖励，职级变化需横向比较、岗位必要性、预算和群体公平。
+2. **即时晋升只能由持续岗位价值变化触发。可信度：高。**证据基础：业务必要性与例外审批；为什么重要：一次项目战功更适合项目奖、股权刷新或限期代理职责。
+3. **项目制贡献不等于项目制晋升。可信度：高。**证据基础：GitLab 与可审计贡献框架；为什么重要：正确路径是“项目结果—即时奖励—代理职责—60 至 180 天持续验证—正式校准”。
+4. **绩效与晋升应门槛耦合、结论解耦。可信度：高。**证据基础：GitLab 明确高绩效不自动晋升；为什么重要：绩效评价当前职责，晋升评价未来持续需要的更高责任。
+5. **能力认证、技能徽章和模拟分数只证明准备度。可信度：中高。**证据基础：Workday/Synthesia 未披露与职级连接；为什么重要：只有转化为业务结果、质量责任、复用和他人成长才进入晋升证据。
+6. **同行评审核验证据，不应投票选人。可信度：高。**证据基础：跨职能校准与利益冲突风险；为什么重要：只邀请直接参与成果的相关方，并要求反馈指向具体结果和目标层级责任。
+7. **人才委员会校准归因、岗位与公平，不重新讲故事。可信度：高。**证据基础：业务必要性、同级比较、总报酬/财务审批；为什么重要：防止强势经理、关键项目或写作能力主导结果。
+8. **薪酬校准与职级裁决分开。可信度：高。**证据基础：Pave 与 GitLab；为什么重要：市场稀缺和保留压力可用带宽、股权、津贴或项目奖承接，不虚增 title。
+
+## 4. 重点案例事实还原｜GitLab：固定校准＋受控例外
+
+**背景。**远程、跨职能和快速变化环境容易让晋升依赖经理叙事、可见性与临时保留压力。GitLab 用公开框架、统一文档、分层校准、总报酬和预算审批提高可审计性。
+
+**常规窗口。**日常持续讨论成长和准备度；多数同岗位族晋升一年两次集中规划、校准和处理。候选人通常需要持续展现下一层级责任。
+
+**证据规则。**晋升文档呈现业务结果、目标层级能力、价值观和业务必要性；高绩效是门槛而非充分条件。内部转岗通常走开放岗位和面试，不与同岗晋升混为一谈。
+
+**周期外例外。**必须解释为何不能等待下一窗口，并增加经理、部门、人员业务伙伴、总报酬和财务等审批。高阶岗位先判断业务是否需要该层级角色，再判断候选人是否匹配。
+
+**同行与人才委员会。**跨职能反馈用于核验具体影响，不是简单多数票；人才委员会挑战归因、同级比较、岗位必要性和公平。
+
+**薪酬。**职级判断与薪带、市场、预算分开治理；这使保留压力不必全部转化为晋升。
+
+**AI 边界。**可检索材料、检查字段、提示矛盾和生成待追问项；不得推荐候选人、推断潜力、排序或裁决。
+
+**结果与争议。**公开手册未披露晋升率、周期外通过率、群体差异、申诉和晋升后绩效，因此是 L2-L3 制度基线，不是 L4 成效。固定窗口可能延迟已承担更大责任者；例外又可能被强势经理或保留压力俘获。
+
+**可借鉴。**固定校准、业务必要性、周期外书面理由、跨职能证据、薪酬预算与公平审计。
+
+**不可照搬。**不照搬具体日期、审批层数和透明度边界；中国企业还需处理薪酬保密、隐私、劳动关系与申诉留痕。
+
+### 可审计 AI 贡献证据包
+
+| 字段 | 必答问题 | 防止误判 |
 |---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+| 业务基线 | 原问题、质量、周期、成本和风险是什么 | 把自然增长算个人贡献 |
+| 人的关键判断 | 定义了什么目标、边界、取舍、停止条件 | 把模型能力算人能力 |
+| 权限与分工 | 智能体能做什么、谁批准和负责 | 责任悬空 |
+| 组合结果 | 业务、客户、周期和成本如何变化 | 只看使用量 |
+| 质量风险 | 错误、返工、事故、回滚、合规、升级 | 用速度掩盖质量 |
+| 归因反事实 | 团队、平台、模型和市场分别贡献多少 | 共同成果个人化 |
+| 复用影响 | 是否形成标准、组件、规则和他人采用 | 一次战功永久化 |
+| 人才发展 | 是否提升他人、降低关键人依赖 | 奖励英雄主义 |
+| 持续时间 | 更高责任是否持续 60—180 天 | 临时代理永久化 |
+| 失败学习 | 是否及时停止、上报和修正 | 只奖励成功叙事 |
 
-## 线索层
+## 5. Context 层与线索
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+- **暂不形成结论，但提示我们关注……**Workday 的岗位/技能事件可以动态触发学习，但推荐课程不能替代真实责任和结果。
+- **暂不形成结论，但提示我们关注……**Synthesia 模拟适合低风险发展反馈，模拟分数不应直接进入晋升。
+- **暂不形成结论，但提示我们关注……**monday.com 减层和扩大所有权会重写岗位范围；在新职级、薪带和人才流程披露前，不能称晋升创新。
+- **暂不形成结论，但提示我们关注……**Pave 显示 AI 辅助薪酬需要岗位架构和数据治理，恰好说明自动化裁决尚不成熟。
+- **反例。**技能证书、政府职称或 AI 任务可以证明准备度/招聘评估变化，但不等于企业内部岗位价值、职级或薪酬变化。
+- **今日共同边界。**没有材料披露学习、模拟、重组或薪酬信号如何经同行评审、人才委员会、薪酬校准和申诉转成正式晋升。
 
-## 待补齐的落地问题
+## 6. 证据地图
 
-正式重跑必须回答：AI 贡献如何进入晋升证据包、谁负责验证与质量、是否有校准机制、是否存在调岗降薪和劳动合规风险。
+| 渠道 | 材料 | 等级 | 能支持 | 不能支持 |
+|---|---|---:|---|---|
+| 官方/一手 | GitLab、Workday、monday SEC | L2-L3 | 制度基线、学习与重组动作 | 新晋升成效 |
+| 权威媒体/咨询 | monday 媒体交叉、近期薪酬研究 | L1-L2 | 岗位变化和市场边界 | 晋升制度 |
+| 公司案例/制度 | GitLab | L2-L3 | 固定窗口、受控例外、人审 | 普遍适用与成效 |
+| 学术/专业 | 可审计贡献框架 | L2-L3 综合 | 归因、公平和治理 | 公司现场结果 |
+| 招聘薪酬 | Pave、技能/学习产品 | L1-L2 | 市场与准备度信号 | 职级裁决 |
+| 社媒/职场 | 无稳定新增 | L0-L1 | 体验与申诉问题池 | 正式判断 |
+| 内部信息库/知识库 | GitLab 知识卡、晋升基线、近两周专题 | L3 校准 | 连续判断与去重 | 替代原文 |
 
-## 来源索引
+## 7. 对我们的行动启发｜落地启发
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+1. 建立“三层承接”：即时认可/项目奖；60—180 天限期代理职责；正式职级晋升。
+2. 保留半年或季度固定校准；周期外委员会只处理岗位价值突变、关键继任、持续责任扩大和不能等待的保留风险。
+3. 在既有晋升文档中加入十字段 AI 贡献包，不另造一个“AI 分数”。
+4. 人才委员会四步：当前绩效门槛、岗位价值/持续性、同级证据校准、薪带/预算/群体公平。
+5. 同行反馈只收直接参与者的事实证据，披露关系与利益冲突，候选人可查看、纠正和申诉。
+6. AI 只做检索、格式、矛盾和缺口提示；禁止潜力推断、候选人推荐、排序和裁决。
+7. 市场稀缺优先使用带宽、股权刷新、专项津贴或项目奖，不用虚增职级解决所有激励。
+
+## 8. 待验证清单与下一步搜索路径
+
+1. `promotion packet AI contribution workflow quality risk reuse official handbook`
+2. `out-of-cycle promotion business need compensation finance approval`
+3. `verified AI skill badge promotion eligibility compensation official`
+4. monday.com 重组后是否更新职级、管理/个人贡献者边界、薪带和流动规则？
+5. Workday 客户是否把学习结果用于流动/晋升，并提供员工知情、更正与申诉？
+6. Synthesia 模拟分数是否有跨群体效度验证和用途限制？
+7. GitLab 能否披露周期外通过率、群体差异、申诉和晋升后绩效？
+
+## 9. 来源索引
+
+1. GitLab，[Promotions and Transfers](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/)，2026-07-23 复核，L2-L3。
+2. GitLab，[Talent Assessment](https://handbook.gitlab.com/handbook/people-group/talent-assessment/)，2026-07-23 复核，L2-L3。
+3. Workday，[Learning powered by Sana](https://newsroom.workday.com/2026-07-22-Workday-Learning,-Powered-by-Sana,-Now-Generally-Available-as-an-AI-Native-Learning-Experience-Built-on-Workdays-Trusted-Data)，2026-07-22，L2。
+4. Synthesia，[Role-play coaching scenarios](https://www.synthesia.io/post/role-play-coaching-scenarios)，2026-07-22，L1-L2。
+5. monday.com，[SEC Form 6-K](https://www.sec.gov/Archives/edgar/data/1845338/000117891326003553/zk2635715.htm)，2026-07-22，L3 动作。
+6. Pave，[AI in Compensation Roadmap](https://www.pave.com/blog-posts/ai-in-compensation-roadmap)，2026-06-18，L1-L2。
+7. 内部校准：[`GitLab 知识卡`](../../../knowledge/wiki/gitlab-promotions-transfers-handbook.md)、[`可审计晋升证据`](../../../knowledge/concepts/auditable-promotion-evidence.md)、[`2026-07-22 专题四`](../2026-07-22/04-promotion-system.md)。
+
+> 本轮主要检索词：`company promotion policy AI skills badge talent committee July 22 2026`；`promotion policy July 22 2026 company AI`；`Pave compensation calibration AI July 2026 official`。搜索无结果只作为范围事实，不证明全网绝对不存在。
