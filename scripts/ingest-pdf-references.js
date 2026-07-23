@@ -33,6 +33,7 @@ const knownTitles = new Map([
   ['https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf', 'Anthropic：2026 Agentic Coding Trends Report'],
   ['https://ir.gitlab.com/sec-filings/all-sec-filings/content/0001628280-26-023407/0001628280-26-023407.pdf', 'GitLab：2026 SEC 8-K Filing'],
   ['https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf', 'EY：Future of Pay Report 2026'],
+  ['https://www.mckinsey.com/~/media/mckinsey/business%20functions/people%20and%20organizational%20performance/our%20insights/the%20state%20of%20organizations/2026/the-state-of-organizations-2026.pdf', 'McKinsey：The State of Organizations 2026'],
   ['https://web-assets.bcg.com/73/8e/cc44cbc14a3b81695f8a3de28ff1/ai-radar-2026-web-jan-2026-edit.pdf', 'BCG：AI Radar 2026'],
   ['https://web-assets.bcg.com/dc/c5/1bcbfdc0405c85fb14972a57c20a/the-emerging-agentic-enterprise-how-leaders-must-navigate-a-new-age-of-ai.pdf', 'BCG + MIT Sloan：The Emerging Agentic Enterprise'],
   ['https://www.payscale.com/content/report/2026-compensation-best-practice-report.pdf', 'Payscale：2026 Compensation Best Practices Report'],
@@ -305,7 +306,8 @@ function publisherFromUrl(url) {
   const host = new URL(url).hostname.replace(/^www\./, '');
   if (host.includes('bcg.com')) return 'BCG';
   if (host.includes('deloitte.com')) return 'Deloitte';
-  if (host.includes('ey.com')) return 'EY';
+  if (host === 'mckinsey.com' || host.endsWith('.mckinsey.com')) return 'McKinsey & Company';
+  if (host === 'ey.com' || host.endsWith('.ey.com')) return 'EY';
   if (host.includes('weforum.org')) return 'World Economic Forum';
   if (host.includes('aihr.com')) return 'AIHR';
   if (host.includes('anthropic.com')) return 'Anthropic';
@@ -316,7 +318,7 @@ function publisherFromUrl(url) {
 
 function sourceTypeFor(url) {
   const host = new URL(url).hostname;
-  if (/(bcg|deloitte|ey)\.com/.test(host)) return 'consulting';
+  if (/(^|\.)(bcg|deloitte|ey|mckinsey)\.com$/.test(host)) return 'consulting';
   if (/weforum|aihr|anthropic|gitlab|payscale/.test(host)) return 'industry';
   return 'media';
 }

@@ -1,6 +1,6 @@
 # 系统健康状态
 
-> 自动生成：2026-07-22T15:20:14.297Z
+> 自动生成：2026-07-23T02:02:50.442Z
 
 ## 一眼判断
 
@@ -14,26 +14,26 @@
 
 ## 情报流状态
 
-- 最新日期：2026-07-22
+- 最新日期：2026-07-23
 - 今日卡片数：12
-- 今日新增事实：9
-- 旧线复核 / Context：0
-- 弱信号：2
+- 今日新增事实：8
+- 旧线复核 / Context：2
+- 弱信号：1
 - 缺口记录：1
 - 渠道覆盖：官方、报告学术、媒体、JD薪酬、社媒公众号
 - sourceUrl 缺失：1
 
 ## 专题研究状态
 
-- 今日日期：2026-07-22
-- 今日专题状态：formal
+- 今日日期：2026-07-23
+- 今日专题状态：scheduled
 - 最新正式日报日期：2026-07-22
 - 待正式重跑日期数：18
 - 待正式重跑日期：2026-07-13、2026-07-12、2026-07-11、2026-07-06、2026-07-03、2026-06-22、2026-06-11、2026-06-10、2026-06-01、2026-05-29、2026-05-28、2026-05-27 等 18 项
 
 ## 知识库状态
 
-- Catalog 日期：2026-07-22
+- Catalog 日期：2026-07-23
 - 知识源：4
 - 报告 / 知识页：97
 - 待重试 PDF：1
@@ -42,7 +42,7 @@
 
 ## 自动化状态
 
-- 本地正式任务：confirmed-formal
+- 本地正式任务：scheduled
 - GitHub Actions 角色：fallback-only
 - GitHub Actions 定时数：4
 - 信息库链路：⚠️ warn
@@ -53,8 +53,8 @@
 ## 链接检查
 
 - 一方断链数：0
-- 外部链接 warning：5
-- 公开扫描桥接：ok:200、ok:200、ok:200
+- 外部链接 warning：30
+- 公开扫描桥接：warn:n/a、warn:n/a
 
 ## 质量语义
 
@@ -66,8 +66,8 @@
 
 - ✅ 无 P0 fail。
 - ⚠️ 最新日期有 1 条 sourceUrl 缺失：D12。
-- ⚠️ 最新日期同一子主题超过 40%：50%；需要关注广谱雷达覆盖。
-- ⚠️ 最近 7 个信息日存在结构字段缺失：12 类日期/字段组合需逐步补齐。
+- ⚠️ 最新日期同一子主题超过 40%：67%；需要关注广谱雷达覆盖。
+- ⚠️ 最近 7 个信息日存在结构字段缺失：8 类日期/字段组合需逐步补齐。
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
@@ -83,5 +83,5 @@
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
-- ⚠️ 信息库质量为 warn
-- ⚠️ 专题研究状态为 warn
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
