@@ -6,7 +6,8 @@
 
 ## [2026-07-23] ingest | 日报 PDF 证据源自动入库
 - 从 daily、daily-report、specials、analysis 中扫描 PDF URL，按知识库 Raw/Wiki/Catalog 规则自动建档。
-- 本次识别 32 个唯一 PDF 来源：25 个已下载原始 PDF，7 个保留 URL 与引用上下文待重试。
+- 本次识别 33 个唯一 PDF 来源：26 个已下载原始 PDF，7 个保留 URL 与引用上下文待重试。
+- 已下载：CWA18398 2026（引用 2 次）
 - 已下载：2026 Work Trend Index Annual Report 050526 7 69fc5b1c4e265（引用 1 次）
 - 已下载：UK Standard Skills Classification Development Report（引用 3 次）
 - 已下载：Mercer and Eightfold Pay for Skills（引用 1 次）
@@ -28,7 +29,7 @@
 - 已下载：draft cwa xxxx e（引用 1 次）
 - 已下载：draft cwa xxxx e（引用 1 次）
 - 已下载：us spans and layers for the modern organization 2020（引用 3 次）
-- 已下载：EY：Future of Pay Report 2026（引用 146 次）
+- 已下载：EY：Future of Pay Report 2026（引用 144 次）
 - 已下载：pip faq 2026（引用 6 次）
 - 已下载：12 087 bc50bde2 3016 457a 9bee dc988cb1056b（引用 5 次）
 - 已下载：cesifo1 wp12373（引用 3 次）
@@ -37,7 +38,7 @@
 - 已下载：2Q26 earnings transcript（引用 7 次）
 - 待重试：McKinsey：The State of Organizations 2026（引用 1 次）
 - 已下载：orgvue ai research ebook 2026 final（引用 1 次）
-- 已下载：Payscale：2026 Compensation Best Practices Report（引用 8 次）
+- 已下载：Payscale：2026 Compensation Best Practices Report（引用 11 次）
 - 待重试：it job family career ladder matrix software engineer（引用 1 次）
 ## [2026-07-22] ingest | 日报 PDF 证据源自动入库
 - 从 daily、daily-report、specials、analysis 中扫描 PDF URL，按知识库 Raw/Wiki/Catalog 规则自动建档。
