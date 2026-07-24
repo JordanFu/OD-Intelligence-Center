@@ -3827,6 +3827,17 @@
       },
     ];
 
+    const levelsSynthesisOutputs = [
+      {
+        date: '2026-07-24',
+        title: 'AI时代未来晋升机制：从“奖励绩效”到“认证责任”',
+        status: '阶段性综合 / 应用报告',
+        summary: '综合四专题账本、正式专题报告和大厂公开制度，提出“持续证据、固定校准、多种回报分流”的晋升机制与 90—180 天试点方案。',
+        href: './specials/ai-org-talent-mechanism/synthesis/2026-07-24-promotion-mechanism-evolution-application-report.html',
+        markdown: './specials/ai-org-talent-mechanism/synthesis/2026-07-24-promotion-mechanism-evolution-application-report.md'
+      },
+    ];
+
     const levelsComparisonOutputs = [
       {
         title: '2026-W20 重跑前周报',
@@ -3914,6 +3925,26 @@
         </div>
 
         <div class="levels-section">
+          <h3>阶段性专题综合</h3>
+          <p class="levels-section-note">跨四个研究课题汇总已验证判断、反例、适用边界和可执行方案；不使用兜底稿作为结论依据。</p>
+          ${levelsSynthesisOutputs.map(item => `
+            <div class="levels-output">
+              <div class="levels-output-head">
+                <div>
+                  <div class="levels-output-title">${esc(item.date)} · ${esc(item.title)}</div>
+                  <p>${esc(item.summary)}</p>
+                </div>
+                <span class="report-day-badge">${esc(item.status)}</span>
+              </div>
+              <div class="levels-actions">
+                <a class="levels-btn primary" href="${esc(item.href)}" target="_blank">阅读报告</a>
+                <a class="levels-btn" href="${esc(item.markdown)}" target="_blank">查看 Markdown</a>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+
+        <div class="levels-section">
           <h3>周报分区</h3>
           <p class="levels-section-note">每周固定两份：快速导读版负责高层决策阅读；详细资料版负责沉淀当周所有有价值信息、Context 和线索。</p>
           ${levelsWeeklyOutputs.map(item => `
@@ -3961,6 +3992,26 @@
           <div class="levels-card"><h3>高人才密度</h3><p>研究复合型人才识别、招聘、授权、激励、保留和持续涌现机制。</p></div>
           <div class="levels-card"><h3>岗位族群序列</h3><p>持续更新岗位族群、职业通道、职级结构、薪酬带宽和激励资源配置。</p></div>
           <div class="levels-card"><h3>未来晋升机制</h3><p>研究即时晋升、常规窗口、项目制晋升、能力认证和公平校准机制。</p></div>
+        </div>
+
+        <div class="levels-section">
+          <h3>阶段性专题综合</h3>
+          <p class="levels-section-note">跨四个研究课题汇总已验证判断、反例、适用边界和可执行方案；不使用兜底稿作为结论依据。</p>
+          ${levelsSynthesisOutputs.map(item => `
+            <div class="levels-output">
+              <div class="levels-output-head">
+                <div>
+                  <div class="levels-output-title">${esc(item.date)} · ${esc(item.title)}</div>
+                  <p>${esc(item.summary)}</p>
+                </div>
+                <span class="report-day-badge">${esc(item.status)}</span>
+              </div>
+              <div class="levels-actions">
+                <a class="levels-btn primary" href="${esc(item.href)}" target="_blank">阅读报告</a>
+                <a class="levels-btn" href="${esc(item.markdown)}" target="_blank">查看 Markdown</a>
+              </div>
+            </div>
+          `).join('')}
         </div>
 
         <div class="levels-section">
