@@ -21,7 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-07-07 | [日报](../2026-07-07/03-job-family-career-architecture.html) | 背景材料（Context）强证据 | 1. **粗颗粒岗位不是“岗位消失”，而是责任对象更清楚。** 可信度：中高。证据基础：HBR、Deloitte、国内大厂 AI 整合。为什么重要：岗位名称可能变宽，但内部责任会围绕客户结果、流程、智能体、风险和审计重新拆分。 | 暂无单独 Context 摘要。 | 1. 搜索 `agent governance owner`、`AI operations manager`、`model routing engineer`、`evaluation le… |
 | 2026-07-08 | [日报](../2026-07-08/03-job-family-career-architecture.html) | 背景材料（Context）强证据 | 1. **粗颗粒岗位会增加，但不是岗位消失。可信度：中高。** 证据基础：2026-07-07 formal、HBR role fluidity、Deloitte AI-native organization、今日前后端合并线索。为什么重要：岗位名称可变宽，但内部仍要… | 暂无单独 Context 摘要。 | 1. 找官方 JD：FDE、Agent Governance、AI Operations、Model Evaluation、AI Infra、Inference Cost Optimiza… |
 | 2026-07-09 | [日报](../2026-07-09/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **FDE 正在组织化，但还不是成熟序列。可信度：高。** OpenAI Gov FDE 与 Replit Head of FDE 说明责任包稳定度上升；缺口是职级路径、晋升规则、绩效模板、团队规模和薪酬带宽。为什么重要：避免把岗位热度误当成序列成熟。 | 暂无单独 Context 摘要。 | 1. OpenAI Gov FDE 的团队规模、正式汇报线、审批 gate、事故复盘和客户部署结果。 |
 | 2026-07-10 | [日报](../2026-07-10/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **岗位说明书要从职责清单改成责任系统。可信度：高。** 今日最可用的表达是：判断、AI 工作流、业务结果、质量/风险责任。为什么重要：这能减少“新词等于新岗位”的冲动。 | 暂无单独 Context 摘要。 | 1. FDE career ladder compensation band promotion criteria OpenAI Replit AWS Databricks Okta。 |
@@ -35,6 +34,7 @@
 | 2026-07-21 | [日报](../2026-07-21/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **岗位架构的稳定单位是“可审计责任包”，不是名称。可信度：高。**证据基础：Replit 把目标、执行、验证、升级和最终责任写进同一工作系统；理想把部分产品定义责任并入研发。为什么重要：岗位说明和系统权限应共用一张责任表，至少写清结果、决策权、质量线、停止/升… | 暂无单独 Context 摘要。 | 1. **Harness 成熟度：**检索小米/DeepSeek 官方招聘页、团队介绍和连续 6—12 个月岗位快照，确认是否有研究、工程、产品、评测/治理等稳定岗位，以及等级、薪带、汇报… |
 | 2026-07-22 | [日报](../2026-07-22/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **“更粗颗粒、更复合、更端到端”主要发生在应用与交付端，不适用于所有岗位。可信度：高。**证据基础：联想把供应链、流程重塑、人工智能架构、标准和跨职能推动放进同一岗位；OpenAI 把目标、配额、预算、数据和自动化放进同一责任域；此前 OpenAI/Palan… | 暂无单独 Context 摘要。 | 2. **深专家不会因岗位变宽而消失，高后果领域反而会深化并保留溢价。可信度：高。**证据基础：CJ 同时招平台岗位和人工智能推荐系统工程师；此前 Anthropic 网络安全强化学习岗位… |
 | 2026-07-23 | [日报](../2026-07-23/03-job-family-career-architecture.html) | 背景材料（Context）强证据 | 1. **应用责任变宽、专家控制面变深。可信度：高。**证据基础：Presence、McKinsey、BCG；为什么重要：端到端岗位必须拥有结果、权限和升级，深专家则需要发布闸门、否决和高后果责任，两者不能互相吞并。 | 暂无单独 Context 摘要。 | 1. OpenAI、Palantir 等 FDE 是否公开三级以上职责、薪带、晋升、内部流动和管理跨度？ |
+| 2026-07-24 | [日报](../2026-07-24/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **大量 AI 变化首先是既有岗位的工作流、权限和技能重写。可信度：高。**证据基础：Dynamics 365 沿用既有规则/权限/审计，OpenAI/Procore 把工作方法资产化；为什么重要：不应为每个智能体、工具或流程创建平行职位体系。 | 暂无单独 Context 摘要。 | 1. Dynamics 365 客户如何改写岗位说明、权限、流程所有者和事故责任。 |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-07-23｜[打开专题日报](../2026-07-23/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-07-23/03-job-family-career-architecture.md`
+- 最新日报：2026-07-24｜[打开专题日报](../2026-07-24/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-07-24/03-job-family-career-architecture.md`

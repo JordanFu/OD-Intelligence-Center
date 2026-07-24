@@ -67,8 +67,6 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 - `specials/ai-org-talent-mechanism/2026-07-19/01-flat-organization.md:74`：Flatland 原文
 - `specials/ai-org-talent-mechanism/weekly/2026-W29-detailed.md:461`：Cars24, Flatland
 - `specials/ai-org-talent-mechanism/weekly/2026-W29.md:461`：Cars24, Flatland
-- `specials/ai-org-talent-mechanism/weekly/latest-detailed.md:461`：Cars24, Flatland
-- `specials/ai-org-talent-mechanism/weekly/latest.md:461`：Cars24, Flatland
 
 ## 后续精读任务
 

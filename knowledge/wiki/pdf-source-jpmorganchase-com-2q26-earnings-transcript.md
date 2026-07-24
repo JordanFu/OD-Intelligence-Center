@@ -58,6 +58,10 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 - `specials/ai-org-talent-mechanism/2026-07-21/03-job-family-career-architecture.md:22`：JPMorganChase 2Q26 电话会
 - `specials/ai-org-talent-mechanism/2026-07-21/03-job-family-career-architecture.md:125`：2Q26 Earnings Transcript
 - `specials/ai-org-talent-mechanism/2026-07-22/03-job-family-career-architecture.md:153`：2Q26 Earnings Transcript
+- `specials/ai-org-talent-mechanism/weekly/2026-W30-detailed.md:470`：JPMorganChase 2Q26 Earnings Transcript
+- `specials/ai-org-talent-mechanism/weekly/2026-W30.md:470`：JPMorganChase 2Q26 Earnings Transcript
+- `specials/ai-org-talent-mechanism/weekly/latest-detailed.md:470`：JPMorganChase 2Q26 Earnings Transcript
+- `specials/ai-org-talent-mechanism/weekly/latest.md:470`：JPMorganChase 2Q26 Earnings Transcript
 
 ## 后续精读任务
 
