@@ -2,7 +2,7 @@
 title: NIST.AI.800 2.ipd
 source: nvlpubs.nist.gov
 date: 待核验
-ingested: 2026-07-24
+ingested: 2026-07-25
 sourceFile: ../knowledge/raw/nvlpubs-nist-gov-nist-ai-800-2-ipd.pdf
 sourceUrl: https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.800-2.ipd.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ NIST.AI.800 2.ipd 已作为日报/周报 PDF 证据源入库，当前需要完�
 - **来源类型**：media
 - **原文 URL**：https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.800-2.ipd.pdf
 - **原始文件**：`knowledge/raw/nvlpubs-nist-gov-nist-ai-800-2-ipd.pdf`
-- **入库日期**：2026-07-24
+- **入库日期**：2026-07-25
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容

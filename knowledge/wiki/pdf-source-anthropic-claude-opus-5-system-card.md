@@ -1,26 +1,26 @@
 ---
-title: us spans and layers for the modern organization 2020
-source: Deloitte
+title: Claude Opus 5 System Card
+source: Anthropic
 date: 待核验
 ingested: 2026-07-25
-sourceFile: ../knowledge/raw/deloitte-us-spans-and-layers-for-the-modern-organization-2020.pdf
-sourceUrl: https://www.deloitte.com/content/dam/Deloitte/us/Documents/human-capital/us-spans-and-layers-for-the-modern-organization-2020.pdf
-tags: [AI组织设计, 变革管理]
-status: 已下载原始PDF，已生成结构化初筛卡片
+sourceFile: 
+sourceUrl: https://www-cdn.anthropic.com/c5fbac3f0b1280a933ebd26d3cb8bb9f5bdeaf48/Claude%20Opus%205%20System%20Card.pdf
+tags: [AI组织设计, 人才发展]
+status: 已索引来源，PDF下载待重试
 ---
 
-# us spans and layers for the modern organization 2020
+# Claude Opus 5 System Card
 
 ## 一句话判断
 
-us spans and layers for the modern organization 2020 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
+Claude Opus 5 System Card 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
 
 ## 入库状态
 
-- **来源机构**：Deloitte
-- **来源类型**：consulting
-- **原文 URL**：https://www.deloitte.com/content/dam/Deloitte/us/Documents/human-capital/us-spans-and-layers-for-the-modern-organization-2020.pdf
-- **原始文件**：`knowledge/raw/deloitte-us-spans-and-layers-for-the-modern-organization-2020.pdf`
+- **来源机构**：Anthropic
+- **来源类型**：industry
+- **原文 URL**：https://www-cdn.anthropic.com/c5fbac3f0b1280a933ebd26d3cb8bb9f5bdeaf48/Claude%20Opus%205%20System%20Card.pdf
+- **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
 - **入库日期**：2026-07-25
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
@@ -51,9 +51,9 @@ us spans and layers for the modern organization 2020 已作为日报/周报 PDF 
 
 ## 被引用位置
 
-- `specials/ai-org-talent-mechanism/2026-05-19/01-flat-organization.md:16`：方法论框架：Deloitte《Spans and layers for the modern organization》（2020 PDF）给出 spans/layers 的诊断与设计口径。
-- `specials/ai-org-talent-mechanism/2026-05-19/01-flat-organization.md:22`：- 证据基础：GitLab 把“移除管理层级”与“端到端小团队所有权 + AI agents 自动化审批/交接”绑定为同一结构包；Deloitte spans/layers 提供可复用的诊断与设计口径。https://about.gitlab.com/blog/gitlab-act-2/ ｜
-- `specials/ai-org-talent-mechanism/2026-05-19/01-flat-organization.md:31`：- 证据基础：HBS 工作论文提供扁平化的反例与边界条件；Deloitte spans/layers 的设计框架也强调不能只动组织图不动机制。https://www.hbs.edu/ris/Publication%20Files/12-087_bc50bde2-3016-457a-9bee-dc988cb1056b.pdf ｜
+- `daily/2026-07-25.md:37`：Claude Opus 5 System Card（PDF）
+- `外部公开 PDF 扫描:92`：公开安全引用：来源与渠道：Anthropic 官方发布 https://www.anthropic.com/news/claude-opus-5；Claude Opus 5 System Card PDF 。
+- `外部公开 PDF 扫描:189`：公开安全引用：| Anthropic System Card |  | Anthropic | 发布门控与评测证据 | A | 是 |
 
 ## 后续精读任务
 
