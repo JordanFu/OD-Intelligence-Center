@@ -2788,9 +2788,9 @@
       "uploadDate": "2026-07-25",
       "description": "Claude Opus 5 System Card 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计、人才发展。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-anthropic-claude-opus-5-system-card.md",
-      "rawFile": "",
+      "rawFile": "./knowledge/raw/anthropic-claude-opus-5-system-card.pdf",
       "fileName": "anthropic-claude-opus-5-system-card.pdf",
-      "fileSize": "download pending",
+      "fileSize": "15981937 bytes",
       "tags": [
         "PDF自动入库",
         "AI组织设计",
@@ -2813,9 +2813,9 @@
       "uploadDate": "2026-07-25",
       "description": "c0ffced7 en 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-oecd-org-c0ffced7-en.md",
-      "rawFile": "",
+      "rawFile": "./knowledge/raw/oecd-org-c0ffced7-en.pdf",
       "fileName": "oecd-org-c0ffced7-en.pdf",
-      "fileSize": "download pending",
+      "fileSize": "3234339 bytes",
       "tags": [
         "PDF自动入库",
         "AI组织设计",
