@@ -1,53 +1,191 @@
-# 2026-07-26｜专题三：岗位、族群、序列持续建设
+# 2026-07-26｜专题三：岗位、族群、序列的持续建设
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+> 正式专题日报｜证据窗口：2026-07-17—2026-07-26。严格窗口内没有新的公司级 L3 岗位体系改革；本日价值在于用任务级证据修正岗位设计方法。L3 为一手制度、多源互证或高质量研究支持的机制，L2 为强一手事实或可信研究观察，L1 为单条招聘、社媒或未完整复核线索；本日无 L4。
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+## 读者应该带走什么
 
-## 今日一句话结论
+今天没有高置信证据支持立即新增 AI 岗位族群或职业序列。管理层应先建立“任务—责任—控制”底表，再判断问题属于永久责任变化、快变技能、市场定价、项目激励还是临时负担。
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+## 背景材料
 
-## 今日核心判断
+近两周正式研究持续支持“应用责任变宽、控制面专业变深”的双向分化。今日 Google、Management Science、C-O*NET、Salesforce、PwC 与百度材料让任务、口径、权限和止损责任更清楚，但仍没有 level、pay band、ladder、内部流动或晋升闭环新增。
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+## 1. 今日一句话专题判断
 
-## 今日背景材料
+AI 时代岗位架构不是“把旧岗位批量改名为 AI 岗位”，而是先把岗位拆到任务、判断权、数据口径、系统权限、人工签字和结果责任：应用与交付岗位会因交接减少而变宽，数据语义、身份权限、评测、安全、止损和审计等高后果控制面会变深；只有稳定责任、岗位复数、三级梯度、市场定价和流动治理同时成立，才新建族群或序列。
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+## 2. 今日新增事实：只写可追溯事实
 
-## 今日新增证据地图
+1. **Google ATLAS 显示“职业覆盖广”不等于“岗位被端到端自动化”。**Google 7 月 23 日发布 ATLAS v1.0，基于 Gemini App、AI Mode 和 Gemini API 的 1,500 万次聚合去标识交互，覆盖 150 多个国家、140 种语言、800 个职业和 4,000 项任务。AI 使用出现在覆盖美国约 90% 就业的职业中，但一个典型岗位只在约 21% 的任务上使用 AI，端到端自动化交互不足 10%。【L2｜[Google](https://blog.google/innovation-and-ai/technology/research/understanding-the-ai-economy/)；[ATLAS 报告](https://ai.google/static/documents/GoogleATLASv1.pdf)，2026-07-23】
+2. **同行评审研究显示，生成式 AI 对“组织技能”的影响不是均匀下降。**7 月 24 日上线的 Management Science 论文分析 1,820 家美国上市公司在 ChatGPT 发布前后各 12 个月的招聘需求；监控与奖励分配、运营异常处理、任务拆分和信息提供等技能需求下降更明显，任务分配和冲突解决相对稳定，GPT-4 发布后差异扩大。研究对象是招聘需求，不是实际在岗任务、裁员或绩效结果。【研究事实 L3，企业机制外推 L2｜[Management Science](https://doi.org/10.1287/mnsc.2025.01859)，2026-07-24 上线】
+3. **中国任务分类研究把问题从“岗位消失”转向“任务重组”，但可复现性仍不足。**上海科技大学 CEISD 等机构在 WAIC 发布动态 C-O*NET；公开材料称其使用 7 亿多条招聘记录、65,200 项任务和 1,267 个细分职业，并按 AI 暴露与人类互补划分任务组合，约 2,100 万个招聘岗位由任务重组产生，占 18.6%。目前尚未取得完整报告、代码和可复现附录，不同报道对原始数据时间窗也存在差异。【L2｜[新华网](https://app.xinhuanet.com/news/article.html?articleId=202607217fc4bad810094999ae17e1db1cadc24b)；[第一财经英文摘要](https://www.yicaiglobal.com/news/chinas-labor-market-in-ai-era-from-job-displacement-to-task-reconfiguration)，2026-07】
+4. **Salesforce 的内部案例把“指标定义权”显性化为智能体查询的控制接口。**7 月 25 日，Salesforce 公开其市场部门案例：Slackbot 对同一季度营销合格线索数先后回答 378,591 和 291,256，均不等于认证看板的 492,298。公司随后描述“人工智能技能（AI Skill）—Tableau MCP 语义模型—市场数据仓库认证数据集”的受控路径；认证数据由首席数据办公室与市场部门共同开发、验证和治理。官方没有披露整改后的持续错误率、人工复核率、维护成本或组织效率。【L2｜[Salesforce](https://www.salesforce.com/blog/ai-agent-answer-accuracy/)，2026-07-25】
+5. **PwC 提出智能体的身份与权限应和人的岗位生命周期联动。**7 月 17 日发布的治理框架要求每个智能体拥有独立、可验证身份，明确角色、任务级权限与审计记录；权限应随人员入职、岗位变化、内部流动和离职更新，项目任务使用有失效期的临时凭证。该材料是方法框架，不是客户运行成效。【L2｜[PwC](https://www.pwc.com/us/en/industries/tmt/library/trust-and-safety-outlook/ai-agents-workforce-governance.html)，2026-07-17】
+6. **百度两条实习招聘把运维责任写成“闭环＋治理平台”，但仍只是用人意图。**7 月 21 日可见的 AI-Infra 开发实习岗要求建设“巡检—诊断—根因定位—调度止损”闭环，把诊断、调度和分析封装为技能或插件；AI 开放平台产品实习岗负责 API、命令行、技能和智能体工具的统一接入、调用与治理，两岗各显示 2 个编制，均未公开薪酬、等级、晋升或内部流动。【L1｜[百度 AI-Infra](https://talent.baidu.com/jobs/detail/INTERN/9b27d24c-657b-4212-8f57-5a219a8989ec)；[百度 AI 开放平台](https://talent.baidu.com/jobs/detail/INTERN/93b3c7ae-15ca-421c-b5ec-71492ea86561)，2026-07-21 可见】
+7. **今日没有新的成熟族群或职业序列事实。**公开材料仍未同时提供同构岗位群、至少三级责任梯度、任职资格、薪酬带宽、晋升校准、横向流动、申诉与退出机制；也没有可核验的新薪酬带或 AI 专项津贴制度。因此，**无高置信新增结论支持立即新建 AI 岗位族群或序列。**
 
-| 渠道 | 当前状态 | 必须补齐 |
+## 3. 今日核心判断
+
+1. **任务架构先于岗位架构。可信度：高。**证据基础：Google ATLAS 把职业覆盖、任务采用和端到端自动化分开；Management Science 观察到同一类组织技能受到不同方向影响。为什么重要：若不先看任务，只按岗位名称调整编制，会把局部工具使用误写成岗位消失，也会漏掉仍需人工判断、冲突处理和最终签字的责任。
+2. **“岗位变宽”更可能发生在能够减少交接、形成完整结果链的部分，不是所有人都变成通才。可信度：中高。**证据基础：ATLAS 显示多数岗位只在部分任务使用 AI；C-O*NET 指向任务重组；百度招聘把巡检、诊断、根因、调度和止损连成候选责任包，但均缺企业结果闭环。为什么重要：岗位变宽必须同时增加结果责任、授权和质量边界，不能只是把更多任务塞给一个人。
+3. **高后果控制面可能继续专业化，而且专业化单位从“知识领域”延伸到“可执行控制权”。可信度：中高。**证据基础：Salesforce 的指标口径与认证数据、PwC 的独立身份与任务权限、百度的调度止损都要求明确谁能修改、批准、暂停、回滚和审计；目前仍是单案、框架和 JD 组合。为什么重要：真正值得形成专家岗位或专家通道的，不是“懂 AI”三个字，而是长期承担高后果判断并拥有相应控制权。
+4. **技能标签作为快变能力的默认容器，是当前治理偏好而非事实结论。可信度：中高。**证据基础：任务采用仍局部、技术与工具半衰期短，且今日没有岗位群、梯度、薪带与流动证据。为什么重要：技能标签可以跨岗位更新、设有效期和重新认证；过早固化为序列会制造头衔通胀、横向比较失真和长期成本。技能标签是能力元数据，技能徽章是认证证据，二者都不自动改变职级或薪酬。
+5. **业务提出新增序列时，必须把“责任变化”和“价格变化”拆开审计。可信度：中高。**证据基础：百度岗位只显示职责、不显示定价；今日无新薪带、津贴或内部流动制度。为什么重要：关键人保留、市场倒挂、阶段项目和永久责任是四种不同问题，分别应用薪酬带宽、稀缺系数、项目激励或岗位架构承接，不能用一个新 title 解决全部诉求。
+
+## 4. 重点案例事实还原｜Salesforce：一次错误回答如何暴露“岗位责任不只在人机界面”
+
+### 背景
+
+企业把智能体接入经营数据后，常把问题理解为“模型能否访问数据”。Salesforce 的案例显示，访问权只是第一层；同一指标可能存在不同数据表、时间窗、过滤规则和业务定义。缺少认证口径时，智能体即使正常查询，也可能给出形式合理但不能进入经营决策的答案。
+
+### 时间线
+
+- **整改前：**用户在 Slack 中询问同一季度的营销合格线索数，智能体先后返回 378,591 和 291,256；
+- **业务校验：**认证看板对应数字为 492,298，暴露出模型选择数据与业务认证口径之间的断点；
+- **7 月 25 日公开：**Salesforce 描述新的受控路径，由人工智能技能调用 Tableau MCP 语义模型，再连接市场数据仓库认证数据集；
+- **治理安排：**认证数据由首席数据办公室与市场部门共同开发、验证和治理。
+
+### 原责任形态与新责任形态
+
+| 维度 | 原责任形态 | 新责任形态候选 | 仍未知 |
+|---|---|---|---|
+| 用户界面 | 用户向通用智能体提问 | 用户通过受控技能访问认证路径 | 哪些问题必须人工确认 |
+| 数据 | 可访问多个数据源 | 指向认证数据集 | 认证覆盖率与更新时限 |
+| 语义 | 模型自行理解指标 | 语义模型承载业务口径 | 指标冲突的最终裁决者 |
+| 权限 | 能查到不等于可用于决策 | 技能、语义层和数据权限组合 | 修改、例外与紧急回滚权 |
+| 责任 | 错答容易被归因于模型 | 数据、业务、产品和使用者共同负责 | 错答复盘、绩效与问责机制 |
+
+### 动作与机制
+
+这不是“新增一个提示词工程师岗位”的充分理由，而是至少四类既有责任需要重写：业务指标负责人定义口径和例外；数据负责人维护认证数据及血缘；产品/流程负责人设计可执行查询技能与人工升级；使用者对高后果答案完成核验与最终签字。只有当这些责任形成长期工作量、岗位复数和清晰梯度时，才讨论独立岗位或族群。
+
+### 结果、争议与阻碍
+
+- **已知结果：**官方证明错误样例确实出现，并公开了整改架构；
+- **未知结果：**没有整改后准确率、人工复核率、问题覆盖率、维护工时、决策速度或业务收益；
+- **争议：**公司自报案例既有学习价值，也可能偏向展示产品方案；
+- **阻碍：**语义层可能成为新瓶颈；业务与数据对口径所有权可能冲突；认证数据更新不及时会制造“正确但过时”的答案；责任变宽若没有相应授权和资源，会把流程负责人变成隐性最终救火人。
+
+### 可借鉴点
+
+- 岗位说明同时写清结果、数据口径、系统权限、人工签字、异常升级和审计证据；
+- 用任务白名单区分“可自动回答、需人工复核、禁止自动处理”；
+- 将指标、技能、权限和责任人的变更放进同一审批与复盘链；
+- 先改写现有业务、数据、产品和风险岗位，再观察是否形成稳定岗位群。
+
+### 不可照搬点
+
+- 不能把 Salesforce 的产品栈直接当作企业岗位架构；
+- 不能以一次整改证明持续准确或生产率提升；
+- 不能因为出现“技能所有者”“语义负责人”等责任就立即新建 title；
+- 不能把所有错误归给使用者，也不能用“人在回路”掩盖系统性口径缺陷。
+
+## 5. Context 层：弱信号、反例和冲突信息
+
+- **暂不形成结论，但提示我们关注……**百度两条实习岗把诊断、调度、止损、技能封装和平台治理放进责任包，可能预示运维岗位从“处理工单”转向“设计并监管自动化闭环”；但单一实习招聘、各 2 个编制且无薪酬与梯度，只能作为 L1 用人意图。
+- **暂不形成结论，但提示我们关注……**C-O*NET 所称 2,100 万个“任务重组岗位”可能支持中国市场的岗位重组，但完整方法、去重、宏观周期控制和真实入职结果未公开，不能据此宣称新增就业或否定岗位替代风险。
+- **暂不形成结论，但提示我们关注……**公开索引可见微信公众号「AI组织进化论」7 月 21 日关于 Codex 团队工作模式的标题，但没有取得稳定原文与完整引用链；知乎、小红书、LinkedIn 也没有越过身份、日期和原帖核验门槛的新制度材料。【L0-L1，不进入核心事实】
+- **反例：**Google ATLAS 既显示 AI 触及覆盖美国约 90% 就业的职业，又显示典型岗位只在约 21% 的任务使用 AI。覆盖面大与自动化深度低可以同时成立，不能用其中一个数字替代另一个。
+- **反例：**Management Science 观察到异常处理技能需求下降，但真实运行中的系统异常、模型错误和跨团队冲突仍需要责任人。招聘文本的下降可能意味着技能迁移、表述变化或风险外包，不等于能力不再重要。
+- **冲突：**应用岗位被要求端到端负责，控制面又要求数据、身份、权限、审计和止损独立。正确设计不是二选一，而是让宽岗位对结果负责，让深专家对高后果闸门负责，并写清二者的服务时限与升级接口。
+- **薪酬缺口：**本轮合格招聘均无公开薪酬，没有证据证明某个新头衔获得稳定市场溢价，也没有证据证明业务申请新序列普遍是在为关键员工争取涨薪；该假设只能进入内部审计。
+
+## 6. 证据地图
+
+| 渠道 | 本轮最强材料 | 等级 | 能支持什么 | 不能支持什么 |
+|---|---|---:|---|---|
+| 官方/一手 | Google ATLAS、Salesforce、PwC | L2 | 任务采用深度、语义控制、身份与权限设计 | 企业岗位群、薪带、晋升成效 |
+| 权威媒体/咨询 | 新华网、第一财经、PwC | L2 | 中国任务重组线索、智能体治理方法 | 因果、真实入职与组织结果 |
+| 公司案例/制度 | Salesforce 内部案例 | L2 | 指标口径进入可执行责任链 | 整改后持续准确率与效率 |
+| 学术/专业研究 | Management Science | L3 研究事实 | 生成式 AI 对组织技能需求的选择性影响 | 在岗任务、裁员、薪酬和晋升 |
+| 招聘与薪酬 | 百度两条官方招聘 | L1 | 当前职责意图、候选责任包 | 新族群、稳定编制、等级与市场价 |
+| 社媒/职场线索 | 公众号公开标题索引、职场平台扫描 | L0-L1 | 形成管理跨度、验证负荷等搜索问题 | 任何正式岗位制度结论 |
+| 内部信息库/知识库 | `digest.md`、`daily/2026-07-26.md`、近 14 日专题三、baseline、evidence-map、open-questions、知识库技能组织与职级材料 | L3 校准 | 去重、判断变化、决策路由 | 替代外部原文或冒充今日新增 |
+
+> 证据总评：今日新增的是“任务—权限—口径—责任”岗位设计证据，不是成熟岗位族群或职业序列证据；没有 level、pay band、ladder、内部流动或晋升机制新增。
+
+## 7. 对我们行动的启发｜落地启发
+
+### 7.1 先建立一张“任务—责任—控制”底表
+
+每个拟调整岗位至少拆出六个字段：业务结果、任务簇、AI 参与方式、人的判断与签字、系统/数据权限、异常升级与审计证据。AI 参与方式分为“辅助、共创、受控执行、自动执行”四级；没有任务级证据，不调整岗位名称和编制。
+
+### 7.2 新建岗位、族群、序列前过六道门
+
+1. **责任门：**最终结果、决策权或高后果质量责任是否实质改变；
+2. **持续门：**责任能否脱离某个工具和个人；建议先以 12 个月作为验证阈值，并按业务周期调整；
+3. **工作量门：**是否有稳定服务对象、任务量与产能基线；
+4. **岗位复数门：**是否形成多个同构岗位，且可跨团队或地区复用；
+5. **梯度门：**是否能定义可审计责任差异；“至少三级”是便于验证的内部建议阈值，不是外部事实标准；
+6. **治理门：**任职资格、评价、薪带、横向流动、晋升、校准、申诉、合并和退出是否齐备。
+
+### 7.3 按真实问题选择承接工具
+
+| 选择 | 什么时候用 | 最低治理要求 |
 |---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+| **新建岗位** | 出现长期独立结果责任，现有岗位无法合理承接 | 建议先试点 6—12 个月并按业务周期调整，写清权限、质量线和退出 |
+| **新建岗位族群** | 多个相近岗位共享能力主干、人才市场和横向流动 | 统一能力主干、岗位画像、薪酬基准和流动规则 |
+| **新建职业序列** | 已有岗位群，且存在至少三级稳定责任梯度 | 薪带、晋升证据、校准、申诉、双通道与退出完整 |
+| **只用技能标签** | 能力跨岗位共享、变化快、可验证，但不改变最终责任 | 标签设熟练度、证据、有效期和重新认证 |
+| **市场稀缺系数** | 岗位责任未变，仅特定技能在外部长期溢价 | 同地区同层级基准、复核日与退出条款 |
+| **项目激励** | 有明确终点、可验收结果和跨岗位战役 | 事前目标、质量护栏、团队分配和复盘 |
+| **专项津贴** | 持续承担额外值守、认证、风险或艰苦责任 | 对应责任清单，责任消失即退出 |
+| **临时补贴** | 转型期兼岗、迁移、夜间切换或短期额外负担 | 明确起止日，不自动固化进基础工资 |
+| **薪酬带宽调整** | 整个既有岗位族群出现长期系统性市场倒挂 | 基准样本、内部公平、预算和压缩倒挂复核 |
+| **坚决不新增** | 单人、单项目、单工具；职责重叠；无控制权；无岗位复数或三级梯度 | 回到岗位改写、技能标签、项目角色或薪酬工具 |
 
-## 线索层
+### 7.4 审计“薪酬诉求伪装成序列”
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+回看过去 12 个月的新岗位/族群/序列申请，分别编码：责任是否改变、工作量是否持续、岗位是否成群、是否市场倒挂、是否关键人保留、是否触及原职级天花板。先向业务提供稀缺系数、项目奖、专项津贴、临时补贴、薪带调整或股权刷新等替代方案；若序列诉求随价格方案消失，说明主要问题是定价而非架构。建议在获批后的第 6/12 个月复核任职者数量、责任稳定性、横向流动、薪酬公平和合并退出；该时点可按业务周期调整。
 
-## 待补齐的落地问题
+### 7.5 为“岗位变宽、专家变深”设置共同接口
 
-正式重跑必须回答：是新建岗位族群、保留技能标签，还是调整薪酬带宽和项目激励；必须同时验证岗位合并与专家岗位深化。
+- 宽岗位对完整业务结果、交接减少和客户/内部使用结果负责；
+- 深专家对数据口径、身份权限、评测、安全、发布、止损和审计闸门负责；
+- 两者共同约定服务时限、证据格式、否决边界、例外审批和复盘；
+- 初级岗位保留模拟、影子学习、轮岗和受控任务，避免基础任务自动化后切断未来专家供给。
 
-## 来源索引
+**管理层该问：**业务申请新序列，究竟是责任、梯度和人才市场真的形成了，还是在用组织架构解决关键人保留、短期项目或市场倒挂？
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+## 8. 待验证清单与下一步搜索路径
+
+1. **Google ATLAS 企业复现：**取得企业级任务日志，比较账号开通、任务采用、受控执行、端到端自动化和业务结果；检索词：`Google ATLAS enterprise task adoption job redesign validation`。
+2. **Management Science 机制落地：**追踪招聘需求变化是否进入在岗任务、绩效、内部流动和薪酬；检索词：`GenAI organizational skills demand job redesign internal mobility compensation`。
+3. **C-O*NET 方法：**取得完整报告、代码、招聘去重、任务映射和宏观周期控制；检索词：`C-O*NET CEISD 65200 tasks methodology PDF code`。
+4. **Salesforce 运行结果：**核验指标定义权、认证更新、人工复核、持续错误率、维护成本和事故复盘；检索词：`Salesforce Tableau semantic layer AI agent answer accuracy governance owner`。
+5. **百度责任梯度：**确认两岗位是新增、改写还是短期实习需求；取得诊断、调度、止损和复盘的审批权、岗位数量、等级、薪带、晋升和内部流动；检索词：`百度 AI Infra AIOps Agent 职级 薪酬 晋升 止损`。
+6. **智能体生命周期治理：**寻找 PwC 方法在客户中的真实实施，核验岗位变化和离职时的身份停用时限、权限继承与审计成本；检索词：`AI agent identity joiner mover leaver task permissions enterprise case`。
+7. **双向分化：**持续寻找同一公司同时公开应用交付岗位责任扩张与安全/评测/数据专家阶梯的材料；检索词：`applied AI role career ladder safety evaluation data governance pay band internal mobility`。
+8. **薪酬承接：**寻找同地区、同层级、同岗位群的 AI 技能溢价、项目奖、专项津贴和退出条款，拒绝用单条高薪 JD 推断市场价；检索词：`AI skill premium salary band project bonus allowance sunset clause 2026`。
+9. **社媒与员工体感：**取得具名原帖与完整上下文，重点验证责任无限扩张、验证负荷、头衔通胀和薪酬公平；未取得原文前保持 L0-L1。
+
+## 9. 来源索引
+
+### 今日新增与新核验
+
+1. Salesforce，[How we improved AI agent answer accuracy](https://www.salesforce.com/blog/ai-agent-answer-accuracy/)，2026-07-25，官方一手 L2。
+2. Management Science，[Generative AI and firms’ demand for organizational skills](https://doi.org/10.1287/mnsc.2025.01859)，2026-07-24 上线，同行评审研究事实 L3。
+3. Google，[Understanding the AI economy](https://blog.google/innovation-and-ai/technology/research/understanding-the-ai-economy/)；[ATLAS v1.0 PDF](https://ai.google/static/documents/GoogleATLASv1.pdf)，2026-07-23，官方研究 L2。
+4. 新华网，[C-O*NET 任务重组报道](https://app.xinhuanet.com/news/article.html?articleId=202607217fc4bad810094999ae17e1db1cadc24b)，2026-07，媒体材料 L2。
+5. 第一财经英文版，[China’s labor market in AI era: from job displacement to task reconfiguration](https://www.yicaiglobal.com/news/chinas-labor-market-in-ai-era-from-job-displacement-to-task-reconfiguration)，2026-07，媒体材料 L2。
+6. PwC，[AI agents as workforce counterparts](https://www.pwc.com/us/en/industries/tmt/library/trust-and-safety-outlook/ai-agents-workforce-governance.html)，2026-07-17，专业治理框架 L2。
+7. 百度招聘，[AI-Infra 开发实习岗](https://talent.baidu.com/jobs/detail/INTERN/9b27d24c-657b-4212-8f57-5a219a8989ec)；[AI 开放平台产品实习岗](https://talent.baidu.com/jobs/detail/INTERN/93b3c7ae-15ca-421c-b5ec-71492ea86561)，2026-07-21 可见，JD 线索 L1。
+
+### 制度与反例补充
+
+8. Associated Press，[AP updates newsroom standards for artificial intelligence](https://www.ap.org/the-definitive-source/announcements/ap-updates-newsroom-standards-for-artificial-intelligence/)，2026-07-23，任务白名单、人工复核和最终责任制度 L2。
+9. PwC，[2026 Global AI Jobs Barometer](https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html)，2026-06-15，十亿级招聘广告研究；本日仅作历史校准，不冒充新增。
+10. World Economic Forum / PwC，[Artificial Intelligence and the Future of Entry-Level Work](https://reports.weforum.org/docs/WEF_Artificial_Intelligence_and_the_Future_of_Entry_Level_Work_2026.pdf)，2026-06，初级岗位与人才管道专业研究 L2-L3。
+
+### 内部校准材料
+
+- [`2026-07-26 日常信息库`](../../../daily/2026-07-26.md)
+- [`2026-07-26 每日工作日报`](../../../daily-report/2026-07-26.md)
+- [`2026-07-25 专题三正式稿`](../2026-07-25/03-job-family-career-architecture.md)
+- [`专题三滚动基线`](../baseline/03-job-family-career-architecture.md)
+- [`岗位架构证据地图`](../topics/job-family-career-architecture/evidence-map.md)
+- [`岗位架构待验证问题`](../topics/job-family-career-architecture/open-questions.md)
+- [`技能为本组织概念卡`](../../../knowledge/concepts/skills-based-organization-obsidian.md)
+- [`CFTE AI 能力框架摘要`](../../../knowledge/wiki/pdf-source-cfte-2026-04-ai-proficiency-framework.md)
+
+> 本轮检索词记录：`AI job family career ladder official 2026`；`Google ATLAS enterprise task adoption job redesign`；`GenAI organizational skills demand Management Science`；`C-O*NET CEISD task reconfiguration`；`百度 AI Infra AIOps Agent 职级 薪酬 晋升`；`AI agent identity joiner mover leaver task permissions`；`AI skills premium salary band project bonus allowance sunset clause`；`AI组织进化论 Codex 团队 工作模式`。AnySearch 单次检索与页面提取可用，批量检索两次未返回正文；未用搜索空白填造结论。
