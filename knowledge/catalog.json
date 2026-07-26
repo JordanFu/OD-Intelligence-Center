@@ -2846,6 +2846,80 @@
         "ai.google"
       ],
       "originalUrl": "https://ai.google/static/documents/GoogleATLASv1.pdf"
+    },
+    {
+      "id": "p044",
+      "title": "WEF Artificial Intelligence and the Future of Entry Level Work 2026",
+      "originalTitle": "WEF Artificial Intelligence and the Future of Entry Level Work 2026",
+      "author": "World Economic Forum",
+      "publisher": "World Economic Forum",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "战略规划"
+      ],
+      "date": "",
+      "uploadDate": "2026-07-26",
+      "description": "WEF Artificial Intelligence and the Future of Entry Level Work 2026 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计、战略规划。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-world-economic-forum-wef-artificial-intelligence-and-the-future-of-entry-level-work-2026.md",
+      "rawFile": "./knowledge/raw/world-economic-forum-wef-artificial-intelligence-and-the-future-of-entry-level-work-2026.pdf",
+      "fileName": "world-economic-forum-wef-artificial-intelligence-and-the-future-of-entry-level-work-2026.pdf",
+      "fileSize": "41504869 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "战略规划",
+        "World Economic Forum"
+      ],
+      "originalUrl": "https://reports.weforum.org/docs/WEF_Artificial_Intelligence_and_the_Future_of_Entry_Level_Work_2026.pdf"
+    },
+    {
+      "id": "p045",
+      "title": "2026 global ai jobs barometer global findings",
+      "originalTitle": "2026 global ai jobs barometer global findings",
+      "author": "pwc.com",
+      "publisher": "pwc.com",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-07-26",
+      "description": "2026 global ai jobs barometer global findings 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-pwc-com-2026-global-ai-jobs-barometer-global-findings.md",
+      "rawFile": "./knowledge/raw/pwc-com-2026-global-ai-jobs-barometer-global-findings.pdf",
+      "fileName": "pwc-com-2026-global-ai-jobs-barometer-global-findings.pdf",
+      "fileSize": "1407609 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "pwc.com"
+      ],
+      "originalUrl": "https://www.pwc.com/gx/en/issues/artificial-intelligence/job-barometer/2026/2026-global-ai-jobs-barometer-global-findings.pdf"
+    },
+    {
+      "id": "p046",
+      "title": "2026 global ai jobs barometer full report",
+      "originalTitle": "2026 global ai jobs barometer full report",
+      "author": "pwc.com",
+      "publisher": "pwc.com",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-07-26",
+      "description": "2026 global ai jobs barometer full report 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-pwc-com-2026-global-ai-jobs-barometer-full-report.md",
+      "rawFile": "",
+      "fileName": "pwc-com-2026-global-ai-jobs-barometer-full-report.pdf",
+      "fileSize": "download pending",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "pwc.com"
+      ],
+      "originalUrl": "https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-jobs-barometer.html)，2026-06-15；[完整报告](https://www.pwc.com/gx/en/issues/artificial-intelligence/job-barometer/2026/2026-global-ai-jobs-barometer-full-report.pdf"
     }
   ]
 }

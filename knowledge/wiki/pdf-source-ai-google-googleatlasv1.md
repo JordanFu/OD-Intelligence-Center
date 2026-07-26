@@ -52,6 +52,12 @@ GoogleATLASv1 已作为日报/周报 PDF 证据源入库，当前需要完成结
 ## 被引用位置
 
 - `daily/2026-07-26.md:37`：ATLAS 报告 PDF
+- `specials/ai-org-talent-mechanism/2026-07-26/02-talent-density.md:21`：ATLAS v1.0 PDF
+- `specials/ai-org-talent-mechanism/2026-07-26/02-talent-density.md:214`：AI & Economy ATLAS v1.0 PDF
+- `specials/ai-org-talent-mechanism/2026-07-26/03-job-family-career-architecture.md:19`：ATLAS 报告
+- `specials/ai-org-talent-mechanism/2026-07-26/03-job-family-career-architecture.md:168`：ATLAS v1.0 PDF
+- `specials/ai-org-talent-mechanism/2026-07-26/04-promotion-system.md:31`：ATLAS v1.0
+- `specials/ai-org-talent-mechanism/2026-07-26/04-promotion-system.md:237`：ATLAS v1.0 report
 
 ## 后续精读任务
 
