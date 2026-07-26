@@ -1,48 +1,48 @@
 # 系统健康状态
 
-> 自动生成：2026-07-25T14:46:56.494Z
+> 自动生成：2026-07-26T01:59:16.650Z
 
 ## 一眼判断
 
 - 总体状态：⚠️ warn
 - 情报流状态：⚠️ warn
 - 专题研究状态：⚠️ warn
-- 知识库状态：⚠️ warn
+- 知识库状态：✅ pass
 - 自动化状态：⚠️ warn
 - 一方链接状态：⚠️ warn
 - 当前结论：状态链可信但仍有运营债务；允许展示 warn，不允许美化成 pass。
 
 ## 情报流状态
 
-- 最新日期：2026-07-25
-- 今日卡片数：14
+- 最新日期：2026-07-26
+- 今日卡片数：15
 - 今日新增事实：11
-- 旧线复核 / Context：0
-- 弱信号：2
+- 旧线复核 / Context：2
+- 弱信号：1
 - 缺口记录：1
-- 渠道覆盖：媒体、报告学术、官方、JD薪酬
+- 渠道覆盖：官方、报告学术、媒体、社媒公众号、JD薪酬
 - sourceUrl 缺失：0
 
 ## 专题研究状态
 
-- 今日日期：2026-07-25
-- 今日专题状态：fallback
-- 最新正式日报日期：2026-07-24
-- 待正式重跑日期数：19
-- 待正式重跑日期：2026-07-25、2026-07-13、2026-07-12、2026-07-11、2026-07-06、2026-07-03、2026-06-22、2026-06-11、2026-06-10、2026-06-01、2026-05-29、2026-05-28 等 19 项
+- 今日日期：2026-07-26
+- 今日专题状态：scheduled
+- 最新正式日报日期：2026-07-25
+- 待正式重跑日期数：18
+- 待正式重跑日期：2026-07-13、2026-07-12、2026-07-11、2026-07-06、2026-07-03、2026-06-22、2026-06-11、2026-06-10、2026-06-01、2026-05-29、2026-05-28、2026-05-27 等 18 项
 
 ## 知识库状态
 
-- Catalog 日期：2026-07-25
+- Catalog 日期：2026-07-26
 - 知识源：4
-- 报告 / 知识页：100
+- 报告 / 知识页：101
 - 待重试 PDF：1
 - 本地或私有路径泄露：0
 - 缺失 summaryFile：0
 
 ## 自动化状态
 
-- 本地正式任务：manual-check-required
+- 本地正式任务：scheduled
 - GitHub Actions 角色：fallback-only
 - GitHub Actions 定时数：4
 - 信息库链路：⚠️ warn
@@ -53,8 +53,8 @@
 ## 链接检查
 
 - 一方断链数：0
-- 外部链接 warning：54
-- 公开扫描桥接：ok:200、ok:200
+- 外部链接 warning：0
+- 公开扫描桥接：未检查
 
 ## 质量语义
 
@@ -65,23 +65,7 @@
 ## 当前问题
 
 - ✅ 无 P0 fail。
-- ⚠️ 最新日期同一子主题超过 40%：50%；需要关注广谱雷达覆盖。
 - ⚠️ 最近 7 个信息日存在结构字段缺失：4 类日期/字段组合需逐步补齐。
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ 信息库质量为 warn
+- ⚠️ 专题研究状态为 warn
+- ⚠️ 专题待正式重跑 18 天

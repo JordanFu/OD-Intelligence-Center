@@ -1,53 +1,228 @@
 # 2026-07-25｜专题二：高人才密度与复合型人才机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+> 正式决策稿｜证据窗口：2026-07-24—2026-07-25；历史制度基线只用于校准，不冒充今日新增。
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+## 读者应该带走什么
 
-## 今日一句话结论
+今天没有新的 L3/L4 企业案例证明某家公司已经打通“识别—招聘—配置—授权—学习—盘点—激励—晋升—保留”全链条。真正被增强的是两条更基础的判断：**高人才密度必须包含可持续的人才供给，不能只高价争夺成熟人才；AI 使用越深也不自动代表人才越强，组织还要保护人的自我效能、独立判断和可见成就。**
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+英国航空航天行业的年龄结构、学徒投入与工程师缺口说明，短期压缩训练入口会在多年后形成能力断层；韩国员工研究则提示，同样的 AI 依赖可能因人的能力感和经理行为产生不同结果。Zapier 的 token 额度治理补充了资源授权问题：复合人才需要模型、数据和算力资源，但额度、使用量和成本都不能直接变成绩效或晋升指标。
 
-## 今日核心判断
+## 背景材料
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+- 7 月 24 日正式专题已把高人才密度的识别单位从“技能清单/工具使用强度”改为“可审计责任包”：问题定义、人机分工、质量验证、异常处理、业务结果、复用和他人成长。
+- W29/W30 阶段判断已明确，高人才密度不是只买成熟明星或永久缩小团队，而是同时建设基础能力、构建/运营骨干、评测/治理专家与早期人才入口。
+- 今日 `digest.md`、`daily/2026-07-25.md` 与 `daily-report/2026-07-25.md` 来自同一批事实卡，不能当作三份独立互证。本文回到 Reuters/ADS、Nature、OECD、CFO Brew/Zapier 和官方招聘页的原始来源。
+- 今日百度、美团 JD 与元企 AI 供应商口径均为 L1，只进入 Context 层，不用于核心结论。
 
-## 今日背景材料
+## 1. 今日一句话专题判断
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+高人才密度不是让更少的人依赖更多 AI，而是持续形成一批能定义问题、验证结果、管理风险、沉淀复用并培养后继者的人；若组织削弱学徒入口、只看调用量又不给自主判断空间，短期提效会转化为长期能力断层和关键人过载。
 
-## 今日新增证据地图
+## 2. 今日新增事实：只写可追溯事实，注明来源
 
-| 渠道 | 当前状态 | 必须补齐 |
+1. **英国航空航天与国防业每年约短缺 1 万名专业工程师，且年龄结构明显失衡。**Reuters 7 月 24 日报道，超过半数持证航空工程师年龄在 50 岁以上，30 岁以下不足一成；行业过去削减学徒项目，如今又面临 AI 公司在薪酬与较低准入门槛上的人才竞争。岗位缺口有 ADS 行业资料支持，人才流向主要来自访谈；该短缺早于生成式 AI，不能全部归因于 AI 公司。【L2｜[Reuters 镜像](https://www.investing.com/news/stock-market-news/aerospace-fights-for-young-recruits-as-ai-drains-talent-pool-4812335)；[ADS 人才资料](https://www.adsgroup.org.uk/our-focus/people/)】
+2. **一项对 421 名韩国全职员工的三波时间滞后研究，没有发现 AI 依赖直接降低创新行为。**研究发现，负向关联经员工自我效能下降完全中介；较高水平的 AI 伦理领导削弱了这条关联。研究使用自报量表、单一国家样本且不是随机实验，能支持关联路径，不能证明一般企业中的强因果。【L3 研究事实；企业外推 L2｜[Humanities and Social Sciences Communications](https://www.nature.com/articles/s41599-026-08430-2)】
+3. **Zapier 已把 token 从文化倡议变成可计量、分层配置的组织资源。**公司 CFO 在 7 月 24 日直接访谈中称，Zapier 按员工、模型、层级和用例追踪 token 支出，与同类群体比较，并为不同个人和团队设置差异化额度；一次失控智能体曾在数日内产生六位数账单。跨 People、Finance、Communications、Procurement 的 AI Transformation Office 参与治理，Customer Operations 还同时比较每小时解决量与质量。【L2｜[CFO Brew](https://www.cfobrew.com/stories/setting-limits-on-employee-ai-use)；[Zapier 历史组织背景](https://zapier.com/blog/ai-transformation-leader)】
+4. **OECD 的跨政策比较显示，AI 劳动力治理正在增加风险评估、人工监督、决策申诉、日志和员工告知，但在岗转型支持仍偏薄。**报告覆盖 G7、欧盟及四个拉美国家，综合案头研究和专门问卷；其结论描述制度要求与政策供给，不证明企业执行强度或员工结果。【L3 报告事实；企业外推 L2｜[OECD 报告页](https://www.oecd.org/en/publications/recent-policy-developments-on-ai-in-the-labour-market_c0ffced7-en.html)；[报告 PDF](https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/07/recent-policy-developments-on-ai-in-the-labour-market_52d4afe2/c0ffced7-en.pdf)】
+5. **Patreon 与 Centrica 同日提供了“人才密度不等于 AI 缩编”的反向事实。**Patreon CEO 宣布裁减 93 人、约 20%，同时明确表示本轮变化不是因为 AI 可以替代员工；Centrica 宣布两年约裁 1,300 人并称客户行为变化、联系量下降和数字自助增长是主要背景，AI 不是这些特定裁减的驱动因素。公司说明不能排除 AI 的间接影响，但足以反驳“人员减少即可证明人才密度提升或 AI 直接替代”。【L2｜[Patreon CEO 备忘录](https://www.patreon.com/jackconte/posts/painful-update-164628951)；[Reuters/Centrica 镜像](https://au.marketscreener.com/news/british-gas-owner-centrica-to-cut-1-300-jobs-flags-slower-trading-arm-growth-ce7f51ded98ef624)】
+6. **今天没有新的公司级薪酬带宽、股权刷新、快速晋升、人才盘点或保留效果披露。**百度、美团官方招聘页只证明岗位职责意图且未披露薪酬；元企 AI 的“覆盖 80% 工作、成本约 20%”来自供应商自述，均不足以升级为正式人才机制。【范围结论：高；具体 JD/供应商信号 L1，见 Context】
+
+## 3. 今日核心判断
+
+1. **高人才密度首先是人才供给系统，而不是成熟人才库存。可信度：高。**证据基础：英国航空航天的人才缺口、年龄结构与历史学徒投入；W29 的三层人才供给基线。为什么重要：如果只用高薪挖成熟人才、同时削减校招和训练任务，组织会把今天的效率收益换成数年后的专家断层和继任风险。
+2. **AI 使用深度不能识别高密度人才，人的自我效能与独立判断必须进入评价。可信度：中高。**证据基础：韩国 421 人三波研究、7 月 24 日中国员工“自主/受控动机双路径”研究。为什么重要：调用量、token、生成量和登录频次可能同时混入岗位机会、被动要求和表演性采用，既不能公平比较，也可能侵蚀能力感。
+3. **资源授权应成为复合责任包的一部分，但额度不能变成绩效代理。可信度：中高。**证据基础：Zapier 的按人/模型/层级/用例计量与额度治理。为什么重要：真正的端到端责任需要数据、模型、预算和例外申请权；只给目标、不给资源会把复合人才变成背锅者，反过来只看资源消耗又会诱导浪费或压低合理探索。
+4. **高密度、缩编和 AI 替代是三个不同问题。可信度：高。**证据基础：Patreon、Centrica 的公司口径与航空航天的缺人反例。为什么重要：组织可以同时缩减某些流程岗位、缺少核心工程人才并继续培养新人；不能用净人数变化代替人才质量、任务结构和供给能力。
+5. **今日没有高人才密度全链条新闭环。可信度：高。**新增材料没有同时披露识别效度、面试、内部发现、项目配置、薪酬股权、快速晋升、人才盘点、保留及多周期结果。为什么重要：应把缺口写明，而不是用一条 JD、一项学术研究或一家供应商的比例口径拼成完整制度。
+
+### 相对 7 月 24 日的判断变化
+
+- **被增强：**“识别责任包而非使用量”新增自我效能路径和 token 额度反例；“保留早期人才入口”新增航空航天年龄结构与学徒投入反例。
+- **被修正：**高人才密度不只需要业务、工程和治理闭环，还要管理人的掌握体验、学习性任务与长期供给；人才指标增加“能力感、导师负荷、后继者形成”。
+- **继续被削弱：**“高人才密度=少人化”“AI 依赖越深=创新越强”“缩编=AI 直接替代”。
+- **保持不变：**薪酬、股权、项目奖励与晋升仍应分开路由；今日没有证据要求改变这一基线。
+
+## 4. 重点案例事实还原：英国航空航天人才管道 × 韩国员工自我效能
+
+### 背景
+
+英国航空航天提供的是“组织如何失去人才供给”的行业纵向镜头；韩国员工研究提供的是“已有员工如何在 AI 使用中保持或失去能力感”的个体机制镜头。两者共同回答一个问题：高人才密度如何持续涌现，而不是只在某个时点聚集少数高手。
+
+### 时间线
+
+- 英国航空航天的技能短缺和员工老龄化经过多年累积；行业过去削减学徒项目，当前又面临 AI 公司的人才竞争。7 月 24 日 Reuters 将历史培养不足、认证周期和新竞争者放入同一供给链。
+- 韩国研究采用三波时间滞后问卷，于 7 月 24 日发表；它观察 AI 依赖、自我效能、伦理领导和创新行为之间的时序关联，没有进行随机干预。
+
+### 动作与机制
+
+**航空航天供给链：**
+
+1. 认证周期长、专业安全责任高，无法靠短期培训迅速补位；
+2. 学徒项目削减减少早期进入者和可练习任务；
+3. 成熟人才年龄集中，退休与知识流失风险上升；
+4. AI 公司以更高薪酬和更低进入门槛参与争夺；
+5. 企业若只从外部抢人，会抬高成本但不增加行业总供给。
+
+**员工自我效能链：**
+
+1. 员工把更多任务交给 AI；
+2. 如果组织只奖励速度和调用量，人的掌握体验、独立判断和可见成就可能下降；
+3. 自我效能下降与较低创新行为相关；
+4. 经理若能说明边界、保留人的决定权、提供反馈并示范负责任使用，可能缓冲这条路径。
+
+### 结果
+
+- 航空航天案例提供了短缺规模和年龄结构，但没有证明恢复学徒投入后缺口会以多快速度缩小，也没有量化 AI 公司实际吸走了多少人才。
+- 韩国研究没有发现 AI 依赖对创新的显著直接负效应；其主要增量是“自我效能可能是中介，伦理领导可能是缓冲因素”，不是“AI 依赖一定损害创新”。
+
+### 争议与反向解释
+
+- 航空航天短缺可能同时来自认证周期、行业地点、薪酬、项目波动、退休与长期培训不足，AI 人才竞争只是新增压力之一。
+- 韩国研究中的“伦理领导”可能部分代理总体管理质量、心理安全或团队氛围；自报量表与单国样本限制外推。
+- 两个样本都不能证明某套招聘、晋升或股权机制已产生可重复结果。
+
+### 阻碍
+
+- 早期人才会拉低短期平均产出，需要受保护任务、导师时间和逐级授权；
+- 经理可能在效率压力下把练习任务全部交给 AI；
+- 复合骨干容易同时承担交付、复核、带教和异常处理，形成隐性过载；
+- 学徒制、认证和专业知识形成周期长，难以与季度人效目标对齐。
+
+### 可借鉴点
+
+1. 把“后继者形成率”而非只把成熟人才数量写入人才密度仪表板；
+2. 保留受控真实任务、结对复核、沙箱与逐级权限，重建 AI 时代学徒阶梯；
+3. 评价经理是否保护独立判断、反馈和可见成就，而不只评价团队采用率；
+4. 对关键专家设置备份人、文档/工作流沉淀与带教责任，降低单点依赖；
+5. 将招聘、内部发现、学习和项目分配统一到同一套责任包语言。
+
+### 不可照搬点
+
+- 不把航空航天的 1 万人缺口外推到所有知识行业；
+- 不把“年轻人才少”简单归因于薪酬或 AI 公司；
+- 不把韩国研究直接做成个人 AI 依赖评分或创新预测工具；
+- 不用“伦理领导”一项调查分数决定经理奖惩；
+- 不为保护自我效能而停止自动化，而应重写人的任务、权力与反馈机制。
+
+### 对高密度复合型人才机制十一个环节的证据盘点
+
+| 环节 | 今日可形成的机制判断 | 今日证据状态 |
 |---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+| 识别标准 | 看问题定义、独立判断、质量验证、异常处理、复用、带教与后继者形成 | 韩国研究 + 历史责任包基线；无预测效度 |
+| 评价指标 | 业务结果、质量/风险、资源成本、人的判断、自我效能、团队复用、导师负荷分开观察 | 有机制证据；无公司正式记分卡 |
+| 面试机制 | 应使用真实工作样本，观察定义、迭代、拒绝错误和验证过程 | 今日无新增；CJ Olive Young 为 7/22 历史样本 |
+| 内部发现 | 从项目结果、质量事件、复用、跨团队采用与他人成长中发现，不做黑箱潜力排名 | 今日无公司制度 |
+| 项目分配 | 同时匹配业务价值、风险、成长任务、token/模型资源、负荷和备份人 | Zapier 补充资源治理；例外审批未知 |
+| 薪酬与股权 | 市场倒挂、长期岗位价值、项目战功、留任风险分开处理 | 今日无新薪带/股权正式披露 |
+| 快速晋升 | 只适用于更高责任持续存在且经横向校准；短期战功先奖励或临时扩大职责 | 今日无新增，沿用 GitLab/专题四基线 |
+| 授权机制 | 配置数据、模型、预算、否决、停止、升级和额度例外权 | Zapier 只证明额度差异，未披露完整权责 |
+| 学习机制 | 课程→模拟→受控样本→真实项目；保留学徒任务和导师反馈 | 航空航天、OECD 强化必要性；效果数据缺失 |
+| 人才盘点 | 盘点成熟人才、早期人才、继任风险、复用资产、自我效能与关键人负荷 | 今日无企业模板 |
+| 保留机制 | 薪酬、股权、自主、影响、成长、健康、后继者和知识传承组合治理 | 今日无保留率/离职率闭环 |
 
-## 线索层
+## 5. Context 层：暂时不能形成结论但重要的背景、弱信号、反例和冲突信息
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+- **暂不形成结论，但提示我们关注……**百度 7 月 24 日更新“智能审计专员”，要求开发审计工作流与 Skills，覆盖计划、报告、自动执审、风险识别和异常核查；美团“营销 AI 产品经理”连接业务、算法、工程和运营，“风控大模型算法专家”覆盖数据、Prompt、SFT/RL、部署、全生命周期 SOP 与风险指标。三条官方 JD 只证明职责意图，未披露编制、职级、薪酬、面试、项目配置和留任结果。【L1｜[百度招聘](https://talent.baidu.com/jobs/list?recommendCode=ISKJ1S)；[美团营销 AI 产品经理](https://zhaopin.meituan.com/web/position/detail?highlightType=campus&jobUnionId=4646465341)；[美团风控大模型算法专家](https://zhaopin.meituan.com/web/position/detail?highlightType=campus&jobUnionId=4618100981)】
+- **暂不形成结论，但提示我们关注……**元企 AI 自述可承担招聘漏斗前段约 80% 工作、成本约 20%，同时承认简历外隐性经历可能被误筛。比例缺样本、任务口径、客户基线和错误率，只能提示招聘流程需要人工责任点、误筛复核和候选人申诉。【L1｜[36氪](https://eu.36kr.com/zh/p/3909499179767169)；[元企 AI](https://www.yuanqiwork.com/)】
+- **暂不形成结论，但提示我们关注……**多智能体实验在不同任务上的结果差异巨大，六基准总体平均改善为 0%，说明“增加智能体/协作者”不是人才密度；任务可分解性、协调开销和基线能力更关键。该研究是人工基准，不是人类组织现场结果。【研究事实 L3；组织外推 L1-L2｜[Nature Machine Intelligence](https://www.nature.com/articles/s42256-026-01268-y)】
+- **反例：**Patreon 和 Centrica 都在缩减岗位，但公司明确否认 AI 是本轮特定裁减的直接原因；不能用人数下降证明高人才密度提高。
+- **反例：**航空航天在缺少专业人才，说明“高密度”可能表现为扩大学徒与新人供给，而不是继续压缩入口。
+- **冲突：**组织既要限制失控 token 成本，又要给高价值探索足够资源；统一低额度会抑制创新，完全放开又可能放大浪费。需要“同类比较＋业务价值＋质量＋例外审批”，不能只按层级或个人身份配额。
+- **渠道缺口：**今日没有稳定可核验的职场平台原帖、薪酬带宽或微信公众号当期原文；搜索不到不等于不存在，只能记录为证据缺口。
 
-## 待补齐的落地问题
+## 6. 证据地图
 
-正式重跑必须回答：复合型人才的能力证据是什么、是否有招聘/JD/薪酬信号、是否存在验证和治理能力的溢价、组织如何避免把“少招人”包装成高人才密度。
+| 渠道 | 今日材料 | 等级 | 能支持 | 不能支持 |
+|---|---|---:|---|---|
+| 官方/一手 | OECD、ADS、Zapier 历史组织背景 | L2-L3 | 政策供给、人才缺口背景、治理接口 | 企业人才机制成效 |
+| 权威媒体/咨询 | Reuters 航空航天、CFO Brew、Reuters/Centrica | L2 | 行业供给、资源治理、裁员因果边界 | 组织长期结果 |
+| 公司案例/制度 | Zapier、Patreon、British Gas/Centrica | L2 | 额度治理、公司口径、人工责任边界 | 完整选育用留闭环 |
+| 学术/研究 | 韩国员工研究、多智能体实验 | 研究事实 L3；组织外推 L1-L2 | 自我效能路径、任务结构与协调成本 | 个人自动评分、公司因果 |
+| 招聘薪酬 | 百度、美团 JD | L1 | 复合职责和专家深化线索 | 新编制、薪带、成熟序列 |
+| 社媒/职场线索 | 无稳定新增；元企 AI 为供应商访谈 | L0-L1 | 待验证问题 | 事实结论 |
+| 内部信息库/知识库 | 7/24 专题二、W29/W30、人才密度基线 | L3 校准 | 去重、连续判断、机制框架 | 替代当日外部原文 |
 
-## 来源索引
+### 证据边界
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+- L3 学术事实不自动等于 L3 企业机制；自报关联和人工基准外推到组织现场时降级。
+- 一条官方 JD 仍是 L1，因为它只证明招聘意图，不证明组织已形成岗位群、评价标准、薪酬与结果。
+- 公司明确否认 AI 直接裁员是重要反向证据，但不能排除 AI 的间接影响。
+- 内部 `digest.md`、`daily` 与 `daily-report` 当日材料同源，不重复计数。
+
+## 7. 对我们行动的启发
+
+### 落地启发
+
+### 90 天“人才密度供给—责任—能力感”试点
+
+**试点目标：**识别能关闭责任环的复合人才，同时验证早期人才是否能形成判断、关键人是否过载、AI 资源是否得到合理配置。
+
+**试点单元：**选择两个真实 AI 项目，每组配置业务负责人、构建/运营骨干、评测/风险专家和一名早期人才；不得只由一名“超级个体”独立承担。
+
+| 环节 | 最小动作 | 观察指标 | 不允许的替代 |
+|---|---|---|---|
+| 识别 | 候选人演示真实责任包：问题、分工、验证、异常、复用 | 关键判断、错误拒绝、质量、业务结果 | AI 工具数量、Token 排名 |
+| 面试 | 同一业务样本，记录过程而非只看答案 | 问题拆解、迭代、证据、回滚 | 纯问答、证书数量 |
+| 内部发现 | 从项目、事故、复用和带教记录提名 | 跨团队采用、返工、他人成长 | 黑箱潜力分 |
+| 项目分配 | 价值、风险、成长、负荷、备份、资源一起配置 | 并行项目数、升级、导师时间、额度例外 | 明星永久垄断 |
+| 授权 | 写明数据/模型/token 额度、否决、停止和升级 | 例外时长、失控成本、质量门 | 只有责任没有权力 |
+| 学习 | 课程→模拟→受控样本→真实任务逐级放权 | 独立任务比例、复核错误、学习迁移 | 课程完成率 |
+| 盘点 | 成熟人才、早期人才、后继者、关键人负荷四张表 | 覆盖率、单点依赖、能力感、离职风险 | 只盘明星人数 |
+| 激励 | 项目奖、稀缺调薪、股权、临时职责、晋升分流 | 回报原因、持续期、公平差异 | 用晋升解决所有保留 |
+
+### 建议采用的三层评价
+
+1. **人的贡献：**问题选择、独立判断、边界设计、错误纠正、异常接管、他人培养；
+2. **AI 系统：**完成率、错误率、可追溯、升级与回滚、单位成本；
+3. **人机组合：**客户/业务结果、质量、周期、风险、复用、人才容量和员工健康。
+
+### 薪酬、股权、快速晋升与保留的决策分流
+
+- **责任长期扩大：**进入正式晋升与薪酬带宽；
+- **市场稀缺但责任未变：**稀缺系数、带宽调整或股权刷新；
+- **一次性战功：**项目奖金或即时认可；
+- **60—180 天临时扩大职责：**书面授权、津贴、观察期和退出；
+- **新技能达标：**技能标签/项目准入，不自动换职级；
+- **关键人才保留：**薪酬、股权、自主、影响范围、成长、健康与继任组合，不只加薪或锁定。
+
+**管理层该问：**我们是在提高“每个人的任务量”，还是在增加可持续的组织能力？如果一名骨干离开，项目、知识、客户关系和下一代人才能否继续运行？
+
+## 8. 待验证清单与下一步搜索路径
+
+1. **识别/面试：**找到公开 work-sample 评分表及其入职后绩效效度。搜索：`AI work sample interview scoring predictive validity`；`AI native hiring work sample rubric`.
+2. **内部发现/盘点：**寻找把项目质量、复用、带教、关键人负荷写入人才盘点的正式模板。搜索：`AI talent review project evidence mentoring succession template`.
+3. **项目配置/授权：**追踪 Zapier token 额度由谁制定、谁批准例外、覆盖哪些工具及对质量/影子工具的影响。搜索：`Zapier token budget exception approval team quality shadow AI`.
+4. **薪酬/股权：**寻找百度、美团同类岗位的官方薪带、职级、股权刷新和多期招聘变化。搜索：`智能审计专员 职级 薪酬`；`营销 AI 产品经理 薪资`；`风控大模型算法专家 薪酬`.
+5. **快速晋升：**寻找公司正式把复合责任、AI 工作流、风险和复用写入晋升材料的案例。搜索：`promotion packet AI workflow risk reuse official handbook`.
+6. **学习/人才管道：**跟踪英国航空航天学徒名额、完成率、认证周期、导师供给与 3—5 年人才结果。搜索：`UK aerospace apprenticeship completion engineering shortage 2026 ADS`.
+7. **保留：**验证 AI 公司与航空航天的实际薪酬差、人才流向和离职原因。搜索：`aerospace engineers leaving for AI salary retention UK`.
+8. **自我效能：**寻找行为数据或现场实验复现 AI 依赖—自我效能—创新路径，并区分一般管理质量。搜索：`AI reliance self efficacy field experiment employee innovation`.
+9. **员工治理：**寻找企业把员工告知、更正、申诉和在岗转型连成闭环的案例。搜索：`employee AI notice appeal redeployment reskilling company policy`.
+10. **下一日证据升级条件：**至少一家公司同时披露识别标准、项目分配、授权、薪酬/晋升、盘点/留任和多周期结果，方可升级为 L3 企业机制。
+
+## 9. 来源索引
+
+### 今日核心来源
+
+1. Reuters 镜像，[Aerospace fights for young recruits as AI drains talent pool](https://www.investing.com/news/stock-market-news/aerospace-fights-for-young-recruits-as-ai-drains-talent-pool-4812335)，2026-07-24，L2。
+2. ADS，[People and skills](https://www.adsgroup.org.uk/our-focus/people/)，2026-07-25 访问，行业资料。
+3. Humanities and Social Sciences Communications，[AI reliance, self-efficacy and innovative work behavior](https://www.nature.com/articles/s41599-026-08430-2)，2026-07-24，研究事实 L3。
+4. CFO Brew，[Setting limits on employee AI use](https://www.cfobrew.com/stories/setting-limits-on-employee-ai-use)，2026-07-24，L2。
+5. Zapier，[AI Transformation Leader](https://zapier.com/blog/ai-transformation-leader)，历史组织背景，L2。
+6. OECD，[Recent policy developments on AI in the labour market](https://www.oecd.org/en/publications/recent-policy-developments-on-ai-in-the-labour-market_c0ffced7-en.html)，2026-07-24，L3 报告。
+7. Patreon，[A painful update](https://www.patreon.com/jackconte/posts/painful-update-164628951)，2026-07-23，L2。
+8. Reuters/Centrica 镜像，[Centrica to cut 1,300 jobs](https://au.marketscreener.com/news/british-gas-owner-centrica-to-cut-1-300-jobs-flags-slower-trading-arm-growth-ce7f51ded98ef624)，2026-07-23，L2。
+9. British Gas，[AI notice](https://www.britishgas.co.uk/legal-compliance/privacy-policy/ai-notice.html)，2026-07-25 访问，L2 责任边界。
+
+### Context 与历史校准来源
+
+10. 百度招聘，[智能审计专员](https://talent.baidu.com/jobs/list?recommendCode=ISKJ1S)，2026-07-24 更新，L1。
+11. 美团招聘，[营销 AI 产品经理](https://zhaopin.meituan.com/web/position/detail?highlightType=campus&jobUnionId=4646465341)，2026-07-24 更新，L1。
+12. 美团招聘，[风控大模型算法专家](https://zhaopin.meituan.com/web/position/detail?highlightType=campus&jobUnionId=4618100981)，2026-07-24 更新，L1。
+13. Nature Machine Intelligence，[Multi-agent systems do not universally improve reasoning](https://www.nature.com/articles/s42256-026-01268-y)，2026-07-24，研究事实 L3、组织外推 L1-L2。
+14. CJ Newsroom，[AI-native talent work-sample recruiting](https://cjnews.cj.net/cj%ec%98%ac%eb%a6%ac%eb%b8%8c%ec%98%81-ai%eb%84%a4%ec%9d%b4%ed%8b%b0%eb%b8%8c-%ec%9d%b8%ec%9e%ac-%ec%b0%be%eb%8a%94%eb%8b%a4-%ea%b0%9c%eb%b0%9c%ec%9e%90-%ea%b2%bd%eb%a0%a5/)，2026-07-21，历史面试机制样本 L2。
+15. GitLab，[Promotions and Transfers](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/)，历史晋升基线 L2-L3。
+16. 内部校准：[`2026-07-24 专题二`](../2026-07-24/02-talent-density.md)、[`高人才密度滚动基线`](../baseline/02-talent-density.md)、[`人才密度主题账本`](../topics/talent-density/evidence-map.md)、[`2026-W30 CEO 周报`](../weekly/2026-W30-detailed.md)、[`2026-07-25 日常信息库`](../../../daily/2026-07-25.md)。
+
+> 本轮检索词与下一步搜索词已记录在第 8 节。无结果只作为范围事实，不证明全网绝对不存在；JD、供应商自述和社交线索均未进入核心判断。

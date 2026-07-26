@@ -21,7 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-07-08 | [日报](../2026-07-08/04-promotion-system.html) | 线索层/待验证 | 1. **固定窗口仍是默认制度。可信度：高。** 证据基础：GitLab、专题 baseline、2026-07-07 formal。为什么重要：晋升牵涉同级比较、预算、薪酬带宽、公平审计和人才委员会校准，AI 贡献越快越需要统一校准时点。 | 暂无单独 Context 摘要。 | 1. 搜索公开 promotion packet 是否出现 AI contribution 字段。 |
 | 2026-07-09 | [日报](../2026-07-09/04-promotion-system.html) | 背景材料（Context）强证据 | 1. **固定晋升窗口仍是默认制度。可信度：高。** 晋升涉及同级比较、预算、薪酬带宽、公平审计和人才委员会校准；AI 贡献越快变化，越需要固定时点防止“会包装 AI 故事的人先升”。证据基础：GitLab、Zapier、EY/Payscale 与近日报告。 | 暂无单独 Context 摘要。 | 1. 是否已有公司公开把 AI contribution 写入 promotion packet。 |
 | 2026-07-10 | [日报](../2026-07-10/04-promotion-system.html) | 线索层/待验证 | 1. **固定晋升窗口仍是默认机制。可信度：高。** AI 贡献越快、越难归因，越需要统一窗口做同级比较、预算约束、薪酬带宽、人才委员会和公平审计。为什么重要：防止 AI 热点项目变成即时晋升通道。 | 暂无单独 Context 摘要。 | 1. AI contribution promotion packet company handbook。 |
 | 2026-07-14 | [日报](../2026-07-14/04-promotion-system.html) | 线索层/待验证 | 1. **固定窗口应为默认、例外为受控通道。可信度：中高。** GitLab 是 L3 的制度案例；由此推出的“默认”是本组织设计建议，目的在于保留同级比较、预算和公平校准，而不是声称所有企业均如此。 | 暂无单独 Context 摘要。 | 1. 查找公开员工手册中 `out-of-cycle promotion`、`acting scope`、`talent committee` 与 AI 贡献字段的同现条款。 |
@@ -35,6 +34,7 @@
 | 2026-07-22 | [日报](../2026-07-22/04-promotion-system.html) | 线索层/待验证 | 1. **固定窗口与即时识别应该并存，但承担不同任务。可信度：高。**证据基础：GitLab 的半年校准、周期外审批、总报酬与财务链；BambooHR 只提供即时认可的弱信号。为什么重要：贡献应当随时记录和认可，职级变动则需要同级比较、岗位必要性、预算与群体公平校准，… | 暂无单独 Context 摘要。 | 1. **公司正式 AI 晋升字段：**检索 `promotion packet AI contribution workflow quality risk reuse official … |
 | 2026-07-23 | [日报](../2026-07-23/04-promotion-system.html) | 线索层/待验证 | 1. **固定窗口与即时识别应并存。可信度：高。**证据基础：GitLab 固定校准与周期外例外；为什么重要：贡献可以随时记录和奖励，职级变化需横向比较、岗位必要性、预算和群体公平。 | 暂无单独 Context 摘要。 | 1. `promotion packet AI contribution workflow quality risk reuse official handbook` |
 | 2026-07-24 | [日报](../2026-07-24/04-promotion-system.html) | 结论层候选 | 1. **今天最重要的结论是“没有晋升政策新增”。可信度：高。**证据基础：官方/SEC/公司/研究/JD 窄窗检索；为什么重要：宁可明确证据缺口，也不把培训、产品、证书和招聘话术包装成制度创新。 | 7. **GitLab 仍是最完整公开制度基线。**大多数同岗位族晋升进入固定规划/校准；高绩效不自动保证晋升；周期外请求需说明为何不能等待，并经过多方审批。【L2-L3 制度基线｜[Promotions and Transfers](h… | 待下次日报/周报继续追踪。 |
+| 2026-07-25 | [日报](../2026-07-25/04-promotion-system.html) | 线索层/待验证 | 1. **固定校准仍应是永久职级的默认入口。可信度：高。** | 1. 员工必须知道数据和 AI 如何影响自己的职业决策，并拥有更正、异议和申诉路径； | 待下次日报/周报继续追踪。 |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-07-24｜[打开专题日报](../2026-07-24/04-promotion-system.html)｜源文件：`specials/ai-org-talent-mechanism/2026-07-24/04-promotion-system.md`
+- 最新日报：2026-07-25｜[打开专题日报](../2026-07-25/04-promotion-system.html)｜源文件：`specials/ai-org-talent-mechanism/2026-07-25/04-promotion-system.md`

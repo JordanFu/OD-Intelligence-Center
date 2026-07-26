@@ -2,7 +2,7 @@
 title: c0ffced7 en
 source: oecd.org
 date: 待核验
-ingested: 2026-07-25
+ingested: 2026-07-26
 sourceFile: ../knowledge/raw/oecd-org-c0ffced7-en.pdf
 sourceUrl: https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/07/recent-policy-developments-on-ai-in-the-labour-market_52d4afe2/c0ffced7-en.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ c0ffced7 en 已作为日报/周报 PDF 证据源入库，当前需要完成结�
 - **来源类型**：media
 - **原文 URL**：https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/07/recent-policy-developments-on-ai-in-the-labour-market_52d4afe2/c0ffced7-en.pdf
 - **原始文件**：`knowledge/raw/oecd-org-c0ffced7-en.pdf`
-- **入库日期**：2026-07-25
+- **入库日期**：2026-07-26
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
@@ -52,6 +52,9 @@ c0ffced7 en 已作为日报/周报 PDF 证据源入库，当前需要完成结�
 ## 被引用位置
 
 - `daily/2026-07-25.md:102`：报告 PDF
+- `specials/ai-org-talent-mechanism/2026-07-25/01-flat-organization.md:28`：报告 PDF
+- `specials/ai-org-talent-mechanism/2026-07-25/02-talent-density.md:27`：报告 PDF
+- `specials/ai-org-talent-mechanism/2026-07-25/03-job-family-career-architecture.md:27`：报告 PDF
 
 ## 后续精读任务
 
