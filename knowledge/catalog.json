@@ -2837,9 +2837,9 @@
       "uploadDate": "2026-07-26",
       "description": "GoogleATLASv1 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-ai-google-googleatlasv1.md",
-      "rawFile": "",
+      "rawFile": "./knowledge/raw/ai-google-googleatlasv1.pdf",
       "fileName": "ai-google-googleatlasv1.pdf",
-      "fileSize": "download pending",
+      "fileSize": "13094526 bytes",
       "tags": [
         "PDF自动入库",
         "AI组织设计",
