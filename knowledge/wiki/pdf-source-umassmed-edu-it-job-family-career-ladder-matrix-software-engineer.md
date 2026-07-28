@@ -3,7 +3,7 @@ title: it job family career ladder matrix software engineer
 source: umassmed.edu
 date: 待核验
 ingested: 2026-07-28
-sourceFile: 
+sourceFile:
 sourceUrl: https://www.umassmed.edu/globalassets/human-resources/documents/compensation/job-families/it-job-family-career-ladder-matrix_software-engineer.pdf
 tags: [AI组织设计, 绩效管理]
 status: 已索引来源，PDF下载待重试

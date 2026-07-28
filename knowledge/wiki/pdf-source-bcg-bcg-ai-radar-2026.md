@@ -3,7 +3,7 @@ title: BCG：AI Radar 2026
 source: BCG
 date: 待核验
 ingested: 2026-07-28
-sourceFile: 
+sourceFile:
 sourceUrl: https://web-assets.bcg.com/73/8e/cc44cbc14a3b81695f8a3de28ff1/ai-radar-2026-web-jan-2026-edit.pdf
 tags: [AI组织设计, 战略规划]
 status: 已索引来源，PDF下载待重试

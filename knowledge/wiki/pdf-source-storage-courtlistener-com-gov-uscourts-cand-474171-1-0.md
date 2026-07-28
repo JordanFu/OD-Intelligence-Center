@@ -3,7 +3,7 @@ title: gov.uscourts.cand.474171.1.0
 source: storage.courtlistener.com
 date: 待核验
 ingested: 2026-07-28
-sourceFile: 
+sourceFile:
 sourceUrl: https://storage.courtlistener.com/recap/gov.uscourts.cand.474171/gov.uscourts.cand.474171.1.0.pdf
 tags: [AI组织设计]
 status: 已索引来源，PDF下载待重试

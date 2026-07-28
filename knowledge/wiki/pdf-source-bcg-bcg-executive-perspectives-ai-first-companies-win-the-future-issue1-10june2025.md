@@ -3,7 +3,7 @@ title: BCG Executive Perspectives AI First Companies Win the Future Issue1 10Jun
 source: BCG
 date: 待核验
 ingested: 2026-07-28
-sourceFile: 
+sourceFile:
 sourceUrl: https://media-publications.bcg.com/BCG-Executive-Perspectives-AI-First-Companies-Win-the-Future-Issue1-10June2025.pdf
 tags: [AI组织设计]
 status: 已索引来源，PDF下载待重试

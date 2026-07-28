@@ -3,7 +3,7 @@ title: 2026 global ai jobs barometer full report
 source: pwc.com
 date: 待核验
 ingested: 2026-07-28
-sourceFile: 
+sourceFile:
 sourceUrl: https://www.pwc.com/gx/en/issues/artificial-intelligence/job-barometer/2026/2026-global-ai-jobs-barometer-full-report.pdf
 tags: [AI组织设计]
 status: 已索引来源，PDF下载待重试

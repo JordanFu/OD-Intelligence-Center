@@ -3,7 +3,7 @@ title: BCG + MIT Sloan：The Emerging Agentic Enterprise
 source: BCG
 date: 待核验
 ingested: 2026-07-28
-sourceFile: 
+sourceFile:
 sourceUrl: https://web-assets.bcg.com/dc/c5/1bcbfdc0405c85fb14972a57c20a/the-emerging-agentic-enterprise-how-leaders-must-navigate-a-new-age-of-ai.pdf
 tags: [AI组织设计, 变革管理]
 status: 已索引来源，PDF下载待重试

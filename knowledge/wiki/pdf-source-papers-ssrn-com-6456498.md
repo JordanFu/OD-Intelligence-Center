@@ -3,7 +3,7 @@ title: 6456498
 source: papers.ssrn.com
 date: 待核验
 ingested: 2026-07-28
-sourceFile: 
+sourceFile:
 sourceUrl: https://papers.ssrn.com/sol3/Delivery.cfm/6456498.pdf?abstractid=6456498&mirid=1
 tags: [AI组织设计]
 status: 已索引来源，PDF下载待重试

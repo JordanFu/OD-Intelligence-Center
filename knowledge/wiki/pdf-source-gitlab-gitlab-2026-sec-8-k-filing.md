@@ -3,7 +3,7 @@ title: GitLab：2026 SEC 8-K Filing
 source: GitLab
 date: 待核验
 ingested: 2026-07-28
-sourceFile: 
+sourceFile:
 sourceUrl: https://ir.gitlab.com/sec-filings/all-sec-filings/content/0001628280-26-023407/0001628280-26-023407.pdf
 tags: [AI组织设计]
 status: 已索引来源，PDF下载待重试
