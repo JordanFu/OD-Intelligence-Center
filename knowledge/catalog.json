@@ -2935,9 +2935,9 @@
       "uploadDate": "2026-07-28",
       "description": "the ai jobs transition framework report 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-cdn-openai-com-the-ai-jobs-transition-framework-report.md",
-      "rawFile": "",
+      "rawFile": "./knowledge/raw/cdn-openai-com-the-ai-jobs-transition-framework-report.pdf",
       "fileName": "cdn-openai-com-the-ai-jobs-transition-framework-report.pdf",
-      "fileSize": "download pending",
+      "fileSize": "18346534 bytes",
       "tags": [
         "PDF自动入库",
         "AI组织设计",
@@ -2959,9 +2959,9 @@
       "uploadDate": "2026-07-28",
       "description": "2026 global ai jobs barometer full report 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-pwc-com-2026-global-ai-jobs-barometer-full-report.md",
-      "rawFile": "",
+      "rawFile": "./knowledge/raw/pwc-com-2026-global-ai-jobs-barometer-full-report.pdf",
       "fileName": "pwc-com-2026-global-ai-jobs-barometer-full-report.pdf",
-      "fileSize": "download pending",
+      "fileSize": "11677368 bytes",
       "tags": [
         "PDF自动入库",
         "AI组织设计",
