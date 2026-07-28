@@ -1,6 +1,6 @@
 # 专题三：岗位、族群、序列持续建设｜滚动基线档案
 
-> 更新日期：2026-07-27
+> 更新日期：2026-07-28
 > 用途：这是四课题研究的“滚动母稿”，不是某一天的日报。日报负责记录新增事实、Context 和线索；周报负责做阶段复盘；基线档案负责沉淀稳定判断、证据账本和待验证问题。
 > 自动化规则：每日/周报与 PDF 入库后自动回写证据账本；正式重跑遵循 research-protocol.md 的多代理并行与主代理交叉证伪机制；只有多源互证或一手材料足够强的内容，才进入稳定判断。
 
@@ -21,7 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-07-10 | [日报](../2026-07-10/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **岗位说明书要从职责清单改成责任系统。可信度：高。** 今日最可用的表达是：判断、AI 工作流、业务结果、质量/风险责任。为什么重要：这能减少“新词等于新岗位”的冲动。 | 暂无单独 Context 摘要。 | 1. FDE career ladder compensation band promotion criteria OpenAI Replit AWS Databricks Okta。 |
 | 2026-07-14 | [日报](../2026-07-14/03-job-family-career-architecture.html) | 线索层/待验证 | 决策感与证据边界：每条判断依据当日事实或稳定基线；未达成效证据的内容保持 L1-L2，不以岗位广告代替制度结论。 | 暂无单独 Context 摘要。 | 1. Anthropic 应用 AI 团队是否公开职级矩阵、管理跨度、绩效维度、内部流动和薪酬带宽？搜索词：`Anthropic "Applied AI" career ladder pr… |
 | 2026-07-15 | [日报](../2026-07-15/03-job-family-career-architecture.html) | 线索层/待验证 | - **FDE/Applied-AI 正从热词走向候选岗位族群。可信度：中高（L1＋L2）。** 它以端到端交付、客户采用、评测反馈和跨职能协调组成稳定责任包；仍缺 ladder、绩效模板与规模证据，先做 role package。 | 暂无单独 Context 摘要。 | 1. Anthropic 应用 AI 团队是否公开职级矩阵、管理跨度、绩效维度、内部流动和薪酬带宽？搜索词：`Anthropic "Applied AI" career ladder pr… |
 | 2026-07-16 | [日报](../2026-07-16/03-job-family-career-architecture.html) | 结论层候选 | 1. **FDE/应用 AI 部署是候选岗位族群，暂不新建序列。可信度：中高。** JD 责任/结果趋同，但缺三层以上能力锚点、薪酬带、晋升和流动数据。 | 暂无单独 Context 摘要。 | - 查 FDE、评测岗位的 ladder、薪酬、绩效和内部流动；`Forward Deployed Engineer career ladder compensation promotio… |
@@ -35,6 +34,7 @@
 | 2026-07-24 | [日报](../2026-07-24/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **大量 AI 变化首先是既有岗位的工作流、权限和技能重写。可信度：高。**证据基础：Dynamics 365 沿用既有规则/权限/审计，OpenAI/Procore 把工作方法资产化；为什么重要：不应为每个智能体、工具或流程创建平行职位体系。 | 暂无单独 Context 摘要。 | 1. Dynamics 365 客户如何改写岗位说明、权限、流程所有者和事故责任。 |
 | 2026-07-25 | [日报](../2026-07-25/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **责任中心扩大不等于新岗位族群成立。可信度：高。**证据基础：腾讯可确认的是两个部门并入一个基础模型责任中心，岗位目录、岗位复数、责任梯度、薪带和流动均未知。为什么重要：组织结构按技术路线合并后，仍可能由既有岗位承担新责任；若直接新建族群，会把短期组织动作固化… | 暂无单独 Context 摘要。 | 证据总评：今天无 level、pay band、ladder、内部流动或晋升机制新增；三份 JD 均为 L1，不进入结论层。 |
 | 2026-07-26 | [日报](../2026-07-26/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **任务架构先于岗位架构。可信度：高。**证据基础：Google ATLAS 把职业覆盖、任务采用和端到端自动化分开；Management Science 观察到同一类组织技能受到不同方向影响。为什么重要：若不先看任务，只按岗位名称调整编制，会把局部工具使用误写… | 暂无单独 Context 摘要。 | 1. **Google ATLAS 企业复现：**取得企业级任务日志，比较账号开通、任务采用、受控执行、端到端自动化和业务结果；检索词：`Google ATLAS enterprise t… |
+| 2026-07-28 | [日报](../2026-07-28/03-job-family-career-architecture.html) | 线索层/待验证 | 1. **岗位变化的领先指标是任务借入/借出和交接变化，不是改名。可信度：中高。** | 暂无单独 Context 摘要。 | 2. **责任能否脱离单一工具、个人或短期项目并持续一个完整业务周期？**否：项目角色、项目奖或临时补贴；是：下一步。 |
 
 ## 知识库与 PDF 证据关联
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-07-26｜[打开专题日报](../2026-07-26/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-07-26/03-job-family-career-architecture.md`
+- 最新日报：2026-07-28｜[打开专题日报](../2026-07-28/03-job-family-career-architecture.html)｜源文件：`specials/ai-org-talent-mechanism/2026-07-28/03-job-family-career-architecture.md`
