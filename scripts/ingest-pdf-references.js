@@ -285,6 +285,11 @@ function cleanUrl(url) {
     .trim();
 }
 
+function extractPdfUrls(content) {
+  const urlPattern = /https?:\/\/[^\s<>")\]；，。]+?\.pdf(?:\?[^\s<>")\]；，。]*)?/gi;
+  return (content.match(urlPattern) || []).map(cleanUrl);
+}
+
 function slugify(value) {
   return value
     .toLowerCase()
@@ -394,15 +399,12 @@ function citationContext(line, url, file) {
 
 function collectPdfReferences() {
   const references = new Map();
-  const urlPattern = /https?:\/\/[^\s<>"]+?\.pdf(?:\?[^\s<>"]*)?/gi;
   for (const file of scanRoots.flatMap(walk)) {
     if (/source-channels\.private|local-reference-structured|\/archive\//.test(file)) continue;
     const content = fs.readFileSync(file, 'utf8');
     const lines = content.split(/\r?\n/);
     lines.forEach((line, index) => {
-      const matches = line.match(urlPattern) || [];
-      for (const rawUrl of matches) {
-        const url = cleanUrl(rawUrl);
+      for (const url of extractPdfUrls(line)) {
         if (!references.has(url)) {
           references.set(url, {
             url,
@@ -567,4 +569,6 @@ function main() {
   }
 }
 
-main();
+if (require.main === module) main();
+
+module.exports = { extractPdfUrls };

@@ -1,26 +1,26 @@
 ---
-title: H3 AP202606221823746144 1
-source: pdf.dfcfw.com
+title: the ai jobs transition framework report
+source: cdn.openai.com
 date: 待核验
 ingested: 2026-07-28
-sourceFile: ../knowledge/raw/pdf-dfcfw-com-h3-ap202606221823746144-1.pdf
-sourceUrl: https://pdf.dfcfw.com/pdf/H3_AP202606221823746144_1.pdf?1782162664000.pdf=
+sourceFile: 
+sourceUrl: https://cdn.openai.com/pdf/the-ai-jobs-transition-framework_report.pdf
 tags: [AI组织设计]
-status: 已下载原始PDF，已生成结构化初筛卡片
+status: 已索引来源，PDF下载待重试
 ---
 
-# H3 AP202606221823746144 1
+# the ai jobs transition framework report
 
 ## 一句话判断
 
-H3 AP202606221823746144 1 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
+the ai jobs transition framework report 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
 
 ## 入库状态
 
-- **来源机构**：pdf.dfcfw.com
+- **来源机构**：cdn.openai.com
 - **来源类型**：media
-- **原文 URL**：https://pdf.dfcfw.com/pdf/H3_AP202606221823746144_1.pdf?1782162664000.pdf=
-- **原始文件**：`knowledge/raw/pdf-dfcfw-com-h3-ap202606221823746144-1.pdf`
+- **原文 URL**：https://cdn.openai.com/pdf/the-ai-jobs-transition-framework_report.pdf
+- **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
 - **入库日期**：2026-07-28
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
@@ -51,7 +51,7 @@ H3 AP202606221823746144 1 已作为日报/周报 PDF 证据源入库，当前需
 
 ## 被引用位置
 
-- `specials/ai-org-talent-mechanism/2026-07-05/03-job-family-career-architecture.md:98`：2026 中国智能体工程化人才与组织发展报告:
+- `daily/2026-07-28.md:11`：AI Jobs Transition Framework PDF
 
 ## 后续精读任务
 
