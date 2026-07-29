@@ -1,26 +1,26 @@
 ---
-title: ILO Brief ASEAN AI v11 clean
-source: ilo.org
+title: quarterly update presentation 1q 2026
+source: bny.com
 date: 待核验
 ingested: 2026-07-29
-sourceFile: ../knowledge/raw/ilo-org-ilo-brief-asean-ai-v11-clean.pdf
-sourceUrl: https://www.ilo.org/sites/default/files/2026-07/ILO%20Brief%20ASEAN%20AI%20v11%20clean.pdf
+sourceFile:
+sourceUrl: https://www.bny.com/assets/corporate/documents/pdf/investor-relations/earnings/quarterly-update-presentation-1q-2026.pdf
 tags: [AI组织设计]
-status: 已下载原始PDF，已生成结构化初筛卡片
+status: 已索引来源，PDF下载待重试
 ---
 
-# ILO Brief ASEAN AI v11 clean
+# quarterly update presentation 1q 2026
 
 ## 一句话判断
 
-ILO Brief ASEAN AI v11 clean 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
+quarterly update presentation 1q 2026 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
 
 ## 入库状态
 
-- **来源机构**：ilo.org
+- **来源机构**：bny.com
 - **来源类型**：media
-- **原文 URL**：https://www.ilo.org/sites/default/files/2026-07/ILO%20Brief%20ASEAN%20AI%20v11%20clean.pdf
-- **原始文件**：`knowledge/raw/ilo-org-ilo-brief-asean-ai-v11-clean.pdf`
+- **原文 URL**：https://www.bny.com/assets/corporate/documents/pdf/investor-relations/earnings/quarterly-update-presentation-1q-2026.pdf
+- **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
 - **入库日期**：2026-07-29
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
@@ -51,8 +51,7 @@ ILO Brief ASEAN AI v11 clean 已作为日报/周报 PDF 证据源入库，当前
 
 ## 被引用位置
 
-- `specials/ai-org-talent-mechanism/2026-07-16/00-overview.md:104`：ILO ASEAN
-- `specials/ai-org-talent-mechanism/2026-07-16/03-job-family-career-architecture.md:22`：报告
+- `daily/2026-07-29.md:24`：BNY 2026 年一季度材料 PDF
 
 ## 后续精读任务
 

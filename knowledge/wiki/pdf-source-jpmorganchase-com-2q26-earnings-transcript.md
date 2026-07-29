@@ -2,7 +2,7 @@
 title: 2Q26 earnings transcript
 source: jpmorganchase.com
 date: 待核验
-ingested: 2026-07-28
+ingested: 2026-07-29
 sourceFile: ../knowledge/raw/jpmorganchase-com-2q26-earnings-transcript.pdf
 sourceUrl: https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/2nd-quarter/2Q26-earnings-transcript.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 - **来源类型**：media
 - **原文 URL**：https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/2nd-quarter/2Q26-earnings-transcript.pdf
 - **原始文件**：`knowledge/raw/jpmorganchase-com-2q26-earnings-transcript.pdf`
-- **入库日期**：2026-07-28
+- **入库日期**：2026-07-29
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
