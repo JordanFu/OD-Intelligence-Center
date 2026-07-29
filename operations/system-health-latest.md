@@ -1,13 +1,13 @@
 # 系统健康状态
 
-> 自动生成：2026-07-29T01:57:33.312Z
+> 自动生成：2026-07-29T04:42:35.414Z
 
 ## 一眼判断
 
 - 总体状态：⚠️ warn
-- 情报流状态：✅ pass
+- 情报流状态：⚠️ warn
 - 专题研究状态：⚠️ warn
-- 知识库状态：✅ pass
+- 知识库状态：⚠️ warn
 - 自动化状态：⚠️ warn
 - 一方链接状态：⚠️ warn
 - 当前结论：状态链可信但仍有运营债务；允许展示 warn，不允许美化成 pass。
@@ -26,10 +26,10 @@
 ## 专题研究状态
 
 - 今日日期：2026-07-29
-- 今日专题状态：scheduled
+- 今日专题状态：fallback
 - 最新正式日报日期：2026-07-28
-- 待正式重跑日期数：19
-- 待正式重跑日期：2026-07-27、2026-07-13、2026-07-12、2026-07-11、2026-07-06、2026-07-03、2026-06-22、2026-06-11、2026-06-10、2026-06-01、2026-05-29、2026-05-28 等 19 项
+- 待正式重跑日期数：20
+- 待正式重跑日期：2026-07-29、2026-07-27、2026-07-13、2026-07-12、2026-07-11、2026-07-06、2026-07-03、2026-06-22、2026-06-11、2026-06-10、2026-06-01、2026-05-29 等 20 项
 
 ## 知识库状态
 
@@ -42,10 +42,10 @@
 
 ## 自动化状态
 
-- 本地正式任务：scheduled
+- 本地正式任务：manual-check-required
 - GitHub Actions 角色：fallback-only
 - GitHub Actions 定时数：4
-- 信息库链路：✅ pass
+- 信息库链路：⚠️ warn
 - 专题链路：⚠️ warn
 - 知识库 lint 链路：✅ pass
 - 链接检查链路：⚠️ warn
@@ -53,8 +53,8 @@
 ## 链接检查
 
 - 一方断链数：0
-- 外部链接 warning：0
-- 公开扫描桥接：未检查
+- 外部链接 warning：46
+- 公开扫描桥接：ok:200、ok:200
 
 ## 质量语义
 
@@ -65,5 +65,23 @@
 ## 当前问题
 
 - ✅ 无 P0 fail。
-- ⚠️ 专题研究状态为 warn
-- ⚠️ 专题待正式重跑 19 天
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1

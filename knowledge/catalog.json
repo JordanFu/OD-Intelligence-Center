@@ -3007,9 +3007,9 @@
       "uploadDate": "2026-07-29",
       "description": "quarterly update presentation 1q 2026 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-bny-com-quarterly-update-presentation-1q-2026.md",
-      "rawFile": "",
+      "rawFile": "./knowledge/raw/bny-com-quarterly-update-presentation-1q-2026.pdf",
       "fileName": "bny-com-quarterly-update-presentation-1q-2026.pdf",
-      "fileSize": "download pending",
+      "fileSize": "226750 bytes",
       "tags": [
         "PDF自动入库",
         "AI组织设计",
