@@ -31,10 +31,10 @@
 - 待重试：2026 global investor survey jul 2026（引用 1 次）
 - 已下载：Claude Opus 5 System Card（引用 4 次）
 - 已下载：AIHR：HR Priorities 2026 Report（引用 1 次）
-- 已下载：quarterly update presentation 1q 2026（引用 1 次）
+- 已下载：quarterly update presentation 1q 2026（引用 11 次）
 - 已下载：draft cwa xxxx e（引用 2 次）
 - 已下载：us spans and layers for the modern organization 2020（引用 3 次）
-- 已下载：EY：Future of Pay Report 2026（引用 154 次）
+- 已下载：EY：Future of Pay Report 2026（引用 149 次）
 - 已下载：pip faq 2026（引用 6 次）
 - 已下载：12 087 bc50bde2 3016 457a 9bee dc988cb1056b（引用 5 次）
 - 已下载：cesifo1 wp12373（引用 3 次）

@@ -52,6 +52,16 @@ quarterly update presentation 1q 2026 已作为日报/周报 PDF 证据源入库
 ## 被引用位置
 
 - `daily/2026-07-29.md:24`：BNY 2026 年一季度材料 PDF
+- `specials/ai-org-talent-mechanism/2026-07-29/00-overview.md:44`：BNY 官方材料
+- `specials/ai-org-talent-mechanism/2026-07-29/00-overview.md:182`：1Q26 Quarterly Update
+- `specials/ai-org-talent-mechanism/2026-07-29/01-flat-organization.md:39`：BNY 官方材料
+- `specials/ai-org-talent-mechanism/2026-07-29/01-flat-organization.md:172`：1Q26 Quarterly Update
+- `specials/ai-org-talent-mechanism/2026-07-29/02-talent-density.md:19`：BNY 官方材料
+- `specials/ai-org-talent-mechanism/2026-07-29/02-talent-density.md:173`：1Q26 Quarterly Update
+- `specials/ai-org-talent-mechanism/2026-07-29/03-job-family-career-architecture.md:29`：BNY 官方材料
+- `specials/ai-org-talent-mechanism/2026-07-29/03-job-family-career-architecture.md:188`：1Q26 Quarterly Update
+- `specials/ai-org-talent-mechanism/2026-07-29/04-promotion-system.md:19`：BNY 一季度材料
+- `specials/ai-org-talent-mechanism/2026-07-29/04-promotion-system.md:186`：1Q26 Quarterly Update
 
 ## 后续精读任务
 

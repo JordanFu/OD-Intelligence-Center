@@ -121,10 +121,10 @@
 | [2026 global investor survey jul 2026](wiki/pdf-source-bcg-2026-global-investor-survey-jul-2026.md) | BCG | AI组织设计 | 待评估：需精读后确定 | 已索引待重试，引用 1 次 |
 | [Claude Opus 5 System Card](wiki/pdf-source-anthropic-claude-opus-5-system-card.md) | Anthropic | AI组织设计、人才发展 | 待评估：需精读后确定 | 已下载原文，引用 4 次 |
 | [AIHR：HR Priorities 2026 Report](wiki/pdf-source-aihr-aihr-hr-priorities-2026-report.md) | AIHR | 技能本位组织、HR 重构、skill count | 强相关：岗位与技能体系 | 已下载原文，引用 1 次 |
-| [quarterly update presentation 1q 2026](wiki/pdf-source-bny-com-quarterly-update-presentation-1q-2026.md) | bny.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 1 次 |
+| [quarterly update presentation 1q 2026](wiki/pdf-source-bny-com-quarterly-update-presentation-1q-2026.md) | bny.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 11 次 |
 | [draft cwa xxxx e](wiki/pdf-source-cencenelec-eu-draft-cwa-xxxx-e.md) | cencenelec.eu | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 2 次 |
 | [us spans and layers for the modern organization 2020](wiki/pdf-source-deloitte-us-spans-and-layers-for-the-modern-organization-2020.md) | Deloitte | AI组织设计、变革管理 | 待评估：需精读后确定 | 已下载原文，引用 3 次 |
-| [EY：Future of Pay Report 2026](wiki/pdf-source-ey-ey-future-of-pay-report-2026.md) | EY | 技能薪酬、生产率锚点、AI 人才溢价 | 强相关：薪酬与激励机制 | 已下载原文，引用 154 次 |
+| [EY：Future of Pay Report 2026](wiki/pdf-source-ey-ey-future-of-pay-report-2026.md) | EY | 技能薪酬、生产率锚点、AI 人才溢价 | 强相关：薪酬与激励机制 | 已下载原文，引用 149 次 |
 | [pip faq 2026](wiki/pdf-source-facs-org-pip-faq-2026.md) | facs.org | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 6 次 |
 | [12 087 bc50bde2 3016 457a 9bee dc988cb1056b](wiki/pdf-source-hbs-edu-12-087-bc50bde2-3016-457a-9bee-dc988cb1056b.md) | hbs.edu | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 5 次 |
 | [cesifo1 wp12373](wiki/pdf-source-ifo-de-cesifo1-wp12373.md) | ifo.de | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 3 次 |

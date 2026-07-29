@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T10:22:58.401Z",
+  "generatedAt": "2026-07-29T12:24:36.442Z",
   "module": "topic-projects",
   "project": {
     "id": "ai-org-talent-mechanism",
@@ -3908,10 +3908,74 @@
   ],
   "brokenLinks": [],
   "links": {
-    "checkedAt": null,
-    "qualityStatus": "pending",
-    "firstPartyChecked": 0,
-    "externalWarnings": 0,
-    "brokenCount": 0
-  }
+    "checkedAt": "2026-07-29T12:24:38.606Z",
+    "qualityStatus": "warn",
+    "firstPartyChecked": 2306,
+    "externalWarnings": 50,
+    "brokenCount": 0,
+    "publicScanBridge": [
+      {
+        "ok": true,
+        "status": 200,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-29.html"
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "url": "https://jordanfu.github.io/org-intelligence-info/"
+      }
+    ]
+  },
+  "warnings": [
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1"
+  ]
 }
