@@ -3,10 +3,10 @@ title: OECD：Competition in the Age of AI
 source: OECD
 date: 待核验
 ingested: 2026-07-30
-sourceFile:
+sourceFile: ../knowledge/raw/oecd-oecd-competition-in-the-age-of-ai.pdf
 sourceUrl: https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/07/competition-in-the-age-of-ai_e9f49e20/6f88a1ea-en.pdf
 tags: [AI组织设计]
-status: 已索引来源，PDF下载待重试
+status: 已下载原始PDF，已生成结构化初筛卡片
 ---
 
 # OECD：Competition in the Age of AI
@@ -20,7 +20,7 @@ OECD 的跨国微观数据表明，AI 可得性不会自动抹平组织差异；
 - **来源机构**：OECD
 - **来源类型**：industry
 - **原文 URL**：https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/07/competition-in-the-age-of-ai_e9f49e20/6f88a1ea-en.pdf
-- **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
+- **原始文件**：`knowledge/raw/oecd-oecd-competition-in-the-age-of-ai.pdf`
 - **入库日期**：2026-07-30
 - **证据层级**：L2：权威多源微观数据，但以描述性关联和固定效应回归为主，不构成 AI 因果证明。
 
