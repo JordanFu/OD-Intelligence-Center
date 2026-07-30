@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-29T15:29:31.604Z",
+  "generatedAt": "2026-07-30T01:59:20.059Z",
   "module": "knowledge-base",
   "qualityStatus": "warn",
-  "latestCatalogDate": "2026-07-29",
+  "latestCatalogDate": "2026-07-30",
   "counts": {
-    "reports": 108,
+    "reports": 109,
     "knowledgeSources": 4,
     "sourceTypes": {
       "media": 41,
@@ -12,7 +12,7 @@
       "concept": 10,
       "public-safe-synthesis": 11,
       "consulting": 14,
-      "industry": 15
+      "industry": 16
     }
   },
   "privatePathLeaks": [],
@@ -71,31 +71,31 @@
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1"
+    "network check warning: fetch failed",
+    "network check warning: fetch failed"
   ],
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-07-29T15:29:32.164Z",
+    "checkedAt": "2026-07-30T01:59:20.202Z",
     "qualityStatus": "warn",
-    "firstPartyChecked": 2306,
-    "externalWarnings": 50,
+    "firstPartyChecked": 2311,
+    "externalWarnings": 46,
     "brokenCount": 0,
     "publicScanBridge": [
       {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-29.html"
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-30.html",
+        "reason": "network check warning: fetch failed"
       },
       {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/"
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/",
+        "reason": "network check warning: fetch failed"
       }
     ]
   }

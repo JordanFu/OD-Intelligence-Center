@@ -38,6 +38,7 @@ const knownTitles = new Map([
   ['https://web-assets.bcg.com/dc/c5/1bcbfdc0405c85fb14972a57c20a/the-emerging-agentic-enterprise-how-leaders-must-navigate-a-new-age-of-ai.pdf', 'BCG + MIT Sloan：The Emerging Agentic Enterprise'],
   ['https://www.payscale.com/content/report/2026-compensation-best-practice-report.pdf', 'Payscale：2026 Compensation Best Practices Report'],
   ['https://www.hkexnews.hk/listedco/listconews/sehk/2026/0623/2026062301078_c.pdf', 'MiniMax：IPO 后股份激励计划授出奖励公告'],
+  ['https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/07/competition-in-the-age-of-ai_e9f49e20/6f88a1ea-en.pdf', 'OECD：Competition in the Age of AI'],
 ]);
 
 const reportProfiles = new Map([
@@ -266,6 +267,31 @@ const reportProfiles = new Map([
       '精读后优先抽取薪酬实践数据、AI 技能溢价表述、pay equity 风险和岗位管理建议。',
     ],
   }],
+  ['https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/07/competition-in-the-age-of-ai_e9f49e20/6f88a1ea-en.pdf', {
+    summary: 'OECD 的跨国微观数据表明，AI 可得性不会自动抹平组织差异；高技能人才、数字基础设施、吸收能力与资本仍是关键互补资产。',
+    focus: '组织吸收能力、高技能人才、市场结构、企业边界',
+    relevanceLabel: '强相关：组织能力与人才结构',
+    evidenceLevel: 'L2：权威多源微观数据，但以描述性关联和固定效应回归为主，不构成 AI 因果证明。',
+    core: [
+      '报告连接法国、葡萄牙企业调查与行政数据、葡萄牙约 300 万员工/年数据、跨国专利与企业数据，以及 38 万余家融资或有专利的初创企业。',
+      '2020/2022 年非生成式 AI 使用与企业加价率系统性上升之间没有稳定关系；高生成式 AI 暴露企业平均更小、更年轻，但生产率和高学历员工占比更高。',
+      'AI 专利集中度与销售集中度相关，生成式 AI 初创持续进入并获得融资，也频繁被大型既有企业收购。',
+    ],
+    attention: [
+      '底层企业采用数据明显早于 2025—2026 智能体浪潮，不能直接外推当前组织结果。',
+      '岗位暴露不等于实际采用，高能力企业也可能本来就更容易采用、申请专利和提高加价率。',
+      '对 OD 的价值在于识别互补能力和自建/采购/合作权责，不是把市场关联写成组织最佳实践。',
+    ],
+    relevance: [
+      ['组织能力', '高', '用于解释技术接入之外的人才、数据、基础设施与吸收能力差异。'],
+      ['人才结构', '高', '高学历员工占比提供能力互补的方向性证据。'],
+      ['企业边界', '中', '初创进入、融资与收购可支持自建/采购/合作讨论。'],
+    ],
+    useInResearch: [
+      '放入日报/周报的组织能力与反事实部分，强调技术民主化不等于收益自动民主化。',
+      '后续用 2025—2026 企业采用和智能体数据复核，并避免将描述性关联升级为因果。',
+    ],
+  }],
 ]);
 
 function walk(dir) {
@@ -309,6 +335,7 @@ function titleFromUrl(url) {
 
 function publisherFromUrl(url) {
   const host = new URL(url).hostname.replace(/^www\./, '');
+  if (url === 'https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/07/competition-in-the-age-of-ai_e9f49e20/6f88a1ea-en.pdf') return 'OECD';
   if (host.includes('bcg.com')) return 'BCG';
   if (host.includes('deloitte.com')) return 'Deloitte';
   if (host === 'mckinsey.com' || host.endsWith('.mckinsey.com')) return 'McKinsey & Company';
@@ -323,6 +350,7 @@ function publisherFromUrl(url) {
 
 function sourceTypeFor(url) {
   const host = new URL(url).hostname;
+  if (url === 'https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/07/competition-in-the-age-of-ai_e9f49e20/6f88a1ea-en.pdf') return 'industry';
   if (/(^|\.)(bcg|deloitte|ey|mckinsey)\.com$/.test(host)) return 'consulting';
   if (/weforum|aihr|anthropic|gitlab|payscale/.test(host)) return 'industry';
   return 'media';
