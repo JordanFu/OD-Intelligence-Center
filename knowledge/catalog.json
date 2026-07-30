@@ -3040,6 +3040,32 @@
         "OECD"
       ],
       "originalUrl": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/07/competition-in-the-age-of-ai_e9f49e20/6f88a1ea-en.pdf"
+    },
+    {
+      "id": "p052",
+      "title": "HiBob 2026 report AI maturity benchmarks and where the workforce stand",
+      "originalTitle": "HiBob 2026 report AI maturity benchmarks and where the workforce stand",
+      "author": "hibob.com",
+      "publisher": "hibob.com",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计",
+        "人才发展"
+      ],
+      "date": "",
+      "uploadDate": "2026-07-30",
+      "description": "HiBob 2026 report AI maturity benchmarks and where the workforce stand 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计、人才发展。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-hibob-com-hibob-2026-report-ai-maturity-benchmarks-and-where-the-workforce-stand.md",
+      "rawFile": "",
+      "fileName": "hibob-com-hibob-2026-report-ai-maturity-benchmarks-and-where-the-workforce-stand.pdf",
+      "fileSize": "download pending",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "人才发展",
+        "hibob.com"
+      ],
+      "originalUrl": "https://www.hibob.com/wp-content/uploads/HiBob_2026-report_AI-maturity-benchmarks-and-where-the-workforce-stand.pdf"
     }
   ]
 }

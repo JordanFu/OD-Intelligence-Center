@@ -124,15 +124,16 @@
 | [quarterly update presentation 1q 2026](wiki/pdf-source-bny-com-quarterly-update-presentation-1q-2026.md) | bny.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 11 次 |
 | [draft cwa xxxx e](wiki/pdf-source-cencenelec-eu-draft-cwa-xxxx-e.md) | cencenelec.eu | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 2 次 |
 | [us spans and layers for the modern organization 2020](wiki/pdf-source-deloitte-us-spans-and-layers-for-the-modern-organization-2020.md) | Deloitte | AI组织设计、变革管理 | 待评估：需精读后确定 | 已下载原文，引用 3 次 |
-| [EY：Future of Pay Report 2026](wiki/pdf-source-ey-ey-future-of-pay-report-2026.md) | EY | 技能薪酬、生产率锚点、AI 人才溢价 | 强相关：薪酬与激励机制 | 已下载原文，引用 154 次 |
+| [EY：Future of Pay Report 2026](wiki/pdf-source-ey-ey-future-of-pay-report-2026.md) | EY | 技能薪酬、生产率锚点、AI 人才溢价 | 强相关：薪酬与激励机制 | 已下载原文，引用 149 次 |
 | [pip faq 2026](wiki/pdf-source-facs-org-pip-faq-2026.md) | facs.org | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 6 次 |
 | [12 087 bc50bde2 3016 457a 9bee dc988cb1056b](wiki/pdf-source-hbs-edu-12-087-bc50bde2-3016-457a-9bee-dc988cb1056b.md) | hbs.edu | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 5 次 |
+| [HiBob 2026 report AI maturity benchmarks and where the workforce stand](wiki/pdf-source-hibob-com-hibob-2026-report-ai-maturity-benchmarks-and-where-the-workforce-stand.md) | hibob.com | AI组织设计、人才发展 | 待评估：需精读后确定 | 已索引待重试，引用 4 次 |
 | [cesifo1 wp12373](wiki/pdf-source-ifo-de-cesifo1-wp12373.md) | ifo.de | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 3 次 |
 | [ILO Brief ASEAN AI v11 clean](wiki/pdf-source-ilo-org-ilo-brief-asean-ai-v11-clean.md) | ilo.org | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 2 次 |
 | [0000050863 26 000011](wiki/pdf-source-intc-com-0000050863-26-000011.md) | intc.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 2 次 |
 | [2Q26 earnings transcript](wiki/pdf-source-jpmorganchase-com-2q26-earnings-transcript.md) | jpmorganchase.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 11 次 |
 | [McKinsey：The State of Organizations 2026](wiki/pdf-source-mckinsey-company-mckinsey-the-state-of-organizations-2026.md) | McKinsey & Company | AI组织设计、人才发展、变革管理 | 待评估：需精读后确定 | 已索引待重试，引用 1 次 |
-| [OECD：Competition in the Age of AI](wiki/pdf-source-oecd-oecd-competition-in-the-age-of-ai.md) | OECD | 组织吸收能力、高技能人才、市场结构、企业边界 | 强相关：组织能力与人才结构 | 已下载原文，引用 1 次 |
+| [OECD：Competition in the Age of AI](wiki/pdf-source-oecd-oecd-competition-in-the-age-of-ai.md) | OECD | 组织吸收能力、高技能人才、市场结构、企业边界 | 强相关：组织能力与人才结构 | 已下载原文，引用 2 次 |
 | [c0ffced7 en](wiki/pdf-source-oecd-org-c0ffced7-en.md) | oecd.org | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 4 次 |
 | [orgvue ai research ebook 2026 final](wiki/pdf-source-orgvue-com-orgvue-ai-research-ebook-2026-final.md) | orgvue.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 1 次 |
 | [Payscale：2026 Compensation Best Practices Report](wiki/pdf-source-payscale-payscale-2026-compensation-best-practices-report.md) | Payscale | AI 技能定价、薪酬公平、薪酬基准、job management | 强相关：薪酬架构与激励资源 | 已下载原文，引用 13 次 |

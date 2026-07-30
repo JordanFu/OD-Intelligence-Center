@@ -52,6 +52,7 @@ OECD 的跨国微观数据表明，AI 可得性不会自动抹平组织差异；
 ## 被引用位置
 
 - `daily/2026-07-30.md:128`：报告 PDF
+- `specials/ai-org-talent-mechanism/2026-07-30/02-talent-density.md:27`：报告 PDF
 
 ## 后续精读任务
 
