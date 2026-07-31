@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T15:31:06.709Z",
+  "generatedAt": "2026-07-31T04:55:14.548Z",
   "module": "topic-projects",
   "project": {
     "id": "ai-org-talent-mechanism",
@@ -8,11 +8,12 @@
   },
   "qualityStatus": "warn",
   "latestFormalDate": "2026-07-30",
-  "latestAnyDate": "2026-07-30",
-  "today": "2026-07-30",
-  "todayStatus": "formal",
-  "latestStatus": "formal",
+  "latestAnyDate": "2026-07-31",
+  "today": "2026-07-31",
+  "todayStatus": "fallback",
+  "latestStatus": "fallback",
   "pendingRerunDates": [
+    "2026-07-31",
     "2026-07-27",
     "2026-07-13",
     "2026-07-12",
@@ -34,8 +35,8 @@
     "2026-05-13"
   ],
   "statusCounts": {
-    "formal": 60,
-    "fallback": 19
+    "fallback": 20,
+    "formal": 60
   },
   "statusDefinitions": {
     "formal": "正式决策稿：00-overview、四专题 Markdown、正式入口均存在，且无兜底/待重跑关键词，质量门禁未明确失败。",
@@ -45,6 +46,57 @@
     "missing": "缺失：日期目录或必要文件不存在。"
   },
   "dates": [
+    {
+      "date": "2026-07-31",
+      "status": "fallback",
+      "isFormal": false,
+      "isFallback": true,
+      "needsRerun": true,
+      "overview": "specials/ai-org-talent-mechanism/2026-07-31/00-overview.html",
+      "overviewMarkdown": "specials/ai-org-talent-mechanism/2026-07-31/00-overview.md",
+      "index": "specials/ai-org-talent-mechanism/2026-07-31/index.html",
+      "topicReports": [
+        {
+          "title": "overview",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-31/00-overview.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-31/00-overview.html",
+          "exists": true
+        },
+        {
+          "title": "flat-organization",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-31/01-flat-organization.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-31/01-flat-organization.html",
+          "exists": true
+        },
+        {
+          "title": "talent-density",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-31/02-talent-density.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-31/02-talent-density.html",
+          "exists": true
+        },
+        {
+          "title": "job-family-career-architecture",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-31/03-job-family-career-architecture.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-31/03-job-family-career-architecture.html",
+          "exists": true
+        },
+        {
+          "title": "promotion-system",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-31/04-promotion-system.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-31/04-promotion-system.html",
+          "exists": true
+        }
+      ],
+      "missingRequired": [],
+      "hasFormalEntry": true,
+      "qualityGate": {
+        "path": "specials/ai-org-talent-mechanism/quality/2026-07-31.md",
+        "status": "warn-or-unknown"
+      },
+      "qualityIssues": [
+        "正文包含兜底/非决策稿/待正式重跑关键词"
+      ]
+    },
     {
       "date": "2026-07-30",
       "status": "formal",
@@ -3957,9 +4009,9 @@
   ],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-07-30T15:31:10.181Z",
+    "checkedAt": "2026-07-31T04:55:18.848Z",
     "qualityStatus": "warn",
-    "firstPartyChecked": 2337,
+    "firstPartyChecked": 2363,
     "externalWarnings": 44,
     "brokenCount": 0,
     "publicScanBridge": [
