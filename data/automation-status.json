@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T15:37:37.899Z",
+  "generatedAt": "2026-08-01T04:49:20.200Z",
   "module": "automation",
   "qualityStatus": "warn",
   "chains": {
@@ -11,10 +11,11 @@
     },
     "topicProjects": {
       "qualityStatus": "warn",
-      "today": "2026-07-31",
+      "today": "2026-08-01",
       "todayStatus": "fallback",
       "latestFormalDate": "2026-07-30",
       "pendingRerunDates": [
+        "2026-08-01",
         "2026-07-31",
         "2026-07-27",
         "2026-07-13",
@@ -39,14 +40,14 @@
     },
     "knowledgeLint": {
       "qualityStatus": "pass",
-      "latestCatalogDate": "2026-07-31",
+      "latestCatalogDate": "2026-08-01",
       "reportCount": 110,
       "privatePathLeakCount": 0
     },
     "linkCheck": {
       "qualityStatus": "warn",
       "brokenCount": 0,
-      "checkedAt": "2026-07-31T15:37:37.842Z"
+      "checkedAt": "2026-08-01T04:49:20.150Z"
     },
     "githubActionsFallback": {
       "status": "pass",
@@ -78,7 +79,7 @@
     "信息库质量为 warn",
     "专题研究状态为 warn",
     "本地正式任务无法确认已完成，需要人工补跑或等待正式自动化",
-    "专题待正式重跑 20 天"
+    "专题待正式重跑 21 天"
   ],
   "criticalIssues": [],
   "operatingRule": "GitHub Actions 只能兜底、审计和记录状态；正式研究完成只能由 formal 条件确认。"

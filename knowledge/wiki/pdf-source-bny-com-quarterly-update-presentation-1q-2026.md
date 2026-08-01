@@ -2,7 +2,7 @@
 title: quarterly update presentation 1q 2026
 source: bny.com
 date: 待核验
-ingested: 2026-07-31
+ingested: 2026-08-01
 sourceFile: ../knowledge/raw/bny-com-quarterly-update-presentation-1q-2026.pdf
 sourceUrl: https://www.bny.com/assets/corporate/documents/pdf/investor-relations/earnings/quarterly-update-presentation-1q-2026.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ quarterly update presentation 1q 2026 已作为日报/周报 PDF 证据源入库
 - **来源类型**：media
 - **原文 URL**：https://www.bny.com/assets/corporate/documents/pdf/investor-relations/earnings/quarterly-update-presentation-1q-2026.pdf
 - **原始文件**：`knowledge/raw/bny-com-quarterly-update-presentation-1q-2026.pdf`
-- **入库日期**：2026-07-31
+- **入库日期**：2026-08-01
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
