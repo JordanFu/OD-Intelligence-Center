@@ -2,7 +2,7 @@
 title: UK Standard Skills Classification Development Report
 source: assets.publishing.service.gov.uk
 date: 待核验
-ingested: 2026-08-01
+ingested: 2026-08-02
 sourceFile: ../knowledge/raw/assets-publishing-service-gov-uk-uk-standard-skills-classification-development-report.pdf
 sourceUrl: https://assets.publishing.service.gov.uk/media/69f07a6608ecdb5c6f34b04f/UK_Standard_Skills_Classification_-_Development_Report.pdf
 tags: [AI组织设计, 人才发展]
@@ -21,7 +21,7 @@ UK Standard Skills Classification Development Report 已作为日报/周报 PDF 
 - **来源类型**：media
 - **原文 URL**：https://assets.publishing.service.gov.uk/media/69f07a6608ecdb5c6f34b04f/UK_Standard_Skills_Classification_-_Development_Report.pdf
 - **原始文件**：`knowledge/raw/assets-publishing-service-gov-uk-uk-standard-skills-classification-development-report.pdf`
-- **入库日期**：2026-08-01
+- **入库日期**：2026-08-02
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容

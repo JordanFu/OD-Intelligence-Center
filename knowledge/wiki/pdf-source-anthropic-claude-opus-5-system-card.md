@@ -2,7 +2,7 @@
 title: Claude Opus 5 System Card
 source: Anthropic
 date: 待核验
-ingested: 2026-08-01
+ingested: 2026-08-02
 sourceFile: ../knowledge/raw/anthropic-claude-opus-5-system-card.pdf
 sourceUrl: https://www-cdn.anthropic.com/c5fbac3f0b1280a933ebd26d3cb8bb9f5bdeaf48/Claude%20Opus%205%20System%20Card.pdf
 tags: [AI组织设计, 人才发展]
@@ -21,7 +21,7 @@ Claude Opus 5 System Card 已作为日报/周报 PDF 证据源入库，当前需
 - **来源类型**：industry
 - **原文 URL**：https://www-cdn.anthropic.com/c5fbac3f0b1280a933ebd26d3cb8bb9f5bdeaf48/Claude%20Opus%205%20System%20Card.pdf
 - **原始文件**：`knowledge/raw/anthropic-claude-opus-5-system-card.pdf`
-- **入库日期**：2026-08-01
+- **入库日期**：2026-08-02
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
