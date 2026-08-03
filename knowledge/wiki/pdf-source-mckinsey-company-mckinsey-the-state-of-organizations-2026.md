@@ -2,7 +2,7 @@
 title: McKinsey：The State of Organizations 2026
 source: McKinsey & Company
 date: 待核验
-ingested: 2026-08-02
+ingested: 2026-08-03
 sourceFile:
 sourceUrl: https://www.mckinsey.com/~/media/mckinsey/business%20functions/people%20and%20organizational%20performance/our%20insights/the%20state%20of%20organizations/2026/the-state-of-organizations-2026.pdf
 tags: [AI组织设计, 人才发展, 变革管理]
@@ -21,7 +21,7 @@ McKinsey：The State of Organizations 2026 已作为日报/周报 PDF 证据源�
 - **来源类型**：consulting
 - **原文 URL**：https://www.mckinsey.com/~/media/mckinsey/business%20functions/people%20and%20organizational%20performance/our%20insights/the%20state%20of%20organizations/2026/the-state-of-organizations-2026.pdf
 - **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
-- **入库日期**：2026-08-02
+- **入库日期**：2026-08-03
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容

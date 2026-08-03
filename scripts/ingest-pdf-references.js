@@ -480,7 +480,12 @@ function wikiMarkdown(item, slug, rawRelative, status) {
     .map((citation) => `- \`${citation.file}:${citation.line}\`：${citation.context || '日报/周报引用该 PDF。'}`)
     .join('\n');
   const topics = topicsFor(item.title, item.url);
-  const sourceFileLine = status === 'downloaded' ? `sourceFile: ../${rawRelative}` : 'sourceFile:';
+  // Wiki cards live in knowledge/wiki/, while raw PDFs live in knowledge/raw/.
+  // Keep this frontmatter path relative to the card so schema-aware readers do
+  // not resolve it as knowledge/knowledge/raw/.
+  const sourceFileLine = status === 'downloaded'
+    ? `sourceFile: ../raw/${path.basename(rawRelative)}`
+    : 'sourceFile:';
   return `---\ntitle: ${item.title}\nsource: ${item.publisher}\ndate: 待核验\ningested: ${today}\n${sourceFileLine}\nsourceUrl: ${item.url}\ntags: [${topics.join(', ')}]\nstatus: ${status === 'downloaded' ? '已下载原始PDF，已生成结构化初筛卡片' : '已索引来源，PDF下载待重试'}\n---\n\n# ${item.title}\n\n## 一句话判断\n\n${profile.summary}\n\n## 入库状态\n\n- **来源机构**：${item.publisher}\n- **来源类型**：${item.sourceType}\n- **原文 URL**：${item.url}\n- **原始文件**：${status === 'downloaded' ? `\`${rawRelative}\`` : '下载失败或待重试，先保留 URL 与引用上下文'}\n- **入库日期**：${today}\n- **证据层级**：${profile.evidenceLevel}\n\n## 核心内容\n\n${markdownList(profile.core)}\n\n## 你需要关注\n\n${markdownList(profile.attention)}\n\n## 与近期研究主题的相关性\n\n| 研究主题 | 相关性 | 可怎么用 |\n|---|---|---|\n${relevanceTable(profile.relevance)}\n\n## 对日报/周报的使用方式\n\n${markdownList(profile.useInResearch)}\n\n## 被引用位置\n\n${citations}\n\n## 后续精读任务\n\n- 核验报告发布日期、作者/机构、样本范围和数据口径。\n- 抽取可支撑“执行层分工合并 vs 核心专家深化”的直接证据。\n- 抽取可支撑“岗位改革背后是激励资源再配置”的薪酬、技能溢价或预算配置证据。\n- 判断是否需要拆成独立概念页、企业案例页或机制模板。\n\n## 与已有知识的关联\n\n- [[AI-First 运营模型]]\n- [[技能为本的组织]]\n- [[能力-判断评估矩阵]]\n`;
 }
 

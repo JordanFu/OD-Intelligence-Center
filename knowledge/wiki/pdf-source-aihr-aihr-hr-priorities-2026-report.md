@@ -2,8 +2,8 @@
 title: AIHR：HR Priorities 2026 Report
 source: AIHR
 date: 待核验
-ingested: 2026-08-02
-sourceFile: ../knowledge/raw/aihr-aihr-hr-priorities-2026-report.pdf
+ingested: 2026-08-03
+sourceFile: ../raw/aihr-aihr-hr-priorities-2026-report.pdf
 sourceUrl: https://www.aihr.com/resources/AIHR_HR_Priorities_2026_Report.pdf
 tags: [AI组织设计, 人才发展]
 status: 已下载原始PDF，已生成结构化初筛卡片
@@ -21,7 +21,7 @@ AIHR 把 2026 HR 重点归纳为共领导 AI 转型、把 AI 产能收益再投�
 - **来源类型**：industry
 - **原文 URL**：https://www.aihr.com/resources/AIHR_HR_Priorities_2026_Report.pdf
 - **原始文件**：`knowledge/raw/aihr-aihr-hr-priorities-2026-report.pdf`
-- **入库日期**：2026-08-02
+- **入库日期**：2026-08-03
 - **证据层级**：结论层可用，尤其适合支撑“岗位结构滞后于技能变化”的判断。
 
 ## 核心内容

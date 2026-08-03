@@ -1,25 +1,25 @@
 ---
-title: HiBob 2026 report AI maturity benchmarks and where the workforce stand
-source: hibob.com
+title: itb lat dir ai 6454 web 0
+source: ag.ny.gov
 date: 待核验
 ingested: 2026-08-03
 sourceFile:
-sourceUrl: https://www.hibob.com/wp-content/uploads/HiBob_2026-report_AI-maturity-benchmarks-and-where-the-workforce-stand.pdf
-tags: [AI组织设计, 人才发展]
+sourceUrl: https://ag.ny.gov/sites/default/files/2026-07/itb_lat_dir_ai_6454-web_0.pdf
+tags: [AI组织设计]
 status: 已索引来源，PDF下载待重试
 ---
 
-# HiBob 2026 report AI maturity benchmarks and where the workforce stand
+# itb lat dir ai 6454 web 0
 
 ## 一句话判断
 
-HiBob 2026 report AI maturity benchmarks and where the workforce stand 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
+itb lat dir ai 6454 web 0 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
 
 ## 入库状态
 
-- **来源机构**：hibob.com
+- **来源机构**：ag.ny.gov
 - **来源类型**：media
-- **原文 URL**：https://www.hibob.com/wp-content/uploads/HiBob_2026-report_AI-maturity-benchmarks-and-where-the-workforce-stand.pdf
+- **原文 URL**：https://ag.ny.gov/sites/default/files/2026-07/itb_lat_dir_ai_6454-web_0.pdf
 - **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
 - **入库日期**：2026-08-03
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
@@ -51,10 +51,7 @@ HiBob 2026 report AI maturity benchmarks and where the workforce stand 已作为
 
 ## 被引用位置
 
-- `specials/ai-org-talent-mechanism/2026-07-30/00-overview.md:85`：HiBob 2026 AI Skills 报告
-- `specials/ai-org-talent-mechanism/2026-07-30/00-overview.md:204`：HiBob AI Skills Report 2026
-- `specials/ai-org-talent-mechanism/2026-07-30/04-promotion-system.md:53`：HiBob 原始报告 PDF
-- `specials/ai-org-talent-mechanism/2026-07-30/04-promotion-system.md:224`：AI Maturity Benchmarks and Where the Workforce Stands
+- `daily/2026-08-03.md:141`：纽约州总检察长办公室官方 JD PDF
 
 ## 后续精读任务
 
