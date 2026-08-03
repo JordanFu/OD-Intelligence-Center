@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T04:44:15.435Z",
+  "generatedAt": "2026-08-03T06:10:54.340Z",
   "module": "topic-projects",
   "project": {
     "id": "ai-org-talent-mechanism",
@@ -7,11 +7,11 @@
     "root": "specials/ai-org-talent-mechanism"
   },
   "qualityStatus": "warn",
-  "latestFormalDate": "2026-07-23",
-  "latestAnyDate": "2026-07-24",
-  "today": "2026-07-24",
-  "todayStatus": "fallback",
-  "latestStatus": "fallback",
+  "latestFormalDate": "2026-08-02",
+  "latestAnyDate": "2026-08-03",
+  "today": "2026-08-03",
+  "todayStatus": "scheduled",
+  "latestStatus": "scheduled",
   "pendingRerunDates": [
     "2026-07-24",
     "2026-07-13",
@@ -34,8 +34,9 @@
     "2026-05-13"
   ],
   "statusCounts": {
-    "fallback": 19,
-    "formal": 54
+    "scheduled": 1,
+    "formal": 61,
+    "fallback": 19
   },
   "statusDefinitions": {
     "formal": "正式决策稿：00-overview、四专题 Markdown、正式入口均存在，且无兜底/待重跑关键词，质量门禁未明确失败。",
@@ -45,6 +46,406 @@
     "missing": "缺失：日期目录或必要文件不存在。"
   },
   "dates": [
+    {
+      "date": "2026-08-03",
+      "status": "scheduled",
+      "isFormal": false,
+      "isFallback": false,
+      "needsRerun": false,
+      "overview": null,
+      "overviewMarkdown": null,
+      "index": null,
+      "topicReports": [
+        {
+          "title": "overview",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        },
+        {
+          "title": "flat-organization",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        },
+        {
+          "title": "talent-density",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        },
+        {
+          "title": "job-family-career-architecture",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        },
+        {
+          "title": "promotion-system",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        }
+      ],
+      "missingRequired": [
+        "00-overview.md",
+        "01-flat-organization.md",
+        "02-talent-density.md",
+        "03-job-family-career-architecture.md",
+        "04-promotion-system.md"
+      ],
+      "hasFormalEntry": false,
+      "qualityGate": {
+        "path": null,
+        "status": "not-found"
+      },
+      "qualityIssues": [
+        "未到今日 18:00 正式自动化运行时间"
+      ]
+    },
+    {
+      "date": "2026-08-02",
+      "status": "formal",
+      "isFormal": true,
+      "isFallback": false,
+      "needsRerun": false,
+      "overview": "specials/ai-org-talent-mechanism/2026-08-02/00-overview.html",
+      "overviewMarkdown": "specials/ai-org-talent-mechanism/2026-08-02/00-overview.md",
+      "index": "specials/ai-org-talent-mechanism/2026-08-02/index.html",
+      "topicReports": [
+        {
+          "title": "overview",
+          "markdown": "specials/ai-org-talent-mechanism/2026-08-02/00-overview.md",
+          "html": "specials/ai-org-talent-mechanism/2026-08-02/00-overview.html",
+          "exists": true
+        },
+        {
+          "title": "flat-organization",
+          "markdown": "specials/ai-org-talent-mechanism/2026-08-02/01-flat-organization.md",
+          "html": "specials/ai-org-talent-mechanism/2026-08-02/01-flat-organization.html",
+          "exists": true
+        },
+        {
+          "title": "talent-density",
+          "markdown": "specials/ai-org-talent-mechanism/2026-08-02/02-talent-density.md",
+          "html": "specials/ai-org-talent-mechanism/2026-08-02/02-talent-density.html",
+          "exists": true
+        },
+        {
+          "title": "job-family-career-architecture",
+          "markdown": "specials/ai-org-talent-mechanism/2026-08-02/03-job-family-career-architecture.md",
+          "html": "specials/ai-org-talent-mechanism/2026-08-02/03-job-family-career-architecture.html",
+          "exists": true
+        },
+        {
+          "title": "promotion-system",
+          "markdown": "specials/ai-org-talent-mechanism/2026-08-02/04-promotion-system.md",
+          "html": "specials/ai-org-talent-mechanism/2026-08-02/04-promotion-system.html",
+          "exists": true
+        }
+      ],
+      "missingRequired": [],
+      "hasFormalEntry": true,
+      "qualityGate": {
+        "path": "specials/ai-org-talent-mechanism/quality/2026-08-02.md",
+        "status": "pass-or-warn"
+      },
+      "qualityIssues": []
+    },
+    {
+      "date": "2026-08-01",
+      "status": "formal",
+      "isFormal": true,
+      "isFallback": false,
+      "needsRerun": false,
+      "overview": "specials/ai-org-talent-mechanism/2026-08-01/00-overview.html",
+      "overviewMarkdown": "specials/ai-org-talent-mechanism/2026-08-01/00-overview.md",
+      "index": "specials/ai-org-talent-mechanism/2026-08-01/index.html",
+      "topicReports": [
+        {
+          "title": "overview",
+          "markdown": "specials/ai-org-talent-mechanism/2026-08-01/00-overview.md",
+          "html": "specials/ai-org-talent-mechanism/2026-08-01/00-overview.html",
+          "exists": true
+        },
+        {
+          "title": "flat-organization",
+          "markdown": "specials/ai-org-talent-mechanism/2026-08-01/01-flat-organization.md",
+          "html": "specials/ai-org-talent-mechanism/2026-08-01/01-flat-organization.html",
+          "exists": true
+        },
+        {
+          "title": "talent-density",
+          "markdown": "specials/ai-org-talent-mechanism/2026-08-01/02-talent-density.md",
+          "html": "specials/ai-org-talent-mechanism/2026-08-01/02-talent-density.html",
+          "exists": true
+        },
+        {
+          "title": "job-family-career-architecture",
+          "markdown": "specials/ai-org-talent-mechanism/2026-08-01/03-job-family-career-architecture.md",
+          "html": "specials/ai-org-talent-mechanism/2026-08-01/03-job-family-career-architecture.html",
+          "exists": true
+        },
+        {
+          "title": "promotion-system",
+          "markdown": "specials/ai-org-talent-mechanism/2026-08-01/04-promotion-system.md",
+          "html": "specials/ai-org-talent-mechanism/2026-08-01/04-promotion-system.html",
+          "exists": true
+        }
+      ],
+      "missingRequired": [],
+      "hasFormalEntry": true,
+      "qualityGate": {
+        "path": "specials/ai-org-talent-mechanism/quality/2026-08-01.md",
+        "status": "pass-or-warn"
+      },
+      "qualityIssues": []
+    },
+    {
+      "date": "2026-07-31",
+      "status": "formal",
+      "isFormal": true,
+      "isFallback": false,
+      "needsRerun": false,
+      "overview": "specials/ai-org-talent-mechanism/2026-07-31/00-overview.html",
+      "overviewMarkdown": "specials/ai-org-talent-mechanism/2026-07-31/00-overview.md",
+      "index": "specials/ai-org-talent-mechanism/2026-07-31/index.html",
+      "topicReports": [
+        {
+          "title": "overview",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-31/00-overview.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-31/00-overview.html",
+          "exists": true
+        },
+        {
+          "title": "flat-organization",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-31/01-flat-organization.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-31/01-flat-organization.html",
+          "exists": true
+        },
+        {
+          "title": "talent-density",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-31/02-talent-density.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-31/02-talent-density.html",
+          "exists": true
+        },
+        {
+          "title": "job-family-career-architecture",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-31/03-job-family-career-architecture.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-31/03-job-family-career-architecture.html",
+          "exists": true
+        },
+        {
+          "title": "promotion-system",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-31/04-promotion-system.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-31/04-promotion-system.html",
+          "exists": true
+        }
+      ],
+      "missingRequired": [],
+      "hasFormalEntry": true,
+      "qualityGate": {
+        "path": "specials/ai-org-talent-mechanism/quality/2026-07-31.md",
+        "status": "pass-or-warn"
+      },
+      "qualityIssues": []
+    },
+    {
+      "date": "2026-07-30",
+      "status": "formal",
+      "isFormal": true,
+      "isFallback": false,
+      "needsRerun": false,
+      "overview": "specials/ai-org-talent-mechanism/2026-07-30/00-overview.html",
+      "overviewMarkdown": "specials/ai-org-talent-mechanism/2026-07-30/00-overview.md",
+      "index": "specials/ai-org-talent-mechanism/2026-07-30/index.html",
+      "topicReports": [
+        {
+          "title": "overview",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-30/00-overview.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-30/00-overview.html",
+          "exists": true
+        },
+        {
+          "title": "flat-organization",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-30/01-flat-organization.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-30/01-flat-organization.html",
+          "exists": true
+        },
+        {
+          "title": "talent-density",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-30/02-talent-density.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-30/02-talent-density.html",
+          "exists": true
+        },
+        {
+          "title": "job-family-career-architecture",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-30/03-job-family-career-architecture.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-30/03-job-family-career-architecture.html",
+          "exists": true
+        },
+        {
+          "title": "promotion-system",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-30/04-promotion-system.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-30/04-promotion-system.html",
+          "exists": true
+        }
+      ],
+      "missingRequired": [],
+      "hasFormalEntry": true,
+      "qualityGate": {
+        "path": "specials/ai-org-talent-mechanism/quality/2026-07-30.md",
+        "status": "pass-or-warn"
+      },
+      "qualityIssues": []
+    },
+    {
+      "date": "2026-07-29",
+      "status": "formal",
+      "isFormal": true,
+      "isFallback": false,
+      "needsRerun": false,
+      "overview": "specials/ai-org-talent-mechanism/2026-07-29/00-overview.html",
+      "overviewMarkdown": "specials/ai-org-talent-mechanism/2026-07-29/00-overview.md",
+      "index": "specials/ai-org-talent-mechanism/2026-07-29/index.html",
+      "topicReports": [
+        {
+          "title": "overview",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-29/00-overview.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-29/00-overview.html",
+          "exists": true
+        },
+        {
+          "title": "flat-organization",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-29/01-flat-organization.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-29/01-flat-organization.html",
+          "exists": true
+        },
+        {
+          "title": "talent-density",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-29/02-talent-density.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-29/02-talent-density.html",
+          "exists": true
+        },
+        {
+          "title": "job-family-career-architecture",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-29/03-job-family-career-architecture.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-29/03-job-family-career-architecture.html",
+          "exists": true
+        },
+        {
+          "title": "promotion-system",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-29/04-promotion-system.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-29/04-promotion-system.html",
+          "exists": true
+        }
+      ],
+      "missingRequired": [],
+      "hasFormalEntry": true,
+      "qualityGate": {
+        "path": "specials/ai-org-talent-mechanism/quality/2026-07-29.md",
+        "status": "pass-or-warn"
+      },
+      "qualityIssues": []
+    },
+    {
+      "date": "2026-07-28",
+      "status": "formal",
+      "isFormal": true,
+      "isFallback": false,
+      "needsRerun": false,
+      "overview": "specials/ai-org-talent-mechanism/2026-07-28/00-overview.html",
+      "overviewMarkdown": "specials/ai-org-talent-mechanism/2026-07-28/00-overview.md",
+      "index": "specials/ai-org-talent-mechanism/2026-07-28/index.html",
+      "topicReports": [
+        {
+          "title": "overview",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-28/00-overview.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-28/00-overview.html",
+          "exists": true
+        },
+        {
+          "title": "flat-organization",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-28/01-flat-organization.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-28/01-flat-organization.html",
+          "exists": true
+        },
+        {
+          "title": "talent-density",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-28/02-talent-density.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-28/02-talent-density.html",
+          "exists": true
+        },
+        {
+          "title": "job-family-career-architecture",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-28/03-job-family-career-architecture.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-28/03-job-family-career-architecture.html",
+          "exists": true
+        },
+        {
+          "title": "promotion-system",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-28/04-promotion-system.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-28/04-promotion-system.html",
+          "exists": true
+        }
+      ],
+      "missingRequired": [],
+      "hasFormalEntry": true,
+      "qualityGate": {
+        "path": "specials/ai-org-talent-mechanism/quality/2026-07-28.md",
+        "status": "pass-or-warn"
+      },
+      "qualityIssues": []
+    },
+    {
+      "date": "2026-07-27",
+      "status": "formal",
+      "isFormal": true,
+      "isFallback": false,
+      "needsRerun": false,
+      "overview": "specials/ai-org-talent-mechanism/2026-07-27/00-overview.html",
+      "overviewMarkdown": "specials/ai-org-talent-mechanism/2026-07-27/00-overview.md",
+      "index": "specials/ai-org-talent-mechanism/2026-07-27/index.html",
+      "topicReports": [
+        {
+          "title": "overview",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-27/00-overview.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-27/00-overview.html",
+          "exists": true
+        },
+        {
+          "title": "flat-organization",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-27/01-flat-organization.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-27/01-flat-organization.html",
+          "exists": true
+        },
+        {
+          "title": "talent-density",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-27/02-talent-density.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-27/02-talent-density.html",
+          "exists": true
+        },
+        {
+          "title": "job-family-career-architecture",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-27/03-job-family-career-architecture.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-27/03-job-family-career-architecture.html",
+          "exists": true
+        },
+        {
+          "title": "promotion-system",
+          "markdown": "specials/ai-org-talent-mechanism/2026-07-27/04-promotion-system.md",
+          "html": "specials/ai-org-talent-mechanism/2026-07-27/04-promotion-system.html",
+          "exists": true
+        }
+      ],
+      "missingRequired": [],
+      "hasFormalEntry": true,
+      "qualityGate": {
+        "path": "specials/ai-org-talent-mechanism/quality/2026-07-27.md",
+        "status": "pass-or-warn"
+      },
+      "qualityIssues": []
+    },
     {
       "date": "2026-07-24",
       "status": "fallback",
@@ -3663,64 +4064,10 @@
   ],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-07-24T04:44:18.656Z",
-    "qualityStatus": "warn",
-    "firstPartyChecked": 2150,
-    "externalWarnings": 40,
-    "brokenCount": 0,
-    "publicScanBridge": [
-      {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-24.html"
-      },
-      {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/"
-      }
-    ]
-  },
-  "warnings": [
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1"
-  ]
+    "checkedAt": null,
+    "qualityStatus": "pending",
+    "firstPartyChecked": 0,
+    "externalWarnings": 0,
+    "brokenCount": 0
+  }
 }

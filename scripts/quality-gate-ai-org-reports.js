@@ -42,6 +42,18 @@ function countExternalLinks(text) {
   return (text.match(/https?:\/\/[^\s)]+/g) || []).length;
 }
 
+function highGradeClaimWithoutFactRow(text) {
+  const match = text.match(/## 今日新增事实\s+([\s\S]*?)(?=\n## |$)/);
+  if (!match) return false;
+  const lines = match[1].split('\n').map((line) => line.trim()).filter(Boolean);
+  const firstTable = lines.findIndex((line) => line.startsWith('|'));
+  if (firstTable < 0) return false;
+  const narrative = lines.slice(0, firstTable).join(' ')
+    .replace(/(?:无|没有|未发现|不含)[^。；]*\bL[234]\+?/g, '');
+  const factRows = lines.slice(firstTable).filter((line) => line.startsWith('|') && !/^\|\s*[-:]+/.test(line));
+  return /\bL[234]\b/.test(narrative) && !factRows.slice(1).some((line) => /\bL[234]\b/.test(line));
+}
+
 function auditFile(file) {
   const text = read(file);
   const issues = [];
@@ -78,6 +90,10 @@ function auditFile(file) {
   const hasConclusionButWeak = /今日核心判断/.test(text) && !/(可信度|证据基础|为什么重要)/.test(text);
   if (hasConclusionButWeak) {
     issues.push('核心判断缺少可信度、证据基础或为什么重要');
+  }
+
+  if (highGradeClaimWithoutFactRow(text)) {
+    issues.push('“今日新增事实”声称存在 L2+ 证据，但事实表没有对应的 L2+ 可追溯行');
   }
 
   return {
