@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T04:59:52.044Z",
+  "generatedAt": "2026-08-03T05:59:55.916Z",
   "module": "knowledge-base",
   "qualityStatus": "warn",
   "latestCatalogDate": "2026-08-03",
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "pdfRetryCount": 12,
+  "pdfRetryCount": 11,
   "pdfRetrySample": [
     {
       "id": "p001",
@@ -84,86 +84,26 @@
       "summaryFile": "./knowledge/wiki/pdf-source-apnews-com-gov-uscourts-cand-474171-1-0.md"
     },
     {
-      "id": "p033",
-      "title": "gov.uscourts.cand.474171.1.0",
-      "summaryFile": "./knowledge/wiki/pdf-source-storage-courtlistener-com-gov-uscourts-cand-474171-1-0.md"
-    },
-    {
       "id": "p035",
       "title": "734a5e68 en",
       "summaryFile": "./knowledge/wiki/pdf-source-oecd-org-734a5e68-en.md"
+    },
+    {
+      "id": "p049",
+      "title": "2026 global investor survey jul 2026",
+      "summaryFile": "./knowledge/wiki/pdf-source-bcg-2026-global-investor-survey-jul-2026.md"
     }
   ],
   "warnings": [
-    "knowledge/catalog.json 的 reports 存在 3 组重复 summaryFile。",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1"
+    "knowledge/catalog.json 的 reports 存在 3 组重复 summaryFile。"
   ],
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-08-03T04:59:52.282Z",
-    "qualityStatus": "warn",
-    "firstPartyChecked": 2461,
-    "externalWarnings": 48,
-    "brokenCount": 0,
-    "publicScanBridge": [
-      {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-03.html"
-      },
-      {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/"
-      }
-    ]
+    "checkedAt": null,
+    "qualityStatus": "pending",
+    "firstPartyChecked": 0,
+    "externalWarnings": 0,
+    "brokenCount": 0
   }
 }
