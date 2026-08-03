@@ -64,6 +64,9 @@ Whitepaper Impact of AI on U.S. Labor Market 2026 R2 1 已作为日报/周报 PD
 - `specials/ai-org-talent-mechanism/2026-08-02/00-overview.md:98`：AI and U.S. Labor Market
 - `specials/ai-org-talent-mechanism/2026-08-02/01-flat-organization.md:92`：Apollo PDF
 - `specials/ai-org-talent-mechanism/2026-08-02/02-talent-density.md:174`：The Impact of AI on the U.S. Labor Market
+- `specials/ai-org-talent-mechanism/2026-08-03/00-overview.md:47`：Apollo 白皮书
+- `specials/ai-org-talent-mechanism/2026-08-03/00-overview.md:173`：AI and U.S. Labor Market
+- `specials/ai-org-talent-mechanism/2026-08-03/03-job-family-career-architecture.md:198`：原始白皮书 PDF
 
 ## 后续精读任务
 

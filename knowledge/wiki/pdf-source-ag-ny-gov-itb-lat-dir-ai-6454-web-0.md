@@ -62,6 +62,12 @@ itb lat dir ai 6454 web 0 已作为日报/周报 PDF 证据源入库，当前需
 - `specials/ai-org-talent-mechanism/2026-07-31/04-promotion-system.md:152`：Enterprise AI, Data, and Analytics Director JD
 - `specials/ai-org-talent-mechanism/2026-08-01/00-overview.md:90`：AI/Data/Analytics Director JD
 - `specials/ai-org-talent-mechanism/2026-08-02/03-job-family-career-architecture.md:174`：Enterprise AI, Data, and Analytics Director JD
+- `specials/ai-org-talent-mechanism/2026-08-03/00-overview.md:43`：纽约州总检察长办公室当前 JD
+- `specials/ai-org-talent-mechanism/2026-08-03/00-overview.md:175`：NY OAG
+- `specials/ai-org-talent-mechanism/2026-08-03/01-flat-organization.md:40`：纽约州总检察长办公室当前岗位说明
+- `specials/ai-org-talent-mechanism/2026-08-03/01-flat-organization.md:187`：企业 AI、数据与分析部门负责人岗位说明
+- `specials/ai-org-talent-mechanism/2026-08-03/03-job-family-career-architecture.md:19`：当前官方 JD PDF
+- `specials/ai-org-talent-mechanism/2026-08-03/03-job-family-career-architecture.md:190`：当前官方 JD PDF
 
 ## 后续精读任务
 

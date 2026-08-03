@@ -1,26 +1,26 @@
 ---
-title: 2Q26 earnings transcript
-source: jpmorganchase.com
+title: Meta 06 30 2026 Exhibit 99 1 FINAL
+source: s21.q4cdn.com
 date: 待核验
 ingested: 2026-08-03
-sourceFile: ../raw/jpmorganchase-com-2q26-earnings-transcript.pdf
-sourceUrl: https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/2nd-quarter/2Q26-earnings-transcript.pdf
+sourceFile: ../raw/s21-q4cdn-com-meta-06-30-2026-exhibit-99-1-final.pdf
+sourceUrl: https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/Meta-06-30-2026-Exhibit-99-1-FINAL.pdf
 tags: [AI组织设计]
 status: 已下载原始PDF，已生成结构化初筛卡片
 ---
 
-# 2Q26 earnings transcript
+# Meta 06 30 2026 Exhibit 99 1 FINAL
 
 ## 一句话判断
 
-2Q26 earnings transcript 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
+Meta 06 30 2026 Exhibit 99 1 FINAL 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
 
 ## 入库状态
 
-- **来源机构**：jpmorganchase.com
+- **来源机构**：s21.q4cdn.com
 - **来源类型**：media
-- **原文 URL**：https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/2nd-quarter/2Q26-earnings-transcript.pdf
-- **原始文件**：`knowledge/raw/jpmorganchase-com-2q26-earnings-transcript.pdf`
+- **原文 URL**：https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/Meta-06-30-2026-Exhibit-99-1-FINAL.pdf
+- **原始文件**：`knowledge/raw/s21-q4cdn-com-meta-06-30-2026-exhibit-99-1-final.pdf`
 - **入库日期**：2026-08-03
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
@@ -51,15 +51,12 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 
 ## 被引用位置
 
-- `specials/ai-org-talent-mechanism/2026-07-21/00-overview.md:23`：JPMorgan 2Q26 电话会
-- `specials/ai-org-talent-mechanism/2026-07-21/00-overview.md:111`：2Q26 Earnings Transcript
-- `specials/ai-org-talent-mechanism/2026-07-21/02-talent-density.md:22`：JPMorgan 2026 Q2 电话会 PDF
-- `specials/ai-org-talent-mechanism/2026-07-21/02-talent-density.md:125`：2Q26 Earnings Transcript
-- `specials/ai-org-talent-mechanism/2026-07-21/03-job-family-career-architecture.md:22`：JPMorganChase 2Q26 电话会
-- `specials/ai-org-talent-mechanism/2026-07-21/03-job-family-career-architecture.md:125`：2Q26 Earnings Transcript
-- `specials/ai-org-talent-mechanism/2026-07-22/03-job-family-career-architecture.md:153`：2Q26 Earnings Transcript
-- `specials/ai-org-talent-mechanism/weekly/2026-W30-detailed.md:470`：JPMorganChase 2Q26 Earnings Transcript
-- `specials/ai-org-talent-mechanism/weekly/2026-W30.md:470`：JPMorganChase 2Q26 Earnings Transcript
+- `specials/ai-org-talent-mechanism/weekly/2026-W31-detailed.md:250`：Meta Q2 2026 官方业绩
+- `specials/ai-org-talent-mechanism/weekly/2026-W31-quick.md:43`：Meta Q2 2026 官方业绩与电话会
+- `specials/ai-org-talent-mechanism/weekly/2026-W31.md:250`：Meta Q2 2026 官方业绩
+- `specials/ai-org-talent-mechanism/weekly/latest-detailed.md:250`：Meta Q2 2026 官方业绩
+- `specials/ai-org-talent-mechanism/weekly/latest-quick.md:43`：Meta Q2 2026 官方业绩与电话会
+- `specials/ai-org-talent-mechanism/weekly/latest.md:250`：Meta Q2 2026 官方业绩
 
 ## 后续精读任务
 

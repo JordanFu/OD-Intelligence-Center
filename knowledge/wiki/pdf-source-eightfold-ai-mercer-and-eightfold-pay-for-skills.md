@@ -52,6 +52,7 @@ Mercer and Eightfold Pay for Skills 已作为日报/周报 PDF 证据源入库�
 ## 被引用位置
 
 - `specials/ai-org-talent-mechanism/2026-07-03/02-talent-density.md:110`：Mercer / Eightfold Pay for Skills,
+- `specials/ai-org-talent-mechanism/2026-08-03/03-job-family-career-architecture.md:196`：报告 PDF
 
 ## 后续精读任务
 

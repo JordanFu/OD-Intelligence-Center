@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T10:21:56.397Z",
+  "generatedAt": "2026-08-03T13:21:40.548Z",
   "module": "automation",
   "qualityStatus": "warn",
   "chains": {
@@ -38,13 +38,13 @@
     "knowledgeLint": {
       "qualityStatus": "pass",
       "latestCatalogDate": "2026-08-03",
-      "reportCount": 113,
+      "reportCount": 116,
       "privatePathLeakCount": 0
     },
     "linkCheck": {
       "qualityStatus": "warn",
       "brokenCount": 0,
-      "checkedAt": "2026-08-03T10:21:56.230Z"
+      "checkedAt": "2026-08-03T13:21:40.492Z"
     },
     "githubActionsFallback": {
       "status": "pass",

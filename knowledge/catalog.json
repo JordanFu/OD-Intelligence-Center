@@ -3145,6 +3145,78 @@
         "apollo.com"
       ],
       "originalUrl": "https://www.apollo.com/content/dam/apolloaem/pdf/daily-spark/2026//jul/30/Whitepaper-Impact%20of%20AI%20on%20U.S.%20Labor%20Market-2026-R2%201.pdf"
+    },
+    {
+      "id": "p055",
+      "title": "itb dia 6351 email 0",
+      "originalTitle": "itb dia 6351 email 0",
+      "author": "ag.ny.gov",
+      "publisher": "ag.ny.gov",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-08-03",
+      "description": "itb dia 6351 email 0 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-ag-ny-gov-itb-dia-6351-email-0.md",
+      "rawFile": "./knowledge/raw/ag-ny-gov-itb-dia-6351-email-0.pdf",
+      "fileName": "ag-ny-gov-itb-dia-6351-email-0.pdf",
+      "fileSize": "264626 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "ag.ny.gov"
+      ],
+      "originalUrl": "https://ag.ny.gov/sites/default/files/2024-12/itb_dia_6351_email_0.pdf"
+    },
+    {
+      "id": "p056",
+      "title": "Meta 06 30 2026 Exhibit 99 1 FINAL",
+      "originalTitle": "Meta 06 30 2026 Exhibit 99 1 FINAL",
+      "author": "s21.q4cdn.com",
+      "publisher": "s21.q4cdn.com",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-08-03",
+      "description": "Meta 06 30 2026 Exhibit 99 1 FINAL 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-s21-q4cdn-com-meta-06-30-2026-exhibit-99-1-final.md",
+      "rawFile": "./knowledge/raw/s21-q4cdn-com-meta-06-30-2026-exhibit-99-1-final.pdf",
+      "fileName": "s21-q4cdn-com-meta-06-30-2026-exhibit-99-1-final.pdf",
+      "fileSize": "166342 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "s21.q4cdn.com"
+      ],
+      "originalUrl": "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/Meta-06-30-2026-Exhibit-99-1-FINAL.pdf"
+    },
+    {
+      "id": "p057",
+      "title": "META Q2 2026 Earnings Call Transcript",
+      "originalTitle": "META Q2 2026 Earnings Call Transcript",
+      "author": "s21.q4cdn.com",
+      "publisher": "s21.q4cdn.com",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-08-03",
+      "description": "META Q2 2026 Earnings Call Transcript 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-s21-q4cdn-com-meta-q2-2026-earnings-call-transcript.md",
+      "rawFile": "./knowledge/raw/s21-q4cdn-com-meta-q2-2026-earnings-call-transcript.pdf",
+      "fileName": "s21-q4cdn-com-meta-q2-2026-earnings-call-transcript.pdf",
+      "fileSize": "214956 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "s21.q4cdn.com"
+      ],
+      "originalUrl": "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/META-Q2-2026-Earnings-Call-Transcript.pdf"
     }
   ]
 }
