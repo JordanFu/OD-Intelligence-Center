@@ -189,6 +189,142 @@
 - **标签**：#AI组织进化论 #渠道缺口 #社交信号 #证据边界
 - **抓取时间**：2026-08-03 10:22
 
+## 2026-08-02
+
+### [D01] 招聘身份核验：控制点从录用后前移到候选人全流程
+- **事件摘要**：HRTechChina 8 月 2 日公开摘要指出，生成式 AI、深度伪造、代理面试和自动化批量投递使“申请、面试和入职是否为同一人”成为招聘风险。Gartner 的候选人调查与 Greenhouse、Checkr、Persona 官方产品页显示，身份、活体或欺诈信号正被嵌入申请、面试、背景调查和入职环节，但公开材料尚无企业侧误报率、候选人流失或录用质量结果。
+- **来源**：[HRTechChina](https://www.hrtechchina.com/76223.html)；[Gartner](https://www.gartner.com/en/newsroom/press-releases/2025-07-31-gartner-survey-shows-just-26-percent-of-job-applicants-trust-ai-will-fairly-evaluate-them)；[Greenhouse](https://www.greenhouse.com/product-features/greenhouse-real-talent)；[Checkr](https://checkr.com/products/fraud-detection)；[Persona](https://withpersona.com/blog/introducing-candidate-verification-solution-by-persona)
+- **来源平台**：HRTechChina / Gartner / Greenhouse / Checkr / Persona
+- **来源可信度**：📰较高
+- **信息类型**：弱信号
+- **渠道类型**：社媒公众号
+- **结论置信度**：L1
+- **验证问题**：企业实际在哪些岗位和节点启用核验，误报、拒绝参与、候选人流失、申诉和数据删除结果如何？
+- **OD启示**：招聘治理需要把身份真实性、能力真实性和合理使用 AI 拆成三类目标，并按岗位风险设置可审计控制点。核验前移也可能扩大隐私、歧视和误拒，必须配置告知、最小化、人工复核和申诉。
+- **标签**：#招聘治理 #身份核验 #候选人体验 #隐私
+- **抓取时间**：2026-08-03 13:43
+
+### [D02] 恢复扫描缺口：周度强证据已在 W31 与 8 月 3 日去重收束
+- **事件摘要**：恢复扫描覆盖官方、监管、媒体、报告、JD 与公众号渠道，未发现新的独立公司制度或组织结果。8 月 2 日复核了 Sabadell、Xbox、字节、Anthropic、Amazon、OpenAI、Apollo、NBER、FactSet 及动态 JD；W31 与 8 月 3 日已按独立证据链收束。本卡保留周末显式更新，不重复写入趋势。
+- **来源**：[欧盟委员会 AI 透明度准则](https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content)；[OpenAI](https://openai.com/index/building-abundant-intelligence/)；[Anthropic](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals)；[Apollo](https://www.apollo.com/content/dam/apolloaem/pdf/daily-spark/2026//jul/30/Whitepaper-Impact%20of%20AI%20on%20U.S.%20Labor%20Market-2026-R2%201.pdf)
+- **来源平台**：European Commission / OpenAI / Anthropic / Apollo
+- **来源可信度**：⭐高
+- **信息类型**：缺口记录
+- **渠道类型**：官方
+- **结论置信度**：L1
+- **验证问题**：哪些强信号在 30/90 天后能提供预算、权力、运行、员工和结果证据，从“动作”升级为“机制”？
+- **OD启示**：周末低新增日的价值是证据校准，而不是重复周内新闻。没有新增制度时，应明确停止升级判断，并把跟踪对象转向可验证运行结果。
+- **标签**：#周末更新 #证据校准 #去重 #恢复执行
+- **抓取时间**：2026-08-03 13:43
+
+## 2026-08-01
+
+### [D01] 「AI组织进化论」：第三方索引出现新标题，但仍无稳定原文
+- **事件摘要**：第三方公开索引显示疑似 7 月 31 日和 8 月 1 日新增标题，包括“AI原生工作者的7个习惯”“AI原生工作法：Codex负责人谈团队新的工作模式”等；但公开页面只能提供相对日期和标题，限定微信公众号域名及精确标题反查仍未取得账号主体、绝对发布时间和可核验正文。
+- **来源**：[AI组织进化论公开索引](https://www.jintiankansha.com/column/dh9dk8ALK7)
+- **来源平台**：微信公众号第三方公开索引
+- **来源可信度**：💬参考
+- **信息类型**：缺口记录
+- **渠道类型**：社媒公众号
+- **结论置信度**：L1
+- **验证问题**：能否取得同一账号主体下的稳定 `mp.weixin.qq.com` 原文、绝对发布日期和完整正文，并排除同名播客或转载混入？
+- **OD启示**：标题和相对日期只足以证明检索线索存在，不足以证明账号发布事实，更不能据此提炼团队工作法。公众号信号必须先完成主体、时间、原文与内容四项核验。
+- **标签**：#AI组织进化论 #公众号 #来源审计 #渠道缺口
+- **抓取时间**：2026-08-03 13:43
+
+### [D02] 恢复执行：8 月 1 日工作与验证负荷信号已在 8 月 3 日入库
+- **事件摘要**：36氪转载的 5 名中层访谈、802 名开发者纵向研究、NBER 职业暴露研究以及 OpenAI/Anthropic 动态岗位截面，已在 8 月 3 日 D06、D08—D09、D12—D13 形成卡片。匿名体验、单企业非随机研究和无发布日期 JD 均保持原证据等级，不倒写成 8 月 1 日新增制度。
+- **来源**：[36氪](https://36kr.com/p/3920274115866249)；[arXiv](https://arxiv.org/abs/2607.01904)；[NBER](https://www.nber.org/papers/w35451)；[OpenAI Careers](https://openai.com/careers/researcher-recursive-self-improvement-safety-san-francisco/)；[Anthropic Careers](https://job-boards.greenhouse.io/anthropic/jobs/5198255008)
+- **来源平台**：36氪 / arXiv / NBER / OpenAI / Anthropic
+- **来源可信度**：📰较高
+- **信息类型**：缺口记录
+- **渠道类型**：报告学术
+- **结论置信度**：L1
+- **验证问题**：哪些公司能同时披露评审工时、返工、维护、经理负荷、初级成长和客户结果，从而把“验证税”升级为可比较的组织结论？
+- **OD启示**：恢复归档应保留证据的原始限制。匿名访谈、单企业观察和动态招聘页可以共同提出问题，但不能拼接成行业级效率、减层或薪酬结论。
+- **标签**：#恢复执行 #验证负荷 #证据边界 #去重
+- **抓取时间**：2026-08-03 13:43
+
+## 2026-07-31
+
+### [D01] Scale AI：永久 CEO 结束临时最高经营治理
+- **事件摘要**：Scale AI 宣布任命前 Google Cloud 高管 Francis deSouza 为 CEO，8 月 10 日生效；临时 CEO Jason Droege 将协助过渡数月，创始人 Alexandr Wang 继续担任董事长。公司公告、候任者说明及多家权威媒体一致确认任命、生效日和过渡安排。
+- **来源**：[Scale AI](https://scale.com/blog/scale-appoints-new-ceo)；[Reuters](https://www.reuters.com/technology/scale-ai-taps-former-google-cloud-executive-ceo-2026-07-30/)；[Axios](https://www.axios.com/2026/07/30/scale-ai-google-cloud-coo-francis-desouza)
+- **来源平台**：Scale AI / Reuters / Axios
+- **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：官方
+- **结论置信度**：最高治理结构 L3；经营效果 L1
+- **验证问题**：到任后谁负责数据与应用业务，董事长、临时 CEO 与新 CEO 的实际边界如何落地，客户、人才和经营结果是否变化？
+- **OD启示**：创始人离开日常管理后，临时治理最终需要恢复清晰的单点经营责任和明确过渡期。永久任命只证明最高责任归属改变，不能证明组织整合、客户信任或效率已经改善。
+- **标签**：#最高治理 #CEO继任 #责任边界 #过渡管理
+- **抓取时间**：2026-08-03 13:43
+
+### [D02] Salesforce JD：AI 学习与启用被设为工程组织的专门责任面
+- **事件摘要**：Salesforce 官方招聘页显示，Director, AI Learning and Enablement 负责工程组织的 AI 采用、学习战略和采用指标，领导学习项目经理，并作为工程、产品与 HR 在 AI 准备度和劳动力转型议题上的跨职能接口。岗位申请截止日为 7 月 31 日，页面不能证明已经录用。
+- **来源**：[Salesforce Careers](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Director--AI-Learning-and-Enablement_JR347566)
+- **来源平台**：Salesforce / Workday Jobs
+- **来源可信度**：⭐高
+- **信息类型**：弱信号
+- **渠道类型**：JD薪酬
+- **结论置信度**：L1
+- **验证问题**：岗位是否到岗、团队和预算多大，采用指标如何避免变成工具使用量，学习路线是否连接真实工作流和质量结果？
+- **OD启示**：AI 启用可能从零散培训上升为专门责任面，连接工程、产品和 HR；但单一 JD 只证明招聘意图，不能证明公司已经完成工作重设计。
+- **标签**：#AI启用 #学习战略 #工程组织 #JD信号
+- **抓取时间**：2026-08-03 13:43
+
+### [D03] Google Australia：岗位节时仍是情景估计，不是组织生产率
+- **事件摘要**：Google 与 Public First 发布澳大利亚 AI 机会报告，测算潜在经济收益，并对医生、教师等岗位可回收行政时间作情景估计。报告发布和方法可核，但数字属于模型预测，不是企业或公共服务已实现结果。
+- **来源**：[Google Australia](https://blog.google/intl/en-au/company-news/building-australias-future-unlocking-new-opportunities-with-ai/)；[Public First](https://aiopportunity.publicfirst.co)
+- **来源平台**：Google / Public First
+- **来源可信度**：📰较高
+- **信息类型**：弱信号
+- **渠道类型**：报告学术
+- **结论置信度**：L1
+- **验证问题**：时间节省是否转化为服务能力、质量、员工负荷或成本，模型假设、采用率和再投资路径是否公开？
+- **OD启示**：节时必须继续映射到人员配置、工作量、质量和服务结果，不能直接写成生产率或就业创造。供应商委托报告也不是独立效果验证。
+- **标签**：#生产率 #节时口径 #公共服务 #情景估计
+- **抓取时间**：2026-08-03 13:43
+
+### [D04] Google Earth：上线一天即回滚，真实发布门开始可观察
+- **事件摘要**：TechCrunch 报道，Google Earth 上线基于提示词的图像生成功能后，因用户传播违反政策的截图和错误信息风险，次日回滚；Google 表示将加强防护。上线、回滚和公司声明可核，长期责任归属与防护效果未公开。
+- **来源**：[TechCrunch](https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/)
+- **来源平台**：TechCrunch / Google
+- **来源可信度**：📰较高
+- **信息类型**：新增事实
+- **渠道类型**：媒体
+- **结论置信度**：上线与回滚 L2；治理效果 L1
+- **验证问题**：谁拥有回滚和恢复权，发布前评测为何未拦截，地理证据的来源、标识、申诉和复核标准如何改变？
+- **OD启示**：高后果 AI 产品需要把用户反馈连接到具名回滚责任、发布门和防护负责人。一次快速回滚只能证明动作权存在，不能证明功能永久取消或未来防护有效。
+- **标签**：#发布治理 #回滚权 #错误信息 #产品责任
+- **抓取时间**：2026-08-03 13:43
+
+### [D05] Deployment Wall：部署价值漏损框架仍缺独立实证
+- **事件摘要**：7 月 31 日预印本提出模型选择、集成、治理、流程重构、采用与价值实现六阶段漏损框架，并提出无缝指数和部署债务概念；作者明确部分数字和阶段存活率仅为示意。该文可作组织诊断线索，不可引用为失败率事实。
+- **来源**：[arXiv](https://arxiv.org/abs/2607.29089)
+- **来源平台**：arXiv
+- **来源可信度**：💬参考
+- **信息类型**：弱信号
+- **渠道类型**：报告学术
+- **结论置信度**：L1
+- **验证问题**：六阶段是否能在真实项目中预测价值漏损，阶段负责人、指标和成本能否被复现，所谓存活率是否有样本支持？
+- **OD启示**：框架的可用处是为部署各阶段配置责任人、控制点和成本账；未经同行评审和实证的示意数字不能包装成“多数 AI 项目失败”的事实。
+- **标签**：#部署治理 #价值漏损 #方法框架 #弱信号
+- **抓取时间**：2026-08-03 13:43
+
+### [D06] 恢复扫描缺口：7 月 31 日其余证据链已在 8 月 3 日入库
+- **事件摘要**：恢复扫描覆盖官方、媒体、报告、JD 与公众号渠道，未发现需要重复计数的独立事实链。Xbox、Anthropic、字节、Amazon、OpenAI、Apollo 和纽约州岗位等来源均已在 8 月 3 日 D01—D05、D10—D11 形成卡片。本卡只补日期完整性与去重说明。
+- **来源**：[OpenAI](https://openai.com/index/building-abundant-intelligence/)；[Anthropic](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals)；[Apollo](https://www.apollo.com/content/dam/apolloaem/pdf/daily-spark/2026//jul/30/Whitepaper-Impact%20of%20AI%20on%20U.S.%20Labor%20Market-2026-R2%201.pdf)；[纽约州总检察长办公室](https://ag.ny.gov/sites/default/files/2026-07/itb_lat_dir_ai_6454-web_0.pdf)
+- **来源平台**：OpenAI / Anthropic / Apollo / New York State OAG
+- **来源可信度**：⭐高
+- **信息类型**：缺口记录
+- **渠道类型**：官方
+- **结论置信度**：L1
+- **验证问题**：如何让恢复扫描在归档到正确日期的同时，保持公开库只计一次事实链？
+- **OD启示**：恢复执行的目标是补责任链和时间口径，而不是把同一来源拆成多个趋势样本。周度判断继续按独立证据链计数。
+- **标签**：#恢复执行 #去重 #时间口径 #证据链
+- **抓取时间**：2026-08-03 13:43
+
 ## 2026-07-30
 
 ### [D01] Microsoft：客户现场工程从组织承诺进入项目覆盖与规模化验证
@@ -715,6 +851,86 @@
 - **标签**：#组织重组 #业务Owner #共享职能 #AI控制面
 - **抓取时间**：2026-07-28 17:20
 
+
+## 2026-07-27
+
+### [D01] HSBC：百人 AI 卓越中心与业务团队形成中心—辐射结构
+- **事件摘要**：HSBC 宣布将在新加坡建立全球 AI 卓越中心，计划 2026 年下半年启用并配置 100 多名 AI 专业人员，覆盖自然语言处理、数据科学、AI 治理与人本设计；中心将与财富管理、全球支付及集团 AI 负责人协作。同期还计划新增约 100 名客户经理。
+- **来源**：[HSBC](https://www.about.hsbc.com.sg/news-and-media/hsbc-to-launch-global-ai-centre-of-excellence-in-singapore)；[Reuters 镜像](https://www.investing.com/news/stock-market-news/hsbc-to-hire-100-ai-specialists-100-wealth-managers-in-boost-to-singapore-hub-4813568)
+- **来源平台**：HSBC / Reuters
+- **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：官方
+- **结论置信度**：组织与招聘计划 L3；实际结果 L1
+- **验证问题**：中心拥有哪些模型、数据、预算、人才和业务优先级权，100 多个岗位实际招聘多少，怎样与业务线和集团 AI 负责人分工？
+- **OD启示**：专业能力中心与业务域团队可以形成中心—辐射结构：中心承担治理、工具和稀缺专家，业务线承接客户与流程结果。招聘计划不能证明中心已建成，也不能推出全集团净增员或生产率改善。
+- **标签**：#AI卓越中心 #中心辐射 #招聘计划 #业务协同
+- **抓取时间**：2026-08-03 13:43
+
+### [D02] NVIDIA：开放 AI 安全联盟把治理扩展为跨公司责任网络
+- **事件摘要**：NVIDIA 联合安全、云和 AI 公司发起 Open Secure AI Alliance，覆盖身份、权限、运行框架、防护、日志和评测，并承诺贡献模型、权重、数据和测试框架。NVIDIA、Reuters 与 HPE 对联盟成立、成员和公开承诺形成互证。
+- **来源**：[NVIDIA](https://blogs.nvidia.com/blog/open-secure-ai-alliance/)；[Reuters 镜像](https://www.investing.com/news/stock-market-news/nvidia-forms-industry-alliance-for-open-ai-security-after-hugging-face-hack-4813376)；[HPE](https://www.hpe.com/us/en/newsroom/blog-post/2026/07/hpe-joins-open-secure-ai-alliance-to-advance-open-cybersecurity-innovation.html)
+- **来源平台**：NVIDIA / Reuters / HPE
+- **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：官方
+- **结论置信度**：联盟动作 L3；治理效果 L1
+- **验证问题**：联盟如何分配标准制定、漏洞披露、事故响应、兼容性和成员责任，哪些工具实际被采用，事故率与审计质量是否变化？
+- **OD启示**：当 AI 安全跨越模型、云、身份与运行框架时，治理会从双边供应商管理扩展为共同基础设施和分布式责任网络。联盟成立不能证明已经形成行业标准或成员立场一致。
+- **标签**：#AI治理 #跨公司联盟 #责任网络 #安全基础设施
+- **抓取时间**：2026-08-03 13:43
+
+### [D03] HBR：员工被要求解释 AI 决策，责任与理解可能发生错位
+- **事件摘要**：HBR 7 月 27 日管理提示基于多年期田野研究文章，指出一线员工可能需要解释或捍卫并非由其生成、也未充分理解的 AI 决策。来源支持责任错位风险和管理建议，不提供组织结果或通用效果数据。
+- **来源**：[HBR 管理提示](https://hbr.org/tip/2026/07/help-employees-explain-ai-decisions)；[基础文章](https://hbr.org/2026/07/when-employees-are-held-accountable-for-ai-generated-decisions)
+- **来源平台**：Harvard Business Review
+- **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：报告学术
+- **结论置信度**：发布与研究存在 L2；组织外推 L1
+- **验证问题**：企业是否披露决策出处、模型限制、异议升级和最终责任人，员工解释训练能否减少误导、申诉和心理负荷？
+- **OD启示**：执行人与模型设计者分离后，需要把解释、挑战、升级和最终签字写成责任回路。让员工负责沟通，不等于把模型或系统的最终责任转嫁给员工。
+- **标签**：#责任边界 #解释义务 #员工保护 #AI决策
+- **抓取时间**：2026-08-03 13:43
+
+### [D04] OpenAI：都柏林欧洲总部同时扩充工程与支持运营
+- **事件摘要**：Reuters 报道，OpenAI 都柏林欧洲总部现有员工超过 100 人，计划两年内新增约 250 人，使总人数达到约 350，并租用约 8,000 平方米办公空间；扩张覆盖工程和支持运营。多家转载均来自同一 Reuters 证据链。
+- **来源**：[Reuters / Euronext](https://live.euronext.com/en/financial-news/openai-triple-workforce-dublin-european-headquarters-350)
+- **来源平台**：Reuters / Euronext
+- **来源可信度**：📰较高
+- **信息类型**：新增事实
+- **渠道类型**：媒体
+- **结论置信度**：公司计划 L2；组织影响 L1
+- **验证问题**：工程、客户支持、政策、合规和运营岗位各占多少，区域总部拥有哪些产品、客户和监管决策权，实际到岗和流失情况如何？
+- **OD启示**：区域总部扩张往往同时承接工程、客户、运营与监管接口，而不只是增加销售席位。计划人数不能代表实际招聘、全球净增员或欧洲决策权已经下沉。
+- **标签**：#区域总部 #组织扩张 #工程运营 #欧洲治理
+- **抓取时间**：2026-08-03 13:43
+
+### [D05] HBR：AI 会放大错误分析问题，决策定义必须先于数据供给
+- **事件摘要**：HBR 署名文章指出，AI 可能扩大分析供给，却继续回答错误的问题；公开摘要建议从“要做什么决定”而不是“还能问多少数据问题”出发。文章属于专家分析，没有企业实施与结果样本。
+- **来源**：[Harvard Business Review](https://hbr.org/2026/07/dont-let-ai-make-bad-analytics-worse)
+- **来源平台**：Harvard Business Review
+- **来源可信度**：📰较高
+- **信息类型**：弱信号
+- **渠道类型**：报告学术
+- **结论置信度**：L1
+- **验证问题**：分析请求是否绑定具名决策、成功条件、复核和停止点，错误问题、重复分析与无人使用的输出占比是多少？
+- **OD启示**：AI 分析能力扩张后，稀缺点会从“能否生成答案”转向“谁定义决策、谁验证问题、何时停止”。这是一项设计建议，不能证明采用后必然改善经营结果。
+- **标签**：#决策设计 #分析治理 #问题定义 #弱信号
+- **抓取时间**：2026-08-03 13:43
+
+### [D06] 恢复扫描缺口：7 月 27 日证据已在后续信息日去重入库
+- **事件摘要**：恢复扫描覆盖官方、报告、媒体、JD 与公众号渠道，未发现需要重复生成的独立事实卡。Banco Sabadell、OpenAI、BCG、MIT、Google、Gallup 等 7 月 27 日来源已在 7 月 28 日入库；FactSet 任命已在 8 月 3 日入库。本卡只补日期和来源去向。
+- **来源**：[Banco Sabadell](https://comunicacion.grupbancsabadell.com/sala-de-prensa/banco-sabadell-reorganiza-su-estructura-para-acelerar-la-transformacion-simplificar-la-gestion-y-reforzar-la-ejecucion-de-su-plan-de-negocio/)；[OpenAI](https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/)；[BCG](https://www.bcg.com/publications/2026/ai-powered-transformation-office)；[MIT Sloan](https://mitsloan.mit.edu/ideas-made-to-matter/how-organizations-can-capture-value-digital-colleagues)；[Google](https://blog.google/security/going-beyond-zero-a-new-paradigm-for-enterprise-security/)；[Gallup](https://www.gallup.com/workplace/713063/ai-workplace-productivity.aspx)
+- **来源平台**：Banco Sabadell / OpenAI / BCG / MIT Sloan / Google / Gallup
+- **来源可信度**：⭐高
+- **信息类型**：缺口记录
+- **渠道类型**：官方
+- **结论置信度**：L1
+- **验证问题**：自动化怎样在保留“事件发生日”和“实际取得日”的同时，避免同一证据链跨日重复计数？
+- **OD启示**：情报治理本身也需要时间口径。事件日期、抓取日期和入库日期必须分开记录；恢复执行应补覆盖与缺口，而不是制造虚假的实时性和趋势强度。
+- **标签**：#恢复执行 #时间口径 #去重 #渠道覆盖
+- **抓取时间**：2026-08-03 13:43
 
 ## 2026-07-26
 

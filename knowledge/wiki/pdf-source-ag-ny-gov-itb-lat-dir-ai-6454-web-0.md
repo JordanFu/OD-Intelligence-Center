@@ -51,6 +51,7 @@ itb lat dir ai 6454 web 0 已作为日报/周报 PDF 证据源入库，当前需
 
 ## 被引用位置
 
+- `daily/2026-07-31.md:76`：纽约州总检察长办公室
 - `daily/2026-08-03.md:141`：纽约州总检察长办公室官方 JD PDF
 - `specials/ai-org-talent-mechanism/2026-07-31/00-overview.md:94`：Director of Enterprise AI, Data, and Analytics JD
 - `specials/ai-org-talent-mechanism/2026-07-31/02-talent-density.md:33`：官方职位 PDF

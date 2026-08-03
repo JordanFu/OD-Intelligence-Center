@@ -10,8 +10,8 @@
 | 趋势 | 本周证据 | 置信度 | 组织机制 | 不可越过的边界 |
 |---|---|---:|---|---|
 | 暴露、采用、任务、岗位与就业开始被分开测量 | OpenAI 跨岗消息、Revelio 劳动力追踪、NBER、Apollo | 中高 | 任务组合、职业边界、工资与继任管道 | 暴露和相关性不等于岗位因果 |
-| 组织收敛先发生在结果接口 | Xbox、字节、Meta 企业能力、Microsoft Frontier Company | 中高 | 组合 owner、产品 owner、客户 owner、项目覆盖 | 组织动作不等于效果 |
-| 治理从规则文本下沉到动作与暂停 | Google Beyond Zero、Meta/EU 透明度、Perplexity Numbat、Anthropic cyber eval | 高 | 动作级授权、标记、阻断、暂停、恢复、审计 | 控制存在不等于误报/漏报可控 |
+| 组织收敛先发生在结果接口 | Scale AI 永久 CEO、HSBC AI 卓越中心、Xbox、字节、Meta 企业能力 | 中高 | 最高经营责任、专业中心、组合/产品/客户责任 | 组织动作不等于效果 |
+| 治理从规则文本下沉到动作与暂停 | NVIDIA 安全联盟、Google Earth 回滚、Google Beyond Zero、Anthropic cyber eval | 高 | 跨公司责任、动作授权、回滚、暂停、恢复、审计 | 控制存在不等于误报/漏报可控 |
 | 生产率瓶颈从生成迁移到验证 | 企业 2x 编码研究、AP 调用量激励、国内中层访谈 | 中高 | reviewer、异常、维护、经理兜底、结果成本 | PR/token/节时不是净生产率 |
 | People 与 AI 启用责任面正在重组 | Atlassian People+AI、FactSet Workforce Transformation、Anthropic People 产品岗位 | 中高 | 流程、数据、内部产品、人才科学和变革 | 头衔或 JD 不等于制度落地 |
 | 模型与基础设施进入组合化资源治理 | OpenAI 推理栈/全栈文章、Amazon 双层 portfolio、OECD 吸收能力 | 中 | 自建/合作/采购、里程碑、容量和反馈 | 厂商自述与财务压力不能当效率证据 |
@@ -29,6 +29,10 @@
 **OpenAI 与 Amazon：跨栈资源配置逻辑显性化。** OpenAI 把需求、收入、技术与商业里程碑送回研究和容量规划；Amazon 维持 Bedrock 多模型选择并投资少数自研战略模型。两者说明 portfolio 和 own/partner/buy 边界正在重要化，但缺少真实取消样本和预算权证据。
 
 **Atlassian 与 FactSet：People 责任面外扩。** Atlassian 将 People、AI 启用、数据研究和内部 IT 工程放在同一负责人下；FactSet 新任高管的头衔直接包含 Workforce Transformation。People 职能正在靠近流程和内部产品，但不能据此证明 HR 已主导企业 AI。
+
+**Scale AI、HSBC 与 NVIDIA：责任既向内收口，也向外扩展。** Scale AI 用永久 CEO 结束临时最高经营治理；HSBC 以百人专业中心连接业务域；NVIDIA 以联盟连接跨公司安全基础设施。三者分别回答最高责任、稀缺能力和生态治理问题，但均缺运行效果。
+
+**Google Earth：快速回滚让发布门可观察。** 功能上线一天后撤回证明真实动作权存在，也反向暴露发布前评测和高后果内容标准的缺口；不能据此判断未来防护有效。
 
 ### 本周机制沉淀
 
@@ -67,6 +71,6 @@
 
 ### 覆盖与恢复说明
 
-公开信息库在 7 月 31 日—8 月 2 日没有独立逐日日报。本详版使用 7 月 28—30 日已发布信息卡，并由 8 月 3 日恢复扫描补查该窗口的官方、媒体、报告、社交与 JD 来源；因此可以支持周级判断，但不声称逐日覆盖完整。严格窗口未发现 L4 或正式职级/晋升制度，缺口本身被保留。
+7 月 27 日、7 月 31 日—8 月 2 日的日期级恢复文件已补齐。恢复补采新增 HSBC、NVIDIA、HBR、OpenAI Dublin、Scale AI、Salesforce、Google 与 HR Tech 等独立证据，同时把后续已入库来源保留为去重映射；因此周级判断得到补强，但不声称逐日实时覆盖完整。严格窗口仍未发现 L4 或正式职级/晋升制度。
 
 *2026-W31 详版 · 2026-08-03 生成*
