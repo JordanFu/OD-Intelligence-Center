@@ -8,7 +8,7 @@
 - 完成仓库恢复、PDF 自动入库、近期内容归位、结构化结论、重复/过时、证据层级、专题连续性和公开分享入口检查。
 - 健康度 82/100；新增 `knowledge/wiki/local-knowledge-review-2026-08-03.md`。
 - 修复 PDF 卡 `sourceFile` 相对路径，并增强 lint 的待重试 PDF 与重复 summaryFile 检查。
-- 当前 P1：8 月 3 日公开/专题闭环、7 月 31 日至 8 月 2 日正式重跑、40 张模板卡精读、10 个失败 PDF 替代入口。
+- 当前 P1：8 月 3 日公开/专题闭环、7 月 31 日至 8 月 2 日正式重跑、42 张模板卡精读、12 个失败 PDF 替代入口。
 
 ## [2026-08-03] ingest | 日报 PDF 证据源自动入库
 - 从 daily、daily-report、specials、analysis 中扫描 PDF URL，按知识库 Raw/Wiki/Catalog 规则自动建档。

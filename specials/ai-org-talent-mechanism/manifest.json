@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-03T02:30:36.245Z",
+  "generatedAt": "2026-08-03T02:33:04.932Z",
   "module": "topic-projects",
   "project": {
     "id": "ai-org-talent-mechanism",
     "title": "AI时代组织与人才机制四课题研究",
     "root": "specials/ai-org-talent-mechanism"
   },
-  "qualityStatus": "warn",
+  "qualityStatus": "fail",
   "latestFormalDate": "2026-07-30",
   "latestAnyDate": "2026-08-03",
   "today": "2026-08-03",
@@ -4169,27 +4169,33 @@
       ]
     }
   ],
-  "brokenLinks": [],
+  "brokenLinks": [
+    {
+      "type": "public-scan",
+      "sourceFile": "data/info-feed-status.json",
+      "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-03.html",
+      "reason": "public scan bridge returned 404",
+      "status": 404
+    }
+  ],
   "links": {
-    "checkedAt": "2026-08-03T02:30:47.324Z",
-    "qualityStatus": "warn",
+    "checkedAt": "2026-08-03T02:33:14.771Z",
+    "qualityStatus": "fail",
     "firstPartyChecked": 2436,
-    "externalWarnings": 50,
-    "brokenCount": 0,
+    "externalWarnings": 48,
+    "brokenCount": 1,
     "publicScanBridge": [
       {
         "ok": false,
-        "hardBroken": false,
-        "status": null,
+        "hardBroken": true,
+        "status": 404,
         "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-03.html",
-        "reason": "network check warning: fetch failed"
+        "reason": "public scan bridge returned 404"
       },
       {
-        "ok": false,
-        "hardBroken": false,
-        "status": null,
-        "url": "https://jordanfu.github.io/org-intelligence-info/",
-        "reason": "network check warning: fetch failed"
+        "ok": true,
+        "status": 200,
+        "url": "https://jordanfu.github.io/org-intelligence-info/"
       }
     ]
   },
@@ -4241,8 +4247,6 @@
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "network check warning: fetch failed",
-    "network check warning: fetch failed"
+    "external link not hard-checked in Phase 1"
   ]
 }
