@@ -1,93 +1,179 @@
-# 2026-08-02｜专题三：岗位、族群、序列持续建设
+# 2026-08-02｜专题三：岗位、族群、序列的持续建设
 
-> 研究状态：正式历史补跑核验稿。证据按当日可得时间边界归档；没有新增 L2+ 时明确保持判断不变。只有 L3/L4 可支持强结论。
+> 正式决策稿｜周度恢复综合形成于 2026-08-03。本文对 7 月 27 日—8 月 2 日证据做岗位治理路由；FactSet 任命于 8 月 3 日生效、NBER 论文与 McKinsey 报告为恢复扫描/历史权威材料，不伪装为 8 月 2 日当日新增。
+> 证据口径：L4＝外部证据与内部数据或长期结果互证；L3＝一手/权威材料并有独立验证；L2＝单一强一手事实或两份可信观察；L1＝招聘、任命叙事或局部信号；L0＝无法核验。
 
 ## 读者应该带走什么
 
-截至 2026-08-02，没有成熟证据支持批量新建 AI 序列；先用既有岗位调整、技能标签、项目角色或薪酬工具承接，稳定责任形成后再建序列。
+岗位治理应按技能、项目、岗位、族群、序列逐级固化；稀缺定价和临时扩责优先走薪酬与项目工具。
 
-管理层该问：这个动作究竟改变了什么责任、权限、质量和人才结果？不要误读：动作不等于成效，媒体/供应商/JD 信号不等于成熟机制。
+## 1. 今日一句话专题判断
 
-## 今日一句话专题判断
+**本周证据不支持“大量新建 AI 序列”，而支持一套更克制的路由：任务快变先用技能标签，长期独立责任才建岗位，多岗位共享能力才建族群，稳定三级梯度与完整人才机制齐备才建序列；稀缺定价、项目交付和临时扩责分别用稀缺系数、项目奖、津贴、临时补贴或带宽调整承接。**
 
-**截至 2026-08-02，没有成熟证据支持批量新建 AI 序列；先用既有岗位调整、技能标签、项目角色或薪酬工具承接，稳定责任形成后再建序列。**
+## 2. 今日新增事实：只写可追溯事实
 
-## 今日新增事实
+### F1｜FactSet 将 People 高管责任显性扩展为 workforce transformation
 
-周日无新的高置信公司制度材料；本日用于整周交叉验证与结论冻结。
+FactSet 宣布 Di Hirji 于 8 月 3 日就任 Chief People & Workforce Transformation Officer，前任在过渡期留任顾问。公司把组织设计、人才发展及人类与智能体能力结合列为该职位对应的转型议题；公开材料没有披露预算、团队边界或制度变化。
 
-| 事实 | 事实还原与边界 | 来源/等级 | 关联课题 |
+- **等级：任命事实 L2；实际转型 L1。**来源：[FactSet Investor Relations](https://factset.gcs-web.com/)、[公司公告全文转载](https://technologymagazine.com/globenewswire/3333863)、[MT Newswires/Fidelity](https://www.fidelity.com/news/article/default/202607271740MIDNIGHTUSEQUITY_A3674543)。该事实于 8 月 3 日生效，只作为 8 月 2 日周度治理的前瞻校准。
+
+### F2｜McKinsey 把 AI-first 技术人才问题定义为人、智能体与供应商的能力归属
+
+McKinsey 4 月报告认为，agentic AI 迫使企业重新平衡招聘、内部能力建设、智能体训练与供应商合作；对能定义标准、编排内部/外部团队、供应商和智能体的高级工程师、架构师、产品经理和设计师需求上升，大规模初级开发岗位的商业理由可能减弱，初级成长路径需转向需求理解、输出评测和质量标准维护。
+
+- **等级：权威框架 L2。**[McKinsey 原文](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)适合作为岗位治理方法，不是公司制度落地或就业因果证据。
+
+### F3｜NBER 真实 token 数据把“互动接口”与“分析/控制技能”分开
+
+NBER 7 月工作论文使用 OpenRouter 授权的聚合匿名数据，覆盖 380 万亿 tokens、400 多个模型，作者估计约占当前全球月度 AI token 消费的 2%。论文把真实使用主题映射到市场隐含职业暴露，发现互动与沟通内容关联更高暴露，而分析、科学和运营控制技能关联更低暴露，并称出现智能体经济的早期迹象。
+
+- **等级：L2。**[NBER Working Paper 35451](https://www.nber.org/papers/w35451)支持不同技能簇的暴露方向，不证明互动岗位增加、分析岗位减少或企业应新建序列。
+
+### F4｜本周公司信号同时出现“应用变宽、控制变深”
+
+- OpenAI 跨岗使用显示职业相关任务借入/借出；FDE 招聘把客户实现、平台复用、部署编排和管理复制拆成相邻责任包。
+- 纽约州总检察长办公室 JD 把 AI、数据、记录、基础设施与合规连接为高敏感控制责任。
+- OpenAI RSI Safety 与 Anthropic Model Evaluations 动态 JD 将研究、生产控制、异常和值班组合为深专家岗位。
+
+- **等级：综合方向 L2；单一岗位/招聘 L1。**来源见 7/27、7/31、8/1 专题及本节来源索引。综合信号支持岗位治理路由，不支持宣布行业性成熟序列。
+
+### 今日范围结论
+
+本周没有 L4 岗位体系结果，也没有任何公司公开“岗位目录＋三级梯度＋任职资格＋薪带＋晋升＋横向流动＋申诉＋退出”的完整闭环。**最强结论是治理方法升级，而不是新序列数量增加。**
+
+## 3. 今日核心判断
+
+1. **岗位治理必须把暴露、采用、任务、岗位、就业、工资和晋升逐层分开。可信度：高。**
+   **证据基础：**OpenAI 跨岗、NBER 暴露、Apollo 工资/就业形成不同指标层。
+   **为什么重要：**跨层推导会把使用数据误写成编制或薪酬决策，制造错误的岗位撤销和新序列。
+
+2. **应用变宽与控制变深应采用不同职业架构。可信度：高。**
+   **证据基础：**FDE/中层验证责任变宽；纽约州、OpenAI Safety、Anthropic Evaluations 控制责任深化。
+   **为什么重要：**应用岗位可扩大端到端结果，控制岗位则需要专业锚点、独立挑战、值班和最终签字，不应混成单一“AI 人才序列”。
+
+3. **People/OD 的角色是治理 workforce transformation，而不是独占 AI。可信度：中高。**
+   **证据基础：**FactSet 任命 L2 与纽约州 CIO 下治理岗位形成对照。
+   **为什么重要：**岗位、技能、人才流动、员工保护和收益分配应由 People 共同治理；模型、数据、安全和生产签字仍由专业 owner 承担。
+
+4. **先路由责任，再路由定价。可信度：高。**
+   **证据基础：**动态 JD 薪带与 Apollo 工资信号均不足以证明新职业结构。
+   **为什么重要：**责任稳定性决定岗位/族群/序列，市场稀缺、项目成果和额外负荷决定稀缺系数、项目奖、津贴、补贴或带宽。
+
+5. **初级人才管道必须作为序列设计的反事实。可信度：中高。**
+   **证据基础：**McKinsey 的初级岗位判断、工程研究的评审负荷与本周控制岗位深化。
+   **为什么重要：**如果新架构只奖励高级编排与专家，却不重建练习任务、导师容量和独立承担路径，短期效率会侵蚀长期供给。
+
+## 4. 重点案例事实还原：FactSet 的 workforce transformation 责任面
+
+### 事实与边界
+
+FactSet 把组织设计、人才发展以及人类与智能体能力组合放进 People 高管头衔与公开转型议题中。这提供了“谁负责把工作、岗位、技能和人机配置接起来”的一个责任面，但没有预算、团队、制度或结果，不能据此判断 HR 已主导企业 AI。
+
+### 与纽约州案例对照
+
+| 组织 | owner 位置 | 公开责任重点 | 当前最合理解释 |
 |---|---|---|---|
-| 无新增高等级外证 | 当日未发现新的 L2+ 公司组织或晋升制度。周内材料继续支持任务与责任重写，但复盘本身不提高任何单项证据等级。 | [检索结论，不单独评级](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/) | 四课题 |
+| FactSet | People 高管 | 组织设计、人才发展、人机能力 | workforce transformation 的共同治理面 |
+| 纽约州总检察长办公室 | CIO 下 Director | AI、数据、记录、基础设施、合规 | 高敏感技术/记录控制面 |
 
-## 今日核心判断
+这组对照说明：**岗位归属不是由名称决定，而由主要风险、结果对象和决策权决定。** People 可以拥有工作与人才系统，CIO/安全/数据 owner 可以拥有技术与高后果控制；双方通过共同指标、升级、员工保护和收益分配连接。
 
-1. **主判断。可信度：中高。** 截至 2026-08-02，没有成熟证据支持批量新建 AI 序列；先用既有岗位调整、技能标签、项目角色或薪酬工具承接，稳定责任形成后再建序列。
-2. **机制含义。可信度：高。** 新诉求必须通过既有岗位调整、族群、序列、技能标签、项目角色、薪酬/稀缺工具六路由；只有稳定责任和完整治理才建序列。
-3. **证据边界。可信度：高。** W31 没有内部结果数据或 L4 闭环；单点事实只证明动作和方向。
-4. **反事实。可信度：中高。** 如果 AI 是唯一驱动，应出现跨公司一致的层级、岗位、薪酬或晋升变化；本周实际呈现裁减、扩编、集中与自治并存。
+### 可借鉴与不可照搬
 
-## 判断变化
+- **可借鉴：**为每个新责任包明确业务结果、owner、资源、输入口径、里程碑、暂停/恢复、证据与人才机制。
+- **不可照搬：**不复制头衔；不把所有 AI 岗位归 People 或 CIO；不把高管任命当制度结果；不因职责横跨就取消专业序列。
 
-- **增强：** 评价单位从工具活动量转向责任、权限、质量、异常、复用、育人和净容量。
-- **未改变：** 截至 2026-08-02，没有成熟证据支持批量新建 AI 序列；先用既有岗位调整、技能标签、项目角色或薪酬工具承接，稳定责任形成后再建序列。
-- **削弱：** 任何把单点案例外推为全面扁平、全面全栈或即时 AI 晋升的说法。
+## 5. Context 层｜背景材料、弱信号、线索、反例与冲突
 
-## 重点案例与反例
+- **暂不足以下结论，但提示我们关注……**NBER 的互动接口可能与 FDE、客户成功和变革角色相关，分析/运营控制可能与评测、安全和平台角色相关；资产价格暴露不是岗位需求。
+- **暂不足以下结论，但提示我们关注……**FactSet 的头衔扩展可能是正常继任，也可能真正重组 People 权限；需取得组织图、预算与 90/180 天制度变化。
+- **反例：**如果所有 AI 能力都应建独立序列，Nava 不会把 AI 工作流放回既有产品职业实践；如果所有岗位都应变宽，OpenAI/Anthropic 不会继续招聘深控制专家。
+- **冲突：**资源集中和复合责任可减少交接，却可能增加单点 owner 负荷、降低挑战权并挤压初级练习；治理需要“双账”。
+- **L0 边界：**动态职位的实际 offer、Anthropic 薪带变化原因、FactSet 实际权限与团队调整均未核验。
 
-- **当周案例：** 无新增高等级外证。可借鉴其可追溯动作；不可照搬其结构、人员规模或供应商结论。
-- **历史基线：** monday.com、美国银行、OpenAI Presence、GitLab 分别提供减层动作、接口系统化、数字岗位契约与晋升校准样本。
-- **反例：** WSJ 恢复招聘、OECD 初级岗位边界和 HSCodeComp 专家差距共同反驳统一少人化与全面岗位合并。
-- **如果照搬会错在哪里：** 用新头衔解决短期定价会制造头衔通胀、永久薪酬债和边界重叠。
+## 6. 证据地图
 
-## 背景材料（Context）
+| 渠道 | 最强材料 | 等级 | 可以支持 | 不可以支持 |
+|---|---|---:|---|---|
+| 公司任命 | FactSet 公司公告＋两份同源转载 | L2 任命/L1 转型 | People 责任面外扩 | 制度落地、人效和组织图；转载不重复计数 |
+| 咨询权威 | McKinsey AI-first workforce | L2 | 能力归属与人才组合框架 | 企业就业因果、成熟序列 |
+| 学术研究 | NBER 真实 token 数据 | L2 | 技能/互动暴露方向不同 | 岗位增减和企业架构 |
+| 官方研究/JD | OpenAI 跨岗、FDE、Safety | L1-L2 | 任务边界与责任包意图 | 统一职级、实际 HC、晋升 |
+| 官方 JD | NY AG、Anthropic Evaluations | L1 | 高后果控制岗位设计 | 岗位族/序列成熟 |
+| 内部信息库 | 7/27—8/1 专题、W31、8/3 恢复扫描 | 综合校准 | 周度路由与证据边界 | 冒充 8/2 原日完整采集 |
 
-- 暂不足以下结论，但提示我们关注：用新头衔解决短期定价会制造头衔通胀、永久薪酬债和边界重叠。
-- 供应商框架、招聘 JD 和社媒讨论只形成待验证问题，不进入强结论。
-- W29/W30 与 7 月 22—23 日材料仅作历史基线，不能重复计为 W31 多源互证。
+## 7. 对我们的行动启发｜落地启发与岗位—族群—序列—激励完整决策树
 
-## 线索层
+**管理层该问：**这个需求是长期责任架构问题，还是市场溢价、项目战功或临时负荷问题？
 
-- 获取公司组织图、经理/个人贡献者比例、跨度、权限、薪带和 6—12 个月结果。
-- 获取受影响员工的转岗质量、薪酬变化、学习支持、负荷和申诉数据。
-- 搜索第二个公开制度样本，验证是否能从单案例升级为稳定机制。
+### A. 先判断组织对象
 
-## 证据地图
+1. **只是新增可培训、可认证、跨岗位复用的能力，最终结果责任没变？**
+   → 用**技能标签**；连接权限、真实任务和复证，不改岗位。
+2. **出现可脱离单一工具/项目、持续一个业务周期的独立结果责任？**
+   → 建**岗位试点**；明确服务对象、决策权、质量线、交接、升级和退出。
+3. **未来 12 个月有多个同构岗位，共享结果对象、能力主干、人才市场和横向流动？**
+   → 建**岗位族群**；否则保持单一岗位。
+4. **可定义至少三级稳定、可审计的责任复杂度差异？**
+   → 进入**序列论证**；否则停在族群。
+5. **任职资格、薪带、晋升校准、横向流动、申诉、合并、退出均齐备？**
+   → 才建**正式序列**；任何一项缺失均不审批。
 
-| 层级 | 可用材料 | 本专题用法 |
+### B. 再判断定价与激励工具
+
+| 工具 | 何时使用 | 必备控制 |
 |---|---|---|
-| L3 | 两项以上相互独立的一手/权威材料交叉 | 支持强事实与机制方向，仍不等于成效 |
-| L2 | 单一官方/SEC/制度、Reuters、权威研究 | 支持有边界的事实观察，不能证明成效 |
-| L1 | 供应商、媒体独家、JD、社媒 | 只作 Context 与搜索入口 |
-| L0 | 无法回溯原文的传闻 | 排除 |
+| 稀缺系数 | 岗位责任未变，技能出现阶段性外部溢价 | 多源市场数据、6/12 个月复核、自动失效 |
+| 项目奖 | 跨职能战役有明确起止、里程碑和验收 | 质量/风险指标、团队分配、复用与结项 |
+| 专项津贴 | 长期值守、认证、审计、高风险签字或特殊环境 | 资格、履责证据、撤回，与晋升分离 |
+| 临时补贴 | 转型兼岗、迁移、夜间切换或短期代理 | 明确期限、负荷记录、结束条件 |
+| 薪酬带宽调整 | 整个既有岗位群长期市场倒挂或岗位价值系统性提升 | 岗位评估、内外公平、历史人员处理 |
+| 长期激励 | 长期关键责任、业务影响与流失损失高 | 价值/保留证据、群体公平、兑现回收 |
 
-## 行动启发
+### C. 坚决不新建岗位族/序列
 
-- 新诉求必须通过既有岗位调整、族群、序列、技能标签、项目角色、薪酬/稀缺工具六路由；只有稳定责任和完整治理才建序列。
-- 建立可回滚试点、停止条件、人工升级、审计日志与事后公平检查。
-- CEO 只审批可验证的机制假设，不审批未经责任迁移的统一减层、统一建序列或 AI 自动晋升。
+- 只有一个人、一个工具、一个项目或一个热门头衔；
+- 责任与既有岗位高度重叠，没有独立结果、决策权或高后果控制；
+- 无岗位复数、三级梯度、共同能力主干、人才市场和横向流动；
+- 真实诉求在提高薪带、稀缺系数或项目奖后消失；
+- 会把应用交付与独立控制放进同一晋升通道，削弱挑战权；
+- 没有 6/12 个月复核、合并、申诉和退出；
+- 会切断初级练习、导师容量和继任供给。
 
-## 来源索引
+**审批必问：如果不给新名字，只调整责任、权限和公平定价，业务问题是否已经解决？**
 
-- [36氪：阿里、腾讯、字节 AI 组织与人才动作](https://www.36kr.com/p/3913483185673351)：2026-07-27，行业媒体作者分析，L1。
-- [WSJ/Mint：企业重新招聘与初级岗位反例](https://www.livemint.com/global/big-companies-are-starting-to-hire-again-defying-predictions-of-ai-wipeout-11785114677792.html)：2026-07-27，权威二手，L2。
-- [Gallup：AI 采用、经理支持与裁员归因](https://www.gallup.com/workplace/713063/ai-workplace-productivity.aspx)：2026-07-27，原始调查，L2。
-- [Gartner：AI 人才风险框架](https://gcom.pdo.aws.gartner.com/en/articles/ai-talent-risks)：2026-07-27，咨询框架，L2。
-- [AP：Token 激励与成本反例](https://apnews.com/article/ai-token-openai-anthropic-corporate-31bb80ac1cd7862d05f6397177d826b1)：2026-07-27，多企业采访，L2。
-- [Reuters：Visa 裁减约 2,600 人](https://www.investing.com/news/stock-market-news/visa-plans-to-cut-7-of-workforce-bloomberg-reports-4816822)：2026-07-28，公司确认的权威二手，L2。
-- [Revelio Labs AI Labor Market Tracker](https://www.prnewswire.com/news-releases/revelio-labs-launches-ai-labor-market-tracker-an-evidence-backed-real-time-measure-of-ais-impact-on-the-workforce-302836428.html)：2026-07-28，供应商自有数据，L1-L2。
-- [iMocha 技能验证圆桌](https://www.imocha.io/press-releases/imocha-look-beyond-the-label-us-executive-roundtable-series)：2026-07-28，供应商自报，L1。
-- [Voice AI in Firms 自然田野实验](https://arxiv.org/abs/2607.28222)：2026-07-30，既有工作论文的 arXiv 新版本，L2。
-- [Meta Q2 2026 官方业绩与电话会](https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/Meta-06-30-2026-Exhibit-99-1-FINAL.pdf)：2026-07-29，公司一手披露并有媒体交叉，L3。
-- [AP：Meta Q2 2026 交叉报道](https://apnews.com/article/meta-earnings-q2-facebook-profit-revenue-ai-bcbc62dde6d2cac724e3b3385fcabeab)：2026-07-29，权威二手交叉，L2。
-- [腾讯犀牛鸟开源人才培养计划](https://ur.tencent.com/article/1529)：2026-06-19 发布、2026-07-31 报名节点，官方人才项目，L2。
-- [HiBob AI Skills Framework](https://www.hibob.com/news/hibob-launches-ai-skills-framework-and-a-new-ai-skills-assessment-guide/)：2026-07-23，供应商框架，L1-L2。
-- [monday.com SEC 6-K](https://www.sec.gov/Archives/edgar/data/1845338/000117891326003553/zk2635715.htm)：2026-07-22，单一一手组织动作，L2；效果未验证。
-- [Bank of America EricaAssist](https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/07/bank-of-america-enhances-ericaassist-with-generative-ai-to-help-.html)：2026-07-21，单一一手公司材料，L2。
-- [OpenAI Presence](https://openai.com/index/introducing-openai-presence/)：2026-07-22，一手产品/岗位契约，L2。
-- [GitLab Promotions and Transfers](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/)：动态公开制度，单一一手 L2 基线。
-- [BCG AI at Work 2026](https://www.bcg.com/publications/2026/ai-at-work-why-strategy-matters-more-than-tools)：2026-06-03，大样本自报调查，L2。
-- [Intuit SEC 附件内部信](https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000024/fy26q3-ex9902.htm)：2026-05-20，单一一手组织动作，L2。
-- [上海急需紧缺高技能人才目录 2026](https://www.pdhr.com/CMS/CmsDetail?id=2794)：2026-07 发布、2026-08-01 生效，单一政策事实 L2。
-- [OECD Employment Outlook 2026](https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en/full-report/component-5.html)：2026 年权威报告，初级岗位反例 L2。
-- [ACL HSCodeComp](https://aclanthology.org/2026.acl-long.937/)：2026 年同行评审任务基准，L2。
+## 8. 待验证清单与下一步搜索路径
+
+1. FactSet 新负责人是否拥有组织设计、岗位、技能、AI 采用和变革投资的共同预算与决策权？
+2. People、CIO、数据、安全和业务 owner 在人机配置中的责任分界、挑战和申诉机制。
+3. NBER 的职业暴露能否由招聘、工资、任务、内部流动和晋升数据复核。
+4. 高级编排、FDE、评测与安全岗位是否形成持续需求、共同等级和横向流动。
+5. 初级岗位的练习任务、导师负荷、独立承担率、晋升质量和继任覆盖。
+6. 内部新序列申请采用替代定价工具后，数量、成本、公平和退出结果。
+7. 新岗位/族群试点 6/12 个月后的责任稳定性、岗位数、人才市场和业务结果。
+
+### 本轮实际检索词
+
+- `FactSet Chief People Workforce Transformation Officer Di Hirji organization design`
+- `McKinsey end-to-end technology workforce AI-first junior senior orchestrate agents`
+- `NBER w35451 OpenRouter 380 trillion tokens occupational exposure`
+- `AI job family skills tag career track compensation premium`
+- `workforce transformation operating model People CIO job architecture`
+- `new career track governance sunset review internal mobility appeal`
+
+## 9. 来源索引
+
+1. FactSet，[Investor Relations](https://factset.gcs-web.com/)，Di Hirji 任命，2026-08-03 生效，任命 L2。
+2. GlobeNewswire/Technology Magazine，[FactSet appointment announcement](https://technologymagazine.com/globenewswire/3333863)，L2。
+3. Fidelity/MT Newswires，[FactSet names Chief People & Workforce Transformation Officer](https://www.fidelity.com/news/article/default/202607271740MIDNIGHTUSEQUITY_A3674543)，L2。
+4. McKinsey，[Designing an end-to-end technology workforce for the AI-first era](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)，2026-04-06，权威框架 L2。
+5. NBER，[Working Paper 35451](https://www.nber.org/papers/w35451)，2026-07，L2。
+6. OpenAI，[How AI is expanding what people do at work](https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/)，2026-07-27，L2。
+7. New York State OAG，[Enterprise AI, Data, and Analytics Director JD](https://ag.ny.gov/sites/default/files/2026-07/itb_lat_dir_ai_6454-web_0.pdf)，2026-07-31 起审查，L1。
+8. OpenAI，[RSI Safety Researcher](https://openai.com/careers/researcher-recursive-self-improvement-safety-san-francisco/)，动态 JD，L1。
+9. Anthropic，[Research Engineer, Model Evaluations](https://job-boards.greenhouse.io/anthropic/jobs/5198255008)，动态 JD，L1。
+10. 内部连续材料：[`W31 周报`](../../../daily-report/weekly-2026-W31.md)、[`8/3 恢复信息库`](../../../daily/2026-08-03.md)、[`McKinsey 结构化知识卡`](../../../knowledge/wiki/pdf-source-mckinsey-2026-ai-first-technology-workforce.md)、[`技能型组织概念页`](../../../knowledge/concepts/skills-based-organization-obsidian.md)。
+
+> 周度边界：本文支持岗位治理路由，不声称 7 月 31 日—8 月 2 日逐日采集完整；不同日期、不同层级和地区的动态薪带不可直接横比。

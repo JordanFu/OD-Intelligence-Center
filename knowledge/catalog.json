@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "lastUpdated": "2026-07-24",
+  "lastUpdated": "2026-08-03",
   "mode": "karpathy-llm-wiki",
   "schema": "knowledge/CLAUDE.md",
   "categories": {
@@ -828,6 +828,37 @@
       ]
     },
     {
+      "id": "local-knowledge-review-2026-08-03",
+      "title": "本地知识库定期 Review（2026-08-03）",
+      "originalTitle": "Local Knowledge Base Review 2026-08-03",
+      "author": "Codex",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "internal",
+      "topics": [
+        "知识管理",
+        "AI组织设计",
+        "组织机制",
+        "人才发展",
+        "晋升",
+        "People/HR",
+        "AI fluency"
+      ],
+      "date": "2026-08-03",
+      "uploadDate": "2026-08-03",
+      "description": "本周知识库巡检报告，覆盖仓库恢复、48 个 PDF 来源自动入库、模板卡与重复映射债务、专题连续性、公开分享入口和 AI 组织研究优先级。",
+      "summaryFile": "./knowledge/wiki/local-knowledge-review-2026-08-03.md",
+      "fileName": "generated review report",
+      "fileSize": "wiki page",
+      "tags": [
+        "知识管理",
+        "定期Review",
+        "资料治理",
+        "PDF入库",
+        "AI组织设计",
+        "People/HR"
+      ]
+    },
+    {
       "id": "mckinsey-2026-the-state-of-organizations",
       "title": "McKinsey：The State of Organizations 2026",
       "originalTitle": "The State of Organizations 2026",
@@ -1449,7 +1480,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "GitLab SEC 8-K 是官方披露来源，可作为核验组织调整、AI 智能体优先（AI-agent-first） 运营模式（operating model） 相关说法的原始锚点。 关注重点：官方披露、组织压缩、AI 智能体优先（AI-agent-first） 待核验。相关性：中高相关：公司案例核验。",
       "summaryFile": "./knowledge/wiki/pdf-source-gitlab-gitlab-2026-sec-8-k-filing.md",
       "rawFile": "",
@@ -1474,7 +1505,7 @@
         "变革管理"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "BCG 把 AI-First 组织定义为从“工具辅助”走向“AI 默认执行、人类编排监督”的经营模式重构。 关注重点：AI 默认执行、端到端流程重构、人机编排。相关性：强相关：组织与岗位重构。",
       "summaryFile": "./knowledge/wiki/pdf-source-bcg-bcg-ai-first-organization.md",
       "rawFile": "./knowledge/raw/bcg-bcg-ai-first-organization.pdf",
@@ -1501,7 +1532,7 @@
         "变革管理"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "Anthropic 从软件开发场景说明 Agentic coding 正在把工程师角色推向任务编排、质量判断和系统设计。 关注重点：Agentic coding、工程师角色重塑、人机协作。相关性：强相关：产品工程一体化。",
       "summaryFile": "./knowledge/wiki/pdf-source-anthropic-anthropic-2026-agentic-coding-trends-report.md",
       "rawFile": "./knowledge/raw/anthropic-anthropic-2026-agentic-coding-trends-report.pdf",
@@ -1528,7 +1559,7 @@
         "战略规划"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "BCG AI Radar 2026 预计可用于观察 AI 投资、价值兑现和组织阻碍，但当前原文下载失败，需要重试后再精读。 关注重点：AI 投资、价值兑现、组织阻碍待核验。相关性：中相关：战略背景。",
       "summaryFile": "./knowledge/wiki/pdf-source-bcg-bcg-ai-radar-2026.md",
       "rawFile": "",
@@ -1554,7 +1585,7 @@
         "人才发展"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "AIHR 把 2026 HR 重点归纳为共领导 AI 转型、把 AI 产能收益再投资增长、从 headcount 转向 skill count。 关注重点：技能本位组织、HR 重构、skill count。相关性：强相关：岗位与技能体系。",
       "summaryFile": "./knowledge/wiki/pdf-source-aihr-aihr-hr-priorities-2026-report.md",
       "rawFile": "./knowledge/raw/aihr-aihr-hr-priorities-2026-report.pdf",
@@ -1580,7 +1611,7 @@
         "绩效管理"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "EY 把未来薪酬改革连接到技能、绩效、AI 人才、生产率和治理，适合支撑“岗位改革背后是激励资源再配置”。 关注重点：技能薪酬、生产率锚点、AI 人才溢价。相关性：强相关：薪酬与激励机制。",
       "summaryFile": "./knowledge/wiki/pdf-source-ey-ey-future-of-pay-report-2026.md",
       "rawFile": "./knowledge/raw/ey-ey-future-of-pay-report-2026.pdf",
@@ -1607,7 +1638,7 @@
         "战略规划"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "WEF/Accenture 把 AI 转型的重点放在 workflow、运营模式（operating model）、decision rights 的系统性重构。 关注重点：工作流重构、决策权、AI 参与执行。相关性：强相关：战略到组织机制。",
       "summaryFile": "./knowledge/wiki/pdf-source-world-economic-forum-wef-organizational-transformation-in-the-age-of-ai.md",
       "rawFile": "./knowledge/raw/world-economic-forum-wef-organizational-transformation-in-the-age-of-ai.pdf",
@@ -1634,7 +1665,7 @@
         "变革管理"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "BCG + MIT Sloan 把 agentic enterprise 作为组织结构变量讨论，尤其适合核验“中层减少、层级压缩、Agent 进入执行流”的证据。 关注重点：Agentic enterprise、中层层级、组织结构变量。相关性：强相关：扁平化与管理层级。",
       "summaryFile": "./knowledge/wiki/pdf-source-bcg-bcg-mit-sloan-the-emerging-agentic-enterprise.md",
       "rawFile": "",
@@ -1660,7 +1691,7 @@
         "绩效管理"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "Payscale 2026 薪酬实践报告可用于验证 AI 技能定价、薪酬公平、benchmarking 和 job management 的制度化问题。 关注重点：AI 技能定价、薪酬公平、薪酬基准、job management。相关性：强相关：薪酬架构与激励资源。",
       "summaryFile": "./knowledge/wiki/pdf-source-payscale-payscale-2026-compensation-best-practices-report.md",
       "rawFile": "./knowledge/raw/payscale-payscale-2026-compensation-best-practices-report.pdf",
@@ -1685,7 +1716,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "netflix culture 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-jobs-netflix-com-netflix-culture.md",
       "rawFile": "./knowledge/raw/jobs-netflix-com-netflix-culture.pdf",
@@ -1709,7 +1740,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "engineering progression framework v2 0 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-monzo-com-engineering-progression-framework-v2-0.md",
       "rawFile": "./knowledge/raw/monzo-com-engineering-progression-framework-v2-0.pdf",
@@ -1733,7 +1764,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "6456498 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-papers-ssrn-com-6456498.md",
       "rawFile": "",
@@ -1758,7 +1789,7 @@
         "变革管理"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "us spans and layers for the modern organization 2020 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计、变革管理。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-deloitte-us-spans-and-layers-for-the-modern-organization-2020.md",
       "rawFile": "./knowledge/raw/deloitte-us-spans-and-layers-for-the-modern-organization-2020.pdf",
@@ -1783,7 +1814,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "12 087 bc50bde2 3016 457a 9bee dc988cb1056b 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-hbs-edu-12-087-bc50bde2-3016-457a-9bee-dc988cb1056b.md",
       "rawFile": "./knowledge/raw/hbs-edu-12-087-bc50bde2-3016-457a-9bee-dc988cb1056b.pdf",
@@ -1807,7 +1838,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "0000050863 26 000011 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-intc-com-0000050863-26-000011.md",
       "rawFile": "./knowledge/raw/intc-com-0000050863-26-000011.pdf",
@@ -1831,7 +1862,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "orgvue ai research ebook 2026 final 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-orgvue-com-orgvue-ai-research-ebook-2026-final.md",
       "rawFile": "./knowledge/raw/orgvue-com-orgvue-ai-research-ebook-2026-final.pdf",
@@ -1856,7 +1887,7 @@
         "绩效管理"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "it job family career ladder matrix software engineer 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计、绩效管理。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-umassmed-edu-it-job-family-career-ladder-matrix-software-engineer.md",
       "rawFile": "",
@@ -1881,7 +1912,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "pip faq 2026 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-facs-org-pip-faq-2026.md",
       "rawFile": "./knowledge/raw/facs-org-pip-faq-2026.pdf",
@@ -1905,7 +1936,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "cesifo1 wp12373 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-ifo-de-cesifo1-wp12373.md",
       "rawFile": "./knowledge/raw/ifo-de-cesifo1-wp12373.pdf",
@@ -1929,7 +1960,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "47382ae415a209fd161bc19a1f9b3704 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-static-www-tencent-com-47382ae415a209fd161bc19a1f9b3704.md",
       "rawFile": "./knowledge/raw/static-www-tencent-com-47382ae415a209fd161bc19a1f9b3704.pdf",
@@ -1953,7 +1984,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "e048dfed72bc718f7986a83f23c8e294 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-static-www-tencent-com-e048dfed72bc718f7986a83f23c8e294.md",
       "rawFile": "./knowledge/raw/static-www-tencent-com-e048dfed72bc718f7986a83f23c8e294.pdf",
@@ -2001,7 +2032,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "MiniMax：IPO 后股份激励计划授出奖励公告 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-hkexnews-hk-minimax-ipo.md",
       "rawFile": "./knowledge/raw/hkexnews-hk-minimax-ipo.pdf",
@@ -2340,7 +2371,7 @@
         "人才发展"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "Mercer and Eightfold Pay for Skills 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计、绩效管理、人才发展。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-eightfold-ai-mercer-and-eightfold-pay-for-skills.md",
       "rawFile": "./knowledge/raw/eightfold-ai-mercer-and-eightfold-pay-for-skills.pdf",
@@ -2366,7 +2397,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "H3 AP202606221823746144 1 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-pdf-dfcfw-com-h3-ap202606221823746144-1.md",
       "rawFile": "./knowledge/raw/pdf-dfcfw-com-h3-ap202606221823746144-1.pdf",
@@ -2390,7 +2421,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "2026 Work Trend Index Annual Report 050526 7 69fc5b1c4e265 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-assets-c4akfrf5b4d3f4b7-z01-azurefd-net-2026-work-trend-index-annual-report-050526-7-69fc5b1c4e2.md",
       "rawFile": "./knowledge/raw/assets-c4akfrf5b4d3f4b7-z01-azurefd-net-2026-work-trend-index-annual-report-050526-7-69fc5b1c4e2.pdf",
@@ -2416,7 +2447,7 @@
         "变革管理"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "McKinsey：The State of Organizations 2026 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计、人才发展、变革管理。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-mckinsey-company-mckinsey-the-state-of-organizations-2026.md",
       "rawFile": "",
@@ -2442,7 +2473,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "BCG Executive Perspectives AI First Companies Win the Future Issue1 10June2025 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-bcg-bcg-executive-perspectives-ai-first-companies-win-the-future-issue1-10june2025.md",
       "rawFile": "",
@@ -2494,7 +2525,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "6277baa6 0f7b 4fbe 9c7c ceb3e0e9b325 flatland 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-static-cdn-cars24-com-6277baa6-0f7b-4fbe-9c7c-ceb3e0e9b325-flatland.md",
       "rawFile": "./knowledge/raw/static-cdn-cars24-com-6277baa6-0f7b-4fbe-9c7c-ceb3e0e9b325-flatland.pdf",
@@ -2518,7 +2549,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "NIST.AI.800 2.ipd 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-nvlpubs-nist-gov-nist-ai-800-2-ipd.md",
       "rawFile": "./knowledge/raw/nvlpubs-nist-gov-nist-ai-800-2-ipd.pdf",
@@ -2542,7 +2573,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "ILO Brief ASEAN AI v11 clean 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-ilo-org-ilo-brief-asean-ai-v11-clean.md",
       "rawFile": "./knowledge/raw/ilo-org-ilo-brief-asean-ai-v11-clean.pdf",
@@ -2566,7 +2597,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-07-26",
       "description": "gov.uscourts.cand.474171.1.0 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-apnews-com-gov-uscourts-cand-474171-1-0.md",
       "rawFile": "",
@@ -2590,12 +2621,12 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "gov.uscourts.cand.474171.1.0 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-storage-courtlistener-com-gov-uscourts-cand-474171-1-0.md",
-      "rawFile": "",
+      "rawFile": "./knowledge/raw/storage-courtlistener-com-gov-uscourts-cand-474171-1-0.pdf",
       "fileName": "storage-courtlistener-com-gov-uscourts-cand-474171-1-0.pdf",
-      "fileSize": "download pending",
+      "fileSize": "7261008 bytes",
       "tags": [
         "PDF自动入库",
         "AI组织设计",
@@ -2615,7 +2646,7 @@
         "人才发展"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "UK Standard Skills Classification Development Report 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计、人才发展。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-assets-publishing-service-gov-uk-uk-standard-skills-classification-development-report.md",
       "rawFile": "./knowledge/raw/assets-publishing-service-gov-uk-uk-standard-skills-classification-development-report.pdf",
@@ -2688,7 +2719,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "2Q26 earnings transcript 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-jpmorganchase-com-2q26-earnings-transcript.md",
       "rawFile": "./knowledge/raw/jpmorganchase-com-2q26-earnings-transcript.pdf",
@@ -2712,7 +2743,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-07-27",
       "description": "draft cwa xxxx e 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-cencenelec-eu-draft-cwa-xxxx-e.md",
       "rawFile": "./knowledge/raw/cencenelec-eu-draft-cwa-xxxx-e.pdf",
@@ -2736,7 +2767,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "draft cwa xxxx e 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-cencenelec-eu-draft-cwa-xxxx-e.md",
       "rawFile": "./knowledge/raw/cencenelec-eu-draft-cwa-xxxx-e.pdf",
@@ -2760,7 +2791,7 @@
         "AI组织设计"
       ],
       "date": "",
-      "uploadDate": "2026-07-24",
+      "uploadDate": "2026-08-03",
       "description": "CWA18398 2026 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-ai4si-gzs-si-cwa18398-2026.md",
       "rawFile": "./knowledge/raw/ai4si-gzs-si-cwa18398-2026.pdf",
@@ -2772,6 +2803,348 @@
         "ai4si.gzs.si"
       ],
       "originalUrl": "https://ai4si.gzs.si/uploads/fdWWeJuT/CWA18398_2026.pdf"
+    },
+    {
+      "id": "p041",
+      "title": "Claude Opus 5 System Card",
+      "originalTitle": "Claude Opus 5 System Card",
+      "author": "Anthropic",
+      "publisher": "Anthropic",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "人才发展"
+      ],
+      "date": "",
+      "uploadDate": "2026-08-03",
+      "description": "Claude Opus 5 System Card 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计、人才发展。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-anthropic-claude-opus-5-system-card.md",
+      "rawFile": "./knowledge/raw/anthropic-claude-opus-5-system-card.pdf",
+      "fileName": "anthropic-claude-opus-5-system-card.pdf",
+      "fileSize": "15981937 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "人才发展",
+        "Anthropic"
+      ],
+      "originalUrl": "https://www-cdn.anthropic.com/c5fbac3f0b1280a933ebd26d3cb8bb9f5bdeaf48/Claude%20Opus%205%20System%20Card.pdf"
+    },
+    {
+      "id": "p042",
+      "title": "c0ffced7 en",
+      "originalTitle": "c0ffced7 en",
+      "author": "oecd.org",
+      "publisher": "oecd.org",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-08-03",
+      "description": "c0ffced7 en 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-oecd-org-c0ffced7-en.md",
+      "rawFile": "./knowledge/raw/oecd-org-c0ffced7-en.pdf",
+      "fileName": "oecd-org-c0ffced7-en.pdf",
+      "fileSize": "3234339 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "oecd.org"
+      ],
+      "originalUrl": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/07/recent-policy-developments-on-ai-in-the-labour-market_52d4afe2/c0ffced7-en.pdf"
+    },
+    {
+      "id": "p043",
+      "title": "GoogleATLASv1",
+      "originalTitle": "GoogleATLASv1",
+      "author": "ai.google",
+      "publisher": "ai.google",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-08-03",
+      "description": "GoogleATLASv1 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-ai-google-googleatlasv1.md",
+      "rawFile": "./knowledge/raw/ai-google-googleatlasv1.pdf",
+      "fileName": "ai-google-googleatlasv1.pdf",
+      "fileSize": "13094526 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "ai.google"
+      ],
+      "originalUrl": "https://ai.google/static/documents/GoogleATLASv1.pdf"
+    },
+    {
+      "id": "p044",
+      "title": "WEF Artificial Intelligence and the Future of Entry Level Work 2026",
+      "originalTitle": "WEF Artificial Intelligence and the Future of Entry Level Work 2026",
+      "author": "World Economic Forum",
+      "publisher": "World Economic Forum",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "战略规划"
+      ],
+      "date": "",
+      "uploadDate": "2026-08-03",
+      "description": "WEF Artificial Intelligence and the Future of Entry Level Work 2026 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计、战略规划。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-world-economic-forum-wef-artificial-intelligence-and-the-future-of-entry-level-work-2026.md",
+      "rawFile": "./knowledge/raw/world-economic-forum-wef-artificial-intelligence-and-the-future-of-entry-level-work-2026.pdf",
+      "fileName": "world-economic-forum-wef-artificial-intelligence-and-the-future-of-entry-level-work-2026.pdf",
+      "fileSize": "41504869 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "战略规划",
+        "World Economic Forum"
+      ],
+      "originalUrl": "https://reports.weforum.org/docs/WEF_Artificial_Intelligence_and_the_Future_of_Entry_Level_Work_2026.pdf"
+    },
+    {
+      "id": "p045",
+      "title": "2026 global ai jobs barometer global findings",
+      "originalTitle": "2026 global ai jobs barometer global findings",
+      "author": "pwc.com",
+      "publisher": "pwc.com",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-08-03",
+      "description": "2026 global ai jobs barometer global findings 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-pwc-com-2026-global-ai-jobs-barometer-global-findings.md",
+      "rawFile": "./knowledge/raw/pwc-com-2026-global-ai-jobs-barometer-global-findings.pdf",
+      "fileName": "pwc-com-2026-global-ai-jobs-barometer-global-findings.pdf",
+      "fileSize": "1407609 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "pwc.com"
+      ],
+      "originalUrl": "https://www.pwc.com/gx/en/issues/artificial-intelligence/job-barometer/2026/2026-global-ai-jobs-barometer-global-findings.pdf"
+    },
+    {
+      "id": "p046",
+      "title": "2026 global ai jobs barometer full report",
+      "originalTitle": "2026 global ai jobs barometer full report",
+      "author": "pwc.com",
+      "publisher": "pwc.com",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-07-27",
+      "description": "2026 global ai jobs barometer full report 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-pwc-com-2026-global-ai-jobs-barometer-full-report.md",
+      "rawFile": "",
+      "fileName": "pwc-com-2026-global-ai-jobs-barometer-full-report.pdf",
+      "fileSize": "download pending",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "pwc.com"
+      ],
+      "originalUrl": "https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-jobs-barometer.html)，2026-06-15；[完整报告](https://www.pwc.com/gx/en/issues/artificial-intelligence/job-barometer/2026/2026-global-ai-jobs-barometer-full-report.pdf"
+    },
+    {
+      "id": "p047",
+      "title": "the ai jobs transition framework report",
+      "originalTitle": "the ai jobs transition framework report",
+      "author": "cdn.openai.com",
+      "publisher": "cdn.openai.com",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-08-03",
+      "description": "the ai jobs transition framework report 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-cdn-openai-com-the-ai-jobs-transition-framework-report.md",
+      "rawFile": "./knowledge/raw/cdn-openai-com-the-ai-jobs-transition-framework-report.pdf",
+      "fileName": "cdn-openai-com-the-ai-jobs-transition-framework-report.pdf",
+      "fileSize": "18346534 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "cdn.openai.com"
+      ],
+      "originalUrl": "https://cdn.openai.com/pdf/the-ai-jobs-transition-framework_report.pdf"
+    },
+    {
+      "id": "p048",
+      "title": "2026 global ai jobs barometer full report",
+      "originalTitle": "2026 global ai jobs barometer full report",
+      "author": "pwc.com",
+      "publisher": "pwc.com",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-08-03",
+      "description": "2026 global ai jobs barometer full report 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-pwc-com-2026-global-ai-jobs-barometer-full-report.md",
+      "rawFile": "./knowledge/raw/pwc-com-2026-global-ai-jobs-barometer-full-report.pdf",
+      "fileName": "pwc-com-2026-global-ai-jobs-barometer-full-report.pdf",
+      "fileSize": "11677368 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "pwc.com"
+      ],
+      "originalUrl": "https://www.pwc.com/gx/en/issues/artificial-intelligence/job-barometer/2026/2026-global-ai-jobs-barometer-full-report.pdf"
+    },
+    {
+      "id": "p049",
+      "title": "2026 global investor survey jul 2026",
+      "originalTitle": "2026 global investor survey jul 2026",
+      "author": "BCG",
+      "publisher": "BCG",
+      "sourceType": "consulting",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-08-03",
+      "description": "2026 global investor survey jul 2026 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-bcg-2026-global-investor-survey-jul-2026.md",
+      "rawFile": "",
+      "fileName": "bcg-2026-global-investor-survey-jul-2026.pdf",
+      "fileSize": "download pending",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "BCG"
+      ],
+      "originalUrl": "https://web-assets.bcg.com/e5/62/d97347af4faf8355ca0400f5dbee/2026-global-investor-survey-jul-2026.pdf"
+    },
+    {
+      "id": "p050",
+      "title": "quarterly update presentation 1q 2026",
+      "originalTitle": "quarterly update presentation 1q 2026",
+      "author": "bny.com",
+      "publisher": "bny.com",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-08-03",
+      "description": "quarterly update presentation 1q 2026 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-bny-com-quarterly-update-presentation-1q-2026.md",
+      "rawFile": "./knowledge/raw/bny-com-quarterly-update-presentation-1q-2026.pdf",
+      "fileName": "bny-com-quarterly-update-presentation-1q-2026.pdf",
+      "fileSize": "226750 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "bny.com"
+      ],
+      "originalUrl": "https://www.bny.com/assets/corporate/documents/pdf/investor-relations/earnings/quarterly-update-presentation-1q-2026.pdf"
+    },
+    {
+      "id": "p051",
+      "title": "OECD：Competition in the Age of AI",
+      "originalTitle": "OECD：Competition in the Age of AI",
+      "author": "OECD",
+      "publisher": "OECD",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-08-03",
+      "description": "OECD 的跨国微观数据表明，AI 可得性不会自动抹平组织差异；高技能人才、数字基础设施、吸收能力与资本仍是关键互补资产。 关注重点：组织吸收能力、高技能人才、市场结构、企业边界。相关性：强相关：组织能力与人才结构。",
+      "summaryFile": "./knowledge/wiki/pdf-source-oecd-oecd-competition-in-the-age-of-ai.md",
+      "rawFile": "./knowledge/raw/oecd-oecd-competition-in-the-age-of-ai.pdf",
+      "fileName": "oecd-oecd-competition-in-the-age-of-ai.pdf",
+      "fileSize": "3105003 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "OECD"
+      ],
+      "originalUrl": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/07/competition-in-the-age-of-ai_e9f49e20/6f88a1ea-en.pdf"
+    },
+    {
+      "id": "p052",
+      "title": "HiBob 2026 report AI maturity benchmarks and where the workforce stand",
+      "originalTitle": "HiBob 2026 report AI maturity benchmarks and where the workforce stand",
+      "author": "hibob.com",
+      "publisher": "hibob.com",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计",
+        "人才发展"
+      ],
+      "date": "",
+      "uploadDate": "2026-08-03",
+      "description": "HiBob 2026 report AI maturity benchmarks and where the workforce stand 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计、人才发展。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-hibob-com-hibob-2026-report-ai-maturity-benchmarks-and-where-the-workforce-stand.md",
+      "rawFile": "",
+      "fileName": "hibob-com-hibob-2026-report-ai-maturity-benchmarks-and-where-the-workforce-stand.pdf",
+      "fileSize": "download pending",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "人才发展",
+        "hibob.com"
+      ],
+      "originalUrl": "https://www.hibob.com/wp-content/uploads/HiBob_2026-report_AI-maturity-benchmarks-and-where-the-workforce-stand.pdf"
+    },
+    {
+      "id": "p053",
+      "title": "itb lat dir ai 6454 web 0",
+      "originalTitle": "itb lat dir ai 6454 web 0",
+      "author": "ag.ny.gov",
+      "publisher": "ag.ny.gov",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-08-03",
+      "description": "itb lat dir ai 6454 web 0 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-ag-ny-gov-itb-lat-dir-ai-6454-web-0.md",
+      "rawFile": "./knowledge/raw/ag-ny-gov-itb-lat-dir-ai-6454-web-0.pdf",
+      "fileName": "ag-ny-gov-itb-lat-dir-ai-6454-web-0.pdf",
+      "fileSize": "186295 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "ag.ny.gov"
+      ],
+      "originalUrl": "https://ag.ny.gov/sites/default/files/2026-07/itb_lat_dir_ai_6454-web_0.pdf"
+    },
+    {
+      "id": "p054",
+      "title": "Whitepaper Impact of AI on U.S. Labor Market 2026 R2 1",
+      "originalTitle": "Whitepaper Impact of AI on U.S. Labor Market 2026 R2 1",
+      "author": "apollo.com",
+      "publisher": "apollo.com",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-08-03",
+      "description": "Whitepaper Impact of AI on U.S. Labor Market 2026 R2 1 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-apollo-com-whitepaper-impact-of-ai-on-u-s-labor-market-2026-r2-1.md",
+      "rawFile": "./knowledge/raw/apollo-com-whitepaper-impact-of-ai-on-u-s-labor-market-2026-r2-1.pdf",
+      "fileName": "apollo-com-whitepaper-impact-of-ai-on-u-s-labor-market-2026-r2-1.pdf",
+      "fileSize": "5313307 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "apollo.com"
+      ],
+      "originalUrl": "https://www.apollo.com/content/dam/apolloaem/pdf/daily-spark/2026//jul/30/Whitepaper-Impact%20of%20AI%20on%20U.S.%20Labor%20Market-2026-R2%201.pdf"
     }
   ]
 }

@@ -1,91 +1,197 @@
-# 2026-07-29｜专题三：岗位、族群、序列持续建设
+# 2026-07-29｜专题三：岗位、族群、序列的持续建设
 
-> 研究状态：正式历史补跑核验稿。证据按当日可得时间边界归档；没有新增 L2+ 时明确保持判断不变。只有 L3/L4 可支持强结论。
+> 正式决策稿｜严格新增窗口：2026-07-28 10:05 CST—2026-07-29 研究截面
+> 今日证据升级的是“责任包与技能权限先变”，不是成熟新职业序列；动态 JD 与薪带仍只作为招聘意图。
 
 ## 读者应该带走什么
 
-截至 2026-07-29，没有成熟证据支持批量新建 AI 序列；先用既有岗位调整、技能标签、项目角色或薪酬工具承接，稳定责任形成后再建序列。
+Visa 的 2—4 人智能体小队、Atlassian 的 People＋AI 启用复合责任域说明，面向业务结果的应用责任继续变宽；BNY 的模型权限、Anthropic 的招聘科学与 People 产品工程则说明，评测、数据、权限和内部产品等控制责任在变深。岗位体系不是单向“全员全栈化”，而是外部结果接口变粗、内部专业控制分工变细。今天仍没有新序列所需的统一等级、任职资格、薪带、晋升和退出证据。
 
-管理层该问：这个动作究竟改变了什么责任、权限、质量和人才结果？不要误读：动作不等于成效，媒体/供应商/JD 信号不等于成熟机制。
+## 1. 今日一句话专题判断
 
-## 今日一句话专题判断
+**AI 时代的岗位架构呈“双向分化”：更少的人承担更宽的端到端结果，同时招聘科学、评测、权限、安全和内部产品工程继续专业化；先用责任包、技能标签和激励工具承接变化，证据成熟后才建序列。**
 
-**截至 2026-07-29，没有成熟证据支持批量新建 AI 序列；先用既有岗位调整、技能标签、项目角色或薪酬工具承接，稳定责任形成后再建序列。**
+## 2. 今日新增事实
 
-## 今日新增事实
+### F1｜Visa 把产品开发单元缩为 2—4 人智能体小队
 
-Meta 官方财报形成 W31 最强的 L3 人员重配证据；当日仍没有新的成熟晋升制度。
+Visa CEO 7 月 28 日电话会称，部分产品开发单元由通常 10 人以上变为 2—4 人智能体小队，并自报代码提交、需求定义周期和功能开发速度改善；同日确认技术和产品岗位为约 2,600 人调整的主要范围。
+**等级：团队动作 L3；岗位架构含义 L2。**[电话会文字稿](https://finance.yahoo.com/quote/V/earnings/V-Q3-2026-earnings_call-656419.html)没有披露小队中产品、设计、测试、安全、管理者与个人贡献者的岗位组合，也没有正式岗位目录和职级变化。
 
-| 事实 | 事实还原与边界 | 来源/等级 | 关联课题 |
-|---|---|---|---|
-| Meta Q2 人员与薪酬重配 | Meta 披露 6 月 30 日员工 75,472 人，同比下降 1%；数字仍含约 8,000 名 5 月裁员受影响人员，多数将在 Q3 末移除。公司同时说明，剔除遣散费后员工薪酬增长主要由技术招聘、尤其 AI 人才推动。 | [L3](https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/Meta-06-30-2026-Exhibit-99-1-FINAL.pdf) | 扁平化、人才密度、岗位架构 |
+### F2｜Atlassian 出现跨 People、数据、研究与内部工程的复合责任域
 
-## 今日核心判断
+Atlassian 的首席人事与 AI 启用负责人同时覆盖 HR、数据科学、研究和内部 IT 工程；公司以完整入职流程设计内部智能体 Nora，并将 AI 成本按部门分配。
+**等级：L2。**来源：[Atlassian 官方材料](https://www.atlassian.com/blog/guides-research/leading-with-context)、[Forbes Australia](https://www.forbes.com.au/news/innovation/atlassian-warns-more-ai-use-will-not-magically-lift-productivity/)。这支持责任域重组，不证明传统岗位已被合并或取消。
 
-1. **主判断。可信度：中高。** 截至 2026-07-29，没有成熟证据支持批量新建 AI 序列；先用既有岗位调整、技能标签、项目角色或薪酬工具承接，稳定责任形成后再建序列。
-2. **机制含义。可信度：高。** 新诉求必须通过既有岗位调整、族群、序列、技能标签、项目角色、薪酬/稀缺工具六路由；只有稳定责任和完整治理才建序列。
-3. **证据边界。可信度：高。** W31 没有内部结果数据或 L4 闭环；单点事实只证明动作和方向。
-4. **反事实。可信度：中高。** 如果 AI 是唯一驱动，应出现跨公司一致的层级、岗位、薪酬或晋升变化；本周实际呈现裁减、扩编、集中与自治并存。
+### F3｜BNY 用能力层级承接模型权限，而不是新建公开序列
 
-## 判断变化
+BNY 访谈披露三级 AI 能力，高级模型访问与训练测试挂钩，由系统自动选择模型；官方一季度材料同步披露多条工作流覆盖与结果。
+**等级：三级能力与权限 L1-L2；官方工作流覆盖 L3；职业架构含义 L2。**来源：[BNY 官方材料](https://www.bny.com/assets/corporate/documents/pdf/investor-relations/earnings/quarterly-update-presentation-1q-2026.pdf)、[Fortune](https://fortune.com/2026/07/28/bny-skipped-tokenmaxxing-craze-what-ai-metrics-tracks-cfo/)。三级能力细节来自一次公司访谈；没有证据显示其映射为岗位、职级、薪带或晋升。
 
-- **增强：** 评价单位从工具活动量转向责任、权限、质量、异常、复用、育人和净容量。
-- **未改变：** 截至 2026-07-29，没有成熟证据支持批量新建 AI 序列；先用既有岗位调整、技能标签、项目角色或薪酬工具承接，稳定责任形成后再建序列。
-- **削弱：** 任何把单点案例外推为全面扁平、全面全栈或即时 AI 晋升的说法。
+### F4｜Anthropic 的人才系统同时出现复合责任和深专业化
 
-## 重点案例与反例
+People Research Scientist 负责招聘漏斗、面试效度、录用质量、候选人体验、心理测量和实验；Staff Software Engineer, People Products 覆盖招聘、入职、团队协作和晋升产品。公开基本工资约为 28.5万—38 万美元和 32万—40.5 万美元。
+**等级：L1-L2 招聘/薪酬意图。**来源：[招聘科学岗位](https://job-boards.greenhouse.io/anthropic/jobs/5362838008)、[People Products](https://job-boards.greenhouse.io/anthropic/jobs/5119468008)。它说明职责组合与专业深度共存，不证明已形成新的 People 职业序列。
 
-- **当周案例：** Meta Q2 人员与薪酬重配。可借鉴其可追溯动作；不可照搬其结构、人员规模或供应商结论。
-- **历史基线：** monday.com、美国银行、OpenAI Presence、GitLab 分别提供减层动作、接口系统化、数字岗位契约与晋升校准样本。
-- **反例：** WSJ 恢复招聘、OECD 初级岗位边界和 HSCodeComp 专家差距共同反驳统一少人化与全面岗位合并。
-- **如果照搬会错在哪里：** 用新头衔解决短期定价会制造头衔通胀、永久薪酬债和边界重叠。
+### F5｜职业内部任务变化与高级化可以同时发生
 
-## 背景材料（Context）
+Revelio Labs 7 月追踪称，多数工作内容变化发生在职业内部；被识别为 AI 采用企业的高级岗位增长 31%，初级岗位增长 6%。
+**等级：L2 观察；因果 L1。**[Revelio](https://www.reveliolabs.com/ai-labor-market-tracker/us/july-2026)支持“先改岗位内容、后改岗位名称”的方向，不支持统一合岗或新序列。
 
-- 暂不足以下结论，但提示我们关注：用新头衔解决短期定价会制造头衔通胀、永久薪酬债和边界重叠。
-- 供应商框架、招聘 JD 和社媒讨论只形成待验证问题，不进入强结论。
-- W29/W30 与 7 月 22—23 日材料仅作历史基线，不能重复计为 W31 多源互证。
+### F6｜Cognizant 近窗基线：专门单元也可能是 AI 转型的组织答案
 
-## 线索层
+Cognizant 7 月 28 日官方公告新建 EMEA AI Unit，将咨询、工程与交付组合，设置 Foundation、Accelerate、Transform 三种交付模式，Transform 以多智能体小队端到端重塑流程并承担运营绩效。
+**等级：官方动作 L2，近窗基线。**[公司公告](https://news.cognizant.com/2026-07-28-Cognizant-launches-EMEA-AI-Unit-to-help-enterprises-scale-agentic-AI-adoption)早于本轮严格时间线约一小时，且没有岗位数量、层级与结果，不能冒充今日新增。
 
-- 获取公司组织图、经理/个人贡献者比例、跨度、权限、薪带和 6—12 个月结果。
-- 获取受影响员工的转岗质量、薪酬变化、学习支持、负荷和申诉数据。
-- 搜索第二个公开制度样本，验证是否能从单案例升级为稳定机制。
+### 历史补充｜LANL 把 AI Architect 嵌入既有 Solutions Architect 4/5
 
-## 证据地图
+Los Alamos National Laboratory 的 AI Architect 招聘将岗位映射到既有 Solutions Architect 4/5：4 级负责企业 AI 架构、平台、路线图与合规，5 级增加跨实验室战略和高管顾问责任；基本薪带分别为 13.85万—23.32 万美元、16.69万—28.9 万美元。
+**等级：L1 招聘架构。**[官方 JD](https://lanl.jobs/search/jobdetails/artificial-intelligence-architect-solutions-architect-45/b5b1d819-1fdc-41f2-9e8b-e8c69d46969a)说明新专业可以先进入既有族群和等级，不证明正式序列成效。
 
-| 层级 | 可用材料 | 本专题用法 |
+### 今日范围结论
+
+没有新增来源同时公开岗位目录、共同能力主干、至少三级稳定责任差异、任职资格、薪带、晋升校准、横向流动、申诉、合并和退出机制。**今日无成熟新岗位族群/职业序列的高置信新增结论。**
+
+## 3. 今日核心判断
+
+1. **岗位变化的领先指标是责任包和交接，不是名称。可信度：高。**
+   **证据基础：**Visa 小队、Atlassian 责任域、Revelio 职业内任务变化。
+   **为什么重要：**OD 应先测谁定义问题、谁签字、谁承担质量/异常和谁复用资产，再决定岗位是否需要重写。
+
+2. **应用责任变宽与控制责任变深同步发生。可信度：中高。**
+   **证据基础：**Visa/Atlassian 的宽结果接口；BNY/Anthropic 的认证、权限、招聘科学和内部产品。
+   **为什么重要：**“更复合”不能被误读为所有人都减少专业深度；高后果控制会产生更深的专业分工和溢价。
+
+3. **技能认证可以跨岗位复用，但不应自动变成职业序列。可信度：中高。**
+   **证据基础：**BNY 用三级能力决定模型访问，却未改变公开岗位结构。
+   **为什么重要：**当能力快变、跨岗位、可复证且不改变最终责任时，技能标签比新序列更灵活。
+
+4. **每个“新序列”诉求都应先排除薪酬与保留问题。可信度：高。**
+   **证据基础：**Anthropic JD 只有职责和外部薪带；LANL 则把 AI 专业嵌入既有族群。外部材料没有证明业务申请新序列的真实动机。
+   **为什么重要：**若真实诉求是关键人保留、市场倒挂或临时扩责，应分别用带宽、稀缺系数、股权、项目奖或津贴承接，而不是预设必须建序列。
+
+5. **小队规模下降并不意味着岗位体系应同步合并。可信度：中高。**
+   **证据基础：**Visa 没有披露小队的专业组合；Cognizant 反而新建专门单元。
+   **为什么重要：**组织单元、岗位族群与职业序列是三层不同对象，不能一次重构。
+
+## 4. 重点案例事实还原：Anthropic 人才系统的“双向分化”
+
+### 背景与时间线
+
+- AI 原生公司高速招聘，使人才识别、面试效度、候选人体验、内部人才产品和晋升流程变成高价值系统。
+- 7 月近窗，Anthropic 的 People Research Scientist 页面重新活跃；People Products Staff Engineer 同期在架。
+- 两个岗位公开职责和基本薪带，但没有统一 career architecture 页面。
+
+### 原分工与新责任包
+
+| 责任包 | 边界变宽 | 专业变深 |
 |---|---|---|
-| L3 | 两项以上相互独立的一手/权威材料交叉 | 支持强事实与机制方向，仍不等于成效 |
-| L2 | 单一官方/SEC/制度、Reuters、权威研究 | 支持有边界的事实观察，不能证明成效 |
-| L1 | 供应商、媒体独家、JD、社媒 | 只作 Context 与搜索入口 |
-| L0 | 无法回溯原文的传闻 | 排除 |
+| 招聘科学 | 连接漏斗、质量、容量、候选人体验与业务决策 | 心理测量、实验、准实验、预测效度 |
+| People 产品工程 | 连接招聘、入职、团队协作与晋升 | Staff 级产品工程、HR 技术栈、长期系统 ownership |
 
-## 行动启发
+### 岗位、族群、序列的证据
 
-- 新诉求必须通过既有岗位调整、族群、序列、技能标签、项目角色、薪酬/稀缺工具六路由；只有稳定责任和完整治理才建序列。
-- 建立可回滚试点、停止条件、人工升级、审计日志与事后公平检查。
-- CEO 只审批可验证的机制假设，不审批未经责任迁移的统一减层、统一建序列或 AI 自动晋升。
+- **岗位：成立。**存在独立职责、招聘入口、基本薪带和明确服务对象。
+- **候选族群：有信号。**两者共同服务人才系统，可能属于 People Science / People Products 相邻族群。
+- **成熟序列：不成立。**没有至少三级责任梯度、共同任职资格、内部晋升、横向流动、校准、申诉和退出。
 
-## 来源索引
+### 结果、争议与阻碍
 
-- [36氪：阿里、腾讯、字节 AI 组织与人才动作](https://www.36kr.com/p/3913483185673351)：2026-07-27，行业媒体作者分析，L1。
-- [WSJ/Mint：企业重新招聘与初级岗位反例](https://www.livemint.com/global/big-companies-are-starting-to-hire-again-defying-predictions-of-ai-wipeout-11785114677792.html)：2026-07-27，权威二手，L2。
-- [Gallup：AI 采用、经理支持与裁员归因](https://www.gallup.com/workplace/713063/ai-workplace-productivity.aspx)：2026-07-27，原始调查，L2。
-- [Gartner：AI 人才风险框架](https://gcom.pdo.aws.gartner.com/en/articles/ai-talent-risks)：2026-07-27，咨询框架，L2。
-- [AP：Token 激励与成本反例](https://apnews.com/article/ai-token-openai-anthropic-corporate-31bb80ac1cd7862d05f6397177d826b1)：2026-07-27，多企业采访，L2。
-- [Reuters：Visa 裁减约 2,600 人](https://www.investing.com/news/stock-market-news/visa-plans-to-cut-7-of-workforce-bloomberg-reports-4816822)：2026-07-28，公司确认的权威二手，L2。
-- [Revelio Labs AI Labor Market Tracker](https://www.prnewswire.com/news-releases/revelio-labs-launches-ai-labor-market-tracker-an-evidence-backed-real-time-measure-of-ais-impact-on-the-workforce-302836428.html)：2026-07-28，供应商自有数据，L1-L2。
-- [iMocha 技能验证圆桌](https://www.imocha.io/press-releases/imocha-look-beyond-the-label-us-executive-roundtable-series)：2026-07-28，供应商自报，L1。
-- [Meta Q2 2026 官方业绩与电话会](https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/Meta-06-30-2026-Exhibit-99-1-FINAL.pdf)：2026-07-29，公司一手披露并有媒体交叉，L3。
-- [AP：Meta Q2 2026 交叉报道](https://apnews.com/article/meta-earnings-q2-facebook-profit-revenue-ai-bcbc62dde6d2cac724e3b3385fcabeab)：2026-07-29，权威二手交叉，L2。
-- [腾讯犀牛鸟开源人才培养计划](https://ur.tencent.com/article/1529)：2026-06-19 发布、2026-07-31 报名节点，官方人才项目，L2。
-- [HiBob AI Skills Framework](https://www.hibob.com/news/hibob-launches-ai-skills-framework-and-a-new-ai-skills-assessment-guide/)：2026-07-23，供应商框架，L1-L2。
-- [monday.com SEC 6-K](https://www.sec.gov/Archives/edgar/data/1845338/000117891326003553/zk2635715.htm)：2026-07-22，单一一手组织动作，L2；效果未验证。
-- [Bank of America EricaAssist](https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/07/bank-of-america-enhances-ericaassist-with-generative-ai-to-help-.html)：2026-07-21，单一一手公司材料，L2。
-- [OpenAI Presence](https://openai.com/index/introducing-openai-presence/)：2026-07-22，一手产品/岗位契约，L2。
-- [GitLab Promotions and Transfers](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/)：动态公开制度，单一一手 L2 基线。
-- [BCG AI at Work 2026](https://www.bcg.com/publications/2026/ai-at-work-why-strategy-matters-more-than-tools)：2026-06-03，大样本自报调查，L2。
-- [Intuit SEC 附件内部信](https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000024/fy26q3-ex9902.htm)：2026-05-20，单一一手组织动作，L2。
-- [OECD Employment Outlook 2026](https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en/full-report/component-5.html)：2026 年权威报告，初级岗位反例 L2。
-- [ACL HSCodeComp](https://aclanthology.org/2026.acl-long.937/)：2026 年同行评审任务基准，L2。
+- 已知只有招聘意图和定价；未知到岗、团队规模、系统上线、录用质量、晋升公平、候选人/员工体验和留任。
+- 招聘科学可能提高预测效度，也可能让“可测量”替代真正岗位价值。
+- People 产品工程覆盖高风险人才决策，需要数据最小化、偏差审计、人工复核和员工申诉。
+- 两个高薪岗位可能源自地点和公司阶段，不能外推为市场中位数。
+
+### 可借鉴与不可照搬
+
+- **可借鉴：**把“研究人才决策有效性”和“建设内部人才产品”设为两类责任，而不是由 HR 运营兼职。
+- **不可照搬：**不因出现两个岗位就建立新序列；不照搬美国薪带；不让内部产品团队拥有最终人才裁决权。
+
+## 5. Context 层｜背景材料、弱信号、线索、反例与冲突
+
+- **暂不形成结论，但提示我们关注……**Visa 的 2—4 人小队可能推动岗位边界变宽，也可能只是工具化交付模式，需先识别专业组合。
+- **暂不形成结论，但提示我们关注……**BNY 的能力等级若长期稳定、跨岗位可复用，可能演进为技能框架；当前尚非职级。
+- **暂不形成结论，但提示我们关注……**Atlassian 的复合高管责任域可能减少接口，也可能造成责任过度集中。
+- **暂不形成结论，但提示我们关注……**Anthropic 的 People 专业化可能是高速扩张特例。
+- **暂不形成结论，但提示我们关注……**LANL 用既有 Solutions Architect 4/5 承接 AI Architect，说明“新专业画像＋旧职业族”是可行替代方案。
+- **反例：**Cognizant 新建专门 AI Unit，反证 AI 组织变化必然减少组织单元。
+- **冲突：**业务侧需要更粗的结果接口，人才与控制侧需要更细的专业分工；二者共同构成“双向分化”。
+
+## 6. 证据地图
+
+| 渠道 | 最强材料 | 等级 | 支持 | 不支持 |
+|---|---|---:|---|---|
+| 官方/一手 | Visa 电话会、BNY、Atlassian、Cognizant | L2-L3 | 团队/责任/权限动作 | 成熟序列 |
+| 权威研究/咨询 | Revelio | L2 | 职业内任务与职级分化 | 单企岗位制度 |
+| 公司案例 | Visa、Anthropic、Atlassian | L1-L3 | 宽责任与深专业并存 | 普遍最优架构 |
+| 学术研究 | 今日无直接新增 | 缺口 | — | 序列因果 |
+| 招聘薪酬 | Anthropic | L1-L2 | 职责和定价意图 | 实际支付、等级、晋升 |
+| 社媒/职场 | 无稳定原帖 | L0-L1 | 形成检索问题 | 事实结论 |
+| 内部知识库 | 7/28 FDE/小红书、滚动基线、W30 | L3 校准 | 连续判断、去重 | 替代外部来源 |
+
+## 7. 对我们的启发｜岗位治理判断树
+
+### 五道门
+
+1. **是否出现长期独立结果责任？**否：更新任务清单或技能标签；是：下一步。
+2. **责任能否脱离单一工具、个人或短期项目，持续至少一个完整业务周期？**否：项目角色、项目奖或临时补贴；是：下一步。
+3. **是否有多个同构岗位，共享服务对象、人才市场和能力主干？**否：试点单一岗位；是：下一步。
+4. **是否存在稳定、可审计的责任梯度、任职资格和横向流动？**否：建立岗位族群或岗位画像；是：下一步。
+5. **薪带、晋升、校准、申诉、合并和退出是否齐备？**是：才考虑新序列；否：停在岗位族群。
+
+### 其他承接工具
+
+| 工具 | 适用情形 |
+|---|---|
+| 技能标签 | 能力快变、跨岗位、可认证，但不改变最终结果责任 |
+| 市场稀缺系数 | 岗位价值不变，技能出现阶段性市场溢价 |
+| 项目激励 | 有明确终点、验收成果和复用责任的跨职能战役 |
+| 专项津贴 | 持续额外值守、认证、风险或艰苦责任 |
+| 临时补贴 | 转型兼岗、迁移、夜间切换等短期负担 |
+| 薪酬带宽调整 | 整个既有岗位群出现长期系统性市场倒挂 |
+
+### 何时坚决不新增序列
+
+- 只有一个人、一个项目、一个工具或一个热门头衔；
+- 责任与现有序列高度重叠，没有独立结果、决策或高后果控制责任；
+- 没有岗位复数、稳定梯度、任职资格、晋升、横向流动、申诉与退出；
+- 真实诉求只是保留关键人、修复市场倒挂或突破当前薪酬上限；
+- 业务拒绝设置 6/12 个月复核、合并和退出条件。
+
+**管理层该问：**我们需要的是一种长期、可复制的责任体系，还是给一名关键员工更快、更公平的回报？
+
+## 8. 待验证清单与下一步搜索路径
+
+1. Visa 2—4 人小队中产品、设计、工程、测试、安全与经理如何组合？
+2. BNY 三级能力能否跨岗位复用，是否有有效期、撤回与复证？
+3. Anthropic 两岗位是否到岗，是否映射统一 People career architecture？
+4. 招聘科学/People 产品是否存在 L3—L6 责任梯度、横向流动和薪带？
+5. Atlassian 合并责任域后的管理跨度、接口、成本、质量与员工体验。
+6. Cognizant AI Unit 的岗位目录、交付单元、共享平台、P&L 和职业路径。
+7. 新序列申请中，多少在采用技能标签、稀缺系数、项目奖或带宽调整后消失？
+8. 新岗位试点 6/12 个月后的数量、责任稳定、流动、公平与退出情况。
+
+### 本轮实际检索词
+
+- `Visa Q3 2026 2 to 4 agentic squads product development roles`
+- `BNY AI skills levels model access career architecture`
+- `Atlassian Chief People AI Enablement org role data science internal engineering`
+- `Anthropic People Research Scientist People Products salary promotion`
+- `Revelio July 2026 work within occupations senior junior`
+- `new AI job family skills tag versus career track compensation`
+
+## 9. 来源索引
+
+1. Visa Q3 电话会，[Yahoo Finance 文字稿](https://finance.yahoo.com/quote/V/earnings/V-Q3-2026-earnings_call-656419.html)，2026-07-28，动作 L3。
+2. Atlassian，[Leading with Context](https://www.atlassian.com/blog/guides-research/leading-with-context)，2026-07-21，L2。
+3. Forbes Australia，[Atlassian AI use interview](https://www.forbes.com.au/news/innovation/atlassian-warns-more-ai-use-will-not-magically-lift-productivity/)，2026-07-28，L2。
+4. BNY，[1Q26 Quarterly Update](https://www.bny.com/assets/corporate/documents/pdf/investor-relations/earnings/quarterly-update-presentation-1q-2026.pdf)，2026-04-16，L3。
+5. Fortune，[BNY skipped tokenmaxxing](https://fortune.com/2026/07/28/bny-skipped-tokenmaxxing-craze-what-ai-metrics-tracks-cfo/)，2026-07-28，L2。
+6. Anthropic，[People Research Scientist](https://job-boards.greenhouse.io/anthropic/jobs/5362838008)，动态 JD，L1-L2。
+7. Anthropic，[Staff Software Engineer, People Products](https://job-boards.greenhouse.io/anthropic/jobs/5119468008)，动态 JD，L1-L2。
+8. Revelio Labs，[AI Labor Market Tracker—July 2026](https://www.reveliolabs.com/ai-labor-market-tracker/us/july-2026)，2026-07-28，L2。
+9. Cognizant，[EMEA AI Unit](https://news.cognizant.com/2026-07-28-Cognizant-launches-EMEA-AI-Unit-to-help-enterprises-scale-agentic-AI-adoption)，2026-07-28，近窗 L2。
+10. LANL，[AI Architect—Solutions Architect 4/5](https://lanl.jobs/search/jobdetails/artificial-intelligence-architect-solutions-architect-45/b5b1d819-1fdc-41f2-9e8b-e8c69d46969a)，动态 JD，L1。
+11. 内部：[`2026-07-29 日常信息库`](../../../daily/2026-07-29.md)、[`2026-07-28 正式专题三`](../2026-07-28/03-job-family-career-architecture.md)、[`岗位序列基线`](../topics/job-family-career-architecture/baseline.md)、[`证据地图`](../topics/job-family-career-architecture/evidence-map.md)。
+
+> JD 薪带跨地区、币种和职级不可直接横比；内部日报、digest 和工作日报为同一证据链，不重复计数。AnySearch 本轮连接失败，动态职位和供应商客户案例维持 L1-L2。

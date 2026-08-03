@@ -2,8 +2,8 @@
 title: Payscale：2026 Compensation Best Practices Report
 source: Payscale
 date: 待核验
-ingested: 2026-07-24
-sourceFile: ../knowledge/raw/payscale-payscale-2026-compensation-best-practices-report.pdf
+ingested: 2026-08-03
+sourceFile: ../raw/payscale-payscale-2026-compensation-best-practices-report.pdf
 sourceUrl: https://www.payscale.com/content/report/2026-compensation-best-practice-report.pdf
 tags: [AI组织设计, 绩效管理]
 status: 已下载原始PDF，已生成结构化初筛卡片
@@ -21,7 +21,7 @@ Payscale 2026 薪酬实践报告可用于验证 AI 技能定价、薪酬公平�
 - **来源类型**：industry
 - **原文 URL**：https://www.payscale.com/content/report/2026-compensation-best-practice-report.pdf
 - **原始文件**：`knowledge/raw/payscale-payscale-2026-compensation-best-practices-report.pdf`
-- **入库日期**：2026-07-24
+- **入库日期**：2026-08-03
 - **证据层级**：结论层可用但需精读具体数据口径；适合与 EY Future of Pay 互证。
 
 ## 核心内容
@@ -62,6 +62,12 @@ Payscale 2026 薪酬实践报告可用于验证 AI 技能定价、薪酬公平�
 - `specials/ai-org-talent-mechanism/2026-07-23/00-overview.md:117`：2026 Compensation Best Practices Report
 - `specials/ai-org-talent-mechanism/2026-07-23/03-job-family-career-architecture.md:21`：Payscale 报告
 - `specials/ai-org-talent-mechanism/2026-07-23/03-job-family-career-architecture.md:103`：2026 Compensation Best Practices Report
+- `specials/ai-org-talent-mechanism/2026-07-31/04-promotion-system.md:38`：Payscale PDF
+- `specials/ai-org-talent-mechanism/2026-07-31/04-promotion-system.md:154`：2026 Compensation Best Practices Report
+- `specials/ai-org-talent-mechanism/2026-08-02/04-promotion-system.md:38`：Payscale PDF
+- `specials/ai-org-talent-mechanism/2026-08-02/04-promotion-system.md:168`：2026 Compensation Best Practices Report
+- `specials/ai-org-talent-mechanism/synthesis/2026-07-24-promotion-mechanism-evolution-application-report.md:145`：Payscale PDF
+- `specials/ai-org-talent-mechanism/synthesis/2026-07-24-promotion-mechanism-evolution-application-report.md:514`：2026 Compensation Best Practices Report
 
 ## 后续精读任务
 

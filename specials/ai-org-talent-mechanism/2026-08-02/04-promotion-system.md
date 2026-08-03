@@ -1,93 +1,172 @@
 # 2026-08-02｜专题四：未来组织的晋升机制
 
-> 研究状态：正式历史补跑核验稿。证据按当日可得时间边界归档；没有新增 L2+ 时明确保持判断不变。只有 L3/L4 可支持强结论。
+> 正式决策稿｜周度恢复综合形成于 2026-08-03。本文校准 7 月 27 日—8 月 2 日的晋升机制；GitLab、EY、Payscale、McKinsey 为历史公开基线，8 月 3 日取得的动态 JD 只作校准，不伪装为 8 月 2 日制度新增。
+> 证据口径：L4＝外部证据与内部数据或长期结果互证；L3＝公司一手制度或方法透明的权威研究；L2＝单一强一手事实或两份可信观察；L1＝动态招聘、匿名访谈或局部信号；L0＝无法核验。
 
 ## 读者应该带走什么
 
-截至 2026-08-02，没有新的公司级 AI 晋升制度；即时认可、临时扩大职责与正式晋升应分流，AI 不进入最终裁决链。
+本周没有新制度支持默认即时晋升；更稳的设计仍是持续识别、多路即时回报、固定校准与受控例外。
 
-管理层该问：这个动作究竟改变了什么责任、权限、质量和人才结果？不要误读：动作不等于成效，媒体/供应商/JD 信号不等于成熟机制。
+## 1. 今日一句话专题判断
 
-## 今日一句话专题判断
+**周度校准后的稳健机制是“持续证据＋即时多路回报＋固定职级窗口＋受控例外”：技能认证决定准备度和准入，AI 贡献进入可审计证据，同行核验事实、岗位委员会评角色、人才委员会校准职级、薪酬/财务校准金额，绩效、晋升与薪酬门槛耦合但结论解耦。**
 
-**截至 2026-08-02，没有新的公司级 AI 晋升制度；即时认可、临时扩大职责与正式晋升应分流，AI 不进入最终裁决链。**
+## 2. 今日新增事实：只写可追溯事实
 
-## 今日新增事实
+### F1｜本周没有新的完整公司级晋升制度
 
-周日无新的高置信公司制度材料；本日用于整周交叉验证与结论冻结。
+恢复扫描未发现一家公司同时公开固定窗口、周期外条件、即时/项目制回报、岗位价值触发、技能认证/徽章、AI 贡献字段、同行评审、人才委员会、薪酬校准、申诉和晋升后结果。
 
-| 事实 | 事实还原与边界 | 来源/等级 | 关联课题 |
-|---|---|---|---|
-| 无新增高等级外证 | 当日未发现新的 L2+ 公司组织或晋升制度。周内材料继续支持任务与责任重写，但复盘本身不提高任何单项证据等级。 | [检索结论，不单独评级](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/) | 四课题 |
+- **等级：检索结果。**只能说明本周公开范围内没有完整新增，不能外推所有企业内部均无试点；L4 组织结果为 0。
 
-## 今日核心判断
+### F2｜GitLab 历史制度提供固定窗口与受控例外基线
 
-1. **主判断。可信度：中高。** 截至 2026-08-02，没有新的公司级 AI 晋升制度；即时认可、临时扩大职责与正式晋升应分流，AI 不进入最终裁决链。
-2. **机制含义。可信度：高。** 即时战功走认可或项目奖，60—180 天扩大职责验证持续性，正式职级变化进入固定窗口或受控例外。
-3. **证据边界。可信度：高。** W31 没有内部结果数据或 L4 闭环；单点事实只证明动作和方向。
-4. **反事实。可信度：中高。** 如果 AI 是唯一驱动，应出现跨公司一致的层级、岗位、薪酬或晋升变化；本周实际呈现裁减、扩编、集中与自治并存。
+GitLab 历史公开 Handbook 将大多数同岗位族晋升放入半年校准，要求晋升文档、业务必要性、跨职能反馈、岗位框架、People、Total Rewards 与 FP&A 校准；周期外仍需完整证据、例外理由和更长审批。
 
-## 判断变化
+- **等级：历史制度 L2-L3。**[GitLab Promotions and Transfers](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/)页面处于审阅状态，不能当作最新完整内部制度，也未公开公平和晋升后结果。
 
-- **增强：** 评价单位从工具活动量转向责任、权限、质量、异常、复用、育人和净容量。
-- **未改变：** 截至 2026-08-02，没有新的公司级 AI 晋升制度；即时认可、临时扩大职责与正式晋升应分流，AI 不进入最终裁决链。
-- **削弱：** 任何把单点案例外推为全面扁平、全面全栈或即时 AI 晋升的说法。
+### F3｜能力认证、权限与薪酬不应自动兑换职级
 
-## 重点案例与反例
+本周历史证据中，BNY 的三级 AI 能力认证连接模型访问和工作流权限，并明确不用提示词/token 数考核；Honda 的 AI 认证据报道连接工资外技能津贴。两者均未公开认证自动兑换职级或晋升。
 
-- **当周案例：** 无新增高等级外证。可借鉴其可追溯动作；不可照搬其结构、人员规模或供应商结论。
-- **历史基线：** monday.com、美国银行、OpenAI Presence、GitLab 分别提供减层动作、接口系统化、数字岗位契约与晋升校准样本。
-- **反例：** WSJ 恢复招聘、OECD 初级岗位边界和 HSCodeComp 专家差距共同反驳统一少人化与全面岗位合并。
-- **如果照搬会错在哪里：** 课程、认证、Token、代码量、模型评分和一次战功直接兑换晋升，会放大错误归因与组织不信任。
+- **等级：BNY 机制 L2-L3；Honda 单源 L1-L2。**来源：[BNY 官方材料](https://www.bny.com/assets/corporate/documents/pdf/investor-relations/earnings/quarterly-update-presentation-1q-2026.pdf)、[Fortune](https://fortune.com/2026/07/28/bny-skipped-tokenmaxxing-craze-what-ai-metrics-tracks-cfo/)、[日本经济新闻](https://www.nikkei.com/article/DGKKZO97506530S6A710C2EA2000/)。
 
-## 背景材料（Context）
+### F4｜EY、Payscale 与 McKinsey 支持回报工具和绩效对象分拆
 
-- 暂不足以下结论，但提示我们关注：课程、认证、Token、代码量、模型评分和一次战功直接兑换晋升，会放大错误归因与组织不信任。
-- 供应商框架、招聘 JD 和社媒讨论只形成待验证问题，不进入强结论。
-- W29/W30 与 7 月 22—23 日材料仅作历史基线，不能重复计为 W31 多源互证。
+EY 把技能、绩效、AI 人才、变量薪酬、长期激励与治理放进同一总奖酬框架；Payscale 将基本工资、奖金、长期激励、市场基准、薪酬公平和岗位管理拆开；McKinsey 要求绩效系统区分人类贡献、智能体输出和人机结果，并把职业发展与针对性激励视为高绩效条件。
 
-## 线索层
+- **等级：权威/行业框架 L2-L3。**来源：[EY PDF](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)、[Payscale PDF](https://www.payscale.com/content/report/2026-compensation-best-practice-report.pdf)、[McKinsey](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-state-of-organizations)。不证明具体企业已落地。
 
-- 获取公司组织图、经理/个人贡献者比例、跨度、权限、薪带和 6—12 个月结果。
-- 获取受影响员工的转岗质量、薪酬变化、学习支持、负荷和申诉数据。
-- 搜索第二个公开制度样本，验证是否能从单案例升级为稳定机制。
+### F5｜本周新信号强化“不可见质量劳动进入证据”
 
-## 证据地图
+OpenAI 跨岗任务、802 名开发者研究、中层验证税、Apollo 工资而非就业效应、OpenAI 结果总成本共同表明：任务、质量、工资、岗位和晋升不能跨层推导；评审、验证、风险、复用和育人需要进入晋升证据。
 
-| 层级 | 可用材料 | 本专题用法 |
+- **等级：综合方向 L2。**单一信号分别为 L1-L2；没有即时晋升制度事实。
+
+### 今日范围结论
+
+本周没有证据支持取消固定窗口、徽章换职级或 AI 使用量计分。**最强结论是混合机制与分权校准，而非新政策普及率。**
+
+## 3. 今日核心判断
+
+1. **固定窗口应作为永久职级默认，受控例外承担极少数等待损害。可信度：高。**
+   **证据基础：**GitLab 历史制度与本周无相反高置信制度新增。
+   **为什么重要：**固定窗口支持同级比较、公平与预算；例外解决责任已稳定且等待损害明确的特殊情形。
+
+2. **即时、项目制、岗位价值和晋升必须四路分流。可信度：高。**
+   **证据基础：**GitLab、EY/Payscale 与本周项目/工资信号。
+   **为什么重要：**一次战功即时奖励，项目成果用项目奖，岗位价值变化先重评，持续下一层责任才晋升。
+
+3. **能力认证/徽章是准备度与准入凭证，不是晋升券。可信度：高。**
+   **证据基础：**BNY 认证连接权限，Honda 线索连接津贴，均未自动升职。
+   **为什么重要：**快变技能需要有效期、复证、撤权和申诉；自动换职级会形成影子等级和不公平。
+
+4. **AI 贡献要以可归责组织价值呈现。可信度：高。**
+   **证据基础：**三层绩效框架、OpenAI 结果总成本、工程验证负荷。
+   **为什么重要：**应评问题定义、验证、风险、复用、他人赋能和净结果，禁用 token、提示词、生成量和未经质量校正的节时。
+
+5. **绩效、晋升、薪酬应门槛耦合、结论解耦。可信度：高。**
+   **证据基础：**GitLab 分权校准与 EY/Payscale 多工具框架。
+   **为什么重要：**高绩效是晋升门槛；稀缺技能可以调薪不升职；晋升仍需岗位必要性和持续下一层责任。
+
+## 4. 重点案例事实还原：混合晋升机制与分权校准
+
+### 三种节奏
+
+1. **持续：**记录事实、即时认可、项目奖、能力认证、项目准入、试任和发展机会。
+2. **固定季度/半年：**校准永久 grade、岗位价值、同级公平、薪酬和预算。
+3. **周期外例外：**责任已稳定、岗位价值已改变、等待损害可写明、证据完整且承诺复盘。
+
+### 四类触发
+
+| 触发 | 主要处理 | 不应默认使用 |
 |---|---|---|
-| L3 | 两项以上相互独立的一手/权威材料交叉 | 支持强事实与机制方向，仍不等于成效 |
-| L2 | 单一官方/SEC/制度、Reuters、权威研究 | 支持有边界的事实观察，不能证明成效 |
-| L1 | 供应商、媒体独家、JD、社媒 | 只作 Context 与搜索入口 |
-| L0 | 无法回溯原文的传闻 | 排除 |
+| 一次性/即时贡献 | 认可、奖金、机会 | 永久职级 |
+| 有起止和验收的项目 | 项目奖、项目准入 | 项目结束后保留高职级 |
+| 岗位价值永久变化 | 岗位重评、调岗/带宽 | 用个人高绩效代替岗位判断 |
+| 持续下一层责任＋业务需要 | 固定窗口晋升 | 只靠认证或经理提名 |
 
-## 行动启发
+### 评审权分配
 
-- 即时战功走认可或项目奖，60—180 天扩大职责验证持续性，正式职级变化进入固定窗口或受控例外。
-- 建立可回滚试点、停止条件、人工升级、审计日志与事后公平检查。
-- CEO 只审批可验证的机制假设，不审批未经责任迁移的统一减层、统一建序列或 AI 自动晋升。
+- 同行/直接参与者：核验事实、关键判断和影响，不裁决最终职级。
+- 经理：证明持续责任、业务必要性、反证和发展计划。
+- 岗位委员会：先评角色价值与范围，再评人岗匹配。
+- 人才委员会：校准层级、机会条件、群体公平、继任与周期外例外。
+- Total Rewards/财务：校准薪带、奖金、津贴、股权、预算和同工公平。
+- AI：仅检索、抽取、检查口径和提示矛盾；不做潜力推断、候选人排序或最终推荐。
 
-## 来源索引
+## 5. Context 层｜背景材料、弱信号、线索、反例与冲突
 
-- [36氪：阿里、腾讯、字节 AI 组织与人才动作](https://www.36kr.com/p/3913483185673351)：2026-07-27，行业媒体作者分析，L1。
-- [WSJ/Mint：企业重新招聘与初级岗位反例](https://www.livemint.com/global/big-companies-are-starting-to-hire-again-defying-predictions-of-ai-wipeout-11785114677792.html)：2026-07-27，权威二手，L2。
-- [Gallup：AI 采用、经理支持与裁员归因](https://www.gallup.com/workplace/713063/ai-workplace-productivity.aspx)：2026-07-27，原始调查，L2。
-- [Gartner：AI 人才风险框架](https://gcom.pdo.aws.gartner.com/en/articles/ai-talent-risks)：2026-07-27，咨询框架，L2。
-- [AP：Token 激励与成本反例](https://apnews.com/article/ai-token-openai-anthropic-corporate-31bb80ac1cd7862d05f6397177d826b1)：2026-07-27，多企业采访，L2。
-- [Reuters：Visa 裁减约 2,600 人](https://www.investing.com/news/stock-market-news/visa-plans-to-cut-7-of-workforce-bloomberg-reports-4816822)：2026-07-28，公司确认的权威二手，L2。
-- [Revelio Labs AI Labor Market Tracker](https://www.prnewswire.com/news-releases/revelio-labs-launches-ai-labor-market-tracker-an-evidence-backed-real-time-measure-of-ais-impact-on-the-workforce-302836428.html)：2026-07-28，供应商自有数据，L1-L2。
-- [iMocha 技能验证圆桌](https://www.imocha.io/press-releases/imocha-look-beyond-the-label-us-executive-roundtable-series)：2026-07-28，供应商自报，L1。
-- [Voice AI in Firms 自然田野实验](https://arxiv.org/abs/2607.28222)：2026-07-30，既有工作论文的 arXiv 新版本，L2。
-- [Meta Q2 2026 官方业绩与电话会](https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/Meta-06-30-2026-Exhibit-99-1-FINAL.pdf)：2026-07-29，公司一手披露并有媒体交叉，L3。
-- [AP：Meta Q2 2026 交叉报道](https://apnews.com/article/meta-earnings-q2-facebook-profit-revenue-ai-bcbc62dde6d2cac724e3b3385fcabeab)：2026-07-29，权威二手交叉，L2。
-- [腾讯犀牛鸟开源人才培养计划](https://ur.tencent.com/article/1529)：2026-06-19 发布、2026-07-31 报名节点，官方人才项目，L2。
-- [HiBob AI Skills Framework](https://www.hibob.com/news/hibob-launches-ai-skills-framework-and-a-new-ai-skills-assessment-guide/)：2026-07-23，供应商框架，L1-L2。
-- [monday.com SEC 6-K](https://www.sec.gov/Archives/edgar/data/1845338/000117891326003553/zk2635715.htm)：2026-07-22，单一一手组织动作，L2；效果未验证。
-- [Bank of America EricaAssist](https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/07/bank-of-america-enhances-ericaassist-with-generative-ai-to-help-.html)：2026-07-21，单一一手公司材料，L2。
-- [OpenAI Presence](https://openai.com/index/introducing-openai-presence/)：2026-07-22，一手产品/岗位契约，L2。
-- [GitLab Promotions and Transfers](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/)：动态公开制度，单一一手 L2 基线。
-- [BCG AI at Work 2026](https://www.bcg.com/publications/2026/ai-at-work-why-strategy-matters-more-than-tools)：2026-06-03，大样本自报调查，L2。
-- [Intuit SEC 附件内部信](https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000024/fy26q3-ex9902.htm)：2026-05-20，单一一手组织动作，L2。
-- [上海急需紧缺高技能人才目录 2026](https://www.pdhr.com/CMS/CmsDetail?id=2794)：2026-07 发布、2026-08-01 生效，单一政策事实 L2。
-- [OECD Employment Outlook 2026](https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en/full-report/component-5.html)：2026 年权威报告，初级岗位反例 L2。
-- [ACL HSCodeComp](https://aclanthology.org/2026.acl-long.937/)：2026 年同行评审任务基准，L2。
+- **暂不足以下结论，但提示我们关注……**技能徽章若同时控制权限、项目、津贴和机会，会成为影子职级，应接受透明、公平和申诉治理。
+- **暂不足以下结论，但提示我们关注……**Apollo 的工资信号可能先影响调薪和奖金，也可能混入职业周期，不能自动触发晋升。
+- **反例：**跨岗任务增加不等于岗位价值上升；PR 翻倍不等于净质量；高薪 JD 不等于现有人应升职。
+- **冲突：**快速回报与公平校准、团队结果与个人归因、AI 辅助与员工解释权需要同时治理。
+- **L0 边界：**徽章换级传闻、匿名即时晋升、动态 JD 实际 offer 和 AI 自动排名均未核验。
+
+## 6. 证据地图
+
+| 渠道 | 最强材料 | 等级 | 可以支持 | 不可以支持 |
+|---|---|---:|---|---|
+| 公司制度 | GitLab Handbook | 历史 L2-L3 | 固定校准、受控例外、分权 | 最新内部规则、长期成效 |
+| 公司机制 | BNY；Honda 线索 | L1-L3 | 认证连接权限/津贴 | 自动晋升、最优制度 |
+| 薪酬框架 | EY、Payscale | L2 | 回报工具与岗位管理分拆 | 统一溢价、公司落地 |
+| 权威研究 | McKinsey | L2-L3 | 三层绩效和发展激励方向 | 晋升制度因果 |
+| 本周研究 | OpenAI、工程研究、Apollo | L1-L2 | 任务/质量/工资分层 | 即时晋升规则 |
+| 社媒/职场 | 无具名制度原文 | L0 | 验证问题 | 制度事实 |
+
+## 7. 对我们的行动启发｜落地启发与周度晋升机制模板
+
+### AI 贡献证据包
+
+- 问题与基线；候选人的关键判断；人与 AI 分工；
+- 持续责任、权限、风险和结果范围；
+- 验证、人工推翻、回滚、异常与负面结果；
+- 质量、速度、成本、客户/收入和结果总成本；
+- 复用、他人采用、带教、继任与持续期；
+- 同行事实、反证、来源日志、员工更正与申诉。
+
+### 耦合/解耦规则
+
+- **绩效—晋升：**绩效达标是门槛；晋升另需长期岗位价值和业务必要性。
+- **认证—晋升：**认证可控制权限和项目准入；不自动换职级。
+- **绩效—薪酬：**当期结果影响奖金；市场稀缺可调薪/津贴，不要求晋升。
+- **晋升—薪酬：**晋升触发薪带重校准，金额仍由公平、市场和预算决定。
+- **项目—晋升：**项目战功进入证据包；仅在责任持续扩大时支持职级变化。
+
+### 员工权利与审计
+
+员工应知晓数据用途，可更正事实、提交反证、理解理由、申请独立人工复核和申诉；每周期审计群体晋升率、薪酬变化、经理推翻率、AI 建议采纳率和申诉结果。
+
+**管理层该问：**我们要解决的是回报速度、市场定价、岗位价值，还是永久层级？四者必须先分流。
+
+## 8. 待验证清单与下一步搜索路径
+
+1. 找第二家公司公开固定窗口、周期外条件、同行评审、委员会、薪酬和申诉的完整制度。
+2. 获取真实 AI 贡献 promotion packet、评分量表和晋升后绩效。
+3. 跟踪 BNY 认证的复证、撤权、项目准入、薪酬和晋升关系。
+4. 获取 Honda 公司原文，核验津贴金额、有效期、退出和申诉。
+5. 查找 AI 辅助晋升材料的采纳、人工推翻、群体差异和申诉率。
+6. 验证不可见质量劳动进入绩效、奖金和晋升后的公平与协作影响。
+
+### 本轮实际检索词
+
+- `company handbook promotion calibration out of cycle appeal compensation`
+- `AI contribution promotion packet peer review talent committee`
+- `skills badge certification project eligibility allowance promotion`
+- `job value reevaluation performance promotion compensation decoupling`
+- `algorithmic promotion human review override fairness audit`
+- `promotion evidence code review validation incident mentoring reuse`
+
+## 9. 来源索引
+
+1. GitLab，[Promotions and Transfers](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/)，历史制度 L2-L3。
+2. GitLab，[Annual Compensation Review](https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-review-cycle/)，历史制度 L2-L3。
+3. BNY，[Q1 2026 quarterly update](https://www.bny.com/assets/corporate/documents/pdf/investor-relations/earnings/quarterly-update-presentation-1q-2026.pdf)，能力/权限机制 L2-L3。
+4. Fortune，[BNY skipped tokenmaxxing](https://fortune.com/2026/07/28/bny-skipped-tokenmaxxing-craze-what-ai-metrics-tracks-cfo/)，2026-07-28，L2。
+5. 日本经济新闻，[Honda AI 技能认证与津贴](https://www.nikkei.com/article/DGKKZO97506530S6A710C2EA2000/)，历史单源 L1-L2。
+6. EY，[Future of Pay Report 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)，L2。
+7. Payscale，[2026 Compensation Best Practices Report](https://www.payscale.com/content/report/2026-compensation-best-practice-report.pdf)，L2。
+8. McKinsey，[The State of Organizations 2026](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-state-of-organizations)，L2-L3。
+9. 内部连续材料：[`W31 周报`](../../../daily-report/weekly-2026-W31.md)、[`三层绩效指标`](../../../knowledge/concepts/human-ai-performance-metrics.md)、[`GitLab 知识页`](../../../knowledge/wiki/gitlab-promotions-transfers-handbook.md)。
+
+> 周度边界：本文支持机制校准，不声称 7 月 31 日—8 月 2 日逐日采集完整；历史基线与恢复材料不计为 8 月 2 日当日制度新增。

@@ -95,6 +95,30 @@ function countKnowledgePages(catalog) {
   };
 }
 
+function collectPdfRetryEntries(reports) {
+  const bySummaryFile = new Map();
+  for (const report of reports || []) {
+    const summaryPath = normalizeRepoPath(report.summaryFile);
+    if (!summaryPath || !fs.existsSync(summaryPath)) continue;
+    const markdown = fs.readFileSync(summaryPath, 'utf8');
+    if (!/^status:\s*已索引来源，PDF下载待重试\s*$/m.test(markdown)) continue;
+    if (!bySummaryFile.has(report.summaryFile)) bySummaryFile.set(report.summaryFile, report);
+  }
+  return Array.from(bySummaryFile.values());
+}
+
+function duplicateReportSummaryFiles(reports) {
+  const bySummaryFile = new Map();
+  for (const report of reports || []) {
+    if (!report.summaryFile) continue;
+    if (!bySummaryFile.has(report.summaryFile)) bySummaryFile.set(report.summaryFile, []);
+    bySummaryFile.get(report.summaryFile).push(report.id || report.title || 'unknown');
+  }
+  return Array.from(bySummaryFile.entries())
+    .filter(([, ids]) => ids.length > 1)
+    .map(([summaryFile, ids]) => ({ summaryFile, ids }));
+}
+
 function qualityStatus(criticalIssues, warnings) {
   if (criticalIssues.length > 0) return 'fail';
   if (warnings.length > 0) return 'warn';
@@ -128,13 +152,15 @@ function main() {
     }));
   const duplicateNumbers = duplicateIndexNumbers(indexMarkdown);
   const counts = countKnowledgePages(catalog);
-  const pdfRetryEntries = (catalog.reports || []).filter((report) => /待重试|retry/i.test(`${report.status || ''} ${report.description || ''} ${report.fileName || ''}`));
+  const pdfRetryEntries = collectPdfRetryEntries(catalog.reports || []);
+  const duplicateSummaryFiles = duplicateReportSummaryFiles(catalog.reports || []);
   const warnings = [];
   const criticalIssues = [];
 
   if (privatePathLeaks.length > 0) criticalIssues.push(`发现 ${privatePathLeaks.length} 处本地绝对路径或私有路径泄露。`);
   if (missingSummaryFiles.length > 0) criticalIssues.push(`发现 ${missingSummaryFiles.length} 个 catalog summaryFile 缺失或指向不存在文件。`);
   if (duplicateNumbers.length > 0) warnings.push(`knowledge/index.md 存在 ${duplicateNumbers.length} 个重复编号。`);
+  if (duplicateSummaryFiles.length > 0) warnings.push(`knowledge/catalog.json 的 reports 存在 ${duplicateSummaryFiles.length} 组重复 summaryFile。`);
 
   const status = {
     generatedAt: new Date().toISOString(),
@@ -145,6 +171,7 @@ function main() {
     privatePathLeaks,
     missingSummaryFiles,
     duplicateNumbers,
+    duplicateSummaryFiles,
     pdfRetryCount: pdfRetryEntries.length,
     pdfRetrySample: pdfRetryEntries.slice(0, 10).map((entry) => ({
       id: entry.id,
@@ -176,6 +203,9 @@ function main() {
   const duplicateRows = duplicateNumbers.length
     ? duplicateNumbers.map((entry) => `| ${entry.section} | ${entry.number} | ${entry.line.replace(/\|/g, '／')} |`).join('\n')
     : '| - | - |';
+  const duplicateSummaryRows = duplicateSummaryFiles.length
+    ? duplicateSummaryFiles.map((entry) => `| ${entry.summaryFile} | ${entry.ids.join('、')} |`).join('\n')
+    : '| - | - |';
 
   const report = `# 知识库 Lint 最新结果
 
@@ -191,6 +221,7 @@ function main() {
 - 本地或私有路径泄露：${privatePathLeaks.length}
 - 缺失 summaryFile：${missingSummaryFiles.length}
 - 重复编号：${duplicateNumbers.length}
+- 重复 summaryFile：${duplicateSummaryFiles.length}
 
 ## 问题
 
@@ -213,6 +244,12 @@ ${missingRows}
 | 区域 | 编号 | 行 |
 |---|---:|---|
 ${duplicateRows}
+
+## 重复 summaryFile
+
+| summaryFile | reports IDs |
+|---|---|
+${duplicateSummaryRows}
 `;
 
   fs.writeFileSync(lintReportPath, report);

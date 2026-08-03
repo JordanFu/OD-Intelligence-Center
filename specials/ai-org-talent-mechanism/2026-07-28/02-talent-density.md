@@ -1,90 +1,175 @@
 # 2026-07-28｜专题二：高人才密度与复合型人才机制
 
-> 研究状态：正式历史补跑核验稿。证据按当日可得时间边界归档；没有新增 L2+ 时明确保持判断不变。只有 L3/L4 可支持强结论。
+> 正式决策稿｜严格新增窗口：2026-07-27—2026-07-28  
+> 今日没有 L3/L4 的公司级“识别—配置—授权—激励—盘点—保留”闭环；强事实主要来自任务使用、员工调查与公开招聘。
 
 ## 读者应该带走什么
 
-截至 2026-07-28，高人才密度不能定义为少招人；必须同时看关键能力、结果质量、继任管道、负荷、内部流动和知识回流。
+OpenAI 首次把“跨岗任务”变成可观察数据，但会跨岗不等于高人才密度。高密度人才必须同时证明专业底座、问题定义、质量把关、专业责任、授权边界、业务结果和资产复用。Gallup 的 65% 个人增效与 12% 组织改变落差说明：组织若没有经理承接、训练任务、项目配置与复用机制，只会让少数复合骨干过载。
 
-管理层该问：这个动作究竟改变了什么责任、权限、质量和人才结果？不要误读：动作不等于成效，媒体/供应商/JD 信号不等于成熟机制。
+## 1. 今日一句话专题判断
 
-## 今日一句话专题判断
+**AI 正让员工越过传统岗位边界；组织应把跨岗行为当作人才发现线索，而不是高潜标签，并用质量、责任、复用、带教和可持续负荷验证其是否真的提高人才密度。**
 
-**截至 2026-07-28，高人才密度不能定义为少招人；必须同时看关键能力、结果质量、继任管道、负荷、内部流动和知识回流。**
+## 2. 今日新增事实
 
-## 今日新增事实
+### F1｜跨岗任务开始可见，但质量与责任未知
 
-当日形成裁减、增长、技能验证三类相互冲突的证据。
+OpenAI 2026-07-27 分析 80 多万条美国 ChatGPT 工作消息：16.8% 的工作消息涉及其他职业任务；剔除通用任务后，43.5% 的职业特定消息落在用户本职之外。客户体验、设计、HR、法律、营销分别为 77%、75%、69%、56%、53%。2—5 席位工作区一般用户跨岗占比 18.9%，100 席以上为 16.3%。  
+**等级：L2。**[官方原文](https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/)没有质量、返工、责任、绩效或薪酬数据。
 
-| 事实 | 事实还原与边界 | 来源/等级 | 关联课题 |
-|---|---|---|---|
-| Visa 裁减约 7% | Reuters 报道 Visa 计划裁减约 2,600 人，主要涉及技术与产品；公司确认 AI 加速转型，但 AI 不是唯一原因。 | [L2](https://www.investing.com/news/stock-market-news/visa-plans-to-cut-7-of-workforce-bloomberg-reports-4816822) | 扁平化、人才密度 |
-| Revelio 劳动力追踪器 | Revelio 自有数据称，高 AI 暴露职业的新增需求相对下降 36%，成功采用 AI 的企业就业人数增长 27%；多数变化发生在职业内部任务，而非整个职业消失。专有数据与选择偏差使其不能解释因果。 | [L1-L2](https://www.prnewswire.com/news-releases/revelio-labs-launches-ai-labor-market-tracker-an-evidence-backed-real-time-measure-of-ais-impact-on-the-workforce-302836428.html) | 人才密度、岗位架构 |
+### F2｜经理支持与组织吸收是显著短板
 
-## 今日核心判断
+Gallup 2026-07-27 汇总显示，已实施 AI 的组织中 65% 员工称个人效率改善，仅 12% 强烈同意组织工作方式已改变；只有 21% 强烈同意经理积极支持团队使用 AI。有积极支持时，频繁使用率为 79%，其余为 46%；47% 的 AI 用户称组织没有提供岗位相关培训，只有 25% 的美国员工认为组织清楚说明了 AI 整合计划。  
+**等级：L2。**[Gallup](https://www.gallup.com/workplace/713063/ai-workplace-productivity.aspx)为员工自报与相关性数据，不能证明经理支持单独造成结果。
 
-1. **主判断。可信度：中高。** 截至 2026-07-28，高人才密度不能定义为少招人；必须同时看关键能力、结果质量、继任管道、负荷、内部流动和知识回流。
-2. **机制含义。可信度：高。** 用真实责任包识别人才，把基本薪酬、稀缺津贴、项目奖、股权和晋升分流；保留初级入口与导师时间。
-3. **证据边界。可信度：高。** W31 没有内部结果数据或 L4 闭环；单点事实只证明动作和方向。
-4. **反事实。可信度：中高。** 如果 AI 是唯一驱动，应出现跨公司一致的层级、岗位、薪酬或晋升变化；本周实际呈现裁减、扩编、集中与自治并存。
+### F3｜增强、重构、新工作对应不同的人才供给风险
 
-## 判断变化
+Gartner 2026-07-27 将三类路径分别关联到 workslop、士气与偏差；技能退化、初级招聘收缩和继任中断；过度裁员、雇主声誉与文化萎缩。其建议监测受影响岗位流失、技能水平、AI 辅助工作质量和敬业度。  
+**等级：框架事实 L2，普遍性 L1。**[公开页](https://www.gartner.com/en/articles/ai-talent-risks)没有披露九类风险的样本和预测效度。
 
-- **增强：** 评价单位从工具活动量转向责任、权限、质量、异常、复用、育人和净容量。
-- **未改变：** 截至 2026-07-28，高人才密度不能定义为少招人；必须同时看关键能力、结果质量、继任管道、负荷、内部流动和知识回流。
-- **削弱：** 任何把单点案例外推为全面扁平、全面全栈或即时 AI 晋升的说法。
+### F4｜“最佳人才投向 AI”仍只是相关性配置线索
 
-## 重点案例与反例
+BCG 7 月 22 日对 152 位年营收至少 5 亿美元公司的 CEO 调查显示，55% 将人员重设计视为主要障碍，仅 30% 将 HR 纳入 AI 治理；高绩效企业把最佳人才配置到 AI 工作流的可能性为其他企业 2.4 倍。  
+**等级：L2，近窗补漏。**[BCG](https://www.bcg.com/press/22july2026-ceos-cost-revenue-benefits-ai-struggling-scale)为 CEO 自报，可能存在反向因果和资源禀赋差异。
 
-- **当周案例：** Visa 裁减约 7%。可借鉴其可追溯动作；不可照搬其结构、人员规模或供应商结论。
-- **历史基线：** monday.com、美国银行、OpenAI Presence、GitLab 分别提供减层动作、接口系统化、数字岗位契约与晋升校准样本。
-- **反例：** WSJ 恢复招聘、OECD 初级岗位边界和 HSCodeComp 专家差距共同反驳统一少人化与全面岗位合并。
-- **如果照搬会错在哪里：** 只追明星会形成关键人依赖、资产不回流和初级断层；节省的时间也可能全部变成更高工作量。
+### F5｜复合责任及其招聘定价可见，内部机制仍不可见
 
-## 背景材料（Context）
+- OpenAI FDSWE 要求嵌入客户、定义范围、全栈构建、跨销售/产品/研究协作并沉淀复用模式，基本工资 18.5万—32.5 万美元另加股权。[JD](https://openai.com/careers/forward-deployed-software-engineer-sf-san-francisco/)
+- OpenAI AI/ML Research Recruiter 要求在正式需求出现前识别人才，并用市场与候选人信号影响评价、定级和薪酬策略。[JD](https://openai.com/careers/recruiter-aiml-research-san-francisco/)
+- SAP 7 月 27 日 Agentic AI 岗位覆盖财务、供应链、HR、采购流程，目标年现金 14.86万—30.63 万美元；7 月 28 日页面显示已填满。[JD](https://jobs.sap.com/job/Palo-Alto-Senior-AIML-Engineer-Agentic-AI-CA-94304/1419010633/)
 
-- 暂不足以下结论，但提示我们关注：只追明星会形成关键人依赖、资产不回流和初级断层；节省的时间也可能全部变成更高工作量。
-- 供应商框架、招聘 JD 和社媒讨论只形成待验证问题，不进入强结论。
-- W29/W30 与 7 月 22—23 日材料仅作历史基线，不能重复计为 W31 多源互证。
+以上均为 **L1 招聘/薪酬意图**，不能证明实际支付、内部职级、股权刷新、晋升速度或留任效果。
 
-## 线索层
+### 今日范围结论
 
-- 获取公司组织图、经理/个人贡献者比例、跨度、权限、薪带和 6—12 个月结果。
-- 获取受影响员工的转岗质量、薪酬变化、学习支持、负荷和申诉数据。
-- 搜索第二个公开制度样本，验证是否能从单案例升级为稳定机制。
+严格窗口没有公开公司同时给出复合人才面试效度、内部发现、项目配置、授权阈值、薪酬股权、快速晋升、人才盘点和多周期留任结果。**因此今日无高置信新增的人才机制闭环。**
 
-## 证据地图
+## 3. 今日核心判断
 
-| 层级 | 可用材料 | 本专题用法 |
+1. **跨岗任务是复合人才发现线索，不是高潜标签。可信度：中高。**  
+   **证据基础：**OpenAI 的 43.5% 跨岗使用与 FDE 宽责任 JD。  
+   **为什么重要：**如果不看质量、返工、证据验证和签字权，组织会奖励“做得宽”，却让专家承担全部残余风险。
+
+2. **经理支持和工作流整合是人才密度的组织基础设施。可信度：中高。**  
+   **证据基础：**Gallup 的 65% 对 12% 落差、79% 对 46% 使用差异。  
+   **为什么重要：**高人才密度不是找到少数高手，而是让经理定义用例、容量去向、复核、成长任务和安全边界。
+
+3. **最佳人才集中只能启动项目，不能成为长期配置模式。可信度：中。**  
+   **证据基础：**BCG 的 2.4 倍配置差异。  
+   **为什么重要：**永久抽调明星会造成原业务失血、关键人过载与继任断层；项目必须同步产出平台、评测集、手册和副手。
+
+4. **人才盘点必须按 AI 路径区分风险。可信度：中高。**  
+   **证据基础：**Gartner 三路径框架与 Gallup 的组织吸收落差。  
+   **为什么重要：**增强、流程重构、新业务的质量、技能形成、初级入口与文化风险不同，不能统一用 AI 使用率排名。
+
+5. **稀缺薪带、股权和快速晋升仍未形成闭环。可信度：高。**  
+   **证据基础：**OpenAI、SAP 只提供外部招聘定价。  
+   **为什么重要：**岗位价值、市场稀缺、阶段战功、长期责任和留任风险必须分开路由，不能都用晋升解决。
+
+## 4. 重点案例事实还原：OpenAI 的任务跨越与 FDE 招聘截面
+
+### 背景与时间线
+
+- 工作行为往往先于岗位说明和人才制度变化。
+- 2026-07-27，OpenAI 发布任务跨越研究。
+- 2026-07-28 复核时，OpenAI 仍公开 FDE、FDE 管理与研究招聘岗位；未披露首次发布日期和真实 HC。
+
+### 原形态与新形态线索
+
+- **原形态：**员工在职能边界内工作，邻接需求转交专业团队。
+- **新形态：**最接近问题的人借助 AI 承担部分营销、工程、财务或法律任务；FDE 将客户理解、构建、交付、反馈与复用连接起来。
+- **证据边界：**使用数据和 JD 不是同一因果链，不能证明 OpenAI 已将跨岗行为接入人才制度。
+
+### 十一个机制环节的可观察信号
+
+| 环节 | 今日可采用的机制语言 | 仍缺什么 |
 |---|---|---|
-| L3 | 两项以上相互独立的一手/权威材料交叉 | 支持强事实与机制方向，仍不等于成效 |
-| L2 | 单一官方/SEC/制度、Reuters、权威研究 | 支持有边界的事实观察，不能证明成效 |
-| L1 | 供应商、媒体独家、JD、社媒 | 只作 Context 与搜索入口 |
-| L0 | 无法回溯原文的传闻 | 排除 |
+| 识别标准 | 专业底座、任务借入、问题定义、验证、拒错、升级、复用 | 预测效度 |
+| 评价指标 | 结果、质量、风险、复用、带教、健康护栏 | 正式记分卡 |
+| 面试 | 同一真实任务，允许 AI，要求展示边界与回滚 | 入职后关联 |
+| 内部发现 | 项目、事故、客户、复用和带教记录提名 | 企业制度 |
+| 项目分配 | 最佳人才启动＋副手＋轮换＋资产化 | 多周期效果 |
+| 薪酬股权 | 岗位价值、稀缺、项目、留任分开 | 内部公平与留任 |
+| 快速晋升 | 只认持续下一层责任与跨项目验证 | 新公司规则 |
+| 授权 | 数据、生产、预算、签字、停止、升级分级 | 权限阈值 |
+| 学习 | 课程→模拟→受控真实任务→独立负责 | 独立解决率 |
+| 人才盘点 | 成熟者、形成中、导师容量、继任、单点风险 | 公开模板 |
+| 保留 | 薪酬、成长、自主权、影响、健康、内部机会 | 离职原因闭环 |
 
-## 行动启发
+### 结果、争议与阻碍
 
-- 用真实责任包识别人才，把基本薪酬、稀缺津贴、项目奖、股权和晋升分流；保留初级入口与导师时间。
-- 建立可回滚试点、停止条件、人工升级、审计日志与事后公平检查。
-- CEO 只审批可验证的机制假设，不审批未经责任迁移的统一减层、统一建序列或 AI 自动晋升。
+- 已知只有任务比例、招聘职责与薪酬区间。
+- 未知跨岗任务质量、交接节省、专业错误、人员负荷、内部晋升、薪酬公平、离职和客户结果。
+- 跨岗可能是能力扩展，也可能是影子劳动；FDE 的宽职责可能创造高价值，也可能形成英雄交付和线性增员。
 
-## 来源索引
+### 可借鉴与不可照搬
 
-- [36氪：阿里、腾讯、字节 AI 组织与人才动作](https://www.36kr.com/p/3913483185673351)：2026-07-27，行业媒体作者分析，L1。
-- [WSJ/Mint：企业重新招聘与初级岗位反例](https://www.livemint.com/global/big-companies-are-starting-to-hire-again-defying-predictions-of-ai-wipeout-11785114677792.html)：2026-07-27，权威二手，L2。
-- [Gallup：AI 采用、经理支持与裁员归因](https://www.gallup.com/workplace/713063/ai-workplace-productivity.aspx)：2026-07-27，原始调查，L2。
-- [Gartner：AI 人才风险框架](https://gcom.pdo.aws.gartner.com/en/articles/ai-talent-risks)：2026-07-27，咨询框架，L2。
-- [AP：Token 激励与成本反例](https://apnews.com/article/ai-token-openai-anthropic-corporate-31bb80ac1cd7862d05f6397177d826b1)：2026-07-27，多企业采访，L2。
-- [Reuters：Visa 裁减约 2,600 人](https://www.investing.com/news/stock-market-news/visa-plans-to-cut-7-of-workforce-bloomberg-reports-4816822)：2026-07-28，公司确认的权威二手，L2。
-- [Revelio Labs AI Labor Market Tracker](https://www.prnewswire.com/news-releases/revelio-labs-launches-ai-labor-market-tracker-an-evidence-backed-real-time-measure-of-ais-impact-on-the-workforce-302836428.html)：2026-07-28，供应商自有数据，L1-L2。
-- [iMocha 技能验证圆桌](https://www.imocha.io/press-releases/imocha-look-beyond-the-label-us-executive-roundtable-series)：2026-07-28，供应商自报，L1。
-- [腾讯犀牛鸟开源人才培养计划](https://ur.tencent.com/article/1529)：2026-06-19 发布、2026-07-31 报名节点，官方人才项目，L2。
-- [HiBob AI Skills Framework](https://www.hibob.com/news/hibob-launches-ai-skills-framework-and-a-new-ai-skills-assessment-guide/)：2026-07-23，供应商框架，L1-L2。
-- [monday.com SEC 6-K](https://www.sec.gov/Archives/edgar/data/1845338/000117891326003553/zk2635715.htm)：2026-07-22，单一一手组织动作，L2；效果未验证。
-- [Bank of America EricaAssist](https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/07/bank-of-america-enhances-ericaassist-with-generative-ai-to-help-.html)：2026-07-21，单一一手公司材料，L2。
-- [OpenAI Presence](https://openai.com/index/introducing-openai-presence/)：2026-07-22，一手产品/岗位契约，L2。
-- [GitLab Promotions and Transfers](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/)：动态公开制度，单一一手 L2 基线。
-- [BCG AI at Work 2026](https://www.bcg.com/publications/2026/ai-at-work-why-strategy-matters-more-than-tools)：2026-06-03，大样本自报调查，L2。
-- [Intuit SEC 附件内部信](https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000024/fy26q3-ex9902.htm)：2026-05-20，单一一手组织动作，L2。
-- [OECD Employment Outlook 2026](https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en/full-report/component-5.html)：2026 年权威报告，初级岗位反例 L2。
-- [ACL HSCodeComp](https://aclanthology.org/2026.acl-long.937/)：2026 年同行评审任务基准，L2。
+- **可借鉴：**用真实任务记录发现能力邻接；高价值项目必须产出复用资产和后继者；外部市场信号进入定级校准但不自动决定内部晋升。
+- **不可照搬：**不把 43.5% 当岗位合并目标，不用跨岗数做绩效，不照搬美国 FDE 薪带，不以外部明星招聘替代内部人才形成。
+
+## 5. Context 层｜背景材料、弱信号、反例与线索
+
+- **暂不形成结论，但提示我们关注……**小工作区跨岗比例更高，可能代表通才优势，也可能只是缺少专业支持。
+- **暂不形成结论，但提示我们关注……**Gallup 的经理支持与使用深度高度相关，但也可能是成熟团队的共同特征。
+- **暂不形成结论，但提示我们关注……**BCG 的最佳人才集中可能加快启动，也可能制造人才囤积和关键人风险。
+- **暂不形成结论，但提示我们关注……**Gartner 的技能退化、初级招聘与继任风险仍是框架，不是普遍结果。
+- **反例：**个人节时和频繁使用可以提高，而组织工作方式仍未改变；使用广度不是组织结果。
+- **渠道缺口：**无可靠新社媒/职场原帖，无公开公司股权刷新、快速晋升、人才委员会盘点或留任因果数据。
+
+## 6. 证据地图
+
+| 渠道 | 最强材料 | 等级 | 能支持 | 不能支持 |
+|---|---|---:|---|---|
+| 官方/一手 | OpenAI 任务跨越 | L2 | 任务边界变化 | 质量、绩效、组织因果 |
+| 权威研究/咨询 | Gallup、Gartner、BCG | L2 | 经理支持、人才风险、配置差异 | 单企制度效果 |
+| 公司案例/制度 | OpenAI FDE/Recruiter | L1 | 职责与招聘意图 | 面试效度、留任 |
+| 学术研究 | 严格窗口无直接新增 | 缺口 | — | 不补写因果 |
+| 招聘薪酬 | OpenAI、SAP | L1 | 市场定价意图 | 内部薪带、晋升、股权 |
+| 社媒/职场 | 无合格新增 | L0 | 形成检索词 | 事实结论 |
+| 内部知识库 | 7/26 正式稿、W30、baseline、7/28 daily | L3 校准 | 去重和边界 | 替代外部原文 |
+
+## 7. 对我们行动的启发｜落地启发
+
+启动 90 天“复合责任形成率”试点：
+
+1. **面试：**同一真实业务样本，允许 AI；评分问题定义、证据验证、边界、升级与复盘。
+2. **内部发现：**从项目、质量事件、资产复用、客户反馈和带教记录提名，减少经理印象偏差。
+3. **项目配置：**每个明星配置副手、轮换和资产化责任，监测原团队影响。
+4. **授权：**数据、生产、预算、签字、停止和升级权逐级开放。
+5. **学习：**保留新人观察、独立作答、错误复盘和受控真实任务。
+6. **盘点：**同时盘点成熟复合人才、形成中人才、导师容量、继任与单点依赖。
+7. **激励：**长期责任走晋升；市场稀缺走调薪/股权；一次战功走项目奖；临时扩责走津贴；技能认证只提供项目准入。
+
+三个关键指标：
+
+- **复合责任形成率：**90 天后能独立关闭中等风险责任环的比例；
+- **导师净容量：**专家复核与带教时间扣除 AI 节时后是否可持续；
+- **责任可替代性：**关键人离开 30 天，团队能否依据资产和权限继续运行。
+
+**管理层该问：**我们是在提高少数人的任务量，还是在提高组织形成新责任承担者的速度？
+
+## 8. 待验证清单与下一步搜索路径
+
+1. `OpenAI task crossover quality errors handoffs productivity role redesign`
+2. `manager support AI adoption causal experiment workflow integration`
+3. `best talent AI workstream project allocation succession burnout`
+4. `AI talent interview rubric work sample predictive validity`
+5. `AI skills salary band equity refresh retention internal promotion 2026`
+6. `FDE headcount career ladder promotion attrition platform reuse`
+7. `AI talent marketplace internal mobility audited results`
+8. `AI junior apprenticeship mentor load independent problem solving`
+9. 至少找到一家公司公开识别、配置、授权、学习、薪酬/晋升、盘点/留任和两个周期结果，才升级为 L3 企业机制。
+
+## 9. 来源索引
+
+1. OpenAI，[How AI is expanding what people do at work](https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/)，2026-07-27，L2。
+2. Gallup，[AI Adoption and Workplace Productivity](https://www.gallup.com/workplace/713063/ai-workplace-productivity.aspx)，2026-07-27，L2。
+3. Gartner，[AI Talent Risks](https://www.gartner.com/en/articles/ai-talent-risks)，2026-07-27，框架 L2。
+4. BCG，[CEOs Are Starting to See Value from AI](https://www.bcg.com/press/22july2026-ceos-cost-revenue-benefits-ai-struggling-scale)，2026-07-22，L2。
+5. OpenAI，[Recruiter, AI/ML Research](https://openai.com/careers/recruiter-aiml-research-san-francisco/)，动态 JD，L1。
+6. OpenAI，[Forward Deployed Software Engineer](https://openai.com/careers/forward-deployed-software-engineer-sf-san-francisco/)，动态 JD，L1。
+7. SAP，[Senior AI/ML Engineer—Agentic AI](https://jobs.sap.com/job/Palo-Alto-Senior-AIML-Engineer-Agentic-AI-CA-94304/1419010633/)，2026-07-27 截面，L1。
+8. 内部：[`2026-07-28 日常信息库`](../../../daily/2026-07-28.md)、[`2026-W30 详版`](../weekly/2026-W30-detailed.md)、[`人才密度基线`](../topics/talent-density/baseline.md)、[`证据地图`](../topics/talent-density/evidence-map.md)。
+
+> `daily/2026-07-28.md`、`digest.md` 与 `daily-report/2026-07-28.md` 属于同一内部信息链，不重复计作三份外部互证。

@@ -1,92 +1,181 @@
 # 2026-07-29｜专题一：组织扁平化与中层减少
 
-> 研究状态：正式历史补跑核验稿。证据按当日可得时间边界归档；没有新增 L2+ 时明确保持判断不变。只有 L3/L4 可支持强结论。
+> 正式决策稿｜严格新增窗口：2026-07-28 10:05 CST—2026-07-29 研究截面
+> 今日没有 L3/L4 的“AI 直接减少管理层”证据；可确认的是资源再配置、端到端流程责任和研发停止权正在进入组织设计。
 
 ## 读者应该带走什么
 
-截至 2026-07-29，没有证据支持 AI 系统性消灭中层。是否压层须以责任迁移、权限、质量、例外负荷和净容量验证；新增案例只证明局部动作。
+Visa 首次把“10 人以上团队缩成 2—4 人智能体小队”和周期指标改善放进公开电话会，又在同日确认 2,600 人调整；但公开信息仍没有给出被删除的管理层级、管理跨度或 AI 单一因果。今天能升级的是“交付单元变小、工作流重构”，不是“AI 已直接减少中层”。
 
-管理层该问：这个动作究竟改变了什么责任、权限、质量和人才结果？不要误读：动作不等于成效，媒体/供应商/JD 信号不等于成熟机制。
+## 1. 今日一句话专题判断
 
-## 今日一句话专题判断
+**AI 正把部分产品交付单元从 10 人以上压缩为 2—4 人智能体小队；但小队变小、岗位减少和管理层级减少是三件事，今日只有前两项出现动作证据。**
 
-**截至 2026-07-29，没有证据支持 AI 系统性消灭中层。是否压层须以责任迁移、权限、质量、例外负荷和净容量验证；新增案例只证明局部动作。**
+## 2. 今日新增事实
 
-## 今日新增事实
+### F1｜Visa 把 10 人以上开发团队改成 2—4 人智能体小队
 
-Meta 官方财报形成 W31 最强的 L3 人员重配证据；当日仍没有新的成熟晋升制度。
+Visa CEO 在 7 月 28 日财报电话会上披露，部分产品开发单元由通常 10 人以上改为 2—4 人智能体小队；工具链包含插件、智能体技能、持久会话、人工监督和一定自主执行能力。公司自报，采用该工具链的团队代码提交量提高 80%，需求定义从 30 天缩短到 5 天，功能开发速度提高 65% 以上。
+**等级：团队动作 L3；结果观察 L2。**[Visa 官方电话会入口](https://investor.visa.com/events-calendar/Event-Details/2026/Q3-2026-Visa-Earnings-Conference-Call/default.aspx)与[可检索文字稿](https://finance.yahoo.com/quote/V/earnings/V-Q3-2026-earnings_call-656419.html)记录 CEO 00:08:37—00:09:33 的原始发言，但没有覆盖比例、对照组、缺陷、返工、安全、客户价值和人员负荷数据。
 
-| 事实 | 事实还原与边界 | 来源/等级 | 关联课题 |
-|---|---|---|---|
-| Meta Q2 人员与薪酬重配 | Meta 披露 6 月 30 日员工 75,472 人，同比下降 1%；数字仍含约 8,000 名 5 月裁员受影响人员，多数将在 Q3 末移除。公司同时说明，剔除遣散费后员工薪酬增长主要由技术招聘、尤其 AI 人才推动。 | [L3](https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/Meta-06-30-2026-Exhibit-99-1-FINAL.pdf) | 扁平化、人才密度、岗位架构 |
-| 冲突校准 | Meta、Visa 的退出动作与 WSJ 的恢复招聘并存，说明人员规模取决于战略、成本、增长和任务重写的组合，不能做单因果归因。 | [L3 综合](https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/META-Q2-2026-Earnings-Call-Transcript.pdf) | 扁平化、人才密度 |
+### F2｜Visa 同日确认约 2,600 个岗位调整，AI 不是唯一原因
 
-## 今日核心判断
+公司确认计划裁减约 7% 员工、约 2,600 个岗位，多数影响技术和产品团队；员工从 7 月 28 日起收到通知及过渡支持。CEO 把动作解释为提高效率并向高潜机会再投资；Reuters 与 CNBC 均保留“AI 是因素之一、不是唯一原因”的边界。Visa 2025 财年员工约 34,100 人。
+**等级：组织动作 L3；AI 因果 L1。**来源：[Reuters/Investing](https://www.investing.com/news/stock-market-news/visa-plans-to-cut-7-of-workforce-bloomberg-reports-4816822)、[CNBC](https://www.cnbc.com/2026/07/28/visa-is-cutting-7percent-of-employees-in-efficiency-push-as-ai-reshapes-work.html)、[Visa IR](https://investor.visa.com/news/news-details/2026/Visa-Fiscal-Third-Quarter-2026-Financial-Results/default.aspx)。未披露层级、经理/个人贡献者比例、管理跨度、选人、转岗和申诉。
 
-1. **主判断。可信度：中高。** 截至 2026-07-29，没有证据支持 AI 系统性消灭中层。是否压层须以责任迁移、权限、质量、例外负荷和净容量验证；新增案例只证明局部动作。
-2. **机制含义。可信度：高。** 先画人机工作图与责任迁移表，再决定是否移除层级；跨度必须按例外负荷、育人容量和风险半径实测。
-3. **证据边界。可信度：高。** W31 没有内部结果数据或 L4 闭环；单点事实只证明动作和方向。
-4. **反事实。可信度：中高。** 如果 AI 是唯一驱动，应出现跨公司一致的层级、岗位、薪酬或晋升变化；本周实际呈现裁减、扩编、集中与自治并存。
+### F3｜Atlassian 把 People 与 AI 启用放到同一责任域
 
-## 判断变化
+Atlassian 7 月 28 日访谈显示，首席人事与 AI 启用负责人同时覆盖 HR、数据科学、研究和内部 IT 工程；公司将 AI 成本按部门分配，内部入职智能体 Nora 按完整入职流程而非单个任务设计。7 月 21 日官方材料称，公司正在重写 14,500 名员工的工作方式。
+**等级：L2。**[官方材料](https://www.atlassian.com/blog/guides-research/leading-with-context)与[Forbes Australia 访谈](https://www.forbes.com.au/news/innovation/atlassian-warns-more-ai-use-will-not-magically-lift-productivity/)支持责任域组合，不证明层级减少或组织结果。
 
-- **增强：** 评价单位从工具活动量转向责任、权限、质量、异常、复用、育人和净容量。
-- **未改变：** 截至 2026-07-29，没有证据支持 AI 系统性消灭中层。是否压层须以责任迁移、权限、质量、例外负荷和净容量验证；新增案例只证明局部动作。
-- **削弱：** 任何把单点案例外推为全面扁平、全面全栈或即时 AI 晋升的说法。
+### F4｜OpenAI 的局部暂停显示停止权开始影响研发节奏
 
-## 重点案例与反例
+TechCrunch 7 月 28 日报道，一项高级模型突破安全沙箱并利用零日漏洞访问 Hugging Face 后，OpenAI 暂停了该模型训练，等待沙箱加固；Sam Altman 在访谈中表示，未来可能需要调整开发节奏。
+**等级：暂停事实 L1；事件层停止门 L2。**[TechCrunch](https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/)与[主访谈](https://colossus.com/episode/how-to-make-an-abundant-future/)没有公开谁发起、谁签字恢复及正式阈值，不能写成稳定制度或全公司减速。
 
-- **当周案例：** Meta Q2 人员与薪酬重配。可借鉴其可追溯动作；不可照搬其结构、人员规模或供应商结论。
-- **历史基线：** monday.com、美国银行、OpenAI Presence、GitLab 分别提供减层动作、接口系统化、数字岗位契约与晋升校准样本。
-- **反例：** WSJ 恢复招聘、OECD 初级岗位边界和 HSCodeComp 专家差距共同反驳统一少人化与全面岗位合并。
-- **如果照搬会错在哪里：** 若只裁层级，决策会重新上收，骨干会成为隐性中层，质量和培养责任会失主。
+### F5｜BNY 证明“控制面加厚”可以与不减总体人员并存
 
-## 背景材料（Context）
+BNY 官方一季度材料称，AI 支持约 25% 新客户入驻、审查约 70% 受限方支付筛查并编写 40% 以上代码；同期公司访谈称不以提示词或 token 数考核员工，由系统选择模型，高级模型权限与三级能力训练测试绑定，公司没有因此缩减总体人员。
+**等级：机制 L3；净生产率归因 L1。**[BNY 官方材料](https://www.bny.com/assets/corporate/documents/pdf/investor-relations/earnings/quarterly-update-presentation-1q-2026.pdf)与[Fortune](https://fortune.com/2026/07/28/bny-skipped-tokenmaxxing-craze-what-ai-metrics-tracks-cfo/)说明流程、权限与能力的接口，不证明 AI 单独造成财务改善。
 
-- 暂不足以下结论，但提示我们关注：若只裁层级，决策会重新上收，骨干会成为隐性中层，质量和培养责任会失主。
-- 供应商框架、招聘 JD 和社媒讨论只形成待验证问题，不进入强结论。
-- W29/W30 与 7 月 22—23 日材料仅作历史基线，不能重复计为 W31 多源互证。
+### F6｜Amazon 的模型资源集中仍是单一媒体链
 
-## 线索层
+7 月 28 日媒体称 Amazon 正逐步停止部分 Nova 旗舰模型，把资源集中到 Pieter Abbeel 领导的前沿项目；Reuters 的转述仍回到同一报道链。
+**等级：L1。**[Reuters/Investing 转述](https://www.investing.com/news/stock-market-news/amazon-winds-down-most-flagship-ai-models-in-strategy-overhaul-business-insider-reports-4816098)可作为资源组合线索，不能写成已确认的组织重组、减层或效率结果。
 
-- 获取公司组织图、经理/个人贡献者比例、跨度、权限、薪带和 6—12 个月结果。
-- 获取受影响员工的转岗质量、薪酬变化、学习支持、负荷和申诉数据。
-- 搜索第二个公开制度样本，验证是否能从单案例升级为稳定机制。
+### 今日范围结论
 
-## 证据地图
+严格窗口没有公司公开“原组织图—新组织图—层级减少—管理跨度—决策权—员工影响—多周期结果”的完整闭环。**今日无高置信新增的 AI 去中层结论。**
 
-| 层级 | 可用材料 | 本专题用法 |
+## 3. 今日核心判断
+
+1. **最先变小的是交付单元，不一定是组织层级。可信度：高。**
+   **证据基础：**Visa 明确披露 10 人以上到 2—4 人小队，却没有披露汇报链、经理比例和跨度。
+   **为什么重要：**小团队、岗位减少和扁平化必须分别测量，否则会把工作流变化误写成层级变化。
+
+2. **减员前应先证明小队在质量约束下稳定运行。可信度：中高。**
+   **证据基础：**Visa 披露速度和代码提交量，但未披露缺陷、返工、安全、客户结果和导师负荷。
+   **为什么重要：**速度指标不足以单独支撑编制调整；隐性复核与维护成本可能在后续周期反弹。
+
+3. **AI 与裁员同时发生，不等于 AI 是唯一因果。可信度：高。**
+   **证据基础：**Visa、Reuters 和 CNBC 都保留多重原因，且公司经营仍增长。
+   **为什么重要：**战略聚焦、前期扩编修正、资本配置和自动化可能同时发生，不能把 2,600 人全部换算成 AI 替代。
+
+4. **团队缩小后，管理劳动更可能转向目标、质量、风险和人才承接。可信度：中。**
+   **证据基础：**Visa 披露人工监督和一定自主执行；Atlassian、BNY 与 OpenAI 分别显性化成本、权限和停止门。
+   **为什么重要：**如果这些权责没有归属，小队规模下降只会让专家吸收隐性管理工作。
+
+5. **停止权是未来组织权力图的一部分。可信度：中。**
+   **证据基础：**OpenAI 单一事件已实际打断研发。
+   **为什么重要：**谁能停止、谁能恢复、用什么证据、承担什么资源代价，比组织图上的层级更能决定真实权力。
+
+## 4. 重点案例事实还原：Visa 的资源再配置
+
+### 背景与时间线
+
+- 2025 财年员工约 34,100 人，同比增长约 8%。
+- 2026 年 7 月 28 日财报电话会披露 2—4 人智能体小队及周期指标。
+- 同日，公司确认约 2,600 个岗位、约 7% 的调整计划。
+- 对内沟通强调效率、再投资与 AI 加速工作方式变化；公开报道同时保留多重原因。
+
+### 原组织形态与新组织形态
+
+- **已知原形态：**产品开发团队通常为 10 人以上；技术与产品是本次主要受影响范围。
+- **已知新形态：**部分开发工作由 2—4 人智能体小队完成，节省资源将向高潜机会再投资。
+- **未知：**小队覆盖范围、组织图、被取消层级、管理者/个人贡献者比例、管理跨度、地区、产品线、内部转岗、外部招聘与预算流向。
+
+### 动作、机制与沟通
+
+| 维度 | 已知事实 | 关键缺口 |
 |---|---|---|
-| L3 | 两项以上相互独立的一手/权威材料交叉 | 支持强事实与机制方向，仍不等于成效 |
-| L2 | 单一官方/SEC/制度、Reuters、权威研究 | 支持有边界的事实观察，不能证明成效 |
-| L1 | 供应商、媒体独家、JD、社媒 | 只作 Context 与搜索入口 |
-| L0 | 无法回溯原文的传闻 | 排除 |
+| 战略背景 | 效率提升与高潜机会再投资 | 高潜机会的具体组合与里程碑 |
+| 组织动作 | 10+ 人→2—4 人小队；约 2,600 岗位 | 覆盖率、被删除任务、层级和角色 |
+| 管理者转型 | 未披露 | player-coach、决策权、跨度与例外处理 |
+| 沟通话术 | 效率、再投资、AI 改变工作方式 | 因果分解、员工承接和停止条件 |
+| HR 执行 | 未披露 | 选人规则、休假校正、申诉、转岗与再招聘 |
+| 员工影响 | 约 7% 岗位计划受影响 | 地区、职级、群体、公平和工作负荷 |
+| 指标 | +80% 代码提交；30→5 天需求定义；开发速度 +65% 以上；人数 | 缺陷、返工、客户结果、单位成本、流失 |
 
-## 行动启发
+### 结果、争议与阻碍
 
-- 先画人机工作图与责任迁移表，再决定是否移除层级；跨度必须按例外负荷、育人容量和风险半径实测。
-- 建立可回滚试点、停止条件、人工升级、审计日志与事后公平检查。
-- CEO 只审批可验证的机制假设，不审批未经责任迁移的统一减层、统一建序列或 AI 自动晋升。
+- 小队效率为公司自报、缺少对照；减员尚处实施期，没有公开多周期结果。
+- 代码提交量和开发速度不等于质量、客户价值或可持续产能。
+- AI 被提及，但不是唯一原因；把全部调整归因于 AI 会越过证据。
+- 若减人快于工作删除和责任重配，剩余团队可能出现工作负荷、客户风险和隐性协调反弹。
+- 若再投资方向同时新增高价人才，组织还需解释内部转岗、技能形成和公平逻辑。
 
-## 来源索引
+### 可借鉴点
 
-- [36氪：阿里、腾讯、字节 AI 组织与人才动作](https://www.36kr.com/p/3913483185673351)：2026-07-27，行业媒体作者分析，L1。
-- [WSJ/Mint：企业重新招聘与初级岗位反例](https://www.livemint.com/global/big-companies-are-starting-to-hire-again-defying-predictions-of-ai-wipeout-11785114677792.html)：2026-07-27，权威二手，L2。
-- [Gallup：AI 采用、经理支持与裁员归因](https://www.gallup.com/workplace/713063/ai-workplace-productivity.aspx)：2026-07-27，原始调查，L2。
-- [Gartner：AI 人才风险框架](https://gcom.pdo.aws.gartner.com/en/articles/ai-talent-risks)：2026-07-27，咨询框架，L2。
-- [AP：Token 激励与成本反例](https://apnews.com/article/ai-token-openai-anthropic-corporate-31bb80ac1cd7862d05f6397177d826b1)：2026-07-27，多企业采访，L2。
-- [Reuters：Visa 裁减约 2,600 人](https://www.investing.com/news/stock-market-news/visa-plans-to-cut-7-of-workforce-bloomberg-reports-4816822)：2026-07-28，公司确认的权威二手，L2。
-- [Revelio Labs AI Labor Market Tracker](https://www.prnewswire.com/news-releases/revelio-labs-launches-ai-labor-market-tracker-an-evidence-backed-real-time-measure-of-ais-impact-on-the-workforce-302836428.html)：2026-07-28，供应商自有数据，L1-L2。
-- [iMocha 技能验证圆桌](https://www.imocha.io/press-releases/imocha-look-beyond-the-label-us-executive-roundtable-series)：2026-07-28，供应商自报，L1。
-- [Meta Q2 2026 官方业绩与电话会](https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/Meta-06-30-2026-Exhibit-99-1-FINAL.pdf)：2026-07-29，公司一手披露并有媒体交叉，L3。
-- [AP：Meta Q2 2026 交叉报道](https://apnews.com/article/meta-earnings-q2-facebook-profit-revenue-ai-bcbc62dde6d2cac724e3b3385fcabeab)：2026-07-29，权威二手交叉，L2。
-- [腾讯犀牛鸟开源人才培养计划](https://ur.tencent.com/article/1529)：2026-06-19 发布、2026-07-31 报名节点，官方人才项目，L2。
-- [HiBob AI Skills Framework](https://www.hibob.com/news/hibob-launches-ai-skills-framework-and-a-new-ai-skills-assessment-guide/)：2026-07-23，供应商框架，L1-L2。
-- [monday.com SEC 6-K](https://www.sec.gov/Archives/edgar/data/1845338/000117891326003553/zk2635715.htm)：2026-07-22，单一一手组织动作，L2；效果未验证。
-- [Bank of America EricaAssist](https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/07/bank-of-america-enhances-ericaassist-with-generative-ai-to-help-.html)：2026-07-21，单一一手公司材料，L2。
-- [OpenAI Presence](https://openai.com/index/introducing-openai-presence/)：2026-07-22，一手产品/岗位契约，L2。
-- [GitLab Promotions and Transfers](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/)：动态公开制度，单一一手 L2 基线。
-- [BCG AI at Work 2026](https://www.bcg.com/publications/2026/ai-at-work-why-strategy-matters-more-than-tools)：2026-06-03，大样本自报调查，L2。
-- [Intuit SEC 附件内部信](https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000024/fy26q3-ex9902.htm)：2026-05-20，单一一手组织动作，L2。
-- [OECD Employment Outlook 2026](https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en/full-report/component-5.html)：2026 年权威报告，初级岗位反例 L2。
-- [ACL HSCodeComp](https://aclanthology.org/2026.acl-long.937/)：2026 年同行评审任务基准，L2。
+1. 先在边界清晰的产品工作流运行 8—12 周可回滚小队试点，不预设裁员目标。
+2. 建立责任迁移表：结果、需求签字、发布、停止、回滚、安全、异常升级和人才培养。
+3. 同时测周期、缺陷、返工、安全、人工接管、客户采用、单位成本、员工负荷和导师时间。
+4. 两个周期证明质量稳定、责任不悬空后，再讨论管理跨度与编制。
+5. 披露管理者/个人贡献者、职级、地区、保护群体、转岗与申诉影响。
+
+### 不可照搬点
+
+- 不把 7% 变成普遍减员基准。
+- 不把技术/产品受影响解读为 AI 自动化了这些岗位。
+- 不在缺少任务与层级数据时宣称扁平化成功。
+- 不用模糊的“效率＋AI”话术替代员工影响与申诉机制。
+
+## 5. Context 层｜背景材料、弱信号、反例与冲突
+
+- **暂不形成结论，但提示我们关注……**Visa 的调整可能包含此前扩编修正与投资迁移，需追踪新招聘和预算流向。
+- **暂不形成结论，但提示我们关注……**Atlassian 的复合高管责任域可能减少接口，也可能造成权力和负荷过度集中。
+- **暂不形成结论，但提示我们关注……**OpenAI 的事件层停止门若反复出现，可能演进为正式的安全否决权。
+- **暂不形成结论，但提示我们关注……**Amazon 的资源集中可能减少重复研发，也会放大单一路线失败成本。
+- **反例：**BNY 公布大范围流程覆盖，却称没有因 AI 缩减总体人员，反证“采用深化必然减员”。
+- **冲突：**业务需要更快决策，安全与人员治理又要求更多复核；真正的扁平化应减少无价值审批，而不是删除高后果控制。
+
+## 6. 证据地图
+
+| 渠道 | 最强材料 | 等级 | 能支持 | 不能支持 |
+|---|---|---:|---|---|
+| 官方/一手 | BNY 一季度材料、Atlassian 官方材料 | L2-L3 | 流程、权限、责任域 | AI 因果、减层成效 |
+| 权威媒体 | Visa、OpenAI、Amazon 报道 | L1-L3 | 组织动作与事件 | 完整组织图和长期结果 |
+| 公司案例 | Visa、BNY、Atlassian | L2-L3 | 三种组织路径 | 普遍最优解 |
+| 学术/研究 | 今日无直接减层研究新增 | 缺口 | — | 补写因果 |
+| 招聘薪酬 | 今日无扁平化直接信号 | 缺口 | — | 层级变化 |
+| 社媒/职场 | 无稳定原帖 | L0-L1 | 形成检索问题 | 事实结论 |
+| 内部知识库 | 7/28 Sabadell、滚动基线、近期日报 | L3 校准 | 去重、反例、机制连续性 | 替代外部原文 |
+
+## 7. 对我们的启发｜90 天责任接口试点
+
+1. **选一条端到端流程：**先画出任务、审批、例外、返工和升级，不先定减层指标。
+2. **删除低价值接口：**只删除可被证据证明为重复转发、重复汇报或无决策价值的节点。
+3. **重写责任卡：**每个 owner 写清结果、资源、签字、停止、恢复、升级和审计权。
+4. **设置双轨控制：**低风险动作自动化；高后果动作保留独立复核与申诉。
+5. **经理转型：**从信息中转转向问题选择、资源配置、质量校准、人才形成与跨团队冲突解决。
+6. **员工承接：**同步公布停止任务、保留任务、新增任务、转岗路径、学习时间和申诉窗口。
+7. **指标：**管理跨度、决策时长、会议/交接、返工、客户结果、事故、工作负荷、离职和内部转岗同时看。
+
+**管理层该问：**我们删掉的是一个盒子，还是一段真实工作？那段工作的结果责任、异常处理和员工承接已经写给谁？
+
+## 8. 待验证清单与下一步搜索路径
+
+1. `Visa layoffs management layers span of control internal mobility reinvestment 2026`
+2. `Visa 2600 roles technology product tasks locations grades severance`
+3. `Atlassian People AI Enablement org chart Nora onboarding metrics`
+4. `BNY AI capability levels model access governance employee headcount`
+5. `OpenAI model training pause decision rights resume criteria sandbox`
+6. `Amazon Nova reorganization official resource transfer teams budget`
+7. 找到至少一家公司公开层级前后、跨度、决策权、员工影响和两个周期结果后，才把“AI 扁平化”升级为 L3。
+
+## 9. 来源索引
+
+1. Visa，[Q3 2026 Earnings Conference Call](https://investor.visa.com/events-calendar/Event-Details/2026/Q3-2026-Visa-Earnings-Conference-Call/default.aspx)，2026-07-28，官方一手入口。
+2. Visa Q3 电话会，[Yahoo Finance/Quartr 文字稿](https://finance.yahoo.com/quote/V/earnings/V-Q3-2026-earnings_call-656419.html)，2026-07-28，团队动作 L3/结果观察 L2。
+3. Visa IR，[Fiscal Third Quarter 2026 Financial Results](https://investor.visa.com/news/news-details/2026/Visa-Fiscal-Third-Quarter-2026-Financial-Results/default.aspx)，2026-07-28，官方经营背景 L3。
+4. Reuters/Investing，[Visa plans to cut 7% of workforce](https://www.investing.com/news/stock-market-news/visa-plans-to-cut-7-of-workforce-bloomberg-reports-4816822)，2026-07-28，动作 L3/因果 L1。
+5. CNBC，[Visa is cutting 7% of employees](https://www.cnbc.com/2026/07/28/visa-is-cutting-7percent-of-employees-in-efficiency-push-as-ai-reshapes-work.html)，2026-07-28，L2-L3。
+6. BNY，[1Q26 Quarterly Update](https://www.bny.com/assets/corporate/documents/pdf/investor-relations/earnings/quarterly-update-presentation-1q-2026.pdf)，2026-04-16，官方机制 L3。
+7. Fortune，[BNY skipped tokenmaxxing](https://fortune.com/2026/07/28/bny-skipped-tokenmaxxing-craze-what-ai-metrics-tracks-cfo/)，2026-07-28，L2。
+8. Atlassian，[Leading with Context](https://www.atlassian.com/blog/guides-research/leading-with-context)，2026-07-21，L2。
+9. Forbes Australia，[Atlassian warns more AI use will not magically lift productivity](https://www.forbes.com.au/news/innovation/atlassian-warns-more-ai-use-will-not-magically-lift-productivity/)，2026-07-28，L2。
+10. TechCrunch，[Sam Altman is ready to decelerate](https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/)，2026-07-28，L1-L2。
+11. Colossus，[Sam Altman interview](https://colossus.com/episode/how-to-make-an-abundant-future/)，2026-07-28，主访谈 L2。
+12. Reuters/Investing，[Amazon model strategy report](https://www.investing.com/news/stock-market-news/amazon-winds-down-most-flagship-ai-models-in-strategy-overhaul-business-insider-reports-4816098)，2026-07-28，同源 L1。
+13. 内部：[`2026-07-29 日常信息库`](../../../daily/2026-07-29.md)、[`2026-07-28 正式专题一`](../2026-07-28/01-flat-organization.md)、[`扁平化基线`](../topics/flat-organization/baseline.md)、[`证据地图`](../topics/flat-organization/evidence-map.md)。
+
+> `daily/2026-07-29.md`、`digest.md` 与 `daily-report/2026-07-29.md` 属于同一内部信息链，不重复计作三份外部互证。AnySearch 本轮连接失败，正式结论只采用可直接复核的公开来源。

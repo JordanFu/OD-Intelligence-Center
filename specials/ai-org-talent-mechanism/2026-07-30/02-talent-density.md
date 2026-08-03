@@ -1,92 +1,234 @@
 # 2026-07-30｜专题二：高人才密度与复合型人才机制
 
-> 研究状态：正式历史补跑核验稿。证据按当日可得时间边界归档；没有新增 L2+ 时明确保持判断不变。只有 L3/L4 可支持强结论。
+> 正式决策稿｜研究截面：2026-07-30
+> 证据口径：L4＝外部证据与组织内结果、多周期数据交叉验证；L3＝强一手机制或方法透明的权威研究；L2＝单一强一手、权威调查或多条一致观察；L1＝动态招聘、计划、媒体线索或公司自报效果。
+> 去重说明：`digest.md`、`daily/2026-07-30.md`、`daily-report/2026-07-30.md` 与知识库中的 OECD 卡属于同一内部加工链，不重复计数。
 
 ## 读者应该带走什么
 
-截至 2026-07-30，高人才密度不能定义为少招人；必须同时看关键能力、结果质量、继任管道、负荷、内部流动和知识回流。
+今天最重要的修正是：**高人才密度不是一项“人才库存指标”，而是一套把高技能、数字基础设施、组织吸收能力和真实项目连接起来的供给系统。**Microsoft 披露的 330 个项目、164 家客户和约 6,000 名行业与工程专家，说明客户现场工程已从组织承诺进入规模覆盖；OpenAI 的外部研究者计划则把工具、培训、专家支持、同行学习和反馈放进同一网络。但两者都没有公开内部识别、面试、薪酬股权、快速晋升、人才盘点和留任结果。
 
-管理层该问：这个动作究竟改变了什么责任、权限、质量和人才结果？不要误读：动作不等于成效，媒体/供应商/JD 信号不等于成熟机制。
+因此，今天应升级“高技能 × 基础设施 × 吸收能力 × 项目配置”的方向判断，同时明确：**无高置信新增完整机制**。项目数、计划人数、动态招聘职位（JD）和调查相关性都不能当成人才效果。
 
-## 今日一句话专题判断
+## 1. 今日一句话专题判断
 
-**截至 2026-07-30，高人才密度不能定义为少招人；必须同时看关键能力、结果质量、继任管道、负荷、内部流动和知识回流。**
+**高人才密度的竞争单位正在从“拥有多少明星人才”转向“能否让高技能人才借助基础设施、共治机制和项目网络持续形成可复用责任闭环”；今天有组织动作和方向性研究，但没有从识别、招聘到激励、盘点、保留的高置信完整闭环。**
 
-## 今日新增事实
+## 2. 今日新增事实
 
-7 月 30 日 arXiv 发布既有 AI 面试工作论文的新版本；不是实验当日完成，也不能外推到晋升。
+### F1｜Microsoft 客户现场工程进入项目覆盖阶段
 
-| 事实 | 事实还原与边界 | 来源/等级 | 关联课题 |
-|---|---|---|---|
-| AI 面试自然田野实验 | 约 70,000 名申请者被随机分配到人工或语音 AI 面试，最终仍由人类招聘者评估和决策；论文报告 offer +12%、入职 +18%、30 日留任 +17%，未发现生产率下降。样本和利益冲突边界、同行评审与公平性仍需复核。 | [L2](https://arxiv.org/abs/2607.28222) | 人才密度、晋升 |
+Microsoft 在 7 月 29 日 FY26 Q4 电话会上披露，Frontier Company 计划嵌入约 6,000 名行业与工程专家；过去一年执行 330 个项目、覆盖 164 家客户。公司总人数同比下降 2%，同时继续增加研发算力、人才与数据投入。
+**证据等级：项目覆盖 L3；项目效果 L1。**“6,000 人”是 7 月初已公开的组织承诺，今天真正新增的是 330 个项目和 164 家客户；项目数不等于成功率、人才利用率或单位经济性。来源：[Microsoft FY26 Q4 电话会](https://www.microsoft.com/en-us/Investor/events/FY-2026/earnings-fy-2026-q4)。
 
-## 今日核心判断
+### F2｜OECD 把 AI 优势放回“高技能＋基础设施＋吸收能力”框架
 
-1. **主判断。可信度：中高。** 截至 2026-07-30，高人才密度不能定义为少招人；必须同时看关键能力、结果质量、继任管道、负荷、内部流动和知识回流。
-2. **机制含义。可信度：高。** 用真实责任包识别人才，把基本薪酬、稀缺津贴、项目奖、股权和晋升分流；保留初级入口与导师时间。
-3. **证据边界。可信度：高。** W31 没有内部结果数据或 L4 闭环；单点事实只证明动作和方向。
-4. **反事实。可信度：中高。** 如果 AI 是唯一驱动，应出现跨公司一致的层级、岗位、薪酬或晋升变化；本周实际呈现裁减、扩编、集中与自治并存。
+OECD 7 月 30 日发布的微观数据报告连接法国、葡萄牙企业与行政数据、葡萄牙约 300 万员工/年数据、23—45 国企业和专利数据，以及 382,108 家融资或持有专利的初创企业。报告没有发现 2020/2022 年非生成式 AI 使用与企业加价率系统性上升的稳定关系；高生成式 AI 暴露企业平均更小、更年轻，同时生产率与高学历员工占比更高。
+**证据等级：L2。**这是描述性关联，且采用数据早于当前智能体阶段；不能写成“高学历导致 AI 生产率”或“AI 已提高企业绩效”。来源：[OECD 报告页](https://www.oecd.org/en/publications/competition-in-the-age-of-ai_6f88a1ea-en.html)及[报告 PDF](https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/07/competition-in-the-age-of-ai_e9f49e20/6f88a1ea-en.pdf)。
 
-## 判断变化
+### F3｜两份 7 月 29 日调查共同指向人才系统与治理缺口
 
-- **增强：** 评价单位从工具活动量转向责任、权限、质量、异常、复用、育人和净容量。
-- **未改变：** 截至 2026-07-30，高人才密度不能定义为少招人；必须同时看关键能力、结果质量、继任管道、负荷、内部流动和知识回流。
-- **削弱：** 任何把单点案例外推为全面扁平、全面全栈或即时 AI 晋升的说法。
+Protiviti 于 2026 年 4 月调查近 800 名全球高管，80% 以上为最高管理层；仅 13% 的 CHRO 强烈认同本组织的角色设计已为 AI 做好准备，14% 强烈认同学习能力已就绪。全部高管口径为 28% 与 36%。报告要求高管对角色、薪酬、职业路径、技能和管理实践形成一致意见。
+**证据等级：L3 调查；准备度为高管自报。**来源：[Protiviti AI Pulse](https://www.protiviti.com/us-en/survey/ai-pulse)。
 
-## 重点案例与反例
+Cornerstone 委托 Vanson Bourne 调查 2,000 名 IT、HR 决策者及员工；仅 35% 的决策者称 AI 决策由 HR 与 IT 共同作出，50% 报告技能缺口长期未解决，44% 报告招聘、调配或重组决策延迟。报告称共同负责人才准备的组织处理人力变化快 13%、自认能跟上变化速度作决策的可能性高 67%。
+**证据等级：L2+。**后两项是横截面调查相关性，不能写成共治造成的因果效果。来源：[Cornerstone 官方研究发布](https://www.cornerstoneondemand.com/company/news-room/press-releases/ai-era-board-mandates-meet-a-reality-divide-new-cornerstone-research-shows-workforce-readiness-is-a-business-imperative-chros-and-cios-must-own-together/)。
 
-- **当周案例：** AI 面试自然田野实验。可借鉴其可追溯动作；不可照搬其结构、人员规模或供应商结论。
-- **历史基线：** monday.com、美国银行、OpenAI Presence、GitLab 分别提供减层动作、接口系统化、数字岗位契约与晋升校准样本。
-- **反例：** WSJ 恢复招聘、OECD 初级岗位边界和 HSCodeComp 专家差距共同反驳统一少人化与全面岗位合并。
-- **如果照搬会错在哪里：** 只追明星会形成关键人依赖、资产不回流和初级断层；节省的时间也可能全部变成更高工作量。
+### F4｜OpenAI 把外部研究者组织成“工具—支持—反馈”网络
 
-## 背景材料（Context）
+OpenAI 推出 ChatGPT for Academic Researchers，计划夏季先覆盖 10,000 名研究者，到 2027 年覆盖 100,000 人；设计包括免费前沿模型、最多四名校内协作者、培训、专家支持、同行学习与反馈渠道，并承诺到 2027 年投入超过 2.5 亿美元支持外部科研。
+**证据等级：计划设计 L2；覆盖、研究质量与反馈转化 L1。**10,000、100,000 和 2.5 亿美元都是计划/承诺，不是已经实现的人才结果。来源：[OpenAI Academic Researchers](https://openai.com/index/chatgpt-for-academic-researchers/)。
 
-- 暂不足以下结论，但提示我们关注：只追明星会形成关键人依赖、资产不回流和初级断层；节省的时间也可能全部变成更高工作量。
-- 供应商框架、招聘 JD 和社媒讨论只形成待验证问题，不进入强结论。
-- W29/W30 与 7 月 22—23 日材料仅作历史基线，不能重复计为 W31 多源互证。
+### F5｜动态 JD 显示复合责任包与深专业可以同时高定价
 
-## 线索层
+OpenAI 当前在招的 Strategic Pursuits Lead 从机会定义、商业结构到交付衔接端到端负责，横跨产品、前线部署、市场、法务、财务和运营，并要求把首创项目沉淀为可复用手册；公开基本工资 30.2 万—35.2 万美元并含股权。Extended Workforce Program Manager 是具有显著跨职能影响的个人贡献者，需在速度、成本、合规、风险与体验之间作判断，公开基本工资 21.6 万—24 万美元并含股权。Custom Infrastructure Tech Lead 则把硬件验证、部署、运维与可靠性放进同一深技术责任包，公开基本工资 34.2 万—44.5 万美元并含股权。
+**证据等级：L1-L2 招聘与定价意图。**不能跨岗位、地点和层级计算统一“AI 溢价”，也不能证明实际录用、绩效、晋升或留任。来源：[Strategic Pursuits Lead](https://openai.com/careers/strategic-pursuits-lead-san-francisco/)、[Extended Workforce Program Manager](https://openai.com/careers/extended-workforce-program-manager-san-francisco/)、[Custom Infrastructure Tech Lead](https://openai.com/careers/tech-lead-deployment-and-operations-custom-infrastructure-san-francisco/)。
 
-- 获取公司组织图、经理/个人贡献者比例、跨度、权限、薪带和 6—12 个月结果。
-- 获取受影响员工的转岗质量、薪酬变化、学习支持、负荷和申诉数据。
-- 搜索第二个公开制度样本，验证是否能从单案例升级为稳定机制。
+### F6｜Nava 的 75+ 人产品实践负责人是“既有职业族吸收 AI”的截面
 
-## 证据地图
+Nava 当前招聘产品管理副总裁，负责 75 人以上产品经理与政策策略师，要求将 AI 工作流嵌入多个产品团队、判断 AI 如何改变产品/设计/工程边界，并负责产品专业实践的标准、职级和职业方向；公开基本工资为 25 万—27.5 万美元，另有目标奖金。
+**证据等级：L1。**单一高管 JD 只能证明当前招聘意图，不能证明产品人才体系、面试机制、职级或保留制度已经落地。来源：[Nava 官方 Greenhouse 职位页](https://job-boards.greenhouse.io/navapbc/jobs/4302952009)。
 
-| 层级 | 可用材料 | 本专题用法 |
+### 今日范围结论
+
+严格窗口没有企业公开复合人才面试的预测效度、内部发现后的机会公平、项目配置后的质量与负荷、股权刷新、快速晋升、人才盘点或多周期留任结果。**今日无高置信新增的“识别—招聘—配置—授权—学习—激励—盘点—保留”完整机制。**
+
+## 3. 今日核心判断
+
+1. **高人才密度是互补资产的乘法，不是高学历或明星人数的加法。可信度：中高。**
+   **证据基础：**OECD 的跨国微观数据把高技能人才、数字基础设施、吸收能力与资本共同放回 AI 优势解释；Microsoft 的客户现场工程又显示人才必须被配置到真实项目。
+   **为什么重要：**只提高招聘门槛、削减编制或采购模型，不会自动形成业务结果；任一环节接近零，人才库存都难以转成组织能力。
+
+2. **复合型人才的识别单位仍应是“可验证责任包”，今天的 JD 只提供了字段，不提供效度。可信度：中高。**
+   **证据基础：**OpenAI 三个岗位共同出现问题定义、跨职能编排、风险权衡、端到端结果、复用沉淀；深基础设施岗位同时保留高度专业门槛。
+   **为什么重要：**“复合”不是泛化通才，也不是会用多种工具，而是以深专业锚点关闭跨边界结果环；面试必须验证过程与判断，不能只看履历或最终答案。
+
+3. **人才配置正在由组织内部岗位表外扩为客户现场与外部专家网络，但这不是内部人才密度结果。可信度：中。**
+   **证据基础：**Microsoft 的项目/客户覆盖与 OpenAI 的研究者支持网络是两条独立公司链。
+   **为什么重要：**企业可以通过现场工程、外部专家、同行网络和反馈机制放大人才供给；同时会新增支持容量、知识产权、数据治理、责任归属和质量复核成本。
+
+4. **业务、技术与人才治理应共同拥有“工作—技能—机会”数据，不能各自优化。可信度：中。**
+   **证据基础：**Protiviti 显示角色、学习、薪酬和职业路径准备度存在缺口；Cornerstone 显示 HR/IT 真正共同决策仍少见。
+   **为什么重要：**如果业务分项目、技术分权限、HR 做盘点却不共享责任包语言，内部发现、学习、授权、晋升和保留无法形成同一证据链。相关性调查只支持方向，不支持“共治必然快 13%”。
+
+5. **高定价与大规模人才计划只能证明争夺意图，不能证明密度、晋升或留任。可信度：高。**
+   **证据基础：**OpenAI、Nava 的动态薪带，以及 OpenAI 10,000→100,000 研究者计划。
+   **为什么重要：**计划人数、JD 薪带和股权表述最容易被误读为组织结果；正式判断仍需实际录用、内部流动、权限、绩效、调薪/股权刷新、晋升、离职和关键知识保留数据。
+
+## 4. 重点案例事实还原：Microsoft Frontier Company 的客户现场人才配置
+
+### 背景
+
+企业生成式 AI 的瓶颈正从购买席位转向重构真实流程。客户需要同时处理业务情境、数据、系统集成、评测、采用、治理和变革管理，单一销售、咨询或产品团队都难以独立关闭责任环。Microsoft 因而把行业与工程专家嵌入客户场景，形成客户现场工程接口。
+
+### 时间线
+
+- **2026 年 7 月初：**Microsoft 已公开 Frontier Company 组织承诺和约 6,000 名行业与工程专家；这不是 7 月 30 日新增。
+- **过去一年：**公司称该组织已执行 330 个项目、覆盖 164 家客户。
+- **2026 年 7 月 29 日：**FY26 Q4 电话会首次稳定披露上述项目/客户覆盖；同时披露 NHS England 在试点自报平均每天节省 43 分钟后计划向 50.5 万名员工推广 Microsoft 365 Copilot。
+- **当前验证阶段：**覆盖已发生，但成功定义、失败率、复用率、人才来源、支持负荷与单位经济性未公开。
+
+### 动作与机制
+
+| 人才机制环节 | 已知事实 | 仍缺证据 |
 |---|---|---|
-| L3 | 两项以上相互独立的一手/权威材料交叉 | 支持强事实与机制方向，仍不等于成效 |
-| L2 | 单一官方/SEC/制度、Reuters、权威研究 | 支持有边界的事实观察，不能证明成效 |
-| L1 | 供应商、媒体独家、JD、社媒 | 只作 Context 与搜索入口 |
-| L0 | 无法回溯原文的传闻 | 排除 |
+| 识别标准 | 行业与工程专家被作为客户嵌入主体 | 专业门槛、业务判断、复用、带教和风险评分标准 |
+| 评价指标 | 披露项目数、客户数；个别客户披露节时 | 质量、返工、客户采用、单位成本、风险与长期价值 |
+| 面试机制 | 未披露 | 是否使用真实客户问题、允许 AI 的工作样本及入职后效度 |
+| 内部发现 | 未披露 | 6,000 人中新增招聘、内部转岗、销售/咨询整合和伙伴比例 |
+| 项目分配 | 专家嵌入客户，至少形成 330 项目/164 客户覆盖 | 匹配算法、优先级、利用率、轮换、失败退出和机会公平 |
+| 授权机制 | 可推断需要跨产品、工程和客户接口，但未披露正式权力 | 数据、生产、预算、签字、停止、升级和例外权 |
+| 学习机制 | 项目网络具备反馈与复用潜力 | 带教、复盘、手册、评测集、轮岗和能力复证 |
+| 薪酬与股权 | 未披露 | 薪带、稀缺系数、项目奖、股权刷新和地域公平 |
+| 快速晋升 | 未披露 | 项目责任跃迁是否连接临时授权、代理范围或正式职级 |
+| 人才盘点 | 未披露 | 专家梯队、导师容量、继任、单点依赖和负荷 |
+| 保留机制 | 未披露 | 自主权、成长、轮换、健康、关键人离职和知识连续性 |
 
-## 行动启发
+### 已披露结果
 
-- 用真实责任包识别人才，把基本薪酬、稀缺津贴、项目奖、股权和晋升分流；保留初级入口与导师时间。
-- 建立可回滚试点、停止条件、人工升级、审计日志与事后公平检查。
-- CEO 只审批可验证的机制假设，不审批未经责任迁移的统一减层、统一建序列或 AI 自动晋升。
+- 330 个项目、164 家客户：证明组织覆盖和项目配置已经发生；
+- 约 6,000 名专家：仍是计划/组织口径，来源与在岗状态未公开；
+- NHS 平均每天节省 43 分钟：属于厂商在财报会转述的客户试点自报；
+- NHS 计划扩展至 50.5 万名员工：是部署规模计划，不是已经实现的生产率。
 
-## 来源索引
+这些数字不能相乘或合并成“人才密度提升”。项目数没有完成/成功定义，节时也缺服务质量、等候时间、返工、员工负荷和财务净效应。
 
-- [36氪：阿里、腾讯、字节 AI 组织与人才动作](https://www.36kr.com/p/3913483185673351)：2026-07-27，行业媒体作者分析，L1。
-- [WSJ/Mint：企业重新招聘与初级岗位反例](https://www.livemint.com/global/big-companies-are-starting-to-hire-again-defying-predictions-of-ai-wipeout-11785114677792.html)：2026-07-27，权威二手，L2。
-- [Gallup：AI 采用、经理支持与裁员归因](https://www.gallup.com/workplace/713063/ai-workplace-productivity.aspx)：2026-07-27，原始调查，L2。
-- [Gartner：AI 人才风险框架](https://gcom.pdo.aws.gartner.com/en/articles/ai-talent-risks)：2026-07-27，咨询框架，L2。
-- [AP：Token 激励与成本反例](https://apnews.com/article/ai-token-openai-anthropic-corporate-31bb80ac1cd7862d05f6397177d826b1)：2026-07-27，多企业采访，L2。
-- [Reuters：Visa 裁减约 2,600 人](https://www.investing.com/news/stock-market-news/visa-plans-to-cut-7-of-workforce-bloomberg-reports-4816822)：2026-07-28，公司确认的权威二手，L2。
-- [Revelio Labs AI Labor Market Tracker](https://www.prnewswire.com/news-releases/revelio-labs-launches-ai-labor-market-tracker-an-evidence-backed-real-time-measure-of-ais-impact-on-the-workforce-302836428.html)：2026-07-28，供应商自有数据，L1-L2。
-- [iMocha 技能验证圆桌](https://www.imocha.io/press-releases/imocha-look-beyond-the-label-us-executive-roundtable-series)：2026-07-28，供应商自报，L1。
-- [Voice AI in Firms 自然田野实验](https://arxiv.org/abs/2607.28222)：2026-07-30，既有工作论文的 arXiv 新版本，L2。
-- [Meta Q2 2026 官方业绩与电话会](https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/Meta-06-30-2026-Exhibit-99-1-FINAL.pdf)：2026-07-29，公司一手披露并有媒体交叉，L3。
-- [AP：Meta Q2 2026 交叉报道](https://apnews.com/article/meta-earnings-q2-facebook-profit-revenue-ai-bcbc62dde6d2cac724e3b3385fcabeab)：2026-07-29，权威二手交叉，L2。
-- [腾讯犀牛鸟开源人才培养计划](https://ur.tencent.com/article/1529)：2026-06-19 发布、2026-07-31 报名节点，官方人才项目，L2。
-- [HiBob AI Skills Framework](https://www.hibob.com/news/hibob-launches-ai-skills-framework-and-a-new-ai-skills-assessment-guide/)：2026-07-23，供应商框架，L1-L2。
-- [monday.com SEC 6-K](https://www.sec.gov/Archives/edgar/data/1845338/000117891326003553/zk2635715.htm)：2026-07-22，单一一手组织动作，L2；效果未验证。
-- [Bank of America EricaAssist](https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/07/bank-of-america-enhances-ericaassist-with-generative-ai-to-help-.html)：2026-07-21，单一一手公司材料，L2。
-- [OpenAI Presence](https://openai.com/index/introducing-openai-presence/)：2026-07-22，一手产品/岗位契约，L2。
-- [GitLab Promotions and Transfers](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/)：动态公开制度，单一一手 L2 基线。
-- [BCG AI at Work 2026](https://www.bcg.com/publications/2026/ai-at-work-why-strategy-matters-more-than-tools)：2026-06-03，大样本自报调查，L2。
-- [Intuit SEC 附件内部信](https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000024/fy26q3-ex9902.htm)：2026-05-20，单一一手组织动作，L2。
-- [OECD Employment Outlook 2026](https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en/full-report/component-5.html)：2026 年权威报告，初级岗位反例 L2。
-- [ACL HSCodeComp](https://aclanthology.org/2026.acl-long.937/)：2026 年同行评审任务基准，L2。
+### 争议与阻碍
+
+1. **规模与密度的冲突：**6,000 人能扩大覆盖，也可能增加协调层、知识重复和低利用率。
+2. **客户成功与销售归因冲突：**项目由谁拥有客户结果、谁承担失败和续约责任尚不清楚。
+3. **本地知识与平台复用冲突：**现场定制可以解决具体问题，但可能难以沉淀为通用产品和可复用资产。
+4. **专家交付与人才供给冲突：**大量资深人员长期嵌入客户，可能压缩导师容量、内部研发和新人训练。
+5. **公司自报与独立验证冲突：**覆盖与节时主要来自 Microsoft/客户口径，尚无独立质量和成本审计。
+
+### 可借鉴点
+
+1. 将稀缺人才配置到可度量的真实责任包，而不是留在专家池里等待咨询。
+2. 采用“客户主责＋领域专家＋风险复核＋副手”的项目单元，避免单点依赖。
+3. 每个项目强制沉淀评测集、决策记录、复用手册和失败模式，衡量从一次性交付到组织资产的转化。
+4. 用质量、返工、采用、风险、单位成本、客户结果和人才成长共同评价，而不是只数项目或节时。
+5. 把项目证据回流到学习、内部发现和下一次配置，形成供给飞轮。
+
+### 不可照搬点
+
+- 不把 6,000 人当作“最佳专家规模”；
+- 不把 330 个项目/164 家客户当成功率；
+- 不把客户节时当净组织收益；
+- 不因项目多就快速晋升，永久职级仍要验证持续责任、跨项目复用和横向校准；
+- 不用客户现场配置替代内部初级人才、导师和继任管道。
+
+## 5. Context 层｜背景材料、弱信号、反例与冲突
+
+- **暂不形成结论，但提示我们关注……**OpenAI 计划把外部研究者从 10,000 扩展到 100,000，并提供培训、专家支持、同行学习与反馈。这可能是“外部人才网络”而非内部编制扩张，但实际覆盖、支持负荷、学科差异、研究质量和反馈转化均待验证。
+- **暂不形成结论，但提示我们关注……**Protiviti 与 Cornerstone 同日发布调查，共同指向角色、学习、技能缺口和共治问题；两者分别有咨询与 HR 技术商业利益，高管/员工自报也不等于客观成熟度或因果结果。
+- **暂不形成结论，但提示我们关注……**Nava 让一个产品实践负责人同时负责 AI 工作流、跨职能边界、标准、职级和职业方向，提示 AI 能力可能先进入既有职业族；单一 JD 不代表 75+ 人团队的制度已改变。
+- **暂不形成结论，但提示我们关注……**OpenAI 的端到端商业岗位、扩展劳动力岗位与深基础设施技术岗位都给出高薪带和股权，说明“复合责任变宽”与“深专业溢价”可同时存在；岗位层级、湾区地点和公司阶段使其不可横向计算统一溢价。
+- **背景材料：**7 月 29 日 BNY 已形成“能力认证先连接模型权限、不考核调用量”的历史基线；Revelio 显示 AI 采用企业的高级岗位增长快于初级岗位。今天不重复包装为新增，但它们继续约束结论：不能用活动量识别高潜，也不能以高级化破坏新人训练和未来专家供给。
+- **反例：**OECD 没有发现早期 AI 使用与企业加价率系统性上升的稳定关系，反驳“有模型＋有高学历人才就自然形成收益”。
+- **冲突：**外部市场用高薪抢成熟复合人才，组织内部却仍缺学习、机会分配和职业路径；如果只买成熟人才，不建供给系统，人才密度会变成关键人过载与继任断层。
+- **线索：**Meta 在约 8,000 名受调整员工尚未退出统计口径时仍增加技术、尤其 AI 人才投入，提示“退出、招聘、转岗和稳态”必须拆开；当前没有岗位族、职级、内部流动和留任数据，不据此形成高人才密度结论。
+
+## 6. 证据地图
+
+| 渠道 | 今日最强材料 | 等级 | 能支持 | 不能支持 |
+|---|---|---:|---|---|
+| 官方/一手 | Microsoft FY26 Q4、OpenAI Academic Researchers | L2-L3 | 项目/客户覆盖、外部网络设计 | 成功率、内部人才闭环 |
+| 权威媒体/咨询 | Protiviti AI Pulse | L3 调查 | 角色、学习、薪酬和职业路径准备度缺口 | 企业客观成熟度、因果效果 |
+| 公司案例 | Microsoft Frontier Company | 动作 L3、效果 L1 | 客户现场项目配置 | 识别到留任全链路 |
+| 学术/研究 | OECD 微观数据报告 | L2 | 高技能、基础设施与吸收能力的方向性关联 | 当前智能体因果生产率 |
+| 招聘薪酬 | OpenAI、Nava 动态 JD | L1-L2 | 当前责任包和定价意图 | 实际录用、支付、晋升、保留 |
+| 社媒/职场线索 | 今日无可升级原帖 | L0-L1 | 形成访谈和搜索问题 | 行业事实 |
+| 内部信息库/知识库 | 7/29 正式专题、rolling baseline、topic 账本 | 历史校准 | 责任包、权限、初级管道和去重边界 | 替代原始外部来源 |
+
+### 机制完整度审计
+
+| 必须研究的环节 | 今日新增证据强度 | 当前判断 |
+|---|---:|---|
+| 识别标准 | 中 | 用问题定义、深专业、跨职能编排、风险、结果与复用描述责任包；预测效度未验证 |
+| 评价指标 | 中 | 项目数只能计覆盖；应补质量、返工、风险、单位成本、复用与带教 |
+| 面试机制 | 无高置信新增 | 继续采用允许 AI 的真实工作样本基线，需取得评分表与入职后效度 |
+| 内部发现 | 低 | 共治与统一技能数据是方向；没有企业公开实际流动结果 |
+| 项目分配 | 中高 | Microsoft 客户嵌入已有覆盖；匹配、轮换和机会公平未知 |
+| 薪酬与股权 | 低 | JD 只显示外部定价意图，不证明统一溢价、刷新授予或留任效果 |
+| 快速晋升 | 无高置信新增 | 项目责任可先连接代理范围/临时授权，不自动换永久职级 |
+| 授权机制 | 低 | 客户现场需要权限接口，但具体数据、生产、预算与停止权未披露 |
+| 学习机制 | 中 | OpenAI 外部网络含培训、专家支持和同行学习；效果与内部适用性未知 |
+| 人才盘点 | 无高置信新增 | 应盘点责任闭环、导师净容量、继任和单点依赖 |
+| 保留机制 | 无高置信新增 | 股权表述不等于保留；缺刷新授予、离职、负荷和知识连续性数据 |
+
+## 7. 对我们的行动启发｜建立“人才形成率”而非“明星库存”
+
+建议选择一个 8—12 周、可追踪质量与风险的真实业务流程，建立业务、技术与人才治理共同负责的试点：
+
+1. **识别标准：**从项目、客户、事故、复用和带教记录提名；统一评价问题定义、深专业锚点、人机分工、证据验证、风险判断、端到端结果、复用沉淀和他人成长。
+2. **评价指标：**同时记录周期、质量、返工、人工复核、风险、单位成本、客户/业务结果、复用采用和导师净容量；不使用调用量、提示词数、课程时长或项目数量作为高潜代理。
+3. **面试机制：**使用同一真实业务样本，允许候选人使用 AI；保留过程记录和复盘，评分“如何定义问题、选择工具、挑战输出、处理异常、作出最终判断”，并在入职 6/12 个月验证预测效度。
+4. **内部发现：**让员工自荐、经理提名和项目数据三路进入同一人才池；业务、技术、HR 联合校准机会，不让“先获得高价值项目的人”永久占优。
+5. **项目分配：**采用“主责＋副手＋领域复核者”；同时设置轮换、退出、升级与失败复盘，避免关键人才成为永久救火队。
+6. **授权机制：**按能力和风险分级开放模型、数据、生产、预算、签字、停止和升级权；设置复证、撤回、申诉和事故后的再授权。
+7. **学习机制：**课程只是入口，必须经历模拟、受控真实任务、复盘、独立负责和带教；将项目手册、评测集和失败模式纳入学习资产。
+8. **薪酬与股权：**长期稳定责任扩张走岗位价值与调薪/晋升；市场稀缺走薪带或稀缺系数；阶段战役走项目奖；临时扩责走有到期条款的津贴；关键长期保留再讨论股权刷新。四类手段不混用。
+9. **快速晋升：**随时识别、随时授权、随时给项目或临时范围；永久职级只在责任稳定、跨项目复用、岗位价值变化和横向校准均成立时使用周期外例外。
+10. **人才盘点：**同时盘点成熟复合人才、形成中人才、导师净容量、继任覆盖、单点依赖、负荷与健康；不只列“高潜名单”。
+11. **保留机制：**把自主权、成长、内部机会、薪酬公平、股权流动性、团队质量、健康负荷和关键知识可交接性放在同一保留看板。
+
+试点的三个主指标：
+
+- **责任形成率：**90 天后能独立关闭中等风险责任环的人数占比；
+- **组织吸收率：**项目产出的手册、评测集和组件被第二个团队采用的比例；
+- **责任可替代性：**关键人离开 30 天后，副手能否依靠资产和权限维持结果。
+
+**管理层该问：**我们是在购买少数明星的产能，还是在提高组织持续形成、授权、复用并保留责任承担者的速度？
+
+## 8. 待验证清单与下一步搜索路径
+
+1. Microsoft 330 个项目的完成/成功定义、失败率、复用率、单位交付成本、客户质量和独立审计。
+   检索：`Microsoft Frontier Company 330 projects 164 customers success rate utilization playbook`
+2. Microsoft 6,000 人的新增招聘、内部转岗、销售/咨询/FDE 整合和伙伴构成；岗位等级、薪带、项目分配、导师容量与留任。
+   检索：`Microsoft Frontier Company 6000 experts roles career ladder compensation retention`
+3. OECD 结论能否用 2025—2026 生成式 AI/智能体采用数据复现，并处理企业自选择、管理质量和资本差异。
+   检索：`generative AI adoption absorptive capacity high skilled workers firm productivity longitudinal 2025 2026`
+4. OpenAI 外部研究者计划的实际录取、活跃、支持负荷、学科差异、研究质量、数据治理与反馈转化。
+   检索：`OpenAI Academic Researchers 10000 support outcomes feedback research quality`
+5. Protiviti/Cornerstone 的纵向或改组前后证据，检验业务—技术—HR 共治是否真的改善内部发现、流动和技能缺口。
+   检索：`CHRO CIO joint workforce governance internal mobility longitudinal outcomes`
+6. OpenAI/Nava 动态 JD 的实际录用、面试评分表、入职后绩效、岗位梯度、股权刷新、晋升和离职。
+   检索：`OpenAI Strategic Pursuits interview rubric promotion retention equity refresh`；`Nava product management leveling AI competency`
+7. 取得至少一家公司“识别—面试—内部发现—项目配置—授权—学习—薪酬/股权—快速晋升—盘点—留任”的多周期数据后，才升级为 L3 完整机制。
+8. 国内补证：寻找公司一手制度，验证 AI 复合能力如何进入真实项目、内部流动、薪带/专项激励与保留，而不是只依赖猎头或媒体口径。
+   检索：`site:careers.tencent.com AI 复合型 人才 项目 任职资格`；`site:talent.alibaba.com AI 能力 职级 薪酬 内部流动`
+
+## 9. 来源索引
+
+1. Microsoft，[FY26 Q4 Earnings Conference Call](https://www.microsoft.com/en-us/Investor/events/FY-2026/earnings-fy-2026-q4)，2026-07-29，项目覆盖 L3、效果 L1。
+2. OECD，[Competition in the Age of AI](https://www.oecd.org/en/publications/competition-in-the-age-of-ai_6f88a1ea-en.html)，2026-07-30，描述性研究 L2。
+3. Protiviti，[The AI-People Conundrum: Learning to Lead, Not Lag](https://www.protiviti.com/us-en/survey/ai-pulse)，2026-07-29，一手调查 L3。
+4. Cornerstone / Vanson Bourne，[The Board’s New Mandate to CIOs and CHROs](https://www.cornerstoneondemand.com/company/news-room/press-releases/ai-era-board-mandates-meet-a-reality-divide-new-cornerstone-research-shows-workforce-readiness-is-a-business-imperative-chros-and-cios-must-own-together/)，2026-07-29，厂商委托调查 L2+。
+5. OpenAI，[ChatGPT for Academic Researchers](https://openai.com/index/chatgpt-for-academic-researchers/)，2026-07-30 取得，计划设计 L2、效果 L1。
+6. OpenAI，[Strategic Pursuits Lead](https://openai.com/careers/strategic-pursuits-lead-san-francisco/)，2026-07-30 在架，动态 JD L1-L2。
+7. OpenAI，[Extended Workforce Program Manager](https://openai.com/careers/extended-workforce-program-manager-san-francisco/)，2026-07-30 在架，动态 JD L1-L2。
+8. OpenAI，[Custom Infrastructure Tech Lead](https://openai.com/careers/tech-lead-deployment-and-operations-custom-infrastructure-san-francisco/)，2026-07-30 在架，动态 JD L1-L2。
+9. Nava PBC，[VP, Product Management](https://job-boards.greenhouse.io/navapbc/jobs/4302952009)，2026-07-30 在架，动态 JD L1。
+10. 内部连续判断：[`2026-07-29 正式专题二`](../2026-07-29/02-talent-density.md)、[`rolling baseline`](../baseline/02-talent-density.md)、[`topic baseline`](../topics/talent-density/baseline.md)、[`evidence-map`](../topics/talent-density/evidence-map.md)、[`open-questions`](../topics/talent-density/open-questions.md)、[`weekly-synthesis`](../topics/talent-density/weekly-synthesis.md)、[`decision-log`](../topics/talent-density/decision-log.md)。
+
+> 内部材料仅用于历史去重和判断校准，不增加外部证据数量。今日对计划人数、动态 JD、公司自报效果和调查相关性均保持降级处理。

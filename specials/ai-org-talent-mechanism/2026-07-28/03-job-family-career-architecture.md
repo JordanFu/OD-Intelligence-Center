@@ -1,90 +1,189 @@
-# 2026-07-28｜专题三：岗位、族群、序列持续建设
+# 2026-07-28｜专题三：岗位、族群、序列的持续建设
 
-> 研究状态：正式历史补跑核验稿。证据按当日可得时间边界归档；没有新增 L2+ 时明确保持判断不变。只有 L3/L4 可支持强结论。
+> 正式决策稿｜严格新增窗口：2026-07-27—2026-07-28  
+> 今日结论只升级到“任务与招聘架构信号”，不把动态 JD、薪带或使用数据包装成成熟职业序列。
 
 ## 读者应该带走什么
 
-截至 2026-07-28，没有成熟证据支持批量新建 AI 序列；先用既有岗位调整、技能标签、项目角色或薪酬工具承接，稳定责任形成后再建序列。
+岗位变化正在先于岗位名称发生。OpenAI 的使用数据说明员工在借入其他职业任务；小红书、SAP 和 OpenAI FDE 招聘则把客户交付、组织上下文、评测、平台复用、流程与生产责任重新组合。但应用责任变宽的同时，平台、安全、评测、语义和权限控制又在变深。正确方向不是“所有岗位全面全栈化”，而是先识别稳定责任包，再在岗位、族群、序列、技能标签与激励工具之间路由。
 
-管理层该问：这个动作究竟改变了什么责任、权限、质量和人才结果？不要误读：动作不等于成效，媒体/供应商/JD 信号不等于成熟机制。
+## 1. 今日一句话专题判断
 
-## 今日一句话专题判断
+**今日证据增强“任务先变、职位后变”的判断，也显示 FDE 等相邻岗位正在形成职业族招聘架构；但没有来源同时公开统一等级、任职资格、薪带、晋升、横向流动与退出机制，因此仍不能宣布成熟新序列已经形成。**
 
-**截至 2026-07-28，没有成熟证据支持批量新建 AI 序列；先用既有岗位调整、技能标签、项目角色或薪酬工具承接，稳定责任形成后再建序列。**
+## 2. 今日新增事实
 
-## 今日新增事实
+### F1｜跨岗任务在真实使用中已可观察
 
-当日形成裁减、增长、技能验证三类相互冲突的证据。
+OpenAI 2026-07-27 对 80 多万条美国 ChatGPT 工作消息的分析显示，16.8% 的工作消息涉及其他职业任务；剔除写作、摘要、日程等通用任务后，43.5% 的职业相关消息落在用户本职之外。客户体验、设计、HR、法律、营销分别为 77%、75%、69%、56%、53%。一般用户在 2—5 席位工作区跨岗占比 18.9%，100 席以上为 16.3%。  
+**等级：L2。**[OpenAI 原文](https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/)只能支持使用行为，不证明职责、权限、质量、薪酬或岗位已变化。
 
-| 事实 | 事实还原与边界 | 来源/等级 | 关联课题 |
-|---|---|---|---|
-| Revelio 劳动力追踪器 | Revelio 自有数据称，高 AI 暴露职业的新增需求相对下降 36%，成功采用 AI 的企业就业人数增长 27%；多数变化发生在职业内部任务，而非整个职业消失。专有数据与选择偏差使其不能解释因果。 | [L1-L2](https://www.prnewswire.com/news-releases/revelio-labs-launches-ai-labor-market-tracker-an-evidence-backed-real-time-measure-of-ais-impact-on-the-workforce-302836428.html) | 人才密度、岗位架构 |
-| 技能验证圆桌 | iMocha 的供应商圆桌建议将自评、经理输入、360 反馈、认证与真实工作历史组合为能力证据；这是 L1 机制信号，不是成效证据。 | [L1](https://www.imocha.io/press-releases/imocha-look-beyond-the-label-us-executive-roundtable-series) | 岗位架构、晋升 |
+### F2｜小红书把组织关系与经营信息写进企业 Context Layer
 
-## 今日核心判断
+7 月 28 日在架的 REDstar“AI Agent 算法工程师（企业智能）”职责包括：将内部文档、业务数据、项目进展、组织关系、会议纪要和 OKR 构成 AI 可调用上下文；参与任务拆解、工具调用、记忆、结果校验、工作流编排、AI Trainer、验证反馈闭环及 AI Workflow FDE 交付。  
+**等级：L1 招聘意图。**[官方职位](https://job.xiaohongshu.com/campus/position/21129)没有发布日期、职级、薪酬、编制或内部晋升路径。
 
-1. **主判断。可信度：中高。** 截至 2026-07-28，没有成熟证据支持批量新建 AI 序列；先用既有岗位调整、技能标签、项目角色或薪酬工具承接，稳定责任形成后再建序列。
-2. **机制含义。可信度：高。** 新诉求必须通过既有岗位调整、族群、序列、技能标签、项目角色、薪酬/稀缺工具六路由；只有稳定责任和完整治理才建序列。
-3. **证据边界。可信度：高。** W31 没有内部结果数据或 L4 闭环；单点事实只证明动作和方向。
-4. **反事实。可信度：中高。** 如果 AI 是唯一驱动，应出现跨公司一致的层级、岗位、薪酬或晋升变化；本周实际呈现裁减、扩编、集中与自治并存。
+### F3｜OpenAI FDE 已从单一头衔拆成相邻岗位
 
-## 判断变化
+7 月 28 日官方搜索页可见 45 个包含 Forward Deployed 的职位，覆盖 FDE、前线部署软件工程师、平台工程师、技术部署负责人、安全、政府/行业岗位及多地经理。美国页面公开的基本工资与职责包括：
 
-- **增强：** 评价单位从工具活动量转向责任、权限、质量、异常、复用、育人和净容量。
-- **未改变：** 截至 2026-07-28，没有成熟证据支持批量新建 AI 序列；先用既有岗位调整、技能标签、项目角色或薪酬工具承接，稳定责任形成后再建序列。
-- **削弱：** 任何把单点案例外推为全面扁平、全面全栈或即时 AI 晋升的说法。
+| 岗位 | 责任重点 | 基本工资 |
+|---|---|---:|
+| FDSWE | 客户全栈方案、范围、生产部署、知识复用 | 18.5万—32.5万美元＋股权 |
+| 平台工程师 | 跨客户抽象、架构加固、可复用构件 | 23万—38.5万美元＋股权 |
+| 技术部署负责人 | 工作流、里程碑、采纳、变革、投入产出 | 19.8万—29.4万美元＋股权 |
+| FDE 经理 | 组队、技术与商业结果、反馈、规模化配置 | 28万—33.5万美元＋股权 |
 
-## 重点案例与反例
+**等级：L1 招聘架构。**来源：[职位搜索](https://openai.com/careers/search/?q=forward+deployed)、[FDSWE](https://openai.com/careers/forward-deployed-software-engineer-sf-san-francisco/)、[平台工程师](https://openai.com/careers/platform-engineer-forward-deployed-engineering-%28fde%29-sf-san-francisco/)、[部署负责人](https://openai.com/careers/technical-deployment-lead-forward-deployed-engineering-%28fde%29-sf-san-francisco/)、[FDE经理](https://openai.com/careers/manager-forward-deployed-engineering-san-francisco/)。动态职位数不等于实际 HC。
 
-- **当周案例：** Revelio 劳动力追踪器。可借鉴其可追溯动作；不可照搬其结构、人员规模或供应商结论。
-- **历史基线：** monday.com、美国银行、OpenAI Presence、GitLab 分别提供减层动作、接口系统化、数字岗位契约与晋升校准样本。
-- **反例：** WSJ 恢复招聘、OECD 初级岗位边界和 HSCodeComp 专家差距共同反驳统一少人化与全面岗位合并。
-- **如果照搬会错在哪里：** 用新头衔解决短期定价会制造头衔通胀、永久薪酬债和边界重叠。
+### F4｜SAP 端到端 Agent 岗位只保留为截面
 
-## 背景材料（Context）
+内部 7 月 27 日抓取记录显示，该岗位面向财务、供应链、HR、采购等端到端流程，目标年现金薪酬为 14.86万—30.63 万美元；7 月 28 日复核时页面已显示职位填满。  
+**等级：L1。**[SAP Careers](https://jobs.sap.com/job/Palo-Alto-Senior-AIML-Engineer-Agentic-AI-CA-94304/1419010633/)不能证明全局岗位体系、实际支付或绩效公式。
 
-- 暂不足以下结论，但提示我们关注：用新头衔解决短期定价会制造头衔通胀、永久薪酬债和边界重叠。
-- 供应商框架、招聘 JD 和社媒讨论只形成待验证问题，不进入强结论。
-- W29/W30 与 7 月 22—23 日材料仅作历史基线，不能重复计为 W31 多源互证。
+### F5｜Banco Sabadell 同时展示“业务变宽、控制面集中”
 
-## 线索层
+Sabadell 新结构让若干业务负责人扩大客户、渠道、成本或支持责任，同时新设企业转型与 AI、业务转型，并集中人员、法务、财务规划、组织、技术与运营能力。  
+**等级：动作事实 L3，机制效果 L1。**[公司公告](https://comunicacion.grupbancsabadell.com/sala-de-prensa/banco-sabadell-reorganiza-su-estructura-para-acelerar-la-transformacion-simplificar-la-gestion-y-reforzar-la-ejecucion-de-su-plan-de-negocio/)支持“应用责任变宽＋专业控制集中”，不支持岗位序列已改。
 
-- 获取公司组织图、经理/个人贡献者比例、跨度、权限、薪带和 6—12 个月结果。
-- 获取受影响员工的转岗质量、薪酬变化、学习支持、负荷和申诉数据。
-- 搜索第二个公开制度样本，验证是否能从单案例升级为稳定机制。
+### 今日范围结论
 
-## 证据地图
+没有新增来源同时公开岗位目录、共同能力主干、至少三级稳定责任差异、任职资格、薪带、晋升校准、横向流动、申诉与退出机制。**今日无成熟新岗位族群/职业序列的高置信新增结论。**
 
-| 层级 | 可用材料 | 本专题用法 |
+## 3. 今日核心判断
+
+1. **岗位变化的领先指标是任务借入/借出和交接变化，不是改名。可信度：中高。**  
+   **证据基础：**OpenAI 跨岗使用数据。  
+   **为什么重要：**OD 应先监测任务流、签字权和质量责任，再决定岗位边界。
+
+2. **应用责任变宽，控制责任变深。可信度：中高。**  
+   **证据基础：**小红书将上下文、评测和业务交付组合；OpenAI 又拆出平台、编排、安全与管理；Sabadell 集中控制面。  
+   **为什么重要：**“复合化”不能取消高后果数据、安全、评测、审计和专业签字。
+
+3. **OpenAI FDE 出现职业族招聘架构，但不是成熟序列。可信度：中。**  
+   **证据基础：**45 个动态职位、多类相邻角色、经理岗位和差异化薪带。  
+   **为什么重要：**只有补齐统一等级、任职资格、晋升、流动和真实 HC，才可升级为职业族群或序列事实。
+
+4. **小红书 Context Layer 更适合先做试点岗位，而非立即新建序列。可信度：中。**  
+   **证据基础：**单一校招 JD 将算法、组织信息治理、评测和 FDE 混合。  
+   **为什么重要：**在责任仍快速变化时建序列，会固化工具热词并制造头衔膨胀。
+
+5. **薪酬诉求与岗位架构必须分开。可信度：高。**  
+   **证据基础：**OpenAI、SAP 的招聘薪带受地区、资历、稀缺和股权影响。  
+   **为什么重要：**若真实问题是关键人保留或市场倒挂，应优先用薪酬带宽、稀缺系数、项目奖、津贴或股权，不制造新序列。
+
+## 4. 重点案例事实还原：OpenAI 从任务跨岗到 FDE 招聘架构
+
+### 背景与时间线
+
+- AI 让员工先借入邻接任务，企业 AI 落地又需要将客户问题、系统构建、生产上线、采纳和反馈接成闭环。
+- 7 月 27 日，OpenAI 发布跨岗任务研究。
+- 7 月 28 日，官方招聘页显示 45 个 Forward Deployed 相关职位。
+
+### 责任架构
+
+| 责任单元 | 主要责任 | 组织机制 |
 |---|---|---|
-| L3 | 两项以上相互独立的一手/权威材料交叉 | 支持强事实与机制方向，仍不等于成效 |
-| L2 | 单一官方/SEC/制度、Reuters、权威研究 | 支持有边界的事实观察，不能证明成效 |
-| L1 | 供应商、媒体独家、JD、社媒 | 只作 Context 与搜索入口 |
-| L0 | 无法回溯原文的传闻 | 排除 |
+| FDE/FDSWE | 发现问题、设计、编码、部署、采纳 | 减少客户—售前—实施—研发交接 |
+| 平台工程师 | 跨项目抽象、加固、复用 | 防止定制交付线性扩张 |
+| 技术部署负责人 | 里程碑、依赖、变革、投入产出 | 把复杂交付变成项目组合 |
+| 安全/治理角色 | 权限、审计、生产约束 | 保留独立控制面 |
+| FDE 经理 | 团队配置、反馈、复制交付模型 | 从个人英雄转为组织能力 |
 
-## 行动启发
+### 结果、争议与阻碍
 
-- 新诉求必须通过既有岗位调整、族群、序列、技能标签、项目角色、薪酬/稀缺工具六路由；只有稳定责任和完整治理才建序列。
-- 建立可回滚试点、停止条件、人工升级、审计日志与事后公平检查。
-- CEO 只审批可验证的机制假设，不审批未经责任迁移的统一减层、统一建序列或 AI 自动晋升。
+- 已知只有招聘分类、职责和薪酬区间。
+- 未知实际人数、统一职级、汇报线、客户结果、平台复用率、人员流动和晋升效果。
+- 多岗位可能是地域复制，不一定形成责任梯度；若平台复用失败，FDE 仍会随客户线性增员；端到端责任也可能演变为无限扩责和高旅行负荷。
 
-## 来源索引
+### 可借鉴与不可照搬
 
-- [36氪：阿里、腾讯、字节 AI 组织与人才动作](https://www.36kr.com/p/3913483185673351)：2026-07-27，行业媒体作者分析，L1。
-- [WSJ/Mint：企业重新招聘与初级岗位反例](https://www.livemint.com/global/big-companies-are-starting-to-hire-again-defying-predictions-of-ai-wipeout-11785114677792.html)：2026-07-27，权威二手，L2。
-- [Gallup：AI 采用、经理支持与裁员归因](https://www.gallup.com/workplace/713063/ai-workplace-productivity.aspx)：2026-07-27，原始调查，L2。
-- [Gartner：AI 人才风险框架](https://gcom.pdo.aws.gartner.com/en/articles/ai-talent-risks)：2026-07-27，咨询框架，L2。
-- [AP：Token 激励与成本反例](https://apnews.com/article/ai-token-openai-anthropic-corporate-31bb80ac1cd7862d05f6397177d826b1)：2026-07-27，多企业采访，L2。
-- [Reuters：Visa 裁减约 2,600 人](https://www.investing.com/news/stock-market-news/visa-plans-to-cut-7-of-workforce-bloomberg-reports-4816822)：2026-07-28，公司确认的权威二手，L2。
-- [Revelio Labs AI Labor Market Tracker](https://www.prnewswire.com/news-releases/revelio-labs-launches-ai-labor-market-tracker-an-evidence-backed-real-time-measure-of-ais-impact-on-the-workforce-302836428.html)：2026-07-28，供应商自有数据，L1-L2。
-- [iMocha 技能验证圆桌](https://www.imocha.io/press-releases/imocha-look-beyond-the-label-us-executive-roundtable-series)：2026-07-28，供应商自报，L1。
-- [腾讯犀牛鸟开源人才培养计划](https://ur.tencent.com/article/1529)：2026-06-19 发布、2026-07-31 报名节点，官方人才项目，L2。
-- [HiBob AI Skills Framework](https://www.hibob.com/news/hibob-launches-ai-skills-framework-and-a-new-ai-skills-assessment-guide/)：2026-07-23，供应商框架，L1-L2。
-- [monday.com SEC 6-K](https://www.sec.gov/Archives/edgar/data/1845338/000117891326003553/zk2635715.htm)：2026-07-22，单一一手组织动作，L2；效果未验证。
-- [Bank of America EricaAssist](https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/07/bank-of-america-enhances-ericaassist-with-generative-ai-to-help-.html)：2026-07-21，单一一手公司材料，L2。
-- [OpenAI Presence](https://openai.com/index/introducing-openai-presence/)：2026-07-22，一手产品/岗位契约，L2。
-- [GitLab Promotions and Transfers](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/)：动态公开制度，单一一手 L2 基线。
-- [BCG AI at Work 2026](https://www.bcg.com/publications/2026/ai-at-work-why-strategy-matters-more-than-tools)：2026-06-03，大样本自报调查，L2。
-- [Intuit SEC 附件内部信](https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000024/fy26q3-ex9902.htm)：2026-05-20，单一一手组织动作，L2。
-- [OECD Employment Outlook 2026](https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en/full-report/component-5.html)：2026 年权威报告，初级岗位反例 L2。
-- [ACL HSCodeComp](https://aclanthology.org/2026.acl-long.937/)：2026 年同行评审任务基准，L2。
+- **可借鉴：**先构建“客户实现—平台复用—交付编排—风险控制”责任模型；用复用率、生产采纳、质量、返工和客户结果作为共同指标。
+- **不可照搬：**不照搬 FDE 名称与美国薪带；不把 45 条结果写成 45 个编制；不因出现经理和相邻岗位就宣称成熟序列。
+
+## 5. Context 层｜背景材料、弱信号、反例与线索
+
+- **暂不形成结论，但提示我们关注……**组织关系、会议纪要和 OKR 进入 AI 上下文后，可能出现组织语义治理、访问控制、纠错、撤回和审计责任；当前只有小红书一条 JD。
+- **暂不形成结论，但提示我们关注……**SAP 把 Agent 工程指向多职能流程，可能说明岗位价值转向业务结果，但其人工审批边界与运行效果未知。
+- **暂不形成结论，但提示我们关注……**FDE 的平台、编排、管理与行业分化可能向稳定职业族群演进，仍缺正式等级与内部通道。
+- **反例：**小工作区跨岗比例更高，岗位变宽可能源自缺少专业支持；大企业不必照同样幅度合并。
+- **冲突：**工作数据指向边界变宽，FDE 招聘又出现细分；这支持“对外结果变宽、对内复用和控制变深”，不支持所有人变成同一种通才。
+- **证据边界：**官方 JD 仍只是 L1 招聘意图，不能证明成熟制度、实际人数或行业趋势。
+
+## 6. 证据地图
+
+| 渠道 | 最强材料 | 等级 | 支持 | 不支持 |
+|---|---|---:|---|---|
+| 官方/一手研究 | OpenAI 跨岗任务 | L2 | 使用行为与边界变化 | 减员、生产率、岗位制度 |
+| 公司组织动作 | Sabadell | L3 动作 | 业务责任扩展与控制集中 | 职级/序列已改 |
+| 国际招聘 | OpenAI FDE 架构 | L1 | 分类、职责、薪带 | HC、正式序列、晋升 |
+| 国内招聘 | 小红书 Context Layer | L1 | 复合责任意图 | 成效、职级、薪带 |
+| 学术/咨询 | 今日无直接 L3 | 缺口 | 历史校准 | 冒充今日新增 |
+| 社媒/职场 | 无稳定原文新增 | L0-L1 | 形成验证问题 | 正式事实 |
+| 内部信息库 | 7/26 正式稿、W30、baseline、FDE/skills 概念卡 | L3 校准 | 去重与连续判断 | 替代外部原文 |
+
+## 7. 对我们行动的启发｜落地启发与岗位治理判断树
+
+### 五道门
+
+1. **是否出现长期独立结果责任？**否：只更新任务清单或技能标签；是：下一步。
+2. **责任能否脱离单一工具、个人或短期项目并持续一个完整业务周期？**否：项目角色、项目奖或临时补贴；是：下一步。
+3. **是否有多个同构岗位，共享服务对象、人才市场与能力主干？**否：试点单一岗位；是：下一步。
+4. **是否有稳定、可审计的责任梯度、任职资格和横向流动？**否：建立岗位族群或岗位画像；是：下一步。
+5. **薪带、晋升、校准、申诉、合并和退出机制是否齐备？**是：才考虑新序列；否：停在岗位族群。
+
+### 其他承接工具
+
+| 工具 | 适用情形 |
+|---|---|
+| 技能标签 | 快变、跨岗位、可认证，但不改变最终责任 |
+| 稀缺系数 | 岗位价值不变，技能出现阶段性市场溢价 |
+| 项目激励 | 有明确终点与验收成果的跨职能战役 |
+| 专项津贴 | 长期额外值守、认证、风险或艰苦责任 |
+| 临时补贴 | 转型兼岗、迁移、夜间切换等短期负担 |
+| 薪酬带宽调整 | 整个既有岗位群出现长期系统性市场倒挂 |
+
+### 何时坚决不新增序列
+
+- 只有一个人、一个项目、一个工具或一个热门头衔；
+- 责任与现有序列高度重叠，且无独立结果/决策/高后果控制责任；
+- 没有岗位复数、稳定梯度、晋升证据、横向流动、申诉与退出；
+- 真实诉求是关键人保留、市场倒挂或突破薪酬上限；
+- 业务拒绝设置 6/12 个月复核、合并和退出条件。
+
+**管理层该问：**我们需要的是一种长期、可复制的责任体系，还是给一名关键员工更快、更公平的回报？
+
+## 8. 待验证清单与下一步搜索路径
+
+1. OpenAI 45 个职位去除地域重复后有多少独立责任类型？
+2. FDE、FDSWE、平台、部署负责人和经理是否映射统一职级？
+3. FDE 的内部晋升、横向流动、管理跨度和离职路径。
+4. 平台复用能否降低单位客户交付工时与线性增员。
+5. 小红书岗位是新团队、旧团队改名还是项目型招聘？
+6. 组织关系、会议纪要和 OKR 的访问、更新、纠错、撤回与审计由谁负责？
+7. 内部新增序列申请中，多少在提供稀缺系数、项目奖或带宽调整后不再需要新序列？
+8. 新岗位试点 6/12 个月后的数量、责任稳定、流动、公平和退出情况。
+
+### 本轮实际检索词
+
+- `site:openai.com how AI is expanding what people do at work 43.5%`
+- `site:openai.com/careers forward deployed engineer salary manager platform`
+- `site:job.xiaohongshu.com REDstar Context Layer AI Workflow FDE`
+- `site:jobs.sap.com Senior AI ML Engineer Agentic AI 148600 306300`
+- `FDE levels promotion salary band internal mobility`
+- `job family skills tag versus new career track compensation`
+
+## 9. 来源索引
+
+1. OpenAI，[跨岗任务研究](https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/)，2026-07-27，L2。
+2. OpenAI，[FDE 职位搜索](https://openai.com/careers/search/?q=forward+deployed)，2026-07-28 截面，L1。
+3. OpenAI，[FDSWE](https://openai.com/careers/forward-deployed-software-engineer-sf-san-francisco/)，L1。
+4. OpenAI，[平台工程师](https://openai.com/careers/platform-engineer-forward-deployed-engineering-%28fde%29-sf-san-francisco/)，L1。
+5. OpenAI，[技术部署负责人](https://openai.com/careers/technical-deployment-lead-forward-deployed-engineering-%28fde%29-sf-san-francisco/)，L1。
+6. OpenAI，[FDE 经理](https://openai.com/careers/manager-forward-deployed-engineering-san-francisco/)，L1。
+7. 小红书，[AI Agent 算法工程师（企业智能）](https://job.xiaohongshu.com/campus/position/21129)，2026-07-28 在架，L1。
+8. SAP，[Senior AI/ML Engineer—Agentic AI](https://jobs.sap.com/job/Palo-Alto-Senior-AIML-Engineer-Agentic-AI-CA-94304/1419010633/)，L1。
+9. Banco Sabadell，[组织重组公告](https://comunicacion.grupbancsabadell.com/sala-de-prensa/banco-sabadell-reorganiza-su-estructura-para-acelerar-la-transformacion-simplificar-la-gestion-y-reforzar-la-ejecucion-de-su-plan-de-negocio/)，2026-07-27，动作事实 L3。
+10. 内部：[`2026-07-28 日常信息库`](../../../daily/2026-07-28.md)、[`2026-W30 详版`](../weekly/2026-W30-detailed.md)、[`岗位序列基线`](../topics/job-family-career-architecture/baseline.md)、[`证据地图`](../topics/job-family-career-architecture/evidence-map.md)。
+
+> 今日对 OpenAI 职位数按代理复核修正为 45；动态搜索页不作为实际 HC。

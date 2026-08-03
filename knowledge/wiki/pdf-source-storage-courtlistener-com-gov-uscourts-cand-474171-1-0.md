@@ -2,11 +2,11 @@
 title: gov.uscourts.cand.474171.1.0
 source: storage.courtlistener.com
 date: 待核验
-ingested: 2026-07-24
-sourceFile: 
+ingested: 2026-08-03
+sourceFile: ../raw/storage-courtlistener-com-gov-uscourts-cand-474171-1-0.pdf
 sourceUrl: https://storage.courtlistener.com/recap/gov.uscourts.cand.474171/gov.uscourts.cand.474171.1.0.pdf
 tags: [AI组织设计]
-status: 已索引来源，PDF下载待重试
+status: 已下载原始PDF，已生成结构化初筛卡片
 ---
 
 # gov.uscourts.cand.474171.1.0
@@ -20,8 +20,8 @@ gov.uscourts.cand.474171.1.0 已作为日报/周报 PDF 证据源入库，当前
 - **来源机构**：storage.courtlistener.com
 - **来源类型**：media
 - **原文 URL**：https://storage.courtlistener.com/recap/gov.uscourts.cand.474171/gov.uscourts.cand.474171.1.0.pdf
-- **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
-- **入库日期**：2026-07-24
+- **原始文件**：`knowledge/raw/storage-courtlistener-com-gov-uscourts-cand-474171-1-0.pdf`
+- **入库日期**：2026-08-03
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
@@ -52,6 +52,7 @@ gov.uscourts.cand.474171.1.0 已作为日报/周报 PDF 证据源入库，当前
 ## 被引用位置
 
 - `外部公开 PDF 扫描:68`：公开安全引用：CourtListener
+- `外部公开 PDF 扫描:116`：公开安全引用：诉状
 
 ## 后续精读任务
 

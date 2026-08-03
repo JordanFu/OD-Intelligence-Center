@@ -3,7 +3,7 @@ title: 03.20.26 National Policy Framework for Artificial Intelligence Legislativ
 source: whitehouse.gov
 date: 待核验
 ingested: 2026-06-17
-sourceFile: ../knowledge/raw/whitehouse-gov-03-20-26-national-policy-framework-for-artificial-intelligence-legislative-recomm.pdf
+sourceFile: ../raw/whitehouse-gov-03-20-26-national-policy-framework-for-artificial-intelligence-legislative-recomm.pdf
 sourceUrl: https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf
 tags: [AI组织设计]
 status: 已下载原始PDF，已生成结构化初筛卡片

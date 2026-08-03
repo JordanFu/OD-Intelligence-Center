@@ -1,0 +1,7 @@
+[
+  {
+    "seq": "001",
+    "source_url": "https://mp.weixin.qq.com/s/ODZlqNd29SLrOCm-yCe0og",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)>"
+  }
+]

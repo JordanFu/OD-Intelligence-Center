@@ -1,124 +1,193 @@
 # 2026-07-29｜AI时代组织与人才机制四课题总览
 
-> 研究状态：正式历史补跑核验稿。仅把截至该日已公开的材料作为当日正式证据；事后检索只用于校验。证据等级：L4＝外部与内部结果验证机制；L3＝多条一手/权威材料交叉支持；L2＝强一手事实、权威二手或可靠研究；L1＝单一媒体、供应商、JD 或社媒线索；L0＝未核验。W31 内部知识库为空窗，本稿不把 W29/W30 旧闻冒充当日新增。
+> 正式决策稿｜严格新增窗口：2026-07-28 10:05 CST—2026-07-29 研究截面
+> 研究方法：四专题代理、外部渠道代理、内部知识源代理与主代理交叉验证；事实、判断、行动和 Context 分层。
 
 ## 读者应该带走什么
 
-Meta 的公司披露显示，总量收缩、AI 技术招聘和技术人才薪酬增长可以同时发生；AI 组织调整应拆开退出岗位、增投岗位和关键人才定价，不能只看净人数。
+Visa 首次把“10 人以上团队变成 2—4 人智能体小队—工作周期改善—技术和产品岗位调整”放在同一公开证据链上；BNY 则选择能力认证、模型权限和工作流结果，而非调用量或简单减员。两条路径共同说明：AI 先改变交付单元、任务和权限，再迫使组织重写岗位、人才证据和回报规则。它仍不自动决定是否减层、减员、新建序列或即时晋升。
 
-### 一张判断图
+## 1. 今日总判断｜今日一句话专题判断
 
-| 管理问题 | 本日答案 | 对管理层意味着什么 |
+**四专题共同指向“责任接口硬化”：更小的交付单元承担更宽结果，能力认证决定更高权限，专业控制与人才系统继续加深，回报机制必须把活动、能力、责任和结果分开。组织是否减员或减层，是战略与资本配置选择，不是 AI 采用的自动结果。**
+
+### 今日核心判断
+
+最先需要改写的不是层级、岗位名称或晋升窗口，而是业务结果、权限、质量、停止、异常与人才承接的责任接口；只有接口稳定并经过多周期验证，结构和永久职级才应跟进。**可信度：中高。证据基础：**Visa、BNY、Atlassian、Anthropic 与 Meta 的独立事件链。**为什么重要：**这避免把工具活动、小队规模、岗位价值和组织结果混成同一指标。
+
+**管理层该问：**我们看到的是工具使用、团队单元变化、长期岗位价值变化，还是已被验证的组织结果？这四者不能相互替代。
+
+证据强度：
+
+- 今日无 L4。
+- Visa 团队重构与岗位调整为 L3 动作，效率指标为公司自报 L2。
+- BNY 工作流覆盖为 L2-L3，三级能力与权限为 L2，净生产率归因为 L1。
+- Revelio、Atlassian、HiBob 为 L2 观察/公司叙事。
+- Anthropic JD、Honda 津贴、Amazon 资源集中等保持 L1-L2/Context。
+- 今日无新的成熟职业序列或公司级晋升制度。
+
+## 2. 今日最重要的 7 条发现
+
+### 1｜交付单元变小已有一手动作证据，管理层级减少仍未证实
+
+Visa CEO 披露，部分产品开发团队由通常 10 人以上改为 2—4 人智能体小队；采用工具链的团队自报代码提交量提高 80%，需求定义从 30 天降到 5 天，功能开发速度提高 65% 以上。
+**事实：L3/L2。判断：**小队变小、岗位减少和汇报层级减少必须分开测量。[官方电话会入口](https://investor.visa.com/events-calendar/Event-Details/2026/Q3-2026-Visa-Earnings-Conference-Call/default.aspx)、[文字稿](https://finance.yahoo.com/quote/V/earnings/V-Q3-2026-earnings_call-656419.html)。
+
+### 2｜减员是资源配置动作，AI 不是唯一因果
+
+Visa 同日确认约 2,600 个岗位、约 7% 的调整，多数在技术和产品团队；CEO 表示效率收益将投向高潜机会。公司与权威媒体均保留“AI 是因素之一，不是唯一因素”的边界。
+**事实：动作 L3；AI 因果 L1。判断：**重组沟通必须披露停止任务、资源去向、承接责任、转岗和申诉，不能只写“效率＋AI”。[Reuters/Investing](https://www.investing.com/news/stock-market-news/visa-plans-to-cut-7-of-workforce-bloomberg-reports-4816822)、[Visa IR](https://investor.visa.com/news/news-details/2026/Visa-Fiscal-Third-Quarter-2026-Financial-Results/default.aspx)。
+
+### 3｜BNY 给出“能力认证—模型权限—工作流结果”的替代路径
+
+BNY 不以提示词或 token 数考核员工，由系统自动选择模型；员工 AI 能力分三级，高级模型访问与培训测试挂钩。官方材料披露约 25% 新客户入驻、约 70% 受限方支付筛查和 40% 以上代码得到 AI 支持。
+**事实：L2-L3。判断：**认证先决定准入和权限，不直接兑换高潜、薪酬或职级；流程覆盖也不等于净生产率。[BNY 官方材料](https://www.bny.com/assets/corporate/documents/pdf/investor-relations/earnings/quarterly-update-presentation-1q-2026.pdf)、[Fortune](https://fortune.com/2026/07/28/bny-skipped-tokenmaxxing-craze-what-ai-metrics-tracks-cfo/)。
+
+### 4｜岗位同时变宽和变深
+
+Visa 小队与 Atlassian 的 People＋AI 启用责任域显示应用侧结果接口变宽；Anthropic 同时招聘招聘科学与 People 产品工程岗位，显示面试效度、心理测量、内部人才产品和晋升基础设施继续专业化。
+**事实：L1-L2。判断：**未来不是所有岗位全面全栈化，而是外部结果接口变粗、内部评测/权限/安全/人才控制变深。[Atlassian](https://www.atlassian.com/blog/guides-research/leading-with-context)、[Anthropic People Research](https://job-boards.greenhouse.io/anthropic/jobs/5362838008)、[People Products](https://job-boards.greenhouse.io/anthropic/jobs/5119468008)。
+
+### 5｜高级化与初级人才管道风险同时上升
+
+Revelio 观察到，AI 采用企业高级岗位增长 31%，初级岗位增长 6%；多数变化发生在职业内部。
+**事实：L2 观察。判断：**短期提高人才密度不能冻结入口招聘和练习任务；否则组织会拥有更强的当前骨干，却失去未来专家供给。[Revelio Labs](https://www.reveliolabs.com/ai-labor-market-tracker/us/july-2026)。
+
+### 6｜AI 技能进入晋升讨论快于正式规则成熟
+
+HiBob 对 1,200 名 AI 决策参与者的调查中，67% 称组织已把 AI 技能连接晋升标准、50% 连接绩效；报告同时显示经理准备度与共享标准不足。严格窗口内没有新的公司晋升制度。
+**事实：L2 自报，近窗补漏。判断：**活动、能力、责任和结果必须分开；认证更适合先连接权限、项目和津贴。[HiBob](https://www.hibob.com/research/ai-skills-2026-report/)。
+
+### 7｜人才决策必须新增代理变量、公平和申诉治理
+
+Meta 员工诉讼称活动、AI 使用与算法辅助排序未校正休假、残障和育儿影响；Meta 否认 AI 决定裁员，案件未实体裁判。
+**事实：争议 L2；歧视结论 L0。判断：**“最终由人签字”不足以消除上游代理偏差，绩效、晋升与退出系统都需要用途隔离、差异测试、人工推翻和员工申诉。[AP](https://apnews.com/article/019fb9c7fdc09167e91547546bce5be8)。
+
+## 3. 四专题交叉关系
+
+| 起点 | 对其他专题的影响 | 需要补写的机制 |
 |---|---|---|
-| 是否可以直接减层/减员 | 不可以。先识别任务、接口、责任和净容量 | 所有结构动作先提交责任迁移与质量护栏 |
-| 是否需要新岗位/序列 | 多数情况先用既有岗位、标签、项目角色或薪酬工具 | 新序列必须有稳定责任、梯度、薪带、流动与退出 |
-| AI 贡献能否直接决定晋升 | 不能。AI 可整理证据，不能推荐、排序或裁决 | 保留固定校准与受控例外 |
+| 组织扁平化/小队化 | 少数人承担更宽责任，提高对复合能力和专家控制的需求 | 业务 owner、发布/停止/升级、管理跨度、质量门 |
+| 高人才密度 | 骨干可运行更小交付单元，但也可能过载并压缩新人入口 | 真实任务识别、副手、导师容量、继任、权限复证 |
+| 岗位与序列 | 责任包变宽、控制专业变深，决定哪些变化进岗位、技能或薪带 | 五道门判断树、合并/退出、跨岗位技能层 |
+| 晋升与激励 | 把持续下一层责任固化为职级，把快变技能和阶段战功分流 | 固定校准、周期外例外、津贴/项目奖/股权、申诉 |
 
-### 三句话收束
+因果链不是“AI→裁员→扁平化”，而是：
 
-1. Meta 的公司披露显示，总量收缩、AI 技术招聘和技术人才薪酬增长可以同时发生；AI 组织调整应拆开退出岗位、增投岗位和关键人才定价，不能只看净人数。
-2. 本日材料最多支持任务和控制权正在重写，不支持把单点裁员、招聘或新头衔外推为行业趋势。
-3. 管理动作应落到责任、权限、质量、净容量、人才管道和公平校准，而不是工具活动量。
+> AI 改变任务与交付单元 → 责任/权限/质量接口重写 → 人才识别与项目配置变化 → 岗位/技能架构选择 → 晋升、薪酬和激励分流 → 结果与公平校准。
 
-### 管理层该问的问题
+## 4. 今日判断变化
 
-- 被自动化或删除的是信息中转，还是质量、例外、育人和信任节点？
-- 节省的时间扣除验证、纠错、人工升级和学习成本后，还剩多少可再投资净容量？
-- 新角色诉求是长期责任、短期项目、快变技能，还是市场定价问题？
-- 人才决策是否允许更正、申诉和人工推翻？
+### 被增强
 
-### 不要误读
+1. **责任包先于组织图。** Visa 为“小队先变”提供了今日最强动作证据。
+2. **应用责任变宽、控制面变深。** Atlassian、BNY、Anthropic 与 OpenAI 停止门共同支持。
+3. **调用量不应作为人才或绩效目标。** BNY 的反例与 Meta 争议强化这一点。
+4. **技能层优先于新序列。** BNY 用认证管理模型权限，没有证据需要建立独立序列。
+5. **晋升仍需多路回报分流。** HiBob 的普及信号没有推翻固定校准；Honda/BNY提供津贴和权限路由。
 
-- 不把裁员规模直接归因于 AI；不把恢复招聘解释为 AI 失败。
-- 不把媒体组织图、供应商调查、JD 或社媒体感写成成熟机制。
-- 不把课程、认证、Token、代码量和模型评分当晋升结果。
-- 暂不足以下结论，但提示我们关注组织动作背后的控制权、成本、人才流动和责任承接。
+### 被削弱
 
-## 今日一句话
+1. **“AI 采用越深，组织一定越少人”。** BNY 公开路径与 Visa 形成反例。
+2. **“复合化意味着专业分工消失”。** Anthropic 的人才科学和内部产品工程恰好相反。
+3. **“高级岗位增长即可证明人才密度提高”。** Revelio 没有质量、继任与因果数据。
 
-**Meta 的公司披露显示，总量收缩、AI 技术招聘和技术人才薪酬增长可以同时发生；AI 组织调整应拆开退出岗位、增投岗位和关键人才定价，不能只看净人数。**
+### 被修正
 
-## 今日核心判断
+1. **Visa 不只是裁员信号。** 新电话会把它升级为交付单元重构案例，但中层减少仍未证实。
+2. **能力认证不是晋升证据。** 它首先是权限和项目准入机制；长期岗位价值另行判断。
+3. **系统结果不能全部归给个人。** Visa 的团队效率需拆成人、AI 和人机系统三层贡献。
 
-1. **事实与因果必须分开。可信度：高。** 公司确认的动作可以进入事实层，AI 是否为主因、结构是否成功仍需结果数据。
-2. **组织变化的单位是责任包，不是人数。可信度：中高。** 需要同时记录结果、权限、质量、异常、育人、申诉和净容量。
-3. **岗位变化优先发生在职业内部。可信度：中。** 当周数据支持任务组合变化，但不证明成熟族群或序列已经形成。
-4. **人才识别与晋升必须分开。可信度：高。** AI 可改善信息收集与证据完整性，最终任命仍需岗位需求、同级校准和人工裁决。
-5. **W31 没有 L4。可信度：高。** 缺少内部结果、组织图、跨度、薪酬/晋升数据和 6—12 个月追踪。
+## 5. 关键冲突与反例
 
-## 今日新增事实
+1. **Visa vs BNY：**同样追求 AI 产能，Visa 将部分容量接到岗位调整与再投资，BNY 强调用现有容量做更多；人力结果取决于增长机会和管理选择。
+2. **小队变小 vs 控制面加厚：**2—4 人小队减少内部协调，模型权限、安全、质量、人才数据和申诉却需要更强专门接口。
+3. **岗位变宽 vs 专业变深：**应用角色需要端到端，招聘科学、平台、评测和高后果控制继续细分。
+4. **高级化 vs 继任：**资深人才需求增加，初级入口增长更慢；短期效率可能损害长期供给。
+5. **结果度量 vs 公平：**更强调结果是进步，但上游机会、休假、残障、权限和任务难度不校正，结果仍会失真。
+6. **调查普及 vs 制度透明：**67% 自报 AI 技能已连接晋升，公开可审计制度却极少；可能混合正式政策、经理实践与局部试点。
 
-Meta 官方财报形成 W31 最强的 L3 人员重配证据；当日仍没有新的成熟晋升制度。
+## 6. 对我们的启发｜行动启发
 
-| 事实 | 事实还原与边界 | 来源/等级 | 关联课题 |
-|---|---|---|---|
-| Meta Q2 人员与薪酬重配 | Meta 披露 6 月 30 日员工 75,472 人，同比下降 1%；数字仍含约 8,000 名 5 月裁员受影响人员，多数将在 Q3 末移除。公司同时说明，剔除遣散费后员工薪酬增长主要由技术招聘、尤其 AI 人才推动。 | [L3](https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/Meta-06-30-2026-Exhibit-99-1-FINAL.pdf) | 扁平化、人才密度、岗位架构 |
-| 冲突校准 | Meta、Visa 的退出动作与 WSJ 的恢复招聘并存，说明人员规模取决于战略、成本、增长和任务重写的组合，不能做单因果归因。 | [L3 综合](https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/META-Q2-2026-Earnings-Call-Transcript.pdf) | 扁平化、人才密度 |
+### 战略
 
-## 四课题交叉判断
+- 把每个 AI 项目写成“业务里程碑—损益/单位经济性—组织能力—责任人—停止条件”，而非采用率叙事。
+- 明确产能释放用于增长、降本、质量、韧性还是员工体验；不得让工具自动决定人力结果。
 
-- **组织扁平化：** 可系统化低价值接口，但管理责任必须显式迁移。
-- **高人才密度：** 需要复合骨干、高后果专家和早期人才入口同时存在。
-- **岗位架构：** 应用责任变宽、控制面专家变深；先分流再建序列。
-- **晋升机制：** 即时识别、即时认可和正式晋升分流；AI 不进入最终裁决链。
+### 组织架构
 
-## 判断变化
+- 选一条边界清晰流程运行 8—12 周可回滚小队试点，不预设减层/减员目标。
+- 画出结果、需求、发布、停止、回滚、安全、异常升级、客户与人才培养权。
+- 同时测团队人数、层级数、经理比例、跨度、周期、缺陷、返工、事故、客户、成本和负荷。
 
-- **增强：** 责任迁移表必须升级为责任—权限—质量—净容量账，扣除验证税和人工尾部负荷。
-- **增强：** 人工在回路必须拥有知识、时间、异议权和可逆控制，而非只承担签字责任。
-- **削弱：** AI 系统性消灭中层、全面冻结初级岗位、新头衔等于新序列。
-- **修正：** W30 证据覆盖口径应为 7/20—7/23 有正式专题稿、7/24 未达到正式决策稿标准；这些仅作历史基线，不算 W31 新增。
+### 岗位序列
 
-## 背景材料（Context）
+- 先识别稳定责任包；快变、跨岗位能力优先用技能标签和权限层。
+- 只有岗位复数、稳定梯度、任职资格、薪带、晋升、流动、申诉、合并和退出齐备，才建新序列。
+- 市场倒挂用稀缺系数/带宽/股权，阶段战功用项目奖，临时扩责用津贴或补贴。
 
-- 暂不足以下结论，但提示我们关注：国内大厂正在模型中枢、业务自主权与稀缺人才收益权之间反复寻找边界。
-- 暂不足以下结论，但提示我们关注：裁减与重新招聘可以同时发生，人员总量不是组织机制的充分代理变量。
-- 暂不足以下结论，但提示我们关注：供应商技能框架正从头衔转向多证据能力画像，但尚无公平与预测效度闭环。
+### 人才密度
 
-## 线索层
+- 用“无 AI 专业底座＋统一环境真实 AI 任务”的双闸门面试。
+- 项目采用“骨干＋副手＋领域复核者＋资产化”，盘点导师净容量和关键人可替代性。
+- 保留新人独立作答、受控真实任务、错误复盘和渐进授权。
 
-- 跟踪 Visa 受影响岗位、内部转岗、经理比例、质量与 180 天结果。
-- 跟踪阿里、腾讯、字节组织动作的公司确认、决策权、薪带、流动与成效。
-- 跟踪第二家公开 AI 贡献晋升字段、人才委员会和申诉规则的公司。
-- 跟踪 AI 面试实验的同行评审、公平差异和人工推翻机制。
+### 晋升激励
+
+- 持续记录证据、即时给项目/津贴/股权/准入回报，固定季度或半年校准永久职级。
+- 周期外晋升只在长期岗位价值已变、责任已稳定、等待造成明确损害时开放。
+- AI 贡献包记录人的关键判断、分工、质量、成本、风险、回滚、复用、育人、持续期与反证。
+
+### 沟通落地
+
+- 重组沟通明确：停止任务、改变单元、保留责任、受影响角色、资源去向、转岗、培训、遣散与申诉。
+- 人才决策系统增加休假/残障归一化、机会差异、群体影响、用途隔离、解释、更正和人工推翻日志。
+
+## 7. 明日优先追踪问题
+
+1. Visa 2—4 人小队覆盖多少团队，岗位组合、经理比例和管理跨度如何变化？
+2. Visa 的 65% 提速是否扣除缺陷、返工、安全、人工复核、客户与导师成本？
+3. 2,600 个岗位的地区、岗位族、职级、转岗和申诉如何分布？
+4. BNY 三级能力量表、通过率、复证、撤权以及与项目/薪酬/晋升的关系是什么？
+5. Revelio 的高级/初级分化能否用内部流动、晋升、导师和训练任务数据复核？
+6. Anthropic 两个 People 岗位是否到岗，是否进入可审计的人才决策与职业架构？
+7. HiBob 的“连接晋升”究竟是正式政策、经理判断还是局部试点？
+8. 找到第二个公开“周期外条件—通过率—公平—薪酬—晋升后绩效”的公司制度样本。
+
+## 背景材料与 Context
+
+- **暂不形成结论，但提示我们关注……**OpenAI 特定模型训练因沙箱事件暂停，停止权开始影响研发节奏，但尚无稳定制度和恢复阈值。
+- **暂不形成结论，但提示我们关注……**Amazon 可能将模型资源集中到单一前沿项目，仍为同源媒体链。
+- **暂不形成结论，但提示我们关注……**跨公司员工联署已形成专业网络，但没有章程、预算、企业授权和执行权。
+- **暂不形成结论，但提示我们关注……**Atlassian 将 AI 成本按部门分配，可能提高责任透明，也可能妨碍跨部门流程。
+- **社媒/职场线索：**本轮没有达到身份、日期、原帖和机制门槛的新材料，不进入事实结论。
 
 ## 证据地图
 
-| 渠道 | 本日用途 | 可信度边界 |
-|---|---|---|
-| 官方/一手 | 公司动作、制度、政策生效 | 动作不等于结果 |
-| 权威二手 | 时间线、确认、争议和反例 | 不替代公司完整制度 |
-| 行业研究/预印本 | 任务、招聘和能力变化 | 方法与外推范围需复核 |
-| 招聘薪酬信号 | 责任意图与市场定价 | 单个样本不等于序列 |
-| 社媒/供应商 | 形成问题与弱信号 | 只进入 Context |
-
-## 行动启发
-
-- 立即可做：把 Token、登录、调用量、代码量降为诊断输入。
-- 需要试点：一条低至中风险流程运行 8—12 周责任—权限—质量—净容量账。
-- 需要高层共识：压层、人才密度、岗位架构和晋升使用同一份责任包语言。
-- 需要数据验证：前后组织图、跨度、经理负荷、质量、员工体验、薪酬和流动。
-- 需要暂缓：证据不足时统一减员、建新序列或用 AI 分数直接晋升。
+| 渠道 | 今日覆盖 | 最强等级 | 主要缺口 |
+|---|---|---:|---|
+| 官方/一手 | Visa 电话会/IR、BNY、Atlassian、Anthropic JD | L3 | 内部制度与多周期结果 |
+| 权威媒体/咨询 | Reuters、CNBC、Fortune、BCG | L2-L3 | 同源依赖与公司自报 |
+| 公司案例/制度 | Visa、BNY、Atlassian；GitLab 历史基线 | L2-L3 | 新晋升制度、层级/跨度 |
+| 学术/专业研究 | Revelio、HiBob | L2 | 因果、内部流动、预测效度 |
+| 招聘 JD/薪酬 | Anthropic、近窗国内材料 | L1-L2 | 实际支付、团队规模、职业序列 |
+| 社媒/职场 | 无合格新增 | L0-L1 | 主体、原帖、可核验机制 |
+| 内部信息/知识库 | digest、daily、daily-report、knowledge、baseline、weekly | L3 校准 | 同一证据链不可重复计数 |
 
 ## 来源索引
 
-- [36氪：阿里、腾讯、字节 AI 组织与人才动作](https://www.36kr.com/p/3913483185673351)：2026-07-27，行业媒体作者分析，L1。
-- [WSJ/Mint：企业重新招聘与初级岗位反例](https://www.livemint.com/global/big-companies-are-starting-to-hire-again-defying-predictions-of-ai-wipeout-11785114677792.html)：2026-07-27，权威二手，L2。
-- [Gallup：AI 采用、经理支持与裁员归因](https://www.gallup.com/workplace/713063/ai-workplace-productivity.aspx)：2026-07-27，原始调查，L2。
-- [Gartner：AI 人才风险框架](https://gcom.pdo.aws.gartner.com/en/articles/ai-talent-risks)：2026-07-27，咨询框架，L2。
-- [AP：Token 激励与成本反例](https://apnews.com/article/ai-token-openai-anthropic-corporate-31bb80ac1cd7862d05f6397177d826b1)：2026-07-27，多企业采访，L2。
-- [Reuters：Visa 裁减约 2,600 人](https://www.investing.com/news/stock-market-news/visa-plans-to-cut-7-of-workforce-bloomberg-reports-4816822)：2026-07-28，公司确认的权威二手，L2。
-- [Revelio Labs AI Labor Market Tracker](https://www.prnewswire.com/news-releases/revelio-labs-launches-ai-labor-market-tracker-an-evidence-backed-real-time-measure-of-ais-impact-on-the-workforce-302836428.html)：2026-07-28，供应商自有数据，L1-L2。
-- [iMocha 技能验证圆桌](https://www.imocha.io/press-releases/imocha-look-beyond-the-label-us-executive-roundtable-series)：2026-07-28，供应商自报，L1。
-- [Meta Q2 2026 官方业绩与电话会](https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/Meta-06-30-2026-Exhibit-99-1-FINAL.pdf)：2026-07-29，公司一手披露并有媒体交叉，L3。
-- [AP：Meta Q2 2026 交叉报道](https://apnews.com/article/meta-earnings-q2-facebook-profit-revenue-ai-bcbc62dde6d2cac724e3b3385fcabeab)：2026-07-29，权威二手交叉，L2。
-- [腾讯犀牛鸟开源人才培养计划](https://ur.tencent.com/article/1529)：2026-06-19 发布、2026-07-31 报名节点，官方人才项目，L2。
-- [HiBob AI Skills Framework](https://www.hibob.com/news/hibob-launches-ai-skills-framework-and-a-new-ai-skills-assessment-guide/)：2026-07-23，供应商框架，L1-L2。
-- [monday.com SEC 6-K](https://www.sec.gov/Archives/edgar/data/1845338/000117891326003553/zk2635715.htm)：2026-07-22，单一一手组织动作，L2；效果未验证。
-- [Bank of America EricaAssist](https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/07/bank-of-america-enhances-ericaassist-with-generative-ai-to-help-.html)：2026-07-21，单一一手公司材料，L2。
-- [OpenAI Presence](https://openai.com/index/introducing-openai-presence/)：2026-07-22，一手产品/岗位契约，L2。
-- [GitLab Promotions and Transfers](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/)：动态公开制度，单一一手 L2 基线。
-- [BCG AI at Work 2026](https://www.bcg.com/publications/2026/ai-at-work-why-strategy-matters-more-than-tools)：2026-06-03，大样本自报调查，L2。
-- [Intuit SEC 附件内部信](https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000024/fy26q3-ex9902.htm)：2026-05-20，单一一手组织动作，L2。
-- [OECD Employment Outlook 2026](https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en/full-report/component-5.html)：2026 年权威报告，初级岗位反例 L2。
-- [ACL HSCodeComp](https://aclanthology.org/2026.acl-long.937/)：2026 年同行评审任务基准，L2。
+1. Visa，[Q3 2026 Earnings Conference Call](https://investor.visa.com/events-calendar/Event-Details/2026/Q3-2026-Visa-Earnings-Conference-Call/default.aspx)，2026-07-28，官方一手。
+2. Visa Q3，[Yahoo Finance/Quartr 文字稿](https://finance.yahoo.com/quote/V/earnings/V-Q3-2026-earnings_call-656419.html)，2026-07-28，动作 L3/结果 L2。
+3. Reuters/Investing，[Visa workforce adjustment](https://www.investing.com/news/stock-market-news/visa-plans-to-cut-7-of-workforce-bloomberg-reports-4816822)，2026-07-28，动作 L3/因果 L1。
+4. BNY，[1Q26 Quarterly Update](https://www.bny.com/assets/corporate/documents/pdf/investor-relations/earnings/quarterly-update-presentation-1q-2026.pdf)，2026-04-16，官方流程 L3。
+5. Fortune，[BNY skipped tokenmaxxing](https://fortune.com/2026/07/28/bny-skipped-tokenmaxxing-craze-what-ai-metrics-tracks-cfo/)，2026-07-28，L2。
+6. Atlassian，[Leading with Context](https://www.atlassian.com/blog/guides-research/leading-with-context)，2026-07-21，L2。
+7. Revelio Labs，[AI Labor Market Tracker—July 2026](https://www.reveliolabs.com/ai-labor-market-tracker/us/july-2026)，2026-07-28，L2。
+8. Anthropic，[People Research Scientist](https://job-boards.greenhouse.io/anthropic/jobs/5362838008)，动态 JD，L1-L2。
+9. Anthropic，[People Products](https://job-boards.greenhouse.io/anthropic/jobs/5119468008)，动态 JD，L1-L2。
+10. HiBob，[AI Skills 2026 Report](https://www.hibob.com/research/ai-skills-2026-report/)，2026-07-23，L2 自报。
+11. AP，[Meta employees lawsuit](https://apnews.com/article/019fb9c7fdc09167e91547546bce5be8)，2026-07-14，争议 L2。
+12. BCG，[Investors Believe in AI—Now They Want Results](https://www.bcg.com/publications/2026/building-investor-confidence-in-ai-strategy)，2026-07-28，L2。
+13. 内部：[`2026-07-29 日常信息库`](../../../daily/2026-07-29.md)、[`2026-07-29 工作日报`](../../../daily-report/2026-07-29.md)、[`2026-07-28 正式总览`](../2026-07-28/00-overview.md)、[`知识库索引`](../../../knowledge/index.md)、[`W30 详版`](../weekly/2026-W30-detailed.md)。
+
+> `daily/2026-07-29.md`、`daily-report/2026-07-29.md`、`digest.md` 与自动知识卡属于同一内部采集链，不重复计为多份互证。Visa 计一个公司案例（电话会与裁员为两个互补组件），BNY、Revelio、Atlassian、Anthropic、Meta 各按独立事件链计数。AnySearch 本轮连接失败，正式判断只采用可直接复核的公开来源。

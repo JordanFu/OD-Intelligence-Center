@@ -1,92 +1,163 @@
-# 2026-07-31｜专题三：岗位、族群、序列持续建设
+# 2026-07-31｜专题三：岗位、族群、序列的持续建设
 
-> 研究状态：正式历史补跑核验稿。证据按当日可得时间边界归档；没有新增 L2+ 时明确保持判断不变。只有 L3/L4 可支持强结论。
+> 正式决策稿｜恢复扫描形成于 2026-08-03；严格区分 7 月 30—31 日发布/生效事实与 8 月 3 日取得的动态截面。
+> 证据口径：L4＝外部证据与内部数据或长期结果互证；L3＝一手/权威材料并有独立验证；L2＝单一强一手事实或两份可信观察；L1＝招聘职位、厂商未来式表述或单一媒体；L0＝无法核验。
 
 ## 读者应该带走什么
 
-截至 2026-07-31，没有成熟证据支持批量新建 AI 序列；先用既有岗位调整、技能标签、项目角色或薪酬工具承接，稳定责任形成后再建序列。
+纽约州 AI/Data/Records 负责人显示复合责任包在形成，但工资冲击与岗位创新应分开处理，不能直接新建序列。
 
-管理层该问：这个动作究竟改变了什么责任、权限、质量和人才结果？不要误读：动作不等于成效，媒体/供应商/JD 信号不等于成熟机制。
+## 1. 今日一句话专题判断
 
-## 今日一句话专题判断
+**纽约州总检察长办公室把 AI、数据、记录治理、基础设施与合规装进同一新部门负责人责任包，OpenAI 把需求、收入、研究与容量写成资源闭环；这说明新岗位更可能围绕长期结果和控制接口形成，而 Apollo 的工资信号提醒我们先治理同岗分配与带宽，不要把市场冲击直接翻译成新序列。**
 
-**截至 2026-07-31，没有成熟证据支持批量新建 AI 序列；先用既有岗位调整、技能标签、项目角色或薪酬工具承接，稳定责任形成后再建序列。**
+## 2. 今日新增事实：只写可追溯事实
 
-## 今日新增事实
+### F1｜纽约州总检察长办公室用一个新设部门承接 AI、数据与记录治理
 
-未发现新的公司内部 L2+ 晋升制度；Intuit 过渡期结束与腾讯人才项目报名截止都只是执行节点。
+纽约州总检察长办公室的 Director of Enterprise Artificial Intelligence, Data, and Analytics 招聘自 7 月 31 日起审查申请。岗位向 CIO 汇报，负责一个近期新设部门，边界覆盖 AI readiness、工具评估、数据科学、数据与记录治理、分类、基础设施架构与合规，并管理 AI 专家、数据科学家、工程师、分析师及内容/记录人员；公开年薪 142,032—149,287 美元。
 
-| 事实 | 事实还原与边界 | 来源/等级 | 关联课题 |
-|---|---|---|---|
-| 腾讯外部人才培养节点 | 腾讯犀牛鸟计划设置分层任务、真实开发场景、导师、证书/奖学金与优先面试，7 月 31 日为报名截止节点。它可用于设计能力认证与招聘漏斗，但不等于腾讯内部职级或晋升制度。 | [L2](https://ur.tencent.com/article/1529) | 人才密度、岗位架构、晋升 |
+- **等级：L1 招聘事实。**[官方 JD PDF](https://ag.ny.gov/sites/default/files/2026-07/itb_lat_dir_ai_6454-web_0.pdf)可证明岗位设计、汇报线、职责、团队构成意图与薪带；PDF 在本库下载失败，本文仅使用 8 月 3 日已核验的引用上下文，不声称完成全文精读，也不能证明团队已经建成。
 
-## 今日核心判断
+### F2｜OpenAI 把全栈资源配置写成可观察的决策逻辑
 
-1. **主判断。可信度：中高。** 截至 2026-07-31，没有成熟证据支持批量新建 AI 序列；先用既有岗位调整、技能标签、项目角色或薪酬工具承接，稳定责任形成后再建序列。
-2. **机制含义。可信度：高。** 新诉求必须通过既有岗位调整、族群、序列、技能标签、项目角色、薪酬/稀缺工具六路由；只有稳定责任和完整治理才建序列。
-3. **证据边界。可信度：高。** W31 没有内部结果数据或 L4 闭环；单点事实只证明动作和方向。
-4. **反事实。可信度：中高。** 如果 AI 是唯一驱动，应出现跨公司一致的层级、岗位、薪酬或晋升变化；本周实际呈现裁减、扩编、集中与自治并存。
+OpenAI CFO 7 月 31 日署名文章把基础设施、模型、平台、产品、客户使用与收入连接起来：用户和工作负载增长、企业承诺、API 消耗、利用率、收入、能力与效率作为投资证据；技术和商业里程碑决定项目推进；资源可选择自建、合作或采购。文章还要求把时间、重试、人工监督和错误计入“成功结果成本”。
 
-## 判断变化
+- **等级：公开治理逻辑 L2；组织落地和效果 L1。**[OpenAI 原文](https://openai.com/index/building-abundant-intelligence/)能证明公司公开的资源决策框架，未披露实际委员会、预算权、取消项目或岗位体系。
 
-- **增强：** 评价单位从工具活动量转向责任、权限、质量、异常、复用、育人和净容量。
-- **未改变：** 截至 2026-07-31，没有成熟证据支持批量新建 AI 序列；先用既有岗位调整、技能标签、项目角色或薪酬工具承接，稳定责任形成后再建序列。
-- **削弱：** 任何把单点案例外推为全面扁平、全面全栈或即时 AI 晋升的说法。
+### F3｜Apollo 观察到工资增速差异，但未检出显著就业效应
 
-## 重点案例与反例
+Apollo 7 月 30 日白皮书把 Anthropic Economic Index 的实际 Claude 使用记录与美国 BLS/CPS 数据匹配，覆盖 2015—2025 年、321 个职业。其双重差分估计称，2023 年后高 AI 暴露职业的实际工资增速相对低暴露职业低 6.7 个百分点，未检出显著就业效应；最低工资四分位差异更大，作者估计约 580 万劳动者处于高暴露组。Axios 于 7 月 31 日报道该研究。
 
-- **当周案例：** 腾讯外部人才培养节点。可借鉴其可追溯动作；不可照搬其结构、人员规模或供应商结论。
-- **历史基线：** monday.com、美国银行、OpenAI Presence、GitLab 分别提供减层动作、接口系统化、数字岗位契约与晋升校准样本。
-- **反例：** WSJ 恢复招聘、OECD 初级岗位边界和 HSCodeComp 专家差距共同反驳统一少人化与全面岗位合并。
-- **如果照搬会错在哪里：** 用新头衔解决短期定价会制造头衔通胀、永久薪酬债和边界重叠。
+- **等级：Apollo 描述与估计 L2；AI 因果 L1；Axios 为同源二次报道 L1。**来源：[Apollo 白皮书 PDF](https://www.apollo.com/content/dam/apolloaem/pdf/daily-spark/2026//jul/30/Whitepaper-Impact%20of%20AI%20on%20U.S.%20Labor%20Market-2026-R2%201.pdf)、[Axios](https://www.axios.com/2026/07/31/ai-jobs-pay-apollo)。两者不重复计作独立互证。
 
-## 背景材料（Context）
+### F4｜Amazon 同期公开“外部多模型＋内部少数战略模型”的组合逻辑
 
-- 暂不足以下结论，但提示我们关注：用新头衔解决短期定价会制造头衔通胀、永久薪酬债和边界重叠。
-- 供应商框架、招聘 JD 和社媒讨论只形成待验证问题，不进入强结论。
-- W29/W30 与 7 月 22—23 日材料仅作历史基线，不能重复计为 W31 多源互证。
+Amazon 在 7 月 30 日二季度电话会中明确，AWS Bedrock 继续提供多模型选择，同时投资少数自研前沿模型，以控制内部成本、训练优先级与迭代速度。
 
-## 线索层
+- **等级：资源方向 L2；岗位结构 L1。**来源：[Amazon Investor Relations](https://ir.aboutamazon.com/events/event-details/default.aspx)、[Yahoo Finance/Quartr 逐字稿](https://finance.yahoo.com/quote/AMZN/earnings/AMZN-Q2-2026-earnings_call-657334.html)。这为 OpenAI 的自建/合作/采购框架提供外部校准，不证明具体团队或序列已调整。
 
-- 获取公司组织图、经理/个人贡献者比例、跨度、权限、薪带和 6—12 个月结果。
-- 获取受影响员工的转岗质量、薪酬变化、学习支持、负荷和申诉数据。
-- 搜索第二个公开制度样本，验证是否能从单案例升级为稳定机制。
+### 今日范围结论
 
-## 证据地图
+7 月 31 日出现了一个清晰的新部门负责人招聘意图，以及两家公司公开的资源组合逻辑；**仍没有完整岗位目录、责任梯度、任职资格、薪带体系、晋升、横向流动、申诉和退出，因此最多能确认“新岗位责任包”与“岗位治理接口”，不能确认成熟岗位族或序列。**
 
-| 层级 | 可用材料 | 本专题用法 |
+## 3. 今日核心判断
+
+1. **新岗位应围绕长期结果与控制接口，而不是围绕“AI”三个字成立。可信度：中高。**
+   **证据基础：**纽约州官方 JD L1，但责任包具体且指向数据、记录、基础设施与合规的共同结果。
+   **为什么重要：**判断新岗位时应验证独立服务对象、决策权、签字、升级与证据留存，而不是工具熟练度。
+
+2. **资源闭环会催生组合治理角色，但不必自动建立独立序列。可信度：中高。**
+   **证据基础：**OpenAI 自建/合作/采购和技术/商业里程碑；Amazon 外部多模型与内部战略模型。
+   **为什么重要：**组合 owner、容量规划、财务、产品和技术可能形成跨职能责任包，优先应明确共同指标和决策权，而非先创造头衔。
+
+3. **数据、记录与 AI 治理在高敏感机构中可能组成同一岗位族群。可信度：中。**
+   **证据基础：**纽约州 JD 同时管理 AI、数据科学、工程、分析与内容/记录人员。
+   **为什么重要：**这比孤立 AI 卓越中心更接近完整控制链；但单一负责人岗位不能证明岗位复数、共同能力主干与梯度。
+
+4. **AI 影响可能先进入工资和任务，而不是编制。可信度：中。**
+   **证据基础：**Apollo 估计发现工资增速差异但没有显著就业效应。
+   **为什么重要：**企业应先看同岗薪酬、低薪群体、任务迁移、晋升速度和收益分享，不能用暴露分组推导岗位取消。
+
+5. **定价问题不能通过制造新序列绕开。可信度：高。**
+   **证据基础：**纽约州公开窄薪带与 Apollo 市场分配信号都不能证明岗位价值体系整体改变。
+   **为什么重要：**阶段性稀缺或同岗市场倒挂，应使用稀缺系数、津贴或带宽调整，并设置复核与失效条件。
+
+## 4. 重点案例事实还原：纽约州 AI/Data/Records 新部门负责人
+
+### 责任架构
+
+| 责任面 | 岗位任务 | 必须补证的决策权 |
 |---|---|---|
-| L3 | 两项以上相互独立的一手/权威材料交叉 | 支持强事实与机制方向，仍不等于成效 |
-| L2 | 单一官方/SEC/制度、Reuters、权威研究 | 支持有边界的事实观察，不能证明成效 |
-| L1 | 供应商、媒体独家、JD、社媒 | 只作 Context 与搜索入口 |
-| L0 | 无法回溯原文的传闻 | 排除 |
+| AI readiness 与工具评估 | 评估采用准备和工具 | 业务准入、停用与例外 |
+| 数据科学与分析 | 建设数据/分析能力 | 数据口径、模型与结果签字 |
+| 数据与记录治理 | 分类、保留、内容与记录责任 | 访问、纠错、保存与申诉 |
+| 基础设施架构 | 将 AI 接入技术底座 | 架构标准、采购与生产变更 |
+| 合规 | 连接法律与公共责任 | 风险升级、事故通知与审计 |
+| 人才管理 | 管理多类专家 | 岗位分层、招聘、发展和绩效 |
 
-## 行动启发
+### 为什么它是“新岗位”而非“新序列”证据
 
-- 新诉求必须通过既有岗位调整、族群、序列、技能标签、项目角色、薪酬/稀缺工具六路由；只有稳定责任和完整治理才建序列。
-- 建立可回滚试点、停止条件、人工升级、审计日志与事后公平检查。
-- CEO 只审批可验证的机制假设，不审批未经责任迁移的统一减层、统一建序列或 AI 自动晋升。
+- JD 提供了独立服务对象、跨专业团队和长期控制责任，足以支持一个岗位设计事实。
+- 它没有公开同构岗位数量、三级责任梯度、共同任职资格、薪带体系、内部流动或晋升机制。
+- 因此可以试点岗位和候选族群，不应从一个 Director 反推完整“AI 治理序列”。
 
-## 来源索引
+### 可借鉴与不可照搬
 
-- [36氪：阿里、腾讯、字节 AI 组织与人才动作](https://www.36kr.com/p/3913483185673351)：2026-07-27，行业媒体作者分析，L1。
-- [WSJ/Mint：企业重新招聘与初级岗位反例](https://www.livemint.com/global/big-companies-are-starting-to-hire-again-defying-predictions-of-ai-wipeout-11785114677792.html)：2026-07-27，权威二手，L2。
-- [Gallup：AI 采用、经理支持与裁员归因](https://www.gallup.com/workplace/713063/ai-workplace-productivity.aspx)：2026-07-27，原始调查，L2。
-- [Gartner：AI 人才风险框架](https://gcom.pdo.aws.gartner.com/en/articles/ai-talent-risks)：2026-07-27，咨询框架，L2。
-- [AP：Token 激励与成本反例](https://apnews.com/article/ai-token-openai-anthropic-corporate-31bb80ac1cd7862d05f6397177d826b1)：2026-07-27，多企业采访，L2。
-- [Reuters：Visa 裁减约 2,600 人](https://www.investing.com/news/stock-market-news/visa-plans-to-cut-7-of-workforce-bloomberg-reports-4816822)：2026-07-28，公司确认的权威二手，L2。
-- [Revelio Labs AI Labor Market Tracker](https://www.prnewswire.com/news-releases/revelio-labs-launches-ai-labor-market-tracker-an-evidence-backed-real-time-measure-of-ais-impact-on-the-workforce-302836428.html)：2026-07-28，供应商自有数据，L1-L2。
-- [iMocha 技能验证圆桌](https://www.imocha.io/press-releases/imocha-look-beyond-the-label-us-executive-roundtable-series)：2026-07-28，供应商自报，L1。
-- [Voice AI in Firms 自然田野实验](https://arxiv.org/abs/2607.28222)：2026-07-30，既有工作论文的 arXiv 新版本，L2。
-- [Meta Q2 2026 官方业绩与电话会](https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/Meta-06-30-2026-Exhibit-99-1-FINAL.pdf)：2026-07-29，公司一手披露并有媒体交叉，L3。
-- [AP：Meta Q2 2026 交叉报道](https://apnews.com/article/meta-earnings-q2-facebook-profit-revenue-ai-bcbc62dde6d2cac724e3b3385fcabeab)：2026-07-29，权威二手交叉，L2。
-- [腾讯犀牛鸟开源人才培养计划](https://ur.tencent.com/article/1529)：2026-06-19 发布、2026-07-31 报名节点，官方人才项目，L2。
-- [HiBob AI Skills Framework](https://www.hibob.com/news/hibob-launches-ai-skills-framework-and-a-new-ai-skills-assessment-guide/)：2026-07-23，供应商框架，L1-L2。
-- [monday.com SEC 6-K](https://www.sec.gov/Archives/edgar/data/1845338/000117891326003553/zk2635715.htm)：2026-07-22，单一一手组织动作，L2；效果未验证。
-- [Bank of America EricaAssist](https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/07/bank-of-america-enhances-ericaassist-with-generative-ai-to-help-.html)：2026-07-21，单一一手公司材料，L2。
-- [OpenAI Presence](https://openai.com/index/introducing-openai-presence/)：2026-07-22，一手产品/岗位契约，L2。
-- [GitLab Promotions and Transfers](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/)：动态公开制度，单一一手 L2 基线。
-- [BCG AI at Work 2026](https://www.bcg.com/publications/2026/ai-at-work-why-strategy-matters-more-than-tools)：2026-06-03，大样本自报调查，L2。
-- [Intuit SEC 附件内部信](https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000024/fy26q3-ex9902.htm)：2026-05-20，单一一手组织动作，L2。
-- [OECD Employment Outlook 2026](https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en/full-report/component-5.html)：2026 年权威报告，初级岗位反例 L2。
-- [ACL HSCodeComp](https://aclanthology.org/2026.acl-long.937/)：2026 年同行评审任务基准，L2。
+- **可借鉴：**把 AI、数据、记录、基础设施、合规和采用放进同一责任链；每一环明确 owner、暂停、例外、升级和证据保存。
+- **不可照搬：**不直接复制公共部门汇报线和薪带；不把跨专业团队都归并成同一职业族；不把新设部门当作治理已经有效。
+
+## 5. Context 层｜背景材料、弱信号、线索、反例与冲突
+
+- **暂不足以下结论，但提示我们关注……**OpenAI 的“成功结果成本”可能使容量规划、财务、产品运营和质量治理更紧密；当前只有公司叙事，没有实际岗位与取消项目案例。
+- **暂不足以下结论，但提示我们关注……**Apollo 的工资差异可能来自 AI 暴露，也可能混入疫情后职业周期、科技业调整和低暴露工种工资变化；不能直接制定调薪公式。
+- **反例：**纽约州把治理放在 CIO 下，FactSet 后续把 workforce transformation 放进 People 高管职责；owner 位置应服从业务风险与结果对象，没有唯一正确组织图。
+- **冲突：**端到端责任要求减少交接，高敏感数据与记录治理又要求独立挑战、审计和申诉；岗位设计需同时保留效率与制衡。
+- **L0 边界：**同一 JD 的二次转载、岗位是否新增的推测、实际 offer 与团队编制均未核验。
+
+## 6. 证据地图
+
+| 渠道 | 最强材料 | 等级 | 可以支持 | 不可以支持 |
+|---|---|---:|---|---|
+| 官方 JD | 纽约州总检察长办公室 | L1 | 责任包、汇报线、团队与薪带意图 | 实际团队、成熟族群和治理效果 |
+| 公司一手 | OpenAI CFO 文章 | L2 逻辑 | 资源闭环与结果成本 | 真实预算权、岗位与效率 |
+| 公司一手 | Amazon 电话会 | L2 方向 | 模型组合与控制边界 | 具体团队重组和职业通道 |
+| 报告/媒体 | Apollo；Axios 同源二次报道 | Apollo L2、Axios L1 | 工资与就业需分开观察 | 企业调薪公式、AI 因果 |
+| 社媒/职场 | 无具名制度新增 | L0 | 形成访谈问题 | 任何正式事实 |
+| 内部信息库 | 8/3 恢复扫描、W31 | 恢复覆盖 | 去重与时间校准 | 冒充 7/31 原日完整扫描 |
+
+## 7. 对我们的行动启发｜落地启发与岗位治理决策树
+
+**管理层该问：**这个责任包能否跨人、跨项目、跨工具持续，并形成可审计的责任梯度？
+
+1. **是否出现长期独立结果责任，而非新增工具任务？**
+   否：更新技能标签或岗位说明。是：进入下一步。
+2. **是否明确服务对象、数据/资源权、质量线、暂停/升级和最终签字？**
+   否：先补责任契约；不新建岗位。是：可试点新岗位。
+3. **是否有多个同构岗位，共享能力主干、人才市场和横向流动？**
+   否：保持单一岗位。是：建立岗位族。
+4. **是否存在至少三级、可审计的责任梯度？**
+   否：只建族群和能力矩阵。是：进入序列论证。
+5. **薪带、晋升校准、申诉、合并、退出与 6/12 个月复核是否齐备？**
+   否：不建立正式序列。是：提交序列审批。
+
+### 定价与激励分流
+
+- 跨岗位、快变化、最终责任不变：**技能标签**。
+- 阶段性市场溢价：**稀缺系数**，必须自动失效。
+- 有起止、里程碑和验收：**项目奖**。
+- 长期值守、认证、审计或高风险签字：**专项津贴**。
+- 短期兼岗、迁移或代理职责：**临时补贴**。
+- 整个既有岗位群长期倒挂：**薪酬带宽调整**。
+
+**坚决不新建序列：**岗位名称先于责任；只有一个负责人；无法写出三级差异；调宽薪带后诉求消失；业务拒绝同工同酬校准、申诉和退出。
+
+## 8. 待验证清单与下一步搜索路径
+
+1. 纽约州新部门的实际编制、既有岗位迁移、预算和业务采用权。
+2. Director 对工具准入、停用、记录保留、事故通知和风险签字的正式权限。
+3. OpenAI 是否披露真实项目取消、技术/商业里程碑未达和容量利用案例。
+4. Apollo 工资差异能否由其他模型使用数据、职业分类和时间窗口复现。
+5. 企业内部 AI 暴露是否先影响任务、工资、晋升、流动还是编制。
+6. 新岗位申请在使用带宽调整、稀缺系数或项目奖后是否仍成立。
+
+### 本轮实际检索词
+
+- `site:ag.ny.gov Director Enterprise Artificial Intelligence Data Analytics records 6454`
+- `site:openai.com building abundant intelligence CFO July 31 2026`
+- `Apollo Impact of AI on U.S. Labor Market 2026 R2 wage employment`
+- `Amazon Q2 2026 Bedrock multiple models own frontier models transcript`
+- `AI data records governance director career ladder compensation`
+- `skills premium versus new job family salary band adjustment`
+
+## 9. 来源索引
+
+1. New York State Office of the Attorney General，[Director of Enterprise AI, Data, and Analytics JD](https://ag.ny.gov/sites/default/files/2026-07/itb_lat_dir_ai_6454-web_0.pdf)，2026-07-31 起审查，L1。
+2. OpenAI，[Building abundant intelligence](https://openai.com/index/building-abundant-intelligence/)，2026-07-31，治理逻辑 L2。
+3. Apollo，[Impact of AI on U.S. Labor Market](https://www.apollo.com/content/dam/apolloaem/pdf/daily-spark/2026//jul/30/Whitepaper-Impact%20of%20AI%20on%20U.S.%20Labor%20Market-2026-R2%201.pdf)，2026-07-30，描述与估计 L2。
+4. Axios，[AI-exposed jobs show slower pay growth](https://www.axios.com/2026/07/31/ai-jobs-pay-apollo)，2026-07-31，同源二次报道 L1。
+5. Amazon，[Investor Relations earnings event](https://ir.aboutamazon.com/events/event-details/default.aspx)，2026-07-30，资源方向 L2。
+6. Yahoo Finance/Quartr，[Amazon Q2 2026 earnings call transcript](https://finance.yahoo.com/quote/AMZN/earnings/AMZN-Q2-2026-earnings_call-657334.html)，2026-07-30，L2。
+7. 内部连续材料：[`8/3 恢复信息库`](../../../daily/2026-08-03.md)、[`W31 周报`](../../../daily-report/weekly-2026-W31.md)、[`岗位族群基线`](../topics/job-family-career-architecture/baseline.md)。
+
+> 去重说明：纽约州与 Apollo PDF 本地下载失败，本文仅使用已核验引用上下文；未把引用上下文扩展成未读全文结论。

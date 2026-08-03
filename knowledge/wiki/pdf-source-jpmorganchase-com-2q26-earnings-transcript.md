@@ -2,8 +2,8 @@
 title: 2Q26 earnings transcript
 source: jpmorganchase.com
 date: 待核验
-ingested: 2026-07-24
-sourceFile: ../knowledge/raw/jpmorganchase-com-2q26-earnings-transcript.pdf
+ingested: 2026-08-03
+sourceFile: ../raw/jpmorganchase-com-2q26-earnings-transcript.pdf
 sourceUrl: https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/2nd-quarter/2Q26-earnings-transcript.pdf
 tags: [AI组织设计]
 status: 已下载原始PDF，已生成结构化初筛卡片
@@ -21,7 +21,7 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 - **来源类型**：media
 - **原文 URL**：https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/2nd-quarter/2Q26-earnings-transcript.pdf
 - **原始文件**：`knowledge/raw/jpmorganchase-com-2q26-earnings-transcript.pdf`
-- **入库日期**：2026-07-24
+- **入库日期**：2026-08-03
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
@@ -58,6 +58,10 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 - `specials/ai-org-talent-mechanism/2026-07-21/03-job-family-career-architecture.md:22`：JPMorganChase 2Q26 电话会
 - `specials/ai-org-talent-mechanism/2026-07-21/03-job-family-career-architecture.md:125`：2Q26 Earnings Transcript
 - `specials/ai-org-talent-mechanism/2026-07-22/03-job-family-career-architecture.md:153`：2Q26 Earnings Transcript
+- `specials/ai-org-talent-mechanism/weekly/2026-W30-detailed.md:470`：JPMorganChase 2Q26 Earnings Transcript
+- `specials/ai-org-talent-mechanism/weekly/2026-W30.md:470`：JPMorganChase 2Q26 Earnings Transcript
+- `specials/ai-org-talent-mechanism/weekly/latest-detailed.md:470`：JPMorganChase 2Q26 Earnings Transcript
+- `specials/ai-org-talent-mechanism/weekly/latest.md:470`：JPMorganChase 2Q26 Earnings Transcript
 
 ## 后续精读任务
 
