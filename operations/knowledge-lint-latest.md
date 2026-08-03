@@ -1,21 +1,22 @@
 # 知识库 Lint 最新结果
 
-> 自动生成：2026-08-02T14:47:28.205Z
+> 自动生成：2026-08-03T02:33:04.378Z
 
 ## 总览
 
-- 状态：pass
-- Catalog 日期：2026-08-02
+- 状态：warn
+- Catalog 日期：2026-08-03
 - 知识源：4
-- 报告 / 知识页：110
-- PDF 待重试样本数：1
+- 报告 / 知识页：113
+- PDF 待重试样本数：14
 - 本地或私有路径泄露：0
 - 缺失 summaryFile：0
 - 重复编号：0
+- 重复 summaryFile：3
 
 ## 问题
 
-- ✅ 未发现 Phase 1 强检查问题。
+- ⚠️ knowledge/catalog.json 的 reports 存在 3 组重复 summaryFile。
 
 ## 本地或私有路径泄露
 
@@ -34,3 +35,11 @@
 | 区域 | 编号 | 行 |
 |---|---:|---|
 | - | - |
+
+## 重复 summaryFile
+
+| summaryFile | reports IDs |
+|---|---|
+| ./knowledge/wiki/pdf-source-oecd-org-734a5e68-en.md | p035、p036 |
+| ./knowledge/wiki/pdf-source-cencenelec-eu-draft-cwa-xxxx-e.md | p038、p039 |
+| ./knowledge/wiki/pdf-source-pwc-com-2026-global-ai-jobs-barometer-full-report.md | p046、p048 |

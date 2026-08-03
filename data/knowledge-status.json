@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-02T14:47:28.205Z",
+  "generatedAt": "2026-08-03T02:33:04.378Z",
   "module": "knowledge-base",
-  "qualityStatus": "warn",
-  "latestCatalogDate": "2026-08-02",
+  "qualityStatus": "fail",
+  "latestCatalogDate": "2026-08-03",
   "counts": {
-    "reports": 110,
+    "reports": 113,
     "knowledgeSources": 4,
     "sourceTypes": {
-      "media": 42,
-      "internal": 17,
+      "media": 44,
+      "internal": 18,
       "concept": 10,
       "public-safe-synthesis": 11,
       "consulting": 14,
@@ -18,15 +18,88 @@
   "privatePathLeaks": [],
   "missingSummaryFiles": [],
   "duplicateNumbers": [],
-  "pdfRetryCount": 1,
+  "duplicateSummaryFiles": [
+    {
+      "summaryFile": "./knowledge/wiki/pdf-source-oecd-org-734a5e68-en.md",
+      "ids": [
+        "p035",
+        "p036"
+      ]
+    },
+    {
+      "summaryFile": "./knowledge/wiki/pdf-source-cencenelec-eu-draft-cwa-xxxx-e.md",
+      "ids": [
+        "p038",
+        "p039"
+      ]
+    },
+    {
+      "summaryFile": "./knowledge/wiki/pdf-source-pwc-com-2026-global-ai-jobs-barometer-full-report.md",
+      "ids": [
+        "p046",
+        "p048"
+      ]
+    }
+  ],
+  "pdfRetryCount": 14,
   "pdfRetrySample": [
     {
-      "id": "local-knowledge-review-2026-06-29",
-      "title": "本地知识库定期 Review（2026-06-29）",
-      "summaryFile": "./knowledge/wiki/local-knowledge-review-2026-06-29.md"
+      "id": "p001",
+      "title": "GitLab：2026 SEC 8-K Filing",
+      "summaryFile": "./knowledge/wiki/pdf-source-gitlab-gitlab-2026-sec-8-k-filing.md"
+    },
+    {
+      "id": "p004",
+      "title": "BCG：AI Radar 2026",
+      "summaryFile": "./knowledge/wiki/pdf-source-bcg-bcg-ai-radar-2026.md"
+    },
+    {
+      "id": "p008",
+      "title": "BCG + MIT Sloan：The Emerging Agentic Enterprise",
+      "summaryFile": "./knowledge/wiki/pdf-source-bcg-bcg-mit-sloan-the-emerging-agentic-enterprise.md"
+    },
+    {
+      "id": "p012",
+      "title": "6456498",
+      "summaryFile": "./knowledge/wiki/pdf-source-papers-ssrn-com-6456498.md"
+    },
+    {
+      "id": "p017",
+      "title": "it job family career ladder matrix software engineer",
+      "summaryFile": "./knowledge/wiki/pdf-source-umassmed-edu-it-job-family-career-ladder-matrix-software-engineer.md"
+    },
+    {
+      "id": "p027",
+      "title": "McKinsey：The State of Organizations 2026",
+      "summaryFile": "./knowledge/wiki/pdf-source-mckinsey-company-mckinsey-the-state-of-organizations-2026.md"
+    },
+    {
+      "id": "p028",
+      "title": "BCG Executive Perspectives AI First Companies Win the Future Issue1 10June2025",
+      "summaryFile": "./knowledge/wiki/pdf-source-bcg-bcg-executive-perspectives-ai-first-companies-win-the-future-issue1-10june2025.md"
+    },
+    {
+      "id": "p032",
+      "title": "gov.uscourts.cand.474171.1.0",
+      "summaryFile": "./knowledge/wiki/pdf-source-apnews-com-gov-uscourts-cand-474171-1-0.md"
+    },
+    {
+      "id": "p033",
+      "title": "gov.uscourts.cand.474171.1.0",
+      "summaryFile": "./knowledge/wiki/pdf-source-storage-courtlistener-com-gov-uscourts-cand-474171-1-0.md"
+    },
+    {
+      "id": "p035",
+      "title": "734a5e68 en",
+      "summaryFile": "./knowledge/wiki/pdf-source-oecd-org-734a5e68-en.md"
     }
   ],
   "warnings": [
+    "knowledge/catalog.json 的 reports 存在 3 组重复 summaryFile。",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
@@ -73,18 +146,28 @@
     "external link not hard-checked in Phase 1"
   ],
   "criticalIssues": [],
-  "brokenLinks": [],
+  "brokenLinks": [
+    {
+      "type": "public-scan",
+      "sourceFile": "data/info-feed-status.json",
+      "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-03.html",
+      "reason": "public scan bridge returned 404",
+      "status": 404
+    }
+  ],
   "links": {
-    "checkedAt": "2026-08-02T14:47:28.941Z",
-    "qualityStatus": "warn",
-    "firstPartyChecked": 2415,
-    "externalWarnings": 44,
-    "brokenCount": 0,
+    "checkedAt": "2026-08-03T02:33:14.771Z",
+    "qualityStatus": "fail",
+    "firstPartyChecked": 2436,
+    "externalWarnings": 48,
+    "brokenCount": 1,
     "publicScanBridge": [
       {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-30.html"
+        "ok": false,
+        "hardBroken": true,
+        "status": 404,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-03.html",
+        "reason": "public scan bridge returned 404"
       },
       {
         "ok": true,

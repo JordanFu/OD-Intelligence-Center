@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-08-02T14:47:24.546Z",
+  "generatedAt": "2026-08-03T02:33:04.932Z",
   "module": "topic-projects",
   "project": {
     "id": "ai-org-talent-mechanism",
     "title": "AI时代组织与人才机制四课题研究",
     "root": "specials/ai-org-talent-mechanism"
   },
-  "qualityStatus": "warn",
+  "qualityStatus": "fail",
   "latestFormalDate": "2026-07-30",
-  "latestAnyDate": "2026-08-02",
-  "today": "2026-08-02",
-  "todayStatus": "fallback",
-  "latestStatus": "fallback",
+  "latestAnyDate": "2026-08-03",
+  "today": "2026-08-03",
+  "todayStatus": "scheduled",
+  "latestStatus": "scheduled",
   "pendingRerunDates": [
     "2026-08-02",
     "2026-08-01",
@@ -37,6 +37,7 @@
     "2026-05-13"
   ],
   "statusCounts": {
+    "scheduled": 1,
     "fallback": 22,
     "formal": 60
   },
@@ -48,6 +49,63 @@
     "missing": "缺失：日期目录或必要文件不存在。"
   },
   "dates": [
+    {
+      "date": "2026-08-03",
+      "status": "scheduled",
+      "isFormal": false,
+      "isFallback": false,
+      "needsRerun": false,
+      "overview": null,
+      "overviewMarkdown": null,
+      "index": null,
+      "topicReports": [
+        {
+          "title": "overview",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        },
+        {
+          "title": "flat-organization",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        },
+        {
+          "title": "talent-density",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        },
+        {
+          "title": "job-family-career-architecture",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        },
+        {
+          "title": "promotion-system",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        }
+      ],
+      "missingRequired": [
+        "00-overview.md",
+        "01-flat-organization.md",
+        "02-talent-density.md",
+        "03-job-family-career-architecture.md",
+        "04-promotion-system.md"
+      ],
+      "hasFormalEntry": false,
+      "qualityGate": {
+        "path": null,
+        "status": "not-found"
+      },
+      "qualityIssues": [
+        "未到今日 18:00 正式自动化运行时间"
+      ]
+    },
     {
       "date": "2026-08-02",
       "status": "fallback",
@@ -4111,18 +4169,28 @@
       ]
     }
   ],
-  "brokenLinks": [],
+  "brokenLinks": [
+    {
+      "type": "public-scan",
+      "sourceFile": "data/info-feed-status.json",
+      "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-03.html",
+      "reason": "public scan bridge returned 404",
+      "status": 404
+    }
+  ],
   "links": {
-    "checkedAt": "2026-08-02T14:47:28.941Z",
-    "qualityStatus": "warn",
-    "firstPartyChecked": 2415,
-    "externalWarnings": 44,
-    "brokenCount": 0,
+    "checkedAt": "2026-08-03T02:33:14.771Z",
+    "qualityStatus": "fail",
+    "firstPartyChecked": 2436,
+    "externalWarnings": 48,
+    "brokenCount": 1,
     "publicScanBridge": [
       {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-07-30.html"
+        "ok": false,
+        "hardBroken": true,
+        "status": 404,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-03.html",
+        "reason": "public scan bridge returned 404"
       },
       {
         "ok": true,
@@ -4132,6 +4200,10 @@
     ]
   },
   "warnings": [
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
