@@ -1,53 +1,162 @@
-# 2026-08-01｜专题三：岗位、族群、序列持续建设
+# 2026-08-01｜专题三：岗位、族群、序列的持续建设
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+> 正式决策稿｜恢复扫描形成于 2026-08-03。8 月 1 日发布的国内中层访谈作为当日弱信号；OpenAI、Anthropic 动态 JD 与 7 月工程研究为恢复取得的校准材料，不伪装为 8 月 1 日新增职位。
+> 证据口径：L4＝外部证据与内部数据或长期结果互证；L3＝一手/权威材料并有独立验证；L2＝单一强一手事实或两份可信观察；L1＝招聘职位、匿名访谈或局部截面；L0＝无法核验。
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+## 读者应该带走什么
 
-## 今日一句话结论
+应用岗位变宽与控制岗位变深是同一工作流的两面；高薪 JD 只能证明定价意图，不能证明成熟职业序列。
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+## 1. 今日一句话专题判断
 
-## 今日核心判断
+**生成端提速正在把应用岗位的责任推向规格、验证、异常与最终承责，同时把安全、评测、可靠运行等控制岗位推向更深专家责任包；正确路线是“应用变宽、控制变深”，而不是所有岗位全栈化，也不是看到高薪 JD 就新建序列。**
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+## 2. 今日新增事实：只写可追溯事实
 
-## 今日背景材料
+### F1｜国内中层访谈把“验证税”描述为经理与团队的新负荷
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+36氪 8 月 1 日转载微信公众号“定焦”对 5 名大厂或前大厂中层的访谈。受访者称 AI 提高生成量，但上线结果未同步；团队引入双人校验、代码评审和小范围试运行，考核从任务数转向有效交付与验证通过率；另有受访者称团队拆成更小工作组，经理覆盖范围扩大并重新承担一线工作。
 
-## 今日新增证据地图
+- **等级：L1。**[36氪报道](https://36kr.com/p/3920274115866249)是匿名小样本，能形成“规格—验证—异常—最终承责”岗位问题，不能证明普遍扁平化、经理角色已制度化或净生产率提高。
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+### F2｜OpenAI RSI Safety 把未来风险研究连接到生产控制
 
-## 线索层
+8 月 3 日恢复取得的 OpenAI Recursive Self-Improvement Safety Researcher 动态 JD，基本工资为 29.5万—44.5万美元。岗位位于 Preparedness，职责覆盖可扩展监督、自动审计、监控可解释性、模型行为科学、跨机构验证、AI 研发风险测量和 RSI safety case，并要求把研究原型迭代为进入生产模型的控制系统。
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+- **等级：L1 招聘意图。**[OpenAI Careers](https://openai.com/careers/researcher-recursive-self-improvement-safety-san-francisco/)可证明当前职责和公开薪带；不能证明岗位在 8 月 1 日新增、实际到岗、Preparedness 否决权或序列成熟度。
 
-## 待补齐的落地问题
+### F3｜Anthropic Model Evaluations 把研究解释、可靠运行和值班合并
 
-正式重跑必须回答：是新建岗位族群、保留技能标签，还是调整薪酬带宽和项目激励；必须同时验证岗位合并与专家岗位深化。
+8 月 3 日恢复取得的 Anthropic Research Engineer, Model Evaluations（requisition 5198255008）动态 JD，当前年薪区间为 50万—85万美元；职责包括训练期评测平台、模型健康看板、异常诊断、值班支持和跨研究团队解释结果。仓库 5 月公开快照记录同一 requisition 的区间为 32万—48.5万美元，但页面没有说明调整日期、职级扩展或薪资口径变化。
 
-## 来源索引
+- **等级：当前职责与薪带 L1；涨幅原因 L0。**[Anthropic/Greenhouse](https://job-boards.greenhouse.io/anthropic/jobs/5198255008)只支持当前页面截面，不能证明市场普遍涨薪、岗位扩级或实际 offer。
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+### F4｜企业编码研究显示吞吐与评审负荷同步增长
+
+7 月 2 日预印本分析一家中型 AI-forward 企业 802 名开发者、196,212 个 pull requests（2024 年 1 月至 2026 年 4 月）。人均合并 PR 最终达到基线的 2.09 倍，自动化评审超过人工评审，单个 reviewer 负荷也约翻倍，merge 与 revert rate 大体稳定；作者明确说明采用强度并非随机，不能做精确因果归因。
+
+- **等级：单企业纵向观察 L2；普遍因果 L1。**来源：[arXiv 摘要](https://arxiv.org/abs/2607.01904)、[论文 PDF](https://arxiv.org/pdf/2607.01904)。该研究是 8 月 3 日恢复补漏，用于验证机制，不是 8 月 1 日当日发布。
+
+### 今日范围结论
+
+当日与恢复材料共同增强“应用变宽、控制变深”的责任结构，但 **没有任何来源公开完整岗位目录、共同等级、任职资格、晋升、横向流动与退出机制**。OpenAI 和 Anthropic 只能支持深专家岗位意图，不能宣布新的安全/评测序列成熟。
+
+## 3. 今日核心判断
+
+1. **应用岗位的责任正在从生成转向定义、验证和最终承责。可信度：中高。**
+   **证据基础：**单企业编码研究 L2 与国内中层访谈 L1 指向相同瓶颈迁移。
+   **为什么重要：**岗位说明和绩效不能只奖励任务量、代码量或节时，应纳入规格质量、验证通过率、异常处理、返工和客户结果。
+
+2. **控制面专家正在把研究、生产可靠性和治理合并为深责任包。可信度：中。**
+   **证据基础：**OpenAI RSI Safety 与 Anthropic Model Evaluations 两份官方动态 JD。
+   **为什么重要：**这类岗位不是“会用 AI”的通用技能，而是高后果判断、生产控制、异常响应和跨团队解释的组合。
+
+3. **复合型不等于什么都会一点。可信度：高。**
+   **证据基础：**应用端扩展结果责任，控制端同时深化安全与评测。
+   **为什么重要：**任职资格应采用“主专业锚点＋端到端结果＋升级边界”，避免把跨职能写成专业标准稀释。
+
+4. **高薪动态 JD 只能触发定价复核，不能触发序列审批。可信度：高。**
+   **证据基础：**Anthropic 同一 requisition 的两个网页截面缺调整原因；OpenAI 薪带也受地点、资历和股权影响。
+   **为什么重要：**应先用市场数据、岗位评估、稀缺系数或带宽调整验证，不应以单一薪带制造新头衔和等级。
+
+5. **初级岗位与经理角色不能成为验证税的隐形承担者。可信度：中高。**
+   **证据基础：**评审负荷约翻倍与匿名经理最终承责描述。
+   **为什么重要：**若生成吞吐扩张而训练、评审和异常容量不扩张，组织会通过过载、人才管道变薄和质量风险支付成本。
+
+## 4. 重点案例事实还原：控制面深专家责任包
+
+### 两类岗位对照
+
+| 责任层 | OpenAI RSI Safety | Anthropic Model Evaluations | 共同组织含义 |
+|---|---|---|---|
+| 研究 | 监督、审计、行为与风险测量 | 评测方法与结果解释 | 不只执行既有规则 |
+| 原型 | 安全研究原型 | 评测平台与看板 | 把方法产品化 |
+| 生产 | 进入生产模型的控制系统 | 训练期运行、异常诊断、值班 | 对运行可靠性负责 |
+| 跨团队 | 跨机构验证和推动 | 跨研究团队解释 | 需要翻译与协调能力 |
+| 治理 | safety case 与风险边界 | 模型健康与异常升级 | 需要证据、升级和签字 |
+
+### 为什么是“深专家岗位”而非“独立序列”
+
+- 两份 JD 都有清晰的主专业锚点和高后果结果责任，足以支持岗位与市场定价意图。
+- 公开材料没有同构岗位数量、共同层级、内部流动、晋升和退出。
+- 因此可以建立专家岗位画像、专项定价与人才池；只有岗位复数和责任梯度稳定后，才讨论岗位族或序列。
+
+### 可借鉴与不可照搬
+
+- **可借鉴：**把研究、生产控制、异常值班、跨团队解释和证据留存写进同一责任契约；明确最终签字与升级路径。
+- **不可照搬：**不复制岗位名称和美国薪带；不把值班负荷当晋升证据；不因两个高薪 JD 就推断行业性专家序列或实际扩编。
+
+## 5. Context 层｜背景材料、弱信号、线索、反例与冲突
+
+- **暂不足以下结论，但提示我们关注……**经理可能从排期和信息传递转向规格、验证、异常与人才发展；匿名访谈尚不能证明跨度、绩效和授权已正式改变。
+- **暂不足以下结论，但提示我们关注……**Anthropic 薪带上移可能是市场调价、岗位扩级、多地口径、总现金口径或 requisition 重用，原因保持 L0。
+- **反例：**merge 与 revert rate 大体稳定，不代表产品质量不变；缺陷、维护、客户结果、reviewer burnout 和初级人才训练均未充分测量。
+- **冲突：**应用端希望减少交接、加快交付；控制端需要独立挑战、异常诊断和暂停。岗位设计必须保留制衡，不以“端到端”吞并控制权。
+- **证据边界：**动态 JD 是招聘意图；匿名访谈是体验线索；两者都不能证明制度落地或普遍趋势。
+
+## 6. 证据地图
+
+| 渠道 | 最强材料 | 等级 | 可以支持 | 不可以支持 |
+|---|---|---:|---|---|
+| 国内媒体/访谈 | 36氪/定焦中层访谈 | L1 | 规格、验证、异常与经理负荷问题 | 普遍扁平化、正式岗位变化 |
+| 学术研究 | 802 名开发者纵向研究 | L2 | 吞吐与评审负荷同步增长 | 普遍因果、产品净生产率 |
+| 官方招聘 | OpenAI RSI Safety | L1 | 深专家责任包与薪带意图 | 否决权、团队、成熟序列 |
+| 官方招聘 | Anthropic Model Evaluations | L1/L0 | 当前职责与薪带；原因不可核验 | 市场涨薪、实际 offer、扩编 |
+| 社媒/职场 | 匿名体验 | L0-L1 | 生成访谈和数据需求 | 岗位、职级、薪酬结论 |
+| 内部信息库 | 8/3 恢复扫描、W31 | 恢复覆盖 | 时间校准与跨源比较 | 冒充 8/1 原日完整扫描 |
+
+## 7. 对我们的行动启发｜落地启发与“应用变宽、控制变深”决策树
+
+**管理层该问：**验证责任是跨岗位技能、项目角色，还是已形成长期独立结果与人才市场？
+
+1. **新增任务是否改变最终结果、签字或风险责任？**
+   否：更新技能标签与任务清单。是：进入下一步。
+2. **责任属于应用结果，还是高后果控制？**
+   应用结果：扩大现有岗位的端到端责任，并设置质量/升级边界。高后果控制：保留独立专家岗位和挑战权。
+3. **责任能否脱离单一工具或项目持续一个业务周期？**
+   否：项目角色＋项目奖/临时补贴。是：建立岗位试点。
+4. **是否有多个同构岗位和共同能力主干？**
+   否：不建岗位族。是：建立族群和横向流动规则。
+5. **是否能定义至少三级责任梯度，且薪带、晋升、申诉、合并、退出齐备？**
+   否：停在岗位族。是：才讨论新序列。
+
+### 定价与负荷工具
+
+- 专业能力快变、最终责任不变：**技能标签**。
+- 安全/评测人才阶段性稀缺：**稀缺系数**，按 6/12 个月复核。
+- 有明确模型/产品里程碑：**项目奖**，同时计质量和风险。
+- 长期值班、认证、异常和高风险签字：**专项津贴**。
+- 临时兼岗或转型期额外评审：**临时补贴**。
+- 同一专家岗位群持续市场倒挂：**薪酬带宽调整**。
+
+**坚决不新建序列：**只有两张动态 JD；不能说明岗位复数与梯度；真实诉求只是突破薪带；会把应用交付与独立控制混成一条晋升通道；没有退出条件。
+
+## 8. 待验证清单与下一步搜索路径
+
+1. OpenAI Preparedness 对训练、发布、暂停和恢复拥有何种正式权限？
+2. Anthropic 评测岗位薪带变化的日期、口径、内部 level 和实际 offer。
+3. 两家公司安全/评测团队规模、汇报线、相邻岗位与横向流动。
+4. reviewer 负荷、异常、返工、维护、客户结果和初级训练成本能否量化。
+5. 经理跨度扩大后，规格质量、验证通过率、事故和员工负荷如何变化。
+6. 哪些应用岗位应扩责，哪些控制岗位必须保持独立挑战权。
+
+### 本轮实际检索词
+
+- `site:36kr.com 3920274115866249 AI 中层 验证 代码评审`
+- `site:openai.com/careers recursive self improvement safety researcher Preparedness salary`
+- `site:job-boards.greenhouse.io/anthropic 5198255008 model evaluations salary`
+- `arxiv 2607.01904 AI coding reviewer load 802 developers`
+- `model evaluation career ladder on-call promotion salary band`
+- `verification tax manager role job architecture AI`
+
+## 9. 来源索引
+
+1. 36氪/定焦，[国内中层访谈](https://36kr.com/p/3920274115866249)，2026-08-01，L1。
+2. OpenAI，[Researcher, Recursive Self-Improvement Safety](https://openai.com/careers/researcher-recursive-self-improvement-safety-san-francisco/)，2026-08-03 恢复截面，L1。
+3. Anthropic，[Research Engineer, Model Evaluations](https://job-boards.greenhouse.io/anthropic/jobs/5198255008)，2026-08-03 恢复截面，职责与薪带 L1、变化原因 L0。
+4. arXiv，[AI Writes Faster Than Humans Can Review: A Longitudinal Study of an Enterprise 2x Mandate](https://arxiv.org/abs/2607.01904)，2026-07 月内补漏，单企业观察 L2。
+5. arXiv，[论文 PDF](https://arxiv.org/pdf/2607.01904)，L2。
+6. McKinsey，[Designing an end-to-end technology workforce for the AI-first era](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)，历史权威校准 L2。
+7. 内部连续材料：[`8/3 恢复信息库`](../../../daily/2026-08-03.md)、[`W31 周报`](../../../daily-report/weekly-2026-W31.md)、[`三层绩效指标`](../../../knowledge/concepts/human-ai-performance-metrics.md)。
+
+> 去重说明：同一动态 JD 的当前页面与历史网页截面不作为两份独立证据；薪带差异原因保持 L0。

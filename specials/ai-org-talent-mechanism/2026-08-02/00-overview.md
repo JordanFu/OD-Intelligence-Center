@@ -1,61 +1,105 @@
-# 2026-08-02｜AI时代组织与人才机制四课题总览
+# 2026-08-02｜AI时代组织与人才机制四专题总览
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+> 回溯正式稿｜周度证据校准日；本期明确记录“没有高置信制度新增”，并对 7 月 27 日—8 月 2 日的强证据、冲突与行动优先级做收束。
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+## 读者应该带走什么
 
-## 今日一句话结论
+本周共同方向不是“AI 让人和层级同步减少”，而是：**分散工作被接入更硬的结果接口、权限和控制 gate；劳动力变化先在任务、工资、验证负荷和专家定价中出现，正式岗位与晋升制度仍滞后。**
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+## 1. 今日总判断｜今日一句话
 
-## 今日核心判断
+**四专题共同进入“责任先行、制度追认”阶段：先明确 owner、动作权、质量、例外和证据，再决定组织层级、人才配置、岗位序列与永久晋升。**
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+今日没有公司级 L3 新动作，也没有成熟新序列或新晋升制度。这个“无新增”本身重要：它要求我们停止用一周内重复出现的新闻、JD 和调查制造趋势强度，而应把下一步转向 30/90 天运行证据。
 
-## 今日背景材料
+## 2. 今日最重要的 7 条发现｜今日核心判断
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+1. **本周最强组织动作是 owner 与 gate 收紧，而非普遍减层。**可信度：中高。证据基础：Sabadell、Xbox、字节、Anthropic。为什么重要：结构变化要按权责和效果衡量。
+2. **生成提速会把成本推向验证。**可信度：中。证据基础：802 人开发研究与国内 L1 访谈。为什么重要：生产率必须扣除 review、返工、维护、异常和经理负荷。
+3. **劳动力影响可能先进入工资与任务。**可信度：中。证据基础：Apollo、NBER。为什么重要：暴露、采用、就业、工资与晋升不能混为一谈。
+4. **应用角色变宽、控制岗位变深。**可信度：中。证据基础：纽约州、OpenAI RSI、Anthropic Evaluations、FactSet。为什么重要：岗位治理需要多路由，不是单一“全栈化”。
+5. **People/OD 责任可能外扩为 workforce transformation。**可信度：低到中（任命事实 L2、机制 L1）。为什么重要：组织设计、技能、岗位和人机配置需要共同 owner。
+6. **今日没有高置信完整人才机制或成熟新序列。**可信度：高（缺口判断）。为什么重要：JD 与薪带只能做线索。
+7. **今日没有新晋升制度。**可信度：高（缺口判断）。为什么重要：固定校准、受控例外与多路回报仍是更稳选择。
 
-## 今日新增证据地图
+**管理层该问：**本周每个强信号，能否回答“谁拥有权、如何运行、结果怎样、员工如何受影响”？回答不了就不能升级为制度结论。
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+## 3. 四专题交叉关系
 
-## 线索层
+```text
+任务/组合收敛
+  → owner、权限、质量、停止/恢复显性化
+  → 复合人才与深专家共同承接
+  → 稳定责任才进入岗位/族群/序列
+  → 持续更大岗位价值才进入永久晋升
+```
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+若中间任何一环缺失：组织减层会转成关键人过载；人才密度会转成明星依赖；岗位建设会转成头衔和薪酬通胀；即时晋升会转成跨团队不公平。
 
-## 待补齐的落地问题
+## 4. 今日判断变化
 
-正式重跑必须把证据转化为战略、岗位、职级、薪酬和激励机制建议；没有证据链时，只记录缺口，不输出管理建议。
+### 被增强
 
-## 待验证清单与下一步计划
+- 结果接口、动作权限、停止/恢复和验证容量是 AI 组织设计的共同控制面。
+- 工资、任务和专家岗位信号可能领先于编制变化。
+- 人才密度需要同时建设复合应用能力、深专家能力和导师/验证容量。
 
-1. 检索今日新增官方/一手材料，确认是否有新公司案例。
-2. 检索权威媒体与咨询报告，补齐改革时间线、员工影响和争议。
-3. 检索招聘 JD 与薪酬信号，验证岗位变宽、专家深化和技能溢价。
-4. 收集社媒/职场平台弱信号，只进入线索池，不进入结论层。
-5. 主代理交叉验证后，将可互证内容升级为正式日报。
+### 被削弱或修正
 
-## 来源索引
+- 削弱“采用＝岗位消失”：Apollo 未见显著就业效应，NBER 也只测暴露。
+- 削弱“产出翻倍＝人效翻倍”：review 负荷与长期质量未被扣除。
+- 修正“岗位变宽＝取消专业序列”：安全、评测、数据、记录与运营控制正在深化。
+- 保持“固定晋升窗口”：没有足够制度证据支持默认即时永久晋升。
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+## 5. 关键冲突、反例与背景材料｜Context 与线索
+
+- **冲突一：**组织集中可提高一致性，也可能形成路径依赖和创意损失。暂不形成结论，但提示我们关注项目存活率与人才流失。
+- **冲突二：**AI 产出增加与 review 负荷增加并存。暂不形成净生产率结论，但提示必须计入验证税。
+- **冲突三：**高暴露职业工资增速差异与就业无显著变化并存。暂不形成替代结论，但提示分配效应可能更早出现。
+- **反例：**应用责任变宽的同时，OpenAI/Anthropic/政府岗位把控制专业拆得更深，反驳单向“所有岗位合并”。
+- **弱信号：**FactSet 新头衔把 People 与 workforce transformation 合并；可能只是正常继任，尚无预算与制度结果。
+- **证据缺口：**没有层级/跨度前后、人才形成率、实际薪带、岗位等级、晋升通过率、申诉或多周期员工结果。
+
+## 6. 行动启发：六个维度
+
+1. **战略：**建立“采用—任务—岗位—工资—晋升—就业”六口径看板，禁止互相替代。
+2. **组织架构：**每个智能体/组合写清 owner、动作白名单、停止/恢复、例外与证据留存。
+3. **岗位序列：**用稳定责任、岗位复数、三级梯度、任职资格、薪带、流动和退出作为新序列门槛。
+4. **人才密度：**盘点业务判断、验证、专业控制、导师净容量、继任和单点风险。
+5. **晋升激励：**贡献随时识别；奖金、调薪、津贴、股权、试任与永久职级按不同证据分流。
+6. **沟通落地：**发布事实、判断、未知与 30/90 天验证承诺；为岗位映射和 AI 评价提供申诉。
+
+## 7. 明日优先追踪问题
+
+1. Xbox、字节、Anthropic、Amazon、OpenAI 的 30/90 天运行证据。
+2. reviewer、经理、维护、事故与初级培养的真实成本。
+3. Apollo/NBER 信号能否由招聘、工资、晋升与任务纵向数据复现。
+4. NY OAG、OpenAI、Anthropic、FactSet 的岗位是否形成团队、权限和内部等级。
+5. 第二家公开周期外晋升条件、通过率、薪酬影响与晋升后绩效的公司。
+
+## 8. 证据地图
+
+| 渠道 | 代表证据 | 等级 | 本周结论边界 |
+|---|---|---:|---|
+| 官方/一手 | Sabadell、OpenAI、Anthropic、Amazon、政府 JD | L1-L3 | 动作/叙事/JD分层，不混算 |
+| 权威媒体/公司 | Xbox、字节 | L2-L3动作 | 无稳态效果 |
+| 学术/研究 | 企业编码、NBER、Apollo | L2 | 单样本/映射限制因果 |
+| 咨询/专业 | McKinsey、MIT、Gallup | L2 | 机制校准 |
+| 招聘薪酬 | OpenAI、Anthropic、NY OAG | L1 | 职责与定价意图 |
+| 社媒/职场 | 国内中层访谈 | L1 | 形成验证问题 |
+| 内部信息库 | 8/3恢复扫描、W31、baselines | 校准层 | 去重和时间边界 |
+
+## 9. 来源索引
+
+1. OpenAI，[Building abundant intelligence](https://openai.com/index/building-abundant-intelligence/)，2026-07-31，L2。
+2. Anthropic，[Investigating cybersecurity eval incidents](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals)，2026-07-30，事实 L3/治理效果 L1。
+3. arXiv，[企业 AI 编码采用纵向研究](https://arxiv.org/abs/2607.01904)，单企业 L2。
+4. NBER，[真实 token 使用与职业暴露](https://www.nber.org/papers/w35451)，L2。
+5. Apollo，[AI and U.S. Labor Market](https://www.apollo.com/content/dam/apolloaem/pdf/daily-spark/2026//jul/30/Whitepaper-Impact%20of%20AI%20on%20U.S.%20Labor%20Market-2026-R2%201.pdf)，L2。
+6. FactSet，[Investor Relations](https://factset.gcs-web.com/)，任命事实 L2。
+7. OpenAI，[RSI Safety Researcher JD](https://openai.com/careers/researcher-recursive-self-improvement-safety-san-francisco/)，L1。
+8. Anthropic，[Model Evaluations JD](https://job-boards.greenhouse.io/anthropic/jobs/5198255008)，L1。
+9. GitLab，[Promotions and Transfers](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/)，制度基线 L2-L3。
+10. 内部：[`W31 周度快读`](../../../daily/weekly-2026-W31.md)、[`8/3 工作日报`](../../../daily-report/2026-08-03.md)。
+
+> 本期没有把同源的 daily、daily-report、digest 和知识卡重复计数，也没有把 JD、调查或曝光指标升级为公司制度。

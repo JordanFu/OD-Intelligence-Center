@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-03T02:33:05.093Z",
+  "generatedAt": "2026-08-03T03:50:00.753Z",
   "module": "automation",
-  "qualityStatus": "warn",
+  "qualityStatus": "fail",
   "chains": {
     "infoFeed": {
-      "qualityStatus": "pass",
+      "qualityStatus": "fail",
       "latestDate": "2026-08-03",
       "latestCardCount": 14,
       "newFactCount": 11
@@ -13,12 +13,8 @@
       "qualityStatus": "warn",
       "today": "2026-08-03",
       "todayStatus": "scheduled",
-      "latestFormalDate": "2026-07-30",
+      "latestFormalDate": "2026-08-02",
       "pendingRerunDates": [
-        "2026-08-02",
-        "2026-08-01",
-        "2026-07-31",
-        "2026-07-27",
         "2026-07-13",
         "2026-07-12",
         "2026-07-11",
@@ -46,9 +42,9 @@
       "privatePathLeakCount": 0
     },
     "linkCheck": {
-      "qualityStatus": "warn",
-      "brokenCount": 0,
-      "checkedAt": "2026-08-03T02:30:47.324Z"
+      "qualityStatus": "fail",
+      "brokenCount": 1,
+      "checkedAt": "2026-08-03T02:33:14.771Z"
     },
     "githubActionsFallback": {
       "status": "pass",
@@ -78,8 +74,10 @@
   },
   "warnings": [
     "专题研究状态为 warn",
-    "专题待正式重跑 22 天"
+    "专题待正式重跑 18 天"
   ],
-  "criticalIssues": [],
+  "criticalIssues": [
+    "一方链接或公开扫描桥接存在 fail"
+  ],
   "operatingRule": "GitHub Actions 只能兜底、审计和记录状态；正式研究完成只能由 formal 条件确认。"
 }

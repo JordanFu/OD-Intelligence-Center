@@ -1,53 +1,175 @@
 # 2026-08-02｜专题二：高人才密度与复合型人才机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+> 正式专题日报｜周度校准窗口：2026-07-27—2026-08-02。
+> 恢复扫描说明：本文于 2026-08-03 依据 W31 恢复扫描、7 月 28—30 日已发布材料和月内补漏来源形成，不声称 7 月 31 日—8 月 2 日存在逐日完整实时采集。
+> 证据口径：L4＝外部事实、内部结果和多周期复核共同验证；L3＝强一手机制或方法透明且有交叉验证；L2＝单一强一手、权威研究或调查；L1＝动态招聘、观点、媒体或公司自报；L0＝无法核验的传闻与原因推断。
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+## 读者应该带走什么
 
-## 今日一句话结论
+本周的人才信号来自任务、负荷、工资和 JD，尚未形成识别—配置—授权—激励—保留的完整机制闭环。
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+## 1. 今日一句话专题判断
 
-## 今日核心判断
+**本周应把“高人才密度”校准为组织形成、配置和保留责任承担者的速度：任务跨界、评审负荷、工资效应和高薪岗位都只是局部信号；在没有识别效度、项目结果、授权记录、薪酬晋升与多周期保留数据前，不能宣称已经形成完整机制。**
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+## 2. 今日新增事实
 
-## 今日背景材料
+### F1｜NBER 真实 token 数据把“互动接口”与职业暴露联系起来
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+NBER 7 月工作论文使用 OpenRouter 授权的聚合匿名数据，覆盖 380 万亿 tokens、400 多个模型，作者估计约占当前全球月度 AI token 消费的 2%。论文把真实使用主题映射到市场隐含职业暴露，发现互动与沟通内容关联更高暴露，而分析、科学和运营控制技能关联更低暴露，并称出现智能体经济的早期迹象。
 
-## 今日新增证据地图
+**证据等级：L2。** [NBER 工作论文](https://www.nber.org/papers/w35451)支持“互动接口和分析深度需分开观察”，不能把资产价格暴露解释为岗位增减、工资变化、实际采用或人才机制效果。
 
-| 渠道 | 当前状态 | 必须补齐 |
+### F2｜Anthropic 评测岗位把研究解释、生产可靠性与值班责任连接起来
+
+Anthropic 当前 Research Engineer, Model Evaluations 职位公开年薪区间为 50 万—85 万美元，职责包括训练期评测平台、模型健康看板、异常诊断、值班支持和跨研究团队解释结果。仓库 5 月快照记录同一 requisition 的薪带为 32 万—48.5 万美元，页面没有说明调整日期、职级扩展或口径变化。
+
+**证据等级：当前职责与薪带 L1；变化原因 L0。** [Anthropic 职位页](https://job-boards.greenhouse.io/anthropic/jobs/5198255008)显示验证能力的招聘定价意图，不证明实际录用、市场普遍涨薪、内部晋升或保留。
+
+### F3｜OpenAI 安全岗位把未来风险推进到生产控制
+
+OpenAI 当前招聘 Recursive Self-Improvement Safety Researcher，公开基本工资 29.5 万—44.5 万美元，职责覆盖可扩展监督、自动审计、监控可解释性、模型行为科学、跨机构验证、研发风险测量和安全论证，并要求把研究原型推进为生产控制。
+
+**证据等级：L1。** [OpenAI 职位页](https://openai.com/careers/researcher-recursive-self-improvement-safety-san-francisco/)证明公开责任包与薪带，不证明 Preparedness 的正式裁决权、实际团队规模或人才结果。
+
+### F4｜McKinsey 的 AI-first 技术人才框架强调人、Agent 与供应商的能力归属
+
+McKinsey 4 月 6 日文章认为 CIO 需要与 CEO、CHRO 共同重新平衡招聘、内部能力建设、Agent 训练和供应商合作；对资深工程师、架构师、产品经理和设计师等能定义标准、编排复杂交付的角色需求可能上升，同时初级开发者的传统商业理由减弱。
+
+**证据等级：方向性框架 L2；普遍结果 L1。** [McKinsey](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)适合生成能力归属与人才组合问题，但公开数据口径有限，不能证明初级岗位已普遍减少或高判断岗位已带来更高绩效。
+
+### F5｜本周强信号仍是“验证与组织吸收”，不是明星库存
+
+OpenAI 的跨岗数据、Gallup 的 65% 个人增效与 12% 组织改变落差，以及 802 名开发者研究中人均合并量与评审负荷同步上升，共同指向：生成、采用和任务边界变化先发生，责任、验证、人才供给与组织结果随后才可能改变。
+
+**证据等级：跨材料综合 L2。** 三条证据来自不同对象和方法，只能作机制校准，不能合并计算或形成单一因果结论。来源：[OpenAI](https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/)、[Gallup](https://www.gallup.com/workplace/713063/ai-workplace-productivity.aspx)、[工程研究](https://arxiv.org/abs/2607.01904)。
+
+### 周度范围结论
+
+W31 没有公司同时公开识别、评价、面试、内部发现、项目配置、薪酬股权、晋升授权、学习盘点和保留的完整制度及多周期结果。**本周无 L3/L4 的高置信完整人才机制。**可以增强“验证容量、责任闭环和人才供给必须共同设计”的判断，不能升级“通才取代专家”“AI 导致去中层”或“高薪即人才密度”的结论。
+
+## 3. 今日核心判断
+
+1. **人才密度的核心单位应从“明星人数”改为“可复用责任闭环”。可信度：中高。**
+   **证据基础：**跨岗任务、资源闭环、工程评审负荷与高判断职位共同显示，价值来自问题定义、专业深度、验证、跨界编排和结果责任。
+   **为什么重要：**人才库存没有项目、权限、复用和继任接口时，只会形成关键人依赖；真正的密度应体现为组织能更快形成下一位责任承担者。
+
+2. **复合人才不是通才替代专家，而是深专业锚点加互动与控制接口。可信度：中。**
+   **证据基础：**NBER 区分互动内容与分析/科学技能，Anthropic 和 OpenAI 高薪职位同时要求深专业与跨团队生产责任。
+   **为什么重要：**岗位画像、面试和晋升要同时验证专业判断与接口责任，避免只选会表达的协调者，或只选无法关闭业务环的窄专家。
+
+3. **验证容量与导师容量是同一个人才供给问题。可信度：中高。**
+   **证据基础：**工程研究中评审负荷同步增长；McKinsey 指出初级执行任务的传统需求可能减弱。
+   **为什么重要：**今天承担评审的专家来自过去的练习、反馈和逐级授权；若只压缩初级入口而不重建训练路径，未来验证能力与继任都会收缩。
+
+4. **薪带上移或高薪岗位只能触发定价复核，不能触发普遍调薪或快速晋升。可信度：高。**
+   **证据基础：**Anthropic 与 OpenAI 均是动态职位截面，缺实际录用、职级映射和相邻岗位对照。
+   **为什么重要：**岗位价值、市场稀缺、阶段贡献和长期保留必须分别路由；网页区间变化可能来自口径、地点或岗位扩级。
+
+5. **本周最重要的管理校准是分开暴露、采用、任务、工资、岗位与组织结果。可信度：高。**
+   **证据基础：**NBER 研究暴露，OpenAI 研究任务，Apollo 研究工资，工程论文研究交付活动，彼此不能替代。
+   **为什么重要：**把不同层次压成一个“AI 人效”指标，会同时误导编制、薪酬、晋升、学习和保留决策。
+
+## 4. 重点案例事实还原：W31 的“验证型复合人才”证据链
+
+### 本周时间线
+
+- **7 月 27 日：**OpenAI 发布任务跨越数据；Gallup 发布个人增效与组织吸收落差。
+- **7 月 29—30 日：**Microsoft 披露客户现场项目覆盖；OECD、Protiviti 与 Cornerstone 补充高技能、基础设施、角色和学习准备度信号。
+- **7 月 30—31 日：**Apollo 报告工资增速而非显著就业效应；OpenAI 公开需求、收入、研究与容量的资源逻辑；纽约州总检察长办公室开始审查复合治理岗位。
+- **8 月 1 日：**国内五名中层匿名访谈提供验证负荷线索。
+- **8 月 3 日恢复扫描补漏：**工程研究、NBER 工作论文及 Anthropic/OpenAI 动态职位进入周度校准。
+
+### 人才机制覆盖审计
+
+| 环节 | 本周得到的校准 | 证据上限与缺口 |
 |---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+| 识别 | 专业深度、问题定义、验证、互动接口、结果与复用 | 缺入职后预测效度 |
+| 评价 | 质量、返工、风险、结果总成本、复用、带教、负荷 | 多为建议，缺正式权重 |
+| 面试 | 应采用允许 AI 的真实工作样本与异常注入 | 无公司公开评分表及效度 |
+| 内部发现 | 项目、事故、客户、评测资产和带教记录比使用量更可靠 | 缺机会公平、申诉与流动结果 |
+| 项目配置 | 主责、副手、领域复核与轮换；人才需接到真实责任 | 仅有项目覆盖，缺匹配和利用率 |
+| 薪酬股权 | 公开薪带反映外部稀缺定价意图 | 缺实际支付、股权刷新与内部公平 |
+| 晋升授权 | 先给可撤回的项目范围、数据、生产、停止和升级权 | 缺永久职级与横向校准制度 |
+| 学习盘点 | 课程后需模拟、受控任务、复盘、独立负责；盘点导师与继任 | 缺独立承担率和多周期结果 |
+| 保留 | 成长、自主权、薪酬公平、健康与知识可交接需同看 | 缺离职原因、关键人负荷和留任因果 |
 
-## 线索层
+### 反事实与边界
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+- 如果跨岗者没有质量和签字权，任务变宽可能只是影子劳动。
+- 如果拉取请求增加而评审、维护与事故成本同步增加，净生产率可能没有改善。
+- 如果高薪只吸引少数成熟专家，却没有副手、训练和复用，人才密度可能下降。
+- 如果减少初级岗位却不重建练习任务，短期人效可能换来长期继任缺口。
 
-## 待补齐的落地问题
+### 可借鉴与不可照搬
 
-正式重跑必须回答：复合型人才的能力证据是什么、是否有招聘/JD/薪酬信号、是否存在验证和治理能力的溢价、组织如何避免把“少招人”包装成高人才密度。
+- **可借鉴：**把人才识别、项目配置、分级授权、验证资产、导师容量、薪酬路由和继任放在同一机制图上。
+- **不可照搬：**不把职业暴露当采用，不把任务变化当岗位取消，不把薪带当实际支付，不把工程活动量当客户价值，也不把咨询框架当已验证制度。
 
-## 来源索引
+## 5. Context 层｜背景材料、弱信号、线索、反例与冲突
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+- **暂不足以下结论，但提示我们关注……**NBER 的互动内容暴露可能提升客户与协作接口价值，也可能代表这类任务更容易被模型介入；方向不能由“暴露”单独决定。
+- **暂不足以下结论，但提示我们关注……**Anthropic 评测薪带上移可能反映稀缺，也可能是岗位扩级、地点或薪酬口径变化。
+- **暂不足以下结论，但提示我们关注……**McKinsey 提出高级判断角色上升、初级需求减弱，但缺公开企业纵向样本。
+- **反例：**Apollo 未检出显著就业效应，说明高暴露不等于岗位立即消失；Gallup 只有 12% 强烈同意组织工作方式改变，说明个人增效也不等于制度吸收。
+- **冲突：**企业需要更多验证型专家，却可能减少形成专家的初级工作；人才盘点必须同时看当前稀缺与未来供给。
+- **L0 线索：**“评测岗薪资上移证明行业全面抢人”与“AI 将普遍消灭初级岗位”都缺同口径、多公司、长期数据。
+
+## 6. 证据地图
+
+| 渠道 | 本周最强材料 | 等级 | 能支持 | 不能支持 |
+|---|---|---:|---|---|
+| 学术/劳动力 | NBER、Apollo | L2 | 暴露与工资/就业应分开 | 企业人才制度、单因果 |
+| 学术/工程 | 802 名开发者研究 | 观察 L2、因果 L1 | 评审瓶颈迁移 | 普遍净生产率 |
+| 官方/一手 | OpenAI 任务与资源文章 | L2 | 任务边界和公开治理语言 | 机制落地和效果 |
+| 权威调查 | Gallup、OECD | L2 | 组织吸收与互补资产 | 单企制度效果 |
+| 咨询框架 | McKinsey | 框架 L2、结果 L1 | 能力归属与人才组合问题 | 普遍岗位结果 |
+| 招聘薪酬 | Anthropic、OpenAI | 当前 L1、原因 L0 | 责任包和定价意图 | 实际录用、晋升、保留 |
+| 完整企业机制 | 本周无 | L3/L4 缺口 | 明确判断上限 | 不拼装完整闭环 |
+
+## 7. 对我们的行动启发｜落地启发
+
+**管理层该问：**哪些局部信号已经能转化为人才配置规则，哪些仍只能留在观察池？
+
+下周启动一个 90 天“责任形成率”试点，不以明星名单为起点：
+
+1. **识别与面试：**选择一项真实中等风险任务，允许 AI，统一评分专业深度、问题定义、证据验证、互动接口、风险升级、结果与复盘。
+2. **内部发现：**员工自荐、经理提名与项目数据三路进入同一人才池；使用项目、事故、客户、评测资产、复用和带教证据。
+3. **项目配置：**采用主责、副手和领域复核者，设置轮换、退出与原团队影响检查；每个项目产出评测集、决策记录和可复用资产。
+4. **授权：**按能力与风险开放模型、数据、生产、预算、签字、停止和升级权；设置复证、撤回、申诉和事故后再授权。
+5. **评价：**同时记录周期、质量、返工、风险、人工监督、维护、客户结果、复用、带教与健康负荷，不使用调用量、token 或任务数排名高潜。
+6. **薪酬股权与晋升：**岗位价值、市场稀缺、阶段贡献、临时扩责和长期保留分别决策；永久职级只认稳定责任扩张、跨项目复用和横向校准。
+7. **学习盘点：**盘点成熟人才、形成中人才、导师净容量、初级练习任务、继任覆盖和单点依赖；以独立承担率验证学习效果。
+8. **保留：**同时看自主权、成长、内部机会、薪酬公平、股权流动性、团队质量、健康与关键知识可交接性。
+
+周度看板只保留四个主指标：**责任形成率、组织吸收率、导师净容量、责任可替代性**。
+
+## 8. 待验证清单与实际搜索词
+
+1. NBER 暴露指标能否被公开数据复现，并连接招聘、工资与任务变化。
+   实际搜索词：`NBER w35451 OpenRouter token occupational exposure replication wages employment tasks`
+2. Anthropic 评测职位的职级、地点、口径、实际录用和相邻岗位对照。
+   实际搜索词：`Anthropic 5198255008 model evaluations salary level actual offer requisition`
+3. OpenAI 安全岗位对训练、发布、暂停、恢复和例外的正式权限。
+   实际搜索词：`OpenAI Preparedness RSI safety authority deployment pause resume decision rights`
+4. McKinsey 的技术人才结构判断是否有公司级纵向数据。
+   实际搜索词：`AI-first technology workforce senior junior hiring longitudinal internal mobility outcomes`
+5. 初级练习任务、导师工时、独立承担率、晋升质量和继任结果。
+   实际搜索词：`AI apprenticeship mentor capacity independent ownership promotion quality succession`
+6. 允许 AI 的工作样本面试及入职后 6/12 个月效度。
+   实际搜索词：`AI enabled work sample interview predictive validity six twelve month performance`
+7. 企业内部薪带、股权刷新、快速晋升与留任的同口径数据。
+   实际搜索词：`AI talent salary band equity refresh promotion retention internal pay equity`
+8. 只有取得至少一家企业全链路制度与两个周期结果，才将完整机制升级到 L3；取得内部对照和多周期复核后，才讨论 L4。
+
+## 9. 来源索引
+
+1. NBER，[Working Paper 35451](https://www.nber.org/papers/w35451)，2026 年 7 月，L2。
+2. Anthropic，[Research Engineer, Model Evaluations](https://job-boards.greenhouse.io/anthropic/jobs/5198255008)，2026-08-03 恢复扫描时在架，当前职责与薪带 L1、变化原因 L0。
+3. OpenAI，[Researcher, Recursive Self-Improvement Safety](https://openai.com/careers/researcher-recursive-self-improvement-safety-san-francisco/)，2026-08-03 恢复扫描时在架，L1。
+4. McKinsey，[Designing an end-to-end technology workforce for the AI-first era](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)，2026-04-06，框架 L2、普遍结果 L1。
+5. OpenAI，[How AI is expanding what people do at work](https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/)，2026-07-27，L2。
+6. Gallup，[AI Adoption and Workplace Productivity](https://www.gallup.com/workplace/713063/ai-workplace-productivity.aspx)，2026-07-27，L2。
+7. arXiv，[AI Writes Faster Than Humans Can Review: A Longitudinal Study of an Enterprise 2x Mandate](https://arxiv.org/abs/2607.01904)，2026-07-02，单企业观察 L2、普遍因果 L1。
+8. Apollo，[The Impact of AI on the U.S. Labor Market](https://www.apollo.com/content/dam/apolloaem/pdf/daily-spark/2026//jul/30/Whitepaper-Impact%20of%20AI%20on%20U.S.%20Labor%20Market-2026-R2%201.pdf)，2026-07-30，描述与估计 L2、AI 因果 L1。
+9. 内部校准：[`2026-W31 周度快读`](../../../daily/weekly-2026-W31.md)、[`2026-08-03 日报`](../../../daily/2026-08-03.md)、[`人才密度周度综合`](../topics/talent-density/weekly-synthesis.md)。内部材料只用于恢复扫描、来源日期、去重与判断校准，不增加外部互证数量。

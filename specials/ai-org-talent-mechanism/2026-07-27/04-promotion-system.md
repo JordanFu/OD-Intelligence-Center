@@ -1,53 +1,169 @@
 # 2026-07-27｜专题四：未来组织的晋升机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+> 正式决策稿｜恢复扫描形成于 2026-08-03；事实窗口以 2026-07-27 发布材料为主。GitLab 是历史公开制度基线，不写成当日制度新增。
+> 证据口径：L4＝外部证据与内部数据或长期结果互证；L3＝公司一手制度或方法透明的权威研究；L2＝单一强一手事实或两份可信观察；L1＝动态招聘、观点或局部信号；L0＝无法核验。
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+## 读者应该带走什么
 
-## 今日一句话结论
+任务跨界和项目战功可以即时识别与回报；永久升阶仍需稳定更大责任、组织岗位需要和跨周期校准。
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+## 1. 今日一句话专题判断
 
-## 今日核心判断
+**任务跨界应随时进入证据记录与即时回报，但不能自动兑换职级；更稳的机制是“持续识别事实＋固定窗口校准永久职级＋等待确有损害时走受控例外”，并把项目奖、调薪、津贴、试任和内部流动从晋升中分流。**
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+## 2. 今日新增事实：只写可追溯事实
 
-## 今日背景材料
+### F1｜OpenAI 观察到任务跨岗，但未观察正式职责与晋升
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+OpenAI 7 月 27 日发布对 80 多万条美国 ChatGPT 工作消息的分析：剔除写作、摘要、日程等通用任务后，43.5% 的职业相关消息落在用户本职之外；客户体验、设计、HR、法律和营销用户的跨岗占比分别为 77%、75%、69%、56%、53%。
 
-## 今日新增证据地图
+- **等级：L2。**[OpenAI 原文](https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/)可以证明使用内容跨越职业任务分类；不能证明员工获得新的签字权、资源权、岗位价值、薪酬或晋升。
 
-| 渠道 | 当前状态 | 必须补齐 |
+### F2｜GitLab 历史制度把持续准备与半年校准连接
+
+GitLab 公开 Handbook 的历史制度样本显示：同一岗位族内的大多数晋升进入半年校准；候选人需持续体现下一层级岗位框架，并提交不超过三页的晋升文档，包含业务结果、岗位框架映射、价值观和业务必要性；部门/事业部领导、People Business Partner、Total Rewards 与 FP&A 参与校准和预算权衡。
+
+- **等级：历史制度基线 L2-L3。**[Promotions and Transfers](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/)是公司一手公开手册，但页面处于审阅状态，内部最新规则可能在非公开系统中；不能写成 7 月 27 日新制度或普遍最佳实践。
+
+### F3｜GitLab 允许周期外处理，但要求更多审计
+
+历史公开规则允许经理与 PBP 提交 out-of-cycle promotion，仍需完整晋升文档和 exception justification；Director 以下需经理、部门负责人、PBP、Total Rewards、FP&A 审批，Director+ 另需 E-Group Leader。超过 10% 的建议薪酬增长需更高层审批。
+
+- **等级：历史制度基线 L2-L3。**同一 [GitLab Handbook](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/)支持“例外不降低证据要求”，但未公开周期外通过率、群体差异、申诉或晋升后绩效。
+
+### F4｜个人效率与组织改变仍存在断层
+
+Gallup 7 月 27 日报告称，在已实施 AI 的组织中，65% 员工表示个人效率改善，只有 12% 强烈同意组织工作方式已改变。
+
+- **等级：L2 自报观察。**[Gallup](https://www.gallup.com/workplace/713063/ai-workplace-productivity.aspx)支持“个人节时不等于岗位价值变化”，不能证明 AI 贡献应如何进入晋升。
+
+### F5｜数字同事进入 workforce strategy 的企业仍少
+
+MIT CISR 对 132 家企业的调查显示，34% 主动使用数字同事，约 22% 做重大工作流重构，仅 9% 将其纳入 workforce strategy；三项能力均有明显进展者不足 20%。
+
+- **等级：L2。**来源：[MIT Sloan](https://mitsloan.mit.edu/ideas-made-to-matter/how-organizations-can-capture-value-digital-colleagues)、[MIT CISR](https://cisr.mit.edu/publication/2026_0401_DigitalColleagues_WeillWoerner)。它说明正式人力机制滞后，不证明某种晋升节奏已成熟。
+
+### 今日范围结论
+
+严格窗口没有新的公司级即时晋升、项目制晋升、技能徽章换职级、AI 贡献自动计分或人才委员会制度。**今日最强判断是机制边界：任务事实可以即时记录和回报，永久职级仍需岗位价值、持续责任、横向公平与预算校准。L4 制度结果为 0。**
+
+## 3. 今日核心判断
+
+1. **持续识别与固定校准不是二选一。可信度：高。**
+   **证据基础：**任务边界变化快，GitLab 历史制度把持续准备接入半年校准。
+   **为什么重要：**贡献发现要快，永久职级却会同时改变权限、薪带、预算和同级公平，不能用短期速度替代集体校准。
+
+2. **任务跨界不自动构成晋升。可信度：高。**
+   **证据基础：**OpenAI 只观察使用消息，没有职责、签字权和持续期数据。
+   **为什么重要：**只有决策权、风险、资源和结果范围持续扩大，且业务长期需要更高层级角色，才进入晋升；临时借入任务应走项目奖、试任或发展机会。
+
+3. **周期外例外应比常规窗口留下更多证据。可信度：高。**
+   **证据基础：**GitLab 历史规则要求例外理由、更长审批和预算权衡。
+   **为什么重要：**例外若只解决经理焦虑或保留压力，会放大团队资源差异；必须证明责任已稳定、等待损害明确且下一窗口复盘。
+
+4. **个人节时与组织价值必须分开。可信度：中高。**
+   **证据基础：**Gallup 的个人效率与组织改变断层，MIT 的使用、工作流与 workforce strategy 断层。
+   **为什么重要：**提示词、使用频次、节时和跨岗比例不能直接进入晋升分数；要验证质量、成本、风险、复用和他人采用。
+
+5. **绩效、薪酬和晋升需要关联但不等价。可信度：高。**
+   **证据基础：**GitLab 将绩效准备度、业务必要性、职级和薪酬预算分别校准。
+   **为什么重要：**高绩效是晋升门槛而非充分条件；市场稀缺可调薪，项目战功可即时奖励，不必同步升级永久职级。
+
+## 4. 重点案例事实还原：GitLab 固定校准与受控例外
+
+### 常规路径
+
+| 环节 | 核心问题 | 主要责任人 |
 |---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+| 持续准备 | 是否已稳定体现下一层级要求 | 员工、经理、直接协作方 |
+| 晋升文档 | 三个关键业务结果与业务必要性是否成立 | 员工、经理 |
+| 岗位校准 | 业务是否需要更高层级角色 | 部门/事业部领导、PBP |
+| 横向校准 | 同岗位族、同层级标准是否一致 | 校准委员会 |
+| 薪酬预算 | 新薪带位置、股权、预算和公平 | Total Rewards、FP&A |
+| 沟通生效 | 理由、职级、薪酬和系统是否一致 | 经理、People Operations |
 
-## 线索层
+### 周期外例外
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+周期外不等于“经理随时升人”。应同时满足：候选人已稳定承担下一层责任；业务岗位价值已改变；等到下一窗口会造成可写明的客户、交付、继任或保留损害；证据包完整；岗位、人才、薪酬与财务共同审批；下一固定窗口复盘例外质量与公平。
 
-## 待补齐的落地问题
+### 可借鉴与不可照搬
 
-正式重跑必须回答：AI 贡献如何进入晋升证据包、谁负责验证与质量、是否有校准机制、是否存在调岗降薪和劳动合规风险。
+- **可借鉴：**先评角色必要性再评人；同行只核验直接参与事实；晋升、薪酬和预算同周期；例外增加审计而非减少审计。
+- **不可照搬：**不复制半年频次、三页篇幅、5%—10% 涨幅或具体审批层数；不把处于审阅状态的页面当 GitLab 当前完整内部规则。
 
-## 来源索引
+## 5. Context 层｜背景材料、弱信号、线索、反例与冲突
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+- **暂不足以下结论，但提示我们关注……**跨岗比例高可能表示能力邻接，也可能只是借助 AI 临时完成邻接任务；需验证持续期、质量、签字权和正式职责。
+- **暂不足以下结论，但提示我们关注……**仅 9% 企业把数字同事纳入 workforce strategy，意味着使用可能远早于晋升规则成熟。
+- **反例：**GitLab 的固定半年窗口与内部开放岗位流动、acting/interim 和周期外例外并存，反证“一套频率覆盖所有成长与回报”。
+- **冲突：**留才和项目需要速度，永久职级需要公平和预算；即时奖金、市场调薪、临时津贴、股权和试任可承担大部分速度诉求。
+- **L0 边界：**匿名帖中的“AI 干了跨岗工作所以应该升职”、经理口头承诺和无法核验的周期外案例不进入制度判断。
+
+## 6. 证据地图
+
+| 渠道 | 最强材料 | 等级 | 可以支持 | 不可以支持 |
+|---|---|---:|---|---|
+| 公司研究 | OpenAI 跨岗任务 | L2 | 使用层任务边界变化 | 职责、薪酬、晋升 |
+| 公司制度 | GitLab Handbook | 历史 L2-L3 | 固定校准、业务必要性、受控例外 | 最新内部规则、长期成效 |
+| 权威研究 | Gallup、MIT CISR | L2 | 个人效率/使用与组织机制断层 | 晋升制度因果 |
+| 薪酬治理 | EY、Payscale 历史知识页 | L2 校准 | 回报工具可分流 | 当日制度新增 |
+| 社媒/职场 | 无具名制度原文 | L0 | 形成访谈问题 | 晋升事实 |
+| 内部信息库 | 7/28、7/30 正式稿与 GitLab 知识页 | 连续校准 | 去重、机制边界 | 替代外部证据 |
+
+## 7. 对我们的行动启发｜落地启发、双轨晋升与五类触发路由
+
+### 两条轨道
+
+1. **持续证据轨：**随时记录事实；即时认可、项目奖、能力权限、试任、发展机会、市场调薪和股权可以快速发生。
+2. **永久职级轨：**季度或半年固定校准岗位价值、持续下一层责任、业务必要性、同级公平、薪酬与预算。
+3. **受控例外：**仅在责任已稳定、岗位价值已改变、等待损害可量化、证据成熟且承诺复盘时启动。
+
+### 五类触发
+
+| 触发 | 推荐处理 | 不应默认使用 |
+|---|---|---|
+| 一次性项目战功 | 项目奖、即时认可、下一项目准入 | 永久职级 |
+| 临时跨岗/代理职责 | 试任、明确权限、临时津贴 | 先升职后验证 |
+| 持续下一层责任 | 固定窗口晋升 | 只给口头表扬 |
+| 岗位价值永久变化 | 先岗位重评，再定职级 | 用个人绩效替代岗位判断 |
+| 市场稀缺/保留 | 调薪、技能津贴、股权 | 新头衔或虚增职级 |
+
+### 最小晋升证据包
+
+- 问题与业务基线；候选人的关键判断和人与 AI 分工；
+- 持续下一层责任、权限、风险和结果范围；
+- 质量、错误、返工、成本、客户/业务结果；
+- 复用、他人采用、带教与继任；
+- 反证、负面结果、来源日志和持续期。
+
+**管理层该问：**今天需要解决的是回报速度，还是岗位价值已经永久改变？
+
+## 8. 待验证清单与下一步搜索路径
+
+1. 获取 GitLab 当前内部规则，核对公开页的固定窗口、例外、薪酬和申诉变化。
+2. 找第二家公司公开周期外条件、审批链、通过率、公平指标和晋升后绩效。
+3. 验证跨岗任务进入正式职责、权限、绩效、薪酬和晋升的真实案例。
+4. 比较项目奖、试任、市场调薪与周期外晋升的留任、公平和长期绩效。
+5. 找到员工可更正事实、提交反证和申诉的晋升证据流程。
+
+### 本轮实际检索词
+
+- `site:handbook.gitlab.com promotions transfers out-of-cycle calibration`
+- `site:openai.com how AI is expanding what people do at work 43.5%`
+- `company handbook fixed promotion window out of cycle exception appeal`
+- `AI cross functional tasks promotion policy official`
+- `acting role temporary allowance project bonus promotion conversion`
+- `promotion calibration business need compensation budget fairness`
+
+## 9. 来源索引
+
+1. OpenAI，[How AI is expanding what people do at work](https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/)，2026-07-27，L2。
+2. GitLab，[Promotions and Transfers](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/)，历史制度基线 L2-L3。
+3. GitLab，[Annual Compensation Review](https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-review-cycle/)，历史制度基线 L2-L3。
+4. Gallup，[AI Adoption and Workplace Productivity](https://www.gallup.com/workplace/713063/ai-workplace-productivity.aspx)，2026-07-27，L2。
+5. MIT Sloan，[How organizations can capture value from digital colleagues](https://mitsloan.mit.edu/ideas-made-to-matter/how-organizations-can-capture-value-digital-colleagues)，2026-07-27，L2。
+6. MIT CISR，[Digital Colleagues briefing](https://cisr.mit.edu/publication/2026_0401_DigitalColleagues_WeillWoerner)，L2。
+7. EY，[Future of Pay Report 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)，历史薪酬治理校准 L2。
+8. 内部连续材料：[`GitLab 知识页`](../../../knowledge/wiki/gitlab-promotions-transfers-handbook.md)、[`三层绩效指标`](../../../knowledge/concepts/human-ai-performance-metrics.md)、[`7/28 正式专题四`](../2026-07-28/04-promotion-system.md)。
+
+> 恢复说明：GitLab、EY 等历史材料用于机制校准，不作为 7 月 27 日当日新增计数。

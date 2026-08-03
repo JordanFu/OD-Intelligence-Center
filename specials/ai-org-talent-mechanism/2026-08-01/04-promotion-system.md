@@ -1,53 +1,167 @@
 # 2026-08-01｜专题四：未来组织的晋升机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+> 正式决策稿｜恢复扫描形成于 2026-08-03。8 月 1 日国内中层访谈作为当日弱信号；7 月工程研究为月内补漏，OpenAI/Anthropic 动态 JD 为 8 月 3 日取得的定价校准，不伪装为 8 月 1 日晋升制度新增。
+> 证据口径：L4＝外部证据与内部数据或长期结果互证；L3＝公司一手制度或方法透明的权威研究；L2＝单一强一手事实或两份可信观察；L1＝动态招聘、匿名访谈或局部信号；L0＝无法核验。
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+## 读者应该带走什么
 
-## 今日一句话结论
+AI 增产后的评审、反证、维护和育人必须进入晋升证据；活动量和工具使用不能替代业务结果与质量。
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+## 1. 今日一句话专题判断
 
-## 今日核心判断
+**AI 提高生成吞吐后，评审、验证、异常、维护和经理最终承责成为更不可见却更关键的质量劳动；这些贡献应进入晋升证据，但只在责任跨周期稳定、岗位价值持续上升且通过横向校准时支持升职，不能因一次“救火”或高薪 JD 即时提级。**
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+## 2. 今日新增事实：只写可追溯事实
 
-## 今日背景材料
+### F1｜802 名开发者研究显示产出与评审负荷同步上升
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+7 月 2 日预印本分析一家中型 AI-forward 企业 802 名开发者、196,212 个 pull requests（2024 年 1 月至 2026 年 4 月）。人均合并 PR 最终达到基线的 2.09 倍，自动化评审超过人工评审，单个 reviewer 负荷也约翻倍，merge 与 revert rate 大体稳定；作者明确说明采用强度并非随机，不能做精确因果归因。
 
-## 今日新增证据地图
+- **等级：单企业纵向观察 L2；普遍因果 L1。**来源：[arXiv 摘要](https://arxiv.org/abs/2607.01904)、[论文 PDF](https://arxiv.org/pdf/2607.01904)。该研究是 8 月 3 日恢复补漏，不是 8 月 1 日发布。
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+### F2｜国内中层访谈描述验证税向经理和团队转移
 
-## 线索层
+36氪 8 月 1 日转载“定焦”对 5 名大厂或前大厂中层的访谈。受访者称 AI 提高生成量但上线结果未同步，团队引入双人校验、代码评审和小范围试运行，考核从任务数转向有效交付与验证通过率；另有受访者称经理覆盖范围扩大并重新承担一线工作。
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+- **等级：L1。**[36氪报道](https://36kr.com/p/3920274115866249)可形成规格、验证、异常和最终承责问题，不能证明正式绩效/晋升规则、普遍经理转型或净生产率。
 
-## 待补齐的落地问题
+### F3｜OpenAI 与 Anthropic 动态 JD 为验证/安全专家提供高价责任截面
 
-正式重跑必须回答：AI 贡献如何进入晋升证据包、谁负责验证与质量、是否有校准机制、是否存在调岗降薪和劳动合规风险。
+8 月 3 日恢复取得的 OpenAI RSI Safety Researcher 基本工资为 29.5万—44.5万美元，职责横跨监督、审计、风险测量、跨机构验证与生产控制；Anthropic Model Evaluations 当前年薪区间为 50万—85万美元，职责包括训练期评测平台、模型健康、异常诊断、值班和跨研究团队解释。
 
-## 来源索引
+- **等级：当前 JD 与薪带 L1；Anthropic 薪带变化原因 L0。**来源：[OpenAI Careers](https://openai.com/careers/researcher-recursive-self-improvement-safety-san-francisco/)、[Anthropic/Greenhouse](https://job-boards.greenhouse.io/anthropic/jobs/5198255008)。动态职位证明当前责任与定价意图，不证明即时晋升、实际 offer 或成熟序列。
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+### F4｜McKinsey 要求绩效同时识别人类贡献与智能体输出
+
+McKinsey《The State of Organizations 2026》提出，AI 时代绩效系统需要明确人类贡献、智能体输出和编排责任；其 10,018 名组织领导者调查还显示，47% 认为职业发展机会有限阻碍高绩效文化，43% 认为缺乏针对性激励是障碍，64% 认为个人目标与组织目标联动是提升绩效的关键。
+
+- **等级：权威调查/框架 L2-L3。**[McKinsey 官方页面](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-state-of-organizations)支持绩效机制方向，不证明企业已把验证劳动写入晋升。
+
+### 今日范围结论
+
+今天没有公司公开新的“验证劳动→晋升”制度、评分表、通过率或晋升后绩效。**最强机制判断是：不可见质量劳动必须进入可审计证据，但即时回报与永久职级分轨；L4 晋升结果为 0。**
+
+## 3. 今日核心判断
+
+1. **晋升证据必须从生成量转向净质量劳动。可信度：高。**
+   **证据基础：**单企业研究显示 PR 吞吐与 reviewer 负荷同步上升；中层访谈指向验证和异常负荷。
+   **为什么重要：**代码量、文档量、token 和节时会奖励生成端，却让评审、返工、维护和事故承担者隐形。
+
+2. **验证贡献可进入证据包，但不自动形成即时晋升。可信度：高。**
+   **证据基础：**今天没有公司制度把验证通过率或救火直接兑换职级。
+   **为什么重要：**一次高强度项目或事故响应应即时奖励；只有验证责任、影响范围和业务必要性跨周期稳定时，才支持固定窗口晋升。
+
+3. **人的判断、AI 系统表现与人机结果必须三层归因。可信度：中高。**
+   **证据基础：**McKinsey 框架与内部三层绩效概念页。
+   **为什么重要：**不能把模型生成全部归功于员工，也不能因模型错误抹去人的边界判断、纠错、回滚和团队复用贡献。
+
+4. **同行核验事实，人才委员会校准层级与机会公平。可信度：高。**
+   **证据基础：**GitLab 历史晋升文档与校准机制；工程质量事实需要直接协作者验证。
+   **为什么重要：**经理单一叙事易忽略 reviewer、维护者和初级培养贡献；同行不决定职级，避免人情投票。
+
+5. **高薪验证岗位证明市场定价意图，不证明内部晋升理由。可信度：高。**
+   **证据基础：**OpenAI、Anthropic 动态 JD 缺内部 level、实际 offer 与晋升路径。
+   **为什么重要：**应先做岗位价值和市场带宽校准；现有人是否晋升仍需持续下一层责任与业务需要。
+
+## 4. 重点案例事实还原：AI 辅助工程的晋升证据包
+
+### 从可见产出到完整价值链
+
+| 层次 | 容易被看见 | 容易被遗漏 | 应进入的证据 |
+|---|---|---|---|
+| 生成 | PR、代码、文档、任务数 | 输入质量和边界 | 问题定义、规格与约束 |
+| 验证 | 自动/人工 review | reviewer 工时与反证 | 质量标准、验证通过率、关键推翻 |
+| 异常 | 修复和上线 | 诊断、回滚、事故沟通 | 异常复杂度、响应、损失控制 |
+| 维护 | merge/revert | 技术债、长期缺陷、知识传承 | 维护成本、稳定性、可复用性 |
+| 团队 | 个人吞吐 | 带教、模板、工具与他人采用 | 复用、他人独立承担、继任 |
+| 业务 | 节时 | 客户、收入、风险与总成本 | 净结果及负面结果 |
+
+### 三层归因
+
+- **人的贡献：**识别边界、定义规格、挑战输出、纠错、回滚、编排与赋能。
+- **AI 系统：**目标完成、可靠性、可追溯、正确升级和人工接管。
+- **人机系统：**相对人工或 AI 单独工作，是否改善质量、速度、成本与业务结果。
+
+### 回报与晋升分流
+
+- 一次项目中承担大量评审/事故：项目奖、即时认可、调休或临时补贴。
+- 长期值班、认证或高风险签字：专项津贴与权限；定期复证。
+- 持续跨团队建立质量机制、扩大结果与人才责任：进入固定窗口晋升证据。
+- 岗位整体由生成转为验证/治理：先岗位价值重评，再定职级和带宽。
+
+## 5. Context 层｜背景材料、弱信号、线索、反例与冲突
+
+- **暂不足以下结论，但提示我们关注……**经理可能从排期转向规格、验证和异常，但匿名访谈不能证明正式授权、跨度或晋升标准已改变。
+- **暂不足以下结论，但提示我们关注……**评测/安全岗位高薪可能体现稀缺，也可能受地点、岗位扩级、总现金口径或 requisition 重用影响。
+- **反例：**merge 和 revert 稳定不等于质量稳定；缺陷、维护、客户结果、reviewer burnout 和初级训练未被完整测量。
+- **冲突：**团队指标能鼓励协作，却可能掩盖个人关键判断；个人指标便于奖励，却可能诱发抢功和低估维护。需要团队结果＋个人可归责贡献双层呈现。
+- **L0 边界：**匿名“救火故事”、Anthropic 薪带变化原因和即时晋升传闻不进入结论。
+
+## 6. 证据地图
+
+| 渠道 | 最强材料 | 等级 | 可以支持 | 不可以支持 |
+|---|---|---:|---|---|
+| 学术研究 | 802 名开发者纵向研究 | L2 | 吞吐与评审负荷同步增长 | 普遍因果、晋升制度效果 |
+| 国内访谈 | 36氪/定焦 | L1 | 验证、异常与经理负荷问题 | 正式规则、普遍变化 |
+| 官方 JD | OpenAI、Anthropic | L1/L0 | 责任和当前薪带意图 | 实际 offer、晋升、市场普遍性 |
+| 权威研究 | McKinsey | L2-L3 | 人/AI/人机绩效与发展方向 | 公司落地和因果 |
+| 公司制度 | GitLab 历史基线 | L2-L3 | 证据文档、同行事实与校准分权 | 今日新制度、长期成效 |
+| 社媒/职场 | 匿名体验 | L0-L1 | 生成访谈问题 | 晋升事实 |
+
+## 7. 对我们的行动启发｜落地启发：把不可见质量劳动写进晋升证据
+
+**管理层该问：**晋升证据是否同时记录产出、质量、事故、复用、育人、持续期和反证？
+
+### 七类必填字段
+
+1. **问题定义：**业务基线、约束、不应自动化的边界。
+2. **人与 AI 分工：**候选人做了哪些关键判断，模型完成了什么。
+3. **验证：**质量标准、反证、人工推翻、回滚与升级。
+4. **净结果：**质量、速度、成本、客户/收入与负面结果。
+5. **持续责任：**是否跨项目、跨周期稳定承担下一层复杂度。
+6. **复用与赋能：**模板、评测、平台、他人采用、带教与继任。
+7. **来源与异议：**日志、直接参与者反馈、候选人更正、申诉和反例。
+
+### 评审分权
+
+- 同行/直接参与者：核验事实、关键判断与影响；不投最终职级票。
+- 经理：证明持续责任、业务必要性、反证和发展计划。
+- 岗位委员会：判断角色价值是否永久变化。
+- 人才委员会：校准层级、机会条件、群体公平和例外。
+- Total Rewards/财务：独立校准薪带、预算、津贴和项目奖。
+- AI：仅做材料抽取、口径检查、缺口和矛盾提示；不排序候选人、不生成最终推荐。
+
+### 即时回报与晋升边界
+
+一次验证/救火用项目奖、即时认可或临时补贴；长期值守用津贴；岗位整体变化先重评；持续下一层责任才在固定窗口晋升。**验证劳动进入证据，不等于每次验证劳动都升职。**
+
+## 8. 待验证清单与下一步搜索路径
+
+1. 取得研究企业的缺陷、维护、客户结果、reviewer 负荷与初级训练数据。
+2. 找公司正式 promotion packet 是否记录验证、异常、负面结果、复用与育人。
+3. 比较团队指标与个人归因对协作、公平和晋升后绩效的影响。
+4. 验证经理/评审者额外负荷是否有津贴、项目奖、调休或岗位重评。
+5. 查找 AI 辅助材料的采纳率、人工推翻率、群体差异和申诉结果。
+6. 跟踪 OpenAI/Anthropic 岗位实际 level、团队、offer 和内部流动。
+
+### 本轮实际检索词
+
+- `arxiv 2607.01904 reviewer load 802 developers AI coding`
+- `site:36kr.com 3920274115866249 中层 验证 代码评审`
+- `promotion packet code review quality incident maintenance evidence`
+- `AI performance review human contribution agent output team result`
+- `reviewer workload allowance project bonus promotion policy`
+- `algorithmic promotion human review appeal override fairness audit`
+
+## 9. 来源索引
+
+1. arXiv，[AI coding and developer productivity study](https://arxiv.org/abs/2607.01904)，7 月月内补漏，单企业纵向观察 L2。
+2. arXiv，[论文 PDF](https://arxiv.org/pdf/2607.01904)，L2。
+3. 36氪/定焦，[国内中层访谈](https://36kr.com/p/3920274115866249)，2026-08-01，L1。
+4. OpenAI，[RSI Safety Researcher](https://openai.com/careers/researcher-recursive-self-improvement-safety-san-francisco/)，2026-08-03 恢复截面，L1。
+5. Anthropic，[Research Engineer, Model Evaluations](https://job-boards.greenhouse.io/anthropic/jobs/5198255008)，2026-08-03 恢复截面，职责/薪带 L1、变化原因 L0。
+6. McKinsey，[The State of Organizations 2026](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-state-of-organizations)，权威研究 L2-L3。
+7. GitLab，[Promotions and Transfers](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/)，历史制度基线 L2-L3。
+8. 内部连续材料：[`三层绩效指标`](../../../knowledge/concepts/human-ai-performance-metrics.md)、[`GitLab 知识页`](../../../knowledge/wiki/gitlab-promotions-transfers-handbook.md)、[`W31 周报`](../../../daily-report/weekly-2026-W31.md)。
+
+> 恢复说明：工程研究与动态 JD 用于机制校准，不作为 8 月 1 日当日晋升制度新增。
