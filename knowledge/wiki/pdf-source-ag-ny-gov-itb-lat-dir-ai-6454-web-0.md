@@ -3,10 +3,10 @@ title: itb lat dir ai 6454 web 0
 source: ag.ny.gov
 date: 待核验
 ingested: 2026-08-03
-sourceFile:
+sourceFile: ../raw/ag-ny-gov-itb-lat-dir-ai-6454-web-0.pdf
 sourceUrl: https://ag.ny.gov/sites/default/files/2026-07/itb_lat_dir_ai_6454-web_0.pdf
 tags: [AI组织设计]
-status: 已索引来源，PDF下载待重试
+status: 已下载原始PDF，已生成结构化初筛卡片
 ---
 
 # itb lat dir ai 6454 web 0
@@ -20,7 +20,7 @@ itb lat dir ai 6454 web 0 已作为日报/周报 PDF 证据源入库，当前需
 - **来源机构**：ag.ny.gov
 - **来源类型**：media
 - **原文 URL**：https://ag.ny.gov/sites/default/files/2026-07/itb_lat_dir_ai_6454-web_0.pdf
-- **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
+- **原始文件**：`knowledge/raw/ag-ny-gov-itb-lat-dir-ai-6454-web-0.pdf`
 - **入库日期**：2026-08-03
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
@@ -52,6 +52,15 @@ itb lat dir ai 6454 web 0 已作为日报/周报 PDF 证据源入库，当前需
 ## 被引用位置
 
 - `daily/2026-08-03.md:141`：纽约州总检察长办公室官方 JD PDF
+- `specials/ai-org-talent-mechanism/2026-07-31/00-overview.md:94`：Director of Enterprise AI, Data, and Analytics JD
+- `specials/ai-org-talent-mechanism/2026-07-31/02-talent-density.md:33`：官方职位 PDF
+- `specials/ai-org-talent-mechanism/2026-07-31/02-talent-density.md:156`：Director of Enterprise Artificial Intelligence, Data, and Analytics
+- `specials/ai-org-talent-mechanism/2026-07-31/03-job-family-career-architecture.md:20`：官方 JD PDF
+- `specials/ai-org-talent-mechanism/2026-07-31/03-job-family-career-architecture.md:155`：Director of Enterprise AI, Data, and Analytics JD
+- `specials/ai-org-talent-mechanism/2026-07-31/04-promotion-system.md:32`：官方 JD PDF
+- `specials/ai-org-talent-mechanism/2026-07-31/04-promotion-system.md:152`：Enterprise AI, Data, and Analytics Director JD
+- `specials/ai-org-talent-mechanism/2026-08-01/00-overview.md:90`：AI/Data/Analytics Director JD
+- `specials/ai-org-talent-mechanism/2026-08-02/03-job-family-career-architecture.md:174`：Enterprise AI, Data, and Analytics Director JD
 
 ## 后续精读任务
 

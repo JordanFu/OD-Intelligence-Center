@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T02:33:04.166Z",
+  "generatedAt": "2026-08-03T04:59:48.338Z",
   "module": "info-feed",
   "qualityStatus": "fail",
   "latestDate": "2026-08-03",
@@ -535,29 +535,21 @@
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1"
   ],
-  "criticalIssues": [],
-  "brokenLinks": [
-    {
-      "type": "public-scan",
-      "sourceFile": "data/info-feed-status.json",
-      "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-03.html",
-      "reason": "public scan bridge returned 404",
-      "status": 404
-    }
+  "criticalIssues": [
+    "一方内部链接存在断链：1 条；需先运行或修复链接检查。"
   ],
+  "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-08-03T02:33:14.771Z",
-    "qualityStatus": "fail",
-    "firstPartyChecked": 2436,
+    "checkedAt": "2026-08-03T04:59:52.282Z",
+    "qualityStatus": "warn",
+    "firstPartyChecked": 2461,
     "externalWarnings": 48,
-    "brokenCount": 1,
+    "brokenCount": 0,
     "publicScanBridge": [
       {
-        "ok": false,
-        "hardBroken": true,
-        "status": 404,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-03.html",
-        "reason": "public scan bridge returned 404"
+        "ok": true,
+        "status": 200,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-03.html"
       },
       {
         "ok": true,

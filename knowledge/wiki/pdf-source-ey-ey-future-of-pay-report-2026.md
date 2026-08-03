@@ -186,26 +186,16 @@ EY 把未来薪酬改革连接到技能、绩效、AI 人才、生产率和治�
 - `specials/ai-org-talent-mechanism/2026-07-23/00-overview.md:117`：Future of Pay 2026
 - `specials/ai-org-talent-mechanism/2026-07-23/03-job-family-career-architecture.md:23`：EY PDF
 - `specials/ai-org-talent-mechanism/2026-07-23/03-job-family-career-architecture.md:104`：Future of Pay Report 2026
-- `specials/ai-org-talent-mechanism/2026-07-27/00-overview.md:57`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/2026-07-27/01-flat-organization.md:49`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/2026-07-27/02-talent-density.md:49`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/2026-07-27/03-job-family-career-architecture.md:49`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/2026-07-27/04-promotion-system.md:49`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/2026-07-31/00-overview.md:57`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/2026-07-31/01-flat-organization.md:49`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/2026-07-31/02-talent-density.md:49`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/2026-07-31/03-job-family-career-architecture.md:49`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/2026-07-31/04-promotion-system.md:49`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/2026-08-01/00-overview.md:57`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/2026-08-01/01-flat-organization.md:49`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/2026-08-01/02-talent-density.md:49`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/2026-08-01/03-job-family-career-architecture.md:49`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/2026-08-01/04-promotion-system.md:49`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/2026-08-02/00-overview.md:57`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/2026-08-02/01-flat-organization.md:49`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/2026-08-02/02-talent-density.md:49`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/2026-08-02/03-job-family-career-architecture.md:49`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/2026-08-02/04-promotion-system.md:49`：EY Future of Pay 2026
+- `specials/ai-org-talent-mechanism/2026-07-27/04-promotion-system.md:166`：Future of Pay Report 2026
+- `specials/ai-org-talent-mechanism/2026-07-31/04-promotion-system.md:38`：EY PDF
+- `specials/ai-org-talent-mechanism/2026-07-31/04-promotion-system.md:153`：Future of Pay Report 2026
+- `specials/ai-org-talent-mechanism/2026-08-02/04-promotion-system.md:38`：EY PDF
+- `specials/ai-org-talent-mechanism/2026-08-02/04-promotion-system.md:167`：Future of Pay Report 2026
+- `specials/ai-org-talent-mechanism/2026-08-03/00-overview.md:57`：EY Future of Pay 2026
+- `specials/ai-org-talent-mechanism/2026-08-03/01-flat-organization.md:49`：EY Future of Pay 2026
+- `specials/ai-org-talent-mechanism/2026-08-03/02-talent-density.md:49`：EY Future of Pay 2026
+- `specials/ai-org-talent-mechanism/2026-08-03/03-job-family-career-architecture.md:49`：EY Future of Pay 2026
+- `specials/ai-org-talent-mechanism/2026-08-03/04-promotion-system.md:49`：EY Future of Pay 2026
 - `specials/ai-org-talent-mechanism/weekly/2026-W20-quick.md:83`：EY Future of Pay 2026：
 - `specials/ai-org-talent-mechanism/weekly/2026-W20.md:83`：EY Future of Pay 2026：
 - `specials/ai-org-talent-mechanism/weekly/2026-W21-detailed.md:388`：EY Future of Pay 2026（技能溢价（skill premium） 治理建议）：
@@ -215,6 +205,9 @@ EY 把未来薪酬改革连接到技能、绩效、AI 人才、生产率和治�
 - `specials/ai-org-talent-mechanism/weekly/2026-W25-detailed.md:49`：EY Future of Pay 2026
 - `specials/ai-org-talent-mechanism/weekly/2026-W25-quick.md:29`：EY Future of Pay 2026
 - `specials/ai-org-talent-mechanism/weekly/2026-W25.md:29`：EY Future of Pay 2026
+- `specials/ai-org-talent-mechanism/weekly/2026-W31-detailed.md:49`：EY Future of Pay 2026
+- `specials/ai-org-talent-mechanism/weekly/2026-W31-quick.md:29`：EY Future of Pay 2026
+- `specials/ai-org-talent-mechanism/weekly/2026-W31.md:29`：EY Future of Pay 2026
 
 ## 后续精读任务
 

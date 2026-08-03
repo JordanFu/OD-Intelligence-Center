@@ -3112,9 +3112,9 @@
       "uploadDate": "2026-08-03",
       "description": "itb lat dir ai 6454 web 0 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-ag-ny-gov-itb-lat-dir-ai-6454-web-0.md",
-      "rawFile": "",
+      "rawFile": "./knowledge/raw/ag-ny-gov-itb-lat-dir-ai-6454-web-0.pdf",
       "fileName": "ag-ny-gov-itb-lat-dir-ai-6454-web-0.pdf",
-      "fileSize": "download pending",
+      "fileSize": "186295 bytes",
       "tags": [
         "PDF自动入库",
         "AI组织设计",
@@ -3136,9 +3136,9 @@
       "uploadDate": "2026-08-03",
       "description": "Whitepaper Impact of AI on U.S. Labor Market 2026 R2 1 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-apollo-com-whitepaper-impact-of-ai-on-u-s-labor-market-2026-r2-1.md",
-      "rawFile": "",
+      "rawFile": "./knowledge/raw/apollo-com-whitepaper-impact-of-ai-on-u-s-labor-market-2026-r2-1.pdf",
       "fileName": "apollo-com-whitepaper-impact-of-ai-on-u-s-labor-market-2026-r2-1.pdf",
-      "fileSize": "download pending",
+      "fileSize": "5313307 bytes",
       "tags": [
         "PDF自动入库",
         "AI组织设计",

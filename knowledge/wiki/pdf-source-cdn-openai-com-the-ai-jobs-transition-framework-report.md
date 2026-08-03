@@ -52,6 +52,8 @@ the ai jobs transition framework report 已作为日报/周报 PDF 证据源入�
 ## 被引用位置
 
 - `daily/2026-07-28.md:11`：AI Jobs Transition Framework PDF
+- `specials/ai-org-talent-mechanism/2026-07-27/02-talent-density.md:21`：工作转型框架 PDF
+- `specials/ai-org-talent-mechanism/2026-07-27/02-talent-density.md:150`：The AI Jobs Transition Framework
 
 ## 后续精读任务
 
