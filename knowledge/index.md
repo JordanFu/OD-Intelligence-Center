@@ -100,7 +100,7 @@
 |---|---|---|---|---|
 | [itb lat dir ai 6454 web 0](wiki/pdf-source-ag-ny-gov-itb-lat-dir-ai-6454-web-0.md) | ag.ny.gov | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 11 次 |
 | [GoogleATLASv1](wiki/pdf-source-ai-google-googleatlasv1.md) | ai.google | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 7 次 |
-| [CWA18398 2026](wiki/pdf-source-ai4si-gzs-si-cwa18398-2026.md) | ai4si.gzs.si | AI组织设计 | 待评估：需精读后确定 | 已索引待重试，引用 2 次 |
+| [CWA18398 2026](wiki/pdf-source-ai4si-gzs-si-cwa18398-2026.md) | ai4si.gzs.si | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 2 次 |
 | [2026 Work Trend Index Annual Report 050526 7 69fc5b1c4e265](wiki/pdf-source-assets-c4akfrf5b4d3f4b7-z01-azurefd-net-2026-work-trend-index-annual-report-050526-7-69fc5b1c4e2.md) | assets-c4akfrf5b4d3f4b7.z01.azurefd.net | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 1 次 |
 | [UK Standard Skills Classification Development Report](wiki/pdf-source-assets-publishing-service-gov-uk-uk-standard-skills-classification-development-report.md) | assets.publishing.service.gov.uk | AI组织设计、人才发展 | 待评估：需精读后确定 | 已下载原文，引用 3 次 |
 | [the ai jobs transition framework report](wiki/pdf-source-cdn-openai-com-the-ai-jobs-transition-framework-report.md) | cdn.openai.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 3 次 |

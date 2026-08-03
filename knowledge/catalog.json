@@ -2794,9 +2794,9 @@
       "uploadDate": "2026-08-03",
       "description": "CWA18398 2026 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-ai4si-gzs-si-cwa18398-2026.md",
-      "rawFile": "",
+      "rawFile": "./knowledge/raw/ai4si-gzs-si-cwa18398-2026.pdf",
       "fileName": "ai4si-gzs-si-cwa18398-2026.pdf",
-      "fileSize": "download pending",
+      "fileSize": "15501685 bytes",
       "tags": [
         "PDF自动入库",
         "AI组织设计",
