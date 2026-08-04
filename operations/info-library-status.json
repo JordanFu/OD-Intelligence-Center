@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T10:24:24.817Z",
+  "generatedAt": "2026-08-04T12:21:22.315Z",
   "module": "info-feed",
   "qualityStatus": "warn",
   "latestDate": "2026-08-04",
@@ -411,7 +411,7 @@
     "platforms": 511,
     "dailyFiles": 104,
     "dailyReportFiles": 108,
-    "weeklyFiles": 0
+    "weeklyFiles": 1
   },
   "homepageBridge": {
     "digestLatestDate": "2026-08-04",
@@ -470,7 +470,7 @@
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-08-04T10:23:10.065Z",
+    "checkedAt": "2026-08-04T10:24:53.706Z",
     "qualityStatus": "warn",
     "firstPartyChecked": 2503,
     "externalWarnings": 62,
