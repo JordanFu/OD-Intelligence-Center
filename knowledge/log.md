@@ -6,11 +6,13 @@
 
 ## [2026-08-04] ingest | 日报 PDF 证据源自动入库
 - 从 daily、daily-report、specials、analysis 中扫描 PDF URL，按知识库 Raw/Wiki/Catalog 规则自动建档。
-- 本次识别 48 个唯一 PDF 来源：39 个已下载原始 PDF，9 个保留 URL 与引用上下文待重试。
+- 本次识别 53 个唯一 PDF 来源：44 个已下载原始 PDF，9 个保留 URL 与引用上下文待重试。
 - 已下载：itb dia 6351 email 0（引用 4 次）
 - 已下载：itb lat dir ai 6454 web 0（引用 17 次）
 - 已下载：GoogleATLASv1（引用 7 次）
 - 已下载：CWA18398 2026（引用 2 次）
+- 已下载：2607.28890（引用 1 次）
+- 已下载：2607.28968（引用 1 次）
 - 已下载：2026 Work Trend Index Annual Report 050526 7 69fc5b1c4e265（引用 1 次）
 - 已下载：UK Standard Skills Classification Development Report（引用 3 次）
 - 已下载：the ai jobs transition framework report（引用 3 次）
@@ -29,11 +31,13 @@
 - 已下载：Meta 06 30 2026 Exhibit 99 1 FINAL（引用 6 次）
 - 已下载：META Q2 2026 Earnings Call Transcript（引用 4 次）
 - 已下载：6277baa6 0f7b 4fbe 9c7c ceb3e0e9b325 flatland（引用 16 次）
-- 已下载：47382ae415a209fd161bc19a1f9b3704（引用 1 次）
+- 已下载：47382ae415a209fd161bc19a1f9b3704（引用 3 次）
+- 已下载：e048dfed72bc718f7986a83f23c8e294（引用 2 次）
+- 已下载：gov.uscourts.cand.474171.1.0（引用 2 次）
 - 待重试：BCG：AI Radar 2026（引用 2 次）
 - 待重试：BCG + MIT Sloan：The Emerging Agentic Enterprise（引用 8 次）
 - 待重试：2026 global investor survey jul 2026（引用 1 次）
-- 已下载：Claude Opus 5 System Card（引用 4 次）
+- 已下载：Claude Opus 5 System Card（引用 6 次）
 - 已下载：AIHR：HR Priorities 2026 Report（引用 1 次）
 - 已下载：Whitepaper Impact of AI on U.S. Labor Market 2026 R2 1（引用 16 次）
 - 已下载：quarterly update presentation 1q 2026（引用 13 次）
@@ -43,6 +47,7 @@
 - 已下载：pip faq 2026（引用 6 次）
 - 已下载：12 087 bc50bde2 3016 457a 9bee dc988cb1056b（引用 5 次）
 - 待重试：HiBob 2026 report AI maturity benchmarks and where the workforce stand（引用 4 次）
+- 已下载：MiniMax：IPO 后股份激励计划授出奖励公告（引用 1 次）
 - 已下载：cesifo1 wp12373（引用 3 次）
 - 已下载：ILO Brief ASEAN AI v11 clean（引用 2 次）
 - 已下载：0000050863 26 000011（引用 2 次）
@@ -55,7 +60,6 @@
 - 已下载：2026 global ai jobs barometer full report（引用 1 次）
 - 已下载：2026 global ai jobs barometer global findings（引用 2 次）
 - 待重试：it job family career ladder matrix software engineer（引用 1 次）
-
 ## [2026-08-03] review | 本地知识库定期巡检
 - 完成仓库恢复、PDF 自动入库、近期内容归位、结构化结论、重复/过时、证据层级、专题连续性和公开分享入口检查。
 - 健康度 82/100；新增 `knowledge/wiki/local-knowledge-review-2026-08-03.md`。

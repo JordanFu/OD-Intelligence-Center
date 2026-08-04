@@ -1,26 +1,26 @@
 ---
-title: 47382ae415a209fd161bc19a1f9b3704
-source: static.www.tencent.com
+title: 2607.28890
+source: arxiv.org
 date: 待核验
 ingested: 2026-08-04
-sourceFile: ../raw/static-www-tencent-com-47382ae415a209fd161bc19a1f9b3704.pdf
-sourceUrl: https://static.www.tencent.com/uploads/2026/05/13/47382ae415a209fd161bc19a1f9b3704.pdf
+sourceFile: ../raw/arxiv-org-2607-28890.pdf
+sourceUrl: https://arxiv.org/pdf/2607.28890.pdf
 tags: [AI组织设计]
 status: 已下载原始PDF，已生成结构化初筛卡片
 ---
 
-# 47382ae415a209fd161bc19a1f9b3704
+# 2607.28890
 
 ## 一句话判断
 
-47382ae415a209fd161bc19a1f9b3704 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
+2607.28890 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
 
 ## 入库状态
 
-- **来源机构**：static.www.tencent.com
+- **来源机构**：arxiv.org
 - **来源类型**：media
-- **原文 URL**：https://static.www.tencent.com/uploads/2026/05/13/47382ae415a209fd161bc19a1f9b3704.pdf
-- **原始文件**：`knowledge/raw/static-www-tencent-com-47382ae415a209fd161bc19a1f9b3704.pdf`
+- **原文 URL**：https://arxiv.org/pdf/2607.28890.pdf
+- **原始文件**：`knowledge/raw/arxiv-org-2607-28890.pdf`
 - **入库日期**：2026-08-04
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
@@ -51,9 +51,7 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 
 ## 被引用位置
 
-- `daily/2026-06-09.md:99`：来源：Tencent（；https://www.tencent.com/en-us/articles/2202350.html）
-- `外部公开 PDF 扫描:80`：公开安全引用：- 腾讯 2026 一季度业绩公告 PDF：``
-- `外部公开 PDF 扫描:187`：公开安全引用：| 腾讯 2026 一季度业绩公告 |  | 腾讯 | revamped AI researchers / new AI products 单独核算 | A | 是 |
+- `daily/2026-08-04.md:102`：论文 PDF
 
 ## 后续精读任务
 
