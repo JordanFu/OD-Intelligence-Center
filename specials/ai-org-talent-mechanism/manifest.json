@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T04:39:30.946Z",
+  "generatedAt": "2026-08-05T10:29:52.571Z",
   "module": "topic-projects",
   "project": {
     "id": "ai-org-talent-mechanism",
@@ -7,13 +7,12 @@
     "root": "specials/ai-org-talent-mechanism"
   },
   "qualityStatus": "warn",
-  "latestFormalDate": "2026-08-04",
+  "latestFormalDate": "2026-08-05",
   "latestAnyDate": "2026-08-05",
   "today": "2026-08-05",
-  "todayStatus": "fallback",
-  "latestStatus": "fallback",
+  "todayStatus": "formal",
+  "latestStatus": "formal",
   "pendingRerunDates": [
-    "2026-08-05",
     "2026-07-13",
     "2026-07-12",
     "2026-07-11",
@@ -34,8 +33,8 @@
     "2026-05-13"
   ],
   "statusCounts": {
-    "fallback": 19,
-    "formal": 66
+    "formal": 67,
+    "fallback": 18
   },
   "statusDefinitions": {
     "formal": "正式决策稿：00-overview、四专题 Markdown、正式入口均存在，且无兜底/待重跑关键词，质量门禁未明确失败。",
@@ -47,10 +46,10 @@
   "dates": [
     {
       "date": "2026-08-05",
-      "status": "fallback",
-      "isFormal": false,
-      "isFallback": true,
-      "needsRerun": true,
+      "status": "formal",
+      "isFormal": true,
+      "isFallback": false,
+      "needsRerun": false,
       "overview": "specials/ai-org-talent-mechanism/2026-08-05/00-overview.html",
       "overviewMarkdown": "specials/ai-org-talent-mechanism/2026-08-05/00-overview.md",
       "index": "specials/ai-org-talent-mechanism/2026-08-05/index.html",
@@ -90,11 +89,9 @@
       "hasFormalEntry": true,
       "qualityGate": {
         "path": "specials/ai-org-talent-mechanism/quality/2026-08-05.md",
-        "status": "warn-or-unknown"
+        "status": "pass-or-warn"
       },
-      "qualityIssues": [
-        "正文包含兜底/非决策稿/待正式重跑关键词"
-      ]
+      "qualityIssues": []
     },
     {
       "date": "2026-08-04",
@@ -4251,7 +4248,7 @@
   ],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-08-05T04:39:34.618Z",
+    "checkedAt": "2026-08-05T10:30:38.154Z",
     "qualityStatus": "warn",
     "firstPartyChecked": 2529,
     "externalWarnings": 60,
@@ -4270,6 +4267,68 @@
     ]
   },
   "warnings": [
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "network check warning: fetch failed",
+    "network check warning: fetch failed",
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
