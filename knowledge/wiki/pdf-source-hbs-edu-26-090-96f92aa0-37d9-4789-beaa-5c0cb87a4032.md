@@ -1,26 +1,26 @@
 ---
-title: CWA18398 2026
-source: ai4si.gzs.si
+title: 26 090 96f92aa0 37d9 4789 beaa 5c0cb87a4032
+source: hbs.edu
 date: 待核验
 ingested: 2026-08-05
-sourceFile: ../raw/ai4si-gzs-si-cwa18398-2026.pdf
-sourceUrl: https://ai4si.gzs.si/uploads/fdWWeJuT/CWA18398_2026.pdf
+sourceFile: ../raw/hbs-edu-26-090-96f92aa0-37d9-4789-beaa-5c0cb87a4032.pdf
+sourceUrl: https://www.hbs.edu/ris/Publication%20Files/26-090_96f92aa0-37d9-4789-beaa-5c0cb87a4032.pdf
 tags: [AI组织设计]
 status: 已下载原始PDF，已生成结构化初筛卡片
 ---
 
-# CWA18398 2026
+# 26 090 96f92aa0 37d9 4789 beaa 5c0cb87a4032
 
 ## 一句话判断
 
-CWA18398 2026 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
+26 090 96f92aa0 37d9 4789 beaa 5c0cb87a4032 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
 
 ## 入库状态
 
-- **来源机构**：ai4si.gzs.si
+- **来源机构**：hbs.edu
 - **来源类型**：media
-- **原文 URL**：https://ai4si.gzs.si/uploads/fdWWeJuT/CWA18398_2026.pdf
-- **原始文件**：`knowledge/raw/ai4si-gzs-si-cwa18398-2026.pdf`
+- **原文 URL**：https://www.hbs.edu/ris/Publication%20Files/26-090_96f92aa0-37d9-4789-beaa-5c0cb87a4032.pdf
+- **原始文件**：`knowledge/raw/hbs-edu-26-090-96f92aa0-37d9-4789-beaa-5c0cb87a4032.pdf`
 - **入库日期**：2026-08-05
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
@@ -51,10 +51,7 @@ CWA18398 2026 已作为日报/周报 PDF 证据源入库，当前需要完成结
 
 ## 被引用位置
 
-- `specials/ai-org-talent-mechanism/2026-07-23/03-job-family-career-architecture.md:24`：CWA 18398:2026
-- `specials/ai-org-talent-mechanism/2026-07-23/03-job-family-career-architecture.md:106`：CWA 18398:2026
-- `specials/ai-org-talent-mechanism/2026-08-05/03-job-family-career-architecture.md:27`：CWA 18398:2026
-- `specials/ai-org-talent-mechanism/2026-08-05/03-job-family-career-architecture.md:183`：CWA 18398:2026
+- `specials/ai-org-talent-mechanism/2026-08-05/00-overview.md:45`：HBS 原始工作论文
 
 ## 后续精读任务
 

@@ -3265,6 +3265,54 @@
         "arxiv.org"
       ],
       "originalUrl": "https://arxiv.org/pdf/2607.28968.pdf"
+    },
+    {
+      "id": "p060",
+      "title": "cwa18398 2026",
+      "originalTitle": "cwa18398 2026",
+      "author": "cencenelec.eu",
+      "publisher": "cencenelec.eu",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-08-05",
+      "description": "cwa18398 2026 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-cencenelec-eu-cwa18398-2026.md",
+      "rawFile": "./knowledge/raw/cencenelec-eu-cwa18398-2026.pdf",
+      "fileName": "cencenelec-eu-cwa18398-2026.pdf",
+      "fileSize": "15501685 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "cencenelec.eu"
+      ],
+      "originalUrl": "https://www.cencenelec.eu/media/CEN-CENELEC/CWAs/RI/2026/cwa18398_2026.pdf"
+    },
+    {
+      "id": "p061",
+      "title": "26 090 96f92aa0 37d9 4789 beaa 5c0cb87a4032",
+      "originalTitle": "26 090 96f92aa0 37d9 4789 beaa 5c0cb87a4032",
+      "author": "hbs.edu",
+      "publisher": "hbs.edu",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-08-05",
+      "description": "26 090 96f92aa0 37d9 4789 beaa 5c0cb87a4032 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-hbs-edu-26-090-96f92aa0-37d9-4789-beaa-5c0cb87a4032.md",
+      "rawFile": "./knowledge/raw/hbs-edu-26-090-96f92aa0-37d9-4789-beaa-5c0cb87a4032.pdf",
+      "fileName": "hbs-edu-26-090-96f92aa0-37d9-4789-beaa-5c0cb87a4032.pdf",
+      "fileSize": "1229718 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "hbs.edu"
+      ],
+      "originalUrl": "https://www.hbs.edu/ris/Publication%20Files/26-090_96f92aa0-37d9-4789-beaa-5c0cb87a4032.pdf"
     }
   ]
 }

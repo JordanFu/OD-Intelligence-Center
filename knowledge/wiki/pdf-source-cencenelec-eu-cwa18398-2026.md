@@ -1,26 +1,26 @@
 ---
-title: CWA18398 2026
-source: ai4si.gzs.si
+title: cwa18398 2026
+source: cencenelec.eu
 date: 待核验
 ingested: 2026-08-05
-sourceFile: ../raw/ai4si-gzs-si-cwa18398-2026.pdf
-sourceUrl: https://ai4si.gzs.si/uploads/fdWWeJuT/CWA18398_2026.pdf
+sourceFile: ../raw/cencenelec-eu-cwa18398-2026.pdf
+sourceUrl: https://www.cencenelec.eu/media/CEN-CENELEC/CWAs/RI/2026/cwa18398_2026.pdf
 tags: [AI组织设计]
 status: 已下载原始PDF，已生成结构化初筛卡片
 ---
 
-# CWA18398 2026
+# cwa18398 2026
 
 ## 一句话判断
 
-CWA18398 2026 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
+cwa18398 2026 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
 
 ## 入库状态
 
-- **来源机构**：ai4si.gzs.si
+- **来源机构**：cencenelec.eu
 - **来源类型**：media
-- **原文 URL**：https://ai4si.gzs.si/uploads/fdWWeJuT/CWA18398_2026.pdf
-- **原始文件**：`knowledge/raw/ai4si-gzs-si-cwa18398-2026.pdf`
+- **原文 URL**：https://www.cencenelec.eu/media/CEN-CENELEC/CWAs/RI/2026/cwa18398_2026.pdf
+- **原始文件**：`knowledge/raw/cencenelec-eu-cwa18398-2026.pdf`
 - **入库日期**：2026-08-05
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
@@ -51,10 +51,7 @@ CWA18398 2026 已作为日报/周报 PDF 证据源入库，当前需要完成结
 
 ## 被引用位置
 
-- `specials/ai-org-talent-mechanism/2026-07-23/03-job-family-career-architecture.md:24`：CWA 18398:2026
-- `specials/ai-org-talent-mechanism/2026-07-23/03-job-family-career-architecture.md:106`：CWA 18398:2026
-- `specials/ai-org-talent-mechanism/2026-08-05/03-job-family-career-architecture.md:27`：CWA 18398:2026
-- `specials/ai-org-talent-mechanism/2026-08-05/03-job-family-career-architecture.md:183`：CWA 18398:2026
+- `specials/ai-org-talent-mechanism/2026-08-05/00-overview.md:71`：CEN-CENELEC 最终文本
 
 ## 后续精读任务
 

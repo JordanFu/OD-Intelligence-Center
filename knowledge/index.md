@@ -101,7 +101,7 @@
 | [itb dia 6351 email 0](wiki/pdf-source-ag-ny-gov-itb-dia-6351-email-0.md) | ag.ny.gov | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 4 次 |
 | [itb lat dir ai 6454 web 0](wiki/pdf-source-ag-ny-gov-itb-lat-dir-ai-6454-web-0.md) | ag.ny.gov | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 17 次 |
 | [GoogleATLASv1](wiki/pdf-source-ai-google-googleatlasv1.md) | ai.google | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 7 次 |
-| [CWA18398 2026](wiki/pdf-source-ai4si-gzs-si-cwa18398-2026.md) | ai4si.gzs.si | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 2 次 |
+| [CWA18398 2026](wiki/pdf-source-ai4si-gzs-si-cwa18398-2026.md) | ai4si.gzs.si | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 4 次 |
 | [2607.28890](wiki/pdf-source-arxiv-org-2607-28890.md) | arxiv.org | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 1 次 |
 | [2607.28968](wiki/pdf-source-arxiv-org-2607-28968.md) | arxiv.org | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 1 次 |
 | [2026 Work Trend Index Annual Report 050526 7 69fc5b1c4e265](wiki/pdf-source-assets-c4akfrf5b4d3f4b7-z01-azurefd-net-2026-work-trend-index-annual-report-050526-7-69fc5b1c4e2.md) | assets-c4akfrf5b4d3f4b7.z01.azurefd.net | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 1 次 |
@@ -130,11 +130,13 @@
 | [AIHR：HR Priorities 2026 Report](wiki/pdf-source-aihr-aihr-hr-priorities-2026-report.md) | AIHR | 技能本位组织、HR 重构、skill count | 强相关：岗位与技能体系 | 已下载原文，引用 1 次 |
 | [Whitepaper Impact of AI on U.S. Labor Market 2026 R2 1](wiki/pdf-source-apollo-com-whitepaper-impact-of-ai-on-u-s-labor-market-2026-r2-1.md) | apollo.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 16 次 |
 | [quarterly update presentation 1q 2026](wiki/pdf-source-bny-com-quarterly-update-presentation-1q-2026.md) | bny.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 13 次 |
+| [cwa18398 2026](wiki/pdf-source-cencenelec-eu-cwa18398-2026.md) | cencenelec.eu | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 1 次 |
 | [draft cwa xxxx e](wiki/pdf-source-cencenelec-eu-draft-cwa-xxxx-e.md) | cencenelec.eu | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 2 次 |
 | [us spans and layers for the modern organization 2020](wiki/pdf-source-deloitte-us-spans-and-layers-for-the-modern-organization-2020.md) | Deloitte | AI组织设计、变革管理 | 待评估：需精读后确定 | 已下载原文，引用 3 次 |
-| [EY：Future of Pay Report 2026](wiki/pdf-source-ey-ey-future-of-pay-report-2026.md) | EY | 技能薪酬、生产率锚点、AI 人才溢价 | 强相关：薪酬与激励机制 | 已下载原文，引用 155 次 |
+| [EY：Future of Pay Report 2026](wiki/pdf-source-ey-ey-future-of-pay-report-2026.md) | EY | 技能薪酬、生产率锚点、AI 人才溢价 | 强相关：薪酬与激励机制 | 已下载原文，引用 151 次 |
 | [pip faq 2026](wiki/pdf-source-facs-org-pip-faq-2026.md) | facs.org | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 6 次 |
 | [12 087 bc50bde2 3016 457a 9bee dc988cb1056b](wiki/pdf-source-hbs-edu-12-087-bc50bde2-3016-457a-9bee-dc988cb1056b.md) | hbs.edu | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 5 次 |
+| [26 090 96f92aa0 37d9 4789 beaa 5c0cb87a4032](wiki/pdf-source-hbs-edu-26-090-96f92aa0-37d9-4789-beaa-5c0cb87a4032.md) | hbs.edu | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 1 次 |
 | [HiBob 2026 report AI maturity benchmarks and where the workforce stand](wiki/pdf-source-hibob-com-hibob-2026-report-ai-maturity-benchmarks-and-where-the-workforce-stand.md) | hibob.com | AI组织设计、人才发展 | 待评估：需精读后确定 | 已索引待重试，引用 4 次 |
 | [cesifo1 wp12373](wiki/pdf-source-ifo-de-cesifo1-wp12373.md) | ifo.de | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 3 次 |
 | [ILO Brief ASEAN AI v11 clean](wiki/pdf-source-ilo-org-ilo-brief-asean-ai-v11-clean.md) | ilo.org | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 2 次 |
