@@ -3280,9 +3280,9 @@
       "uploadDate": "2026-08-06",
       "description": "gov.uscourts.cand.474095.38.0 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-storage-courtlistener-com-gov-uscourts-cand-474095-38-0.md",
-      "rawFile": "",
+      "rawFile": "./knowledge/raw/storage-courtlistener-com-gov-uscourts-cand-474095-38-0.pdf",
       "fileName": "storage-courtlistener-com-gov-uscourts-cand-474095-38-0.pdf",
-      "fileSize": "download pending",
+      "fileSize": "1395565 bytes",
       "tags": [
         "PDF自动入库",
         "AI组织设计",

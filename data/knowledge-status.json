@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-06T02:02:17.476Z",
+  "generatedAt": "2026-08-06T04:39:52.258Z",
   "module": "knowledge-base",
-  "qualityStatus": "warn",
+  "qualityStatus": "fail",
   "latestCatalogDate": "2026-08-06",
   "counts": {
     "reports": 121,
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "pdfRetryCount": 12,
+  "pdfRetryCount": 11,
   "pdfRetrySample": [
     {
       "id": "p001",
@@ -165,32 +165,36 @@
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "network check warning: fetch failed",
-    "network check warning: fetch failed"
+    "external link not hard-checked in Phase 1"
   ],
   "criticalIssues": [],
-  "brokenLinks": [],
+  "brokenLinks": [
+    {
+      "type": "public-scan",
+      "sourceFile": "data/info-feed-status.json",
+      "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-06.html",
+      "reason": "public scan bridge returned 404",
+      "status": 404
+    }
+  ],
   "links": {
-    "checkedAt": "2026-08-06T02:02:39.131Z",
-    "qualityStatus": "warn",
-    "firstPartyChecked": 2540,
-    "externalWarnings": 72,
-    "brokenCount": 0,
+    "checkedAt": "2026-08-06T04:39:52.615Z",
+    "qualityStatus": "fail",
+    "firstPartyChecked": 2564,
+    "externalWarnings": 70,
+    "brokenCount": 1,
     "publicScanBridge": [
       {
         "ok": false,
-        "hardBroken": false,
-        "status": null,
+        "hardBroken": true,
+        "status": 404,
         "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-06.html",
-        "reason": "network check warning: fetch failed"
+        "reason": "public scan bridge returned 404"
       },
       {
-        "ok": false,
-        "hardBroken": false,
-        "status": null,
-        "url": "https://jordanfu.github.io/org-intelligence-info/",
-        "reason": "network check warning: fetch failed"
+        "ok": true,
+        "status": 200,
+        "url": "https://jordanfu.github.io/org-intelligence-info/"
       }
     ]
   }

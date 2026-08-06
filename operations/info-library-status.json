@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T02:02:17.409Z",
+  "generatedAt": "2026-08-06T04:39:48.907Z",
   "module": "info-feed",
   "qualityStatus": "pass",
   "latestDate": "2026-08-06",
@@ -416,7 +416,7 @@
     "platforms": 524,
     "dailyFiles": 105,
     "dailyReportFiles": 109,
-    "weeklyFiles": 0
+    "weeklyFiles": 1
   },
   "homepageBridge": {
     "digestLatestDate": "2026-08-06",
@@ -473,11 +473,27 @@
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": null,
-    "qualityStatus": "pending",
-    "firstPartyChecked": 0,
-    "externalWarnings": 0,
-    "brokenCount": 0
+    "checkedAt": "2026-08-06T02:02:39.131Z",
+    "qualityStatus": "warn",
+    "firstPartyChecked": 2540,
+    "externalWarnings": 72,
+    "brokenCount": 0,
+    "publicScanBridge": [
+      {
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-06.html",
+        "reason": "network check warning: fetch failed"
+      },
+      {
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/",
+        "reason": "network check warning: fetch failed"
+      }
+    ]
   },
   "governance": "信息库负责广谱前沿雷达；专题项目负责假设检验；知识库负责长期复利，三者分开治理、周期互补。"
 }
