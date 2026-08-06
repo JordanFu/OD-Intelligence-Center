@@ -66,6 +66,8 @@ Payscale 2026 薪酬实践报告可用于验证 AI 技能定价、薪酬公平�
 - `specials/ai-org-talent-mechanism/2026-07-31/04-promotion-system.md:154`：2026 Compensation Best Practices Report
 - `specials/ai-org-talent-mechanism/2026-08-02/04-promotion-system.md:38`：Payscale PDF
 - `specials/ai-org-talent-mechanism/2026-08-02/04-promotion-system.md:168`：2026 Compensation Best Practices Report
+- `specials/ai-org-talent-mechanism/2026-08-06/03-job-family-career-architecture.md:41`：Payscale 2026 Compensation Best Practices Report
+- `specials/ai-org-talent-mechanism/2026-08-06/03-job-family-career-architecture.md:204`：Payscale｜2026 Compensation Best Practices Report
 - `specials/ai-org-talent-mechanism/synthesis/2026-07-24-promotion-mechanism-evolution-application-report.md:145`：Payscale PDF
 - `specials/ai-org-talent-mechanism/synthesis/2026-07-24-promotion-mechanism-evolution-application-report.md:514`：2026 Compensation Best Practices Report
 

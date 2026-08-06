@@ -55,6 +55,7 @@ CWA18398 2026 已作为日报/周报 PDF 证据源入库，当前需要完成结
 - `specials/ai-org-talent-mechanism/2026-07-23/03-job-family-career-architecture.md:106`：CWA 18398:2026
 - `specials/ai-org-talent-mechanism/2026-08-05/03-job-family-career-architecture.md:27`：CWA 18398:2026
 - `specials/ai-org-talent-mechanism/2026-08-05/03-job-family-career-architecture.md:183`：CWA 18398:2026
+- `specials/ai-org-talent-mechanism/2026-08-06/03-job-family-career-architecture.md:206`：CEN/CENELEC｜CWA 18398:2026
 
 ## 后续精读任务
 

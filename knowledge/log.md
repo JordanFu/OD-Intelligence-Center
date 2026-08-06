@@ -10,7 +10,7 @@
 - 已下载：itb dia 6351 email 0（引用 4 次）
 - 已下载：itb lat dir ai 6454 web 0（引用 17 次）
 - 已下载：GoogleATLASv1（引用 7 次）
-- 已下载：CWA18398 2026（引用 4 次）
+- 已下载：CWA18398 2026（引用 5 次）
 - 已下载：2607.28890（引用 1 次）
 - 已下载：2607.28968（引用 1 次）
 - 已下载：2026 Work Trend Index Annual Report 050526 7 69fc5b1c4e265（引用 1 次）
@@ -43,7 +43,7 @@
 - 已下载：cwa18398 2026（引用 1 次）
 - 已下载：draft cwa xxxx e（引用 2 次）
 - 已下载：us spans and layers for the modern organization 2020（引用 3 次）
-- 已下载：EY：Future of Pay Report 2026（引用 156 次）
+- 已下载：EY：Future of Pay Report 2026（引用 151 次）
 - 已下载：pip faq 2026（引用 6 次）
 - 已下载：12 087 bc50bde2 3016 457a 9bee dc988cb1056b（引用 5 次）
 - 已下载：26 090 96f92aa0 37d9 4789 beaa 5c0cb87a4032（引用 1 次）
@@ -56,7 +56,7 @@
 - 已下载：OECD：Competition in the Age of AI（引用 2 次）
 - 已下载：c0ffced7 en（引用 4 次）
 - 已下载：orgvue ai research ebook 2026 final（引用 1 次）
-- 已下载：Payscale：2026 Compensation Best Practices Report（引用 17 次）
+- 已下载：Payscale：2026 Compensation Best Practices Report（引用 19 次）
 - 已下载：2026 global ai jobs barometer full report（引用 1 次）
 - 已下载：2026 global ai jobs barometer global findings（引用 2 次）
 - 待重试：it job family career ladder matrix software engineer（引用 1 次）
