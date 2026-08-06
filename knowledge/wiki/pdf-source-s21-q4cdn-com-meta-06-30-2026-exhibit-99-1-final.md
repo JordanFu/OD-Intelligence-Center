@@ -2,7 +2,7 @@
 title: Meta 06 30 2026 Exhibit 99 1 FINAL
 source: s21.q4cdn.com
 date: 待核验
-ingested: 2026-08-05
+ingested: 2026-08-06
 sourceFile: ../raw/s21-q4cdn-com-meta-06-30-2026-exhibit-99-1-final.pdf
 sourceUrl: https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/Meta-06-30-2026-Exhibit-99-1-FINAL.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ Meta 06 30 2026 Exhibit 99 1 FINAL 已作为日报/周报 PDF 证据源入库，
 - **来源类型**：media
 - **原文 URL**：https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/Meta-06-30-2026-Exhibit-99-1-FINAL.pdf
 - **原始文件**：`knowledge/raw/s21-q4cdn-com-meta-06-30-2026-exhibit-99-1-final.pdf`
-- **入库日期**：2026-08-05
+- **入库日期**：2026-08-06
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容

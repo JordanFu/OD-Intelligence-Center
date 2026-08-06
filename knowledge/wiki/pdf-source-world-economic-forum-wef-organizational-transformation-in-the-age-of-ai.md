@@ -2,7 +2,7 @@
 title: WEF：Organizational Transformation in the Age of AI
 source: World Economic Forum
 date: 待核验
-ingested: 2026-08-05
+ingested: 2026-08-06
 sourceFile: ../raw/world-economic-forum-wef-organizational-transformation-in-the-age-of-ai.pdf
 sourceUrl: https://reports.weforum.org/docs/WEF_Organizational_Transformation_in_the_Age_of_AI_How_Organizations_Maximize_AI's_Potential_2026.pdf
 tags: [AI组织设计, 变革管理, 战略规划]
@@ -21,7 +21,7 @@ WEF/Accenture 把 AI 转型的重点放在 workflow、运营模式（operating m
 - **来源类型**：industry
 - **原文 URL**：https://reports.weforum.org/docs/WEF_Organizational_Transformation_in_the_Age_of_AI_How_Organizations_Maximize_AI's_Potential_2026.pdf
 - **原始文件**：`knowledge/raw/world-economic-forum-wef-organizational-transformation-in-the-age-of-ai.pdf`
-- **入库日期**：2026-08-05
+- **入库日期**：2026-08-06
 - **证据层级**：结论层可用，适合作为跨行业高层叙事和治理框架证据。
 
 ## 核心内容
