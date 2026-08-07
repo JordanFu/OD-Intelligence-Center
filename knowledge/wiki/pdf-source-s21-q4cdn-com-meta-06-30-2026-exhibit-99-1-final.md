@@ -54,9 +54,6 @@ Meta 06 30 2026 Exhibit 99 1 FINAL 已作为日报/周报 PDF 证据源入库，
 - `specials/ai-org-talent-mechanism/weekly/2026-W31-detailed.md:250`：Meta Q2 2026 官方业绩
 - `specials/ai-org-talent-mechanism/weekly/2026-W31-quick.md:43`：Meta Q2 2026 官方业绩与电话会
 - `specials/ai-org-talent-mechanism/weekly/2026-W31.md:250`：Meta Q2 2026 官方业绩
-- `specials/ai-org-talent-mechanism/weekly/latest-detailed.md:250`：Meta Q2 2026 官方业绩
-- `specials/ai-org-talent-mechanism/weekly/latest-quick.md:43`：Meta Q2 2026 官方业绩与电话会
-- `specials/ai-org-talent-mechanism/weekly/latest.md:250`：Meta Q2 2026 官方业绩
 
 ## 后续精读任务
 

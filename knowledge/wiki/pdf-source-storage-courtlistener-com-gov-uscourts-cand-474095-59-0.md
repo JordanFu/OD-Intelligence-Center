@@ -52,6 +52,9 @@ gov.uscourts.cand.474095.59.0 已作为日报/周报 PDF 证据源入库，当�
 ## 被引用位置
 
 - `daily/2026-08-07.md:50`：驳回动议 PDF
+- `specials/ai-org-talent-mechanism/2026-08-07/00-overview.md:163`：法院文件
+- `specials/ai-org-talent-mechanism/2026-08-07/02-talent-density.md:40`：法院文件
+- `specials/ai-org-talent-mechanism/2026-08-07/02-talent-density.md:170`：法院文件
 
 ## 后续精读任务
 

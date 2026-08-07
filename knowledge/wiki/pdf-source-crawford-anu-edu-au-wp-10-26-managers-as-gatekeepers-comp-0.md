@@ -1,26 +1,26 @@
 ---
-title: META Q2 2026 Earnings Call Transcript
-source: s21.q4cdn.com
+title: WP 10 26 Managers as gatekeepers comp 0
+source: crawford.anu.edu.au
 date: 待核验
 ingested: 2026-08-07
-sourceFile: ../raw/s21-q4cdn-com-meta-q2-2026-earnings-call-transcript.pdf
-sourceUrl: https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/META-Q2-2026-Earnings-Call-Transcript.pdf
+sourceFile: ../raw/crawford-anu-edu-au-wp-10-26-managers-as-gatekeepers-comp-0.pdf
+sourceUrl: https://crawford.anu.edu.au/sites/default/files/2026-06/WP%2010-26%20Managers%20as%20gatekeepers_comp_0.pdf
 tags: [AI组织设计]
 status: 已下载原始PDF，已生成结构化初筛卡片
 ---
 
-# META Q2 2026 Earnings Call Transcript
+# WP 10 26 Managers as gatekeepers comp 0
 
 ## 一句话判断
 
-META Q2 2026 Earnings Call Transcript 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
+WP 10 26 Managers as gatekeepers comp 0 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
 
 ## 入库状态
 
-- **来源机构**：s21.q4cdn.com
+- **来源机构**：crawford.anu.edu.au
 - **来源类型**：media
-- **原文 URL**：https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/META-Q2-2026-Earnings-Call-Transcript.pdf
-- **原始文件**：`knowledge/raw/s21-q4cdn-com-meta-q2-2026-earnings-call-transcript.pdf`
+- **原文 URL**：https://crawford.anu.edu.au/sites/default/files/2026-06/WP%2010-26%20Managers%20as%20gatekeepers_comp_0.pdf
+- **原始文件**：`knowledge/raw/crawford-anu-edu-au-wp-10-26-managers-as-gatekeepers-comp-0.pdf`
 - **入库日期**：2026-08-07
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
@@ -51,8 +51,9 @@ META Q2 2026 Earnings Call Transcript 已作为日报/周报 PDF 证据源入库
 
 ## 被引用位置
 
-- `specials/ai-org-talent-mechanism/weekly/2026-W31-detailed.md:251`：Meta Q2 2026 官方电话会
-- `specials/ai-org-talent-mechanism/weekly/2026-W31.md:251`：Meta Q2 2026 官方电话会
+- `specials/ai-org-talent-mechanism/2026-08-07/00-overview.md:98`：ANU
+- `specials/ai-org-talent-mechanism/2026-08-07/01-flat-organization.md:143`：ANU 工作论文
+- `specials/ai-org-talent-mechanism/2026-08-07/01-flat-organization.md:203`：ANU：Managers as Gatekeepers in the Age of AI
 
 ## 后续精读任务
 

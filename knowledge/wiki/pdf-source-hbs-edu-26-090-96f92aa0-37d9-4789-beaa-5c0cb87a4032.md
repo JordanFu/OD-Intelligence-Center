@@ -52,6 +52,10 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 ## 被引用位置
 
 - `specials/ai-org-talent-mechanism/2026-08-05/00-overview.md:45`：HBS 原始工作论文
+- `specials/ai-org-talent-mechanism/weekly/2026-W32-detailed.md:281`：HBS Working Paper 26-090
+- `specials/ai-org-talent-mechanism/weekly/2026-W32.md:281`：HBS Working Paper 26-090
+- `specials/ai-org-talent-mechanism/weekly/latest-detailed.md:281`：HBS Working Paper 26-090
+- `specials/ai-org-talent-mechanism/weekly/latest.md:281`：HBS Working Paper 26-090
 
 ## 后续精读任务
 

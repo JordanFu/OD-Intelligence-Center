@@ -3409,6 +3409,30 @@
         "arxiv.org"
       ],
       "originalUrl": "https://arxiv.org/pdf/2608.06027.pdf"
+    },
+    {
+      "id": "p066",
+      "title": "WP 10 26 Managers as gatekeepers comp 0",
+      "originalTitle": "WP 10 26 Managers as gatekeepers comp 0",
+      "author": "crawford.anu.edu.au",
+      "publisher": "crawford.anu.edu.au",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-08-07",
+      "description": "WP 10 26 Managers as gatekeepers comp 0 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-crawford-anu-edu-au-wp-10-26-managers-as-gatekeepers-comp-0.md",
+      "rawFile": "./knowledge/raw/crawford-anu-edu-au-wp-10-26-managers-as-gatekeepers-comp-0.pdf",
+      "fileName": "crawford-anu-edu-au-wp-10-26-managers-as-gatekeepers-comp-0.pdf",
+      "fileSize": "1484391 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "crawford.anu.edu.au"
+      ],
+      "originalUrl": "https://crawford.anu.edu.au/sites/default/files/2026-06/WP%2010-26%20Managers%20as%20gatekeepers_comp_0.pdf"
     }
   ]
 }
