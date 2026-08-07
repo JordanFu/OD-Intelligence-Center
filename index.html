@@ -2730,6 +2730,8 @@
     const FILTER_LIMIT = 10; // 默认显示数量（2行）
     let activeTrustFilter = null;
     let openCardId = null;
+    const LEVELS_DAILY_VISIBLE_LIMIT = 3;
+    let levelsDailyExpanded = false;
     let expandedReportDate = null;
     let isGenerating = false;
     let kbSourceTypeFilter = null;
@@ -3957,9 +3959,14 @@
     function topicEntryUrl(entry) {
       return entry?.index || entry?.overview || entry?.overviewMarkdown || './specials/ai-org-talent-mechanism/manifest.json';
     }
+    function toggleLevelsDailyHistory() {
+      levelsDailyExpanded = !levelsDailyExpanded;
+      renderLevelsPage();
+    }
     function renderLevelsPageFromManifest(container, manifest) {
       const dates = manifest.dates || [];
       const recentDates = dates.slice(0, 30);
+      const visibleDates = levelsDailyExpanded ? recentDates : recentDates.slice(0, LEVELS_DAILY_VISIBLE_LIMIT);
       const pending = manifest.pendingRerunDates || [];
       const statusCounts = manifest.statusCounts || {};
       container.innerHTML = `
@@ -3988,8 +3995,8 @@
 
         <div class="levels-section">
           <h3>日报状态记录</h3>
-          <p class="levels-section-note">以下列表直接来自 <code>specials/ai-org-talent-mechanism/manifest.json</code>，不是手工硬编码的“已同步”。</p>
-          ${recentDates.map(item => `
+          <p class="levels-section-note">默认展示最新 ${Math.min(LEVELS_DAILY_VISIBLE_LIMIT, recentDates.length)} 条，历史日报仍保留并可展开；状态直接来自 <code>specials/ai-org-talent-mechanism/manifest.json</code>。</p>
+          ${visibleDates.map(item => `
             <div class="levels-output">
               <div class="levels-output-head">
                 <div>
@@ -4005,6 +4012,11 @@
               </div>
             </div>
           `).join('')}
+          ${recentDates.length > LEVELS_DAILY_VISIBLE_LIMIT ? `
+            <div class="levels-actions">
+              <button type="button" class="levels-btn" onclick="toggleLevelsDailyHistory()">${levelsDailyExpanded ? '收起历史日报 ↑' : `查看其余 ${recentDates.length - LEVELS_DAILY_VISIBLE_LIMIT} 条日报 ↓`}</button>
+            </div>
+          ` : ''}
         </div>
 
         <div class="levels-section">
@@ -4077,6 +4089,9 @@
       const manifestFallbackBanner = statusManifestLoadFailed
         ? `<div class="manifest-fallback-warning">状态源加载失败，以下为历史静态索引，不代表今日正式状态。</div>`
         : '';
+      const visibleDailyOutputs = levelsDailyExpanded
+        ? levelsDailyOutputs
+        : levelsDailyOutputs.slice(0, LEVELS_DAILY_VISIBLE_LIMIT);
       container.innerHTML = `
         ${manifestFallbackBanner}
         <div class="levels-hero">
@@ -4176,8 +4191,8 @@
 
         <div class="levels-section">
           <h3>日报分区</h3>
-          <p class="levels-section-note">日报保留每日四份专题报告与一份总览摘要，用于记录当天新增证据、Context、线索和待验证问题。</p>
-          ${levelsDailyOutputs.map(item => `
+          <p class="levels-section-note">默认展示最新 ${Math.min(LEVELS_DAILY_VISIBLE_LIMIT, levelsDailyOutputs.length)} 条；历史日报仍保留并可展开，用于追溯当天新增证据、背景、线索和待验证问题。</p>
+          ${visibleDailyOutputs.map(item => `
             <div class="levels-output">
               <div class="levels-output-head">
                 <div>
@@ -4192,6 +4207,11 @@
               </div>
             </div>
           `).join('')}
+          ${levelsDailyOutputs.length > LEVELS_DAILY_VISIBLE_LIMIT ? `
+            <div class="levels-actions">
+              <button type="button" class="levels-btn" onclick="toggleLevelsDailyHistory()">${levelsDailyExpanded ? '收起历史日报 ↑' : `查看其余 ${levelsDailyOutputs.length - LEVELS_DAILY_VISIBLE_LIMIT} 条日报 ↓`}</button>
+            </div>
+          ` : ''}
         </div>
 
         <div class="levels-section">
