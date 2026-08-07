@@ -1,26 +1,26 @@
 ---
-title: Mercer and Eightfold Pay for Skills
-source: eightfold.ai
+title: 2608.05116
+source: arxiv.org
 date: 待核验
 ingested: 2026-08-07
-sourceFile: ../raw/eightfold-ai-mercer-and-eightfold-pay-for-skills.pdf
-sourceUrl: https://eightfold.ai/wp-content/uploads/Mercer_and_Eightfold_Pay_for_Skills.pdf
-tags: [AI组织设计, 绩效管理, 人才发展]
-status: 已下载原始PDF，已生成结构化初筛卡片
+sourceFile:
+sourceUrl: https://arxiv.org/pdf/2608.05116.pdf
+tags: [AI组织设计]
+status: 已索引来源，PDF下载待重试
 ---
 
-# Mercer and Eightfold Pay for Skills
+# 2608.05116
 
 ## 一句话判断
 
-Mercer and Eightfold Pay for Skills 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
+2608.05116 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
 
 ## 入库状态
 
-- **来源机构**：eightfold.ai
+- **来源机构**：arxiv.org
 - **来源类型**：media
-- **原文 URL**：https://eightfold.ai/wp-content/uploads/Mercer_and_Eightfold_Pay_for_Skills.pdf
-- **原始文件**：`knowledge/raw/eightfold-ai-mercer-and-eightfold-pay-for-skills.pdf`
+- **原文 URL**：https://arxiv.org/pdf/2608.05116.pdf
+- **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
 - **入库日期**：2026-08-07
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
@@ -51,8 +51,7 @@ Mercer and Eightfold Pay for Skills 已作为日报/周报 PDF 证据源入库�
 
 ## 被引用位置
 
-- `specials/ai-org-talent-mechanism/2026-07-03/02-talent-density.md:110`：Mercer / Eightfold Pay for Skills,
-- `specials/ai-org-talent-mechanism/2026-08-03/03-job-family-career-architecture.md:196`：报告 PDF
+- `daily/2026-08-07.md:141`：论文 PDF
 
 ## 后续精读任务
 

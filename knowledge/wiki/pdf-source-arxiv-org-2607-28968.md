@@ -2,7 +2,7 @@
 title: 2607.28968
 source: arxiv.org
 date: 待核验
-ingested: 2026-08-06
+ingested: 2026-08-07
 sourceFile: ../raw/arxiv-org-2607-28968.pdf
 sourceUrl: https://arxiv.org/pdf/2607.28968.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 - **来源类型**：media
 - **原文 URL**：https://arxiv.org/pdf/2607.28968.pdf
 - **原始文件**：`knowledge/raw/arxiv-org-2607-28968.pdf`
-- **入库日期**：2026-08-06
+- **入库日期**：2026-08-07
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
