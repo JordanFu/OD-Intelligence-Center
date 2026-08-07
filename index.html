@@ -965,6 +965,29 @@
       gap: 12px;
       margin-bottom: 22px;
     }
+    .levels-status-line {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px;
+      margin: -10px 0 18px;
+      padding: 8px 12px;
+      border: 1px solid var(--border);
+      border-radius: 9px;
+      background: rgba(32, 36, 52, 0.58);
+      color: var(--text2);
+      font-size: 12px;
+      line-height: 1.5;
+    }
+    .levels-status-line strong { color: var(--text); }
+    .levels-module-kicker {
+      display: block;
+      margin-bottom: 5px;
+      color: var(--accent);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+    }
     .levels-card {
       background: var(--surface);
       border: 1px solid var(--border);
@@ -1040,6 +1063,7 @@
       border: 1px solid var(--border);
       background: var(--surface2);
       color: var(--text);
+      cursor: pointer;
     }
     .levels-btn.primary {
       background: var(--green);
@@ -3886,17 +3910,6 @@
       },
     ];
 
-    const levelsQualityOutputs = [
-      {
-        date: '2026-05-26',
-        title: '日报覆盖审计',
-        status: '自动化审计',
-        summary: '盘点四课题日报是否断档、是否仍为非决策稿、是否缺少关键结构信号。',
-        href: './specials/ai-org-talent-mechanism/quality/coverage-latest.html',
-        markdown: './specials/ai-org-talent-mechanism/quality/coverage-latest.md'
-      },
-    ];
-
     const levelsWeeklyOutputs = [
       {
         date: '2026-W32',
@@ -3938,24 +3951,6 @@
       },
     ];
 
-    const levelsComparisonOutputs = [
-      {
-        title: '2026-W20 重跑前周报',
-        summary: '未重跑前的原始周报，保留为资料聚合底稿。',
-        href: './specials/ai-org-talent-mechanism/weekly/archive/2026-W20-before-rerun.html'
-      },
-      {
-        title: '2026-W20 重跑后周报',
-        summary: '正式重跑后的快速导读版周报。',
-        href: './specials/ai-org-talent-mechanism/weekly/archive/2026-W20-after-rerun.html'
-      },
-      {
-        title: '2026-W20 前后差异 Diff',
-        summary: '用于直接比较两版内容差异。',
-        href: './specials/ai-org-talent-mechanism/weekly/archive/2026-W20-before-vs-after.diff'
-      }
-    ];
-
     function topicEntryUrl(entry) {
       return entry?.index || entry?.overview || entry?.overviewMarkdown || './specials/ai-org-talent-mechanism/manifest.json';
     }
@@ -3965,79 +3960,34 @@
     }
     function renderLevelsPageFromManifest(container, manifest) {
       const dates = manifest.dates || [];
-      const recentDates = dates.slice(0, 30);
+      const recentDates = dates.filter(item => item.status === 'formal').slice(0, 30);
       const visibleDates = levelsDailyExpanded ? recentDates : recentDates.slice(0, LEVELS_DAILY_VISIBLE_LIMIT);
       const pending = manifest.pendingRerunDates || [];
-      const statusCounts = manifest.statusCounts || {};
+      const synthesisOutputs = [...levelsSynthesisOutputs, ...levelsMonthlyOutputs];
       container.innerHTML = `
         <div class="levels-hero">
-          <div class="levels-badge">专题项目 · manifest 驱动状态</div>
+          <div class="levels-badge">专题研究 · 持续更新</div>
           <h2>${esc(manifest.project?.title || 'AI时代组织与人才机制四课题研究')}</h2>
-          <p>专题项目负责深度研究、假设检验、证据升级、反例与行动建议。首页只展示由 manifest 生成的真实状态；兜底状态、待正式更新和缺失不会被包装成正式日报。</p>
-        </div>
-
-        <div class="levels-grid">
-          <div class="levels-card"><h3>今日状态</h3><p><strong>${esc(manifest.today || '未知')}</strong>：${esc(statusText(manifest.todayStatus))}</p></div>
-          <div class="levels-card"><h3>最新正式日报</h3><p>${esc(manifest.latestFormalDate || '无正式日报')}</p></div>
-          <div class="levels-card"><h3>待正式更新</h3><p>${pending.length} 个日期；首页不得显示为已正式完成。</p></div>
-          <div class="levels-card"><h3>质量状态</h3><p>${esc(statusText(manifest.qualityStatus))}；正式状态来自文件完整性、正文关键词和质量门禁。</p></div>
-        </div>
-
-        <div class="levels-section">
-          <h3>专题状态定义</h3>
-          <div class="levels-evidence">
-            <div class="levels-evidence-item"><strong>formal</strong><span>${esc(manifest.statusDefinitions?.formal || '正式决策稿')}</span></div>
-            <div class="levels-evidence-item"><strong>fallback</strong><span>${esc(statusText('fallback'))}</span></div>
-            <div class="levels-evidence-item"><strong>needs-rerun</strong><span>${esc(statusText('needs-rerun'))}</span></div>
-            <div class="levels-evidence-item"><strong>missing</strong><span>${esc(manifest.statusDefinitions?.missing || '缺失')}</span></div>
-          </div>
-        </div>
-
-        <div class="levels-section">
-          <h3>日报状态记录</h3>
-          <p class="levels-section-note">默认展示最新 ${Math.min(LEVELS_DAILY_VISIBLE_LIMIT, recentDates.length)} 条，历史日报仍保留并可展开；状态直接来自 <code>specials/ai-org-talent-mechanism/manifest.json</code>。</p>
-          ${visibleDates.map(item => `
-            <div class="levels-output">
-              <div class="levels-output-head">
-                <div>
-                  <div class="levels-output-title">${esc(item.date)} · ${esc(statusText(item.status))}</div>
-                  <p>${item.qualityIssues?.length ? esc(item.qualityIssues.join('；')) : '文件完整性与状态规则已记录。'}</p>
-                </div>
-                <span class="report-day-badge">${esc(item.status)}</span>
-              </div>
-              <div class="levels-actions">
-                <a class="levels-btn primary" href="${esc(topicEntryUrl(item))}" target="_blank">打开入口</a>
-                ${item.overviewMarkdown ? `<a class="levels-btn" href="${esc(item.overviewMarkdown)}" target="_blank">查看 Markdown</a>` : ''}
-                ${item.qualityGate?.path ? `<a class="levels-btn" href="${esc(item.qualityGate.path)}" target="_blank">质量记录</a>` : ''}
-              </div>
-            </div>
-          `).join('')}
-          ${recentDates.length > LEVELS_DAILY_VISIBLE_LIMIT ? `
-            <div class="levels-actions">
-              <button type="button" class="levels-btn" onclick="toggleLevelsDailyHistory()">${levelsDailyExpanded ? '收起历史日报 ↑' : `查看其余 ${recentDates.length - LEVELS_DAILY_VISIBLE_LIMIT} 条日报 ↓`}</button>
-            </div>
-          ` : ''}
-        </div>
-
-        <div class="levels-section">
-          <h3>当前统计</h3>
-          <ul class="levels-list">
-            <li>正式决策稿：${statusCounts.formal || 0}</li>
-            <li>今日专题待正式更新：${statusCounts.fallback || 0}</li>
-            <li>待正式更新：${statusCounts['needs-rerun'] || 0}</li>
-            <li>缺失：${statusCounts.missing || 0}</li>
-          </ul>
+          <p>围绕组织扁平化、高人才密度、岗位族群序列与未来晋升机制，持续沉淀阶段性判断、周度综合和每日新增证据。</p>
           <div class="levels-actions">
-            <a class="levels-btn primary" href="./specials/ai-org-talent-mechanism/manifest.json" target="_blank">查看专题 manifest</a>
-            <a class="levels-btn" href="./data/topic-projects-status.json" target="_blank">查看状态源</a>
-            <a class="levels-btn" href="./operations/system-health-latest.md" target="_blank">查看系统健康</a>
+            <a class="levels-btn primary" href="#levels-synthesis">先看阶段性综合</a>
+            <a class="levels-btn" href="#levels-weekly">查看本周周报</a>
+            <a class="levels-btn" href="#levels-daily">追溯最新日报</a>
           </div>
         </div>
 
-        <div class="levels-section">
+        <div class="levels-status-line">
+          <strong>研究更新</strong>
+          <span>最新正式日报 ${esc(manifest.latestFormalDate || '待确认')}</span>
+          <span>· 今日进度 ${esc(statusText(manifest.todayStatus))}</span>
+          <span>· ${pending.length} 个历史日期待正式更新</span>
+        </div>
+
+        <div class="levels-section" id="levels-synthesis">
+          <span class="levels-module-kicker">优先阅读</span>
           <h3>阶段性专题综合</h3>
-          <p class="levels-section-note">跨四个研究课题汇总已验证判断、反例、适用边界和可执行方案；不使用兜底稿作为结论依据。</p>
-          ${levelsSynthesisOutputs.map(item => `
+          <p class="levels-section-note">跨四个课题汇总已经验证的判断、反例、适用边界和落地方案，适合快速把握研究结论。</p>
+          ${synthesisOutputs.map(item => `
             <div class="levels-output">
               <div class="levels-output-head">
                 <div>
@@ -4054,9 +4004,10 @@
           `).join('')}
         </div>
 
-        <div class="levels-section">
-          <h3>周报分区</h3>
-          <p class="levels-section-note">每周固定两份：快速导读版负责高层决策阅读；详细资料版负责沉淀当周所有有价值信息、Context 和线索。</p>
+        <div class="levels-section" id="levels-weekly">
+          <span class="levels-module-kicker">本周重点</span>
+          <h3>周报</h3>
+          <p class="levels-section-note">快速导读版用于决策阅读，详细资料版保留当周有价值的信息、背景和待验证线索。</p>
           ${levelsWeeklyOutputs.map(item => `
             <div class="levels-output">
               <div class="levels-output-head">
@@ -4074,6 +4025,39 @@
           `).join('')}
           <div class="levels-actions">
             <a class="levels-btn" href="./specials/ai-org-talent-mechanism/weekly/index.html" target="_blank">进入周报总页</a>
+          </div>
+        </div>
+
+        <div class="levels-section" id="levels-daily">
+          <span class="levels-module-kicker">每日追溯</span>
+          <h3>日报</h3>
+          <p class="levels-section-note">默认展示最新 ${Math.min(LEVELS_DAILY_VISIBLE_LIMIT, recentDates.length)} 条正式日报，记录当天新增证据、背景、反例和待验证问题。</p>
+          ${visibleDates.length ? visibleDates.map(item => `
+            <div class="levels-output">
+              <div class="levels-output-head">
+                <div>
+                  <div class="levels-output-title">${esc(item.date)} · AI时代组织与人才机制四课题日报</div>
+                  <p>四课题总览与专题报告已通过正式状态校验。</p>
+                </div>
+                <span class="report-day-badge">正式报告</span>
+              </div>
+              <div class="levels-actions">
+                <a class="levels-btn primary" href="${esc(topicEntryUrl(item))}" target="_blank">阅读日报</a>
+                ${item.overviewMarkdown ? `<a class="levels-btn" href="${esc(item.overviewMarkdown)}" target="_blank">查看 Markdown</a>` : ''}
+              </div>
+            </div>
+          `).join('') : '<p class="levels-section-note">暂无通过正式状态校验的日报。</p>'}
+          ${recentDates.length > LEVELS_DAILY_VISIBLE_LIMIT ? `<div class="levels-actions"><button type="button" class="levels-btn" onclick="toggleLevelsDailyHistory()">${levelsDailyExpanded ? '收起历史日报 ↑' : `查看其余 ${recentDates.length - LEVELS_DAILY_VISIBLE_LIMIT} 条正式日报 ↓`}</button></div>` : ''}
+        </div>
+
+        <div class="levels-section">
+          <span class="levels-module-kicker">研究范围</span>
+          <h3>四条研究主线</h3>
+          <div class="levels-grid">
+            <div class="levels-card"><h3>组织扁平化</h3><p>中层减少、管理跨度扩大、小团队与复合型管理角色。</p></div>
+            <div class="levels-card"><h3>高人才密度</h3><p>复合型人才识别、授权、激励、保留与持续涌现。</p></div>
+            <div class="levels-card"><h3>岗位族群序列</h3><p>岗位族群、职业通道、职级结构与薪酬激励配置。</p></div>
+            <div class="levels-card"><h3>未来晋升机制</h3><p>持续证据、能力认证、项目制晋升与公平校准。</p></div>
           </div>
         </div>
       `;
@@ -4086,31 +4070,32 @@
         renderLevelsPageFromManifest(container, statusManifests.topics);
         return;
       }
-      const manifestFallbackBanner = statusManifestLoadFailed
-        ? `<div class="manifest-fallback-warning">状态源加载失败，以下为历史静态索引，不代表今日正式状态。</div>`
-        : '';
       const visibleDailyOutputs = levelsDailyExpanded
         ? levelsDailyOutputs
         : levelsDailyOutputs.slice(0, LEVELS_DAILY_VISIBLE_LIMIT);
+      const fallbackSynthesisOutputs = [...levelsSynthesisOutputs, ...levelsMonthlyOutputs];
       container.innerHTML = `
-        ${manifestFallbackBanner}
         <div class="levels-hero">
-          <div class="levels-badge">专题项目 · 每日追踪</div>
+          <div class="levels-badge">专题研究 · 持续更新</div>
           <h2>AI时代组织与人才机制四课题研究</h2>
-          <p>专题项目聚合组织扁平化、高人才密度、岗位族群序列、未来晋升机制四条研究线。每日产出四份专题日报和一份总览摘要，周度形成四课题聚合报告，并同步使用信息库、知识库、官方材料和可复核来源做交叉验证。</p>
+          <p>围绕组织扁平化、高人才密度、岗位族群序列与未来晋升机制，持续沉淀阶段性判断、周度综合和每日新增证据。</p>
+          <div class="levels-actions">
+            <a class="levels-btn primary" href="#levels-synthesis">先看阶段性综合</a>
+            <a class="levels-btn" href="#levels-weekly">查看本周周报</a>
+            <a class="levels-btn" href="#levels-daily">追溯最新日报</a>
+          </div>
         </div>
 
-        <div class="levels-grid">
-          <div class="levels-card"><h3>组织扁平化</h3><p>追踪中层减少、管理跨度扩大、小团队化、player-coach 与组织沟通落地。</p></div>
-          <div class="levels-card"><h3>高人才密度</h3><p>研究复合型人才识别、招聘、授权、激励、保留和持续涌现机制。</p></div>
-          <div class="levels-card"><h3>岗位族群序列</h3><p>持续更新岗位族群、职业通道、职级结构、薪酬带宽和激励资源配置。</p></div>
-          <div class="levels-card"><h3>未来晋升机制</h3><p>研究即时晋升、常规窗口、项目制晋升、能力认证和公平校准机制。</p></div>
+        <div class="levels-status-line">
+          <strong>研究更新</strong>
+          <span>${statusManifestLoadFailed ? '状态源暂不可用，以下为历史静态索引，不代表今日正式状态。' : '状态由专题 manifest 校验后显示。'}</span>
         </div>
 
-        <div class="levels-section">
+        <div class="levels-section" id="levels-synthesis">
+          <span class="levels-module-kicker">优先阅读</span>
           <h3>阶段性专题综合</h3>
-          <p class="levels-section-note">跨四个研究课题汇总已验证判断、反例、适用边界和可执行方案；不使用兜底稿作为结论依据。</p>
-          ${levelsSynthesisOutputs.map(item => `
+          <p class="levels-section-note">跨四个课题汇总已经验证的判断、反例、适用边界和落地方案，适合快速把握研究结论。</p>
+          ${fallbackSynthesisOutputs.map(item => `
             <div class="levels-output">
               <div class="levels-output-head">
                 <div>
@@ -4127,29 +4112,10 @@
           `).join('')}
         </div>
 
-        <div class="levels-section">
-          <h3>月报分区</h3>
-          <p class="levels-section-note">按月把日报、周报、信息库、知识库和基线档案重新归类，沉淀高价值机制、案例库、Context、线索池和下月追踪问题。</p>
-          ${levelsMonthlyOutputs.map(item => `
-            <div class="levels-output">
-              <div class="levels-output-head">
-                <div>
-                  <div class="levels-output-title">${esc(item.date)} · ${esc(item.title)}</div>
-                  <p>${esc(item.summary)}</p>
-                </div>
-                <span class="report-day-badge">${esc(item.status)}</span>
-              </div>
-              <div class="levels-actions">
-                <a class="levels-btn primary" href="${esc(item.href)}" target="_blank">阅读月报</a>
-                <a class="levels-btn" href="${esc(item.markdown)}" target="_blank">查看 Markdown</a>
-              </div>
-            </div>
-          `).join('')}
-        </div>
-
-        <div class="levels-section">
-          <h3>周报分区</h3>
-          <p class="levels-section-note">每周固定两份：快速导读版负责高层决策阅读；详细资料版负责沉淀当周所有有价值信息、Context 和线索。</p>
+        <div class="levels-section" id="levels-weekly">
+          <span class="levels-module-kicker">本周重点</span>
+          <h3>周报</h3>
+          <p class="levels-section-note">快速导读版用于决策阅读，详细资料版保留当周有价值的信息、背景和待验证线索。</p>
           ${levelsWeeklyOutputs.map(item => `
             <div class="levels-output">
               <div class="levels-output-head">
@@ -4169,28 +4135,9 @@
             <a class="levels-btn" href="./specials/ai-org-talent-mechanism/weekly/index.html" target="_blank">进入周报总页</a>
           </div>
         </div>
-        <div class="levels-section">
-          <h3>质量审计</h3>
-          <p class="levels-section-note">自动盘点日报是否断档、是否仍为非决策稿、是否缺少关键结构信号；用于防止低质内容静默进入情报中心。</p>
-          ${levelsQualityOutputs.map(item => `
-            <div class="levels-output">
-              <div class="levels-output-head">
-                <div>
-                  <div class="levels-output-title">${esc(item.date)} · ${esc(item.title)}</div>
-                  <p>${esc(item.summary)}</p>
-                </div>
-                <span class="report-day-badge">${esc(item.status)}</span>
-              </div>
-              <div class="levels-actions">
-                <a class="levels-btn primary" href="${esc(item.href)}" target="_blank">查看审计</a>
-                <a class="levels-btn" href="${esc(item.markdown)}" target="_blank">查看 Markdown</a>
-              </div>
-            </div>
-          `).join('')}
-        </div>
-
-        <div class="levels-section">
-          <h3>日报分区</h3>
+        <div class="levels-section" id="levels-daily">
+          <span class="levels-module-kicker">每日追溯</span>
+          <h3>日报</h3>
           <p class="levels-section-note">默认展示最新 ${Math.min(LEVELS_DAILY_VISIBLE_LIMIT, levelsDailyOutputs.length)} 条；历史日报仍保留并可展开，用于追溯当天新增证据、背景、线索和待验证问题。</p>
           ${visibleDailyOutputs.map(item => `
             <div class="levels-output">
@@ -4215,41 +4162,14 @@
         </div>
 
         <div class="levels-section">
-          <h3>重跑前后对比</h3>
-          <p class="levels-section-note">保留 2026-W20 两版周报和差异文件，便于直接比较“资料聚合稿”和“正式重跑导读稿”的信息密度与表达方式。</p>
-          ${levelsComparisonOutputs.map(item => `
-            <div class="levels-output">
-              <div class="levels-output-head">
-                <div>
-                  <div class="levels-output-title">${esc(item.title)}</div>
-                  <p>${esc(item.summary)}</p>
-                </div>
-              </div>
-              <div class="levels-actions">
-                <a class="levels-btn primary" href="${esc(item.href)}" target="_blank">打开文件</a>
-              </div>
-            </div>
-          `).join('')}
-        </div>
-
-        <div class="levels-section">
-          <h3>证据地图</h3>
-          <div class="levels-evidence">
-            <div class="levels-evidence-item"><strong>信息库</strong><span>每日 digest.md 与 daily/ 的最新条目作为常规知识源。</span></div>
-            <div class="levels-evidence-item"><strong>知识库</strong><span>knowledge/ 中的咨询报告、研究摘要和专题 wiki 作为基础材料。</span></div>
-            <div class="levels-evidence-item"><strong>外部来源</strong><span>官方/一手、权威媒体、咨询报告、招聘薪酬和公司制度材料交叉验证。</span></div>
-            <div class="levels-evidence-item"><strong>线索池</strong><span>社媒与职场平台只作为待验证线索，不直接写成结论。</span></div>
+          <span class="levels-module-kicker">研究范围</span>
+          <h3>四条研究主线</h3>
+          <div class="levels-grid">
+            <div class="levels-card"><h3>组织扁平化</h3><p>中层减少、管理跨度扩大、小团队与复合型管理角色。</p></div>
+            <div class="levels-card"><h3>高人才密度</h3><p>复合型人才识别、授权、激励、保留与持续涌现。</p></div>
+            <div class="levels-card"><h3>岗位族群序列</h3><p>岗位族群、职业通道、职级结构与薪酬激励配置。</p></div>
+            <div class="levels-card"><h3>未来晋升机制</h3><p>持续证据、能力认证、项目制晋升与公平校准。</p></div>
           </div>
-        </div>
-
-        <div class="levels-section">
-          <h3>下一步追踪</h3>
-          <ul class="levels-list">
-            <li>每日同步四份专题日报与总览摘要到专题项目页。</li>
-            <li>周报回看当周日报，校验证据准确性并修正旧判断。</li>
-            <li>持续把信息库与知识库的新材料纳入四课题证据链。</li>
-            <li>保留单点线索、冲突信息和反例，避免把未验证信息写成结论。</li>
-          </ul>
         </div>
       `;
     }
