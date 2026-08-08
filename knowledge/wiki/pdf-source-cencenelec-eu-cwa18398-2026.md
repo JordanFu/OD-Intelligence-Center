@@ -2,7 +2,7 @@
 title: cwa18398 2026
 source: cencenelec.eu
 date: 待核验
-ingested: 2026-08-07
+ingested: 2026-08-08
 sourceFile: ../raw/cencenelec-eu-cwa18398-2026.pdf
 sourceUrl: https://www.cencenelec.eu/media/CEN-CENELEC/CWAs/RI/2026/cwa18398_2026.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ cwa18398 2026 已作为日报/周报 PDF 证据源入库，当前需要完成结
 - **来源类型**：media
 - **原文 URL**：https://www.cencenelec.eu/media/CEN-CENELEC/CWAs/RI/2026/cwa18398_2026.pdf
 - **原始文件**：`knowledge/raw/cencenelec-eu-cwa18398-2026.pdf`
-- **入库日期**：2026-08-07
+- **入库日期**：2026-08-08
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容

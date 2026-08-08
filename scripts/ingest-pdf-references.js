@@ -39,6 +39,7 @@ const knownTitles = new Map([
   ['https://www.payscale.com/content/report/2026-compensation-best-practice-report.pdf', 'Payscale：2026 Compensation Best Practices Report'],
   ['https://www.hkexnews.hk/listedco/listconews/sehk/2026/0623/2026062301078_c.pdf', 'MiniMax：IPO 后股份激励计划授出奖励公告'],
   ['https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/07/competition-in-the-age-of-ai_e9f49e20/6f88a1ea-en.pdf', 'OECD：Competition in the Age of AI'],
+  ['https://singlefamily.fanniemae.com/media/45196/display', 'Fannie Mae：LL-2026-04 AI/ML 治理要求'],
 ]);
 
 const reportProfiles = new Map([
@@ -292,6 +293,31 @@ const reportProfiles = new Map([
       '后续用 2025—2026 企业采用和智能体数据复核，并避免将描述性关联升级为因果。',
     ],
   }],
+  ['https://singlefamily.fanniemae.com/media/45196/display', {
+    summary: 'Fannie Mae LL-2026-04 把贷款流程中的 AI/ML 原则接成负责人、年度复核、人员沟通、供应商级联与披露审计责任链。',
+    focus: 'AI治理、负责人、年度复核、供应商级联',
+    relevanceLabel: '强相关：正式治理规则与外部责任边界',
+    evidenceLevel: 'L3：正式业务规则可证明治理要求已经生效，但不能证明机构已合规或风险已经下降。',
+    core: [
+      '规则覆盖贷款发起和服务中使用的 AI/ML，要求政策透明传达到相关人员并明确负责人。',
+      '治理至少每年复核，并按机构风险容忍度持续管理。',
+      '供应商和分包商的治理不得低于本要求，Fannie Mae 可要求披露用途、方式与防护。',
+    ],
+    attention: [
+      '重点核验负责人、年度复核证据、例外与整改如何进入真实业务流程。',
+      '供应商级联意味着采购、业务、风险、法务和技术团队需要共同维护外部责任链。',
+      '规则存在不等于机构已经达标，也不代表禁止在贷款流程中使用 AI。',
+    ],
+    relevance: [
+      ['AI 治理', '高', '用于说明原则如何转成负责人、复核节奏和披露责任。'],
+      ['供应商治理', '高', '用于追踪供应商与分包商的责任级联、审计和整改。'],
+      ['组织责任', '高', '用于定位业务、风险、法务、采购与技术的共同控制面。'],
+    ],
+    useInResearch: [
+      '可进入日报和周报的规则证据层，但效果判断必须等待执行与审计数据。',
+      '后续追踪机构实施说明、供应商条款、年度复核和整改案例。',
+    ],
+  }],
 ]);
 
 function walk(dir) {
@@ -312,7 +338,7 @@ function cleanUrl(url) {
 }
 
 function extractPdfUrls(content) {
-  const urlPattern = /https?:\/\/[^\s<>")\]；，。]+?\.pdf(?:\?[^\s<>")\]；，。]*)?/gi;
+  const urlPattern = /(?:https?:\/\/[^\s<>")\]；，。]+?\.pdf(?:\?[^\s<>")\]；，。]*)?|https:\/\/singlefamily\.fanniemae\.com\/media\/\d+\/display)/gi;
   return (content.match(urlPattern) || []).map(cleanUrl);
 }
 
@@ -336,6 +362,7 @@ function titleFromUrl(url) {
 function publisherFromUrl(url) {
   const host = new URL(url).hostname.replace(/^www\./, '');
   if (url === 'https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/07/competition-in-the-age-of-ai_e9f49e20/6f88a1ea-en.pdf') return 'OECD';
+  if (url === 'https://singlefamily.fanniemae.com/media/45196/display') return 'Fannie Mae';
   if (host.includes('bcg.com')) return 'BCG';
   if (host.includes('deloitte.com')) return 'Deloitte';
   if (host === 'mckinsey.com' || host.endsWith('.mckinsey.com')) return 'McKinsey & Company';
@@ -351,6 +378,7 @@ function publisherFromUrl(url) {
 function sourceTypeFor(url) {
   const host = new URL(url).hostname;
   if (url === 'https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/07/competition-in-the-age-of-ai_e9f49e20/6f88a1ea-en.pdf') return 'industry';
+  if (url === 'https://singlefamily.fanniemae.com/media/45196/display') return 'industry';
   if (/(^|\.)(bcg|deloitte|ey|mckinsey)\.com$/.test(host)) return 'consulting';
   if (/weforum|aihr|anthropic|gitlab|payscale/.test(host)) return 'industry';
   return 'media';
