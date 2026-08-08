@@ -52,6 +52,14 @@ Fannie Mae LL-2026-04 把贷款流程中的 AI/ML 原则接成负责人、年度
 ## 被引用位置
 
 - `daily/2026-08-08.md:50`：Fannie Mae 官方 PDF
+- `specials/ai-org-talent-mechanism/2026-08-08/00-overview.md:40`：Fannie Mae
+- `specials/ai-org-talent-mechanism/2026-08-08/00-overview.md:192`：Fannie Mae｜LL-2026-04
+- `specials/ai-org-talent-mechanism/2026-08-08/01-flat-organization.md:51`：Fannie Mae LL-2026-04，2026-04-08
+- `specials/ai-org-talent-mechanism/2026-08-08/01-flat-organization.md:254`：Fannie Mae LL-2026-04，2026-04-08
+- `specials/ai-org-talent-mechanism/2026-08-08/03-job-family-career-architecture.md:29`：官方 PDF
+- `specials/ai-org-talent-mechanism/2026-08-08/03-job-family-career-architecture.md:177`：Fannie Mae｜LL-2026-04 官方 PDF
+- `specials/ai-org-talent-mechanism/2026-08-08/04-promotion-system.md:43`：Fannie Mae｜LL-2026-04
+- `specials/ai-org-talent-mechanism/2026-08-08/04-promotion-system.md:188`：Fannie Mae｜LL-2026-04
 
 ## 后续精读任务
 

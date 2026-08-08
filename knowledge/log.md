@@ -18,7 +18,7 @@
 - 已下载：2026 Work Trend Index Annual Report 050526 7 69fc5b1c4e265（引用 1 次）
 - 已下载：UK Standard Skills Classification Development Report（引用 3 次）
 - 已下载：the ai jobs transition framework report（引用 3 次）
-- 已下载：WP 10 26 Managers as gatekeepers comp 0（引用 3 次）
+- 已下载：WP 10 26 Managers as gatekeepers comp 0（引用 5 次）
 - 已下载：Mercer and Eightfold Pay for Skills（引用 2 次）
 - 待重试：GitLab：2026 SEC 8-K Filing（引用 12 次）
 - 已下载：netflix culture（引用 8 次）
@@ -33,7 +33,7 @@
 - 已下载：Anthropic：2026 Agentic Coding Trends Report（引用 1 次）
 - 已下载：Meta 06 30 2026 Exhibit 99 1 FINAL（引用 3 次）
 - 已下载：META Q2 2026 Earnings Call Transcript（引用 2 次）
-- 待重试：Fannie Mae：LL-2026-04 AI/ML 治理要求（引用 1 次）
+- 待重试：Fannie Mae：LL-2026-04 AI/ML 治理要求（引用 9 次）
 - 已下载：6277baa6 0f7b 4fbe 9c7c ceb3e0e9b325 flatland（引用 16 次）
 - 已下载：47382ae415a209fd161bc19a1f9b3704（引用 1 次）
 - 已下载：gov.uscourts.cand.474095.38.0（引用 1 次）
@@ -48,10 +48,10 @@
 - 已下载：cwa18398 2026（引用 8 次）
 - 已下载：draft cwa xxxx e（引用 2 次）
 - 已下载：us spans and layers for the modern organization 2020（引用 3 次）
-- 已下载：EY：Future of Pay Report 2026（引用 156 次）
+- 已下载：EY：Future of Pay Report 2026（引用 151 次）
 - 已下载：pip faq 2026（引用 6 次）
-- 已下载：12 087 bc50bde2 3016 457a 9bee dc988cb1056b（引用 5 次）
-- 已下载：26 090 96f92aa0 37d9 4789 beaa 5c0cb87a4032（引用 5 次）
+- 已下载：12 087 bc50bde2 3016 457a 9bee dc988cb1056b（引用 7 次）
+- 已下载：26 090 96f92aa0 37d9 4789 beaa 5c0cb87a4032（引用 7 次）
 - 待重试：HiBob 2026 report AI maturity benchmarks and where the workforce stand（引用 4 次）
 - 已下载：cesifo1 wp12373（引用 3 次）
 - 已下载：ILO Brief ASEAN AI v11 clean（引用 2 次）
@@ -61,7 +61,7 @@
 - 已下载：OECD：Competition in the Age of AI（引用 2 次）
 - 已下载：c0ffced7 en（引用 4 次）
 - 已下载：orgvue ai research ebook 2026 final（引用 1 次）
-- 已下载：Payscale：2026 Compensation Best Practices Report（引用 19 次）
+- 已下载：Payscale：2026 Compensation Best Practices Report（引用 20 次）
 - 已下载：2026 global ai jobs barometer full report（引用 1 次）
 - 已下载：2026 global ai jobs barometer global findings（引用 2 次）
 - 待重试：it job family career ladder matrix software engineer（引用 1 次）

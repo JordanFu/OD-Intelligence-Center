@@ -54,6 +54,8 @@ WP 10 26 Managers as gatekeepers comp 0 已作为日报/周报 PDF 证据源入�
 - `specials/ai-org-talent-mechanism/2026-08-07/00-overview.md:98`：ANU
 - `specials/ai-org-talent-mechanism/2026-08-07/01-flat-organization.md:143`：ANU 工作论文
 - `specials/ai-org-talent-mechanism/2026-08-07/01-flat-organization.md:203`：ANU：Managers as Gatekeepers in the Age of AI
+- `specials/ai-org-talent-mechanism/2026-08-08/01-flat-organization.md:178`：ANU 工作论文
+- `specials/ai-org-talent-mechanism/2026-08-08/01-flat-organization.md:270`：ANU：Managers as Gatekeepers in the Age of AI
 
 ## 后续精读任务
 
