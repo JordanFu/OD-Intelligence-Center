@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T01:58:15.576Z",
+  "generatedAt": "2026-08-09T03:13:19.772Z",
   "module": "info-feed",
   "qualityStatus": "warn",
   "latestDate": "2026-08-09",
@@ -481,11 +481,27 @@
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": null,
-    "qualityStatus": "pending",
-    "firstPartyChecked": 0,
-    "externalWarnings": 0,
-    "brokenCount": 0
+    "checkedAt": "2026-08-09T01:58:16.218Z",
+    "qualityStatus": "warn",
+    "firstPartyChecked": 2630,
+    "externalWarnings": 50,
+    "brokenCount": 0,
+    "publicScanBridge": [
+      {
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-09.html",
+        "reason": "network check warning: fetch failed"
+      },
+      {
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/",
+        "reason": "network check warning: fetch failed"
+      }
+    ]
   },
   "governance": "信息库负责广谱前沿雷达；专题项目负责假设检验；知识库负责长期复利，三者分开治理、周期互补。"
 }
