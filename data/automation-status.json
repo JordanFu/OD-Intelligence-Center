@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-08T14:05:55.884Z",
+  "generatedAt": "2026-08-09T01:58:16.363Z",
   "module": "automation",
   "qualityStatus": "warn",
   "chains": {
     "infoFeed": {
       "qualityStatus": "warn",
-      "latestDate": "2026-08-08",
+      "latestDate": "2026-08-09",
       "latestCardCount": 10,
-      "newFactCount": 3
+      "newFactCount": 1
     },
     "topicProjects": {
       "qualityStatus": "warn",
-      "today": "2026-08-08",
-      "todayStatus": "formal",
+      "today": "2026-08-09",
+      "todayStatus": "scheduled",
       "latestFormalDate": "2026-08-08",
       "pendingRerunDates": [
         "2026-07-13",
@@ -37,14 +37,14 @@
     },
     "knowledgeLint": {
       "qualityStatus": "pass",
-      "latestCatalogDate": "2026-08-08",
+      "latestCatalogDate": "2026-08-09",
       "reportCount": 126,
       "privatePathLeakCount": 0
     },
     "linkCheck": {
       "qualityStatus": "warn",
       "brokenCount": 0,
-      "checkedAt": "2026-08-08T14:05:55.794Z"
+      "checkedAt": "2026-08-09T01:58:16.218Z"
     },
     "githubActionsFallback": {
       "status": "pass",
@@ -68,7 +68,7 @@
       "criticalIssues": []
     },
     "localFormalTask": {
-      "status": "confirmed-formal",
+      "status": "scheduled",
       "evidence": "仅根据 topic-projects manifest 判断；无法从云端伪造本地正式运行完成。"
     }
   },
