@@ -988,6 +988,53 @@
       font-weight: 700;
       letter-spacing: 0.08em;
     }
+    .levels-content-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 40fr) minmax(0, 35fr) minmax(0, 25fr);
+      gap: 14px;
+      align-items: start;
+      margin-bottom: 16px;
+    }
+    .levels-content-grid > .levels-section {
+      min-width: 0;
+      margin-bottom: 0;
+      padding: 16px;
+    }
+    .levels-content-grid .levels-output-head {
+      flex-direction: column;
+      gap: 8px;
+    }
+    .levels-content-grid .levels-output-title {
+      line-height: 1.45;
+    }
+    .levels-content-grid .levels-actions {
+      gap: 7px;
+    }
+    .levels-content-grid .levels-btn {
+      padding: 7px 10px;
+    }
+    .levels-mobile-tabs {
+      display: none;
+    }
+    .levels-mobile-tab {
+      min-width: 0;
+      padding: 9px 8px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text2);
+      font: inherit;
+      font-size: 13px;
+      font-weight: 650;
+      cursor: pointer;
+    }
+    .levels-mobile-tab:first-child { border-radius: 9px 0 0 9px; }
+    .levels-mobile-tab:last-child { border-radius: 0 9px 9px 0; }
+    .levels-mobile-tab + .levels-mobile-tab { border-left: 0; }
+    .levels-mobile-tab.active {
+      border-color: var(--accent);
+      background: var(--accent);
+      color: #fff;
+    }
     .levels-card {
       background: var(--surface);
       border: 1px solid var(--border);
@@ -2530,7 +2577,7 @@
     }
 
     .levels-page {
-      max-width: 1080px;
+      max-width: 1320px;
     }
 
     .levels-hero {
@@ -2619,12 +2666,44 @@
       margin-top: 6px;
     }
 
+    @media (max-width: 1080px) {
+      .levels-content-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      .levels-content-panel[data-levels-panel="daily"] {
+        grid-column: 1 / -1;
+      }
+    }
+
     @media (max-width: 920px) {
       .levels-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
       .system-health-grid {
         grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 700px) {
+      .levels-hero > .levels-actions {
+        display: none;
+      }
+      .levels-mobile-tabs {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        margin-bottom: 12px;
+      }
+      .levels-content-grid {
+        display: block;
+      }
+      .levels-content-panel {
+        display: none;
+      }
+      .levels-content-panel.mobile-active {
+        display: block;
+      }
+      .levels-content-panel[data-levels-panel="daily"] {
+        grid-column: auto;
       }
     }
 
@@ -2756,6 +2835,7 @@
     let openCardId = null;
     const LEVELS_DAILY_VISIBLE_LIMIT = 3;
     let levelsDailyExpanded = false;
+    let levelsMobileSection = 'synthesis';
     let expandedReportDate = null;
     let isGenerating = false;
     let kbSourceTypeFilter = null;
@@ -3979,6 +4059,29 @@
       levelsDailyExpanded = !levelsDailyExpanded;
       renderLevelsPage();
     }
+    function setLevelsMobileSection(section) {
+      if (!['synthesis', 'weekly', 'daily'].includes(section)) return;
+      levelsMobileSection = section;
+      document.querySelectorAll('[data-levels-panel]').forEach(panel => {
+        panel.classList.toggle('mobile-active', panel.dataset.levelsPanel === section);
+      });
+      document.querySelectorAll('[data-levels-mobile-tab]').forEach(button => {
+        const isActive = button.dataset.levelsMobileTab === section;
+        button.classList.toggle('active', isActive);
+        button.setAttribute('aria-selected', String(isActive));
+      });
+    }
+    function renderLevelsMobileTabs() {
+      const tabs = [
+        ['synthesis', '专题综合'],
+        ['weekly', '周报'],
+        ['daily', '日报'],
+      ];
+      return `<div class="levels-mobile-tabs" role="tablist" aria-label="专题内容切换">${tabs.map(([key, label]) => {
+        const isActive = levelsMobileSection === key;
+        return `<button type="button" class="levels-mobile-tab ${isActive ? 'active' : ''}" data-levels-mobile-tab="${key}" role="tab" aria-selected="${isActive}" onclick="setLevelsMobileSection('${key}')">${label}</button>`;
+      }).join('')}</div>`;
+    }
     function renderLevelsPageFromManifest(container, manifest) {
       const dates = manifest.dates || [];
       const recentDates = dates.filter(item => item.status === 'formal').slice(0, 30);
@@ -3991,9 +4094,9 @@
           <h2>${esc(manifest.project?.title || 'AI时代组织与人才机制四课题研究')}</h2>
           <p>围绕组织扁平化、高人才密度、岗位族群序列与未来晋升机制，持续沉淀阶段性判断、周度综合和每日新增证据。</p>
           <div class="levels-actions">
-            <a class="levels-btn primary" href="#levels-synthesis">先看阶段性综合</a>
-            <a class="levels-btn" href="#levels-weekly">查看本周周报</a>
-            <a class="levels-btn" href="#levels-daily">追溯最新日报</a>
+            <a class="levels-btn primary" href="#levels-synthesis" onclick="setLevelsMobileSection('synthesis')">先看阶段性综合</a>
+            <a class="levels-btn" href="#levels-weekly" onclick="setLevelsMobileSection('weekly')">查看本周周报</a>
+            <a class="levels-btn" href="#levels-daily" onclick="setLevelsMobileSection('daily')">追溯最新日报</a>
           </div>
         </div>
 
@@ -4004,7 +4107,9 @@
           <span>· ${pending.length} 个历史日期待正式更新</span>
         </div>
 
-        <div class="levels-section" id="levels-synthesis">
+        ${renderLevelsMobileTabs()}
+        <div class="levels-content-grid">
+        <div class="levels-section levels-content-panel ${levelsMobileSection === 'synthesis' ? 'mobile-active' : ''}" id="levels-synthesis" data-levels-panel="synthesis">
           <span class="levels-module-kicker">优先阅读</span>
           <h3>阶段性专题综合</h3>
           <p class="levels-section-note">跨四个课题汇总已经验证的判断、反例、适用边界和落地方案，适合快速把握研究结论。</p>
@@ -4025,7 +4130,7 @@
           `).join('')}
         </div>
 
-        <div class="levels-section" id="levels-weekly">
+        <div class="levels-section levels-content-panel ${levelsMobileSection === 'weekly' ? 'mobile-active' : ''}" id="levels-weekly" data-levels-panel="weekly">
           <span class="levels-module-kicker">本周重点</span>
           <h3>周报</h3>
           <p class="levels-section-note">快速导读版用于决策阅读，详细资料版保留当周有价值的信息、背景和待验证线索。</p>
@@ -4049,7 +4154,7 @@
           </div>
         </div>
 
-        <div class="levels-section" id="levels-daily">
+        <div class="levels-section levels-content-panel ${levelsMobileSection === 'daily' ? 'mobile-active' : ''}" id="levels-daily" data-levels-panel="daily">
           <span class="levels-module-kicker">每日追溯</span>
           <h3>日报</h3>
           <p class="levels-section-note">默认展示最新 ${Math.min(LEVELS_DAILY_VISIBLE_LIMIT, recentDates.length)} 条正式日报，记录当天新增证据、背景、反例和待验证问题。</p>
@@ -4069,6 +4174,7 @@
             </div>
           `).join('') : '<p class="levels-section-note">暂无通过正式状态校验的日报。</p>'}
           ${recentDates.length > LEVELS_DAILY_VISIBLE_LIMIT ? `<div class="levels-actions"><button type="button" class="levels-btn" onclick="toggleLevelsDailyHistory()">${levelsDailyExpanded ? '收起历史日报 ↑' : `查看其余 ${recentDates.length - LEVELS_DAILY_VISIBLE_LIMIT} 条正式日报 ↓`}</button></div>` : ''}
+        </div>
         </div>
 
         <div class="levels-section">
@@ -4101,9 +4207,9 @@
           <h2>AI时代组织与人才机制四课题研究</h2>
           <p>围绕组织扁平化、高人才密度、岗位族群序列与未来晋升机制，持续沉淀阶段性判断、周度综合和每日新增证据。</p>
           <div class="levels-actions">
-            <a class="levels-btn primary" href="#levels-synthesis">先看阶段性综合</a>
-            <a class="levels-btn" href="#levels-weekly">查看本周周报</a>
-            <a class="levels-btn" href="#levels-daily">追溯最新日报</a>
+            <a class="levels-btn primary" href="#levels-synthesis" onclick="setLevelsMobileSection('synthesis')">先看阶段性综合</a>
+            <a class="levels-btn" href="#levels-weekly" onclick="setLevelsMobileSection('weekly')">查看本周周报</a>
+            <a class="levels-btn" href="#levels-daily" onclick="setLevelsMobileSection('daily')">追溯最新日报</a>
           </div>
         </div>
 
@@ -4112,7 +4218,9 @@
           <span>${statusManifestLoadFailed ? '状态源暂不可用，以下为历史静态索引，不代表今日正式状态。' : '状态由专题 manifest 校验后显示。'}</span>
         </div>
 
-        <div class="levels-section" id="levels-synthesis">
+        ${renderLevelsMobileTabs()}
+        <div class="levels-content-grid">
+        <div class="levels-section levels-content-panel ${levelsMobileSection === 'synthesis' ? 'mobile-active' : ''}" id="levels-synthesis" data-levels-panel="synthesis">
           <span class="levels-module-kicker">优先阅读</span>
           <h3>阶段性专题综合</h3>
           <p class="levels-section-note">跨四个课题汇总已经验证的判断、反例、适用边界和落地方案，适合快速把握研究结论。</p>
@@ -4133,7 +4241,7 @@
           `).join('')}
         </div>
 
-        <div class="levels-section" id="levels-weekly">
+        <div class="levels-section levels-content-panel ${levelsMobileSection === 'weekly' ? 'mobile-active' : ''}" id="levels-weekly" data-levels-panel="weekly">
           <span class="levels-module-kicker">本周重点</span>
           <h3>周报</h3>
           <p class="levels-section-note">快速导读版用于决策阅读，详细资料版保留当周有价值的信息、背景和待验证线索。</p>
@@ -4156,7 +4264,7 @@
             <a class="levels-btn" href="./specials/ai-org-talent-mechanism/weekly/index.html" target="_blank">进入周报总页</a>
           </div>
         </div>
-        <div class="levels-section" id="levels-daily">
+        <div class="levels-section levels-content-panel ${levelsMobileSection === 'daily' ? 'mobile-active' : ''}" id="levels-daily" data-levels-panel="daily">
           <span class="levels-module-kicker">每日追溯</span>
           <h3>日报</h3>
           <p class="levels-section-note">默认展示最新 ${Math.min(LEVELS_DAILY_VISIBLE_LIMIT, levelsDailyOutputs.length)} 条；历史日报仍保留并可展开，用于追溯当天新增证据、背景、线索和待验证问题。</p>
@@ -4180,6 +4288,7 @@
               <button type="button" class="levels-btn" onclick="toggleLevelsDailyHistory()">${levelsDailyExpanded ? '收起历史日报 ↑' : `查看其余 ${levelsDailyOutputs.length - LEVELS_DAILY_VISIBLE_LIMIT} 条日报 ↓`}</button>
             </div>
           ` : ''}
+        </div>
         </div>
 
         <div class="levels-section">
