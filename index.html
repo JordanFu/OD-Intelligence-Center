@@ -992,7 +992,7 @@
       display: grid;
       grid-template-columns: minmax(0, 40fr) minmax(0, 35fr) minmax(0, 25fr);
       gap: 14px;
-      align-items: stretch;
+      align-items: start;
       margin-bottom: 16px;
     }
     .levels-content-grid > .levels-section {
@@ -2833,7 +2833,7 @@
     const FILTER_LIMIT = 10; // 默认显示数量（2行）
     let activeTrustFilter = null;
     let openCardId = null;
-    const LEVELS_DAILY_VISIBLE_LIMIT = 3;
+    const LEVELS_DAILY_VISIBLE_LIMIT = 2;
     let levelsDailyExpanded = false;
     let levelsMobileSection = 'synthesis';
     let expandedReportDate = null;
