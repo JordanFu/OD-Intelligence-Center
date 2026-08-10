@@ -52,6 +52,7 @@ status: 已索引来源，PDF下载待重试
 ## 被引用位置
 
 - `daily/2026-08-10.md:11`：公开 PDF
+- `specials/ai-org-talent-mechanism/2026-08-10/01-flat-organization.md:204`：公开 PDF
 
 ## 后续精读任务
 

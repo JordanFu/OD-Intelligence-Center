@@ -119,7 +119,7 @@
 | [engineering progression framework v2 0](wiki/pdf-source-monzo-com-engineering-progression-framework-v2-0.md) | monzo.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 1 次 |
 | [NIST.AI.800 2.ipd](wiki/pdf-source-nvlpubs-nist-gov-nist-ai-800-2-ipd.md) | nvlpubs.nist.gov | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 1 次 |
 | [6456498](wiki/pdf-source-papers-ssrn-com-6456498.md) | papers.ssrn.com | AI组织设计 | 待评估：需精读后确定 | 已索引待重试，引用 6 次 |
-| [7088100](wiki/pdf-source-papers-ssrn-com-7088100.md) | papers.ssrn.com | AI组织设计 | 待评估：需精读后确定 | 已索引待重试，引用 1 次 |
+| [7088100](wiki/pdf-source-papers-ssrn-com-7088100.md) | papers.ssrn.com | AI组织设计 | 待评估：需精读后确定 | 已索引待重试，引用 2 次 |
 | [H3 AP202606221823746144 1](wiki/pdf-source-pdf-dfcfw-com-h3-ap202606221823746144-1.md) | pdf.dfcfw.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 1 次 |
 | [WEF Artificial Intelligence and the Future of Entry Level Work 2026](wiki/pdf-source-world-economic-forum-wef-artificial-intelligence-and-the-future-of-entry-level-work-2026.md) | World Economic Forum | AI组织设计、战略规划 | 待评估：需精读后确定 | 已下载原文，引用 4 次 |
 | [WEF：Organizational Transformation in the Age of AI](wiki/pdf-source-world-economic-forum-wef-organizational-transformation-in-the-age-of-ai.md) | World Economic Forum | 工作流重构、决策权、AI 参与执行 | 强相关：战略到组织机制 | 已下载原文，引用 3 次 |
@@ -141,7 +141,7 @@
 | [cwa18398 2026](wiki/pdf-source-cencenelec-eu-cwa18398-2026.md) | cencenelec.eu | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 8 次 |
 | [draft cwa xxxx e](wiki/pdf-source-cencenelec-eu-draft-cwa-xxxx-e.md) | cencenelec.eu | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 2 次 |
 | [us spans and layers for the modern organization 2020](wiki/pdf-source-deloitte-us-spans-and-layers-for-the-modern-organization-2020.md) | Deloitte | AI组织设计、变革管理 | 待评估：需精读后确定 | 已下载原文，引用 3 次 |
-| [EY：Future of Pay Report 2026](wiki/pdf-source-ey-ey-future-of-pay-report-2026.md) | EY | 技能薪酬、生产率锚点、AI 人才溢价 | 强相关：薪酬与激励机制 | 已下载原文，引用 156 次 |
+| [EY：Future of Pay Report 2026](wiki/pdf-source-ey-ey-future-of-pay-report-2026.md) | EY | 技能薪酬、生产率锚点、AI 人才溢价 | 强相关：薪酬与激励机制 | 已下载原文，引用 152 次 |
 | [pip faq 2026](wiki/pdf-source-facs-org-pip-faq-2026.md) | facs.org | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 6 次 |
 | [12 087 bc50bde2 3016 457a 9bee dc988cb1056b](wiki/pdf-source-hbs-edu-12-087-bc50bde2-3016-457a-9bee-dc988cb1056b.md) | hbs.edu | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 8 次 |
 | [26 090 96f92aa0 37d9 4789 beaa 5c0cb87a4032](wiki/pdf-source-hbs-edu-26-090-96f92aa0-37d9-4789-beaa-5c0cb87a4032.md) | hbs.edu | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 7 次 |
