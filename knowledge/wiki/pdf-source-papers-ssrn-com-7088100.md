@@ -1,26 +1,26 @@
 ---
-title: NIST.AI.800 2.ipd
-source: nvlpubs.nist.gov
+title: 7088100
+source: papers.ssrn.com
 date: 待核验
 ingested: 2026-08-10
-sourceFile: ../raw/nvlpubs-nist-gov-nist-ai-800-2-ipd.pdf
-sourceUrl: https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.800-2.ipd.pdf
+sourceFile:
+sourceUrl: https://papers.ssrn.com/sol3/Delivery.cfm/7088100.pdf?abstractid=7088100&mirid=1
 tags: [AI组织设计]
-status: 已下载原始PDF，已生成结构化初筛卡片
+status: 已索引来源，PDF下载待重试
 ---
 
-# NIST.AI.800 2.ipd
+# 7088100
 
 ## 一句话判断
 
-NIST.AI.800 2.ipd 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
+7088100 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
 
 ## 入库状态
 
-- **来源机构**：nvlpubs.nist.gov
+- **来源机构**：papers.ssrn.com
 - **来源类型**：media
-- **原文 URL**：https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.800-2.ipd.pdf
-- **原始文件**：`knowledge/raw/nvlpubs-nist-gov-nist-ai-800-2-ipd.pdf`
+- **原文 URL**：https://papers.ssrn.com/sol3/Delivery.cfm/7088100.pdf?abstractid=7088100&mirid=1
+- **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
 - **入库日期**：2026-08-10
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
@@ -51,7 +51,7 @@ NIST.AI.800 2.ipd 已作为日报/周报 PDF 证据源入库，当前需要完�
 
 ## 被引用位置
 
-- `specials/ai-org-talent-mechanism/2026-07-16/04-promotion-system.md:22`：NIST
+- `daily/2026-08-10.md:11`：公开 PDF
 
 ## 后续精读任务
 

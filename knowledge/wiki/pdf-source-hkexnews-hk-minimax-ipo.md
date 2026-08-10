@@ -2,7 +2,7 @@
 title: MiniMax：IPO 后股份激励计划授出奖励公告
 source: hkexnews.hk
 date: 待核验
-ingested: 2026-08-09
+ingested: 2026-08-10
 sourceFile: ../raw/hkexnews-hk-minimax-ipo.pdf
 sourceUrl: https://www.hkexnews.hk/listedco/listconews/sehk/2026/0623/2026062301078_c.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ MiniMax：IPO 后股份激励计划授出奖励公告 已作为日报/周报 PDF
 - **来源类型**：media
 - **原文 URL**：https://www.hkexnews.hk/listedco/listconews/sehk/2026/0623/2026062301078_c.pdf
 - **原始文件**：`knowledge/raw/hkexnews-hk-minimax-ipo.pdf`
-- **入库日期**：2026-08-09
+- **入库日期**：2026-08-10
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容

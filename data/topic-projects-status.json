@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-08-09T14:06:31.249Z",
+  "generatedAt": "2026-08-10T01:57:28.659Z",
   "module": "topic-projects",
   "project": {
     "id": "ai-org-talent-mechanism",
     "title": "AI时代组织与人才机制四课题研究",
     "root": "specials/ai-org-talent-mechanism"
   },
-  "qualityStatus": "fail",
+  "qualityStatus": "warn",
   "latestFormalDate": "2026-08-08",
-  "latestAnyDate": "2026-08-09",
-  "today": "2026-08-09",
-  "todayStatus": "fallback",
-  "latestStatus": "fallback",
+  "latestAnyDate": "2026-08-10",
+  "today": "2026-08-10",
+  "todayStatus": "scheduled",
+  "latestStatus": "scheduled",
   "pendingRerunDates": [
     "2026-08-09",
     "2026-07-13",
@@ -34,6 +34,7 @@
     "2026-05-13"
   ],
   "statusCounts": {
+    "scheduled": 1,
     "fallback": 19,
     "formal": 70
   },
@@ -45,6 +46,63 @@
     "missing": "缺失：日期目录或必要文件不存在。"
   },
   "dates": [
+    {
+      "date": "2026-08-10",
+      "status": "scheduled",
+      "isFormal": false,
+      "isFallback": false,
+      "needsRerun": false,
+      "overview": null,
+      "overviewMarkdown": null,
+      "index": null,
+      "topicReports": [
+        {
+          "title": "overview",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        },
+        {
+          "title": "flat-organization",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        },
+        {
+          "title": "talent-density",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        },
+        {
+          "title": "job-family-career-architecture",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        },
+        {
+          "title": "promotion-system",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        }
+      ],
+      "missingRequired": [
+        "00-overview.md",
+        "01-flat-organization.md",
+        "02-talent-density.md",
+        "03-job-family-career-architecture.md",
+        "04-promotion-system.md"
+      ],
+      "hasFormalEntry": false,
+      "qualityGate": {
+        "path": null,
+        "status": "not-found"
+      },
+      "qualityIssues": [
+        "未到今日 18:00 正式自动化运行时间"
+      ]
+    },
     {
       "date": "2026-08-09",
       "status": "fallback",
@@ -90,7 +148,7 @@
       "hasFormalEntry": true,
       "qualityGate": {
         "path": "specials/ai-org-talent-mechanism/quality/2026-08-09.md",
-        "status": "warn-or-unknown"
+        "status": "fail"
       },
       "qualityIssues": [
         "正文包含兜底/非决策稿/待正式重跑关键词"
@@ -4445,84 +4503,12 @@
       ]
     }
   ],
-  "brokenLinks": [
-    {
-      "type": "public-scan",
-      "sourceFile": "data/info-feed-status.json",
-      "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-09.html",
-      "reason": "public scan bridge returned 404",
-      "status": 404
-    }
-  ],
+  "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-08-09T14:06:35.207Z",
-    "qualityStatus": "fail",
-    "firstPartyChecked": 2653,
-    "externalWarnings": 48,
-    "brokenCount": 1,
-    "publicScanBridge": [
-      {
-        "ok": false,
-        "hardBroken": true,
-        "status": 404,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-09.html",
-        "reason": "public scan bridge returned 404"
-      },
-      {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/"
-      }
-    ]
-  },
-  "warnings": [
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1"
-  ]
+    "checkedAt": null,
+    "qualityStatus": "pending",
+    "firstPartyChecked": 0,
+    "externalWarnings": 0,
+    "brokenCount": 0
+  }
 }

@@ -1,60 +1,60 @@
 # 系统健康状态
 
-> 自动生成：2026-08-09T14:06:35.307Z
+> 自动生成：2026-08-10T01:57:28.766Z
 
 ## 一眼判断
 
-- 总体状态：❌ fail
-- 情报流状态：❌ fail
-- 专题研究状态：❌ fail
-- 知识库状态：❌ fail
-- 自动化状态：❌ fail
-- 一方链接状态：❌ fail
-- 当前结论：存在阻断项；首页和自动化不得显示已正式完成。
+- 总体状态：⚠️ warn
+- 情报流状态：⚠️ warn
+- 专题研究状态：⚠️ warn
+- 知识库状态：⚠️ warn
+- 自动化状态：⚠️ warn
+- 一方链接状态：⚠️ warn
+- 当前结论：状态链可信但仍有运营债务；允许展示 warn，不允许美化成 pass。
 
 ## 情报流状态
 
-- 最新日期：2026-08-09
-- 今日卡片数：10
-- 今日新增事实：1
-- 旧线复核 / Context：4
-- 弱信号：3
-- 缺口记录：2
-- 渠道覆盖：JD薪酬、媒体、官方、社媒公众号、报告学术
+- 最新日期：2026-08-10
+- 今日卡片数：8
+- 今日新增事实：2
+- 旧线复核 / Context：2
+- 弱信号：1
+- 缺口记录：3
+- 渠道覆盖：报告学术、媒体、官方、JD薪酬、社媒公众号
 - sourceUrl 缺失：0
 
 ## 专题研究状态
 
-- 今日日期：2026-08-09
-- 今日专题状态：fallback
+- 今日日期：2026-08-10
+- 今日专题状态：scheduled
 - 最新正式日报日期：2026-08-08
 - 待正式重跑日期数：19
 - 待正式重跑日期：2026-08-09、2026-07-13、2026-07-12、2026-07-11、2026-07-06、2026-07-03、2026-06-22、2026-06-11、2026-06-10、2026-06-01、2026-05-29、2026-05-28 等 19 项
 
 ## 知识库状态
 
-- Catalog 日期：2026-08-09
+- Catalog 日期：2026-08-10
 - 知识源：4
-- 报告 / 知识页：126
-- 待重试 PDF：12
+- 报告 / 知识页：128
+- 待重试 PDF：13
 - 本地或私有路径泄露：0
 - 缺失 summaryFile：0
 
 ## 自动化状态
 
-- 本地正式任务：manual-check-required
+- 本地正式任务：scheduled
 - GitHub Actions 角色：fallback-only
 - GitHub Actions 定时数：4
-- 信息库链路：❌ fail
-- 专题链路：❌ fail
+- 信息库链路：⚠️ warn
+- 专题链路：⚠️ warn
 - 知识库 lint 链路：✅ pass
-- 链接检查链路：❌ fail
+- 链接检查链路：⚠️ warn
 
 ## 链接检查
 
-- 一方断链数：1
+- 一方断链数：0
 - 外部链接 warning：48
-- 公开扫描桥接：warn:404、ok:200
+- 公开扫描桥接：warn:n/a、warn:n/a
 
 ## 质量语义
 
@@ -64,25 +64,12 @@
 
 ## 当前问题
 
-- ❌ 一方内部链接存在断链：1 条；需先运行或修复链接检查。
-- ❌ 一方链接或公开扫描桥接存在 fail
-- ⚠️ 最新日期“新增事实”少于 5 条：当前 1 条；已有缺口记录，首页应诚实显示可信新增不足。
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
+- ✅ 无 P0 fail。
+- ⚠️ 最新日期非缺口信息卡少于 8 条：当前 5 条；已有缺口记录，不能用缺口记录凑数量。
+- ⚠️ 最新日期“新增事实”少于 5 条：当前 2 条；已有缺口记录，首页应诚实显示可信新增不足。
+- ⚠️ 最新日期同一子主题超过 40%：50%；需要关注广谱雷达覆盖。
+- ⚠️ 最新日期疑似旧线复核被标为新增事实：D02, D03。
+- ⚠️ knowledge/catalog.json 的 reports 存在 3 组重复 summaryFile。
+- ⚠️ 信息库质量为 warn
+- ⚠️ 专题研究状态为 warn
+- ⚠️ 专题待正式重跑 19 天

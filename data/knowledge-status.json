@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-09T14:06:34.462Z",
+  "generatedAt": "2026-08-10T01:57:28.211Z",
   "module": "knowledge-base",
-  "qualityStatus": "fail",
-  "latestCatalogDate": "2026-08-09",
+  "qualityStatus": "warn",
+  "latestCatalogDate": "2026-08-10",
   "counts": {
-    "reports": 126,
+    "reports": 128,
     "knowledgeSources": 4,
     "sourceTypes": {
-      "media": 56,
-      "internal": 18,
+      "media": 57,
+      "internal": 19,
       "concept": 10,
       "public-safe-synthesis": 11,
       "consulting": 14,
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "pdfRetryCount": 12,
+  "pdfRetryCount": 13,
   "pdfRetrySample": [
     {
       "id": "p001",
@@ -95,85 +95,15 @@
     }
   ],
   "warnings": [
-    "knowledge/catalog.json 的 reports 存在 3 组重复 summaryFile。",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1"
+    "knowledge/catalog.json 的 reports 存在 3 组重复 summaryFile。"
   ],
   "criticalIssues": [],
-  "brokenLinks": [
-    {
-      "type": "public-scan",
-      "sourceFile": "data/info-feed-status.json",
-      "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-09.html",
-      "reason": "public scan bridge returned 404",
-      "status": 404
-    }
-  ],
+  "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-08-09T14:06:35.207Z",
-    "qualityStatus": "fail",
-    "firstPartyChecked": 2653,
-    "externalWarnings": 48,
-    "brokenCount": 1,
-    "publicScanBridge": [
-      {
-        "ok": false,
-        "hardBroken": true,
-        "status": 404,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-09.html",
-        "reason": "public scan bridge returned 404"
-      },
-      {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/"
-      }
-    ]
+    "checkedAt": null,
+    "qualityStatus": "pending",
+    "firstPartyChecked": 0,
+    "externalWarnings": 0,
+    "brokenCount": 0
   }
 }

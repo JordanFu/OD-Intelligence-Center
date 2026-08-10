@@ -2,7 +2,7 @@
 title: itb dia 6351 email 0
 source: ag.ny.gov
 date: 待核验
-ingested: 2026-08-09
+ingested: 2026-08-10
 sourceFile: ../raw/ag-ny-gov-itb-dia-6351-email-0.pdf
 sourceUrl: https://ag.ny.gov/sites/default/files/2024-12/itb_dia_6351_email_0.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ itb dia 6351 email 0 已作为日报/周报 PDF 证据源入库，当前需要�
 - **来源类型**：media
 - **原文 URL**：https://ag.ny.gov/sites/default/files/2024-12/itb_dia_6351_email_0.pdf
 - **原始文件**：`knowledge/raw/ag-ny-gov-itb-dia-6351-email-0.pdf`
-- **入库日期**：2026-08-09
+- **入库日期**：2026-08-10
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
