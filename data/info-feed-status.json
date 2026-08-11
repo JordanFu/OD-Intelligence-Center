@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-11T03:16:28.403Z",
+  "generatedAt": "2026-08-11T10:22:52.726Z",
   "module": "info-feed",
-  "qualityStatus": "fail",
+  "qualityStatus": "warn",
   "latestDate": "2026-08-11",
   "latestCardCount": 14,
-  "newFactCount": 8,
+  "newFactCount": 9,
   "contextCount": 0,
   "weakSignalCount": 3,
-  "gapRecordCount": 3,
+  "gapRecordCount": 2,
   "sourceCount": 13,
   "channelCoverage": [
     "官方",
@@ -17,8 +17,8 @@
     "社媒公众号"
   ],
   "confidenceDistribution": {
-    "L2": 4,
-    "L1": 10
+    "L2": 5,
+    "L1": 9
   },
   "subtopicConcentration": 0.429,
   "privateSignalRatio": 0,
@@ -30,13 +30,13 @@
   "latest": {
     "date": "2026-08-11",
     "cardCount": 14,
-    "nonGapCardCount": 11,
-    "newFactCount": 8,
+    "nonGapCardCount": 12,
+    "newFactCount": 9,
     "oldLineReviewCount": 0,
     "contextCount": 0,
     "weakSignalCount": 3,
-    "gapCount": 3,
-    "gapRecordCount": 3,
+    "gapCount": 2,
+    "gapRecordCount": 2,
     "sourcePlatformCount": 13,
     "sourceUrlCount": 14,
     "channelTypeCount": 5,
@@ -48,9 +48,9 @@
       "社媒公众号"
     ],
     "infoTypeDistribution": {
-      "新增事实": 8,
+      "新增事实": 9,
       "弱信号": 3,
-      "缺口记录": 3
+      "缺口记录": 2
     },
     "channelTypeDistribution": {
       "官方": 7,
@@ -67,12 +67,12 @@
       "社媒公众号": 2
     },
     "confidenceDistribution": {
-      "L2": 4,
-      "L1": 10
+      "L2": 5,
+      "L1": 9
     },
     "conclusionConfidenceDistribution": {
-      "L2": 4,
-      "L1": 10
+      "L2": 5,
+      "L1": 9
     },
     "subtopicDistribution": {
       "其他": 3,
@@ -99,11 +99,11 @@
     {
       "date": "2026-08-11",
       "cardCount": 14,
-      "nonGapCardCount": 11,
-      "newFactCount": 8,
+      "nonGapCardCount": 12,
+      "newFactCount": 9,
       "contextCount": 0,
       "weakSignalCount": 3,
-      "gapRecordCount": 3,
+      "gapRecordCount": 2,
       "sourcePlatformCount": 13,
       "sourceUrlCount": 14,
       "sourceUrlMissingCount": 0,
@@ -123,8 +123,8 @@
         "社媒公众号": 2
       },
       "confidenceDistribution": {
-        "L2": 4,
-        "L1": 10
+        "L2": 5,
+        "L1": 9
       },
       "subtopicDistribution": {
         "其他": 3,
@@ -422,7 +422,7 @@
   "totals": {
     "days": 114,
     "cards": 1158,
-    "platforms": 572,
+    "platforms": 571,
     "dailyFiles": 110,
     "dailyReportFiles": 114,
     "weeklyFiles": 1
@@ -436,9 +436,9 @@
     "status": "pending-link-check"
   },
   "trustStats": {
-    "⭐高": 602,
+    "⭐高": 603,
     "📰较高": 446,
-    "💬参考": 86,
+    "💬参考": 85,
     "📰中高": 1,
     "⭐高 / 📰较高 / 💬参考": 1,
     "⭐高（公司公告+创始人全员信）": 1,
@@ -522,41 +522,31 @@
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1"
+    "network check warning: fetch failed",
+    "network check warning: fetch failed"
   ],
   "criticalIssues": [],
-  "brokenLinks": [
-    {
-      "type": "public-scan",
-      "sourceFile": "data/info-feed-status.json",
-      "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-11.html",
-      "reason": "public scan bridge returned 404",
-      "status": 404
-    }
-  ],
+  "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-08-11T03:16:31.857Z",
-    "qualityStatus": "fail",
+    "checkedAt": "2026-08-11T10:22:56.440Z",
+    "qualityStatus": "warn",
     "firstPartyChecked": 2709,
-    "externalWarnings": 48,
-    "brokenCount": 1,
+    "externalWarnings": 44,
+    "brokenCount": 0,
     "publicScanBridge": [
       {
         "ok": false,
-        "hardBroken": true,
-        "status": 404,
+        "hardBroken": false,
+        "status": null,
         "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-11.html",
-        "reason": "public scan bridge returned 404"
+        "reason": "network check warning: fetch failed"
       },
       {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/"
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/",
+        "reason": "network check warning: fetch failed"
       }
     ]
   },

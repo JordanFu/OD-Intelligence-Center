@@ -1,53 +1,132 @@
 # 2026-08-11｜专题四：未来组织的晋升机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+> 时间窗口为 2026-08-10 09:50—2026-08-11 09:50 CST；近 7—14 天材料用于去重与校准。今日未发现 L2+ 的公司级直接晋升制度新增。制度公开不等于运行效果已经验证。
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+## 读者应该带走什么
 
-## 今日一句话结论
+**今天没有证据支持把晋升改成默认“随时发生”。最稳健的制度仍是：贡献持续留证，项目与稀缺技能即时回报，永久职级固定校准；只有责任已稳定扩大且等待损害明确时，才开放受控周期外例外。AI 可整理材料、检查矛盾，不应裁决潜力、排序或职级。**
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+## 1. 今日一句话专题判断
 
-## 今日核心判断
+**OpenAI 财务强化的是“AI 贡献必须落到净结果、人工判断、控制责任和最终签字”，不是“会用 AI 就应晋升”；绩效与晋升应证据耦合、裁决解耦。**
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+## 2. 今日新增事实：只写可追溯事实
 
-## 今日背景材料
+1. **严格窗口没有新的 L2+ 公司晋升制度。**本轮未发现能同时说明固定/即时窗口、证据标准、审批分权、薪酬、申诉和运行结果的新制度。可以确认的是今日不能升级“企业转向随时晋升”或“AI 贡献已正式进入晋升评分”；未检出不等于绝对不存在。
+2. **OpenAI 财务公开了责任证据，不是晋升规则（工作流 L2，晋升 L0）。**AI 连接批准数据、生成初稿、解释差异并提示异常；财务人员核验、补判断、授权批准基线变化并签字。公司反对用席位或 token 衡量价值，要求同时核算员工时间、复核、返工、质量和速度。[OpenAI](https://openai.com/index/building-an-ai-native-finance-function/)
+3. **GitLab 继续提供“固定校准＋周期外例外＋内部岗位竞聘”制度基线（制度 L3，效果 L1）。**同岗位族多数按半年校准，候选人需持续体现下一层能力并同时满足业务机会；公开岗位走内部招聘；周期外例外需晋升文档、例外理由及业务、PBP、Total Rewards、FP&A 等审批。[GitLab Handbook](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/)
+4. **Oracle 认证与数字徽章只证明学习/考试完成，不能证明职级晋升（认证 L2，晋升关联 L0）。**8 月 10 日 Oracle University 更新 OCI 认证轨道，采用稳定认证名、滚动刷新内容与 24 个月有效期；公开材料未将认证自动连接员工职级、基本工资或晋升资格。[Oracle 2026 更新](https://blogs.oracle.com/oracleuniversity/oci-certification-learning-paths-and-exams-2026-updates-now-available)
+5. **Pave 议程与 OpenAI 股份回购只进入 Context。**Pave 将新岗位定级、AI 人才股权溢价、劳动力定价与绩效薪酬放在同一活动议题，但活动未举行且无数据。[Pave](https://www.prnewswire.com/news-releases/pave-announces-total-rewards-live-2026-the-premier-event-for-the-worlds-top-compensation-and-total-rewards-leaders-302847328.html)；OpenAI 回购缺资格和留任结果。[Bloomberg](https://www.bloomberg.com/news/articles/2026-08-10/openai-buys-back-7-billion-of-employee-shares-in-tender-offer)
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+## 3. 今日核心判断
 
-## 今日新增证据地图
+1. **主干应是“持续留证＋即时回报＋固定职级校准＋受控例外”。可信度：高。**证据基础：GitLab 把多数晋升放进半年校准，同时保留公开岗位、acting/interim 与重审批例外；今日无新制度反证。为什么重要：优秀者不应等半年才被看见，但永久职级涉及岗位价值、同级公平、薪带和预算，不能由一次项目或单经理即时决定。
+2. **AI 贡献应进入证据包，但必须从使用行为转成责任与净结果。可信度：中高。**证据基础：OpenAI 财务要求核算员工时间、复核、返工、质量和决策速度，并保留专业授权与签字。为什么重要：token、登录、生成量和毛节时易被任务差异、权限和工具能力扭曲。
+3. **绩效与晋升应“证据耦合、裁决解耦”。可信度：高。**证据基础：GitLab 要求当前绩效和下一层持续表现，但还审查业务机会、岗位框架、薪酬和预算。为什么重要：当前岗位高绩效不自动证明长期需要更高层岗位；市场倒挂可调薪或给股权，不必虚升职级。
+4. **项目战功、岗位价值变化、技能认证和内部流动必须分路。可信度：高。**证据基础：GitLab 区分同岗晋升、公开岗位、acting/interim 与例外；Oracle 徽章只证明能力完成。为什么重要：所有资源诉求都塞进晋升会造成职级膨胀、同岗不同责和薪酬倒挂。
+5. **AI 可检索证据、对齐框架、提示缺口，但不应预测潜力或裁决职级。可信度：中高。**证据基础：OpenAI 将来源、权限、审批和签字留给专业人；GitLab 依赖岗位框架、文档、跨职能事实与多人校准。为什么重要：上游候选池和默认评级也会制造偏差，必须允许知情、更正、反证与申诉。
 
-| 渠道 | 当前状态 | 必须补齐 |
+## 4. 重点案例事实还原：GitLab 混合晋升机制
+
+### 背景与时间线
+
+远程、跨职能组织容易出现贡献不可见、经理口径不一、个人准备度与业务机会混淆。GitLab 用公开岗位框架、晋升文档、集中校准和薪酬预算联动降低风险。
+
+- 手册称 FY24 起常规晋升调整为每年两次校准。
+- 当前公开页列出规划、校准、薪酬处理和生效环节；部分岗位族可采用不同频次。
+- 2026-07-13 最近修改的页面继续保留内部岗位竞聘、acting/interim 和周期外例外。
+- 2026-08-10 OpenAI 财务新增 AI 工作责任旁证，但没有改变 GitLab 制度基线。
+
+### 十类机制事实与边界
+
+| 机制 | 可确认规则 | 不能升级的结论 |
 |---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+| 常规窗口 | 多数同岗位族半年集中校准 | 固定窗口已过时 |
+| 即时晋升 | acting/interim、公开岗位、特殊例外可周期外处理 | 经理可随时直接升职 |
+| 项目制 | 项目结果可进入晋升文档 | 一次战功自动换永久职级 |
+| 岗位价值触发 | 对照岗位框架、业务机会和长期责任 | 临时忙碌等于岗位升级 |
+| 能力认证/徽章 | 证明学习或考试完成，可决定部分准入 | 自动兑换职级、工资或股权 |
+| AI 贡献度 | 应记录净结果、质量、复核、风险、复用和判断 | token/生成量可排名晋升 |
+| 同行评审 | 跨职能反馈核验结果和影响 | 票数、人气决定职级 |
+| 人才委员会 | 校准标准、机会、公平和例外 | 替代岗位与薪酬专业判断 |
+| 薪酬校准 | Total Rewards、FP&A 与业务共同处理 | 调薪必须升职，或晋升必定固定涨幅 |
+| 绩效与晋升 | 当前绩效和下一层持续表现是证据 | 一次高绩效自动触发晋升 |
 
-## 线索层
+### 评审动作、结果、争议与阻碍
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+- 经理与候选人持续积累对照岗位框架的事实；同行核验结果、质量、协同和复用；岗位负责人先证明长期业务需要；人才委员会横向校准；薪酬/财务独立处理薪带和预算。
+- AI 只检索、整理、对齐和提示缺口，不推荐职级或金额。
+- 已知：GitLab 公开规则、审批角色和部分薪酬目标；未知：晋升率差异、申诉、等待损害、例外滥用和晋升后表现。
+- 争议：固定窗口提高可比性却可能延迟回报；例外提高速度却放大经理权力和部门资源差异。
+- 阻碍：高可见项目机会不均；写作能力影响材料；岗位框架慢于工作；委员会可能校准结论而不挑战证据来源。
+- 可借鉴：固定窗口与例外并存；岗位、人才、薪酬、预算分权；例外使用同等或更高证据门槛。
+- 不可照搬：GitLab 的远程透明文化和公开文档条件特殊，需按隐私、劳动关系与法规调整。
 
-## 待补齐的落地问题
+## 5. 背景材料与 Context 层
 
-正式重跑必须回答：AI 贡献如何进入晋升证据包、谁负责验证与质量、是否有校准机制、是否存在调岗降薪和劳动合规风险。
+- **暂不形成结论，但提示我们关注……**Pave 的活动把“六个月前不存在岗位如何定级”、AI 股权溢价和绩效薪酬放在一起，说明专业社群正重新讨论定级与回报；活动议程不是制度或支付结果。
+- **暂不形成结论，但提示我们关注……**OpenAI 股份回购可能是总报酬工具，也可能只是资本结构安排；不能写成晋升或留才制度变化。
+- **暂不形成结论，但提示我们关注……**财务人员从材料组装走向工具构建、例外判断和签字，可能提高职级标准中“工作流设计＋专业责任”的权重；在正式能力模型出现前只是旁证。
+- **反例：**认证可快速取得，职级代表跨周期、可持续责任；Oracle 认证恰好反证“完成认证＝应晋升”。
+- **冲突：**持续留证提升可审计性，也可能奖励更会写材料或拥有高可见机会的人；需审计机会暴露、证据来源、写作辅助和群体差异。
 
-## 来源索引
+## 6. 证据地图
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+| 渠道 | 本轮证据 | 等级 | 边界 |
+|---|---|---:|---|
+| 官方/一手 | OpenAI 工作流、GitLab 手册、Oracle 认证 | L2—L3 | 责任/制度/认证，不证明公平后效 |
+| 权威媒体 | Bloomberg 回购 | L1 | 流动性线索，不是留才晋升效果 |
+| 公司制度 | GitLab 常规、内部流动、acting、例外 | 制度 L3/效果 L1 | 可证明混合机制存在，不证明最优 |
+| 学术研究 | 严格窗口无直接晋升机制新增 | 缺口 | 明确判断上限 |
+| 招聘薪酬 | Pave 议程 | L1 | 专业议题，不是市场数据 |
+| 社媒职场 | 无具名公司制度增量 | L0—L1 | 不支撑制度结论 |
+| 内部信息库/知识库 | `digest.md`、`daily/`、baseline、GitLab 知识卡 | 校准 | 同源去重，不增加互证 |
+
+## 7. 对我们行动的启发｜落地启发
+
+**管理层该问：这次诉求需要永久改变职级，还是即时认可、项目奖、津贴、股权、acting scope 或薪带调整？**
+
+### 四层晋升与回报模型
+
+| 层次 | 触发事实 | 默认动作 | 最低治理要求 |
+|---|---|---|---|
+| 持续留证 | 项目、客户、风险、复用、带教事实 | 10 个工作日内进台账，季度复核 | 原始证据、个人归因、反证、验证人、候选人确认 |
+| 即时回报 | 一次高价值项目、稀缺技能、临时扩责 | 认可、项目奖、一次性股权、津贴、acting scope | 不改永久职级；金额、期限、退出、团队分配清楚 |
+| 固定职级校准 | 跨周期承担下一层责任且业务长期需要 | 半年或季度集中晋升 | 岗位框架、2—3 个结果、同行核实、委员会、薪酬预算、申诉 |
+| 受控例外 | 责任已稳定扩大，等待有明确损害 | 周期外晋升 | 同等证据＋等待损害＋更高审批＋预算来源＋下窗复盘 |
+
+### 触发事实分路
+
+- 一次项目战功：项目奖/一次性股权，必要时 60—180 天扩大职责试任。
+- 岗位决策权、风险和影响永久变化：先岗位价值重评，再人岗任命和晋升。
+- 认证/徽章：连接项目准入、权限、学习、津贴或稀缺系数，设有效期和复证，不自动升职。
+- 内部公开岗位：按内部招聘和岗位定级处理。
+- 市场倒挂/保留：优先薪带、股权刷新、留任奖或稀缺系数，不虚升职级。
+- 持续承担下一层责任：进入固定窗口；只在等待损害可证时走例外。
+
+### AI 贡献证据包与分权
+
+证据包至少含：业务问题与基线；人/AI 责任边界；权限、审批和接管；个人问题定义、取舍、纠错与风险判断；质量、返工、事故与客户影响；扣除复核后的净结果；复用、带教和跨队影响；持续周期、失败样本和反事实；原始证据、验证人、利益冲突和候选人异议。
+
+经理证明持续性与业务必要性；同行核验专业事实；岗位委员会判断角色价值；人才委员会校准层级与公平；薪酬/财务处理市场、预算和股权；员工有知情、更正、反证和独立申诉权。AI 不得决定候选池、潜力、排序、职级、金额、降级或淘汰。
+
+## 8. 待验证清单与下一步搜索路径
+
+1. 第二家公司完整混合晋升制度：`official promotion policy fixed cycle out-of-cycle acting calibration appeal compensation`。
+2. GitLab 提名、通过、等待、例外和群体差异：`site:handbook.gitlab.com promotion metrics out-of-cycle FY27`。
+3. 企业是否把 AI 贡献写入正式 promotion packet：`AI contribution promotion document quality risk reuse official`。
+4. 认证/徽章连接项目、津贴、流动还是晋升：`employee AI certification badge allowance promotion recertification`。
+5. Pave 活动后索取新岗位样本、层级、技能溢价、绩效档位、股权资格与同岗对照。
+6. OpenAI 回购索取官方确认、资格、参与人数、出售上限、价格、锁定与留任结果。
+7. AI 参与人才评审的人工推翻、群体公平和申诉：`AI talent calibration human override adverse impact appeal audit`。
+
+## 9. 来源索引
+
+1. [OpenAI｜AI-native finance](https://openai.com/index/building-an-ai-native-finance-function/)，2026-08-10，工作流 L2、晋升关联 L0。
+2. [GitLab Handbook｜Promotions and Transfers](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/)，制度 L3、运行效果 L1。
+3. [Oracle University｜OCI Certification 2026 Updates](https://blogs.oracle.com/oracleuniversity/oci-certification-learning-paths-and-exams-2026-updates-now-available)，认证 L2、员工晋升关联 L0。
+4. [Pave｜Total Rewards Live 2026](https://www.prnewswire.com/news-releases/pave-announces-total-rewards-live-2026-the-premier-event-for-the-worlds-top-compensation-and-total-rewards-leaders-302847328.html)，议程 L1。
+5. [Bloomberg｜OpenAI employee share tender](https://www.bloomberg.com/news/articles/2026-08-10/openai-buys-back-7-billion-of-employee-shares-in-tender-offer)，匿名媒体 L1。
+6. 内部校准：`daily/2026-08-11.md`、`daily-report/2026-08-11.md`、baseline/04、`knowledge/wiki/gitlab-promotions-transfers-handbook.md`；同源只用于连续性和去重。
+
+> **结论边界：**今日没有 L2+ 直接晋升制度新增；Pave 议程、股份回购和技能认证均不能替代晋升规则或结果。正式建议维持混合模型，并把 AI 限定为证据辅助角色。
