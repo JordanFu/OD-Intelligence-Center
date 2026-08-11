@@ -1,26 +1,26 @@
 ---
-title: cwa18398 2026
-source: cencenelec.eu
+title: H3 AP202607011826626755 1
+source: pdf.dfcfw.com
 date: 待核验
 ingested: 2026-08-11
-sourceFile: ../raw/cencenelec-eu-cwa18398-2026.pdf
-sourceUrl: https://www.cencenelec.eu/media/CEN-CENELEC/CWAs/RI/2026/cwa18398_2026.pdf
+sourceFile: ../raw/pdf-dfcfw-com-h3-ap202607011826626755-1.pdf
+sourceUrl: https://pdf.dfcfw.com/pdf/H3_AP202607011826626755_1.pdf?1782916485000.pdf=
 tags: [AI组织设计]
 status: 已下载原始PDF，已生成结构化初筛卡片
 ---
 
-# cwa18398 2026
+# H3 AP202607011826626755 1
 
 ## 一句话判断
 
-cwa18398 2026 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
+H3 AP202607011826626755 1 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
 
 ## 入库状态
 
-- **来源机构**：cencenelec.eu
+- **来源机构**：pdf.dfcfw.com
 - **来源类型**：media
-- **原文 URL**：https://www.cencenelec.eu/media/CEN-CENELEC/CWAs/RI/2026/cwa18398_2026.pdf
-- **原始文件**：`knowledge/raw/cencenelec-eu-cwa18398-2026.pdf`
+- **原文 URL**：https://pdf.dfcfw.com/pdf/H3_AP202607011826626755_1.pdf?1782916485000.pdf=
+- **原始文件**：`knowledge/raw/pdf-dfcfw-com-h3-ap202607011826626755-1.pdf`
 - **入库日期**：2026-08-11
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
@@ -51,14 +51,8 @@ cwa18398 2026 已作为日报/周报 PDF 证据源入库，当前需要完成结
 
 ## 被引用位置
 
-- `specials/ai-org-talent-mechanism/2026-08-05/00-overview.md:71`：CEN-CENELEC 最终文本
-- `specials/ai-org-talent-mechanism/2026-08-07/03-job-family-career-architecture.md:93`：CWA 18398:2026
-- `specials/ai-org-talent-mechanism/2026-08-07/03-job-family-career-architecture.md:184`：CWA 18398:2026
-- `specials/ai-org-talent-mechanism/baseline/03-job-family-career-architecture.md:33`：CWA 18398:2026
-- `specials/ai-org-talent-mechanism/weekly/2026-W32-detailed.md:263`：CEN-CENELEC CWA 18398:2026
-- `specials/ai-org-talent-mechanism/weekly/2026-W32.md:263`：CEN-CENELEC CWA 18398:2026
-- `specials/ai-org-talent-mechanism/weekly/latest-detailed.md:263`：CEN-CENELEC CWA 18398:2026
-- `specials/ai-org-talent-mechanism/weekly/latest.md:263`：CEN-CENELEC CWA 18398:2026
+- `specials/ai-org-talent-mechanism/2026-08-11/03-job-family-career-architecture.md:55`：报告镜像
+- `specials/ai-org-talent-mechanism/2026-08-11/03-job-family-career-architecture.md:127`：智联镜像
 
 ## 后续精读任务
 
