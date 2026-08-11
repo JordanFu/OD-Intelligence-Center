@@ -361,6 +361,14 @@
       flex-wrap: wrap;
       align-items: center;
     }
+    .primary-filter-groups {
+      margin-top: 14px;
+      padding: 12px 14px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: rgba(26, 29, 39, 0.62);
+    }
+    .primary-filter-groups .filter-row:first-child { margin-top: 0; }
     .filter-label {
       font-size: 13px;
       color: var(--text2);
@@ -377,6 +385,7 @@
       cursor: pointer;
       transition: all 0.2s;
       white-space: nowrap;
+      font-family: inherit;
     }
     .filter-tag:hover { border-color: var(--accent); color: var(--text); }
     .filter-tag.active {
@@ -404,6 +413,44 @@
       transition: all 0.2s;
     }
     .filter-more:hover { border-color: var(--accent); color: var(--accent); }
+    .advanced-filters {
+      margin-top: 12px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: rgba(26, 29, 39, 0.48);
+      overflow: hidden;
+    }
+    .advanced-filters summary {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 10px 14px;
+      color: var(--text);
+      font-size: 13px;
+      font-weight: 650;
+      cursor: pointer;
+      list-style: none;
+    }
+    .advanced-filters summary::-webkit-details-marker { display: none; }
+    .advanced-filters summary::after {
+      content: '展开 ↓';
+      color: var(--text2);
+      font-size: 12px;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+    .advanced-filters[open] summary::after { content: '收起 ↑'; }
+    .advanced-filter-hint {
+      color: var(--text2);
+      font-size: 12px;
+      font-weight: 400;
+    }
+    .advanced-filter-body {
+      padding: 0 14px 14px;
+      border-top: 1px solid var(--border);
+    }
+    .advanced-filter-body .coverage { margin-bottom: 0; }
     .stats {
       margin-top: 12px;
       font-size: 13px;
@@ -2685,6 +2732,24 @@
     }
 
     @media (max-width: 700px) {
+      .primary-filter-groups {
+        padding: 8px 10px;
+      }
+      .primary-filter-groups .filter-row {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        scrollbar-width: none;
+        padding-bottom: 3px;
+      }
+      .primary-filter-groups .filter-row::-webkit-scrollbar { display: none; }
+      .primary-filter-groups .filter-label {
+        position: sticky;
+        left: 0;
+        z-index: 1;
+        padding-right: 4px;
+        background: #191c26;
+      }
+      .advanced-filter-hint { display: none; }
       .levels-hero > .levels-actions {
         display: none;
       }
@@ -2771,11 +2836,20 @@
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         <input type="text" class="search-box" id="searchBox" placeholder="搜索标题、摘要、OD启示、来源、标签..." />
       </div>
-      <div class="filter-row" id="trustFilters"></div>
-      <div class="filter-row" id="sourceFilters"></div>
-      <div class="filter-row" id="tagFilters"></div>
+      <div class="primary-filter-groups" aria-label="常用分类筛选">
+        <div class="filter-row" id="trustFilters"></div>
+        <div class="filter-row" id="channelFilters"></div>
+        <div class="filter-row" id="topicCategoryFilters"></div>
+      </div>
+      <details class="advanced-filters">
+        <summary><span>全部来源与标签</span><span class="advanced-filter-hint">按具体平台或原始标签精确查找</span></summary>
+        <div class="advanced-filter-body">
+          <div class="filter-row" id="sourceFilters"></div>
+          <div class="filter-row" id="tagFilters"></div>
+          <div class="coverage" id="coverage"></div>
+        </div>
+      </details>
       <div class="stats" id="stats"></div>
-      <div class="coverage" id="coverage"></div>
     </div>
     <div class="content" id="infoContent"></div>
   </div>
@@ -2828,6 +2902,8 @@
     let currentTab = 'info';
     let activeTagFilter = null;
     let activeSourceFilter = null;
+    let activeChannelFilter = null;
+    let activeTopicCategoryFilter = null;
     let sourceExpanded = false;
     let tagExpanded = false;
     const FILTER_LIMIT = 10; // 默认显示数量（2行）
@@ -2880,6 +2956,23 @@
       '⭐高': { label: '⭐ 官方/学术/权威', class: 'trust-high', key: 'high' },
       '📰较高': { label: '📰 知名媒体', class: 'trust-mid', key: 'mid' },
       '💬参考': { label: '💬 社交/社区', class: 'trust-ref', key: 'ref' }
+    };
+
+    const CHANNEL_FILTERS = {
+      official: { label: '官方一手' },
+      media: { label: '媒体案例' },
+      research: { label: '报告学术' },
+      social: { label: '社媒公众号' },
+      jobs: { label: '招聘薪酬' }
+    };
+
+    const TOPIC_FILTERS = {
+      organization: { label: '组织设计', keywords: ['组织', '扁平', '管理层级', '管理跨度', '小团队', '工作流', '协作', '组织架构', 'operating model'] },
+      talent: { label: '人才机制', keywords: ['人才密度', '复合型人才', '人才', '招聘', '能力', '技能', '领导力', 'player-coach'] },
+      career: { label: '岗位职级', keywords: ['岗位', '职级', '序列', '职业通道', 'job family', 'career', 'title'] },
+      performance: { label: '绩效晋升', keywords: ['绩效', '晋升', '评估', '校准', '考核', 'promotion', 'performance'] },
+      rewards: { label: '薪酬激励', keywords: ['薪酬', '激励', '股权', '奖金', '津贴', '市场溢价', 'pay', 'compensation'] },
+      governance: { label: 'AI 治理', keywords: ['治理', '安全', '风险', '合规', '责任', '审计', '权限', '申诉', 'governance'] }
     };
 
     // ============================================================
@@ -3281,6 +3374,46 @@
       }));
       return stats;
     }
+    function classifyChannel(item) {
+      const declared = (item.channelType || '').toLowerCase();
+      if (/jd|薪酬|招聘/.test(declared)) return 'jobs';
+      if (/社媒|公众号|职场/.test(declared)) return 'social';
+      if (/报告|学术|咨询/.test(declared)) return 'research';
+      if (/媒体|案例/.test(declared)) return 'media';
+      if (/官方|一手/.test(declared)) return 'official';
+
+      const sourceText = [item.platform, item.source, item.sourceUrl].filter(Boolean).join(' ').toLowerCase();
+      if (/jobs?|careers?|招聘|薪酬|salary|levels\.fyi|glassdoor/.test(sourceText)) return 'jobs';
+      if (/微信公众号|小红书|知乎|即刻|linkedin|twitter|reddit|weibo|微博|脉脉/.test(sourceText)) return 'social';
+      if (/mckinsey|bcg|bain|mercer|deloitte|德勤|pwc|gartner|hbr|harvard|stanford|mit|arxiv|ssrn|oecd|ilo|wef|nber/.test(sourceText)) return 'research';
+      if (/36氪|机器之心|钛媒体|虎嗅|界面新闻|第一财经|晚点|新智元|量子位|techcrunch|the verge|wired|bloomberg|reuters|hacker news|infoq/.test(sourceText)) return 'media';
+      if (/官网|官方|newsroom|investor|sec\.|help\.|openai|anthropic|microsoft|google|amazon|aws|meta|oracle|gitlab|bytedance|字节跳动|腾讯/.test(sourceText)) return 'official';
+      return null;
+    }
+    function matchesTopicCategory(item, category) {
+      const topic = TOPIC_FILTERS[category];
+      if (!topic) return false;
+      const haystack = [item.title, item.summary, item.insight, ...(item.tags || [])].filter(Boolean).join(' ').toLowerCase();
+      return topic.keywords.some(keyword => haystack.includes(keyword.toLowerCase()));
+    }
+    function renderChannelFilters() {
+      const container = document.getElementById('channelFilters');
+      let html = '<span class="filter-label">渠道：</span>';
+      html += `<button type="button" class="filter-tag ${!activeChannelFilter ? 'active' : ''}" onclick="setChannelFilter(null)">全部渠道</button>`;
+      for (const [key, info] of Object.entries(CHANNEL_FILTERS)) {
+        html += `<button type="button" class="filter-tag ${activeChannelFilter === key ? 'active' : ''}" onclick="setChannelFilter('${key}')">${info.label}</button>`;
+      }
+      container.innerHTML = html;
+    }
+    function renderTopicCategoryFilters() {
+      const container = document.getElementById('topicCategoryFilters');
+      let html = '<span class="filter-label">主题：</span>';
+      html += `<button type="button" class="filter-tag ${!activeTopicCategoryFilter ? 'active' : ''}" onclick="setTopicCategoryFilter(null)">全部主题</button>`;
+      for (const [key, info] of Object.entries(TOPIC_FILTERS)) {
+        html += `<button type="button" class="filter-tag ${activeTopicCategoryFilter === key ? 'active' : ''}" onclick="setTopicCategoryFilter('${key}')">${info.label}</button>`;
+      }
+      container.innerHTML = html;
+    }
     function renderTrustFilters() {
       const container = document.getElementById('trustFilters');
       const stats = getTrustStats();
@@ -3289,7 +3422,7 @@
       for (const [key, info] of Object.entries(TRUST_LEVELS)) {
         const count = stats[key] || 0;
         if (count > 0) {
-          html += `<span class="filter-tag ${info.class} ${activeTrustFilter === key ? 'active' : ''}" onclick="setTrustFilter('${key}')">${info.label} (${count})</span>`;
+          html += `<span class="filter-tag ${info.class} ${activeTrustFilter === key ? 'active' : ''}" onclick="setTrustFilter('${key}')">${info.label}</span>`;
         }
       }
       container.innerHTML = html;
@@ -3348,6 +3481,8 @@
     }
     function toggleCoverage() { coverageExpanded = !coverageExpanded; renderCoverage(); }
     function setTrustFilter(trust) { activeTrustFilter = trust; renderInfoPage(); }
+    function setChannelFilter(channel) { activeChannelFilter = channel; renderInfoPage(); }
+    function setTopicCategoryFilter(category) { activeTopicCategoryFilter = category; renderInfoPage(); }
     function setSourceFilter(source) { activeSourceFilter = source; renderInfoPage(); }
     function setTagFilter(tag) { activeTagFilter = tag; renderInfoPage(); }
     function toggleCard(date, id) {
@@ -3358,6 +3493,8 @@
 
     function renderInfoPage() {
       renderTrustFilters();
+      renderChannelFilters();
+      renderTopicCategoryFilters();
       renderSourceFilters();
       renderTagFilters();
       renderCoverage();
@@ -3371,6 +3508,8 @@
       let filteredDays = allDays.map(day => {
         const filteredItems = day.items.filter(item => {
           if (activeTrustFilter && item.trust !== activeTrustFilter) return false;
+          if (activeChannelFilter && classifyChannel(item) !== activeChannelFilter) return false;
+          if (activeTopicCategoryFilter && !matchesTopicCategory(item, activeTopicCategoryFilter)) return false;
           if (activeSourceFilter) {
             const p = item.platform || item.source || '';
             if (p !== activeSourceFilter && !p.includes(activeSourceFilter) && !activeSourceFilter.includes(p)) return false;
@@ -3388,6 +3527,8 @@
       const totalDays = filteredDays.filter(d => d.items.length > 0).length;
       const filters = [];
       if (activeTrustFilter) filters.push(`可信度: ${activeTrustFilter}`);
+      if (activeChannelFilter) filters.push(`渠道: ${CHANNEL_FILTERS[activeChannelFilter]?.label || activeChannelFilter}`);
+      if (activeTopicCategoryFilter) filters.push(`主题: ${TOPIC_FILTERS[activeTopicCategoryFilter]?.label || activeTopicCategoryFilter}`);
       if (activeSourceFilter) filters.push(`来源: ${activeSourceFilter}`);
       if (activeTagFilter) filters.push(`标签: #${activeTagFilter}`);
       if (query) filters.push(`搜索: "${query}"`);
