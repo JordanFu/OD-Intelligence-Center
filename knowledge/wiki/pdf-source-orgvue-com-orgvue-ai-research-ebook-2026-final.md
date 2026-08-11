@@ -2,7 +2,7 @@
 title: orgvue ai research ebook 2026 final
 source: orgvue.com
 date: 待核验
-ingested: 2026-08-10
+ingested: 2026-08-11
 sourceFile: ../raw/orgvue-com-orgvue-ai-research-ebook-2026-final.pdf
 sourceUrl: https://www.orgvue.com/content/uploads/sites/2/2026/05/orgvue-ai-research-ebook-2026-final.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ orgvue ai research ebook 2026 final 已作为日报/周报 PDF 证据源入库�
 - **来源类型**：media
 - **原文 URL**：https://www.orgvue.com/content/uploads/sites/2/2026/05/orgvue-ai-research-ebook-2026-final.pdf
 - **原始文件**：`knowledge/raw/orgvue-com-orgvue-ai-research-ebook-2026-final.pdf`
-- **入库日期**：2026-08-10
+- **入库日期**：2026-08-11
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
