@@ -6,7 +6,7 @@
 
 ## [2026-08-12] ingest | 日报 PDF 证据源自动入库
 - 从 daily、daily-report、specials、analysis 中扫描 PDF URL，按知识库 Raw/Wiki/Catalog 规则自动建档。
-- 本次识别 65 个唯一 PDF 来源：52 个已下载原始 PDF，13 个保留 URL 与引用上下文待重试。
+- 本次识别 62 个唯一 PDF 来源：51 个已下载原始 PDF，11 个保留 URL 与引用上下文待重试。
 - 已下载：itb dia 6351 email 0（引用 4 次）
 - 已下载：itb lat dir ai 6454 web 0（引用 17 次）
 - 已下载：GoogleATLASv1（引用 7 次）
@@ -20,7 +20,7 @@
 - 已下载：the ai jobs transition framework report（引用 3 次）
 - 已下载：WP 10 26 Managers as gatekeepers comp 0（引用 7 次）
 - 已下载：Mercer and Eightfold Pay for Skills（引用 2 次）
-- 待重试：ai index report 2026 chapter 4 economy（引用 1 次）
+- 已下载：ai index report 2026 chapter 4 economy（引用 1 次）
 - 待重试：GitLab：2026 SEC 8-K Filing（引用 12 次）
 - 已下载：netflix culture（引用 8 次）
 - 已下载：BCG：AI-First Organization（引用 3 次）
@@ -38,28 +38,25 @@
 - 已下载：META Q2 2026 Earnings Call Transcript（引用 2 次）
 - 待重试：Fannie Mae：LL-2026-04 AI/ML 治理要求（引用 11 次）
 - 已下载：6277baa6 0f7b 4fbe 9c7c ceb3e0e9b325 flatland（引用 16 次）
-- 已下载：47382ae415a209fd161bc19a1f9b3704（引用 3 次）
-- 已下载：e048dfed72bc718f7986a83f23c8e294（引用 2 次）
-- 已下载：gov.uscourts.cand.474095.38.0（引用 2 次）
-- 已下载：gov.uscourts.cand.474095.59.0（引用 6 次）
-- 已下载：gov.uscourts.cand.474171.1.0（引用 2 次）
-- 待重试：interviewing at google deepmind（引用 1 次）
+- 已下载：47382ae415a209fd161bc19a1f9b3704（引用 1 次）
+- 已下载：gov.uscourts.cand.474095.38.0（引用 1 次）
+- 已下载：gov.uscourts.cand.474095.59.0（引用 4 次）
+- 已下载：interviewing at google deepmind（引用 1 次）
 - 待重试：BCG：AI Radar 2026（引用 2 次）
 - 待重试：BCG + MIT Sloan：The Emerging Agentic Enterprise（引用 8 次）
 - 待重试：2026 global investor survey jul 2026（引用 1 次）
-- 已下载：Claude Opus 5 System Card（引用 6 次）
+- 已下载：Claude Opus 5 System Card（引用 4 次）
 - 已下载：AIHR：HR Priorities 2026 Report（引用 1 次）
 - 已下载：Whitepaper Impact of AI on U.S. Labor Market 2026 R2 1（引用 20 次）
 - 已下载：quarterly update presentation 1q 2026（引用 13 次）
 - 已下载：cwa18398 2026（引用 8 次）
 - 已下载：draft cwa xxxx e（引用 2 次）
 - 已下载：us spans and layers for the modern organization 2020（引用 3 次）
-- 已下载：EY：Future of Pay Report 2026（引用 152 次）
+- 已下载：EY：Future of Pay Report 2026（引用 157 次）
 - 已下载：pip faq 2026（引用 6 次）
 - 已下载：12 087 bc50bde2 3016 457a 9bee dc988cb1056b（引用 8 次）
 - 已下载：26 090 96f92aa0 37d9 4789 beaa 5c0cb87a4032（引用 7 次）
 - 待重试：HiBob 2026 report AI maturity benchmarks and where the workforce stand（引用 4 次）
-- 已下载：MiniMax：IPO 后股份激励计划授出奖励公告（引用 1 次）
 - 已下载：cesifo1 wp12373（引用 3 次）
 - 已下载：ILO Brief ASEAN AI v11 clean（引用 2 次）
 - 已下载：0000050863 26 000011（引用 2 次）

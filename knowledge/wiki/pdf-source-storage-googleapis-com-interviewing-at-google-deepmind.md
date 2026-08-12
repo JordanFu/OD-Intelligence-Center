@@ -3,10 +3,10 @@ title: interviewing at google deepmind
 source: storage.googleapis.com
 date: 待核验
 ingested: 2026-08-12
-sourceFile:
+sourceFile: ../raw/storage-googleapis-com-interviewing-at-google-deepmind.pdf
 sourceUrl: https://storage.googleapis.com/deepmind-media/DeepMind.com/Assets/Docs/interviewing-at-google-deepmind.pdf
 tags: [AI组织设计]
-status: 已索引来源，PDF下载待重试
+status: 已下载原始PDF，已生成结构化初筛卡片
 ---
 
 # interviewing at google deepmind
@@ -20,7 +20,7 @@ interviewing at google deepmind 已作为日报/周报 PDF 证据源入库，当
 - **来源机构**：storage.googleapis.com
 - **来源类型**：media
 - **原文 URL**：https://storage.googleapis.com/deepmind-media/DeepMind.com/Assets/Docs/interviewing-at-google-deepmind.pdf
-- **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
+- **原始文件**：`knowledge/raw/storage-googleapis-com-interviewing-at-google-deepmind.pdf`
 - **入库日期**：2026-08-12
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 

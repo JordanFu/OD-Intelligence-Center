@@ -3551,9 +3551,9 @@
       "uploadDate": "2026-08-12",
       "description": "ai index report 2026 chapter 4 economy 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-hai-stanford-edu-ai-index-report-2026-chapter-4-economy.md",
-      "rawFile": "",
+      "rawFile": "./knowledge/raw/hai-stanford-edu-ai-index-report-2026-chapter-4-economy.pdf",
       "fileName": "hai-stanford-edu-ai-index-report-2026-chapter-4-economy.pdf",
-      "fileSize": "download pending",
+      "fileSize": "6450805 bytes",
       "tags": [
         "PDF自动入库",
         "AI组织设计",
@@ -3575,9 +3575,9 @@
       "uploadDate": "2026-08-12",
       "description": "interviewing at google deepmind 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-storage-googleapis-com-interviewing-at-google-deepmind.md",
-      "rawFile": "",
+      "rawFile": "./knowledge/raw/storage-googleapis-com-interviewing-at-google-deepmind.pdf",
       "fileName": "storage-googleapis-com-interviewing-at-google-deepmind.pdf",
-      "fileSize": "download pending",
+      "fileSize": "135540 bytes",
       "tags": [
         "PDF自动入库",
         "AI组织设计",
