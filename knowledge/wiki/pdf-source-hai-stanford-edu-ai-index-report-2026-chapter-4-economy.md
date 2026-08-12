@@ -52,6 +52,7 @@ ai index report 2026 chapter 4 economy 已作为日报/周报 PDF 证据源入�
 ## 被引用位置
 
 - `daily/2026-08-12.md:128`：Stanford AI Index 2026
+- `specials/ai-org-talent-mechanism/2026-08-12/research-audit.md:89`：Stanford AI Index 2026
 
 ## 后续精读任务
 

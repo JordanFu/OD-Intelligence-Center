@@ -52,6 +52,14 @@ interviewing at google deepmind 已作为日报/周报 PDF 证据源入库，当
 ## 被引用位置
 
 - `daily/2026-08-12.md:37`：DeepMind 公开面试流程基线
+- `specials/ai-org-talent-mechanism/2026-08-12/00-overview.md:133`：DeepMind 面试基线
+- `specials/ai-org-talent-mechanism/2026-08-12/02-talent-density.md:27`：DeepMind 面试流程
+- `specials/ai-org-talent-mechanism/2026-08-12/02-talent-density.md:145`：DeepMind 面试流程
+- `specials/ai-org-talent-mechanism/2026-08-12/03-job-family-career-architecture.md:33`：DeepMind 面试流程
+- `specials/ai-org-talent-mechanism/2026-08-12/03-job-family-career-architecture.md:207`：DeepMind 公开面试流程
+- `specials/ai-org-talent-mechanism/2026-08-12/04-promotion-system.md:16`：Google DeepMind 公开面试流程基线
+- `specials/ai-org-talent-mechanism/2026-08-12/04-promotion-system.md:137`：Google DeepMind｜Interviewing at Google DeepMind
+- `specials/ai-org-talent-mechanism/2026-08-12/research-audit.md:44`：DeepMind 面试基线
 
 ## 后续精读任务
 
