@@ -2,7 +2,7 @@
 title: GoogleATLASv1
 source: ai.google
 date: 待核验
-ingested: 2026-08-11
+ingested: 2026-08-12
 sourceFile: ../raw/ai-google-googleatlasv1.pdf
 sourceUrl: https://ai.google/static/documents/GoogleATLASv1.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ GoogleATLASv1 已作为日报/周报 PDF 证据源入库，当前需要完成结
 - **来源类型**：media
 - **原文 URL**：https://ai.google/static/documents/GoogleATLASv1.pdf
 - **原始文件**：`knowledge/raw/ai-google-googleatlasv1.pdf`
-- **入库日期**：2026-08-11
+- **入库日期**：2026-08-12
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容

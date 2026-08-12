@@ -1,26 +1,26 @@
 ---
-title: Meta 06 30 2026 Exhibit 99 1 FINAL
-source: s21.q4cdn.com
+title: ai index report 2026 chapter 4 economy
+source: hai.stanford.edu
 date: 待核验
 ingested: 2026-08-12
-sourceFile: ../raw/s21-q4cdn-com-meta-06-30-2026-exhibit-99-1-final.pdf
-sourceUrl: https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/Meta-06-30-2026-Exhibit-99-1-FINAL.pdf
+sourceFile:
+sourceUrl: https://hai.stanford.edu/assets/files/ai_index_report_2026_chapter_4_economy.pdf
 tags: [AI组织设计]
-status: 已下载原始PDF，已生成结构化初筛卡片
+status: 已索引来源，PDF下载待重试
 ---
 
-# Meta 06 30 2026 Exhibit 99 1 FINAL
+# ai index report 2026 chapter 4 economy
 
 ## 一句话判断
 
-Meta 06 30 2026 Exhibit 99 1 FINAL 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
+ai index report 2026 chapter 4 economy 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
 
 ## 入库状态
 
-- **来源机构**：s21.q4cdn.com
+- **来源机构**：hai.stanford.edu
 - **来源类型**：media
-- **原文 URL**：https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/Meta-06-30-2026-Exhibit-99-1-FINAL.pdf
-- **原始文件**：`knowledge/raw/s21-q4cdn-com-meta-06-30-2026-exhibit-99-1-final.pdf`
+- **原文 URL**：https://hai.stanford.edu/assets/files/ai_index_report_2026_chapter_4_economy.pdf
+- **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
 - **入库日期**：2026-08-12
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
@@ -51,9 +51,7 @@ Meta 06 30 2026 Exhibit 99 1 FINAL 已作为日报/周报 PDF 证据源入库，
 
 ## 被引用位置
 
-- `specials/ai-org-talent-mechanism/weekly/2026-W31-detailed.md:250`：Meta Q2 2026 官方业绩
-- `specials/ai-org-talent-mechanism/weekly/2026-W31-quick.md:43`：Meta Q2 2026 官方业绩与电话会
-- `specials/ai-org-talent-mechanism/weekly/2026-W31.md:250`：Meta Q2 2026 官方业绩
+- `daily/2026-08-12.md:128`：Stanford AI Index 2026
 
 ## 后续精读任务
 

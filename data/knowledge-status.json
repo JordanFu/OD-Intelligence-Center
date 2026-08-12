@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-11T14:35:32.515Z",
+  "generatedAt": "2026-08-12T01:56:13.542Z",
   "module": "knowledge-base",
   "qualityStatus": "warn",
-  "latestCatalogDate": "2026-08-11",
+  "latestCatalogDate": "2026-08-12",
   "counts": {
-    "reports": 129,
+    "reports": 131,
     "knowledgeSources": 4,
     "sourceTypes": {
-      "media": 58,
+      "media": 60,
       "internal": 19,
       "concept": 10,
       "public-safe-synthesis": 11,
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "pdfRetryCount": 13,
+  "pdfRetryCount": 15,
   "pdfRetrySample": [
     {
       "id": "p001",
@@ -137,26 +137,48 @@
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1"
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "external link not hard-checked in Phase 1",
+    "network check warning: fetch failed",
+    "network check warning: fetch failed"
   ],
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-08-11T14:35:32.950Z",
+    "checkedAt": "2026-08-12T01:56:13.806Z",
     "qualityStatus": "warn",
-    "firstPartyChecked": 2712,
-    "externalWarnings": 42,
+    "firstPartyChecked": 2719,
+    "externalWarnings": 60,
     "brokenCount": 0,
     "publicScanBridge": [
       {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-11.html"
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-12.html",
+        "reason": "network check warning: fetch failed"
       },
       {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/"
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/",
+        "reason": "network check warning: fetch failed"
       }
     ]
   }
