@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T14:35:51.147Z",
+  "generatedAt": "2026-08-13T02:05:39.396Z",
   "module": "topic-projects",
   "project": {
     "id": "ai-org-talent-mechanism",
@@ -8,10 +8,10 @@
   },
   "qualityStatus": "fail",
   "latestFormalDate": "2026-08-12",
-  "latestAnyDate": "2026-08-12",
-  "today": "2026-08-12",
-  "todayStatus": "formal",
-  "latestStatus": "formal",
+  "latestAnyDate": "2026-08-13",
+  "today": "2026-08-13",
+  "todayStatus": "scheduled",
+  "latestStatus": "scheduled",
   "pendingRerunDates": [
     "2026-08-09",
     "2026-07-13",
@@ -34,6 +34,7 @@
     "2026-05-13"
   ],
   "statusCounts": {
+    "scheduled": 1,
     "formal": 73,
     "fallback": 19
   },
@@ -45,6 +46,63 @@
     "missing": "缺失：日期目录或必要文件不存在。"
   },
   "dates": [
+    {
+      "date": "2026-08-13",
+      "status": "scheduled",
+      "isFormal": false,
+      "isFallback": false,
+      "needsRerun": false,
+      "overview": null,
+      "overviewMarkdown": null,
+      "index": null,
+      "topicReports": [
+        {
+          "title": "overview",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        },
+        {
+          "title": "flat-organization",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        },
+        {
+          "title": "talent-density",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        },
+        {
+          "title": "job-family-career-architecture",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        },
+        {
+          "title": "promotion-system",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        }
+      ],
+      "missingRequired": [
+        "00-overview.md",
+        "01-flat-organization.md",
+        "02-talent-density.md",
+        "03-job-family-career-architecture.md",
+        "04-promotion-system.md"
+      ],
+      "hasFormalEntry": false,
+      "qualityGate": {
+        "path": null,
+        "status": "not-found"
+      },
+      "qualityIssues": [
+        "未到今日 18:00 正式自动化运行时间"
+      ]
+    },
     {
       "date": "2026-08-12",
       "status": "formal",
@@ -4602,10 +4660,10 @@
     }
   ],
   "links": {
-    "checkedAt": "2026-08-12T14:35:55.258Z",
+    "checkedAt": "2026-08-13T02:05:50.827Z",
     "qualityStatus": "fail",
-    "firstPartyChecked": 2744,
-    "externalWarnings": 58,
+    "firstPartyChecked": 2747,
+    "externalWarnings": 50,
     "brokenCount": 1,
     "publicScanBridge": [
       {
@@ -4623,14 +4681,6 @@
     ]
   },
   "warnings": [
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
