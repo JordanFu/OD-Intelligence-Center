@@ -1,11 +1,11 @@
 # 系统健康状态
 
-> 自动生成：2026-08-13T14:37:08.519Z
+> 自动生成：2026-08-14T01:56:41.985Z
 
 ## 一眼判断
 
 - 总体状态：⚠️ warn
-- 情报流状态：⚠️ warn
+- 情报流状态：✅ pass
 - 专题研究状态：⚠️ warn
 - 知识库状态：⚠️ warn
 - 自动化状态：⚠️ warn
@@ -14,26 +14,26 @@
 
 ## 情报流状态
 
-- 最新日期：2026-08-13
-- 今日卡片数：12
-- 今日新增事实：6
-- 旧线复核 / Context：2
-- 弱信号：3
-- 缺口记录：1
-- 渠道覆盖：媒体、报告学术、官方、JD薪酬、社媒公众号
+- 最新日期：2026-08-14
+- 今日卡片数：11
+- 今日新增事实：5
+- 旧线复核 / Context：0
+- 弱信号：4
+- 缺口记录：2
+- 渠道覆盖：官方、报告学术、媒体、社媒公众号、JD薪酬
 - sourceUrl 缺失：0
 
 ## 专题研究状态
 
-- 今日日期：2026-08-13
-- 今日专题状态：formal
+- 今日日期：2026-08-14
+- 今日专题状态：scheduled
 - 最新正式日报日期：2026-08-13
 - 待正式重跑日期数：19
 - 待正式重跑日期：2026-08-09、2026-07-13、2026-07-12、2026-07-11、2026-07-06、2026-07-03、2026-06-22、2026-06-11、2026-06-10、2026-06-01、2026-05-29、2026-05-28 等 19 项
 
 ## 知识库状态
 
-- Catalog 日期：2026-08-13
+- Catalog 日期：2026-08-14
 - 知识源：4
 - 报告 / 知识页：131
 - 待重试 PDF：13
@@ -42,10 +42,10 @@
 
 ## 自动化状态
 
-- 本地正式任务：confirmed-formal
+- 本地正式任务：scheduled
 - GitHub Actions 角色：fallback-only
 - GitHub Actions 定时数：4
-- 信息库链路：⚠️ warn
+- 信息库链路：✅ pass
 - 专题链路：⚠️ warn
 - 知识库 lint 链路：✅ pass
 - 链接检查链路：⚠️ warn
@@ -53,8 +53,8 @@
 ## 链接检查
 
 - 一方断链数：0
-- 外部链接 warning：50
-- 公开扫描桥接：ok:200、ok:200、ok:200
+- 外部链接 warning：0
+- 公开扫描桥接：未检查
 
 ## 质量语义
 
@@ -65,23 +65,6 @@
 ## 当前问题
 
 - ✅ 无 P0 fail。
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ knowledge/catalog.json 的 reports 存在 3 组重复 summaryFile。
+- ⚠️ 专题研究状态为 warn
+- ⚠️ 专题待正式重跑 19 天

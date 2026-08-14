@@ -2,7 +2,7 @@
 title: Claude Opus 5 System Card
 source: Anthropic
 date: 待核验
-ingested: 2026-08-13
+ingested: 2026-08-14
 sourceFile: ../raw/anthropic-claude-opus-5-system-card.pdf
 sourceUrl: https://www-cdn.anthropic.com/c5fbac3f0b1280a933ebd26d3cb8bb9f5bdeaf48/Claude%20Opus%205%20System%20Card.pdf
 tags: [AI组织设计, 人才发展]
@@ -21,7 +21,7 @@ Claude Opus 5 System Card 已作为日报/周报 PDF 证据源入库，当前需
 - **来源类型**：industry
 - **原文 URL**：https://www-cdn.anthropic.com/c5fbac3f0b1280a933ebd26d3cb8bb9f5bdeaf48/Claude%20Opus%205%20System%20Card.pdf
 - **原始文件**：`knowledge/raw/anthropic-claude-opus-5-system-card.pdf`
-- **入库日期**：2026-08-13
+- **入库日期**：2026-08-14
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
@@ -55,6 +55,8 @@ Claude Opus 5 System Card 已作为日报/周报 PDF 证据源入库，当前需
 - `specials/ai-org-talent-mechanism/2026-07-25/00-overview.md:39`：System Card PDF
 - `specials/ai-org-talent-mechanism/2026-07-25/03-job-family-career-architecture.md:25`：Claude Opus 5 System Card PDF
 - `specials/ai-org-talent-mechanism/2026-07-25/03-job-family-career-architecture.md:185`：Claude Opus 5 System Card PDF
+- `外部公开 PDF 扫描:92`：公开安全引用：来源与渠道：Anthropic 官方发布 https://www.anthropic.com/news/claude-opus-5；Claude Opus 5 System Card PDF 。
+- `外部公开 PDF 扫描:189`：公开安全引用：| Anthropic System Card |  | Anthropic | 发布门控与评测证据 | A | 是 |
 
 ## 后续精读任务
 

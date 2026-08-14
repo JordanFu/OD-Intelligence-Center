@@ -2,7 +2,7 @@
 title: EY：Future of Pay Report 2026
 source: EY
 date: 待核验
-ingested: 2026-08-13
+ingested: 2026-08-14
 sourceFile: ../raw/ey-ey-future-of-pay-report-2026.pdf
 sourceUrl: https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf
 tags: [AI组织设计, 绩效管理]
@@ -21,7 +21,7 @@ EY 把未来薪酬改革连接到技能、绩效、AI 人才、生产率和治�
 - **来源类型**：consulting
 - **原文 URL**：https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf
 - **原始文件**：`knowledge/raw/ey-ey-future-of-pay-report-2026.pdf`
-- **入库日期**：2026-08-13
+- **入库日期**：2026-08-14
 - **证据层级**：结论层可用，但具体薪酬数字需按地区/样本复核。
 
 ## 核心内容
