@@ -1,20 +1,21 @@
 {
-  "generatedAt": "2026-08-14T01:56:41.930Z",
+  "generatedAt": "2026-08-14T03:36:04.502Z",
   "module": "automation",
-  "qualityStatus": "warn",
+  "qualityStatus": "fail",
   "chains": {
     "infoFeed": {
-      "qualityStatus": "pass",
+      "qualityStatus": "fail",
       "latestDate": "2026-08-14",
       "latestCardCount": 11,
       "newFactCount": 5
     },
     "topicProjects": {
-      "qualityStatus": "warn",
+      "qualityStatus": "fail",
       "today": "2026-08-14",
-      "todayStatus": "scheduled",
+      "todayStatus": "fallback",
       "latestFormalDate": "2026-08-13",
       "pendingRerunDates": [
+        "2026-08-14",
         "2026-08-09",
         "2026-07-13",
         "2026-07-12",
@@ -43,9 +44,9 @@
       "privatePathLeakCount": 0
     },
     "linkCheck": {
-      "qualityStatus": "warn",
-      "brokenCount": 0,
-      "checkedAt": null
+      "qualityStatus": "fail",
+      "brokenCount": 1,
+      "checkedAt": "2026-08-14T03:36:04.448Z"
     },
     "githubActionsFallback": {
       "status": "pass",
@@ -69,14 +70,16 @@
       "criticalIssues": []
     },
     "localFormalTask": {
-      "status": "scheduled",
+      "status": "manual-check-required",
       "evidence": "仅根据 topic-projects manifest 判断；无法从云端伪造本地正式运行完成。"
     }
   },
   "warnings": [
-    "专题研究状态为 warn",
-    "专题待正式重跑 19 天"
+    "本地正式任务无法确认已完成，需要人工补跑或等待正式自动化",
+    "专题待正式重跑 20 天"
   ],
-  "criticalIssues": [],
+  "criticalIssues": [
+    "一方链接或公开扫描桥接存在 fail"
+  ],
   "operatingRule": "GitHub Actions 只能兜底、审计和记录状态；正式研究完成只能由 formal 条件确认。"
 }
