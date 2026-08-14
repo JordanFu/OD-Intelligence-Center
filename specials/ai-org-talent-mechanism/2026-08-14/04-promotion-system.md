@@ -1,53 +1,142 @@
 # 2026-08-14｜专题四：未来组织的晋升机制
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+> 证据窗口：2026-08-13 09:50—2026-08-14 18:00 CST。最重要新增为 Business Insider 8 月 13 日 16:17 CST 的具名采访。**今日只证明 AI 正进入绩效证据与季度教练，不证明任何公司已经因此完成晋升、加薪或形成有效制度。**
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+## 读者应该带走什么
 
-## 今日一句话结论
+- AI 评审正在从“是否使用、用了多少”转向业务结果、质量、判断、知识扩散与可审计归因。
+- 永久职级仍应采用“持续识别＋即时分流回报＋固定横向校准＋受控周期外例外”。
+- 认证、技能徽章、一次项目和 AI 活跃度可触发项目准入、奖励或代理职责，不能自动兑换职级。
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+## 1. 今日一句话专题判断
 
-## 今日核心判断
+**AI 贡献可以随时识别、及时回报，但永久职级仍需固定横向校准；今天没有证据支持把登录、token、认证徽章或一次项目成果直接兑换晋升。**
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+## 2. 今日新增事实：只写可追溯事实
 
-## 今日背景材料
+| 事实 | 等级 | 能支持 | 不能支持 |
+|---|---:|---|---|
+| Gusto 在季度评审使用五类 AI archetype；报道明确的 observer、integrator、amplifier 分别代表未独立使用、纳入日常并持续改善结果、探索新用途并向同事扩散。CPO 称目的是统一教练语言，下一步才看影响。[Business Insider](https://www.businessinsider.com/companies-grading-employee-ai-skills-performance-reviews-2026-8) | 采访 L2；人才效果 L0-L1 | AI fluency 进入季度教练 | 已连接绩效等级、晋升、调薪或淘汰 |
+| General Assembly/EZRA 对 524 名美英领导者调查，47% 称 AI 已进入绩效评审；常见材料包括团队文档/流程、工具报告、KPI 改进和效率故事。[GA/EZRA](https://www.accessnewswire.com/newsroom/en/business-and-professional-services/business-leaders-still-primarily-use-ai-for-simple-tasks-study-f-1167022) | 描述性调查 L2；因果 L0 | 企业正在试验多种证据 | 员工覆盖、权重、公平或结果改善 |
+| Typeform 看速度与更有野心的产出；Merge 看 AI 使用质量、团队生产率和知识扩散。两者未披露量化评分、晋升窗口、薪酬权重与结果。[Business Insider](https://www.businessinsider.com/companies-grading-employee-ai-skills-performance-reviews-2026-8) | L2 采访；效果 L1 | adoption 向 impact 转移 | 有效晋升制度或行业普遍性 |
+| Amazon 关闭非正式 AI 使用榜，因有人制造任务爬榜；Duolingo 撤回“为了 AI 而评 AI”，回到岗位结果优先。[Business Insider](https://www.businessinsider.com/token-reckoning-amazon-uber-reassess-ai-investments-2026-6) | L2 | 使用量易游戏化 | 所有 adoption 指标都无用 |
+| Meta 诉讼主张 AI/生产率排名可能忽略医疗或育儿假导致的低使用量，Meta 否认；诉状尚未裁定。[Business Insider](https://www.businessinsider.com/meta-faces-lawsuit-over-ai-driven-layoffs-targeting-leave-takers-2026-7) | 争议 L1 | 使用量需审计岗位/机会/休假差异 | 指控已证实或等于正式政策 |
+| IBM × OpenAI 把专家认证接入 Practice 与客户前置部署，但未披露认证的有效期、复证、职级、工资或晋升资格。[IBM](https://newsroom.ibm.com/2026-08-13-ibm-partners-with-openai-to-accelerate-secure-ai-deployment-for-enterprises-across-core-operations) | 动作 L2；人才效果 L0-L1 | 认证可作项目准入/派任信号 | 认证直连晋升或薪酬 |
+| Oracle HCM 26C Promotion Assistant 可按绩效、任职年限、政策/合同筛资格，汇总同事反馈与绩效并生成理由；一次只更新一人/一 assignment，保留现有审批流，不新增审批路径。[Oracle](https://docs.oracle.com/en/cloud/saas/readiness/hcm/26c/hure-26c/26C-hr-wn-f47397.htm) | 产品能力 L2-L3；制度效果 L0-L1 | AI 可辅助证据汇总和一致性检查 | AI 应裁决、即时晋升或公平改善 |
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+## 3. 今日核心判断：可信度、证据基础、为什么重要
 
-## 今日新增证据地图
+1. **增强的是绩效证据机制，不是晋升制度。可信度：高。**Gusto、Typeform、Merge 描述字段与教练语言；没有晋升结果。为什么重要：不能从“AI 进入 review”跳到“AI 决定晋升”。
+2. **AI 评审应从 adoption 转向 impact evidence。可信度：中高。**正面证据是质量、结果和知识扩散，反例是爬榜与撤回。为什么重要：登录、token、prompt、代码行容易游戏化，下一层级价值在判断、后果责任、复用和带教。
+3. **固定窗口仍是永久职级主干。可信度：高。**GitLab 的半年校准、岗位需要、预算、薪酬和多方审批仍是最完整制度基线；今天无默认随时晋升有效样本。[GitLab](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/) 为什么重要：贡献可当天识别，但职级改变同级公平、薪带、预算与机会。
+4. **认证/徽章适合连接项目准入、权限和限期津贴。可信度：高。**IBM 只把认证接到交付网络。为什么重要：认证证明某一时点知识，不证明跨周期更高责任。
+5. **绩效与晋升应“证据耦合、裁决解耦”。可信度：高。**绩效可包含 AI 贡献；晋升另外判断责任持续性、岗位长期需要、个人/团队归因、同级机会、公平与预算。
 
-| 渠道 | 当前状态 | 必须补齐 |
+## 4. 重点案例事实还原：从 Gusto 教练量表到 GitLab 晋升治理
+
+### 背景与时间线
+
+- 2025 年 Meta 等企业开始把 AI-driven impact 写入绩效期待。
+- 2026 年 2 月 Accenture 被报道将定期 AI 使用作为部分领导层晋升讨论的可见输入，但未公开权重和结果。
+- 4 月 Duolingo 撤回“为了 AI 而评 AI”；5—6 月 Amazon 撤非正式使用榜，Uber 质疑支出与结果关系。
+- 8 月 13 日，Gusto、Typeform、Merge 的具名采访显示评审转向 fluency、质量、结果与知识扩散。
+- GitLab 正式制度继续把同岗位族晋升放在固定窗口，内部岗位、代理职责和周期外例外走不同路由。
+
+### 十类机制还原
+
+| 机制 | 稳健设计 | 今日边界 |
 |---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+| 常规窗口 | 季度/半年横向校准，岗位族可差异化 | 无证据说明 AI 使窗口失效 |
+| 即时晋升 | 不作默认；证据完整且等待损害明确才例外 | 贡献识别不等于职级立即变更 |
+| 项目制晋升 | 单次战功先走项目奖、一次性股权、60—180天代理职责 | 项目不是永久职级兑换券 |
+| 岗位价值触发 | 长期扩大决策权、风险和影响才重评 | 速度/工作量不等于岗位升值 |
+| 认证/徽章 | 接项目准入、权限、津贴、有效期和复证 | 不自动接职级/工资 |
+| AI 贡献度 | 看基线、业务结果、质量、返工、风险、复用、带教、净结果 | 禁止按登录/token/代码行排序 |
+| 同行评审 | 核验专业质量、归因与跨团队影响 | 不能做人气投票 |
+| 人才委员会 | 校准层级、机会暴露、群体差异和例外 | AI/经理不独立裁决 |
+| 薪酬校准 | 倒挂优先调薪、系数、股权刷新、留任奖 | 不用虚升解决价格 |
+| 绩效耦合 | 共享事实、分开裁决 | 高绩效不自动创造高一级岗位 |
 
-## 线索层
+### 评审分工与程序
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+员工/经理持续积累原始证据；专业同行核质量和个人归因；业务负责人确认长期岗位需要；人才委员会横向校准；People BP/Total Rewards/FP&A 校核公平、薪带和预算；周期外例外沿用同等证据，并增加等待损害、更高审批和下窗复盘。Oracle 可做检索、格式统一、缺项/矛盾提示，不能替代任何裁决人。
 
-## 待补齐的落地问题
+### 结果、争议、阻碍、可借鉴与不可照搬
 
-正式重跑必须回答：AI 贡献如何进入晋升证据包、谁负责验证与质量、是否有校准机制、是否存在调岗降薪和劳动合规风险。
+**已知：**企业从简单使用量转向结果、质量、复用、带教和季度教练。**未知：**候选/晋升率、调薪、群体差异、申诉改判和晋升后效。
 
-## 来源索引
+争议包括：不同岗位 AI 适用性与工具访问不同；好工具和高可见项目带来机会优势；团队结果被个人占有；多 Agent 使归因更难；休假与合理便利可能被活动数据误伤。
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+可借鉴 Gusto 的教练定位、Merge 的知识扩散、GitLab 的横向校准与薪酬预算。不可照搬登录输入或不完整的五档分类作为硬门槛。
+
+## 5. 背景材料与 Context 层
+
+- **暂不形成结论，但提示我们关注……**Gusto 五档未来可能进入等级/薪酬；目前只证明分类与对话，另两档名称也未公开。
+- **暂不形成结论，但提示我们关注……**Meta、Google、Accenture 的耦合强度不同，不能拼成统一制度。
+- **暂不形成结论，但提示我们关注……**IBM 认证若接项目准入、津贴和复证，可能形成可用链；当前未连接晋升。
+- **暂不形成结论，但提示我们关注……**Oracle 提高材料一致性，也可能把历史绩效、任职年限和政策偏差复制到候选池；保留审批不代表前端无偏。
+- **反例：**Duolingo 撤回使用评审、Amazon 榜单被游戏化，直接削弱“用得越多、贡献越大”。
+- **冲突：**知识分享可产生复用价值，也可能让高可见分享者压过解决低可见高风险问题的人。
+- **线索：**LinkedIn 当日对 AI 评审可能放大性别差距与纠错负担的讨论只有极小互动，只作 L1 Context。
+
+## 6. 证据地图
+
+| 渠道 | 材料 | 等级 | 边界 |
+|---|---|---:|---|
+| 官方/一手 | IBM、Anthropic、Oracle、GitLab | L2-L3 | 认证/产品/制度，不是人才后效 |
+| 权威媒体/调查 | BI 具名采访、GA/EZRA | L2 | 管理意图与字段，不是公平因果 |
+| 公司案例 | Gusto、Typeform、Merge 等 | 事实 L2/效果 L1 | 无行业普遍性 |
+| 学术/专业 | Anthropic 多 Agent | L2 | 归因/治理风险，非晋升实验 |
+| 招聘薪酬 | 今日无合格新增 | 缺口 | 不用 JD 补结论 |
+| 社媒/职场 | Meta 诉讼、LinkedIn | L1 | 指控/观点未验证 |
+| 内部知识库 | baseline、GitLab、可审计证据卡 | 校准 | 不增加外部样本 |
+
+## 7. 对我们行动的启发｜落地启发
+
+**管理层该问：**当前痛点是认可慢、定价慢、授权慢还是职级慢？哪些贡献只需即时奖励，哪些已证明岗位价值长期改变？
+
+### 分流回报架构
+
+| 触发事实 | 默认路由 | 永久职级 |
+|---|---|---|
+| 一次高价值 AI 项目 | 项目奖、一次性股权、公开认可 | 否 |
+| 短期更大责任 | 60—180天 acting scope＋临时授权 | 暂不 |
+| 认证/徽章 | 项目准入、权限、学习路径、限期津贴、复证 | 否 |
+| 质量与知识扩散 | 进入绩效证据包 | 不自动 |
+| 决策权/风险/影响永久扩大 | 岗位重评＋固定窗口晋升＋薪酬校准 | 是 |
+| 市场稀缺/倒挂 | 带宽、稀缺系数、股权刷新、留任奖 | 原则上否 |
+| 等待造成可证明损害 | 高门槛周期外晋升 | 例外 |
+
+### AI 参与评审的红线
+
+- **允许：**检索原始事实、统一格式、按框架检查缺项、提示矛盾、汇总同行反馈。
+- **禁止：**用登录、token、prompt、代码量或 AI 检测概率自动进入/排除候选池；自动预测潜力、排名、职级、金额、降级或淘汰。
+- **必须记录：**任务基线、业务结果、质量、返工、风险、人工判断、人/团队/Agent 归因、复用、失败复盘和验证人。
+- **程序权利：**知情、查看、更正、补证、替代解释、不同角色复核、有理由决定和独立申诉。
+- **公平审计：**岗位适用性、工具访问、休假/合理便利、项目暴露，以及性别、年龄、地区、职级差异和申诉改判。
+
+## 8. 待验证清单与下一步搜索路径
+
+1. Gusto 完整五档、行为锚点、岗位差异、经理训练、评分权重和申诉。
+2. Gusto/Typeform/Merge 是否接晋升、调薪、淘汰及实际人数/结果。
+3. Accenture AI 登录输入的权重、地区豁免、候选/通过率和群体差异。
+4. 区分 Meta 正式政策与诉讼所称排序工具，跟踪字段、休假与裁决。
+5. IBM 认证的项目准入、津贴、薪带、复证和内部流动。
+6. Oracle 客户部署的人工推翻、候选差异、错误更正、申诉和审批耗时。
+7. 第二家公司完整“固定窗口＋例外＋薪酬＋委员会＋申诉＋晋升后效”。
+8. 多 Agent 工作的个人/团队归因、资产 owner、质量、仲裁和停止权。
+
+## 9. 来源索引
+
+1. [Business Insider｜AI 进入绩效评审](https://www.businessinsider.com/companies-grading-employee-ai-skills-performance-reviews-2026-8)，L2/效果 L1。
+2. [GA/EZRA 调查](https://www.accessnewswire.com/newsroom/en/business-and-professional-services/business-leaders-still-primarily-use-ai-for-simple-tasks-study-f-1167022)，L2。
+3. [Amazon/Uber 使用量反例](https://www.businessinsider.com/token-reckoning-amazon-uber-reassess-ai-investments-2026-6)，L2。
+4. [IBM × OpenAI](https://newsroom.ibm.com/2026-08-13-ibm-partners-with-openai-to-accelerate-secure-ai-deployment-for-enterprises-across-core-operations)，L2。
+5. [Oracle Promotion Assistant](https://docs.oracle.com/en/cloud/saas/readiness/hcm/26c/hure-26c/26C-hr-wn-f47397.htm)，产品 L2-L3。
+6. [GitLab Promotions and Transfers](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/)，制度 L3/效果 L1。
+7. [Anthropic multiagent systems](https://www.anthropic.com/research/multiagent-systems)，实验 L2。
+8. 内部校准：晋升 baseline/evidence-map、GitLab 与可审计晋升知识卡。
+
+---
+
+*2026-08-14 18:00 CST · 专题代理独立研究，主代理交叉验证。*
