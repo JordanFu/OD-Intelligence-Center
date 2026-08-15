@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T02:03:48.736Z",
+  "generatedAt": "2026-08-15T02:30:35.300Z",
   "module": "knowledge-base",
   "qualityStatus": "fail",
   "latestCatalogDate": "2026-08-15",
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "pdfRetryCount": 14,
+  "pdfRetryCount": 13,
   "pdfRetrySample": [
     {
       "id": "p001",
@@ -152,9 +152,9 @@
     }
   ],
   "links": {
-    "checkedAt": "2026-08-15T02:03:57.001Z",
+    "checkedAt": "2026-08-15T02:30:35.796Z",
     "qualityStatus": "fail",
-    "firstPartyChecked": 2801,
+    "firstPartyChecked": 2825,
     "externalWarnings": 44,
     "brokenCount": 1,
     "publicScanBridge": [
