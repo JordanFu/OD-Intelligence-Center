@@ -52,6 +52,7 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 ## 被引用位置
 
 - `daily/2026-08-15.md:63`：PDF
+- `specials/ai-org-talent-mechanism/2026-08-15/04-promotion-system.md:19`：PDF
 
 ## 后续精读任务
 
