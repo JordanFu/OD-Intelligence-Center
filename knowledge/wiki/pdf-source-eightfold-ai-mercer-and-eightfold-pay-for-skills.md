@@ -2,7 +2,7 @@
 title: Mercer and Eightfold Pay for Skills
 source: eightfold.ai
 date: 待核验
-ingested: 2026-08-14
+ingested: 2026-08-15
 sourceFile: ../raw/eightfold-ai-mercer-and-eightfold-pay-for-skills.pdf
 sourceUrl: https://eightfold.ai/wp-content/uploads/Mercer_and_Eightfold_Pay_for_Skills.pdf
 tags: [AI组织设计, 绩效管理, 人才发展]
@@ -21,7 +21,7 @@ Mercer and Eightfold Pay for Skills 已作为日报/周报 PDF 证据源入库�
 - **来源类型**：media
 - **原文 URL**：https://eightfold.ai/wp-content/uploads/Mercer_and_Eightfold_Pay_for_Skills.pdf
 - **原始文件**：`knowledge/raw/eightfold-ai-mercer-and-eightfold-pay-for-skills.pdf`
-- **入库日期**：2026-08-14
+- **入库日期**：2026-08-15
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容

@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-14T14:30:43.584Z",
+  "generatedAt": "2026-08-15T02:03:48.736Z",
   "module": "knowledge-base",
-  "qualityStatus": "warn",
-  "latestCatalogDate": "2026-08-14",
+  "qualityStatus": "fail",
+  "latestCatalogDate": "2026-08-15",
   "counts": {
-    "reports": 131,
+    "reports": 132,
     "knowledgeSources": 4,
     "sourceTypes": {
-      "media": 60,
+      "media": 61,
       "internal": 19,
       "concept": 10,
       "public-safe-synthesis": 11,
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "pdfRetryCount": 13,
+  "pdfRetryCount": 14,
   "pdfRetrySample": [
     {
       "id": "p001",
@@ -139,35 +139,31 @@
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
-    "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1"
   ],
   "criticalIssues": [],
-  "brokenLinks": [],
+  "brokenLinks": [
+    {
+      "type": "public-scan",
+      "sourceFile": "data/info-feed-status.json",
+      "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-15.html",
+      "reason": "public scan bridge returned 404",
+      "status": 404
+    }
+  ],
   "links": {
-    "checkedAt": "2026-08-14T14:30:44.007Z",
-    "qualityStatus": "warn",
-    "firstPartyChecked": 2796,
-    "externalWarnings": 58,
-    "brokenCount": 0,
+    "checkedAt": "2026-08-15T02:03:57.001Z",
+    "qualityStatus": "fail",
+    "firstPartyChecked": 2801,
+    "externalWarnings": 44,
+    "brokenCount": 1,
     "publicScanBridge": [
       {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-14.html"
+        "ok": false,
+        "hardBroken": true,
+        "status": 404,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-15.html",
+        "reason": "public scan bridge returned 404"
       },
       {
         "ok": true,

@@ -2,7 +2,7 @@
 title: gov.uscourts.cand.474095.59.0
 source: storage.courtlistener.com
 date: 待核验
-ingested: 2026-08-14
+ingested: 2026-08-15
 sourceFile: ../raw/storage-courtlistener-com-gov-uscourts-cand-474095-59-0.pdf
 sourceUrl: https://storage.courtlistener.com/recap/gov.uscourts.cand.474095/gov.uscourts.cand.474095.59.0.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ gov.uscourts.cand.474095.59.0 已作为日报/周报 PDF 证据源入库，当�
 - **来源类型**：media
 - **原文 URL**：https://storage.courtlistener.com/recap/gov.uscourts.cand.474095/gov.uscourts.cand.474095.59.0.pdf
 - **原始文件**：`knowledge/raw/storage-courtlistener-com-gov-uscourts-cand-474095-59-0.pdf`
-- **入库日期**：2026-08-14
+- **入库日期**：2026-08-15
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
@@ -55,6 +55,8 @@ gov.uscourts.cand.474095.59.0 已作为日报/周报 PDF 证据源入库，当�
 - `specials/ai-org-talent-mechanism/2026-08-07/00-overview.md:163`：法院文件
 - `specials/ai-org-talent-mechanism/2026-08-07/02-talent-density.md:40`：法院文件
 - `specials/ai-org-talent-mechanism/2026-08-07/02-talent-density.md:170`：法院文件
+- `外部公开 PDF 扫描:65`：公开安全引用：驳回动议原件
+- `外部公开 PDF 扫描:175`：公开安全引用：| CourtListener |  | OpenAI / Apple | Motion to Dismiss 原件 | A | 是 |
 
 ## 后续精读任务
 
