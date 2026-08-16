@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T02:38:46.794Z",
+  "generatedAt": "2026-08-16T10:43:20.657Z",
   "module": "info-feed",
   "qualityStatus": "fail",
   "latestDate": "2026-08-16",
@@ -525,7 +525,9 @@
     "external link not hard-checked in Phase 1",
     "external link not hard-checked in Phase 1"
   ],
-  "criticalIssues": [],
+  "criticalIssues": [
+    "一方内部链接存在断链：1 条；需先运行或修复链接检查。"
+  ],
   "brokenLinks": [
     {
       "type": "public-scan",
@@ -536,7 +538,7 @@
     }
   ],
   "links": {
-    "checkedAt": "2026-08-16T02:38:51.256Z",
+    "checkedAt": "2026-08-16T10:43:25.137Z",
     "qualityStatus": "fail",
     "firstPartyChecked": 2851,
     "externalWarnings": 46,
