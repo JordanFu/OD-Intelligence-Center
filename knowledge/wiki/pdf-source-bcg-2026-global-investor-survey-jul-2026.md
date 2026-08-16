@@ -2,7 +2,7 @@
 title: 2026 global investor survey jul 2026
 source: BCG
 date: 待核验
-ingested: 2026-08-15
+ingested: 2026-08-16
 sourceFile:
 sourceUrl: https://web-assets.bcg.com/e5/62/d97347af4faf8355ca0400f5dbee/2026-global-investor-survey-jul-2026.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ status: 已索引来源，PDF下载待重试
 - **来源类型**：consulting
 - **原文 URL**：https://web-assets.bcg.com/e5/62/d97347af4faf8355ca0400f5dbee/2026-global-investor-survey-jul-2026.pdf
 - **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
-- **入库日期**：2026-08-15
+- **入库日期**：2026-08-16
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
