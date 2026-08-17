@@ -2,7 +2,7 @@
 title: 26 090 96f92aa0 37d9 4789 beaa 5c0cb87a4032
 source: hbs.edu
 date: 待核验
-ingested: 2026-08-16
+ingested: 2026-08-17
 sourceFile: ../raw/hbs-edu-26-090-96f92aa0-37d9-4789-beaa-5c0cb87a4032.pdf
 sourceUrl: https://www.hbs.edu/ris/Publication%20Files/26-090_96f92aa0-37d9-4789-beaa-5c0cb87a4032.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 - **来源类型**：media
 - **原文 URL**：https://www.hbs.edu/ris/Publication%20Files/26-090_96f92aa0-37d9-4789-beaa-5c0cb87a4032.pdf
 - **原始文件**：`knowledge/raw/hbs-edu-26-090-96f92aa0-37d9-4789-beaa-5c0cb87a4032.pdf`
-- **入库日期**：2026-08-16
+- **入库日期**：2026-08-17
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容

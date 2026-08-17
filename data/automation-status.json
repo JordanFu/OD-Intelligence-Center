@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T13:52:43.582Z",
+  "generatedAt": "2026-08-17T02:38:17.550Z",
   "module": "automation",
   "qualityStatus": "fail",
   "chains": {
@@ -11,10 +11,11 @@
     },
     "topicProjects": {
       "qualityStatus": "fail",
-      "today": "2026-08-16",
+      "today": "2026-08-17",
       "todayStatus": "fallback",
       "latestFormalDate": "2026-08-15",
       "pendingRerunDates": [
+        "2026-08-17",
         "2026-08-16",
         "2026-08-09",
         "2026-07-13",
@@ -39,14 +40,14 @@
     },
     "knowledgeLint": {
       "qualityStatus": "pass",
-      "latestCatalogDate": "2026-08-16",
+      "latestCatalogDate": "2026-08-17",
       "reportCount": 132,
       "privatePathLeakCount": 0
     },
     "linkCheck": {
       "qualityStatus": "fail",
       "brokenCount": 1,
-      "checkedAt": "2026-08-16T13:52:43.546Z"
+      "checkedAt": "2026-08-17T02:38:17.499Z"
     },
     "githubActionsFallback": {
       "status": "pass",
@@ -76,7 +77,7 @@
   },
   "warnings": [
     "本地正式任务无法确认已完成，需要人工补跑或等待正式自动化",
-    "专题待正式重跑 20 天"
+    "专题待正式重跑 21 天"
   ],
   "criticalIssues": [
     "一方链接或公开扫描桥接存在 fail"
