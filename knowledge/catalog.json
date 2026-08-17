@@ -3608,6 +3608,54 @@
         "arxiv.org"
       ],
       "originalUrl": "https://arxiv.org/pdf/2608.13022.pdf"
+    },
+    {
+      "id": "p073",
+      "title": "f232578",
+      "originalTitle": "f232578",
+      "author": "conference.nber.org",
+      "publisher": "conference.nber.org",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-08-17",
+      "description": "f232578 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-conference-nber-org-f232578.md",
+      "rawFile": "./knowledge/raw/conference-nber-org-f232578.pdf",
+      "fileName": "conference-nber-org-f232578.pdf",
+      "fileSize": "1904842 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "conference.nber.org"
+      ],
+      "originalUrl": "https://conference.nber.org/conf_papers/f232578.pdf"
+    },
+    {
+      "id": "p074",
+      "title": "new skill price",
+      "originalTitle": "new skill price",
+      "author": "elmerli.github.io",
+      "publisher": "elmerli.github.io",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-08-17",
+      "description": "new skill price 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-elmerli-github-io-new-skill-price.md",
+      "rawFile": "./knowledge/raw/elmerli-github-io-new-skill-price.pdf",
+      "fileName": "elmerli-github-io-new-skill-price.pdf",
+      "fileSize": "1080942 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "elmerli.github.io"
+      ],
+      "originalUrl": "https://elmerli.github.io/new_skill_price.pdf"
     }
   ]
 }
