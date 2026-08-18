@@ -1,6 +1,6 @@
 # 系统健康状态
 
-> 自动生成：2026-08-18T10:49:10.278Z
+> 自动生成：2026-08-18T10:50:33.716Z
 
 ## 一眼判断
 
@@ -45,7 +45,7 @@
 - 本地正式任务：confirmed-formal
 - GitHub Actions 角色：fallback-only
 - GitHub Actions 定时数：4
-- 信息库链路：✅ pass
+- 信息库链路：⚠️ warn
 - 专题链路：⚠️ warn
 - 知识库 lint 链路：✅ pass
 - 链接检查链路：⚠️ warn
@@ -53,8 +53,8 @@
 ## 链接检查
 
 - 一方断链数：0
-- 外部链接 warning：74
-- 公开扫描桥接：warn:n/a、warn:n/a
+- 外部链接 warning：72
+- 公开扫描桥接：ok:200、ok:200
 
 ## 质量语义
 
