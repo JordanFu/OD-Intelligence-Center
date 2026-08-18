@@ -23,7 +23,7 @@
 | Wiz 的 Red Agent 发现并验证 Snowflake 开源仓库 GitHub Actions 命令注入问题；Snowflake 6 月 23 日收到披露后当天修复、轮换凭证并审计。[Wiz](https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug) | L2 | 作者、AI 辅助审查、人工合并、独立安全验证、机器身份和事件处置需拆分责任 | 漏洞由 AI 编写、AI 代码普遍更不安全，或企业已建立 AI 安全序列 |
 | 相关变更带 Copilot 共同署名，并经人工审查后合并；Wiz 明确无法确认漏洞代码由 AI 生成 | L2 | 使用 AI 不会把最终合并与上线责任转给工具 | Copilot 标记是事故原因 |
 | FT 与 The Verge 报道 OpenAI 在 7 月底拆分独立 Preparedness 团队，将生物、网络等风险评测责任分配进现有团队。[The Verge](https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team) | L1 | 交付责任可能变宽，需追问深专业权力是否保留 | 治理增强、治理削弱或放弃安全；人数、预算、汇报线和授权未知 |
-| Relay 官方公布关停、导出及数据凭证删除安排；TechCrunch 报道部分员工加入 Chrome。[Relay](https://www.relay.app/) / [TechCrunch](https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/) | 关停 L2；去向 L1-L2 | 可移植、撤销凭证、数据删除、恢复和替代方案成为持续责任 | Google 收购或应由一次关停新建“供应商退出”序列 |
+| Relay 官方公布关停、导出及数据凭证删除安排；双方具名高管声明与 TechCrunch 报道互证负责人和数名同事加入 Chrome。[Relay](https://www.relay.app/) / [TechCrunch](https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/) | 关停 L2；去向 L3 结构事实 | 可移植、撤销凭证、数据删除、恢复和替代方案成为持续责任 | Google 收购或应由一次关停新建“供应商退出”序列 |
 | 多智能体编程预印本分析 1,902 次运行，提示共享工件可能降低部分通信成本，而指定协调者未稳定改善成功率。[arXiv](https://arxiv.org/abs/2608.16801) | L2 实验 | 协调机制依赖共享状态、接口和权限，不是只加负责人头衔 | 实验 token 节省等于企业人效 |
 
 ## 3. 今日核心判断
@@ -90,10 +90,10 @@
 
 | 渠道 | 今日状态 | 等级 | 用途与边界 |
 |---|---|---:|---|
-| 官方/一手 | Wiz—Snowflake、Relay 关停 | L2 | 责任拆分、退出责任；不证明新序列 |
-| 权威媒体/公司案例 | OpenAI Preparedness、Relay 去向 | L1-L2 | 嵌入式治理与人才流动线索，需正式制度核验 |
-| 学术/专业研究 | 严格窗口无新增；能力地图为旧 Context | 空窗/L2 方法 | 不升级旧结论 |
-| 招聘 JD | 无可验证新增；旧岗位只作 Context | L1 | 责任语言不等于编制、权限或序列 |
+| 官方/一手 | OpenAI PORTS-Pike、Wiz—Snowflake、Relay 关停、LG、Amazon JD | L1-L3 | 责任分层、退出责任和岗位语言；不证明新序列 |
+| 权威媒体/公司案例 | OpenAI Preparedness、Google/Relay 去向、理想研发重组 | L1-L3 结构 | 嵌入式治理与人才流动需继续核验权限和后效 |
+| 学术/专业研究 | 多智能体编程预印本；能力地图为旧 Context | L2 | 实验结果与方法不直推企业人效或序列 |
+| 招聘 JD | Amazon 运营、公共部门与 Ads 四类责任信号 | L1 | 责任语言不等于净新增、到岗、权限或序列 |
 | 薪酬信号 | 无新增；旧社媒统计方法不透明 | L1 | 只提示核验高级 IC 价格 |
 | 国内科技媒体 | 36氪、机器之心、虎嗅、界面严格窗口无稳定新增 | 空窗 | 不用标题补量 |
 | 社媒/职场线索 | Reddit、LinkedIn 从业者线索 | L0-L1 | 只作 Context，不进入核心结论 |
@@ -146,10 +146,15 @@
 3. [Financial Times｜OpenAI Preparedness 报道](https://www.ft.com/content/53082739-7714-4aae-9816-e55ab423cbee)，同一报道链 L1。
 4. [OpenAI｜Frontier Risk and Preparedness](https://openai.com/index/frontier-risk-and-preparedness/)，历史职责 L2；不代表当前授权。
 5. [Relay 官方关停说明](https://www.relay.app/)，退出、导出和凭证删除 L2。
-6. [TechCrunch｜Relay 员工去向](https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/)，去向报道 L1-L2。
+6. [TechCrunch｜Relay 员工去向](https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/)，具名当事人声明与媒体互证，L3 结构事实。
 7. [DeepLearning.AI｜AI Engineering Skills Map](https://www.deeplearning.ai/the-batch/the-ai-engineering-skills-map)，方法与发布 L2，行业外推 L1-L2。
 8. [ETHRWorld｜管理人和智能体](https://hr.economictimes.indiatimes.com/news/workplace-4-0/learning-and-development/navigating-leadership-in-the-age-of-ai-the-future-of-workforce-management/132884266)，历史公司访谈 L1-L2。
 9. [Reddit developersIndia 职场讨论](https://www.reddit.com/r/developersIndia/comments/1vqw866/what_is_going_on_with_jobs_currently_are_you_able/)，匿名线索 L0-L1。
+10. [OpenAI｜PORTS-Pike](https://openai.com/index/openai-joins-ports-pike-project)，跨公司责任分层 L3 结构事实。
+11. [Amazon Jobs｜Devices 运营项目经理](https://www.amazon.jobs/en/jobs/10504612/operations-program-manager)，宽责任信号 L1。
+12. [Amazon Jobs｜Ads Applied Scientist III](https://www.amazon.jobs/en/jobs/10504414/applied-scientist-iii-sponsored-products-and-brands-advertiser-growth-and-strategies)，深专业信号 L1。
+13. [LG｜机器人与具身智能中心](https://www.lg.com/global/newsroom/news/corporate/lg-electronics-accelerates-robotics-collaboration-with-nvidia/)，共享能力中心 L2。
+14. [arXiv｜多智能体编程协调实验](https://arxiv.org/abs/2608.16801)，预印本实验 L2。
 
 ---
 

@@ -21,9 +21,9 @@
 | 晚点基于近 20 名员工访谈披露理想研发转向基座模型、软件本体和机器人三团队，过去两年有多名骨干流动。[LatePost 转载](https://m.163.com/dy/article/L4IT1JJ30531M1CO.html) | 2026-08-18，L2 | 共享能力集中与关键人才流动并存 | 全部流动由重组导致或新结构已改善结果 |
 | Amazon AGI 增加培训与绩效运营责任，Amazon Ads 命名高级智能体科学责任。[Amazon AGI](https://www.amazon.jobs/en/jobs/10504681/senior-training-specialist-with-german-agi-data-services) | 2026-08-18，L1 JD | 执行责任变宽、深专业继续深化 | 到岗、组织规模、薪酬和运行后效 |
 | Wiz 的 Red Agent 在 Snowflake 开源仓库发现并验证 GitHub Actions 命令注入漏洞；Snowflake 称收到披露后当天修复、轮换凭证并审计。相关变更有 Copilot 共同署名，但 Wiz 不能确认漏洞代码由 AI 编写。[Wiz](https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug) | 2026-08-17，L2 | 生成、辅助审查、人工合并与独立验证不能互相替代 | AI 制造漏洞、AI 代码整体更不安全或 Snowflake 人才制度改变 |
-| Relay 官方确认关停、导出和数据凭证删除；创始人 Jacob Bank 表示加入 Google Chrome，TechCrunch 报道部分员工同行。[Relay](https://www.relay.app/) / [TechCrunch](https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/) | 2026-08-17，人员迁移 L2；机制 L1 | 关键工作流人才可通过定向团队迁移 | Google 收购、全员吸收、岗位安排、人才密度或整合成功 |
+| Relay 官方确认关停、导出和数据凭证删除。[Relay](https://www.relay.app/) | 2026-08-17，L2 | 迁移、凭证与数据连续性责任必须有人承接 | Google 收购、知识产权转移或整合成功 |
 | ExperiencedDevs 匿名讨论提到多智能体并行后清理、安全验证和知识转移负荷；同帖亦有相反观点。[Reddit](https://www.reddit.com/r/ExperiencedDevs/comments/1vrd7ap/experienced_devs_weekly_burnout_and_venting/) | 2026-08-18，L1 Context | 提示关注验证税、容量上限和倦怠 | 岗位普遍消失、AI 必然降质或团队必然缩编 |
-| 官方招聘、咨询和学术渠道无同时具备新发布日期、明确人才机制和结果数据的材料 | 缺口记录 | 应明确报告空窗 | 不能用旧 JD、栏目刷新或聚合器相对时间补新增 |
+| 咨询渠道无同时具备新发布日期、明确人才机制和结果数据的材料 | 缺口记录 | 应明确报告空窗 | 不能用旧报告、栏目刷新或聚合器相对时间补新增 |
 
 ## 3. 今日核心判断
 
@@ -90,11 +90,11 @@
 
 | 渠道 | 今日状态 | 等级 | 边界 |
 |---|---|---:|---|
-| 官方/一手 | Wiz、Relay、Bank 声明 | L2 | 责任分离、退出安排和个人去向；不证明人才制度 |
-| 权威媒体/公司案例 | TechCrunch 对团队去向报道 | L1-L2 | 全员范围与整合效果未知 |
+| 官方/一手 | Wiz、Relay、Google/Relay 具名高管声明、Amazon JD | L1-L3 | 责任分离、个人去向和岗位责任；不证明人才制度后效 |
+| 权威媒体/公司案例 | TechCrunch 团队去向、理想研发重组 | L2-L3 结构 | 全员范围、动因和整合效果未知 |
 | 咨询 | 严格窗口空窗；PwC 作基线 | L3 基线 | 全球研究不直推内部制度 |
 | 学术/研究 | 严格窗口空窗；NBER、IZA 作基线 | L3 基线 | 机制与反例，不是企业后效 |
-| 招聘 JD 与薪酬 | 无可核新岗或薪带 | 缺口 | 首发版本、净新增、真实 offer 与到岗未知 |
+| 招聘 JD 与薪酬 | Amazon 人类数据培训与高级科学责任；无新薪带 | JD L1／薪酬缺口 | 首发版本、净新增、真实 offer 与到岗未知 |
 | 社媒/职场线索 | ExperiencedDevs | L1 Context | 匿名样本不能承担趋势结论 |
 | 内部信息库/知识库 | daily/2026-08-18.md、baseline 与 8 月 17 日正式稿 | 校准层 | 同一来源加工链只算一次 |
 
@@ -125,12 +125,15 @@
 
 1. [Wiz｜Red Agent Snowflake disclosure](https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug)，2026-08-17，L2。
 2. [Relay 官方关停页](https://www.relay.app/)，退出、导出、数据和凭证安排 L2。
-3. [TechCrunch｜Relay 团队进入 Chrome](https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/)，2026-08-17。
+3. [TechCrunch｜Relay 团队进入 Chrome](https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/)，2026-08-17，具名当事人声明与媒体互证，L3 结构事实。
 4. [Reddit｜ExperiencedDevs](https://www.reddit.com/r/ExperiencedDevs/comments/1vrd7ap/experienced_devs_weekly_burnout_and_venting/)，2026-08-18，L1。
 5. [Netflix Culture](https://jobs.netflix.com/culture)，历史 L2。
 6. [PwC 2026 Global AI Jobs Barometer](https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-jobs-barometer.html)，L3。
 7. [NBER｜Pyramids, Diamonds, and Oscillations](https://conference.nber.org/conf_papers/f232578.pdf)，L3。
 8. [IZA｜Job Transformation, Specialization and AI](https://www.iza.org/publications/dp/18565/job-transformation-specialization-and-the-labor-market-effects-of-ai)，L3。
+9. [Amazon Jobs｜AGI Senior Training Specialist](https://www.amazon.jobs/en/jobs/10504681/senior-training-specialist-with-german-agi-data-services)，岗位责任信号 L1。
+10. [Amazon Jobs｜Ads Applied Scientist III](https://www.amazon.jobs/en/jobs/10504414/applied-scientist-iii-sponsored-products-and-brands-advertiser-growth-and-strategies)，深专业责任信号 L1。
+11. [网易转载 LatePost｜理想研发重组](https://m.163.com/dy/article/L4IT1JJ30531M1CO.html)，多员工访谈 L2；因果和后效待核。
 
 ---
 

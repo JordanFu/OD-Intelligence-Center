@@ -21,7 +21,7 @@
 | LG 宣布设 CEO 直属机器人中心并以数据工厂连接多家集团公司；理想据近 20 名员工访谈从功能团队转向基座模型、软件本体和机器人团队且伴随骨干流动。[LG](https://www.lg.com/global/newsroom/news/corporate/lg-electronics-accelerates-robotics-collaboration-with-nvidia/) | LG L2；理想 L2 | 共享能力集中与人才流动同时存在 | 中心化已改善商业结果；全部离职由重组导致 |
 | 阿里与信宸资本据内部信达成灵犀互娱交易协议，现管理团队继续留任。[第一财经](https://www.yicai.com/news/103320607.html) | L2 | 所有权边界外移、经营连续 | 交割完成、AI 聚焦动因或组织效率提升 |
 | FT 与 The Verge 报道，OpenAI 在 7 月底解散独立 Preparedness 团队，将生物、网络等风险评估职责分散到现有团队，原负责人转向递归式自我改进研究。[The Verge](https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team) / [FT](https://www.ft.com/content/53082739-7714-4aae-9816-e55ab423cbee) | L1 | 媒体报道中的组织调整叙事；[OpenAI 历史页面](https://openai.com/index/frontier-risk-and-preparedness/)可确认原团队公开职责 | 新编制、预算、汇报线、统一标准、独立复核、跨域升级与停止权；也不能确认治理增强或下降 |
-| Relay 官方确认关停、导出及数据凭证删除安排；TechCrunch 报道创始人与部分员工进入 Chrome。[Relay](https://www.relay.app/) / [TechCrunch](https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/) | 关停 L2；人员迁移 L2；组织解释 L1 | 供应商退出和局部人才迁移 | Google 收购、全员吸收、知识产权转移、减层或整合成效 |
+| Relay 官方确认关停、导出及数据凭证删除安排；TechCrunch 汇集的双方具名高管声明确认负责人和数名同事进入 Chrome。[Relay](https://www.relay.app/) / [TechCrunch](https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/) | 关停 L2；人员迁移 L3 结构事实；组织解释 L1 | 供应商退出和局部人才迁移 | Google 收购、全员吸收、知识产权转移、减层或整合成效 |
 | Wiz 披露自治安全智能体发现 Snowflake 已合并代码中的 GitHub Actions 漏洞；AI 辅助审查、人工合并与独立验证给出不同结果。[Wiz](https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug) | L2 邻近机制 | 交付与独立控制不能因使用 AI 而合并 | AI 生成了漏洞、AI 代码整体更不安全，或 Snowflake 因此减层 |
 | 严格窗口没有可核的新管理层级、经理占比、管理跨度、决策权迁移及减层后结果 | 检索结论 | 今日没有可升级的 L2/L3 减层事实 | 行业没有内部试点或历史改革没有后效 |
 
@@ -99,11 +99,11 @@ HR 要冻结调整前后的岗位、汇报线、编制、职级、薪带和关�
 
 | 渠道 | 本日使用 | 最高等级 | 边界 |
 |---|---|---:|---|
-| 官方/一手 | OpenAI 原职责页、Wiz、Relay | L2 | 不构成 OpenAI 新架构官方确认 |
+| 官方/一手 | Google/Relay 具名高管声明、LG、OpenAI 原职责页、Wiz、Relay | L2-L3 | 可确认局部岗位补位、能力上收和历史职责；不构成 OpenAI 新架构官方确认 |
 | 权威媒体/咨询 | FT、The Verge、TechCrunch；咨询严格窗口空窗 | L1-L2 | 同一媒体链不重复加权 |
 | 公司案例 | OpenAI、Intuit、Etsy、Block | L1-L3 动作 | 动作不等于运行结果 |
 | 学术/研究 | NBER 金字塔—钻石 | L3 | 机制反事实，不是企业后效 |
-| 招聘 JD 与薪酬 | 今日无可核新增 | 缺口 | 静态岗位页与聚合器刷新不算新编制 |
+| 招聘 JD 与薪酬 | 无直接回答层级、跨度或中层薪酬的新增 | 专题缺口 | Amazon 等当日 JD 责任信号不能证明减层或管理编制 |
 | 社媒/职场线索 | 工程师并行智能体讨论 | L1 Context | 匿名与选择偏差，不证明公司事实 |
 | 内部信息库/知识库 | `daily/2026-08-18.md`、8 月 17 日正式专题、rolling baseline | 校准层 | 加工链不增加外部样本数 |
 
@@ -136,11 +136,13 @@ HR 要冻结调整前后的岗位、汇报线、编制、职级、薪带和关�
 3. [Financial Times｜OpenAI Preparedness 报道](https://www.ft.com/content/53082739-7714-4aae-9816-e55ab423cbee)，与 The Verge 按同一报道链处理，L1。
 4. [Wiz｜Snowflake Copilot CI/CD bug](https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug)，2026-08-17，一手技术披露 L2。
 5. [Relay｜关停说明](https://www.relay.app/)，关停和迁移安排 L2。
-6. [TechCrunch｜Relay 团队进入 Chrome](https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/)，2026-08-17，人员迁移报道。
+6. [TechCrunch｜Relay 团队进入 Chrome](https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/)，2026-08-17，具名当事人声明与媒体互证，L3 结构事实。
 7. [Intuit｜SEC 员工信](https://www.sec.gov/Archives/edgar/data/896878/000089687826000024/fy26q3-ex9902.htm)，2026-05-20，减层与决策下沉动作 L3。
 8. [Etsy｜Evolving Etsy's structure](https://www.etsy.com/news/evolving-etsyas-structure-for-the-future)，2026-08-05，动因反证 L2。
 9. [NBER｜Pyramids, Diamonds, and Oscillations](https://conference.nber.org/conf_papers/f232578.pdf)，2026-04-10，工作论文 L3。
 10. [Sequoia / Block｜From Hierarchy to Intelligence](https://sequoiacap.com/article/from-hierarchy-to-intelligence/)，2026-03-31，角色拆分设计 L2-L3；后效未知。
+11. [LG｜机器人与具身智能中心](https://www.lg.com/global/newsroom/news/corporate/lg-electronics-accelerates-robotics-collaboration-with-nvidia/)，CEO 直属共享中心 L2。
+12. [第一财经｜阿里灵犀互娱交易](https://www.yicai.com/news/103320607.html)，所有权边界调整 L2。
 
 ---
 

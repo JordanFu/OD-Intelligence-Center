@@ -115,11 +115,11 @@
 
 | 渠道 | 今日使用 | 最高等级 | 边界 |
 |---|---|---:|---|
-| 官方/一手 | Wiz、Relay、OpenAI 历史职责与活动页 | L2 | 证明技术事件、退出安排和历史职责，不证明组织后效 |
+| 官方/一手 | Google/Relay 具名高管声明、OpenAI PORTS-Pike、LG、Wiz、Amazon JD | L1-L3 | 证明结构分工、职位责任和技术事件，不证明组织后效 |
 | 权威媒体/咨询 | FT、The Verge、TechCrunch；咨询严格窗口空窗 | L1-L2 | 同一报道链不重复加权；旧咨询不包装成新增 |
-| 公司案例 | OpenAI、Snowflake/Wiz、Relay、GitLab、Intuit、Etsy | L1-L3 动作/制度 | 动作和公开规则不等于运行结果 |
-| 学术/研究 | NBER、PwC、IZA 历史基线 | L3 | 支持机制和反例，不是单家公司事实 |
-| 招聘 JD 与薪酬 | 严格窗口无可核新增 | 缺口 | 静态页、聚合器刷新不证明新编制或实际授予 |
+| 公司案例 | Google/Relay、OpenAI、LG、理想、阿里、Snowflake/Wiz、GitLab、Intuit、Etsy | L1-L3 动作/制度 | 动作和公开规则不等于运行结果 |
+| 学术/研究 | 多智能体编程预印本；NBER、PwC、IZA 历史基线 | L1-L3 | 实验与跨市场研究不能直推单家公司后效 |
+| 招聘 JD 与薪酬 | Amazon AGI、Devices、AWS 公共部门、Ads 责任信号；无新薪带 | JD L1／薪酬缺口 | 职责命名不证明净新增、实际权限、到岗或实际授予 |
 | 社媒/职场线索 | ExperiencedDevs、developersIndia | L0-L1 | 只用于发现问题，不承担趋势结论 |
 | 内部信息库/知识库 | `daily/2026-08-18.md`、`daily-report/`、近 14 天正式专题、rolling baselines | 校准层 | 同一外部根多次加工只计一次 |
 
@@ -130,13 +130,19 @@
 3. [The Verge｜OpenAI Preparedness 调整](https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team)，媒体组织信号 L1。
 4. [Financial Times｜OpenAI Preparedness 报道](https://www.ft.com/content/53082739-7714-4aae-9816-e55ab423cbee)，同一媒体链 L1。
 5. [Relay 官方关停说明](https://www.relay.app/)，退出、导出、数据和凭证安排 L2。
-6. [TechCrunch｜Relay 团队进入 Chrome](https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/)，人员迁移 L1-L2。
+6. [TechCrunch｜Relay 团队进入 Chrome](https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/)，具名当事人声明与媒体互证，L3 结构事实；不代表整合后效。
 7. [GitLab｜Promotions and Transfers](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/)，历史制度 L2-L3。
 8. [Intuit｜SEC 员工信](https://www.sec.gov/Archives/edgar/data/896878/000089687826000024/fy26q3-ex9902.htm)，减层与前线决策动作 L3。
 9. [Etsy｜Evolving Etsy's structure](https://www.etsy.com/news/evolving-etsyas-structure-for-the-future)，动因反证 L2。
 10. [NBER｜Pyramids, Diamonds, and Oscillations](https://conference.nber.org/conf_papers/f232578.pdf)，结构反例 L3。
 11. [Netflix Culture](https://jobs.netflix.com/culture)，人才密度制度主张 L2。
 12. [PwC 2026 Global AI Jobs Barometer](https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-jobs-barometer.html)，跨国招聘研究 L3。
+13. [OpenAI｜PORTS-Pike](https://openai.com/index/openai-joins-ports-pike-project)，跨公司责任分层 L3 结构事实。
+14. [LG｜机器人与具身智能中心](https://www.lg.com/global/newsroom/news/corporate/lg-electronics-accelerates-robotics-collaboration-with-nvidia/)，CEO 直属中心 L2。
+15. [Amazon Jobs｜Devices 运营项目经理](https://www.amazon.jobs/en/jobs/10504612/operations-program-manager)，岗位责任信号 L1。
+16. [Amazon Jobs｜Ads Applied Scientist III](https://www.amazon.jobs/en/jobs/10504414/applied-scientist-iii-sponsored-products-and-brands-advertiser-growth-and-strategies)，深专业责任信号 L1。
+17. [arXiv｜多智能体编程协调实验](https://arxiv.org/abs/2608.16801)，预印本实验 L2；不直推企业人效。
+18. [第一财经｜阿里灵犀互娱交易](https://www.yicai.com/news/103320607.html)，边界拆分 L2。
 
 ---
 
