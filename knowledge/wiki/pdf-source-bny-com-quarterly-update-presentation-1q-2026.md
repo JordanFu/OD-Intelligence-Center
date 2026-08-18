@@ -64,6 +64,7 @@ quarterly update presentation 1q 2026 已作为日报/周报 PDF 证据源入库
 - `specials/ai-org-talent-mechanism/2026-07-29/04-promotion-system.md:186`：1Q26 Quarterly Update
 - `specials/ai-org-talent-mechanism/2026-08-02/04-promotion-system.md:32`：BNY 官方材料
 - `specials/ai-org-talent-mechanism/2026-08-02/04-promotion-system.md:164`：Q1 2026 quarterly update
+- `specials/ai-org-talent-mechanism/2026-08-18/04-promotion-system.md:141`：BNY｜1Q26 Quarterly Update
 
 ## 后续精读任务
 

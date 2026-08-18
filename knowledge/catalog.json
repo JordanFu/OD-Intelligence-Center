@@ -1435,7 +1435,7 @@
       "uploadDate": "2026-04-27",
       "description": "BCG 核心框架：AI-first 转型涉及 30% 技术 + 70% 人员与组织。两个真实案例（欧洲能源巨头 + 全球银行），提出能力-判断评估矩阵确定人机分工。核心结论：领导者不是拥有最好 AI 工具的公司，而是愿意围绕 AI-first 运营模型重新设计组织的公司。",
       "summaryFile": "./knowledge/wiki/bcg-2026-04-design-company-for-ai.md",
-      "pdfFile": "./pdfs/bcg-2026-04-design-your-company-for-ai.pdf",
+      "pdfFile": "./knowledge/raw/bcg-2026-04-design-your-company-for-ai.pdf",
       "rawFile": "./knowledge/raw/bcg-2026-04-design-your-company-for-ai.pdf",
       "fileName": "bcg-2026-04-design-your-company-for-ai.pdf",
       "fileSize": "2.3MB",
@@ -1465,7 +1465,7 @@
       "uploadDate": "2026-03-31",
       "description": "仅有约5%的组织从AI中获得了实质性财务回报。这些'面向未来'企业的三年期股东总回报约为AI落后者的4倍。价值分布遵循10-20-70法则：10%来自算法，20%来自技术，70%来自组织变革和人才。",
       "summaryFile": "./knowledge/summaries/r001-bcg-zh.md",
-      "pdfFile": "./pdfs/BCG-AI-Transformation-Workforce-2026.pdf",
+      "pdfFile": "./knowledge/reports/consulting/BCG-AI-Transformation-Workforce-2026.pdf",
       "fileName": "BCG-AI-Transformation-Workforce-2026.pdf",
       "fileSize": "4.2MB",
       "tags": [
@@ -1493,7 +1493,7 @@
       "uploadDate": "2026-03-31",
       "description": "德勤关于企业AI应用的综合研究报告，涵盖AI在企业中的部署现状、挑战和最佳实践。",
       "summaryFile": "./knowledge/summaries/r002-deloitte-zh.md",
-      "pdfFile": "./pdfs/Deloitte-State-of-AI-Enterprise-2026.pdf",
+      "pdfFile": "./knowledge/reports/consulting/Deloitte-State-of-AI-Enterprise-2026.pdf",
       "fileName": "Deloitte-State-of-AI-Enterprise-2026.pdf",
       "fileSize": "3.8MB",
       "tags": [

@@ -61,6 +61,12 @@ f232578 已作为日报/周报 PDF 证据源入库，当前需要完成结构化
 - `specials/ai-org-talent-mechanism/2026-08-17/04-promotion-system.md:43`：NBER
 - `specials/ai-org-talent-mechanism/2026-08-17/04-promotion-system.md:148`：NBER｜Pyramids, Diamonds, and Oscillations
 - `specials/ai-org-talent-mechanism/2026-08-17/research-audit.md:47`：NBER 金字塔—钻石
+- `specials/ai-org-talent-mechanism/2026-08-18/00-overview.md:65`：NBER
+- `specials/ai-org-talent-mechanism/2026-08-18/00-overview.md:137`：NBER｜Pyramids, Diamonds, and Oscillations
+- `specials/ai-org-talent-mechanism/2026-08-18/01-flat-organization.md:90`：NBER
+- `specials/ai-org-talent-mechanism/2026-08-18/01-flat-organization.md:139`：NBER｜Pyramids, Diamonds, and Oscillations
+- `specials/ai-org-talent-mechanism/2026-08-18/02-talent-density.md:81`：NBER
+- `specials/ai-org-talent-mechanism/2026-08-18/02-talent-density.md:129`：NBER｜Pyramids, Diamonds, and Oscillations
 
 ## 后续精读任务
 
