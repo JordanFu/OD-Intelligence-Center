@@ -4,6 +4,13 @@
 
 ---
 
+## [2026-08-18] review | 本地知识库定期 Review
+- 新增 `knowledge/wiki/local-knowledge-review-2026-08-18.md`，登记到知识索引与 catalog。
+- 本周健康度 78/100：仓库已恢复并通过 `git fsck`，私有路径泄露 0；信息流已推进到 8 月 18 日，但 8 月 17 日缺档，公开根页和 8 月 16 日页面为 200，8 月 18 日分享页为 404。
+- PDF 自动扫描识别 68 个唯一公开来源，57 个已有原文、11 个当前下载待重试；76 张 PDF 卡中 61 张仍为模板级初筛。
+- 信息流状态已到 8 月 18 日、累计 1,226 张卡；8 月 17 日 `daily/` 与 `daily-report/` 仍缺失；专题状态对 8 月 9 日存在 formal/rerun 口径冲突。
+- 下一步优先发布 8 月 18 日公开页、补齐 8 月 17 日信息流、正式重跑 8 月 16 日并完成 8 月 18 日其余专题页、精读高价值 PDF、治理 canonical 重复映射，并建立控制权、People/HR agent operating model 与 AI fluency—晋升机制页。
+
 ## [2026-08-18] ingest | 日报 PDF 证据源自动入库
 - 从 daily、daily-report、specials、analysis 中扫描 PDF URL，按知识库 Raw/Wiki/Catalog 规则自动建档。
 - 本次识别 68 个唯一 PDF 来源：57 个已下载原始 PDF，11 个保留 URL 与引用上下文待重试。

@@ -51,6 +51,7 @@
 | 40 | [阿里、腾讯、字节 AI 组织路线对比线索](wiki/36kr-china-bigtech-ai-org-routes-2026.md) | Tech星球 / 36氪 | 2026-07-15 | AI组织设计, 决策权, 人才配置, 待验证 |
 | 41 | [本地知识库定期 Review（2026-08-03）](wiki/local-knowledge-review-2026-08-03.md) | OD Intelligence Center | 2026-08-03 | 知识管理, 定期Review, PDF入库, People/HR, AI fluency |
 | 42 | [本地知识库定期 Review（2026-08-10）](wiki/local-knowledge-review-2026-08-10.md) | OD Intelligence Center | 2026-08-10 | 知识管理, 定期Review, PDF入库, People/HR, AI fluency |
+| 43 | [本地知识库定期 Review（2026-08-18）](wiki/local-knowledge-review-2026-08-18.md) | OD Intelligence Center | 2026-08-18 | 知识管理, 定期Review, PDF入库, People/HR, AI fluency |
 
 ## 概念页
 

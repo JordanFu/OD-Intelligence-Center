@@ -890,6 +890,37 @@
       ]
     },
     {
+      "id": "local-knowledge-review-2026-08-18",
+      "title": "本地知识库定期 Review（2026-08-18）",
+      "originalTitle": "Local Knowledge Base Review 2026-08-18",
+      "author": "Codex",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "internal",
+      "topics": [
+        "知识管理",
+        "AI组织设计",
+        "组织机制",
+        "人才发展",
+        "晋升",
+        "People/HR",
+        "AI fluency"
+      ],
+      "date": "2026-08-18",
+      "uploadDate": "2026-08-18",
+      "description": "本周知识库巡检报告，覆盖仓库恢复、68 个公开 PDF 来源自动入库、模板卡与重复映射债务、信息流与专题状态一致性、公开分享入口和 AI 组织研究优先级。",
+      "summaryFile": "./knowledge/wiki/local-knowledge-review-2026-08-18.md",
+      "fileName": "generated review report",
+      "fileSize": "wiki page",
+      "tags": [
+        "知识管理",
+        "定期Review",
+        "资料治理",
+        "PDF入库",
+        "AI组织设计",
+        "People/HR"
+      ]
+    },
+    {
       "id": "mckinsey-2026-the-state-of-organizations",
       "title": "McKinsey：The State of Organizations 2026",
       "originalTitle": "The State of Organizations 2026",
