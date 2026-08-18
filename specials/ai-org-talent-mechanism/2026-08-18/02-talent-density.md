@@ -1,6 +1,6 @@
 # 2026-08-18｜专题二：高人才密度与复合型人才机制
 
-> 证据窗口：2026-08-17 00:00—2026-08-18 18:09 CST。今日只有 Wiz—Snowflake 达到 L2；Relay 人员迁移事实可到 L2，但人才机制解释只到 L1；工程师社区为 L1。没有新增 L3/L4 人才机制结果。
+> 证据窗口：2026-08-17 00:00—2026-08-18 18:16 CST。Google Chrome 对 Relay 负责人和数名同事的吸收达到 L3 结构事实；理想研发重组与骨干流动、Wiz—Snowflake 达到 L2；Amazon 人类数据培训与高级科学责任为 L1 JD 信号。没有完整人才机制后效。
 
 ## 读者应该带走什么
 
@@ -17,6 +17,9 @@
 
 | 新增事实 | 日期与等级 | 可支持 | 不可支持 |
 |---|---|---|---|
+| Jacob Bank 与 Chrome 负责人分别确认 Bank 出任 Chrome 产品副总裁并有数名 Relay 同事加入；关停、岗位补位与人员迁移时间链可互证。[TechCrunch](https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/) | 2026-08-17/18，L3 结构事实 | 成熟小团队与负责人可被定向吸收 | Google 人才密度政策、收购、团队规模、整合和留任成效 |
+| 晚点基于近 20 名员工访谈披露理想研发转向基座模型、软件本体和机器人三团队，过去两年有多名骨干流动。[LatePost 转载](https://m.163.com/dy/article/L4IT1JJ30531M1CO.html) | 2026-08-18，L2 | 共享能力集中与关键人才流动并存 | 全部流动由重组导致或新结构已改善结果 |
+| Amazon AGI 增加培训与绩效运营责任，Amazon Ads 命名高级智能体科学责任。[Amazon AGI](https://www.amazon.jobs/en/jobs/10504681/senior-training-specialist-with-german-agi-data-services) | 2026-08-18，L1 JD | 执行责任变宽、深专业继续深化 | 到岗、组织规模、薪酬和运行后效 |
 | Wiz 的 Red Agent 在 Snowflake 开源仓库发现并验证 GitHub Actions 命令注入漏洞；Snowflake 称收到披露后当天修复、轮换凭证并审计。相关变更有 Copilot 共同署名，但 Wiz 不能确认漏洞代码由 AI 编写。[Wiz](https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug) | 2026-08-17，L2 | 生成、辅助审查、人工合并与独立验证不能互相替代 | AI 制造漏洞、AI 代码整体更不安全或 Snowflake 人才制度改变 |
 | Relay 官方确认关停、导出和数据凭证删除；创始人 Jacob Bank 表示加入 Google Chrome，TechCrunch 报道部分员工同行。[Relay](https://www.relay.app/) / [TechCrunch](https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/) | 2026-08-17，人员迁移 L2；机制 L1 | 关键工作流人才可通过定向团队迁移 | Google 收购、全员吸收、岗位安排、人才密度或整合成功 |
 | ExperiencedDevs 匿名讨论提到多智能体并行后清理、安全验证和知识转移负荷；同帖亦有相反观点。[Reddit](https://www.reddit.com/r/ExperiencedDevs/comments/1vrd7ap/experienced_devs_weekly_burnout_and_venting/) | 2026-08-18，L1 Context | 提示关注验证税、容量上限和倦怠 | 岗位普遍消失、AI 必然降质或团队必然缩编 |
@@ -26,7 +29,7 @@
 
 1. **人才密度应由责任闭环净质量定义，不是人均并行任务数。可信度：中高。**证据基础：Wiz—Snowflake L2。为什么重要：若审查、修复和复盘由少数人隐性承接，表面人效上升、真实密度可能下降。
 2. **复合人才不等于一人全栈，而是深专业锚点形成可审计互补。可信度：中高。**证据基础：作者、审查者、合并者和独立验证者给出不同判断。为什么重要：端到端负责不能取消高后果控制点。
-3. **Relay→Google 只证明局部能力迁移。可信度：中。**证据基础：创始人声明与 TechCrunch 报道。为什么重要：人数、岗位、授权、留任和整合结果未知。
+3. **Relay→Google 证明小团队吸收可以作为能力获取方式，但不证明人才密度提高。可信度：高（结构）/低（后效）。**证据基础：双方高管一手确认与媒体时间链。为什么重要：团队迁移要单独验收岗位落位、知识回流、权力、第二人和 6/12 月留任。
 4. **评价、薪酬与晋升应奖励跨周期责任扩大，不奖励工具活跃或单次英雄战功。可信度：中高。**证据基础：Netflix、PwC 与技能定价基线。为什么重要：代码量、新头衔和徽章不足以证明岗位价值。
 5. **压缩初级入口可能短期抬高平均资历，却损害未来专家供给。可信度：中高。**证据基础：NBER 金字塔—钻石模型。为什么重要：必须重建学徒任务、导师容量和逐级授权。
 

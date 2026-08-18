@@ -1,6 +1,6 @@
 # 2026-08-18｜专题三：岗位、族群、序列持续建设
 
-> 证据窗口：2026-08-17 00:00—2026-08-18 18:09 CST。核心证据为机制事实 L2、组织变化 L1、社媒 Context L0-L1；没有证明成熟新序列成立的 L3/L4 制度证据。
+> 证据窗口：2026-08-17 00:00—2026-08-18 18:16 CST。Google/Relay 与 OpenAI PORTS-Pike 提供 L3 结构事实；Amazon 四类岗位为 L1 JD 信号，理想/LG/Wiz 为 L2。没有证明成熟新序列成立的制度和后效证据。
 
 ## 读者应该带走什么
 
@@ -17,15 +17,18 @@
 
 | 事实 | 等级 | 可支持 | 不可支持 |
 |---|---:|---|---|
+| Amazon Devices 运营负责人把 AI 决策方法写入产品上市、供应链和成本责任；AWS 公共部门客户负责人联合架构师、专业服务和伙伴交付；Amazon Ads 命名高级智能体科学责任。[Amazon Devices](https://www.amazon.jobs/en/jobs/10504612/operations-program-manager) / [Amazon Ads](https://www.amazon.jobs/en/jobs/10504414/applied-scientist-iii-sponsored-products-and-brands-advertiser-growth-and-strategies) | L1 JD | 传统岗位责任变宽与科学责任深化同时出现 | 到岗、实际权力、岗位族成熟或运行后效 |
+| LG 设 CEO 直属机器人中心；理想从功能团队转向基座模型、软件本体、机器人团队并伴随骨干流动。[LG](https://www.lg.com/global/newsroom/news/corporate/lg-electronics-accelerates-robotics-collaboration-with-nvidia/) | L2 | 共享能力集中需重画事业部产品、预算、数据和人才权 | 中心化必然有效或全部离职由重组引起 |
+| OpenAI PORTS-Pike 将土地、能源、设施、融资、硬件和工作负载分配给 OpenAI、SB Energy、NVIDIA 等主体。[OpenAI](https://openai.com/index/openai-joins-ports-pike-project) | L3 结构事实 | 跨公司联合工程形成长期责任分层 | 已投产、内部已重组或效率兑现 |
 | Wiz 的 Red Agent 发现并验证 Snowflake 开源仓库 GitHub Actions 命令注入问题；Snowflake 6 月 23 日收到披露后当天修复、轮换凭证并审计。[Wiz](https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug) | L2 | 作者、AI 辅助审查、人工合并、独立安全验证、机器身份和事件处置需拆分责任 | 漏洞由 AI 编写、AI 代码普遍更不安全，或企业已建立 AI 安全序列 |
 | 相关变更带 Copilot 共同署名，并经人工审查后合并；Wiz 明确无法确认漏洞代码由 AI 生成 | L2 | 使用 AI 不会把最终合并与上线责任转给工具 | Copilot 标记是事故原因 |
 | FT 与 The Verge 报道 OpenAI 在 7 月底拆分独立 Preparedness 团队，将生物、网络等风险评测责任分配进现有团队。[The Verge](https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team) | L1 | 交付责任可能变宽，需追问深专业权力是否保留 | 治理增强、治理削弱或放弃安全；人数、预算、汇报线和授权未知 |
 | Relay 官方公布关停、导出及数据凭证删除安排；TechCrunch 报道部分员工加入 Chrome。[Relay](https://www.relay.app/) / [TechCrunch](https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/) | 关停 L2；去向 L1-L2 | 可移植、撤销凭证、数据删除、恢复和替代方案成为持续责任 | Google 收购或应由一次关停新建“供应商退出”序列 |
-| 严格窗口没有可信的新学术、专业研究、可验证 JD/薪酬或国内科技媒体事实 | 证据空窗 | 应延续基线并收紧结论 | 搜索缺失不证明岗位不存在 |
+| 多智能体编程预印本分析 1,902 次运行，提示共享工件可能降低部分通信成本，而指定协调者未稳定改善成功率。[arXiv](https://arxiv.org/abs/2608.16801) | L2 实验 | 协调机制依赖共享状态、接口和权限，不是只加负责人头衔 | 实验 token 节省等于企业人效 |
 
 ## 3. 今日核心判断
 
-1. **宽交付与深专业是同一生产系统的两端。可信度：中高。**证据基础：Wiz—Snowflake L2、OpenAI Preparedness L1，以及历史岗位材料。为什么重要：宽交付不是人人通才，深专业也不是多造专家头衔。
+1. **宽交付与深专业是同一生产系统的两端。可信度：中高。**证据基础：Amazon 运营/客户岗位、Amazon Ads 科学责任、Wiz—Snowflake。为什么重要：宽交付不是人人通才，深专业也不是多造专家头衔。
 2. **岗位架构的基本单位应是责任包，而不是工具名。可信度：高。**证据基础：会用 Copilot 或智能体只是技能；独立批准高风险发布、跨域汇总或冻结凭证才是结果与权力变化。为什么重要：工具半衰期通常短于岗位治理周期。
 3. **嵌入式治理是否成立，关键不在团队是否独立，而在权力是否独立。可信度：中。**证据基础：OpenAI 调整只到 L1。为什么重要：若责任嵌入但挑战权消失，只是交付岗位吸收更多任务，不是双向结构。
 4. **“要新序列”常是能力扩散、短期稀缺、阶段工作或留人定价问题。可信度：高。**证据基础：历史 JD、薪酬与岗位基线。为什么重要：用头衔解决价格问题会制造职级通胀和退出困难。

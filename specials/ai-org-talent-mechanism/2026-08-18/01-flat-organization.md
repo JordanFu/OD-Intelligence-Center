@@ -1,6 +1,6 @@
 # 2026-08-18｜专题一：组织扁平化与中层减少
 
-> 证据窗口：2026-08-17 00:00—2026-08-18 18:09 CST。今天没有新的 L3/L4 减层结果；OpenAI Preparedness 调整为 L1 组织信号，Wiz—Snowflake 为 L2 邻近机制证据。
+> 证据窗口：2026-08-17 00:00—2026-08-18 18:16 CST。没有新的 L3/L4 “减层后效”；但 Google Chrome 小团队吸收达到 L3 结构事实，LG CEO 直属中心、理想研发重组、阿里边界拆分达到 L2，OpenAI Preparedness 为 L1 控制职能重组。
 
 ## 读者应该带走什么
 
@@ -17,6 +17,9 @@
 
 | 可追溯事实 | 等级 | 可以确认 | 不能确认 |
 |---|---:|---|---|
+| Jacob Bank 与 Chrome 负责人 Parisa Tabriz 分别确认 Bank 出任 Chrome 产品副总裁并有数名 Relay 同事加入；媒体链补充公开履历。[TechCrunch](https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/) | L3 结构事实 | 岗位补位和小团队吸收 | Google 收购 Relay、全面重组、减少层级或效率改善 |
+| LG 宣布设 CEO 直属机器人中心并以数据工厂连接多家集团公司；理想据近 20 名员工访谈从功能团队转向基座模型、软件本体和机器人团队且伴随骨干流动。[LG](https://www.lg.com/global/newsroom/news/corporate/lg-electronics-accelerates-robotics-collaboration-with-nvidia/) | LG L2；理想 L2 | 共享能力集中与人才流动同时存在 | 中心化已改善商业结果；全部离职由重组导致 |
+| 阿里与信宸资本据内部信达成灵犀互娱交易协议，现管理团队继续留任。[第一财经](https://www.yicai.com/news/103320607.html) | L2 | 所有权边界外移、经营连续 | 交割完成、AI 聚焦动因或组织效率提升 |
 | FT 与 The Verge 报道，OpenAI 在 7 月底解散独立 Preparedness 团队，将生物、网络等风险评估职责分散到现有团队，原负责人转向递归式自我改进研究。[The Verge](https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team) / [FT](https://www.ft.com/content/53082739-7714-4aae-9816-e55ab423cbee) | L1 | 媒体报道中的组织调整叙事；[OpenAI 历史页面](https://openai.com/index/frontier-risk-and-preparedness/)可确认原团队公开职责 | 新编制、预算、汇报线、统一标准、独立复核、跨域升级与停止权；也不能确认治理增强或下降 |
 | Relay 官方确认关停、导出及数据凭证删除安排；TechCrunch 报道创始人与部分员工进入 Chrome。[Relay](https://www.relay.app/) / [TechCrunch](https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/) | 关停 L2；人员迁移 L2；组织解释 L1 | 供应商退出和局部人才迁移 | Google 收购、全员吸收、知识产权转移、减层或整合成效 |
 | Wiz 披露自治安全智能体发现 Snowflake 已合并代码中的 GitHub Actions 漏洞；AI 辅助审查、人工合并与独立验证给出不同结果。[Wiz](https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug) | L2 邻近机制 | 交付与独立控制不能因使用 AI 而合并 | AI 生成了漏洞、AI 代码整体更不安全，或 Snowflake 因此减层 |
@@ -30,7 +33,7 @@ FT 与 The Verge 按同一报道链处理；OpenAI 历史职责页只能校准�
 2. **集中转嵌入不是天然的扁平化收益。可信度：高。**证据基础：嵌入业务可能减少交接，也可能让统一标准、独立挑战和停止权受局部交付目标影响。为什么重要：组织图变化无法替代权力与控制设计。
 3. **减少组织节点不能减少最终责任。可信度：高。**证据基础：Wiz—Snowflake 显示生成、审查、合并和独立验证可能给出冲突判断。为什么重要：中央团队被拆分后，评测、复核、升级、复盘和停止责任必须重新分配。
 4. **OpenAI 更像“控制职能嵌入”的待核案例，不是去中层完成案例。可信度：高。**证据基础：没有经理人数、层级数、有效跨度或效率数据。为什么重要：错误归类会把控制责任迁移误读成成本型减层。
-5. **历史证据继续削弱单一路径。可信度：高。**证据基础：Intuit 有正式动作但缺后效；Etsy 否认 AI/降本动因；NBER 指向可能出现的“钻石组织”。为什么重要：每个案例都要逐一核对动因、责任和结果。
+5. **今天同时出现边界内嵌、能力上收和资产外移三种方向。可信度：中高。**证据基础：Google/Relay、LG/理想、阿里灵犀互娱。为什么重要：AI 时代组织变化不是单向扁平化，而是按能力、产品和资本责任重切边界。
 
 ## 4. 重点案例事实还原：OpenAI Preparedness 从集中式团队转为嵌入式责任
 
