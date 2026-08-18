@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-18T10:45:46.606Z",
+  "generatedAt": "2026-08-18T10:49:09.837Z",
   "module": "automation",
   "qualityStatus": "warn",
   "chains": {
     "infoFeed": {
-      "qualityStatus": "warn",
+      "qualityStatus": "pass",
       "latestDate": "2026-08-18",
       "latestCardCount": 15,
       "newFactCount": 11
@@ -75,7 +75,6 @@
     }
   },
   "warnings": [
-    "信息库质量为 warn",
     "专题研究状态为 warn",
     "专题待正式重跑 20 天"
   ],
