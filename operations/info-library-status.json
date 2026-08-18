@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T10:38:20.505Z",
+  "generatedAt": "2026-08-18T10:45:15.825Z",
   "module": "info-feed",
   "qualityStatus": "pass",
   "latestDate": "2026-08-18",
@@ -488,7 +488,7 @@
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-08-18T10:38:08.964Z",
+    "checkedAt": "2026-08-18T10:38:20.885Z",
     "qualityStatus": "warn",
     "firstPartyChecked": 2914,
     "externalWarnings": 74,

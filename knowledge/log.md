@@ -6,10 +6,10 @@
 
 ## [2026-08-18] review | 本地知识库定期 Review
 - 新增 `knowledge/wiki/local-knowledge-review-2026-08-18.md`，登记到知识索引与 catalog。
-- 本周健康度 80/100：仓库已恢复并通过 `git fsck`，私有路径泄露 0；信息流与公开分享页已推进到 8 月 18 日，但 8 月 17 日仍缺档。
+- 本周健康度 84/100：仓库已恢复并通过 `git fsck`，私有路径泄露 0；8 月 17 日信息流已补档，8 月 18 日信息流、正式专题与公开分享页均可用。
 - PDF 自动扫描识别 68 个唯一公开来源，57 个已有原文、11 个当前下载待重试；76 张 PDF 卡中 61 张仍为模板级初筛。
-- 信息流状态已到 8 月 18 日、累计 1,226 张卡；8 月 17 日 `daily/` 与 `daily-report/` 仍缺失；专题状态对 8 月 9 日存在 formal/rerun 口径冲突。
-- 下一步优先补齐 8 月 17 日信息流、正式重跑 8 月 16 日并完成 8 月 18 日 overview 与人才密度页、精读高价值 PDF、治理 canonical 重复映射，并建立控制权、People/HR agent operating model 与 AI fluency—晋升机制页。
+- 信息流状态已到 8 月 18 日，当天 15 张卡、15 个来源 URL；五个专题页全部通过质量门禁并标记为 formal；专题状态对 8 月 9 日仍存在 formal/rerun 口径冲突。
+- 下一步优先消除 8 月 9 日状态冲突、正式重跑 8 月 16 日、精读高价值 PDF、治理 canonical 重复映射，并建立控制权、People/HR agent operating model 与 AI fluency—晋升机制页。
 
 ## [2026-08-18] ingest | 日报 PDF 证据源自动入库
 - 从 daily、daily-report、specials、analysis 中扫描 PDF URL，按知识库 Raw/Wiki/Catalog 规则自动建档。
