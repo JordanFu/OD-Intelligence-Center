@@ -1,6 +1,6 @@
 # 系统健康状态
 
-> 自动生成：2026-08-18T02:34:15.475Z
+> 自动生成：2026-08-18T10:28:24.129Z
 
 ## 一眼判断
 
@@ -14,13 +14,13 @@
 
 ## 情报流状态
 
-- 最新日期：2026-08-16
+- 最新日期：2026-08-18
 - 今日卡片数：12
-- 今日新增事实：2
-- 旧线复核 / Context：4
-- 弱信号：2
-- 缺口记录：4
-- 渠道覆盖：JD薪酬、官方、媒体、报告学术、社媒公众号
+- 今日新增事实：8
+- 旧线复核 / Context：1
+- 弱信号：1
+- 缺口记录：2
+- 渠道覆盖：JD薪酬、媒体、官方、报告学术、社媒公众号
 - sourceUrl 缺失：0
 
 ## 专题研究状态
@@ -54,7 +54,7 @@
 
 - 一方断链数：0
 - 外部链接 warning：46
-- 公开扫描桥接：ok:200、ok:200
+- 公开扫描桥接：ok:200、ok:200、ok:200
 
 ## 质量语义
 
@@ -65,8 +65,8 @@
 ## 当前问题
 
 - ✅ 无 P0 fail。
-- ⚠️ 最新日期“新增事实”少于 5 条：当前 2 条；已有缺口记录，首页应诚实显示可信新增不足。
-- ⚠️ 最新日期同一子主题超过 40%：50%；需要关注广谱雷达覆盖。
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
