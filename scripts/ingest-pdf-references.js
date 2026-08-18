@@ -481,8 +481,20 @@ function collectPdfReferences() {
   return Array.from(references.values()).sort((a, b) => a.url.localeCompare(b.url));
 }
 
+function isPdfFile(file) {
+  if (!fs.existsSync(file) || fs.statSync(file).size <= 1024) return false;
+  const descriptor = fs.openSync(file, 'r');
+  try {
+    const header = Buffer.alloc(1024);
+    const bytesRead = fs.readSync(descriptor, header, 0, header.length, 0);
+    return header.subarray(0, bytesRead).includes(Buffer.from('%PDF-'));
+  } finally {
+    fs.closeSync(descriptor);
+  }
+}
+
 function downloadPdf(item, rawFile) {
-  if (fs.existsSync(rawFile) && fs.statSync(rawFile).size > 1024) return 'downloaded';
+  if (isPdfFile(rawFile)) return 'downloaded';
   try {
     execFileSync('curl', [
       '-L',
@@ -495,7 +507,9 @@ function downloadPdf(item, rawFile) {
       rawFile,
       item.url,
     ], { stdio: 'ignore' });
-    return fs.existsSync(rawFile) && fs.statSync(rawFile).size > 1024 ? 'downloaded' : 'download_failed';
+    if (isPdfFile(rawFile)) return 'downloaded';
+    if (fs.existsSync(rawFile)) fs.unlinkSync(rawFile);
+    return 'download_failed';
   } catch {
     if (fs.existsSync(rawFile)) fs.unlinkSync(rawFile);
     return 'download_failed';
@@ -633,4 +647,4 @@ function main() {
 
 if (require.main === module) main();
 
-module.exports = { extractPdfUrls };
+module.exports = { extractPdfUrls, isPdfFile };
