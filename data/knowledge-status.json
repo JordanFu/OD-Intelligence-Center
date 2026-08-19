@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-19T10:30:26.971Z",
+  "generatedAt": "2026-08-19T10:49:46.274Z",
   "module": "knowledge-base",
-  "qualityStatus": "warn",
+  "qualityStatus": "fail",
   "latestCatalogDate": "2026-08-19",
   "counts": {
     "reports": 135,
@@ -96,31 +96,41 @@
   ],
   "warnings": [
     "knowledge/catalog.json 的 reports 存在 3 组重复 summaryFile。",
-    "external link not hard-checked in Phase 1",
-    "network check warning: fetch failed"
+    "external link not hard-checked in Phase 1"
   ],
   "criticalIssues": [],
-  "brokenLinks": [],
+  "brokenLinks": [
+    {
+      "type": "public-scan",
+      "sourceFile": "data/info-feed-status.json",
+      "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-19.html",
+      "reason": "public scan bridge returned 404",
+      "status": 404
+    }
+  ],
   "links": {
-    "checkedAt": "2026-08-19T10:30:27.268Z",
-    "qualityStatus": "warn",
-    "firstPartyChecked": 2937,
-    "externalWarnings": 66,
-    "brokenCount": 0,
+    "checkedAt": "2026-08-19T10:49:46.594Z",
+    "qualityStatus": "fail",
+    "firstPartyChecked": 2938,
+    "externalWarnings": 64,
+    "brokenCount": 1,
     "publicScanBridge": [
       {
-        "ok": false,
-        "hardBroken": false,
-        "status": null,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-18.html",
-        "reason": "network check warning: fetch failed"
+        "ok": true,
+        "status": 200,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-18.html"
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "url": "https://jordanfu.github.io/org-intelligence-info/"
       },
       {
         "ok": false,
-        "hardBroken": false,
-        "status": null,
-        "url": "https://jordanfu.github.io/org-intelligence-info/",
-        "reason": "network check warning: fetch failed"
+        "hardBroken": true,
+        "status": 404,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-19.html",
+        "reason": "public scan bridge returned 404"
       }
     ]
   }

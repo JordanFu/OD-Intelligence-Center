@@ -1,16 +1,16 @@
 # 系统健康状态
 
-> 自动生成：2026-08-19T10:30:33.687Z
+> 自动生成：2026-08-19T10:49:46.673Z
 
 ## 一眼判断
 
-- 总体状态：⚠️ warn
-- 情报流状态：⚠️ warn
-- 专题研究状态：⚠️ warn
-- 知识库状态：⚠️ warn
-- 自动化状态：⚠️ warn
-- 一方链接状态：⚠️ warn
-- 当前结论：状态链可信但仍有运营债务；允许展示 warn，不允许美化成 pass。
+- 总体状态：❌ fail
+- 情报流状态：❌ fail
+- 专题研究状态：❌ fail
+- 知识库状态：❌ fail
+- 自动化状态：❌ fail
+- 一方链接状态：❌ fail
+- 当前结论：存在阻断项；首页和自动化不得显示已正式完成。
 
 ## 情报流状态
 
@@ -45,16 +45,16 @@
 - 本地正式任务：confirmed-formal
 - GitHub Actions 角色：fallback-only
 - GitHub Actions 定时数：4
-- 信息库链路：⚠️ warn
-- 专题链路：⚠️ warn
+- 信息库链路：❌ fail
+- 专题链路：❌ fail
 - 知识库 lint 链路：✅ pass
-- 链接检查链路：⚠️ warn
+- 链接检查链路：❌ fail
 
 ## 链接检查
 
-- 一方断链数：0
-- 外部链接 warning：66
-- 公开扫描桥接：warn:n/a、warn:n/a
+- 一方断链数：1
+- 外部链接 warning：64
+- 公开扫描桥接：ok:200、ok:200、warn:404
 
 ## 质量语义
 
@@ -64,13 +64,10 @@
 
 ## 当前问题
 
-- ✅ 无 P0 fail。
+- ❌ 一方链接或公开扫描桥接存在 fail
 - ⚠️ 最新日期同一子主题超过 40%：50%；需要关注广谱雷达覆盖。
 - ⚠️ external link not hard-checked in Phase 1
-- ⚠️ network check warning: fetch failed
+- ⚠️ external link not hard-checked in Phase 1
 - ⚠️ knowledge/catalog.json 的 reports 存在 3 组重复 summaryFile。
 - ⚠️ external link not hard-checked in Phase 1
-- ⚠️ network check warning: fetch failed
-- ⚠️ 信息库质量为 warn
-- ⚠️ 专题研究状态为 warn
 - ⚠️ 专题待正式重跑 20 天
