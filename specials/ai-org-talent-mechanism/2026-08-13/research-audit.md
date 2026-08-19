@@ -23,7 +23,7 @@
 | 学术 | `site:arxiv.org AI workforce job redesign promotion management August 2026` | 无严格窗口可直接改变四专题结论的新研究 | 不用近窗旧文补量 |
 | 社媒/职场 | LinkedIn、Reddit、知乎、小红书、X、公众号「AI组织进化论」 | 无“原链＋正文＋精确日期＋可核制度”的严格窗口新增 | L1 缺口，不入结论 |
 
-外部检索优先运行 `python3 /Users/tal/.codex/skills/anysearch/scripts/anysearch_cli.py`；首个批量请求因超过 5 个查询被 CLI 拒绝，随后拆为合规批次。Web 只用于补充来源核验。未使用搜索摘要中的未来断言或无法回到原页的条目。
+外部检索优先运行 AnySearch 技能的命令行工具；首个批量请求因超过 5 个查询被 CLI 拒绝，随后拆为合规批次。Web 只用于补充来源核验。未使用搜索摘要中的未来断言或无法回到原页的条目。
 
 ## 代表证据根与边界
 

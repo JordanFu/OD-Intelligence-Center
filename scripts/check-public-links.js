@@ -224,15 +224,25 @@ function worstStatus(existing, linkStatus) {
   return existing || linkStatus || 'pass';
 }
 
+function isGeneratedLinkWarning(warning) {
+  const text = String(warning || '');
+  return text === 'external link not hard-checked in Phase 1'
+    || text.startsWith('network check warning:')
+    || text.startsWith('public scan bridge returned HTTP ')
+    || text === 'public scan bridge returned 404';
+}
+
 function mergeLinkStatus(status, linkStatus) {
   if (!status) return null;
-  const existingWarnings = Array.isArray(status.warnings) ? status.warnings : [];
+  const existingWarnings = Array.isArray(status.warnings)
+    ? status.warnings.filter((warning) => !isGeneratedLinkWarning(warning))
+    : [];
   const warningText = linkStatus.warnings.map((warning) => warning.reason || warning.url || String(warning));
   const merged = {
     ...status,
     qualityStatus: worstStatus(status.qualityStatus, linkStatus.qualityStatus),
     brokenLinks: linkStatus.brokenLinks,
-    warnings: [...existingWarnings, ...warningText],
+    warnings: [...new Set([...existingWarnings, ...warningText])],
     links: {
       checkedAt: linkStatus.checkedAt,
       qualityStatus: linkStatus.qualityStatus,

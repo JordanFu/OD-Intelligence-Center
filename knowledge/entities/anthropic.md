@@ -18,6 +18,7 @@ backlinks: [../../specials/ai-org-talent-mechanism/topics/job-family-career-arch
 ## 已有证据来源
 | 日期 | 来源 / 文件 | 等级 | 支持判断 |
 |---|---|---|---|
+| 2026-08-19 | `../../digest.md` [D06] | L1 | 平台连接与产品沙箱岗位同步出现，提示开放接口和执行隔离能力可能并行深化。 |
 | 2026-07-01 | `../../digest.md` [3] | L2 | 公共部门 Applied AI 岗位边界显性化。 |
 | 2026-06-30 | `../../digest.md` [2] | L2 | 政府客户部署从账号采购变成培训与支持机制。 |
 | 2026-06-28 | `../../specials/ai-org-talent-mechanism/2026-06-28/00-overview.md` | L2-L3 | Frontier Red Team 等岗位显示专家接口深化。 |
@@ -26,7 +27,7 @@ backlinks: [../../specials/ai-org-talent-mechanism/topics/job-family-career-arch
 `../../specials/ai-org-talent-mechanism/topics/job-family-career-architecture/evidence-map.md`
 
 ## 相关 digest 条目
-`../../digest.md` 2026-07-01 [3]；2026-06-30 [2]；2026-06-29 [2]
+`../../digest.md` 2026-08-19 [D06]；2026-07-01 [3]；2026-06-30 [2]；2026-06-29 [2]
 
 ## 当前可形成的判断
 - Anthropic 可支持“Applied AI / 公共部门部署岗位正在成为跨组织接口”的判断；来源 2026-07-01 digest，L2。
@@ -34,7 +35,9 @@ backlinks: [../../specials/ai-org-talent-mechanism/topics/job-family-career-arch
 ## 明确边界 / 不能下的结论
 - 不能证明 Anthropic 已形成完整公共部门组织线。
 - H-1B 或媒体薪酬样本不能代表完整薪酬制度。
+- 40.5 万—48.5 万美元只是单一岗位当前区间，没有历史快照，不能称为涨薪或市场溢价变化。
 
 ## 待验证问题
 - 公共部门团队是否有稳定汇报线、绩效指标和部署质量标准？
 - Frontier Red Team 是否拥有发布闸门、风险升级或强制修复权？
+- 平台连接与产品沙箱是否属于同一管理链，分别承担哪些上线和事故责任？

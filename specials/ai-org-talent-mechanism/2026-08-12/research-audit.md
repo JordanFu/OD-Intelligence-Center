@@ -220,7 +220,7 @@
 
 ### 7.1 成功检索
 
-外部优先使用：`python3 /Users/tal/.codex/skills/anysearch/scripts/anysearch_cli.py`。本轮实际执行的主要搜索词：
+外部优先使用 AnySearch 技能的命令行工具。本轮实际执行的主要搜索词：
 
 1. `site:openai.com OR site:anthropic.com OR site:blog.google AI organization leadership hiring promotion August 12 2026`
 2. `site:mckinsey.com OR site:bcg.com OR site:deloitte.com AI organization talent promotion August 2026`

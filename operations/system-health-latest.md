@@ -1,6 +1,6 @@
 # 系统健康状态
 
-> 自动生成：2026-08-18T14:06:05.860Z
+> 自动生成：2026-08-19T02:05:30.424Z
 
 ## 一眼判断
 
@@ -14,19 +14,19 @@
 
 ## 情报流状态
 
-- 最新日期：2026-08-18
-- 今日卡片数：15
-- 今日新增事实：11
-- 旧线复核 / Context：1
+- 最新日期：2026-08-19
+- 今日卡片数：12
+- 今日新增事实：9
+- 旧线复核 / Context：0
 - 弱信号：1
 - 缺口记录：2
-- 渠道覆盖：JD薪酬、媒体、官方、报告学术、社媒公众号
+- 渠道覆盖：官方、JD薪酬、报告学术、社媒公众号、媒体
 - sourceUrl 缺失：0
 
 ## 专题研究状态
 
-- 今日日期：2026-08-18
-- 今日专题状态：formal
+- 今日日期：2026-08-19
+- 今日专题状态：scheduled
 - 最新正式日报日期：2026-08-18
 - 待正式重跑日期数：20
 - 待正式重跑日期：2026-08-16、2026-08-09、2026-07-13、2026-07-12、2026-07-11、2026-07-06、2026-07-03、2026-06-22、2026-06-11、2026-06-10、2026-06-01、2026-05-29 等 20 项
@@ -42,7 +42,7 @@
 
 ## 自动化状态
 
-- 本地正式任务：confirmed-formal
+- 本地正式任务：scheduled
 - GitHub Actions 角色：fallback-only
 - GitHub Actions 定时数：4
 - 信息库链路：⚠️ warn
@@ -53,8 +53,8 @@
 ## 链接检查
 
 - 一方断链数：0
-- 外部链接 warning：72
-- 公开扫描桥接：ok:200、ok:200
+- 外部链接 warning：65
+- 公开扫描桥接：warn:n/a、ok:200
 
 ## 质量语义
 
@@ -65,23 +65,14 @@
 ## 当前问题
 
 - ✅ 无 P0 fail。
+- ⚠️ 最新日期同一子主题超过 40%：50%；需要关注广谱雷达覆盖。
 - ⚠️ external link not hard-checked in Phase 1
+- ⚠️ network check warning: This operation was aborted
 - ⚠️ external link not hard-checked in Phase 1
+- ⚠️ network check warning: This operation was aborted
+- ⚠️ knowledge/catalog.json 的 reports 存在 3 组重复 summaryFile。
 - ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
-- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ network check warning: This operation was aborted
+- ⚠️ 信息库质量为 warn
+- ⚠️ 专题研究状态为 warn
+- ⚠️ 专题待正式重跑 20 天

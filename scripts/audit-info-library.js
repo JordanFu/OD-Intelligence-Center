@@ -1,4 +1,5 @@
 const fs = require('fs');
+const os = require('os');
 const path = require('path');
 
 const root = path.resolve(__dirname, '..');
@@ -11,7 +12,8 @@ const legacyStatusMdPath = path.join(operationsDir, 'info-library-status.md');
 const dailyDir = path.join(root, 'daily');
 const dailyReportDir = path.join(root, 'daily-report');
 const weeklyDir = path.join(root, 'weekly');
-const privateOrgDailyLogDir = '/Users/tal/Documents/New project/research/private-industry-bigtech-watch/daily-log';
+const privateOrgDailyLogDir = process.env.ORG_INTELLIGENCE_DAILY_LOG_DIR
+  || path.join(os.homedir(), 'Documents', 'New project', 'research', 'private-industry-bigtech-watch', 'daily-log');
 
 const MIN_LATEST_ITEMS = 8;
 const MAX_LATEST_ITEMS = 15;

@@ -12,10 +12,10 @@ status: 已完成本地巡检；含 PDF 自动入库、近期内容归位、证�
 ## 本周健康度
 
 - **总体健康度：86/100。**
-- **仓库完整性：** `/private/tmp/ODIC-current` 是完整 git 仓库，remote 指向 `https://github.com/JordanFu/OD-Intelligence-Center.git`；本轮 `git pull --ff-only` 成功快进远端更新，后续低风险变更将提交并推送。
+- **仓库完整性：** 临时工作副本是完整 git 仓库，remote 指向 `https://github.com/JordanFu/OD-Intelligence-Center.git`；本轮 `git pull --ff-only` 成功快进远端更新，后续低风险变更将提交并推送。
 - **信息库同步：** `operations/info-library-status.md` 最新日期为 `2026-07-06`，覆盖 72 个信息日、656 条信息卡。最近 7 个信息日均有记录，质量状态为 `warn`。
 - **知识库 lint：** `operations/knowledge-lint-latest.md` 显示 Phase 1 强检查通过：本地或私有路径泄露 0、缺失 summaryFile 0、重复编号 0。
-- **PDF 入库：** 本轮自动识别 24 个唯一公开 PDF 来源，19 个已下载，5 个保留 URL 与引用上下文待重试；未发现把 `source-channels.private`、`local-reference-structured`、`archive`、密码或本地私有扫描路径写入公开知识库。
+- **PDF 入库：** 本轮自动识别 24 个唯一公开 PDF 来源，19 个已下载，5 个保留 URL 与引用上下文待重试；未发现把 `source-channels.private`、`local-reference-structured`、`archive`、密码或内部扫描地址写入公开知识库。
 - **专题连续性：** `specials/ai-org-talent-mechanism/quality/coverage-latest.md` 显示 2026-06-23 至 2026-07-06 范围内，2026-07-06 专题包缺失、无 non-decision；2026-06-23、06-25、06-26、06-27、06-30、07-01 至 07-05 仍有结构信号不完整。
 
 ## 已确认的积极变化
@@ -74,6 +74,6 @@ status: 已完成本地巡检；含 PDF 自动入库、近期内容归位、证�
 1. 读取上次自动化记忆，确认遗留问题包括 PDF 失败项、文件名式标题、专题 non-decision 和私有路径回流风险。
 2. 确认当前目录是完整 git 仓库，并在本地完成 2026-07-06 信息卡、PDF 入库与状态生成。
 3. 按自动化指定命令执行 PDF 自动入库：识别 24 个唯一 PDF 来源，19 个下载成功，5 个下载失败待重试。
-4. 检查 `knowledge/wiki`、`knowledge/index.md`、`knowledge/catalog.json`，未发现本地私有扫描路径、密码或私有渠道正文泄露。
+4. 检查 `knowledge/wiki`、`knowledge/index.md`、`knowledge/catalog.json`，未发现内部扫描地址、密码或私有渠道正文泄露。
 5. 抽查 2026-06-30 至 2026-07-06 日报、信息库状态、知识库 lint 和专题覆盖审计，形成本报告。
 6. 补齐本报告与 2026-06-29 review 在主索引和 catalog 的登记，避免索引/catalog 分叉。
