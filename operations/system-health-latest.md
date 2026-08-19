@@ -1,16 +1,16 @@
 # 系统健康状态
 
-> 自动生成：2026-08-19T02:05:30.424Z
+> 自动生成：2026-08-19T02:36:26.602Z
 
 ## 一眼判断
 
-- 总体状态：⚠️ warn
-- 情报流状态：⚠️ warn
-- 专题研究状态：⚠️ warn
-- 知识库状态：⚠️ warn
-- 自动化状态：⚠️ warn
-- 一方链接状态：⚠️ warn
-- 当前结论：状态链可信但仍有运营债务；允许展示 warn，不允许美化成 pass。
+- 总体状态：❌ fail
+- 情报流状态：❌ fail
+- 专题研究状态：❌ fail
+- 知识库状态：❌ fail
+- 自动化状态：❌ fail
+- 一方链接状态：❌ fail
+- 当前结论：存在阻断项；首页和自动化不得显示已正式完成。
 
 ## 情报流状态
 
@@ -26,14 +26,14 @@
 ## 专题研究状态
 
 - 今日日期：2026-08-19
-- 今日专题状态：scheduled
+- 今日专题状态：fallback
 - 最新正式日报日期：2026-08-18
-- 待正式重跑日期数：20
-- 待正式重跑日期：2026-08-16、2026-08-09、2026-07-13、2026-07-12、2026-07-11、2026-07-06、2026-07-03、2026-06-22、2026-06-11、2026-06-10、2026-06-01、2026-05-29 等 20 项
+- 待正式重跑日期数：21
+- 待正式重跑日期：2026-08-19、2026-08-16、2026-08-09、2026-07-13、2026-07-12、2026-07-11、2026-07-06、2026-07-03、2026-06-22、2026-06-11、2026-06-10、2026-06-01 等 21 项
 
 ## 知识库状态
 
-- Catalog 日期：2026-08-18
+- Catalog 日期：2026-08-19
 - 知识源：4
 - 报告 / 知识页：135
 - 待重试 PDF：13
@@ -42,19 +42,19 @@
 
 ## 自动化状态
 
-- 本地正式任务：scheduled
+- 本地正式任务：manual-check-required
 - GitHub Actions 角色：fallback-only
 - GitHub Actions 定时数：4
-- 信息库链路：⚠️ warn
-- 专题链路：⚠️ warn
+- 信息库链路：❌ fail
+- 专题链路：❌ fail
 - 知识库 lint 链路：✅ pass
-- 链接检查链路：⚠️ warn
+- 链接检查链路：❌ fail
 
 ## 链接检查
 
-- 一方断链数：0
-- 外部链接 warning：65
-- 公开扫描桥接：warn:n/a、ok:200
+- 一方断链数：1
+- 外部链接 warning：64
+- 公开扫描桥接：ok:200、ok:200、warn:404
 
 ## 质量语义
 
@@ -64,15 +64,11 @@
 
 ## 当前问题
 
-- ✅ 无 P0 fail。
+- ❌ 一方链接或公开扫描桥接存在 fail
 - ⚠️ 最新日期同一子主题超过 40%：50%；需要关注广谱雷达覆盖。
 - ⚠️ external link not hard-checked in Phase 1
-- ⚠️ network check warning: This operation was aborted
 - ⚠️ external link not hard-checked in Phase 1
-- ⚠️ network check warning: This operation was aborted
 - ⚠️ knowledge/catalog.json 的 reports 存在 3 组重复 summaryFile。
 - ⚠️ external link not hard-checked in Phase 1
-- ⚠️ network check warning: This operation was aborted
-- ⚠️ 信息库质量为 warn
-- ⚠️ 专题研究状态为 warn
-- ⚠️ 专题待正式重跑 20 天
+- ⚠️ 本地正式任务无法确认已完成，需要人工补跑或等待正式自动化
+- ⚠️ 专题待正式重跑 21 天

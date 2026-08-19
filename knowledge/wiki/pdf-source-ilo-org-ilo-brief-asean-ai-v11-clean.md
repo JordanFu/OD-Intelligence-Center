@@ -2,7 +2,7 @@
 title: ILO Brief ASEAN AI v11 clean
 source: ilo.org
 date: 待核验
-ingested: 2026-08-18
+ingested: 2026-08-19
 sourceFile: ../raw/ilo-org-ilo-brief-asean-ai-v11-clean.pdf
 sourceUrl: https://www.ilo.org/sites/default/files/2026-07/ILO%20Brief%20ASEAN%20AI%20v11%20clean.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ ILO Brief ASEAN AI v11 clean 已作为日报/周报 PDF 证据源入库，当前
 - **来源类型**：media
 - **原文 URL**：https://www.ilo.org/sites/default/files/2026-07/ILO%20Brief%20ASEAN%20AI%20v11%20clean.pdf
 - **原始文件**：`knowledge/raw/ilo-org-ilo-brief-asean-ai-v11-clean.pdf`
-- **入库日期**：2026-08-18
+- **入库日期**：2026-08-19
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容

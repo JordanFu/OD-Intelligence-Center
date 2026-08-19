@@ -2,7 +2,7 @@
 title: WP 10 26 Managers as gatekeepers comp 0
 source: crawford.anu.edu.au
 date: 待核验
-ingested: 2026-08-18
+ingested: 2026-08-19
 sourceFile: ../raw/crawford-anu-edu-au-wp-10-26-managers-as-gatekeepers-comp-0.pdf
 sourceUrl: https://crawford.anu.edu.au/sites/default/files/2026-06/WP%2010-26%20Managers%20as%20gatekeepers_comp_0.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ WP 10 26 Managers as gatekeepers comp 0 已作为日报/周报 PDF 证据源入�
 - **来源类型**：media
 - **原文 URL**：https://crawford.anu.edu.au/sites/default/files/2026-06/WP%2010-26%20Managers%20as%20gatekeepers_comp_0.pdf
 - **原始文件**：`knowledge/raw/crawford-anu-edu-au-wp-10-26-managers-as-gatekeepers-comp-0.pdf`
-- **入库日期**：2026-08-18
+- **入库日期**：2026-08-19
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
