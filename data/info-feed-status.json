@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-20T02:35:26.449Z",
+  "generatedAt": "2026-08-20T10:31:29.495Z",
   "module": "info-feed",
-  "qualityStatus": "fail",
+  "qualityStatus": "warn",
   "latestDate": "2026-08-20",
   "latestCardCount": 13,
-  "newFactCount": 11,
-  "contextCount": 0,
-  "weakSignalCount": 1,
+  "newFactCount": 6,
+  "contextCount": 4,
+  "weakSignalCount": 2,
   "gapRecordCount": 1,
   "sourceCount": 11,
   "channelCoverage": [
@@ -31,10 +31,10 @@
     "date": "2026-08-20",
     "cardCount": 13,
     "nonGapCardCount": 12,
-    "newFactCount": 11,
-    "oldLineReviewCount": 0,
-    "contextCount": 0,
-    "weakSignalCount": 1,
+    "newFactCount": 6,
+    "oldLineReviewCount": 4,
+    "contextCount": 4,
+    "weakSignalCount": 2,
     "gapCount": 1,
     "gapRecordCount": 1,
     "sourcePlatformCount": 11,
@@ -48,8 +48,9 @@
       "JD薪酬"
     ],
     "infoTypeDistribution": {
-      "新增事实": 11,
-      "弱信号": 1,
+      "新增事实": 6,
+      "弱信号": 2,
+      "旧线复核": 4,
       "缺口记录": 1
     },
     "channelTypeDistribution": {
@@ -100,9 +101,9 @@
       "date": "2026-08-20",
       "cardCount": 13,
       "nonGapCardCount": 12,
-      "newFactCount": 11,
-      "contextCount": 0,
-      "weakSignalCount": 1,
+      "newFactCount": 6,
+      "contextCount": 4,
+      "weakSignalCount": 2,
       "gapRecordCount": 1,
       "sourcePlatformCount": 11,
       "sourceUrlCount": 13,
@@ -428,8 +429,8 @@
   },
   "homepageBridge": {
     "digestLatestDate": "2026-08-20",
-    "latestScanDate": "2026-08-20",
-    "latestScanUrl": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-20.html",
+    "latestScanDate": "2026-08-18",
+    "latestScanUrl": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-18.html",
     "publicMirrorUrl": "https://jordanfu.github.io/org-intelligence-info/",
     "checkedBy": "scripts/check-public-links.js",
     "status": "pending-link-check"
@@ -478,42 +479,30 @@
     "time": 4
   },
   "warnings": [
-    "最新日期同一子主题超过 40%：77%；需要关注广谱雷达覆盖。",
-    "external link not hard-checked in Phase 1"
+    "最新日期同一子主题超过 40%：77%；需要关注广谱雷达覆盖。"
   ],
   "criticalIssues": [],
-  "brokenLinks": [
-    {
-      "type": "public-scan",
-      "sourceFile": "data/info-feed-status.json",
-      "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-20.html",
-      "reason": "public scan bridge returned 404",
-      "status": 404
-    }
-  ],
+  "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-08-20T02:35:29.373Z",
-    "qualityStatus": "fail",
-    "firstPartyChecked": 2964,
-    "externalWarnings": 60,
-    "brokenCount": 1,
+    "checkedAt": "2026-08-20T10:30:24.841Z",
+    "qualityStatus": "warn",
+    "firstPartyChecked": 2963,
+    "externalWarnings": 62,
+    "brokenCount": 0,
     "publicScanBridge": [
       {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-18.html"
-      },
-      {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/"
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-18.html",
+        "reason": "network check warning: fetch failed"
       },
       {
         "ok": false,
-        "hardBroken": true,
-        "status": 404,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-20.html",
-        "reason": "public scan bridge returned 404"
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/",
+        "reason": "network check warning: fetch failed"
       }
     ]
   },

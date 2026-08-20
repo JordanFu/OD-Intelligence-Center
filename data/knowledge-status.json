@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-20T02:35:29.043Z",
+  "generatedAt": "2026-08-20T10:28:39.795Z",
   "module": "knowledge-base",
-  "qualityStatus": "fail",
+  "qualityStatus": "warn",
   "latestCatalogDate": "2026-08-20",
   "counts": {
     "reports": 135,
@@ -96,41 +96,31 @@
   ],
   "warnings": [
     "knowledge/catalog.json 的 reports 存在 3 组重复 summaryFile。",
-    "external link not hard-checked in Phase 1"
+    "external link not hard-checked in Phase 1",
+    "network check warning: fetch failed"
   ],
   "criticalIssues": [],
-  "brokenLinks": [
-    {
-      "type": "public-scan",
-      "sourceFile": "data/info-feed-status.json",
-      "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-20.html",
-      "reason": "public scan bridge returned 404",
-      "status": 404
-    }
-  ],
+  "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-08-20T02:35:29.373Z",
-    "qualityStatus": "fail",
-    "firstPartyChecked": 2964,
-    "externalWarnings": 60,
-    "brokenCount": 1,
+    "checkedAt": "2026-08-20T10:30:24.841Z",
+    "qualityStatus": "warn",
+    "firstPartyChecked": 2963,
+    "externalWarnings": 62,
+    "brokenCount": 0,
     "publicScanBridge": [
       {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-18.html"
-      },
-      {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/"
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-18.html",
+        "reason": "network check warning: fetch failed"
       },
       {
         "ok": false,
-        "hardBroken": true,
-        "status": 404,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-20.html",
-        "reason": "public scan bridge returned 404"
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/",
+        "reason": "network check warning: fetch failed"
       }
     ]
   }
