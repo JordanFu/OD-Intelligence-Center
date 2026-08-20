@@ -18,6 +18,7 @@ backlinks: [../../specials/ai-org-talent-mechanism/topics/job-family-career-arch
 ## 已有证据来源
 | 日期 | 来源 / 文件 | 等级 | 支持判断 |
 |---|---|---|---|
+| 2026-08-20 | `../../digest.md` [D03]—[D05] | L1-L2 | 多智能体客服、工单知识复用和联网权限分别展示人机分工、知识发布权与平台边界的可执行设计。 |
 | 2026-07-01 | `../../digest.md` [1] | L3 | AWS FDE 将 AI adoption 摩擦组织化。 |
 | 2026-06-29 | `../../digest.md` [1] | L2 | AI 红队进入 Threat Operations 管理建制。 |
 
@@ -25,11 +26,12 @@ backlinks: [../../specials/ai-org-talent-mechanism/topics/job-family-career-arch
 `../../specials/ai-org-talent-mechanism/topics/job-family-career-architecture/evidence-map.md`
 
 ## 相关 digest 条目
-`../../digest.md` 2026-07-01 [1]；2026-06-29 [1]
+`../../digest.md` 2026-08-20 [D03]—[D05]；2026-07-01 [1]；2026-06-29 [1]
 
 ## 当前可形成的判断
 - AWS 支持“FDE / Applied AI 从岗位语言变成客户能力迁移机制”的判断；来源 2026-07-01 digest，L3。
 - Amazon AI Red Team 支持“核心专家能力正在管理化”的判断；来源 2026-06-29 digest，L2。
+- Fanatics 案例支持“智能体客服应按协调、专业处理、风险识别和人工判断拆分责任”的观察；来源 2026-08-20 digest [D03]，L2，长期结果未验证。
 
 ## 明确边界 / 不能下的结论
 - 不能仅凭 AWS FDE 判断其已有完整职业序列、薪酬带宽或晋升路径。
@@ -37,3 +39,4 @@ backlinks: [../../specials/ai-org-talent-mechanism/topics/job-family-career-arch
 ## 待验证问题
 - AWS FDE 的规模、汇报线、质量标准和能力迁移指标是什么？
 - AI Red Team 是否有产品发布 gate、风险否决或强制修复权？
+- 多智能体客服释放的人力流向、高风险漏检率和单位成本能否公开？

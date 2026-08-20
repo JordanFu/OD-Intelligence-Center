@@ -2,7 +2,7 @@
 title: META Q2 2026 Earnings Call Transcript
 source: s21.q4cdn.com
 date: 待核验
-ingested: 2026-08-19
+ingested: 2026-08-20
 sourceFile: ../raw/s21-q4cdn-com-meta-q2-2026-earnings-call-transcript.pdf
 sourceUrl: https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/META-Q2-2026-Earnings-Call-Transcript.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ META Q2 2026 Earnings Call Transcript 已作为日报/周报 PDF 证据源入库
 - **来源类型**：media
 - **原文 URL**：https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/META-Q2-2026-Earnings-Call-Transcript.pdf
 - **原始文件**：`knowledge/raw/s21-q4cdn-com-meta-q2-2026-earnings-call-transcript.pdf`
-- **入库日期**：2026-08-19
+- **入库日期**：2026-08-20
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
