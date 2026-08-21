@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-20T14:08:11.612Z",
+  "generatedAt": "2026-08-21T02:07:33.876Z",
   "module": "knowledge-base",
-  "qualityStatus": "fail",
-  "latestCatalogDate": "2026-08-20",
+  "qualityStatus": "warn",
+  "latestCatalogDate": "2026-08-21",
   "counts": {
-    "reports": 135,
+    "reports": 136,
     "knowledgeSources": 4,
     "sourceTypes": {
       "media": 63,
@@ -12,7 +12,7 @@
       "concept": 10,
       "public-safe-synthesis": 11,
       "consulting": 14,
-      "industry": 17
+      "industry": 18
     }
   },
   "privatePathLeaks": [],
@@ -99,21 +99,13 @@
     "external link not hard-checked in Phase 1"
   ],
   "criticalIssues": [],
-  "brokenLinks": [
-    {
-      "type": "public-scan",
-      "sourceFile": "data/info-feed-status.json",
-      "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-20.html",
-      "reason": "public scan bridge returned 404",
-      "status": 404
-    }
-  ],
+  "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-08-20T14:08:12.127Z",
-    "qualityStatus": "fail",
-    "firstPartyChecked": 2964,
-    "externalWarnings": 60,
-    "brokenCount": 1,
+    "checkedAt": "2026-08-21T02:07:35.072Z",
+    "qualityStatus": "warn",
+    "firstPartyChecked": 2965,
+    "externalWarnings": 78,
+    "brokenCount": 0,
     "publicScanBridge": [
       {
         "ok": true,
@@ -124,13 +116,6 @@
         "ok": true,
         "status": 200,
         "url": "https://jordanfu.github.io/org-intelligence-info/"
-      },
-      {
-        "ok": false,
-        "hardBroken": true,
-        "status": 404,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-20.html",
-        "reason": "public scan bridge returned 404"
       }
     ]
   }

@@ -18,6 +18,7 @@ backlinks: [../../specials/ai-org-talent-mechanism/topics/job-family-career-arch
 ## 已有证据来源
 | 日期 | 来源 / 文件 | 等级 | 支持判断 |
 |---|---|---|---|
+| 2026-08-21 | `../../digest.md` [D07]—[D09] | L1 | 智能体平台岗位继续专业拆分，Applied AI 出现架构、工程和管理分层，管理者仍承担亲自构建与重点客户交付。 |
 | 2026-08-19 | `../../digest.md` [D06] | L1 | 平台连接与产品沙箱岗位同步出现，提示开放接口和执行隔离能力可能并行深化。 |
 | 2026-07-01 | `../../digest.md` [3] | L2 | 公共部门 Applied AI 岗位边界显性化。 |
 | 2026-06-30 | `../../digest.md` [2] | L2 | 政府客户部署从账号采购变成培训与支持机制。 |
@@ -27,10 +28,11 @@ backlinks: [../../specials/ai-org-talent-mechanism/topics/job-family-career-arch
 `../../specials/ai-org-talent-mechanism/topics/job-family-career-architecture/evidence-map.md`
 
 ## 相关 digest 条目
-`../../digest.md` 2026-08-19 [D06]；2026-07-01 [3]；2026-06-30 [2]；2026-06-29 [2]
+`../../digest.md` 2026-08-21 [D07]—[D09]；2026-08-19 [D06]；2026-07-01 [3]；2026-06-30 [2]；2026-06-29 [2]
 
 ## 当前可形成的判断
 - Anthropic 可支持“Applied AI / 公共部门部署岗位正在成为跨组织接口”的判断；来源 2026-07-01 digest，L2。
+- 2026-08-21 的岗位组支持“客户交付责任变宽、核心平台专家接口变深、部分管理者保持亲自构建”的观察；来源 digest [D07]—[D09]，L1，不能外推为全公司制度。
 
 ## 明确边界 / 不能下的结论
 - 不能证明 Anthropic 已形成完整公共部门组织线。
@@ -41,3 +43,5 @@ backlinks: [../../specials/ai-org-talent-mechanism/topics/job-family-career-arch
 - 公共部门团队是否有稳定汇报线、绩效指标和部署质量标准？
 - Frontier Red Team 是否拥有发布闸门、风险升级或强制修复权？
 - 平台连接与产品沙箱是否属于同一管理链，分别承担哪些上线和事故责任？
+- Applied AI 管理者亲自构建的时间比例、团队规模和双重绩效口径是什么？
+- 运行托管、分发与可迁移性岗位如何划分架构权、事故责任和晋升标准？

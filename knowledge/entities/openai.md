@@ -18,6 +18,7 @@ backlinks: [../../specials/ai-org-talent-mechanism/topics/job-family-career-arch
 ## 已有证据来源
 | 日期 | 来源 / 文件 | 等级 | 支持判断 |
 |---|---|---|---|
+| 2026-08-21 | `../../digest.md` [D10] | L1 | 设备岗位分别聚焦私密计算与多模态身份认证，提示设备信任栈可能继续专业化；首次发布时间和组织边界未验证。 |
 | 2026-08-20 | `../../digest.md` [D01]、[D02]、[D12] | L1-L2 | 零数据留存安全处理、权限恢复压力测试与生化风险岗位共同支持“治理职责分离＋专家责任嵌入运行链”。 |
 | 2026-08-19 | `../../digest.md` [D01]、[D03] | L1-L2 | 安全团队的暂停机制与企业/政府全生命周期交付岗位，分别支持“治理权硬化”和“交付责任包变宽”。 |
 | 2026-07-01 | `../../digest.md` [4] | L3 | DeployCo 支持 FDE / Applied AI 主线。 |
@@ -27,7 +28,7 @@ backlinks: [../../specials/ai-org-talent-mechanism/topics/job-family-career-arch
 `../../specials/ai-org-talent-mechanism/topics/job-family-career-architecture/evidence-map.md`
 
 ## 相关 digest 条目
-`../../digest.md` 2026-08-20 [D01]、[D02]、[D12]；2026-08-19 [D01]、[D03]；2026-07-01 [4]；2026-06-30 [1]
+`../../digest.md` 2026-08-21 [D10]；2026-08-20 [D01]、[D02]、[D12]；2026-08-19 [D01]、[D03]；2026-07-01 [4]；2026-06-30 [1]
 
 ## 当前可形成的判断
 - OpenAI 可支持“客户部署组织成为 AI adoption 接口”的判断；来源 2026-07-01 digest，L3。
@@ -43,3 +44,4 @@ backlinks: [../../specials/ai-org-talent-mechanism/topics/job-family-career-arch
 - Codex 是否改变晋升证据、代码审查责任和 manager 复核标准？
 - 最大规模训练恢复门槛、暂停次数和最终否决权能否获得外部核验？
 - 私密安全处理的信号字段、申诉流程和独立审计如何设计？
+- 私密计算与身份认证岗位的首次发布时间、团队汇报线和责任交接如何？

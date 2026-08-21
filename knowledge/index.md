@@ -1,7 +1,7 @@
 # AI 组织设计知识库 — 索引
 
 > 按 Karpathy LLM Wiki 模式维护 · LLM 负责更新 · 人类负责审核
-> 最后更新: 2026-08-20
+> 最后更新: 2026-08-21
 
 ---
 
@@ -52,6 +52,7 @@
 | 41 | [本地知识库定期 Review（2026-08-03）](wiki/local-knowledge-review-2026-08-03.md) | OD Intelligence Center | 2026-08-03 | 知识管理, 定期Review, PDF入库, People/HR, AI fluency |
 | 42 | [本地知识库定期 Review（2026-08-10）](wiki/local-knowledge-review-2026-08-10.md) | OD Intelligence Center | 2026-08-10 | 知识管理, 定期Review, PDF入库, People/HR, AI fluency |
 | 43 | [本地知识库定期 Review（2026-08-18）](wiki/local-knowledge-review-2026-08-18.md) | OD Intelligence Center | 2026-08-18 | 知识管理, 定期Review, PDF入库, People/HR, AI fluency |
+| 44 | [Cisco：AI 智能体如何重写网络安全岗位、技能与人才入口](wiki/cisco-ai-agents-cybersecurity-workforce-2026.md) | Cisco AI Workforce Consortium | 2026-08-20 | 网络安全, AI技能, 人才管道, 岗位架构, 薪酬信号 |
 
 ## 概念页
 

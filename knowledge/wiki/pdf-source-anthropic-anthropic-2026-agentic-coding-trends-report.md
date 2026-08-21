@@ -2,7 +2,7 @@
 title: Anthropic：2026 Agentic Coding Trends Report
 source: Anthropic
 date: 待核验
-ingested: 2026-08-20
+ingested: 2026-08-21
 sourceFile: ../raw/anthropic-anthropic-2026-agentic-coding-trends-report.pdf
 sourceUrl: https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf
 tags: [AI组织设计, 人才发展, 变革管理]
@@ -21,7 +21,7 @@ Anthropic 从软件开发场景说明 Agentic coding 正在把工程师角色推
 - **来源类型**：industry
 - **原文 URL**：https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf
 - **原始文件**：`knowledge/raw/anthropic-anthropic-2026-agentic-coding-trends-report.pdf`
-- **入库日期**：2026-08-20
+- **入库日期**：2026-08-21
 - **证据层级**：Context 到结论层之间；对工程岗位变化强，对全行业岗位改革需交叉验证。
 
 ## 核心内容

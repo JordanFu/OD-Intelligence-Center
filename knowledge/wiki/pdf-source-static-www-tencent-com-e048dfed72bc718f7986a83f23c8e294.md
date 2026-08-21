@@ -2,7 +2,7 @@
 title: e048dfed72bc718f7986a83f23c8e294
 source: static.www.tencent.com
 date: 待核验
-ingested: 2026-08-20
+ingested: 2026-08-21
 sourceFile: ../raw/static-www-tencent-com-e048dfed72bc718f7986a83f23c8e294.pdf
 sourceUrl: https://static.www.tencent.com/uploads/2026/05/13/e048dfed72bc718f7986a83f23c8e294.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ e048dfed72bc718f7986a83f23c8e294 已作为日报/周报 PDF 证据源入库，�
 - **来源类型**：media
 - **原文 URL**：https://static.www.tencent.com/uploads/2026/05/13/e048dfed72bc718f7986a83f23c8e294.pdf
 - **原始文件**：`knowledge/raw/static-www-tencent-com-e048dfed72bc718f7986a83f23c8e294.pdf`
-- **入库日期**：2026-08-20
+- **入库日期**：2026-08-21
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
