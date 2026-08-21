@@ -72,6 +72,11 @@ f232578 已作为日报/周报 PDF 证据源入库，当前需要完成结构化
 - `specials/ai-org-talent-mechanism/2026-08-19/02-talent-density.md:168`：NBER｜Pyramids, Diamonds, and Oscillations
 - `specials/ai-org-talent-mechanism/2026-08-20/01-flat-organization.md:140`：NBER
 - `specials/ai-org-talent-mechanism/2026-08-20/01-flat-organization.md:213`：NBER：组织形态与初级人才入口工作论文
+- `specials/ai-org-talent-mechanism/2026-08-21/01-flat-organization.md:218`：NBER：组织形态与初级人才入口工作论文
+- `specials/ai-org-talent-mechanism/weekly/2026-W34-detailed.md:280`：NBER｜Pyramids, Diamonds, and Oscillations
+- `specials/ai-org-talent-mechanism/weekly/2026-W34.md:280`：NBER｜Pyramids, Diamonds, and Oscillations
+- `specials/ai-org-talent-mechanism/weekly/latest-detailed.md:280`：NBER｜Pyramids, Diamonds, and Oscillations
+- `specials/ai-org-talent-mechanism/weekly/latest.md:280`：NBER｜Pyramids, Diamonds, and Oscillations
 
 ## 后续精读任务
 
