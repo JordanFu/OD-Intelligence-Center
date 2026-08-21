@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-21T02:41:05.581Z",
+  "generatedAt": "2026-08-21T10:30:12.092Z",
   "module": "info-feed",
   "qualityStatus": "warn",
   "latestDate": "2026-08-21",
   "latestCardCount": 15,
-  "newFactCount": 11,
+  "newFactCount": 9,
   "contextCount": 1,
-  "weakSignalCount": 2,
+  "weakSignalCount": 4,
   "gapRecordCount": 1,
   "sourceCount": 12,
   "channelCoverage": [
@@ -31,10 +31,10 @@
     "date": "2026-08-21",
     "cardCount": 15,
     "nonGapCardCount": 14,
-    "newFactCount": 11,
+    "newFactCount": 9,
     "oldLineReviewCount": 1,
     "contextCount": 1,
-    "weakSignalCount": 2,
+    "weakSignalCount": 4,
     "gapCount": 1,
     "gapRecordCount": 1,
     "sourcePlatformCount": 12,
@@ -48,9 +48,9 @@
       "社媒公众号"
     ],
     "infoTypeDistribution": {
-      "新增事实": 11,
+      "新增事实": 9,
+      "弱信号": 4,
       "旧线复核": 1,
-      "弱信号": 2,
       "缺口记录": 1
     },
     "channelTypeDistribution": {
@@ -102,9 +102,9 @@
       "date": "2026-08-21",
       "cardCount": 15,
       "nonGapCardCount": 14,
-      "newFactCount": 11,
+      "newFactCount": 9,
       "contextCount": 1,
-      "weakSignalCount": 2,
+      "weakSignalCount": 4,
       "gapRecordCount": 1,
       "sourcePlatformCount": 12,
       "sourceUrlCount": 15,
@@ -431,8 +431,8 @@
   },
   "homepageBridge": {
     "digestLatestDate": "2026-08-21",
-    "latestScanDate": "2026-08-21",
-    "latestScanUrl": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-21.html",
+    "latestScanDate": "2026-08-18",
+    "latestScanUrl": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-18.html",
     "publicMirrorUrl": "https://jordanfu.github.io/org-intelligence-info/",
     "checkedBy": "scripts/check-public-links.js",
     "status": "pending-link-check"
@@ -486,21 +486,32 @@
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-08-21T02:07:35.072Z",
+    "checkedAt": "2026-08-21T08:13:40.938Z",
     "qualityStatus": "warn",
-    "firstPartyChecked": 2965,
-    "externalWarnings": 78,
+    "firstPartyChecked": 2992,
+    "externalWarnings": 81,
     "brokenCount": 0,
     "publicScanBridge": [
       {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-18.html"
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-18.html",
+        "reason": "network check warning: fetch failed"
       },
       {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/"
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/",
+        "reason": "network check warning: fetch failed"
+      },
+      {
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-21.html",
+        "reason": "network check warning: fetch failed"
       }
     ]
   },
