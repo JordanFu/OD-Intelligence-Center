@@ -1,6 +1,6 @@
 # 专题一：组织扁平化与中层减少｜滚动基线档案
 
-> 更新日期：2026-08-20
+> 更新日期：2026-08-21
 > 用途：这是四课题研究的“滚动母稿”，不是某一天的日报。日报负责记录新增事实、Context 和线索；周报负责做阶段复盘；基线档案负责沉淀稳定判断、证据账本和待验证问题。
 > 自动化规则：每日/周报与 PDF 入库后自动回写证据账本；正式重跑遵循 research-protocol.md 的多代理并行与主代理交叉证伪机制；只有多源互证或一手材料足够强的内容，才进入稳定判断。
 
@@ -46,12 +46,12 @@
 | [知识库主题分类与去重治理建议](./knowledge/wiki/knowledge-taxonomy-dedup-review-2026-05-22.md) | 对当前知识库重复信息与分类体系的健康检查。结论是来源页不应删除，需新增主题导航层，将 Zapier、GitLab、AI能力盘点、AI-first operating model、技术组织、绩效薪酬等高重叠主题收敛到主题… |
 | [AI 原生组织：从加 AI 功能到长 AI 基因](./knowledge/wiki/ai-native-organization-operating-pattern.md) | 补齐 AI 原生组织概念页，强调业务流/工作流合一、智能决策默认推送、经验可复制、激励机制和 Context over Control。 |
 | [AI 时代五环协同人才体系](./knowledge/wiki/ai-five-ring-talent-system-huang-qifan-2026.md) | 将 AI 时代人才体系抽象为研发、工程化、产业化、组织化、治理五环协同，强调人才组合、任务共同体和协同机制。 |
+| [Cisco：AI 智能体如何重写网络安全岗位、技能与人才入口](./knowledge/wiki/cisco-ai-agents-cybersecurity-workforce-2026.md) | 将 G7 网络安全招聘数据、AI 技能薪酬信号、入口岗位断层、执行责任变宽和核心专家深化放入同一组织机制分析；明确 14.9% 是招聘市场横截面价差，不是企业普遍涨薪。 |
 | [McKinsey 组织九大变革框架 2026](./knowledge/wiki/mckinsey-nine-shifts-2026.md) | 基于 McKinsey State of Organizations 2026，把九个组织变革议题收敛为三股结构性力量下的 OD 研究框架。 |
 | [Handbook-First 与 DRI：远程组织的决策操作系统](./knowledge/wiki/handbook-first-dri-operating-system.md) | 解释 Handbook-First 如何解决组织知识位置问题，DRI 如何解决决策责任问题，以及二者为何是 AI 组织上下文工程的前置机制。 |
 | [GitLab Handbook 企业管理机制研究补充](./knowledge/wiki/gitlab-handbook-management-research-synthesis.md) | 从 Obsidian 新增 GitLab 管理研究中抽取公开可复核的机制结论，补充 Handbook-First、DRI、TeamOps 和 QTR/Talent Assessment 的组织含义。 |
 | [Microsoft：2026 Work Trend Index Annual Report](./knowledge/wiki/pdf-source-microsoft-2026-work-trend-index.md) | Microsoft 2026 Work Trend Index 年度报告，基于全球 AI 工作用户调研和 Microsoft 365 匿名遥测，提出 Agent 时代组织需要从个人 AI 使用升级到工作重构、Front… |
 | [McKinsey：AI-first 时代端到端技术 workforce 设计](./knowledge/wiki/pdf-source-mckinsey-2026-ai-first-technology-workforce.md) | McKinsey Technology 文章，讨论 agentic AI 时代 CIO 如何重构技术组织的人才招聘、内部能力建设、Agent 训练和供应商策略。适合用于 AI-first 技术岗位族群和职级变化研究。 |
-| [AI 能力标准、考核与员工盘点研究](./knowledge/wiki/ai-capability-assessment-employee-inventory-research-2026-05-19.md) | 本地研究稿二次沉淀，区分人的 AI 能力框架、组织级 AI 治理标准、模型/系统评测基准，提出员工 AI 能力盘点应采用岗位分簇、双轨证据和周期复测。 |
 
 ## 当前不可越界的结论
 

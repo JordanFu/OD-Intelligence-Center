@@ -1,6 +1,6 @@
 # 专题三：岗位、族群、序列持续建设｜滚动基线档案
 
-> 更新日期：2026-08-20
+> 更新日期：2026-08-21
 > 用途：这是四课题研究的“滚动母稿”，不是某一天的日报。日报负责记录新增事实、Context 和线索；周报负责做阶段复盘；基线档案负责沉淀稳定判断、证据账本和待验证问题。
 > 自动化规则：每日/周报与 PDF 入库后自动回写证据账本；正式重跑遵循 research-protocol.md 的多代理并行与主代理交叉证伪机制；只有多源互证或一手材料足够强的内容，才进入稳定判断。
 
@@ -40,6 +40,7 @@
 
 | 资料 | 对本专题的价值 |
 |---|---|
+| [Cisco：AI 智能体如何重写网络安全岗位、技能与人才入口](./knowledge/wiki/cisco-ai-agents-cybersecurity-workforce-2026.md) | 将 G7 网络安全招聘数据、AI 技能薪酬信号、入口岗位断层、执行责任变宽和核心专家深化放入同一组织机制分析；明确 14.9% 是招聘市场横截面价差，不是企业普遍涨薪。 |
 | [人机协作演进框架：Author、Editor、Director、Orchestrator](./knowledge/wiki/human-agent-collaboration-evolution.md) | 把人机协作拆成四种模式，强调人类签核单元从单行代码扩大到 backlog，适合用于岗位重塑、AI fluency 和绩效归属研究。 |
 | [McKinsey：AI-first 时代端到端技术 workforce 设计](./knowledge/wiki/pdf-source-mckinsey-2026-ai-first-technology-workforce.md) | McKinsey Technology 文章，讨论 agentic AI 时代 CIO 如何重构技术组织的人才招聘、内部能力建设、Agent 训练和供应商策略。适合用于 AI-first 技术岗位族群和职级变化研究。 |
 | [AI 能力标准、考核与员工盘点研究](./knowledge/wiki/ai-capability-assessment-employee-inventory-research-2026-05-19.md) | 本地研究稿二次沉淀，区分人的 AI 能力框架、组织级 AI 治理标准、模型/系统评测基准，提出员工 AI 能力盘点应采用岗位分簇、双轨证据和周期复测。 |
@@ -51,7 +52,6 @@
 | [亚马逊 Builder 与百度职级改革的共同趋势](./knowledge/wiki/amazon-baidu-job-title-reform-obsidian.md) | 对亚马逊 Ring/Blink Builder 试点与百度职级改革的对照笔记：岗位头衔弱化、评价转向客户价值量级、白领角色更端到端和实战化，同时提示晋升梯子不可见的风险。 |
 | [BCG：AI-First Organization](./knowledge/wiki/pdf-source-bcg-bcg-ai-first-organization.md) | BCG 把 AI-First 组织定义为从“工具辅助”走向“AI 默认执行、人类编排监督”的经营模式重构。 关注重点：AI 默认执行、端到端流程重构、人机编排。相关性：强相关：组织与岗位重构。 |
 | [AIHR：HR Priorities 2026 Report](./knowledge/wiki/pdf-source-aihr-aihr-hr-priorities-2026-report.md) | AIHR 把 2026 HR 重点归纳为共领导 AI 转型、把 AI 产能收益再投资增长、从 headcount 转向 skill count。 关注重点：技能本位组织、HR 重构、skill count。相关性：强相… |
-| [EY：Future of Pay Report 2026](./knowledge/wiki/pdf-source-ey-ey-future-of-pay-report-2026.md) | EY 把未来薪酬改革连接到技能、绩效、AI 人才、生产率和治理，适合支撑“岗位改革背后是激励资源再配置”。 关注重点：技能薪酬、生产率锚点、AI 人才溢价。相关性：强相关：薪酬与激励机制。 |
 
 ## 当前不可越界的结论
 

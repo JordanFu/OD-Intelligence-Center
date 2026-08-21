@@ -1,6 +1,6 @@
 # 专题二：高人才密度与复合型人才机制｜滚动基线档案
 
-> 更新日期：2026-08-20
+> 更新日期：2026-08-21
 > 用途：这是四课题研究的“滚动母稿”，不是某一天的日报。日报负责记录新增事实、Context 和线索；周报负责做阶段复盘；基线档案负责沉淀稳定判断、证据账本和待验证问题。
 > 自动化规则：每日/周报与 PDF 入库后自动回写证据账本；正式重跑遵循 research-protocol.md 的多代理并行与主代理交叉证伪机制；只有多源互证或一手材料足够强的内容，才进入稳定判断。
 
@@ -46,12 +46,12 @@ AI 时代的高人才密度不只是“更强个体”，而是能把问题定�
 | [微信公众号「AI组织进化论」候选来源池](./knowledge/wiki/wechat-ai-org-evolution-intake.md) | 记录用户提供的 AI组织进化论 微信原文链接，当前作为人才密度方向候选输入；原文自动访问触发微信环境验证，待读取正文后再判断进入线索层、Context 层或结论候选。 |
 | [知识库主题分类与去重治理建议](./knowledge/wiki/knowledge-taxonomy-dedup-review-2026-05-22.md) | 对当前知识库重复信息与分类体系的健康检查。结论是来源页不应删除，需新增主题导航层，将 Zapier、GitLab、AI能力盘点、AI-first operating model、技术组织、绩效薪酬等高重叠主题收敛到主题… |
 | [AI 时代五环协同人才体系](./knowledge/wiki/ai-five-ring-talent-system-huang-qifan-2026.md) | 将 AI 时代人才体系抽象为研发、工程化、产业化、组织化、治理五环协同，强调人才组合、任务共同体和协同机制。 |
+| [Cisco：AI 智能体如何重写网络安全岗位、技能与人才入口](./knowledge/wiki/cisco-ai-agents-cybersecurity-workforce-2026.md) | 将 G7 网络安全招聘数据、AI 技能薪酬信号、入口岗位断层、执行责任变宽和核心专家深化放入同一组织机制分析；明确 14.9% 是招聘市场横截面价差，不是企业普遍涨薪。 |
 | [人机协作演进框架：Author、Editor、Director、Orchestrator](./knowledge/wiki/human-agent-collaboration-evolution.md) | 把人机协作拆成四种模式，强调人类签核单元从单行代码扩大到 backlog，适合用于岗位重塑、AI fluency 和绩效归属研究。 |
 | [McKinsey：AI-first 时代端到端技术 workforce 设计](./knowledge/wiki/pdf-source-mckinsey-2026-ai-first-technology-workforce.md) | McKinsey Technology 文章，讨论 agentic AI 时代 CIO 如何重构技术组织的人才招聘、内部能力建设、Agent 训练和供应商策略。适合用于 AI-first 技术岗位族群和职级变化研究。 |
 | [GitLab：Promotions and Transfers 晋升与内部流动机制](./knowledge/wiki/gitlab-promotions-transfers-handbook.md) | GitLab 官方 Handbook 中的晋升与内部流动制度页，结构化说明周期性晋升校准、promotion document、业务结果、业务必要性、价值观对齐、跨职能反馈、Senior Director+ 角色评估、… |
 | [GitLab：People & Organization 机制研究模块](./knowledge/wiki/gitlab-people-org-handbook-module-2026-05-21.md) | 覆盖 GitLab Handbook People Group 与 People Policies 两个一级目录，沉淀 GitLab 的 People 操作系统：公开手册、服务台、员工生命周期、能力模型、人才盘点、晋升… |
 | [CFTE：AI Proficiency Framework](./knowledge/wiki/pdf-source-cfte-2026-04-ai-proficiency-framework.md) | CFTE 提出的专业劳动力 AI 熟练度参考框架：三层公开等级、六档内部发展模型、十个能力域，以及 knowledge/skills/behaviours 三类评估维度。适合用于 AI 能力盘点、岗位技能标签、人才发展… |
-| [标杆研究更新：AI如何重塑组织设计](./knowledge/wiki/benchmark-ai-org-design-update-2026-05-08.html) | 从工作日报模块迁入知识库的标杆研究更新报告：基于 04-28 至 05-08 期间 80+ 条信息，聚焦 AI 时代人才发展机制创新与飞轮人员待优化复盘，整理 Deloitte、BCG、IBM、Lovable、百度、K… |
 
 ## 当前不可越界的结论
 
