@@ -38,6 +38,9 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Check organization intelligence freshness rules
+        run: node scripts/test-org-intelligence-freshness.js
+
       - name: Ensure recent daily and weekly reports
         env:
           REPORT_DATE: ${{ inputs.report_date }}

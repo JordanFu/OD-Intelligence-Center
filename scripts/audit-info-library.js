@@ -1,6 +1,7 @@
 const fs = require('fs');
 const os = require('os');
 const path = require('path');
+const { assessOrgIntelligenceFreshness } = require('./org-intelligence-freshness');
 
 const root = path.resolve(__dirname, '..');
 const digestPath = path.join(root, 'digest.md');
@@ -466,6 +467,7 @@ function main() {
   const recentDays = days.slice(0, RECENT_DAY_COUNT).map((day) => analyzeDay(day, latestSectionText(digest, day.date)));
   const latestQuality = qualityIssues(days[0], latestDigestText, existingStatus);
   const latestPrivateScanDate = latestPrivateOrgDailyLogDate() || latestDate;
+  const orgIntelligenceFreshness = assessOrgIntelligenceFreshness(latestPrivateScanDate);
   const platforms = [...new Set(items.map((item) => item.platform || item.source).filter(Boolean))].sort();
   const trustStats = items.reduce((stats, item) => {
     const key = item.trust || '未标注';
@@ -510,6 +512,11 @@ function main() {
 
   const criticalIssues = [...latestQuality.criticalIssues, ...recentCriticalIssues];
   const warnings = [...latestQuality.warnings, ...recentWarnings];
+  if (orgIntelligenceFreshness.status === 'fail') {
+    criticalIssues.push(`组织情报公开镜像已滞后 ${orgIntelligenceFreshness.ageDays} 天（最新 ${latestPrivateScanDate}），超过 ${orgIntelligenceFreshness.maxAgeDays} 天保鲜门槛。`);
+  } else if (orgIntelligenceFreshness.status === 'unknown') {
+    warnings.push('组织情报公开镜像日期无法解析，未完成保鲜检查。');
+  }
   const linkState = {
     brokenLinks: Array.isArray(existingStatus?.brokenLinks) ? existingStatus.brokenLinks : [],
     links: existingStatus?.links || {
@@ -609,6 +616,9 @@ function main() {
     homepageBridge: {
       digestLatestDate: latestDate,
       latestScanDate: latestPrivateScanDate,
+      freshnessStatus: orgIntelligenceFreshness.status,
+      ageDays: orgIntelligenceFreshness.ageDays,
+      maxAgeDays: orgIntelligenceFreshness.maxAgeDays,
       latestScanUrl: publicScanUrlFor(latestPrivateScanDate),
       publicMirrorUrl: 'https://jordanfu.github.io/org-intelligence-info/',
       checkedBy: 'scripts/check-public-links.js',
