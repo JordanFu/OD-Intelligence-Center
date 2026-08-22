@@ -2,7 +2,7 @@
 title: 6277baa6 0f7b 4fbe 9c7c ceb3e0e9b325 flatland
 source: static-cdn.cars24.com
 date: 待核验
-ingested: 2026-08-21
+ingested: 2026-08-22
 sourceFile: ../raw/static-cdn-cars24-com-6277baa6-0f7b-4fbe-9c7c-ceb3e0e9b325-flatland.pdf
 sourceUrl: https://static-cdn.cars24.com/prod/auto-news24-cms/cars24-blog-images/2026/05/28/6277baa6-0f7b-4fbe-9c7c-ceb3e0e9b325-flatland.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 - **来源类型**：media
 - **原文 URL**：https://static-cdn.cars24.com/prod/auto-news24-cms/cars24-blog-images/2026/05/28/6277baa6-0f7b-4fbe-9c7c-ceb3e0e9b325-flatland.pdf
 - **原始文件**：`knowledge/raw/static-cdn-cars24-com-6277baa6-0f7b-4fbe-9c7c-ceb3e0e9b325-flatland.pdf`
-- **入库日期**：2026-08-21
+- **入库日期**：2026-08-22
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容

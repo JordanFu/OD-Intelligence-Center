@@ -4,7 +4,7 @@
 
 ## 1. 启动与仓库状态
 
-- 任务开始时确认 `/private/tmp/ODIC-current` 是完整 Git 仓库、工作区无未提交变更。
+- 任务开始时确认本地工作副本是完整 Git 仓库、工作区无未提交变更。
 - 已先执行 `git pull --rebase origin main`，从 `9b13f517` 快进到 `f9057801`。
 - 远端 8 月 20 日五份专题来自 `auto-fallback`，正文明确为研究状态记录/非决策稿；本轮全部重写，不把它们计入证据或稳定基线。
 
@@ -12,9 +12,9 @@
 
 | 代理 | 独立责任 | 产物 |
 |---|---|---|
-| 内部知识源代理 | `digest.md`、近 7—14 天 `daily/`、`daily-report/`、`knowledge/`、历史专题和滚动基线 | `/private/tmp/ODIC-research-2026-08-20/internal-sources.md` |
-| 官方与公司渠道代理 | 官方/一手、权威媒体、公司案例、咨询材料；重点核验 OpenAI、AWS/Fanatics、Microsoft | `/private/tmp/ODIC-research-2026-08-20/channel-primary.md` |
-| 学术与信号渠道代理 | 学术、JD/薪酬、中国媒体、公众号、社媒/职场平台；逐页核验日期 | `/private/tmp/ODIC-research-2026-08-20/channel-signals.md` |
+| 内部知识源代理 | `digest.md`、近 7—14 天 `daily/`、`daily-report/`、`knowledge/`、历史专题和滚动基线 | 运行期临时记录（未纳入发布） |
+| 官方与公司渠道代理 | 官方/一手、权威媒体、公司案例、咨询材料；重点核验 OpenAI、AWS/Fanatics、Microsoft | 运行期临时记录（未纳入发布） |
+| 学术与信号渠道代理 | 学术、JD/薪酬、中国媒体、公众号、社媒/职场平台；逐页核验日期 | 运行期临时记录（未纳入发布） |
 | 四专题代理 | 扁平化、人才密度、岗位族群序列、晋升机制分别写作 | 当天 `01`—`04` 正式 Markdown |
 | 主代理 | 日期复核、证据去重、反例校准、总览、页面、质量与线上验证 | `00-overview.md`、HTML、首页与状态文件 |
 
@@ -27,9 +27,7 @@
 
 ## 4. 外部检索记录
 
-AnySearch 配置使用 Python CLI：
-
-`python3 /Users/tal/.codex/skills/anysearch/scripts/anysearch_cli.py`
+AnySearch 通过已安装的本地命令行能力调用，公开记录不保留本机安装路径。
 
 - 调用前检查 `runtime.conf` 和脚本差异。脚本相对上游只有已存在的请求超时环境变量修改；本轮用 `ANYSEARCH_TIMEOUT_SECONDS=30` 限定。
 - 学术垂直域先按技能要求调用 `list_domains --domain academic`，返回原始错误：`API Error: tool 'list_domains' not found: tool not found`。随后降级为通用检索，并用 arXiv API 逐篇核验 `published` 时间。

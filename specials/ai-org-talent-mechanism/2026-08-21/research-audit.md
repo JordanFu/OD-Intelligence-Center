@@ -25,7 +25,7 @@
 
 ## 3. 检索工具与异常
 
-- 首选工具：python3 /Users/tal/.codex/skills/anysearch/scripts/anysearch_cli.py。
+- 首选工具：已安装的 AnySearch 本地命令行能力；公开记录不保留本机安装路径。
 - 脚本 SHA-256：e520555be51c39e129320bbdd367ac18d6298fd854901dc81c6b8a0b3d2a5380。
 - 脚本与原始版本相比只有一处已知本地改动：请求超时从固定 30 秒改为环境变量 ANYSEARCH_TIMEOUT_SECONDS，默认 90 秒；本轮设置为 30 秒。没有改变请求、结果或证据逻辑。
 - 学术检索按 skill 要求先调用 list_domains --domain academic，工具逐字返回：
@@ -104,4 +104,3 @@ API Error: tool 'list_domains' not found: tool not found
 - site:jobs.ashbyhq.com/openai AI job posted August 20 2026 salary
 - site:reddit.com AI layoffs team workload promotion manager August 20 2026
 - 2026年8月21日 AI 组织架构 人才 晋升 岗位 大厂
-

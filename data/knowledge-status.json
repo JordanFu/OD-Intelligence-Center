@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-21T14:06:17.604Z",
+  "generatedAt": "2026-08-22T01:55:59.168Z",
   "module": "knowledge-base",
-  "qualityStatus": "fail",
-  "latestCatalogDate": "2026-08-21",
+  "qualityStatus": "warn",
+  "latestCatalogDate": "2026-08-22",
   "counts": {
     "reports": 136,
     "knowledgeSources": 4,
@@ -95,43 +95,15 @@
     }
   ],
   "warnings": [
-    "knowledge/catalog.json 的 reports 存在 3 组重复 summaryFile。",
-    "external link not hard-checked in Phase 1"
+    "knowledge/catalog.json 的 reports 存在 3 组重复 summaryFile。"
   ],
   "criticalIssues": [],
-  "brokenLinks": [
-    {
-      "type": "public-scan",
-      "sourceFile": "data/info-feed-status.json",
-      "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-21.html",
-      "reason": "public scan bridge returned 404",
-      "status": 404
-    }
-  ],
+  "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-08-21T14:06:18.115Z",
-    "qualityStatus": "fail",
-    "firstPartyChecked": 2992,
-    "externalWarnings": 76,
-    "brokenCount": 1,
-    "publicScanBridge": [
-      {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-18.html"
-      },
-      {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/"
-      },
-      {
-        "ok": false,
-        "hardBroken": true,
-        "status": 404,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-21.html",
-        "reason": "public scan bridge returned 404"
-      }
-    ]
+    "checkedAt": null,
+    "qualityStatus": "pending",
+    "firstPartyChecked": 0,
+    "externalWarnings": 0,
+    "brokenCount": 0
   }
 }
