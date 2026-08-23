@@ -2,7 +2,7 @@
 title: GitLab：2026 SEC 8-K Filing
 source: GitLab
 date: 待核验
-ingested: 2026-08-22
+ingested: 2026-08-23
 sourceFile:
 sourceUrl: https://ir.gitlab.com/sec-filings/all-sec-filings/content/0001628280-26-023407/0001628280-26-023407.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ GitLab SEC 8-K 是官方披露来源，可作为核验组织调整、AI 智能�
 - **来源类型**：industry
 - **原文 URL**：https://ir.gitlab.com/sec-filings/all-sec-filings/content/0001628280-26-023407/0001628280-26-023407.pdf
 - **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
-- **入库日期**：2026-08-22
+- **入库日期**：2026-08-23
 - **证据层级**：线索层优先；当前下载失败，不能仅凭日报上下文进入结论层。
 
 ## 核心内容
