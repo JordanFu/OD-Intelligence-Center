@@ -4,6 +4,12 @@
 
 ---
 
+## [2026-08-24] update | 当日高价值情报回流
+- 更新 `knowledge/entities/openai.md`：回流经济研究接口、销售领导连续性及数据中心采购、跨专业协调、制造质量岗位证据。
+- 更新 `knowledge/concepts/end-to-end-journey-redesign.md`：加入真实任务委派和跨专业协调责任包证据。
+- 更新 `knowledge/concepts/ai-workforce-risk.md`：加入组织 AI 政策、安全采用和招聘胜任力偏差机制证据。
+- 所有新增判断均回链 `digest.md` 2026-08-24，未把招聘页面、匿名讨论或横截面研究升级为运行结果。
+
 ## [2026-08-24] review | 本地知识库定期 Review
 - 健康度 84/100（warn）：仓库、隐私边界、最近正式专题和公开入口可用。
 - 本轮 PDF intake 识别 69 个唯一来源，58 个已下载、11 个当前待重试；77 张 PDF 卡中 62 张仍是模板级。
@@ -84,7 +90,6 @@
 - 已下载：2026 global ai jobs barometer full report（引用 1 次）
 - 已下载：2026 global ai jobs barometer global findings（引用 2 次）
 - 待重试：it job family career ladder matrix software engineer（引用 1 次）
-
 ## [2026-08-23] ingest | 日报 PDF 证据源自动入库
 - 从 daily、daily-report、specials、analysis 中扫描 PDF URL，按知识库 Raw/Wiki/Catalog 规则自动建档。
 - 本次识别 66 个唯一 PDF 来源：55 个已下载原始 PDF，11 个保留 URL 与引用上下文待重试。
