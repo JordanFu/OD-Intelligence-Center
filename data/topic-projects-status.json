@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T13:53:55.478Z",
+  "generatedAt": "2026-08-24T01:34:29.023Z",
   "module": "topic-projects",
   "project": {
     "id": "ai-org-talent-mechanism",
@@ -8,10 +8,10 @@
   },
   "qualityStatus": "warn",
   "latestFormalDate": "2026-08-23",
-  "latestAnyDate": "2026-08-23",
-  "today": "2026-08-23",
-  "todayStatus": "formal",
-  "latestStatus": "formal",
+  "latestAnyDate": "2026-08-24",
+  "today": "2026-08-24",
+  "todayStatus": "scheduled",
+  "latestStatus": "scheduled",
   "pendingRerunDates": [
     "2026-08-16",
     "2026-08-09",
@@ -35,6 +35,7 @@
     "2026-05-13"
   ],
   "statusCounts": {
+    "scheduled": 1,
     "formal": 83,
     "fallback": 20
   },
@@ -46,6 +47,63 @@
     "missing": "缺失：日期目录或必要文件不存在。"
   },
   "dates": [
+    {
+      "date": "2026-08-24",
+      "status": "scheduled",
+      "isFormal": false,
+      "isFallback": false,
+      "needsRerun": false,
+      "overview": null,
+      "overviewMarkdown": null,
+      "index": null,
+      "topicReports": [
+        {
+          "title": "overview",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        },
+        {
+          "title": "flat-organization",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        },
+        {
+          "title": "talent-density",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        },
+        {
+          "title": "job-family-career-architecture",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        },
+        {
+          "title": "promotion-system",
+          "markdown": null,
+          "html": null,
+          "exists": false
+        }
+      ],
+      "missingRequired": [
+        "00-overview.md",
+        "01-flat-organization.md",
+        "02-talent-density.md",
+        "03-job-family-career-architecture.md",
+        "04-promotion-system.md"
+      ],
+      "hasFormalEntry": false,
+      "qualityGate": {
+        "path": null,
+        "status": "not-found"
+      },
+      "qualityIssues": [
+        "未到今日 18:00 正式自动化运行时间"
+      ]
+    },
     {
       "date": "2026-08-23",
       "status": "formal",
@@ -5136,9 +5194,9 @@
   ],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-08-23T13:53:59.367Z",
+    "checkedAt": "2026-08-24T01:39:24.345Z",
     "qualityStatus": "warn",
-    "firstPartyChecked": 3046,
+    "firstPartyChecked": 3052,
     "externalWarnings": 78,
     "brokenCount": 0,
     "publicScanBridge": [
@@ -5151,6 +5209,11 @@
         "ok": true,
         "status": 200,
         "url": "https://jordanfu.github.io/org-intelligence-info/"
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-24.html"
       }
     ]
   },

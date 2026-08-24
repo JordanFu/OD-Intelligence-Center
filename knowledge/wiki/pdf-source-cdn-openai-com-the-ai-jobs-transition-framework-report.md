@@ -2,7 +2,7 @@
 title: the ai jobs transition framework report
 source: cdn.openai.com
 date: 待核验
-ingested: 2026-08-23
+ingested: 2026-08-24
 sourceFile: ../raw/cdn-openai-com-the-ai-jobs-transition-framework-report.pdf
 sourceUrl: https://cdn.openai.com/pdf/the-ai-jobs-transition-framework_report.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ the ai jobs transition framework report 已作为日报/周报 PDF 证据源入�
 - **来源类型**：media
 - **原文 URL**：https://cdn.openai.com/pdf/the-ai-jobs-transition-framework_report.pdf
 - **原始文件**：`knowledge/raw/cdn-openai-com-the-ai-jobs-transition-framework-report.pdf`
-- **入库日期**：2026-08-23
+- **入库日期**：2026-08-24
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容

@@ -1,7 +1,7 @@
 # AI 组织设计知识库 — 索引
 
 > 按 Karpathy LLM Wiki 模式维护 · LLM 负责更新 · 人类负责审核
-> 最后更新: 2026-08-23
+> 最后更新: 2026-08-24
 
 ---
 
@@ -53,6 +53,7 @@
 | 42 | [本地知识库定期 Review（2026-08-10）](wiki/local-knowledge-review-2026-08-10.md) | OD Intelligence Center | 2026-08-10 | 知识管理, 定期Review, PDF入库, People/HR, AI fluency |
 | 43 | [本地知识库定期 Review（2026-08-18）](wiki/local-knowledge-review-2026-08-18.md) | OD Intelligence Center | 2026-08-18 | 知识管理, 定期Review, PDF入库, People/HR, AI fluency |
 | 44 | [Cisco：AI 智能体如何重写网络安全岗位、技能与人才入口](wiki/cisco-ai-agents-cybersecurity-workforce-2026.md) | Cisco AI Workforce Consortium | 2026-08-20 | 网络安全, AI技能, 人才管道, 岗位架构, 薪酬信号 |
+| 45 | [本地知识库定期 Review（2026-08-24）](wiki/local-knowledge-review-2026-08-24.md) | OD Intelligence Center | 2026-08-24 | 知识管理, 定期Review, PDF入库, People/HR, AI fluency |
 
 ## 概念页
 
@@ -136,14 +137,16 @@
 | [META Q2 2026 Earnings Call Transcript](wiki/pdf-source-s21-q4cdn-com-meta-q2-2026-earnings-call-transcript.md) | s21.q4cdn.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 2 次 |
 | [Fannie Mae：LL-2026-04 AI/ML 治理要求](wiki/pdf-source-fannie-mae-fannie-mae-ll-2026-04-ai-ml.md) | Fannie Mae | AI治理、负责人、年度复核、供应商级联 | 强相关：正式治理规则与外部责任边界 | 已索引待重试，引用 13 次 |
 | [6277baa6 0f7b 4fbe 9c7c ceb3e0e9b325 flatland](wiki/pdf-source-static-cdn-cars24-com-6277baa6-0f7b-4fbe-9c7c-ceb3e0e9b325-flatland.md) | static-cdn.cars24.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 16 次 |
-| [47382ae415a209fd161bc19a1f9b3704](wiki/pdf-source-static-www-tencent-com-47382ae415a209fd161bc19a1f9b3704.md) | static.www.tencent.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 1 次 |
-| [gov.uscourts.cand.474095.38.0](wiki/pdf-source-storage-courtlistener-com-gov-uscourts-cand-474095-38-0.md) | storage.courtlistener.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 1 次 |
-| [gov.uscourts.cand.474095.59.0](wiki/pdf-source-storage-courtlistener-com-gov-uscourts-cand-474095-59-0.md) | storage.courtlistener.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 4 次 |
+| [47382ae415a209fd161bc19a1f9b3704](wiki/pdf-source-static-www-tencent-com-47382ae415a209fd161bc19a1f9b3704.md) | static.www.tencent.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 3 次 |
+| [e048dfed72bc718f7986a83f23c8e294](wiki/pdf-source-static-www-tencent-com-e048dfed72bc718f7986a83f23c8e294.md) | static.www.tencent.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 2 次 |
+| [gov.uscourts.cand.474095.38.0](wiki/pdf-source-storage-courtlistener-com-gov-uscourts-cand-474095-38-0.md) | storage.courtlistener.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 2 次 |
+| [gov.uscourts.cand.474095.59.0](wiki/pdf-source-storage-courtlistener-com-gov-uscourts-cand-474095-59-0.md) | storage.courtlistener.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 6 次 |
+| [gov.uscourts.cand.474171.1.0](wiki/pdf-source-storage-courtlistener-com-gov-uscourts-cand-474171-1-0.md) | storage.courtlistener.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 2 次 |
 | [interviewing at google deepmind](wiki/pdf-source-storage-googleapis-com-interviewing-at-google-deepmind.md) | storage.googleapis.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 10 次 |
 | [BCG：AI Radar 2026](wiki/pdf-source-bcg-bcg-ai-radar-2026.md) | BCG | AI 投资、价值兑现、组织阻碍待核验 | 中相关：战略背景 | 已索引待重试，引用 2 次 |
 | [BCG + MIT Sloan：The Emerging Agentic Enterprise](wiki/pdf-source-bcg-bcg-mit-sloan-the-emerging-agentic-enterprise.md) | BCG | Agentic enterprise、中层层级、组织结构变量 | 强相关：扁平化与管理层级 | 已索引待重试，引用 8 次 |
 | [2026 global investor survey jul 2026](wiki/pdf-source-bcg-2026-global-investor-survey-jul-2026.md) | BCG | AI组织设计 | 待评估：需精读后确定 | 已索引待重试，引用 1 次 |
-| [Claude Opus 5 System Card](wiki/pdf-source-anthropic-claude-opus-5-system-card.md) | Anthropic | AI组织设计、人才发展 | 待评估：需精读后确定 | 已下载原文，引用 4 次 |
+| [Claude Opus 5 System Card](wiki/pdf-source-anthropic-claude-opus-5-system-card.md) | Anthropic | AI组织设计、人才发展 | 待评估：需精读后确定 | 已下载原文，引用 6 次 |
 | [AIHR：HR Priorities 2026 Report](wiki/pdf-source-aihr-aihr-hr-priorities-2026-report.md) | AIHR | 技能本位组织、HR 重构、skill count | 强相关：岗位与技能体系 | 已下载原文，引用 1 次 |
 | [Whitepaper Impact of AI on U.S. Labor Market 2026 R2 1](wiki/pdf-source-apollo-com-whitepaper-impact-of-ai-on-u-s-labor-market-2026-r2-1.md) | apollo.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 18 次 |
 | [quarterly update presentation 1q 2026](wiki/pdf-source-bny-com-quarterly-update-presentation-1q-2026.md) | bny.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 14 次 |
@@ -155,6 +158,7 @@
 | [12 087 bc50bde2 3016 457a 9bee dc988cb1056b](wiki/pdf-source-hbs-edu-12-087-bc50bde2-3016-457a-9bee-dc988cb1056b.md) | hbs.edu | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 8 次 |
 | [26 090 96f92aa0 37d9 4789 beaa 5c0cb87a4032](wiki/pdf-source-hbs-edu-26-090-96f92aa0-37d9-4789-beaa-5c0cb87a4032.md) | hbs.edu | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 5 次 |
 | [HiBob 2026 report AI maturity benchmarks and where the workforce stand](wiki/pdf-source-hibob-com-hibob-2026-report-ai-maturity-benchmarks-and-where-the-workforce-stand.md) | hibob.com | AI组织设计、人才发展 | 待评估：需精读后确定 | 已索引待重试，引用 4 次 |
+| [MiniMax：IPO 后股份激励计划授出奖励公告](wiki/pdf-source-hkexnews-hk-minimax-ipo.md) | hkexnews.hk | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 1 次 |
 | [cesifo1 wp12373](wiki/pdf-source-ifo-de-cesifo1-wp12373.md) | ifo.de | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 3 次 |
 | [ILO Brief ASEAN AI v11 clean](wiki/pdf-source-ilo-org-ilo-brief-asean-ai-v11-clean.md) | ilo.org | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 2 次 |
 | [0000050863 26 000011](wiki/pdf-source-intc-com-0000050863-26-000011.md) | intc.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 2 次 |
