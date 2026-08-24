@@ -1,6 +1,6 @@
 # 系统健康状态
 
-> 自动生成：2026-08-24T10:36:03.909Z
+> 自动生成：2026-08-24T10:57:02.042Z
 
 ## 一眼判断
 
@@ -53,8 +53,8 @@
 ## 链接检查
 
 - 一方断链数：0
-- 外部链接 warning：72
-- 公开扫描桥接：warn:n/a、warn:n/a
+- 外部链接 warning：70
+- 公开扫描桥接：ok:200、ok:200
 
 ## 质量语义
 
@@ -69,12 +69,9 @@
 - ⚠️ 最新日期仍有新结构字段缺失：信息类型 6 条；渠道类型 6 条；结论置信度 6 条；验证问题 6 条。
 - ⚠️ 最近 7 个信息日存在结构字段缺失：4 类日期/字段组合需逐步补齐。
 - ⚠️ external link not hard-checked in Phase 1
-- ⚠️ network check warning: fetch failed
 - ⚠️ external link not hard-checked in Phase 1
-- ⚠️ network check warning: fetch failed
 - ⚠️ knowledge/catalog.json 的 reports 存在 3 组重复 summaryFile。
 - ⚠️ external link not hard-checked in Phase 1
-- ⚠️ network check warning: fetch failed
 - ⚠️ 信息库质量为 warn
 - ⚠️ 专题研究状态为 warn
 - ⚠️ 专题待正式重跑 20 天
