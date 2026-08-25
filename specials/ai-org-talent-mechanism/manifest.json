@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T10:34:32.288Z",
+  "generatedAt": "2026-08-25T10:54:17.797Z",
   "module": "topic-projects",
   "project": {
     "id": "ai-org-talent-mechanism",
@@ -5234,30 +5234,25 @@
   ],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-08-25T10:34:32.751Z",
+    "checkedAt": "2026-08-25T10:54:22.644Z",
     "qualityStatus": "warn",
-    "firstPartyChecked": 3100,
-    "externalWarnings": 94,
+    "firstPartyChecked": 3103,
+    "externalWarnings": 92,
     "brokenCount": 0,
     "publicScanBridge": [
       {
-        "ok": false,
-        "hardBroken": false,
-        "status": null,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-25.html",
-        "reason": "network check warning: fetch failed"
+        "ok": true,
+        "status": 200,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-25.html"
       },
       {
-        "ok": false,
-        "hardBroken": false,
-        "status": null,
-        "url": "https://jordanfu.github.io/org-intelligence-info/",
-        "reason": "network check warning: fetch failed"
+        "ok": true,
+        "status": 200,
+        "url": "https://jordanfu.github.io/org-intelligence-info/"
       }
     ]
   },
   "warnings": [
-    "external link not hard-checked in Phase 1",
-    "network check warning: fetch failed"
+    "external link not hard-checked in Phase 1"
   ]
 }
