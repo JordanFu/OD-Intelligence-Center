@@ -2,7 +2,7 @@
 title: Whitepaper Impact of AI on U.S. Labor Market 2026 R2 1
 source: apollo.com
 date: 待核验
-ingested: 2026-08-24
+ingested: 2026-08-25
 sourceFile: ../raw/apollo-com-whitepaper-impact-of-ai-on-u-s-labor-market-2026-r2-1.pdf
 sourceUrl: https://www.apollo.com/content/dam/apolloaem/pdf/daily-spark/2026//jul/30/Whitepaper-Impact%20of%20AI%20on%20U.S.%20Labor%20Market-2026-R2%201.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ Whitepaper Impact of AI on U.S. Labor Market 2026 R2 1 已作为日报/周报 PD
 - **来源类型**：media
 - **原文 URL**：https://www.apollo.com/content/dam/apolloaem/pdf/daily-spark/2026//jul/30/Whitepaper-Impact%20of%20AI%20on%20U.S.%20Labor%20Market-2026-R2%201.pdf
 - **原始文件**：`knowledge/raw/apollo-com-whitepaper-impact-of-ai-on-u-s-labor-market-2026-r2-1.pdf`
-- **入库日期**：2026-08-24
+- **入库日期**：2026-08-25
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容

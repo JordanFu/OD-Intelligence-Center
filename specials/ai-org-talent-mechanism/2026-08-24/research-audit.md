@@ -5,7 +5,7 @@
 
 ## 1. 启动与仓库状态
 
-- 工作目录 `/private/tmp/ODIC-current` 为完整 Git 仓库，分支为 `main`，且只有一个 worktree。
+- 研究在完整 Git 仓库的 `main` 分支执行；公开记录不保留本机工作目录。
 - 启动时本地 SHA 为 `6a297836ab476191bb25f600f2dbed9b81bc82b4`。
 - 已先执行 `git pull --rebase origin main`，快进到 `e65e402c7a93d62a76d91cb6e9bfe58fb21194a7`，因此不是旧 worktree。
 - 当天五份专题正文起初由 fallback 工作流生成，`manifest.json` 标记为非正式、需重跑；质量门禁明确禁止进入专题证据链。本轮完全重写，不引用占位正文。
@@ -22,7 +22,7 @@
 
 ## 3. 工具、查询与错误
 
-- 首选工具：`python3 /Users/tal/.codex/skills/anysearch/scripts/anysearch_cli.py`；脚本 SHA-256：`e520555be51c39e129320bbdd367ac18d6298fd854901dc81c6b8a0b3d2a5380`。
+- 首选工具：公共搜索代理；具体本机安装位置不进入公开审计记录。脚本版本以当日运行环境校验结果为准。
 - 按学术垂直域规则先调用 `list_domains --domain academic`，完整错误：`API Error: tool 'list_domains' not found: tool not found`。随后降级为一般检索，并回到 arXiv 版本页、Crossref、公司公告和 ATS 原始 API 核时间。
 - AnySearch 对三个 OpenAI 岗位原页返回 `extract_failed / Unable to extract content from the URL`；主代理改读 OpenAI 官方 Ashby feed，保留 ID、`publishedAt`、地点、职责与公开报价。
 - 主代理四组广谱查询：

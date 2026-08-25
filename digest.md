@@ -1,9 +1,208 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-08-24 18:00
+> 最后更新：2026-08-25 09:40
 
 ---
+
+## 2026-08-25
+
+> **09:40 交叉验证**：严格窗口为 8 月 24 日 18:00—8 月 25 日 09:40。五类渠道形成 14 个窗口内事件/来源族和 1 个缺口记录；6 个事件达到 L2 观察，没有 L3/L4 组织结果。岗位页面只计招聘意图，会议议程和供应商调查不计机制结果，社媒与公众号零可验证新增。
+
+### [D01] Mistral AI × HUMAIN 把主权 AI 的算力、本地化、部署和市场拓展放进同一合作边界
+- **事件摘要**：双方宣布覆盖 AI 基础设施、模型开发与本地化、企业/公共部门部署和联合市场拓展的战略合作，并披露 HUMAIN 对 Mistral AI 数亿欧元投资；联合团队、预算、服务水平、数据与模型权利及首个客户结果尚未披露。
+- **来源**：[Mistral AI](https://mistral.ai/news/mistral-x-humain/)；[PR Newswire](https://www.prnewswire.com/news-releases/mistral-and-humain-announce-strategic-collaboration-to-advance-sovereign-ai-in-saudi-arabia-and-regionally-302858633.html)；[Arab News](https://www.arabnews.com/node/2655730/amp)
+- **来源平台**：Mistral AI / HUMAIN / Arab News
+- **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：官方
+- **结论置信度**：L2 观察
+- **验证问题**：联合治理、预算、服务水平、数据/模型权利、升级责任和首个客户结果分别由谁承担？
+- **OD启示**：跨公司 AI 交付要把基础设施、模型本地化、部署、市场拓展和事故责任画成一张跨组织责任图。
+- **标签**：#主权AI #跨组织协作 #交付边界
+- **抓取时间**：2026-08-25 09:40
+
+### [D02] Pave × Nua Group：AI 研究、机器学习和 AI 工程已出现不同薪酬与流失信号
+- **事件摘要**：9,000 多家企业的持续连接数据把 AI Engineering、ML Engineering、AI Research Scientist 分开；高级 AI Research Scientist 新聘股权中位数约 409万—472万美元，AI/ML IC 过去 12 个月流失率 21.8%，高于同公司软件工程的 16.8%。
+- **来源**：[Pave 报告页](https://explore.pave.com/The-State-of-AI-Talent.html)；[一手发布](https://www.prnewswire.com/news-releases/new-report-from-pave-and-nua-group-ai-research-scientists-command-median-new-hire-equity-grants-above-4-million-as-the-ai-talent-market-splits-into-distinct-job-families-302857849.html)
+- **来源平台**：Pave / Nua Group
+- **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：报告学术
+- **结论置信度**：L2 观察
+- **验证问题**：各岗位族和层级的样本量、股权估值口径、自愿流失比例与地域分布是什么？
+- **OD启示**：先按前沿研究、产品集成和业务实施划责任包，再讨论现金、股权与稀缺系数；极端股权数字不能外推到一般应用团队。
+- **标签**：#岗位族 #薪酬架构 #股权激励
+- **抓取时间**：2026-08-25 09:40
+
+### [D03] Culture Amp 把绩效与敬业度数据接入经理日常 AI 工作区
+- **事件摘要**：Culture Amp 宣布通过 MCP 把敬业度、绩效目标、评分和一对一沟通数据接入 ChatGPT、Claude 等工作空间，并继承原有权限；经理决策质量、隐私效果和组织结果尚无数据。
+- **来源**：[Culture Amp 官方博客](https://www.cultureamp.com/blog/culture-amp-everywhere-you-work)；[MCP 产品页](https://www.cultureamp.com/mcp)
+- **来源平台**：Culture Amp
+- **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：官方
+- **结论置信度**：L2 观察
+- **验证问题**：是否支持写回？小团队如何防止重新识别个人？跨系统权限、日志和错误建议由谁负责？
+- **OD启示**：人员数据进入经理工作流前，要同步设计最小群组、敏感字段禁联、查询日志和人工复核。
+- **标签**：#HRTech #经理赋能 #数据权限
+- **抓取时间**：2026-08-25 09:40
+
+### [D04] iManage 让 AI 生成物进入“读取—行动—写回—审计”闭环
+- **事件摘要**：iManage 宣布 MCP 读写、剧本化审查和批量表格审查已经可用；AI 可在既有信息隔离、权限、审计和生命周期规则下创建工作区、移动或归档文档，并把生成物写回正式记录。
+- **来源**：[iManage 官方公告](https://imanage.com/resources/resource-center/news/imanage-announces-general-availability-next-generation-platform/)
+- **来源平台**：iManage
+- **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：官方
+- **结论置信度**：L2 观察
+- **验证问题**：生成物能否追溯来源？过期先例如何降权？错误写回能否回滚？
+- **OD启示**：知识库成为组织能力的关键，是生成物能否在权限、版本、审批和回滚规则下进入正式记录。
+- **标签**：#知识管理 #MCP #审计
+- **抓取时间**：2026-08-25 09:40
+
+### [D05] 智能体支付公约把身份、授权、限额、人工介入和回退写入同一治理链
+- **事件摘要**：中国支付清算协会发布《智能体支付应用自律公约》。新华社与第一财经报道显示，公约要求“了解你的智能体”、明确授权和责任、核验身份与交易意愿、分级限额，并在自主支付上线前报备和评估，配置人工服务、监控、应急与回退。
+- **来源**：[新华社](https://www.news.cn/20260824/4efa360edc8a486dbf0b19d0fb37ef41/c.html)；[第一财经](https://www.yicai.com/news/103331509.html)
+- **来源平台**：新华社 / 第一财经
+- **来源可信度**：📰较高
+- **信息类型**：新增事实
+- **渠道类型**：媒体
+- **结论置信度**：L2 观察
+- **验证问题**：报备、审查和违规处置如何执行？何种额度或风险触发人工审批？
+- **OD启示**：对能付款、下单、调配预算或对外承诺的智能体，建立身份、业务所有者、权限、人工阈值、日志、事故负责人和回退治理卡。
+- **标签**：#智能体治理 #授权 #回退
+- **抓取时间**：2026-08-25 09:40
+
+### [D06] Google Cloud 把智能体治理扩展到动态身份、跨系统访问和行动链
+- **事件摘要**：Google Cloud 称 79% 受访技术领导者把安全、治理或运营视为推理规模化主要挑战，35% 认为跨系统访问安全不足阻碍智能体部署，并强调来源验证、动态权限、工具投毒和间接提示注入。
+- **来源**：[Google Cloud](https://cloud.google.com/blog/topics/ai-infrastructure/state-of-ai-infrastructure-report-agent-governance-and-security)
+- **来源平台**：Google Cloud
+- **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：官方
+- **结论置信度**：L2 观察
+- **验证问题**：调查样本如何构成？企业能否追溯每次读取、决策、写回和人工审批？
+- **OD启示**：自主程度越高，越要把机器身份、最小权限、人工阈值、日志和停用权放进同一责任链。
+- **标签**：#AI治理 #身份权限 #行动审计
+- **抓取时间**：2026-08-25 09:40
+
+### [D07] OpenAI People Research Scientist 把 People Analytics 推向因果研究与可复用决策基础设施
+- **事件摘要**：岗位覆盖招聘、组织健康、经理效能、员工体验和人才结果，要求因果推断、实验、心理测量、机器学习与隐私治理，并建设自助式智能体工具和可复用研究管线；岗位明确为高所有权 IC。
+- **来源**：[OpenAI 官方岗位](https://jobs.ashbyhq.com/openai/5a682b9f-ef1a-4e47-813a-72b23414d43e)
+- **来源平台**：OpenAI / Ashby
+- **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：JD薪酬
+- **结论置信度**：L1 线索
+- **验证问题**：该角色是否拥有人才项目调整权？研究结论如何进入预算、项目和经理责任？
+- **OD启示**：People Analytics 的升级不是多做报表，而是把因果识别、实验、隐私和复用管线变成人才决策基础设施。
+- **标签**：#PeopleAnalytics #高所有权IC #人才决策
+- **抓取时间**：2026-08-25 09:40
+
+### [D08] Notion 把流程设计、智能体构建和变革落地合并为端到端复合岗位
+- **事件摘要**：AI Enablement 岗负责 Finance、Legal、People、Ops、Data、Engineering 的端到端流程，目标是不增加人数地扩展业务，同时交付智能体、自动化、权限与审计；旧金山基本薪酬约 16.6万—18.5万美元。
+- **来源**：[Notion 官方岗位](https://jobs.ashbyhq.com/notion/c799f1f0-0e7b-4eac-98ce-44223130f2b0)
+- **来源平台**：Notion / Ashby
+- **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：JD薪酬
+- **结论置信度**：L1 线索
+- **验证问题**：首个流程的基线周期、人工触点、异常回退和采用结果是什么？
+- **OD启示**：角色合并应形成“诊断—设计—构建—采用—复盘”闭环，而不是简单堆叠更多职责。
+- **标签**：#复合岗位 #流程重构 #端到端负责
+- **抓取时间**：2026-08-25 09:40
+
+### [D09] Cursor × Perplexity 显示小团队与深专家平台可以同时存在
+- **事件摘要**：Cursor 一边强调小团队和扁平，一边把预训练拆为数据质量、数据平台和抓取；用户运营岗要求数据库到界面的全栈所有权。Perplexity 把研究员兼任的 GPU 集群职责移交专门平台团队。
+- **来源**：[Cursor Pretraining](https://jobs.ashbyhq.com/cursor/0320a8db-cb1b-407b-bd62-b23734b83330)；[Cursor User Operations](https://jobs.ashbyhq.com/cursor/1d6dbbb2-a5af-41a6-a70a-ca97690d9313)；[Perplexity GPU Infrastructure](https://jobs.ashbyhq.com/perplexity/886f4ab3-e691-45ed-b2db-069edf6f5413)
+- **来源平台**：Cursor / Perplexity / Ashby
+- **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：JD薪酬
+- **结论置信度**：L1 线索
+- **验证问题**：平台化后研究人员节省多少时间？平台服务水平、排队和升级路径如何定义？
+- **OD启示**：业务执行责任可以变宽，规模瓶颈专家仍会变深；减少交接不等于取消专业签字权。
+- **标签**：#小团队 #专家深化 #平台团队
+- **抓取时间**：2026-08-25 09:40
+
+### [D10] Apple 同一 Applied Intelligence 岗位族并行发布标准级与高级级
+- **事件摘要**：两个岗位都覆盖界面、应用逻辑、服务和机器学习集成；标准级要求 3 年以上、基本薪酬约 15.04万—27.76万美元，Senior 要求 6 年以上、约 17.5万—32.48万美元。
+- **来源**：[标准级岗位](https://jobs.apple.com/en-us/details/200679666-3760/software-engineer-applied-intelligence)；[Senior 岗位](https://jobs.apple.com/en-us/details/200679663-3760/sr-software-engineer-applied-intelligence)
+- **来源平台**：Apple Careers
+- **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：JD薪酬
+- **结论置信度**：L1 线索
+- **验证问题**：两级在系统跨度、技术决策权、指导责任和晋升证据上如何区分？
+- **OD启示**：复合岗位不等于取消层级；应按系统跨度、决策后果和他人影响区分级别，而非只看年限。
+- **标签**：#职业通道 #层级标准 #薪酬带宽
+- **抓取时间**：2026-08-25 09:40
+
+### [D11] ServiceNow 同窗出现技术专家、AI 原生运营和自主劳动力伙伴角色
+- **事件摘要**：窗口内岗位包含 Agent Development Senior Staff、Principal ML Engineer、Senior Program Manager 和 Autonomous Workforce Global Partner Manager；AI 能力横向进入运营和伙伴岗位，高风险架构与治理仍由深专家承担。
+- **来源**：[Agent Development](https://careers.servicenow.com/jobs/744000145302723/senior-staff-software-engineer-agent-development/)；[Program Manager](https://careers.servicenow.com/jobs/744000145347539/senior-program-manager/)；[Principal ML](https://careers.servicenow.com/jobs/744000145376219/principal-machine-learning-engineer/)；[Partner Manager](https://careers.servicenow.com/jobs/744000145376369/global-partner-manager-deloitte-autonomous-workforce/)
+- **来源平台**：ServiceNow / SmartRecruiters
+- **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：JD薪酬
+- **结论置信度**：L1 线索
+- **验证问题**：去重后的 requisition、批准编制和到岗数是什么？技术标准与业务结果由谁最终问责？
+- **OD启示**：岗位页面只能支持角色边界，不能证明扩编或成熟岗位族；技术专家与业务复合岗可以并存。
+- **标签**：#专家序列 #运营AI化 #伙伴治理
+- **抓取时间**：2026-08-25 09:40
+
+### [D12] HBR 把领导者“文化适配”改写为岗位特定行为与多来源核验
+- **事件摘要**：文章提出明确人际要求、设计揭示性问题、预定义答案与红旗、追问、独立评估和多来源核验六步法；公开材料没有样本、预测效度和长期结果。
+- **来源**：[Harvard Business Review](https://hbr.org/2026/08/how-to-spot-a-toxic-leader-before-hiring-them)
+- **来源平台**：Harvard Business Review
+- **来源可信度**：📰较高
+- **信息类型**：新增事实
+- **渠道类型**：报告学术
+- **结论置信度**：L1 线索
+- **验证问题**：采用后遗憾录用率、团队离职率和申诉事件是否优于历史基线？
+- **OD启示**：关键管理岗应把压力下行为、处理异议、发展下属和跨团队冲突写成评分锚点，并至少双源核验。
+- **标签**：#领导力招聘 #结构化面试 #行为证据
+- **抓取时间**：2026-08-25 09:40
+
+### [D13] Gartner 把岗位重构、管理跨度和裁员投资回报放进 CHRO 议程
+- **事件摘要**：Gartner HR Symposium/Xpo 议程覆盖人机协作、AI 时代岗位重构、变革管理、裁员投资回报、未来角色与技能及管理者控制幅度；这是议题雷达，不是研究结果。
+- **来源**：[Gartner 官方新闻稿](https://www.gartner.com/en/newsroom/press-releases/2026-08-24-gartner-announces-gartner-hr-symposium-xpo-conference-2026-orlando)
+- **来源平台**：Gartner
+- **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：报告学术
+- **结论置信度**：L1 线索
+- **验证问题**：后续研究是否披露样本、岗位重构结果、生产率变化和负面外部性？
+- **OD启示**：可把议题转成内部审计清单，但不能用会议主题证明去中层或裁员已经产生回报。
+- **标签**：#CHRO议程 #岗位重构 #管理跨度
+- **抓取时间**：2026-08-25 09:40
+
+### [D14] Zywave 提示 AI 治理开始进入保险问卷，初级岗位管道风险仍待验证
+- **事件摘要**：Zywave 称保险商正把 AI 治理纳入网络险、董事高管责任险和雇佣责任险问卷，并提出重复性岗位需求下降、初级人才管道变薄；公告未披露劳动力方法或真实定价差异。
+- **来源**：[Zywave 官方公告](https://www.zywave.com/blog/zywave-2026-midyear-market-outlooks-agentic-ai-a-defining-force-in-shaping-coverage-benefits-and-workforce-strategy/)
+- **来源平台**：Zywave
+- **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：报告学术
+- **结论置信度**：L1 线索
+- **验证问题**：续保是否出现价格或承保差异？岗位结论使用什么数据库并如何控制景气周期？
+- **OD启示**：把 AI 清单、责任人、偏差测试和事件记录纳入治理，并检查初级任务被自动化后的替代训练路径。
+- **标签**：#风险定价 #初级岗位 #人才管道
+- **抓取时间**：2026-08-25 09:40
+
+### [G01] 社媒、职场平台和公众号严格窗口零可验证新增
+- **事件摘要**：LinkedIn、X、Reddit、知乎、小红书、脉脉及微信公众号「AI组织进化论」公开索引未检出同时满足窗口内首次公开、原文可访问和直接涉及组织机制的材料；候选均早于窗口、缺登录权限、无法核验首发或属于转载。
+- **来源**：[LinkedIn](https://www.linkedin.com/)；[知乎](https://www.zhihu.com/)；[微信公众号公共入口](https://weixin.sogou.com/)
+- **来源平台**：社媒 / 职场平台 / 微信公众号
+- **来源可信度**：💬参考
+- **信息类型**：缺口记录
+- **渠道类型**：社媒公众号
+- **结论置信度**：L1 线索
+- **验证问题**：T+24 小时后能否取得原生时间、原创身份、具体组织机制和第二独立来源？
+- **OD启示**：零可验证新增不等于平台绝对零发布；社媒只负责发现问题，不用旧文、转载和匿名讨论凑结论。
+- **标签**：#渠道缺口 #公众号 #社媒
+- **抓取时间**：2026-08-25 09:40
 
 ## 2026-08-24
 

@@ -2,7 +2,7 @@
 title: HiBob 2026 report AI maturity benchmarks and where the workforce stand
 source: hibob.com
 date: 待核验
-ingested: 2026-08-24
+ingested: 2026-08-25
 sourceFile:
 sourceUrl: https://www.hibob.com/wp-content/uploads/HiBob_2026-report_AI-maturity-benchmarks-and-where-the-workforce-stand.pdf
 tags: [AI组织设计, 人才发展]
@@ -21,7 +21,7 @@ HiBob 2026 report AI maturity benchmarks and where the workforce stand 已作为
 - **来源类型**：media
 - **原文 URL**：https://www.hibob.com/wp-content/uploads/HiBob_2026-report_AI-maturity-benchmarks-and-where-the-workforce-stand.pdf
 - **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
-- **入库日期**：2026-08-24
+- **入库日期**：2026-08-25
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
