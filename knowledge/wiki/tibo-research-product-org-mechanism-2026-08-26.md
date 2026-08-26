@@ -7,7 +7,7 @@ entities: [Thibault Sottiaux, OpenAI, Google DeepMind, Google]
 evidence_level: L3
 status: 已核验
 related: [../concepts/capability-to-product-conversion-loop.md, ../entities/openai.md, ../entities/google-deepmind.md, ../entities/thibault-sottiaux.md]
-analysis: ../../analysis/tibo-research-product-org-mechanism-2026-08-26.md
+analysis: ../../specials/ai-org-talent-mechanism/synthesis/2026-08-26-tibo-research-product-org-mechanism.md
 ---
 
 # 从“有模型”到“有产品”：Tibo 的研究—产品组织机制
@@ -81,4 +81,4 @@ Thibault “Tibo” Sottiaux 在 2025–2026 年多次公开访谈中持续主�
 
 ## 完整报告
 
-[阅读深度研究](../../analysis/tibo-research-product-org-mechanism-2026-08-26.md)
+[阅读完整报告](./specials/ai-org-talent-mechanism/synthesis/2026-08-26-tibo-research-product-org-mechanism.html)

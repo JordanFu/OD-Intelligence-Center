@@ -4,6 +4,12 @@
 
 ---
 
+## [2026-08-26] fix | Tibo 完整报告归入阶段性专题综合
+- 将 Tibo 研究—产品组织机制完整报告新增为 `specials/ai-org-talent-mechanism/synthesis/` 下的 Markdown 与可直接阅读 HTML。
+- 将报告加入首页“阶段性专题综合”，同时保留完整报告和 Markdown 两个入口。
+- 修复知识卡中会跳出 GitHub Pages 项目路径的 `../../analysis/` 链接，改为站内专题页路径。
+- 新增回归测试，检查完整正文、专题入口、站内安全链接和 catalog 的 canonical path。
+
 ## [2026-08-26] research | Tibo 研究—产品组织机制深度研究入库
 - 新增 `analysis/tibo-research-product-org-mechanism-2026-08-26.md`，基于 2025—2026 年多次访谈、OpenAI / Google DeepMind 官方记录与组织研究，区分事实、个人判断和跨来源结论。
 - 明确删除“90 天试验”，仅保留证据化结论、反证、组织陷阱与机制建议。
