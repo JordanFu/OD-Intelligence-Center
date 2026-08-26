@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-26T02:44:10.808Z",
+  "generatedAt": "2026-08-26T10:29:36.753Z",
   "module": "knowledge-base",
   "qualityStatus": "warn",
   "latestCatalogDate": "2026-08-26",
   "counts": {
-    "reports": 139,
+    "reports": 140,
     "knowledgeSources": 4,
     "sourceTypes": {
-      "media": 65,
+      "media": 66,
       "internal": 21,
       "concept": 10,
       "public-safe-synthesis": 11,
@@ -96,26 +96,31 @@
   ],
   "warnings": [
     "knowledge/catalog.json 的 reports 存在 3 组重复 summaryFile。",
-    "external link not hard-checked in Phase 1"
+    "external link not hard-checked in Phase 1",
+    "network check warning: fetch failed"
   ],
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-08-26T02:44:11.230Z",
+    "checkedAt": "2026-08-26T10:29:37.094Z",
     "qualityStatus": "warn",
-    "firstPartyChecked": 3129,
-    "externalWarnings": 68,
+    "firstPartyChecked": 3134,
+    "externalWarnings": 70,
     "brokenCount": 0,
     "publicScanBridge": [
       {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-26.html"
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-26.html",
+        "reason": "network check warning: fetch failed"
       },
       {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/"
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/",
+        "reason": "network check warning: fetch failed"
       }
     ]
   }

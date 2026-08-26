@@ -21,7 +21,6 @@
 
 | 日期 | 入口 | 证据层级 | 可沉淀判断 | Context/弱信号 | 待验证 |
 |---|---|---|---|---|---|
-| 2026-08-11 | [日报](../2026-08-11/01-flat-organization.html) | 线索层/待验证 | 1. **不升级“AI 系统性减少中层”。可信度：高。**证据基础：五条新增链均无前后组织图、经理人数或管理跨度。为什么重要：流程加速、组织预测和合作整合不能替代层级事实；据此设统一减层率会把效率改革误写成技术必然。 | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 | 2026-08-12 | [日报](../2026-08-12/01-flat-organization.html) | 线索层/待验证 | 1. **扁平化应先压缩“没有人真正作选择”的决策接口。可信度：中高。** | 暂无单独 Context 摘要。 | 待下次日报/周报继续追踪。 |
 | 2026-08-13 | [日报](../2026-08-13/01-flat-organization.html) | 线索层/待验证 | 1. **不升级“AI 正在系统性减少中层”。可信度：高。**证据基础：Google 未披露层级、经理人数、跨度或前后结果；麦肯锡是相关性调查。为什么重要：团队迁移、高管换岗、责任变宽和减层是四类不同事实，混写会把战略调整误当技术必然。 | - **暂不形成结论，但提示我们关注……**麦肯锡调查反驳“中层只是协调成本”：中层自身焦虑较高，却还要承担解释、反馈、学习和流动接口；先减层可能把信任劳动转嫁给一线骨干。 | 待下次日报/周报继续追踪。 |
 | 2026-08-14 | [日报](../2026-08-14/01-flat-organization.html) | 线索层/待验证 | 1. **AI 规模化首先增加经营与控制接口。可信度：高。**证据基础：IBM 新 Practice/FDU，OpenAI 新 CRO，Anthropic 的资产与冲突问题。为什么重要：若只看小团队，会漏掉项目准入、质量、客户后果、资源仲裁和合规劳动。 | - **暂不形成结论，但提示我们关注……**OpenAI CRO 是正式经营接口加厚；定价、FDE、客户成功与基础设施承诺的 RACI 仍未知。 | 1. IBM OpenAI Practice 与既有 AI/Automation、watsonx、FDU 的汇报线、预算和客户归属。 |
@@ -35,12 +34,14 @@
 | 2026-08-23 | [日报](../2026-08-23/01-flat-organization.html) | 线索层/待验证 | 1. **不升级“AI 正在系统性减少中层”。可信度：高。**证据基础：窗口内没有任何公司披露改革前后层级、经理人数、直接汇报人数分布和结构后效；三个确认值均为 0。为什么重要：人机组织图、任务拆解、招聘放缓和控制链是四类不同事实，把它们合并会把设计意图包装成减层结果。 | - **Fortune 窗口内转载不是当日新研究。**其 8 月 22 日页面转载自 8 月 12 日 The Conversation，底层 SSRN 工作论文发布于 5 月 6 日、6 月 11 日修订。研究报告员工 AI 情绪与公司… | 待下次日报/周报继续追踪。 |
 | 2026-08-24 | [日报](../2026-08-24/01-flat-organization.html) | 背景材料（Context）强证据 | 1. **KPMG 证明了“减员与边界调整发生”，没有证明“扁平化发生”。可信度：高。**证据基础：公司原文与 Reuters 对约 5% 减员和两个团队迁移交叉确认，但都没有前后层级、经理人数、跨度或决策周期。为什么重要：减员、团队归位、减少管理层级和提升人效是四类… | - **CNBC 的参与式推进：**Ironclad 技术负责人亲自授课并推动同伴学习；Superhuman 允许团队选择工具并在问题最近处制定路线图；Torani 用小步试验和员工参与迭代。三位高管说了什么可到 L2，机制有效性仅到 L… | 5. **管理者转型应由责任与行动权定义，而不是由被减人数或新头衔定义。可信度：中高。**证据基础：KPMG 未披露谁承接迁移后的客户、人才和经营责任；OpenAI、ServiceNow … |
 | 2026-08-25 | [日报](../2026-08-25/01-flat-organization.html) | 线索层/待验证 | 1. **不升级“AI 正在系统性减少中层”。可信度：高。**证据基础：严格窗口内层级减少、经理减少、跨度扩大和管理者转型结果均为 0；中国武夷唯一正式结构动作是新增一个总部机构。为什么重要：如果把职责页面、会议主题或新增协调单元写成去中层，管理层会在没有结构基线和责… | - **跨组织责任接口不是内部减层。**Mistral AI 与 HUMAIN 把基础设施、模型本地化、部署和市场拓展放进合作范围，只证明企业边界之外的交付责任需要被画清；联合团队、预算、服务水平和事故责任仍未知。 | 待下次日报/周报继续追踪。 |
+| 2026-08-26 | [日报](../2026-08-26/01-flat-organization.html) | 线索层/待验证 | 1. **“AI 普遍减少中层”今天仍应维持未证。可信度：高。**证据基础：本窗口层级减少、经理减少和跨度扩大结果全部为 0；字节是旧线复核，OpenAI 是负责人离职披露，腾讯是对特定传闻的单方回应。为什么重要：如果把产品收敛、负责人变动或岗位页面换算成减层，企业会… | - **关键负责人离职不等于扁平化。**OpenAI 新披露的是 Chris Malone 离开和现行多负责人专业分工，汇报线至少在 3 月已有基线。多负责人可能降低单点风险，也可能增加接口；职责接收、最终签字、项目里程碑和预算偏差未公开。 | 4. **中层角色更可能分化为“亲自下场的结果整合者”与“必要的独立控制责任”，而非整层消失。可信度：中。**证据基础：OpenAI 同一招聘来源族同时出现亲自构建型管理者、跨专业部署负责… |
 
 ## 知识库与 PDF 证据关联
 
 | 资料 | 对本专题的价值 |
 |---|---|
 | [Obsidian 本地知识库](./knowledge/wiki/obsidian-vault-full-source-map-2026-05-22.md) | 本地 Vault 当前识别 70 篇 Markdown；2026-06-30 已新增公开安全 source map（覆盖 69 篇，排除 1 篇内部敏感来源），并抽取字节跳动 AI 时代领导力原则、AI 五环协同人才体… |
+| [从‘有模型’到‘有产品’：Tibo 的研究—产品组织机制](./knowledge/wiki/tibo-research-product-org-mechanism-2026-08-26.md) | 基于 Tibo Sottiaux 2025—2026 年多次访谈、OpenAI 与 Google DeepMind 官方记录及组织研究，核验研究—产品协同、低阻力发布、资源再配置和监督瓶颈；区分个人回忆、公司事实与跨来… |
 | [微信公众号「AI组织进化论」候选来源池](./knowledge/wiki/wechat-ai-org-evolution-intake.md) | 记录用户提供的 AI组织进化论 微信原文链接，当前作为人才密度方向候选输入；原文自动访问触发微信环境验证，待读取正文后再判断进入线索层、Context 层或结论候选。 |
 | [腾讯 WXG 取消“组长负责制”与项目负责制试点](./knowledge/wiki/tencent-wxg-project-owner-reform-2026-05.md) | 基于《中国企业家》、竞核、搜狐/IT时代网、腾讯官方财报与股东大会报道，梳理腾讯 WXG 多部门试行项目负责制、弱化组长/总监固定管理链条的组织含义。重点用于 AI 时代扁平化、项目 owner、干部年轻化和技术组织变… |
 | [知识库主题分类与去重治理建议](./knowledge/wiki/knowledge-taxonomy-dedup-review-2026-05-22.md) | 对当前知识库重复信息与分类体系的健康检查。结论是来源页不应删除，需新增主题导航层，将 Zapier、GitLab、AI能力盘点、AI-first operating model、技术组织、绩效薪酬等高重叠主题收敛到主题… |
@@ -51,7 +52,6 @@
 | [Handbook-First 与 DRI：远程组织的决策操作系统](./knowledge/wiki/handbook-first-dri-operating-system.md) | 解释 Handbook-First 如何解决组织知识位置问题，DRI 如何解决决策责任问题，以及二者为何是 AI 组织上下文工程的前置机制。 |
 | [GitLab Handbook 企业管理机制研究补充](./knowledge/wiki/gitlab-handbook-management-research-synthesis.md) | 从 Obsidian 新增 GitLab 管理研究中抽取公开可复核的机制结论，补充 Handbook-First、DRI、TeamOps 和 QTR/Talent Assessment 的组织含义。 |
 | [Microsoft：2026 Work Trend Index Annual Report](./knowledge/wiki/pdf-source-microsoft-2026-work-trend-index.md) | Microsoft 2026 Work Trend Index 年度报告，基于全球 AI 工作用户调研和 Microsoft 365 匿名遥测，提出 Agent 时代组织需要从个人 AI 使用升级到工作重构、Front… |
-| [McKinsey：AI-first 时代端到端技术 workforce 设计](./knowledge/wiki/pdf-source-mckinsey-2026-ai-first-technology-workforce.md) | McKinsey Technology 文章，讨论 agentic AI 时代 CIO 如何重构技术组织的人才招聘、内部能力建设、Agent 训练和供应商策略。适合用于 AI-first 技术岗位族群和职级变化研究。 |
 
 ## 当前不可越界的结论
 
@@ -67,4 +67,4 @@
 
 ## 最近日报入口
 
-- 最新日报：2026-08-25｜[打开专题日报](../2026-08-25/01-flat-organization.html)｜源文件：`specials/ai-org-talent-mechanism/2026-08-25/01-flat-organization.md`
+- 最新日报：2026-08-26｜[打开专题日报](../2026-08-26/01-flat-organization.html)｜源文件：`specials/ai-org-talent-mechanism/2026-08-26/01-flat-organization.md`
