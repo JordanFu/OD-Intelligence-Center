@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T02:08:21.883Z",
+  "generatedAt": "2026-08-26T02:44:07.964Z",
   "module": "info-feed",
   "qualityStatus": "warn",
   "latestDate": "2026-08-26",
@@ -526,14 +526,15 @@
     "time": 10
   },
   "warnings": [
-    "最近 7 个信息日存在结构字段缺失：7 类日期/字段组合需逐步补齐。"
+    "最近 7 个信息日存在结构字段缺失：7 类日期/字段组合需逐步补齐。",
+    "external link not hard-checked in Phase 1"
   ],
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-08-26T02:08:05.980Z",
+    "checkedAt": "2026-08-26T02:44:11.230Z",
     "qualityStatus": "warn",
-    "firstPartyChecked": 3106,
+    "firstPartyChecked": 3129,
     "externalWarnings": 68,
     "brokenCount": 0,
     "publicScanBridge": [
