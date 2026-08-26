@@ -139,6 +139,47 @@
   ],
   "reports": [
     {
+      "id": "tibo-research-product-org-mechanism-2026-08-26",
+      "title": "从‘有模型’到‘有产品’：Tibo 的研究—产品组织机制",
+      "originalTitle": "Tibo Sottiaux on research-to-product organizational mechanisms",
+      "author": "Codex research synthesis",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计",
+        "组织文化",
+        "变革管理",
+        "领导力",
+        "数字化转型"
+      ],
+      "date": "2026-08-26",
+      "uploadDate": "2026-08-26",
+      "description": "基于 Tibo Sottiaux 2025—2026 年多次访谈、OpenAI 与 Google DeepMind 官方记录及组织研究，核验研究—产品协同、低阻力发布、资源再配置和监督瓶颈；区分个人回忆、公司事实与跨来源结论。",
+      "summaryFile": "./knowledge/wiki/tibo-research-product-org-mechanism-2026-08-26.md",
+      "analysisFile": "./analysis/tibo-research-product-org-mechanism-2026-08-26.md",
+      "fileName": "web interview and primary-source synthesis",
+      "fileSize": "full analysis plus knowledge card",
+      "tags": [
+        "Tibo Sottiaux",
+        "OpenAI",
+        "Google DeepMind",
+        "研究产品协同",
+        "组织双元性",
+        "决策权",
+        "资源配置",
+        "监督瓶颈"
+      ],
+      "originalUrl": "https://www.youtube.com/watch?v=4qjEgPojjzM",
+      "mirrorUrls": [
+        "https://www.wired.com/story/model-behavior-interview-with-openai-codex-lead-tibo-sottiaux/",
+        "https://www.youtube.com/watch?v=OXOypK7_90c",
+        "https://linearb.io/dev-interrupted/podcast/openai-codex-thibault-sottiaux-agentic-autonomy",
+        "https://every.to/podcast/how-openai-s-codex-team-uses-their-coding-agent"
+      ],
+      "evidenceLevel": "L3",
+      "status": "已完成多源核验并归入 AI 组织设计专题"
+    },
+    {
       "id": "bigtech-hr-ai-era-hiring-talent-2026",
       "title": "大厂 HR：AI 时代招聘标准与人才画像变化",
       "originalTitle": "大厂HR：AI时代，我们招什么人？",

@@ -2,7 +2,7 @@
 type: company
 name: OpenAI
 tags: [AI组织设计, 实体页]
-related: [../concepts/fde-applied-ai.md, ../concepts/auditable-promotion-evidence.md]
+related: [../concepts/fde-applied-ai.md, ../concepts/auditable-promotion-evidence.md, ../concepts/capability-to-product-conversion-loop.md, ../entities/thibault-sottiaux.md]
 backlinks: [../../specials/ai-org-talent-mechanism/topics/job-family-career-architecture/evidence-map.md, ../../specials/ai-org-talent-mechanism/topics/promotion-system/evidence-map.md]
 ---
 
@@ -21,6 +21,7 @@ backlinks: [../../specials/ai-org-talent-mechanism/topics/job-family-career-arch
 | 2026-08-26 | `../../digest.md` [D02]、[D11] | L1-L2 | 数据中心负责人离任形成关键岗位连续性事实；部署负责人、系统集成负责人等岗位呈现端到端协调、亲自构建型管理和深专家并存。 |
 | 2026-08-24 | `../../digest.md` [D03]、[D06]、[D12]—[D14] | L1-L2 | 经济研究接口形成历史 L2 基线；三个数据中心岗位分别呈现供应与容量专业化、跨专业协调责任和全链路质量控制；销售流动只作 L1 连续性线索。 |
 | 2026-08-23 | `../../digest.md` [D01]—[D06] | L1-L2 | SB 53 立场、前沿实验室处置回应和 B2B 产品战略财务岗位，分别支持“治理前移到研发过程”和“算力经济性进入产品决策接口”；均不证明内部权责或结果已经改变。 |
+| 2026-08-26 | `../wiki/tibo-research-product-org-mechanism-2026-08-26.md` | L3 | 多次访谈与产品记录共同支持研究—产品共演、分阶段发布、资源再配置和监督瓶颈；不将高管叙事单独外推为全组织事实。 |
 | 2026-08-21 | `../../digest.md` [D10] | L1 | 设备岗位分别聚焦私密计算与多模态身份认证，提示设备信任栈可能继续专业化；首次发布时间和组织边界未验证。 |
 | 2026-08-20 | `../../digest.md` [D01]、[D02]、[D12] | L1-L2 | 零数据留存安全处理、权限恢复压力测试与生化风险岗位共同支持“治理职责分离＋专家责任嵌入运行链”。 |
 | 2026-08-19 | `../../digest.md` [D01]、[D03] | L1-L2 | 安全团队的暂停机制与企业/政府全生命周期交付岗位，分别支持“治理权硬化”和“交付责任包变宽”。 |
@@ -34,6 +35,8 @@ backlinks: [../../specials/ai-org-talent-mechanism/topics/job-family-career-arch
 `../../digest.md` 2026-08-26 [D02]、[D11]；2026-08-24 [D03]、[D06]、[D12]—[D14]；2026-08-23 [D01]—[D06]；2026-08-21 [D10]；2026-08-20 [D01]、[D02]、[D12]；2026-08-19 [D01]、[D03]；2026-07-01 [4]；2026-06-30 [1]
 
 ## 当前可形成的判断
+- OpenAI 的“低 stop energy”更适合解释为在质量、安全、性能和可监督性护栏内下放可逆决策，而不是取消治理；来源 Tibo 跨访谈与 Codex 发布记录，L3。
+- Codex 案例支持“执行能力提升后，组织瓶颈迁移到意图、审查、监督和恢复”的判断；L3。
 - OpenAI 可支持“客户部署组织成为 AI adoption 接口”的判断；来源 2026-07-01 digest，L3。
 - OpenAI 2026-08-19 的公开制度说明支持“安全治理已能影响研发节奏”的观察；来源 2026-08-19 digest [D01]，L2，控制效果尚未独立验证。
 - OpenAI 2026-08-20 的公开机制支持“内容控制、风险监测和人工执法可以分权设计”的观察；来源 2026-08-20 digest [D01]，L2，误报与审计效果待验证。
@@ -43,10 +46,13 @@ backlinks: [../../specials/ai-org-talent-mechanism/topics/job-family-career-arch
 - 部署与系统集成岗位进一步支持“宽责任接口、亲自构建型管理者与深专家并存”的 L1 招聘信号；来源 2026-08-26 digest [D11]，不能据此确认团队已按该机制稳定运行。
 
 ## 明确边界 / 不能下的结论
+- 不能把 OpenAI 的高管公开叙事直接等同于整个组织的实际文化，也不能据此证明该机制在扩大规模和进入高风险行业后仍然成立。
 - 不能把 OpenAI 内部 Codex 使用深度外推为普通企业已完成组织重构。
 - 不能仅凭 DeployCo 判断 FDE 已有通用职级和薪酬体系。
 
 ## 待验证问题
+- 核心产品组织中，研究、产品、安全对不同风险等级的正式决策权与升级路径是什么？
+- Codex 团队的 review load、回滚、事故恢复和人员负荷长期趋势如何？
 - DeployCo 是否形成独立职级、交付评价和资源分配规则？
 - Codex 是否改变晋升证据、代码审查责任和 manager 复核标准？
 - 最大规模训练恢复门槛、暂停次数和最终否决权能否获得外部核验？

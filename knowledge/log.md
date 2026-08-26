@@ -4,6 +4,12 @@
 
 ---
 
+## [2026-08-26] research | Tibo 研究—产品组织机制深度研究入库
+- 新增 `analysis/tibo-research-product-org-mechanism-2026-08-26.md`，基于 2025—2026 年多次访谈、OpenAI / Google DeepMind 官方记录与组织研究，区分事实、个人判断和跨来源结论。
+- 明确删除“90 天试验”，仅保留证据化结论、反证、组织陷阱与机制建议。
+- 新增知识卡、能力—产品转换回路概念页、Thibault Sottiaux 与 Google DeepMind 实体页，并更新 OpenAI 实体页。
+- 更新 `knowledge/index.md` 与 `knowledge/catalog.json`；综合判断为 L3，Google 阻止 LM Chat 的具体动机保持 L1–L2。
+
 ## [2026-08-26] ingest | 日报 PDF 证据源自动入库
 - 从 daily、daily-report、specials、analysis 中扫描 PDF URL，按知识库 Raw/Wiki/Catalog 规则自动建档。
 - 本次识别 67 个唯一 PDF 来源：56 个已下载原始 PDF，11 个保留 URL 与引用上下文待重试。

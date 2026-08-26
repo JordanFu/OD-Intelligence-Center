@@ -54,6 +54,7 @@
 | 43 | [本地知识库定期 Review（2026-08-18）](wiki/local-knowledge-review-2026-08-18.md) | OD Intelligence Center | 2026-08-18 | 知识管理, 定期Review, PDF入库, People/HR, AI fluency |
 | 44 | [Cisco：AI 智能体如何重写网络安全岗位、技能与人才入口](wiki/cisco-ai-agents-cybersecurity-workforce-2026.md) | Cisco AI Workforce Consortium | 2026-08-20 | 网络安全, AI技能, 人才管道, 岗位架构, 薪酬信号 |
 | 45 | [本地知识库定期 Review（2026-08-24）](wiki/local-knowledge-review-2026-08-24.md) | OD Intelligence Center | 2026-08-24 | 知识管理, 定期Review, PDF入库, People/HR, AI fluency |
+| 46 | [从“有模型”到“有产品”：Tibo 的研究—产品组织机制](wiki/tibo-research-product-org-mechanism-2026-08-26.md) | Tibo 访谈 / OpenAI / Google DeepMind / 组织研究 | 2026-08-26 | 研究产品协同, 决策权, 资源配置, 监督瓶颈 |
 
 ## 概念页
 
@@ -74,6 +75,7 @@
 | 13 | [AI workforce risk](concepts/ai-workforce-risk.md) | AI 部署带来的技能、知识保留、士气、留任和外部转型风险链条 | Phase 4 |
 | 14 | [可审计晋升证据](concepts/auditable-promotion-evidence.md) | 把 AI 贡献转化为业务影响、复用机制和责任扩大的可复核证据 | Phase 4 |
 | 15 | [人—AI—人机系统三层绩效指标](concepts/human-ai-performance-metrics.md) | 分开评价人的判断、Agent可靠性和人机组合业务结果 | HBR 2026-07-06 |
+| 16 | [能力—产品转换回路](concepts/capability-to-product-conversion-loop.md) | 能力发现、产品化、真实使用、反馈回流和资源再配置形成闭环 | Tibo / OpenAI / DeepMind / 组织研究 |
 
 ## 实体页
 
@@ -87,6 +89,8 @@
 | 6 | [Oracle](entities/oracle.md) | AI 部署、人力调整、技能短缺和知识流失进入正式风险链条 | AI workforce risk |
 | 7 | [GitLab](entities/gitlab.md) | 公开晋升与内部流动机制作为 AI 晋升证据治理参照 | 可审计晋升证据 |
 | 8 | [Microsoft](entities/microsoft.md) | 人机协作、manager role 和组织准备度的背景实体 | 人机协作, 晋升证据 |
+| 9 | [Thibault Sottiaux](entities/thibault-sottiaux.md) | 研究—产品共演、低阻力发布与监督瓶颈的一手观察者 | 能力—产品转换回路 |
+| 10 | [Google DeepMind](entities/google-deepmind.md) | 研究领先跨越产品责任、安全门槛与既有业务约束的历史案例 | 研究产品协同, 组织双元性 |
 
 ## 原始资料
 
