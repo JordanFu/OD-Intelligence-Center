@@ -3836,6 +3836,30 @@
         "geelyauto.com.hk"
       ],
       "originalUrl": "https://www.geelyauto.com.hk/wp-content/uploads/2026/08/2026081700406.pdf"
+    },
+    {
+      "id": "p077",
+      "title": "AFGE v OPM",
+      "originalTitle": "AFGE v OPM",
+      "author": "democracyforward.org",
+      "publisher": "democracyforward.org",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-08-26",
+      "description": "AFGE v OPM 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-democracyforward-org-afge-v-opm.md",
+      "rawFile": "",
+      "fileName": "democracyforward-org-afge-v-opm.pdf",
+      "fileSize": "download pending",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "democracyforward.org"
+      ],
+      "originalUrl": "https://democracyforward.org/wp-content/uploads/2026/08/AFGE-v-OPM.pdf"
     }
   ]
 }

@@ -120,6 +120,7 @@
 | [the ai jobs transition framework report](wiki/pdf-source-cdn-openai-com-the-ai-jobs-transition-framework-report.md) | cdn.openai.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 3 次 |
 | [f232578](wiki/pdf-source-conference-nber-org-f232578.md) | conference.nber.org | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 26 次 |
 | [WP 10 26 Managers as gatekeepers comp 0](wiki/pdf-source-crawford-anu-edu-au-wp-10-26-managers-as-gatekeepers-comp-0.md) | crawford.anu.edu.au | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 9 次 |
+| [AFGE v OPM](wiki/pdf-source-democracyforward-org-afge-v-opm.md) | democracyforward.org | AI组织设计 | 待评估：需精读后确定 | 已索引待重试，引用 5 次 |
 | [Mercer and Eightfold Pay for Skills](wiki/pdf-source-eightfold-ai-mercer-and-eightfold-pay-for-skills.md) | eightfold.ai | AI组织设计、绩效管理、人才发展 | 待评估：需精读后确定 | 已下载原文，引用 2 次 |
 | [new skill price](wiki/pdf-source-elmerli-github-io-new-skill-price.md) | elmerli.github.io | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 3 次 |
 | [ai index report 2026 chapter 4 economy](wiki/pdf-source-hai-stanford-edu-ai-index-report-2026-chapter-4-economy.md) | hai.stanford.edu | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 2 次 |
@@ -155,7 +156,7 @@
 | [cwa18398 2026](wiki/pdf-source-cencenelec-eu-cwa18398-2026.md) | cencenelec.eu | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 5 次 |
 | [draft cwa xxxx e](wiki/pdf-source-cencenelec-eu-draft-cwa-xxxx-e.md) | cencenelec.eu | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 2 次 |
 | [us spans and layers for the modern organization 2020](wiki/pdf-source-deloitte-us-spans-and-layers-for-the-modern-organization-2020.md) | Deloitte | AI组织设计、变革管理 | 待评估：需精读后确定 | 已下载原文，引用 3 次 |
-| [EY：Future of Pay Report 2026](wiki/pdf-source-ey-ey-future-of-pay-report-2026.md) | EY | 技能薪酬、生产率锚点、AI 人才溢价 | 强相关：薪酬与激励机制 | 已下载原文，引用 162 次 |
+| [EY：Future of Pay Report 2026](wiki/pdf-source-ey-ey-future-of-pay-report-2026.md) | EY | 技能薪酬、生产率锚点、AI 人才溢价 | 强相关：薪酬与激励机制 | 已下载原文，引用 157 次 |
 | [pip faq 2026](wiki/pdf-source-facs-org-pip-faq-2026.md) | facs.org | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 6 次 |
 | [2026081700406](wiki/pdf-source-geelyauto-com-hk-2026081700406.md) | geelyauto.com.hk | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 1 次 |
 | [12 087 bc50bde2 3016 457a 9bee dc988cb1056b](wiki/pdf-source-hbs-edu-12-087-bc50bde2-3016-457a-9bee-dc988cb1056b.md) | hbs.edu | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 8 次 |
