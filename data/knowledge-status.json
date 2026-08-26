@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T10:54:28.852Z",
+  "generatedAt": "2026-08-26T14:13:09.839Z",
   "module": "knowledge-base",
   "qualityStatus": "warn",
   "latestCatalogDate": "2026-08-26",
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "pdfRetryCount": 14,
+  "pdfRetryCount": 13,
   "pdfRetrySample": [
     {
       "id": "p001",
@@ -101,9 +101,9 @@
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-08-26T10:54:29.150Z",
+    "checkedAt": "2026-08-26T14:13:10.160Z",
     "qualityStatus": "warn",
-    "firstPartyChecked": 3136,
+    "firstPartyChecked": 3137,
     "externalWarnings": 68,
     "brokenCount": 0,
     "publicScanBridge": [

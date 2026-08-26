@@ -18,7 +18,7 @@
 
 ## [2026-08-26] ingest | 日报 PDF 证据源自动入库
 - 从 daily、daily-report、specials、analysis 中扫描 PDF URL，按知识库 Raw/Wiki/Catalog 规则自动建档。
-- 本次识别 68 个唯一 PDF 来源：56 个已下载原始 PDF，12 个保留 URL 与引用上下文待重试。
+- 本次识别 68 个唯一 PDF 来源：57 个已下载原始 PDF，11 个保留 URL 与引用上下文待重试。
 - 已下载：itb dia 6351 email 0（引用 4 次）
 - 已下载：itb lat dir ai 6454 web 0（引用 17 次）
 - 已下载：GoogleATLASv1（引用 7 次）
@@ -33,7 +33,7 @@
 - 已下载：the ai jobs transition framework report（引用 3 次）
 - 已下载：f232578（引用 26 次）
 - 已下载：WP 10 26 Managers as gatekeepers comp 0（引用 9 次）
-- 待重试：AFGE v OPM（引用 5 次）
+- 已下载：AFGE v OPM（引用 5 次）
 - 已下载：Mercer and Eightfold Pay for Skills（引用 2 次）
 - 已下载：new skill price（引用 3 次）
 - 已下载：ai index report 2026 chapter 4 economy（引用 2 次）
