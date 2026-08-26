@@ -14,7 +14,7 @@
 优先使用 AnySearch：
 
 ```text
-python3 /Users/tal/.codex/skills/anysearch/scripts/anysearch_cli.py
+通过 AnySearch 技能命令行执行
 脚本 SHA-256：e520555be51c39e129320bbdd367ac18d6298fd854901dc81c6b8a0b3d2a5380
 ```
 

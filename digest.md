@@ -1,9 +1,195 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-08-25 18:00
+> 最后更新：2026-08-26 09:41
 
 ---
+
+## 2026-08-26
+
+> **09:41 交叉验证**：严格窗口为 8 月 25 日 18:00—8 月 26 日 09:41。五类渠道形成 12 个新增事件/来源族、1 个旧线复核和 1 个缺口记录；没有 L4。字节的组织动作首发在上一窗口，今天只记录产品入口和企业上下文验证；招聘页面不换算编制，供应商调查不升级为组织结果。
+
+### [D01] 字节 AI 办公线：上一窗口的团队收敛在本窗口获得统一产品入口验证
+- **事件摘要**：36氪披露的 TRAE、扣子相关团队并入豆包体系，获公司回应、财新复核、“豆包工作”上线和飞书企业权限/上下文接入验证；组织动作不是今天新发生，效率结果未知。
+- **来源**：[36氪](https://www.36kr.com/p/3953230805876099)；[财新](https://companies.caixin.com/2026-08-25/102477701.html)；[豆包](https://www.doubao.com/download/desktop)；[飞书](https://www.feishu.cn/content/article/7665245604407888869)
+- **来源平台**：36氪 / 财新 / 豆包 / 飞书
+- **来源可信度**：📰较高
+- **信息类型**：旧线复核
+- **渠道类型**：媒体
+- **结论置信度**：L3 机制
+- **验证问题**：统一预算、路线图、工作队列、原团队层级、重复岗位、权限事故和迁移留存如何变化？
+- **OD启示**：组合收敛要同时验证 owner、汇报线、产品入口和组织数据边界；结构落地不等于效率改善。
+- **标签**：#产品组合收敛 #统一Owner #旧线复核
+- **抓取时间**：2026-08-26 09:41
+
+### [D02] OpenAI 数据中心负责人离职，现行基础设施责任由多个专业负责人承接
+- **事件摘要**：OpenAI 确认 Chris Malone 已离职，并称基础设施组织已有清晰领导；媒体交叉核验现行结构由 Sachin Katti 统筹、多个负责人覆盖数据中心、建设交付和工程。汇报线至少在 3 月已有公开记录，本日新增是离职披露而非新重组。
+- **来源**：[WSJ](https://www.wsj.com/tech/ai/openais-head-of-data-centers-has-left-company-6d24fd83)；[CNBC](https://www.cnbc.com/2026/08/25/openais-head-of-data-centers-chris-malone-is-out-in-latest-exec-exit.html)；[TechCrunch](https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/)
+- **来源平台**：WSJ / CNBC / TechCrunch / OpenAI 回应
+- **来源可信度**：📰较高
+- **信息类型**：新增事实
+- **渠道类型**：媒体
+- **结论置信度**：L2 观察
+- **验证问题**：职责最终由谁接收？原岗位是否保留？项目责任、里程碑和继任如何变化？
+- **OD启示**：负责人离职后应核验最终签字权、专业分工、跨站点升级和单点依赖，而非只看继任人选。
+- **标签**：#领导连续性 #基础设施组织
+- **抓取时间**：2026-08-26 09:41
+
+### [D03] 大众汽车转型约束从裁员方案转向多方治理权协调
+- **事件摘要**：CEO 向员工说明还需降本，劳方和下萨克森州提出替代方案，超过一万名员工参会。5 万岗位是成本对标测算，关闭工厂被称为最后手段，并非最终决定。
+- **来源**：[Bloomberg](https://www.bloomberg.com/news/articles/2026-08-25/vw-vwagy-ceo-blume-confronts-workers-over-100-000-layoffs-plan)；[Reuters](https://www.reuters.com/business/volkswagen-labour-chief-says-confidence-ceo-damaged-can-be-repaired-2026-08-25/)
+- **来源平台**：Bloomberg / Reuters
+- **来源可信度**：📰较高
+- **信息类型**：新增事实
+- **渠道类型**：媒体
+- **结论置信度**：L2 观察
+- **验证问题**：监事会将如何处理岗位、产能、技能转移和工厂再用途？
+- **OD启示**：大规模转型要把业务情景、劳资协商、股东/政府权利和员工承诺放进同一治理节奏。
+- **标签**：#组织转型 #利益相关方治理
+- **抓取时间**：2026-08-26 09:41
+
+### [D04] 美国联邦绩效规则诉讼把校准权、签字权和申诉权推到台前
+- **事件摘要**：四个工会起诉美国人事管理局，挑战适岗解聘与排名式绩效规则；争议涉及曲线校准、管理者签字和由同一机构作出并再次审查决定。违法与政治化尚属原告主张。
+- **来源**：[Reuters](https://www.reuters.com/legal/government/unions-sue-opm-over-rules-suitability-firings-ranked-performance-reviews-2026-08-25/)；[诉状说明](https://democracyforward.org/news/press-releases/unions-challenge-trump-administration-rules-governing-federal-employee-performance-evaluations-and-job-suitability-decisions/)
+- **来源平台**：Reuters / Democracy Forward
+- **来源可信度**：📰较高
+- **信息类型**：新增事实
+- **渠道类型**：媒体
+- **结论置信度**：L2 观察
+- **验证问题**：法院是否实质受理、规则是否暂缓、独立审查标准如何设计？
+- **OD启示**：强制分布或算法评分前要明确经理举证、横向校准、独立审查和申诉，避免决定权与审查权集中。
+- **标签**：#绩效治理 #校准 #申诉权
+- **抓取时间**：2026-08-26 09:41
+
+### [D05] 腾讯否认新建 400—500 人 AI 游戏部门：平台化能力不等于新建大部门
+- **事件摘要**：腾讯相关人士称现有游戏 AI 引擎部长期招聘，定位是向项目提供可复用研发运营提效与玩法能力。多家转载来自同一回应，不能证明没有整合或扩编。
+- **来源**：[新京报](https://www.bjnews.com.cn/detail/1787653649129450.html)；[界面新闻](https://www.jiemian.com/article/14988211.html)
+- **来源平台**：新京报 / 界面新闻 / 腾讯回应
+- **来源可信度**：📰较高
+- **信息类型**：新增事实
+- **渠道类型**：媒体
+- **结论置信度**：L1 线索
+- **验证问题**：正式组织图、负责人、预算、服务目录、成本分摊和招聘变化是什么？
+- **OD启示**：判断平台组织应看复用率、服务目录、项目门槛、成本分摊和决策权，不只看名称与传闻人数。
+- **标签**：#AI平台 #能力复用 #传闻核验
+- **抓取时间**：2026-08-26 09:41
+
+### [D06] 星宇股份校招解约暴露业务需求、岗位与预算三方治理失配
+- **事件摘要**：常州人社通报公司招录 440 名毕业生、与其中 107 人解除合同；企业道歉并停职人力资源总监。官方澄清并非 400 人全部被裁，也不存在违规获取补贴。
+- **来源**：[政府通报转引](https://www.thepaper.cn/newsDetail_forward_33847318)；[新浪科技](https://portal.sina.com.hk/technology/sina/2026/08/25/1899030/)
+- **来源平台**：常州人社 / 澎湃新闻 / 新浪科技
+- **来源可信度**：📰较高
+- **信息类型**：新增事实
+- **渠道类型**：媒体
+- **结论置信度**：L2 观察
+- **验证问题**：补偿、岗位变更与剩余人员安置如何？用工需求和预算由谁签字？
+- **OD启示**：校招应由业务、人力和财务共同签字；集中解除需触发管理层和董事会专项复核。
+- **标签**：#校招治理 #编制规划 #雇主承诺
+- **抓取时间**：2026-08-26 09:41
+
+### [D07] Amazon “全员可构建”：代码量和参与率不能替代稳定生产价值
+- **事件摘要**：Amazon 官方讲述非技术员工用 AI 构建工具，并以 Aza 作为员工服务智能体平台；参与人数、代码量和单点节省时间均为公司自述，未披露生产采用、维护、安全与返工成本。
+- **来源**：[Amazon 官方案例](https://www.aboutamazon.com/news/workplace/amazon-svp-ai-tools-employees-careers)；[Aza 岗位基线](https://www.amazon.jobs/en/jobs/10485952/software-development-engineer-ii-aza-gen-ai)
+- **来源平台**：Amazon
+- **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：官方
+- **结论置信度**：L1 线索
+- **验证问题**：多少工具进入稳定生产？维护、权限、返工与安全成本是多少？
+- **OD启示**：公民开发要设置风险分级、生产准入、维护 owner、资产登记和退出规则。
+- **标签**：#公民开发 #员工AI #生产准入
+- **抓取时间**：2026-08-26 09:41
+
+### [D08] WalkMe 调查显示 AI 自信与首次完成率明显错位
+- **事件摘要**：2,037 名美国职场 AI 用户中，90% 自认有信心，仅 24.6% 表示 AI 首次即可完成任务；50.2% 曾认为 AI 比手工更耗时。样本为自报且发布方是采用产品供应商。
+- **来源**：[WalkMe 官方公告](https://ir.walkme.com/news-releases/news-release-details/ai-confidence-trap-feeling-fluent-isnt-same-being-effective)
+- **来源平台**：WalkMe
+- **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：报告学术
+- **结论置信度**：L2 观察
+- **验证问题**：扣除提示、复核、返工和人工接管后，哪些岗位的单位合格产出提升？
+- **OD启示**：采用指标应从调用与自信转向可接受结果耗时、返工率、接管率和质量。
+- **标签**：#生产率 #能力错觉 #返工
+- **抓取时间**：2026-08-26 09:41
+
+### [D09] iCIMS：高量招聘的 AI 瓶颈转向筛选信号与入职质量
+- **事件摘要**：对 463 家高量招聘雇主的调查中，75% 自报 AI 减少工作量，61% 把入职质量列为首要指标；供应商联合研究不能证明真实质量提升。
+- **来源**：[iCIMS 发布](https://www.prnewswire.com/news-releases/icims-and-lighthouse-research-find-75-of-high-volume-employers-say-ai-reduces-recruiter-workload-302859053.html)；[新闻室](https://www.icims.com/company/corporate-newsroom/overview/)
+- **来源平台**：iCIMS / Lighthouse Research
+- **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：报告学术
+- **结论置信度**：L2 观察
+- **验证问题**：关闭 AI 后招聘速度、90 天绩效、留存、申诉和群体差异如何变化？
+- **OD启示**：招聘自动化要把效率与质量分表管理，人的价值转向信号设计、能力验证和公平审查。
+- **标签**：#招聘自动化 #录用质量 #技能招聘
+- **抓取时间**：2026-08-26 09:41
+
+### [D10] Holly 与 Electric 把岗位、薪酬、入转离和权限连接成控制链
+- **事件摘要**：Holly 把岗位分类、薪酬、招聘与劳动合规放入保留人工审批的工作流；Electric 把入职、离职、岗位变化连接到账号、设备和应用权限。两者效果均为供应商自报。
+- **来源**：[Holly](https://www.hollygov.com/blog/press-release-holly-powers-local-government-modernization-for-1-in-2-californians)；[Electric](https://electric.ai/blog/electric-launches-ai-powered-it-platform)
+- **来源平台**：Holly / Electric
+- **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：官方
+- **结论置信度**：L1 线索
+- **验证问题**：薪酬申诉、权限异常、孤儿账号和人工例外量是否下降？
+- **OD启示**：HR 主数据成为岗位、薪酬和权限控制源时，必须定义权威字段、证据血缘、职责分离与回滚。
+- **标签**：#岗位分类 #薪酬治理 #入转离 #权限
+- **抓取时间**：2026-08-26 09:41
+
+### [D11] OpenAI 招聘来源族同时出现 FDE、治理、深专家和亲自下场型管理者
+- **事件摘要**：窗口内岗位包括用户安全技术运营、安全架构、Systems Integration Manager 和 Technical Deployment Lead；部署负责人统筹 FDE、研究员与客户工程师，管理者明确保持亲自下场。
+- **来源**：[User Safety](https://jobs.ashbyhq.com/openai/0f78e08a-669d-4d87-960f-518c649e6700)；[Security Architect](https://jobs.ashbyhq.com/openai/c15d4e1b-adcf-4809-91d5-17ba6b789092)；[Manager](https://jobs.ashbyhq.com/openai/831960f4-a877-4c41-8fda-17fd321c0230)；[Deployment Lead](https://jobs.ashbyhq.com/openai/74dfcc9f-f15b-43cf-bf60-bb03690c238e)
+- **来源平台**：OpenAI / Ashby
+- **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：JD薪酬
+- **结论置信度**：L1 线索
+- **验证问题**：部署负责人和 FDE 如何分权？管理跨度、亲自交付比例、晋升与定薪如何设计？
+- **OD启示**：FDE 正向客户结果、复用与可靠性交付扩展，同时仍需治理专家和亲自下场型管理者。
+- **标签**：#FDE #治理岗位 #PlayerCoach
+- **抓取时间**：2026-08-26 09:41
+
+### [D12] Perplexity 统一 MTS 外部标题覆盖模型、研究与智能体三条专业轨
+- **事件摘要**：三个 MTS 岗位经验要求分别为 5 年以上、2—6 年、2 年以上，职责覆盖模型服务、训练评测和智能体编排/可观测性；统一标题不能证明内部层级扁平。
+- **来源**：[Models](https://jobs.ashbyhq.com/perplexity/7dedcdea-42be-4bb0-b603-791146ff73f0)；[Researcher](https://jobs.ashbyhq.com/perplexity/8fe61c73-0daf-4432-a47d-44714c1ef764)；[Agent Harness](https://jobs.ashbyhq.com/perplexity/0a74edd7-830a-4825-946c-28801a057127)
+- **来源平台**：Perplexity / Ashby
+- **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：JD薪酬
+- **结论置信度**：L1 线索
+- **验证问题**：岗位映射哪些内部级别？研究与生产影响如何校准？跨轨晋升与薪带是否等价？
+- **OD启示**：外部标题可以变粗，内部仍需能力矩阵、级别映射、薪带和跨轨流动规则。
+- **标签**：#标题扁平 #专业轨 #内部级别
+- **抓取时间**：2026-08-26 09:41
+
+### [D13] Harvey 显式保留 Senior—Staff 专家梯队与薪带
+- **事件摘要**：Senior 要求 5 年以上、薪带 19.34万—29万美元；Staff 要求 10 年以上、薪带 23.1万—34万美元，两级均承担架构、技术方向、标准和指导。Legal Engineer 融合领域资质、客户采用和产品反馈。
+- **来源**：[Legal Engineer](https://jobs.ashbyhq.com/harvey/2807b46b-3ea5-43e2-94ea-4e6cdc6d4bb2)；[Senior](https://jobs.ashbyhq.com/harvey/a725492f-3412-4699-a8cd-0d195bde3450)；[Staff](https://jobs.ashbyhq.com/harvey/504ba806-2e23-47f4-887f-b4aa777faae5)
+- **来源平台**：Harvey / Ashby
+- **来源可信度**：⭐高
+- **信息类型**：新增事实
+- **渠道类型**：JD薪酬
+- **结论置信度**：L2 观察
+- **验证问题**：Staff 新增的影响范围是什么？薪带重叠如何管理？晋升需要哪些已实现影响？
+- **OD启示**：专家分级应看专业深度、系统影响和标准责任；年限与薪资上限不能单独裁决晋升。
+- **标签**：#专家梯队 #薪带 #晋升证据
+- **抓取时间**：2026-08-26 09:41
+
+### [G01] 咨询学术与社媒公众号严格窗口零可验证新增
+- **事件摘要**：咨询与学术候选仅有日期无时分、旧稿重复上架或早于窗口；LinkedIn、X、Reddit、知乎、小红书、脉脉及微信公众号「AI组织进化论」未取得同时具备原始首发、稳定原文和绝对时间戳的材料。
+- **来源**：[McKinsey 候选页](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai)；[微信索引](https://weixin.sogou.com/weixin?type=2&query=AI%E7%BB%84%E7%BB%87)
+- **来源平台**：咨询 / 学术 / 社媒 / 微信公众号
+- **来源可信度**：💬参考
+- **信息类型**：缺口记录
+- **渠道类型**：社媒公众号
+- **结论置信度**：L1 线索
+- **验证问题**：T+24 小时后能否取得原生时分、稳定原文、原创身份、方法和第二来源？
+- **OD启示**：不能用列表刷新、旧稿重发、索引标题或登录墙摘要凑结论。
+- **标签**：#渠道缺口 #公众号 #咨询学术
+- **抓取时间**：2026-08-26 09:41
 
 ## 2026-08-25
 
