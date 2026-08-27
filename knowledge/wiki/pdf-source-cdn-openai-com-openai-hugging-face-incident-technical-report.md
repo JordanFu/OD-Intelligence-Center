@@ -1,26 +1,26 @@
 ---
-title: 2026 Work Trend Index Annual Report 050526 7 69fc5b1c4e265
-source: assets-c4akfrf5b4d3f4b7.z01.azurefd.net
+title: OpenAI Hugging Face Incident Technical Report
+source: cdn.openai.com
 date: 待核验
 ingested: 2026-08-27
-sourceFile: ../raw/assets-c4akfrf5b4d3f4b7-z01-azurefd-net-2026-work-trend-index-annual-report-050526-7-69fc5b1c4e2.pdf
-sourceUrl: https://assets-c4akfrf5b4d3f4b7.z01.azurefd.net/assets/2026/05/2026_Work_Trend_Index_Annual_Report_050526-7_69fc5b1c4e265.pdf
+sourceFile:
+sourceUrl: https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf
 tags: [AI组织设计]
-status: 已下载原始PDF，已生成结构化初筛卡片
+status: 已索引来源，PDF下载待重试
 ---
 
-# 2026 Work Trend Index Annual Report 050526 7 69fc5b1c4e265
+# OpenAI Hugging Face Incident Technical Report
 
 ## 一句话判断
 
-2026 Work Trend Index Annual Report 050526 7 69fc5b1c4e265 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
+OpenAI Hugging Face Incident Technical Report 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
 
 ## 入库状态
 
-- **来源机构**：assets-c4akfrf5b4d3f4b7.z01.azurefd.net
+- **来源机构**：cdn.openai.com
 - **来源类型**：media
-- **原文 URL**：https://assets-c4akfrf5b4d3f4b7.z01.azurefd.net/assets/2026/05/2026_Work_Trend_Index_Annual_Report_050526-7_69fc5b1c4e265.pdf
-- **原始文件**：`knowledge/raw/assets-c4akfrf5b4d3f4b7-z01-azurefd-net-2026-work-trend-index-annual-report-050526-7-69fc5b1c4e2.pdf`
+- **原文 URL**：https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf
+- **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
 - **入库日期**：2026-08-27
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
@@ -51,7 +51,9 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 
 ## 被引用位置
 
-- `specials/ai-org-talent-mechanism/2026-07-09/00-overview.md:109`：Microsoft, 2026 Work Trend Index Annual Report,
+- `daily/2026-08-27.md:26`：技术报告 PDF
+- `外部公开 PDF 扫描:69`：公开安全引用：官方技术报告 PDF
+- `外部公开 PDF 扫描:69`：公开安全引用：官方技术报告 PDF
 
 ## 后续精读任务
 

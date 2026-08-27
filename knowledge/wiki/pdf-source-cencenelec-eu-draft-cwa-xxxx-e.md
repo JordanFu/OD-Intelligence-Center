@@ -2,7 +2,7 @@
 title: draft cwa xxxx e
 source: cencenelec.eu
 date: 待核验
-ingested: 2026-08-26
+ingested: 2026-08-27
 sourceFile: ../raw/cencenelec-eu-draft-cwa-xxxx-e.pdf
 sourceUrl: https://www.cencenelec.eu/media/CEN-CENELEC/News/Workshops/2026/2026-03-06-ARISA/draft_cwa_xxxx_-e.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ draft cwa xxxx e 已作为日报/周报 PDF 证据源入库，当前需要完成
 - **来源类型**：media
 - **原文 URL**：https://www.cencenelec.eu/media/CEN-CENELEC/News/Workshops/2026/2026-03-06-ARISA/draft_cwa_xxxx_-e.pdf
 - **原始文件**：`knowledge/raw/cencenelec-eu-draft-cwa-xxxx-e.pdf`
-- **入库日期**：2026-08-26
+- **入库日期**：2026-08-27
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容

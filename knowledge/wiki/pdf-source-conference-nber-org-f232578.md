@@ -2,7 +2,7 @@
 title: f232578
 source: conference.nber.org
 date: 待核验
-ingested: 2026-08-26
+ingested: 2026-08-27
 sourceFile: ../raw/conference-nber-org-f232578.pdf
 sourceUrl: https://conference.nber.org/conf_papers/f232578.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ f232578 已作为日报/周报 PDF 证据源入库，当前需要完成结构化
 - **来源类型**：media
 - **原文 URL**：https://conference.nber.org/conf_papers/f232578.pdf
 - **原始文件**：`knowledge/raw/conference-nber-org-f232578.pdf`
-- **入库日期**：2026-08-26
+- **入库日期**：2026-08-27
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容

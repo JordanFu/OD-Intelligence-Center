@@ -47,3 +47,5 @@ related: [../wiki/tibo-research-product-org-mechanism-2026-08-26.md, ../entities
 ## 证据基础
 
 该概念由 Tibo Sottiaux 2025–2026 年多次公开表达、Codex 产品记录、DeepMind 历史材料，与组织双元性及资源配置研究共同支持。综合证据等级 L3；具体企业内部决策权和效果仍需内部数据才能达到 L4。
+
+2026-08-27 的新增公开证据进一步补充两条边界：Meta Project OT 表明资源重配必须允许在技术成熟度、用户价值和人才反馈不足时回撤；MiniMax 的评测底座说明能力转产品之前需要统一评测和发布证据。来源：`../../digest.md` [D01]、[D03]，分别为 L3 窄结构机制和 L2 机制观察。
