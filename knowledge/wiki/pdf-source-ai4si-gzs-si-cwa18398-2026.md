@@ -2,7 +2,7 @@
 title: CWA18398 2026
 source: ai4si.gzs.si
 date: 待核验
-ingested: 2026-08-28
+ingested: 2026-08-29
 sourceFile: ../raw/ai4si-gzs-si-cwa18398-2026.pdf
 sourceUrl: https://ai4si.gzs.si/uploads/fdWWeJuT/CWA18398_2026.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ CWA18398 2026 已作为日报/周报 PDF 证据源入库，当前需要完成结
 - **来源类型**：media
 - **原文 URL**：https://ai4si.gzs.si/uploads/fdWWeJuT/CWA18398_2026.pdf
 - **原始文件**：`knowledge/raw/ai4si-gzs-si-cwa18398-2026.pdf`
-- **入库日期**：2026-08-28
+- **入库日期**：2026-08-29
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容

@@ -2,7 +2,7 @@
 title: new skill price
 source: elmerli.github.io
 date: 待核验
-ingested: 2026-08-28
+ingested: 2026-08-29
 sourceFile: ../raw/elmerli-github-io-new-skill-price.pdf
 sourceUrl: https://elmerli.github.io/new_skill_price.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ new skill price 已作为日报/周报 PDF 证据源入库，当前需要完成�
 - **来源类型**：media
 - **原文 URL**：https://elmerli.github.io/new_skill_price.pdf
 - **原始文件**：`knowledge/raw/elmerli-github-io-new-skill-price.pdf`
-- **入库日期**：2026-08-28
+- **入库日期**：2026-08-29
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
