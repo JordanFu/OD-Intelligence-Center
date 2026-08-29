@@ -2,7 +2,7 @@
 title: c0ffced7 en
 source: oecd.org
 date: 待核验
-ingested: 2026-08-29
+ingested: 2026-08-30
 sourceFile: ../raw/oecd-org-c0ffced7-en.pdf
 sourceUrl: https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/07/recent-policy-developments-on-ai-in-the-labour-market_52d4afe2/c0ffced7-en.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ c0ffced7 en 已作为日报/周报 PDF 证据源入库，当前需要完成结�
 - **来源类型**：media
 - **原文 URL**：https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/07/recent-policy-developments-on-ai-in-the-labour-market_52d4afe2/c0ffced7-en.pdf
 - **原始文件**：`knowledge/raw/oecd-org-c0ffced7-en.pdf`
-- **入库日期**：2026-08-29
+- **入库日期**：2026-08-30
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
