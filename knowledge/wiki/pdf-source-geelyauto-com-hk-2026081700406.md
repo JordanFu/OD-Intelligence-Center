@@ -2,7 +2,7 @@
 title: 2026081700406
 source: geelyauto.com.hk
 date: 待核验
-ingested: 2026-08-30
+ingested: 2026-08-31
 sourceFile: ../raw/geelyauto-com-hk-2026081700406.pdf
 sourceUrl: https://www.geelyauto.com.hk/wp-content/uploads/2026/08/2026081700406.pdf
 tags: [AI组织设计]
@@ -21,7 +21,7 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 - **来源类型**：media
 - **原文 URL**：https://www.geelyauto.com.hk/wp-content/uploads/2026/08/2026081700406.pdf
 - **原始文件**：`knowledge/raw/geelyauto-com-hk-2026081700406.pdf`
-- **入库日期**：2026-08-30
+- **入库日期**：2026-08-31
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
