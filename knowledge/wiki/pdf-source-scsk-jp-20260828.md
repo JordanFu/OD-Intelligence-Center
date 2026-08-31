@@ -1,26 +1,26 @@
 ---
-title: 47382ae415a209fd161bc19a1f9b3704
-source: static.www.tencent.com
+title: 20260828
+source: scsk.jp
 date: 待核验
 ingested: 2026-08-31
-sourceFile: ../raw/static-www-tencent-com-47382ae415a209fd161bc19a1f9b3704.pdf
-sourceUrl: https://static.www.tencent.com/uploads/2026/05/13/47382ae415a209fd161bc19a1f9b3704.pdf
+sourceFile: ../raw/scsk-jp-20260828.pdf
+sourceUrl: https://www.scsk.jp/news/2026/pdf/20260828.pdf
 tags: [AI组织设计]
 status: 已下载原始PDF，已生成结构化初筛卡片
 ---
 
-# 47382ae415a209fd161bc19a1f9b3704
+# 20260828
 
 ## 一句话判断
 
-47382ae415a209fd161bc19a1f9b3704 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
+20260828 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
 
 ## 入库状态
 
-- **来源机构**：static.www.tencent.com
+- **来源机构**：scsk.jp
 - **来源类型**：media
-- **原文 URL**：https://static.www.tencent.com/uploads/2026/05/13/47382ae415a209fd161bc19a1f9b3704.pdf
-- **原始文件**：`knowledge/raw/static-www-tencent-com-47382ae415a209fd161bc19a1f9b3704.pdf`
+- **原文 URL**：https://www.scsk.jp/news/2026/pdf/20260828.pdf
+- **原始文件**：`knowledge/raw/scsk-jp-20260828.pdf`
 - **入库日期**：2026-08-31
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
@@ -51,7 +51,15 @@ status: 已下载原始PDF，已生成结构化初筛卡片
 
 ## 被引用位置
 
-- `daily/2026-06-09.md:99`：来源：Tencent（；https://www.tencent.com/en-us/articles/2202350.html）
+- `daily/2026-08-28.md:33`：SCSK 官方 PDF
+- `daily-report/2026-08-28.md:32`：SCSK 数字技能判定制度
+- `specials/ai-org-talent-mechanism/2026-08-28/00-overview.md:131`：SCSK 官方制度
+- `specials/ai-org-talent-mechanism/2026-08-28/01-flat-organization.md:24`：SCSK 官方 PDF
+- `specials/ai-org-talent-mechanism/2026-08-28/01-flat-organization.md:194`：SCSK 官方 PDF
+- `specials/ai-org-talent-mechanism/2026-08-28/02-talent-density.md:157`：SCSK 官方 PDF
+- `specials/ai-org-talent-mechanism/2026-08-28/03-job-family-career-architecture.md:206`：官方 PDF
+- `specials/ai-org-talent-mechanism/2026-08-28/04-promotion-system.md:21`：SCSK 官方 PDF
+- `specials/ai-org-talent-mechanism/2026-08-28/04-promotion-system.md:171`：SCSK｜生成式 AI 数字技能判定制度官方 PDF
 
 ## 后续精读任务
 

@@ -3965,6 +3965,30 @@
         "courthousenews.com"
       ],
       "originalUrl": "https://www.courthousenews.com/wp-content/uploads/2026/08/j-rita-lin-order.pdf"
+    },
+    {
+      "id": "p081",
+      "title": "20260828",
+      "originalTitle": "20260828",
+      "author": "scsk.jp",
+      "publisher": "scsk.jp",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-08-31",
+      "description": "20260828 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-scsk-jp-20260828.md",
+      "rawFile": "./knowledge/raw/scsk-jp-20260828.pdf",
+      "fileName": "scsk-jp-20260828.pdf",
+      "fileSize": "526374 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "scsk.jp"
+      ],
+      "originalUrl": "https://www.scsk.jp/news/2026/pdf/20260828.pdf"
     }
   ]
 }
