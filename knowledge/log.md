@@ -76,7 +76,6 @@
 - 已下载：2026 global ai jobs barometer global findings（引用 2 次）
 - 已下载：20260828（引用 9 次）
 - 待重试：it job family career ladder matrix software engineer（引用 1 次）
-
 ## [2026-08-31] review | 本地知识库定期 Review
 - 健康度 80/100（warn）：知识库 lint 与系统总体均为 warn；信息流停在 2026-08-27，连续四天专题待正式重跑。
 - 已完成 73 个公开 PDF 自动入库：60 个已有原文，13 个当前待重试；未发现私有路径或被排除渠道泄露。
