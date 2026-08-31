@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-30T17:41:03.429Z",
+  "generatedAt": "2026-08-31T01:43:01.550Z",
   "module": "automation",
   "qualityStatus": "warn",
   "chains": {
     "infoFeed": {
-      "qualityStatus": "fail",
+      "qualityStatus": "warn",
       "latestDate": "2026-08-27",
       "latestCardCount": 15,
       "newFactCount": 12
@@ -44,13 +44,13 @@
     "knowledgeLint": {
       "qualityStatus": "pass",
       "latestCatalogDate": "2026-08-31",
-      "reportCount": 143,
+      "reportCount": 144,
       "privatePathLeakCount": 0
     },
     "linkCheck": {
       "qualityStatus": "warn",
       "brokenCount": 0,
-      "checkedAt": "2026-08-30T17:41:03.366Z"
+      "checkedAt": "2026-08-31T01:42:56.280Z"
     },
     "githubActionsFallback": {
       "status": "pass",
@@ -79,6 +79,7 @@
     }
   },
   "warnings": [
+    "信息库质量为 warn",
     "专题研究状态为 warn",
     "本地正式任务无法确认已完成，需要人工补跑或等待正式自动化",
     "专题待正式重跑 24 天"

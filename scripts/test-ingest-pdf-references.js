@@ -2,7 +2,13 @@ const assert = require('assert');
 const fs = require('fs');
 const os = require('os');
 const path = require('path');
-const { extractPdfUrls, isPdfFile } = require('./ingest-pdf-references');
+const {
+  dedupeCitations,
+  extractPdfUrls,
+  firstCatalogUploadDate,
+  firstIngestedDate,
+  isPdfFile,
+} = require('./ingest-pdf-references');
 
 const mixedMarkdown = [
   '报道：https://apnews.com/article/meta-lawsuit)；[诉状](https://storage.courtlistener.com/recap/case/complaint.pdf)',
@@ -24,6 +30,31 @@ fs.writeFileSync(htmlFile, `<!DOCTYPE html>\n${'x'.repeat(2048)}`);
 
 assert.strictEqual(isPdfFile(pdfFile), true, 'accepts a PDF signature within the first 1 KB');
 assert.strictEqual(isPdfFile(htmlFile), false, 'rejects an HTML response saved with a .pdf extension');
+
+assert.strictEqual(
+  firstIngestedDate('---\ningested: 2026-08-27\n---\n', '2026-08-31'),
+  '2026-08-27',
+  'preserves the original ingestion date when a card is rescanned',
+);
+assert.strictEqual(
+  firstIngestedDate('', '2026-08-31'),
+  '2026-08-31',
+  'uses the current date for a newly discovered card',
+);
+assert.strictEqual(
+  firstCatalogUploadDate({ uploadDate: '2026-08-27' }, '2026-08-31'),
+  '2026-08-27',
+  'preserves the catalog upload date when a PDF record is refreshed',
+);
+
+assert.deepStrictEqual(dedupeCitations([
+  { file: '外部公开 PDF 扫描', line: 69, context: '公开安全引用：官方技术报告 PDF' },
+  { file: '外部公开 PDF 扫描', line: 69, context: '公开安全引用：官方技术报告 PDF' },
+  { file: 'daily/2026-08-27.md', line: 26, context: '技术报告 PDF' },
+]), [
+  { file: '外部公开 PDF 扫描', line: 69, context: '公开安全引用：官方技术报告 PDF' },
+  { file: 'daily/2026-08-27.md', line: 26, context: '技术报告 PDF' },
+], 'deduplicates identical public-safe citation rows without removing distinct repo citations');
 
 fs.rmSync(tempDir, { recursive: true, force: true });
 

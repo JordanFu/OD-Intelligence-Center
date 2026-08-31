@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-30T17:40:59.643Z",
+  "generatedAt": "2026-08-31T01:41:14.921Z",
   "module": "info-feed",
-  "qualityStatus": "fail",
+  "qualityStatus": "warn",
   "latestDate": "2026-08-27",
   "latestCardCount": 15,
   "newFactCount": 12,
@@ -474,11 +474,11 @@
   },
   "homepageBridge": {
     "digestLatestDate": "2026-08-27",
-    "latestScanDate": "2026-08-27",
-    "freshnessStatus": "fail",
-    "ageDays": 4,
+    "latestScanDate": "2026-08-31",
+    "freshnessStatus": "pass",
+    "ageDays": 0,
     "maxAgeDays": 1,
-    "latestScanUrl": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-27.html",
+    "latestScanUrl": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-31.html",
     "publicMirrorUrl": "https://jordanfu.github.io/org-intelligence-info/",
     "checkedBy": "scripts/check-public-links.js",
     "status": "pending-link-check"
@@ -529,28 +529,38 @@
   },
   "warnings": [
     "最近 7 个信息日存在结构字段缺失：7 类日期/字段组合需逐步补齐。",
-    "external link not hard-checked in Phase 1"
+    "external link not hard-checked in Phase 1",
+    "network check warning: fetch failed"
   ],
-  "criticalIssues": [
-    "组织情报公开镜像已滞后 4 天（最新 2026-08-27），超过 1 天保鲜门槛。"
-  ],
+  "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-08-30T17:41:03.366Z",
+    "checkedAt": "2026-08-31T01:42:56.280Z",
     "qualityStatus": "warn",
-    "firstPartyChecked": 3271,
-    "externalWarnings": 48,
+    "firstPartyChecked": 3279,
+    "externalWarnings": 51,
     "brokenCount": 0,
     "publicScanBridge": [
       {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-27.html"
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-27.html",
+        "reason": "network check warning: fetch failed"
       },
       {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/"
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/",
+        "reason": "network check warning: fetch failed"
+      },
+      {
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-31.html",
+        "reason": "network check warning: fetch failed"
       }
     ]
   },

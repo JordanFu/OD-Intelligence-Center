@@ -51,8 +51,6 @@ OpenAI Hugging Face Incident Technical Report 已作为日报/周报 PDF 证据�
 
 ## 被引用位置
 
-- `daily/2026-08-27.md:26`：技术报告 PDF
-- `外部公开 PDF 扫描:69`：公开安全引用：官方技术报告 PDF
 - `外部公开 PDF 扫描:69`：公开安全引用：官方技术报告 PDF
 
 ## 后续精读任务
