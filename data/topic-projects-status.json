@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T02:01:16.781Z",
+  "generatedAt": "2026-08-31T02:13:29.858Z",
   "module": "topic-projects",
   "project": {
     "id": "ai-org-talent-mechanism",
@@ -7,7 +7,7 @@
     "root": "specials/ai-org-talent-mechanism"
   },
   "qualityStatus": "warn",
-  "latestFormalDate": "2026-08-27",
+  "latestFormalDate": "2026-08-28",
   "latestAnyDate": "2026-08-31",
   "today": "2026-08-31",
   "todayStatus": "fallback",
@@ -16,7 +16,6 @@
     "2026-08-31",
     "2026-08-30",
     "2026-08-29",
-    "2026-08-28",
     "2026-08-16",
     "2026-08-09",
     "2026-07-13",
@@ -39,8 +38,8 @@
     "2026-05-13"
   ],
   "statusCounts": {
-    "fallback": 24,
-    "formal": 87
+    "fallback": 23,
+    "formal": 88
   },
   "statusDefinitions": {
     "formal": "正式决策稿：00-overview、四专题 Markdown、正式入口均存在，且无兜底/待重跑关键词，质量门禁未明确失败。",
@@ -205,10 +204,10 @@
     },
     {
       "date": "2026-08-28",
-      "status": "fallback",
-      "isFormal": false,
-      "isFallback": true,
-      "needsRerun": true,
+      "status": "formal",
+      "isFormal": true,
+      "isFallback": false,
+      "needsRerun": false,
       "overview": "specials/ai-org-talent-mechanism/2026-08-28/00-overview.html",
       "overviewMarkdown": "specials/ai-org-talent-mechanism/2026-08-28/00-overview.md",
       "index": "specials/ai-org-talent-mechanism/2026-08-28/index.html",
@@ -248,11 +247,9 @@
       "hasFormalEntry": true,
       "qualityGate": {
         "path": "specials/ai-org-talent-mechanism/quality/2026-08-28.md",
-        "status": "warn-or-unknown"
+        "status": "pass-or-warn"
       },
-      "qualityIssues": [
-        "正文包含兜底/非决策稿/待正式重跑关键词"
-      ]
+      "qualityIssues": []
     },
     {
       "date": "2026-08-27",
@@ -5540,37 +5537,10 @@
   ],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-08-31T02:01:17.092Z",
-    "qualityStatus": "warn",
-    "firstPartyChecked": 3282,
-    "externalWarnings": 7,
-    "brokenCount": 0,
-    "publicScanBridge": [
-      {
-        "ok": false,
-        "hardBroken": false,
-        "status": null,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-27.html",
-        "reason": "network check warning: fetch failed"
-      },
-      {
-        "ok": false,
-        "hardBroken": false,
-        "status": null,
-        "url": "https://jordanfu.github.io/org-intelligence-info/",
-        "reason": "network check warning: fetch failed"
-      },
-      {
-        "ok": false,
-        "hardBroken": false,
-        "status": null,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-08-31.html",
-        "reason": "network check warning: fetch failed"
-      }
-    ]
-  },
-  "warnings": [
-    "external link not hard-checked in Phase 1",
-    "network check warning: fetch failed"
-  ]
+    "checkedAt": null,
+    "qualityStatus": "pending",
+    "firstPartyChecked": 0,
+    "externalWarnings": 0,
+    "brokenCount": 0
+  }
 }

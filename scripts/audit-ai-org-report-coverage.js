@@ -78,7 +78,7 @@ function main() {
 ## 审计结论
 
 - 日期范围：${start} 至 ${today}
-- 已发现日报日期：${dates.length} 天
+- 已发现日报日期：${audits.length} 天
 - 缺失日期：${missingDates.length ? missingDates.join('、') : '无'}
 - 非决策稿/待重跑：${nonDecision.length ? nonDecision.map((item) => item.date).join('、') : '无'}
 - 文件或结构缺口：${incomplete.length ? incomplete.map((item) => item.date).join('、') : '无'}
