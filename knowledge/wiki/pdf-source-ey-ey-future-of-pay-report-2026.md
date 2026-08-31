@@ -228,9 +228,6 @@ EY 把未来薪酬改革连接到技能、绩效、AI 人才、生产率和治�
 - `specials/ai-org-talent-mechanism/weekly/2026-W25-detailed.md:49`：EY Future of Pay 2026
 - `specials/ai-org-talent-mechanism/weekly/2026-W25-quick.md:29`：EY Future of Pay 2026
 - `specials/ai-org-talent-mechanism/weekly/2026-W25.md:29`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/weekly/2026-W35-detailed.md:49`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/weekly/2026-W35-quick.md:29`：EY Future of Pay 2026
-- `specials/ai-org-talent-mechanism/weekly/2026-W35.md:29`：EY Future of Pay 2026
 
 ## 后续精读任务
 

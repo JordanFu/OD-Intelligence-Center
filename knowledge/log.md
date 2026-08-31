@@ -12,7 +12,7 @@
 
 ## [2026-08-31] ingest | 日报 PDF 证据源自动入库
 - 从 daily、daily-report、specials、analysis 中扫描 PDF URL，按知识库 Raw/Wiki/Catalog 规则自动建档。
-- 本次识别 73 个唯一 PDF 来源：60 个已下载原始 PDF，13 个保留 URL 与引用上下文待重试。
+- 本次识别 74 个唯一 PDF 来源：63 个已下载原始 PDF，11 个保留 URL 与引用上下文待重试。
 - 已下载：itb dia 6351 email 0（引用 4 次）
 - 已下载：itb lat dir ai 6454 web 0（引用 17 次）
 - 已下载：GoogleATLASv1（引用 7 次）
@@ -24,9 +24,9 @@
 - 已下载：2608.13022（引用 2 次）
 - 已下载：2026 Work Trend Index Annual Report 050526 7 69fc5b1c4e265（引用 1 次）
 - 已下载：UK Standard Skills Classification Development Report（引用 3 次）
-- 待重试：OpenAI Hugging Face Incident Technical Report（引用 1 次）
+- 已下载：OpenAI Hugging Face Incident Technical Report（引用 1 次）
 - 已下载：the ai jobs transition framework report（引用 3 次）
-- 已下载：f232578（引用 26 次）
+- 已下载：f232578（引用 24 次）
 - 已下载：WP 10 26 Managers as gatekeepers comp 0（引用 9 次）
 - 已下载：AFGE v OPM（引用 5 次）
 - 已下载：Mercer and Eightfold Pay for Skills（引用 2 次）
@@ -60,14 +60,15 @@
 - 待重试：BCG + MIT Sloan：The Emerging Agentic Enterprise（引用 8 次）
 - 待重试：2026 global investor survey jul 2026（引用 1 次）
 - 已下载：Claude Opus 5 System Card（引用 6 次）
-- 待重试：8a665c85eec3a63b4d86287b9255657016f50e29（引用 1 次）
+- 已下载：8a665c85eec3a63b4d86287b9255657016f50e29（引用 1 次）
 - 已下载：AIHR：HR Priorities 2026 Report（引用 1 次）
 - 已下载：Whitepaper Impact of AI on U.S. Labor Market 2026 R2 1（引用 18 次）
 - 已下载：quarterly update presentation 1q 2026（引用 14 次）
 - 已下载：cwa18398 2026（引用 5 次）
 - 已下载：draft cwa xxxx e（引用 2 次）
+- 已下载：j rita lin order（引用 2 次）
 - 已下载：us spans and layers for the modern organization 2020（引用 3 次）
-- 已下载：EY：Future of Pay Report 2026（引用 180 次）
+- 已下载：EY：Future of Pay Report 2026（引用 177 次）
 - 已下载：pip faq 2026（引用 6 次）
 - 已下载：2026081700406（引用 1 次）
 - 已下载：12 087 bc50bde2 3016 457a 9bee dc988cb1056b（引用 8 次）
@@ -86,6 +87,12 @@
 - 已下载：2026 global ai jobs barometer full report（引用 1 次）
 - 已下载：2026 global ai jobs barometer global findings（引用 2 次）
 - 待重试：it job family career ladder matrix software engineer（引用 1 次）
+## [2026-08-30] update | 周末恢复扫描与 W35 知识回流
+- 补录 `daily/2026-08-28.md`、`daily/2026-08-29.md`、`daily/2026-08-30.md` 及对应日报，事实按原始发布时间归位。
+- 新增信息库 W35 快速导读与详细周报，区分新增事实、旧线复核、弱信号和扫描缺口。
+- 更新 Google DeepMind、OpenAI、FDE / Applied AI、AI workforce risk 页面，连接核心专家、区域经营、宽交付、深控制、初级岗位和员工负荷证据。
+- 证据边界：本窗口没有 L4；VZVC 是单点案例，职位页面不证明编制、到岗或薪酬溢价。
+
 ## [2026-08-30] ingest | 日报 PDF 证据源自动入库
 - 从 daily、daily-report、specials、analysis 中扫描 PDF URL，按知识库 Raw/Wiki/Catalog 规则自动建档。
 - 本次识别 68 个唯一 PDF 来源：57 个已下载原始 PDF，11 个保留 URL 与引用上下文待重试。

@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-31T01:42:40.083Z",
+  "generatedAt": "2026-08-31T02:01:16.887Z",
   "module": "knowledge-base",
   "qualityStatus": "warn",
   "latestCatalogDate": "2026-08-31",
   "counts": {
-    "reports": 144,
+    "reports": 145,
     "knowledgeSources": 4,
     "sourceTypes": {
-      "media": 68,
+      "media": 69,
       "internal": 22,
       "concept": 10,
       "public-safe-synthesis": 11,
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "pdfRetryCount": 15,
+  "pdfRetryCount": 13,
   "pdfRetrySample": [
     {
       "id": "p001",
@@ -102,10 +102,10 @@
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-08-31T01:42:56.280Z",
+    "checkedAt": "2026-08-31T02:01:17.092Z",
     "qualityStatus": "warn",
-    "firstPartyChecked": 3279,
-    "externalWarnings": 51,
+    "firstPartyChecked": 3282,
+    "externalWarnings": 7,
     "brokenCount": 0,
     "publicScanBridge": [
       {

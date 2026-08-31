@@ -53,8 +53,6 @@ j rita lin order 已作为日报/周报 PDF 证据源入库，当前需要完成
 
 - `外部公开 PDF 扫描:75`：公开安全引用：法院命令 PDF
 - `外部公开 PDF 扫描:264`：公开安全引用：| 法院命令 |  | Anthropic | supply-chain risk designation 裁决 | A | L3 治理事实 |
-- `外部公开 PDF 扫描:75`：公开安全引用：法院命令 PDF
-- `外部公开 PDF 扫描:264`：公开安全引用：| 法院命令 |  | Anthropic | supply-chain risk designation 裁决 | A | L3 治理事实 |
 
 ## 后续精读任务
 

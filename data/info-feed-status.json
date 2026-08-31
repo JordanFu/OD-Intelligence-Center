@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-31T01:41:14.921Z",
+  "generatedAt": "2026-08-31T02:01:16.463Z",
   "module": "info-feed",
   "qualityStatus": "warn",
-  "latestDate": "2026-08-27",
+  "latestDate": "2026-08-30",
   "latestCardCount": 15,
-  "newFactCount": 12,
-  "contextCount": 1,
+  "newFactCount": 1,
+  "contextCount": 12,
   "weakSignalCount": 1,
   "gapRecordCount": 1,
-  "sourceCount": 14,
+  "sourceCount": 15,
   "channelCoverage": [
     "媒体",
     "官方",
@@ -17,11 +17,11 @@
     "社媒公众号"
   ],
   "confidenceDistribution": {
-    "L3": 1,
-    "L2": 6,
-    "L1": 8
+    "L2": 8,
+    "L1": 3,
+    "L3": 4
   },
-  "subtopicConcentration": 0.4,
+  "subtopicConcentration": 0.333,
   "privateSignalRatio": 0,
   "fieldCompleteness": {
     "requiredFieldMissingCount": 0,
@@ -29,16 +29,16 @@
   },
   "sourceUrlMissingCount": 0,
   "latest": {
-    "date": "2026-08-27",
+    "date": "2026-08-30",
     "cardCount": 15,
     "nonGapCardCount": 14,
-    "newFactCount": 12,
-    "oldLineReviewCount": 1,
-    "contextCount": 1,
+    "newFactCount": 1,
+    "oldLineReviewCount": 12,
+    "contextCount": 12,
     "weakSignalCount": 1,
     "gapCount": 1,
     "gapRecordCount": 1,
-    "sourcePlatformCount": 14,
+    "sourcePlatformCount": 15,
     "sourceUrlCount": 15,
     "channelTypeCount": 5,
     "channelTypes": [
@@ -49,43 +49,43 @@
       "社媒公众号"
     ],
     "infoTypeDistribution": {
-      "旧线复核": 1,
-      "新增事实": 12,
+      "新增事实": 1,
       "弱信号": 1,
+      "旧线复核": 12,
       "缺口记录": 1
     },
     "channelTypeDistribution": {
-      "媒体": 3,
-      "官方": 7,
-      "报告学术": 2,
-      "JD薪酬": 2,
+      "媒体": 5,
+      "官方": 4,
+      "报告学术": 4,
+      "JD薪酬": 1,
       "社媒公众号": 1
     },
     "channelCoverage": {
-      "媒体": 3,
-      "官方": 7,
-      "报告学术": 2,
-      "JD薪酬": 2,
+      "媒体": 5,
+      "官方": 4,
+      "报告学术": 4,
+      "JD薪酬": 1,
       "社媒公众号": 1
     },
     "confidenceDistribution": {
-      "L3": 1,
-      "L2": 6,
-      "L1": 8
+      "L2": 8,
+      "L1": 3,
+      "L3": 4
     },
     "conclusionConfidenceDistribution": {
-      "L3": 1,
-      "L2": 6,
-      "L1": 8
+      "L2": 8,
+      "L1": 3,
+      "L3": 4
     },
     "subtopicDistribution": {
-      "其他": 4,
-      "AI治理与安全": 6,
-      "AI交付与部署": 2,
       "岗位与职业架构": 2,
-      "组织层级与管理": 1
+      "AI治理与安全": 5,
+      "人才密度与流动": 2,
+      "其他": 5,
+      "AI交付与部署": 1
     },
-    "subtopicConcentration": 0.4,
+    "subtopicConcentration": 0.333,
     "privateSignalRatio": 0,
     "sourceUrlMissingItemIds": [],
     "sourceUrlMissingCount": 0,
@@ -101,6 +101,54 @@
     "hasValidGapRecord": true
   },
   "recentDays": [
+    {
+      "date": "2026-08-30",
+      "cardCount": 15,
+      "nonGapCardCount": 14,
+      "newFactCount": 1,
+      "contextCount": 12,
+      "weakSignalCount": 1,
+      "gapRecordCount": 1,
+      "sourcePlatformCount": 15,
+      "sourceUrlCount": 15,
+      "sourceUrlMissingCount": 0,
+      "channelTypeCount": 5,
+      "channelTypes": [
+        "媒体",
+        "官方",
+        "报告学术",
+        "JD薪酬",
+        "社媒公众号"
+      ],
+      "channelCoverage": {
+        "媒体": 5,
+        "官方": 4,
+        "报告学术": 4,
+        "JD薪酬": 1,
+        "社媒公众号": 1
+      },
+      "confidenceDistribution": {
+        "L2": 8,
+        "L1": 3,
+        "L3": 4
+      },
+      "subtopicDistribution": {
+        "岗位与职业架构": 2,
+        "AI治理与安全": 5,
+        "人才密度与流动": 2,
+        "其他": 5,
+        "AI交付与部署": 1
+      },
+      "subtopicConcentration": 0.333,
+      "privateSignalRatio": 0,
+      "fieldCompleteness": {
+        "requiredFieldMissingCount": 0,
+        "missingFields": []
+      },
+      "qualityIssues": [
+        "新增事实少于 5 条，已有缺口记录"
+      ]
+    },
     {
       "date": "2026-08-27",
       "cardCount": 15,
@@ -417,63 +465,18 @@
         "missingFields": []
       },
       "qualityIssues": []
-    },
-    {
-      "date": "2026-08-21",
-      "cardCount": 15,
-      "nonGapCardCount": 14,
-      "newFactCount": 9,
-      "contextCount": 1,
-      "weakSignalCount": 4,
-      "gapRecordCount": 1,
-      "sourcePlatformCount": 12,
-      "sourceUrlCount": 15,
-      "sourceUrlMissingCount": 0,
-      "channelTypeCount": 5,
-      "channelTypes": [
-        "官方",
-        "报告学术",
-        "媒体",
-        "JD薪酬",
-        "社媒公众号"
-      ],
-      "channelCoverage": {
-        "官方": 2,
-        "报告学术": 4,
-        "媒体": 2,
-        "JD薪酬": 5,
-        "社媒公众号": 2
-      },
-      "confidenceDistribution": {
-        "L2": 7,
-        "L1": 8
-      },
-      "subtopicDistribution": {
-        "AI治理与安全": 7,
-        "AI交付与部署": 3,
-        "岗位与职业架构": 3,
-        "组织层级与管理": 1,
-        "其他": 1
-      },
-      "subtopicConcentration": 0.467,
-      "privateSignalRatio": 0,
-      "fieldCompleteness": {
-        "requiredFieldMissingCount": 0,
-        "missingFields": []
-      },
-      "qualityIssues": []
     }
   ],
   "totals": {
-    "days": 130,
-    "cards": 1377,
-    "platforms": 720,
-    "dailyFiles": 126,
-    "dailyReportFiles": 130,
+    "days": 131,
+    "cards": 1392,
+    "platforms": 732,
+    "dailyFiles": 129,
+    "dailyReportFiles": 133,
     "weeklyFiles": 1
   },
   "homepageBridge": {
-    "digestLatestDate": "2026-08-27",
+    "digestLatestDate": "2026-08-30",
     "latestScanDate": "2026-08-31",
     "freshnessStatus": "pass",
     "ageDays": 0,
@@ -484,9 +487,9 @@
     "status": "pending-link-check"
   },
   "trustStats": {
-    "📰较高": 497,
-    "⭐高": 713,
-    "💬参考": 133,
+    "📰较高": 506,
+    "⭐高": 718,
+    "💬参考": 134,
     "未标注": 10,
     "📰中高": 1,
     "⭐高 / 📰较高 / 💬参考": 1,
@@ -528,6 +531,7 @@
     "time": 10
   },
   "warnings": [
+    "最新日期“新增事实”少于 5 条：当前 1 条；已有缺口记录，首页应诚实显示可信新增不足。",
     "最近 7 个信息日存在结构字段缺失：7 类日期/字段组合需逐步补齐。",
     "external link not hard-checked in Phase 1",
     "network check warning: fetch failed"
@@ -535,10 +539,10 @@
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-08-31T01:42:56.280Z",
+    "checkedAt": "2026-08-31T02:01:17.092Z",
     "qualityStatus": "warn",
-    "firstPartyChecked": 3279,
-    "externalWarnings": 51,
+    "firstPartyChecked": 3282,
+    "externalWarnings": 7,
     "brokenCount": 0,
     "publicScanBridge": [
       {
