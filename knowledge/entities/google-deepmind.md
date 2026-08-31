@@ -16,6 +16,7 @@ related: [../entities/thibault-sottiaux.md, ../concepts/capability-to-product-co
 
 | 时间 | 来源 | 支持判断 | 等级 |
 |---|---|---|---|
+| 2026-08-30 | `../../digest.md` [C01] | Barret Zoph 加入 Google 任研究副总裁，责任聚焦强化学习、后训练与 Gemini；支持核心专家责任纵向连接，不证明整体组织稳定 | L3 |
 | 2021 | Gopher 论文 | DeepMind 较早已有大规模语言模型与服务基础 | L3 |
 | 2022 | DeepMind Sparrow 官方文章 | 对话代理仍有规则违反和不可靠回答，被定位为研究型概念验证 | L3 |
 | 2023 | TIME / Demis Hassabis | 延迟公开测试至少部分来自安全、引用和可靠性门槛 | L2 |
@@ -24,6 +25,7 @@ related: [../entities/thibault-sottiaux.md, ../concepts/capability-to-product-co
 
 ## 当前可形成的判断
 
+- 2026-08-27 的负责人引入支持“关键专家围绕研究—后训练—产品结果纵向负责”的 L3 机制观察；团队、算力与发布决策权仍待核实。
 - DeepMind 的研究领先并不自动形成公共产品领先，说明研究成果到规模部署之间存在独立的组织转换问题。
 - Tibo 的个案同时受到产品化架构、既有业务和风险阈值影响，不能简化为单一“官僚主义”。
 - 2023 年后的组织合并与更快发布说明结构可以改变，但尚不能证明该调整与单一产品成败存在直接因果。

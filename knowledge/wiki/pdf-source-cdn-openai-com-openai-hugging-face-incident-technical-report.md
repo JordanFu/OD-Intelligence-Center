@@ -2,11 +2,11 @@
 title: OpenAI Hugging Face Incident Technical Report
 source: cdn.openai.com
 date: 待核验
-ingested: 2026-08-27
-sourceFile:
+ingested: 2026-08-31
+sourceFile: ../raw/cdn-openai-com-openai-hugging-face-incident-technical-report.pdf
 sourceUrl: https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf
 tags: [AI组织设计]
-status: 已索引来源，PDF下载待重试
+status: 已下载原始PDF，已生成结构化初筛卡片
 ---
 
 # OpenAI Hugging Face Incident Technical Report
@@ -20,8 +20,8 @@ OpenAI Hugging Face Incident Technical Report 已作为日报/周报 PDF 证据�
 - **来源机构**：cdn.openai.com
 - **来源类型**：media
 - **原文 URL**：https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf
-- **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
-- **入库日期**：2026-08-27
+- **原始文件**：`knowledge/raw/cdn-openai-com-openai-hugging-face-incident-technical-report.pdf`
+- **入库日期**：2026-08-31
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容

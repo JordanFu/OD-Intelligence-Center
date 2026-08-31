@@ -1,26 +1,26 @@
 ---
-title: gov.uscourts.cand.474171.1.0
-source: storage.courtlistener.com
+title: j rita lin order
+source: courthousenews.com
 date: 待核验
 ingested: 2026-08-31
-sourceFile: ../raw/storage-courtlistener-com-gov-uscourts-cand-474171-1-0.pdf
-sourceUrl: https://storage.courtlistener.com/recap/gov.uscourts.cand.474171/gov.uscourts.cand.474171.1.0.pdf
+sourceFile: ../raw/courthousenews-com-j-rita-lin-order.pdf
+sourceUrl: https://www.courthousenews.com/wp-content/uploads/2026/08/j-rita-lin-order.pdf
 tags: [AI组织设计]
 status: 已下载原始PDF，已生成结构化初筛卡片
 ---
 
-# gov.uscourts.cand.474171.1.0
+# j rita lin order
 
 ## 一句话判断
 
-gov.uscourts.cand.474171.1.0 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
+j rita lin order 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
 
 ## 入库状态
 
-- **来源机构**：storage.courtlistener.com
+- **来源机构**：courthousenews.com
 - **来源类型**：media
-- **原文 URL**：https://storage.courtlistener.com/recap/gov.uscourts.cand.474171/gov.uscourts.cand.474171.1.0.pdf
-- **原始文件**：`knowledge/raw/storage-courtlistener-com-gov-uscourts-cand-474171-1-0.pdf`
+- **原文 URL**：https://www.courthousenews.com/wp-content/uploads/2026/08/j-rita-lin-order.pdf
+- **原始文件**：`knowledge/raw/courthousenews-com-j-rita-lin-order.pdf`
 - **入库日期**：2026-08-31
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
@@ -51,8 +51,10 @@ gov.uscourts.cand.474171.1.0 已作为日报/周报 PDF 证据源入库，当前
 
 ## 被引用位置
 
-- `外部公开 PDF 扫描:68`：公开安全引用：CourtListener
-- `外部公开 PDF 扫描:116`：公开安全引用：诉状
+- `外部公开 PDF 扫描:75`：公开安全引用：法院命令 PDF
+- `外部公开 PDF 扫描:264`：公开安全引用：| 法院命令 |  | Anthropic | supply-chain risk designation 裁决 | A | L3 治理事实 |
+- `外部公开 PDF 扫描:75`：公开安全引用：法院命令 PDF
+- `外部公开 PDF 扫描:264`：公开安全引用：| 法院命令 |  | Anthropic | supply-chain risk designation 裁决 | A | L3 治理事实 |
 
 ## 后续精读任务
 
