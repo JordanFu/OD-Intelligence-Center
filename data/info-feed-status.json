@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T10:33:37.900Z",
+  "generatedAt": "2026-09-01T14:58:15.965Z",
   "module": "info-feed",
   "qualityStatus": "warn",
   "latestDate": "2026-09-01",
@@ -531,31 +531,26 @@
   "warnings": [
     "最新日期仍有新结构字段缺失：渠道类型 10 条；结论置信度 10 条。",
     "最近 7 个信息日存在结构字段缺失：2 类日期/字段组合需逐步补齐。",
-    "external link not hard-checked in Phase 1",
-    "network check warning: fetch failed"
+    "external link not hard-checked in Phase 1"
   ],
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-09-01T10:33:44.882Z",
+    "checkedAt": "2026-09-01T14:58:20.459Z",
     "qualityStatus": "warn",
     "firstPartyChecked": 3308,
-    "externalWarnings": 24,
+    "externalWarnings": 22,
     "brokenCount": 0,
     "publicScanBridge": [
       {
-        "ok": false,
-        "hardBroken": false,
-        "status": null,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-09-01.html",
-        "reason": "network check warning: fetch failed"
+        "ok": true,
+        "status": 200,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-09-01.html"
       },
       {
-        "ok": false,
-        "hardBroken": false,
-        "status": null,
-        "url": "https://jordanfu.github.io/org-intelligence-info/",
-        "reason": "network check warning: fetch failed"
+        "ok": true,
+        "status": 200,
+        "url": "https://jordanfu.github.io/org-intelligence-info/"
       }
     ]
   },
