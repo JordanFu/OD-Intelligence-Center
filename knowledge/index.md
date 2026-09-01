@@ -56,6 +56,7 @@
 | 45 | [本地知识库定期 Review（2026-08-24）](wiki/local-knowledge-review-2026-08-24.md) | OD Intelligence Center | 2026-08-24 | 知识管理, 定期Review, PDF入库, People/HR, AI fluency |
 | 46 | [从“有模型”到“有产品”：Tibo 的研究—产品组织机制](wiki/tibo-research-product-org-mechanism-2026-08-26.md) | Tibo 访谈 / OpenAI / Google DeepMind / 组织研究 | 2026-08-26 | 研究产品协同, 决策权, 资源配置, 监督瓶颈 |
 | 47 | [本地知识库定期 Review（2026-08-31）](wiki/local-knowledge-review-2026-08-31.md) | OD Intelligence Center | 2026-08-31 | 知识管理, 定期Review, PDF入库, People/HR, AI fluency |
+| 48 | [BCG：为什么 AI 试点很少产生真实业务价值](wiki/pdf-source-bcg-2026-08-why-ai-pilots-rarely-deliver-value.md) | Boston Consulting Group | 2026-08-31 | AI组织设计, 端到端流程, 运营模型, 价值实现 |
 
 ## 概念页
 
@@ -99,6 +100,7 @@
 |---|------|------|------|
 | 1 | [raw/bcg-2026-04-design-your-company-for-ai.pdf](raw/bcg-2026-04-design-your-company-for-ai.pdf) | BCG | 2026-04-23 |
 | 2 | [raw/cfte-2026-04-ai-proficiency-framework.pdf](raw/cfte-2026-04-ai-proficiency-framework.pdf) | CFTE | 2026-04 |
+| 3 | [raw/bcg-2026-08-why-ai-pilots-rarely-deliver-value.pdf](raw/bcg-2026-08-why-ai-pilots-rarely-deliver-value.pdf) | Boston Consulting Group | 2026-08-31 |
 
 <!-- PDF_AUTO_INDEX_START -->
 ## PDF 自动入库索引

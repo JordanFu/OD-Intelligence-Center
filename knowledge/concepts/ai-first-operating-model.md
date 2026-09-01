@@ -2,8 +2,8 @@
 type: framework
 name: AI-First 运营模型
 created: 2026-04-27
-updated: 2026-04-27
-sources: [bcg-2026-04-design-company-for-ai]
+updated: 2026-09-01
+sources: [bcg-2026-04-design-company-for-ai, pdf-source-bcg-2026-08-why-ai-pilots-rarely-deliver-value]
 ---
 
 # AI-First 运营模型
@@ -26,8 +26,15 @@ sources: [bcg-2026-04-design-company-for-ai]
 
 BCG 跨行业实践的总结。如果 AI 没有产生影响力，很少是因为技术不行，而是因为组织没有完成从"部署孤立 AI 工具"到"重新设计运营模型"的转换。
 
+## 价值兑现补充
+
+BCG 2026-08-31 的《Look Past Productivity to Get Real Value from AI》进一步区分了任务生产率与企业价值：小时节省、任务自动化和产出增长只有在改变端到端客户结果、外包支出、组织间接成本、管理层级或损益时，才完成价值兑现。该文将“少数高经济价值场景 + 围绕决策的端到端重设计 + 财务结果验证”视为 AI-First 运营模型的经济闭环。
+
+这不等于所有组织都应通过减员兑现收益。若节省时间只是被转化为更多任务和更短期限，应描述为工作负荷强化；组织价值仍需与员工减负、高价值工作、质量、风险和长期能力共同观察。
+
 ## 与其他概念的关系
 
 - **10-20-70 法则**（BCG 2026-02）：10% 算法 + 20% 技术 + 70% 组织变革和人才。与 30-70 法则互补
 - **微型作战单元**（McKinsey 2026）：2-5 人 + 数十 AI Agent 的团队形态，与 AI-First 的小型跨职能团队一致
 - **旅程型运营模型**：AI-First 的组织实现方式
+- **价值实现闭环**：[[../wiki/pdf-source-bcg-2026-08-why-ai-pilots-rarely-deliver-value|BCG：为什么 AI 试点很少产生真实业务价值]]补充了从流程重构到 P&L 的验证链条

@@ -3989,6 +3989,38 @@
         "scsk.jp"
       ],
       "originalUrl": "https://www.scsk.jp/news/2026/pdf/20260828.pdf"
+    },
+    {
+      "id": "p082",
+      "title": "BCG：为什么 AI 试点很少产生真实业务价值",
+      "originalTitle": "Look Past Productivity to Get Real Value from AI",
+      "author": "Boston Consulting Group（页面未署名）",
+      "publisher": "Boston Consulting Group",
+      "sourceType": "consulting",
+      "topics": [
+        "AI组织设计",
+        "绩效管理",
+        "变革管理",
+        "数字化转型"
+      ],
+      "date": "2026-08-31",
+      "uploadDate": "2026-09-01",
+      "description": "BCG 解释 AI 试点为何常停留在任务提效：旧流程复杂度未被移除、节省时间被系统吸收、活动指标没有连接客户结果和损益。知识卡进一步沉淀少数高价值场景、端到端组织重设计与 P&L 验证形成的价值闭环，并标注匿名案例和成本估算的证据边界。",
+      "summaryFile": "./knowledge/wiki/pdf-source-bcg-2026-08-why-ai-pilots-rarely-deliver-value.md",
+      "rawFile": "./knowledge/raw/bcg-2026-08-why-ai-pilots-rarely-deliver-value.pdf",
+      "fileName": "bcg-2026-08-why-ai-pilots-rarely-deliver-value.pdf",
+      "fileSize": "1868377 bytes",
+      "tags": [
+        "AI组织设计",
+        "端到端流程",
+        "运营模型",
+        "价值实现",
+        "P&L",
+        "BCG"
+      ],
+      "originalUrl": "https://www.bcg.com/publications/2026/why-ai-pilots-rarely-deliver-value",
+      "status": "已下载原文并完成中文精读",
+      "evidenceLevel": "L2"
     }
   ]
 }

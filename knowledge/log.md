@@ -4,6 +4,13 @@
 
 ---
 
+## [2026-09-01] ingest | BCG《Look Past Productivity to Get Real Value from AI》
+- 将用户提供的 5 页 BCG PDF 归档为 `knowledge/raw/bcg-2026-08-why-ai-pilots-rarely-deliver-value.pdf`。
+- 新增中文精读知识卡 `knowledge/wiki/pdf-source-bcg-2026-08-why-ai-pilots-rarely-deliver-value.md`，区分任务生产率、端到端客户结果和 P&L 价值。
+- 沉淀三类价值泄漏：只自动化旧任务、节时被系统吸收、活动指标未连接财务结果；并记录优先级、组织重设计和复利价值链。
+- 更新 `AI-First 运营模型` 与 `端到端旅程重设计` 两个概念页，补充经济价值闭环及“任务一天、客户仍等十天”的边界案例。
+- 证据边界：咨询方法论为 L2；调查样本、匿名案例、成本区间和员工后效均需独立核验，不将材料解读为普遍减层或裁员依据。
+
 ## [2026-09-01] ingest | 当日组织机制回流
 - 将 Anthropic 安全行动权与 Amazon WARN 因果边界回流 `knowledge/concepts/ai-workforce-risk.md`。
 - 将 OCC 矩阵型 AI 变革岗位与 NVIDIA 交付智能体岗位回流 `knowledge/concepts/fde-applied-ai.md`。

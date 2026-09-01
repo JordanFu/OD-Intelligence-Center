@@ -4,14 +4,14 @@
   "qualityStatus": "warn",
   "latestCatalogDate": "2026-09-01",
   "counts": {
-    "reports": 146,
+    "reports": 147,
     "knowledgeSources": 4,
     "sourceTypes": {
       "media": 70,
       "internal": 22,
       "concept": 10,
       "public-safe-synthesis": 11,
-      "consulting": 14,
+      "consulting": 15,
       "industry": 19
     }
   },
