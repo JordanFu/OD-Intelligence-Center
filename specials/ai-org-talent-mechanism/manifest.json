@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T06:06:33.936Z",
+  "generatedAt": "2026-09-02T10:33:39.805Z",
   "module": "topic-projects",
   "project": {
     "id": "ai-org-talent-mechanism",
@@ -7,13 +7,12 @@
     "root": "specials/ai-org-talent-mechanism"
   },
   "qualityStatus": "warn",
-  "latestFormalDate": "2026-09-01",
+  "latestFormalDate": "2026-09-02",
   "latestAnyDate": "2026-09-02",
   "today": "2026-09-02",
-  "todayStatus": "fallback",
-  "latestStatus": "fallback",
+  "todayStatus": "formal",
+  "latestStatus": "formal",
   "pendingRerunDates": [
-    "2026-09-02",
     "2026-08-30",
     "2026-08-29",
     "2026-08-16",
@@ -38,8 +37,8 @@
     "2026-05-13"
   ],
   "statusCounts": {
-    "fallback": 23,
-    "formal": 90
+    "formal": 91,
+    "fallback": 22
   },
   "statusDefinitions": {
     "formal": "正式决策稿：00-overview、四专题 Markdown、正式入口均存在，且无兜底/待重跑关键词，质量门禁未明确失败。",
@@ -51,10 +50,10 @@
   "dates": [
     {
       "date": "2026-09-02",
-      "status": "fallback",
-      "isFormal": false,
-      "isFallback": true,
-      "needsRerun": true,
+      "status": "formal",
+      "isFormal": true,
+      "isFallback": false,
+      "needsRerun": false,
       "overview": "specials/ai-org-talent-mechanism/2026-09-02/00-overview.html",
       "overviewMarkdown": "specials/ai-org-talent-mechanism/2026-09-02/00-overview.md",
       "index": "specials/ai-org-talent-mechanism/2026-09-02/index.html",
@@ -94,11 +93,9 @@
       "hasFormalEntry": true,
       "qualityGate": {
         "path": "specials/ai-org-talent-mechanism/quality/2026-09-02.md",
-        "status": "warn-or-unknown"
+        "status": "pass-or-warn"
       },
-      "qualityIssues": [
-        "正文包含兜底/非决策稿/待正式重跑关键词"
-      ]
+      "qualityIssues": []
     },
     {
       "date": "2026-09-01",
@@ -5635,25 +5632,10 @@
   ],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-09-02T06:06:37.257Z",
-    "qualityStatus": "warn",
-    "firstPartyChecked": 3334,
-    "externalWarnings": 28,
-    "brokenCount": 0,
-    "publicScanBridge": [
-      {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-09-02.html"
-      },
-      {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/"
-      }
-    ]
-  },
-  "warnings": [
-    "external link not hard-checked in Phase 1"
-  ]
+    "checkedAt": null,
+    "qualityStatus": "pending",
+    "firstPartyChecked": 0,
+    "externalWarnings": 0,
+    "brokenCount": 0
+  }
 }
