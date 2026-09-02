@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T10:33:39.605Z",
+  "generatedAt": "2026-09-02T14:33:17.224Z",
   "module": "automation",
   "qualityStatus": "warn",
   "chains": {
@@ -10,7 +10,7 @@
       "newFactCount": 5
     },
     "topicProjects": {
-      "qualityStatus": "fail",
+      "qualityStatus": "warn",
       "today": "2026-09-02",
       "todayStatus": "formal",
       "latestFormalDate": "2026-09-02",
@@ -48,7 +48,7 @@
     "linkCheck": {
       "qualityStatus": "warn",
       "brokenCount": 0,
-      "checkedAt": "2026-09-02T10:32:26.434Z"
+      "checkedAt": "2026-09-02T14:33:17.134Z"
     },
     "githubActionsFallback": {
       "status": "pass",
@@ -78,6 +78,7 @@
   },
   "warnings": [
     "信息库质量为 warn",
+    "专题研究状态为 warn",
     "专题待正式重跑 22 天"
   ],
   "criticalIssues": [],
