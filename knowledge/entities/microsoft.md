@@ -18,6 +18,7 @@ backlinks: [../../specials/ai-org-talent-mechanism/topics/flat-organization/evid
 ## 已有证据来源
 | 日期 | 来源 / 文件 | 等级 | 支持判断 |
 |---|---|---|---|
+| 2026-09-03 | `../../digest.md` [D01] | L3 窄范围机制 | 微软以两个新分部管理运营并报告财务表现，证明责任边界进入正式经营与披露结构。 |
 | 2026-08-20 | `../../digest.md` [D06] | L1 | 教育机构框架支持“单流程试点—继承既有权限—随治理成熟扩大”的采用顺序。 |
 | 2026-06-30 | `knowledge/index.md` 条目 4、27 | L2-L3 | Microsoft 已作为人机协作知识源入库。 |
 | 2026-06-30 | `../../specials/ai-org-talent-mechanism/2026-06-30/00-overview.md` | L2 | 任务封装、复核和人机协作边界需要管理机制。 |
@@ -26,15 +27,17 @@ backlinks: [../../specials/ai-org-talent-mechanism/topics/flat-organization/evid
 `../../specials/ai-org-talent-mechanism/topics/flat-organization/evidence-map.md`
 
 ## 相关 digest 条目
-`../../digest.md` 2026-08-20 [D06]；既有 index 与 formal 总览继续作为背景锚点。
+`../../digest.md` 2026-09-03 [D01]、2026-08-20 [D06]；既有 index 与 formal 总览继续作为背景锚点。
 
 ## 当前可形成的判断
+- Microsoft 2026-09-03 的证券披露支持“经营单元与报告单元同构”的窄范围机制判断；来源为 `../../digest.md` [D01]，L3，只覆盖正式分部管理与财务报告。
 - Microsoft 支持“manager role 正在靠近人机协作编排和复核责任”的背景判断；来源为既有知识库条目和 2026-06-30 formal 总览，L2。
 - Microsoft 2026-08-20 的厂商框架支持从单一流程起步、沿用身份与权限控制、再随成熟度扩张的观察；L1，尚无客户结果。
 
 ## 明确边界 / 不能下的结论
 - 本次未读取 Microsoft PDF 原文，不新增报告级结论。
-- 当前证据不足，暂不形成 Microsoft 自身组织改革强结论。
+- 当前证据不支持推断法律实体、完整组织图、内部预算和人员迁移、管理层级减少或经营结果改善。
 
 ## 待验证问题
 - Microsoft 是否有 manager capability、绩效或组织层级调整的一手制度证据？
+- 两个新分部的负责人、预算权、人才边界与跨分部协作如何运行？
