@@ -1,6 +1,6 @@
 # 系统健康状态
 
-> 自动生成：2026-09-03T10:36:55.514Z
+> 自动生成：2026-09-03T14:37:44.293Z
 
 ## 一眼判断
 
@@ -35,7 +35,7 @@
 
 - Catalog 日期：2026-09-03
 - 知识源：4
-- 报告 / 知识页：147
+- 报告 / 知识页：148
 - 待重试 PDF：13
 - 本地或私有路径泄露：0
 - 缺失 summaryFile：0
@@ -53,7 +53,7 @@
 ## 链接检查
 
 - 一方断链数：0
-- 外部链接 warning：60
+- 外部链接 warning：74
 - 公开扫描桥接：ok:200、ok:200
 
 ## 质量语义
@@ -67,6 +67,8 @@
 - ✅ 无 P0 fail。
 - ⚠️ 最新日期非缺口信息卡少于 8 条：当前 7 条；已有缺口记录，不能用缺口记录凑数量。
 - ⚠️ 最近 7 个信息日存在结构字段缺失：2 类日期/字段组合需逐步补齐。
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
 - ⚠️ knowledge/catalog.json 的 reports 存在 3 组重复 summaryFile。
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ 信息库质量为 warn

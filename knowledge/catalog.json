@@ -4021,6 +4021,30 @@
       "originalUrl": "https://www.bcg.com/publications/2026/why-ai-pilots-rarely-deliver-value",
       "status": "已下载原文并完成中文精读",
       "evidenceLevel": "L2"
+    },
+    {
+      "id": "p083",
+      "title": "the participation economy",
+      "originalTitle": "the participation economy",
+      "author": "cdn.openai.com",
+      "publisher": "cdn.openai.com",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-09-03",
+      "description": "the participation economy 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-cdn-openai-com-the-participation-economy.md",
+      "rawFile": "./knowledge/raw/cdn-openai-com-the-participation-economy.pdf",
+      "fileName": "cdn-openai-com-the-participation-economy.pdf",
+      "fileSize": "3548594 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "cdn.openai.com"
+      ],
+      "originalUrl": "https://cdn.openai.com/pdf/bd7ee34b-ec1c-4825-aab2-4a98acba5783/the-participation-economy.pdf"
     }
   ]
 }
