@@ -2,7 +2,7 @@
 type: framework
 name: AI-First 运营模型
 created: 2026-04-27
-updated: 2026-09-03
+updated: 2026-09-04
 sources: [bcg-2026-04-design-company-for-ai, pdf-source-bcg-2026-08-why-ai-pilots-rarely-deliver-value]
 ---
 
@@ -47,6 +47,14 @@ BCG 2026-08-31 的《Look Past Productivity to Get Real Value from AI》进一�
 - 来源：`../../digest.md` [D01]
 - 适用边界：只证明分部管理与报告结构，不证明法律实体重组、组织减层、内部预算／人员边界或经营后效。
 - 待验证：负责人、预算权、人才归属、跨分部协作和 90／180 天经营结果。
+
+## 控制权与连续性补充
+
+2026-09-04 的英伟达／Hugging Face、OpenAI Astra 与 Adobe 证据共同提示，AI-First 运营模型不能只描述小团队和速度，还要显性设计生态选择权、运行暂停／恢复权以及首席执行官与董事会的保留事项。
+
+- 来源：`../../digest.md` [D01]、[D02]、[D04]
+- 证据等级：三者均为 L3 窄范围边界；平台中立、安全效果、接班运行和员工收益仍为 L1。
+- 适用边界：用于平台交易、高风险模型和高层接班，不外推为普遍组织形态或生产率结果。
 
 ## 与其他概念的关系
 

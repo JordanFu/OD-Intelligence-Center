@@ -4,9 +4,15 @@
 
 ---
 
+## [2026-09-04] ingest | 当日组织机制回流
+- 将 OpenAI Astra 的开发—发布—运行控制链和 Daybreak 的分布式交付责任回流 `knowledge/entities/openai.md` 与 `knowledge/concepts/capability-to-product-conversion-loop.md`。
+- 将 Anthropic 在法律、商务与国防采购之间的外部信任边界回流 `knowledge/entities/anthropic.md`，不反推内部组织变化。
+- 将英伟达／Hugging Face 的平台整合边界、Astra 的暂停恢复权和 Adobe 接班治理回流 `knowledge/concepts/ai-first-operating-model.md`，保留运行结果与员工收益边界。
+- Kimi 匿名递表、具身智能招聘倍数、公众号缺口和 Zscaler 旧事件均未升级为知识库强结论。
+
 ## [2026-09-04] ingest | 日报 PDF 证据源自动入库
 - 从 daily、daily-report、specials、analysis 中扫描 PDF URL，按知识库 Raw/Wiki/Catalog 规则自动建档。
-- 本次识别 70 个唯一 PDF 来源：59 个已下载原始 PDF，11 个保留 URL 与引用上下文待重试。
+- 本次识别 76 个唯一 PDF 来源：65 个已下载原始 PDF，11 个保留 URL 与引用上下文待重试。
 - 已下载：itb dia 6351 email 0（引用 4 次）
 - 已下载：itb lat dir ai 6454 web 0（引用 17 次）
 - 已下载：GoogleATLASv1（引用 7 次）
@@ -18,6 +24,7 @@
 - 已下载：2608.13022（引用 2 次）
 - 已下载：2026 Work Trend Index Annual Report 050526 7 69fc5b1c4e265（引用 1 次）
 - 已下载：UK Standard Skills Classification Development Report（引用 3 次）
+- 已下载：OpenAI Hugging Face Incident Technical Report（引用 1 次）
 - 已下载：the participation economy（引用 5 次）
 - 已下载：the ai jobs transition framework report（引用 3 次）
 - 已下载：f232578（引用 24 次）
@@ -44,19 +51,23 @@
 - 已下载：META Q2 2026 Earnings Call Transcript（引用 2 次）
 - 待重试：Fannie Mae：LL-2026-04 AI/ML 治理要求（引用 13 次）
 - 已下载：6277baa6 0f7b 4fbe 9c7c ceb3e0e9b325 flatland（引用 16 次）
-- 已下载：47382ae415a209fd161bc19a1f9b3704（引用 1 次）
-- 已下载：gov.uscourts.cand.474095.38.0（引用 1 次）
-- 已下载：gov.uscourts.cand.474095.59.0（引用 4 次）
+- 已下载：47382ae415a209fd161bc19a1f9b3704（引用 3 次）
+- 已下载：e048dfed72bc718f7986a83f23c8e294（引用 2 次）
+- 已下载：gov.uscourts.cand.474095.38.0（引用 2 次）
+- 已下载：gov.uscourts.cand.474095.59.0（引用 6 次）
+- 已下载：gov.uscourts.cand.474171.1.0（引用 2 次）
 - 已下载：interviewing at google deepmind（引用 10 次）
 - 待重试：BCG：AI Radar 2026（引用 2 次）
 - 待重试：BCG + MIT Sloan：The Emerging Agentic Enterprise（引用 8 次）
 - 待重试：2026 global investor survey jul 2026（引用 1 次）
-- 已下载：Claude Opus 5 System Card（引用 4 次）
+- 已下载：Claude Opus 5 System Card（引用 6 次）
+- 已下载：8a665c85eec3a63b4d86287b9255657016f50e29（引用 1 次）
 - 已下载：AIHR：HR Priorities 2026 Report（引用 1 次）
 - 已下载：Whitepaper Impact of AI on U.S. Labor Market 2026 R2 1（引用 18 次）
 - 已下载：quarterly update presentation 1q 2026（引用 14 次）
 - 已下载：cwa18398 2026（引用 5 次）
 - 已下载：draft cwa xxxx e（引用 2 次）
+- 已下载：j rita lin order（引用 2 次）
 - 已下载：us spans and layers for the modern organization 2020（引用 3 次）
 - 已下载：EY：Future of Pay Report 2026（引用 172 次）
 - 已下载：pip faq 2026（引用 6 次）
@@ -64,6 +75,7 @@
 - 已下载：12 087 bc50bde2 3016 457a 9bee dc988cb1056b（引用 8 次）
 - 已下载：26 090 96f92aa0 37d9 4789 beaa 5c0cb87a4032（引用 5 次）
 - 待重试：HiBob 2026 report AI maturity benchmarks and where the workforce stand（引用 4 次）
+- 已下载：MiniMax：IPO 后股份激励计划授出奖励公告（引用 1 次）
 - 已下载：cesifo1 wp12373（引用 3 次）
 - 已下载：ILO Brief ASEAN AI v11 clean（引用 2 次）
 - 已下载：0000050863 26 000011（引用 2 次）
@@ -77,7 +89,6 @@
 - 已下载：2026 global ai jobs barometer global findings（引用 2 次）
 - 已下载：20260828（引用 9 次）
 - 待重试：it job family career ladder matrix software engineer（引用 1 次）
-
 ## [2026-09-03] ingest | 当日组织机制回流
 - 将微软“经营单元—管理单元—报告单元”同构证据回流 `knowledge/entities/microsoft.md` 与 `knowledge/concepts/ai-first-operating-model.md`，保留人员、预算、层级和后效边界。
 - 将优步扁平化与减员的员工负荷、地域迁移和协调工作转移风险，以及 OpenAI 暂停治理的人工责任回流 `knowledge/concepts/ai-workforce-risk.md`；不把优步重组归因为 AI。
