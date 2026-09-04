@@ -1,6 +1,6 @@
 # 系统健康状态
 
-> 自动生成：2026-09-04T10:40:58.444Z
+> 自动生成：2026-09-04T14:24:43.442Z
 
 ## 一眼判断
 
@@ -53,7 +53,7 @@
 ## 链接检查
 
 - 一方断链数：0
-- 外部链接 warning：72
+- 外部链接 warning：98
 - 公开扫描桥接：ok:200、ok:200
 
 ## 质量语义
@@ -67,6 +67,8 @@
 - ✅ 无 P0 fail。
 - ⚠️ 最新日期同一子主题超过 40%：60%；需要关注广谱雷达覆盖。
 - ⚠️ 最近 7 个信息日存在结构字段缺失：2 类日期/字段组合需逐步补齐。
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
 - ⚠️ knowledge/catalog.json 的 reports 存在 3 组重复 summaryFile。
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ 信息库质量为 warn
