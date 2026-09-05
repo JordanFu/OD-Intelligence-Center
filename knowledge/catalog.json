@@ -4060,9 +4060,9 @@
       "uploadDate": "2026-09-05",
       "description": "2026090400829 c 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
       "summaryFile": "./knowledge/wiki/pdf-source-hkexnews-hk-2026090400829-c.md",
-      "rawFile": "",
+      "rawFile": "./knowledge/raw/hkexnews-hk-2026090400829-c.pdf",
       "fileName": "hkexnews-hk-2026090400829-c.pdf",
-      "fileSize": "download pending",
+      "fileSize": "566731 bytes",
       "tags": [
         "PDF自动入库",
         "AI组织设计",

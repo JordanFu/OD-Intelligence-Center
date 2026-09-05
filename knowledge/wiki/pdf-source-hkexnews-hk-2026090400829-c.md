@@ -3,10 +3,10 @@ title: 2026090400829 c
 source: hkexnews.hk
 date: 待核验
 ingested: 2026-09-05
-sourceFile:
+sourceFile: ../raw/hkexnews-hk-2026090400829-c.pdf
 sourceUrl: https://www.hkexnews.hk/listedco/listconews/sehk/2026/0904/2026090400829_c.pdf
 tags: [AI组织设计]
-status: 已索引来源，PDF下载待重试
+status: 已下载原始PDF，已生成结构化初筛卡片
 ---
 
 # 2026090400829 c
@@ -20,7 +20,7 @@ status: 已索引来源，PDF下载待重试
 - **来源机构**：hkexnews.hk
 - **来源类型**：media
 - **原文 URL**：https://www.hkexnews.hk/listedco/listconews/sehk/2026/0904/2026090400829_c.pdf
-- **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
+- **原始文件**：`knowledge/raw/hkexnews-hk-2026090400829-c.pdf`
 - **入库日期**：2026-09-05
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
@@ -52,8 +52,6 @@ status: 已索引来源，PDF下载待重试
 ## 被引用位置
 
 - `daily/2026-09-05.md:25`：港交所公告
-- `外部公开 PDF 扫描:67`：公开安全引用：京东物流港交所公告
-- `外部公开 PDF 扫描:139`：公开安全引用：| 港交所 |  | 京东物流 CFO 公告 | A / 核心 |
 
 ## 后续精读任务
 
