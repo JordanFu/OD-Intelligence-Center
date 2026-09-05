@@ -1,27 +1,27 @@
 ---
-title: gov.uscourts.cand.474095.38.0
-source: storage.courtlistener.com
+title: 2026090400829 c
+source: hkexnews.hk
 date: 待核验
-ingested: 2026-08-31
-sourceFile: ../raw/storage-courtlistener-com-gov-uscourts-cand-474095-38-0.pdf
-sourceUrl: https://storage.courtlistener.com/recap/gov.uscourts.cand.474095/gov.uscourts.cand.474095.38.0.pdf
+ingested: 2026-09-05
+sourceFile:
+sourceUrl: https://www.hkexnews.hk/listedco/listconews/sehk/2026/0904/2026090400829_c.pdf
 tags: [AI组织设计]
-status: 已下载原始PDF，已生成结构化初筛卡片
+status: 已索引来源，PDF下载待重试
 ---
 
-# gov.uscourts.cand.474095.38.0
+# 2026090400829 c
 
 ## 一句话判断
 
-gov.uscourts.cand.474095.38.0 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
+2026090400829 c 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
 
 ## 入库状态
 
-- **来源机构**：storage.courtlistener.com
+- **来源机构**：hkexnews.hk
 - **来源类型**：media
-- **原文 URL**：https://storage.courtlistener.com/recap/gov.uscourts.cand.474095/gov.uscourts.cand.474095.38.0.pdf
-- **原始文件**：`knowledge/raw/storage-courtlistener-com-gov-uscourts-cand-474095-38-0.pdf`
-- **入库日期**：2026-08-31
+- **原文 URL**：https://www.hkexnews.hk/listedco/listconews/sehk/2026/0904/2026090400829_c.pdf
+- **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
+- **入库日期**：2026-09-05
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
@@ -51,8 +51,9 @@ gov.uscourts.cand.474095.38.0 已作为日报/周报 PDF 证据源入库，当�
 
 ## 被引用位置
 
-- `daily/2026-08-06.md:63`：Apple 动议 PDF
-- `外部公开 PDF 扫描:55`：公开安全引用：Apple 初步禁令动议
+- `daily/2026-09-05.md:25`：港交所公告
+- `外部公开 PDF 扫描:67`：公开安全引用：京东物流港交所公告
+- `外部公开 PDF 扫描:139`：公开安全引用：| 港交所 |  | 京东物流 CFO 公告 | A / 核心 |
 
 ## 后续精读任务
 

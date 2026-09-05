@@ -4045,6 +4045,30 @@
         "cdn.openai.com"
       ],
       "originalUrl": "https://cdn.openai.com/pdf/bd7ee34b-ec1c-4825-aab2-4a98acba5783/the-participation-economy.pdf"
+    },
+    {
+      "id": "p084",
+      "title": "2026090400829 c",
+      "originalTitle": "2026090400829 c",
+      "author": "hkexnews.hk",
+      "publisher": "hkexnews.hk",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-09-05",
+      "description": "2026090400829 c 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-hkexnews-hk-2026090400829-c.md",
+      "rawFile": "",
+      "fileName": "hkexnews-hk-2026090400829-c.pdf",
+      "fileSize": "download pending",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "hkexnews.hk"
+      ],
+      "originalUrl": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0904/2026090400829_c.pdf"
     }
   ]
 }
