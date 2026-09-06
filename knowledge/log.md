@@ -78,7 +78,6 @@
 - 已下载：2026 global ai jobs barometer global findings（引用 2 次）
 - 已下载：20260828（引用 9 次）
 - 待重试：it job family career ladder matrix software engineer（引用 1 次）
-
 ## [2026-09-05] ingest | 当日组织机制回流
 - 将 OpenAI 公共 Wiki 侧信道的评测—权限—告警—停跑—外部复核证据回流至实体页与 AI workforce risk 概念页。
 - 仅沉淀窄范围 L3 治理机制；具体归因、规模、生产外推和员工负荷保持待验证。
