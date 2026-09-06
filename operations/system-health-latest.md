@@ -1,6 +1,6 @@
 # 系统健康状态
 
-> 自动生成：2026-09-06T10:30:19.878Z
+> 自动生成：2026-09-06T13:43:17.128Z
 
 ## 一眼判断
 
@@ -53,8 +53,8 @@
 ## 链接检查
 
 - 一方断链数：0
-- 外部链接 warning：58
-- 公开扫描桥接：ok:200、ok:200
+- 外部链接 warning：34
+- 公开扫描桥接：ok:200、ok:200、ok:200
 
 ## 质量语义
 
@@ -66,6 +66,8 @@
 
 - ✅ 无 P0 fail。
 - ⚠️ 最新日期非缺口信息卡少于 8 条：当前 7 条；已有缺口记录，不能用缺口记录凑数量。
+- ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
 - ⚠️ knowledge/catalog.json 的 reports 存在 3 组重复 summaryFile。
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ 信息库质量为 warn
