@@ -1,7 +1,123 @@
 # AI 组织设计研究 · 信息汇总
 
 > 自动生成，每日更新
-> 最后更新：2026-09-05 18:00
+> 最后更新：2026-09-06 18:00
+
+## 2026-09-06
+
+> **18:00 正式窗口**：2026-09-05 18:00—2026-09-06 18:00。8 张正式卡：窗口信号 5、Context／排除 2、缺口 1；最高窄事实 L2，四专题制度结果 L3／L4 为 0。
+
+### [F0906-01] Gartner 把技能数据连接到识别、发展与流动
+- **事件摘要**：Gartner 官方 X 称技能正成为劳动力战略核心，AI 可帮助 HR 识别、发展和调动人才；短链指向技能战略 webinar。
+- **来源**：[Gartner X](https://x.com/Gartner_inc/status/2096228881460052403)；[webinar](https://www.gartner.com/en/webinar/935085/1932702-develop-a-skills-strategy-that-accelerates-organizational-performance)
+- **来源平台**：Gartner
+- **来源可信度**：💬参考
+- **信息类型**：新增事实
+- **渠道类型**：官方
+- **结论置信度**：L1 官方推广信号
+- **验证问题**：技能数据来源、推断置信度、员工纠错和正式人才决策隔离是什么？
+- **不能确认**：不证明识别准确、流动成功、留任或晋升公平。
+- **OD启示**：技能层可作动态发展接口，不应直接成为高后果人才裁决器。
+- **标签**：#技能战略 #内部流动 #数据治理
+- **抓取时间**：2026-09-06 16:50（Asia/Shanghai）
+
+### [F0906-02] 营销岗位责任从执行量向判断与质量门迁移
+- **事件摘要**：MarketScale 新稿综合既有行业材料，区分高自动化暴露的执行任务与更依赖策略、品牌判断、质量保证、人工签字和结果责任的任务。
+- **来源**：[MarketScale](https://www.marketscale.com/industries/marketing-tech/96-of-b2b-marketers-use-ai-but-hiring-is-moving-toward-judgment-and-qa-roles)
+- **来源平台**：MarketScale
+- **来源可信度**：📰较高
+- **信息类型**：新增事实
+- **渠道类型**：媒体
+- **结论置信度**：L1／L2 机制综合；底层数字早于窗口
+- **验证问题**：任务变化是否伴随人数、薪带、质量、返工和员工负荷变化？
+- **不能确认**：不证明执行岗位普遍减少，也不证明会用 AI 应直接加薪或晋升。
+- **OD启示**：先重画任务、决定、质量门和结果责任，再决定岗位、序列和规模。
+- **标签**：#岗位重构 #判断责任 #质量门
+- **抓取时间**：2026-09-06 16:35（Asia/Shanghai）
+
+### [F0906-03] AI 使用与生产就绪、可量化结果必须分开
+- **事件摘要**：MarketScale 基于 9 月 2 日 Salesloft 调查的新报道，强调采用率、生产就绪、结果证明、CRM 数据质量和有人监督不是一回事。
+- **来源**：[MarketScale](https://www.marketscale.com/industries/marketing-tech/100-of-revenue-teams-say-they-use-ai-but-only-206-can-show-measurable-results)；[底层发布](https://www.globenewswire.com/news-release/2026/09/02/3354910/0/en/ai-use-reaches-100-among-u-s-revenue-leaders-surveyed-but-only-1-in-5-report-production-ready-ai.html)
+- **来源平台**：MarketScale / Salesloft
+- **来源可信度**：📰较高
+- **信息类型**：新增事实
+- **渠道类型**：媒体
+- **结论置信度**：新报道 L2；窗外供应商调查 L1
+- **验证问题**：结果是否扣除返工、错误、复核和员工额外负担？
+- **不能确认**：500 名美国营收领导样本不能代表所有行业和个体绩效。
+- **OD启示**：人才和晋升证据看净合格结果与责任，不看调用量、Token 或自报提效。
+- **标签**：#生产就绪 #绩效证据 #人工监督
+- **抓取时间**：2026-09-06 16:30（Asia/Shanghai）
+
+### [F0906-04] Jem 把前线员工入口放入 WhatsApp
+- **事件摘要**：Business Day 报道 Jem 完成 840 万美元 A 轮融资并计划扩展为 AI 原生劳动力管理平台；产品面向无固定办公桌员工，通过 WhatsApp 提供工资单等服务入口。
+- **来源**：[Business Day](https://www.businessday.co.za/business-times/2026-09-05-jem-bets-on-ai-driven-workforce-management-revolution/)；[官方 X 时间证据](https://x.com/BDliveSA/status/2096187634460565799)；[Jem 历史产品说明](https://www.jemhr.com/thought-leadership/jem-2-is-here/)
+- **来源平台**：Business Day / Jem
+- **来源可信度**：📰较高
+- **信息类型**：新增事实
+- **渠道类型**：公司案例
+- **结论置信度**：融资与方向 L2；用户量和效率为公司自述 L1
+- **验证问题**：员工能否退出，数据如何隔离保留，错误动作如何纠正申诉，是否净减负？
+- **不能确认**：不证明员工体验、减层、人才密度或晋升公平改善。
+- **OD启示**：工作嵌入入口优于新增填报界面，但必须有授权、最小化和人工确认。
+- **标签**：#前线员工 #工作嵌入 #人机确认
+- **抓取时间**：2026-09-06 16:20（Asia/Shanghai）
+
+### [F0906-05] 招聘快照区分首次发现与官网发布日期
+- **事件摘要**：职先机页面标注数据截止 2026-09-05 18:25，覆盖 81 个企业官方来源与 50,187 个仍在招岗位，并明确“首次发现不是企业官网发布日期”。
+- **来源**：[职先机](https://jobs.ultraai.site/reports/hiring-market)
+- **来源平台**：职先机
+- **来源可信度**：💬参考
+- **信息类型**：新增事实
+- **渠道类型**：JD薪酬
+- **结论置信度**：L1 聚合快照
+- **验证问题**：能否取得岗位级去重、官方首发、下线、等级、薪酬和地区？
+- **不能确认**：不能证明 AI 岗位扩张、薪酬溢价、新岗位族或净招聘。
+- **OD启示**：岗位监测必须分开记录在招、首次发现、官方首发和下线，避免把抓取日误作新增岗位事件日。
+- **标签**：#招聘监测 #时间口径
+- **抓取时间**：2026-09-06 16:10（Asia/Shanghai）
+
+### [F0906-X1] Work Futures 两篇 9 月 5 日文章实际位于窗口前
+- **事件摘要**：RSS 给出两篇相关稿件共同发布时间为北京时间 16:00:20，早于窗口约两小时；Match Group 二次稿还误写原文日期并扩大员工参与和职业架构表述。
+- **来源**：[RSS](https://workfutures.report/rss.xml)；[二次稿](https://workfutures.report/p/what-match-group-s-cpo-just-got-right-about-flattening-the-org)；[HR Executive 原文](https://hrexecutive.com/how-match-groups-cpo-rebuilt-talent-growth-after-flattening-the-org/)
+- **来源平台**：Work Futures Report / HR Executive
+- **来源可信度**：💬参考
+- **信息类型**：旧线复核
+- **渠道类型**：媒体
+- **结论置信度**：L1 来源纠偏
+- **验证问题**：经理分母、实施截止日、员工参与边界和薪酬带变化是什么？
+- **不能确认**：不计今日新增，不以二次稿证明制度或效果。
+- **OD启示**：页面日期和二次摘要不能替代原始时分、原文边界与独立交叉验证。
+- **标签**：#时间校准 #来源纠偏
+- **抓取时间**：2026-09-06 17:05（Asia/Shanghai）
+
+### [F0906-X2] Match Group 经理比例与成长机制仍有口径冲突
+- **事件摘要**：官方 2025 重组计划裁员 13%、集中职能并减少层级；媒体称约五分之一经理受影响，2026-09-03 具名访谈称约四分之一；10-K 只确认年末全职员工约 2,200、同比降约 12%。
+- **来源**：[官方公告](https://ir.matchgroup.com/investor-relations/news-events/news-events/news-details/2025/Match-Group-Announces-First-Quarter-Results/default.aspx)；[TechCrunch](https://techcrunch.com/2025/05/08/match-to-lay-off-13-of-staff/)；[10-K](https://www.sec.gov/Archives/edgar/data/891103/000089110326000025/mtch-20251231.htm)；[HR Executive](https://hrexecutive.com/how-match-groups-cpo-rebuilt-talent-growth-after-flattening-the-org/)
+- **来源平台**：Match Group / SEC / TechCrunch / HR Executive
+- **来源可信度**：⭐高
+- **信息类型**：旧线复核
+- **渠道类型**：官方
+- **结论置信度**：历史动作 L2；经理比例有冲突
+- **验证问题**：20% 与 25% 是不同分母、时点、计划／实际还是转岗口径？
+- **不能确认**：不证明 AI 因果、员工成长、公平、留任或改革净效果。
+- **OD启示**：结构、技能薪酬、导师、轮岗、实习和学习活动必须分别验收。
+- **标签**：#案例复核 #口径冲突 #成长机制
+- **抓取时间**：2026-09-06 17:10（Asia/Shanghai）
+
+### [F0906-G1] 学术、中国正式制度、严格 JD／薪酬与完整晋升制度存在公开证据缺口
+- **事件摘要**：七渠道扫描没有入窗的同行评审论文、中国大厂组织／岗位族／职级／薪酬新规、可严格锚定的代表性 JD 或完整晋升制度；这是本轮公开证据缺口，不代表企业没有变化。
+- **来源**：[研究审计](https://github.com/JordanFu/OD-Intelligence-Center/blob/main/specials/ai-org-talent-mechanism/2026-09-06/research-audit.md)
+- **来源平台**：多渠道检索审计
+- **来源可信度**：💬参考
+- **信息类型**：缺口记录
+- **渠道类型**：报告学术
+- **结论置信度**：L1 缺口
+- **验证问题**：下一窗能否取得制度原件、ATS 首发时间、薪带、具名员工样本和实施后效？
+- **不能确认**：零结果不等于企业没有变化，只表示本轮公开证据不足。
+- **OD启示**：保留可复核的零结果和下一步搜索路径，不以抓取日、旧转载、匿名帖或供应商数字填洞。
+- **标签**：#零结果 #中国制度 #晋升机制
+- **抓取时间**：2026-09-06 17:20（Asia/Shanghai）
 
 ## 2026-09-05
 
