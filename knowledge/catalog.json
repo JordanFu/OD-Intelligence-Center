@@ -139,6 +139,75 @@
   ],
   "reports": [
     {
+      "id": "info-weekly-2026-W36-quick",
+      "title": "W36 信息库周报｜快速导读",
+      "summaryFile": "./daily/weekly-2026-W36.md",
+      "description": "组织复杂度、团队交付与专业分工三项决策提示；明确结构事实与结果证据的距离。",
+      "author": "OD 情报中心",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "绩效管理",
+        "人才发展"
+      ],
+      "date": "2026-09-07",
+      "uploadDate": "2026-09-07",
+      "tags": [
+        "信息库",
+        "证据边界"
+      ],
+      "related": [
+        "./daily/2026-09-07.md"
+      ]
+    },
+    {
+      "id": "info-weekly-2026-W36-detailed",
+      "title": "W36 信息库周报｜详细资料",
+      "summaryFile": "./daily-report/weekly-2026-W36.md",
+      "description": "聚合七个信息日、十组材料、三个重点案例与30天应用试验；与专题周报分开，保留弱信号和方法边界。",
+      "author": "OD 情报中心",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "绩效管理",
+        "人才发展"
+      ],
+      "date": "2026-09-07",
+      "uploadDate": "2026-09-07",
+      "tags": [
+        "信息库",
+        "证据边界"
+      ],
+      "related": [
+        "./daily/2026-09-07.md"
+      ]
+    },
+    {
+      "id": "openai-research-measurement-2026-09-06",
+      "title": "OpenAI 研究自动化测量：运行容量不等于净收益",
+      "summaryFile": "./knowledge/wiki/openai-research-measurement-2026-09-06.md",
+      "description": "结构化阅读研究运行测量与人工判断边界；关联四专题的评价问题，不能用于证明减员或净生产率。",
+      "author": "OD 情报中心",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "绩效管理",
+        "人才发展"
+      ],
+      "date": "2026-09-07",
+      "uploadDate": "2026-09-07",
+      "tags": [
+        "信息库",
+        "证据边界"
+      ],
+      "related": [
+        "./daily/2026-09-07.md"
+      ]
+    },
+    {
       "id": "tibo-research-product-org-mechanism-2026-08-26",
       "title": "从‘有模型’到‘有产品’：Tibo 的研究—产品组织机制",
       "originalTitle": "Tibo Sottiaux on research-to-product organizational mechanisms",
@@ -4069,6 +4138,30 @@
         "hkexnews.hk"
       ],
       "originalUrl": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0904/2026090400829_c.pdf"
+    },
+    {
+      "id": "p085",
+      "title": "波士顿联储：员工感知的 AI 收益、工作负荷与失业担忧",
+      "originalTitle": "波士顿联储：员工感知的 AI 收益、工作负荷与失业担忧",
+      "author": "bostonfed.org",
+      "publisher": "bostonfed.org",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-09-07",
+      "description": "任务被 AI 接手不等于员工受益；应同时验证真实减负、质量与工作要求是否增加。 关注重点：员工感知、任务重分配、收益归属。相关性：强相关：AI 采用与员工价值。",
+      "summaryFile": "./knowledge/wiki/pdf-source-bostonfed-org-cpp2608.md",
+      "rawFile": "./knowledge/raw/bostonfed-org-cpp2608.pdf",
+      "fileName": "bostonfed-org-cpp2608.pdf",
+      "fileSize": "1058217 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "bostonfed.org"
+      ],
+      "originalUrl": "https://www.bostonfed.org/-/media/Documents/Workingpapers/PDF/2026/cpp2608.pdf"
     }
   ]
 }

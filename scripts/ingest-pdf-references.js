@@ -43,6 +43,31 @@ const knownTitles = new Map([
 ]);
 
 const reportProfiles = new Map([
+  ['https://www.bostonfed.org/-/media/Documents/Workingpapers/PDF/2026/cpp2608.pdf', {
+    title: '波士顿联储：员工感知的 AI 收益、工作负荷与失业担忧',
+    summary: '任务被 AI 接手不等于员工受益；应同时验证真实减负、质量与工作要求是否增加。',
+    focus: '员工感知、任务重分配、收益归属',
+    relevanceLabel: '强相关：AI 采用与员工价值',
+    evidenceLevel: '来源可信度高；L2 调查观察，不证明因果或实际裁员。',
+    core: [
+      '论文于 2026 年 9 月 2 日发表，作者为 Anat Bracha、Rees Hagler、Jenny Tang；比较 2024 与 2025 年 12 月调查。',
+      '调查基于约 1,300 名美国家庭户主的轮换面板；具体劳动者子样本不同，不可统一使用这个分母。',
+      '任务替代但未明显感到提效的群体更担忧工作前景；自报感知不是客观生产率。',
+    ],
+    attention: [
+      '不要用该调查给中国企业制定裁员比例或个人绩效标签。',
+      '采用工具后仍无净减负，应优先核流程、培训和新增负荷，不简单归因员工能力。',
+    ],
+    relevance: [
+      ['人才与员工价值', '高', '检查个人收益是否成立，再谈组织洞察。'],
+      ['岗位与流程', '高', '以任务重分配而非职业整体替代为分析单位。'],
+      ['激励', '中', '加薪意愿不等于实际薪酬溢价或晋升规则。'],
+    ],
+    useInResearch: [
+      '作为旧线复核与反证，不计入今日新增。',
+      '关联知识概念页：[员工与用工风险](../concepts/ai-workforce-risk.md)。',
+    ],
+  }],
   ['https://media-publications.bcg.com/AI-First-Organization.pdf', {
     summary: 'BCG 把 AI-First 组织定义为从“工具辅助”走向“AI 默认执行、人类编排监督”的经营模式重构。',
     focus: 'AI 默认执行、端到端流程重构、人机编排',
@@ -652,6 +677,7 @@ function main() {
     const slug = slugify(`${publisherFromUrl(item.url)}-${titleFromUrl(item.url)}`);
     const rawName = `${slug}.pdf`;
     const wikiName = `pdf-source-${slug}.md`;
+    item.title = profileFor(item).title || item.title;
     const rawFile = path.join(rawDir, rawName);
     const rawRelative = path.relative(root, rawFile);
     const status = downloadPdf(item, rawFile);

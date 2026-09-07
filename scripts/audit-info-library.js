@@ -317,7 +317,7 @@ function analyzeDay(day, digestText) {
     gapRecordCount: gapRecords.length,
     gapCount: gapRecords.length,
     sourcePlatformCount: latestPlatforms.length,
-    sourceUrlCount: items.filter((item) => item.sourceUrl).length,
+    sourceUrlCount: new Set(items.flatMap((item) => item.sourceUrls || (item.sourceUrl ? [item.sourceUrl] : []))).size,
     sourceUrlMissingCount: sourceUrlMissingItemIds.length,
     sourceUrlMissingItemIds,
     channelTypeCount: channelTypes.length,
