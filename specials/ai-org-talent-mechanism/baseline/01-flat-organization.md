@@ -41,6 +41,7 @@
 | 资料 | 对本专题的价值 |
 |---|---|
 | [Obsidian 本地知识库](./knowledge/wiki/obsidian-vault-full-source-map-2026-05-22.md) | 本地 Vault 当前识别 70 篇 Markdown；2026-06-30 已新增公开安全 source map（覆盖 69 篇，排除 1 篇内部敏感来源），并抽取字节跳动 AI 时代领导力原则、AI 五环协同人才体… |
+| [W36 信息库周报｜快速导读](./daily/weekly-2026-W36.md) | 组织复杂度、团队交付与专业分工三项决策提示；明确结构事实与结果证据的距离。 |
 | [从‘有模型’到‘有产品’：Tibo 的研究—产品组织机制](./knowledge/wiki/tibo-research-product-org-mechanism-2026-08-26.md) | 基于 Tibo Sottiaux 2025—2026 年多次访谈、OpenAI 与 Google DeepMind 官方记录及组织研究，核验研究—产品协同、低阻力发布、资源再配置和监督瓶颈；区分个人回忆、公司事实与跨来… |
 | [微信公众号「AI组织进化论」候选来源池](./knowledge/wiki/wechat-ai-org-evolution-intake.md) | 记录用户提供的 AI组织进化论 微信原文链接，当前作为人才密度方向候选输入；原文自动访问触发微信环境验证，待读取正文后再判断进入线索层、Context 层或结论候选。 |
 | [腾讯 WXG 取消“组长负责制”与项目负责制试点](./knowledge/wiki/tencent-wxg-project-owner-reform-2026-05.md) | 基于《中国企业家》、竞核、搜狐/IT时代网、腾讯官方财报与股东大会报道，梳理腾讯 WXG 多部门试行项目负责制、弱化组长/总监固定管理链条的组织含义。重点用于 AI 时代扁平化、项目 owner、干部年轻化和技术组织变… |
@@ -51,7 +52,6 @@
 | [McKinsey 组织九大变革框架 2026](./knowledge/wiki/mckinsey-nine-shifts-2026.md) | 基于 McKinsey State of Organizations 2026，把九个组织变革议题收敛为三股结构性力量下的 OD 研究框架。 |
 | [Handbook-First 与 DRI：远程组织的决策操作系统](./knowledge/wiki/handbook-first-dri-operating-system.md) | 解释 Handbook-First 如何解决组织知识位置问题，DRI 如何解决决策责任问题，以及二者为何是 AI 组织上下文工程的前置机制。 |
 | [GitLab Handbook 企业管理机制研究补充](./knowledge/wiki/gitlab-handbook-management-research-synthesis.md) | 从 Obsidian 新增 GitLab 管理研究中抽取公开可复核的机制结论，补充 Handbook-First、DRI、TeamOps 和 QTR/Talent Assessment 的组织含义。 |
-| [Microsoft：2026 Work Trend Index Annual Report](./knowledge/wiki/pdf-source-microsoft-2026-work-trend-index.md) | Microsoft 2026 Work Trend Index 年度报告，基于全球 AI 工作用户调研和 Microsoft 365 匿名遥测，提出 Agent 时代组织需要从个人 AI 使用升级到工作重构、Front… |
 
 ## 当前不可越界的结论
 
