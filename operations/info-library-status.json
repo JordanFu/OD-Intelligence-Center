@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T11:03:18.854Z",
+  "generatedAt": "2026-09-07T15:55:07.013Z",
   "module": "info-feed",
   "qualityStatus": "pass",
   "latestDate": "2026-09-07",
@@ -486,21 +486,25 @@
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-09-07T06:21:12.827Z",
+    "checkedAt": "2026-09-07T11:03:30.263Z",
     "qualityStatus": "warn",
-    "firstPartyChecked": 3488,
-    "externalWarnings": 12,
+    "firstPartyChecked": 3487,
+    "externalWarnings": 24,
     "brokenCount": 0,
     "publicScanBridge": [
       {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-09-07.html"
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-09-07.html",
+        "reason": "network check warning: fetch failed"
       },
       {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/"
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/",
+        "reason": "network check warning: fetch failed"
       }
     ]
   },
