@@ -1,0 +1,52 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const vm = require('node:vm');
+const path = require('node:path');
+const schema = require('../assets/info-card-schema');
+const root = path.resolve(__dirname, '..');
+const context = { require, __dirname, console, process };
+vm.createContext(context);
+vm.runInContext(fs.readFileSync(path.join(__dirname, 'audit-info-library.js'), 'utf8').replace(/\nmain\(\);\s*$/, ''), context);
+const days = vm.runInContext(`parseDigest(${JSON.stringify(fs.readFileSync(path.join(root, 'digest.md'), 'utf8'))})`, context);
+for (const [date, expected] of [['2026-09-08', [3, 4]], ['2026-09-09', [5, 2]], ['2026-09-10', [4, 2]]]) {
+  context.inputItems = days.find(day => day.date === date).items;
+  const items = vm.runInContext('enrichLatestItems(inputItems)', context);
+  assert.equal(items.filter(item => item.normalizedInfoType === '新增事实').length, expected[0], date);
+  assert.equal(items.filter(item => item.normalizedInfoType === '旧线复核').length, expected[1], date);
+}
+assert.equal(schema.informationType('Context'), '旧线复核');
+assert.equal(schema.informationType('未知'), '未标注');
+assert.equal(schema.informationType(''), '未标注');
+assert.equal(schema.channelType('官方／公司案例／权威媒体'), '官方');
+assert.equal(schema.channelType('咨询／调查'), '报告学术');
+assert.equal(schema.channelType('招聘评估／专业研究'), 'JD薪酬');
+assert.equal(schema.readingTier({ infoType: '旧线复核', readingTier: '重点读' }), '重点读');
+assert.equal(schema.readingTier({ infoType: '弱信号', readingTier: '重点读' }), '持续观察');
+assert.equal(schema.readingTier({ infoType: '新增事实', trust: '⭐高' }), '快速知道');
+const links = schema.sourceLinks('[官方](https://example.com/a)；[媒体](https://example.com/b)；[重复](https://example.com/a)；[坏链接](javascript:alert(1))');
+assert.equal(links.length, 2);
+assert.equal(links[1].label, '媒体');
+assert.equal(schema.sourceLinks('旧来源（https://example.com/a）')[0].label, '旧来源');
+const browser = { window: {}, URL };
+vm.createContext(browser);
+vm.runInContext(fs.readFileSync(path.join(root, 'assets/info-card-schema.js'), 'utf8'), browser);
+assert.equal(browser.window.InfoCardSchema.informationType('Context'), '旧线复核');
+console.log('editorial classification and source links ok');
+const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+const parseStart = html.indexOf('    function parseDigest(markdown) {');
+const parseEnd = html.indexOf('    async function loadData()', parseStart);
+const reader = { InfoCardSchema: schema };
+vm.createContext(reader);
+vm.runInContext(html.slice(parseStart, parseEnd), reader);
+reader.input = fs.readFileSync(path.join(root, 'digest.md'), 'utf8');
+const readerDays = vm.runInContext('parseDigest(input)', reader);
+const latest = readerDays.find(day => day.date === '2026-09-10');
+assert.equal(latest.items.length, 9);
+for (const tier of ['重点读', '快速知道', '持续观察']) assert.equal(latest.items.filter(item => schema.readingTier(item) === tier).length, 3);
+for (const item of latest.items.filter(item => schema.readingTier(item) === '重点读')) {
+  assert.ok(item.readingValue && item.background && item.boundary && item.insight && item.verificationQuestion);
+}
+assert.equal(latest.items.find(item => item.id === 'F0910-04').sources.length, 2);
+assert.equal(schema.readingTier(latest.items.find(item => item.id === 'C0910-01')), '重点读');
+assert.equal(schema.informationType(latest.items.find(item => item.id === 'C0910-01').infoType), '旧线复核');
+console.log('reader parsing, featured context and three reading tiers ok');

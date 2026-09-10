@@ -2,6 +2,7 @@ const fs = require('fs');
 const os = require('os');
 const path = require('path');
 const { assessOrgIntelligenceFreshness } = require('./org-intelligence-freshness');
+const cardSchema = require('../assets/info-card-schema');
 
 const root = path.resolve(__dirname, '..');
 const digestPath = path.join(root, 'digest.md');
@@ -194,11 +195,11 @@ function inferConclusionConfidence(item) {
 
 function enrichLatestItems(items) {
   return items.map((item) => {
-    const inferredInfoType = INFO_TYPES.includes(item.infoType) ? item.infoType : inferInfoType(item);
-    const inferredChannelType = CHANNEL_TYPES.includes(item.channelType) ? item.channelType : inferChannelType(item);
+    const inferredInfoType = cardSchema.informationType(item.infoType);
+    const inferredChannelType = item.channelType ? cardSchema.channelType(item.channelType) : inferChannelType(item);
     const inferredConfidence = CONFIDENCE_LEVELS.includes(item.conclusionConfidence.slice(0, 2))
       ? item.conclusionConfidence.slice(0, 2)
-      : inferConclusionConfidence({ ...item, infoType: inferredInfoType, channelType: inferredChannelType });
+      : 'L1';
     return {
       ...item,
       normalizedInfoType: inferredInfoType,
@@ -270,7 +271,9 @@ function fieldWarningsForItems(items, scopeLabel) {
     .map(([label, field]) => ({
       scope: scopeLabel,
       field: label,
-      missing: items.filter((item) => !item.explicitFields[label] || !item[field]).length,
+      missing: items.filter((item) => !item.explicitFields[label] || !item[field]
+        || (field === 'infoType' && cardSchema.informationType(item[field]) === '未标注')
+        || (field === 'channelType' && cardSchema.channelType(item[field]) === '未归类')).length,
     }))
     .filter((entry) => entry.missing > 0);
 }

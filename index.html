@@ -2785,6 +2785,7 @@
       }
     }
   </style>
+  <link rel="stylesheet" href="./assets/info-reader.css">
 </head>
 <body>
   <header class="header">
@@ -2892,6 +2893,7 @@
 
   <div class="toast" id="toast"></div>
 
+  <script src="./assets/info-card-schema.js"></script>
   <script src="./assets/odic-app.js"></script>
   <script>
     // ============================================================
@@ -3219,7 +3221,8 @@
         if (titleMatch) {
           currentItem = {
             id: titleMatch[1], title: titleMatch[2],
-            summary: '', source: '', sourceUrl: '', platform: '',
+            summary: '', source: '', sourceUrl: '', sources: [], platform: '',
+            readingTier: '', readingValue: '', background: '', boundary: '',
             trust: '', infoType: '', channelType: '', conclusionConfidence: '',
             verificationQuestion: '', insight: '', tags: [], time: ''
           };
@@ -3227,24 +3230,20 @@
           continue;
         }
         if (!currentItem) continue;
+        const editorialMatch = line.match(/^- \*\*(阅读层级|阅读价值|背景与变化|适用边界)\*\*[：:]\s*(.+)/);
+        if (editorialMatch) {
+          const fields = { 阅读层级: 'readingTier', 阅读价值: 'readingValue', 背景与变化: 'background', 适用边界: 'boundary' };
+          currentItem[fields[editorialMatch[1]]] = editorialMatch[2].trim();
+          continue;
+        }
         const summaryMatch = line.match(/^- \*\*事件摘要\*\*[：:]\s*(.+)/);
         if (summaryMatch) { currentItem.summary = summaryMatch[1]; continue; }
         const sourceMatch = line.match(/^- \*\*来源\*\*[：:]\s*(.+)/);
         if (sourceMatch) {
           const raw = sourceMatch[1].trim();
-          const mdLinkMatch = raw.match(/^\[([^\]]*)\]\(([^)]+)\)$/);
-          if (mdLinkMatch) {
-            currentItem.source = mdLinkMatch[1];
-            currentItem.sourceUrl = mdLinkMatch[2];
-          } else {
-            const parenMatch = raw.match(/^(.+?)[（(](.+?)[）)]/);
-            if (parenMatch) {
-              currentItem.source = parenMatch[1].trim();
-              currentItem.sourceUrl = parenMatch[2].trim();
-            } else {
-              currentItem.source = raw;
-            }
-          }
+          currentItem.sources = InfoCardSchema.sourceLinks(raw);
+          currentItem.source = currentItem.sources.map(source => source.label).join(' · ') || raw;
+          currentItem.sourceUrl = currentItem.sources[0]?.url || '';
           continue;
         }
         const platformMatch = line.match(/^- \*\*来源平台\*\*[：:]\s*(.+)/);
@@ -3376,12 +3375,9 @@
       return stats;
     }
     function classifyChannel(item) {
-      const declared = (item.channelType || '').toLowerCase();
-      if (/jd|薪酬|招聘/.test(declared)) return 'jobs';
-      if (/社媒|公众号|职场/.test(declared)) return 'social';
-      if (/报告|学术|咨询/.test(declared)) return 'research';
-      if (/媒体|案例/.test(declared)) return 'media';
-      if (/官方|一手/.test(declared)) return 'official';
+      const declared = InfoCardSchema.channelType(item.channelType);
+      const channels = { 官方: 'official', 媒体: 'media', 报告学术: 'research', 社媒公众号: 'social', JD薪酬: 'jobs' };
+      if (item.channelType) return channels[declared] || null;
 
       const sourceText = [item.platform, item.source, item.sourceUrl].filter(Boolean).join(' ').toLowerCase();
       if (/jobs?|careers?|招聘|薪酬|salary|levels\.fyi|glassdoor/.test(sourceText)) return 'jobs';
@@ -3502,6 +3498,23 @@
       renderInfoList();
     }
 
+    function renderInformationCard(day, item, query) {
+      const cardKey = `${day.date}-${item.id}`;
+      const active = openCardId === cardKey;
+      const type = InfoCardSchema.informationType(item.infoType);
+      const section = (label, value, className = 'reader-summary') => value
+        ? `<div class="reader-section"><div class="reader-section-label">${esc(label)}</div><div class="${className}">${highlightText(esc(value), query)}</div></div>` : '';
+      const sources = item.sources.map(source => `<a class="btn-read-original" href="${esc(source.url)}" target="_blank" rel="noopener noreferrer">${esc(source.label)} ↗</a>`).join('');
+      return `<div class="card ${active ? 'active' : ''}" role="button" tabindex="0" aria-expanded="${active}" aria-controls="panel-${cardKey}" onclick="toggleCard('${day.date}', '${item.id}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleCard('${day.date}', '${item.id}');}">
+        <div class="card-header"><div class="card-title-area"><div class="card-title">${highlightText(esc(item.title), query)}</div><div class="card-brief">${highlightText(esc(item.readingValue || truncate(item.summary, 100)), query)}</div></div><div class="card-right"><svg class="card-expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></div></div>
+        <div class="card-meta-mini"><span>${esc(type === '旧线复核' ? '背景复核' : type === '未标注' ? '历史材料 · 类型待核实' : type)}</span><span>· ${esc(item.platform || item.source)}</span></div></div>
+        <div class="reader-panel ${active ? 'open' : ''}" ${active ? '' : 'hidden'} id="panel-${cardKey}"><div class="reader-inner"><div class="reader-header"><div class="reader-num">${esc(item.id)}</div><div class="reader-title">${esc(item.title)}</div></div>
+        <div class="reader-meta"><span>来源可信度：${esc(item.trust || '未标注')}</span><span>结论置信度：${esc(item.conclusionConfidence || '未标注，不作高置信判断')}</span><span>${esc(item.time)}</span></div>
+        ${section('为什么值得读', item.readingValue)}${section('背景与变化', item.background)}${section('发生了什么', item.summary)}${section('对我们工作的借鉴与启发（编辑建议）', item.insight, 'reader-insight')}${section('适用边界', item.boundary)}${section('下一步需要核实', item.verificationQuestion)}
+        <div class="reader-tags">${item.tags.map(tag => `<span class="reader-tag" onclick="setTagFilter('${tag}')">#${esc(tag)}</span>`).join('')}</div>
+        <div class="reader-actions">${sources || '<span>公开原文待补充</span>'}<button class="btn-close-panel" onclick="toggleCard('${day.date}', '${item.id}')">收起</button></div></div></div>`;
+    }
+
     function renderInfoList() {
       const query = document.getElementById('searchBox').value.toLowerCase().trim();
       const container = document.getElementById('infoContent');
@@ -3517,7 +3530,7 @@
           }
           if (activeTagFilter && !item.tags.includes(activeTagFilter)) return false;
           if (query) {
-            const haystack = [item.title, item.summary, item.source, item.platform, item.insight, ...item.tags].join(' ').toLowerCase();
+            const haystack = [item.title, item.summary, item.source, item.platform, item.insight, item.readingValue, item.background, item.boundary, item.verificationQuestion, ...item.tags].join(' ').toLowerCase();
             return haystack.includes(query);
           }
           return true;
@@ -3533,27 +3546,30 @@
       if (activeSourceFilter) filters.push(`来源: ${activeSourceFilter}`);
       if (activeTagFilter) filters.push(`标签: #${activeTagFilter}`);
       if (query) filters.push(`搜索: "${query}"`);
-      statsEl.innerHTML = `共 <strong>${totalDays}</strong> 天 · <strong>${totalItems}</strong> 条信息${filters.length ? ' · ' + filters.join(' · ') : ''}`;
+      statsEl.innerHTML = `共 <strong>${totalDays}</strong> 天 · <strong>${totalItems}</strong> 条信息${filters.length ? ' · ' + esc(filters.join(' · ')) : ''}`;
       if (totalItems === 0) {
-        container.innerHTML = `<div class="empty"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg><h3>${allDays.length === 0 ? '暂无沉淀内容' : '未找到匹配结果'}</h3><p>${allDays.length === 0 ? '信息搜集自动化已配置，每天 8:00 / 13:00 / 17:00 自动从 40+ 来源抓取。' : '试试调整搜索关键词或筛选条件'}</p></div>`;
+        container.innerHTML = `<div class="empty"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg><h3>${allDays.length === 0 ? '暂无沉淀内容' : '未找到匹配结果'}</h3><p>${allDays.length === 0 ? '暂未读取到信息，请稍后重试或查看更新状态。' : '试试调整搜索关键词或筛选条件'}</p></div>`;
         return;
       }
+      const observationOpenDates = new Set([...container.querySelectorAll('details[data-reading-date][open]:not([data-auto-open="true"])')].map(section => section.dataset.readingDate));
       let html = '';
       filteredDays.forEach(day => {
         if (day.items.length === 0) return;
         html += `<div class="day-group"><div class="day-header"><h2>📅 ${day.date}</h2><span class="day-count">${day.items.length} 条</span></div>`;
-        day.items.forEach(item => {
-          const cardKey = `${day.date}-${item.id}`;
-          const isActive = openCardId === cardKey;
-          let trustClass = '';
-          if (item.trust) {
-            const trustInfo = TRUST_LEVELS[item.trust];
-            trustClass = trustInfo ? trustInfo.class : 'trust-ref';
-          }
-          html += `<div class="card ${isActive ? 'active' : ''}" onclick="toggleCard('${day.date}', '${item.id}')"><div class="card-header"><div class="card-title-area"><div class="card-title">${highlightText(esc(item.title), query)}</div><div class="card-brief">${highlightText(esc(truncate(item.summary, 80)), query)}</div></div><div class="card-right">${item.trust ? `<span class="card-trust-mini ${trustClass}">${esc(item.trust)}</span>` : ''}<svg class="card-expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></div></div><div class="card-meta-mini"><span>${esc(item.source)}</span>${item.platform ? `<span>· ${esc(item.platform)}</span>` : ''}${item.tags.length > 0 ? `<span>· ${item.tags.slice(0, 3).map(t => '#' + t).join(' ')}${item.tags.length > 3 ? ' +' + (item.tags.length - 3) : ''}</span>` : ''}</div></div>`;
-          html += `<div class="reader-panel ${isActive ? 'open' : ''}" id="panel-${cardKey}"><div class="reader-inner"><div class="reader-header"><div class="reader-num">${item.id}</div><div class="reader-title">${highlightText(esc(item.title), query)}</div></div><div class="reader-meta"><span class="reader-meta-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg><strong>${esc(item.source)}</strong></span>${item.platform ? `<span class="reader-meta-item">📍 ${esc(item.platform)}</span>` : ''}${item.trust ? `<span class="reader-meta-item">${esc(item.trust)}</span>` : ''}${item.time ? `<span class="reader-meta-item">🕐 ${esc(item.time)}</span>` : ''}</div>${item.summary ? `<div class="reader-section"><div class="reader-section-label"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>事件摘要</div><div class="reader-summary">${highlightText(esc(item.summary), query)}</div></div>` : ''}${item.insight ? `<div class="reader-section"><div class="reader-section-label"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>OD 启示</div><div class="reader-insight">${highlightText(esc(item.insight), query)}</div></div>` : ''}${item.tags.length > 0 ? `<div class="reader-tags">${item.tags.map(t => `<span class="reader-tag" onclick="event.stopPropagation(); setTagFilter('${t}')">#${esc(t)}</span>`).join('')}</div>` : ''}<div class="reader-actions">${item.sourceUrl ? `<a class="btn-read-original" href="${esc(item.sourceUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>阅读原文</a>` : ''}<button class="btn-close-panel" onclick="event.stopPropagation(); toggleCard('${day.date}', '${item.id}')">收起</button></div></div></div>`;
+        const descriptions = { '重点读': '与工作直接相关，先看可借鉴的做法', '快速知道': '保留重要变化与背景', '持续观察': '线索、缺口与尚待核实的材料' };
+        ['重点读', '快速知道', '持续观察'].forEach(tier => {
+          const items = day.items.filter(item => InfoCardSchema.readingTier(item) === tier);
+          if (!items.length) return;
+          const observing = tier === '持续观察';
+          const expanded = filters.length > 0 || observationOpenDates.has(day.date) || items.some(item => openCardId === `${day.date}-${item.id}`);
+          const heading = `${tier} · ${items.length} <small>${descriptions[tier]}</small>`;
+          html += observing
+            ? `<details class="reading-section" data-reading-date="${day.date}" data-auto-open="${filters.length > 0}" ${expanded ? 'open' : ''}><summary>${heading}</summary>`
+            : `<section class="reading-section ${tier === '重点读' ? 'reading-featured' : ''}"><h3>${heading}</h3>`;
+          html += items.map(item => renderInformationCard(day, item, query)).join('');
+          html += observing ? '</details>' : '</section>';
         });
-        html += `</div>`;
+        html += '</div>';
       });
       container.innerHTML = html;
       if (openCardId) {

@@ -1,0 +1,15 @@
+.reading-section { margin: 20px 0 28px; }
+.reading-section h3, .reading-section summary { margin: 0 0 14px; font-size: 17px; font-weight: 650; }
+.reading-section summary { cursor: pointer; padding: 14px 0; }
+.reading-section small { color: var(--text-secondary, #a1a9bd); font-weight: 400; font-size: 13px; margin-left: 10px; }
+.reading-featured .card { border-left: 3px solid #8192ff; }
+.reading-section .card { margin-bottom: 10px; }
+.reading-section .card-brief { line-height: 1.65; }
+.reading-section .reader-actions { flex-wrap: wrap; gap: 10px; }
+.reading-section .reader-meta { gap: 12px; }
+.reading-section .card:focus-visible { outline: 2px solid #8192ff; outline-offset: 3px; }
+.reading-note { color: var(--text-secondary, #a1a9bd); font-size: 13px; line-height: 1.7; margin-bottom: 16px; }
+@media (max-width: 600px) {
+  .reading-section small { display: block; margin: 6px 0 0; }
+  .reading-section .card-meta-mini { flex-wrap: wrap; }
+}
