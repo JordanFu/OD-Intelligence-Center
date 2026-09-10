@@ -12,6 +12,11 @@ backlinks: [../../specials/ai-org-talent-mechanism/topics/job-family-career-arch
 观察企业部署组织和代理式知识工作的实体锚点，不写公司百科。
 
 ## 与 AI 组织设计的关系
+
+### 2026-09-10｜治理角色补充
+
+[责任与授权对照知识卡](../wiki/ai-organization-responsibility-boundaries-2026-09-10.md)记录9月9日基金会任命公告（L2）：Christiano 的基金会董事与公司无表决权观察员身份须区分。尚不证明新增否决权或安全成效；下一步查信息访问、风险升级与发布决策记录。
+
 - DeployCo：客户现场 workflow、数据、权限、安全和反馈回路被组织化。
 - Codex：知识工作变成可委派、可执行、可复核的工作包。
 

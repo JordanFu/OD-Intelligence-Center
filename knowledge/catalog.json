@@ -139,6 +139,37 @@
   ],
   "reports": [
     {
+      "id": "ai-organization-responsibility-boundaries-2026-09-10",
+      "title": "AI 组织调整：责任、授权与激励对照",
+      "summaryFile": "./knowledge/wiki/ai-organization-responsibility-boundaries-2026-09-10.md",
+      "description": "比较四条组织公告与HR、薪酬、员工收益证据，明确可借鉴机制和不能下的结论，保留八组后续验证问题。",
+      "author": "OD 情报中心",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "人才发展",
+        "绩效管理"
+      ],
+      "date": "2026-09-10",
+      "uploadDate": "2026-09-10",
+      "tags": [
+        "责任边界",
+        "决策权限",
+        "员工收益"
+      ],
+      "related": [
+        "./daily/2026-09-10.md",
+        "./knowledge/entities/openai.md",
+        "./knowledge/concepts/ai-workforce-risk.md"
+      ],
+      "backlinks": [
+        "./knowledge/index.md",
+        "./daily-report/2026-09-10.md"
+      ],
+      "evidenceLevel": "L2 公告及调查观察；薪酬报道与个人观点保持 L1"
+    },
+    {
       "id": "info-weekly-2026-W36-quick",
       "title": "W36 信息库周报｜快速导读",
       "summaryFile": "./daily/weekly-2026-W36.md",
