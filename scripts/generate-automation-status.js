@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { assessReceipt } = require('./check-info-delivery.cjs');
 
 const root = path.resolve(__dirname, '..');
 const dataDir = path.join(root, 'data');
@@ -97,6 +98,7 @@ function main() {
   const knowledge = readJson('data/knowledge-status.json');
   const workflowText = readText('.github/workflows/ai-org-reports-fallback.yml');
   const workflow = classifyWorkflow(workflowText);
+  const delivery = assessReceipt(readJson('data/info-delivery-status.json'));
 
   const infoStatus = info?.qualityStatus || 'unknown';
   const topicStatus = topics?.qualityStatus || 'unknown';
@@ -109,6 +111,7 @@ function main() {
       : 'manual-check-required';
 
   const criticalIssues = [
+    ...(delivery.qualityStatus === 'fail' ? [`信息库当日交付未完成：${delivery.status}`] : []),
     ...(workflow.criticalIssues || []),
     ...(linkStatus === 'fail' ? ['一方链接或公开扫描桥接存在 fail'] : []),
     ...(topics?.todayStatus === 'formal' && topics?.dates?.find((entry) => entry.date === topics.today)?.isFallback
@@ -116,6 +119,7 @@ function main() {
       : []),
   ];
   const warnings = [
+    ...(delivery.qualityStatus === 'warn' && delivery.status !== 'published' ? [`信息库交付待核验：${delivery.status}`] : []),
     ...(workflow.warnings || []),
     ...(infoStatus === 'warn' ? ['信息库质量为 warn'] : []),
     ...(topicStatus === 'warn' ? ['专题研究状态为 warn'] : []),
@@ -132,11 +136,12 @@ function main() {
     qualityStatus: criticalIssues.length > 0 ? 'fail' : warnings.length > 0 ? 'warn' : 'pass',
     chains: {
       infoFeed: {
-        qualityStatus: infoStatus,
+        qualityStatus: worstStatus([infoStatus, delivery.qualityStatus]),
         latestDate: info?.latestDate || null,
         latestCardCount: info?.latestCardCount ?? null,
         newFactCount: info?.newFactCount ?? null,
       },
+      infoDelivery: delivery,
       topicProjects: {
         qualityStatus: topicStatus,
         today: topics?.today || null,

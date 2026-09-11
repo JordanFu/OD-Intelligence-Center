@@ -5,7 +5,7 @@ on:
     branches: [main]
   workflow_dispatch:
   workflow_run:
-    workflows: ["AI Org Reports Fallback"]
+    workflows: ["AI Org Reports Fallback", "Info Delivery Watchdog"]
     types: [completed]
 
 permissions:
@@ -19,7 +19,7 @@ concurrency:
 
 jobs:
   deploy:
-    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' || github.event.workflow_run.name == 'Info Delivery Watchdog' }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

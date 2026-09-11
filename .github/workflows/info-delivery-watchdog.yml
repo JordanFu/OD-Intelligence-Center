@@ -1,0 +1,105 @@
+name: Info Delivery Watchdog
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 3 * * *'
+    - cron: '30 7 * * *'
+    - cron: '30 13 * * *'
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: ai-org-reports-fallback
+  cancel-in-progress: false
+
+jobs:
+  check-delivery:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test delivery checks
+        run: |
+          node scripts/test-info-delivery.cjs
+          node scripts/test-info-delivery-workflow.cjs
+      - name: Check actual daily publication
+        id: delivery
+        continue-on-error: true
+        run: node scripts/check-info-delivery.cjs
+      - name: Aggregate automation state
+        if: always()
+        continue-on-error: true
+        run: node scripts/generate-automation-status.js
+      - name: Generate health summary
+        if: always()
+        continue-on-error: true
+        run: node scripts/generate-system-health.js
+      - name: Persist delivery evidence only
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for file in data/info-delivery-status.json operations/info-delivery-latest.md data/automation-status.json operations/system-health-latest.md; do
+            if [ -f "$file" ]; then git add -- "$file"; fi
+          done
+          if ! git diff --cached --quiet; then
+            git commit -m 'delivery-watchdog: record actual information delivery'
+            git push
+          fi
+      - name: Open or update one recovery issue per day
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const date = new Date(Date.now() + 8 * 3600000).toISOString().slice(0, 10);
+            let receipt;
+            try { receipt = JSON.parse(fs.readFileSync('data/info-delivery-status.json', 'utf8')); } catch {}
+            const fresh = receipt?.date === date && Number.isFinite(Date.parse(receipt.checkedAt)) && Date.now() - Date.parse(receipt.checkedAt) < 15 * 60000;
+            const recovered = fresh && receipt.status === 'published' && receipt.publicVerified === true;
+            const title = `信息库交付待补跑：${date}`;
+            const issues = await github.paginate(github.rest.issues.listForRepo, { ...context.repo, state: 'all', per_page: 100 });
+            const existing = issues.find(issue => !issue.pull_request && issue.title === title);
+            if (recovered) {
+              if (existing?.state === 'open') await github.rest.issues.update({ ...context.repo, issue_number: existing.number, state: 'closed', state_reason: 'completed' });
+              return;
+            }
+            if (fresh && ['scheduled', 'running-window'].includes(receipt.status)) return;
+            const runUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const body = [
+              '当日信息库尚未确认完整交付。任务启动、专题更新和缺口占位均不能代替信息库交付。',
+              `日期：${date}；检查状态：${fresh ? receipt.status : 'check-failed'}。`,
+              '补跑：优先接续已有候选，核对公开来源，完成 digest、daily 和 daily-report；通过审计后发布并重跑交付检查。',
+              '禁止用昨天内容改日期、用兜底稿或无来源卡片凑交付。主机离线时本工作流仅告警，不运行正式研究。',
+              `检查记录：${runUrl}`
+            ].join('\n\n');
+            if (existing) await github.rest.issues.update({ ...context.repo, issue_number: existing.number, body, state: 'open' });
+            else await github.rest.issues.create({ ...context.repo, title, body });
+      - name: Preserve diagnostics even when publication is missing
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: info-delivery-evidence
+          path: |
+            data/info-delivery-status.json
+            operations/info-delivery-latest.md
+            operations/system-health-latest.md
+          retention-days: 14
+      - name: Fail when delivery remains incomplete
+        if: always()
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+          const receipt = JSON.parse(fs.readFileSync('data/info-delivery-status.json', 'utf8'));
+          const date = new Date(Date.now() + 8 * 3600000).toISOString().slice(0, 10);
+          const fresh = receipt.date === date && Date.now() - Date.parse(receipt.checkedAt) < 15 * 60000;
+          if (!fresh || receipt.qualityStatus === 'fail' || !['published', 'scheduled', 'running-window'].includes(receipt.status)) process.exit(1);
+          NODE

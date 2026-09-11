@@ -101,6 +101,10 @@ jobs:
           TZ: Asia/Shanghai
         run: node scripts/check-public-links.js
 
+      - name: Check actual information delivery
+        continue-on-error: true
+        run: node scripts/check-info-delivery.cjs
+
       - name: Generate automation status
         continue-on-error: true
         env:

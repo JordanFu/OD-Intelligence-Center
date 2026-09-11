@@ -1,13 +1,36 @@
 {
-  "generatedAt": "2026-09-11T06:19:05.251Z",
+  "generatedAt": "2026-09-11T08:43:01.065Z",
   "module": "automation",
-  "qualityStatus": "warn",
+  "qualityStatus": "fail",
   "chains": {
     "infoFeed": {
-      "qualityStatus": "warn",
+      "qualityStatus": "fail",
       "latestDate": "2026-09-10",
       "latestCardCount": 9,
       "newFactCount": 4
+    },
+    "infoDelivery": {
+      "checkedAt": "2026-09-11T08:42:57.682Z",
+      "module": "info-delivery",
+      "date": "2026-09-11",
+      "timezone": "Asia/Shanghai",
+      "scheduledAt": "09:40",
+      "deadline": "11:30",
+      "status": "overdue",
+      "qualityStatus": "fail",
+      "cardCount": 0,
+      "gapRecordCount": 0,
+      "localReady": false,
+      "publicVerified": false,
+      "issues": [
+        "digest 未出现当日信息卡",
+        "当日 daily 或 daily-report 缺失日期/文件",
+        "当日导读正文缺失",
+        "信息库 manifest 日期或卡片数与当日产物不符"
+      ],
+      "remoteErrors": [],
+      "receiptMeaning": "只确认当日文件、审计状态及线上内容一致，不代表人工已认可内容价值。",
+      "runUrl": null
     },
     "topicProjects": {
       "qualityStatus": "warn",
@@ -49,7 +72,7 @@
     "linkCheck": {
       "qualityStatus": "warn",
       "brokenCount": 0,
-      "checkedAt": "2026-09-11T06:19:05.153Z"
+      "checkedAt": "2026-09-11T08:20:08.170Z"
     },
     "githubActionsFallback": {
       "status": "pass",
@@ -83,6 +106,8 @@
     "本地正式任务无法确认已完成，需要人工补跑或等待正式自动化",
     "专题待正式重跑 23 天"
   ],
-  "criticalIssues": [],
+  "criticalIssues": [
+    "信息库当日交付未完成：overdue"
+  ],
   "operatingRule": "GitHub Actions 只能兜底、审计和记录状态；正式研究完成只能由 formal 条件确认。"
 }

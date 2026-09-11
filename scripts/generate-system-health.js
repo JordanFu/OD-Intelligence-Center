@@ -107,6 +107,9 @@ function renderHealth({ info, topics, knowledge, automation }) {
 
 ## 自动化状态
 
+- 信息库当日交付：${automation?.chains?.infoDelivery?.status || 'check-required'}
+- 信息库线上内容一致：${automation?.chains?.infoDelivery?.publicVerified ? '已核对' : '未确认'}
+- 信息库交付截止：北京时间 11:30；告警不等于内容补跑完成。
 - 本地正式任务：${automation?.chains?.localFormalTask?.status || 'unknown'}
 - GitHub Actions 角色：${automation?.chains?.githubActionsFallback?.role || 'unknown'}
 - GitHub Actions 定时数：${automation?.chains?.githubActionsFallback?.schedules ?? '未知'}
