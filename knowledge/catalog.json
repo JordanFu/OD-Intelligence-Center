@@ -139,6 +139,36 @@
   ],
   "reports": [
     {
+      "id": "ai-work-support-2026-09-11",
+      "title": "AI工作支持与负担：从试点、招聘到人机决策",
+      "summaryFile": "./knowledge/wiki/ai-work-support-2026-09-11.md",
+      "description": "比较AI试点隐性劳动、招聘负荷、伙伴交付与人机决策，给出有边界的HR/OD应用问题；不把公告当成效果。",
+      "author": "OD 情报中心",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "人才发展",
+        "绩效管理"
+      ],
+      "date": "2026-09-11",
+      "uploadDate": "2026-09-11",
+      "tags": [
+        "员工减负",
+        "工作设计",
+        "组织边界"
+      ],
+      "related": [
+        "./daily/2026-09-11.md",
+        "./knowledge/concepts/ai-workforce-risk.md"
+      ],
+      "backlinks": [
+        "./knowledge/index.md",
+        "./daily-report/2026-09-11.md"
+      ],
+      "evidenceLevel": "L2观察；媒体与单点招聘线索保留L1"
+    },
+    {
       "id": "ai-organization-responsibility-boundaries-2026-09-10",
       "title": "AI 组织调整：责任、授权与激励对照",
       "summaryFile": "./knowledge/wiki/ai-organization-responsibility-boundaries-2026-09-10.md",
@@ -4193,6 +4223,37 @@
         "bostonfed.org"
       ],
       "originalUrl": "https://www.bostonfed.org/-/media/Documents/Workingpapers/PDF/2026/cpp2608.pdf"
+    },
+    {
+      "id": "p086",
+      "title": "中软国际与月之暗面：前线部署实验室与收入分成合作公告",
+      "originalTitle": "Chinasoft and Moonshot AI cooperation announcement",
+      "author": "中软国际",
+      "publisher": "中软国际（港交所披露）",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "2026-07-20",
+      "uploadDate": "2026-09-11",
+      "description": "已读三页公告，核实联合实验室、全流程交付和机构间收入分成；作为Kimi伙伴网络的历史补证，不证明人员激励或实施效果。",
+      "summaryFile": "./knowledge/wiki/pdf-source-www1-hkexnews-hk-2026072000261.md",
+      "rawFile": "./knowledge/raw/www1-hkexnews-hk-2026072000261.pdf",
+      "fileName": "www1-hkexnews-hk-2026072000261.pdf",
+      "fileSize": "128420 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "www1.hkexnews.hk"
+      ],
+      "originalUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0720/2026072000261.pdf",
+      "related": [
+        "./knowledge/wiki/ai-work-support-2026-09-11.md"
+      ],
+      "backlinks": [
+        "./daily/2026-09-11.md",
+        "./knowledge/index.md"
+      ]
     }
   ]
 }

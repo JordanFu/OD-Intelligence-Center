@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-09-11T08:45:31.328Z",
+  "generatedAt": "2026-09-11T13:52:40.516Z",
   "module": "automation",
   "qualityStatus": "fail",
   "chains": {
     "infoFeed": {
       "qualityStatus": "fail",
-      "latestDate": "2026-09-10",
+      "latestDate": "2026-09-11",
       "latestCardCount": 9,
       "newFactCount": 4
     },
     "infoDelivery": {
-      "checkedAt": "2026-09-11T08:45:30.693Z",
+      "checkedAt": "2026-09-11T13:52:28.859Z",
       "module": "info-delivery",
       "date": "2026-09-11",
       "timezone": "Asia/Shanghai",
       "scheduledAt": "09:40",
       "deadline": "11:30",
-      "status": "overdue",
+      "status": "publish-pending",
       "qualityStatus": "fail",
-      "cardCount": 0,
-      "gapRecordCount": 0,
-      "localReady": false,
+      "cardCount": 9,
+      "gapRecordCount": 1,
+      "localReady": true,
       "publicVerified": false,
       "issues": [
-        "digest 未出现当日信息卡",
-        "当日 daily 或 daily-report 缺失日期/文件",
-        "当日导读正文缺失",
-        "信息库 manifest 日期或卡片数与当日产物不符"
+        "线上 digest 当日内容不一致或不存在",
+        "线上 daily/2026-09-11.md 不一致或不存在",
+        "线上 daily-report/2026-09-11.md 不一致或不存在",
+        "线上 manifest 未匹配当日内容"
       ],
       "remoteErrors": [],
       "receiptMeaning": "只确认当日文件、审计状态及线上内容一致，不代表人工已认可内容价值。",
-      "runUrl": "https://github.com/JordanFu/OD-Intelligence-Center/actions/runs/34580727022"
+      "runUrl": null
     },
     "topicProjects": {
       "qualityStatus": "warn",
@@ -66,13 +66,13 @@
     "knowledgeLint": {
       "qualityStatus": "pass",
       "latestCatalogDate": "2026-09-11",
-      "reportCount": 154,
+      "reportCount": 156,
       "privatePathLeakCount": 0
     },
     "linkCheck": {
       "qualityStatus": "warn",
       "brokenCount": 0,
-      "checkedAt": "2026-09-11T08:20:08.170Z"
+      "checkedAt": "2026-09-11T13:52:28.798Z"
     },
     "githubActionsFallback": {
       "status": "pass",
@@ -107,7 +107,7 @@
     "专题待正式重跑 23 天"
   ],
   "criticalIssues": [
-    "信息库当日交付未完成：overdue"
+    "信息库当日交付未完成：publish-pending"
   ],
   "operatingRule": "GitHub Actions 只能兜底、审计和记录状态；正式研究完成只能由 formal 条件确认。"
 }
