@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T13:47:54.713Z",
+  "generatedAt": "2026-09-11T14:29:40.065Z",
   "module": "topic-projects",
   "project": {
     "id": "ai-org-talent-mechanism",
@@ -94,7 +94,7 @@
       "hasFormalEntry": true,
       "qualityGate": {
         "path": "specials/ai-org-talent-mechanism/quality/2026-09-11.md",
-        "status": "warn-or-unknown"
+        "status": "pass-or-warn"
       },
       "qualityIssues": [
         "正文包含兜底/非决策稿/待正式重跑关键词"
@@ -6076,9 +6076,9 @@
   ],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-09-11T13:52:28.798Z",
+    "checkedAt": "2026-09-11T14:29:43.592Z",
     "qualityStatus": "warn",
-    "firstPartyChecked": 3604,
+    "firstPartyChecked": 3598,
     "externalWarnings": 20,
     "brokenCount": 0,
     "publicScanBridge": [

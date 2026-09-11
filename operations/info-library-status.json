@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T13:52:23.021Z",
+  "generatedAt": "2026-09-11T14:29:40.176Z",
   "module": "info-feed",
   "qualityStatus": "warn",
   "latestDate": "2026-09-11",
@@ -502,10 +502,10 @@
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-09-11T13:50:23.791Z",
+    "checkedAt": "2026-09-11T13:52:28.798Z",
     "qualityStatus": "warn",
     "firstPartyChecked": 3604,
-    "externalWarnings": 18,
+    "externalWarnings": 20,
     "brokenCount": 0,
     "publicScanBridge": [
       {
