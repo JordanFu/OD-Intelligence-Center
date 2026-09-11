@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T08:43:01.065Z",
+  "generatedAt": "2026-09-11T08:45:31.328Z",
   "module": "automation",
   "qualityStatus": "fail",
   "chains": {
@@ -10,7 +10,7 @@
       "newFactCount": 4
     },
     "infoDelivery": {
-      "checkedAt": "2026-09-11T08:42:57.682Z",
+      "checkedAt": "2026-09-11T08:45:30.693Z",
       "module": "info-delivery",
       "date": "2026-09-11",
       "timezone": "Asia/Shanghai",
@@ -30,7 +30,7 @@
       ],
       "remoteErrors": [],
       "receiptMeaning": "只确认当日文件、审计状态及线上内容一致，不代表人工已认可内容价值。",
-      "runUrl": null
+      "runUrl": "https://github.com/JordanFu/OD-Intelligence-Center/actions/runs/34580727022"
     },
     "topicProjects": {
       "qualityStatus": "warn",
