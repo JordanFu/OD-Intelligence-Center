@@ -139,6 +139,37 @@
   ],
   "reports": [
     {
+      "id": "ai-work-allocation-2026-09-12",
+      "title": "AI采用之后：责任、支持与人员去向",
+      "summaryFile": "./knowledge/wiki/ai-work-allocation-2026-09-12.md",
+      "description": "用普信、NTEN与Bridgespan、Wipro、暴雪案例比较应用责任、员工支持与人员转配；附薪酬统计年代纠偏，不把采用率或产能自述当效果证明。",
+      "author": "OD 情报中心",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "人才发展",
+        "变革管理"
+      ],
+      "date": "2026-09-12",
+      "uploadDate": "2026-09-12",
+      "tags": [
+        "员工支持",
+        "人员再配置",
+        "组织分工"
+      ],
+      "related": [
+        "./daily/2026-09-12.md",
+        "./knowledge/wiki/ai-work-support-2026-09-11.md",
+        "./knowledge/concepts/ai-workforce-risk.md"
+      ],
+      "backlinks": [
+        "./knowledge/index.md",
+        "./daily-report/2026-09-12.md"
+      ],
+      "evidenceLevel": "L2观察；单点招聘与二手报告摘要为L1"
+    },
+    {
       "id": "ai-work-support-2026-09-11",
       "title": "AI工作支持与负担：从试点、招聘到人机决策",
       "summaryFile": "./knowledge/wiki/ai-work-support-2026-09-11.md",
@@ -4254,6 +4285,30 @@
         "./daily/2026-09-11.md",
         "./knowledge/index.md"
       ]
+    },
+    {
+      "id": "p087",
+      "title": "NTEN与Bridgespan：非营利组织AI采用与治理调查",
+      "originalTitle": "NTEN与Bridgespan：非营利组织AI采用与治理调查",
+      "author": "NTEN / Bridgespan",
+      "publisher": "NTEN / Bridgespan",
+      "sourceType": "consulting",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "2026-09-10",
+      "uploadDate": "2026-09-12",
+      "description": "AI使用已经发生，不代表培训、数据规则与工作支持已经到位；应先补员工可用的支持，再评价净收益。 关注重点：员工支持、学习发展、治理准备。相关性：强相关：资源有限组织的AI采用与员工支持。",
+      "summaryFile": "./knowledge/wiki/pdf-source-content-nten-org-2026-state-of-nonprofit-ai.md",
+      "rawFile": "./knowledge/raw/content-nten-org-2026-state-of-nonprofit-ai.pdf",
+      "fileName": "content-nten-org-2026-state-of-nonprofit-ai.pdf",
+      "fileSize": "650162 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "NTEN / Bridgespan"
+      ],
+      "originalUrl": "https://content.nten.org/wp-content/uploads/2026/09/2026-State-of-Nonprofit-AI.pdf"
     }
   ]
 }

@@ -43,6 +43,34 @@ const knownTitles = new Map([
 ]);
 
 const reportProfiles = new Map([
+  ['https://content.nten.org/wp-content/uploads/2026/09/2026-State-of-Nonprofit-AI.pdf', {
+    title: 'NTEN与Bridgespan：非营利组织AI采用与治理调查',
+    publisher: 'NTEN / Bridgespan',
+    sourceType: 'consulting',
+    date: '2026-09-10',
+    summary: 'AI使用已经发生，不代表培训、数据规则与工作支持已经到位；应先补员工可用的支持，再评价净收益。',
+    focus: '员工支持、学习发展、治理准备',
+    relevanceLabel: '强相关：资源有限组织的AI采用与员工支持',
+    evidenceLevel: 'L2 自陈调查观察；方法与关键图表已核，未逐页精读，不证明生产率因果。',
+    core: [
+      '报告2026年9月10日发布，共81页；方法第4、68页说明4月下旬至6月中旬调查，共917名自愿受访者，分支问卷且可跳题。',
+      '官方图表中，每天或更频繁使用AI占45.37%（n=723）；高管称培训已到位占18.41%、数据输入规则已到位占39.95%（两题n=404）。',
+      '不同题目分母不可相减；样本通过技术社群与伙伴招募、美国为主，不能推及所有组织。',
+    ],
+    attention: [
+      '先提供岗位练习、许可数据示例与求助入口；观察返工和员工负担，不新增AI使用日报或排行榜。',
+      '部分摘要此前已公开，本期按旧研究补读；采用率不等于净提效，培训效果仍须实际验证。',
+    ],
+    relevance: [
+      ['学习发展', '高', '识别员工所需支持，不把工具开通当作能力形成。'],
+      ['组织治理', '高', '区分数据边界、求助与风险责任是否真正可用。'],
+      ['岗位与薪酬', '间接', '不支持直接调编、岗位合并或薪酬溢价比例。'],
+    ],
+    useInResearch: [
+      '用于人员支持与治理准备的背景比较，不形成普遍因果结论。',
+      '[工作分配与支持比较](ai-work-allocation-2026-09-12.md)连接业务责任、人员转配和员工参与。',
+    ],
+  }],
   ['https://www.bostonfed.org/-/media/Documents/Workingpapers/PDF/2026/cpp2608.pdf', {
     title: '波士顿联储：员工感知的 AI 收益、工作负荷与失业担忧',
     summary: '任务被 AI 接手不等于员工受益；应同时验证真实减负、质量与工作要求是否增加。',
@@ -580,7 +608,7 @@ function wikiMarkdown(item, slug, rawRelative, status, existingMarkdown = '') {
   const sourceFileLine = status === 'downloaded'
     ? `sourceFile: ../raw/${path.basename(rawRelative)}`
     : 'sourceFile:';
-  return `---\ntitle: ${item.title}\nsource: ${item.publisher}\ndate: 待核验\ningested: ${ingestedDate}\n${sourceFileLine}\nsourceUrl: ${item.url}\ntags: [${topics.join(', ')}]\nstatus: ${status === 'downloaded' ? '已下载原始PDF，已生成结构化初筛卡片' : '已索引来源，PDF下载待重试'}\n---\n\n# ${item.title}\n\n## 一句话判断\n\n${profile.summary}\n\n## 入库状态\n\n- **来源机构**：${item.publisher}\n- **来源类型**：${item.sourceType}\n- **原文 URL**：${item.url}\n- **原始文件**：${status === 'downloaded' ? `\`${rawRelative}\`` : '下载失败或待重试，先保留 URL 与引用上下文'}\n- **入库日期**：${ingestedDate}\n- **证据层级**：${profile.evidenceLevel}\n\n## 核心内容\n\n${markdownList(profile.core)}\n\n## 你需要关注\n\n${markdownList(profile.attention)}\n\n## 与近期研究主题的相关性\n\n| 研究主题 | 相关性 | 可怎么用 |\n|---|---|---|\n${relevanceTable(profile.relevance)}\n\n## 对日报/周报的使用方式\n\n${markdownList(profile.useInResearch)}\n\n## 被引用位置\n\n${citations}\n\n## 后续精读任务\n\n- 核验报告发布日期、作者/机构、样本范围和数据口径。\n- 抽取可支撑“执行层分工合并 vs 核心专家深化”的直接证据。\n- 抽取可支撑“岗位改革背后是激励资源再配置”的薪酬、技能溢价或预算配置证据。\n- 判断是否需要拆成独立概念页、企业案例页或机制模板。\n\n## 与已有知识的关联\n\n- [[AI-First 运营模型]]\n- [[技能为本的组织]]\n- [[能力-判断评估矩阵]]\n`;
+  return `---\ntitle: ${item.title}\nsource: ${item.publisher}\ndate: ${profile.date || '待核验'}\ningested: ${ingestedDate}\n${sourceFileLine}\nsourceUrl: ${item.url}\ntags: [${topics.join(', ')}]\nstatus: ${status === 'downloaded' ? '已下载原始PDF，已生成结构化初筛卡片' : '已索引来源，PDF下载待重试'}\n---\n\n# ${item.title}\n\n## 一句话判断\n\n${profile.summary}\n\n## 入库状态\n\n- **来源机构**：${item.publisher}\n- **来源类型**：${item.sourceType}\n- **原文 URL**：${item.url}\n- **原始文件**：${status === 'downloaded' ? `\`${rawRelative}\`` : '下载失败或待重试，先保留 URL 与引用上下文'}\n- **入库日期**：${ingestedDate}\n- **证据层级**：${profile.evidenceLevel}\n\n## 核心内容\n\n${markdownList(profile.core)}\n\n## 你需要关注\n\n${markdownList(profile.attention)}\n\n## 与近期研究主题的相关性\n\n| 研究主题 | 相关性 | 可怎么用 |\n|---|---|---|\n${relevanceTable(profile.relevance)}\n\n## 对日报/周报的使用方式\n\n${markdownList(profile.useInResearch)}\n\n## 被引用位置\n\n${citations}\n\n## 后续精读任务\n\n- 核验报告发布日期、作者/机构、样本范围和数据口径。\n- 抽取可支撑“执行层分工合并 vs 核心专家深化”的直接证据。\n- 抽取可支撑“岗位改革背后是激励资源再配置”的薪酬、技能溢价或预算配置证据。\n- 判断是否需要拆成独立概念页、企业案例页或机制模板。\n\n## 与已有知识的关联\n\n- [[AI-First 运营模型]]\n- [[技能为本的组织]]\n- [[能力-判断评估矩阵]]\n`;
 }
 
 function updateCatalog(items) {
@@ -603,7 +631,7 @@ function updateCatalog(items) {
       publisher: item.publisher,
       sourceType: item.sourceType,
       topics: topicsFor(item.title, item.url),
-      date: '',
+      date: profile.date || '',
       uploadDate: today,
       description: `${profile.summary} 关注重点：${profile.focus}。相关性：${profile.relevanceLabel}。`,
       summaryFile: `./knowledge/wiki/${item.wikiName}`,
@@ -677,7 +705,10 @@ function main() {
     const slug = slugify(`${publisherFromUrl(item.url)}-${titleFromUrl(item.url)}`);
     const rawName = `${slug}.pdf`;
     const wikiName = `pdf-source-${slug}.md`;
-    item.title = profileFor(item).title || item.title;
+    const profile = profileFor(item);
+    item.title = profile.title || item.title;
+    item.publisher = profile.publisher || item.publisher;
+    item.sourceType = profile.sourceType || item.sourceType;
     const rawFile = path.join(rawDir, rawName);
     const rawRelative = path.relative(root, rawFile);
     const status = downloadPdf(item, rawFile);
