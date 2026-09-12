@@ -42,6 +42,7 @@ AI 时代的高人才密度不只是“更强个体”，而是能把问题定�
 |---|---|
 | [Obsidian 本地知识库](./knowledge/wiki/obsidian-vault-full-source-map-2026-05-22.md) | 本地 Vault 当前识别 70 篇 Markdown；2026-06-30 已新增公开安全 source map（覆盖 69 篇，排除 1 篇内部敏感来源），并抽取字节跳动 AI 时代领导力原则、AI 五环协同人才体… |
 | [大厂 HR：AI 时代招聘标准与人才画像变化](./knowledge/wiki/bigtech-hr-ai-era-hiring-talent-2026.md) | 基于用户提供微信文章链接，并通过腾讯新闻与 36氪转载交叉核验正文；沉淀 AI 时代大厂招聘标准从工具熟练度转向项目证据、业务闭环、多 Agent 编排和 AI 应用落地的市场观察。 |
+| [AI采用之后：责任、支持与人员去向](./knowledge/wiki/ai-work-allocation-2026-09-12.md) | 用普信、NTEN与Bridgespan、Wipro、暴雪案例比较应用责任、员工支持与人员转配；附薪酬统计年代纠偏，不把采用率或产能自述当效果证明。 |
 | [AI 组织调整：责任、授权与激励对照](./knowledge/wiki/ai-organization-responsibility-boundaries-2026-09-10.md) | 比较四条组织公告与HR、薪酬、员工收益证据，明确可借鉴机制和不能下的结论，保留八组后续验证问题。 |
 | [大厂 HR：AI 时代招聘标准与人才画像变化](./knowledge/wiki/bigtech-hr-ai-era-hiring-talent-2026.md) | 基于用户提供微信文章链接，并通过腾讯新闻与 36氪转载交叉核验正文；沉淀 AI 时代大厂招聘标准从工具熟练度转向项目证据、业务闭环、多 Agent 编排和 AI 应用落地的市场观察。 |
 | [微信公众号「AI组织进化论」候选来源池](./knowledge/wiki/wechat-ai-org-evolution-intake.md) | 记录用户提供的 AI组织进化论 微信原文链接，当前作为人才密度方向候选输入；原文自动访问触发微信环境验证，待读取正文后再判断进入线索层、Context 层或结论候选。 |
@@ -51,7 +52,6 @@ AI 时代的高人才密度不只是“更强个体”，而是能把问题定�
 | [人机协作演进框架：Author、Editor、Director、Orchestrator](./knowledge/wiki/human-agent-collaboration-evolution.md) | 把人机协作拆成四种模式，强调人类签核单元从单行代码扩大到 backlog，适合用于岗位重塑、AI fluency 和绩效归属研究。 |
 | [McKinsey：AI-first 时代端到端技术 workforce 设计](./knowledge/wiki/pdf-source-mckinsey-2026-ai-first-technology-workforce.md) | McKinsey Technology 文章，讨论 agentic AI 时代 CIO 如何重构技术组织的人才招聘、内部能力建设、Agent 训练和供应商策略。适合用于 AI-first 技术岗位族群和职级变化研究。 |
 | [GitLab：Promotions and Transfers 晋升与内部流动机制](./knowledge/wiki/gitlab-promotions-transfers-handbook.md) | GitLab 官方 Handbook 中的晋升与内部流动制度页，结构化说明周期性晋升校准、promotion document、业务结果、业务必要性、价值观对齐、跨职能反馈、Senior Director+ 角色评估、… |
-| [GitLab：People & Organization 机制研究模块](./knowledge/wiki/gitlab-people-org-handbook-module-2026-05-21.md) | 覆盖 GitLab Handbook People Group 与 People Policies 两个一级目录，沉淀 GitLab 的 People 操作系统：公开手册、服务台、员工生命周期、能力模型、人才盘点、晋升… |
 
 ## 当前不可越界的结论
 
