@@ -497,26 +497,31 @@
     "最新日期“新增事实”少于 5 条：当前 2 条；已有缺口记录，首页应诚实显示可信新增不足。",
     "最新日期同一子主题超过 40%：44%；需要关注广谱雷达覆盖。",
     "最近 7 个信息日存在结构字段缺失：1 类日期/字段组合需逐步补齐。",
-    "external link not hard-checked in Phase 1"
+    "external link not hard-checked in Phase 1",
+    "network check warning: fetch failed"
   ],
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-09-12T06:05:37.884Z",
+    "checkedAt": "2026-09-12T10:31:21.358Z",
     "qualityStatus": "warn",
     "firstPartyChecked": 3630,
-    "externalWarnings": 26,
+    "externalWarnings": 28,
     "brokenCount": 0,
     "publicScanBridge": [
       {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-09-12.html"
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-09-12.html",
+        "reason": "network check warning: fetch failed"
       },
       {
-        "ok": true,
-        "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/"
+        "ok": false,
+        "hardBroken": false,
+        "status": null,
+        "url": "https://jordanfu.github.io/org-intelligence-info/",
+        "reason": "network check warning: fetch failed"
       }
     ]
   },
