@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-09-12T16:25:44.044Z",
+  "generatedAt": "2026-09-13T03:49:27.166Z",
   "module": "automation",
-  "qualityStatus": "warn",
+  "qualityStatus": "fail",
   "chains": {
     "infoFeed": {
-      "qualityStatus": "warn",
-      "latestDate": "2026-09-12",
-      "latestCardCount": 9,
+      "qualityStatus": "fail",
+      "latestDate": "2026-09-13",
+      "latestCardCount": 8,
       "newFactCount": 2
     },
     "infoDelivery": {
-      "checkedAt": "2026-09-12T16:25:43.441Z",
+      "checkedAt": "2026-09-13T03:49:25.493Z",
       "module": "info-delivery",
       "date": "2026-09-13",
       "timezone": "Asia/Shanghai",
       "scheduledAt": "09:40",
       "deadline": "11:30",
-      "status": "scheduled",
-      "qualityStatus": "warn",
-      "cardCount": 0,
-      "gapRecordCount": 0,
-      "localReady": false,
+      "status": "publish-pending",
+      "qualityStatus": "fail",
+      "cardCount": 8,
+      "gapRecordCount": 1,
+      "localReady": true,
       "publicVerified": false,
       "issues": [
-        "digest 未出现当日信息卡",
-        "当日 daily 或 daily-report 缺失日期/文件",
-        "当日导读正文缺失",
-        "信息库 manifest 日期或卡片数与当日产物不符"
+        "线上 digest 当日内容不一致或不存在",
+        "线上 daily/2026-09-13.md 不一致或不存在",
+        "线上 daily-report/2026-09-13.md 不一致或不存在",
+        "线上 manifest 未匹配当日内容"
       ],
       "remoteErrors": [],
       "receiptMeaning": "只确认当日文件、审计状态及线上内容一致，不代表人工已认可内容价值。",
-      "runUrl": "https://github.com/JordanFu/OD-Intelligence-Center/actions/runs/34705174145"
+      "runUrl": null
     },
     "topicProjects": {
       "qualityStatus": "warn",
@@ -67,13 +67,13 @@
     "knowledgeLint": {
       "qualityStatus": "pass",
       "latestCatalogDate": "2026-09-13",
-      "reportCount": 158,
+      "reportCount": 159,
       "privatePathLeakCount": 0
     },
     "linkCheck": {
       "qualityStatus": "warn",
       "brokenCount": 0,
-      "checkedAt": "2026-09-12T16:25:43.385Z"
+      "checkedAt": "2026-09-13T03:48:24.730Z"
     },
     "githubActionsFallback": {
       "status": "pass",
@@ -102,12 +102,13 @@
     }
   },
   "warnings": [
-    "信息库交付待核验：scheduled",
     "信息库质量为 warn",
     "专题研究状态为 warn",
     "本地正式任务无法确认已完成，需要人工补跑或等待正式自动化",
     "专题待正式重跑 24 天"
   ],
-  "criticalIssues": [],
+  "criticalIssues": [
+    "信息库当日交付未完成：publish-pending"
+  ],
   "operatingRule": "GitHub Actions 只能兜底、审计和记录状态；正式研究完成只能由 formal 条件确认。"
 }

@@ -139,6 +139,37 @@
   ],
   "reports": [
     {
+      "id": "ai-authority-support-2026-09-13",
+      "title": "AI组织设计的三个配套：授权、监督与支持",
+      "summaryFile": "./knowledge/wiki/ai-authority-support-2026-09-13.md",
+      "description": "从公开评估承诺、咨询案例与招聘职责提炼试点检查问题，区分建议与效果，避免把责任和返工转嫁给员工。",
+      "author": "OD 情报中心",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "变革管理",
+        "人才发展"
+      ],
+      "date": "2026-09-13",
+      "uploadDate": "2026-09-13",
+      "tags": [
+        "决策权",
+        "独立评估",
+        "员工支持"
+      ],
+      "related": [
+        "./daily/2026-09-13.md",
+        "./knowledge/wiki/ai-work-allocation-2026-09-12.md",
+        "./knowledge/concepts/ai-workforce-risk.md"
+      ],
+      "backlinks": [
+        "./knowledge/index.md",
+        "./daily-report/2026-09-13.md"
+      ],
+      "evidenceLevel": "L2公开承诺、咨询观察与招聘职责；论坛及匿名线索为L1"
+    },
+    {
       "id": "ai-work-allocation-2026-09-12",
       "title": "AI采用之后：责任、支持与人员去向",
       "summaryFile": "./knowledge/wiki/ai-work-allocation-2026-09-12.md",
