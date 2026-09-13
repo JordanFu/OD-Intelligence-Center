@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-13T06:28:21.950Z",
+  "checkedAt": "2026-09-13T08:26:19.281Z",
   "module": "info-delivery",
   "date": "2026-09-13",
   "timezone": "Asia/Shanghai",
@@ -14,5 +14,5 @@
   "issues": [],
   "remoteErrors": [],
   "receiptMeaning": "只确认当日文件、审计状态及线上内容一致，不代表人工已认可内容价值。",
-  "runUrl": "https://github.com/JordanFu/OD-Intelligence-Center/actions/runs/34742810742"
+  "runUrl": "https://github.com/JordanFu/OD-Intelligence-Center/actions/runs/34747671699"
 }
