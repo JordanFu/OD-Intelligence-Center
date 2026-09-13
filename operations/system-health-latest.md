@@ -1,6 +1,6 @@
 # 系统健康状态
 
-> 自动生成：2026-09-13T10:31:53.866Z
+> 自动生成：2026-09-13T14:28:40.313Z
 
 ## 一眼判断
 
@@ -72,6 +72,7 @@
 - ⚠️ 最新日期有 1 条 sourceUrl 缺失：G0913-01。
 - ⚠️ 最新日期“新增事实”少于 5 条：当前 2 条；已有缺口记录，首页应诚实显示可信新增不足。
 - ⚠️ 最近 7 个信息日存在结构字段缺失：1 类日期/字段组合需逐步补齐。
+- ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ knowledge/catalog.json 的 reports 存在 3 组重复 summaryFile。
 - ⚠️ external link not hard-checked in Phase 1
