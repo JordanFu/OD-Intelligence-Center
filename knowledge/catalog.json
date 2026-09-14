@@ -139,6 +139,93 @@
   ],
   "reports": [
     {
+      "id": "ai-decision-workload-2026-09-14",
+      "title": "AI责任与员工负担：四个实施前检查",
+      "summaryFile": "./knowledge/wiki/ai-decision-workload-2026-09-14.md",
+      "description": "从咨询建议、岗位意图与员工体验识别人工决定、维护支持和净负担问题；不把旧线或弱信号包装为新增。",
+      "author": "OD 情报中心",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "人才发展",
+        "绩效管理"
+      ],
+      "date": "2026-09-14",
+      "uploadDate": "2026-09-14",
+      "tags": [
+        "信息库",
+        "员工支持",
+        "证据边界"
+      ],
+      "related": [
+        "./daily/2026-09-14.md",
+        "./knowledge/wiki/ai-authority-support-2026-09-13.md"
+      ],
+      "backlinks": [
+        "./knowledge/index.md",
+        "./daily-report/2026-09-14.md"
+      ]
+    },
+    {
+      "id": "info-weekly-2026-W37-quick",
+      "title": "W37 信息库周报｜快速导读",
+      "summaryFile": "./daily/weekly-2026-W37.md",
+      "description": "五项决策提示：管理服务、专业组合、人员再配置、贡献激励与实授治理权。",
+      "author": "OD 情报中心",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "人才发展",
+        "绩效管理"
+      ],
+      "date": "2026-09-14",
+      "uploadDate": "2026-09-14",
+      "tags": [
+        "信息库",
+        "员工支持",
+        "证据边界"
+      ],
+      "related": [
+        "./daily/2026-09-14.md",
+        "./knowledge/wiki/ai-authority-support-2026-09-13.md"
+      ],
+      "backlinks": [
+        "./knowledge/index.md",
+        "./daily-report/2026-09-14.md"
+      ]
+    },
+    {
+      "id": "info-weekly-2026-W37-detailed",
+      "title": "W37 信息库周报｜详细资料",
+      "summaryFile": "./daily-report/weekly-2026-W37.md",
+      "description": "聚合9月7—13日资料，按工作价值整理21组输入、三项比较与小范围验证，保留反例及来源边界。",
+      "author": "OD 情报中心",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "人才发展",
+        "绩效管理"
+      ],
+      "date": "2026-09-14",
+      "uploadDate": "2026-09-14",
+      "tags": [
+        "信息库",
+        "员工支持",
+        "证据边界"
+      ],
+      "related": [
+        "./daily/2026-09-14.md",
+        "./knowledge/wiki/ai-authority-support-2026-09-13.md"
+      ],
+      "backlinks": [
+        "./knowledge/index.md",
+        "./daily-report/2026-09-14.md"
+      ]
+    },
+    {
       "id": "ai-authority-support-2026-09-13",
       "title": "AI组织设计的三个配套：授权、监督与支持",
       "summaryFile": "./knowledge/wiki/ai-authority-support-2026-09-13.md",
