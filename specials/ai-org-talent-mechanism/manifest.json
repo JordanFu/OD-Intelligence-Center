@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T06:39:03.650Z",
+  "generatedAt": "2026-09-14T10:33:23.752Z",
   "module": "topic-projects",
   "project": {
     "id": "ai-org-talent-mechanism",
@@ -7,13 +7,12 @@
     "root": "specials/ai-org-talent-mechanism"
   },
   "qualityStatus": "warn",
-  "latestFormalDate": "2026-09-13",
+  "latestFormalDate": "2026-09-14",
   "latestAnyDate": "2026-09-14",
   "today": "2026-09-14",
-  "todayStatus": "fallback",
-  "latestStatus": "fallback",
+  "todayStatus": "formal",
+  "latestStatus": "formal",
   "pendingRerunDates": [
-    "2026-09-14",
     "2026-09-11",
     "2026-08-30",
     "2026-08-29",
@@ -39,8 +38,8 @@
     "2026-05-13"
   ],
   "statusCounts": {
-    "fallback": 24,
-    "formal": 101
+    "formal": 102,
+    "fallback": 23
   },
   "statusDefinitions": {
     "formal": "正式决策稿：00-overview、四专题 Markdown、正式入口均存在，且无兜底/待重跑关键词，质量门禁未明确失败。",
@@ -52,10 +51,10 @@
   "dates": [
     {
       "date": "2026-09-14",
-      "status": "fallback",
-      "isFormal": false,
-      "isFallback": true,
-      "needsRerun": true,
+      "status": "formal",
+      "isFormal": true,
+      "isFallback": false,
+      "needsRerun": false,
       "overview": "specials/ai-org-talent-mechanism/2026-09-14/00-overview.html",
       "overviewMarkdown": "specials/ai-org-talent-mechanism/2026-09-14/00-overview.md",
       "index": "specials/ai-org-talent-mechanism/2026-09-14/index.html",
@@ -95,11 +94,9 @@
       "hasFormalEntry": true,
       "qualityGate": {
         "path": "specials/ai-org-talent-mechanism/quality/2026-09-14.md",
-        "status": "warn-or-unknown"
+        "status": "pass-or-warn"
       },
-      "qualityIssues": [
-        "正文包含兜底/非决策稿/待正式重跑关键词"
-      ]
+      "qualityIssues": []
     },
     {
       "date": "2026-09-13",
@@ -6226,7 +6223,7 @@
   ],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-09-14T06:39:07.884Z",
+    "checkedAt": "2026-09-14T10:33:25.252Z",
     "qualityStatus": "warn",
     "firstPartyChecked": 3693,
     "externalWarnings": 10,
