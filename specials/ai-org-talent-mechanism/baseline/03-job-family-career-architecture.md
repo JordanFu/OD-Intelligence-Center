@@ -40,6 +40,7 @@
 
 | 资料 | 对本专题的价值 |
 |---|---|
+| [AI责任与员工负担：四个实施前检查](./knowledge/wiki/ai-decision-workload-2026-09-14.md) | 从咨询建议、岗位意图与员工体验识别人工决定、维护支持和净负担问题；不把旧线或弱信号包装为新增。 |
 | [Cisco：AI 智能体如何重写网络安全岗位、技能与人才入口](./knowledge/wiki/cisco-ai-agents-cybersecurity-workforce-2026.md) | 将 G7 网络安全招聘数据、AI 技能薪酬信号、入口岗位断层、执行责任变宽和核心专家深化放入同一组织机制分析；明确 14.9% 是招聘市场横截面价差，不是企业普遍涨薪。 |
 | [人机协作演进框架：Author、Editor、Director、Orchestrator](./knowledge/wiki/human-agent-collaboration-evolution.md) | 把人机协作拆成四种模式，强调人类签核单元从单行代码扩大到 backlog，适合用于岗位重塑、AI fluency 和绩效归属研究。 |
 | [McKinsey：AI-first 时代端到端技术 workforce 设计](./knowledge/wiki/pdf-source-mckinsey-2026-ai-first-technology-workforce.md) | McKinsey Technology 文章，讨论 agentic AI 时代 CIO 如何重构技术组织的人才招聘、内部能力建设、Agent 训练和供应商策略。适合用于 AI-first 技术岗位族群和职级变化研究。 |
@@ -51,7 +52,6 @@
 | [百度职级体系改革：从多轨标签到 5-12 数字体系](./knowledge/wiki/baidu-level-reform-2026-obsidian.md) | 本地 Obsidian 中已沉淀的百度职级改革笔记：取消 T/P/E/Band/M，统一为 5-12 级，打通专业与管理通道，并从利益视角解释改革背后的筛选与激励逻辑。 |
 | [亚马逊 Builder 与百度职级改革的共同趋势](./knowledge/wiki/amazon-baidu-job-title-reform-obsidian.md) | 对亚马逊 Ring/Blink Builder 试点与百度职级改革的对照笔记：岗位头衔弱化、评价转向客户价值量级、白领角色更端到端和实战化，同时提示晋升梯子不可见的风险。 |
 | [BCG：AI-First Organization](./knowledge/wiki/pdf-source-bcg-bcg-ai-first-organization.md) | BCG 把 AI-First 组织定义为从“工具辅助”走向“AI 默认执行、人类编排监督”的经营模式重构。 关注重点：AI 默认执行、端到端流程重构、人机编排。相关性：强相关：组织与岗位重构。 |
-| [AIHR：HR Priorities 2026 Report](./knowledge/wiki/pdf-source-aihr-aihr-hr-priorities-2026-report.md) | AIHR 把 2026 HR 重点归纳为共领导 AI 转型、把 AI 产能收益再投资增长、从 headcount 转向 skill count。 关注重点：技能本位组织、HR 重构、skill count。相关性：强相… |
 
 ## 当前不可越界的结论
 
