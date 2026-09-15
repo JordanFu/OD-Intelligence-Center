@@ -1,6 +1,6 @@
 # 系统健康状态
 
-> 自动生成：2026-09-15T01:53:23.499Z
+> 自动生成：2026-09-15T06:22:35.640Z
 
 ## 一眼判断
 
@@ -73,6 +73,7 @@
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ knowledge/catalog.json 的 reports 存在 3 组重复 summaryFile。
+- ⚠️ external link not hard-checked in Phase 1
 - ⚠️ 信息库质量为 warn
 - ⚠️ 专题研究状态为 warn
 - ⚠️ 本地正式任务无法确认已完成，需要人工补跑或等待正式自动化
