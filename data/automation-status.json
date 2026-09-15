@@ -1,36 +1,35 @@
 {
-  "generatedAt": "2026-09-14T18:48:45.375Z",
+  "generatedAt": "2026-09-15T01:51:11.779Z",
   "module": "automation",
   "qualityStatus": "warn",
   "chains": {
     "infoFeed": {
       "qualityStatus": "warn",
-      "latestDate": "2026-09-14",
-      "latestCardCount": 5,
-      "newFactCount": 0
+      "latestDate": "2026-09-15",
+      "latestCardCount": 8,
+      "newFactCount": 3
     },
     "infoDelivery": {
-      "checkedAt": "2026-09-14T18:48:44.668Z",
+      "checkedAt": "2026-09-15T01:50:58.159Z",
       "module": "info-delivery",
       "date": "2026-09-15",
       "timezone": "Asia/Shanghai",
       "scheduledAt": "09:40",
       "deadline": "11:30",
-      "status": "scheduled",
+      "status": "publication-unverified",
       "qualityStatus": "warn",
-      "cardCount": 0,
-      "gapRecordCount": 0,
-      "localReady": false,
+      "cardCount": 8,
+      "gapRecordCount": 1,
+      "localReady": true,
       "publicVerified": false,
       "issues": [
-        "digest 未出现当日信息卡",
-        "当日 daily 或 daily-report 缺失日期/文件",
-        "当日导读正文缺失",
-        "信息库 manifest 日期或卡片数与当日产物不符"
+        "线上检查未完成，不能证明已发布"
       ],
-      "remoteErrors": [],
+      "remoteErrors": [
+        "daily-report/2026-09-15.md: 无法完成网络或 JSON 检查"
+      ],
       "receiptMeaning": "只确认当日文件、审计状态及线上内容一致，不代表人工已认可内容价值。",
-      "runUrl": "https://github.com/JordanFu/OD-Intelligence-Center/actions/runs/34883041679"
+      "runUrl": null
     },
     "topicProjects": {
       "qualityStatus": "warn",
@@ -67,13 +66,13 @@
     "knowledgeLint": {
       "qualityStatus": "pass",
       "latestCatalogDate": "2026-09-15",
-      "reportCount": 162,
+      "reportCount": 163,
       "privatePathLeakCount": 0
     },
     "linkCheck": {
       "qualityStatus": "warn",
       "brokenCount": 0,
-      "checkedAt": "2026-09-14T18:48:44.620Z"
+      "checkedAt": "2026-09-15T01:50:26.260Z"
     },
     "githubActionsFallback": {
       "status": "pass",
@@ -102,7 +101,7 @@
     }
   },
   "warnings": [
-    "信息库交付待核验：scheduled",
+    "信息库交付待核验：publication-unverified",
     "信息库质量为 warn",
     "专题研究状态为 warn",
     "本地正式任务无法确认已完成，需要人工补跑或等待正式自动化",

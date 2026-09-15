@@ -2,11 +2,9 @@
 
 - 检查日期：2026-09-15（北京时间）
 - 截止时间：11:30
-- 状态：scheduled / warn
+- 状态：publication-unverified / warn
 - 线上内容一致：未确认
-- 卡片数：0（缺口 0）
+- 卡片数：8（缺口 1）
 
-- digest 未出现当日信息卡
-- 当日 daily 或 daily-report 缺失日期/文件
-- 当日导读正文缺失
-- 信息库 manifest 日期或卡片数与当日产物不符
+- 线上检查未完成，不能证明已发布
+- daily-report/2026-09-15.md: 无法完成网络或 JSON 检查

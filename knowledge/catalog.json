@@ -139,6 +139,35 @@
   ],
   "reports": [
     {
+      "id": "role-price-and-control-2026-09-15",
+      "title": "岗位价格与责任设计：先分问题，再选机制",
+      "summaryFile": "./knowledge/wiki/role-price-and-control-2026-09-15.md",
+      "description": "比较市场补差、复合岗位支持与人机授权，明确证据边界和可试用的工作前检查；不把建议当成企业已验证制度。",
+      "author": "OD 情报中心",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "人才发展",
+        "绩效管理"
+      ],
+      "date": "2026-09-15",
+      "uploadDate": "2026-09-15",
+      "tags": [
+        "信息库",
+        "薪酬架构",
+        "决策权"
+      ],
+      "related": [
+        "./daily/2026-09-15.md",
+        "./knowledge/wiki/ai-decision-workload-2026-09-14.md"
+      ],
+      "backlinks": [
+        "./knowledge/index.md",
+        "./daily-report/2026-09-15.md"
+      ]
+    },
+    {
       "id": "ai-decision-workload-2026-09-14",
       "title": "AI责任与员工负担：四个实施前检查",
       "summaryFile": "./knowledge/wiki/ai-decision-workload-2026-09-14.md",
