@@ -1,22 +1,18 @@
 {
-  "checkedAt": "2026-09-15T01:50:58.159Z",
+  "checkedAt": "2026-09-15T01:53:16.558Z",
   "module": "info-delivery",
   "date": "2026-09-15",
   "timezone": "Asia/Shanghai",
   "scheduledAt": "09:40",
   "deadline": "11:30",
-  "status": "publication-unverified",
+  "status": "published",
   "qualityStatus": "warn",
   "cardCount": 8,
   "gapRecordCount": 1,
   "localReady": true,
-  "publicVerified": false,
-  "issues": [
-    "线上检查未完成，不能证明已发布"
-  ],
-  "remoteErrors": [
-    "daily-report/2026-09-15.md: 无法完成网络或 JSON 检查"
-  ],
+  "publicVerified": true,
+  "issues": [],
+  "remoteErrors": [],
   "receiptMeaning": "只确认当日文件、审计状态及线上内容一致，不代表人工已认可内容价值。",
   "runUrl": null
 }
