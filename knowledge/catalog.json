@@ -139,6 +139,35 @@
   ],
   "reports": [
     {
+      "id": "handoffs-decisions-role-maintenance-2026-09-16",
+      "title": "交接、决策与岗位维护：AI试点的三个组织检查",
+      "summaryFile": "./knowledge/wiki/handoffs-decisions-role-maintenance-2026-09-16.md",
+      "rawFile": "./knowledge/raw/atria-2026-09-14-human-ai-collaboration.pdf",
+      "originalUrl": "https://arxiv.org/pdf/2609.15818v1",
+      "description": "把公司案例、研发研究和岗位方法转成可复用试点检查，明确证据边界与员工收益。",
+      "author": "OD 情报中心",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "人才发展"
+      ],
+      "date": "2026-09-16",
+      "uploadDate": "2026-09-16",
+      "tags": [
+        "交接质量",
+        "决策权",
+        "岗位维护"
+      ],
+      "related": [
+        "./knowledge/wiki/role-price-and-control-2026-09-15.md"
+      ],
+      "backlinks": [
+        "./daily/2026-09-16.md",
+        "./daily-report/2026-09-16.md"
+      ]
+    },
+    {
       "id": "role-price-and-control-2026-09-15",
       "title": "岗位价格与责任设计：先分问题，再选机制",
       "summaryFile": "./knowledge/wiki/role-price-and-control-2026-09-15.md",

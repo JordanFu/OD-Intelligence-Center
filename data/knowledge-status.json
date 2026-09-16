@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-15T17:43:47.877Z",
+  "generatedAt": "2026-09-16T01:54:30.611Z",
   "module": "knowledge-base",
   "qualityStatus": "warn",
   "latestCatalogDate": "2026-09-16",
   "counts": {
-    "reports": 163,
+    "reports": 164,
     "knowledgeSources": 4,
     "sourceTypes": {
-      "industry": 30,
+      "industry": 31,
       "media": 74,
       "internal": 22,
       "concept": 10,
@@ -101,16 +101,16 @@
   "criticalIssues": [],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-09-15T17:43:48.362Z",
+    "checkedAt": "2026-09-16T01:54:31.872Z",
     "qualityStatus": "warn",
-    "firstPartyChecked": 3744,
-    "externalWarnings": 24,
+    "firstPartyChecked": 3750,
+    "externalWarnings": 26,
     "brokenCount": 0,
     "publicScanBridge": [
       {
         "ok": true,
         "status": 200,
-        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-09-15.html"
+        "url": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-09-16.html"
       },
       {
         "ok": true,
