@@ -139,6 +139,36 @@
   ],
   "reports": [
     {
+      "id": "employee-value-and-correction-2026-09-17",
+      "title": "员工价值与纠错权：组织AI试点的验收检查",
+      "author": "OD 情报中心",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "变革管理",
+        "人才发展"
+      ],
+      "date": "2026-09-17",
+      "uploadDate": "2026-09-17",
+      "description": "从报表负担、异常反馈、技能复核与福利使用审视真实员工价值，区分公告、观察和结果。",
+      "summaryFile": "./knowledge/wiki/employee-value-and-correction-2026-09-17.md",
+      "rawFile": "./knowledge/raw/monash-2026-09-16-agent-skill-governance.pdf",
+      "originalUrl": "https://arxiv.org/pdf/2609.17274v2",
+      "tags": [
+        "员工收益",
+        "纠错机制",
+        "技能治理"
+      ],
+      "related": [
+        "./knowledge/wiki/handoffs-decisions-role-maintenance-2026-09-16.md"
+      ],
+      "backlinks": [
+        "./daily/2026-09-17.md",
+        "./daily-report/2026-09-17.md"
+      ]
+    },
+    {
       "id": "handoffs-decisions-role-maintenance-2026-09-16",
       "title": "交接、决策与岗位维护：AI试点的三个组织检查",
       "summaryFile": "./knowledge/wiki/handoffs-decisions-role-maintenance-2026-09-16.md",

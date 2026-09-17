@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-09-16T17:41:14.177Z",
+  "generatedAt": "2026-09-17T01:51:48.791Z",
   "module": "automation",
   "qualityStatus": "warn",
   "chains": {
     "infoFeed": {
       "qualityStatus": "warn",
-      "latestDate": "2026-09-16",
+      "latestDate": "2026-09-17",
       "latestCardCount": 9,
-      "newFactCount": 3
+      "newFactCount": 5
     },
     "infoDelivery": {
-      "checkedAt": "2026-09-16T17:41:13.449Z",
+      "checkedAt": "2026-09-17T01:51:46.517Z",
       "module": "info-delivery",
       "date": "2026-09-17",
       "timezone": "Asia/Shanghai",
       "scheduledAt": "09:40",
       "deadline": "11:30",
-      "status": "scheduled",
+      "status": "publish-pending",
       "qualityStatus": "warn",
-      "cardCount": 0,
-      "gapRecordCount": 0,
-      "localReady": false,
+      "cardCount": 9,
+      "gapRecordCount": 1,
+      "localReady": true,
       "publicVerified": false,
       "issues": [
-        "digest 未出现当日信息卡",
-        "当日 daily 或 daily-report 缺失日期/文件",
-        "当日导读正文缺失",
-        "信息库 manifest 日期或卡片数与当日产物不符"
+        "线上 digest 当日内容不一致或不存在",
+        "线上 daily/2026-09-17.md 不一致或不存在",
+        "线上 daily-report/2026-09-17.md 不一致或不存在",
+        "线上 manifest 未匹配当日内容"
       ],
       "remoteErrors": [],
       "receiptMeaning": "只确认当日文件、审计状态及线上内容一致，不代表人工已认可内容价值。",
-      "runUrl": "https://github.com/JordanFu/OD-Intelligence-Center/actions/runs/35129680440"
+      "runUrl": null
     },
     "topicProjects": {
       "qualityStatus": "warn",
@@ -68,13 +68,13 @@
     "knowledgeLint": {
       "qualityStatus": "pass",
       "latestCatalogDate": "2026-09-17",
-      "reportCount": 164,
+      "reportCount": 165,
       "privatePathLeakCount": 0
     },
     "linkCheck": {
       "qualityStatus": "warn",
       "brokenCount": 0,
-      "checkedAt": "2026-09-16T17:41:13.359Z"
+      "checkedAt": "2026-09-17T01:51:46.456Z"
     },
     "githubActionsFallback": {
       "status": "pass",
@@ -103,7 +103,7 @@
     }
   },
   "warnings": [
-    "信息库交付待核验：scheduled",
+    "信息库交付待核验：publish-pending",
     "信息库质量为 warn",
     "专题研究状态为 warn",
     "本地正式任务无法确认已完成，需要人工补跑或等待正式自动化",
