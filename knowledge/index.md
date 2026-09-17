@@ -168,6 +168,7 @@
 | [gov.uscourts.cand.474095.38.0](wiki/pdf-source-storage-courtlistener-com-gov-uscourts-cand-474095-38-0.md) | storage.courtlistener.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 1 次 |
 | [gov.uscourts.cand.474095.59.0](wiki/pdf-source-storage-courtlistener-com-gov-uscourts-cand-474095-59-0.md) | storage.courtlistener.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 4 次 |
 | [interviewing at google deepmind](wiki/pdf-source-storage-googleapis-com-interviewing-at-google-deepmind.md) | storage.googleapis.com | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 10 次 |
+| [everyone gets the same models the edge is your workforce](wiki/pdf-source-bcg-everyone-gets-the-same-models-the-edge-is-your-workforce.md) | BCG | AI组织设计、人才发展 | 待评估：需精读后确定 | 已索引待重试，引用 7 次 |
 | [BCG：AI Radar 2026](wiki/pdf-source-bcg-bcg-ai-radar-2026.md) | BCG | AI 投资、价值兑现、组织阻碍待核验 | 中相关：战略背景 | 已索引待重试，引用 2 次 |
 | [BCG + MIT Sloan：The Emerging Agentic Enterprise](wiki/pdf-source-bcg-bcg-mit-sloan-the-emerging-agentic-enterprise.md) | BCG | Agentic enterprise、中层层级、组织结构变量 | 强相关：扁平化与管理层级 | 已索引待重试，引用 8 次 |
 | [2026 global investor survey jul 2026](wiki/pdf-source-bcg-2026-global-investor-survey-jul-2026.md) | BCG | AI组织设计 | 待评估：需精读后确定 | 已索引待重试，引用 1 次 |
@@ -178,7 +179,7 @@
 | [cwa18398 2026](wiki/pdf-source-cencenelec-eu-cwa18398-2026.md) | cencenelec.eu | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 5 次 |
 | [draft cwa xxxx e](wiki/pdf-source-cencenelec-eu-draft-cwa-xxxx-e.md) | cencenelec.eu | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 2 次 |
 | [us spans and layers for the modern organization 2020](wiki/pdf-source-deloitte-us-spans-and-layers-for-the-modern-organization-2020.md) | Deloitte | AI组织设计、变革管理 | 待评估：需精读后确定 | 已下载原文，引用 3 次 |
-| [EY：Future of Pay Report 2026](wiki/pdf-source-ey-ey-future-of-pay-report-2026.md) | EY | 技能薪酬、生产率锚点、AI 人才溢价 | 强相关：薪酬与激励机制 | 已下载原文，引用 177 次 |
+| [EY：Future of Pay Report 2026](wiki/pdf-source-ey-ey-future-of-pay-report-2026.md) | EY | 技能薪酬、生产率锚点、AI 人才溢价 | 强相关：薪酬与激励机制 | 已下载原文，引用 172 次 |
 | [pip faq 2026](wiki/pdf-source-facs-org-pip-faq-2026.md) | facs.org | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 6 次 |
 | [2026081700406](wiki/pdf-source-geelyauto-com-hk-2026081700406.md) | geelyauto.com.hk | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 1 次 |
 | [12 087 bc50bde2 3016 457a 9bee dc988cb1056b](wiki/pdf-source-hbs-edu-12-087-bc50bde2-3016-457a-9bee-dc988cb1056b.md) | hbs.edu | AI组织设计 | 待评估：需精读后确定 | 已下载原文，引用 8 次 |

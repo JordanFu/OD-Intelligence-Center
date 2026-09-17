@@ -4515,6 +4515,32 @@
         "NTEN / Bridgespan"
       ],
       "originalUrl": "https://content.nten.org/wp-content/uploads/2026/09/2026-State-of-Nonprofit-AI.pdf"
+    },
+    {
+      "id": "p088",
+      "title": "everyone gets the same models the edge is your workforce",
+      "originalTitle": "everyone gets the same models the edge is your workforce",
+      "author": "BCG",
+      "publisher": "BCG",
+      "sourceType": "consulting",
+      "topics": [
+        "AI组织设计",
+        "人才发展"
+      ],
+      "date": "",
+      "uploadDate": "2026-09-17",
+      "description": "everyone gets the same models the edge is your workforce 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计、人才发展。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-bcg-everyone-gets-the-same-models-the-edge-is-your-workforce.md",
+      "rawFile": "",
+      "fileName": "bcg-everyone-gets-the-same-models-the-edge-is-your-workforce.pdf",
+      "fileSize": "download pending",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "人才发展",
+        "BCG"
+      ],
+      "originalUrl": "https://web-assets.bcg.com/63/bd/63f67c5e44c19abd49fbc5916cfe/everyone-gets-the-same-models-the-edge-is-your-workforce.pdf"
     }
   ]
 }

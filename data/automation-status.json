@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T08:47:00.712Z",
+  "generatedAt": "2026-09-17T15:05:12.430Z",
   "module": "automation",
   "qualityStatus": "warn",
   "chains": {
@@ -10,7 +10,7 @@
       "newFactCount": 5
     },
     "infoDelivery": {
-      "checkedAt": "2026-09-17T08:46:59.137Z",
+      "checkedAt": "2026-09-17T15:05:11.685Z",
       "module": "info-delivery",
       "date": "2026-09-17",
       "timezone": "Asia/Shanghai",
@@ -25,15 +25,14 @@
       "issues": [],
       "remoteErrors": [],
       "receiptMeaning": "只确认当日文件、审计状态及线上内容一致，不代表人工已认可内容价值。",
-      "runUrl": "https://github.com/JordanFu/OD-Intelligence-Center/actions/runs/35201521815"
+      "runUrl": "https://github.com/JordanFu/OD-Intelligence-Center/actions/runs/35237855282"
     },
     "topicProjects": {
       "qualityStatus": "warn",
       "today": "2026-09-17",
-      "todayStatus": "fallback",
-      "latestFormalDate": "2026-09-15",
+      "todayStatus": "formal",
+      "latestFormalDate": "2026-09-17",
       "pendingRerunDates": [
-        "2026-09-17",
         "2026-09-16",
         "2026-09-11",
         "2026-08-30",
@@ -63,13 +62,13 @@
     "knowledgeLint": {
       "qualityStatus": "pass",
       "latestCatalogDate": "2026-09-17",
-      "reportCount": 165,
+      "reportCount": 166,
       "privatePathLeakCount": 0
     },
     "linkCheck": {
       "qualityStatus": "warn",
       "brokenCount": 0,
-      "checkedAt": "2026-09-17T06:22:18.752Z"
+      "checkedAt": "2026-09-17T15:05:11.633Z"
     },
     "githubActionsFallback": {
       "status": "pass",
@@ -93,15 +92,14 @@
       "criticalIssues": []
     },
     "localFormalTask": {
-      "status": "manual-check-required",
+      "status": "confirmed-formal",
       "evidence": "仅根据 topic-projects manifest 判断；无法从云端伪造本地正式运行完成。"
     }
   },
   "warnings": [
     "信息库质量为 warn",
     "专题研究状态为 warn",
-    "本地正式任务无法确认已完成，需要人工补跑或等待正式自动化",
-    "专题待正式重跑 25 天"
+    "专题待正式重跑 24 天"
   ],
   "criticalIssues": [],
   "operatingRule": "GitHub Actions 只能兜底、审计和记录状态；正式研究完成只能由 formal 条件确认。"
