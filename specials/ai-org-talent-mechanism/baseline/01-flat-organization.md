@@ -41,6 +41,7 @@
 | 资料 | 对本专题的价值 |
 |---|---|
 | [Obsidian 本地知识库](./knowledge/wiki/obsidian-vault-full-source-map-2026-05-22.md) | 本地 Vault 当前识别 70 篇 Markdown；2026-06-30 已新增公开安全 source map（覆盖 69 篇，排除 1 篇内部敏感来源），并抽取字节跳动 AI 时代领导力原则、AI 五环协同人才体… |
+| [员工价值与纠错权：组织AI试点的验收检查](./knowledge/wiki/employee-value-and-correction-2026-09-17.md) | 从报表负担、异常反馈、技能复核与福利使用审视真实员工价值，区分公告、观察和结果。 |
 | [交接、决策与岗位维护：AI试点的三个组织检查](./knowledge/wiki/handoffs-decisions-role-maintenance-2026-09-16.md) | 把公司案例、研发研究和岗位方法转成可复用试点检查，明确证据边界与员工收益。 |
 | [AI组织设计的三个配套：授权、监督与支持](./knowledge/wiki/ai-authority-support-2026-09-13.md) | 从公开评估承诺、咨询案例与招聘职责提炼试点检查问题，区分建议与效果，避免把责任和返工转嫁给员工。 |
 | [AI采用之后：责任、支持与人员去向](./knowledge/wiki/ai-work-allocation-2026-09-12.md) | 用普信、NTEN与Bridgespan、Wipro、暴雪案例比较应用责任、员工支持与人员转配；附薪酬统计年代纠偏，不把采用率或产能自述当效果证明。 |
@@ -51,7 +52,6 @@
 | [腾讯 WXG 取消“组长负责制”与项目负责制试点](./knowledge/wiki/tencent-wxg-project-owner-reform-2026-05.md) | 基于《中国企业家》、竞核、搜狐/IT时代网、腾讯官方财报与股东大会报道，梳理腾讯 WXG 多部门试行项目负责制、弱化组长/总监固定管理链条的组织含义。重点用于 AI 时代扁平化、项目 owner、干部年轻化和技术组织变… |
 | [知识库主题分类与去重治理建议](./knowledge/wiki/knowledge-taxonomy-dedup-review-2026-05-22.md) | 对当前知识库重复信息与分类体系的健康检查。结论是来源页不应删除，需新增主题导航层，将 Zapier、GitLab、AI能力盘点、AI-first operating model、技术组织、绩效薪酬等高重叠主题收敛到主题… |
 | [AI 原生组织：从加 AI 功能到长 AI 基因](./knowledge/wiki/ai-native-organization-operating-pattern.md) | 补齐 AI 原生组织概念页，强调业务流/工作流合一、智能决策默认推送、经验可复制、激励机制和 Context over Control。 |
-| [AI 时代五环协同人才体系](./knowledge/wiki/ai-five-ring-talent-system-huang-qifan-2026.md) | 将 AI 时代人才体系抽象为研发、工程化、产业化、组织化、治理五环协同，强调人才组合、任务共同体和协同机制。 |
 
 ## 当前不可越界的结论
 
