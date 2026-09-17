@@ -1,61 +1,137 @@
-# 2026-09-17｜AI时代组织与人才机制四课题总览
+# 2026-09-17｜AI时代组织与人才机制四专题总览
 
-> 语言规则：正文统一中文主叙事；必要英文术语采用“中文（English）”首次括注，禁止在中文句子中直接夹杂 manager、owner、workflow、rubric 等 ABC 表达。
+> **正式专题日报｜严格事实窗口：2026-09-16 18:00:00—2026-09-17 18:00:00（Asia/Shanghai）**
+>
+> **证据口径：**L4＝外部证据、企业内部运行、员工验证与稳定后效闭环；L3＝强一手或权威事实获得独立互证并可还原关键动作；L2＝强一手窄事实、权威媒体或有方法边界的专业材料；L1＝招聘意图、供应商自报、单一员工／社媒或合理但未验证的线索；L0＝时间、分母、责任、运行或因果不可核。
+>
+> **新增口径：**文件发布、媒体核实、组织动作、职位更新时间与机制运行分别记录；转载同一报道、信息库对同一来源的加工及同一供应商的多平台稿件不算独立互证。
+>
+> **读者应该带走什么：**今天没有证据支持“AI 普遍导致减中层、只留超级个体、统一建立 AI 序列或随时晋升”。真正的增量是一条更可执行的责任设计链：先重画组织边界与工作责任，再让技能、价格和项目回报动态承接，最后只把持续岗位价值变化写入职级与晋升。
 
-> 研究状态记录 / 非决策稿：本文件只用于记录“自动化已触发但尚未完成正式研究”的状态，不能作为 CEO 决策稿。正式日报必须由四课题代理、四渠道代理和主代理交叉证伪后重跑；若未完成，不用通用判断冒充结论。
+## 1. 今日总判断：四专题共同指向“责任可闭环，机制才可变”
 
-## 今日一句话结论
+**今日一句话：AI 组织改革的最小闭环不是人数减少，而是工作被删除或重组、责任与权限同移、专业复核仍在、员工净负担下降、价值获得相称回报。**
 
-今日暂不形成正式结论：当前仅完成兜底记录，缺少当日新增一手事实、反例、薪酬/JD 信号和多源互证，不满足 CEO 决策质量门槛。
+今天四个专题共同指向一个“双向变化”：报表准备、信息转述、低风险协调与部分标准任务可被自动化或合并，端到端责任可向业务团队和个人贡献者下沉；Agent 身份、准入、审计、安全、硬件、生命科学和复杂基础设施却需要更深的专业责任。组织因此不是单向扁平，而是**中央护栏更集中、场景责任更分布、岗位骨架更少、技能与价格层更动态**。
 
-## 今日核心判断
+证据边界同样清楚：Adidas 的人员动作没有经理／个人贡献者分母和 AI 因果；Anew Labs 的分拆改变了组织边界，却没有公开层级和后效；BCG 匿名银行的 250→22 与约 90% 内部补缺是具体但不可外推的咨询案例；OpenAI、美团、Anyscale 的职位只表示需求文本；HiBob 和 Kyndryl 只证明产品或学习基础设施存在。本窗没有 L3／L4 级人才机制后效，也没有完整晋升制度原件。
 
-1. **不升级为结论。可信度：低。** 现有来源池只能说明这些方向值得追踪，不能证明今日发生了新的岗位、职级、薪酬或组织改革事实。
-2. **必须补齐上下文后再判断。可信度：高。** 正式研究需要还原主体、时间线、改革动作、员工影响、薪酬/激励承接和争议信息，否则只是信息堆叠。
-3. **宁可标注缺口，也不输出空泛总结。可信度：高。** 兜底自动化的价值是提醒缺口与触发重跑，不是生成看似完整但不可追溯的报告。
+**核心判断可信度：高（证据边界）；中高（双向责任变化）；中（对企业机制的迁移建议）。**今天真正有价值的不是再造一个趋势口号，而是把人员动作、组织边界、岗位责任、市场价格、技能证据和永久职级重新分开。
 
-## 今日背景材料
+**背景材料：**最新正式基线是 9 月 15 日。今天读取了 `digest.md`、近七日 `daily/` 与 `daily-report/`、知识目录、概念卡、既有专题和基线档案，只用于去重与历史校准。
 
-- 来源池中 IBM、Microsoft、Deloitte、McKinsey、Mercer、EY、Payscale 等材料仍可作为后续研究入口，但今日未完成逐条复核，暂不形成结论。
-- 继续关注 岗位与工作流重设计、智能体治理、基于技能的薪酬 和 薪酬带宽 等方向，但必须用当日新证据验证。
-- 当前最重要的缺口不是“缺文字”，而是缺新增事实、证据解释、反例、落地细节和可追溯来源之间的逻辑链。
+## 2. 今日最重要的 7 条发现
 
-## 今日新增证据地图
+### 发现一｜组织边界可能比层级更先变化
 
-| 渠道 | 当前状态 | 必须补齐 |
-|---|---|---|
-| 官方/一手 | 待检索 | 公司公告、IR/SEC、官方博客、制度手册、招聘页原文 |
-| 权威媒体与案例 | 待检索 | Reuters/FT/WSJ/咨询报告中的事实、时间线、争议 |
-| 社媒/职场平台 | 待检索 | 只收线索，不当结论；记录关键词和待验证方向 |
-| 招聘 JD 与薪酬 | 待检索 | 头衔、职责、薪资区间、职级、地区、个人贡献者/管理者 边界 |
+Anew Labs 从字节体系分拆为独立主体，Reuters 引述知情人士称 AI 制药与母体核心业务的行业逻辑、管理方式不同；公司页同时显示算法、生命科学与工程交付的跨学科配置。它说明当验证周期、失败率、资本结构和人才定价长期不同，继续在母体内加岗位族或津贴可能不如重画边界有效。但融资、估值和独立主体都不能证明研发效率或人才密度已经提高。[Reuters转载原文](https://whbl.com/2026/09/16/bytedance-completes-290-million-fundraising-for-ai-drug-unit-after-its-spin-off-sources-say/)｜[Anew Labs](https://anewbt.com/)｜**L2 分拆事实；机制后效 L0—L1。**
 
-## 线索层
+### 发现二｜Agent 时代不是完全去中心化，而是“中央身份与准入＋团队运行责任”
 
-- 追踪 FDE、AI 工作流负责人、智能体运营、AI 治理（AI governance）、基于技能的薪酬等头衔是否形成稳定 岗位族群。
-- 追踪中国公司是否用技能标签、稀缺系数、项目激励替代新增岗位序列。
-- 追踪“执行层角色变宽”与“核心专家能力深化”是否同时出现，而不是只看单向趋势。
+Fortune 对 Cisco、Workday、Intuit、ServiceNow 等高管的采访显示，中央身份、准入、日志与控制塔开始集中建设，同时具体团队对 Agent 的上下文、规则、行为和例外负责。Cisco 自报的日活和获准 Agent 数量只能证明采用，不能证明质量、减层或生产率。[Fortune](https://fortune.com/2026/09/16/ai-agents-are-going-rogue-cios-are-racing-to-put-guardrails-around-them/)｜**L2 设计事实；组织后效 L0—L1。**
 
-## 待补齐的落地问题
+### 发现三｜减岗与扁平化必须分开
 
-正式重跑必须把证据转化为战略、岗位、职级、薪酬和激励机制建议；没有证据链时，只记录缺口，不输出管理建议。
+Adidas 确认印度技术组织减少岗位，并表示要简化部分组织、强化关键能力；但媒体的 350 人／约半数与公司“低于技术运营人员 20%”口径冲突，且没有层级、经理比例、跨度、工作去向和 AI 因果。今天只能确认能力重配和人员动作，不能写成“中层减少”。[Reuters](https://www.reuters.com/world/india/adidas-cuts-jobs-india-technology-team-2026-09-16/)｜[Business Standard](https://www.business-standard.com/companies/news/adidas-begins-layoffs-at-gurugram-tech-hub-to-reduce-nearly-50-workforce-126091700147_1.html)｜**岗位动作 L3；规模部分 L1；扁平化 L0。**
 
-## 待验证清单与下一步计划
+### 发现四｜岗位对象可以合并，专业能力不会因此消失
 
-1. 检索今日新增官方/一手材料，确认是否有新公司案例。
-2. 检索权威媒体与咨询报告，补齐改革时间线、员工影响和争议。
-3. 检索招聘 JD 与薪酬信号，验证岗位变宽、专家深化和技能溢价。
-4. 收集社媒/职场平台弱信号，只进入线索池，不进入结论层。
-5. 主代理交叉验证后，将可互证内容升级为正式日报。
+BCG 披露匿名全球银行在 2025 年把 250 种角色重组为 22 种，并称约 90% 能力缺口由内部技能识别、流动或再培训填补；OpenAI、美团当窗职位同时出现端到端应用责任和硬件、后训练、分布式系统等深专业责任。可减少的是重复分类与交接，不是专业深度。[BCG](https://www.bcg.com/publications/2026/australia-the-edge-is-your-workforce)｜[OpenAI ATS](https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true)｜[美团招聘](https://zhaopin.meituan.com/web/campus)｜**BCG L2 匿名案例；JD L1。**
+
+### 发现五｜高人才密度首先是内部发现与机会配置问题
+
+BCG 案例、ETHRWorld 对印度 CHRO／CPO 的具名采访和 Jaro Education 的 1:3 准备池，共同支持“技能可见—相邻技能匹配—准备池—学习—真实项目验证”的供给链，而不是先用高价外招和末位淘汰。现有材料没有面试效度、项目机会分母、留任与 6／12 月后效，故不能宣布密度提高。[ETHRWorld](https://hr.economictimes.indiatimes.com/news/workplace-4-0/talent-management/rethinking-workforce-planning-as-work-outgrows-job-descriptions/134295840)｜**L2 做法陈述；后效 L0—L1。**
+
+### 发现六｜效率必须以员工净负担和结果质量共同计量
+
+麦肯锡匿名案例称月度报告准备由 12 天缩至 3 天，同时承认误报会增加负担；脉脉二手报道中“感到产出增加”与“工时减少”的比例明显不同。节时若被更多填报、复核、会议或配额吸收，就不是员工生产力收益。[McKinsey](https://www.mckinsey.com/capabilities/transformation/our-insights/the-agentic-transformation-office-redefining-the-economics-of-change)｜[每经](https://www.nbd.com.cn/articles/2026-09-16/4583369.html)｜**L2 方法／匿名案例；脉脉 L1。**
+
+### 发现七｜晋升仍应“双轨窗口＋窄例外”，今天没有新制度证明随时晋升有效
+
+HiBob 把岗位架构、薪酬与绩效建议嵌入经理工作流，Kyndryl 披露按角色／技能的学习路径和数字证书，BCG 建议同步更新职业路径、晋升标准与认可；这些都是输入或产品计划，不是固定窗口、周期外例外、证据包、委员会、薪酬落位、理由和申诉都已运行的制度。**完整晋升机制新增为 0；该零结果可信度高。**
+
+## 3. 四专题交叉关系：一条“边界—责任—技能—价格—成长”链
+
+| 起点 | 组织扁平化 | 高人才密度 | 岗位／族群／序列 | 晋升机制 | 共同防错 |
+|---|---|---|---|---|---|
+| 业务逻辑长期分化 | 可能重画实体或业务边界，不只是少一层 | 需要不同专业组合、失败容忍与长期激励 | 母体内建新序列未必承接独立市场 | 里程碑与股权可奖励长期风险，但不自动换级 | 不以融资或估值证明组织有效 |
+| Agent 承接标准任务 | 中央护栏集中，场景决定权下沉 | 识别问题定义、核验、异常升级与复用能力 | 稳定责任写岗位，快变能力写技能／权限标签 | AI 使用只作证据之一，不作自动晋升分 | 不把工具活动量当价值 |
+| 端到端责任变宽 | 减少交接，但需专家接口、第二人和正常容量 | 复合交付者与深专家共同组成密度 | 应用岗位变宽，硬件、安全、基础设施继续深化 | 持续履行目标级责任才进入永久晋升 | 不把一人多岗包装成密度 |
+| 能力或价格变化 | 不靠加层解决短缺 | 内部发现、准备池、带薪学习与真实项目验证 | 跨岗快变用技能标签；短缺用限期系数；战役用项目奖；长期价值才调薪带 | 技能认证、市场补差、岗位重评与晋升分开 | 不用新序列绕过薪酬公平 |
+| 组织／人员压缩 | 必须有工作去向、权限迁移和员工后效 | 同时看质量、正常工时、替补与学习 | 保留初级入口与关键专业，避免路径断裂 | 裁员后留下者不自动升级 | 员工是否真正减负是必要分母 |
+
+**因果顺序：**先判断是层级接口、岗位接口还是组织边界问题；再拆解任务、责任、权限、风险与专业接口；随后选择技能标签、项目激励、市场系数、津贴、薪带或实体边界；只有岗位价值持续变化且员工稳定达到目标级标准，才进入晋升。顺序倒置会用裁员证明扁平、用职位证明密度、用新头衔解决薪酬、用单次战功替代晋升。
+
+## 4. 今日判断变化：哪些被增强、削弱或修正
+
+### 被增强
+
+1. **“岗位粗化与专业深化并存”增强。**Anew Labs、OpenAI、美团和 Anyscale 同时呈现跨域交付与深技术责任。
+2. **“技能层比岗位层更需要高频更新”增强。**BCG 角色重组、ETHRWorld 准备池、Kyndryl 学习路径共同支持稳定岗位骨架上的动态技能、项目与授权。
+3. **“AI 治理是组织设计而不只是安全清单”增强。**OpenAI 异常框架和企业 Agent 治理案例都把报告入口、调查、停止、升级和责任归属连成链。
+4. **“组织边界也是人才与激励工具”新增。**若产业周期和价值实现逻辑根本不同，母体内新建序列可能不是正确解法。
+
+### 被削弱
+
+1. **“减岗＝减中层＝AI 替代”继续削弱。**Adidas 有人员动作但没有层级与 AI 因果。
+2. **“角色更少＝人才密度更高”被削弱。**BCG 匿名案例缺员工负荷、机会公平和长期结果。
+3. **“证书或职位头衔可直接触发晋升”被削弱。**数字证书、Staff／Manager 头衔、招聘薪带和供应商评分均不是晋升决定。
+
+### 被修正或继续冻结
+
+- **修正：**扁平化不是取消中央治理，而是把集中护栏与分布责任分开设计。
+- **修正：**岗位架构“变少”应同时验证职业路径是否变宽；如果入口、导师、横向流动与专家路径减少，只是把复杂度转给员工。
+- **继续冻结：**经理净数、层级、跨度、面试效度、项目机会公平、实际薪酬／股权、成熟序列与即时晋升后效，本窗没有 L3／L4 新证据。
+
+## 5. 关键冲突与反例：暂不形成结论，但提示我们关注……
+
+**证据地图：**官方／一手确认当前制度、职位与组织动作；权威媒体还原时间和冲突；咨询／学术提供有边界的方法；招聘与薪酬只作需求和价格信号；社媒／职场平台只进入线索层；内部信息库只用于去重；员工结果需要另行验证。
+
+1. **Anew Labs 既支持跨学科协作，也可能制造母子公司接口。**独立实体能改变资本和激励，却可能增加合规、数据与资源协同成本。
+2. **中央 Agent 准入既能降风险，也可能成为新官僚层。**必须同时测审批等待、例外率、业务返工和事故。
+3. **BCG 250→22 既可能简化岗位，也可能压平真实差异。**匿名案例没有旧岗映射、员工选择、薪带、申诉和长期留任。
+4. **复合责任既可能减少交接，也可能形成过载。**JD 没有并行项目、值守、旧任务删除、导师与第二人数据。
+5. **产出增加与工时减少不同步。**暂不形成结论，但提示我们关注节省时间是否回到员工，还是转成更高配额。
+6. **技能认证与公平机会可能冲突。**若学习在下班时间、项目由熟人分配或证书由单一供应商控制，认证会放大差距。
+7. **晋升速度与校准公平存在张力。**完全随时晋升可能增加标准漂移；只有固定窗口又会压住真实扩责。今天更支持固定校准与窄例外并存，但尚无公司后效。
+
+## 6. 行动启发：六个维度的同一套决策顺序
+
+| 维度 | 当前建议 | 进入正式变化的证据 | 人本与治理红线 |
+|---|---|---|---|
+| 战略 | 先区分层级接口、岗位接口与组织边界；写明不可委托风险和收益去向 | 业务周期、客户结果、失败成本、替代方案、全成本 | 不以融资、裁员或调用量代替价值 |
+| 组织架构 | 建“工作去向账＋责任权限图”；中央做身份／准入／审计，业务承担场景结果 | 原／新组织图、经理净数、跨度、决策时延、风险、员工净工时 | 未分配的协调和辅导劳动不得默默转给一线 |
+| 岗位序列 | 稳定独特责任建岗位；共同专业根形成职族；长期独立成长才建序列；快变能力留技能标签 | 复数任职、至少三级复杂度、共同市场、薪带、培养、流动、申诉和退出 | 单人、单项目、工具词、短缺或加薪诉求不建序列 |
+| 人才密度 | 做内部技能图、1:3 准备池、带薪学习、真实项目验证和公开机会池 | 工作样本效度、机会分母、导师、正常工时、质量、实际 offer、留任 | 不读取私人对话、键鼠、Token 或在线时长做秘密潜力分 |
+| 晋升激励 | 固定校准＋窄周期外例外；六路分流：即时认可、项目奖、代理津贴、市场补差、技能认证、岗位重评／永久晋升 | 真实证据包、跨经理复核、人才委员会、预算、薪酬落位、理由、申诉、6／12 月后效 | 单次战功、证书、头衔或 AI 活动量不自动换级 |
+| 沟通落地 | 先说明删什么、保留什么、员工先得到什么、哪些数据不用、谁能纠错 | 30／90／180 天的等待、返工、事故、净工时、成长、健康、留任和客户结果 | 节省一小时就追加一小时工作，属于劳动强度增加 |
+
+**建议的 60—90 天联合试点：**选择一个跨部门客户流程和一个内部高频低风险流程，不先改岗位代码、层级和职级。冻结前态后，删除重复报表与低价值交接，写清结果负责人、专业签字、Agent 身份与最小权限、停止／恢复、例外升级、第二人、容量、导师和薪酬承接。员工先获得可见价值，并能查看、更正和申诉自然工作流数据的使用。
+
+同时记录净合格结果、等待、返工、事故、复核与维护工时、经理／员工净工时、项目机会、学习、休假覆盖和节时去向。只有质量、速度、风险、员工收益与知识连续性共同改善，才扩大跨度、固化岗位或改变永久职级；若旧工作未删、汇报增加或节时全变成更高配额，停止扩张并回滚。
+
+## 7. 明日优先追踪问题
+
+1. **P0｜Anew Labs 组织原件：**母子公司治理、决策权、核心岗位、长期激励、旧职级映射、合规接口和 6／12 月人才后效是什么？
+2. **P0｜Adidas 工作去向：**受影响岗位、经理／个人贡献者比例、原／新组织图、开放岗位、内部转岗、跨度、员工支持和质量后效是什么？
+3. **P0｜BCG 银行案例：**250→22 的分类口径、旧岗映射、员工选择、薪带、学习成本、机会公平、离职与长期业务结果是什么？
+4. **P0｜Agent 治理运行：**中央准入等待、否决／例外、事故、团队责任、员工复核负担与停止／恢复机制如何？
+5. **P0｜内部人才市场：**1:3 准备池、技能邻接和项目机会的候选分母、评审量表、实际移动、晋升、薪酬与留任后效是什么？
+6. **P0｜完整晋升原件：**继续寻找固定窗口、周期外例外、证据包、同行评审、委员会、预算、薪酬落位、理由、申诉及后效同时存在的公司制度。
+7. **P1｜薪酬与 JD：**对 OpenAI、美团、Anyscale 等职位做首发／重发差分，按同职责、同级、同地、现金＋股权核价格，避免用广告带宽外推溢价。
+8. **P1｜员工收益：**核员工先获得的价值、旧工作删除、正常工时、隐私、机会公平、节时分配与可纠错边界。
+9. **停止条件：**只有裁员人数、供应商承诺、匿名咨询案例、ATS 日期、头衔、证书、薪带或社媒线索时，停在 L0—L2 事实／Context，不升级为普遍机制结论。
 
 ## 来源索引
 
-- [IBM Think 2026 recap](https://www.ibm.com/think/news/think-2026-ai-recap)：智能体式 AI（agentic AI）规模化、Bob 工具、治理与生产率
-- [Microsoft Work Trend Index 2026](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization)：人机协同能动性（human-agent agency）、运营模式重设计（operating model redesign）
-- [Deloitte：人机协同 AI 运营模式](https://www.deloitte.com/us/en/insights/topics/talent/operating-models-for-humans-ai-agents.html)：84% 的公司尚未围绕 AI 重新设计岗位；智能体运营模式
-- [McKinsey：AI 优先技术人才体系](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/designing-an-end-to-end-technology-workforce-for-the-ai-first-era)：AI 优先技术人才、深度专家、产品/平台模式
-- [Mercer Global Talent Trends 2026](https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/)：工作重设计、技能作为价值货币、人机协作
-- [EY Future of Pay 2026](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/newsroom/2026/02/ey-future-of-pay-report-2026.pdf)：AI 技能溢价、基于技能的薪酬、退出条款（sunset clauses）
-- [Payscale 2026 薪酬最佳实践报告](https://www.payscale.com/press-releases/2026-compensation-best-practices-report)：AI 技能薪酬、薪酬公平
-- [CHRO Association 2026 Survey](https://www.chro.org/documents/d/guest/2026_chro_survey_key_findings_p)：中层阻力、CHRO 议题
-- [OD Intelligence Center 知识库](./knowledge/wiki/zhiyinlou-hr-thematic-index-2026-05-13.md)：AI+HR、薪酬福利、组织发展精读池
-- [微信公众号「AI组织进化论」](wechat:AI组织进化论)：国内垂直内容源；作为背景材料和线索源使用，拿到原文链接或多源互证后才能进入结论层
+- [Anew Labs](https://anewbt.com/)；[Reuters/WHBL 分拆背景](https://whbl.com/2026/09/16/bytedance-completes-290-million-fundraising-for-ai-drug-unit-after-its-spin-off-sources-say/)；[36氪/动脉网](https://m.36kr.com/p/3986744042765062)
+- [Fortune：企业 Agent 治理](https://fortune.com/2026/09/16/ai-agents-are-going-rogue-cios-are-racing-to-put-guardrails-around-them/)
+- [Reuters：Adidas](https://www.reuters.com/world/india/adidas-cuts-jobs-india-technology-team-2026-09-16/)；[Business Standard](https://www.business-standard.com/companies/news/adidas-begins-layoffs-at-gurugram-tech-hub-to-reduce-nearly-50-workforce-126091700147_1.html)
+- [BCG 正文](https://www.bcg.com/publications/2026/australia-the-edge-is-your-workforce)；[BCG PDF](https://web-assets.bcg.com/63/bd/63f67c5e44c19abd49fbc5916cfe/everyone-gets-the-same-models-the-edge-is-your-workforce.pdf)
+- [ETHRWorld](https://hr.economictimes.indiatimes.com/news/workplace-4-0/talent-management/rethinking-workforce-planning-as-work-outgrows-job-descriptions/134295840)
+- [OpenAI ATS](https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true)；[美团招聘](https://zhaopin.meituan.com/web/campus)；[Anyscale ATS](https://api.ashbyhq.com/posting-api/job-board/anyscale?includeCompensation=true)
+- [HiBob](https://www.hibob.com/news/hibob-and-the-josh-bersin-company-launch-galileopowered-workforce-intelligence-in-bob/)；[Kyndryl](https://www.kyndryl.com/us/en/about-us/news/2026/09/2026-corporate-citizenship-report)
+- [McKinsey：Agentic transformation office](https://www.mckinsey.com/capabilities/transformation/our-insights/the-agentic-transformation-office-redefining-the-economics-of-change)；[OpenAI：模型异常披露框架](https://openai.com/index/model-misalignment-reporting-framework/)
+- [Amazon 薪酬福利](https://www.aboutamazon.com/news/workplace/amazon-raises-minimum-starting-pay-adds-grocery-banking-benefits)；[AP 核对](https://apnews.com/article/cecdedb344297a2886513bbcc0360535)
+- [Monash/arXiv 技能库研究](https://arxiv.org/abs/2609.17274)；[AHRI 指标化绩效 Context](https://www.ahri.com.au/articles/performance-metrics-engagement-and-retention-risks)
+- 内部校准：`daily/2026-09-17.md`、`daily-report/2026-09-17.md`、`digest.md`、`knowledge/catalog.json`、`knowledge/index.md`、`specials/ai-org-talent-mechanism/2026-09-15/`
