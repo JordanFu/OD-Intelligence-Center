@@ -144,15 +144,29 @@
       "author": "OD 情报中心",
       "publisher": "OD Intelligence Center",
       "sourceType": "industry",
-      "topics": ["AI组织设计", "绩效管理", "人才发展"],
+      "topics": [
+        "AI组织设计",
+        "绩效管理",
+        "人才发展"
+      ],
       "date": "2026-09-18",
       "uploadDate": "2026-09-18",
       "description": "比较流程改善、任务自动化与薪酬差距的证据边界，提供不增加员工汇报负担的试点检查。方法披露与效果、招聘意图与正式制度分开。",
       "summaryFile": "./knowledge/wiki/workflow-measurement-boundaries-2026-09-18.md",
       "originalUrl": "https://blogs.microsoft.com/blog/2026/09/17/what-weve-learned-from-microsofts-own-ai-transformation/",
-      "tags": ["工作设计", "测量边界", "员工收益"],
-      "related": ["knowledge/wiki/employee-value-and-correction-2026-09-17.md", "knowledge/concepts/ai-workforce-risk.md"],
-      "backlinks": ["daily/2026-09-18.md", "daily-report/2026-09-18.md"]
+      "tags": [
+        "工作设计",
+        "测量边界",
+        "员工收益"
+      ],
+      "related": [
+        "knowledge/wiki/employee-value-and-correction-2026-09-17.md",
+        "knowledge/concepts/ai-workforce-risk.md"
+      ],
+      "backlinks": [
+        "daily/2026-09-18.md",
+        "daily-report/2026-09-18.md"
+      ]
     },
     {
       "id": "employee-value-and-correction-2026-09-17",
