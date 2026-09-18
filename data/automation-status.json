@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T14:33:06.284Z",
+  "generatedAt": "2026-09-18T17:08:50.322Z",
   "module": "automation",
   "qualityStatus": "warn",
   "chains": {
@@ -10,29 +10,35 @@
       "newFactCount": 3
     },
     "infoDelivery": {
-      "checkedAt": "2026-09-18T14:33:05.691Z",
+      "checkedAt": "2026-09-18T17:08:49.909Z",
       "module": "info-delivery",
-      "date": "2026-09-18",
+      "date": "2026-09-19",
       "timezone": "Asia/Shanghai",
       "scheduledAt": "09:40",
       "deadline": "11:30",
-      "status": "published",
+      "status": "scheduled",
       "qualityStatus": "warn",
-      "cardCount": 8,
-      "gapRecordCount": 1,
-      "localReady": true,
-      "publicVerified": true,
-      "issues": [],
+      "cardCount": 0,
+      "gapRecordCount": 0,
+      "localReady": false,
+      "publicVerified": false,
+      "issues": [
+        "digest 未出现当日信息卡",
+        "当日 daily 或 daily-report 缺失日期/文件",
+        "当日导读正文缺失",
+        "信息库 manifest 日期或卡片数与当日产物不符"
+      ],
       "remoteErrors": [],
       "receiptMeaning": "只确认当日文件、审计状态及线上内容一致，不代表人工已认可内容价值。",
-      "runUrl": "https://github.com/JordanFu/OD-Intelligence-Center/actions/runs/35356883386"
+      "runUrl": "https://github.com/JordanFu/OD-Intelligence-Center/actions/runs/35372564842"
     },
     "topicProjects": {
       "qualityStatus": "warn",
-      "today": "2026-09-18",
-      "todayStatus": "formal",
+      "today": "2026-09-19",
+      "todayStatus": "fallback",
       "latestFormalDate": "2026-09-18",
       "pendingRerunDates": [
+        "2026-09-19",
         "2026-09-16",
         "2026-09-11",
         "2026-08-30",
@@ -61,14 +67,14 @@
     },
     "knowledgeLint": {
       "qualityStatus": "pass",
-      "latestCatalogDate": "2026-09-18",
+      "latestCatalogDate": "2026-09-19",
       "reportCount": 167,
       "privatePathLeakCount": 0
     },
     "linkCheck": {
       "qualityStatus": "warn",
       "brokenCount": 0,
-      "checkedAt": "2026-09-18T14:33:05.640Z"
+      "checkedAt": "2026-09-18T17:08:49.863Z"
     },
     "githubActionsFallback": {
       "status": "pass",
@@ -92,14 +98,16 @@
       "criticalIssues": []
     },
     "localFormalTask": {
-      "status": "confirmed-formal",
+      "status": "manual-check-required",
       "evidence": "仅根据 topic-projects manifest 判断；无法从云端伪造本地正式运行完成。"
     }
   },
   "warnings": [
+    "信息库交付待核验：scheduled",
     "信息库质量为 warn",
     "专题研究状态为 warn",
-    "专题待正式重跑 24 天"
+    "本地正式任务无法确认已完成，需要人工补跑或等待正式自动化",
+    "专题待正式重跑 25 天"
   ],
   "criticalIssues": [],
   "operatingRule": "GitHub Actions 只能兜底、审计和记录状态；正式研究完成只能由 formal 条件确认。"
