@@ -40,6 +40,7 @@
 
 | 资料 | 对本专题的价值 |
 |---|---|
+| [岗位责任与证据：知识治理、薪酬比较和外部监督](./knowledge/wiki/role-charters-and-evidence-2026-09-19.md) | 比较岗位责任、薪酬结构控制与外部评估权利，区分公开安排、统计观察与待试验建议。 |
 | [交接、决策与岗位维护：AI试点的三个组织检查](./knowledge/wiki/handoffs-decisions-role-maintenance-2026-09-16.md) | 把公司案例、研发研究和岗位方法转成可复用试点检查，明确证据边界与员工收益。 |
 | [岗位价格与责任设计：先分问题，再选机制](./knowledge/wiki/role-price-and-control-2026-09-15.md) | 比较市场补差、复合岗位支持与人机授权，明确证据边界和可试用的工作前检查；不把建议当成企业已验证制度。 |
 | [AI责任与员工负担：四个实施前检查](./knowledge/wiki/ai-decision-workload-2026-09-14.md) | 从咨询建议、岗位意图与员工体验识别人工决定、维护支持和净负担问题；不把旧线或弱信号包装为新增。 |
@@ -51,7 +52,6 @@
 | [Zapier：AI-first 招聘与入职机制](./knowledge/wiki/zapier-ai-first-hiring-onboarding-2025.md) | Zapier 将 AI fluency 设为所有新员工最低门槛的初始实践：四级 AI fluency、四个招聘评估触点、AI-first onboarding、builder mindset，以及绩效预期同步更新。 |
 | [CFTE：AI Proficiency Framework](./knowledge/wiki/pdf-source-cfte-2026-04-ai-proficiency-framework.md) | CFTE 提出的专业劳动力 AI 熟练度参考框架：三层公开等级、六档内部发展模型、十个能力域，以及 knowledge/skills/behaviours 三类评估维度。适合用于 AI 能力盘点、岗位技能标签、人才发展… |
 | [技能为本的组织：职位、技能与薪酬架构的连接](./knowledge/concepts/skills-based-organization-obsidian.md) | 围绕技能而非职位角色管理人才：从技能分类法、技能评估与匹配，到招聘、发展、薪酬和劳动力规划。对“何时新增岗位/序列，何时只加技能标签”有直接参考价值。 |
-| [百度职级体系改革：从多轨标签到 5-12 数字体系](./knowledge/wiki/baidu-level-reform-2026-obsidian.md) | 本地 Obsidian 中已沉淀的百度职级改革笔记：取消 T/P/E/Band/M，统一为 5-12 级，打通专业与管理通道，并从利益视角解释改革背后的筛选与激励逻辑。 |
 
 ## 当前不可越界的结论
 

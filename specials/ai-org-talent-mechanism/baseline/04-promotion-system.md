@@ -40,6 +40,7 @@
 
 | 资料 | 对本专题的价值 |
 |---|---|
+| [岗位责任与证据：知识治理、薪酬比较和外部监督](./knowledge/wiki/role-charters-and-evidence-2026-09-19.md) | 比较岗位责任、薪酬结构控制与外部评估权利，区分公开安排、统计观察与待试验建议。 |
 | [知识库主题分类与去重治理建议](./knowledge/wiki/knowledge-taxonomy-dedup-review-2026-05-22.md) | 对当前知识库重复信息与分类体系的健康检查。结论是来源页不应删除，需新增主题导航层，将 Zapier、GitLab、AI能力盘点、AI-first operating model、技术组织、绩效薪酬等高重叠主题收敛到主题… |
 | [绩效管理标杆实践：四种机制流派](./knowledge/wiki/performance-management-benchmark-patterns.md) | 公开安全版绩效机制抽象，不包含内部采集细节；将绩效管理拆成相对排名、自主发展、快照记录、分层差异四类机制流派。 |
 | [HBR：AI 时代绩效管理需要新的度量对象](./knowledge/wiki/hbr-ai-era-performance-metrics-2026.md) | 提出人的贡献、AI系统与Agent、人机组合结果三层绩效度量框架；强调速度、产出量和AI使用率不能替代边界判断、可追溯性、升级质量和共同业务结果。 |
@@ -51,7 +52,6 @@
 | [本地知识库定期 Review（2026-07-06）](./knowledge/wiki/local-knowledge-review-2026-07-06.md) | 本周知识库巡检报告，覆盖 PDF 自动入库结果、最近 7 个信息日质量、专题连续性、PDF 卡片精读缺口和 AI 组织研究下一步优先级。 |
 | [本地知识库定期 Review（2026-08-03）](./knowledge/wiki/local-knowledge-review-2026-08-03.md) | 本周知识库巡检报告，覆盖仓库恢复、48 个 PDF 来源自动入库、模板卡与重复映射债务、专题连续性、公开分享入口和 AI 组织研究优先级。 |
 | [本地知识库定期 Review（2026-08-10）](./knowledge/wiki/local-knowledge-review-2026-08-10.md) | 本周知识库巡检报告，覆盖 61 个公开 PDF 来源自动入库、模板卡与重复映射债务、信息流与专题连续性、公开分享入口和 AI 组织研究优先级。 |
-| [本地知识库定期 Review（2026-08-18）](./knowledge/wiki/local-knowledge-review-2026-08-18.md) | 本周知识库巡检报告，覆盖仓库恢复、68 个公开 PDF 来源自动入库、模板卡与重复映射债务、信息流与专题状态一致性、公开分享入口和 AI 组织研究优先级。 |
 
 ## 当前不可越界的结论
 
