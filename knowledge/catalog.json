@@ -139,6 +139,22 @@
   ],
   "reports": [
     {
+      "id": "role-charters-and-evidence-2026-09-19",
+      "title": "岗位责任与证据：知识治理、薪酬比较和外部监督",
+      "author": "OD 情报中心",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "industry",
+      "topics": ["AI组织设计", "人才发展"],
+      "date": "2026-09-19",
+      "uploadDate": "2026-09-19",
+      "description": "比较岗位责任、薪酬结构控制与外部评估权利，区分公开安排、统计观察与待试验建议。",
+      "summaryFile": "./knowledge/wiki/role-charters-and-evidence-2026-09-19.md",
+      "originalUrl": "https://www.atlassian.com/blog/ai-at-work/how-content-technology-is-powering-atlassians-ai-quality",
+      "tags": ["岗位责任", "薪酬", "AI治理"],
+      "related": ["knowledge/wiki/workflow-measurement-boundaries-2026-09-18.md", "knowledge/concepts/ai-workforce-risk.md"],
+      "backlinks": ["daily/2026-09-19.md", "daily-report/2026-09-19.md"]
+    },
+    {
       "id": "workflow-measurement-boundaries-2026-09-18",
       "title": "工作流与测量分母：避免把AI进展误译成人员决策",
       "author": "OD 情报中心",
