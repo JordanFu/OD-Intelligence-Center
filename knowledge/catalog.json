@@ -139,6 +139,87 @@
   ],
   "reports": [
     {
+      "id": "capability-and-authority-2026-09-20",
+      "title": "责任、能力与授权边界：试点前的三项检查",
+      "summaryFile": "./knowledge/wiki/capability-and-authority-2026-09-20.md",
+      "description": "比较专家合作、业务平台接口与数据用途边界，不把岗位和公告当成实施后效。",
+      "author": "OD 情报中心",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "人才发展"
+      ],
+      "date": "2026-09-20",
+      "uploadDate": "2026-09-20",
+      "tags": [
+        "信息库",
+        "工作设计",
+        "证据边界"
+      ],
+      "related": [
+        "./knowledge/wiki/role-charters-and-evidence-2026-09-19.md"
+      ],
+      "backlinks": [
+        "./daily/2026-09-20.md",
+        "./daily-report/2026-09-20.md"
+      ]
+    },
+    {
+      "id": "info-weekly-2026-W38-quick",
+      "title": "W38 信息库周报｜快速导读",
+      "summaryFile": "./daily/weekly-2026-W38.md",
+      "description": "覆盖9月14日至20日晨间已入库材料：流程、岗位、薪酬与纠错权；保留证据限制及下周验证问题。",
+      "author": "OD 情报中心",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "人才发展"
+      ],
+      "date": "2026-09-20",
+      "uploadDate": "2026-09-20",
+      "tags": [
+        "信息库",
+        "工作设计",
+        "证据边界"
+      ],
+      "related": [
+        "./knowledge/wiki/role-charters-and-evidence-2026-09-19.md"
+      ],
+      "backlinks": [
+        "./daily/2026-09-20.md",
+        "./daily-report/2026-09-20.md"
+      ]
+    },
+    {
+      "id": "info-weekly-2026-W38-detailed",
+      "title": "W38 信息库周报｜详细资料",
+      "summaryFile": "./daily-report/weekly-2026-W38.md",
+      "description": "覆盖9月14日至20日晨间已入库材料：流程、岗位、薪酬与纠错权；保留证据限制及下周验证问题。",
+      "author": "OD 情报中心",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "人才发展"
+      ],
+      "date": "2026-09-20",
+      "uploadDate": "2026-09-20",
+      "tags": [
+        "信息库",
+        "工作设计",
+        "证据边界"
+      ],
+      "related": [
+        "./knowledge/wiki/role-charters-and-evidence-2026-09-19.md"
+      ],
+      "backlinks": [
+        "./daily/2026-09-20.md",
+        "./daily-report/2026-09-20.md"
+      ]
+    },
+    {
       "id": "role-charters-and-evidence-2026-09-19",
       "title": "岗位责任与证据：知识治理、薪酬比较和外部监督",
       "author": "OD 情报中心",
