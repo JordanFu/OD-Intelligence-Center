@@ -42,6 +42,8 @@ AI 时代的高人才密度不只是“更强个体”，而是能把问题定�
 |---|---|
 | [Obsidian 本地知识库](./knowledge/wiki/obsidian-vault-full-source-map-2026-05-22.md) | 本地 Vault 当前识别 70 篇 Markdown；2026-06-30 已新增公开安全 source map（覆盖 69 篇，排除 1 篇内部敏感来源），并抽取字节跳动 AI 时代领导力原则、AI 五环协同人才体… |
 | [大厂 HR：AI 时代招聘标准与人才画像变化](./knowledge/wiki/bigtech-hr-ai-era-hiring-talent-2026.md) | 基于用户提供微信文章链接，并通过腾讯新闻与 36氪转载交叉核验正文；沉淀 AI 时代大厂招聘标准从工具熟练度转向项目证据、业务闭环、多 Agent 编排和 AI 应用落地的市场观察。 |
+| [W38 信息库周报｜快速导读](./daily/weekly-2026-W38.md) | 覆盖9月14日至20日晨间已入库材料：流程、岗位、薪酬与纠错权；保留证据限制及下周验证问题。 |
+| [W38 信息库周报｜详细资料](./daily-report/weekly-2026-W38.md) | 覆盖9月14日至20日晨间已入库材料：流程、岗位、薪酬与纠错权；保留证据限制及下周验证问题。 |
 | [岗位责任与证据：知识治理、薪酬比较和外部监督](./knowledge/wiki/role-charters-and-evidence-2026-09-19.md) | 比较岗位责任、薪酬结构控制与外部评估权利，区分公开安排、统计观察与待试验建议。 |
 | [工作流与测量分母：避免把AI进展误译成人员决策](./knowledge/wiki/workflow-measurement-boundaries-2026-09-18.md) | 比较流程改善、任务自动化与薪酬差距的证据边界，提供不增加员工汇报负担的试点检查。方法披露与效果、招聘意图与正式制度分开。 |
 | [岗位价格与责任设计：先分问题，再选机制](./knowledge/wiki/role-price-and-control-2026-09-15.md) | 比较市场补差、复合岗位支持与人机授权，明确证据边界和可试用的工作前检查；不把建议当成企业已验证制度。 |
@@ -50,8 +52,6 @@ AI 时代的高人才密度不只是“更强个体”，而是能把问题定�
 | [大厂 HR：AI 时代招聘标准与人才画像变化](./knowledge/wiki/bigtech-hr-ai-era-hiring-talent-2026.md) | 基于用户提供微信文章链接，并通过腾讯新闻与 36氪转载交叉核验正文；沉淀 AI 时代大厂招聘标准从工具熟练度转向项目证据、业务闭环、多 Agent 编排和 AI 应用落地的市场观察。 |
 | [微信公众号「AI组织进化论」候选来源池](./knowledge/wiki/wechat-ai-org-evolution-intake.md) | 记录用户提供的 AI组织进化论 微信原文链接，当前作为人才密度方向候选输入；原文自动访问触发微信环境验证，待读取正文后再判断进入线索层、Context 层或结论候选。 |
 | [知识库主题分类与去重治理建议](./knowledge/wiki/knowledge-taxonomy-dedup-review-2026-05-22.md) | 对当前知识库重复信息与分类体系的健康检查。结论是来源页不应删除，需新增主题导航层，将 Zapier、GitLab、AI能力盘点、AI-first operating model、技术组织、绩效薪酬等高重叠主题收敛到主题… |
-| [AI 时代五环协同人才体系](./knowledge/wiki/ai-five-ring-talent-system-huang-qifan-2026.md) | 将 AI 时代人才体系抽象为研发、工程化、产业化、组织化、治理五环协同，强调人才组合、任务共同体和协同机制。 |
-| [Cisco：AI 智能体如何重写网络安全岗位、技能与人才入口](./knowledge/wiki/cisco-ai-agents-cybersecurity-workforce-2026.md) | 将 G7 网络安全招聘数据、AI 技能薪酬信号、入口岗位断层、执行责任变宽和核心专家深化放入同一组织机制分析；明确 14.9% 是招聘市场横截面价差，不是企业普遍涨薪。 |
 
 ## 当前不可越界的结论
 

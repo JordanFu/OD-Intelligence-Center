@@ -40,6 +40,9 @@
 
 | 资料 | 对本专题的价值 |
 |---|---|
+| [责任、能力与授权边界：试点前的三项检查](./knowledge/wiki/capability-and-authority-2026-09-20.md) | 比较专家合作、业务平台接口与数据用途边界，不把岗位和公告当成实施后效。 |
+| [W38 信息库周报｜快速导读](./daily/weekly-2026-W38.md) | 覆盖9月14日至20日晨间已入库材料：流程、岗位、薪酬与纠错权；保留证据限制及下周验证问题。 |
+| [W38 信息库周报｜详细资料](./daily-report/weekly-2026-W38.md) | 覆盖9月14日至20日晨间已入库材料：流程、岗位、薪酬与纠错权；保留证据限制及下周验证问题。 |
 | [岗位责任与证据：知识治理、薪酬比较和外部监督](./knowledge/wiki/role-charters-and-evidence-2026-09-19.md) | 比较岗位责任、薪酬结构控制与外部评估权利，区分公开安排、统计观察与待试验建议。 |
 | [交接、决策与岗位维护：AI试点的三个组织检查](./knowledge/wiki/handoffs-decisions-role-maintenance-2026-09-16.md) | 把公司案例、研发研究和岗位方法转成可复用试点检查，明确证据边界与员工收益。 |
 | [岗位价格与责任设计：先分问题，再选机制](./knowledge/wiki/role-price-and-control-2026-09-15.md) | 比较市场补差、复合岗位支持与人机授权，明确证据边界和可试用的工作前检查；不把建议当成企业已验证制度。 |
@@ -49,9 +52,6 @@
 | [McKinsey：AI-first 时代端到端技术 workforce 设计](./knowledge/wiki/pdf-source-mckinsey-2026-ai-first-technology-workforce.md) | McKinsey Technology 文章，讨论 agentic AI 时代 CIO 如何重构技术组织的人才招聘、内部能力建设、Agent 训练和供应商策略。适合用于 AI-first 技术岗位族群和职级变化研究。 |
 | [AI 能力标准、考核与员工盘点研究](./knowledge/wiki/ai-capability-assessment-employee-inventory-research-2026-05-19.md) | 本地研究稿二次沉淀，区分人的 AI 能力框架、组织级 AI 治理标准、模型/系统评测基准，提出员工 AI 能力盘点应采用岗位分簇、双轨证据和周期复测。 |
 | [Zapier：AI Fluency Rubric V2](./knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md) | Zapier 2026 年升级版 AI Fluency Rubric：提高 Capable 门槛，强调 AI embedded in core work、repeatable systems、measurable im… |
-| [Zapier：AI-first 招聘与入职机制](./knowledge/wiki/zapier-ai-first-hiring-onboarding-2025.md) | Zapier 将 AI fluency 设为所有新员工最低门槛的初始实践：四级 AI fluency、四个招聘评估触点、AI-first onboarding、builder mindset，以及绩效预期同步更新。 |
-| [CFTE：AI Proficiency Framework](./knowledge/wiki/pdf-source-cfte-2026-04-ai-proficiency-framework.md) | CFTE 提出的专业劳动力 AI 熟练度参考框架：三层公开等级、六档内部发展模型、十个能力域，以及 knowledge/skills/behaviours 三类评估维度。适合用于 AI 能力盘点、岗位技能标签、人才发展… |
-| [技能为本的组织：职位、技能与薪酬架构的连接](./knowledge/concepts/skills-based-organization-obsidian.md) | 围绕技能而非职位角色管理人才：从技能分类法、技能评估与匹配，到招聘、发展、薪酬和劳动力规划。对“何时新增岗位/序列，何时只加技能标签”有直接参考价值。 |
 
 ## 当前不可越界的结论
 
