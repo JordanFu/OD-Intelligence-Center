@@ -58,6 +58,24 @@ function rel(filePath) {
   return path.relative(root, filePath).replace(/\\/g, '/');
 }
 
+function applyFormalRunWindow(status, date, runtime, qualityIssues) {
+  if (
+    date === runtime.date
+    && runtime.hour < FORMAL_RUN_HOUR_SHANGHAI
+    && status !== 'formal'
+    && status !== 'scheduled'
+  ) {
+    return {
+      status: 'scheduled',
+      qualityIssues: [
+        ...qualityIssues,
+        '未到今日 18:00 正式自动化运行时间；现有内容仅作状态记录',
+      ],
+    };
+  }
+  return { status, qualityIssues };
+}
+
 function classifyDate(date, runtime = shanghaiNow()) {
   const dir = path.join(specialRoot, date);
   const exists = fs.existsSync(dir) && fs.statSync(dir).isDirectory();
@@ -105,6 +123,14 @@ function classifyDate(date, runtime = shanghaiNow()) {
     qualityIssues.push('质量门禁明确失败');
   }
 
+  let normalizedIssues;
+  ({ status, qualityIssues: normalizedIssues } = applyFormalRunWindow(
+    status,
+    date,
+    runtime,
+    qualityIssues,
+  ));
+
   return {
     date,
     status,
@@ -126,7 +152,7 @@ function classifyDate(date, runtime = shanghaiNow()) {
       path: fs.existsSync(qualityPath) ? rel(qualityPath) : null,
       status: qualityFailed ? 'fail' : qualityPassed ? 'pass-or-warn' : qualityText ? 'warn-or-unknown' : 'not-found',
     },
-    qualityIssues,
+    qualityIssues: normalizedIssues,
   };
 }
 
@@ -204,4 +230,8 @@ function main() {
   console.log(`Topic project status generated: today ${summary.today} is ${summary.todayStatus}; latest formal ${summary.latestFormalDate || 'none'}.`);
 }
 
-main();
+if (require.main === module) main();
+
+module.exports = {
+  applyFormalRunWindow,
+};

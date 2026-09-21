@@ -7,7 +7,12 @@ const qualityDir = path.join(project, 'quality');
 const formatter = new Intl.DateTimeFormat('en-CA', {
   timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit',
 });
+const hourFormatter = new Intl.DateTimeFormat('en-GB', {
+  timeZone: 'Asia/Shanghai', hour: '2-digit', hourCycle: 'h23',
+});
 const today = process.env.REPORT_DATE || formatter.format(new Date());
+const currentHour = Number.parseInt(process.env.REPORT_HOUR || hourFormatter.format(new Date()), 10);
+const FORMAL_RUN_HOUR_SHANGHAI = 18;
 const requiredFiles = [
   '00-overview.md',
   '01-flat-organization.md',
@@ -45,11 +50,18 @@ function dailyDirs() {
 function isNonDecision(text) {
   return /^# .*研究状态记录/m.test(text) || /^>\s*研究状态记录\s*\/\s*非决策稿/m.test(text) || /待正式重跑\s*\/\s*非决策稿/.test(text);
 }
+function applyFormalRunWindow(status, date, runtimeDate, runtimeHour) {
+  if (date === runtimeDate && runtimeHour < FORMAL_RUN_HOUR_SHANGHAI && status !== 'decision-ready') {
+    return 'scheduled';
+  }
+  return status;
+}
 function auditDate(date) {
   const dir = path.join(project, date);
   const missing = requiredFiles.filter((file) => !fs.existsSync(path.join(dir, file)));
   const overview = read(path.join(dir, '00-overview.md'));
-  const status = missing.length ? 'missing-files' : isNonDecision(overview) ? 'non-decision' : 'decision-ready';
+  const rawStatus = missing.length ? 'missing-files' : isNonDecision(overview) ? 'non-decision' : 'decision-ready';
+  const status = applyFormalRunWindow(rawStatus, date, today, currentHour);
   const signalIssues = [];
   if (overview) {
     for (const [name, pattern] of requiredSignals) {
@@ -104,4 +116,8 @@ ${rows || '| - | - | - | - |'}
     process.exitCode = 1;
   }
 }
-main();
+if (require.main === module) main();
+
+module.exports = {
+  applyFormalRunWindow,
+};

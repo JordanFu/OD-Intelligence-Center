@@ -2,6 +2,7 @@ const assert = require('node:assert/strict');
 const { execFileSync } = require('node:child_process');
 const fs = require('node:fs');
 const path = require('node:path');
+const { applyFormalRunWindow } = require('./audit-ai-org-report-coverage');
 
 const root = path.resolve(__dirname, '..');
 const qualityDir = path.join(root, 'specials', 'ai-org-talent-mechanism', 'quality');
@@ -34,5 +35,15 @@ try {
 
 assert.match(output, /日期范围：2026-08-28 至 2026-08-28/);
 assert.match(output, /已发现日报日期：1 天/);
+assert.equal(
+  applyFormalRunWindow('non-decision', '2026-09-21', '2026-09-21', 9),
+  'scheduled',
+  '正式窗口前的当日 fallback 不得列为历史待重跑',
+);
+assert.equal(
+  applyFormalRunWindow('non-decision', '2026-09-21', '2026-09-21', 18),
+  'non-decision',
+  '正式窗口后仍只有 fallback 时必须列为 non-decision',
+);
 
 console.log('AI org coverage window count ok');

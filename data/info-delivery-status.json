@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-09-20T16:56:00.283Z",
+  "checkedAt": "2026-09-21T01:48:35.492Z",
   "module": "info-delivery",
   "date": "2026-09-21",
   "timezone": "Asia/Shanghai",
   "scheduledAt": "09:40",
   "deadline": "11:30",
-  "status": "scheduled",
+  "status": "running-window",
   "qualityStatus": "warn",
   "cardCount": 0,
   "gapRecordCount": 0,
@@ -17,7 +17,12 @@
     "当日导读正文缺失",
     "信息库 manifest 日期或卡片数与当日产物不符"
   ],
-  "remoteErrors": [],
+  "remoteErrors": [
+    "digest.md: 无法完成网络或 JSON 检查",
+    "daily/2026-09-21.md: 无法完成网络或 JSON 检查",
+    "daily-report/2026-09-21.md: 无法完成网络或 JSON 检查",
+    "data/info-feed-status.json: 无法完成网络或 JSON 检查"
+  ],
   "receiptMeaning": "只确认当日文件、审计状态及线上内容一致，不代表人工已认可内容价值。",
-  "runUrl": "https://github.com/JordanFu/OD-Intelligence-Center/actions/runs/35524232992"
+  "runUrl": null
 }
