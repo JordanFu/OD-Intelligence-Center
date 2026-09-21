@@ -40,6 +40,7 @@
 
 | 资料 | 对本专题的价值 |
 |---|---|
+| [人才定价与学习机会：比较口径先于AI标签](./knowledge/wiki/price-and-learning-evidence-2026-09-21.md) | 比较公开岗位薪带、研发招聘意向与新人学习机会，给出薪酬、招聘和培养的试验安排；区分字段观察、媒体引述与观点。 |
 | [责任、能力与授权边界：试点前的三项检查](./knowledge/wiki/capability-and-authority-2026-09-20.md) | 比较专家合作、业务平台接口与数据用途边界，不把岗位和公告当成实施后效。 |
 | [W38 信息库周报｜快速导读](./daily/weekly-2026-W38.md) | 覆盖9月14日至20日晨间已入库材料：流程、岗位、薪酬与纠错权；保留证据限制及下周验证问题。 |
 | [W38 信息库周报｜详细资料](./daily-report/weekly-2026-W38.md) | 覆盖9月14日至20日晨间已入库材料：流程、岗位、薪酬与纠错权；保留证据限制及下周验证问题。 |
@@ -51,7 +52,6 @@
 | [人机协作演进框架：Author、Editor、Director、Orchestrator](./knowledge/wiki/human-agent-collaboration-evolution.md) | 把人机协作拆成四种模式，强调人类签核单元从单行代码扩大到 backlog，适合用于岗位重塑、AI fluency 和绩效归属研究。 |
 | [McKinsey：AI-first 时代端到端技术 workforce 设计](./knowledge/wiki/pdf-source-mckinsey-2026-ai-first-technology-workforce.md) | McKinsey Technology 文章，讨论 agentic AI 时代 CIO 如何重构技术组织的人才招聘、内部能力建设、Agent 训练和供应商策略。适合用于 AI-first 技术岗位族群和职级变化研究。 |
 | [AI 能力标准、考核与员工盘点研究](./knowledge/wiki/ai-capability-assessment-employee-inventory-research-2026-05-19.md) | 本地研究稿二次沉淀，区分人的 AI 能力框架、组织级 AI 治理标准、模型/系统评测基准，提出员工 AI 能力盘点应采用岗位分簇、双轨证据和周期复测。 |
-| [Zapier：AI Fluency Rubric V2](./knowledge/wiki/zapier-ai-fluency-rubric-v2-2026.md) | Zapier 2026 年升级版 AI Fluency Rubric：提高 Capable 门槛，强调 AI embedded in core work、repeatable systems、measurable im… |
 
 ## 当前不可越界的结论
 

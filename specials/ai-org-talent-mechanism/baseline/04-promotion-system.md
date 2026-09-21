@@ -40,6 +40,8 @@
 
 | 资料 | 对本专题的价值 |
 |---|---|
+| [本地知识库定期 Review（2026-09-21）](./knowledge/wiki/local-knowledge-review-2026-09-21.md) | 本周知识库巡检报告，覆盖 80 个公开 PDF 来源、近期 7 张机制比较页、PDF 模板与来源类型债务、历史专题补跑、分享入口和 AI 组织研究优先级。 |
+| [人才定价与学习机会：比较口径先于AI标签](./knowledge/wiki/price-and-learning-evidence-2026-09-21.md) | 比较公开岗位薪带、研发招聘意向与新人学习机会，给出薪酬、招聘和培养的试验安排；区分字段观察、媒体引述与观点。 |
 | [岗位责任与证据：知识治理、薪酬比较和外部监督](./knowledge/wiki/role-charters-and-evidence-2026-09-19.md) | 比较岗位责任、薪酬结构控制与外部评估权利，区分公开安排、统计观察与待试验建议。 |
 | [知识库主题分类与去重治理建议](./knowledge/wiki/knowledge-taxonomy-dedup-review-2026-05-22.md) | 对当前知识库重复信息与分类体系的健康检查。结论是来源页不应删除，需新增主题导航层，将 Zapier、GitLab、AI能力盘点、AI-first operating model、技术组织、绩效薪酬等高重叠主题收敛到主题… |
 | [绩效管理标杆实践：四种机制流派](./knowledge/wiki/performance-management-benchmark-patterns.md) | 公开安全版绩效机制抽象，不包含内部采集细节；将绩效管理拆成相对排名、自主发展、快照记录、分层差异四类机制流派。 |
@@ -50,8 +52,6 @@
 | [知识库定期 Review 基线报告](./knowledge/wiki/local-knowledge-review-2026-05-22.md) | 定时任务启动前的本地知识库人工预检报告，记录 catalog、raw/wiki 引用、索引、分享能力和 Downloads 新资料处理结果，并固化后续每周 review 口径。 |
 | [本地知识库定期 Review（2026-06-29）](./knowledge/wiki/local-knowledge-review-2026-06-29.md) | 本地知识库定期巡检报告，记录 PDF 自动入库、私有路径脱敏修复、专题覆盖审计、PDF 待重试项和下一步治理建议。 |
 | [本地知识库定期 Review（2026-07-06）](./knowledge/wiki/local-knowledge-review-2026-07-06.md) | 本周知识库巡检报告，覆盖 PDF 自动入库结果、最近 7 个信息日质量、专题连续性、PDF 卡片精读缺口和 AI 组织研究下一步优先级。 |
-| [本地知识库定期 Review（2026-08-03）](./knowledge/wiki/local-knowledge-review-2026-08-03.md) | 本周知识库巡检报告，覆盖仓库恢复、48 个 PDF 来源自动入库、模板卡与重复映射债务、专题连续性、公开分享入口和 AI 组织研究优先级。 |
-| [本地知识库定期 Review（2026-08-10）](./knowledge/wiki/local-knowledge-review-2026-08-10.md) | 本周知识库巡检报告，覆盖 61 个公开 PDF 来源自动入库、模板卡与重复映射债务、信息流与专题连续性、公开分享入口和 AI 组织研究优先级。 |
 
 ## 当前不可越界的结论
 
