@@ -1,39 +1,34 @@
 {
-  "generatedAt": "2026-09-21T01:57:09.626Z",
+  "generatedAt": "2026-09-21T02:16:01.189Z",
   "module": "automation",
   "qualityStatus": "warn",
   "chains": {
     "infoFeed": {
       "qualityStatus": "warn",
-      "latestDate": "2026-09-20",
-      "latestCardCount": 8,
+      "latestDate": "2026-09-21",
+      "latestCardCount": 4,
       "newFactCount": 1
     },
     "infoDelivery": {
-      "checkedAt": "2026-09-21T01:48:35.492Z",
+      "checkedAt": "2026-09-21T02:15:56.872Z",
       "module": "info-delivery",
       "date": "2026-09-21",
       "timezone": "Asia/Shanghai",
       "scheduledAt": "09:40",
       "deadline": "11:30",
-      "status": "running-window",
+      "status": "publish-pending",
       "qualityStatus": "warn",
-      "cardCount": 0,
-      "gapRecordCount": 0,
-      "localReady": false,
+      "cardCount": 4,
+      "gapRecordCount": 1,
+      "localReady": true,
       "publicVerified": false,
       "issues": [
-        "digest 未出现当日信息卡",
-        "当日 daily 或 daily-report 缺失日期/文件",
-        "当日导读正文缺失",
-        "信息库 manifest 日期或卡片数与当日产物不符"
+        "线上 digest 当日内容不一致或不存在",
+        "线上 daily/2026-09-21.md 不一致或不存在",
+        "线上 daily-report/2026-09-21.md 不一致或不存在",
+        "线上 manifest 未匹配当日内容"
       ],
-      "remoteErrors": [
-        "digest.md: 无法完成网络或 JSON 检查",
-        "daily/2026-09-21.md: 无法完成网络或 JSON 检查",
-        "daily-report/2026-09-21.md: 无法完成网络或 JSON 检查",
-        "data/info-feed-status.json: 无法完成网络或 JSON 检查"
-      ],
+      "remoteErrors": [],
       "receiptMeaning": "只确认当日文件、审计状态及线上内容一致，不代表人工已认可内容价值。",
       "runUrl": null
     },
@@ -72,13 +67,13 @@
     "knowledgeLint": {
       "qualityStatus": "pass",
       "latestCatalogDate": "2026-09-21",
-      "reportCount": 172,
+      "reportCount": 173,
       "privatePathLeakCount": 0
     },
     "linkCheck": {
       "qualityStatus": "warn",
       "brokenCount": 0,
-      "checkedAt": "2026-09-21T01:57:09.567Z"
+      "checkedAt": "2026-09-21T02:15:56.809Z"
     },
     "githubActionsFallback": {
       "status": "pass",
@@ -107,7 +102,7 @@
     }
   },
   "warnings": [
-    "信息库交付待核验：running-window",
+    "信息库交付待核验：publish-pending",
     "信息库质量为 warn",
     "专题研究状态为 warn",
     "专题待正式重跑 24 天"

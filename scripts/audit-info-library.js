@@ -372,7 +372,12 @@ function qualityIssues(latestDay, latestDigestText, existingStatus = null) {
     criticalIssues.push(`最新日期来源平台少于 ${MIN_LATEST_PLATFORMS} 个：当前 ${latest.sourcePlatformCount} 个；需要恢复多渠道代理采集。`);
   }
   if (latest.sourceUrlCount < MIN_LATEST_LINKS) {
-    criticalIssues.push(`最新日期可追溯链接少于 ${MIN_LATEST_LINKS} 个：当前 ${latest.sourceUrlCount} 个；信息库不能只保留观点摘要。`);
+    const sourcedLowVolumeDay = latest.hasValidGapRecord
+      && latest.nonGapCardCount > 0
+      && latest.nonGapCardCount < MIN_LATEST_ITEMS
+      && latest.items.filter((item) => item.normalizedInfoType !== '缺口记录').every((item) => item.sourceUrl);
+    const issues = sourcedLowVolumeDay ? warnings : criticalIssues;
+    issues.push(`最新日期可追溯链接少于 ${MIN_LATEST_LINKS} 个：当前 ${latest.sourceUrlCount} 个；${sourcedLowVolumeDay ? '有效材料均有来源且已有缺口说明，不为凑数补链接。' : '信息库不能只保留观点摘要。'}`);
   }
   if (latest.sourceUrlMissingItemIds.length > 0) {
     warnings.push(`最新日期有 ${latest.sourceUrlMissingItemIds.length} 条 sourceUrl 缺失：${latest.sourceUrlMissingItemIds.join(', ')}。`);

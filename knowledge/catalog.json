@@ -170,6 +170,34 @@
       ]
     },
     {
+      "id": "price-learning-evidence-2026-09-21",
+      "title": "人才定价与学习机会：比较口径先于AI标签",
+      "author": "OD Intelligence Center",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "人才发展"
+      ],
+      "date": "2026-09-21",
+      "uploadDate": "2026-09-21",
+      "description": "比较公开岗位薪带、研发招聘意向与新人学习机会，给出薪酬、招聘和培养的试验安排；区分字段观察、媒体引述与观点。",
+      "summaryFile": "./knowledge/wiki/price-and-learning-evidence-2026-09-21.md",
+      "tags": [
+        "薪酬比较",
+        "复合人才",
+        "新人培养"
+      ],
+      "related": [
+        "./knowledge/wiki/role-charters-and-evidence-2026-09-19.md",
+        "./knowledge/concepts/ai-workforce-risk.md"
+      ],
+      "backlinks": [
+        "./daily/2026-09-21.md",
+        "./daily-report/2026-09-21.md"
+      ]
+    },
+    {
       "id": "capability-and-authority-2026-09-20",
       "title": "责任、能力与授权边界：试点前的三项检查",
       "summaryFile": "./knowledge/wiki/capability-and-authority-2026-09-20.md",

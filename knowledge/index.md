@@ -7,6 +7,9 @@
 
 ## 来源摘要（Wiki）
 
+- [人才定价与学习机会](wiki/price-and-learning-evidence-2026-09-21.md)：用同口径岗位比较、项目贡献证据和有反馈的实践，避免AI标签替代人才判断。
+
+
 - [本地知识库定期 Review（2026-09-21）](wiki/local-knowledge-review-2026-09-21.md)：本周健康度 82/100；近期机制页已结构化，主要债务为 PDF 精读、来源类型、生命周期和历史专题补跑。
 - [W38快速导读](../daily/weekly-2026-W38.md) · [W38详细资料](../daily-report/weekly-2026-W38.md)：截至9月20日晨间，按工作价值聚合本周材料，不代替四专题周报。
 - [责任、能力与授权边界](wiki/capability-and-authority-2026-09-20.md)：把专家合作、业务支持与数据用途转成试点前检查。
