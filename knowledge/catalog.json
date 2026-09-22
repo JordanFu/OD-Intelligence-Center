@@ -144,14 +144,27 @@
       "author": "OD Intelligence Center",
       "publisher": "OD Intelligence Center",
       "sourceType": "industry",
-      "topics": ["AI组织设计", "人才发展"],
+      "topics": [
+        "AI组织设计",
+        "人才发展"
+      ],
       "date": "2026-09-22",
       "uploadDate": "2026-09-22",
       "description": "连接IBM调查、支付宝组织调整和BCG行业研究，区分技能、权限及新增劳动，不把合并、培训或使用量当成效果。",
       "summaryFile": "./knowledge/wiki/capability-authority-hidden-work-2026-09-22.md",
-      "tags": ["员工负担", "能力建设", "授权"],
-      "related": ["./knowledge/wiki/employee-value-and-correction-2026-09-17.md", "./knowledge/wiki/capability-and-authority-2026-09-20.md"],
-      "backlinks": ["./daily/2026-09-22.md", "./daily-report/2026-09-22.md"]
+      "tags": [
+        "员工负担",
+        "能力建设",
+        "授权"
+      ],
+      "related": [
+        "./knowledge/wiki/employee-value-and-correction-2026-09-17.md",
+        "./knowledge/wiki/capability-and-authority-2026-09-20.md"
+      ],
+      "backlinks": [
+        "./daily/2026-09-22.md",
+        "./daily-report/2026-09-22.md"
+      ]
     },
     {
       "id": "local-knowledge-review-2026-09-21",
