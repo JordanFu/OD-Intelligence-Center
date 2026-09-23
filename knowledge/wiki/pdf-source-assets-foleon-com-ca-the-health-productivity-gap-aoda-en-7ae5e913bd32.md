@@ -1,34 +1,67 @@
 ---
-title: 德勤：健康与生产率缺口（加拿大）
-source: Deloitte Canada
-date: 2026-09-22
+title: ca the health productivity gap aoda en.7ae5e913bd32
+source: assets.foleon.com
+date: 待核验
 ingested: 2026-09-23
 sourceFile: ../raw/assets-foleon-com-ca-the-health-productivity-gap-aoda-en-7ae5e913bd32.pdf
 sourceUrl: https://assets.foleon.com/eu-central-1/de-uploads-7e3kk3/105394/ca-the-health-productivity-gap-aoda-en.7ae5e913bd32.pdf
-tags: [员工体验, 照护支持, 生产率]
-related: [work-design-and-assurance-2026-09-23.md]
-backlinks: [../../daily-report/2026-09-23.md]
-status: 已下载，已读相关方法页；底层数据及全部注释未复核
+tags: [AI组织设计]
+status: 已下载原始PDF，已生成结构化初筛卡片
 ---
 
-# 德勤：健康与生产率缺口（加拿大）
+# ca the health productivity gap aoda en.7ae5e913bd32
 
-## 核心判断与证据边界
+## 一句话判断
 
-健康和照护是工作参与条件，不应把这些限制都归为员工技能不足。报告采用疾病成本框架，分别处理照护、患病与死亡损失；死亡部分只考虑替补培训所需期间。减少25%负担是情景计算，不是试点结果。证据为L2模型观察，不外推为企业已实现收益。
+ca the health productivity gap aoda en.7ae5e913bd32 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
 
-## 阅读记录
+## 入库状态
 
-- 研究支线读取PDF第3—5页的方法、口径与结果，第8页支持安排；未完整核验第10—13页注释及底层数据。
-- 首页仍有日期占位，2026年9月22日发布日期依据[德勤官方发布](https://www.deloitte.com/ca/en/about/press-room/the-health-productivity-gap.html)。
-- 自动扫描确认原文下载；文件保存不代表阅读完成。
+- **来源机构**：assets.foleon.com
+- **来源类型**：media
+- **原文 URL**：https://assets.foleon.com/eu-central-1/de-uploads-7e3kk3/105394/ca-the-health-productivity-gap-aoda-en.7ae5e913bd32.pdf
+- **原始文件**：`knowledge/raw/assets-foleon-com-ca-the-health-productivity-gap-aoda-en-7ae5e913bd32.pdf`
+- **入库日期**：2026-09-23
+- **证据层级**：线索层优先；未完成精读前不进入结论层。
 
-## 工作借鉴
+## 核心内容
 
-HR可先检查照护支持的申请负担、排班可预测性及代班安排。用自愿体验反馈判断支持是否可用，避免收集不必要病史或把宏观产出损失分摊成个人绩效指标。
+- 当前已完成来源、引用位置和原文状态建档，避免证据散落在日报正文。
+- 尚未完成报告级摘要、关键数据口径和可复用框架抽取。
+- 需要判断它支撑的是组织设计、岗位族群、职级序列、薪酬激励，还是仅作为行业背景。
 
-## 关联与待验证
+## 你需要关注
 
-- [工作条件、服务交接与评价权限](work-design-and-assurance-2026-09-23.md)
-- [9月23日应用导读](../../daily-report/2026-09-23.md)
-- 后续核验模型敏感性、不同损失口径及实际企业干预证据；目前不能推算本企业投资回报。
+- 先确认发布日期、样本口径、行业范围和是否为一手材料。
+- 区分可形成结论的事实、只能作为 Context 的专家观点，以及仍需追踪的单点线索。
+- 如果报告只提供宏观背景，不应强行写入岗位/薪酬改革结论。
+
+## 与近期研究主题的相关性
+
+| 研究主题 | 相关性 | 可怎么用 |
+|---|---|---|
+| AI 组织改革 | 待验证 | 需精读后判断是否有流程、权责、岗位或治理内容。 |
+| 岗位/职级/族群 | 待验证 | 需确认是否包含岗位结构、职业通道或管理层级变化。 |
+| 薪酬/激励 | 待验证 | 需确认是否包含薪酬带宽、技能溢价、项目激励或稀缺人才定价。 |
+
+## 对日报/周报的使用方式
+
+- 先放入知识库线索层，后续按主题补充到日报/周报证据地图。
+- 精读后再决定是否拆成概念页、企业案例页或机制模板。
+
+## 被引用位置
+
+- `daily-report/2026-09-23.md:15`：德勤报告PDF原始地址
+
+## 后续精读任务
+
+- 核验报告发布日期、作者/机构、样本范围和数据口径。
+- 抽取可支撑“执行层分工合并 vs 核心专家深化”的直接证据。
+- 抽取可支撑“岗位改革背后是激励资源再配置”的薪酬、技能溢价或预算配置证据。
+- 判断是否需要拆成独立概念页、企业案例页或机制模板。
+
+## 与已有知识的关联
+
+- [[AI-First 运营模型]]
+- [[技能为本的组织]]
+- [[能力-判断评估矩阵]]
