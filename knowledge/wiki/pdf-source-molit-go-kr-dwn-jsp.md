@@ -1,27 +1,27 @@
 ---
-title: HiBob 2026 report AI maturity benchmarks and where the workforce stand
-source: hibob.com
+title: DWN.jsp
+source: molit.go.kr
 date: 待核验
-ingested: 2026-08-31
+ingested: 2026-09-23
 sourceFile:
-sourceUrl: https://www.hibob.com/wp-content/uploads/HiBob_2026-report_AI-maturity-benchmarks-and-where-the-workforce-stand.pdf
-tags: [AI组织设计, 人才发展]
+sourceUrl: https://www.molit.go.kr/LCMS/DWN.jsp?fold=koreaNews/mobile/file&fileName=260630%28%EC%B0%B8%EA%B3%A0%29+%EC%BD%94%EB%A0%88%EC%9D%BC+5%EA%B0%9C+%EC%9E%90%ED%9A%8C%EC%82%AC%2C+3%EA%B0%9C%EC%82%AC%EB%A1%9C+%ED%86%B5%ED%95%A9%28%EC%B2%A0%EB%8F%84%EC%9A%B4%EC%98%81%EA%B3%BC%29.pdf
+tags: [AI组织设计]
 status: 已索引来源，PDF下载待重试
 ---
 
-# HiBob 2026 report AI maturity benchmarks and where the workforce stand
+# DWN.jsp
 
 ## 一句话判断
 
-HiBob 2026 report AI maturity benchmarks and where the workforce stand 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
+DWN.jsp 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
 
 ## 入库状态
 
-- **来源机构**：hibob.com
+- **来源机构**：molit.go.kr
 - **来源类型**：media
-- **原文 URL**：https://www.hibob.com/wp-content/uploads/HiBob_2026-report_AI-maturity-benchmarks-and-where-the-workforce-stand.pdf
+- **原文 URL**：https://www.molit.go.kr/LCMS/DWN.jsp?fold=koreaNews/mobile/file&fileName=260630%28%EC%B0%B8%EA%B3%A0%29+%EC%BD%94%EB%A0%88%EC%9D%BC+5%EA%B0%9C+%EC%9E%90%ED%9A%8C%EC%82%AC%2C+3%EA%B0%9C%EC%82%AC%EB%A1%9C+%ED%86%B5%ED%95%A9%28%EC%B2%A0%EB%8F%84%EC%9A%B4%EC%98%81%EA%B3%BC%29.pdf
 - **原始文件**：下载失败或待重试，先保留 URL 与引用上下文
-- **入库日期**：2026-08-31
+- **入库日期**：2026-09-23
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
@@ -51,11 +51,7 @@ HiBob 2026 report AI maturity benchmarks and where the workforce stand 已作为
 
 ## 被引用位置
 
-- `specials/ai-org-talent-mechanism/2026-07-30/00-overview.md:85`：HiBob 2026 AI Skills 报告
-- `specials/ai-org-talent-mechanism/2026-07-30/00-overview.md:204`：HiBob AI Skills Report 2026
-- `specials/ai-org-talent-mechanism/2026-07-30/04-promotion-system.md:53`：HiBob 原始报告 PDF
-- `specials/ai-org-talent-mechanism/2026-07-30/04-promotion-system.md:224`：AI Maturity Benchmarks and Where the Workforce Stands
-- `specials/ai-org-talent-mechanism/2026-09-23/02-talent-density.md:223`：HiBob｜报告 PDF
+- `specials/ai-org-talent-mechanism/2026-09-23/01-flat-organization.md:219`：韩国国土交通部｜Korail 五家子公司整合为三家公司方案 PDF
 
 ## 后续精读任务
 

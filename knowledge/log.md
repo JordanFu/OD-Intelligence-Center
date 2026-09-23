@@ -106,7 +106,7 @@
 
 ## [2026-09-23] ingest | 日报 PDF 证据源自动入库
 - 从 daily、daily-report、specials、analysis 中扫描 PDF URL，按知识库 Raw/Wiki/Catalog 规则自动建档。
-- 本次识别 75 个唯一 PDF 来源：63 个已下载原始 PDF，12 个保留 URL 与引用上下文待重试。
+- 本次识别 77 个唯一 PDF 来源：63 个已下载原始 PDF，14 个保留 URL 与引用上下文待重试。
 - 已下载：itb dia 6351 email 0（引用 4 次）
 - 已下载：itb lat dir ai 6454 web 0（引用 17 次）
 - 已下载：GoogleATLASv1（引用 7 次）
@@ -161,18 +161,20 @@
 - 已下载：cwa18398 2026（引用 5 次）
 - 已下载：draft cwa xxxx e（引用 2 次）
 - 已下载：us spans and layers for the modern organization 2020（引用 3 次）
-- 已下载：EY：Future of Pay Report 2026（引用 177 次）
+- 已下载：EY：Future of Pay Report 2026（引用 172 次）
 - 已下载：pip faq 2026（引用 6 次）
 - 已下载：2026081700406（引用 1 次）
 - 已下载：12 087 bc50bde2 3016 457a 9bee dc988cb1056b（引用 8 次）
 - 已下载：26 090 96f92aa0 37d9 4789 beaa 5c0cb87a4032（引用 5 次）
-- 待重试：HiBob 2026 report AI maturity benchmarks and where the workforce stand（引用 4 次）
+- 待重试：HiBob 2026 report AI maturity benchmarks and where the workforce stand（引用 5 次）
 - 已下载：2026090400829 c（引用 3 次）
 - 已下载：cesifo1 wp12373（引用 3 次）
 - 已下载：ILO Brief ASEAN AI v11 clean（引用 2 次）
 - 已下载：0000050863 26 000011（引用 2 次）
 - 已下载：2Q26 earnings transcript（引用 9 次）
 - 待重试：McKinsey：The State of Organizations 2026（引用 1 次）
+- 待重试：DWN.jsp（引用 1 次）
+- 待重试：DWN.jsp（引用 1 次）
 - 已下载：OECD：Competition in the Age of AI（引用 2 次）
 - 已下载：c0ffced7 en（引用 4 次）
 - 已下载：orgvue ai research ebook 2026 final（引用 1 次）

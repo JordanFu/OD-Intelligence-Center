@@ -4826,6 +4826,54 @@
         "assets.foleon.com"
       ],
       "originalUrl": "https://assets.foleon.com/eu-central-1/de-uploads-7e3kk3/105394/ca-the-health-productivity-gap-aoda-en.7ae5e913bd32.pdf"
+    },
+    {
+      "id": "p090",
+      "title": "DWN.jsp",
+      "originalTitle": "DWN.jsp",
+      "author": "molit.go.kr",
+      "publisher": "molit.go.kr",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-09-23",
+      "description": "DWN.jsp 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-molit-go-kr-dwn-jsp.md",
+      "rawFile": "",
+      "fileName": "molit-go-kr-dwn-jsp.pdf",
+      "fileSize": "download pending",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "molit.go.kr"
+      ],
+      "originalUrl": "https://www.molit.go.kr/LCMS/DWN.jsp?fold=koreaNews/mobile/file&fileName=260630%28%EC%B0%B8%EA%B3%A0%29+%EC%BD%94%EB%A0%88%EC%9D%BC+5%EA%B0%9C%EC%9E%90%ED%9A%8C%EC%82%AC%2C+3%EA%B0%9C%EC%82%AC%EB%A1%9C+%ED%86%B5%ED%95%A9%28%EC%B2%A0%EB%8F%84%EC%9A%B4%EC%98%81%EA%B3%BC%29.pdf"
+    },
+    {
+      "id": "p091",
+      "title": "DWN.jsp",
+      "originalTitle": "DWN.jsp",
+      "author": "molit.go.kr",
+      "publisher": "molit.go.kr",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-09-23",
+      "description": "DWN.jsp 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-molit-go-kr-dwn-jsp.md",
+      "rawFile": "",
+      "fileName": "molit-go-kr-dwn-jsp.pdf",
+      "fileSize": "download pending",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "molit.go.kr"
+      ],
+      "originalUrl": "https://www.molit.go.kr/LCMS/DWN.jsp?fold=koreaNews/mobile/file&fileName=260630%28%EC%B0%B8%EA%B3%A0%29+%EC%BD%94%EB%A0%88%EC%9D%BC+5%EA%B0%9C+%EC%9E%90%ED%9A%8C%EC%82%AC%2C+3%EA%B0%9C%EC%82%AC%EB%A1%9C+%ED%86%B5%ED%95%A9%28%EC%B2%A0%EB%8F%84%EC%9A%B4%EC%98%81%EA%B3%BC%29.pdf"
     }
   ]
 }
