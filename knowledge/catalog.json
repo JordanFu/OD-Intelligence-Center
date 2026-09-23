@@ -139,6 +139,34 @@
   ],
   "reports": [
     {
+      "id": "work-design-and-assurance-2026-09-23",
+      "title": "工作条件、服务交接与评价权限",
+      "author": "OD Intelligence Center",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "人才发展"
+      ],
+      "date": "2026-09-23",
+      "uploadDate": "2026-09-23",
+      "description": "连接健康研究、服务整合和外部评价，检验员工负担是否真正减少，不把公开设计当成成效。",
+      "summaryFile": "./knowledge/wiki/work-design-and-assurance-2026-09-23.md",
+      "tags": [
+        "员工体验",
+        "共享服务",
+        "评估边界"
+      ],
+      "related": [
+        "./knowledge/wiki/capability-authority-hidden-work-2026-09-22.md",
+        "./knowledge/wiki/employee-value-and-correction-2026-09-17.md"
+      ],
+      "backlinks": [
+        "./daily/2026-09-23.md",
+        "./daily-report/2026-09-23.md"
+      ]
+    },
+    {
       "id": "capability-authority-hidden-work-2026-09-22",
       "title": "能力、授权与隐形劳动：组织改造前的三项区分",
       "author": "OD Intelligence Center",
@@ -4768,6 +4796,32 @@
         "BCG"
       ],
       "originalUrl": "https://web-assets.bcg.com/63/bd/63f67c5e44c19abd49fbc5916cfe/everyone-gets-the-same-models-the-edge-is-your-workforce.pdf"
+    },
+    {
+      "id": "p089",
+      "title": "德勤：健康与生产率缺口（加拿大）",
+      "originalTitle": "The health-productivity gap: Canada's untapped growth lever",
+      "author": "Deloitte Canada",
+      "publisher": "Deloitte Canada",
+      "sourceType": "consulting",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-09-23",
+      "description": "健康与照护如何限制工作参与。已读相关方法页，25%改善为情景计算；未独立复核底层数据，不推算企业投资回报。",
+      "related": ["./knowledge/wiki/work-design-and-assurance-2026-09-23.md"],
+      "backlinks": ["./daily-report/2026-09-23.md"],
+      "summaryFile": "./knowledge/wiki/pdf-source-assets-foleon-com-ca-the-health-productivity-gap-aoda-en-7ae5e913bd32.md",
+      "rawFile": "./knowledge/raw/assets-foleon-com-ca-the-health-productivity-gap-aoda-en-7ae5e913bd32.pdf",
+      "fileName": "assets-foleon-com-ca-the-health-productivity-gap-aoda-en-7ae5e913bd32.pdf",
+      "fileSize": "8470190 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "assets.foleon.com"
+      ],
+      "originalUrl": "https://assets.foleon.com/eu-central-1/de-uploads-7e3kk3/105394/ca-the-health-productivity-gap-aoda-en.7ae5e913bd32.pdf"
     }
   ]
 }
