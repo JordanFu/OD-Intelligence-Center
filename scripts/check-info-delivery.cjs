@@ -2,7 +2,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 
 const root = path.resolve(__dirname, '..');
-const publicBase = 'https://jordanfu.github.io/OD-Intelligence-Center/';
+const publicBase = 'https://jordanfu.github.io/talotd/';
 
 function clock(now) {
   const local = new Date(now.getTime() + 8 * 3600000).toISOString();
@@ -113,7 +113,7 @@ async function main() {
   }
   const result = assessDelivery({ now, files, info, remoteFiles, remoteInfo, remoteErrors });
   result.runUrl = process.env.GITHUB_ACTIONS === 'true' && /^\d+$/.test(process.env.GITHUB_RUN_ID || '')
-    ? `https://github.com/JordanFu/OD-Intelligence-Center/actions/runs/${process.env.GITHUB_RUN_ID}` : null;
+    ? `https://github.com/JordanFu/talotd/actions/runs/${process.env.GITHUB_RUN_ID}` : null;
   fs.mkdirSync(path.join(root, 'data'), { recursive: true });
   fs.writeFileSync(path.join(root, 'data/info-delivery-status.json'), JSON.stringify(result, null, 2) + '\n');
   const summary = `# 信息库交付检查\n\n- 检查日期：${date}（北京时间）\n- 截止时间：11:30\n- 状态：${result.status} / ${result.qualityStatus}\n- 线上内容一致：${result.publicVerified ? '是' : '未确认'}\n- 卡片数：${result.cardCount}（缺口 ${result.gapRecordCount}）\n\n${[...result.issues, ...remoteErrors].map(issue => `- ${issue}`).join('\n') || '- 当日产物已核对；内容价值仍需主编负责。'}\n`;

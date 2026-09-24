@@ -23,12 +23,12 @@ assert.doesNotMatch(hrHtml, /专题项目|专题日报|专题周报|专题 manif
 assert.doesNotMatch(hrHtml, /系统健康|fallback|待正式重跑|内部路径检查/, 'HR 静态入口不得暴露内部运维文案');
 assert.match(hrHtml, /src="assets\/hr-entry\.js"/, 'HR 首页必须按项目根目录加载共享入口');
 
-const publicHrUrl = new URL('https://jordanfu.github.io/OD-Intelligence-Center/hr/');
+const publicHrUrl = new URL('https://jordanfu.github.io/talotd/hr/');
 const publicBaseUrl = new URL('../', publicHrUrl);
 const publicEntryUrl = new URL('assets/hr-entry.js', publicBaseUrl);
 assert.equal(
   publicEntryUrl.href,
-  'https://jordanfu.github.io/OD-Intelligence-Center/assets/hr-entry.js',
+  'https://jordanfu.github.io/talotd/assets/hr-entry.js',
   'HR 入口资源必须保留 GitHub Pages 项目子路径'
 );
 

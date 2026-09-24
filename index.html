@@ -3001,7 +3001,7 @@
       setTimeout(() => t.classList.remove('show'), 2000);
     }
     function getKBShareUrl(reportId) {
-      return new URL(`./knowledge-viewer.html?id=${encodeURIComponent(reportId)}`, window.location.href).href;
+      return new URL(`./knowledge-viewer.html?id=${encodeURIComponent(reportId)}`, document.baseURI).href;
     }
     async function copyText(text, successMessage) {
       try {

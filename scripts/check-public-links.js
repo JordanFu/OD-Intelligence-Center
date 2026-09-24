@@ -15,7 +15,7 @@ const FIRST_PARTY_HOSTS = new Set([
   'jordanfu.github.io',
 ]);
 
-const REPO_PUBLIC_PREFIX = '/OD-Intelligence-Center/';
+const REPO_PUBLIC_PREFIX = '/talotd/';
 const PUBLIC_SCAN_PREFIX = 'https://jordanfu.github.io/org-intelligence-info/';
 
 function readJson(filePath) {

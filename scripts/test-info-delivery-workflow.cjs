@@ -20,7 +20,7 @@ async function run(receipt, existing = []) {
       update: async value => calls.push({ action: 'update', ...value }),
     } },
   };
-  await notify(() => ({ readFileSync: () => JSON.stringify(receipt) }), github, { repo: { owner: 'JordanFu', repo: 'OD-Intelligence-Center' }, runId: 123 }, FixedDate);
+  await notify(() => ({ readFileSync: () => JSON.stringify(receipt) }), github, { repo: { owner: 'JordanFu', repo: 'talotd' }, runId: 123 }, FixedDate);
   return calls;
 }
 

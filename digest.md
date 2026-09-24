@@ -2066,7 +2066,7 @@
 - **阅读层级**：持续观察
 - **阅读价值**：本轮公众号与咨询新报告覆盖仍不足：保留未完成检索，不把数量不足解释成市场没有新消息。
 - **事件摘要**：五类公开渠道均已检索。官方任命、并购、维护归属与招聘共四个新增事实根；两条旧线、两条弱信号不计新增。精确公众号名检索主要返回同名旧报告与转载，未取得「AI组织进化论」本窗口原文；咨询检索命中旧调查，未发现可核验的新薪酬实付或运行后效。
-- **来源**：[今日扫描范围与排除记录](https://jordanfu.github.io/OD-Intelligence-Center/daily-report/2026-09-10.md)
+- **来源**：[今日扫描范围与排除记录](https://jordanfu.github.io/talotd/daily-report/2026-09-10.md)
 - **来源平台**：OD 情报中心检索记录
 - **来源可信度**：💬参考
 - **信息类型**：缺口记录
@@ -2597,7 +2597,7 @@
 
 ### [F0906-G1] 学术、中国正式制度、严格 JD／薪酬与完整晋升制度存在公开证据缺口
 - **事件摘要**：七渠道扫描没有入窗的同行评审论文、中国大厂组织／岗位族／职级／薪酬新规、可严格锚定的代表性 JD 或完整晋升制度；这是本轮公开证据缺口，不代表企业没有变化。
-- **来源**：[研究审计](https://github.com/JordanFu/OD-Intelligence-Center/blob/main/specials/ai-org-talent-mechanism/2026-09-06/research-audit.md)
+- **来源**：[研究审计](https://github.com/JordanFu/talotd/blob/main/specials/ai-org-talent-mechanism/2026-09-06/research-audit.md)
 - **来源平台**：多渠道检索审计
 - **来源可信度**：💬参考
 - **信息类型**：缺口记录

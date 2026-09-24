@@ -529,7 +529,7 @@
     function showToast(msg){ const t=document.getElementById('toast'); t.textContent=msg; t.classList.add('show'); setTimeout(()=>t.classList.remove('show'),2000); }
     // 分享链接
     function copyLink() {
-      const url = 'https://JordanFu.github.io/OD-Intelligence-Center/report-viewer.html';
+      const url = 'https://JordanFu.github.io/talotd/report-viewer.html';
       navigator.clipboard.writeText(url).then(() => {
         showToast('✅ 链接已复制到剪贴板');
       }).catch(() => {
@@ -539,7 +539,7 @@
     }
     // 微信分享（复制链接）
     function shareWechat() {
-      const url = 'https://JordanFu.github.io/OD-Intelligence-Center/report-viewer.html';
+      const url = 'https://JordanFu.github.io/talotd/report-viewer.html';
       navigator.clipboard.writeText(url).then(() => {
         showToast('✅ 链接已复制，粘贴到微信发送');
       }).catch(() => {
@@ -549,7 +549,7 @@
     }
     // 微博分享
     function shareWeibo() {
-      const url = encodeURIComponent('https://JordanFu.github.io/OD-Intelligence-Center/report-viewer.html');
+      const url = encodeURIComponent('https://JordanFu.github.io/talotd/report-viewer.html');
       const title = encodeURIComponent('【OD研究】标杆研究：AI如何重塑组织设计');
       window.open('https://service.weibo.com/share/share.php?url=' + url + '&title=' + title, '_blank');
       closeShare();
@@ -567,7 +567,7 @@
       shareOpen = false;
       document.getElementById('shareMenu').classList.remove('show');
     }
-    function getShareUrl(){ return window.location.protocol==='file:' ? 'https://JordanFu.github.io/OD-Intelligence-Center/report-viewer.html' : window.location.href; }
+    function getShareUrl(){ return window.location.protocol==='file:' ? 'https://JordanFu.github.io/talotd/report-viewer.html' : window.location.href; }
     function copyLink(){ doCopy(getShareUrl(), '链接已复制'); shareOpen=false; document.getElementById('shareMenu').classList.remove('show'); }
     function shareWechat(){ doCopy(getShareUrl(), '链接已复制（截图分享到微信）'); shareOpen=false; document.getElementById('shareMenu').classList.remove('show'); }
     function shareWeibo(){ const url=encodeURIComponent(getShareUrl()); const title=encodeURIComponent('【OD研究】标杆研究：AI如何重塑组织设计'); window.open('https://service.weibo.com/share/share.php?url='+url+'&title='+title,'_blank'); shareOpen=false; document.getElementById('shareMenu').classList.remove('show'); }

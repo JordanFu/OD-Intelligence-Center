@@ -38,9 +38,9 @@
 3. **标杆研究主报告更新**——融入Stanford HAI新数据和专家校准反馈
 
 ### 🔗 本周深度阅读
-1. [OD情报中心 · 标杆研究主报告](https://JordanFu.github.io/OD-Intelligence-Center/report-viewer.html) — 110+信息源，AI如何重塑组织设计完整框架
+1. [OD情报中心 · 标杆研究主报告](https://JordanFu.github.io/talotd/report-viewer.html) — 110+信息源，AI如何重塑组织设计完整框架
 2. [Stanford HAI · 2026 AI Index报告](https://hai.stanford.edu/research) — W16发布，全球AI发展状态全景基线数据（待深度解读）
-3. [Javis · benchmark-research方法论](https://github.com/JordanFu/OD-Intelligence-Center) — 6阶段标杆研究流程，命题定义→对标选择→信息收集→洞察初稿→专家校准→反事实检验
+3. [Javis · benchmark-research方法论](https://github.com/JordanFu/talotd) — 6阶段标杆研究流程，命题定义→对标选择→信息收集→洞察初稿→专家校准→反事实检验
 
 ---
 *由 Javis 自动生成 · 2026-04-10*

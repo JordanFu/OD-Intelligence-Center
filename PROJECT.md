@@ -179,7 +179,7 @@ ai-org-research/
 
 | 平台 | 链接 |
 |------|------|
-| **GitHub Pages** | https://jordanfu.github.io/OD-Intelligence-Center/ |
+| **GitHub Pages** | https://jordanfu.github.io/talotd/ |
 | **Vercel** | （自动化部署）|
 
 ---
