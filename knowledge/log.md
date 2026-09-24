@@ -112,7 +112,7 @@
 
 ## [2026-09-24] ingest | 日报 PDF 证据源自动入库
 - 从 daily、daily-report、specials、analysis 中扫描 PDF URL，按知识库 Raw/Wiki/Catalog 规则自动建档。
-- 本次识别 77 个唯一 PDF 来源：63 个已下载原始 PDF，14 个保留 URL 与引用上下文待重试。
+- 本次识别 79 个唯一 PDF 来源：64 个已下载原始 PDF，15 个保留 URL 与引用上下文待重试。
 - 已下载：itb dia 6351 email 0（引用 4 次）
 - 已下载：itb lat dir ai 6454 web 0（引用 17 次）
 - 已下载：GoogleATLASv1（引用 7 次）
@@ -166,8 +166,9 @@
 - 已下载：quarterly update presentation 1q 2026（引用 14 次）
 - 已下载：cwa18398 2026（引用 5 次）
 - 已下载：draft cwa xxxx e（引用 2 次）
+- 待重试：the impact of agentic ai on network operations（引用 4 次）
 - 已下载：us spans and layers for the modern organization 2020（引用 3 次）
-- 已下载：EY：Future of Pay Report 2026（引用 177 次）
+- 已下载：EY：Future of Pay Report 2026（引用 172 次）
 - 已下载：pip faq 2026（引用 6 次）
 - 已下载：2026081700406（引用 1 次）
 - 已下载：12 087 bc50bde2 3016 457a 9bee dc988cb1056b（引用 8 次）
@@ -185,6 +186,7 @@
 - 已下载：c0ffced7 en（引用 4 次）
 - 已下载：orgvue ai research ebook 2026 final（引用 1 次）
 - 已下载：Payscale：2026 Compensation Best Practices Report（引用 20 次）
+- 已下载：For Every Future Report Pearson 1（引用 3 次）
 - 已下载：2026 global ai jobs barometer full report（引用 1 次）
 - 已下载：2026 global ai jobs barometer global findings（引用 2 次）
 - 已下载：20260828（引用 9 次）

@@ -4902,6 +4902,56 @@
         "molit.go.kr"
       ],
       "originalUrl": "https://www.molit.go.kr/LCMS/DWN.jsp?fold=koreaNews/mobile/file&fileName=260630%28%EC%B0%B8%EA%B3%A0%29+%EC%BD%94%EB%A0%88%EC%9D%BC+5%EA%B0%9C+%EC%9E%90%ED%9A%8C%EC%82%AC%2C+3%EA%B0%9C%EC%82%AC%EB%A1%9C+%ED%86%B5%ED%95%A9%28%EC%B2%A0%EB%8F%84%EC%9A%B4%EC%98%81%EA%B3%BC%29.pdf"
+    },
+    {
+      "id": "p092",
+      "title": "the impact of agentic ai on network operations",
+      "originalTitle": "the impact of agentic ai on network operations",
+      "author": "cisco.com",
+      "publisher": "cisco.com",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计",
+        "变革管理"
+      ],
+      "date": "",
+      "uploadDate": "2026-09-24",
+      "description": "the impact of agentic ai on network operations 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计、变革管理。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-cisco-com-the-impact-of-agentic-ai-on-network-operations.md",
+      "rawFile": "",
+      "fileName": "cisco-com-the-impact-of-agentic-ai-on-network-operations.pdf",
+      "fileSize": "download pending",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "变革管理",
+        "cisco.com"
+      ],
+      "originalUrl": "https://www.cisco.com/c/dam/en/us/solutions/artificial-intelligence/the-impact-of-agentic-ai-on-network-operations.pdf"
+    },
+    {
+      "id": "p093",
+      "title": "For Every Future Report Pearson 1",
+      "originalTitle": "For Every Future Report Pearson 1",
+      "author": "pearson.com",
+      "publisher": "pearson.com",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-09-24",
+      "description": "For Every Future Report Pearson 1 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-pearson-com-for-every-future-report-pearson-1.md",
+      "rawFile": "./knowledge/raw/pearson-com-for-every-future-report-pearson-1.pdf",
+      "fileName": "pearson-com-for-every-future-report-pearson-1.pdf",
+      "fileSize": "3350432 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "pearson.com"
+      ],
+      "originalUrl": "https://www.pearson.com/content/dam/global-store/global/early-careers/For-Every-Future-Report-Pearson-1.pdf"
     }
   ]
 }
