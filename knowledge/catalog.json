@@ -139,6 +139,34 @@
   ],
   "reports": [
     {
+      "id": "change-and-workload-2026-09-24",
+      "title": "组织变化与剩余工作",
+      "author": "OD Intelligence Center",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "人才发展"
+      ],
+      "date": "2026-09-24",
+      "uploadDate": "2026-09-24",
+      "description": "连接培训、组织整合、专家审核与知识传承，检验谁承接剩余工作；公开设计不等于成效。",
+      "summaryFile": "./knowledge/wiki/change-and-workload-2026-09-24.md",
+      "tags": [
+        "工作负担",
+        "组织整合",
+        "人才发展"
+      ],
+      "related": [
+        "./knowledge/wiki/work-design-and-assurance-2026-09-23.md",
+        "./knowledge/wiki/capability-authority-hidden-work-2026-09-22.md"
+      ],
+      "backlinks": [
+        "./daily/2026-09-24.md",
+        "./daily-report/2026-09-24.md"
+      ]
+    },
+    {
       "id": "work-design-and-assurance-2026-09-23",
       "title": "工作条件、服务交接与评价权限",
       "author": "OD Intelligence Center",
