@@ -1,27 +1,27 @@
 ---
-title: gov.uscourts.cand.474095.38.0
-source: storage.courtlistener.com
+title: USCOURTS cand 4 22 md 03047 133
+source: govinfo.gov
 date: 待核验
-ingested: 2026-08-31
-sourceFile: ../raw/storage-courtlistener-com-gov-uscourts-cand-474095-38-0.pdf
-sourceUrl: https://storage.courtlistener.com/recap/gov.uscourts.cand.474095/gov.uscourts.cand.474095.38.0.pdf
+ingested: 2026-09-25
+sourceFile: ../raw/govinfo-gov-uscourts-cand-4-22-md-03047-133.pdf
+sourceUrl: https://www.govinfo.gov/content/pkg/USCOURTS-cand-4_22-md-03047/pdf/USCOURTS-cand-4_22-md-03047-133.pdf
 tags: [AI组织设计]
 status: 已下载原始PDF，已生成结构化初筛卡片
 ---
 
-# gov.uscourts.cand.474095.38.0
+# USCOURTS cand 4 22 md 03047 133
 
 ## 一句话判断
 
-gov.uscourts.cand.474095.38.0 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
+USCOURTS cand 4 22 md 03047 133 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。
 
 ## 入库状态
 
-- **来源机构**：storage.courtlistener.com
+- **来源机构**：govinfo.gov
 - **来源类型**：media
-- **原文 URL**：https://storage.courtlistener.com/recap/gov.uscourts.cand.474095/gov.uscourts.cand.474095.38.0.pdf
-- **原始文件**：`knowledge/raw/storage-courtlistener-com-gov-uscourts-cand-474095-38-0.pdf`
-- **入库日期**：2026-08-31
+- **原文 URL**：https://www.govinfo.gov/content/pkg/USCOURTS-cand-4_22-md-03047/pdf/USCOURTS-cand-4_22-md-03047-133.pdf
+- **原始文件**：`knowledge/raw/govinfo-gov-uscourts-cand-4-22-md-03047-133.pdf`
+- **入库日期**：2026-09-25
 - **证据层级**：线索层优先；未完成精读前不进入结论层。
 
 ## 核心内容
@@ -51,8 +51,7 @@ gov.uscourts.cand.474095.38.0 已作为日报/周报 PDF 证据源入库，当�
 
 ## 被引用位置
 
-- `daily/2026-08-06.md:63`：Apple 动议 PDF
-- `外部公开 PDF 扫描:55`：公开安全引用：Apple 初步禁令动议
+- `外部公开 PDF 扫描:154`：公开安全引用：Meta 特权边界：The Verge `https://www.theverge.com/tech/1000370/meta-instagram-attorney-client-privilege-hats`；早期司法文件 ``。
 
 ## 后续精读任务
 

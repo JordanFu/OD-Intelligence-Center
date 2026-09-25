@@ -139,6 +139,32 @@
   ],
   "reports": [
     {
+      "id": "work-redesign-evidence-2026-09-25",
+      "title": "工作重设计的责任、时间与决定权",
+      "author": "OD Intelligence Center",
+      "publisher": "OD Intelligence Center",
+      "sourceType": "industry",
+      "topics": [
+        "AI组织设计",
+        "人才发展"
+      ],
+      "date": "2026-09-25",
+      "uploadDate": "2026-09-25",
+      "description": "连接流程责任、团队授权与学习机会，保留使用考核的反向检验；建议不等于成效。",
+      "summaryFile": "./knowledge/wiki/work-redesign-evidence-2026-09-25.md",
+      "tags": [
+        "工作设计",
+        "员工价值"
+      ],
+      "related": [
+        "./knowledge/wiki/change-and-workload-2026-09-24.md"
+      ],
+      "backlinks": [
+        "./daily/2026-09-25.md",
+        "./daily-report/2026-09-25.md"
+      ]
+    },
+    {
       "id": "change-and-workload-2026-09-24",
       "title": "组织变化与剩余工作",
       "author": "OD Intelligence Center",
@@ -4952,6 +4978,30 @@
         "pearson.com"
       ],
       "originalUrl": "https://www.pearson.com/content/dam/global-store/global/early-careers/For-Every-Future-Report-Pearson-1.pdf"
+    },
+    {
+      "id": "p094",
+      "title": "USCOURTS cand 4 22 md 03047 133",
+      "originalTitle": "USCOURTS cand 4 22 md 03047 133",
+      "author": "govinfo.gov",
+      "publisher": "govinfo.gov",
+      "sourceType": "media",
+      "topics": [
+        "AI组织设计"
+      ],
+      "date": "",
+      "uploadDate": "2026-09-25",
+      "description": "USCOURTS cand 4 22 md 03047 133 已作为日报/周报 PDF 证据源入库，当前需要完成结构化精读后再进入结论层。 关注重点：AI组织设计。相关性：待评估：需精读后确定。",
+      "summaryFile": "./knowledge/wiki/pdf-source-govinfo-gov-uscourts-cand-4-22-md-03047-133.md",
+      "rawFile": "./knowledge/raw/govinfo-gov-uscourts-cand-4-22-md-03047-133.pdf",
+      "fileName": "govinfo-gov-uscourts-cand-4-22-md-03047-133.pdf",
+      "fileSize": "514679 bytes",
+      "tags": [
+        "PDF自动入库",
+        "AI组织设计",
+        "govinfo.gov"
+      ],
+      "originalUrl": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-4_22-md-03047/pdf/USCOURTS-cand-4_22-md-03047-133.pdf"
     }
   ]
 }
