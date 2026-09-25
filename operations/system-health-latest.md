@@ -1,6 +1,6 @@
 # 系统健康状态
 
-> 自动生成：2026-09-25T01:53:41.773Z
+> 自动生成：2026-09-25T01:55:03.089Z
 
 ## 一眼判断
 
@@ -42,8 +42,8 @@
 
 ## 自动化状态
 
-- 信息库当日交付：publish-pending
-- 信息库线上内容一致：未确认
+- 信息库当日交付：published
+- 信息库线上内容一致：已核对
 - 信息库交付截止：北京时间 11:30；告警不等于内容补跑完成。
 - 本地正式任务：scheduled
 - GitHub Actions 角色：fallback-only
@@ -71,7 +71,6 @@
 - ⚠️ 最新日期有 1 条 sourceUrl 缺失：G0925-01。
 - ⚠️ external link not hard-checked in Phase 1
 - ⚠️ knowledge/catalog.json 的 reports 存在 4 组重复 summaryFile。
-- ⚠️ 信息库交付待核验：publish-pending
 - ⚠️ 信息库质量为 warn
 - ⚠️ 专题研究状态为 warn
 - ⚠️ 专题待正式重跑 24 天
