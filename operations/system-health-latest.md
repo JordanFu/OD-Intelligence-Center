@@ -1,6 +1,6 @@
 # 系统健康状态
 
-> 自动生成：2026-09-25T01:55:03.089Z
+> 自动生成：2026-09-25T06:20:50.800Z
 
 ## 一眼判断
 
@@ -70,7 +70,9 @@
 - ✅ 无 P0 fail。
 - ⚠️ 最新日期有 1 条 sourceUrl 缺失：G0925-01。
 - ⚠️ external link not hard-checked in Phase 1
+- ⚠️ external link not hard-checked in Phase 1
 - ⚠️ knowledge/catalog.json 的 reports 存在 4 组重复 summaryFile。
+- ⚠️ external link not hard-checked in Phase 1
 - ⚠️ 信息库质量为 warn
 - ⚠️ 专题研究状态为 warn
 - ⚠️ 专题待正式重跑 24 天
