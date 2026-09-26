@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-26T14:35:01.357Z",
+  "generatedAt": "2026-09-26T17:23:21.908Z",
   "module": "automation",
-  "qualityStatus": "fail",
+  "qualityStatus": "warn",
   "chains": {
     "infoFeed": {
       "qualityStatus": "fail",
@@ -10,14 +10,14 @@
       "newFactCount": 7
     },
     "infoDelivery": {
-      "checkedAt": "2026-09-26T14:35:00.481Z",
+      "checkedAt": "2026-09-26T17:23:21.405Z",
       "module": "info-delivery",
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "timezone": "Asia/Shanghai",
       "scheduledAt": "09:40",
       "deadline": "11:30",
-      "status": "overdue",
-      "qualityStatus": "fail",
+      "status": "scheduled",
+      "qualityStatus": "warn",
       "cardCount": 0,
       "gapRecordCount": 0,
       "localReady": false,
@@ -30,12 +30,12 @@
       ],
       "remoteErrors": [],
       "receiptMeaning": "只确认当日文件、审计状态及线上内容一致，不代表人工已认可内容价值。",
-      "runUrl": "https://github.com/JordanFu/talotd/actions/runs/36248921718"
+      "runUrl": "https://github.com/JordanFu/talotd/actions/runs/36258657269"
     },
     "topicProjects": {
       "qualityStatus": "warn",
-      "today": "2026-09-26",
-      "todayStatus": "formal",
+      "today": "2026-09-27",
+      "todayStatus": "scheduled",
       "latestFormalDate": "2026-09-26",
       "pendingRerunDates": [
         "2026-09-16",
@@ -66,14 +66,14 @@
     },
     "knowledgeLint": {
       "qualityStatus": "pass",
-      "latestCatalogDate": "2026-09-26",
+      "latestCatalogDate": "2026-09-27",
       "reportCount": 183,
       "privatePathLeakCount": 0
     },
     "linkCheck": {
       "qualityStatus": "warn",
       "brokenCount": 0,
-      "checkedAt": "2026-09-26T14:35:00.428Z"
+      "checkedAt": "2026-09-26T17:23:21.346Z"
     },
     "githubActionsFallback": {
       "status": "pass",
@@ -97,17 +97,15 @@
       "criticalIssues": []
     },
     "localFormalTask": {
-      "status": "confirmed-formal",
+      "status": "scheduled",
       "evidence": "仅根据 topic-projects manifest 判断；无法从云端伪造本地正式运行完成。"
     }
   },
   "warnings": [
-    "信息库质量为 warn",
+    "信息库交付待核验：scheduled",
     "专题研究状态为 warn",
     "专题待正式重跑 24 天"
   ],
-  "criticalIssues": [
-    "信息库当日交付未完成：overdue"
-  ],
+  "criticalIssues": [],
   "operatingRule": "GitHub Actions 只能兜底、审计和记录状态；正式研究完成只能由 formal 条件确认。"
 }

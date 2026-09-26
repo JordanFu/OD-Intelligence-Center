@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-26T14:34:04.592Z",
+  "generatedAt": "2026-09-26T17:22:13.939Z",
   "module": "info-feed",
-  "qualityStatus": "warn",
+  "qualityStatus": "fail",
   "latestDate": "2026-09-25",
   "latestCardCount": 9,
   "newFactCount": 7,
@@ -426,8 +426,8 @@
   "homepageBridge": {
     "digestLatestDate": "2026-09-25",
     "latestScanDate": "2026-09-25",
-    "freshnessStatus": "pass",
-    "ageDays": 1,
+    "freshnessStatus": "fail",
+    "ageDays": 2,
     "maxAgeDays": 1,
     "latestScanUrl": "https://jordanfu.github.io/org-intelligence-info/daily-log/2026-09-25.html",
     "publicMirrorUrl": "https://jordanfu.github.io/org-intelligence-info/",
@@ -484,12 +484,14 @@
     "最新日期有 1 条 sourceUrl 缺失：G0925-01。",
     "external link not hard-checked in Phase 1"
   ],
-  "criticalIssues": [],
+  "criticalIssues": [
+    "组织情报公开镜像已滞后 2 天（最新 2026-09-25），超过 1 天保鲜门槛。"
+  ],
   "brokenLinks": [],
   "links": {
-    "checkedAt": "2026-09-26T14:35:00.428Z",
+    "checkedAt": "2026-09-26T17:23:21.346Z",
     "qualityStatus": "warn",
-    "firstPartyChecked": 4045,
+    "firstPartyChecked": 4071,
     "externalWarnings": 34,
     "brokenCount": 0,
     "publicScanBridge": [
